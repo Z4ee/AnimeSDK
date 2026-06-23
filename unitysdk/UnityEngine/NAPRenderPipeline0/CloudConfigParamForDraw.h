@@ -7,7 +7,7 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CloudConfigParamForDraw_TypeDefinitionIndex = 5930;
+	inline static constexpr unsigned int CloudConfigParamForDraw_TypeDefinitionIndex = 5940;
 
 	struct alignas(8) CloudConfigParamForDraw
 	{

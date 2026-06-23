@@ -8,27 +8,27 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x1367B310)
-#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET UNITYSDK_OFFSET(0x1367B320)
-#define CLASS_1_FCD23D791C67FD42___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1367B2C0)
-#define CLASS_1_FCD23D791C67FD42___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1367B300)
+#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x114F0A90)
+#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET UNITYSDK_OFFSET(0x114F0AA0)
+#define CLASS_1_FCD23D791C67FD42___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x114F0A40)
+#define CLASS_1_FCD23D791C67FD42___C__CTOR_OFFSET UNITYSDK_OFFSET(0x114F0A80)
 
-inline static constexpr unsigned int Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex = 67869;
+inline static constexpr unsigned int Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex = 81584;
 
 class Class_1_FCD23D791C67FD42___c : public ::System::Object
 {
 public:
-	static ::Class_1_FCD23D791C67FD42___c** StaticGet___9()
-	{
-		return (::Class_1_FCD23D791C67FD42___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37060);
-	}
 	static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__130_0()
 	{
-		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37068);
+		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3B770);
+	}
+	static ::Class_1_FCD23D791C67FD42___c** StaticGet___9()
+	{
+		return (::Class_1_FCD23D791C67FD42___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3B778);
 	}
 	static ::System::Action_1<::System::Boolean>** StaticGet___9__109_0()
 	{
-		return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37070);
+		return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3B780);
 	}
 
 	static ::System::Void _cctor()

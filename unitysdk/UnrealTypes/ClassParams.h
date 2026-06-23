@@ -5,21 +5,23 @@
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnrealTypes { class Class; }
+namespace UnrealTypes { class PropertyParamsBase; }
 
-#define UNREALTYPES_CLASSPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99450)
+#define UNREALTYPES_CLASSPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AC780)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ClassParams_TypeDefinitionIndex = 25263;
+	inline static constexpr unsigned int ClassParams_TypeDefinitionIndex = 27753;
 
 	class ClassParams : public ::System::Object
 	{
 	public:
-		::System::Type* Type; // 0x10
+		::UnrealTypes::Class* Super; // 0x10
 		::System::String* Namespace; // 0x18
-		::UnrealTypes::Class* Super; // 0x20
+		::Il2CppArray<::UnrealTypes::PropertyParamsBase*>* PropertyArray; // 0x20
 		::System::String* Name; // 0x28
-		::System::UInt32 TypeId; // 0x30
+		::System::Type* Type; // 0x30
+		::System::UInt32 TypeId; // 0x38
 
 		::System::Void _ctor()
 		{

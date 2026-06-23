@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define NPCCROWD_ANIMATION_GPUICROWDTRANSITION_SETDATA_OFFSET UNITYSDK_OFFSET(0xCE61F50)
-#define NPCCROWD_ANIMATION_GPUICROWDTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xCE62060)
+#define NPCCROWD_ANIMATION_GPUICROWDTRANSITION_SETDATA_OFFSET UNITYSDK_OFFSET(0xD5CD400)
+#define NPCCROWD_ANIMATION_GPUICROWDTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CD510)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUICrowdTransition_TypeDefinitionIndex = 61150;
+	inline static constexpr unsigned int GPUICrowdTransition_TypeDefinitionIndex = 45276;
 
 	class GPUICrowdTransition : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector4 startWeights; // 0x10
-		::System::Int32 endActiveClipCount; // 0x20
-		::System::Int32 transitioningClipCount; // 0x24
-		::System::Int32 arrayIndex; // 0x28
-		::System::Int32 layerIdx; // 0x2C
-		::System::Single totalTime; // 0x30
-		::System::Single startTime; // 0x34
-		::UnityEngine::Vector4 endWeights; // 0x38
+		::System::Int32 layerIdx; // 0x10
+		::System::Single totalTime; // 0x14
+		::System::Single startTime; // 0x18
+		::UnityEngine::Vector4 startWeights; // 0x1C
+		::UnityEngine::Vector4 endWeights; // 0x2C
+		::System::Int32 endActiveClipCount; // 0x3C
+		::System::Int32 arrayIndex; // 0x40
+		::System::Int32 transitioningClipCount; // 0x44
 
 		::System::Void _ctor()
 		{

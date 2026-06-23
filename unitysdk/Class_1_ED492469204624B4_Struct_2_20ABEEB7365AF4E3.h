@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_4_6242AA13BDAC7241_Struct_2_64FE122F26515195.h"
-#include "unitysdk/Class_5_8A5B236F53009830_Enum_3_0B9D3712457587B6.h"
+#include "unitysdk/Class_5_8A5B236F53009830_Enum_3_F97681B4A0594B26.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/Enum_3_ABCAEFDF06E3479A.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_356;
+class Class_0_16E4307DCC419505_578;
 class Class_1_2899B0E942F4D2BC;
 class Class_1_ED492469204624B4;
 class Class_4_6242AA13BDAC7241;
-class Class_5_AF65C3A968E836D2;
+class Class_5_FCAF801AC482D3B5;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_ED492469204624B4_STRUCT_2_20ABEEB7365AF4E3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x763970)
-#define CLASS_1_ED492469204624B4_STRUCT_2_20ABEEB7365AF4E3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define CLASS_1_ED492469204624B4_STRUCT_2_20ABEEB7365AF4E3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7D2A30)
+#define CLASS_1_ED492469204624B4_STRUCT_2_20ABEEB7365AF4E3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
-inline static constexpr unsigned int Class_1_ED492469204624B4_Struct_2_20ABEEB7365AF4E3_TypeDefinitionIndex = 45987;
+inline static constexpr unsigned int Class_1_ED492469204624B4_Struct_2_20ABEEB7365AF4E3_TypeDefinitionIndex = 59796;
 
 struct alignas(8) Class_1_ED492469204624B4_Struct_2_20ABEEB7365AF4E3
 {
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x10
-	::Class_4_6242AA13BDAC7241* Field_2_8; // 0x20
-	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntity*>* Field_2_7; // 0x28
-	::Class_5_AF65C3A968E836D2* Field_2_3; // 0x30
-	::Class_1_2899B0E942F4D2BC* Field_2_6; // 0x38
+	::Class_0_16E4307DCC419505_578* Field_2_5; // 0x10
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x18
+	::Class_4_6242AA13BDAC7241* Field_2_8; // 0x28
+	::Class_1_2899B0E942F4D2BC* Field_2_6; // 0x30
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntity*>* Field_2_7; // 0x38
 	::Class_1_ED492469204624B4* Field_2_2; // 0x40
-	::Class_4_6242AA13BDAC7241_Struct_2_64FE122F26515195 Field_2_9; // 0x48
-	::Class_0_16E4307DCC419505_356* Field_2_5; // 0x78
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_12; // 0x80
-	::System::Int32 Field_2_0; // 0x90
-	::Class_5_8A5B236F53009830_Enum_3_0B9D3712457587B6 Field_2_10; // 0x94
-	::Class_5_8A5B236F53009830_Enum_3_0B9D3712457587B6 Field_2_11; // 0x98
-	::Enum_3_ABCAEFDF06E3479A Field_2_4; // 0x9C
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_11; // 0x48
+	::Class_5_FCAF801AC482D3B5* Field_2_3; // 0x58
+	::System::Collections::Generic::List_1<::Class_4_6242AA13BDAC7241_Struct_2_64FE122F26515195>* Field_2_9; // 0x60
+	::Enum_3_ABCAEFDF06E3479A Field_2_4; // 0x68
+	::Class_5_8A5B236F53009830_Enum_3_F97681B4A0594B26 Field_2_10; // 0x6C
+	::System::Int32 Field_2_0; // 0x70
 
 	::System::Void MoveNext()
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ColorGradingMode_TypeDefinitionIndex = 5891;
+	inline static constexpr unsigned int ColorGradingMode_TypeDefinitionIndex = 5899;
 
 	enum class ColorGradingMode : ::System::Int32
 	{

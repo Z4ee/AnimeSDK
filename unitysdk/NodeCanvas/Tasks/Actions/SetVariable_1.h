@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 27560;
+	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 30558;
 
 	template <typename T>
 	class SetVariable_1 : public ::NodeCanvas::Framework::ActionTask

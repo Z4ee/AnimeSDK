@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D68F00)
+#define MOLEMOLE_UISETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152B1460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingContext_TypeDefinitionIndex = 66939;
+	inline static constexpr unsigned int UISettingContext_TypeDefinitionIndex = 65469;
 
 	class UISettingContext : public ::MoleMole::UIControllerContextBase
 	{

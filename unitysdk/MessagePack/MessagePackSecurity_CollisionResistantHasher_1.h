@@ -6,7 +6,7 @@ namespace MessagePack { template <typename T> class MessagePackSecurity_Collisio
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantHasher_1_TypeDefinitionIndex = 26803;
+	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantHasher_1_TypeDefinitionIndex = 30410;
 
 	template <typename T>
 	class MessagePackSecurity_CollisionResistantHasher_1 : public ::System::Object

@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_8C433F49CE54708F;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1561D510)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1561D620)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONPREPAREHIDE_OFFSET UNITYSDK_OFFSET(0x1561D900)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1561D6C0)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_PLAYRANDOMANIMATION_OFFSET UNITYSDK_OFFSET(0x1561D580)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1561D9C0)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1561DA20)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONPREPAREHIDE_OFFSET UNITYSDK_OFFSET(0x1561DAC0)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1561DB50)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRoarinStoreCookieItemWidgetController_TypeDefinitionIndex = 77524;
+
+	class UIRoarinStoreCookieItemWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_8C433F49CE54708F* get__viewModel()
+		{
+			return ((::Class_2_8C433F49CE54708F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void PlayRandomAnimation()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_PLAYRANDOMANIMATION_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnPrepareHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_ONPREPAREHIDE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnPrepareHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONPREPAREHIDE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

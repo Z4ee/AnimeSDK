@@ -10,11 +10,11 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL_RESET_OFFSET UNITYSDK_OFFSET(0x10A24870)
-#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL_SETCURVE_OFFSET UNITYSDK_OFFSET(0x10A24E50)
-#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x10A24F10)
+#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL_RESET_OFFSET UNITYSDK_OFFSET(0x12CA7C40)
+#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL_SETCURVE_OFFSET UNITYSDK_OFFSET(0x12CA8220)
+#define MONOSPECIALDAMAGETEXTBAKEANIMATIONTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA82E0)
 
-inline static constexpr unsigned int MonoSpecialDamageTextBakeAnimationTool_TypeDefinitionIndex = 58668;
+inline static constexpr unsigned int MonoSpecialDamageTextBakeAnimationTool_TypeDefinitionIndex = 64127;
 
 class MonoSpecialDamageTextBakeAnimationTool : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {

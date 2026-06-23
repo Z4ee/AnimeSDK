@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShock3HIDInputReport__padding3_e__FixedBuffer_TypeDefinitionIndex = 29180;
+	inline static constexpr unsigned int DualShock3HIDInputReport__padding3_e__FixedBuffer_TypeDefinitionIndex = 31836;
 
 	struct alignas(1) DualShock3HIDInputReport__padding3_e__FixedBuffer
 	{

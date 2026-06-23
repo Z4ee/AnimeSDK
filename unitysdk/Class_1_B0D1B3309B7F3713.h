@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_1_B0D1B3309B7F3713;
+class Class_1_29356A79D0914A09;
+template <typename T> class Class_1_8914B0C55B12E9CE;
+template <typename T> class Class_1_D7E5C6FF7F1154F2;
 
-inline static constexpr unsigned int Class_1_B0D1B3309B7F3713_TypeDefinitionIndex = 25599;
+inline static constexpr unsigned int Class_1_B0D1B3309B7F3713_TypeDefinitionIndex = 43238;
 
 template <typename T>
 class Class_1_B0D1B3309B7F3713 : public ::System::Object
 {
 public:
-	T Field_1_0; // 0x0
-	::Class_1_B0D1B3309B7F3713<T>* Field_1_1; // 0x0
-	::Class_1_B0D1B3309B7F3713<T>* Field_1_2; // 0x0
+	::Class_1_8914B0C55B12E9CE<T>* Field_1_0; // 0x0
 };

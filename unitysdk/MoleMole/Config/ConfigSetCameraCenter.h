@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETCAMERACENTER_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12313230)
-#define MOLEMOLE_CONFIG_CONFIGSETCAMERACENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x123132F0)
+#define MOLEMOLE_CONFIG_CONFIGSETCAMERACENTER_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17D5DEA0)
+#define MOLEMOLE_CONFIG_CONFIGSETCAMERACENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D5DF60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetCameraCenter_TypeDefinitionIndex = 71749;
+	inline static constexpr unsigned int ConfigSetCameraCenter_TypeDefinitionIndex = 58437;
 
 	class ConfigSetCameraCenter : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

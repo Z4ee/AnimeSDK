@@ -5,29 +5,29 @@
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1676A770)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CLICKGETREWARD_B__2_1_OFFSET UNITYSDK_OFFSET(0x1676A7C0)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1676A7B0)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__REFRESHLEFTINFO_B__21_0_OFFSET UNITYSDK_OFFSET(0x1676A7D0)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1F5210)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CLICKGETREWARD_B__2_1_OFFSET UNITYSDK_OFFSET(0x1A1F5260)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F5250)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__REFRESHLEFTINFO_B__21_0_OFFSET UNITYSDK_OFFSET(0x1A1F5270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex = 57183;
+	inline static constexpr unsigned int UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex = 66370;
 
 	class UIActivityReturnGiftV3PopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__2_1()
+		static ::MoleMole::UIActivityReturnGiftV3PopWindowController___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32610);
+			return (::MoleMole::UIActivityReturnGiftV3PopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x344C0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__21_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32618);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x344C8);
 		}
-		static ::MoleMole::UIActivityReturnGiftV3PopWindowController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__2_1()
 		{
-			return (::MoleMole::UIActivityReturnGiftV3PopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32620);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftV3PopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x344D0);
 		}
 
 		static ::System::Void _cctor()

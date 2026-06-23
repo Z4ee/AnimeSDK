@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace BehaviorDesigner::Runtime::Tasks::Services
 {
-	inline static constexpr unsigned int SubTaskStatusInfo_TypeDefinitionIndex = 32299;
+	inline static constexpr unsigned int SubTaskStatusInfo_TypeDefinitionIndex = 33850;
 
 	struct alignas(8) SubTaskStatusInfo
 	{

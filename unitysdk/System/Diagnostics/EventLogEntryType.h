@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int EventLogEntryType_TypeDefinitionIndex = 4093;
+	inline static constexpr unsigned int EventLogEntryType_TypeDefinitionIndex = 4092;
 
 	enum class EventLogEntryType : ::System::Int32
 	{

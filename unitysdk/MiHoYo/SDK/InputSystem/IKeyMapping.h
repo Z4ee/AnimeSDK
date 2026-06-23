@@ -5,7 +5,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IKeyMapping_TypeDefinitionIndex = 18398;
+	inline static constexpr unsigned int IKeyMapping_TypeDefinitionIndex = 19281;
 
 	class IKeyMapping
 	{

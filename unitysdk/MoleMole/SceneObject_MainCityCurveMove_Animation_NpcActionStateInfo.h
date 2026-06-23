@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_NpcActionStateInfo_TypeDefinitionIndex = 47660;
+	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_NpcActionStateInfo_TypeDefinitionIndex = 49316;
 
 	struct alignas(8) SceneObject_MainCityCurveMove_Animation_NpcActionStateInfo
 	{

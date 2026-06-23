@@ -9,7 +9,7 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class MonoProperty; }
 
-#define SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_2_0C6643DF02B338C4_OFFSET UNITYSDK_OFFSET(0x1A6BF7D0)
+#define SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_2_0C6643DF02B338C4_OFFSET UNITYSDK_OFFSET(0x1C9D3AC0)
 
 namespace System::Reflection
 {

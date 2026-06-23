@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORCLUSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF684CA0)
+#define NPCCROWD_AI_ATTRACTORCLUSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFFA19C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorClusterConfig_TypeDefinitionIndex = 81770;
+	inline static constexpr unsigned int AttractorClusterConfig_TypeDefinitionIndex = 67506;
 
 	class AttractorClusterConfig : public ::System::Object
 	{

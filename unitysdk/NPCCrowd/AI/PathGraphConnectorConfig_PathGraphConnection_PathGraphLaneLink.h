@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConnectorConfig_PathGraphConnection_PathGraphLaneLink_TypeDefinitionIndex = 77675;
+	inline static constexpr unsigned int PathGraphConnectorConfig_PathGraphConnection_PathGraphLaneLink_TypeDefinitionIndex = 74187;
 
 	struct alignas(4) PathGraphConnectorConfig_PathGraphConnection_PathGraphLaneLink
 	{

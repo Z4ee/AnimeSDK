@@ -3,18 +3,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-#define STRUCT_2_008187F6EB77F9CD_METHOD_2_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x2E7740)
-#define STRUCT_2_008187F6EB77F9CD_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x2E7930)
-#define STRUCT_2_008187F6EB77F9CD__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE91280)
-#define STRUCT_2_008187F6EB77F9CD__CTOR_OFFSET UNITYSDK_OFFSET(0x2E7740)
+#define STRUCT_2_008187F6EB77F9CD_METHOD_2_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x2ACBF0)
+#define STRUCT_2_008187F6EB77F9CD_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x2ACBE0)
+#define STRUCT_2_008187F6EB77F9CD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1022CDE0)
+#define STRUCT_2_008187F6EB77F9CD__CTOR_OFFSET UNITYSDK_OFFSET(0x2ACBF0)
 
-inline static constexpr unsigned int Struct_2_008187F6EB77F9CD_TypeDefinitionIndex = 79277;
+inline static constexpr unsigned int Struct_2_008187F6EB77F9CD_TypeDefinitionIndex = 85774;
 
 struct alignas(1) Struct_2_008187F6EB77F9CD
 {
 	static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_Field_2_1()
 	{
-		return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_008187F6EB77F9CD_TypeDefinitionIndex)->GetStaticField(0x33BA0);
+		return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_008187F6EB77F9CD_TypeDefinitionIndex)->GetStaticField(0x3BE60);
 	}
 	::System::Boolean Field_2_0; // 0x10
 

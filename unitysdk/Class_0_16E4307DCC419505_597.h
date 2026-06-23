@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-namespace UnityEngine { class Material; }
-namespace UnityEngine { class Transform; }
+namespace UnityEngine { class MaterialPropertyBlock; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_597_TypeDefinitionIndex = 60134;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_597_TypeDefinitionIndex = 61414;
 
 class Class_0_16E4307DCC419505_597
 {

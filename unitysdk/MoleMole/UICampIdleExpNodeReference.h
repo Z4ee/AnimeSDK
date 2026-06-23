@@ -13,12 +13,12 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET UNITYSDK_OFFSET(0x15ED7A40)
-#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED82A0)
+#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET UNITYSDK_OFFSET(0x17A56910)
+#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A57170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleExpNodeReference_TypeDefinitionIndex = 69306;
+	inline static constexpr unsigned int UICampIdleExpNodeReference_TypeDefinitionIndex = 50490;
 
 	class UICampIdleExpNodeReference : public ::UnityEngine::MonoBehaviour
 	{

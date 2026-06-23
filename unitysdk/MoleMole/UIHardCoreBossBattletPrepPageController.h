@@ -1,0 +1,200 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_03024D6472FC8F3A.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_1_D9BAE726F869C3AC;
+class Class_2_CA9F722F5100F667;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIFadeConfig; }
+namespace MoleMole { class UIHardCoreBossBattletPrepPageController_Context; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x16974050)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x169741C0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x16973FD0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x169730D0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x169730E0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_JUMPPAGEWHENHARDMODERANKSREADY_OFFSET UNITYSDK_OFFSET(0x16972F30)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONAFTERPARENTSHOW_OFFSET UNITYSDK_OFFSET(0x169736A0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x16973150)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x16973C00)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x16973A00)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x16973DD0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x169734E0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x16973700)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x169731F0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_PLAYEXPENDANI_OFFSET UNITYSDK_OFFSET(0x169744A0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x169744F0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x169744E0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x16974650)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x16974660)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONAFTERPARENTSHOW_OFFSET UNITYSDK_OFFSET(0x16974670)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x16974700)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x169747A0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x16974850)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x169748E0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x16974970)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x16974980)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16974A40)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIHardCoreBossBattletPrepPageController_TypeDefinitionIndex = 83613;
+
+	class UIHardCoreBossBattletPrepPageController : public ::MoleMole::UIWindowController
+	{
+	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_FadeInAnimNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController_TypeDefinitionIndex)->GetStaticField(0x46C10);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_FadeOutAnimNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController_TypeDefinitionIndex)->GetStaticField(0x46C18);
+		}
+		// static const ::System::String* FadeAnimPrefix; // 0x0
+		::System::Boolean isInit; // 0x318
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER__CCTOR_OFFSET))();
+		}
+
+		static ::System::Void JumpPageWhenHardModeRanksReady(::Class_1_D9BAE726F869C3AC* pageParams, ::MoleMole::UIHardCoreBossBattletPrepPageController_Context* context)
+		{
+			return ((::System::Void(*)(::Class_1_D9BAE726F869C3AC*, ::MoleMole::UIHardCoreBossBattletPrepPageController_Context*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_JUMPPAGEWHENHARDMODERANKSREADY_OFFSET))(pageParams, context);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::Class_2_CA9F722F5100F667* get__viewModel()
+		{
+			return ((::Class_2_CA9F722F5100F667*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnAfterParentShow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONAFTERPARENTSHOW_OFFSET))(this);
+		}
+
+		::System::Void OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* gamepadModule, ::System::Int32 index, ::UnityEngine::Transform* trans, ::Enum_3_03024D6472FC8F3A result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, gamepadModule, index, trans, result);
+		}
+
+		::System::Void OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::String* GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_7A4252233BCEB3A9 nextPage)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET))(this, fadeData, nextPage);
+		}
+
+		::System::String* GetFadeOutAnim()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETFADEOUTANIM_OFFSET))(this);
+		}
+
+		::System::String* GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_7A4252233BCEB3A9 fromCtrl)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_GETOVERRIDEFADEINANIM_OFFSET))(this, fadeData, fromCtrl);
+		}
+
+		::System::Void PlayExpendAni()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER_PLAYEXPENDANI_OFFSET))(this);
+		}
+
+		::System::String* __base_GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_7A4252233BCEB3A9 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::String* __base_GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_7A4252233BCEB3A9 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnAfterParentShow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONAFTERPARENTSHOW_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* P0, ::System::Int32 P1, ::UnityEngine::Transform* P2, ::Enum_3_03024D6472FC8F3A P3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, P0, P1, P2, P3);
+		}
+
+		::System::Void __base_OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

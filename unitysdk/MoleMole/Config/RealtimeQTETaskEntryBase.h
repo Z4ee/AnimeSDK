@@ -6,12 +6,12 @@
 class Class_1_D47998EF092D4845;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x153D3370)
-#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x153D33B0)
+#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x161A0020)
+#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x161A0060)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RealtimeQTETaskEntryBase_TypeDefinitionIndex = 58181;
+	inline static constexpr unsigned int RealtimeQTETaskEntryBase_TypeDefinitionIndex = 78774;
 
 	class RealtimeQTETaskEntryBase : public ::System::Object
 	{
@@ -25,6 +25,7 @@ namespace MoleMole::Config
 		::Il2CppArray<::System::String*>* HideUIItemTagList; // 0x28
 		::System::Boolean IgnoreHandleInputButOnlyShowIcon; // 0x30
 		::System::Boolean CustomHandleUIShowLogic; // 0x31
+		::System::Boolean SkipSuccessCloseAnimation; // 0x32
 		::System::String* QTEInputSoundAction; // 0x38
 		::System::String* QTEStartSoundAction; // 0x40
 		::System::String* QTEFinishSoundAction; // 0x48

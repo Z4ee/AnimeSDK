@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int IValueProvider_TypeDefinitionIndex = 6985;
+	inline static constexpr unsigned int IValueProvider_TypeDefinitionIndex = 7116;
 
 	class IValueProvider
 	{

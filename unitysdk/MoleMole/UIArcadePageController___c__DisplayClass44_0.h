@@ -5,12 +5,12 @@
 namespace MoleMole { class UIArcadePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156260C0)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS44_0__ENTERSPINNINGTABLEPHASEFROMENTRANCEDIRECT_B__0_OFFSET UNITYSDK_OFFSET(0x1562C590)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181C4700)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS44_0__ENTERSPINNINGTABLEPHASEFROMENTRANCEDIRECT_B__0_OFFSET UNITYSDK_OFFSET(0x181CACD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass44_0_TypeDefinitionIndex = 75636;
+	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass44_0_TypeDefinitionIndex = 60571;
 
 	class UIArcadePageController___c__DisplayClass44_0 : public ::System::Object
 	{

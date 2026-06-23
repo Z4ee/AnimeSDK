@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpDeliveryMethod_TypeDefinitionIndex = 3603;
+	inline static constexpr unsigned int SmtpDeliveryMethod_TypeDefinitionIndex = 3602;
 
 	enum class SmtpDeliveryMethod : ::System::Int32
 	{

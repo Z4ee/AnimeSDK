@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_CONFIG_CONFIGOVERLORDFEAST__CTOR_OFFSET UNITYSDK_OFFSET(0x159F3CF0)
+#define MOLEMOLE_CONFIG_CONFIGOVERLORDFEAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1271DB50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOverlordFeast_TypeDefinitionIndex = 77935;
+	inline static constexpr unsigned int ConfigOverlordFeast_TypeDefinitionIndex = 58845;
 
 	class ConfigOverlordFeast : public ::Foundation::MihoyoSerializedScriptableObject
 	{

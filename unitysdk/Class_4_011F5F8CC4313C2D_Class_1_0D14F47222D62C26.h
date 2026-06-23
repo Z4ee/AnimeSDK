@@ -7,18 +7,18 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_4_011F5F8CC4313C2D_CLASS_1_0D14F47222D62C26_METHOD_1_40D741483CBF207D_OFFSET UNITYSDK_OFFSET(0x16679780)
-#define CLASS_4_011F5F8CC4313C2D_CLASS_1_0D14F47222D62C26__CTOR_OFFSET UNITYSDK_OFFSET(0x16679770)
+#define CLASS_4_011F5F8CC4313C2D_CLASS_1_0D14F47222D62C26_METHOD_1_40D741483CBF207D_OFFSET UNITYSDK_OFFSET(0x17285F00)
+#define CLASS_4_011F5F8CC4313C2D_CLASS_1_0D14F47222D62C26__CTOR_OFFSET UNITYSDK_OFFSET(0x17285EF0)
 
-inline static constexpr unsigned int Class_4_011F5F8CC4313C2D_Class_1_0D14F47222D62C26_TypeDefinitionIndex = 71302;
+inline static constexpr unsigned int Class_4_011F5F8CC4313C2D_Class_1_0D14F47222D62C26_TypeDefinitionIndex = 54954;
 
 class Class_4_011F5F8CC4313C2D_Class_1_0D14F47222D62C26 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x10
 	::Class_4_011F5F8CC4313C2D_Class_1_BA28808B5689C202* Field_1_3; // 0x18
-	::System::UInt64 Field_1_1; // 0x20
-	::System::UInt32 Field_1_0; // 0x28
+	::System::UInt32 Field_1_0; // 0x20
+	::System::UInt64 Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{

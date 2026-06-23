@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigUIMainPageGeneralShowItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x189E5760)
+#define MOLEMOLE_CONFIGUIMAINPAGESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA851F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageShow_TypeDefinitionIndex = 64136;
+	inline static constexpr unsigned int ConfigUIMainPageShow_TypeDefinitionIndex = 83369;
 
 	class ConfigUIMainPageShow : public ::Foundation::MihoyoSerializedScriptableObject
 	{

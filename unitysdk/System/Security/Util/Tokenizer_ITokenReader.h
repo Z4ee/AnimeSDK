@@ -3,7 +3,7 @@
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_ITokenReader_TypeDefinitionIndex = 1010;
+	inline static constexpr unsigned int Tokenizer_ITokenReader_TypeDefinitionIndex = 1009;
 
 	class Tokenizer_ITokenReader
 	{

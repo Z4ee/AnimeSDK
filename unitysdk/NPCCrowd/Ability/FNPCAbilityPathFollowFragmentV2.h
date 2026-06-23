@@ -11,38 +11,38 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_ADDNODE_OFFSET UNITYSDK_OFFSET(0x6B2940)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CHECKPATHFOLLOWQUEUE_OFFSET UNITYSDK_OFFSET(0xFAC7870)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CLEARNODE_OFFSET UNITYSDK_OFFSET(0x6B2BA0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x6B2D70)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x6B2C70)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CREATE_OFFSET UNITYSDK_OFFSET(0xFAC7980)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x6B2C50)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6B2E60)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GETNODE_OFFSET UNITYSDK_OFFSET(0x6B2880)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x6B2BF0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x6B2EA0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_ISFORWARD_OFFSET UNITYSDK_OFFSET(0x6B28E0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x6B2DC0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x6B2CF0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_RESET_OFFSET UNITYSDK_OFFSET(0x6B2E10)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETPATHFOLLOWNODEINDEX_OFFSET UNITYSDK_OFFSET(0x6B2870)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETWANDERINGDIR_OFFSET UNITYSDK_OFFSET(0x6B2A50)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETWANDERINGNODE_OFFSET UNITYSDK_OFFSET(0x6B29C0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_UNREALTYPES_ISTRUCT_NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x6B2F00)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_WALKBACK_OFFSET UNITYSDK_OFFSET(0x6B2B20)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_WANDERINGBACK_OFFSET UNITYSDK_OFFSET(0x6B2AB0)
-#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0xFAC7D80)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_ADDNODE_OFFSET UNITYSDK_OFFSET(0x6C6580)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CHECKPATHFOLLOWQUEUE_OFFSET UNITYSDK_OFFSET(0x106F5EB0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CLEARNODE_OFFSET UNITYSDK_OFFSET(0x6C67E0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x6C69B0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x6C68B0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_CREATE_OFFSET UNITYSDK_OFFSET(0x106F5FC0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x6C6890)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6C6AA0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GETNODE_OFFSET UNITYSDK_OFFSET(0x6C64C0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x6C6830)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x6C6AE0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_ISFORWARD_OFFSET UNITYSDK_OFFSET(0x6C6520)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x6C6A00)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x6C6930)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_RESET_OFFSET UNITYSDK_OFFSET(0x6C6A50)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETPATHFOLLOWNODEINDEX_OFFSET UNITYSDK_OFFSET(0x6C64B0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETWANDERINGDIR_OFFSET UNITYSDK_OFFSET(0x6C6690)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_SETWANDERINGNODE_OFFSET UNITYSDK_OFFSET(0x6C6600)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_UNREALTYPES_ISTRUCT_NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x6C6B40)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_WALKBACK_OFFSET UNITYSDK_OFFSET(0x6C6760)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2_WANDERINGBACK_OFFSET UNITYSDK_OFFSET(0x6C66F0)
+#define NPCCROWD_ABILITY_FNPCABILITYPATHFOLLOWFRAGMENTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x106F63C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex = 39383;
+	inline static constexpr unsigned int FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex = 78713;
 
 	struct alignas(4) FNPCAbilityPathFollowFragmentV2
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x48BD0);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x4C230);
 		}
 		// static const ::System::Byte MaxNodeNum = 0x40; // 0x0
 		// static const ::System::UInt32 PersistentTypeHash = 0x813125DC; // 0x0
@@ -58,57 +58,66 @@ namespace NPCCrowd::Ability
 		::UnityEngine::Vector3 Aim; // 0x44
 		::UnityEngine::Vector3 StartPos; // 0x50
 		::UnityEngine::Vector3 Forward; // 0x5C
-		::UnityEngine::Vector3 StartUpAxis; // 0x68
-		::UnityEngine::Vector3 AimUpAxis; // 0x74
-		::System::Single InitDesiredSpeed; // 0x80
-		::System::Single UpStairDesiredSpeed; // 0x84
-		::System::Single DownStairDesiredSpeed; // 0x88
-		::System::Single StairSpeedBlendingDuration; // 0x8C
-		::System::Single StairSpeedStart; // 0x90
-		::System::Single StairSpeedTarget; // 0x94
-		::System::Single StairPrepareDistance; // 0x98
-		::System::Single SlopeSpeedScale; // 0x9C
-		::System::Single DesiredSpeed; // 0xA0
-		::System::Single MaxDistance; // 0xA4
-		::System::Single ProgressDistance; // 0xA8
-		::System::Boolean OnSplinePath; // 0xAC
-		::System::Int32 StairType; // 0xB0
-		::System::Single StairSlopeCosine; // 0xB4
-		::System::Int32 EnterStairType; // 0xB8
-		::System::Boolean OnStair; // 0xBC
-		::System::Boolean OnStairTransition; // 0xBD
-		::System::Single PrepareStairBlendDuration; // 0xC0
-		::System::Int32 SlopeType; // 0xC4
-		::System::Single EndFadeOutTime; // 0xC8
-		::System::Boolean StartFadeOut; // 0xCC
-		::System::Boolean IsPassedAim; // 0xCD
-		::System::Boolean IsPathEnd; // 0xCE
-		::System::Boolean IsMoving; // 0xCF
-		::System::Boolean IgnoreNodeState; // 0xD0
-		::System::Boolean IsStarted; // 0xD1
-		::System::Int32 LaneIndex; // 0xD4
-		::System::Int32 NextLaneIndex; // 0xD8
-		::System::Single LaneInnerOffset; // 0xDC
-		::System::Byte PathFollowNodeCount; // 0xE0
-		::System::Int16 SplineNodeControlPointIndex; // 0xE2
-		::System::Int16 SplineNodeExitControlPointIndex; // 0xE4
-		::System::Int32 ExitRefPointID; // 0xE8
-		::System::Int32 LastPathFollowNodeID; // 0xEC
-		::System::Byte PathFollowNodeIndex; // 0xF0
-		::System::Boolean NodeIndexChanged; // 0xF1
-		::System::Boolean Teleported; // 0xF2
-		::System::Boolean EnableCubic; // 0xF3
-		::System::Single StopDistance; // 0xF4
-		::System::Single StartDistance; // 0xF8
-		::System::Int32 PathID; // 0xFC
-		::System::UInt32 PrevEntity; // 0x100
-		::System::Boolean CurNodeHasPrev; // 0x104
-		::UnityEngine::Vector3 K3; // 0x108
-		::UnityEngine::Vector3 K2; // 0x114
-		::UnityEngine::Vector3 K1; // 0x120
-		::UnityEngine::Vector3 K0; // 0x12C
-		::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2__PathFollowNodes_e__FixedBuffer PathFollowNodes; // 0x138
-		::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2__PathFollowNodesDirection_e__FixedBuffer PathFollowNodesDirection; // 0x238
+		::UnityEngine::Vector3 NextForward; // 0x68
+		::UnityEngine::Vector3 StartUpAxis; // 0x74
+		::UnityEngine::Vector3 AimUpAxis; // 0x80
+		::System::Single InitDesiredSpeed; // 0x8C
+		::System::Single DefaultDesiredSpeed; // 0x90
+		::System::Single PathSpeedBlendStart; // 0x94
+		::System::Single PathSpeedBlendTarget; // 0x98
+		::System::Boolean PathSpeedBlending; // 0x9C
+		::System::Single UpStairDesiredSpeed; // 0xA0
+		::System::Single DownStairDesiredSpeed; // 0xA4
+		::System::Single StairSpeedBlendingDuration; // 0xA8
+		::System::Single StairSpeedStart; // 0xAC
+		::System::Single StairSpeedTarget; // 0xB0
+		::System::Single StairPrepareDistance; // 0xB4
+		::System::Single SlopeSpeedScale; // 0xB8
+		::System::Single DesiredSpeed; // 0xBC
+		::System::Single MaxDistance; // 0xC0
+		::System::Single ProgressDistance; // 0xC4
+		::System::Single ExcludeDistance; // 0xC8
+		::System::Boolean OnSplinePath; // 0xCC
+		::System::Int32 StairType; // 0xD0
+		::System::Single StairSlopeCosine; // 0xD4
+		::System::Int32 EnterStairType; // 0xD8
+		::System::Boolean OnStair; // 0xDC
+		::System::Boolean OnStairTransition; // 0xDD
+		::System::Single PrepareStairBlendDuration; // 0xE0
+		::System::Int32 SlopeType; // 0xE4
+		::System::Single EndFadeOutTime; // 0xE8
+		::System::Boolean StartFadeOut; // 0xEC
+		::System::Boolean IsPassedAim; // 0xED
+		::System::Boolean IsPathEnd; // 0xEE
+		::System::Boolean IsMoving; // 0xEF
+		::System::Boolean IgnoreNodeState; // 0xF0
+		::System::Boolean IsStarted; // 0xF1
+		::System::Boolean AfterTeleported; // 0xF2
+		::System::Int32 LaneIndex; // 0xF4
+		::System::Int32 NextLaneIndex; // 0xF8
+		::System::Single LaneInnerOffset; // 0xFC
+		::System::Int32 LaneInnerOffset2DIdx; // 0x100
+		::System::Byte PathFollowNodeCount; // 0x104
+		::System::Int16 SplineNodeControlPointIndex; // 0x106
+		::System::Int16 SplineNodeExitControlPointIndex; // 0x108
+		::System::Int32 ExitRefPointID; // 0x10C
+		::System::Int32 LastPathFollowNodeID; // 0x110
+		::System::Byte PathFollowNodeIndex; // 0x114
+		::System::Boolean NodeIndexChanged; // 0x115
+		::System::Boolean Teleported; // 0x116
+		::System::Boolean EnableCubic; // 0x117
+		::System::Single StopDistance; // 0x118
+		::System::Single StartDistance; // 0x11C
+		::System::Int32 PathID; // 0x120
+		::System::Boolean disableTurn; // 0x124
+		::System::UInt32 PrevEntity; // 0x128
+		::System::Boolean CurNodeHasPrev; // 0x12C
+		::UnityEngine::Vector3 K3; // 0x130
+		::UnityEngine::Vector3 K2; // 0x13C
+		::UnityEngine::Vector3 K1; // 0x148
+		::UnityEngine::Vector3 K0; // 0x154
+		::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2__PathFollowNodes_e__FixedBuffer PathFollowNodes; // 0x160
+		::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2__PathFollowNodesDirection_e__FixedBuffer PathFollowNodesDirection; // 0x260
 
 		static ::System::Void _cctor()
 		{

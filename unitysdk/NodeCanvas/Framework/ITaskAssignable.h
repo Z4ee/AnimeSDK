@@ -5,7 +5,7 @@ namespace NodeCanvas::Framework { class Task; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ITaskAssignable_TypeDefinitionIndex = 26680;
+	inline static constexpr unsigned int ITaskAssignable_TypeDefinitionIndex = 29999;
 
 	class ITaskAssignable
 	{

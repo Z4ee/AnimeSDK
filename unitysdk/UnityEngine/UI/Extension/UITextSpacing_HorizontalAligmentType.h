@@ -3,12 +3,12 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextSpacing_HorizontalAligmentType_TypeDefinitionIndex = 80270;
+	inline static constexpr unsigned int UITextSpacing_HorizontalAligmentType_TypeDefinitionIndex = 60358;
 
 	enum class UITextSpacing_HorizontalAligmentType : ::System::Int32
 	{
-		Center = 1,
 		Right = 2,
+		Center = 1,
 		Left = 0,
 	};
 }

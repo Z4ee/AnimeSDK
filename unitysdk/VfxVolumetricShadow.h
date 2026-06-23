@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define VFXVOLUMETRICSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x192B5310)
+#define VFXVOLUMETRICSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0000)
 
-inline static constexpr unsigned int VfxVolumetricShadow_TypeDefinitionIndex = 29512;
+inline static constexpr unsigned int VfxVolumetricShadow_TypeDefinitionIndex = 27365;
 
 class VfxVolumetricShadow : public ::UnityEngine::MonoBehaviour
 {

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int LargeArrayBuilder_1_TypeDefinitionIndex = 5024;
+	inline static constexpr unsigned int LargeArrayBuilder_1_TypeDefinitionIndex = 5023;
 
 	template <typename T>
 	struct LargeArrayBuilder_1

@@ -5,9 +5,9 @@
 
 namespace DG::Tweening { class Tweener; }
 
-#define CLASS_1_BB7EDA01543EB7EB__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F67B0)
+#define CLASS_1_BB7EDA01543EB7EB__CTOR_OFFSET UNITYSDK_OFFSET(0x13D27F40)
 
-inline static constexpr unsigned int Class_1_BB7EDA01543EB7EB_TypeDefinitionIndex = 59771;
+inline static constexpr unsigned int Class_1_BB7EDA01543EB7EB_TypeDefinitionIndex = 84831;
 
 class Class_1_BB7EDA01543EB7EB : public ::System::Object
 {
@@ -16,8 +16,8 @@ public:
 	::UnityEngine::Vector2 Field_1_1; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 	::System::Int32 Field_1_4; // 0x24
-	::System::Boolean Field_1_5; // 0x28
-	::System::Single Field_1_3; // 0x2C
+	::System::Single Field_1_3; // 0x28
+	::System::Boolean Field_1_5; // 0x2C
 
 	::System::Void _ctor()
 	{

@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEBUTTONPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1754FDA0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEBUTTONPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x157D8810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobileButtonPanel_TypeDefinitionIndex = 52110;
+	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobileButtonPanel_TypeDefinitionIndex = 61652;
 
 	class ConfigUICommon_Input_ConfigMobileButtonPanel : public ::System::Object
 	{

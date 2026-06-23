@@ -5,11 +5,11 @@
 namespace System { class FormattableString; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_FORMATTABLESTRINGFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x18C68420)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_FORMATTABLESTRINGFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1AE52980)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int FormattableStringFactory_TypeDefinitionIndex = 1385;
+	inline static constexpr unsigned int FormattableStringFactory_TypeDefinitionIndex = 1384;
 
 	class FormattableStringFactory : public ::System::Object
 	{

@@ -13,12 +13,12 @@ namespace System::Runtime::CompilerServices { template <typename T> class CallSi
 namespace System::Runtime::CompilerServices { template <typename T> class CallSite_1; }
 namespace System::Runtime::CompilerServices { template <typename T> class RuleCache_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2640)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2630)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF36890)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF36880)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallSiteBinder_TypeDefinitionIndex = 4955;
+	inline static constexpr unsigned int CallSiteBinder_TypeDefinitionIndex = 4954;
 
 	class CallSiteBinder : public ::System::Object
 	{

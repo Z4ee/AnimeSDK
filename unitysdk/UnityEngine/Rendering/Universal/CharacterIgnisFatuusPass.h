@@ -17,65 +17,65 @@ namespace UnityEngine::Rendering::Universal { class CharacterIgnisFatuus; }
 namespace UnityEngine::Rendering::Universal { class MonsterIgnisFatuus; }
 namespace UnityEngine::Rendering::Universal { class NapRenderContext_CurrentFrameRenderConfigs; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_DOCHARACTERIGNISFATUUS_OFFSET UNITYSDK_OFFSET(0x19B84DF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19B84C50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x19B881F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_GETCHARACTERIGNISFATUUSTEXTURE_OFFSET UNITYSDK_OFFSET(0x19B88370)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_GETMONSTERIGNISFATUUSTEXTURE_OFFSET UNITYSDK_OFFSET(0x19B88530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_ISPASSREADY_OFFSET UNITYSDK_OFFSET(0x19B84840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_SETUPCHARACTERIGNISFATUUS_OFFSET UNITYSDK_OFFSET(0x19B87850)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x19B84BF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B886F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B84B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x19B88740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_DOCHARACTERIGNISFATUUS_OFFSET UNITYSDK_OFFSET(0x1BC18110)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC17F70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC1B520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_GETCHARACTERIGNISFATUUSTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BC1B6A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_GETMONSTERIGNISFATUUSTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BC1B860)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_ISPASSREADY_OFFSET UNITYSDK_OFFSET(0x1BC17B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_SETUPCHARACTERIGNISFATUUS_OFFSET UNITYSDK_OFFSET(0x1BC1AB80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1BC17F10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC1BA20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC17E80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC1BA70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterIgnisFatuusPass_TypeDefinitionIndex = 30185;
+	inline static constexpr unsigned int CharacterIgnisFatuusPass_TypeDefinitionIndex = 27177;
 
 	class CharacterIgnisFatuusPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Int32* StaticGet_gaussianBlur1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterIgnisFatuusPass_TypeDefinitionIndex)->GetStaticField(0x69D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterIgnisFatuusPass_TypeDefinitionIndex)->GetStaticField(0x6610);
 		}
 		static ::System::Int32* StaticGet_gaussianBlur0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterIgnisFatuusPass_TypeDefinitionIndex)->GetStaticField(0x69D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterIgnisFatuusPass_TypeDefinitionIndex)->GetStaticField(0x6614);
 		}
-		::UnityEngine::Texture* ignisFatuusNoiseTexture_Monster; // 0xA8
-		::UnityEngine::Rendering::Universal::MonsterIgnisFatuus* m_MonsterIgnisFatuus; // 0xB0
-		::UnityEngine::Texture* ignisFatuusColorTexture_Monster; // 0xB8
-		::UnityEngine::Texture* ignisFatuusColorTexture2_Monster; // 0xC0
+		::UnityEngine::Texture* ignisFatuusNoiseTexture2; // 0xA8
+		::UnityEngine::Texture* ignisFatuusColorTexture_Monster; // 0xB0
+		::UnityEngine::Texture* ignisFatuusColorTexture; // 0xB8
+		::UnityEngine::Texture* ignisFatuusNoiseTexture_Monster; // 0xC0
 		::UnityEngine::Texture* ignisFatuusNoiseTexture; // 0xC8
-		::UnityEngine::Texture* ignisFatuusNoiseTexture2; // 0xD0
-		::UnityEngine::Rendering::Universal::CharacterIgnisFatuus* m_CharacterIgnisFatuus; // 0xD8
-		::UnityEngine::Texture* ignisFatuusColorTexture; // 0xE0
-		::UnityEngine::Texture* ignisFatuusColorTexture2; // 0xE8
-		::UnityEngine::Texture* ignisFatuusNoiseTexture2_Monster; // 0xF0
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle monsterIgnisFatuusRT; // 0xF8
-		::UnityEngine::Color ignisFatuusColor2_Monster; // 0xFC
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle characterIgnisFatuusRT; // 0x10C
-		::UnityEngine::Vector4 ignisFatuusColorParams_Monster; // 0x110
-		::UnityEngine::Color ignisFatuusColor_Monster; // 0x120
-		::UnityEngine::Vector4 ignisFatuusDataParams_Monster; // 0x130
-		::UnityEngine::Vector4 colorTextureUVParams; // 0x140
-		::UnityEngine::Vector4 ignisFatuusDataParams2; // 0x150
-		::UnityEngine::Vector4 colorTextureUVParams2; // 0x160
-		::UnityEngine::Vector4 ignisFatuusColorParams2_Monster; // 0x170
-		::UnityEngine::Vector4 colorTextureUVParams2_Monster; // 0x180
-		::UnityEngine::Vector4 noiseTextureUVParams_Monster; // 0x190
-		::UnityEngine::Vector4 noiseTextureUVParams; // 0x1A0
-		::UnityEngine::Vector4 colorTextureUVParams_Monster; // 0x1B0
-		::UnityEngine::Vector4 ignisFatuusDataParams; // 0x1C0
-		::UnityEngine::Vector4 noiseTextureUVParams2_Monster; // 0x1D0
-		::UnityEngine::Vector4 ignisFatuusDataParams2_Monster; // 0x1E0
-		::UnityEngine::Color ignisFatuusColor; // 0x1F0
-		::UnityEngine::Vector4 ignisFatuusColorParams; // 0x200
-		::UnityEngine::Color ignisFatuusColor2; // 0x210
-		::UnityEngine::Vector4 noiseTextureUVParams2; // 0x220
-		::UnityEngine::Vector4 ignisFatuusColorParams2; // 0x230
+		::UnityEngine::Texture* ignisFatuusNoiseTexture2_Monster; // 0xD0
+		::UnityEngine::Texture* ignisFatuusColorTexture2; // 0xD8
+		::UnityEngine::Rendering::Universal::CharacterIgnisFatuus* m_CharacterIgnisFatuus; // 0xE0
+		::UnityEngine::Texture* ignisFatuusColorTexture2_Monster; // 0xE8
+		::UnityEngine::Rendering::Universal::MonsterIgnisFatuus* m_MonsterIgnisFatuus; // 0xF0
+		::UnityEngine::Vector4 ignisFatuusColorParams2; // 0xF8
+		::UnityEngine::Vector4 colorTextureUVParams; // 0x108
+		::UnityEngine::Vector4 noiseTextureUVParams2_Monster; // 0x118
+		::UnityEngine::Vector4 colorTextureUVParams2; // 0x128
+		::UnityEngine::Vector4 ignisFatuusDataParams2; // 0x138
+		::UnityEngine::Color ignisFatuusColor2_Monster; // 0x148
+		::UnityEngine::Vector4 noiseTextureUVParams; // 0x158
+		::UnityEngine::Vector4 ignisFatuusColorParams2_Monster; // 0x168
+		::UnityEngine::Vector4 ignisFatuusColorParams; // 0x178
+		::UnityEngine::Vector4 ignisFatuusDataParams2_Monster; // 0x188
+		::UnityEngine::Color ignisFatuusColor2; // 0x198
+		::UnityEngine::Vector4 ignisFatuusColorParams_Monster; // 0x1A8
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle characterIgnisFatuusRT; // 0x1B8
+		::UnityEngine::Vector4 colorTextureUVParams_Monster; // 0x1BC
+		::UnityEngine::Vector4 ignisFatuusDataParams; // 0x1CC
+		::UnityEngine::Color ignisFatuusColor; // 0x1DC
+		::UnityEngine::Vector4 noiseTextureUVParams2; // 0x1EC
+		::UnityEngine::Vector4 colorTextureUVParams2_Monster; // 0x1FC
+		::UnityEngine::Vector4 noiseTextureUVParams_Monster; // 0x20C
+		::UnityEngine::Color ignisFatuusColor_Monster; // 0x21C
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle monsterIgnisFatuusRT; // 0x22C
+		::UnityEngine::Vector4 ignisFatuusDataParams_Monster; // 0x230
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent passEvent)
 		{

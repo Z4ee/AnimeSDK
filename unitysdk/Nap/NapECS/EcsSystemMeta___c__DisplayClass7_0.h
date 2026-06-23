@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define NAP_NAPECS_ECSSYSTEMMETA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192E3A70)
-#define NAP_NAPECS_ECSSYSTEMMETA___C__DISPLAYCLASS7_0__INITSYSTEMMETA_B__0_OFFSET UNITYSDK_OFFSET(0x192E3B80)
+#define NAP_NAPECS_ECSSYSTEMMETA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B302830)
+#define NAP_NAPECS_ECSSYSTEMMETA___C__DISPLAYCLASS7_0__INITSYSTEMMETA_B__0_OFFSET UNITYSDK_OFFSET(0x1B302940)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsSystemMeta___c__DisplayClass7_0_TypeDefinitionIndex = 35747;
+	inline static constexpr unsigned int EcsSystemMeta___c__DisplayClass7_0_TypeDefinitionIndex = 37295;
 
 	class EcsSystemMeta___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -10,12 +10,12 @@ namespace MoleMole::Config { class LevelGlobalAIScriptConfig_AISteerParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_ONKEYCHANGE_OFFSET UNITYSDK_OFFSET(0x181D8BA0)
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x181D8C00)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_ONKEYCHANGE_OFFSET UNITYSDK_OFFSET(0x19FF60A0)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF6100)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIScriptConfig_TypeDefinitionIndex = 81444;
+	inline static constexpr unsigned int LevelGlobalAIScriptConfig_TypeDefinitionIndex = 40098;
 
 	class LevelGlobalAIScriptConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

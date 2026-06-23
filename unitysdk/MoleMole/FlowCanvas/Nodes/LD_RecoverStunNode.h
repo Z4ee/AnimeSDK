@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERSTUNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x125CA000)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERSTUNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x125CA200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERSTUNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1301DCB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERSTUNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1301DEA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_RecoverStunNode_TypeDefinitionIndex = 61256;
+	inline static constexpr unsigned int LD_RecoverStunNode_TypeDefinitionIndex = 76083;
 
 	class LD_RecoverStunNode : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Single, ::System::Single, ::System::Boolean>
 	{

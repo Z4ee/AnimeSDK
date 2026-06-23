@@ -6,11 +6,11 @@ class Class_2_DF73794ED874FFFB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALTEXTITEMDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x149E52D0)
+#define MOLEMOLE_UIGENERALTEXTITEMDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA0390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTextItemDetailContext_TypeDefinitionIndex = 61988;
+	inline static constexpr unsigned int UIGeneralTextItemDetailContext_TypeDefinitionIndex = 73008;
 
 	class UIGeneralTextItemDetailContext : public ::MoleMole::UIControllerContextBase
 	{

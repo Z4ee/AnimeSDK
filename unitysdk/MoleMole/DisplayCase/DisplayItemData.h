@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_623FA07AC87B7A23.h"
-#include "unitysdk/Enum_3_BE230013FFD184FA.h"
+#include "unitysdk/Enum_3_D7565B1E81CB39C8.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/DisplayCase/EDisplayItemSubType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_208CC9941471731A_480;
+class Class_2_208CC9941471731A_440;
 
-#define MOLEMOLE_DISPLAYCASE_DISPLAYITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABAEA0)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x158D6790)
 
 namespace MoleMole::DisplayCase
 {
-	inline static constexpr unsigned int DisplayItemData_TypeDefinitionIndex = 38667;
+	inline static constexpr unsigned int DisplayItemData_TypeDefinitionIndex = 79843;
 
 	class DisplayItemData : public ::System::Object
 	{
@@ -22,8 +22,8 @@ namespace MoleMole::DisplayCase
 		::Enum_3_623FA07AC87B7A23 ItemType; // 0x14
 		::MoleMole::DisplayCase::EDisplayItemSubType ItemSubType; // 0x18
 		::Foundation::AssetPath prefabPath; // 0x20
-		::Enum_3_BE230013FFD184FA StackType; // 0x30
-		::Class_2_208CC9941471731A_480* Cfg; // 0x38
+		::Enum_3_D7565B1E81CB39C8 StackType; // 0x30
+		::Class_2_208CC9941471731A_440* Cfg; // 0x38
 		::UnityEngine::Vector3 localPos; // 0x40
 		::System::Single localYaw; // 0x4C
 		::System::Int32 state; // 0x50

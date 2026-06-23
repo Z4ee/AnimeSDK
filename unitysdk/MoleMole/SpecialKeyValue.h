@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SPECIALKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE9FD0)
+#define MOLEMOLE_SPECIALKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17387D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SpecialKeyValue_TypeDefinitionIndex = 43881;
+	inline static constexpr unsigned int SpecialKeyValue_TypeDefinitionIndex = 56529;
 
 	class SpecialKeyValue : public ::System::Object
 	{

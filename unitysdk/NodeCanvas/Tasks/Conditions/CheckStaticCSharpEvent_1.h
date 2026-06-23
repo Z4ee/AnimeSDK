@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckStaticCSharpEvent_1_TypeDefinitionIndex = 27539;
+	inline static constexpr unsigned int CheckStaticCSharpEvent_1_TypeDefinitionIndex = 29905;
 
 	template <typename T>
 	class CheckStaticCSharpEvent_1 : public ::System::Object

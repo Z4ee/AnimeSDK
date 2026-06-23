@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_3_E532212A47602002_CLASS_1_8DD8A1B19ED0F723__CTOR_OFFSET UNITYSDK_OFFSET(0x156DD2C0)
+#define CLASS_3_E532212A47602002_CLASS_1_8DD8A1B19ED0F723__CTOR_OFFSET UNITYSDK_OFFSET(0x153FB480)
 
-inline static constexpr unsigned int Class_3_E532212A47602002_Class_1_8DD8A1B19ED0F723_TypeDefinitionIndex = 77875;
+inline static constexpr unsigned int Class_3_E532212A47602002_Class_1_8DD8A1B19ED0F723_TypeDefinitionIndex = 80055;
 
 class Class_3_E532212A47602002_Class_1_8DD8A1B19ED0F723 : public ::System::Object
 {

@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UISummerFishAquariumPageController___c__DisplayClass43_1; }
 
-#define MOLEMOLE_UISUMMERFISHAQUARIUMPAGECONTROLLER___C__DISPLAYCLASS43_2__CHANGECAMERA_B__0_OFFSET UNITYSDK_OFFSET(0xEBC7660)
-#define MOLEMOLE_UISUMMERFISHAQUARIUMPAGECONTROLLER___C__DISPLAYCLASS43_2__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC7650)
+#define MOLEMOLE_UISUMMERFISHAQUARIUMPAGECONTROLLER___C__DISPLAYCLASS43_2__CHANGECAMERA_B__0_OFFSET UNITYSDK_OFFSET(0x10891740)
+#define MOLEMOLE_UISUMMERFISHAQUARIUMPAGECONTROLLER___C__DISPLAYCLASS43_2__CTOR_OFFSET UNITYSDK_OFFSET(0x10891730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishAquariumPageController___c__DisplayClass43_2_TypeDefinitionIndex = 43980;
+	inline static constexpr unsigned int UISummerFishAquariumPageController___c__DisplayClass43_2_TypeDefinitionIndex = 86950;
 
 	class UISummerFishAquariumPageController___c__DisplayClass43_2 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISummerFishAquariumPageController___c__DisplayClass43_1* CS___8__locals2; // 0x10
-		::System::Single blendTimer; // 0x18
-		::System::Single blendDuration; // 0x1C
+		::System::Single blendDuration; // 0x18
+		::System::Single blendTimer; // 0x1C
 
 		::System::Void _ctor()
 		{

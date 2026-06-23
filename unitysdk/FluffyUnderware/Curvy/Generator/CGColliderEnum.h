@@ -3,14 +3,14 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGColliderEnum_TypeDefinitionIndex = 37295;
+	inline static constexpr unsigned int CGColliderEnum_TypeDefinitionIndex = 38787;
 
 	enum class CGColliderEnum : ::System::Int32
 	{
 		None = 0,
 		Mesh = 1,
-		Box = 2,
 		Sphere = 3,
 		Capsule = 4,
+		Box = 2,
 	};
 }

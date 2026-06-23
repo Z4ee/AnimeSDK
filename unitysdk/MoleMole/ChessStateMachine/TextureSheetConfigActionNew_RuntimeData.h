@@ -6,11 +6,11 @@
 class Class_2_5DF25B7A40A1031E;
 namespace System { class String; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTIONNEW_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x746E90)
+#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTIONNEW_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x834240)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TextureSheetConfigActionNew_RuntimeData_TypeDefinitionIndex = 43617;
+	inline static constexpr unsigned int TextureSheetConfigActionNew_RuntimeData_TypeDefinitionIndex = 80758;
 
 	struct alignas(8) TextureSheetConfigActionNew_RuntimeData
 	{

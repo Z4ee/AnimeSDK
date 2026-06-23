@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Tween_1_TypeDefinitionIndex = 81068;
+	inline static constexpr unsigned int Tween_1_TypeDefinitionIndex = 42966;
 
 	template <typename T>
 	class Tween_1 : public ::MoleMole::Tweener

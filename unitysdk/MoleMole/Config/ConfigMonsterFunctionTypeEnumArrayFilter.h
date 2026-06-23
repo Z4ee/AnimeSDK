@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERFUNCTIONTYPEENUMARRAYFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1241EE70)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERFUNCTIONTYPEENUMARRAYFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1241F0D0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERFUNCTIONTYPEENUMARRAYFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1AA532E0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERFUNCTIONTYPEENUMARRAYFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA53540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterFunctionTypeEnumArrayFilter_TypeDefinitionIndex = 48058;
+	inline static constexpr unsigned int ConfigMonsterFunctionTypeEnumArrayFilter_TypeDefinitionIndex = 41313;
 
 	class ConfigMonsterFunctionTypeEnumArrayFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RICHTAP_SOURCE_LOOPSETTING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9A2F40)
+#define RICHTAP_SOURCE_LOOPSETTING_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA45350)
 
 namespace RichTap::Source
 {
-	inline static constexpr unsigned int LoopSetting_TypeDefinitionIndex = 36479;
+	inline static constexpr unsigned int LoopSetting_TypeDefinitionIndex = 38087;
 
 	struct alignas(4) LoopSetting
 	{

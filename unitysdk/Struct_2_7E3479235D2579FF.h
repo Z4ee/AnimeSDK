@@ -7,9 +7,9 @@ namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define STRUCT_2_7E3479235D2579FF_METHOD_2_7A73F165001BC325_OFFSET UNITYSDK_OFFSET(0x73D8A0)
+#define STRUCT_2_7E3479235D2579FF_METHOD_2_7A73F165001BC325_OFFSET UNITYSDK_OFFSET(0x5911D0)
 
-inline static constexpr unsigned int Struct_2_7E3479235D2579FF_TypeDefinitionIndex = 79504;
+inline static constexpr unsigned int Struct_2_7E3479235D2579FF_TypeDefinitionIndex = 60315;
 
 struct alignas(8) Struct_2_7E3479235D2579FF
 {

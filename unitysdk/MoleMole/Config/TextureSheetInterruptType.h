@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TextureSheetInterruptType_TypeDefinitionIndex = 76929;
+	inline static constexpr unsigned int TextureSheetInterruptType_TypeDefinitionIndex = 50812;
 
 	enum class TextureSheetInterruptType : ::System::Int32
 	{
-		Queue = 1,
 		Interrupt = 0,
+		Queue = 1,
 	};
 }

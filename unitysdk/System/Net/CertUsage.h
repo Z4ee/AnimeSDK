@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CertUsage_TypeDefinitionIndex = 3308;
+	inline static constexpr unsigned int CertUsage_TypeDefinitionIndex = 3307;
 
 	enum class CertUsage : ::System::Int32
 	{

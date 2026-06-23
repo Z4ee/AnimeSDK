@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PreProcessPassGetFromNativeOutParams_TypeDefinitionIndex = 5713;
+	inline static constexpr unsigned int PreProcessPassGetFromNativeOutParams_TypeDefinitionIndex = 5715;
 
 	struct alignas(8) PreProcessPassGetFromNativeOutParams
 	{

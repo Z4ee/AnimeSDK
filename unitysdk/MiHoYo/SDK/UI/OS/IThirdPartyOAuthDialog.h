@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IThirdPartyOAuthDialog_TypeDefinitionIndex = 19315;
+	inline static constexpr unsigned int IThirdPartyOAuthDialog_TypeDefinitionIndex = 20231;
 
 	class IThirdPartyOAuthDialog
 	{

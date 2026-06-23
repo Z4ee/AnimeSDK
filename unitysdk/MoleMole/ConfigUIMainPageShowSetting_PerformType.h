@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageShowSetting_PerformType_TypeDefinitionIndex = 53868;
+	inline static constexpr unsigned int ConfigUIMainPageShowSetting_PerformType_TypeDefinitionIndex = 66569;
 
 	enum class ConfigUIMainPageShowSetting_PerformType : ::System::Byte
 	{

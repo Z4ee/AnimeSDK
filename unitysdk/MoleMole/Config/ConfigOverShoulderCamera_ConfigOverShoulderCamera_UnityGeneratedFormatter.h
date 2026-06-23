@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17538860)
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17538870)
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17538A50)
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17538BF0)
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17538BB0)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x144E2C40)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x144E2C50)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x144E2E30)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x144E2FD0)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA_CONFIGOVERSHOULDERCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x144E2F90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 64823;
+	inline static constexpr unsigned int ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 46166;
 
 	class ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigOverShoulderCamera*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverShoulderCameraConfig*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverShoulderCameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2A0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2A8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C250);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverShoulderCameraConfig*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverShoulderCameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigOverShoulderCamera_ConfigOverShoulderCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C258);
 		}
 
 		::System::Void _ctor()

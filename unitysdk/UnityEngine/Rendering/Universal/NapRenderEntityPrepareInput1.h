@@ -8,7 +8,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityPrepareInput1_TypeDefinitionIndex = 30083;
+	inline static constexpr unsigned int NapRenderEntityPrepareInput1_TypeDefinitionIndex = 26916;
 
 	struct alignas(4) NapRenderEntityPrepareInput1
 	{

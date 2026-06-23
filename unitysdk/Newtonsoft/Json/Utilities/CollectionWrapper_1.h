@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int CollectionWrapper_1_TypeDefinitionIndex = 6906;
+	inline static constexpr unsigned int CollectionWrapper_1_TypeDefinitionIndex = 7037;
 
 	template <typename T>
 	class CollectionWrapper_1 : public ::System::Object

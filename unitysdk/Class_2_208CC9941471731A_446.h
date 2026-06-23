@@ -1,19 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_EBCA2A4357C4C8BF_32.h"
-#include "unitysdk/Struct_2_58DF5669875F2C66_71.h"
+#include "unitysdk/Class_1_48F4A404A08692BE_65.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_97.h"
 
-class Class_0_16E4307DCC419505_13;
+class Class_0_16E4307DCC419505_7;
+class Class_2_6D99A03C58ED2B6E_1;
+namespace System { class String; }
 
-#define CLASS_2_208CC9941471731A_446__CTOR_OFFSET UNITYSDK_OFFSET(0x15BF8AA0)
+#define CLASS_2_208CC9941471731A_446_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x18578040)
+#define CLASS_2_208CC9941471731A_446_METHOD_2_860787EF93A67C73_OFFSET UNITYSDK_OFFSET(0x18577AB0)
+#define CLASS_2_208CC9941471731A_446__CTOR_OFFSET UNITYSDK_OFFSET(0x18577A90)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_446_TypeDefinitionIndex = 11638;
+inline static constexpr unsigned int Class_2_208CC9941471731A_446_TypeDefinitionIndex = 17607;
 
-class Class_2_208CC9941471731A_446 : public ::Class_1_EBCA2A4357C4C8BF_32
+class Class_2_208CC9941471731A_446 : public ::Class_1_48F4A404A08692BE_65
 {
 public:
-	::System::Void _ctor(::Struct_2_58DF5669875F2C66_71 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_97 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_58DF5669875F2C66_71, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_97, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::Class_2_6D99A03C58ED2B6E_1* Method_2_860787EF93A67C73()
+	{
+		return ((::Class_2_6D99A03C58ED2B6E_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446_METHOD_2_860787EF93A67C73_OFFSET))(this);
+	}
+
+	::System::String* Method_2_35EA095E1AFDD9C8()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
 	}
 };

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDGenericDataSource_1_TypeDefinitionIndex = 71853;
+	inline static constexpr unsigned int LDDGenericDataSource_1_TypeDefinitionIndex = 66682;
 
 	template <typename T>
 	class LDDGenericDataSource_1 : public ::System::Object

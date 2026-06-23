@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelTimerWidgetOperation_TypeDefinitionIndex = 50419;
+	inline static constexpr unsigned int InLevelTimerWidgetOperation_TypeDefinitionIndex = 77777;
 
 	enum class InLevelTimerWidgetOperation : ::System::Int32
 	{
-		None = 0,
 		Warning = 1,
+		None = 0,
 	};
 }

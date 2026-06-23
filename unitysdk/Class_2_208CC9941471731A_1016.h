@@ -1,27 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_06539F1E30FD04C9.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_482.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Class_1_5DA2E7556103D5A3_8.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_40.h"
 
-class Class_0_16E4307DCC419505_13;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_7;
 
-#define CLASS_2_208CC9941471731A_1016_METHOD_2_2009AD5E74A906A3_OFFSET UNITYSDK_OFFSET(0x1332FDB0)
-#define CLASS_2_208CC9941471731A_1016__CTOR_OFFSET UNITYSDK_OFFSET(0x1332FDA0)
+#define CLASS_2_208CC9941471731A_1016__CTOR_OFFSET UNITYSDK_OFFSET(0x184FDBF0)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_1016_TypeDefinitionIndex = 17497;
+inline static constexpr unsigned int Class_2_208CC9941471731A_1016_TypeDefinitionIndex = 18023;
 
-class Class_2_208CC9941471731A_1016 : public ::Class_1_06539F1E30FD04C9
+class Class_2_208CC9941471731A_1016 : public ::Class_1_5DA2E7556103D5A3_8
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_482 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_40 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_482, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::UnityEngine::Vector3 Method_2_2009AD5E74A906A3(::System::Collections::Generic::List_1<::System::Single>* a1)
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016_METHOD_2_2009AD5E74A906A3_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_40, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016__CTOR_OFFSET))(this, a1, a2);
 	}
 };

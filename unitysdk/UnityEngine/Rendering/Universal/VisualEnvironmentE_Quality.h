@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_Quality_TypeDefinitionIndex = 29907;
+	inline static constexpr unsigned int VisualEnvironmentE_Quality_TypeDefinitionIndex = 26505;
 
 	enum class VisualEnvironmentE_Quality : ::System::Int32
 	{

@@ -9,12 +9,12 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1C5250C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C524E00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1E8589B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8586F0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 26098;
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 28592;
 
 	class SingleFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{

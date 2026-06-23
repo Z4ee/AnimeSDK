@@ -5,24 +5,24 @@
 namespace FluffyUnderware::Curvy::Generator { class CGGameObject; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0BC4B0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BC4F0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__REFRESH_B__24_0_OFFSET UNITYSDK_OFFSET(0x1C0BC500)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B9310)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B9350)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEGAMEOBJECT___C__REFRESH_B__24_0_OFFSET UNITYSDK_OFFSET(0x1E3B9360)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int CreateGameObject___c_TypeDefinitionIndex = 37403;
+	inline static constexpr unsigned int CreateGameObject___c_TypeDefinitionIndex = 38878;
 
 	class CreateGameObject___c : public ::System::Object
 	{
 	public:
-		static ::FluffyUnderware::Curvy::Generator::Modules::CreateGameObject___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::CreateGameObject___c**)Il2CppClass::FromTypeDefinitionIndex(CreateGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27720);
-		}
 		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGGameObject*>** StaticGet___9__24_0()
 		{
-			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGGameObject*>**)Il2CppClass::FromTypeDefinitionIndex(CreateGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27728);
+			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGGameObject*>**)Il2CppClass::FromTypeDefinitionIndex(CreateGameObject___c_TypeDefinitionIndex)->GetStaticField(0x29340);
+		}
+		static ::FluffyUnderware::Curvy::Generator::Modules::CreateGameObject___c** StaticGet___9()
+		{
+			return (::FluffyUnderware::Curvy::Generator::Modules::CreateGameObject___c**)Il2CppClass::FromTypeDefinitionIndex(CreateGameObject___c_TypeDefinitionIndex)->GetStaticField(0x29348);
 		}
 
 		static ::System::Void _cctor()

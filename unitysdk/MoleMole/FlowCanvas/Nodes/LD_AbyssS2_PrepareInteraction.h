@@ -5,19 +5,19 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x160455F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x160456D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x16045710)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BB8CE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB8DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x12BB8E00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_PrepareInteraction_TypeDefinitionIndex = 41169;
+	inline static constexpr unsigned int LD_AbyssS2_PrepareInteraction_TypeDefinitionIndex = 70958;
 
 	class LD_AbyssS2_PrepareInteraction : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::FlowOutput* _error; // 0xB0
+		::FlowCanvas::FlowOutput* _error; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 
 		::System::Void _ctor()
 		{

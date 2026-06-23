@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVESETCLASSTYPETONULLONSCHEDULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD16B0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVESETCLASSTYPETONULLONSCHEDULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF2D560)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeSetClassTypeToNullOnScheduleAttribute_TypeDefinitionIndex = 5107;
+	inline static constexpr unsigned int NativeSetClassTypeToNullOnScheduleAttribute_TypeDefinitionIndex = 5106;
 
 	class NativeSetClassTypeToNullOnScheduleAttribute : public ::System::Attribute
 	{

@@ -7,10 +7,10 @@ namespace MoleMole { class ConfigNewbie_NewbieGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3C22783D2CFA1C8F_METHOD_1_4D91A38A2C1CC19D_OFFSET UNITYSDK_OFFSET(0x14619F50)
-#define CLASS_1_3C22783D2CFA1C8F__CTOR_OFFSET UNITYSDK_OFFSET(0x14619F40)
+#define CLASS_1_3C22783D2CFA1C8F_METHOD_1_4D91A38A2C1CC19D_OFFSET UNITYSDK_OFFSET(0x13ABBF60)
+#define CLASS_1_3C22783D2CFA1C8F__CTOR_OFFSET UNITYSDK_OFFSET(0x13ABBF50)
 
-inline static constexpr unsigned int Class_1_3C22783D2CFA1C8F_TypeDefinitionIndex = 50197;
+inline static constexpr unsigned int Class_1_3C22783D2CFA1C8F_TypeDefinitionIndex = 70276;
 
 class Class_1_3C22783D2CFA1C8F : public ::System::Object
 {
@@ -62,7 +62,9 @@ public:
 	// static const ::System::String* Field_1_44; // 0x0
 	// static const ::System::String* Field_1_45; // 0x0
 	// static const ::System::String* Field_1_46; // 0x0
-	::Foundation::AssetRequestHandle Field_1_47; // 0x10
+	// static const ::System::String* Field_1_47; // 0x0
+	// static const ::System::String* Field_1_48; // 0x0
+	::Foundation::AssetRequestHandle Field_1_49; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159ED980)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159ED990)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159EDBE0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159EDDE0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159EDDA0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12717820)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12717830)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12717A80)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12717C80)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND_CONFIGHOLLOWTIMEREWIND_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12717C40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex = 58175;
+	inline static constexpr unsigned int ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex = 43469;
 
 	class ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHollowTimeRewind*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData>>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData>>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49270);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ColorModifyInfo>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ColorModifyInfo>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49278);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ColorModifyInfo>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA60);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData>>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData>>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowTimeRewind_ConfigHollowTimeRewind_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA68);
 		}
 
 		::System::Void _ctor()

@@ -7,14 +7,14 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFE0EE0)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AFE0F70)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1AFE1000)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE0E20)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D457950)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D4579E0)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D457A70)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D457890)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int InvalidDataException_TypeDefinitionIndex = 3230;
+	inline static constexpr unsigned int InvalidDataException_TypeDefinitionIndex = 3229;
 
 	class InvalidDataException : public ::System::SystemException
 	{

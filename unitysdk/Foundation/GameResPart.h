@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_GAMERESPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1B46C620)
+#define FOUNDATION_GAMERESPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F6160)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int GameResPart_TypeDefinitionIndex = 7811;
+	inline static constexpr unsigned int GameResPart_TypeDefinitionIndex = 7736;
 
 	class GameResPart : public ::System::Object
 	{
 	public:
-		::System::String* res_revision; // 0x10
+		::System::String* audio_revision; // 0x10
 		::System::String* base_url; // 0x18
-		::System::String* audio_revision; // 0x20
+		::System::String* res_revision; // 0x20
 		::System::String* md5_files; // 0x28
 
 		::System::Void _ctor()

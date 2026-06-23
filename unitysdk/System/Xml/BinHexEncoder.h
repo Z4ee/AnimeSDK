@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1B8E66C0)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B8E6580)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1DC3EB50)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1DC3EA10)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinHexEncoder_TypeDefinitionIndex = 1666;
+	inline static constexpr unsigned int BinHexEncoder_TypeDefinitionIndex = 1665;
 
 	class BinHexEncoder : public ::System::Object
 	{

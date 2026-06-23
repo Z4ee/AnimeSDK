@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ActivityBangbooGalH5Info_ProgressInfo; }
 
-#define MOLEMOLE_ACTIVITYBANGBOOGALH5INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17425870)
+#define MOLEMOLE_ACTIVITYBANGBOOGALH5INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1701F390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityBangbooGalH5Info_TypeDefinitionIndex = 50570;
+	inline static constexpr unsigned int ActivityBangbooGalH5Info_TypeDefinitionIndex = 55621;
 
 	class ActivityBangbooGalH5Info : public ::System::Object
 	{

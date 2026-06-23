@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_EmitParams_TypeDefinitionIndex = 24865;
+	inline static constexpr unsigned int ParticleSystem_EmitParams_TypeDefinitionIndex = 18769;
 
 	struct alignas(4) ParticleSystem_EmitParams
 	{

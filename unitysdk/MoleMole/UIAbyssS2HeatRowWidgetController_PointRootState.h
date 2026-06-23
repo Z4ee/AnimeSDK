@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2HeatRowWidgetController_PointRootState_TypeDefinitionIndex = 81434;
+	inline static constexpr unsigned int UIAbyssS2HeatRowWidgetController_PointRootState_TypeDefinitionIndex = 43702;
 
 	enum class UIAbyssS2HeatRowWidgetController_PointRootState : ::System::Int32
 	{
-		UnSelected = 1,
 		Locked = 0,
 		Selected = 2,
+		UnSelected = 1,
 	};
 }

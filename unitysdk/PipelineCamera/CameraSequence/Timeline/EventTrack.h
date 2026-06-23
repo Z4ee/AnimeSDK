@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55DE10)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D730)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int EventTrack_TypeDefinitionIndex = 84913;
+	inline static constexpr unsigned int EventTrack_TypeDefinitionIndex = 90487;
 
 	class EventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

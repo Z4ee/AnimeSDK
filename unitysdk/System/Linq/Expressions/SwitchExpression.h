@@ -10,30 +10,30 @@ namespace System::Linq::Expressions { class ExpressionVisitor; }
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1BBE20E0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1BBE20B0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1BBE20D0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1BBE20C0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_ISLIFTED_OFFSET UNITYSDK_OFFSET(0x1BBE2110)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1BBE2090)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1BBE20A0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BBE2080)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BBE2310)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE23D0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2000)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1DF36330)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1DF36300)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1DF36320)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1DF36310)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_ISLIFTED_OFFSET UNITYSDK_OFFSET(0x1DF36360)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1DF362E0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1DF362F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DF362D0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DF36560)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF36620)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF36250)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 4543;
+	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 4542;
 
 	class SwitchExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x10
-		::System::Type* _Type_k__BackingField; // 0x18
-		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x20
-		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x28
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x30
+		::System::Type* _Type_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x18
+		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x20
+		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x28
+		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x30
 
 		::System::Void _ctor(::System::Type* type, ::System::Linq::Expressions::Expression* switchValue, ::System::Linq::Expressions::Expression* defaultBody, ::System::Reflection::MethodInfo* comparison, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* cases)
 		{

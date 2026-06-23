@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CURVEPOINT_GET_T_OFFSET UNITYSDK_OFFSET(0x76F400)
-#define CURVEPOINT_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x28B580)
-#define CURVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x76F420)
+#define CURVEPOINT_GET_T_OFFSET UNITYSDK_OFFSET(0x80F4D0)
+#define CURVEPOINT_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x2A99F0)
+#define CURVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x80F4F0)
 
-inline static constexpr unsigned int CurvePoint_TypeDefinitionIndex = 40081;
+inline static constexpr unsigned int CurvePoint_TypeDefinitionIndex = 67902;
 
 struct alignas(8) CurvePoint
 {

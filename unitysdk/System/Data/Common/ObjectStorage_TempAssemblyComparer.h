@@ -7,21 +7,21 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace System::Xml::Serialization { class XmlRootAttribute; }
 
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B7EDE40)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B7EE000)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7EE0E0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EDE30)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DBD0380)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DBD0540)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBD0620)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_TEMPASSEMBLYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD0370)
 
 namespace System::Data::Common
 {
-	inline static constexpr unsigned int ObjectStorage_TempAssemblyComparer_TypeDefinitionIndex = 37133;
+	inline static constexpr unsigned int ObjectStorage_TempAssemblyComparer_TypeDefinitionIndex = 38750;
 
 	class ObjectStorage_TempAssemblyComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>>** StaticGet_s_default()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>>**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TempAssemblyComparer_TypeDefinitionIndex)->GetStaticField(0x27400);
+			return (::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>>**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TempAssemblyComparer_TypeDefinitionIndex)->GetStaticField(0x290A0);
 		}
 
 		::System::Void _ctor()

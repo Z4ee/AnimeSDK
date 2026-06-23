@@ -6,11 +6,11 @@
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_TVMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC9C20)
+#define MOLEMOLE_TIMELINE_TVMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12668C70)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TVMaterialBehaviour_TypeDefinitionIndex = 48841;
+	inline static constexpr unsigned int TVMaterialBehaviour_TypeDefinitionIndex = 53952;
 
 	class TVMaterialBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

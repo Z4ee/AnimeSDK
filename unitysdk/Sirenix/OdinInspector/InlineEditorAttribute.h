@@ -4,32 +4,32 @@
 #include "unitysdk/Sirenix/OdinInspector/InlineEditorObjectFieldModes.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_GET_EXPANDEDHASVALUE_OFFSET UNITYSDK_OFFSET(0x1C020270)
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_GET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x1C020250)
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_SET_EXPANDEDHASVALUE_OFFSET UNITYSDK_OFFSET(0x1C020280)
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x1C020260)
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C020370)
-#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020290)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_GET_EXPANDEDHASVALUE_OFFSET UNITYSDK_OFFSET(0x1E329570)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_GET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x1E329550)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_SET_EXPANDEDHASVALUE_OFFSET UNITYSDK_OFFSET(0x1E329580)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x1E329560)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E329670)
+#define SIRENIX_ODININSPECTOR_INLINEEDITORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329590)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int InlineEditorAttribute_TypeDefinitionIndex = 7190;
+	inline static constexpr unsigned int InlineEditorAttribute_TypeDefinitionIndex = 7321;
 
 	class InlineEditorAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Single PreviewWidth; // 0x10
-		::System::Single MaxHeight; // 0x14
-		::System::Boolean DrawGUI; // 0x18
-		::System::Boolean _ExpandedHasValue_k__BackingField; // 0x19
-		::System::Boolean expanded; // 0x1A
-		::System::Boolean DrawHeader; // 0x1B
-		::Sirenix::OdinInspector::InlineEditorObjectFieldModes ObjectFieldMode; // 0x1C
-		::System::Single PreviewHeight; // 0x20
-		::System::Boolean HideObjectField; // 0x24
-		::System::Boolean DisableGUIForVCSLockedAssets; // 0x25
-		::System::Boolean IncrementInlineEditorDrawerDepth; // 0x26
-		::System::Boolean DrawPreview; // 0x27
+		::Sirenix::OdinInspector::InlineEditorObjectFieldModes ObjectFieldMode; // 0x10
+		::System::Single PreviewWidth; // 0x14
+		::System::Single PreviewHeight; // 0x18
+		::System::Single MaxHeight; // 0x1C
+		::System::Boolean _ExpandedHasValue_k__BackingField; // 0x20
+		::System::Boolean DrawPreview; // 0x21
+		::System::Boolean DrawGUI; // 0x22
+		::System::Boolean DisableGUIForVCSLockedAssets; // 0x23
+		::System::Boolean DrawHeader; // 0x24
+		::System::Boolean HideObjectField; // 0x25
+		::System::Boolean expanded; // 0x26
+		::System::Boolean IncrementInlineEditorDrawerDepth; // 0x27
 
 		::System::Void _ctor(::Sirenix::OdinInspector::InlineEditorModes inlineEditorMode, ::Sirenix::OdinInspector::InlineEditorObjectFieldModes objectFieldMode)
 		{

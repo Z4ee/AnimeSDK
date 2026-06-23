@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_EC9E7818B91C3AA0.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_78783A73BC2E7725;
-namespace System { class EventArgs; }
+class Class_1_43BD383C98B4C0C5_57;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_323_TypeDefinitionIndex = 69201;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_323_TypeDefinitionIndex = 72955;
 
 class Class_1_534AF681CC2BD5FD_323 : public ::System::Object
 {

@@ -8,39 +8,39 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BB6BD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB6C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__ONEVENTFROMANYONE_B__16_0_OFFSET UNITYSDK_OFFSET(0x10BB7060)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_1_OFFSET UNITYSDK_OFFSET(0x10BB6C20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_2_OFFSET UNITYSDK_OFFSET(0x10BB6E50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_4_OFFSET UNITYSDK_OFFSET(0x10BB6F20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15125080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151250C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__ONEVENTFROMANYONE_B__16_0_OFFSET UNITYSDK_OFFSET(0x15125520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_1_OFFSET UNITYSDK_OFFSET(0x151250D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_2_OFFSET UNITYSDK_OFFSET(0x15125300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C___HANDLELEVEL_AREAEND_B__11_4_OFFSET UNITYSDK_OFFSET(0x151253E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex = 48200;
+	inline static constexpr unsigned int LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex = 72017;
 
 	class LD_AbyssS2_LoadNextArea___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>** StaticGet___9__11_4()
+		static ::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>** StaticGet___9__11_1()
 		{
-			return (::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x3E980);
-		}
-		static ::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>** StaticGet___9__11_2()
-		{
-			return (::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x3E988);
+			return (::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x40F40);
 		}
 		static ::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_LoadNextArea___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_LoadNextArea___c**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x3E990);
+			return (::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_LoadNextArea___c**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x40F48);
 		}
-		static ::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>** StaticGet___9__11_1()
+		static ::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>** StaticGet___9__11_2()
 		{
-			return (::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x3E998);
+			return (::System::Action_2<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4_Class_3_4B4D321FDD8FF874*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x40F50);
+		}
+		static ::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>** StaticGet___9__11_4()
+		{
+			return (::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x40F58);
 		}
 		static ::System::Action** StaticGet___9__16_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x3E9A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x40F60);
 		}
 
 		static ::System::Void _cctor()

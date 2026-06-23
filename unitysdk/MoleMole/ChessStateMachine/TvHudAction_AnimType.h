@@ -3,7 +3,7 @@
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TvHudAction_AnimType_TypeDefinitionIndex = 55963;
+	inline static constexpr unsigned int TvHudAction_AnimType_TypeDefinitionIndex = 63731;
 
 	enum class TvHudAction_AnimType : ::System::Int32
 	{

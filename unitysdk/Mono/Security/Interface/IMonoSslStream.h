@@ -21,7 +21,7 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int IMonoSslStream_TypeDefinitionIndex = 2436;
+	inline static constexpr unsigned int IMonoSslStream_TypeDefinitionIndex = 2435;
 
 	class IMonoSslStream
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_COLORCURVES__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA57A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_COLORCURVES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC39E40)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int ScenePostProcessingConfig_ColorCurves_TypeDefinitionIndex = 30316;
+	inline static constexpr unsigned int ScenePostProcessingConfig_ColorCurves_TypeDefinitionIndex = 26901;
 
 	class ScenePostProcessingConfig_ColorCurves : public ::System::Object
 	{

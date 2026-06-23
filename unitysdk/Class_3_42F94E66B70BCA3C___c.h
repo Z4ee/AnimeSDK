@@ -5,22 +5,22 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_3_42F94E66B70BCA3C___C_METHOD_1_51BC74883F962039_OFFSET UNITYSDK_OFFSET(0x119FE1B0)
-#define CLASS_3_42F94E66B70BCA3C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x119FE160)
-#define CLASS_3_42F94E66B70BCA3C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x119FE1A0)
+#define CLASS_3_42F94E66B70BCA3C___C_METHOD_1_51BC74883F962039_OFFSET UNITYSDK_OFFSET(0x168038A0)
+#define CLASS_3_42F94E66B70BCA3C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16803850)
+#define CLASS_3_42F94E66B70BCA3C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16803890)
 
-inline static constexpr unsigned int Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex = 76948;
+inline static constexpr unsigned int Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex = 76928;
 
 class Class_3_42F94E66B70BCA3C___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>** StaticGet___9__7_0()
-	{
-		return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex)->GetStaticField(0x3F620);
-	}
 	static ::Class_3_42F94E66B70BCA3C___c** StaticGet___9()
 	{
-		return (::Class_3_42F94E66B70BCA3C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex)->GetStaticField(0x3F628);
+		return (::Class_3_42F94E66B70BCA3C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex)->GetStaticField(0x4A3D0);
+	}
+	static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>** StaticGet___9__7_0()
+	{
+		return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F94E66B70BCA3C___c_TypeDefinitionIndex)->GetStaticField(0x4A3D8);
 	}
 
 	static ::System::Void _cctor()

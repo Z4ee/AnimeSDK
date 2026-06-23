@@ -3,7 +3,7 @@
 
 namespace Mono::Math
 {
-	inline static constexpr unsigned int BigInteger_Sign_TypeDefinitionIndex = 2482;
+	inline static constexpr unsigned int BigInteger_Sign_TypeDefinitionIndex = 2481;
 
 	enum class BigInteger_Sign : ::System::Int32
 	{

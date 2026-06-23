@@ -8,58 +8,58 @@ namespace Dest::Math { class Vector2ex_Information; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DEST_MATH_VECTOR2EX_ANGLEDEG_OFFSET UNITYSDK_OFFSET(0x1BB1C490)
-#define DEST_MATH_VECTOR2EX_ANGLERAD_OFFSET UNITYSDK_OFFSET(0x1BB1C6E0)
-#define DEST_MATH_VECTOR2EX_DOTPERP_1_OFFSET UNITYSDK_OFFSET(0x1BB1C410)
-#define DEST_MATH_VECTOR2EX_DOTPERP_2_OFFSET UNITYSDK_OFFSET(0x1BB1C430)
-#define DEST_MATH_VECTOR2EX_DOTPERP_OFFSET UNITYSDK_OFFSET(0x1BB1C3E0)
-#define DEST_MATH_VECTOR2EX_DOT_1_OFFSET UNITYSDK_OFFSET(0x1BB1C450)
-#define DEST_MATH_VECTOR2EX_DOT_2_OFFSET UNITYSDK_OFFSET(0x1BB1C470)
-#define DEST_MATH_VECTOR2EX_DOT_OFFSET UNITYSDK_OFFSET(0x1BB1C360)
-#define DEST_MATH_VECTOR2EX_GETINFORMATION_OFFSET UNITYSDK_OFFSET(0x1BB1B7F0)
-#define DEST_MATH_VECTOR2EX_GROWLENGTH_OFFSET UNITYSDK_OFFSET(0x1BB1C920)
-#define DEST_MATH_VECTOR2EX_LENGTHSQR_OFFSET UNITYSDK_OFFSET(0x1BB1C3C0)
-#define DEST_MATH_VECTOR2EX_LENGTH_OFFSET UNITYSDK_OFFSET(0x1BB1C390)
-#define DEST_MATH_VECTOR2EX_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1BB1C660)
-#define DEST_MATH_VECTOR2EX_PERP_OFFSET UNITYSDK_OFFSET(0x1BB1C350)
-#define DEST_MATH_VECTOR2EX_REPLICATE_OFFSET UNITYSDK_OFFSET(0x1BB1C9B0)
-#define DEST_MATH_VECTOR2EX_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1BB1C8A0)
-#define DEST_MATH_VECTOR2EX_TOSTRINGEX_OFFSET UNITYSDK_OFFSET(0x1BB1CA20)
-#define DEST_MATH_VECTOR2EX_TOVECTOR3XY_OFFSET UNITYSDK_OFFSET(0x1BB1C9C0)
-#define DEST_MATH_VECTOR2EX_TOVECTOR3XZ_OFFSET UNITYSDK_OFFSET(0x1BB1C9E0)
-#define DEST_MATH_VECTOR2EX_TOVECTOR3YZ_OFFSET UNITYSDK_OFFSET(0x1BB1CA00)
-#define DEST_MATH_VECTOR2EX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB1CAE0)
+#define DEST_MATH_VECTOR2EX_ANGLEDEG_OFFSET UNITYSDK_OFFSET(0x1DEA3610)
+#define DEST_MATH_VECTOR2EX_ANGLERAD_OFFSET UNITYSDK_OFFSET(0x1DEA3860)
+#define DEST_MATH_VECTOR2EX_DOTPERP_1_OFFSET UNITYSDK_OFFSET(0x1DEA3590)
+#define DEST_MATH_VECTOR2EX_DOTPERP_2_OFFSET UNITYSDK_OFFSET(0x1DEA35B0)
+#define DEST_MATH_VECTOR2EX_DOTPERP_OFFSET UNITYSDK_OFFSET(0x1DEA3560)
+#define DEST_MATH_VECTOR2EX_DOT_1_OFFSET UNITYSDK_OFFSET(0x1DEA35D0)
+#define DEST_MATH_VECTOR2EX_DOT_2_OFFSET UNITYSDK_OFFSET(0x1DEA35F0)
+#define DEST_MATH_VECTOR2EX_DOT_OFFSET UNITYSDK_OFFSET(0x1DEA34E0)
+#define DEST_MATH_VECTOR2EX_GETINFORMATION_OFFSET UNITYSDK_OFFSET(0x1DEA2970)
+#define DEST_MATH_VECTOR2EX_GROWLENGTH_OFFSET UNITYSDK_OFFSET(0x1DEA3AA0)
+#define DEST_MATH_VECTOR2EX_LENGTHSQR_OFFSET UNITYSDK_OFFSET(0x1DEA3540)
+#define DEST_MATH_VECTOR2EX_LENGTH_OFFSET UNITYSDK_OFFSET(0x1DEA3510)
+#define DEST_MATH_VECTOR2EX_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1DEA37E0)
+#define DEST_MATH_VECTOR2EX_PERP_OFFSET UNITYSDK_OFFSET(0x1DEA34D0)
+#define DEST_MATH_VECTOR2EX_REPLICATE_OFFSET UNITYSDK_OFFSET(0x1DEA3B30)
+#define DEST_MATH_VECTOR2EX_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1DEA3A20)
+#define DEST_MATH_VECTOR2EX_TOSTRINGEX_OFFSET UNITYSDK_OFFSET(0x1DEA3BA0)
+#define DEST_MATH_VECTOR2EX_TOVECTOR3XY_OFFSET UNITYSDK_OFFSET(0x1DEA3B40)
+#define DEST_MATH_VECTOR2EX_TOVECTOR3XZ_OFFSET UNITYSDK_OFFSET(0x1DEA3B60)
+#define DEST_MATH_VECTOR2EX_TOVECTOR3YZ_OFFSET UNITYSDK_OFFSET(0x1DEA3B80)
+#define DEST_MATH_VECTOR2EX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA3C60)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Vector2ex_TypeDefinitionIndex = 33180;
+	inline static constexpr unsigned int Vector2ex_TypeDefinitionIndex = 34743;
 
 	class Vector2ex : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector2* StaticGet_NegativeInfinity()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8010);
-		}
-		static ::UnityEngine::Vector2* StaticGet_One()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8018);
-		}
 		static ::UnityEngine::Vector2* StaticGet_PositiveInfinity()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8020);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84B0);
 		}
 		static ::UnityEngine::Vector2* StaticGet_UnitY()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8028);
-		}
-		static ::UnityEngine::Vector2* StaticGet_Zero()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8030);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84B8);
 		}
 		static ::UnityEngine::Vector2* StaticGet_UnitX()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x8038);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84C0);
+		}
+		static ::UnityEngine::Vector2* StaticGet_One()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84C8);
+		}
+		static ::UnityEngine::Vector2* StaticGet_Zero()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84D0);
+		}
+		static ::UnityEngine::Vector2* StaticGet_NegativeInfinity()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Vector2ex_TypeDefinitionIndex)->GetStaticField(0x84D8);
 		}
 
 		static ::System::Void _cctor()

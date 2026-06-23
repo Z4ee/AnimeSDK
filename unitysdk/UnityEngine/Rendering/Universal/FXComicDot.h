@@ -11,13 +11,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::Rendering::Universal { class ComicDotTypeParameter; }
 namespace UnityEngine::Rendering::Universal { class ComponentMaskParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19AB1490)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x19AB1510)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB1550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1BDB9B70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1BDB9BF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB9C30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FXComicDot_TypeDefinitionIndex = 29874;
+	inline static constexpr unsigned int FXComicDot_TypeDefinitionIndex = 27001;
 
 	class FXComicDot : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

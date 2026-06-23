@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int RuleCache_1_TypeDefinitionIndex = 4962;
+	inline static constexpr unsigned int RuleCache_1_TypeDefinitionIndex = 4961;
 
 	template <typename T>
 	class RuleCache_1 : public ::System::Object

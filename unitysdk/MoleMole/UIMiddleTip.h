@@ -6,20 +6,20 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIMIDDLETIP_HIDE_OFFSET UNITYSDK_OFFSET(0x15C50280)
-#define MOLEMOLE_UIMIDDLETIP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x15C50150)
-#define MOLEMOLE_UIMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4FFC0)
+#define MOLEMOLE_UIMIDDLETIP_HIDE_OFFSET UNITYSDK_OFFSET(0x16C10070)
+#define MOLEMOLE_UIMIDDLETIP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x16C0FE30)
+#define MOLEMOLE_UIMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C0FCB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiddleTip_TypeDefinitionIndex = 71419;
+	inline static constexpr unsigned int UIMiddleTip_TypeDefinitionIndex = 79474;
 
 	class UIMiddleTip : public ::MoleMole::TipShowObj
 	{
 	public:
-		::System::String* ExtraMessage; // 0x30
+		::System::String* message; // 0x30
 		::System::String* Icon; // 0x38
-		::System::String* message; // 0x40
+		::System::String* ExtraMessage; // 0x40
 		::System::Boolean ShowMainMessage; // 0x48
 		::System::Boolean ShowIcon; // 0x49
 		::System::Boolean IsCanceled; // 0x4A

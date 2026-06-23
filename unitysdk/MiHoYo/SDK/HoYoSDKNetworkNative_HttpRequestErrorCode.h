@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkNative_HttpRequestErrorCode_TypeDefinitionIndex = 34940;
+	inline static constexpr unsigned int HoYoSDKNetworkNative_HttpRequestErrorCode_TypeDefinitionIndex = 36503;
 
 	enum class HoYoSDKNetworkNative_HttpRequestErrorCode : ::System::Int32
 	{

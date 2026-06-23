@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKINTERACTIONALLCLEAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E14470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKINTERACTIONALLCLEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x10E14520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKINTERACTIONALLCLEAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B2B500)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKINTERACTIONALLCLEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2B5B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CheckInteractionAllClear_TypeDefinitionIndex = 67992;
+	inline static constexpr unsigned int LD_AbyssS2_CheckInteractionAllClear_TypeDefinitionIndex = 62015;
 
 	class LD_AbyssS2_CheckInteractionAllClear : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*>
 	{

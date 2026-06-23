@@ -7,21 +7,21 @@ class UIControllerExtensionData;
 namespace MoleMole { class UIActivityDemoTrialPreviewBtnWidgetController; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Animation; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_426D34B41459A2E5_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14D0F980)
-#define CLASS_2_426D34B41459A2E5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14D0FA50)
-#define CLASS_2_426D34B41459A2E5_METHOD_2_ECD1B788BD780B17_OFFSET UNITYSDK_OFFSET(0x14D0F810)
-#define CLASS_2_426D34B41459A2E5__CTOR_OFFSET UNITYSDK_OFFSET(0x14D0FA40)
+#define CLASS_2_426D34B41459A2E5_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14453440)
+#define CLASS_2_426D34B41459A2E5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14453510)
+#define CLASS_2_426D34B41459A2E5_METHOD_2_ECD1B788BD780B17_OFFSET UNITYSDK_OFFSET(0x144532D0)
+#define CLASS_2_426D34B41459A2E5__CTOR_OFFSET UNITYSDK_OFFSET(0x14453500)
 
-inline static constexpr unsigned int Class_2_426D34B41459A2E5_TypeDefinitionIndex = 49792;
+inline static constexpr unsigned int Class_2_426D34B41459A2E5_TypeDefinitionIndex = 67463;
 
 class Class_2_426D34B41459A2E5 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivityDemoTrialPreviewBtnWidgetController*>* Field_2_0; // 0x18
-	::UIControllerExtensionData* Field_2_2; // 0x20
-	::UnityEngine::Animation* Field_2_1; // 0x28
+	::UIControllerExtensionData* Field_2_2; // 0x18
+	::UnityEngine::Animation* Field_2_1; // 0x20
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityDemoTrialPreviewBtnWidgetController*>* Field_2_0; // 0x28
 
 	::System::Void _ctor()
 	{

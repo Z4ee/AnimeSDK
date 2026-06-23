@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineDollyCart_UpdateMethod_TypeDefinitionIndex = 32476;
+	inline static constexpr unsigned int CinemachineDollyCart_UpdateMethod_TypeDefinitionIndex = 34027;
 
 	enum class CinemachineDollyCart_UpdateMethod : ::System::Int32
 	{

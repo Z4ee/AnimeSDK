@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int SimpleLastDataCacheConfig_TypeDefinitionIndex = 36395;
+	inline static constexpr unsigned int SimpleLastDataCacheConfig_TypeDefinitionIndex = 38003;
 
 	struct alignas(8) SimpleLastDataCacheConfig
 	{

@@ -11,24 +11,30 @@
 
 namespace System { class String; }
 
-#define SYSTEM_MEMORYEXTENSIONS_ASMEMORY_OFFSET UNITYSDK_OFFSET(0x1BA1DCE0)
-#define SYSTEM_MEMORYEXTENSIONS_ASSPAN_1_OFFSET UNITYSDK_OFFSET(0x1BA1DB90)
-#define SYSTEM_MEMORYEXTENSIONS_ASSPAN_OFFSET UNITYSDK_OFFSET(0x1BA1DB10)
-#define SYSTEM_MEMORYEXTENSIONS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1BA1D930)
-#define SYSTEM_MEMORYEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1BA1DA00)
-#define SYSTEM_MEMORYEXTENSIONS_MEASURESTRINGADJUSTMENT_OFFSET UNITYSDK_OFFSET(0x1BA1DD90)
-#define SYSTEM_MEMORYEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DDE0)
+#define SYSTEM_MEMORYEXTENSIONS_ASMEMORY_OFFSET UNITYSDK_OFFSET(0x1DC7F000)
+#define SYSTEM_MEMORYEXTENSIONS_ASSPAN_1_OFFSET UNITYSDK_OFFSET(0x1DC7EEB0)
+#define SYSTEM_MEMORYEXTENSIONS_ASSPAN_OFFSET UNITYSDK_OFFSET(0x1DC7EE30)
+#define SYSTEM_MEMORYEXTENSIONS_COMPARETOORDINALIGNORECASE_OFFSET UNITYSDK_OFFSET(0x1DC7EC90)
+#define SYSTEM_MEMORYEXTENSIONS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1DC7E730)
+#define SYSTEM_MEMORYEXTENSIONS_EQUALSORDINALIGNORECASE_OFFSET UNITYSDK_OFFSET(0x1DC7EBC0)
+#define SYSTEM_MEMORYEXTENSIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DC7E910)
+#define SYSTEM_MEMORYEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1DC7E800)
+#define SYSTEM_MEMORYEXTENSIONS_MEASURESTRINGADJUSTMENT_OFFSET UNITYSDK_OFFSET(0x1DC7F0B0)
+#define SYSTEM_MEMORYEXTENSIONS_TRIMEND_OFFSET UNITYSDK_OFFSET(0x1DC7E560)
+#define SYSTEM_MEMORYEXTENSIONS_TRIMSTART_OFFSET UNITYSDK_OFFSET(0x1DC7E3A0)
+#define SYSTEM_MEMORYEXTENSIONS_TRIM_OFFSET UNITYSDK_OFFSET(0x1DC7E2F0)
+#define SYSTEM_MEMORYEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC7F100)
 
 namespace System
 {
-	inline static constexpr unsigned int MemoryExtensions_TypeDefinitionIndex = 7543;
+	inline static constexpr unsigned int MemoryExtensions_TypeDefinitionIndex = 6553;
 
 	class MemoryExtensions : public ::System::Object
 	{
 	public:
 		static ::System::IntPtr* StaticGet_StringAdjustment()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(MemoryExtensions_TypeDefinitionIndex)->GetStaticField(0x32D0);
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(MemoryExtensions_TypeDefinitionIndex)->GetStaticField(0x30F0);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +42,39 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS__CCTOR_OFFSET))();
 		}
 
+		static ::System::ReadOnlySpan_1<::System::Char> Trim(::System::ReadOnlySpan_1<::System::Char> span)
+		{
+			return ((::System::ReadOnlySpan_1<::System::Char>(*)(::System::ReadOnlySpan_1<::System::Char>))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_TRIM_OFFSET))(span);
+		}
+
+		static ::System::ReadOnlySpan_1<::System::Char> TrimStart(::System::ReadOnlySpan_1<::System::Char> span)
+		{
+			return ((::System::ReadOnlySpan_1<::System::Char>(*)(::System::ReadOnlySpan_1<::System::Char>))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_TRIMSTART_OFFSET))(span);
+		}
+
+		static ::System::ReadOnlySpan_1<::System::Char> TrimEnd(::System::ReadOnlySpan_1<::System::Char> span)
+		{
+			return ((::System::ReadOnlySpan_1<::System::Char>(*)(::System::ReadOnlySpan_1<::System::Char>))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_TRIMEND_OFFSET))(span);
+		}
+
 		static ::System::Boolean Contains(::System::ReadOnlySpan_1<::System::Char> span, ::System::ReadOnlySpan_1<::System::Char> value, ::System::StringComparison comparisonType)
 		{
 			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::ReadOnlySpan_1<::System::Char>, ::System::StringComparison))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_CONTAINS_OFFSET))(span, value, comparisonType);
+		}
+
+		static ::System::Boolean Equals(::System::ReadOnlySpan_1<::System::Char> span, ::System::ReadOnlySpan_1<::System::Char> other, ::System::StringComparison comparisonType)
+		{
+			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::ReadOnlySpan_1<::System::Char>, ::System::StringComparison))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_EQUALS_OFFSET))(span, other, comparisonType);
+		}
+
+		static ::System::Boolean EqualsOrdinalIgnoreCase(::System::ReadOnlySpan_1<::System::Char> span, ::System::ReadOnlySpan_1<::System::Char> other)
+		{
+			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::ReadOnlySpan_1<::System::Char>))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_EQUALSORDINALIGNORECASE_OFFSET))(span, other);
+		}
+
+		static ::System::Int32 CompareToOrdinalIgnoreCase(::System::ReadOnlySpan_1<::System::Char> strA, ::System::ReadOnlySpan_1<::System::Char> strB)
+		{
+			return ((::System::Int32(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::ReadOnlySpan_1<::System::Char>))((::PBYTE)hIl2Cpp + SYSTEM_MEMORYEXTENSIONS_COMPARETOORDINALIGNORECASE_OFFSET))(strA, strB);
 		}
 
 		static ::System::Int32 IndexOf(::System::ReadOnlySpan_1<::System::Char> span, ::System::ReadOnlySpan_1<::System::Char> value, ::System::StringComparison comparisonType)

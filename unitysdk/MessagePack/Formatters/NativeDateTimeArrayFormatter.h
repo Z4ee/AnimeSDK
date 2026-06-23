@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B49E480)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B49E3B0)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B49E560)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49E550)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D83E770)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D83E6A0)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D83E850)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83E840)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NativeDateTimeArrayFormatter_TypeDefinitionIndex = 27393;
+	inline static constexpr unsigned int NativeDateTimeArrayFormatter_TypeDefinitionIndex = 30538;
 
 	class NativeDateTimeArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NativeDateTimeArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NativeDateTimeArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x20D60);
+			return (::MessagePack::Formatters::NativeDateTimeArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x24AA0);
 		}
 
 		::System::Void _ctor()

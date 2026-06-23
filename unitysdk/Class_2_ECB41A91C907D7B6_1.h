@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_275515F210334D06.h"
+#include "unitysdk/Struct_2_1862835F8661A21F_442.h"
+
+class Class_2_E6512DD60E63A44C;
+namespace FlatBuffers { class ByteBuffer; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_ECB41A91C907D7B6_1_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x1BA51570)
+#define CLASS_2_ECB41A91C907D7B6_1_METHOD_2_52F693593F7BBFE8_OFFSET UNITYSDK_OFFSET(0x1BA51170)
+#define CLASS_2_ECB41A91C907D7B6_1_METHOD_2_C4297EFF013E4E78_OFFSET UNITYSDK_OFFSET(0x1BA51090)
+#define CLASS_2_ECB41A91C907D7B6_1_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1BA50F30)
+#define CLASS_2_ECB41A91C907D7B6_1_METHOD_2_DCBEA4EC7225BC80_OFFSET UNITYSDK_OFFSET(0x1BA51000)
+#define CLASS_2_ECB41A91C907D7B6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA50F70)
+
+inline static constexpr unsigned int Class_2_ECB41A91C907D7B6_1_TypeDefinitionIndex = 88139;
+
+class Class_2_ECB41A91C907D7B6_1 : public ::Class_1_275515F210334D06
+{
+public:
+	::Struct_2_1862835F8661A21F_442 Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_E6512DD60E63A44C*>* Field_2_1; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::Class_2_E6512DD60E63A44C*>* Method_2_DCBEA4EC7225BC80()
+	{
+		return ((::System::Collections::Generic::List_1<::Class_2_E6512DD60E63A44C*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1_METHOD_2_DCBEA4EC7225BC80_OFFSET))(this);
+	}
+
+	::Class_2_E6512DD60E63A44C* Method_2_C4297EFF013E4E78(::System::Int32 a1)
+	{
+		return ((::Class_2_E6512DD60E63A44C*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1_METHOD_2_C4297EFF013E4E78_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_52F693593F7BBFE8(::FlatBuffers::ByteBuffer* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1_METHOD_2_52F693593F7BBFE8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_30D1209326FA87FC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECB41A91C907D7B6_1_METHOD_2_30D1209326FA87FC_OFFSET))(this);
+	}
+};

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DragAndDropEventBase_1_TypeDefinitionIndex = 24994;
+	inline static constexpr unsigned int DragAndDropEventBase_1_TypeDefinitionIndex = 27497;
 
 	template <typename T>
 	class DragAndDropEventBase_1 : public ::UnityEngine::UIElements::MouseEventBase_1<T>

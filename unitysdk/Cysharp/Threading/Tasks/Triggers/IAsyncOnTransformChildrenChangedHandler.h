@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnTransformChildrenChangedHandler_TypeDefinitionIndex = 28756;
+	inline static constexpr unsigned int IAsyncOnTransformChildrenChangedHandler_TypeDefinitionIndex = 31412;
 
 	class IAsyncOnTransformChildrenChangedHandler
 	{

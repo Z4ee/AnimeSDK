@@ -4,10 +4,10 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6CFC4AC6EA5AD845_METHOD_1_179D080BB9B72242_OFFSET UNITYSDK_OFFSET(0x13F6F820)
-#define CLASS_1_6CFC4AC6EA5AD845__CTOR_OFFSET UNITYSDK_OFFSET(0x13F6F7D0)
+#define CLASS_1_6CFC4AC6EA5AD845_METHOD_1_179D080BB9B72242_OFFSET UNITYSDK_OFFSET(0x1310FA20)
+#define CLASS_1_6CFC4AC6EA5AD845__CTOR_OFFSET UNITYSDK_OFFSET(0x1310F9D0)
 
-inline static constexpr unsigned int Class_1_6CFC4AC6EA5AD845_TypeDefinitionIndex = 47426;
+inline static constexpr unsigned int Class_1_6CFC4AC6EA5AD845_TypeDefinitionIndex = 48217;
 
 class Class_1_6CFC4AC6EA5AD845 : public ::System::Object
 {

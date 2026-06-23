@@ -6,13 +6,13 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class SwitchCase; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1C069840)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1C069860)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0697A0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1E3867B0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1E3867D0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_SWITCHCASEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E386710)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_SwitchCaseProxy_TypeDefinitionIndex = 4423;
+	inline static constexpr unsigned int Expression_SwitchCaseProxy_TypeDefinitionIndex = 4422;
 
 	class Expression_SwitchCaseProxy : public ::System::Object
 	{

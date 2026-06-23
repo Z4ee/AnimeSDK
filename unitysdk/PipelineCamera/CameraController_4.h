@@ -14,7 +14,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraController_4_TypeDefinitionIndex = 35898;
+	inline static constexpr unsigned int CameraController_4_TypeDefinitionIndex = 37506;
 
 	template <typename TPlayerController, typename TPostPipeline, typename T1, typename T2>
 	class CameraController_4 : public ::PipelineCamera::BaseCameraController_2<TPlayerController, TPostPipeline>

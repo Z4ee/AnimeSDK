@@ -5,12 +5,12 @@
 
 namespace FlowCanvas::Nodes { class ANDMerge; }
 
-#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4572E0)
-#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B4572F0)
+#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81CBB0)
+#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D81CBC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ANDMerge___c__DisplayClass4_0_TypeDefinitionIndex = 26997;
+	inline static constexpr unsigned int ANDMerge___c__DisplayClass4_0_TypeDefinitionIndex = 30399;
 
 	class ANDMerge___c__DisplayClass4_0 : public ::System::Object
 	{

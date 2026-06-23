@@ -9,69 +9,74 @@ class Class_3_F2DAD7F45F518868;
 namespace NPCCrowd { class CrowdTickControlInstance; }
 namespace Nap::NapECS { class EcsEntity; }
 namespace Nap::NapECS { class EcsWorld; }
+namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_CHECKLOD_OFFSET UNITYSDK_OFFSET(0x112C68D0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_COLLECTRENDERERVISIBILITY_OFFSET UNITYSDK_OFFSET(0x112C60B0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xF403E90)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ENSUREVISIBILITYQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x112C5EE0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0xF4046F0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF4047F0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0xF4040B0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0xF404460)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4056F0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF404BF0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_REGISTERTICKCONTROLINSTANCE_OFFSET UNITYSDK_OFFSET(0xF404620)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_SETNPCLOD_OFFSET UNITYSDK_OFFSET(0x112C63F0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATENPCLOD_OFFSET UNITYSDK_OFFSET(0xF405130)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATERENDERERVISIBILITYBATCH_OFFSET UNITYSDK_OFFSET(0xF404C80)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xF404920)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x112C6AE0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x112C69B0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x112C6C20)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x112C6C30)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x112C6CC0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x112C6D50)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x112C6DF0)
-#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x112C6E90)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_CHECKLOD_OFFSET UNITYSDK_OFFSET(0x10D91570)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_COLLECTRENDERERVISIBILITY_OFFSET UNITYSDK_OFFSET(0x10D92530)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x10D8FC40)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ENSUREVISIBILITYQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x10D92360)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0x10D90570)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10D90670)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x10D8FE60)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_ONENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x10D902D0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10D92070)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x10D90A70)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_REGISTERTICKCONTROLINSTANCE_OFFSET UNITYSDK_OFFSET(0x10D904A0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_SETNPCLOD_OFFSET UNITYSDK_OFFSET(0x10D91650)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATENPCLOD_OFFSET UNITYSDK_OFFSET(0x10D90FA0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATERENDERERVISIBILITYBATCH_OFFSET UNITYSDK_OFFSET(0x10D90B00)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0x10D907A0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D92990)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10D92860)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x10D92AE0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x10D92AF0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10D92B80)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10D92C10)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x10D92CB0)
+#define NPCCROWD_LOD_NPCCROWDLODSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10D92D50)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodSubSystem_TypeDefinitionIndex = 70395;
+	inline static constexpr unsigned int NPCCrowdLodSubSystem_TypeDefinitionIndex = 61127;
 
 	class NPCCrowdLodSubSystem : public ::NPCCrowd::NPCCrowdModuleSubSystemBase
 	{
 	public:
-		static ::System::Action_2<::Class_3_F2DAD7F45F518868*, ::NPCCrowd::Lod::NPCCrowdLodSubSystem*>** StaticGet__collectRendererVisibilityCallback()
-		{
-			return (::System::Action_2<::Class_3_F2DAD7F45F518868*, ::NPCCrowd::Lod::NPCCrowdLodSubSystem*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x2F790);
-		}
 		static ::System::Collections::Generic::List_1<::NPCCrowd::CrowdTickControlInstance*>** StaticGet_AllTickControlInstances()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::CrowdTickControlInstance*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x2F798);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::CrowdTickControlInstance*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x31A30);
 		}
 		static ::NPCCrowd::CrowdTickControlInstance** StaticGet_LODTickControlInstance()
 		{
-			return (::NPCCrowd::CrowdTickControlInstance**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x2F7A0);
+			return (::NPCCrowd::CrowdTickControlInstance**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x31A38);
+		}
+		static ::System::Action_2<::Class_3_F2DAD7F45F518868*, ::NPCCrowd::Lod::NPCCrowdLodSubSystem*>** StaticGet__collectRendererVisibilityCallback()
+		{
+			return (::System::Action_2<::Class_3_F2DAD7F45F518868*, ::NPCCrowd::Lod::NPCCrowdLodSubSystem*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x31A40);
 		}
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_LODTickScaleList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x2F7A8);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x31A48);
+		}
+		static ::System::String** StaticGet_LOD0TagString()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0x31A50);
 		}
 		static ::System::Single* StaticGet_lastUpdateDirectionalMeshTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0xB790);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0xBD70);
 		}
 		static ::System::Single* StaticGet_UpdateDirectionalMeshIntervalTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0xB794);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodSubSystem_TypeDefinitionIndex)->GetStaticField(0xBD74);
 		}
 		::System::Collections::Generic::List_1<::NPCCrowd::Lod::NPCCrowdLodSubSystem_RendererVisibilityRange>* visibilityQueryRanges; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* visibilityQueryData; // 0x28
-		::Unity::Collections::NativeList_1<::System::Boolean> visibilityQueryResult; // 0x30
-		::System::Boolean previousFrameVisibilityControlEnabled; // 0x40
+		::System::Boolean previousFrameVisibilityControlEnabled; // 0x30
+		::Unity::Collections::NativeList_1<::System::Boolean> visibilityQueryResult; // 0x38
 
 		::System::Void _ctor()
 		{

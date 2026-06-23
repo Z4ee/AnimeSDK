@@ -2,23 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_6D8377DB91A00B0F;
+namespace System { class String; }
 
-#define CLASS_1_43BD383C98B4C0C5_66_METHOD_1_E5630A859AA24FB3_OFFSET UNITYSDK_OFFSET(0xB507AE0)
-#define CLASS_1_43BD383C98B4C0C5_66__CTOR_OFFSET UNITYSDK_OFFSET(0xB507AD0)
+#define CLASS_1_43BD383C98B4C0C5_66__CTOR_OFFSET UNITYSDK_OFFSET(0x18925F10)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_66_TypeDefinitionIndex = 79865;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_66_TypeDefinitionIndex = 49242;
 
 class Class_1_43BD383C98B4C0C5_66 : public ::System::Object
 {
 public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_66__CTOR_OFFSET))(this);
-	}
-
-	::Class_2_6D8377DB91A00B0F* Method_1_E5630A859AA24FB3()
-	{
-		return ((::Class_2_6D8377DB91A00B0F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_66_METHOD_1_E5630A859AA24FB3_OFFSET))(this);
 	}
 };

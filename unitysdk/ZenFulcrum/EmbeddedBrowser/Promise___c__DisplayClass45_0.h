@@ -9,24 +9,24 @@ namespace System { template <typename T> class Func_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C195E00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1C196C40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1C196D80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1C196D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1C196D60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D37E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1E4D4620)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1E4D4760)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1E4D4720)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1E4D4740)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 31180;
+	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 32731;
 
 	class Promise___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
 		::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>* onResolved; // 0x10
-		::System::Action_1<::System::Exception*>* __9__3; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x20
+		::System::Action_1<::System::Exception*>* onRejected; // 0x18
+		::System::Action_1<::System::Exception*>* __9__3; // 0x20
 		::System::Action* __9__2; // 0x28
-		::System::Action_1<::System::Exception*>* onRejected; // 0x30
+		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x30
 
 		::System::Void _ctor()
 		{

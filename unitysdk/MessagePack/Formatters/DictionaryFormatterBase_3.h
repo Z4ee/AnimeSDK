@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DictionaryFormatterBase_3_TypeDefinitionIndex = 27219;
+	inline static constexpr unsigned int DictionaryFormatterBase_3_TypeDefinitionIndex = 29724;
 
 	template <typename TKey, typename TValue, typename TDictionary>
 	class DictionaryFormatterBase_3 : public ::MessagePack::Formatters::DictionaryFormatterBase_4<TKey, TValue, TDictionary, TDictionary>

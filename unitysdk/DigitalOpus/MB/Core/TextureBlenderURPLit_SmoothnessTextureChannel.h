@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderURPLit_SmoothnessTextureChannel_TypeDefinitionIndex = 85019;
+	inline static constexpr unsigned int TextureBlenderURPLit_SmoothnessTextureChannel_TypeDefinitionIndex = 90593;
 
 	enum class TextureBlenderURPLit_SmoothnessTextureChannel : ::System::Int32
 	{

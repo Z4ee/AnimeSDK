@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsArchetype_PauseAction_TypeDefinitionIndex = 35762;
+	inline static constexpr unsigned int EcsArchetype_PauseAction_TypeDefinitionIndex = 37381;
 
 	struct alignas(8) EcsArchetype_PauseAction
 	{

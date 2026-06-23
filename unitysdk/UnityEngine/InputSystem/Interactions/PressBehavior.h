@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Interactions
 {
-	inline static constexpr unsigned int PressBehavior_TypeDefinitionIndex = 29373;
+	inline static constexpr unsigned int PressBehavior_TypeDefinitionIndex = 32029;
 
 	enum class PressBehavior : ::System::Int32
 	{

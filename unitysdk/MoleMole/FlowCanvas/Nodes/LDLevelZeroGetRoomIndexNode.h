@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMINDEXNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1427C940)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMINDEXNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1427CD50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMINDEXNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160CBD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMINDEXNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1160CFE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroGetRoomIndexNode_TypeDefinitionIndex = 71592;
+	inline static constexpr unsigned int LDLevelZeroGetRoomIndexNode_TypeDefinitionIndex = 68776;
 
 	class LDLevelZeroGetRoomIndexNode : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::String*, ::MoleMole::FlowCanvas::Nodes::LDLevelZeroGetRoomIndexNode_RoomFormat>
 	{

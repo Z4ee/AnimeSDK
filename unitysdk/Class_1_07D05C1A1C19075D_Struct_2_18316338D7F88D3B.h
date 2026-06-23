@@ -6,7 +6,7 @@
 
 namespace MoleMole::Config { class ConfigHollowCameraStretchV2; }
 
-inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_18316338D7F88D3B_TypeDefinitionIndex = 69361;
+inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_18316338D7F88D3B_TypeDefinitionIndex = 74914;
 
 struct alignas(8) Class_1_07D05C1A1C19075D_Struct_2_18316338D7F88D3B
 {

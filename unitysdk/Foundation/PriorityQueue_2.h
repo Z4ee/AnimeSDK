@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PriorityQueue_2_TypeDefinitionIndex = 7929;
+	inline static constexpr unsigned int PriorityQueue_2_TypeDefinitionIndex = 8165;
 
 	template <typename TElement, typename TPriority>
 	class PriorityQueue_2 : public ::System::Object

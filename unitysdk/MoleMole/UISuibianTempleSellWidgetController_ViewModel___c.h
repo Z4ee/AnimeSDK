@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1378C2B0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1378C2F0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__4_0_OFFSET UNITYSDK_OFFSET(0x1378C300)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16175CA0)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16175CE0)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__4_0_OFFSET UNITYSDK_OFFSET(0x16175CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex = 81143;
+	inline static constexpr unsigned int UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex = 69132;
 
 	class UISuibianTempleSellWidgetController_ViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::UInt32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2F270);
+			return (::System::Func_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x31120);
 		}
 		static ::MoleMole::UISuibianTempleSellWidgetController_ViewModel___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleSellWidgetController_ViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2F278);
+			return (::MoleMole::UISuibianTempleSellWidgetController_ViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x31128);
 		}
 
 		static ::System::Void _cctor()

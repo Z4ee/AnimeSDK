@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseChatPlayController_IKRecord_TypeDefinitionIndex = 39182;
+	inline static constexpr unsigned int UIBaseChatPlayController_IKRecord_TypeDefinitionIndex = 42195;
 
 	struct alignas(4) UIBaseChatPlayController_IKRecord
 	{

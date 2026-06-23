@@ -5,29 +5,29 @@
 namespace MoleMole { class MultipleVideoPlayerManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF640330)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF640370)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C___WARMUPVIDEO_B__10_0_OFFSET UNITYSDK_OFFSET(0xF640380)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C___WARMUPVIDEO_B__10_1_OFFSET UNITYSDK_OFFSET(0xF640390)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x122E1180)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x122E11C0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C___WARMUPVIDEO_B__10_0_OFFSET UNITYSDK_OFFSET(0x122E11D0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_WARMUPVIDEO___C___WARMUPVIDEO_B__10_1_OFFSET UNITYSDK_OFFSET(0x122E11E0)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequence_WarmupVideo___c_TypeDefinitionIndex = 82135;
+	inline static constexpr unsigned int CameraSequence_WarmupVideo___c_TypeDefinitionIndex = 52330;
 
 	class CameraSequence_WarmupVideo___c : public ::System::Object
 	{
 	public:
+		static ::MoleMole::Utils::CameraSequence::CameraSequence_WarmupVideo___c** StaticGet___9()
+		{
+			return (::MoleMole::Utils::CameraSequence::CameraSequence_WarmupVideo___c**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x41870);
+		}
 		static ::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>** StaticGet___9__10_1()
 		{
-			return (::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x3F240);
+			return (::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x41878);
 		}
 		static ::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x3F248);
-		}
-		static ::MoleMole::Utils::CameraSequence::CameraSequence_WarmupVideo___c** StaticGet___9()
-		{
-			return (::MoleMole::Utils::CameraSequence::CameraSequence_WarmupVideo___c**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x3F250);
+			return (::System::Action_1<::MoleMole::MultipleVideoPlayerManager*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequence_WarmupVideo___c_TypeDefinitionIndex)->GetStaticField(0x41880);
 		}
 
 		static ::System::Void _cctor()

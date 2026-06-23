@@ -7,18 +7,18 @@
 namespace MoleMole { class UIInLevelSkillButtonSoloAidChildWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONSOLOAIDCHILDWINDOWCONTROLLER__INITSWITCHAVATARCOMPONENT_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79B570)
-#define MOLEMOLE_UIINLEVELSKILLBUTTONSOLOAIDCHILDWINDOWCONTROLLER__INITSWITCHAVATARCOMPONENT_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONSOLOAIDCHILDWINDOWCONTROLLER__INITSWITCHAVATARCOMPONENT_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x826E90)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONSOLOAIDCHILDWINDOWCONTROLLER__INITSWITCHAVATARCOMPONENT_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonSoloAidChildWindowController__InitSwitchAvatarComponent_d__13_TypeDefinitionIndex = 61508;
+	inline static constexpr unsigned int UIInLevelSkillButtonSoloAidChildWindowController__InitSwitchAvatarComponent_d__13_TypeDefinitionIndex = 51716;
 
 	struct alignas(8) UIInLevelSkillButtonSoloAidChildWindowController__InitSwitchAvatarComponent_d__13
 	{
-		::MoleMole::UIInLevelSkillButtonSoloAidChildWindowController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIInLevelSkillButtonSoloAidChildWindowController* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

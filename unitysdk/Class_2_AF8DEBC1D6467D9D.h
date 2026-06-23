@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_37.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_27.h"
 
 class Class_1_D4EE696AE596E211;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class Volume; }
 
-#define CLASS_2_AF8DEBC1D6467D9D_METHOD_2_C95EBC4EFFF2EA86_OFFSET UNITYSDK_OFFSET(0x132CC370)
-#define CLASS_2_AF8DEBC1D6467D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x132CC960)
+#define CLASS_2_AF8DEBC1D6467D9D_METHOD_2_C95EBC4EFFF2EA86_OFFSET UNITYSDK_OFFSET(0x145A9680)
+#define CLASS_2_AF8DEBC1D6467D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x145A9C70)
 
-inline static constexpr unsigned int Class_2_AF8DEBC1D6467D9D_TypeDefinitionIndex = 62547;
+inline static constexpr unsigned int Class_2_AF8DEBC1D6467D9D_TypeDefinitionIndex = 48437;
 
-class Class_2_AF8DEBC1D6467D9D : public ::Class_1_43BD383C98B4C0C5_37
+class Class_2_AF8DEBC1D6467D9D : public ::Class_1_43BD383C98B4C0C5_27
 {
 public:
 	::System::Void _ctor()

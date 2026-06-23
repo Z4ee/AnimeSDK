@@ -5,12 +5,12 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BAAD30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x10BAAD40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15119250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x15119260)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowSceneInfo___c__DisplayClass7_0_TypeDefinitionIndex = 71570;
+	inline static constexpr unsigned int LDShowSceneInfo___c__DisplayClass7_0_TypeDefinitionIndex = 62425;
 
 	class LDShowSceneInfo___c__DisplayClass7_0 : public ::System::Object
 	{

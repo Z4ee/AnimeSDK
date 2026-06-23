@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CUSTOMCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3ACC0)
+#define MOLEMOLE_CUSTOMCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21EE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CustomCollisionConfigData_TypeDefinitionIndex = 77999;
+	inline static constexpr unsigned int CustomCollisionConfigData_TypeDefinitionIndex = 50492;
 
 	class CustomCollisionConfigData : public ::System::Object
 	{

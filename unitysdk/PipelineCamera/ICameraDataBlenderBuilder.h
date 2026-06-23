@@ -5,7 +5,7 @@ namespace PipelineCamera { class ICameraDataBlender; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraDataBlenderBuilder_TypeDefinitionIndex = 35969;
+	inline static constexpr unsigned int ICameraDataBlenderBuilder_TypeDefinitionIndex = 37577;
 
 	class ICameraDataBlenderBuilder
 	{

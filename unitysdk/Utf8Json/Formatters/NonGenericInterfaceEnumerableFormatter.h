@@ -8,21 +8,21 @@ namespace System::Collections { class IEnumerable; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BFFBED0)
-#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BFFBA60)
-#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFFC310)
-#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFC300)
+#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E313C70)
+#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E313800)
+#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3140B0)
+#define UTF8JSON_FORMATTERS_NONGENERICINTERFACEENUMERABLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3140A0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int NonGenericInterfaceEnumerableFormatter_TypeDefinitionIndex = 85723;
+	inline static constexpr unsigned int NonGenericInterfaceEnumerableFormatter_TypeDefinitionIndex = 91297;
 
 	class NonGenericInterfaceEnumerableFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatter_1<::System::Collections::IEnumerable*>** StaticGet_Default()
 		{
-			return (::Utf8Json::IJsonFormatter_1<::System::Collections::IEnumerable*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceEnumerableFormatter_TypeDefinitionIndex)->GetStaticField(0x49F60);
+			return (::Utf8Json::IJsonFormatter_1<::System::Collections::IEnumerable*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceEnumerableFormatter_TypeDefinitionIndex)->GetStaticField(0x4E6B0);
 		}
 
 		::System::Void _ctor()

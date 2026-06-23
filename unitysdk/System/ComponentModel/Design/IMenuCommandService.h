@@ -8,7 +8,7 @@ namespace System::ComponentModel::Design { class MenuCommand; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IMenuCommandService_TypeDefinitionIndex = 3077;
+	inline static constexpr unsigned int IMenuCommandService_TypeDefinitionIndex = 3076;
 
 	class IMenuCommandService
 	{

@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MONOUIKEEPFIXED_START_OFFSET UNITYSDK_OFFSET(0xE492770)
-#define MONOUIKEEPFIXED_UPDATE_OFFSET UNITYSDK_OFFSET(0xE492950)
-#define MONOUIKEEPFIXED__CTOR_OFFSET UNITYSDK_OFFSET(0xE492A70)
+#define MONOUIKEEPFIXED_START_OFFSET UNITYSDK_OFFSET(0xFAF2830)
+#define MONOUIKEEPFIXED_UPDATE_OFFSET UNITYSDK_OFFSET(0xFAF2A10)
+#define MONOUIKEEPFIXED__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF2B30)
 
-inline static constexpr unsigned int MonoUIKeepFixed_TypeDefinitionIndex = 41103;
+inline static constexpr unsigned int MonoUIKeepFixed_TypeDefinitionIndex = 82971;
 
 class MonoUIKeepFixed : public ::UnityEngine::MonoBehaviour
 {

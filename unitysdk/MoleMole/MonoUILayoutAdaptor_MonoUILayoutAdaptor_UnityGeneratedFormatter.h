@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10E48C60)
-#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10E48C70)
-#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10E48DB0)
-#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E48EF0)
-#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10E48EB0)
+#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x191705A0)
+#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x191705B0)
+#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x191706F0)
+#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19170830)
+#define MOLEMOLE_MONOUILAYOUTADAPTOR_MONOUILAYOUTADAPTOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x191707F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUILayoutAdaptor_MonoUILayoutAdaptor_UnityGeneratedFormatter_TypeDefinitionIndex = 77306;
+	inline static constexpr unsigned int MonoUILayoutAdaptor_MonoUILayoutAdaptor_UnityGeneratedFormatter_TypeDefinitionIndex = 65263;
 
 	class MonoUILayoutAdaptor_MonoUILayoutAdaptor_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoUILayoutAdaptor*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::AdaptorShowType, ::MoleMole::UIAdaptorParams*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::AdaptorShowType, ::MoleMole::UIAdaptorParams*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUILayoutAdaptor_MonoUILayoutAdaptor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A20);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::AdaptorShowType, ::MoleMole::UIAdaptorParams*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUILayoutAdaptor_MonoUILayoutAdaptor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39EE0);
 		}
 
 		::System::Void _ctor()

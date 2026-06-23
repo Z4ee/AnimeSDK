@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_HueAndLight_TypeDefinitionIndex = 43204;
+inline static constexpr unsigned int MonoHollowResultPageConfig_HueAndLight_TypeDefinitionIndex = 74970;
 
 struct alignas(4) MonoHollowResultPageConfig_HueAndLight
 {

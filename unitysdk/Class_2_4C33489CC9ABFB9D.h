@@ -3,9 +3,9 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define CLASS_2_4C33489CC9ABFB9D__CTOR_OFFSET UNITYSDK_OFFSET(0x110EF500)
+#define CLASS_2_4C33489CC9ABFB9D__CTOR_OFFSET UNITYSDK_OFFSET(0x13B55600)
 
-inline static constexpr unsigned int Class_2_4C33489CC9ABFB9D_TypeDefinitionIndex = 64795;
+inline static constexpr unsigned int Class_2_4C33489CC9ABFB9D_TypeDefinitionIndex = 60712;
 
 class Class_2_4C33489CC9ABFB9D : public ::UnityEngine::Playables::PlayableBehaviour
 {

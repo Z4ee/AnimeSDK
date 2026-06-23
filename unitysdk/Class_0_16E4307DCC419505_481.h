@@ -1,14 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System { class String; }
-namespace UnityEngine { class Camera; }
-namespace UnityEngine { class Transform; }
+class Class_2_208CC9941471731A_594;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_481_TypeDefinitionIndex = 52025;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_481_TypeDefinitionIndex = 79967;
 
 class Class_0_16E4307DCC419505_481
 {

@@ -4,19 +4,19 @@
 
 namespace Dest::Math { class ConvexHull3_Triangle; }
 
-#define DEST_MATH_CONVEXHULL3_TERMINATORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14D90)
+#define DEST_MATH_CONVEXHULL3_TERMINATORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9BF10)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull3_TerminatorData_TypeDefinitionIndex = 33111;
+	inline static constexpr unsigned int ConvexHull3_TerminatorData_TypeDefinitionIndex = 34674;
 
 	class ConvexHull3_TerminatorData : public ::System::Object
 	{
 	public:
 		::Dest::Math::ConvexHull3_Triangle* T; // 0x10
 		::System::Int32 NullIndex; // 0x18
-		::System::Int32 V1; // 0x1C
-		::System::Int32 V0; // 0x20
+		::System::Int32 V0; // 0x1C
+		::System::Int32 V1; // 0x20
 
 		::System::Void _ctor(::System::Int32 v0, ::System::Int32 v1, ::System::Int32 nullIndex, ::Dest::Math::ConvexHull3_Triangle* tri)
 		{

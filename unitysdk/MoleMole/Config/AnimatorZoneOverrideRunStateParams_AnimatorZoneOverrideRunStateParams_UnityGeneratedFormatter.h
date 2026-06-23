@@ -16,46 +16,46 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x141E4780)
-#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x141E4790)
-#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x141E4F70)
-#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x141E5430)
-#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x141E53F0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13FFD830)
+#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13FFD840)
+#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13FFE020)
+#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FFE4E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEOVERRIDERUNSTATEPARAMS_ANIMATORZONEOVERRIDERUNSTATEPARAMS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FFE4A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex = 51291;
+	inline static constexpr unsigned int AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex = 53511;
 
 	class AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorZoneOverrideRunStateParams*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RunStateType>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RunStateType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431C0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431C8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>*>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431D0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431D8);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D3F0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431E8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D3F8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x431F0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D400);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D408);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D410);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RunStateType>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RunStateType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D418);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneOverrideRunStateParams_AnimatorZoneOverrideRunStateParams_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D420);
 		}
 
 		::System::Void _ctor()

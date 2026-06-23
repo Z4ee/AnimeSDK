@@ -10,7 +10,7 @@ namespace System::ComponentModel::Design { class ComponentRenameEventHandler; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IComponentChangeService_TypeDefinitionIndex = 3062;
+	inline static constexpr unsigned int IComponentChangeService_TypeDefinitionIndex = 3061;
 
 	class IComponentChangeService
 	{

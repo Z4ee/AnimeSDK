@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EListSpecialOpt_TypeDefinitionIndex = 17027;
+	inline static constexpr unsigned int EListSpecialOpt_TypeDefinitionIndex = 14415;
 
 	enum class EListSpecialOpt : ::System::Int16
 	{
-		Pop = 1,
-		Count = 0,
 		EnumCount = 2,
+		Count = 0,
+		Pop = 1,
 	};
 }

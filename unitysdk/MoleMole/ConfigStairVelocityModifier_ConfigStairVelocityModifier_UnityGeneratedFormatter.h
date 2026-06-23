@@ -8,22 +8,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D33A40)
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D33A50)
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D33B80)
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D33CC0)
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D33C80)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A07A410)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1A07A420)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1A07A550)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A07A690)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER_CONFIGSTAIRVELOCITYMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07A650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigStairVelocityModifier_ConfigStairVelocityModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 70363;
+	inline static constexpr unsigned int ConfigStairVelocityModifier_ConfigStairVelocityModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 52159;
 
 	class ConfigStairVelocityModifier_ConfigStairVelocityModifier_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigStairVelocityModifier*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigStairVelocityModifier_ConfigStairVelocityModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigStairVelocityModifier_ConfigStairVelocityModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CA0);
 		}
 
 		::System::Void _ctor()

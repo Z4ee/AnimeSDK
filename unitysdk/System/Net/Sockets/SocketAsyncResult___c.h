@@ -4,13 +4,13 @@
 
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E39310)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x19E39360)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E39350)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D1370)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1C1D13C0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D13B0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketAsyncResult___c_TypeDefinitionIndex = 3686;
+	inline static constexpr unsigned int SocketAsyncResult___c_TypeDefinitionIndex = 3685;
 
 	class SocketAsyncResult___c : public ::System::Object
 	{

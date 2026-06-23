@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReadMonsterFromCardData_CardMonsterInfo_TypeDefinitionIndex = 72333;
+	inline static constexpr unsigned int LD_ReadMonsterFromCardData_CardMonsterInfo_TypeDefinitionIndex = 81626;
 
 	struct alignas(8) LD_ReadMonsterFromCardData_CardMonsterInfo
 	{

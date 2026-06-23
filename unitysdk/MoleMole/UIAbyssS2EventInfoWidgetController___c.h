@@ -4,44 +4,44 @@
 
 class Class_1_0D6706375CDAAE8C;
 class Class_2_AC1B1CB16C488BEC;
-class Class_3_48A3D3A34C52331D_6;
+class Class_3_48A3D3A34C52331D_46;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x158704B0)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x158704F0)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBEGINBATTLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x15870B30)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBUILDBTNCLICK_B__5_0_OFFSET UNITYSDK_OFFSET(0x15870500)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x15870520)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x15870630)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1643E9C0)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1643EA00)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBEGINBATTLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1643F040)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBUILDBTNCLICK_B__5_0_OFFSET UNITYSDK_OFFSET(0x1643EA10)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1643EA30)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x1643EB40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex = 62529;
+	inline static constexpr unsigned int UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex = 39819;
 
 	class UIAbyssS2EventInfoWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__10_1()
+		static ::System::Action_1<::Class_3_48A3D3A34C52331D_46*>** StaticGet___9__13_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x324D0);
-		}
-		static ::System::Action_1<::Class_3_48A3D3A34C52331D_6*>** StaticGet___9__13_0()
-		{
-			return (::System::Action_1<::Class_3_48A3D3A34C52331D_6*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x324D8);
+			return (::System::Action_1<::Class_3_48A3D3A34C52331D_46*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34380);
 		}
 		static ::MoleMole::UIAbyssS2EventInfoWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2EventInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x324E0);
+			return (::MoleMole::UIAbyssS2EventInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34388);
 		}
-		static ::System::Action** StaticGet___9__10_0()
+		static ::System::Action** StaticGet___9__10_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x324E8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34390);
 		}
 		static ::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x324F0);
+			return (::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34398);
+		}
+		static ::System::Action** StaticGet___9__10_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2EventInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x343A0);
 		}
 
 		static ::System::Void _cctor()
@@ -69,9 +69,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__10_1_OFFSET))(this);
 		}
 
-		::System::Void _OnBeginBattle_b__13_0(::Class_3_48A3D3A34C52331D_6* beginHollowData)
+		::System::Void _OnBeginBattle_b__13_0(::Class_3_48A3D3A34C52331D_46* beginHollowData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBEGINBATTLE_B__13_0_OFFSET))(this, beginHollowData);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_46*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__ONBEGINBATTLE_B__13_0_OFFSET))(this, beginHollowData);
 		}
 	};
 }

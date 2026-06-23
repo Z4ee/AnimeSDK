@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIQUESTIONSANSWERTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D62340)
+#define MOLEMOLE_UIQUESTIONSANSWERTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152A8130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerTipsPopWindowContext_TypeDefinitionIndex = 44636;
+	inline static constexpr unsigned int UIQuestionsAnswerTipsPopWindowContext_TypeDefinitionIndex = 65069;
 
 	class UIQuestionsAnswerTipsPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1F5F0)
-#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__SETTITLEINFOBTN_B__0_OFFSET UNITYSDK_OFFSET(0x15A1F600)
+#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167A4420)
+#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__SETTITLEINFOBTN_B__0_OFFSET UNITYSDK_OFFSET(0x167A4430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemUsePopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 58120;
+	inline static constexpr unsigned int UIGeneralItemUsePopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 80925;
 
 	class UIGeneralItemUsePopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{

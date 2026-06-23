@@ -4,7 +4,7 @@
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int DictionaryFormatterBase_3_TypeDefinitionIndex = 85738;
+	inline static constexpr unsigned int DictionaryFormatterBase_3_TypeDefinitionIndex = 91312;
 
 	template <typename TKey, typename TValue, typename TDictionary>
 	class DictionaryFormatterBase_3 : public ::Utf8Json::Formatters::DictionaryFormatterBase_4<TKey, TValue, TDictionary, TDictionary>

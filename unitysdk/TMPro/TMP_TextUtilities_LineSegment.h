@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define TMPRO_TMP_TEXTUTILITIES_LINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x317F00)
+#define TMPRO_TMP_TEXTUTILITIES_LINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x3E5800)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextUtilities_LineSegment_TypeDefinitionIndex = 37604;
+	inline static constexpr unsigned int TMP_TextUtilities_LineSegment_TypeDefinitionIndex = 39230;
 
 	struct alignas(4) TMP_TextUtilities_LineSegment
 	{

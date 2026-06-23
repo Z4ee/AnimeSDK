@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1ADBBD40)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1ADBC050)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1ADBC1F0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBC3A0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D1E8640)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D1E8950)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1D1E8AF0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E8CA0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckDistanceToGameObject2D_TypeDefinitionIndex = 27999;
+	inline static constexpr unsigned int CheckDistanceToGameObject2D_TypeDefinitionIndex = 30401;
 
 	class CheckDistanceToGameObject2D : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x68
 		::ParadoxNotion::CompareMethod checkType; // 0x70
 		::System::Single floatingPoint; // 0x74
 

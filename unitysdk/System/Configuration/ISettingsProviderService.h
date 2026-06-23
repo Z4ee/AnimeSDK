@@ -6,7 +6,7 @@ namespace System::Configuration { class SettingsProvider; }
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ISettingsProviderService_TypeDefinitionIndex = 4214;
+	inline static constexpr unsigned int ISettingsProviderService_TypeDefinitionIndex = 4213;
 
 	class ISettingsProviderService
 	{

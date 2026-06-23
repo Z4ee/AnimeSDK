@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0BB4C0)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A0BB560)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A0BB600)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BB400)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5075D0)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C507670)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C507710)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C507510)
 
 namespace System::Text
 {
@@ -18,10 +18,10 @@ namespace System::Text
 	class EncoderFallbackException : public ::System::ArgumentException
 	{
 	public:
-		::System::Int32 index; // 0x90
-		::System::Char charUnknownHigh; // 0x94
-		::System::Char charUnknownLow; // 0x96
-		::System::Char charUnknown; // 0x98
+		::System::Char charUnknownHigh; // 0x90
+		::System::Int32 index; // 0x94
+		::System::Char charUnknownLow; // 0x98
+		::System::Char charUnknown; // 0x9A
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int ICollectionDebugView_1_TypeDefinitionIndex = 3949;
+	inline static constexpr unsigned int ICollectionDebugView_1_TypeDefinitionIndex = 3948;
 
 	template <typename T>
 	class ICollectionDebugView_1 : public ::System::Object

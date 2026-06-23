@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_7177740ACDCD76B5.h"
+#include "unitysdk/MoleMole/UIControllerContextBase.h"
+
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_GET_RABPROPERTY_OFFSET UNITYSDK_OFFSET(0x152A9BE0)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x152A9C00)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_SET_RABPROPERTY_OFFSET UNITYSDK_OFFSET(0x152A9BF0)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x152A9C10)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152A9C20)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABDepositoryElementRowWidgetController_Context_TypeDefinitionIndex = 70715;
+
+	class UIRABDepositoryElementRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
+	{
+	public:
+		::System::Boolean Empty; // 0x28
+		::Enum_3_7177740ACDCD76B5 _RABProperty_k__BackingField; // 0x2C
+		::System::Int64 _Value_k__BackingField; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_7177740ACDCD76B5 get_RABProperty()
+		{
+			return ((::Enum_3_7177740ACDCD76B5(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_GET_RABPROPERTY_OFFSET))(this);
+		}
+
+		::System::Void set_RABProperty(::Enum_3_7177740ACDCD76B5 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_7177740ACDCD76B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_SET_RABPROPERTY_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_Value()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::Void set_Value(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDEPOSITORYELEMENTROWWIDGETCONTROLLER_CONTEXT_SET_VALUE_OFFSET))(this, value);
+		}
+	};
+}

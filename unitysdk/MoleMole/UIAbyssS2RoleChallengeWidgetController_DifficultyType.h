@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RoleChallengeWidgetController_DifficultyType_TypeDefinitionIndex = 69439;
+	inline static constexpr unsigned int UIAbyssS2RoleChallengeWidgetController_DifficultyType_TypeDefinitionIndex = 79554;
 
 	enum class UIAbyssS2RoleChallengeWidgetController_DifficultyType : ::System::Int32
 	{

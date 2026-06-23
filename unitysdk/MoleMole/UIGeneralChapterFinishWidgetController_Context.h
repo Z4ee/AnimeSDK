@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALCHAPTERFINISHWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F08170)
+#define MOLEMOLE_UIGENERALCHAPTERFINISHWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18452DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralChapterFinishWidgetController_Context_TypeDefinitionIndex = 74178;
+	inline static constexpr unsigned int UIGeneralChapterFinishWidgetController_Context_TypeDefinitionIndex = 55164;
 
 	class UIGeneralChapterFinishWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

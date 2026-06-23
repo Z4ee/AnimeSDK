@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_GET_ENDOFFSET_OFFSET UNITYSDK_OFFSET(0x1A566310)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1A566320)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A566440)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A566350)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_GET_ENDOFFSET_OFFSET UNITYSDK_OFFSET(0x1C8855A0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1C8855B0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C8856D0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8855E0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int BufferOffsetSize_TypeDefinitionIndex = 2606;
+	inline static constexpr unsigned int BufferOffsetSize_TypeDefinitionIndex = 2605;
 
 	class BufferOffsetSize : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* Buffer; // 0x10
 		::System::Int32 Size; // 0x18
-		::System::Boolean Complete; // 0x1C
+		::System::Int32 Offset; // 0x1C
 		::System::Int32 TotalBytes; // 0x20
-		::System::Int32 Offset; // 0x24
+		::System::Boolean Complete; // 0x24
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 size)
 		{

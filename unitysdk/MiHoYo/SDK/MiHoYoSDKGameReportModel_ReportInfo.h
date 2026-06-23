@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_REPORTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19436FF0)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_REPORTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7CE590)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_ReportInfo_TypeDefinitionIndex = 35168;
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_ReportInfo_TypeDefinitionIndex = 36732;
 
 	class MiHoYoSDKGameReportModel_ReportInfo : public ::System::Object
 	{

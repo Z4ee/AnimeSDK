@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEBATTLEAREAFITLER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0xF97CC70)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEBATTLEAREAFITLER__CTOR_OFFSET UNITYSDK_OFFSET(0xF97CD60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEBATTLEAREAFITLER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x110A1C60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEBATTLEAREAFITLER__CTOR_OFFSET UNITYSDK_OFFSET(0x110A1D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntitySameBattleAreaFitler_TypeDefinitionIndex = 73388;
+	inline static constexpr unsigned int ConfigEntitySameBattleAreaFitler_TypeDefinitionIndex = 86208;
 
 	class ConfigEntitySameBattleAreaFitler : public ::MoleMole::Config::ConfigEntityFilter
 	{

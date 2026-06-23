@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int EnumerableHelpers_TypeDefinitionIndex = 5026;
+	inline static constexpr unsigned int EnumerableHelpers_TypeDefinitionIndex = 5025;
 
 	class EnumerableHelpers : public ::System::Object
 	{

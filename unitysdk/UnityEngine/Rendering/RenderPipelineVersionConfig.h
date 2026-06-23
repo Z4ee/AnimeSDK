@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/RenderPipelineVersion.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define UNITYENGINE_RENDERING_RENDERPIPELINEVERSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6928A0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEVERSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B86C630)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderPipelineVersionConfig_TypeDefinitionIndex = 29799;
+	inline static constexpr unsigned int RenderPipelineVersionConfig_TypeDefinitionIndex = 26434;
 
 	class RenderPipelineVersionConfig : public ::UnityEngine::ScriptableObject
 	{

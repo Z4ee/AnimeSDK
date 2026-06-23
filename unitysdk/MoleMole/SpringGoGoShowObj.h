@@ -3,12 +3,12 @@
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_SPRINGGOGOSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13871130)
-#define MOLEMOLE_SPRINGGOGOSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x138710F0)
+#define MOLEMOLE_SPRINGGOGOSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x18177270)
+#define MOLEMOLE_SPRINGGOGOSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x18177230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SpringGoGoShowObj_TypeDefinitionIndex = 43002;
+	inline static constexpr unsigned int SpringGoGoShowObj_TypeDefinitionIndex = 55301;
 
 	class SpringGoGoShowObj : public ::MoleMole::DisplayMessageBase
 	{

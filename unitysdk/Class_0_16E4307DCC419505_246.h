@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-namespace UnityEngine::UI::Extension { class UILocalizationText; }
+namespace MoleMole { class UICinemaMovieWidgetController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_246_TypeDefinitionIndex = 51326;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_246_TypeDefinitionIndex = 66506;
 
 class Class_0_16E4307DCC419505_246
 {

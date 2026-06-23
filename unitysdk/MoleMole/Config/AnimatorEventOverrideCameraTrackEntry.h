@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDECAMERATRACKENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x110172C0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDECAMERATRACKENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11017340)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDECAMERATRACKENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x13ECEBB0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDECAMERATRACKENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECEC30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventOverrideCameraTrackEntry_TypeDefinitionIndex = 39636;
+	inline static constexpr unsigned int AnimatorEventOverrideCameraTrackEntry_TypeDefinitionIndex = 77873;
 
 	class AnimatorEventOverrideCameraTrackEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

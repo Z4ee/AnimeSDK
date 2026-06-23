@@ -4,13 +4,13 @@
 
 namespace System::Security::Cryptography { class RC2; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1A9887A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A98A430)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A987E20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1CD98180)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD99E10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD97800)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RC2Transform_TypeDefinitionIndex = 1118;
+	inline static constexpr unsigned int RC2Transform_TypeDefinitionIndex = 1117;
 
 	class RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
@@ -21,10 +21,10 @@ namespace System::Security::Cryptography
 		}
 		::Il2CppArray<::System::UInt16>* K; // 0x50
 		::System::Int32 j; // 0x58
-		::System::UInt16 R0; // 0x5C
-		::System::UInt16 R2; // 0x5E
-		::System::UInt16 R1; // 0x60
-		::System::UInt16 R3; // 0x62
+		::System::UInt16 R1; // 0x5C
+		::System::UInt16 R3; // 0x5E
+		::System::UInt16 R0; // 0x60
+		::System::UInt16 R2; // 0x62
 
 		::System::Void _ctor(::System::Security::Cryptography::RC2* rc2Algo, ::System::Boolean encryption, ::Il2CppArray<::System::Byte>* key, ::Il2CppArray<::System::Byte>* iv)
 		{

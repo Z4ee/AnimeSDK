@@ -9,7 +9,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int RectangleLight_TypeDefinitionIndex = 6289;
+	inline static constexpr unsigned int RectangleLight_TypeDefinitionIndex = 6315;
 
 	struct alignas(4) RectangleLight
 	{

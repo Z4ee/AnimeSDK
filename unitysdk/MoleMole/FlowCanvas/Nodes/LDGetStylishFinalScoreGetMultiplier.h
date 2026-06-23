@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHFINALSCOREGETMULTIPLIER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1173D1E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHFINALSCOREGETMULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1173D430)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHFINALSCOREGETMULTIPLIER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1580E1C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHFINALSCOREGETMULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1580E410)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetStylishFinalScoreGetMultiplier_TypeDefinitionIndex = 81205;
+	inline static constexpr unsigned int LDGetStylishFinalScoreGetMultiplier_TypeDefinitionIndex = 59225;
 
 	class LDGetStylishFinalScoreGetMultiplier : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::String*>
 	{

@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel { class CultureInfoConverter; }
 
-#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTURECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x19A46050)
-#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTURECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A46040)
+#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTURECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BEB7A60)
+#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTURECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB7A50)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CultureInfoConverter_CultureComparer_TypeDefinitionIndex = 2847;
+	inline static constexpr unsigned int CultureInfoConverter_CultureComparer_TypeDefinitionIndex = 2846;
 
 	class CultureInfoConverter_CultureComparer : public ::System::Object
 	{

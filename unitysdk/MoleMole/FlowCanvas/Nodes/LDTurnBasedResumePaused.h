@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDRESUMEPAUSED_INVOKE_OFFSET UNITYSDK_OFFSET(0x170CAEC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDRESUMEPAUSED__CTOR_OFFSET UNITYSDK_OFFSET(0x170CB000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDRESUMEPAUSED_INVOKE_OFFSET UNITYSDK_OFFSET(0x191245C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDRESUMEPAUSED__CTOR_OFFSET UNITYSDK_OFFSET(0x19124700)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedResumePaused_TypeDefinitionIndex = 70364;
+	inline static constexpr unsigned int LDTurnBasedResumePaused_TypeDefinitionIndex = 77077;
 
 	class LDTurnBasedResumePaused : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

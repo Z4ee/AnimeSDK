@@ -11,36 +11,36 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_CONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x197F21B0)
-#define MIHOYO_SDK_UI_CONFIRM_CLOSE_OFFSET UNITYSDK_OFFSET(0x197F3420)
-#define MIHOYO_SDK_UI_CONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x197F3190)
-#define MIHOYO_SDK_UI_CONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x197F36B0)
-#define MIHOYO_SDK_UI_CONFIRM_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x197F35D0)
-#define MIHOYO_SDK_UI_CONFIRM_ONTAPOK_OFFSET UNITYSDK_OFFSET(0x197F3640)
-#define MIHOYO_SDK_UI_CONFIRM_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x197F28E0)
-#define MIHOYO_SDK_UI_CONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x197F2DB0)
-#define MIHOYO_SDK_UI_CONFIRM_START_OFFSET UNITYSDK_OFFSET(0x197F2860)
-#define MIHOYO_SDK_UI_CONFIRM__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F3730)
-#define MIHOYO_SDK_UI_CONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x197F3720)
+#define MIHOYO_SDK_UI_CONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B342B20)
+#define MIHOYO_SDK_UI_CONFIRM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B343D80)
+#define MIHOYO_SDK_UI_CONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1B343B00)
+#define MIHOYO_SDK_UI_CONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B344010)
+#define MIHOYO_SDK_UI_CONFIRM_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1B343F30)
+#define MIHOYO_SDK_UI_CONFIRM_ONTAPOK_OFFSET UNITYSDK_OFFSET(0x1B343FA0)
+#define MIHOYO_SDK_UI_CONFIRM_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1B343250)
+#define MIHOYO_SDK_UI_CONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1B343720)
+#define MIHOYO_SDK_UI_CONFIRM_START_OFFSET UNITYSDK_OFFSET(0x1B3431D0)
+#define MIHOYO_SDK_UI_CONFIRM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B344090)
+#define MIHOYO_SDK_UI_CONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B344080)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Confirm_TypeDefinitionIndex = 19249;
+	inline static constexpr unsigned int Confirm_TypeDefinitionIndex = 20162;
 
 	class Confirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xA9A0);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xACC0);
 		}
 		static ::MiHoYo::SDK::UI::Confirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::UI::Confirm**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xA9A8);
+			return (::MiHoYo::SDK::UI::Confirm**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xACC8);
 		}
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_hideTask()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xA9B0);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xACD0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* ContentTextPath; // 0x0

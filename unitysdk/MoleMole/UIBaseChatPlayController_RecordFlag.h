@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseChatPlayController_RecordFlag_TypeDefinitionIndex = 39179;
+	inline static constexpr unsigned int UIBaseChatPlayController_RecordFlag_TypeDefinitionIndex = 42194;
 
 	enum class UIBaseChatPlayController_RecordFlag : ::System::Int32
 	{
-		All = 0,
 		OnlyProcess = 2,
+		All = 0,
 		OnlyRecord = 1,
 	};
 }

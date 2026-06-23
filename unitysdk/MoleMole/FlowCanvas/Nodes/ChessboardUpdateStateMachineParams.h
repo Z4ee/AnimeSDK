@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/ChessboardUpdateStateMachineParams_StateMachineParamsWrapper.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDUPDATESTATEMACHINEPARAMS_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E054E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDUPDATESTATEMACHINEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x10E05590)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDUPDATESTATEMACHINEPARAMS_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B1C500)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDUPDATESTATEMACHINEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1C5B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_TypeDefinitionIndex = 65510;
+	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_TypeDefinitionIndex = 66144;
 
 	class ChessboardUpdateStateMachineParams : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::Int32, ::MoleMole::FlowCanvas::Nodes::ChessboardUpdateStateMachineParams_StateMachineParamsWrapper>
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Specialized { class NameValueCollection; }
 
-#define SYSTEM_CONFIGURATION_PROVIDER_PROVIDERBASE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C55D250)
-#define SYSTEM_CONFIGURATION_PROVIDER_PROVIDERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55D210)
+#define SYSTEM_CONFIGURATION_PROVIDER_PROVIDERBASE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E88CB70)
+#define SYSTEM_CONFIGURATION_PROVIDER_PROVIDERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88CB30)
 
 namespace System::Configuration::Provider
 {
-	inline static constexpr unsigned int ProviderBase_TypeDefinitionIndex = 2516;
+	inline static constexpr unsigned int ProviderBase_TypeDefinitionIndex = 2515;
 
 	class ProviderBase : public ::System::Object
 	{

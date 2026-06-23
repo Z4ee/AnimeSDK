@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DownSampleLevel.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DOWNSAMPLEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x19281840)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DOWNSAMPLEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1793D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DownSampleParameter_TypeDefinitionIndex = 30156;
+	inline static constexpr unsigned int DownSampleParameter_TypeDefinitionIndex = 27058;
 
 	class DownSampleParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::DownSampleLevel>
 	{

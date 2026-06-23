@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Design/DrawerAttribute.h"
 
-#define PARADOXNOTION_DESIGN_TEXTAREAFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A906DF0)
+#define PARADOXNOTION_DESIGN_TEXTAREAFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D399C20)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int TextAreaFieldAttribute_TypeDefinitionIndex = 27726;
+	inline static constexpr unsigned int TextAreaFieldAttribute_TypeDefinitionIndex = 30736;
 
 	class TextAreaFieldAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_765_TypeDefinitionIndex = 81852;
+namespace MoleMole { class UIGeneralTokenContext; }
+namespace MoleMole { class UITokenShowConfig; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-template <typename PromisedT>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_765_TypeDefinitionIndex = 78856;
+
 class Class_0_16E4307DCC419505_765
 {
 public:

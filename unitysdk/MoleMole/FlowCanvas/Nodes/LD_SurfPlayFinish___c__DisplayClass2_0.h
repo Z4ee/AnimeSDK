@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_SurfPlayFinish; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFPLAYFINISH___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12332BF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFPLAYFINISH___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x12332C00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFPLAYFINISH___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDC280)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFPLAYFINISH___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x13EDC290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfPlayFinish___c__DisplayClass2_0_TypeDefinitionIndex = 45110;
+	inline static constexpr unsigned int LD_SurfPlayFinish___c__DisplayClass2_0_TypeDefinitionIndex = 62211;
 
 	class LD_SurfPlayFinish___c__DisplayClass2_0 : public ::System::Object
 	{

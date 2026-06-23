@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseController_ShowState_TypeDefinitionIndex = 70933;
+	inline static constexpr unsigned int UIBaseController_ShowState_TypeDefinitionIndex = 76170;
 
 	enum class UIBaseController_ShowState : ::System::Int32
 	{
 		BeforeOnShow = 0,
-		AfterOnShow = 2,
 		OnShow = 1,
+		AfterOnShow = 2,
 	};
 }

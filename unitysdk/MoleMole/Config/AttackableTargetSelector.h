@@ -3,16 +3,18 @@
 #include "unitysdk/MoleMole/Config/ConfigTargetSelector.h"
 
 namespace MoleMole::Battle { class Entity; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_97C7C91117561143_OFFSET UNITYSDK_OFFSET(0x122FEE90)
-#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_AD9D92D8E8D469F9_OFFSET UNITYSDK_OFFSET(0x122FEA40)
-#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x122FEFA0)
+#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_97C7C91117561143_OFFSET UNITYSDK_OFFSET(0x17D48ED0)
+#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_AD9D92D8E8D469F9_OFFSET UNITYSDK_OFFSET(0x17D48A80)
+#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x17D48FE0)
+#define MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D49020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackableTargetSelector_TypeDefinitionIndex = 64303;
+	inline static constexpr unsigned int AttackableTargetSelector_TypeDefinitionIndex = 72680;
 
 	class AttackableTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -28,6 +30,11 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_AD9D92D8E8D469F9(::MoleMole::Battle::Entity* a1)
 		{
 			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_AD9D92D8E8D469F9_OFFSET))(this, a1);
+		}
+
+		::System::String* Method_2_DA1BF2C227DC3D86()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATTACKABLETARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
 		}
 
 		::System::Void Method_2_97C7C91117561143(::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a1)

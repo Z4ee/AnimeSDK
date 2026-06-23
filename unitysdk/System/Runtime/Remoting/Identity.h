@@ -9,26 +9,26 @@ namespace System::Runtime::Remoting::Contexts { class DynamicPropertyCollection;
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY_GET_HASSERVERDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1A0AA710)
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1A0AA700)
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY_NOTIFYCLIENTDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1A0AA750)
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY_NOTIFYSERVERDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1A0AA7C0)
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY_SET_OBJECTURI_OFFSET UNITYSDK_OFFSET(0x1A0AA6F0)
-#define SYSTEM_RUNTIME_REMOTING_IDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AA6E0)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY_GET_HASSERVERDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1C4F67F0)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1C4F67E0)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY_NOTIFYCLIENTDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1C4F6830)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY_NOTIFYSERVERDYNAMICSINKS_OFFSET UNITYSDK_OFFSET(0x1C4F68A0)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY_SET_OBJECTURI_OFFSET UNITYSDK_OFFSET(0x1C4F67D0)
+#define SYSTEM_RUNTIME_REMOTING_IDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F67C0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int Identity_TypeDefinitionIndex = 1245;
+	inline static constexpr unsigned int Identity_TypeDefinitionIndex = 1244;
 
 	class Identity : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink; // 0x10
-		::System::String* _objectUri; // 0x18
-		::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties; // 0x20
-		::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties; // 0x28
-		::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink; // 0x30
-		::System::Runtime::Remoting::ObjRef* _objRef; // 0x38
+		::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties; // 0x10
+		::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink; // 0x18
+		::System::String* _objectUri; // 0x20
+		::System::Runtime::Remoting::ObjRef* _objRef; // 0x28
+		::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties; // 0x30
+		::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink; // 0x38
 		::System::Boolean _disposed; // 0x40
 
 		::System::Void _ctor(::System::String* objectUri)

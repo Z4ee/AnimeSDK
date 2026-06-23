@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKCONTROLLERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11D945F0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKCONTROLLERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11370070)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationLookControllerParam_TypeDefinitionIndex = 60374;
+	inline static constexpr unsigned int NPCCPUAnimationLookControllerParam_TypeDefinitionIndex = 64862;
 
 	class NPCCPUAnimationLookControllerParam : public ::System::Object
 	{

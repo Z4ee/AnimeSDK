@@ -9,19 +9,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_3688AEE03FC427B3_METHOD_2_6C6C02341A6C6B8A_OFFSET UNITYSDK_OFFSET(0x1B1B82B0)
-#define CLASS_2_3688AEE03FC427B3_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x1B1B8450)
-#define CLASS_2_3688AEE03FC427B3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1B1B8520)
-#define CLASS_2_3688AEE03FC427B3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B8510)
+#define CLASS_2_3688AEE03FC427B3_METHOD_2_6C6C02341A6C6B8A_OFFSET UNITYSDK_OFFSET(0x1E591F40)
+#define CLASS_2_3688AEE03FC427B3_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x1E5920E0)
+#define CLASS_2_3688AEE03FC427B3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1E5921B0)
+#define CLASS_2_3688AEE03FC427B3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5921A0)
 
-inline static constexpr unsigned int Class_2_3688AEE03FC427B3_TypeDefinitionIndex = 85353;
+inline static constexpr unsigned int Class_2_3688AEE03FC427B3_TypeDefinitionIndex = 90911;
 
 class Class_2_3688AEE03FC427B3 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::UI::Text* Field_2_1; // 0x18
-	::UnityEngine::UI::Text* Field_2_0; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x20
+	::UnityEngine::UI::Text* Field_2_0; // 0x28
 	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x30
 	::UnityEngine::GameObject* Field_2_4; // 0x38
 

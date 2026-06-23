@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangKovHandInPopWindowController; }
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYBANGKOVITEMINFOTOWISHLIST_B__0_OFFSET UNITYSDK_OFFSET(0x16808BE0)
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16808BD0)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYBANGKOVITEMINFOTOWISHLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17600940)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17600930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangKovHandInPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 64953;
+	inline static constexpr unsigned int UIBangKovHandInPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 58997;
 
 	class UIBangKovHandInPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{

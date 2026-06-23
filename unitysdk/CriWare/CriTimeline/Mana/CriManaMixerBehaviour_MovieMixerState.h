@@ -3,7 +3,7 @@
 
 namespace CriWare::CriTimeline::Mana
 {
-	inline static constexpr unsigned int CriManaMixerBehaviour_MovieMixerState_TypeDefinitionIndex = 32829;
+	inline static constexpr unsigned int CriManaMixerBehaviour_MovieMixerState_TypeDefinitionIndex = 34382;
 
 	enum class CriManaMixerBehaviour_MovieMixerState : ::System::Int32
 	{

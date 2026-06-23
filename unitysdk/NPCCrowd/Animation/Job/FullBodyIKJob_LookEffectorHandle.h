@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int FullBodyIKJob_LookEffectorHandle_TypeDefinitionIndex = 40405;
+	inline static constexpr unsigned int FullBodyIKJob_LookEffectorHandle_TypeDefinitionIndex = 72195;
 
 	struct alignas(4) FullBodyIKJob_LookEffectorHandle
 	{

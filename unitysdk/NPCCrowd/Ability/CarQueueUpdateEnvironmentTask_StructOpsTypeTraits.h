@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_CARQUEUEUPDATEENVIRONMENTTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x11D84B70)
-#define NPCCROWD_ABILITY_CARQUEUEUPDATEENVIRONMENTTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x11D84AE0)
+#define NPCCROWD_ABILITY_CARQUEUEUPDATEENVIRONMENTTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x11362120)
+#define NPCCROWD_ABILITY_CARQUEUEUPDATEENVIRONMENTTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x11362090)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CarQueueUpdateEnvironmentTask_StructOpsTypeTraits_TypeDefinitionIndex = 50911;
+	inline static constexpr unsigned int CarQueueUpdateEnvironmentTask_StructOpsTypeTraits_TypeDefinitionIndex = 85443;
 
 	class CarQueueUpdateEnvironmentTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

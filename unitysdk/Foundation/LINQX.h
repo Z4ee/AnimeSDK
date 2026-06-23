@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX_TypeDefinitionIndex = 7986;
+	inline static constexpr unsigned int LINQX_TypeDefinitionIndex = 8089;
 
 	class LINQX : public ::System::Object
 	{

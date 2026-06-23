@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIRigidbody; }
+
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14C86670)
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14C86700)
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14C86760)
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x14C86710)
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14C86660)
+#define MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A__CTOR_OFFSET UNITYSDK_OFFSET(0x14C86650)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRigidbody_Class_1_36C4F3752612C99A_TypeDefinitionIndex = 49610;
+
+	class UIRigidbody_Class_1_36C4F3752612C99A : public ::System::Object
+	{
+	public:
+		::System::Object* Field_1_1; // 0x10
+		::MoleMole::UIRigidbody* Field_1_2; // 0x18
+		::System::Int32 Field_1_0; // 0x20
+
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODY_CLASS_1_36C4F3752612C99A_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

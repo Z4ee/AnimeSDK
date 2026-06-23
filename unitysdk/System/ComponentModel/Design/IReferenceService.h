@@ -8,7 +8,7 @@ namespace System::ComponentModel { class IComponent; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IReferenceService_TypeDefinitionIndex = 3078;
+	inline static constexpr unsigned int IReferenceService_TypeDefinitionIndex = 3077;
 
 	class IReferenceService
 	{

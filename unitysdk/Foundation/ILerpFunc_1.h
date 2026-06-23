@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ILerpFunc_1_TypeDefinitionIndex = 9038;
+	inline static constexpr unsigned int ILerpFunc_1_TypeDefinitionIndex = 8779;
 
 	template <typename T>
 	class ILerpFunc_1

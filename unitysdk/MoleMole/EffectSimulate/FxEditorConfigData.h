@@ -8,27 +8,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x170B9FC0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x170BA0B0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x170B9FD0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x170BA110)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x170BA310)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x170BA170)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x191136C0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x191137B0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x191136D0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x19113810)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19113A10)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19113870)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int FxEditorConfigData_TypeDefinitionIndex = 69241;
+	inline static constexpr unsigned int FxEditorConfigData_TypeDefinitionIndex = 72626;
 
 	class FxEditorConfigData : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MUST_MONO_EFFECT_TYPE()
-		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x49430);
-		}
 		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_SPECIAL_MONO_EFFECT_TYPE()
 		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x49438);
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4CC30);
+		}
+		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MUST_MONO_EFFECT_TYPE()
+		{
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4CC38);
 		}
 		// static const ::System::String* TEXTURE_ROOT_PATH; // 0x0
 		// static const ::System::String* ITEM_UNLOCK_EXPEND_PATH; // 0x0

@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1A3B79B0)
-#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x1A3B7760)
-#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1A3B79A0)
-#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x1A3B7C00)
-#define SYSTEM_TEXT_ENCODINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3B8370)
+#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1C70A010)
+#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x1C709DC0)
+#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C70A000)
+#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x1C70A260)
+#define SYSTEM_TEXT_ENCODINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C70A9D0)
 
 namespace System::Text
 {
@@ -19,13 +19,13 @@ namespace System::Text
 	class EncodingHelper : public ::System::Object
 	{
 	public:
-		static ::System::Text::Encoding** StaticGet_utf8EncodingWithoutMarkers()
-		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x390);
-		}
 		static ::System::Reflection::Assembly** StaticGet_i18nAssembly()
 		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x398);
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x390);
+		}
+		static ::System::Text::Encoding** StaticGet_utf8EncodingWithoutMarkers()
+		{
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x398);
 		}
 		static ::System::Object** StaticGet_lockobj()
 		{

@@ -6,14 +6,14 @@
 namespace System::Runtime::Remoting { class ServerIdentity; }
 namespace System::Runtime::Remoting::Lifetime { class LeaseManager; }
 
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x19E14AD0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_TRACKLIFETIME_OFFSET UNITYSDK_OFFSET(0x19E14B50)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E149A0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x19E14AC0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x1C1ACA80)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_TRACKLIFETIME_OFFSET UNITYSDK_OFFSET(0x1C1ACB00)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1AC950)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1ACA70)
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int LifetimeServices_TypeDefinitionIndex = 1281;
+	inline static constexpr unsigned int LifetimeServices_TypeDefinitionIndex = 1280;
 
 	class LifetimeServices : public ::System::Object
 	{
@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Lifetime
 		{
 			return (::System::Runtime::Remoting::Lifetime::LeaseManager**)Il2CppClass::FromTypeDefinitionIndex(LifetimeServices_TypeDefinitionIndex)->GetStaticField(0xCB0);
 		}
-		static ::System::TimeSpan* StaticGet__renewOnCallTime()
+		static ::System::TimeSpan* StaticGet__sponsorshipTimeout()
 		{
 			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(LifetimeServices_TypeDefinitionIndex)->GetStaticField(0x350);
 		}
@@ -30,11 +30,11 @@ namespace System::Runtime::Remoting::Lifetime
 		{
 			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(LifetimeServices_TypeDefinitionIndex)->GetStaticField(0x358);
 		}
-		static ::System::TimeSpan* StaticGet__sponsorshipTimeout()
+		static ::System::TimeSpan* StaticGet__leaseManagerPollTime()
 		{
 			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(LifetimeServices_TypeDefinitionIndex)->GetStaticField(0x360);
 		}
-		static ::System::TimeSpan* StaticGet__leaseManagerPollTime()
+		static ::System::TimeSpan* StaticGet__renewOnCallTime()
 		{
 			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(LifetimeServices_TypeDefinitionIndex)->GetStaticField(0x368);
 		}

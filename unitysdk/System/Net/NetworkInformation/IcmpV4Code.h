@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IcmpV4Code_TypeDefinitionIndex = 3716;
+	inline static constexpr unsigned int IcmpV4Code_TypeDefinitionIndex = 3715;
 
 	enum class IcmpV4Code : ::System::Int32
 	{

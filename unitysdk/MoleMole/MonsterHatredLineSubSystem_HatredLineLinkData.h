@@ -9,25 +9,25 @@ class Class_3_DFD5D1FDB9D2A4AC;
 class ScreenSpaceSplineRenderer;
 namespace System { class String; }
 
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x125EC100)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_LINKTOWTARGET_OFFSET UNITYSDK_OFFSET(0x125EBB90)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_UNLINK_OFFSET UNITYSDK_OFFSET(0x125EBF60)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x125EC1B0)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1303EAF0)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_LINKTOWTARGET_OFFSET UNITYSDK_OFFSET(0x1303E580)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_UNLINK_OFFSET UNITYSDK_OFFSET(0x1303E950)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1303EBA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterHatredLineSubSystem_HatredLineLinkData_TypeDefinitionIndex = 46103;
+	inline static constexpr unsigned int MonsterHatredLineSubSystem_HatredLineLinkData_TypeDefinitionIndex = 51854;
 
 	class MonsterHatredLineSubSystem_HatredLineLinkData : public ::System::Object
 	{
 	public:
-		::MoleMole::EntityHandle TargetEntity; // 0x10
-		::MoleMole::EntityHandle SourceEntity; // 0x20
+		::MoleMole::EntityHandle SourceEntity; // 0x10
+		::MoleMole::EntityHandle TargetEntity; // 0x20
 		::ScreenSpaceSplineRenderer* linkedSplineRenderer; // 0x30
 		::Class_3_DFD5D1FDB9D2A4AC* sourceCharacterModelComponent; // 0x38
 		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x40
-		::MoleMole::MonsterHatredLineSubSystem_HatredLineState currentHatredLineState; // 0x48
-		::System::Boolean assetLoaded; // 0x4C
+		::System::Boolean assetLoaded; // 0x48
+		::MoleMole::MonsterHatredLineSubSystem_HatredLineState currentHatredLineState; // 0x4C
 
 		::System::Void _ctor()
 		{

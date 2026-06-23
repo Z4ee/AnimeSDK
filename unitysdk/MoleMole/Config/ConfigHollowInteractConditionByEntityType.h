@@ -6,12 +6,12 @@
 class Class_1_0340E479638D8801;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x186BB6B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB790)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x18AD5290)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD5370)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractConditionByEntityType_TypeDefinitionIndex = 70969;
+	inline static constexpr unsigned int ConfigHollowInteractConditionByEntityType_TypeDefinitionIndex = 39701;
 
 	class ConfigHollowInteractConditionByEntityType : public ::MoleMole::Config::ConfigHollowInteractCondition
 	{

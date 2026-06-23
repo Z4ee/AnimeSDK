@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController_ESwitchAvatarTab_TypeDefinitionIndex = 65539;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController_ESwitchAvatarTab_TypeDefinitionIndex = 44117;
 
 	enum class UIPlayerAccessoryPageController_ESwitchAvatarTab : ::System::Int32
 	{

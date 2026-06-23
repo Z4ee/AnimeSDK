@@ -12,26 +12,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x15E4BCB0)
-#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15E4BCC0)
-#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15E4BEA0)
-#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E4C040)
-#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E4C000)
+#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17E93230)
+#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17E93240)
+#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17E93420)
+#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E935C0)
+#define MOLEMOLE_MONOGAMESCENEOBJECTMAP_MONOGAMESCENEOBJECTMAP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E93580)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex = 54919;
+	inline static constexpr unsigned int MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex = 56179;
 
 	class MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoGameSceneObjectMap*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Animator*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Animator*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41D60);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41D68);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44EA0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Animator*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Animator*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGameSceneObjectMap_MonoGameSceneObjectMap_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44EA8);
 		}
 
 		::System::Void _ctor()

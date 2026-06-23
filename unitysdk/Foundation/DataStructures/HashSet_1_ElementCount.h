@@ -4,7 +4,7 @@
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 8290;
+	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 8082;
 
 	template <typename T>
 	struct HashSet_1_ElementCount

@@ -14,11 +14,11 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateImplCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509ExtensionCollection; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x19A742C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE5C90)
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509Certificate2Impl_TypeDefinitionIndex = 3191;
+	inline static constexpr unsigned int X509Certificate2Impl_TypeDefinitionIndex = 3190;
 
 	class X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl
 	{

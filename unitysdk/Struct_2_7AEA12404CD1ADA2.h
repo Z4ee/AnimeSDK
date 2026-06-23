@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_7AEA12404CD1ADA2_EQUALS_OFFSET UNITYSDK_OFFSET(0x47D7F0)
-#define STRUCT_2_7AEA12404CD1ADA2_METHOD_2_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x47D890)
-#define STRUCT_2_7AEA12404CD1ADA2__CTOR_OFFSET UNITYSDK_OFFSET(0x47D7E0)
+#define STRUCT_2_7AEA12404CD1ADA2_EQUALS_OFFSET UNITYSDK_OFFSET(0x9E8E40)
+#define STRUCT_2_7AEA12404CD1ADA2__CTOR_OFFSET UNITYSDK_OFFSET(0x9E8E30)
 
-inline static constexpr unsigned int Struct_2_7AEA12404CD1ADA2_TypeDefinitionIndex = 70286;
+inline static constexpr unsigned int Struct_2_7AEA12404CD1ADA2_TypeDefinitionIndex = 19250;
 
 struct alignas(4) Struct_2_7AEA12404CD1ADA2
 {
@@ -22,10 +21,5 @@ struct alignas(4) Struct_2_7AEA12404CD1ADA2
 	::System::Boolean Equals(::Struct_2_7AEA12404CD1ADA2 a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_7AEA12404CD1ADA2))((::PBYTE)hIl2Cpp + STRUCT_2_7AEA12404CD1ADA2_EQUALS_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_ADF4AD3331B4D7AD(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_7AEA12404CD1ADA2_METHOD_2_ADF4AD3331B4D7AD_OFFSET))(this, a1);
 	}
 };

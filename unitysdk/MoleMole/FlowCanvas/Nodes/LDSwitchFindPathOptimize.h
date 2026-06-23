@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHFINDPATHOPTIMIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x125B8550)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHFINDPATHOPTIMIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x125B8670)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHFINDPATHOPTIMIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1300C2B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHFINDPATHOPTIMIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1300C3D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchFindPathOptimize_TypeDefinitionIndex = 38572;
+	inline static constexpr unsigned int LDSwitchFindPathOptimize_TypeDefinitionIndex = 85526;
 
 	class LDSwitchFindPathOptimize : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::Boolean>
 	{

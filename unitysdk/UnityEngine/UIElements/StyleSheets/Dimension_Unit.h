@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int Dimension_Unit_TypeDefinitionIndex = 25118;
+	inline static constexpr unsigned int Dimension_Unit_TypeDefinitionIndex = 27621;
 
 	enum class Dimension_Unit : ::System::Int32
 	{

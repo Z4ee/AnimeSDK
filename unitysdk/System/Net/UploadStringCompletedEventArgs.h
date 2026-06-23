@@ -6,13 +6,13 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1A110530)
-#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A110550)
-#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1104B0)
+#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1C4A3BA0)
+#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4A3BC0)
+#define SYSTEM_NET_UPLOADSTRINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A3B20)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UploadStringCompletedEventArgs_TypeDefinitionIndex = 3467;
+	inline static constexpr unsigned int UploadStringCompletedEventArgs_TypeDefinitionIndex = 3466;
 
 	class UploadStringCompletedEventArgs : public ::System::ComponentModel::AsyncCompletedEventArgs
 	{

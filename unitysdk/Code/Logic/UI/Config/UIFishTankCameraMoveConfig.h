@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CODE_LOGIC_UI_CONFIG_UIFISHTANKCAMERAMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x131A0780)
+#define CODE_LOGIC_UI_CONFIG_UIFISHTANKCAMERAMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x130F9C60)
 
 namespace Code::Logic::UI::Config
 {
-	inline static constexpr unsigned int UIFishTankCameraMoveConfig_TypeDefinitionIndex = 68128;
+	inline static constexpr unsigned int UIFishTankCameraMoveConfig_TypeDefinitionIndex = 81182;
 
 	class UIFishTankCameraMoveConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

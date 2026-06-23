@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonster_InputOutputOption_TypeDefinitionIndex = 58489;
+	inline static constexpr unsigned int LDWaveMonster_InputOutputOption_TypeDefinitionIndex = 60401;
 
 	enum class LDWaveMonster_InputOutputOption : ::System::Int32
 	{

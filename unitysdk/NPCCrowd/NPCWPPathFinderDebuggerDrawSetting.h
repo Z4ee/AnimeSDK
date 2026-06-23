@@ -3,42 +3,42 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define NPCCROWD_NPCWPPATHFINDERDEBUGGERDRAWSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD517D0)
+#define NPCCROWD_NPCWPPATHFINDERDEBUGGERDRAWSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xD443AB0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex = 74108;
+	inline static constexpr unsigned int NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex = 69038;
 
 	class NPCWPPathFinderDebuggerDrawSetting : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Color* StaticGet_LineColorBack()
+		static ::System::Single* StaticGet_NodeCapsuleHalfHeight()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0xFFE0);
-		}
-		static ::UnityEngine::Color* StaticGet_LineColorForward()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0xFFF0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C10);
 		}
 		static ::System::Single* StaticGet_NodeCapsuleRaidus()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10000);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C14);
 		}
 		static ::UnityEngine::Color* StaticGet_LineColorDisable()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10004);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C18);
 		}
-		static ::UnityEngine::Color* StaticGet_NodeColorDisable()
+		static ::UnityEngine::Color* StaticGet_LineColorBack()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10014);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C28);
 		}
-		static ::System::Single* StaticGet_NodeCapsuleHalfHeight()
+		static ::UnityEngine::Color* StaticGet_LineColorForward()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10024);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C38);
 		}
 		static ::UnityEngine::Color* StaticGet_NodeColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10028);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C48);
+		}
+		static ::UnityEngine::Color* StaticGet_NodeColorDisable()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(NPCWPPathFinderDebuggerDrawSetting_TypeDefinitionIndex)->GetStaticField(0x10C58);
 		}
 
 		static ::System::Void _cctor()

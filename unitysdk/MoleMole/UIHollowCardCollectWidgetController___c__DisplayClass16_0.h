@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E43B0)
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITSORT_B__1_OFFSET UNITYSDK_OFFSET(0x162E43C0)
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITSORT_B__3_OFFSET UNITYSDK_OFFSET(0x162E43D0)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18250380)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITSORT_B__1_OFFSET UNITYSDK_OFFSET(0x18250390)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITSORT_B__3_OFFSET UNITYSDK_OFFSET(0x182503A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardCollectWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 45224;
+	inline static constexpr unsigned int UIHollowCardCollectWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 57495;
 
 	class UIHollowCardCollectWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{

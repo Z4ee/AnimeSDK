@@ -6,11 +6,11 @@
 
 namespace System { class Object; }
 
-#define MOLEMOLE_UIROLEDEVELOPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14BFAAA0)
+#define MOLEMOLE_UIROLEDEVELOPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18232EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleDevelopDialogContext_TypeDefinitionIndex = 61127;
+	inline static constexpr unsigned int UIRoleDevelopDialogContext_TypeDefinitionIndex = 72683;
 
 	class UIRoleDevelopDialogContext : public ::MoleMole::UIControllerContextBase
 	{

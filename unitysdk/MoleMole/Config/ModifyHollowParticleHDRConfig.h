@@ -6,12 +6,12 @@ class Class_1_D72537470FC2F779;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MODIFYHOLLOWPARTICLEHDRCONFIG_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1243A930)
-#define MOLEMOLE_CONFIG_MODIFYHOLLOWPARTICLEHDRCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1243A9F0)
+#define MOLEMOLE_CONFIG_MODIFYHOLLOWPARTICLEHDRCONFIG_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1AA710A0)
+#define MOLEMOLE_CONFIG_MODIFYHOLLOWPARTICLEHDRCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA71160)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ModifyHollowParticleHDRConfig_TypeDefinitionIndex = 46924;
+	inline static constexpr unsigned int ModifyHollowParticleHDRConfig_TypeDefinitionIndex = 73698;
 
 	class ModifyHollowParticleHDRConfig : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

@@ -3,20 +3,20 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_UNITASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C444470)
-#define CYSHARP_THREADING_TASKS_UNITASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4444B0)
-#define CYSHARP_THREADING_TASKS_UNITASK___C___CCTOR_B__148_0_OFFSET UNITYSDK_OFFSET(0x1C4444C0)
+#define CYSHARP_THREADING_TASKS_UNITASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78CF00)
+#define CYSHARP_THREADING_TASKS_UNITASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78CF40)
+#define CYSHARP_THREADING_TASKS_UNITASK___C___CCTOR_B__148_0_OFFSET UNITYSDK_OFFSET(0x1E78CF50)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask___c_TypeDefinitionIndex = 28612;
+	inline static constexpr unsigned int UniTask___c_TypeDefinitionIndex = 31268;
 
 	class UniTask___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::UniTask___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask___c_TypeDefinitionIndex)->GetStaticField(0x21C50);
+			return (::Cysharp::Threading::Tasks::UniTask___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask___c_TypeDefinitionIndex)->GetStaticField(0x259E0);
 		}
 
 		static ::System::Void _cctor()

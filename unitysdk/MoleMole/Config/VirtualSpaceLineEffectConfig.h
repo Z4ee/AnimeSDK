@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_VIRTUALSPACELINEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x110362D0)
+#define MOLEMOLE_CONFIG_VIRTUALSPACELINEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F439A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int VirtualSpaceLineEffectConfig_TypeDefinitionIndex = 59075;
+	inline static constexpr unsigned int VirtualSpaceLineEffectConfig_TypeDefinitionIndex = 62286;
 
 	class VirtualSpaceLineEffectConfig : public ::System::Object
 	{

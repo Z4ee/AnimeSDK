@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_TOKEN_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B01D2A0)
-#define SYSTEM_NET_HTTP_HEADERS_TOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x94C830)
-#define SYSTEM_NET_HTTP_HEADERS_TOKEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B01D320)
-#define SYSTEM_NET_HTTP_HEADERS_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x3EABD0)
+#define SYSTEM_NET_HTTP_HEADERS_TOKEN_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D493C40)
+#define SYSTEM_NET_HTTP_HEADERS_TOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9F00D0)
+#define SYSTEM_NET_HTTP_HEADERS_TOKEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D493CC0)
+#define SYSTEM_NET_HTTP_HEADERS_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x4E6C30)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 24748;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 26148;
 
 	struct alignas(4) Token
 	{
 		static ::System::Net::Http::Headers::Token* StaticGet_Empty()
 		{
-			return (::System::Net::Http::Headers::Token*)Il2CppClass::FromTypeDefinitionIndex(Token_TypeDefinitionIndex)->GetStaticField(0x4670);
+			return (::System::Net::Http::Headers::Token*)Il2CppClass::FromTypeDefinitionIndex(Token_TypeDefinitionIndex)->GetStaticField(0x4760);
 		}
 		::System::Net::Http::Headers::Token_Type type; // 0x10
 		::System::Int32 _StartPosition_k__BackingField; // 0x14

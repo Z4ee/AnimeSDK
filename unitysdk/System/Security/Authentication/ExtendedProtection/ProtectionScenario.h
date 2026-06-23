@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication::ExtendedProtection
 {
-	inline static constexpr unsigned int ProtectionScenario_TypeDefinitionIndex = 3159;
+	inline static constexpr unsigned int ProtectionScenario_TypeDefinitionIndex = 3158;
 
 	enum class ProtectionScenario : ::System::Int32
 	{

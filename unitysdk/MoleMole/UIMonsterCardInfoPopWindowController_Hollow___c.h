@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151F1A90)
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151F1AD0)
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__GETHOLLOWMONSTERIDLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x151F1AE0)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EA9260)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA92A0)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_HOLLOW___C__GETHOLLOWMONSTERIDLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x16EA92B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex = 41334;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex = 72747;
 
 	class UIMonsterCardInfoPopWindowController_Hollow___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Int32>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex)->GetStaticField(0x3F090);
-		}
 		static ::MoleMole::UIMonsterCardInfoPopWindowController_Hollow___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMonsterCardInfoPopWindowController_Hollow___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex)->GetStaticField(0x3F098);
+			return (::MoleMole::UIMonsterCardInfoPopWindowController_Hollow___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex)->GetStaticField(0x41670);
+		}
+		static ::System::Comparison_1<::System::Int32>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardInfoPopWindowController_Hollow___c_TypeDefinitionIndex)->GetStaticField(0x41678);
 		}
 
 		static ::System::Void _cctor()

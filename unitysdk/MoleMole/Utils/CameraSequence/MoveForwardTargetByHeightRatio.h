@@ -10,46 +10,46 @@ namespace MoleMole::FlowCanvas::Nodes { class AspectRatioProvider; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0xF640E50)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_AVATARID_OFFSET UNITYSDK_OFFSET(0xF641150)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0xF641200)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0xF640FF0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_HEIGHTRATIO_OFFSET UNITYSDK_OFFSET(0xF6410A0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDATA_OFFSET UNITYSDK_OFFSET(0xF6406E0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDESIREDRADIUS_OFFSET UNITYSDK_OFFSET(0xF6404E0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0xF640DA0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_SETPATH_OFFSET UNITYSDK_OFFSET(0xF640DB0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CCTOR_OFFSET UNITYSDK_OFFSET(0xF641300)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0xF6412B0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0xF641410)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0xF641500)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x122E1CB0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_AVATARID_OFFSET UNITYSDK_OFFSET(0x122E1FB0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0x122E2060)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x122E1E50)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_HEIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x122E1F00)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDATA_OFFSET UNITYSDK_OFFSET(0x122E1540)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDESIREDRADIUS_OFFSET UNITYSDK_OFFSET(0x122E1330)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x122E1C00)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_SETPATH_OFFSET UNITYSDK_OFFSET(0x122E1C10)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CCTOR_OFFSET UNITYSDK_OFFSET(0x122E2160)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x122E2110)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x122E2270)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x122E2360)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int MoveForwardTargetByHeightRatio_TypeDefinitionIndex = 68822;
+	inline static constexpr unsigned int MoveForwardTargetByHeightRatio_TypeDefinitionIndex = 50980;
 
 	class MoveForwardTargetByHeightRatio : public ::PipelineCamera::CameraSequence::MoveByBlending_MoveTargetDataProvider
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightRatio()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF5E0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_AvatarId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF5E8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xFCD0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF5F0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xFCD8);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_AvatarId()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xFCE0);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xFCE8);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_CachedId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF5F8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightRatio()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF600);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xFCF0);
 		}
 		::MoleMole::FlowCanvas::Nodes::AspectRatioProvider* aspectRatio; // 0x40
 		::System::Single fieldOfView; // 0x48

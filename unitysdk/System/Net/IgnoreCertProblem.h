@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IgnoreCertProblem_TypeDefinitionIndex = 3307;
+	inline static constexpr unsigned int IgnoreCertProblem_TypeDefinitionIndex = 3306;
 
 	enum class IgnoreCertProblem : ::System::Int32
 	{

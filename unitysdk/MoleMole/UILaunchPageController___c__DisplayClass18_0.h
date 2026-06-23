@@ -6,18 +6,18 @@ class Class_1_E9529ED64113E4E9;
 namespace MoleMole { class UILaunchPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B82D80)
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__DISPLAYCLASS18_0__PLAYKOREAAGELIMIT_B__1_OFFSET UNITYSDK_OFFSET(0x14B82D90)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C2D860)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__DISPLAYCLASS18_0__PLAYKOREAAGELIMIT_B__1_OFFSET UNITYSDK_OFFSET(0x14C2D870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILaunchPageController___c__DisplayClass18_0_TypeDefinitionIndex = 69832;
+	inline static constexpr unsigned int UILaunchPageController___c__DisplayClass18_0_TypeDefinitionIndex = 67082;
 
 	class UILaunchPageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UILaunchPageController* __4__this; // 0x10
-		::System::Action* next; // 0x18
+		::System::Action* next; // 0x10
+		::MoleMole::UILaunchPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

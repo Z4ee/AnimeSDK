@@ -6,24 +6,24 @@ namespace Newtonsoft::Json::Linq { class JProperty; }
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5D8D0)
-#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5D910)
-#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__PROPERTYVALUES_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BB5D920)
+#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DED7240)
+#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED7280)
+#define NEWTONSOFT_JSON_LINQ_JOBJECT___C__PROPERTYVALUES_B__22_0_OFFSET UNITYSDK_OFFSET(0x1DED7290)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JObject___c_TypeDefinitionIndex = 7043;
+	inline static constexpr unsigned int JObject___c_TypeDefinitionIndex = 7174;
 
 	class JObject___c : public ::System::Object
 	{
 	public:
-		static ::Newtonsoft::Json::Linq::JObject___c** StaticGet___9()
-		{
-			return (::Newtonsoft::Json::Linq::JObject___c**)Il2CppClass::FromTypeDefinitionIndex(JObject___c_TypeDefinitionIndex)->GetStaticField(0x5D20);
-		}
 		static ::System::Func_2<::Newtonsoft::Json::Linq::JProperty*, ::Newtonsoft::Json::Linq::JToken*>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Linq::JProperty*, ::Newtonsoft::Json::Linq::JToken*>**)Il2CppClass::FromTypeDefinitionIndex(JObject___c_TypeDefinitionIndex)->GetStaticField(0x5D28);
+			return (::System::Func_2<::Newtonsoft::Json::Linq::JProperty*, ::Newtonsoft::Json::Linq::JToken*>**)Il2CppClass::FromTypeDefinitionIndex(JObject___c_TypeDefinitionIndex)->GetStaticField(0x5E10);
+		}
+		static ::Newtonsoft::Json::Linq::JObject___c** StaticGet___9()
+		{
+			return (::Newtonsoft::Json::Linq::JObject___c**)Il2CppClass::FromTypeDefinitionIndex(JObject___c_TypeDefinitionIndex)->GetStaticField(0x5E18);
 		}
 
 		static ::System::Void _cctor()

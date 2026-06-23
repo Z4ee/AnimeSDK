@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_3.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowEntityMoveComponent_MoveCmd.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYPREDICTMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16039540)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYPREDICTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x160399F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYPREDICTMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BACC50)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYPREDICTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAD100)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityPredictMove_TypeDefinitionIndex = 38869;
+	inline static constexpr unsigned int HollowEntityPredictMove_TypeDefinitionIndex = 78897;
 
 	class HollowEntityPredictMove : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::System::Int32, ::System::UInt32, ::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>
 	{

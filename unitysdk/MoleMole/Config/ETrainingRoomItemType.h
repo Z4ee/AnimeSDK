@@ -3,17 +3,17 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ETrainingRoomItemType_TypeDefinitionIndex = 61935;
+	inline static constexpr unsigned int ETrainingRoomItemType_TypeDefinitionIndex = 86565;
 
 	enum class ETrainingRoomItemType : ::System::Int32
 	{
-		AvatarPrefectSwitchPoint = 6,
+		EnemyAI = 1,
 		SlelectEnemy = 0,
 		AvatarSuperSP = 5,
+		CanStunEnemy = 3,
 		EnemyLevel = 4,
 		EnemyInvicible = 2,
 		AvatarTeamFever = 7,
-		CanStunEnemy = 3,
-		EnemyAI = 1,
+		AvatarPrefectSwitchPoint = 6,
 	};
 }

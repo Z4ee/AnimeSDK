@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int List_1_Enumerator_TypeDefinitionIndex = 1558;
+	inline static constexpr unsigned int List_1_Enumerator_TypeDefinitionIndex = 1557;
 
 	template <typename T>
 	struct List_1_Enumerator

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_ACTIVITYOVAMAINSTORYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xFE89600)
+#define MOLEMOLE_ACTIVITYOVAMAINSTORYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B86F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityOVAMainStoryContext_TypeDefinitionIndex = 69863;
+	inline static constexpr unsigned int ActivityOVAMainStoryContext_TypeDefinitionIndex = 79326;
 
 	class ActivityOVAMainStoryContext : public ::MoleMole::UIControllerContextBase
 	{

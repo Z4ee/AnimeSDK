@@ -6,9 +6,9 @@
 class ScreenPlayData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SEQUENCEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA62D0)
+#define SEQUENCEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4C2D0)
 
-inline static constexpr unsigned int SequencePlay_TypeDefinitionIndex = 38450;
+inline static constexpr unsigned int SequencePlay_TypeDefinitionIndex = 48812;
 
 class SequencePlay : public ::System::Object
 {

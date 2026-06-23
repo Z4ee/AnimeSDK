@@ -8,7 +8,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int PointLight_TypeDefinitionIndex = 6287;
+	inline static constexpr unsigned int PointLight_TypeDefinitionIndex = 6313;
 
 	struct alignas(4) PointLight
 	{

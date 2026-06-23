@@ -2,18 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_04057F2C2F6EB8E0;
-class Class_1_E85C6B6436A9E3DA;
-template <typename T> class Class_0_16E4307DCC41950C_11;
+inline static constexpr unsigned int Class_1_BF64A3E806610DD3_TypeDefinitionIndex = 28723;
 
-inline static constexpr unsigned int Class_1_BF64A3E806610DD3_TypeDefinitionIndex = 26149;
-
-template <typename T>
 class Class_1_BF64A3E806610DD3 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BF64A3E806610DD3_TypeDefinitionIndex)->GetStaticField(0x0);
-	}
+	// static const ::System::Int32 Field_1_0 = 0xFFFFFFFF; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0xFFFFFFFE; // 0x0
+	// static const ::System::Int32 Field_1_2 = 0xFFFFFFFD; // 0x0
 };

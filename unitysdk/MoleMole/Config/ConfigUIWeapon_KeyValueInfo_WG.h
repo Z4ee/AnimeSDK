@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class WeaponInfo; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIWEAPON_KEYVALUEINFO_WG__CTOR_OFFSET UNITYSDK_OFFSET(0x1424F030)
+#define MOLEMOLE_CONFIG_CONFIGUIWEAPON_KEYVALUEINFO_WG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0D600)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIWeapon_KeyValueInfo_WG_TypeDefinitionIndex = 74992;
+	inline static constexpr unsigned int ConfigUIWeapon_KeyValueInfo_WG_TypeDefinitionIndex = 50221;
 
 	class ConfigUIWeapon_KeyValueInfo_WG : public ::System::Object
 	{

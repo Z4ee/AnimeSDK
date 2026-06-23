@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CreateCollection_1_TypeDefinitionIndex = 27942;
+	inline static constexpr unsigned int CreateCollection_1_TypeDefinitionIndex = 30900;
 
 	template <typename T>
 	class CreateCollection_1 : public ::FlowCanvas::FlowNode

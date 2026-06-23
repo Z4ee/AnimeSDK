@@ -7,11 +7,11 @@ namespace MoleMole { class ItemStyle; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOGUIDEUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9A1C0)
+#define MOLEMOLE_MONOGUIDEUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D68BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGuideUIConfig_TypeDefinitionIndex = 79731;
+	inline static constexpr unsigned int MonoGuideUIConfig_TypeDefinitionIndex = 40192;
 
 	class MonoGuideUIConfig : public ::UnityEngine::MonoBehaviour
 	{

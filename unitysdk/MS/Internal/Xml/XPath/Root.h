@@ -4,13 +4,13 @@
 #include "unitysdk/MS/Internal/Xml/XPath/AstNode_AstType.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_ROOT_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1AD5CB50)
-#define MS_INTERNAL_XML_XPATH_ROOT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1AD5CB40)
-#define MS_INTERNAL_XML_XPATH_ROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5CB30)
+#define MS_INTERNAL_XML_XPATH_ROOT_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1D16FB70)
+#define MS_INTERNAL_XML_XPATH_ROOT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D16FB60)
+#define MS_INTERNAL_XML_XPATH_ROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16FB50)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Root_TypeDefinitionIndex = 1649;
+	inline static constexpr unsigned int Root_TypeDefinitionIndex = 1648;
 
 	class Root : public ::MS::Internal::Xml::XPath::AstNode
 	{

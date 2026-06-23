@@ -6,17 +6,17 @@ class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define CLASS_2_7D7E4C0BD4076E2D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF81A260)
-#define CLASS_2_7D7E4C0BD4076E2D_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0xF81A180)
-#define CLASS_2_7D7E4C0BD4076E2D__CTOR_OFFSET UNITYSDK_OFFSET(0xF81A250)
+#define CLASS_2_7D7E4C0BD4076E2D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x168EC5A0)
+#define CLASS_2_7D7E4C0BD4076E2D_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x168EC4C0)
+#define CLASS_2_7D7E4C0BD4076E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x168EC590)
 
-inline static constexpr unsigned int Class_2_7D7E4C0BD4076E2D_TypeDefinitionIndex = 47085;
+inline static constexpr unsigned int Class_2_7D7E4C0BD4076E2D_TypeDefinitionIndex = 55574;
 
 class Class_2_7D7E4C0BD4076E2D : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::ParticleSystem* Field_2_2; // 0x18
-	::UnityEngine::ParticleSystem* Field_2_1; // 0x20
+	::UnityEngine::ParticleSystem* Field_2_1; // 0x18
+	::UnityEngine::ParticleSystem* Field_2_2; // 0x20
 	::UnityEngine::ParticleSystem* Field_2_0; // 0x28
 
 	::System::Void _ctor()

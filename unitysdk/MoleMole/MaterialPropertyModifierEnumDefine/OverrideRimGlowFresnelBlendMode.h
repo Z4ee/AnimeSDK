@@ -3,12 +3,12 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int OverrideRimGlowFresnelBlendMode_TypeDefinitionIndex = 38499;
+	inline static constexpr unsigned int OverrideRimGlowFresnelBlendMode_TypeDefinitionIndex = 41683;
 
 	enum class OverrideRimGlowFresnelBlendMode : ::System::Byte
 	{
-		Mul = 0x2,
 		Add = 0x0,
 		Blend = 0x1,
+		Mul = 0x2,
 	};
 }

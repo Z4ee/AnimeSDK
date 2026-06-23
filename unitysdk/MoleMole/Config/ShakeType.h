@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShakeType_TypeDefinitionIndex = 63756;
+	inline static constexpr unsigned int ShakeType_TypeDefinitionIndex = 77972;
 
 	enum class ShakeType : ::System::Int32
 	{
-		CameraScreenDir = 2,
-		CameraDir = 1,
 		EpicenterDir = 0,
+		CameraDir = 1,
+		CameraScreenDir = 2,
 	};
 }

@@ -3,10 +3,10 @@
 #include "unitysdk/Enum_3_84F790F6B4BFF34E.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_72B6B191ED643E5E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5570D0)
-#define CLASS_2_72B6B191ED643E5E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5570C0)
+#define CLASS_2_72B6B191ED643E5E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8865F0)
+#define CLASS_2_72B6B191ED643E5E__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8865E0)
 
-inline static constexpr unsigned int Class_2_72B6B191ED643E5E_TypeDefinitionIndex = 6839;
+inline static constexpr unsigned int Class_2_72B6B191ED643E5E_TypeDefinitionIndex = 6955;
 
 class Class_2_72B6B191ED643E5E : public ::System::Attribute
 {

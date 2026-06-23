@@ -3,9 +3,9 @@
 #include "unitysdk/LyraSector/LyraSectorCoord.h"
 #include "unitysdk/System/Object.h"
 
-#define TESTLYRASECTORLOADER_LYRASECTORASYNCLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1927FAC0)
+#define TESTLYRASECTORLOADER_LYRASECTORASYNCLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B177650)
 
-inline static constexpr unsigned int TestLyraSectorLoader_LyraSectorAsyncLoadingData_TypeDefinitionIndex = 29562;
+inline static constexpr unsigned int TestLyraSectorLoader_LyraSectorAsyncLoadingData_TypeDefinitionIndex = 26874;
 
 class TestLyraSectorLoader_LyraSectorAsyncLoadingData : public ::System::Object
 {

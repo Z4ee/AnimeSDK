@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class AutoExposureBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12370D70)
-#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12370D60)
-#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12370F50)
+#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13F26CA0)
+#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x13F26C90)
+#define MOLEMOLE_TIMELINE_AUTOEXPOSURECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13F26E80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int AutoExposureClip_TypeDefinitionIndex = 48527;
+	inline static constexpr unsigned int AutoExposureClip_TypeDefinitionIndex = 79137;
 
 	class AutoExposureClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReadOnlyNativeMemoryRefEnumerator_1_TypeDefinitionIndex = 9172;
+	inline static constexpr unsigned int ReadOnlyNativeMemoryRefEnumerator_1_TypeDefinitionIndex = 8760;
 
 	template <typename T>
 	struct ReadOnlyNativeMemoryRefEnumerator_1

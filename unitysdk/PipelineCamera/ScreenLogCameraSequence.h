@@ -4,22 +4,22 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScreenLogCameraSequence_TypeDefinitionIndex = 36027;
+	inline static constexpr unsigned int ScreenLogCameraSequence_TypeDefinitionIndex = 37635;
 
 	class ScreenLogCameraSequence : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_DebugCameraSequenceTrack()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8590);
-		}
 		static ::System::Boolean* StaticGet_DebugCameraSequenceEvent()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8591);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8A50);
 		}
 		static ::System::Boolean* StaticGet_DebugCameraSequenceStep()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8592);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8A51);
+		}
+		static ::System::Boolean* StaticGet_DebugCameraSequenceTrack()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSequence_TypeDefinitionIndex)->GetStaticField(0x8A52);
 		}
 	};
 }

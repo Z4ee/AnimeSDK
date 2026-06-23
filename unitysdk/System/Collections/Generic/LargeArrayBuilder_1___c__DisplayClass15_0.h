@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int LargeArrayBuilder_1___c__DisplayClass15_0_TypeDefinitionIndex = 3947;
+	inline static constexpr unsigned int LargeArrayBuilder_1___c__DisplayClass15_0_TypeDefinitionIndex = 3946;
 
 	template <typename T>
 	struct LargeArrayBuilder_1___c__DisplayClass15_0

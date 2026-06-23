@@ -6,7 +6,7 @@ namespace System { template <typename T> class Predicate_1; }
 template <typename T> class Class_1_6EF07FD8A218CC4A;
 template <typename T> class Class_1_E3FA82E2A8F89D33___c;
 
-inline static constexpr unsigned int Class_1_E3FA82E2A8F89D33___c_TypeDefinitionIndex = 74768;
+inline static constexpr unsigned int Class_1_E3FA82E2A8F89D33___c_TypeDefinitionIndex = 62164;
 
 template <typename T>
 class Class_1_E3FA82E2A8F89D33___c : public ::System::Object

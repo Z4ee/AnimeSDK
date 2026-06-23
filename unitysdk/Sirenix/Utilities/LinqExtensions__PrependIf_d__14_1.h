@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions__PrependIf_d__14_1_TypeDefinitionIndex = 6410;
+	inline static constexpr unsigned int LinqExtensions__PrependIf_d__14_1_TypeDefinitionIndex = 6455;
 
 	template <typename T>
 	class LinqExtensions__PrependIf_d__14_1 : public ::System::Object

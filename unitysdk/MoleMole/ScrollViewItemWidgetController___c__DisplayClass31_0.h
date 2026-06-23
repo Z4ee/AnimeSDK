@@ -4,12 +4,12 @@
 
 namespace MoleMole { class ScrollViewItemWidgetController; }
 
-#define MOLEMOLE_SCROLLVIEWITEMWIDGETCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B52C30)
-#define MOLEMOLE_SCROLLVIEWITEMWIDGETCONTROLLER___C__DISPLAYCLASS31_0__PLAYFADEANIM_G__ONFADEANIMFINISH_0_OFFSET UNITYSDK_OFFSET(0x15B52C40)
+#define MOLEMOLE_SCROLLVIEWITEMWIDGETCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DEA5D0)
+#define MOLEMOLE_SCROLLVIEWITEMWIDGETCONTROLLER___C__DISPLAYCLASS31_0__PLAYFADEANIM_G__ONFADEANIMFINISH_0_OFFSET UNITYSDK_OFFSET(0x17DEA5E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScrollViewItemWidgetController___c__DisplayClass31_0_TypeDefinitionIndex = 64834;
+	inline static constexpr unsigned int ScrollViewItemWidgetController___c__DisplayClass31_0_TypeDefinitionIndex = 84484;
 
 	class ScrollViewItemWidgetController___c__DisplayClass31_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int PerformanceCounterType_TypeDefinitionIndex = 4066;
+	inline static constexpr unsigned int PerformanceCounterType_TypeDefinitionIndex = 4065;
 
 	enum class PerformanceCounterType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_RESULTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19452900)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_RESULTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BBC40)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager_ResultType_TypeDefinitionIndex = 19138;
+	inline static constexpr unsigned int UserCenterManager_ResultType_TypeDefinitionIndex = 20037;
 
 	class UserCenterManager_ResultType : public ::System::Object
 	{

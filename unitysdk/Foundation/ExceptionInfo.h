@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_EXCEPTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF1AD0)
+#define FOUNDATION_EXCEPTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E370DD0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExceptionInfo_TypeDefinitionIndex = 8051;
+	inline static constexpr unsigned int ExceptionInfo_TypeDefinitionIndex = 7883;
 
 	class ExceptionInfo : public ::System::Object
 	{
 	public:
-		::System::String* message; // 0x10
-		::System::String* realMessage; // 0x18
-		::System::Int32 errCode; // 0x20
-		::Foundation::ExceptionInfo_ExceptionType exceptionType; // 0x24
+		::System::String* realMessage; // 0x10
+		::System::String* message; // 0x18
+		::Foundation::ExceptionInfo_ExceptionType exceptionType; // 0x20
+		::System::Int32 errCode; // 0x24
 
 		::System::Void _ctor()
 		{

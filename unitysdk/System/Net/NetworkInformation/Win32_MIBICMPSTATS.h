@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_MIBICMPSTATS_TypeDefinitionIndex = 3784;
+	inline static constexpr unsigned int Win32_MIBICMPSTATS_TypeDefinitionIndex = 3783;
 
 	struct alignas(4) Win32_MIBICMPSTATS
 	{

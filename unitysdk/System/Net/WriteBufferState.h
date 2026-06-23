@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WriteBufferState_TypeDefinitionIndex = 3368;
+	inline static constexpr unsigned int WriteBufferState_TypeDefinitionIndex = 3367;
 
 	enum class WriteBufferState : ::System::Int32
 	{

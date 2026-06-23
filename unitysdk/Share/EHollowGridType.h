@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowGridType_TypeDefinitionIndex = 12786;
+	inline static constexpr unsigned int EHollowGridType_TypeDefinitionIndex = 9423;
 
 	enum class EHollowGridType : ::System::Byte
 	{

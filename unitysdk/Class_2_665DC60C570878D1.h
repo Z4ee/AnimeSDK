@@ -11,26 +11,26 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UIDynamicNumberLabel; }
 
-#define CLASS_2_665DC60C570878D1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10361580)
-#define CLASS_2_665DC60C570878D1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x103613E0)
-#define CLASS_2_665DC60C570878D1__CTOR_OFFSET UNITYSDK_OFFSET(0x10361570)
+#define CLASS_2_665DC60C570878D1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1659A200)
+#define CLASS_2_665DC60C570878D1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1659A060)
+#define CLASS_2_665DC60C570878D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1659A1F0)
 
-inline static constexpr unsigned int Class_2_665DC60C570878D1_TypeDefinitionIndex = 49013;
+inline static constexpr unsigned int Class_2_665DC60C570878D1_TypeDefinitionIndex = 49914;
 
 class Class_2_665DC60C570878D1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoGeneralLevelUpConfig* Field_2_0; // 0x18
-	::UnityEngine::Animation* Field_2_1; // 0x20
-	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_6; // 0x28
-	::UnityEngine::UI::Text* Field_2_8; // 0x30
-	::UnityEngine::RectTransform* Field_2_5; // 0x38
-	::UnityEngine::GameObject* Field_2_2; // 0x40
-	::UnityEngine::UI::Text* Field_2_10; // 0x48
-	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_9; // 0x50
-	::UnityEngine::RectTransform* Field_2_4; // 0x58
-	::UnityEngine::RectTransform* Field_2_3; // 0x60
-	::UnityEngine::UI::Text* Field_2_7; // 0x68
+	::UnityEngine::Animation* Field_2_1; // 0x18
+	::UnityEngine::UI::Text* Field_2_8; // 0x20
+	::UnityEngine::GameObject* Field_2_2; // 0x28
+	::UnityEngine::RectTransform* Field_2_5; // 0x30
+	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_9; // 0x38
+	::UnityEngine::UI::Text* Field_2_7; // 0x40
+	::UnityEngine::RectTransform* Field_2_4; // 0x48
+	::UnityEngine::UI::Text* Field_2_10; // 0x50
+	::UnityEngine::RectTransform* Field_2_3; // 0x58
+	::MonoGeneralLevelUpConfig* Field_2_0; // 0x60
+	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_6; // 0x68
 
 	::System::Void _ctor()
 	{

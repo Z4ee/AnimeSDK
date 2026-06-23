@@ -5,12 +5,12 @@
 namespace MoleMole { class UIArcadeMenuShopChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16457100)
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYROOTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x16457110)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4EA60)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYROOTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18A4EA70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeMenuShopChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 80724;
+	inline static constexpr unsigned int UIArcadeMenuShopChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 62940;
 
 	class UIArcadeMenuShopChildWindowController___c__DisplayClass27_0 : public ::System::Object
 	{

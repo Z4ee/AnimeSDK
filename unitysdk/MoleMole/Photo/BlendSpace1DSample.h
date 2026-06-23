@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_PHOTO_BLENDSPACE1DSAMPLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x123672B0)
-#define MOLEMOLE_PHOTO_BLENDSPACE1DSAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12367420)
+#define MOLEMOLE_PHOTO_BLENDSPACE1DSAMPLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x13F1CE50)
+#define MOLEMOLE_PHOTO_BLENDSPACE1DSAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x13F1CFC0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int BlendSpace1DSample_TypeDefinitionIndex = 47238;
+	inline static constexpr unsigned int BlendSpace1DSample_TypeDefinitionIndex = 41906;
 
 	class BlendSpace1DSample : public ::System::Object
 	{

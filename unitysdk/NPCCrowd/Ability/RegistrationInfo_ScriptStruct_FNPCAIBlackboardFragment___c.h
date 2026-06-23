@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE577C0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE57800)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xCE57810)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5C38C0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5C3900)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCAIBLACKBOARDFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD5C3910)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c_TypeDefinitionIndex = 50015;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c_TypeDefinitionIndex = 54273;
 
 	class RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c_TypeDefinitionIndex)->GetStaticField(0x42480);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAIBlackboardFragment___c_TypeDefinitionIndex)->GetStaticField(0x455C0);
 		}
 
 		static ::System::Void _cctor()

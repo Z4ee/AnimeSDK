@@ -6,7 +6,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeSliceExtensions_TypeDefinitionIndex = 5094;
+	inline static constexpr unsigned int NativeSliceExtensions_TypeDefinitionIndex = 5093;
 
 	class NativeSliceExtensions : public ::System::Object
 	{

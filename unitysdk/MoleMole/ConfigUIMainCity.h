@@ -8,13 +8,13 @@ namespace MoleMole { class ConfigUIMainCity_MissionTipsConfig; }
 namespace MoleMole { class ConfigUIMainCity_OngoingConfig; }
 namespace MoleMole { class ConfigUIMainCity_ViceCharacterConfig; }
 
-#define MOLEMOLE_CONFIGUIMAINCITY_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14958320)
-#define MOLEMOLE_CONFIGUIMAINCITY__CTOR_OFFSET UNITYSDK_OFFSET(0x149583B0)
-#define MOLEMOLE_CONFIGUIMAINCITY___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x149584A0)
+#define MOLEMOLE_CONFIGUIMAINCITY_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x170D50E0)
+#define MOLEMOLE_CONFIGUIMAINCITY__CTOR_OFFSET UNITYSDK_OFFSET(0x170D5170)
+#define MOLEMOLE_CONFIGUIMAINCITY___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x170D5260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainCity_TypeDefinitionIndex = 46892;
+	inline static constexpr unsigned int ConfigUIMainCity_TypeDefinitionIndex = 75639;
 
 	class ConfigUIMainCity : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -8,7 +8,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class PlanarReflectionProxy_NativeSR
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IDeferredReflectionSystem_TypeDefinitionIndex = 5907;
+	inline static constexpr unsigned int IDeferredReflectionSystem_TypeDefinitionIndex = 5916;
 
 	class IDeferredReflectionSystem
 	{

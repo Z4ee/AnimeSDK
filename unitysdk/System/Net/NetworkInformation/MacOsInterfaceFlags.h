@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacOsInterfaceFlags_TypeDefinitionIndex = 3798;
+	inline static constexpr unsigned int MacOsInterfaceFlags_TypeDefinitionIndex = 3797;
 
 	enum class MacOsInterfaceFlags : ::System::Int32
 	{

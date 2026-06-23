@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMiniscapeEntrustBtnWidgetController; }
 namespace MoleMole { class UIMiniscapeEntrustPageController___c__DisplayClass8_0; }
 
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x155763C0)
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x155763D0)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x178B4540)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x178B4550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 69035;
+	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 42779;
 
 	class UIMiniscapeEntrustPageController___c__DisplayClass8_1 : public ::System::Object
 	{

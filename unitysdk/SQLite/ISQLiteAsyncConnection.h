@@ -24,7 +24,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int ISQLiteAsyncConnection_TypeDefinitionIndex = 36813;
+	inline static constexpr unsigned int ISQLiteAsyncConnection_TypeDefinitionIndex = 38423;
 
 	class ISQLiteAsyncConnection
 	{

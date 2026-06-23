@@ -6,26 +6,26 @@
 namespace FlowCanvas::Nodes { class MoveTo; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19847A30)
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19847B90)
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19847BF0)
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19847BA0)
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19847A20)
-#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x19847A10)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BCB5970)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BCB5AD0)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BCB5B30)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BCB5AE0)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCB5960)
+#define FLOWCANVAS_NODES_MOVETO__INVOKE_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB5950)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MoveTo__Invoke_d__1_TypeDefinitionIndex = 27307;
+	inline static constexpr unsigned int MoveTo__Invoke_d__1_TypeDefinitionIndex = 29591;
 
 	class MoveTo__Invoke_d__1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::AI::NavMeshAgent* agent; // 0x10
-		::FlowCanvas::Nodes::MoveTo* __4__this; // 0x18
+		::FlowCanvas::Nodes::MoveTo* __4__this; // 0x10
+		::UnityEngine::AI::NavMeshAgent* agent; // 0x18
 		::System::Object* __2__current; // 0x20
-		::UnityEngine::Vector3 destination; // 0x28
-		::System::Single stoppingDistance; // 0x34
-		::System::Int32 __1__state; // 0x38
+		::System::Single stoppingDistance; // 0x28
+		::System::Int32 __1__state; // 0x2C
+		::UnityEngine::Vector3 destination; // 0x30
 		::System::Single speed; // 0x3C
 
 		::System::Void _ctor(::System::Int32 __1__state)

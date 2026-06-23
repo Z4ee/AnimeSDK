@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphJsonUtil___c__DisplayClass3_0_1_TypeDefinitionIndex = 72604;
+	inline static constexpr unsigned int GraphJsonUtil___c__DisplayClass3_0_1_TypeDefinitionIndex = 41824;
 
 	template <typename T>
 	struct GraphJsonUtil___c__DisplayClass3_0_1

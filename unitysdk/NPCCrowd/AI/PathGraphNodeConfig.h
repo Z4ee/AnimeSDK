@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/AI/PathGraphNodeConfig_NodeType.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AI_PATHGRAPHNODECONFIG_GET_NODEINDEX_OFFSET UNITYSDK_OFFSET(0xFB4D1A0)
-#define NPCCROWD_AI_PATHGRAPHNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4D190)
+#define NPCCROWD_AI_PATHGRAPHNODECONFIG_GET_NODEINDEX_OFFSET UNITYSDK_OFFSET(0xEBC2040)
+#define NPCCROWD_AI_PATHGRAPHNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC2030)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphNodeConfig_TypeDefinitionIndex = 52637;
+	inline static constexpr unsigned int PathGraphNodeConfig_TypeDefinitionIndex = 80156;
 
 	class PathGraphNodeConfig : public ::System::Object
 	{

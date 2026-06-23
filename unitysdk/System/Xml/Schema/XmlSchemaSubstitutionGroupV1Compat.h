@@ -4,11 +4,11 @@
 
 namespace System::Xml::Schema { class XmlSchemaChoice; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASUBSTITUTIONGROUPV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB11220)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASUBSTITUTIONGROUPV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAB940)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSubstitutionGroupV1Compat_TypeDefinitionIndex = 2195;
+	inline static constexpr unsigned int XmlSchemaSubstitutionGroupV1Compat_TypeDefinitionIndex = 2194;
 
 	class XmlSchemaSubstitutionGroupV1Compat : public ::System::Xml::Schema::XmlSchemaSubstitutionGroup
 	{

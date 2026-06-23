@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_FRIENDS_ADDNOTIFYFRIENDSUPDATEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD5200)
+#define EPIC_ONLINESERVICES_FRIENDS_ADDNOTIFYFRIENDSUPDATEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADDFC00)
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int AddNotifyFriendsUpdateOptions_TypeDefinitionIndex = 34319;
+	inline static constexpr unsigned int AddNotifyFriendsUpdateOptions_TypeDefinitionIndex = 35882;
 
 	class AddNotifyFriendsUpdateOptions : public ::System::Object
 	{

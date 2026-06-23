@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_GUISETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF2DC0)
+#define UNITYENGINE_GUISETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F5A60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUISettings_TypeDefinitionIndex = 6369;
+	inline static constexpr unsigned int GUISettings_TypeDefinitionIndex = 6414;
 
 	class GUISettings : public ::System::Object
 	{

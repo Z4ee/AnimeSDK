@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_2271A294FCCB3EAE.h"
+#include "unitysdk/Enum_3_D7FE77D6BC79ADBB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14844130)
-#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14844120)
+#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16943E60)
+#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16943E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniUIGameSimpleContext_TypeDefinitionIndex = 59950;
+	inline static constexpr unsigned int UIMiniUIGameSimpleContext_TypeDefinitionIndex = 62526;
 
 	class UIMiniUIGameSimpleContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_2271A294FCCB3EAE GameType; // 0x28
+		::Enum_3_D7FE77D6BC79ADBB GameType; // 0x28
 
 		::System::Void _ctor()
 		{

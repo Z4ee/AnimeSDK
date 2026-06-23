@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageController_MissionRowType_TypeDefinitionIndex = 68601;
+	inline static constexpr unsigned int UILevelResultPageController_MissionRowType_TypeDefinitionIndex = 47048;
 
 	enum class UILevelResultPageController_MissionRowType : ::System::Int32
 	{
-		Empty = 2,
-		Statistics = 1,
 		Mission = 0,
+		Statistics = 1,
+		Empty = 2,
 	};
 }

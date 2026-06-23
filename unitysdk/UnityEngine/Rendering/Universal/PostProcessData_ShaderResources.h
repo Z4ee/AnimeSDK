@@ -3,13 +3,14 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnityEngine { class ComputeShader; }
+namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x19F35B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C151900)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessData_ShaderResources_TypeDefinitionIndex = 29813;
+	inline static constexpr unsigned int PostProcessData_ShaderResources_TypeDefinitionIndex = 26731;
 
 	class PostProcessData_ShaderResources : public ::System::Object
 	{
@@ -44,6 +45,10 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Shader* PPFilterFilterPS; // 0xE8
 		::UnityEngine::Shader* CharacterGhostPS; // 0xF0
 		::UnityEngine::Shader* CharacterIgnisFatuusPS; // 0xF8
+		::UnityEngine::Shader* pixelationPS; // 0x100
+		::UnityEngine::Shader* postOutlinePS; // 0x108
+		::UnityEngine::Material* ppsShaderMaterialHolderPixelation; // 0x110
+		::UnityEngine::Material* ppsShaderMaterialHolderOutline; // 0x118
 
 		::System::Void _ctor()
 		{

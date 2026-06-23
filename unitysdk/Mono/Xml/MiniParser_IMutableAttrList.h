@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_IMutableAttrList_TypeDefinitionIndex = 2264;
+	inline static constexpr unsigned int MiniParser_IMutableAttrList_TypeDefinitionIndex = 2263;
 
 	class MiniParser_IMutableAttrList
 	{

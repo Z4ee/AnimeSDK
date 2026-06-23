@@ -18,34 +18,34 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 
-#define MB_TEXTURECOMBINERRENDERTEXTURE_CONVERTNORMALFORMATFROMUNITY_TOSTANDARD_OFFSET UNITYSDK_OFFSET(0x1B6742E0)
-#define MB_TEXTURECOMBINERRENDERTEXTURE_CONVERTRENDERTEXTURETOTEXTURE2D_OFFSET UNITYSDK_OFFSET(0x1B673AC0)
-#define MB_TEXTURECOMBINERRENDERTEXTURE_COPYSCALEDANDTILEDTOATLAS_OFFSET UNITYSDK_OFFSET(0x1B672B10)
-#define MB_TEXTURECOMBINERRENDERTEXTURE_DORENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1B670F10)
-#define MB_TEXTURECOMBINERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1B671980)
-#define MB_TEXTURECOMBINERRENDERTEXTURE_YISFLIPPED_OFFSET UNITYSDK_OFFSET(0x1B672A30)
-#define MB_TEXTURECOMBINERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6743C0)
-#define MB_TEXTURECOMBINERRENDERTEXTURE__PRINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B673F70)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_CONVERTNORMALFORMATFROMUNITY_TOSTANDARD_OFFSET UNITYSDK_OFFSET(0x1DA730B0)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_CONVERTRENDERTEXTURETOTEXTURE2D_OFFSET UNITYSDK_OFFSET(0x1DA72890)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_COPYSCALEDANDTILEDTOATLAS_OFFSET UNITYSDK_OFFSET(0x1DA718E0)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_DORENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1DA6FCE0)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1DA70750)
+#define MB_TEXTURECOMBINERRENDERTEXTURE_YISFLIPPED_OFFSET UNITYSDK_OFFSET(0x1DA71800)
+#define MB_TEXTURECOMBINERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA73190)
+#define MB_TEXTURECOMBINERRENDERTEXTURE__PRINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1DA72D40)
 
-inline static constexpr unsigned int MB_TextureCombinerRenderTexture_TypeDefinitionIndex = 84984;
+inline static constexpr unsigned int MB_TextureCombinerRenderTexture_TypeDefinitionIndex = 90558;
 
 class MB_TextureCombinerRenderTexture : public ::System::Object
 {
 public:
-	::DigitalOpus::MB::Core::ShaderTextureProperty* _texPropertyName; // 0x10
-	::UnityEngine::RenderTexture* _destinationTexture; // 0x18
-	::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB_TexSet*>* textureSets; // 0x20
-	::UnityEngine::Texture2D* targTex; // 0x28
-	::Il2CppArray<::UnityEngine::Rect>* rs; // 0x30
-	::UnityEngine::Material* mat; // 0x38
-	::DigitalOpus::MB::Core::MB3_TextureCombinerNonTextureProperties* _resultMaterialTextureBlender; // 0x40
-	::UnityEngine::Camera* myCamera; // 0x48
-	::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x50
+	::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB_TexSet*>* textureSets; // 0x10
+	::UnityEngine::Camera* myCamera; // 0x18
+	::DigitalOpus::MB::Core::MB3_TextureCombinerNonTextureProperties* _resultMaterialTextureBlender; // 0x20
+	::DigitalOpus::MB::Core::ShaderTextureProperty* _texPropertyName; // 0x28
+	::UnityEngine::RenderTexture* _destinationTexture; // 0x30
+	::Il2CppArray<::UnityEngine::Rect>* rs; // 0x38
+	::UnityEngine::Material* mat; // 0x40
+	::UnityEngine::Texture2D* targTex; // 0x48
+	::System::Boolean _fixOutOfBoundsUVs; // 0x50
+	::System::Boolean _doRenderAtlas; // 0x51
+	::System::Boolean _isNormalMap; // 0x52
 	::System::Int32 indexOfTexSetToRender; // 0x54
 	::System::Int32 _padding; // 0x58
-	::System::Boolean _fixOutOfBoundsUVs; // 0x5C
-	::System::Boolean _isNormalMap; // 0x5D
-	::System::Boolean _doRenderAtlas; // 0x5E
+	::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x5C
 
 	::System::Void _ctor()
 	{

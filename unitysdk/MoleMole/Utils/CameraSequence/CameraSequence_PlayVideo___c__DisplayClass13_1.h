@@ -5,12 +5,12 @@
 namespace MoleMole::Utils::CameraSequence { class CameraSequence_PlayVideo___c__DisplayClass13_0; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11340710)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_1__RECEIVENOTIFYBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x11340720)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13848330)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_1__RECEIVENOTIFYBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x13848340)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequence_PlayVideo___c__DisplayClass13_1_TypeDefinitionIndex = 40068;
+	inline static constexpr unsigned int CameraSequence_PlayVideo___c__DisplayClass13_1_TypeDefinitionIndex = 82297;
 
 	class CameraSequence_PlayVideo___c__DisplayClass13_1 : public ::System::Object
 	{

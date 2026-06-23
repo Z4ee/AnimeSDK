@@ -4,20 +4,21 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION_GETLIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1A30C650)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30CC60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION_GETLIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1C450760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C450D70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentEExtension_TypeDefinitionIndex = 29921;
+	inline static constexpr unsigned int VisualEnvironmentEExtension_TypeDefinitionIndex = 26440;
 
 	class VisualEnvironmentEExtension : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean setAsStaticToD; // 0x18
-		::System::Boolean lowImportance; // 0x19
-		::System::Boolean serveAsLightTrigger; // 0x1A
-		::System::Boolean useNewVersionSunPathConfig; // 0x1B
+		::System::Boolean setAsDynamicToD; // 0x19
+		::System::Boolean lowImportance; // 0x1A
+		::System::Boolean serveAsLightTrigger; // 0x1B
+		::System::Boolean useNewVersionSunPathConfig; // 0x1C
 		::Il2CppArray<::System::Single>* sunPath; // 0x20
 		::Il2CppArray<::UnityEngine::Vector3>* sunPathPoint; // 0x28
 		::UnityEngine::Matrix4x4 sunMatrix; // 0x30

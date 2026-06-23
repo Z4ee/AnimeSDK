@@ -8,7 +8,7 @@ namespace QWER { template <typename T1, typename T2> class CSkipList_2; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CSkipListNode_2_TypeDefinitionIndex = 8577;
+	inline static constexpr unsigned int CSkipListNode_2_TypeDefinitionIndex = 8816;
 
 	template <typename T, typename U>
 	class CSkipListNode_2 : public ::System::Object

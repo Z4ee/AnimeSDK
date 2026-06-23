@@ -4,11 +4,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F4C3E0)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14BD74F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext_TypeDefinitionIndex = 62155;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext_TypeDefinitionIndex = 41550;
 
 	class UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

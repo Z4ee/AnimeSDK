@@ -7,23 +7,23 @@ class Class_2_7F95F273DDBFD8DA;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_1_OFFSET UNITYSDK_OFFSET(0x70DDD0)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_OFFSET UNITYSDK_OFFSET(0x70DD90)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_5592BFCA1EE165A2_OFFSET UNITYSDK_OFFSET(0x70DD80)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_5863465EEDEDEEC5_OFFSET UNITYSDK_OFFSET(0x1120BB40)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_A079105B6C727B32_OFFSET UNITYSDK_OFFSET(0x1120B9A0)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x70DE30)
-#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x70DE10)
-#define STRUCT_2_172EDDF213DEFCC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1120B5E0)
-#define STRUCT_2_172EDDF213DEFCC4__CTOR_OFFSET UNITYSDK_OFFSET(0x70DD70)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_1_OFFSET UNITYSDK_OFFSET(0x78F450)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_OFFSET UNITYSDK_OFFSET(0x78F410)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_5592BFCA1EE165A2_OFFSET UNITYSDK_OFFSET(0x78F400)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_5863465EEDEDEEC5_OFFSET UNITYSDK_OFFSET(0x125A8750)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_A079105B6C727B32_OFFSET UNITYSDK_OFFSET(0x125A87B0)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x78F590)
+#define STRUCT_2_172EDDF213DEFCC4_METHOD_2_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x78F5C0)
+#define STRUCT_2_172EDDF213DEFCC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x125A8390)
+#define STRUCT_2_172EDDF213DEFCC4__CTOR_OFFSET UNITYSDK_OFFSET(0x78F3F0)
 
-inline static constexpr unsigned int Struct_2_172EDDF213DEFCC4_TypeDefinitionIndex = 45852;
+inline static constexpr unsigned int Struct_2_172EDDF213DEFCC4_TypeDefinitionIndex = 53783;
 
 struct alignas(8) Struct_2_172EDDF213DEFCC4
 {
 	static ::Struct_2_172EDDF213DEFCC4* StaticGet_Field_2_3()
 	{
-		return (::Struct_2_172EDDF213DEFCC4*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_172EDDF213DEFCC4_TypeDefinitionIndex)->GetStaticField(0xCC70);
+		return (::Struct_2_172EDDF213DEFCC4*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_172EDDF213DEFCC4_TypeDefinitionIndex)->GetStaticField(0xAC00);
 	}
 	::Foundation::ReadOnlyNativeVariable_1<::System::Double> Field_2_0; // 0x10
 	::Foundation::ReadOnlyNativeVariable_1<::System::Double> Field_2_1; // 0x20
@@ -47,9 +47,9 @@ struct alignas(8) Struct_2_172EDDF213DEFCC4
 	}
 
 	/*
-	static ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* Method_2_A079105B6C727B32(::Foundation::NativeMemoryBuilder* a1)
+	static ::Struct_2_172EDDF213DEFCC4 Method_2_5863465EEDEDEEC5(::Foundation::NativeMemory* a1, ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* a2)
 	{
-		return ((::Il2CppArray<::Foundation::NativeMemoryRequestHandle>*(*)(::Foundation::NativeMemoryBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_A079105B6C727B32_OFFSET))(a1);
+		return ((::Struct_2_172EDDF213DEFCC4(*)(::Foundation::NativeMemory*, ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>*))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_5863465EEDEDEEC5_OFFSET))(a1, a2);
 	}
 	*/
 
@@ -58,25 +58,25 @@ struct alignas(8) Struct_2_172EDDF213DEFCC4
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_OFFSET))(this);
 	}
 
+	/*
+	static ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* Method_2_A079105B6C727B32(::Foundation::NativeMemoryBuilder* a1)
+	{
+		return ((::Il2CppArray<::Foundation::NativeMemoryRequestHandle>*(*)(::Foundation::NativeMemoryBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_A079105B6C727B32_OFFSET))(a1);
+	}
+	*/
+
 	::System::Double Method_2_4E5F0C484BC1A4CD_1()
 	{
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_4E5F0C484BC1A4CD_1_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_CE34EA208837238D()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_CE34EA208837238D_OFFSET))(this);
-	}
-
-	/*
-	static ::Struct_2_172EDDF213DEFCC4 Method_2_5863465EEDEDEEC5(::Foundation::NativeMemory* a1, ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* a2)
-	{
-		return ((::Struct_2_172EDDF213DEFCC4(*)(::Foundation::NativeMemory*, ::Il2CppArray<::Foundation::NativeMemoryRequestHandle>*))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_5863465EEDEDEEC5_OFFSET))(a1, a2);
-	}
-	*/
-
 	::System::Int32 Method_2_BFBBE8A6FE167A6A()
 	{
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_BFBBE8A6FE167A6A_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_CE34EA208837238D()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_172EDDF213DEFCC4_METHOD_2_CE34EA208837238D_OFFSET))(this);
 	}
 };

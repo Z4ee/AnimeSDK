@@ -7,31 +7,26 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_7EDC5CD53A870E73_METHOD_1_4DE4F47E504EB9CD_OFFSET UNITYSDK_OFFSET(0x11AD9760)
-#define CLASS_1_7EDC5CD53A870E73_METHOD_1_7F8518DE9BC47039_OFFSET UNITYSDK_OFFSET(0x11AD9A30)
-#define CLASS_1_7EDC5CD53A870E73_METHOD_1_878229E508C8F1EB_OFFSET UNITYSDK_OFFSET(0x11AD9710)
-#define CLASS_1_7EDC5CD53A870E73_METHOD_1_8AADCB469BEBBAEF_OFFSET UNITYSDK_OFFSET(0x11AD96C0)
-#define CLASS_1_7EDC5CD53A870E73__CTOR_OFFSET UNITYSDK_OFFSET(0x11AD96B0)
+#define CLASS_1_7EDC5CD53A870E73_METHOD_1_4DE4F47E504EB9CD_OFFSET UNITYSDK_OFFSET(0x12EFC700)
+#define CLASS_1_7EDC5CD53A870E73_METHOD_1_7F8518DE9BC47039_OFFSET UNITYSDK_OFFSET(0x12EFC9D0)
+#define CLASS_1_7EDC5CD53A870E73_METHOD_1_878229E508C8F1EB_OFFSET UNITYSDK_OFFSET(0x12EFC6B0)
+#define CLASS_1_7EDC5CD53A870E73_METHOD_1_8AADCB469BEBBAEF_OFFSET UNITYSDK_OFFSET(0x12EFCB10)
+#define CLASS_1_7EDC5CD53A870E73__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFC6A0)
 
-inline static constexpr unsigned int Class_1_7EDC5CD53A870E73_TypeDefinitionIndex = 50354;
+inline static constexpr unsigned int Class_1_7EDC5CD53A870E73_TypeDefinitionIndex = 62553;
 
 class Class_1_7EDC5CD53A870E73 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigAudioBasePath** StaticGet_Field_1_1()
 	{
-		return (::MoleMole::Config::ConfigAudioBasePath**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EDC5CD53A870E73_TypeDefinitionIndex)->GetStaticField(0x31AA0);
+		return (::MoleMole::Config::ConfigAudioBasePath**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EDC5CD53A870E73_TypeDefinitionIndex)->GetStaticField(0x3BF90);
 	}
 	// static const ::System::String* Field_1_0; // 0x0
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7EDC5CD53A870E73__CTOR_OFFSET))(this);
-	}
-
-	static ::MoleMole::Config::ConfigAudioBasePath* Method_1_8AADCB469BEBBAEF()
-	{
-		return ((::MoleMole::Config::ConfigAudioBasePath*(*)())((::PBYTE)hIl2Cpp + CLASS_1_7EDC5CD53A870E73_METHOD_1_8AADCB469BEBBAEF_OFFSET))();
 	}
 
 	static ::System::Void Method_1_878229E508C8F1EB(::System::Boolean a1, ::System::Action* a2)
@@ -47,5 +42,10 @@ public:
 	static ::System::Void Method_1_4DE4F47E504EB9CD(::System::Boolean a1, ::System::Action* a2)
 	{
 		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_7EDC5CD53A870E73_METHOD_1_4DE4F47E504EB9CD_OFFSET))(a1, a2);
+	}
+
+	static ::MoleMole::Config::ConfigAudioBasePath* Method_1_8AADCB469BEBBAEF()
+	{
+		return ((::MoleMole::Config::ConfigAudioBasePath*(*)())((::PBYTE)hIl2Cpp + CLASS_1_7EDC5CD53A870E73_METHOD_1_8AADCB469BEBBAEF_OFFSET))();
 	}
 };

@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UITriDiceOracleCardItemCollectPageController; }
 
-#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13413600)
-#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x134140E0)
+#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13999210)
+#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x13999D30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0_TypeDefinitionIndex = 64168;
+	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0_TypeDefinitionIndex = 66587;
 
 	class UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0 : public ::System::Object
 	{

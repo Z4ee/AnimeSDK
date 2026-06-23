@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7E3900)
-#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E3870)
+#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CAF7440)
+#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF73B0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int BufferOffsetSize_TypeDefinitionIndex = 3366;
+	inline static constexpr unsigned int BufferOffsetSize_TypeDefinitionIndex = 3365;
 
 	class BufferOffsetSize : public ::System::Object
 	{

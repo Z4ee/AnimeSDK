@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTPOPDIALOGPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1698F8B0)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTPOPDIALOGPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F26A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaCollectPopDialogPopWindowContext_TypeDefinitionIndex = 68225;
+	inline static constexpr unsigned int UIForbiddenAreaCollectPopDialogPopWindowContext_TypeDefinitionIndex = 45900;
 
 	class UIForbiddenAreaCollectPopDialogPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnCloseAction; // 0x28
-		::System::Boolean IsGroup; // 0x30
-		::System::Int32 ID; // 0x34
+		::System::Int32 ID; // 0x30
+		::System::Boolean IsGroup; // 0x34
 
 		::System::Void _ctor()
 		{

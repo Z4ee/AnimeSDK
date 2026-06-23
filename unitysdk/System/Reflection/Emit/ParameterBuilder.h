@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_REFLECTION_EMIT_PARAMETERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E11B70)
+#define SYSTEM_REFLECTION_EMIT_PARAMETERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A9B20)
 
 namespace System::Reflection::Emit
 {

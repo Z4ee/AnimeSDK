@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15296F50)
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15296F90)
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__INITVIEW_B__22_0_OFFSET UNITYSDK_OFFSET(0x15296FA0)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169B1D90)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x169B1DD0)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__INITVIEW_B__22_0_OFFSET UNITYSDK_OFFSET(0x169B1DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex = 59042;
+	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex = 71204;
 
 	class UIInterKnotPostDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIInterKnotPostDialogPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIInterKnotPostDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x449B0);
-		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__22_0()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x449B8);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46C50);
+		}
+		static ::MoleMole::UIInterKnotPostDialogPopWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIInterKnotPostDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotPostDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46C58);
 		}
 
 		static ::System::Void _cctor()

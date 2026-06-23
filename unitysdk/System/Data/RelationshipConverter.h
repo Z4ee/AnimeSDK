@@ -7,13 +7,13 @@ namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_DATA_RELATIONSHIPCONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1B344A30)
-#define SYSTEM_DATA_RELATIONSHIPCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1B344AA0)
-#define SYSTEM_DATA_RELATIONSHIPCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B344A20)
+#define SYSTEM_DATA_RELATIONSHIPCONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1D7230D0)
+#define SYSTEM_DATA_RELATIONSHIPCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1D723140)
+#define SYSTEM_DATA_RELATIONSHIPCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7230C0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RelationshipConverter_TypeDefinitionIndex = 37055;
+	inline static constexpr unsigned int RelationshipConverter_TypeDefinitionIndex = 38672;
 
 	class RelationshipConverter : public ::System::ComponentModel::ExpandableObjectConverter
 	{

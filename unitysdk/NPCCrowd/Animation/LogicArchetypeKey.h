@@ -4,21 +4,39 @@
 
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x570CD0)
-#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x570CE0)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x593A90)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x593A20)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x593AA0)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x593B50)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x593AF0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int LogicArchetypeKey_TypeDefinitionIndex = 73253;
+	inline static constexpr unsigned int LogicArchetypeKey_TypeDefinitionIndex = 75465;
 
 	struct alignas(1) LogicArchetypeKey
 	{
 		::System::Boolean UseStateMachine; // 0x10
 		::System::Boolean UseMontage; // 0x11
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::NPCCrowd::Animation::LogicArchetypeKey other)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::LogicArchetypeKey))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Boolean Equals_1(::System::Object* obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_1_OFFSET))(this, obj);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::Int32 __base_GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_GETHASHCODE_OFFSET))(this);
 		}
 
 		::System::Boolean __base_Equals(::System::Object* P0)

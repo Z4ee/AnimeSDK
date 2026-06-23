@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_UNITVIEWREADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFFB80)
+#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_UNITVIEWREADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22B160)
 
 namespace BinaryTracingCore::Source::TracingRead
 {
-	inline static constexpr unsigned int UnitViewReadException_TypeDefinitionIndex = 32417;
+	inline static constexpr unsigned int UnitViewReadException_TypeDefinitionIndex = 33968;
 
 	class UnitViewReadException : public ::System::Exception
 	{

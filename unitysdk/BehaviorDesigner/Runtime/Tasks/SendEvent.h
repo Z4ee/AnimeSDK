@@ -9,28 +9,28 @@ namespace BehaviorDesigner::Runtime { class SharedInt; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0CFA80)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONSTART_OFFSET UNITYSDK_OFFSET(0x1C0CF2A0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0CF5B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CFB00)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0CFB90)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1C0CFC20)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0CFCB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E2C70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E3E2490)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E27A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E2CF0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E2D80)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E3E2E10)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SENDEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E2EA0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int SendEvent_TypeDefinitionIndex = 31794;
+	inline static constexpr unsigned int SendEvent_TypeDefinitionIndex = 33345;
 
 	class SendEvent : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::BehaviorTree* behaviorTree; // 0x58
-		::BehaviorDesigner::Runtime::SharedVariable* argument3; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* eventName; // 0x68
-		::BehaviorDesigner::Runtime::SharedVariable* argument2; // 0x70
-		::BehaviorDesigner::Runtime::SharedInt* group; // 0x78
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x80
-		::BehaviorDesigner::Runtime::SharedVariable* argument1; // 0x88
+		::BehaviorDesigner::Runtime::SharedVariable* argument1; // 0x58
+		::BehaviorDesigner::Runtime::SharedInt* group; // 0x60
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
+		::BehaviorDesigner::Runtime::SharedString* eventName; // 0x70
+		::BehaviorDesigner::Runtime::BehaviorTree* behaviorTree; // 0x78
+		::BehaviorDesigner::Runtime::SharedVariable* argument3; // 0x80
+		::BehaviorDesigner::Runtime::SharedVariable* argument2; // 0x88
 
 		::System::Void _ctor()
 		{

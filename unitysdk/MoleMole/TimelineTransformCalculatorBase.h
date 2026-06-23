@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_TIMELINETRANSFORMCALCULATORBASE_PROCESSS_OFFSET UNITYSDK_OFFSET(0x15B6B200)
-#define MOLEMOLE_TIMELINETRANSFORMCALCULATORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6B270)
+#define MOLEMOLE_TIMELINETRANSFORMCALCULATORBASE_PROCESSS_OFFSET UNITYSDK_OFFSET(0x17E06220)
+#define MOLEMOLE_TIMELINETRANSFORMCALCULATORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E06290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineTransformCalculatorBase_TypeDefinitionIndex = 64125;
+	inline static constexpr unsigned int TimelineTransformCalculatorBase_TypeDefinitionIndex = 44488;
 
 	class TimelineTransformCalculatorBase : public ::System::Object
 	{

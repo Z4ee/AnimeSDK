@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x1C548E50)
-#define UNITYENGINE_SUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C548E60)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR_GET_ID_OFFSET UNITYSDK_OFFSET(0x1E879610)
+#define UNITYENGINE_SUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E879620)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 9647;
+	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 18833;
 
 	class SubsystemDescriptor : public ::System::Object
 	{

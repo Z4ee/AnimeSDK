@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::Win { class NoticeManager_WebEventDataModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_WEBEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A361140)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_WEBEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C582C10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager_WebEventModel_TypeDefinitionIndex = 19975;
+	inline static constexpr unsigned int NoticeManager_WebEventModel_TypeDefinitionIndex = 21141;
 
 	class NoticeManager_WebEventModel : public ::System::Object
 	{

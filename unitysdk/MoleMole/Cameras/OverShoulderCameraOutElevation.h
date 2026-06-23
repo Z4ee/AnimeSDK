@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERAOUTELEVATION_CONSTRAINTELEVATION_OFFSET UNITYSDK_OFFSET(0x7D6250)
-#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERAOUTELEVATION_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x1751C520)
+#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERAOUTELEVATION_CONSTRAINTELEVATION_OFFSET UNITYSDK_OFFSET(0x7D5500)
+#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERAOUTELEVATION_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x144C5D80)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int OverShoulderCameraOutElevation_TypeDefinitionIndex = 63682;
+	inline static constexpr unsigned int OverShoulderCameraOutElevation_TypeDefinitionIndex = 42911;
 
 	struct alignas(4) OverShoulderCameraOutElevation
 	{

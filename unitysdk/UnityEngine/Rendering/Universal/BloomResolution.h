@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BloomResolution_TypeDefinitionIndex = 30139;
+	inline static constexpr unsigned int BloomResolution_TypeDefinitionIndex = 26964;
 
 	enum class BloomResolution : ::System::Int32
 	{
-		Quarter = 4,
 		Half = 2,
+		Quarter = 4,
 	};
 }

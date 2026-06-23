@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityStatus_TypeDefinitionIndex = 3300;
+	inline static constexpr unsigned int SecurityStatus_TypeDefinitionIndex = 3299;
 
 	enum class SecurityStatus : ::System::Int32
 	{

@@ -8,13 +8,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshFilter; }
 
-#define MESHTOOL_GAUSSIAN_OFFSET UNITYSDK_OFFSET(0x17423FD0)
-#define MESHTOOL_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x17423850)
-#define MESHTOOL_START_OFFSET UNITYSDK_OFFSET(0x174230B0)
-#define MESHTOOL_UPDATE_OFFSET UNITYSDK_OFFSET(0x17423100)
-#define MESHTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x174240D0)
+#define MESHTOOL_GAUSSIAN_OFFSET UNITYSDK_OFFSET(0x1701DAF0)
+#define MESHTOOL_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1701D370)
+#define MESHTOOL_START_OFFSET UNITYSDK_OFFSET(0x1701CBD0)
+#define MESHTOOL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1701CC20)
+#define MESHTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1701DBF0)
 
-inline static constexpr unsigned int MeshTool_TypeDefinitionIndex = 59583;
+inline static constexpr unsigned int MeshTool_TypeDefinitionIndex = 82854;
 
 class MeshTool : public ::UnityEngine::MonoBehaviour
 {

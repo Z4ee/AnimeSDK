@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW01ROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1552B530)
+#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW01ROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10401480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapLeftTastListRow01RoleContext_TypeDefinitionIndex = 66136;
+	inline static constexpr unsigned int UIUrbanMapLeftTastListRow01RoleContext_TypeDefinitionIndex = 61770;
 
 	class UIUrbanMapLeftTastListRow01RoleContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -1,11 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/NAPInput/IMUData.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_27__CTOR_OFFSET UNITYSDK_OFFSET(0x141A80D0)
+class Class_1_D4EE696AE596E211;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::Rendering { class Volume; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_27_TypeDefinitionIndex = 67245;
+#define CLASS_1_43BD383C98B4C0C5_27__CTOR_OFFSET UNITYSDK_OFFSET(0x125C1720)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_27_TypeDefinitionIndex = 69006;
 
 class Class_1_43BD383C98B4C0C5_27 : public ::System::Object
 {

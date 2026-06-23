@@ -3,11 +3,11 @@
 #include "unitysdk/Octree/BoundingBox.h"
 #include "unitysdk/System/ValueType.h"
 
-#define OCTREE_OCTCHILDBOUNDINGBOX_EQUALS_OFFSET UNITYSDK_OFFSET(0x658840)
+#define OCTREE_OCTCHILDBOUNDINGBOX_EQUALS_OFFSET UNITYSDK_OFFSET(0x5880E0)
 
 namespace Octree
 {
-	inline static constexpr unsigned int OctChildBoundingBox_TypeDefinitionIndex = 76811;
+	inline static constexpr unsigned int OctChildBoundingBox_TypeDefinitionIndex = 63543;
 
 	struct alignas(4) OctChildBoundingBox
 	{

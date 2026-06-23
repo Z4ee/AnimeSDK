@@ -5,11 +5,11 @@
 namespace MoleMole { class UIGeneralBubbleChatChildWindowController; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOUIINTERACTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD9680)
+#define MOLEMOLE_MONOUIINTERACTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x151504B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIInteractGroup_TypeDefinitionIndex = 71097;
+	inline static constexpr unsigned int MonoUIInteractGroup_TypeDefinitionIndex = 41070;
 
 	class MonoUIInteractGroup : public ::UnityEngine::MonoBehaviour
 	{

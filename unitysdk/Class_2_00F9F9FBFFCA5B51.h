@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_3D46C5D064952E16_2.h"
+#include "unitysdk/Class_1_3D46C5D064952E16_5.h"
 
-class Class_2_1B1C05BC0A38A2D5_1;
+class Class_2_1B1C05BC0A38A2D5_2;
 namespace System { class String; }
 
-#define CLASS_2_00F9F9FBFFCA5B51_METHOD_2_4B16404ED490414F_OFFSET UNITYSDK_OFFSET(0x113F4D70)
-#define CLASS_2_00F9F9FBFFCA5B51_METHOD_2_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0x113F4E00)
-#define CLASS_2_00F9F9FBFFCA5B51__CTOR_OFFSET UNITYSDK_OFFSET(0x113F4D60)
+#define CLASS_2_00F9F9FBFFCA5B51_METHOD_2_2FDC69A366F3E642_OFFSET UNITYSDK_OFFSET(0x115CA750)
+#define CLASS_2_00F9F9FBFFCA5B51_METHOD_2_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0x115CA7E0)
+#define CLASS_2_00F9F9FBFFCA5B51__CTOR_OFFSET UNITYSDK_OFFSET(0x115CA740)
 
-inline static constexpr unsigned int Class_2_00F9F9FBFFCA5B51_TypeDefinitionIndex = 56753;
+inline static constexpr unsigned int Class_2_00F9F9FBFFCA5B51_TypeDefinitionIndex = 65872;
 
-class Class_2_00F9F9FBFFCA5B51 : public ::Class_1_3D46C5D064952E16_2
+class Class_2_00F9F9FBFFCA5B51 : public ::Class_1_3D46C5D064952E16_5
 {
 public:
 	::System::String* Field_2_0; // 0x18
 
-	::System::Void _ctor(::Class_2_1B1C05BC0A38A2D5_1* a1, ::System::String* a2)
+	::System::Void _ctor(::Class_2_1B1C05BC0A38A2D5_2* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_1B1C05BC0A38A2D5_1*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_00F9F9FBFFCA5B51__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_1B1C05BC0A38A2D5_2*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_00F9F9FBFFCA5B51__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_4B16404ED490414F()
+	::System::Void Method_2_2FDC69A366F3E642()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00F9F9FBFFCA5B51_METHOD_2_4B16404ED490414F_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00F9F9FBFFCA5B51_METHOD_2_2FDC69A366F3E642_OFFSET))(this);
 	}
 
 	::System::Void Method_2_5EBCF276C230582C()

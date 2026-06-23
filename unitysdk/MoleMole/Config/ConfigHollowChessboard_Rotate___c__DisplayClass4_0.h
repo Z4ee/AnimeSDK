@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_Rotate; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1102B760)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___C__DISPLAYCLASS4_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x1102B770)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F35B90)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___C__DISPLAYCLASS4_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x18F35BA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_Rotate___c__DisplayClass4_0_TypeDefinitionIndex = 43424;
+	inline static constexpr unsigned int ConfigHollowChessboard_Rotate___c__DisplayClass4_0_TypeDefinitionIndex = 64388;
 
 	class ConfigHollowChessboard_Rotate___c__DisplayClass4_0 : public ::System::Object
 	{

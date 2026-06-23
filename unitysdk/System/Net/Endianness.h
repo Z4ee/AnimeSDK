@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Endianness_TypeDefinitionIndex = 3303;
+	inline static constexpr unsigned int Endianness_TypeDefinitionIndex = 3302;
 
 	enum class Endianness : ::System::Int32
 	{

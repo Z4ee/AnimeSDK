@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_60E3B7F7BA004DCE;
+class Class_1_7AC5B08EE91522DA;
+class Class_1_8C4EEDCDF27EDEA0;
+class Class_2_1A39E1B51756BF41;
+class Class_2_B4378B46E0020E85;
+class Class_3_0445D2AD5E835B13_1;
+class Class_3_F1055133CEAEFB6A;
+namespace MoleMole { class NotificationBadgeEx; }
+namespace MoleMole { class UIGeneralBtn03WidgetController; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+namespace UnityEngine::UI::Extension { class UITimeWidget; }
+template <typename T> class Class_3_6F805C3FA3D1D41D;
+
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x167F1300)
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_325A14E03876EF82_1_OFFSET UNITYSDK_OFFSET(0x167F1310)
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_325A14E03876EF82_OFFSET UNITYSDK_OFFSET(0x167F11E0)
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_8C8625211DA811AE_OFFSET UNITYSDK_OFFSET(0x167F1430)
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_AA009612CA220737_1_OFFSET UNITYSDK_OFFSET(0x167F0E20)
+#define CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_AA009612CA220737_OFFSET UNITYSDK_OFFSET(0x167F1000)
+#define CLASS_1_E73D7D4FB134DFEA_1__CTOR_OFFSET UNITYSDK_OFFSET(0x167F0D60)
+
+inline static constexpr unsigned int Class_1_E73D7D4FB134DFEA_1_TypeDefinitionIndex = 86104;
+
+class Class_1_E73D7D4FB134DFEA_1 : public ::System::Object
+{
+public:
+	::UnityEngine::UI::Extension::UITimeWidget* Field_1_5; // 0x10
+	::Class_2_B4378B46E0020E85* Field_1_15; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_1_8; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_1_12; // 0x28
+	::Class_2_B4378B46E0020E85* Field_1_9; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_1_14; // 0x38
+	::Class_1_8C4EEDCDF27EDEA0* Field_1_0; // 0x40
+	::Class_2_B4378B46E0020E85* Field_1_11; // 0x48
+	::Class_2_B4378B46E0020E85* Field_1_4; // 0x50
+	::Class_2_B4378B46E0020E85* Field_1_10; // 0x58
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralBtn03WidgetController*>* Field_1_1; // 0x60
+	::MoleMole::NotificationBadgeEx* Field_1_13; // 0x68
+	::Class_2_B4378B46E0020E85* Field_1_6; // 0x70
+	::Class_1_7AC5B08EE91522DA* Field_1_2; // 0x78
+	::UnityEngine::UI::Extension::UILocalizationText* Field_1_7; // 0x80
+	::Class_1_60E3B7F7BA004DCE* Field_1_3; // 0x88
+
+	::System::Void _ctor(::Class_1_8C4EEDCDF27EDEA0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8C4EEDCDF27EDEA0*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_AA009612CA220737(::Class_3_0445D2AD5E835B13_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_0445D2AD5E835B13_1*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_AA009612CA220737_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_E73D7D4FB134DFEA_1* Method_1_325A14E03876EF82(::Class_3_F1055133CEAEFB6A* a1)
+	{
+		return ((::Class_1_E73D7D4FB134DFEA_1*(*)(::Class_3_F1055133CEAEFB6A*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_325A14E03876EF82_OFFSET))(a1);
+	}
+
+	::Class_1_8C4EEDCDF27EDEA0* Method_1_24748FC20F375725()
+	{
+		return ((::Class_1_8C4EEDCDF27EDEA0*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_24748FC20F375725_OFFSET))(this);
+	}
+
+	static ::Class_1_E73D7D4FB134DFEA_1* Method_1_325A14E03876EF82_1(::Class_3_0445D2AD5E835B13_1* a1)
+	{
+		return ((::Class_1_E73D7D4FB134DFEA_1*(*)(::Class_3_0445D2AD5E835B13_1*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_325A14E03876EF82_1_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_AA009612CA220737_1(::Class_3_F1055133CEAEFB6A* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_F1055133CEAEFB6A*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_AA009612CA220737_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8C8625211DA811AE(::Class_1_8C4EEDCDF27EDEA0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8C4EEDCDF27EDEA0*))((::PBYTE)hIl2Cpp + CLASS_1_E73D7D4FB134DFEA_1_METHOD_1_8C8625211DA811AE_OFFSET))(this, a1);
+	}
+};

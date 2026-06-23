@@ -5,19 +5,19 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPARTICLECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ABC5B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPARTICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABC5A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPARTICLECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDC4670)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPARTICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC4660)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SceneParticleConfig_TypeDefinitionIndex = 29966;
+	inline static constexpr unsigned int SceneParticleConfig_TypeDefinitionIndex = 27284;
 
 	class SceneParticleConfig : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::SceneParticleConfig** StaticGet_s_CachedConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::SceneParticleConfig**)Il2CppClass::FromTypeDefinitionIndex(SceneParticleConfig_TypeDefinitionIndex)->GetStaticField(0x23D40);
+			return (::UnityEngine::Rendering::Universal::SceneParticleConfig**)Il2CppClass::FromTypeDefinitionIndex(SceneParticleConfig_TypeDefinitionIndex)->GetStaticField(0x21530);
 		}
 		::UnityEngine::Color sceneEtherColor; // 0x10
 		::UnityEngine::Color sceneEtherWaveColor; // 0x20

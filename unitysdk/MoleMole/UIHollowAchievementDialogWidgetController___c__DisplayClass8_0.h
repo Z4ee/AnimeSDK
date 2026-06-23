@@ -7,7 +7,7 @@ namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowAchievementDialogWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 43099;
+	inline static constexpr unsigned int UIHollowAchievementDialogWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 55726;
 
 	struct alignas(8) UIHollowAchievementDialogWidgetController___c__DisplayClass8_0
 	{

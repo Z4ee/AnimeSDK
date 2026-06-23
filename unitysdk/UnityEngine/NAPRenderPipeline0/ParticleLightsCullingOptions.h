@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ParticleLightsCullingOptions_TypeDefinitionIndex = 5699;
+	inline static constexpr unsigned int ParticleLightsCullingOptions_TypeDefinitionIndex = 5701;
 
 	struct alignas(1) ParticleLightsCullingOptions
 	{

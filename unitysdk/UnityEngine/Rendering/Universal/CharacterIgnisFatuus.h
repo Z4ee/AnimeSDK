@@ -10,11 +10,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 namespace UnityEngine::Rendering::Universal { class BlendModesParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19AADA80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERIGNISFATUUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB6130)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterIgnisFatuus_TypeDefinitionIndex = 30107;
+	inline static constexpr unsigned int CharacterIgnisFatuus_TypeDefinitionIndex = 26771;
 
 	class CharacterIgnisFatuus : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

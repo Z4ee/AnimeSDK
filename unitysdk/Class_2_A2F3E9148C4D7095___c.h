@@ -4,27 +4,27 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_A2F3E9148C4D7095___C_METHOD_1_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x1BD7D990)
-#define CLASS_2_A2F3E9148C4D7095___C_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x1BD7D850)
-#define CLASS_2_A2F3E9148C4D7095___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD7D800)
-#define CLASS_2_A2F3E9148C4D7095___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD7D840)
+#define CLASS_2_A2F3E9148C4D7095___C_METHOD_1_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x1E538100)
+#define CLASS_2_A2F3E9148C4D7095___C_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x1E537FC0)
+#define CLASS_2_A2F3E9148C4D7095___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E537F70)
+#define CLASS_2_A2F3E9148C4D7095___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E537FB0)
 
-inline static constexpr unsigned int Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex = 85408;
+inline static constexpr unsigned int Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex = 91012;
 
 class Class_2_A2F3E9148C4D7095___c : public ::System::Object
 {
 public:
 	static ::System::Action** StaticGet___9__20_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x49EA0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x4E5F0);
 	}
 	static ::Class_2_A2F3E9148C4D7095___c** StaticGet___9()
 	{
-		return (::Class_2_A2F3E9148C4D7095___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x49EA8);
+		return (::Class_2_A2F3E9148C4D7095___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x4E5F8);
 	}
 	static ::System::Action** StaticGet___9__60_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x49EB0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A2F3E9148C4D7095___c_TypeDefinitionIndex)->GetStaticField(0x4E600);
 	}
 
 	static ::System::Void _cctor()

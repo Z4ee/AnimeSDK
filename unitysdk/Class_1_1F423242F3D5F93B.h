@@ -5,29 +5,29 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_2_7C9A70DC3FC57CDC;
+class Class_2_828B2711AF58BA0B;
 namespace MoleMole::Config { class DynamicInt; }
 namespace MoleMole::Config { class DynamicString; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_1F423242F3D5F93B_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AB58A0)
-#define CLASS_1_1F423242F3D5F93B_FROMFLX_OFFSET UNITYSDK_OFFSET(0x18AB5F70)
-#define CLASS_1_1F423242F3D5F93B_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x18AB5FF0)
-#define CLASS_1_1F423242F3D5F93B_METHOD_1_E07D6AAA98B227A2_OFFSET UNITYSDK_OFFSET(0x18AB5900)
-#define CLASS_1_1F423242F3D5F93B__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB6CE0)
+#define CLASS_1_1F423242F3D5F93B_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x15CFABE0)
+#define CLASS_1_1F423242F3D5F93B_FROMFLX_OFFSET UNITYSDK_OFFSET(0x15CFB2B0)
+#define CLASS_1_1F423242F3D5F93B_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x15CFB330)
+#define CLASS_1_1F423242F3D5F93B_METHOD_1_E07D6AAA98B227A2_OFFSET UNITYSDK_OFFSET(0x15CFAC40)
+#define CLASS_1_1F423242F3D5F93B__CTOR_OFFSET UNITYSDK_OFFSET(0x15CFC020)
 
-inline static constexpr unsigned int Class_1_1F423242F3D5F93B_TypeDefinitionIndex = 71532;
+inline static constexpr unsigned int Class_1_1F423242F3D5F93B_TypeDefinitionIndex = 42520;
 
 class Class_1_1F423242F3D5F93B : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicInt* Field_1_0; // 0x10
-	::MoleMole::Config::DynamicString* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_2_7C9A70DC3FC57CDC*>* Field_1_4; // 0x20
-	::MoleMole::Config::DynamicInt* Field_1_3; // 0x28
-	::System::Boolean Field_1_6; // 0x30
+	::System::Collections::Generic::List_1<::Class_2_828B2711AF58BA0B*>* Field_1_4; // 0x10
+	::MoleMole::Config::DynamicInt* Field_1_0; // 0x18
+	::MoleMole::Config::DynamicInt* Field_1_3; // 0x20
+	::MoleMole::Config::DynamicString* Field_1_1; // 0x28
+	::System::Boolean Field_1_5; // 0x30
 	::System::Boolean Field_1_2; // 0x31
-	::System::Boolean Field_1_5; // 0x32
+	::System::Boolean Field_1_6; // 0x32
 	::System::Boolean Field_1_7; // 0x33
 
 	::System::Void _ctor()

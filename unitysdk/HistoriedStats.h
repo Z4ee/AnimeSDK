@@ -4,27 +4,27 @@
 
 namespace System { class String; }
 
-#define HISTORIEDSTATS_ADD_OFFSET UNITYSDK_OFFSET(0xE4D71C0)
-#define HISTORIEDSTATS_GET_MAX_OFFSET UNITYSDK_OFFSET(0xE4D73D0)
-#define HISTORIEDSTATS_GET_MEAN_OFFSET UNITYSDK_OFFSET(0xE4D73B0)
-#define HISTORIEDSTATS_GET_MIN_OFFSET UNITYSDK_OFFSET(0xE4D73F0)
-#define HISTORIEDSTATS_RECALCIFDIRTY_OFFSET UNITYSDK_OFFSET(0xE4D7260)
-#define HISTORIEDSTATS_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE4D7410)
-#define HISTORIEDSTATS__CTOR_OFFSET UNITYSDK_OFFSET(0xE4D7160)
-#define HISTORIEDSTATS___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE4D7520)
+#define HISTORIEDSTATS_ADD_OFFSET UNITYSDK_OFFSET(0xF5C43B0)
+#define HISTORIEDSTATS_GET_MAX_OFFSET UNITYSDK_OFFSET(0xF5C45D0)
+#define HISTORIEDSTATS_GET_MEAN_OFFSET UNITYSDK_OFFSET(0xF5C45B0)
+#define HISTORIEDSTATS_GET_MIN_OFFSET UNITYSDK_OFFSET(0xF5C45F0)
+#define HISTORIEDSTATS_RECALCIFDIRTY_OFFSET UNITYSDK_OFFSET(0xF5C4450)
+#define HISTORIEDSTATS_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF5C4610)
+#define HISTORIEDSTATS__CTOR_OFFSET UNITYSDK_OFFSET(0xF5C4350)
+#define HISTORIEDSTATS___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF5C4720)
 
-inline static constexpr unsigned int HistoriedStats_TypeDefinitionIndex = 43716;
+inline static constexpr unsigned int HistoriedStats_TypeDefinitionIndex = 84814;
 
 class HistoriedStats : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::Single>* m_History; // 0x10
 	::System::Single m_Mean; // 0x18
-	::System::Single m_Min; // 0x1C
-	::System::Single m_InvLength; // 0x20
-	::System::Boolean m_Ready; // 0x24
-	::System::Single m_Max; // 0x28
-	::System::Int32 m_LastIndex; // 0x2C
+	::System::Boolean m_Ready; // 0x1C
+	::System::Single m_Max; // 0x20
+	::System::Int32 m_LastIndex; // 0x24
+	::System::Single m_InvLength; // 0x28
+	::System::Single m_Min; // 0x2C
 
 	::System::Void _ctor(::System::UInt32 historyLength)
 	{

@@ -7,21 +7,21 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1C547080)
-#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C547120)
-#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C547230)
-#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5471D0)
+#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1E877860)
+#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1E877900)
+#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E877A10)
+#define SIRENIX_SERIALIZATION_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8779B0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 7454;
+	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 7586;
 
 	class LayerMaskFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::LayerMask>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_IntSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LayerMaskFormatter_TypeDefinitionIndex)->GetStaticField(0x6410);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LayerMaskFormatter_TypeDefinitionIndex)->GetStaticField(0x6500);
 		}
 
 		::System::Void _ctor()

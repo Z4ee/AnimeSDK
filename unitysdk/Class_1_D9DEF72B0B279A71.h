@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/Level/RatingType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D9DEF72B0B279A71_METHOD_1_423B6F531AE3FA4C_OFFSET UNITYSDK_OFFSET(0x1394ED20)
+#define CLASS_1_D9DEF72B0B279A71_METHOD_1_423B6F531AE3FA4C_OFFSET UNITYSDK_OFFSET(0x1298E490)
 
-inline static constexpr unsigned int Class_1_D9DEF72B0B279A71_TypeDefinitionIndex = 81307;
+inline static constexpr unsigned int Class_1_D9DEF72B0B279A71_TypeDefinitionIndex = 60678;
 
 class Class_1_D9DEF72B0B279A71 : public ::System::Object
 {

@@ -7,12 +7,12 @@ class Class_2_B1CD45EAC8D61C61_Class_1_BBAF5C1264336F94;
 class Class_3_C7A2D5492E2948E7;
 namespace MoleMole { class UIHollowInfoReportRowWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B4D120)
-#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14B4D130)
+#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1813BCC0)
+#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1813BCD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoReportRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 73671;
+	inline static constexpr unsigned int UIHollowInfoReportRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 53308;
 
 	class UIHollowInfoReportRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{

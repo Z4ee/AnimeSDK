@@ -12,27 +12,27 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_77AC4A2204370F5A_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x10C8CE90)
-#define CLASS_2_77AC4A2204370F5A_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x10C8D0F0)
-#define CLASS_2_77AC4A2204370F5A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10C8D230)
-#define CLASS_2_77AC4A2204370F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8D220)
+#define CLASS_2_77AC4A2204370F5A_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x1336CAC0)
+#define CLASS_2_77AC4A2204370F5A_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x1336CD20)
+#define CLASS_2_77AC4A2204370F5A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1336CE60)
+#define CLASS_2_77AC4A2204370F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x1336CE50)
 
-inline static constexpr unsigned int Class_2_77AC4A2204370F5A_TypeDefinitionIndex = 72612;
+inline static constexpr unsigned int Class_2_77AC4A2204370F5A_TypeDefinitionIndex = 67669;
 
 class Class_2_77AC4A2204370F5A : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_0; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_6; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x40
-	::UnityEngine::CanvasGroup* Field_2_3; // 0x48
-	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x58
-	::UnityEngine::Animation* Field_2_10; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x68
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x28
+	::MonoUITableScrollV2* Field_2_0; // 0x30
+	::UnityEngine::Animation* Field_2_10; // 0x38
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_6; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x58
+	::UnityEngine::CanvasGroup* Field_2_3; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x68
 
 	::System::Void _ctor()
 	{

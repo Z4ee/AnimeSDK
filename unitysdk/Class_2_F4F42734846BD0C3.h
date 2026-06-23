@@ -9,21 +9,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define CLASS_2_F4F42734846BD0C3_METHOD_2_6C6C02341A6C6B8A_OFFSET UNITYSDK_OFFSET(0x13F60F60)
-#define CLASS_2_F4F42734846BD0C3_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x13F61100)
-#define CLASS_2_F4F42734846BD0C3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13F611D0)
-#define CLASS_2_F4F42734846BD0C3__CTOR_OFFSET UNITYSDK_OFFSET(0x13F611C0)
+#define CLASS_2_F4F42734846BD0C3_METHOD_2_6C6C02341A6C6B8A_OFFSET UNITYSDK_OFFSET(0x143756B0)
+#define CLASS_2_F4F42734846BD0C3_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14375850)
+#define CLASS_2_F4F42734846BD0C3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14375920)
+#define CLASS_2_F4F42734846BD0C3__CTOR_OFFSET UNITYSDK_OFFSET(0x14375910)
 
-inline static constexpr unsigned int Class_2_F4F42734846BD0C3_TypeDefinitionIndex = 58010;
+inline static constexpr unsigned int Class_2_F4F42734846BD0C3_TypeDefinitionIndex = 80735;
 
 class Class_2_F4F42734846BD0C3 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButton* Field_2_0; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
-	::UnityEngine::GameObject* Field_2_2; // 0x28
-	::UnityEngine::GameObject* Field_2_4; // 0x30
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x38
+	::UnityEngine::GameObject* Field_2_4; // 0x18
+	::UnityEngine::UI::Extension::UITabButton* Field_2_0; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
+	::UnityEngine::GameObject* Field_2_2; // 0x38
 
 	::System::Void _ctor()
 	{

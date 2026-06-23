@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_FootOnGroundSegment_TypeDefinitionIndex = 70479;
+	inline static constexpr unsigned int AnimationSubManager_FootOnGroundSegment_TypeDefinitionIndex = 57406;
 
 	struct alignas(4) AnimationSubManager_FootOnGroundSegment
 	{

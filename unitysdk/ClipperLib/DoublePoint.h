@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLIPPERLIB_DOUBLEPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E1100)
-#define CLIPPERLIB_DOUBLEPOINT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9244C0)
-#define CLIPPERLIB_DOUBLEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x918440)
+#define CLIPPERLIB_DOUBLEPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2AD810)
+#define CLIPPERLIB_DOUBLEPOINT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9CA540)
+#define CLIPPERLIB_DOUBLEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x3D5A20)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int DoublePoint_TypeDefinitionIndex = 31216;
+	inline static constexpr unsigned int DoublePoint_TypeDefinitionIndex = 32767;
 
 	struct alignas(8) DoublePoint
 	{

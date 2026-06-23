@@ -12,27 +12,27 @@ namespace MoleMole { class UIGeneralSortWidgetController; }
 namespace MoleMole { class UIVideoSetDetailWidgetController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_A75042D26945B0D2_METHOD_2_8AF27F640869EFF7_OFFSET UNITYSDK_OFFSET(0xE511940)
-#define CLASS_2_A75042D26945B0D2_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0xE511BD0)
-#define CLASS_2_A75042D26945B0D2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xE511D10)
-#define CLASS_2_A75042D26945B0D2__CTOR_OFFSET UNITYSDK_OFFSET(0xE511D00)
+#define CLASS_2_A75042D26945B0D2_METHOD_2_8AF27F640869EFF7_OFFSET UNITYSDK_OFFSET(0x14CD0480)
+#define CLASS_2_A75042D26945B0D2_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x14CD0700)
+#define CLASS_2_A75042D26945B0D2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14CD0840)
+#define CLASS_2_A75042D26945B0D2__CTOR_OFFSET UNITYSDK_OFFSET(0x14CD0830)
 
-inline static constexpr unsigned int Class_2_A75042D26945B0D2_TypeDefinitionIndex = 74123;
+inline static constexpr unsigned int Class_2_A75042D26945B0D2_TypeDefinitionIndex = 80834;
 
 class Class_2_A75042D26945B0D2 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MoleMole::MonoGamepadNavigatableList* Field_2_3; // 0x18
-	::MonoUITableScrollV2* Field_2_1; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x28
-	::UnityEngine::GameObject* Field_2_0; // 0x30
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralSortWidgetController*>* Field_2_7; // 0x18
+	::UnityEngine::Transform* Field_2_4; // 0x20
+	::MoleMole::MonoGamepadNavigatableList* Field_2_3; // 0x28
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIVideoSetDetailWidgetController*>* Field_2_8; // 0x30
 	::UnityEngine::Transform* Field_2_2; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIVideoSetDetailWidgetController*>* Field_2_8; // 0x40
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralSortWidgetController*>* Field_2_7; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x50
-	::UnityEngine::Transform* Field_2_4; // 0x58
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x40
+	::UnityEngine::GameObject* Field_2_0; // 0x48
+	::MonoUITableScrollV2* Field_2_1; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x58
 
 	::System::Void _ctor()
 	{

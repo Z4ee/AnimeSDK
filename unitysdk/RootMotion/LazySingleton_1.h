@@ -4,7 +4,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int LazySingleton_1_TypeDefinitionIndex = 36535;
+	inline static constexpr unsigned int LazySingleton_1_TypeDefinitionIndex = 38298;
 
 	template <typename T>
 	class LazySingleton_1 : public ::UnityEngine::MonoBehaviour

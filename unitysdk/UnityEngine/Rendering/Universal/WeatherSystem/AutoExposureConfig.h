@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1A6A9A60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A9CF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B89A530)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89A7C0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int AutoExposureConfig_TypeDefinitionIndex = 30317;
+	inline static constexpr unsigned int AutoExposureConfig_TypeDefinitionIndex = 26911;
 
 	class AutoExposureConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::AutoExposureConfig*>
 	{

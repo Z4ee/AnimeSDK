@@ -4,19 +4,19 @@
 #include "unitysdk/MoleMole/BaseInputActionEventConfig.h"
 #include "unitysdk/MoleMole/GamepadButtonEx.h"
 
-#define MOLEMOLE_GAMEPADBUTTONEXINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x138367D0)
-#define MOLEMOLE_GAMEPADBUTTONEXINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x138367E0)
+#define MOLEMOLE_GAMEPADBUTTONEXINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x16CAE950)
+#define MOLEMOLE_GAMEPADBUTTONEXINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAE960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GamepadButtonExInputActionEventConfig_TypeDefinitionIndex = 55748;
+	inline static constexpr unsigned int GamepadButtonExInputActionEventConfig_TypeDefinitionIndex = 64738;
 
 	class GamepadButtonExInputActionEventConfig : public ::MoleMole::BaseInputActionEventConfig
 	{
 	public:
-		::MoleMole::GamepadButtonEx gamepadButtonExType; // 0x18
-		::System::Single FirstTriggerInterval; // 0x1C
-		::System::Single triggerInterval; // 0x20
+		::System::Single FirstTriggerInterval; // 0x18
+		::System::Single triggerInterval; // 0x1C
+		::MoleMole::GamepadButtonEx gamepadButtonExType; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace Foundation::Unreal { class SerializableGameplayTag; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int GlobalReactionConfig_TypeDefinitionIndex = 76472;
+	inline static constexpr unsigned int GlobalReactionConfig_TypeDefinitionIndex = 47419;
 
 	struct alignas(8) GlobalReactionConfig
 	{

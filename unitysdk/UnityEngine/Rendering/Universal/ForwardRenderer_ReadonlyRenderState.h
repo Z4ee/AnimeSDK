@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MaterialDebugMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x94DB80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED3D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 29994;
+	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 26516;
 
 	struct alignas(4) ForwardRenderer_ReadonlyRenderState
 	{

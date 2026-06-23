@@ -12,22 +12,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11C777F0)
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11C77800)
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11C77930)
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C77A70)
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11C77A30)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x134681D0)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x134681E0)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13468310)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13468450)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS_AVATARUIELEMENTCOLORCONFIGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13468410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarUIElementColorConfigs_AvatarUIElementColorConfigs_UnityGeneratedFormatter_TypeDefinitionIndex = 41893;
+	inline static constexpr unsigned int AvatarUIElementColorConfigs_AvatarUIElementColorConfigs_UnityGeneratedFormatter_TypeDefinitionIndex = 44397;
 
 	class AvatarUIElementColorConfigs_AvatarUIElementColorConfigs_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::AvatarUIElementColorConfigs*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::AvatarUIElementColor*>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::AvatarUIElementColor*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColorConfigs_AvatarUIElementColorConfigs_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E5E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::AvatarUIElementColor*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColorConfigs_AvatarUIElementColorConfigs_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40B20);
 		}
 
 		::System::Void _ctor()

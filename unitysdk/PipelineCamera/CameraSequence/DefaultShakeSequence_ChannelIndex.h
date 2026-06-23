@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int DefaultShakeSequence_ChannelIndex_TypeDefinitionIndex = 36374;
+	inline static constexpr unsigned int DefaultShakeSequence_ChannelIndex_TypeDefinitionIndex = 37982;
 
 	enum class DefaultShakeSequence_ChannelIndex : ::System::Int32
 	{

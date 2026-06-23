@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_1_E14CBC48FE052048;
+class Class_2_74EAE7375772B9FE_1;
+namespace MoleMole { class UIControlReference; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18A79DC0)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x18A7A350)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONSCROLLITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x18A7A090)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x18A7A100)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18A7A000)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18A79E50)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET UNITYSDK_OFFSET(0x18A7A1C0)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7A3D0)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18A7A3E0)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x18A7A470)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONSCROLLITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x18A7A500)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x18A7A590)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18A7A630)
+#define MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18A7A6C0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UICommomTabButtonRowWidgetController_TypeDefinitionIndex = 87106;
+
+	class UICommomTabButtonRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_74EAE7375772B9FE_1* _view; // 0x2F0
+		::Class_1_E14CBC48FE052048* _data; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemRecycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONSCROLLITEMRECYCLE_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void OnItemSelect(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET))(this, isSelect);
+		}
+
+		::System::Void RefreshPanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnItemSelect(::System::Boolean P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemRecycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONSCROLLITEMRECYCLE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMMOMTABBUTTONROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetRhombusOffsetPosition_RhombusMType_TypeDefinitionIndex = 65742;
+	inline static constexpr unsigned int LDGetRhombusOffsetPosition_RhombusMType_TypeDefinitionIndex = 58356;
 
 	enum class LDGetRhombusOffsetPosition_RhombusMType : ::System::Int32
 	{

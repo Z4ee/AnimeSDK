@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCWPPATHFINDERMANAGER_FINDPATHOFNODESCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x11D97CA0)
+#define NPCCROWD_NPCWPPATHFINDERMANAGER_FINDPATHOFNODESCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x11372090)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCWPPathFinderManager_FindPathOfNodesCache_TypeDefinitionIndex = 48020;
+	inline static constexpr unsigned int NPCWPPathFinderManager_FindPathOfNodesCache_TypeDefinitionIndex = 63776;
 
 	class NPCWPPathFinderManager_FindPathOfNodesCache : public ::System::Object
 	{

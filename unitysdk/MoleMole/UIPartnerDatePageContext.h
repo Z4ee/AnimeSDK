@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIPARTNERDATEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1453F4B0)
+#define MOLEMOLE_UIPARTNERDATEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166498A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPartnerDatePageContext_TypeDefinitionIndex = 73469;
+	inline static constexpr unsigned int UIPartnerDatePageContext_TypeDefinitionIndex = 46960;
 
 	class UIPartnerDatePageContext : public ::MoleMole::UIControllerContextBase
 	{

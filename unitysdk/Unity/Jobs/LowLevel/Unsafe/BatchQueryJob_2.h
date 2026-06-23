@@ -5,7 +5,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int BatchQueryJob_2_TypeDefinitionIndex = 5062;
+	inline static constexpr unsigned int BatchQueryJob_2_TypeDefinitionIndex = 5061;
 
 	template <typename CommandT, typename ResultT>
 	struct BatchQueryJob_2

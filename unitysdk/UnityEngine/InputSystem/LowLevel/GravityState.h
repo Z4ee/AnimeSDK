@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_GRAVITYSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x9A11F0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_GRAVITYSTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1BA6EB90)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_GRAVITYSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0xA435B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_GRAVITYSTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1DDED7B0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int GravityState_TypeDefinitionIndex = 29234;
+	inline static constexpr unsigned int GravityState_TypeDefinitionIndex = 31890;
 
 	struct alignas(4) GravityState
 	{

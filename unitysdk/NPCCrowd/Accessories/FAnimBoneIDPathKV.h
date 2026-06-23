@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int FAnimBoneIDPathKV_TypeDefinitionIndex = 40375;
+	inline static constexpr unsigned int FAnimBoneIDPathKV_TypeDefinitionIndex = 80510;
 
 	struct alignas(8) FAnimBoneIDPathKV
 	{

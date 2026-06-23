@@ -3,29 +3,29 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayableNodeType_TypeDefinitionIndex = 70316;
+	inline static constexpr unsigned int GalPlayableNodeType_TypeDefinitionIndex = 73738;
 
 	enum class GalPlayableNodeType : ::System::Int32
 	{
-		SubNarrator = 4,
 		BubbleStory = 8,
-		ContinuousShake = 26,
+		SubNormal = 18,
+		Transition = 1,
 		BubbleStorySequence = 30,
+		Condition = 24,
+		Action = 3,
+		PictureStory = 28,
+		NoAvatarNormal = 22,
+		ContinuousShake = 26,
+		WhiteSwitchScene = 29,
+		Show3DModel = 21,
+		SwitchSceneGroup = 25,
+		JumpChapter = 7,
 		SoundAction = 27,
 		NarratorItemIcon = 5,
-		JumpChapter = 7,
-		PictureStory = 28,
-		Action = 3,
-		SwitchScene = 6,
-		SwitchSceneGroup = 25,
-		Transition = 1,
-		Condition = 24,
-		Show3DModel = 21,
+		SubNarrator = 4,
 		Normal = 0,
-		SubNormal = 18,
-		WhiteSwitchScene = 29,
-		NoAvatarNormal = 22,
-		SwitchMainCityBGM = 13,
 		SwitchBGM = 12,
+		SwitchScene = 6,
+		SwitchMainCityBGM = 13,
 	};
 }

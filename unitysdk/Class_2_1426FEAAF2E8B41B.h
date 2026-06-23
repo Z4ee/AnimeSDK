@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_27.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_89.h"
 #include "unitysdk/MoleMole/NAPInput/IMUData.h"
 
-#define CLASS_2_1426FEAAF2E8B41B_METHOD_2_0356C28B02D972AE_OFFSET UNITYSDK_OFFSET(0x147520B0)
-#define CLASS_2_1426FEAAF2E8B41B__CTOR_OFFSET UNITYSDK_OFFSET(0x14752190)
+#define CLASS_2_1426FEAAF2E8B41B_METHOD_2_0356C28B02D972AE_OFFSET UNITYSDK_OFFSET(0x1275A9C0)
+#define CLASS_2_1426FEAAF2E8B41B__CTOR_OFFSET UNITYSDK_OFFSET(0x1275AAA0)
 
-inline static constexpr unsigned int Class_2_1426FEAAF2E8B41B_TypeDefinitionIndex = 82756;
+inline static constexpr unsigned int Class_2_1426FEAAF2E8B41B_TypeDefinitionIndex = 55799;
 
-class Class_2_1426FEAAF2E8B41B : public ::Class_1_43BD383C98B4C0C5_27
+class Class_2_1426FEAAF2E8B41B : public ::Class_1_43BD383C98B4C0C5_89
 {
 public:
-	::System::Single Field_2_1; // 0x10
-	::System::Single Field_2_0; // 0x14
+	::System::Single Field_2_0; // 0x10
+	::System::Single Field_2_1; // 0x14
 
 	::System::Void _ctor()
 	{

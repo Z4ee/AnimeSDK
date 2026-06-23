@@ -6,12 +6,12 @@
 class MonoUITableScrollV2_ScrollParams_AlignParam;
 class MonoUITableScrollV2_TableScrollPluginScrollToTarget;
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass63_0_TypeDefinitionIndex = 54080;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass63_0_TypeDefinitionIndex = 69936;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass63_0
 {
 	::MonoUITableScrollV2_TableScrollPluginScrollToTarget* __4__this; // 0x10
 	::MonoUITableScrollV2_ScrollParams_AlignParam* alignParam; // 0x18
-	::NAPScrollView::DataStruct::ScrollFloat end; // 0x20
-	::NAPScrollView::DataStruct::ScrollFloat start; // 0x28
+	::NAPScrollView::DataStruct::ScrollFloat start; // 0x20
+	::NAPScrollView::DataStruct::ScrollFloat end; // 0x28
 };

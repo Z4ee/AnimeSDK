@@ -6,12 +6,12 @@
 namespace MoleMole { class UIGachaStage3DModelControllerBase___c__DisplayClass17_0; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x158FA9F0)
-#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_1__PRELOADITEMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x158FAA00)
+#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17304EA0)
+#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_1__PRELOADITEMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x17304EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaStage3DModelControllerBase___c__DisplayClass17_1_TypeDefinitionIndex = 46302;
+	inline static constexpr unsigned int UIGachaStage3DModelControllerBase___c__DisplayClass17_1_TypeDefinitionIndex = 86536;
 
 	class UIGachaStage3DModelControllerBase___c__DisplayClass17_1 : public ::System::Object
 	{

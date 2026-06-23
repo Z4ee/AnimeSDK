@@ -6,10 +6,10 @@
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_85E76291A7596AC8_METHOD_1_A8F6F688241E6DBC_OFFSET UNITYSDK_OFFSET(0x13B0B440)
-#define CLASS_1_85E76291A7596AC8__CTOR_OFFSET UNITYSDK_OFFSET(0x13B0B380)
+#define CLASS_1_85E76291A7596AC8_METHOD_1_A8F6F688241E6DBC_OFFSET UNITYSDK_OFFSET(0x1882A660)
+#define CLASS_1_85E76291A7596AC8__CTOR_OFFSET UNITYSDK_OFFSET(0x1882A5A0)
 
-inline static constexpr unsigned int Class_1_85E76291A7596AC8_TypeDefinitionIndex = 72622;
+inline static constexpr unsigned int Class_1_85E76291A7596AC8_TypeDefinitionIndex = 50651;
 
 class Class_1_85E76291A7596AC8 : public ::System::Object
 {

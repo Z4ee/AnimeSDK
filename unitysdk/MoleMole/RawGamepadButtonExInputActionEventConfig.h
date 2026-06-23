@@ -5,19 +5,19 @@
 #include "unitysdk/MoleMole/ButtonPressType.h"
 #include "unitysdk/MoleMole/GamepadButtonEx.h"
 
-#define MOLEMOLE_RAWGAMEPADBUTTONEXINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x15E54AC0)
-#define MOLEMOLE_RAWGAMEPADBUTTONEXINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E54AD0)
+#define MOLEMOLE_RAWGAMEPADBUTTONEXINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1870CAF0)
+#define MOLEMOLE_RAWGAMEPADBUTTONEXINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870CB00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RawGamepadButtonExInputActionEventConfig_TypeDefinitionIndex = 55265;
+	inline static constexpr unsigned int RawGamepadButtonExInputActionEventConfig_TypeDefinitionIndex = 80235;
 
 	class RawGamepadButtonExInputActionEventConfig : public ::MoleMole::BaseInputActionEventConfig
 	{
 	public:
-		::System::Boolean handleAllPressTypes; // 0x18
+		::MoleMole::ButtonPressType pressType; // 0x18
 		::MoleMole::GamepadButtonEx gamepadButtonExType; // 0x1C
-		::MoleMole::ButtonPressType pressType; // 0x20
+		::System::Boolean handleAllPressTypes; // 0x20
 
 		::System::Void _ctor()
 		{

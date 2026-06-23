@@ -6,21 +6,21 @@
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19553630)
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x19553790)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B9362C0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B936420)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AuthorizationRule_TypeDefinitionIndex = 972;
+	inline static constexpr unsigned int AuthorizationRule_TypeDefinitionIndex = 971;
 
 	class AuthorizationRule : public ::System::Object
 	{
 	public:
 		::System::Security::Principal::IdentityReference* identity; // 0x10
-		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x18
-		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x1C
-		::System::Int32 accessMask; // 0x20
-		::System::Boolean isInherited; // 0x24
+		::System::Boolean isInherited; // 0x18
+		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x1C
+		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x20
+		::System::Int32 accessMask; // 0x24
 
 		::System::Void _ctor()
 		{

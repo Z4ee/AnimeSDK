@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE856600)
-#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__INITCARD_B__1_OFFSET UNITYSDK_OFFSET(0xE856610)
+#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11BDEC60)
+#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__INITCARD_B__1_OFFSET UNITYSDK_OFFSET(0x11BDEC70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWholeEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 39892;
+	inline static constexpr unsigned int UIWholeEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 65089;
 
 	class UIWholeEffectWidgetController___c__DisplayClass10_1 : public ::System::Object
 	{

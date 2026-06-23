@@ -5,9 +5,9 @@
 namespace MoleMole { class MonoUIColorTweaker; }
 namespace MoleMole { class RoleTweakColorData; }
 
-#define CLASS_1_1E9A2C8AB384E0CF_METHOD_1_34D8580FA6544515_OFFSET UNITYSDK_OFFSET(0x138D3230)
+#define CLASS_1_1E9A2C8AB384E0CF_METHOD_1_34D8580FA6544515_OFFSET UNITYSDK_OFFSET(0x15843E60)
 
-inline static constexpr unsigned int Class_1_1E9A2C8AB384E0CF_TypeDefinitionIndex = 56594;
+inline static constexpr unsigned int Class_1_1E9A2C8AB384E0CF_TypeDefinitionIndex = 62351;
 
 class Class_1_1E9A2C8AB384E0CF : public ::System::Object
 {

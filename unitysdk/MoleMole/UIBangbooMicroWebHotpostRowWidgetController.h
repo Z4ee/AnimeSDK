@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_1_A03C9A14CD8D41B5_1;
+class Class_2_00E0F6A4450214AA_2;
+class Class_2_1D0701FDC9F2A33B;
+namespace MoleMole { class UIControlReference; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_GET_MODEL_OFFSET UNITYSDK_OFFSET(0x1735C190)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONCLICKTRACK_OFFSET UNITYSDK_OFFSET(0x1735C760)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1735C250)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1735C410)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1735C380)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET UNITYSDK_OFFSET(0x1735C4C0)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1735C860)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1735C870)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1735C900)
+#define MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1735C9A0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangbooMicroWebHotpostRowWidgetController_TypeDefinitionIndex = 56944;
+
+	class UIBangbooMicroWebHotpostRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_00E0F6A4450214AA_2* _view; // 0x2F0
+		::Class_1_A03C9A14CD8D41B5_1* _data; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_1D0701FDC9F2A33B* get_Model()
+		{
+			return ((::Class_2_1D0701FDC9F2A33B*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_GET_MODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void RefreshPanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET))(this);
+		}
+
+		::System::Void OnClickTrack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER_ONCLICKTRACK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBHOTPOSTROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+	};
+}

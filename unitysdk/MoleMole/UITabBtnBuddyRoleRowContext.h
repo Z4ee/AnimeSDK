@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UITabBtnRoleRowContext.h"
 
-#define MOLEMOLE_UITABBTNBUDDYROLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E92D90)
+#define MOLEMOLE_UITABBTNBUDDYROLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C3AF60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITabBtnBuddyRoleRowContext_TypeDefinitionIndex = 67990;
+	inline static constexpr unsigned int UITabBtnBuddyRoleRowContext_TypeDefinitionIndex = 69279;
 
 	class UITabBtnBuddyRoleRowContext : public ::MoleMole::UITabBtnRoleRowContext
 	{

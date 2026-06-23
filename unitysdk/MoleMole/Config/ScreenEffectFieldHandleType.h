@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScreenEffectFieldHandleType_TypeDefinitionIndex = 64950;
+	inline static constexpr unsigned int ScreenEffectFieldHandleType_TypeDefinitionIndex = 40463;
 
 	enum class ScreenEffectFieldHandleType : ::System::Int32
 	{

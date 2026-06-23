@@ -11,37 +11,37 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class ConfigHitInhalationEffect; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_CLONED_OFFSET UNITYSDK_OFFSET(0x183BBE50)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x141F1E00)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x141F1080)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_GET_GROUNDHITCURVEFOLLOWHITSTATE_OFFSET UNITYSDK_OFFSET(0x183BBE10)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x141F1E60)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x141F1100)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_SETHITEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x183BBF00)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x183BBF50)
-#define MOLEMOLE_CONFIG_CONFIGHITEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x183BBE20)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_CLONED_OFFSET UNITYSDK_OFFSET(0x1A346870)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A346410)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A345690)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_GET_GROUNDHITCURVEFOLLOWHITSTATE_OFFSET UNITYSDK_OFFSET(0x1A346830)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A346470)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A345710)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT_SETHITEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A346930)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A346980)
+#define MOLEMOLE_CONFIG_CONFIGHITEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A346840)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHitEffect_TypeDefinitionIndex = 65332;
+	inline static constexpr unsigned int ConfigHitEffect_TypeDefinitionIndex = 59165;
 
 	class ConfigHitEffect : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::ConfigHitEffect** StaticGet_DEFAULT()
 		{
-			return (::MoleMole::Config::ConfigHitEffect**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitEffect_TypeDefinitionIndex)->GetStaticField(0x3D3E0);
+			return (::MoleMole::Config::ConfigHitEffect**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitEffect_TypeDefinitionIndex)->GetStaticField(0x312F0);
 		}
 		::System::String* airHitCurveKey; // 0x10
 		::System::String* hitEffectType; // 0x18
-		::MoleMole::Config::ConfigHitInhalationEffect* HitInhalationEffect; // 0x20
-		::System::String* backUpGroundHitCurveKey; // 0x28
-		::System::String* groundHitCurveKey; // 0x30
-		::MoleMole::Config::AnimatorHitEffect TargetHitEffect; // 0x38
-		::MoleMole::Config::AnimatorAirHitType TargetSubHitEffect_Air; // 0x3C
-		::MoleMole::Config::AnimatorGroundHitType TargetSubHitEffect_Ground; // 0x40
+		::System::String* groundHitCurveKey; // 0x20
+		::MoleMole::Config::ConfigHitInhalationEffect* HitInhalationEffect; // 0x28
+		::System::String* backUpGroundHitCurveKey; // 0x30
+		::MoleMole::Config::AnimatorGroundHitType BackUpTargetSubHitEffect_Ground; // 0x38
+		::MoleMole::Config::AnimatorGroundHitType TargetSubHitEffect_Ground; // 0x3C
+		::MoleMole::Config::AnimatorAirHitType TargetSubHitEffect_Air; // 0x40
 		::MoleMole::Config::AnimatorHitEffect BackupTargetHitEffect; // 0x44
-		::MoleMole::Config::AnimatorGroundHitType BackUpTargetSubHitEffect_Ground; // 0x48
+		::MoleMole::Config::AnimatorHitEffect TargetHitEffect; // 0x48
 
 		::System::Void _ctor()
 		{

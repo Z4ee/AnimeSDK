@@ -8,11 +8,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGWINDBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x11032830)
+#define MOLEMOLE_CONFIG_CONFIGWINDBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3D610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigWindBuff_TypeDefinitionIndex = 43647;
+	inline static constexpr unsigned int ConfigWindBuff_TypeDefinitionIndex = 53067;
 
 	class ConfigWindBuff : public ::System::Object
 	{

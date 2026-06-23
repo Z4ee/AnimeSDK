@@ -8,21 +8,21 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG_LOG_OFFSET UNITYSDK_OFFSET(0x170C2300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x170C21D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG__CTOR_OFFSET UNITYSDK_OFFSET(0x170C2610)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x170C2650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG_LOG_OFFSET UNITYSDK_OFFSET(0x1911BA10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1911B8E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1911BD20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFCLOG__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1911BD60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDFCLog_TypeDefinitionIndex = 47757;
+	inline static constexpr unsigned int LDFCLog_TypeDefinitionIndex = 79108;
 
 	class LDFCLog : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EFCLogLevel>* logLevelInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* logInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* logInput; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EFCLogLevel>* logLevelInput; // 0xB8
 
 		::System::Void _ctor()
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Configuration/SettingsSerializeAs.h"
 
-#define SYSTEM_CONFIGURATION_SETTINGSSERIALIZEASATTRIBUTE_GET_SERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1AA96EA0)
-#define SYSTEM_CONFIGURATION_SETTINGSSERIALIZEASATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA96E90)
+#define SYSTEM_CONFIGURATION_SETTINGSSERIALIZEASATTRIBUTE_GET_SERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1CEC85D0)
+#define SYSTEM_CONFIGURATION_SETTINGSSERIALIZEASATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC85C0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsSerializeAsAttribute_TypeDefinitionIndex = 4230;
+	inline static constexpr unsigned int SettingsSerializeAsAttribute_TypeDefinitionIndex = 4229;
 
 	class SettingsSerializeAsAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int AlertDescription_TypeDefinitionIndex = 2345;
+	inline static constexpr unsigned int AlertDescription_TypeDefinitionIndex = 2344;
 
 	enum class AlertDescription : ::System::Byte
 	{

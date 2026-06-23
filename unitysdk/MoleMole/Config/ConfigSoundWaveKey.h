@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDWAVEKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x181D5790)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDWAVEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x181D5780)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDWAVEKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FF2140)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDWAVEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF2130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundWaveKey_TypeDefinitionIndex = 42149;
+	inline static constexpr unsigned int ConfigSoundWaveKey_TypeDefinitionIndex = 85208;
 
 	class ConfigSoundWaveKey : public ::System::Object
 	{

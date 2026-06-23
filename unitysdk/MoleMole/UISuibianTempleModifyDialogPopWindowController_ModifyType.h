@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleModifyDialogPopWindowController_ModifyType_TypeDefinitionIndex = 59161;
+	inline static constexpr unsigned int UISuibianTempleModifyDialogPopWindowController_ModifyType_TypeDefinitionIndex = 46702;
 
 	enum class UISuibianTempleModifyDialogPopWindowController_ModifyType : ::System::Int32
 	{
 		AddProduct = 1,
-		ChangeProductID = 0,
 		ReduceProduct = 2,
+		ChangeProductID = 0,
 	};
 }

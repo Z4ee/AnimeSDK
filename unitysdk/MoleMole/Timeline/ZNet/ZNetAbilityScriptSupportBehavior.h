@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2C010)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x161022B0)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetAbilityScriptSupportBehavior_TypeDefinitionIndex = 79922;
+	inline static constexpr unsigned int ZNetAbilityScriptSupportBehavior_TypeDefinitionIndex = 51706;
 
 	class ZNetAbilityScriptSupportBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Hashtable_bucket_TypeDefinitionIndex = 1460;
+	inline static constexpr unsigned int Hashtable_bucket_TypeDefinitionIndex = 1459;
 
 	struct alignas(8) Hashtable_bucket
 	{

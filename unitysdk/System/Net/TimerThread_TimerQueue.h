@@ -7,13 +7,13 @@ namespace System::Net { class TimerThread_Callback; }
 namespace System::Net { class TimerThread_Timer; }
 namespace System::Net { class TimerThread_TimerNode; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1B1F0390)
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_FIRE_OFFSET UNITYSDK_OFFSET(0x1B1F05E0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F0300)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1D5D7E90)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_FIRE_OFFSET UNITYSDK_OFFSET(0x1D5D80E0)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D7E00)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_TimerQueue_TypeDefinitionIndex = 3400;
+	inline static constexpr unsigned int TimerThread_TimerQueue_TypeDefinitionIndex = 3399;
 
 	class TimerThread_TimerQueue : public ::System::Net::TimerThread_Queue
 	{

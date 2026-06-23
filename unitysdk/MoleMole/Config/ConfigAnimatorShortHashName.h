@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATORSHORTHASHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x16A82170)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORSHORTHASHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15898940)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorShortHashName_TypeDefinitionIndex = 73223;
+	inline static constexpr unsigned int ConfigAnimatorShortHashName_TypeDefinitionIndex = 44531;
 
 	class ConfigAnimatorShortHashName : public ::Foundation::MihoyoSerializedScriptableObject
 	{

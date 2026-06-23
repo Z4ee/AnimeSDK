@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeTaskBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xCD31900)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xCD31970)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xCD318A0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_LINK_OFFSET UNITYSDK_OFFSET(0xCD31830)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xCD319E0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xCD31A60)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD415240)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xD4152B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD4151E0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD415170)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD415320)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD4153A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_WaitingSlotMoveToSlotTask_TypeDefinitionIndex = 82891;
+	inline static constexpr unsigned int VirtualProxy_WaitingSlotMoveToSlotTask_TypeDefinitionIndex = 45783;
 
-	class VirtualProxy_WaitingSlotMoveToSlotTask : public ::StateTreeCore::VirtualProxy_StateTreeTaskBase
+	class VirtualProxy_WaitingSlotMoveToSlotTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{
 	public:
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTMOVETOSLOTTASK_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS360_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163EC2A0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS360_0__REMOVEMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x163FAB10)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS360_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188A3680)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS360_0__REMOVEMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x188AF7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass360_0_TypeDefinitionIndex = 44954;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass360_0_TypeDefinitionIndex = 78288;
 
 	class UIHollowMainPageController___c__DisplayClass360_0 : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_E894E54C3D94F028.h"
-#include "unitysdk/Struct_2_A3B5141C858708A0_24.h"
+#include "unitysdk/Struct_2_A3B5141C858708A0_7.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Project::Config { class AbyssS2AreaConfigTemplateExt; }
@@ -10,31 +10,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_15C9C0D522C9B286_FINALIZE_OFFSET UNITYSDK_OFFSET(0x145B6340)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_03CB7E3E1C040861_OFFSET UNITYSDK_OFFSET(0x145B6920)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x145B5BD0)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_29A50D346D662269_OFFSET UNITYSDK_OFFSET(0x145B6740)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x145B5FF0)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x145B5F00)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x145B61A0)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x145B6260)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x145B6000)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x145B5BB0)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_DB7025BBEE625F79_OFFSET UNITYSDK_OFFSET(0x145B6480)
-#define CLASS_1_15C9C0D522C9B286_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x145B6720)
-#define CLASS_1_15C9C0D522C9B286__CTOR_OFFSET UNITYSDK_OFFSET(0x145B6470)
+#define CLASS_1_15C9C0D522C9B286_FINALIZE_OFFSET UNITYSDK_OFFSET(0x180D3050)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_03CB7E3E1C040861_OFFSET UNITYSDK_OFFSET(0x180D3620)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x180D2900)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_29A50D346D662269_OFFSET UNITYSDK_OFFSET(0x180D3450)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x180D2D10)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x180D2C30)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x180D2EB0)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x180D2F70)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x180D2D20)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x180D28E0)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_DB7025BBEE625F79_OFFSET UNITYSDK_OFFSET(0x180D31B0)
+#define CLASS_1_15C9C0D522C9B286_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x180D3190)
+#define CLASS_1_15C9C0D522C9B286__CTOR_OFFSET UNITYSDK_OFFSET(0x180D3180)
 
-inline static constexpr unsigned int Class_1_15C9C0D522C9B286_TypeDefinitionIndex = 16720;
+inline static constexpr unsigned int Class_1_15C9C0D522C9B286_TypeDefinitionIndex = 17174;
 
 class Class_1_15C9C0D522C9B286 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>*>* Field_1_3; // 0x10
-	::Il2CppArray<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>* Field_1_1; // 0x18
-	::Struct_2_A3B5141C858708A0_24 Field_1_0; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x38
-	::System::Int32 Field_1_4; // 0x40
-	::System::Boolean Field_1_5; // 0x44
+	::Struct_2_A3B5141C858708A0_7 Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>*>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x30
+	::Il2CppArray<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>* Field_1_1; // 0x38
+	::System::Boolean Field_1_5; // 0x40
+	::System::Int32 Field_1_4; // 0x44
 
 	::System::Void _ctor()
 	{
@@ -76,9 +76,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_FINALIZE_OFFSET))(this);
 	}
 
+	::System::Void Method_1_F730968E2645E14B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_F730968E2645E14B_OFFSET))(this);
+	}
+
 	::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>* Method_1_DB7025BBEE625F79()
 	{
 		return ((::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_DB7025BBEE625F79_OFFSET))(this);
+	}
+
+	::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt* Method_1_29A50D346D662269(::System::Int32 a1)
+	{
+		return ((::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_29A50D346D662269_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::List_1<::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*>* Method_1_03CB7E3E1C040861(::System::Int32 a1)
@@ -89,15 +99,5 @@ public:
 	::System::Void Method_1_7DB49B5407C8FD68()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_7DB49B5407C8FD68_OFFSET))(this);
-	}
-
-	::System::Void Method_1_F730968E2645E14B()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_F730968E2645E14B_OFFSET))(this);
-	}
-
-	::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt* Method_1_29A50D346D662269(::System::Int32 a1)
-	{
-		return ((::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_15C9C0D522C9B286_METHOD_1_29A50D346D662269_OFFSET))(this, a1);
 	}
 };

@@ -5,34 +5,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDADDFRIENDREQUESTBTN_B__16_2_OFFSET UNITYSDK_OFFSET(0x149D3020)
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDADDFRIENDREQUESTBTN_B__16_4_OFFSET UNITYSDK_OFFSET(0x149D30E0)
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDNONFRIENDPCBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x149D2FB0)
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x149D2F60)
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x149D2FA0)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDADDFRIENDREQUESTBTN_B__16_2_OFFSET UNITYSDK_OFFSET(0x16A8D8D0)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDADDFRIENDREQUESTBTN_B__16_4_OFFSET UNITYSDK_OFFSET(0x16A8D990)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__BINDNONFRIENDPCBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x16A8D860)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A8D810)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8D850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendCardRowWidgetController___c_TypeDefinitionIndex = 58276;
+	inline static constexpr unsigned int UIFriendCardRowWidgetController___c_TypeDefinitionIndex = 69739;
 
 	class UIFriendCardRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__16_2()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAA0);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__16_4()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAA8);
-		}
-		static ::MoleMole::UIFriendCardRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIFriendCardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAB0);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C0);
 		}
 		static ::System::Action** StaticGet___9__14_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAB8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C8);
+		}
+		static ::MoleMole::UIFriendCardRowWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIFriendCardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0D0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__16_4()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0D8);
 		}
 
 		static ::System::Void _cctor()

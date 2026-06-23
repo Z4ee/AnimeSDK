@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerationError_TypeDefinitionIndex = 6334;
+	inline static constexpr unsigned int TextGenerationError_TypeDefinitionIndex = 6360;
 
 	enum class TextGenerationError : ::System::Int32
 	{

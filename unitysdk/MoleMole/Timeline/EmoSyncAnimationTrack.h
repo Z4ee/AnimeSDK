@@ -8,16 +8,16 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12FB1140)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x12FB0FE0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x12FB1660)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x12FB1620)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B67A7D5A7BB42B14_OFFSET UNITYSDK_OFFSET(0x12FB14C0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x12FB15C0)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x141A6FF0)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x141A6E90)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x141A7510)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x141A74D0)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B67A7D5A7BB42B14_OFFSET UNITYSDK_OFFSET(0x141A7370)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x141A7470)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EmoSyncAnimationTrack_TypeDefinitionIndex = 57429;
+	inline static constexpr unsigned int EmoSyncAnimationTrack_TypeDefinitionIndex = 77285;
 
 	class EmoSyncAnimationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -40,6 +40,11 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
+		::System::Boolean Method_5_B67A7D5A7BB42B14()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B67A7D5A7BB42B14_OFFSET))(this);
+		}
+
 		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
@@ -48,11 +53,6 @@ namespace MoleMole::Timeline
 		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Boolean Method_5_B67A7D5A7BB42B14()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONTRACK_METHOD_5_B67A7D5A7BB42B14_OFFSET))(this);
 		}
 	};
 }

@@ -6,13 +6,13 @@ namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUIWORDWRAPSIZER_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1ACF7BA0)
-#define UNITYENGINE_GUIWORDWRAPSIZER_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1ACF7AF0)
-#define UNITYENGINE_GUIWORDWRAPSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF2110)
+#define UNITYENGINE_GUIWORDWRAPSIZER_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1D0FA830)
+#define UNITYENGINE_GUIWORDWRAPSIZER_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1D0FA780)
+#define UNITYENGINE_GUIWORDWRAPSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F4DB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIWordWrapSizer_TypeDefinitionIndex = 6381;
+	inline static constexpr unsigned int GUIWordWrapSizer_TypeDefinitionIndex = 6426;
 
 	class GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry
 	{

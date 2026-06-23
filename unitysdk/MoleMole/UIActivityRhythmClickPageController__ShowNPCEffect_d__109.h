@@ -11,23 +11,23 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER__SHOWNPCEFFECT_D__109_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x777AF0)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER__SHOWNPCEFFECT_D__109_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER__SHOWNPCEFFECT_D__109_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82D630)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER__SHOWNPCEFFECT_D__109_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmClickPageController__ShowNPCEffect_d__109_TypeDefinitionIndex = 46823;
+	inline static constexpr unsigned int UIActivityRhythmClickPageController__ShowNPCEffect_d__109_TypeDefinitionIndex = 81306;
 
 	struct alignas(8) UIActivityRhythmClickPageController__ShowNPCEffect_d__109
 	{
-		::MoleMole::UIActivityRhythmClickPageController___c__DisplayClass109_0* __8__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::System::Action_1<::MoleMole::Battle::Entity*>* onEntityReady; // 0x20
-		::MoleMole::Battle::Entity* npcEntity; // 0x28
-		::System::String* effectName; // 0x30
-		::MoleMole::Battle::Entity* effectEntity; // 0x38
-		::MoleMole::UIActivityRhythmClickPageController* __4__this; // 0x40
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x48
+		::MoleMole::Battle::Entity* effectEntity; // 0x10
+		::System::Action_1<::MoleMole::Battle::Entity*>* onEntityReady; // 0x18
+		::MoleMole::UIActivityRhythmClickPageController___c__DisplayClass109_0* __8__1; // 0x20
+		::System::String* effectName; // 0x28
+		::MoleMole::UIActivityRhythmClickPageController* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
+		::MoleMole::Battle::Entity* npcEntity; // 0x48
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x50
 		::System::Boolean isShow; // 0x58
 		::System::Int32 __1__state; // 0x5C
 

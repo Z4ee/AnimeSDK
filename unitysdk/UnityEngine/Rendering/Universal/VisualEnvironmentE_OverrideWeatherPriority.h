@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_OverrideWeatherPriority_TypeDefinitionIndex = 29913;
+	inline static constexpr unsigned int VisualEnvironmentE_OverrideWeatherPriority_TypeDefinitionIndex = 26498;
 
 	enum class VisualEnvironmentE_OverrideWeatherPriority : ::System::Int32
 	{
 		Scene = 0,
-		GamePlay = 100,
 		Timeline = 1000,
+		GamePlay = 100,
 	};
 }

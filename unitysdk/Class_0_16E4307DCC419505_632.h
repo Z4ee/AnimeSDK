@@ -1,9 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_76BF369890EA314E.h"
-#include "unitysdk/Struct_2_AAD2B1B6FB741157.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_632_TypeDefinitionIndex = 63267;
+class Class_0_16E4307DCC419505_35;
+class Class_1_29356A79D0914A09_Class_3_58CFE2A124E91724;
+class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C;
+class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_632_TypeDefinitionIndex = 82336;
 
 class Class_0_16E4307DCC419505_632
 {

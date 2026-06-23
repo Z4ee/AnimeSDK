@@ -19,26 +19,26 @@ namespace UnityEngine::Rendering::Universal { class PostProcessData; }
 namespace UnityEngine::Rendering::Universal { class ScriptableRenderer; }
 namespace UnityEngine::Rendering::Universal { class StencilStateData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_CLEARCACHEDSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B07ADD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B07A920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GETALLSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B07B210)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1B07AE70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_DEFAULTSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1B07AAC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_OPAQUELAYERMASK_OFFSET UNITYSDK_OFFSET(0x1B07A9A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_SHADOWTRANSPARENTRECEIVE_OFFSET UNITYSDK_OFFSET(0x1B07AB50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_TRANSPARENTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1B07AA30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_LOGALLSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1B07B260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B07ABE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_DEFAULTSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1B07AAD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_OPAQUELAYERMASK_OFFSET UNITYSDK_OFFSET(0x1B07A9B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_SHADOWTRANSPARENTRECEIVE_OFFSET UNITYSDK_OFFSET(0x1B07AB60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_TRANSPARENTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1B07AA40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B07B6E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B07B7C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_CLEARCACHEDSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1D3D1F40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1D3D1A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GETALLSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1D3D2380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1D3D1FE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_DEFAULTSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1D3D1C30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_OPAQUELAYERMASK_OFFSET UNITYSDK_OFFSET(0x1D3D1B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_SHADOWTRANSPARENTRECEIVE_OFFSET UNITYSDK_OFFSET(0x1D3D1CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_GET_TRANSPARENTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1D3D1BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_LOGALLSHADERCONFIGS_OFFSET UNITYSDK_OFFSET(0x1D3D23D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D3D1D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_DEFAULTSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1D3D1C40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_OPAQUELAYERMASK_OFFSET UNITYSDK_OFFSET(0x1D3D1B20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_SHADOWTRANSPARENTRECEIVE_OFFSET UNITYSDK_OFFSET(0x1D3D1CD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SET_TRANSPARENTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1D3D1BB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D2850)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D3D2930)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_TypeDefinitionIndex = 29845;
+	inline static constexpr unsigned int ForwardRendererData_TypeDefinitionIndex = 26587;
 
 	class ForwardRendererData : public ::UnityEngine::Rendering::Universal::ScriptableRendererData
 	{
@@ -58,21 +58,24 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Material* defaultMaterial; // 0x98
 		::UnityEngine::Material* defaultDecalMaterial; // 0xA0
 		::UnityEngine::Material* shadowProxyMaterial; // 0xA8
-		::UnityEngine::Material* defaultVolumetricFogMaterial; // 0xB0
-		::UnityEngine::Mesh* rainDropMesh; // 0xB8
-		::UnityEngine::Rendering::Universal::PostProcessData* postProcessData; // 0xC0
-		::UnityEngine::Rendering::Universal::ForwardRendererData_SpecialDamageBloomConfig* specialDamageBloomConfig; // 0xC8
-		::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderResources* shaders; // 0xD0
-		::UnityEngine::Rendering::Universal::ForwardRendererData_RayTracingResources* rtxRes; // 0xD8
-		::UnityEngine::Rendering::Universal::ForwardRendererData_FluidFXResources* fluidFxRes; // 0xE0
-		::UnityEngine::Mesh* textureStreamingFakerMesh; // 0xE8
-		::UnityEngine::Rendering::SphericalHarmonicsL2 bakeResult; // 0xF0
-		::Il2CppArray<::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderConfig>* shaderConfigs; // 0x160
-		::UnityEngine::LayerMask m_OpaqueLayerMask; // 0x168
-		::UnityEngine::LayerMask m_TransparentLayerMask; // 0x16C
-		::UnityEngine::Rendering::Universal::StencilStateData* m_DefaultStencilState; // 0x170
-		::System::Boolean m_ShadowTransparentReceive; // 0x178
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderConfig>* cachedShaderConfigs; // 0x180
+		::UnityEngine::Material* localSphereVolumetricFogMaterial; // 0xB0
+		::UnityEngine::Mesh* localSphereVolumetricFogMesh; // 0xB8
+		::UnityEngine::Material* defaultVolumetricFogMaterial; // 0xC0
+		::UnityEngine::Material* transparentOccludedOverlay; // 0xC8
+		::UnityEngine::Mesh* rainDropMesh; // 0xD0
+		::UnityEngine::Rendering::Universal::PostProcessData* postProcessData; // 0xD8
+		::UnityEngine::Rendering::Universal::ForwardRendererData_SpecialDamageBloomConfig* specialDamageBloomConfig; // 0xE0
+		::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderResources* shaders; // 0xE8
+		::UnityEngine::Rendering::Universal::ForwardRendererData_RayTracingResources* rtxRes; // 0xF0
+		::UnityEngine::Rendering::Universal::ForwardRendererData_FluidFXResources* fluidFxRes; // 0xF8
+		::UnityEngine::Mesh* textureStreamingFakerMesh; // 0x100
+		::UnityEngine::Rendering::SphericalHarmonicsL2 bakeResult; // 0x108
+		::Il2CppArray<::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderConfig>* shaderConfigs; // 0x178
+		::UnityEngine::LayerMask m_OpaqueLayerMask; // 0x180
+		::UnityEngine::LayerMask m_TransparentLayerMask; // 0x184
+		::UnityEngine::Rendering::Universal::StencilStateData* m_DefaultStencilState; // 0x188
+		::System::Boolean m_ShadowTransparentReceive; // 0x190
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderConfig>* cachedShaderConfigs; // 0x198
 
 		::System::Void _ctor()
 		{

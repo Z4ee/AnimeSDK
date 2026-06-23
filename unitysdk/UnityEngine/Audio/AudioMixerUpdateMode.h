@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioMixerUpdateMode_TypeDefinitionIndex = 9633;
+	inline static constexpr unsigned int AudioMixerUpdateMode_TypeDefinitionIndex = 18360;
 
 	enum class AudioMixerUpdateMode : ::System::Int32
 	{

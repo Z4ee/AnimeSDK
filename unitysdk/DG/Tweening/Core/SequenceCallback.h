@@ -4,11 +4,11 @@
 
 namespace DG::Tweening { class TweenCallback; }
 
-#define DG_TWEENING_CORE_SEQUENCECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4ABBE0)
+#define DG_TWEENING_CORE_SEQUENCECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E3330)
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int SequenceCallback_TypeDefinitionIndex = 25500;
+	inline static constexpr unsigned int SequenceCallback_TypeDefinitionIndex = 27991;
 
 	class SequenceCallback : public ::DG::Tweening::Core::ABSSequentiable
 	{

@@ -1,33 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_48F4A404A08692BE_132.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_67.h"
+#include "unitysdk/Class_1_46FECA8E1D551D46_31.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_505.h"
 
-class Class_0_16E4307DCC419505_13;
-class Class_2_6D99A03C58ED2B6E_2;
-namespace System { class String; }
+class Class_0_16E4307DCC419505_7;
 
-#define CLASS_2_208CC9941471731A_228_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x11F746F0)
-#define CLASS_2_208CC9941471731A_228_METHOD_2_860787EF93A67C73_OFFSET UNITYSDK_OFFSET(0x11F74160)
-#define CLASS_2_208CC9941471731A_228__CTOR_OFFSET UNITYSDK_OFFSET(0x11F74140)
+#define CLASS_2_208CC9941471731A_228__CTOR_OFFSET UNITYSDK_OFFSET(0x18958730)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_228_TypeDefinitionIndex = 13618;
+inline static constexpr unsigned int Class_2_208CC9941471731A_228_TypeDefinitionIndex = 11690;
 
-class Class_2_208CC9941471731A_228 : public ::Class_1_48F4A404A08692BE_132
+class Class_2_208CC9941471731A_228 : public ::Class_1_46FECA8E1D551D46_31
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_67 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_505 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_67, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_228__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::Class_2_6D99A03C58ED2B6E_2* Method_2_860787EF93A67C73()
-	{
-		return ((::Class_2_6D99A03C58ED2B6E_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_228_METHOD_2_860787EF93A67C73_OFFSET))(this);
-	}
-
-	::System::String* Method_2_35EA095E1AFDD9C8()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_228_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_505, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_228__CTOR_OFFSET))(this, a1, a2);
 	}
 };

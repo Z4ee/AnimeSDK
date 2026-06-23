@@ -9,19 +9,20 @@
 
 namespace MoleMole::GalGame { class DynamicObjectModifyActiveCfg; }
 namespace MoleMole::GalGame { class MainCityChatCameraParam; }
+namespace MoleMole::GalGame { class SetGroupMemberTransformCfg; }
 namespace MoleMole::GalGame { class TagBoolPair; }
 namespace MoleMole::GalGame { class TagGroupBoolPair; }
 namespace MoleMole::GalGame { class TagStringPair; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x12337870)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x123378F0)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x12337930)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x13EE1290)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x13EE1310)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE1350)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 53648;
+	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 86101;
 
 	class TransitionWithActionsCfg : public ::System::Object
 	{
@@ -57,16 +58,18 @@ namespace MoleMole::GalGame
 		::System::Int32 ClientNpcTag; // 0xB4
 		::System::String* ClientNpcTransformKey; // 0xB8
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::TagStringPair*>* ExClientNpcTag; // 0xC0
-		::System::Boolean ResetCamera1; // 0xC8
-		::MoleMole::GalGame::MainCityChatCameraParam* CameraParam; // 0xD0
-		::System::Boolean ModifyTime; // 0xD8
-		::ProtoScript::ModTimeType ModType; // 0xDC
-		::System::Int32 Minute; // 0xE0
-		::System::Int32 TimePeriodNum; // 0xE4
-		::System::Int32 DayOfWeek; // 0xE8
-		::ProtoScript::TimePeriodType TimePeriod; // 0xEC
-		::System::Boolean IgnoreMidnightLimit; // 0xF0
-		::System::Int32 SetNpcDitherAction; // 0xF4
+		::System::Boolean SetGroupMemberTransform; // 0xC8
+		::System::Collections::Generic::List_1<::MoleMole::GalGame::SetGroupMemberTransformCfg*>* GroupMemberTransformCfgList; // 0xD0
+		::System::Boolean ResetCamera1; // 0xD8
+		::MoleMole::GalGame::MainCityChatCameraParam* CameraParam; // 0xE0
+		::System::Boolean ModifyTime; // 0xE8
+		::ProtoScript::ModTimeType ModType; // 0xEC
+		::System::Int32 Minute; // 0xF0
+		::System::Int32 TimePeriodNum; // 0xF4
+		::System::Int32 DayOfWeek; // 0xF8
+		::ProtoScript::TimePeriodType TimePeriod; // 0xFC
+		::System::Boolean IgnoreMidnightLimit; // 0x100
+		::System::Int32 SetNpcDitherAction; // 0x104
 
 		::System::Void _ctor()
 		{

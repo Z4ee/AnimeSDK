@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK { class PageInfo; }
 
-#define MIHOYO_SDK_PAGEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1EF520)
-#define MIHOYO_SDK_PAGEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EF560)
-#define MIHOYO_SDK_PAGEINFO___C___CCTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x1A1EF570)
+#define MIHOYO_SDK_PAGEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4D8F60)
+#define MIHOYO_SDK_PAGEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D8FA0)
+#define MIHOYO_SDK_PAGEINFO___C___CCTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x1C4D8FB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PageInfo___c_TypeDefinitionIndex = 35188;
+	inline static constexpr unsigned int PageInfo___c_TypeDefinitionIndex = 36752;
 
 	class PageInfo___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PageInfo___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PageInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PageInfo___c_TypeDefinitionIndex)->GetStaticField(0x26240);
+			return (::MiHoYo::SDK::PageInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PageInfo___c_TypeDefinitionIndex)->GetStaticField(0x27CD0);
 		}
 
 		static ::System::Void _cctor()

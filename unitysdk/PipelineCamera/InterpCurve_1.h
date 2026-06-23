@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int InterpCurve_1_TypeDefinitionIndex = 36075;
+	inline static constexpr unsigned int InterpCurve_1_TypeDefinitionIndex = 37683;
 
 	template <typename T>
 	struct InterpCurve_1

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UILEVELRESULTV2_PAGECONTROLLER___C__DISPLAYCLASS103_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15A6E9C0)
-#define MOLEMOLE_UILEVELRESULTV2_PAGECONTROLLER___C__DISPLAYCLASS103_2___REFRESHREWARDS_B__3_OFFSET UNITYSDK_OFFSET(0x15A6E9D0)
+#define MOLEMOLE_UILEVELRESULTV2_PAGECONTROLLER___C__DISPLAYCLASS103_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1713D6F0)
+#define MOLEMOLE_UILEVELRESULTV2_PAGECONTROLLER___C__DISPLAYCLASS103_2___REFRESHREWARDS_B__3_OFFSET UNITYSDK_OFFSET(0x1713D700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_PageController___c__DisplayClass103_2_TypeDefinitionIndex = 58837;
+	inline static constexpr unsigned int UILevelResultV2_PageController___c__DisplayClass103_2_TypeDefinitionIndex = 65620;
 
 	class UILevelResultV2_PageController___c__DisplayClass103_2 : public ::System::Object
 	{

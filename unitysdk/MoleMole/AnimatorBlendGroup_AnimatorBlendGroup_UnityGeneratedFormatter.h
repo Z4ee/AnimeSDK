@@ -11,34 +11,34 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11C76160)
-#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11C76170)
-#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11C76570)
-#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C76810)
-#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11C767D0)
+#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x134645A0)
+#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x134645B0)
+#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x134649B0)
+#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13464C50)
+#define MOLEMOLE_ANIMATORBLENDGROUP_ANIMATORBLENDGROUP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13464C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex = 46660;
+	inline static constexpr unsigned int AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex = 49883;
 
 	class AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::AnimatorBlendGroup*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E5C0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::AnimatorClipBlendData*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::AnimatorClipBlendData*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E5C8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::AnimatorClipBlendData*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40B00);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E5D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40B08);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40B10);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E5D8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorBlendGroup_AnimatorBlendGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40B18);
 		}
 
 		::System::Void _ctor()

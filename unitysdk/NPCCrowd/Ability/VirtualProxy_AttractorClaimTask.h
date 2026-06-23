@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeTaskBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xCD312D0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xCD31340)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xCD31270)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_LINK_OFFSET UNITYSDK_OFFSET(0xCD31090)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xCD313B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xCD31430)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD414C10)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xD414C80)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD414BB0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD414B40)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD414CF0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD414D70)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_AttractorClaimTask_TypeDefinitionIndex = 65513;
+	inline static constexpr unsigned int VirtualProxy_AttractorClaimTask_TypeDefinitionIndex = 51916;
 
-	class VirtualProxy_AttractorClaimTask : public ::StateTreeCore::VirtualProxy_StateTreeTaskBase
+	class VirtualProxy_AttractorClaimTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{
 	public:
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCLAIMTASK_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

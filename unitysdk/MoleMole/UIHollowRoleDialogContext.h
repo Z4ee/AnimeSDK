@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHOLLOWROLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15268FA0)
+#define MOLEMOLE_UIHOLLOWROLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16981210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRoleDialogContext_TypeDefinitionIndex = 81398;
+	inline static constexpr unsigned int UIHollowRoleDialogContext_TypeDefinitionIndex = 46345;
 
 	class UIHollowRoleDialogContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiCyclicQueueIterator_2_TypeDefinitionIndex = 8039;
+	inline static constexpr unsigned int MultiCyclicQueueIterator_2_TypeDefinitionIndex = 7868;
 
 	template <typename TMultiQueue, typename T>
 	class MultiCyclicQueueIterator_2 : public ::System::Object

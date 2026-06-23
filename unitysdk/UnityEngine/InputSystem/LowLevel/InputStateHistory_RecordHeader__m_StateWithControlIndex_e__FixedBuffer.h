@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateHistory_RecordHeader__m_StateWithControlIndex_e__FixedBuffer_TypeDefinitionIndex = 29297;
+	inline static constexpr unsigned int InputStateHistory_RecordHeader__m_StateWithControlIndex_e__FixedBuffer_TypeDefinitionIndex = 31953;
 
 	struct alignas(1) InputStateHistory_RecordHeader__m_StateWithControlIndex_e__FixedBuffer
 	{

@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125CC5C0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125CC5D0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125CC870)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125CCA60)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125CCA20)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x130209B0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x130209C0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13020C60)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13020E50)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCUSTOMTRANSITIONNODE_MAINCITYCHATCUSTOMTRANSITIONNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13020E10)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex = 66557;
+	inline static constexpr unsigned int MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex = 77239;
 
 	class MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatCustomTransitionNode*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47960);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47968);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49D80);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCustomTransitionNode_MainCityChatCustomTransitionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49D88);
 		}
 
 		::System::Void _ctor()

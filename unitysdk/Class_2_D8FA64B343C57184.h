@@ -10,25 +10,25 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_D8FA64B343C57184_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x12DB5F20)
-#define CLASS_2_D8FA64B343C57184_METHOD_2_39361D1F2D1BD8E3_OFFSET UNITYSDK_OFFSET(0x12DB6110)
-#define CLASS_2_D8FA64B343C57184_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x12DB6260)
-#define CLASS_2_D8FA64B343C57184_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12DB6330)
-#define CLASS_2_D8FA64B343C57184__CTOR_OFFSET UNITYSDK_OFFSET(0x12DB6320)
+#define CLASS_2_D8FA64B343C57184_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x14A46EF0)
+#define CLASS_2_D8FA64B343C57184_METHOD_2_39361D1F2D1BD8E3_OFFSET UNITYSDK_OFFSET(0x14A470E0)
+#define CLASS_2_D8FA64B343C57184_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14A47230)
+#define CLASS_2_D8FA64B343C57184_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14A47300)
+#define CLASS_2_D8FA64B343C57184__CTOR_OFFSET UNITYSDK_OFFSET(0x14A472F0)
 
-inline static constexpr unsigned int Class_2_D8FA64B343C57184_TypeDefinitionIndex = 40591;
+inline static constexpr unsigned int Class_2_D8FA64B343C57184_TypeDefinitionIndex = 82730;
 
 class Class_2_D8FA64B343C57184 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_7; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x40
-	::UnityEngine::RectTransform* Field_2_6; // 0x48
-	::UnityEngine::GameObject* Field_2_3; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
+	::UnityEngine::RectTransform* Field_2_6; // 0x28
+	::UnityEngine::GameObject* Field_2_3; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_7; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x50
 
 	::System::Void _ctor()
 	{
@@ -45,13 +45,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_D8FA64B343C57184_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_7835DD7D7F7FF1B7()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D8FA64B343C57184_METHOD_2_7835DD7D7F7FF1B7_OFFSET))(this);
-	}
-
 	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Method_2_39361D1F2D1BD8E3(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>*(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_D8FA64B343C57184_METHOD_2_39361D1F2D1BD8E3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_7835DD7D7F7FF1B7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D8FA64B343C57184_METHOD_2_7835DD7D7F7FF1B7_OFFSET))(this);
 	}
 };

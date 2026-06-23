@@ -7,7 +7,7 @@ namespace System::ComponentModel::Design { class ServiceCreatorCallback; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IServiceContainer_TypeDefinitionIndex = 3082;
+	inline static constexpr unsigned int IServiceContainer_TypeDefinitionIndex = 3081;
 
 	class IServiceContainer
 	{

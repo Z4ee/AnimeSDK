@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125EDB00)
-#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125EDB10)
-#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125EDDB0)
-#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125EDFA0)
-#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125EDF60)
+#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13044430)
+#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13044440)
+#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x130446E0)
+#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x130448D0)
+#define MOLEMOLE_SCENESOUNDDATA_SCENESOUNDDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13044890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex = 55491;
+	inline static constexpr unsigned int SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex = 68079;
 
 	class SceneSoundData_SceneSoundData_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SceneSoundData*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A00);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E20);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneSoundData_SubAreaConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneSoundData_SubAreaConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A08);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneSoundData_SubAreaConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(SceneSoundData_SceneSoundData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E28);
 		}
 
 		::System::Void _ctor()

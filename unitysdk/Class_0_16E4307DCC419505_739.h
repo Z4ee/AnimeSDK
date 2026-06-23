@@ -1,8 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_B4A88BE55E27A7C3.h"
+#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/MoleMole/EUILayoutPlatform.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_739_TypeDefinitionIndex = 77187;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIBaseController; }
+namespace MoleMole { class UIWidgetController; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_739_TypeDefinitionIndex = 74537;
 
 class Class_0_16E4307DCC419505_739
 {

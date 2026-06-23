@@ -5,20 +5,20 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationState; }
 
-#define CLASS_1_E4B28BF4798FAC79_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF948CC0)
-#define CLASS_1_E4B28BF4798FAC79_METHOD_1_55D7AA42A94ED4D8_OFFSET UNITYSDK_OFFSET(0xF948F50)
-#define CLASS_1_E4B28BF4798FAC79_METHOD_1_A583248D0B8C6672_OFFSET UNITYSDK_OFFSET(0xF9490B0)
-#define CLASS_1_E4B28BF4798FAC79_METHOD_1_D8FD93C9664DDD10_OFFSET UNITYSDK_OFFSET(0xF948E00)
-#define CLASS_1_E4B28BF4798FAC79__CTOR_OFFSET UNITYSDK_OFFSET(0xF948D70)
+#define CLASS_1_E4B28BF4798FAC79_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11436740)
+#define CLASS_1_E4B28BF4798FAC79_METHOD_1_55D7AA42A94ED4D8_OFFSET UNITYSDK_OFFSET(0x11436880)
+#define CLASS_1_E4B28BF4798FAC79_METHOD_1_A583248D0B8C6672_OFFSET UNITYSDK_OFFSET(0x114369E0)
+#define CLASS_1_E4B28BF4798FAC79_METHOD_1_D8FD93C9664DDD10_OFFSET UNITYSDK_OFFSET(0x11436AB0)
+#define CLASS_1_E4B28BF4798FAC79__CTOR_OFFSET UNITYSDK_OFFSET(0x114367F0)
 
-inline static constexpr unsigned int Class_1_E4B28BF4798FAC79_TypeDefinitionIndex = 68532;
+inline static constexpr unsigned int Class_1_E4B28BF4798FAC79_TypeDefinitionIndex = 83122;
 
 class Class_1_E4B28BF4798FAC79 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::AnimationState*>* Field_1_2; // 0x10
-	::System::Boolean Field_1_0; // 0x18
-	::System::Int32 Field_1_1; // 0x1C
+	::System::Int32 Field_1_1; // 0x18
+	::System::Boolean Field_1_0; // 0x1C
 
 	::System::Void _ctor()
 	{
@@ -30,11 +30,6 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E4B28BF4798FAC79_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_D8FD93C9664DDD10(::System::Int32 a1, ::UnityEngine::AnimationState* a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimationState*))((::PBYTE)hIl2Cpp + CLASS_1_E4B28BF4798FAC79_METHOD_1_D8FD93C9664DDD10_OFFSET))(this, a1, a2);
-	}
-
 	::System::Single Method_1_55D7AA42A94ED4D8()
 	{
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E4B28BF4798FAC79_METHOD_1_55D7AA42A94ED4D8_OFFSET))(this);
@@ -43,5 +38,10 @@ public:
 	::System::Boolean Method_1_A583248D0B8C6672(::System::Int32 a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_E4B28BF4798FAC79_METHOD_1_A583248D0B8C6672_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_D8FD93C9664DDD10(::System::Int32 a1, ::UnityEngine::AnimationState* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimationState*))((::PBYTE)hIl2Cpp + CLASS_1_E4B28BF4798FAC79_METHOD_1_D8FD93C9664DDD10_OFFSET))(this, a1, a2);
 	}
 };

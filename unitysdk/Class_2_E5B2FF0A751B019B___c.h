@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ESystemSettingType.h"
-#include "unitysdk/MoleMole/InLevelPauseLevelTab.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_3_D92ADC48CDFCC09B;
 
-#define CLASS_2_E5B2FF0A751B019B___C_METHOD_1_004EF7F411723ADC_OFFSET UNITYSDK_OFFSET(0x1091B000)
-#define CLASS_2_E5B2FF0A751B019B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1091AFB0)
-#define CLASS_2_E5B2FF0A751B019B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1091AFF0)
+#define CLASS_2_E5B2FF0A751B019B___C_METHOD_1_602A336CBD30C930_OFFSET UNITYSDK_OFFSET(0x13A38130)
+#define CLASS_2_E5B2FF0A751B019B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A380E0)
+#define CLASS_2_E5B2FF0A751B019B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13A38120)
 
-inline static constexpr unsigned int Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex = 74494;
+inline static constexpr unsigned int Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex = 50478;
 
 class Class_2_E5B2FF0A751B019B___c : public ::System::Object
 {
 public:
+	static ::Class_3_D92ADC48CDFCC09B** StaticGet___9__52_15()
+	{
+		return (::Class_3_D92ADC48CDFCC09B**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex)->GetStaticField(0x3FA50);
+	}
 	static ::Class_2_E5B2FF0A751B019B___c** StaticGet___9()
 	{
-		return (::Class_2_E5B2FF0A751B019B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex)->GetStaticField(0x2D4A0);
-	}
-	static ::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>** StaticGet___9__53_0()
-	{
-		return (::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex)->GetStaticField(0x2D4A8);
+		return (::Class_2_E5B2FF0A751B019B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E5B2FF0A751B019B___c_TypeDefinitionIndex)->GetStaticField(0x3FA58);
 	}
 
 	static ::System::Void _cctor()
@@ -36,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E5B2FF0A751B019B___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_004EF7F411723ADC(::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>* a1)
+	::System::Void Method_1_602A336CBD30C930(::Struct_2_C8629618711DF8B3& a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*))((::PBYTE)hIl2Cpp + CLASS_2_E5B2FF0A751B019B___C_METHOD_1_004EF7F411723ADC_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_E5B2FF0A751B019B___C_METHOD_1_602A336CBD30C930_OFFSET))(this, a1);
 	}
 };

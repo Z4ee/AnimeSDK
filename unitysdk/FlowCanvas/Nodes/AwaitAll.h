@@ -5,23 +5,23 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_AWAITALL_CHECK_OFFSET UNITYSDK_OFFSET(0x19845FF0)
-#define FLOWCANVAS_NODES_AWAITALL_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x19845DD0)
-#define FLOWCANVAS_NODES_AWAITALL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19845ED0)
-#define FLOWCANVAS_NODES_AWAITALL_RESET_OFFSET UNITYSDK_OFFSET(0x19845E50)
-#define FLOWCANVAS_NODES_AWAITALL__CTOR_OFFSET UNITYSDK_OFFSET(0x19846130)
+#define FLOWCANVAS_NODES_AWAITALL_CHECK_OFFSET UNITYSDK_OFFSET(0x1BCB3F10)
+#define FLOWCANVAS_NODES_AWAITALL_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1BCB3CF0)
+#define FLOWCANVAS_NODES_AWAITALL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1BCB3DF0)
+#define FLOWCANVAS_NODES_AWAITALL_RESET_OFFSET UNITYSDK_OFFSET(0x1BCB3D70)
+#define FLOWCANVAS_NODES_AWAITALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB4050)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AwaitAll_TypeDefinitionIndex = 28053;
+	inline static constexpr unsigned int AwaitAll_TypeDefinitionIndex = 30507;
 
 	class AwaitAll : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::Il2CppArray<::System::Single>* calls; // 0xA8
-		::FlowCanvas::FlowOutput* fOut; // 0xB0
-		::System::Single maxAwaitTime; // 0xB8
-		::System::Int32 _portCount; // 0xBC
+		::FlowCanvas::FlowOutput* fOut; // 0xA8
+		::Il2CppArray<::System::Single>* calls; // 0xB0
+		::System::Int32 _portCount; // 0xB8
+		::System::Single maxAwaitTime; // 0xBC
 
 		::System::Void _ctor()
 		{

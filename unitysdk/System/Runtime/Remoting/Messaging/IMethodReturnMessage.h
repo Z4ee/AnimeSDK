@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMethodReturnMessage_TypeDefinitionIndex = 1354;
+	inline static constexpr unsigned int IMethodReturnMessage_TypeDefinitionIndex = 1353;
 
 	class IMethodReturnMessage
 	{

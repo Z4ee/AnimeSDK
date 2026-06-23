@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SCENEOBJECTPLATMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC5550)
+#define SCENEOBJECTPLATMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1682DA80)
 
-inline static constexpr unsigned int SceneObjectPlatModelConfig_TypeDefinitionIndex = 45574;
+inline static constexpr unsigned int SceneObjectPlatModelConfig_TypeDefinitionIndex = 59643;
 
 class SceneObjectPlatModelConfig : public ::System::Object
 {

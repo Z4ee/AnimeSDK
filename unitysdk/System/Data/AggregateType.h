@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int AggregateType_TypeDefinitionIndex = 36936;
+	inline static constexpr unsigned int AggregateType_TypeDefinitionIndex = 38553;
 
 	enum class AggregateType : ::System::Int32
 	{

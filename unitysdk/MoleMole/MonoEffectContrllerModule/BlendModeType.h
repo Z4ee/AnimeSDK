@@ -3,7 +3,7 @@
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int BlendModeType_TypeDefinitionIndex = 71806;
+	inline static constexpr unsigned int BlendModeType_TypeDefinitionIndex = 53954;
 
 	enum class BlendModeType : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_TypeDefinitionIndex = 6446;
+	inline static constexpr unsigned int ImmutableHashSet_1_TypeDefinitionIndex = 6491;
 
 	template <typename T>
 	class ImmutableHashSet_1 : public ::System::Object

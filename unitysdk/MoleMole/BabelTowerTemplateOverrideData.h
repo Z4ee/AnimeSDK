@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_3659D99D9E0DCBB9_14.h"
+#include "unitysdk/Struct_2_3659D99D9E0DCBB9_7.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_HASFALSEMVPCONDITION_OFFSET UNITYSDK_OFFSET(0x7A2A40)
-#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_HASMVPCONDITION_OFFSET UNITYSDK_OFFSET(0x7A2A30)
-#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_PARSEFROMFLOORTEMPLATE_OFFSET UNITYSDK_OFFSET(0x159BC4A0)
+#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_HASFALSEMVPCONDITION_OFFSET UNITYSDK_OFFSET(0x792F30)
+#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_HASMVPCONDITION_OFFSET UNITYSDK_OFFSET(0x792F20)
+#define MOLEMOLE_BABELTOWERTEMPLATEOVERRIDEDATA_PARSEFROMFLOORTEMPLATE_OFFSET UNITYSDK_OFFSET(0x126E2F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BabelTowerTemplateOverrideData_TypeDefinitionIndex = 67630;
+	inline static constexpr unsigned int BabelTowerTemplateOverrideData_TypeDefinitionIndex = 62427;
 
 	struct alignas(8) BabelTowerTemplateOverrideData
 	{
@@ -25,7 +25,7 @@ namespace MoleMole
 		::System::Int32 MonsterLevel; // 0x30
 		::System::Int32 DamageFinalScorePercentage; // 0x34
 		::System::Int32 HpFinalScorePercentage; // 0x38
-		::System::Collections::Generic::List_1<::Struct_2_3659D99D9E0DCBB9_14>* TimeFinalScoreRatio; // 0x40
+		::System::Collections::Generic::List_1<::Struct_2_3659D99D9E0DCBB9_7>* TimeFinalScoreRatio; // 0x40
 		::System::String* TimeDialogText; // 0x48
 		::System::Int32 NoDamageFinalScore; // 0x50
 		::System::Int32 TreasureScore; // 0x54

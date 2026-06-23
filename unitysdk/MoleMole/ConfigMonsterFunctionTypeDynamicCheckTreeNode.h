@@ -7,12 +7,12 @@ class Class_1_663AFC2250EC21C9;
 class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGMONSTERFUNCTIONTYPEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x153DF4B0)
-#define MOLEMOLE_CONFIGMONSTERFUNCTIONTYPEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x153DF540)
+#define MOLEMOLE_CONFIGMONSTERFUNCTIONTYPEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x161AE400)
+#define MOLEMOLE_CONFIGMONSTERFUNCTIONTYPEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x161AE490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMonsterFunctionTypeDynamicCheckTreeNode_TypeDefinitionIndex = 50315;
+	inline static constexpr unsigned int ConfigMonsterFunctionTypeDynamicCheckTreeNode_TypeDefinitionIndex = 59994;
 
 	class ConfigMonsterFunctionTypeDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{

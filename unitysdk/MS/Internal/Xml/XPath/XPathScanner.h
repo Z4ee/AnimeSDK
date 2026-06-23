@@ -6,31 +6,31 @@
 
 namespace System { class String; }
 
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x19D2EA30)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_NEXTLEX_OFFSET UNITYSDK_OFFSET(0x19D2D600)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANFRACTION_OFFSET UNITYSDK_OFFSET(0x19D2EC00)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANNAME_OFFSET UNITYSDK_OFFSET(0x19D2F240)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANNUMBER_OFFSET UNITYSDK_OFFSET(0x19D2EFA0)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANSTRING_OFFSET UNITYSDK_OFFSET(0x19D2ED30)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SKIPSPACE_OFFSET UNITYSDK_OFFSET(0x19D2EAD0)
-#define MS_INTERNAL_XML_XPATH_XPATHSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2AA00)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1C165610)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_NEXTLEX_OFFSET UNITYSDK_OFFSET(0x1C1641E0)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANFRACTION_OFFSET UNITYSDK_OFFSET(0x1C1657E0)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANNAME_OFFSET UNITYSDK_OFFSET(0x1C165E20)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANNUMBER_OFFSET UNITYSDK_OFFSET(0x1C165B80)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SCANSTRING_OFFSET UNITYSDK_OFFSET(0x1C165910)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER_SKIPSPACE_OFFSET UNITYSDK_OFFSET(0x1C1656B0)
+#define MS_INTERNAL_XML_XPATH_XPATHSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1615F0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int XPathScanner_TypeDefinitionIndex = 1653;
+	inline static constexpr unsigned int XPathScanner_TypeDefinitionIndex = 1652;
 
 	class XPathScanner : public ::System::Object
 	{
 	public:
-		::System::String* xpathExpr; // 0x10
-		::System::String* stringValue; // 0x18
-		::System::String* name; // 0x20
-		::System::String* prefix; // 0x28
-		::System::Xml::XmlCharType xmlCharType; // 0x30
-		::System::Boolean canBeFunction; // 0x38
-		::System::Char currentChar; // 0x3A
-		::System::Int32 xpathExprIndex; // 0x3C
-		::MS::Internal::Xml::XPath::XPathScanner_LexKind kind; // 0x40
+		::System::Xml::XmlCharType xmlCharType; // 0x10
+		::System::String* prefix; // 0x18
+		::System::String* xpathExpr; // 0x20
+		::System::String* stringValue; // 0x28
+		::System::String* name; // 0x30
+		::System::Char currentChar; // 0x38
+		::System::Boolean canBeFunction; // 0x3A
+		::MS::Internal::Xml::XPath::XPathScanner_LexKind kind; // 0x3C
+		::System::Int32 xpathExprIndex; // 0x40
 		::System::Double numberValue; // 0x48
 
 		::System::Void _ctor(::System::String* xpathExpr)

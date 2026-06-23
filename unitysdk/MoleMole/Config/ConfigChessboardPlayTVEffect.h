@@ -6,12 +6,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPLAYTVEFFECT_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x139A0840)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPLAYTVEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x139A0900)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPLAYTVEFFECT_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x162A8A30)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPLAYTVEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x162A8AF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardPlayTVEffect_TypeDefinitionIndex = 66588;
+	inline static constexpr unsigned int ConfigChessboardPlayTVEffect_TypeDefinitionIndex = 54326;
 
 	class ConfigChessboardPlayTVEffect : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

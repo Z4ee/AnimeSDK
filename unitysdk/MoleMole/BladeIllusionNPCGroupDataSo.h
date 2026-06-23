@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/BladeIllusionNPCInfo.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 
-#define MOLEMOLE_BLADEILLUSIONNPCGROUPDATASO__CTOR_OFFSET UNITYSDK_OFFSET(0xECE6F90)
+#define MOLEMOLE_BLADEILLUSIONNPCGROUPDATASO__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD1320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BladeIllusionNPCGroupDataSo_TypeDefinitionIndex = 76951;
+	inline static constexpr unsigned int BladeIllusionNPCGroupDataSo_TypeDefinitionIndex = 44265;
 
 	class BladeIllusionNPCGroupDataSo : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

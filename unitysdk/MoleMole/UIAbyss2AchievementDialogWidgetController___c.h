@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E6A870)
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6A8B0)
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__GETBADGEMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x15E6A8C0)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18727D90)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18727DD0)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__GETBADGEMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x18727DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex = 65312;
+	inline static constexpr unsigned int UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex = 70158;
 
 	class UIAbyss2AchievementDialogWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Int32>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40600);
-		}
 		static ::MoleMole::UIAbyss2AchievementDialogWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyss2AchievementDialogWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40608);
+			return (::MoleMole::UIAbyss2AchievementDialogWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43060);
+		}
+		static ::System::Comparison_1<::System::Int32>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43068);
 		}
 
 		static ::System::Void _cctor()

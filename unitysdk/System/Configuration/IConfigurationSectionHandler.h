@@ -6,7 +6,7 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int IConfigurationSectionHandler_TypeDefinitionIndex = 4068;
+	inline static constexpr unsigned int IConfigurationSectionHandler_TypeDefinitionIndex = 4067;
 
 	class IConfigurationSectionHandler
 	{

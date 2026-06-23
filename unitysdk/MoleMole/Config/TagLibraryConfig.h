@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_TAGLIBRARYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14951EC0)
+#define MOLEMOLE_CONFIG_TAGLIBRARYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170CE760)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TagLibraryConfig_TypeDefinitionIndex = 62533;
+	inline static constexpr unsigned int TagLibraryConfig_TypeDefinitionIndex = 67702;
 
 	class TagLibraryConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

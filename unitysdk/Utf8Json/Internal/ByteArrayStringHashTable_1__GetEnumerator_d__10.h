@@ -9,7 +9,7 @@ namespace Utf8Json::Internal { template <typename T> class ByteArrayStringHashTa
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ByteArrayStringHashTable_1__GetEnumerator_d__10_TypeDefinitionIndex = 85661;
+	inline static constexpr unsigned int ByteArrayStringHashTable_1__GetEnumerator_d__10_TypeDefinitionIndex = 91235;
 
 	template <typename T>
 	class ByteArrayStringHashTable_1__GetEnumerator_d__10 : public ::System::Object

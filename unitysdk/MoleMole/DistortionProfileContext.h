@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 
-#define MOLEMOLE_DISTORTIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3B050)
+#define MOLEMOLE_DISTORTIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21F260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DistortionProfileContext_TypeDefinitionIndex = 73049;
+	inline static constexpr unsigned int DistortionProfileContext_TypeDefinitionIndex = 47037;
 
 	class DistortionProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

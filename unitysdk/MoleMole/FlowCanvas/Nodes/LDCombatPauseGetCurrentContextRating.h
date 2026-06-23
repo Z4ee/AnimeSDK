@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETCURRENTCONTEXTRATING_INVOKE_OFFSET UNITYSDK_OFFSET(0x178019D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETCURRENTCONTEXTRATING__CTOR_OFFSET UNITYSDK_OFFSET(0x17801B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETCURRENTCONTEXTRATING_INVOKE_OFFSET UNITYSDK_OFFSET(0x182D2900)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETCURRENTCONTEXTRATING__CTOR_OFFSET UNITYSDK_OFFSET(0x182D2A50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCombatPauseGetCurrentContextRating_TypeDefinitionIndex = 48552;
+	inline static constexpr unsigned int LDCombatPauseGetCurrentContextRating_TypeDefinitionIndex = 59952;
 
 	class LDCombatPauseGetCurrentContextRating : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::Level::RatingType>
 	{

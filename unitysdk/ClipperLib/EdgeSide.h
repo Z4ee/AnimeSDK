@@ -3,7 +3,7 @@
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int EdgeSide_TypeDefinitionIndex = 31227;
+	inline static constexpr unsigned int EdgeSide_TypeDefinitionIndex = 32778;
 
 	enum class EdgeSide : ::System::Int32
 	{

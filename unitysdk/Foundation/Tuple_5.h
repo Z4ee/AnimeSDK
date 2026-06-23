@@ -9,7 +9,7 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Tuple_5_TypeDefinitionIndex = 7832;
+	inline static constexpr unsigned int Tuple_5_TypeDefinitionIndex = 7753;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct Tuple_5

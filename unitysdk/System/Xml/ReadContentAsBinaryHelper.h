@@ -5,21 +5,21 @@
 
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1B96D610)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1B96D750)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1B96D870)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1DCE4310)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1DCE4450)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1DCE4570)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ReadContentAsBinaryHelper_TypeDefinitionIndex = 1696;
+	inline static constexpr unsigned int ReadContentAsBinaryHelper_TypeDefinitionIndex = 1695;
 
 	class ReadContentAsBinaryHelper : public ::System::Object
 	{
 	public:
 		::System::Xml::XmlReader* reader; // 0x10
-		::System::Xml::ReadContentAsBinaryHelper_State state; // 0x18
-		::System::Int32 valueOffset; // 0x1C
-		::System::Boolean isEnd; // 0x20
+		::System::Boolean isEnd; // 0x18
+		::System::Xml::ReadContentAsBinaryHelper_State state; // 0x1C
+		::System::Int32 valueOffset; // 0x20
 
 		::System::Void Finish()
 		{

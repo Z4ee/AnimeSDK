@@ -12,30 +12,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17540710)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17540720)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x175409C0)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17540BB0)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17540B70)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x144EAAA0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x144EAAB0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x144EAD50)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x144EAF40)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_CONFIGUISIMPLEPARKOURGAME_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x144EAF00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex = 43831;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex = 72941;
 
 	class ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigUISimpleParkourGame*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C2C0);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A310);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C2C8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A318);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A320);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_ConfigUISimpleParkourGame_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C2D0);
 		}
 
 		::System::Void _ctor()

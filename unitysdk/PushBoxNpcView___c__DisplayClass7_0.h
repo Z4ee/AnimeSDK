@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_2_208CC9941471731A_321;
+class Class_2_208CC9941471731A_965;
 class PushBoxNpcView;
 
-#define PUSHBOXNPCVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA5530)
-#define PUSHBOXNPCVIEW___C__DISPLAYCLASS7_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x12AA5540)
+#define PUSHBOXNPCVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4B540)
+#define PUSHBOXNPCVIEW___C__DISPLAYCLASS7_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x1DA4B550)
 
-inline static constexpr unsigned int PushBoxNpcView___c__DisplayClass7_0_TypeDefinitionIndex = 77967;
+inline static constexpr unsigned int PushBoxNpcView___c__DisplayClass7_0_TypeDefinitionIndex = 54267;
 
 class PushBoxNpcView___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_2_208CC9941471731A_321* config; // 0x10
-	::PushBoxNpcView* __4__this; // 0x18
+	::PushBoxNpcView* __4__this; // 0x10
+	::Class_2_208CC9941471731A_965* config; // 0x18
 	::UnityEngine::Vector2 tileSize; // 0x20
 
 	::System::Void _ctor()

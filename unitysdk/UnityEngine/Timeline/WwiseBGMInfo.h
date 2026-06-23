@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_WWISEBGMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E47D0)
+#define UNITYENGINE_TIMELINE_WWISEBGMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D7BE0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int WwiseBGMInfo_TypeDefinitionIndex = 30897;
+	inline static constexpr unsigned int WwiseBGMInfo_TypeDefinitionIndex = 32448;
 
 	class WwiseBGMInfo : public ::System::Object
 	{

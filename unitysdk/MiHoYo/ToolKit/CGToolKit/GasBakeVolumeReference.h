@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_GASBAKEVOLUMEREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0xFE893B0)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_GASBAKEVOLUMEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xFE89300)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_GASBAKEVOLUMEREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0x12B86CE0)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_GASBAKEVOLUMEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B86C30)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int GasBakeVolumeReference_TypeDefinitionIndex = 73873;
+	inline static constexpr unsigned int GasBakeVolumeReference_TypeDefinitionIndex = 57779;
 
 	class GasBakeVolumeReference : public ::System::Object
 	{

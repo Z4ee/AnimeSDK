@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int JSONNode_NodeType_TypeDefinitionIndex = 31138;
+	inline static constexpr unsigned int JSONNode_NodeType_TypeDefinitionIndex = 32689;
 
 	enum class JSONNode_NodeType : ::System::Int32
 	{

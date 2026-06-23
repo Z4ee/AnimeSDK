@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AuditFlags_TypeDefinitionIndex = 970;
+	inline static constexpr unsigned int AuditFlags_TypeDefinitionIndex = 969;
 
 	enum class AuditFlags : ::System::Int32
 	{

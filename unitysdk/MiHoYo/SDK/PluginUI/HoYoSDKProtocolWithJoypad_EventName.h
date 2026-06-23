@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKProtocolWithJoypad_EventName_TypeDefinitionIndex = 35533;
+	inline static constexpr unsigned int HoYoSDKProtocolWithJoypad_EventName_TypeDefinitionIndex = 37134;
 
 	class HoYoSDKProtocolWithJoypad_EventName : public ::System::Object
 	{

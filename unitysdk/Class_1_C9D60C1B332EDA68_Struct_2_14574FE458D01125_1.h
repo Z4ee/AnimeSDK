@@ -4,9 +4,9 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_C9D60C1B332EDA68_STRUCT_2_14574FE458D01125_1_EXECUTE_OFFSET UNITYSDK_OFFSET(0x4B5D40)
+#define CLASS_1_C9D60C1B332EDA68_STRUCT_2_14574FE458D01125_1_EXECUTE_OFFSET UNITYSDK_OFFSET(0x759840)
 
-inline static constexpr unsigned int Class_1_C9D60C1B332EDA68_Struct_2_14574FE458D01125_1_TypeDefinitionIndex = 63664;
+inline static constexpr unsigned int Class_1_C9D60C1B332EDA68_Struct_2_14574FE458D01125_1_TypeDefinitionIndex = 49821;
 
 struct alignas(8) Class_1_C9D60C1B332EDA68_Struct_2_14574FE458D01125_1
 {

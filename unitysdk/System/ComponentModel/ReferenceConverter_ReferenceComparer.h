@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel { class ReferenceConverter; }
 
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_REFERENCECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AA95D80)
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_REFERENCECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA95D70)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_REFERENCECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CEC74B0)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER_REFERENCECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC74A0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ReferenceConverter_ReferenceComparer_TypeDefinitionIndex = 2970;
+	inline static constexpr unsigned int ReferenceConverter_ReferenceComparer_TypeDefinitionIndex = 2969;
 
 	class ReferenceConverter_ReferenceComparer : public ::System::Object
 	{

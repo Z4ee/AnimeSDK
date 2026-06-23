@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_MaterialCommandManagerOnFrameStart_TypeDefinitionIndex = 5550;
+	inline static constexpr unsigned int EarlyUpdate_MaterialCommandManagerOnFrameStart_TypeDefinitionIndex = 5552;
 
 	struct alignas(1) EarlyUpdate_MaterialCommandManagerOnFrameStart
 	{

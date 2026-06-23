@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_B136CFD8FB6B8F37_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x2E87C0)
-#define STRUCT_2_B136CFD8FB6B8F37_METHOD_2_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x73F670)
-#define STRUCT_2_B136CFD8FB6B8F37__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E80DD0)
-#define STRUCT_2_B136CFD8FB6B8F37__CTOR_OFFSET UNITYSDK_OFFSET(0x2E85F0)
+#define STRUCT_2_B136CFD8FB6B8F37_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x86EF40)
+#define STRUCT_2_B136CFD8FB6B8F37__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E24110)
+#define STRUCT_2_B136CFD8FB6B8F37__CTOR_OFFSET UNITYSDK_OFFSET(0x2B66C0)
 
-inline static constexpr unsigned int Struct_2_B136CFD8FB6B8F37_TypeDefinitionIndex = 59522;
+inline static constexpr unsigned int Struct_2_B136CFD8FB6B8F37_TypeDefinitionIndex = 50096;
 
 struct alignas(4) Struct_2_B136CFD8FB6B8F37
 {
-	static ::Struct_2_B136CFD8FB6B8F37* StaticGet_Field_2_0()
+	static ::Struct_2_B136CFD8FB6B8F37* StaticGet_Field_2_1()
 	{
-		return (::Struct_2_B136CFD8FB6B8F37*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_B136CFD8FB6B8F37_TypeDefinitionIndex)->GetStaticField(0xEC50);
+		return (::Struct_2_B136CFD8FB6B8F37*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_B136CFD8FB6B8F37_TypeDefinitionIndex)->GetStaticField(0xE730);
 	}
-	::System::Int32 Field_2_1; // 0x10
+	::System::Int32 Field_2_0; // 0x10
 
 	::System::Void _ctor(::System::Int32 a1)
 	{
@@ -27,13 +26,8 @@ struct alignas(4) Struct_2_B136CFD8FB6B8F37
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STRUCT_2_B136CFD8FB6B8F37__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_2_F5447CD65612575D()
+	::System::Boolean Method_2_391A84BCD9F51317()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B136CFD8FB6B8F37_METHOD_2_F5447CD65612575D_OFFSET))(this);
-	}
-
-	::System::Int32 Method_2_C74CF020AA42ED85()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B136CFD8FB6B8F37_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B136CFD8FB6B8F37_METHOD_2_391A84BCD9F51317_OFFSET))(this);
 	}
 };

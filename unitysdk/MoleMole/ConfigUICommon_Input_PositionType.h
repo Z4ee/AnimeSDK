@@ -3,19 +3,19 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_PositionType_TypeDefinitionIndex = 52102;
+	inline static constexpr unsigned int ConfigUICommon_Input_PositionType_TypeDefinitionIndex = 61659;
 
 	enum class ConfigUICommon_Input_PositionType : ::System::Int32
 	{
+		LowerRight = 7,
 		MiddleLeft = 3,
-		MiddleRight = 6,
-		UpperRight = 5,
 		Center = 1,
-		UpperLeft = 2,
+		MiddleRight = 6,
 		LowerOuterLeft = 200,
 		None = 0,
-		LowerLeft = 4,
-		LowerRight = 7,
 		JoyStick = 100,
+		UpperLeft = 2,
+		LowerLeft = 4,
+		UpperRight = 5,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseBuffWidgetController_EShowType_TypeDefinitionIndex = 75075;
+	inline static constexpr unsigned int UIInLevelPauseBuffWidgetController_EShowType_TypeDefinitionIndex = 62206;
 
 	enum class UIInLevelPauseBuffWidgetController_EShowType : ::System::Int32
 	{

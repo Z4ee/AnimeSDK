@@ -6,9 +6,9 @@
 namespace MoleMole { class UIBangkovItemInfoWidgetController; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_C05673AD314EDECB_METHOD_1_AE45C97EC354283D_OFFSET UNITYSDK_OFFSET(0x10096A50)
+#define CLASS_1_C05673AD314EDECB_METHOD_1_AE45C97EC354283D_OFFSET UNITYSDK_OFFSET(0x11C21F40)
 
-inline static constexpr unsigned int Class_1_C05673AD314EDECB_TypeDefinitionIndex = 72518;
+inline static constexpr unsigned int Class_1_C05673AD314EDECB_TypeDefinitionIndex = 72476;
 
 class Class_1_C05673AD314EDECB : public ::System::Object
 {

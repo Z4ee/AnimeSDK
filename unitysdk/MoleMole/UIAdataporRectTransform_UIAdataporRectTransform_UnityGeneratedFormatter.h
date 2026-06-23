@@ -11,34 +11,34 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17E4D3F0)
-#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17E4D400)
-#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17E4DCB0)
-#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E4E200)
-#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E4E1C0)
+#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18660A40)
+#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18660A50)
+#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18661300)
+#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18661850)
+#define MOLEMOLE_UIADATAPORRECTTRANSFORM_UIADATAPORRECTTRANSFORM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18661810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex = 48903;
+	inline static constexpr unsigned int UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex = 77716;
 
 	class UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::UIAdataporRectTransform*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Quaternion>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37B70);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37B78);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A010);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37B80);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A018);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A020);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37B88);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAdataporRectTransform_UIAdataporRectTransform_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A028);
 		}
 
 		::System::Void _ctor()

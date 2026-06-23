@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG_GICONFIGGETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x19688390)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19688520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG_GICONFIGGETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1B7F3920)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F3AB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 29964;
+	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 27079;
 
 	class GIConfig : public ::System::Object
 	{
@@ -19,14 +19,19 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Color skyColor; // 0x14
 		::UnityEngine::Color middleColor; // 0x24
 		::UnityEngine::Color groundColor; // 0x34
-		::System::Boolean ambientSHUseTriLight; // 0x44
-		::UnityEngine::Rendering::SphericalHarmonicsL2 bakedSH; // 0x48
-		::System::Single dynamicObjectGIIntensity; // 0xB4
-		::System::Single emissionHueIntensity; // 0xB8
-		::System::Single cloudShadowIntensityForGI; // 0xBC
-		::System::Single secondaryBounceIntensity; // 0xC0
-		::System::Single skyIndirectIntensity; // 0xC4
-		::System::Single sceneInteriorFakeBrightness; // 0xC8
+		::System::Boolean useRTXGICustomSkySH; // 0x44
+		::System::Single rtxSkyIntensity; // 0x48
+		::UnityEngine::Color rtxSkyColor; // 0x4C
+		::UnityEngine::Color rtxMiddleColor; // 0x5C
+		::UnityEngine::Color rtxGroundColor; // 0x6C
+		::System::Boolean ambientSHUseTriLight; // 0x7C
+		::UnityEngine::Rendering::SphericalHarmonicsL2 bakedSH; // 0x80
+		::System::Single dynamicObjectGIIntensity; // 0xEC
+		::System::Single emissionHueIntensity; // 0xF0
+		::System::Single cloudShadowIntensityForGI; // 0xF4
+		::System::Single secondaryBounceIntensity; // 0xF8
+		::System::Single skyIndirectIntensity; // 0xFC
+		::System::Single sceneInteriorFakeBrightness; // 0x100
 
 		::System::Void _ctor()
 		{

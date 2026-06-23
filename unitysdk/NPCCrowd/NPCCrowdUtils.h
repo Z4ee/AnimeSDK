@@ -1,28 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_AB9CCA0B2E05A401.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
+#include "unitysdk/MoleMole/Config/WeatherType.h"
+#include "unitysdk/NPCCrowd/NPCCrowdUtils_CrowdWeatherTypeFlag.h"
+#include "unitysdk/ProtoScript/TimePeriodType.h"
+#include "unitysdk/System/DayOfWeek.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_4D2BC204E8C5F006;
+class Class_3_CCAF4B6A77932E66;
 class Class_3_F2DAD7F45F518868;
 class Class_3_FFD0045B4597F294;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_NPCCROWDUTILS_GETCROWDCOMPONENT_OFFSET UNITYSDK_OFFSET(0xF077C00)
-#define NPCCROWD_NPCCROWDUTILS_GETMATERIALCOMPONENT_OFFSET UNITYSDK_OFFSET(0xF077E40)
-#define NPCCROWD_NPCCROWDUTILS_GETTAGCOMPONENT_OFFSET UNITYSDK_OFFSET(0xF0779C0)
-#define NPCCROWD_NPCCROWDUTILS_ISCROWDSTREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xF078080)
+#define NPCCROWD_NPCCROWDUTILS_APPLYCURRENTTIMEPERIODTAG_OFFSET UNITYSDK_OFFSET(0x117B07C0)
+#define NPCCROWD_NPCCROWDUTILS_APPLYTIMEPERIODTAG_OFFSET UNITYSDK_OFFSET(0x117B08C0)
+#define NPCCROWD_NPCCROWDUTILS_CONVERTWEATHERTYPETOFLAG_OFFSET UNITYSDK_OFFSET(0x117B0690)
+#define NPCCROWD_NPCCROWDUTILS_GETCROWDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x117AFC30)
+#define NPCCROWD_NPCCROWDUTILS_GETCURRENTTIMEPERIODFORTAGSYNC_OFFSET UNITYSDK_OFFSET(0x117B0BC0)
+#define NPCCROWD_NPCCROWDUTILS_GETCURTIMEDATA_OFFSET UNITYSDK_OFFSET(0x117B0280)
+#define NPCCROWD_NPCCROWDUTILS_GETCURWEATHERTYPE_OFFSET UNITYSDK_OFFSET(0x117B05E0)
+#define NPCCROWD_NPCCROWDUTILS_GETMATERIALCOMPONENT_OFFSET UNITYSDK_OFFSET(0x117AFE70)
+#define NPCCROWD_NPCCROWDUTILS_GETTAGCOMPONENT_OFFSET UNITYSDK_OFFSET(0x117AF9F0)
+#define NPCCROWD_NPCCROWDUTILS_ISCROWDSTREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0x117B0210)
+#define NPCCROWD_NPCCROWDUTILS_ISGPUMODEENABLEDINCURRENTSCENE_OFFSET UNITYSDK_OFFSET(0x117B00B0)
+#define NPCCROWD_NPCCROWDUTILS_MATCHWEATHERFLAG_OFFSET UNITYSDK_OFFSET(0x117B06F0)
+#define NPCCROWD_NPCCROWDUTILS_STATIC_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x117B0590)
+#define NPCCROWD_NPCCROWDUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x117B0DE0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdUtils_TypeDefinitionIndex = 55373;
+	inline static constexpr unsigned int NPCCrowdUtils_TypeDefinitionIndex = 41975;
 
 	class NPCCrowdUtils : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::ProtoScript::TimePeriodType, ::Foundation::Unreal::FGameplayTag>** StaticGet_TimePeriodTagCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::ProtoScript::TimePeriodType, ::Foundation::Unreal::FGameplayTag>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdUtils_TypeDefinitionIndex)->GetStaticField(0x384F0);
+		}
+		static ::System::Boolean* StaticGet__timePeriodTagCacheBuilt()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdUtils_TypeDefinitionIndex)->GetStaticField(0xDD90);
+		}
 		// static const ::System::Int32 INVALID_ID = 0x0; // 0x0
 
-		static ::System::Boolean GetTagComponent(::System::UInt32 entityID, ::Class_3_4D2BC204E8C5F006*& tagComponent)
+		static ::System::Void _cctor()
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::Class_3_4D2BC204E8C5F006*&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETTAGCOMPONENT_OFFSET))(entityID, tagComponent);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS__CCTOR_OFFSET))();
+		}
+
+		static ::System::Boolean GetTagComponent(::System::UInt32 entityID, ::Class_3_CCAF4B6A77932E66*& tagComponent)
+		{
+			return ((::System::Boolean(*)(::System::UInt32, ::Class_3_CCAF4B6A77932E66*&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETTAGCOMPONENT_OFFSET))(entityID, tagComponent);
 		}
 
 		static ::System::Boolean GetCrowdComponent(::System::UInt32 entityID, ::Class_3_F2DAD7F45F518868*& crowdComponent)
@@ -35,9 +65,54 @@ namespace NPCCrowd
 			return ((::System::Boolean(*)(::System::UInt32, ::Class_3_FFD0045B4597F294*&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETMATERIALCOMPONENT_OFFSET))(entityID, matComponent);
 		}
 
+		static ::System::Boolean IsGpuModeEnabledInCurrentScene()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_ISGPUMODEENABLEDINCURRENTSCENE_OFFSET))();
+		}
+
 		static ::System::Boolean IsCrowdStreamingEnable()
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_ISCROWDSTREAMINGENABLE_OFFSET))();
+		}
+
+		static ::System::Void GetCurTimeData(::ProtoScript::TimePeriodType& period, ::System::DayOfWeek& dayOfWeek)
+		{
+			return ((::System::Void(*)(::ProtoScript::TimePeriodType&, ::System::DayOfWeek&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETCURTIMEDATA_OFFSET))(period, dayOfWeek);
+		}
+
+		static ::System::Void GetCurWeatherType(::MoleMole::Config::WeatherType& weatherType)
+		{
+			return ((::System::Void(*)(::MoleMole::Config::WeatherType&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETCURWEATHERTYPE_OFFSET))(weatherType);
+		}
+
+		static ::NPCCrowd::NPCCrowdUtils_CrowdWeatherTypeFlag ConvertWeatherTypeToFlag(::MoleMole::Config::WeatherType weatherType)
+		{
+			return ((::NPCCrowd::NPCCrowdUtils_CrowdWeatherTypeFlag(*)(::MoleMole::Config::WeatherType))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_CONVERTWEATHERTYPETOFLAG_OFFSET))(weatherType);
+		}
+
+		static ::System::Boolean MatchWeatherFlag(::NPCCrowd::NPCCrowdUtils_CrowdWeatherTypeFlag weatherFlags, ::MoleMole::Config::WeatherType weatherType)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::NPCCrowdUtils_CrowdWeatherTypeFlag, ::MoleMole::Config::WeatherType))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_MATCHWEATHERFLAG_OFFSET))(weatherFlags, weatherType);
+		}
+
+		static ::System::Boolean ApplyCurrentTimePeriodTag(::System::UInt32 entityID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_APPLYCURRENTTIMEPERIODTAG_OFFSET))(entityID);
+		}
+
+		static ::System::Boolean ApplyTimePeriodTag(::Class_3_CCAF4B6A77932E66* tagComponent, ::ProtoScript::TimePeriodType period)
+		{
+			return ((::System::Boolean(*)(::Class_3_CCAF4B6A77932E66*, ::ProtoScript::TimePeriodType))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_APPLYTIMEPERIODTAG_OFFSET))(tagComponent, period);
+		}
+
+		static ::System::Void GetCurrentTimePeriodForTagSync(::ProtoScript::TimePeriodType& period)
+		{
+			return ((::System::Void(*)(::ProtoScript::TimePeriodType&))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_GETCURRENTTIMEPERIODFORTAGSYNC_OFFSET))(period);
+		}
+
+		static ::ProtoScript::TimePeriodType Static_ConvertFrom(::Enum_3_AB9CCA0B2E05A401 gameDayPeriod)
+		{
+			return ((::ProtoScript::TimePeriodType(*)(::Enum_3_AB9CCA0B2E05A401))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDUTILS_STATIC_CONVERTFROM_OFFSET))(gameDayPeriod);
 		}
 	};
 }

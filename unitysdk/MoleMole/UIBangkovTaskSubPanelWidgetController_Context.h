@@ -6,11 +6,11 @@ class Class_1_1710A4EE34865C78;
 namespace MoleMole { class UIBangkovBagPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14EBD7B0)
+#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175B6980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTaskSubPanelWidgetController_Context_TypeDefinitionIndex = 70999;
+	inline static constexpr unsigned int UIBangkovTaskSubPanelWidgetController_Context_TypeDefinitionIndex = 58093;
 
 	class UIBangkovTaskSubPanelWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

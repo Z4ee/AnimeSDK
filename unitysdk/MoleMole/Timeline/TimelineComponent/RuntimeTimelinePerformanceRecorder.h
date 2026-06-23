@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEPERFORMANCERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15868D00)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEPERFORMANCERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16438E50)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int RuntimeTimelinePerformanceRecorder_TypeDefinitionIndex = 69750;
+	inline static constexpr unsigned int RuntimeTimelinePerformanceRecorder_TypeDefinitionIndex = 85187;
 
 	class RuntimeTimelinePerformanceRecorder : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A3D510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3D5D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16CA1F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA2040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPushDisableDynamicTargetValueNode_TypeDefinitionIndex = 42503;
+	inline static constexpr unsigned int LDPushDisableDynamicTargetValueNode_TypeDefinitionIndex = 44632;
 
 	class LDPushDisableDynamicTargetValueNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*>
 	{

@@ -8,21 +8,21 @@ namespace System { class Uri; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_FORMATTERS_URIFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1D1B30)
-#define UTF8JSON_FORMATTERS_URIFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1D1AB0)
-#define UTF8JSON_FORMATTERS_URIFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D1C10)
-#define UTF8JSON_FORMATTERS_URIFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D1C00)
+#define UTF8JSON_FORMATTERS_URIFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E50CC90)
+#define UTF8JSON_FORMATTERS_URIFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E50CC10)
+#define UTF8JSON_FORMATTERS_URIFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E50CD70)
+#define UTF8JSON_FORMATTERS_URIFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E50CD60)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int UriFormatter_TypeDefinitionIndex = 85803;
+	inline static constexpr unsigned int UriFormatter_TypeDefinitionIndex = 91377;
 
 	class UriFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatter_1<::System::Uri*>** StaticGet_Default()
 		{
-			return (::Utf8Json::IJsonFormatter_1<::System::Uri*>**)Il2CppClass::FromTypeDefinitionIndex(UriFormatter_TypeDefinitionIndex)->GetStaticField(0x4A7F0);
+			return (::Utf8Json::IJsonFormatter_1<::System::Uri*>**)Il2CppClass::FromTypeDefinitionIndex(UriFormatter_TypeDefinitionIndex)->GetStaticField(0x4EF40);
 		}
 
 		::System::Void _ctor()

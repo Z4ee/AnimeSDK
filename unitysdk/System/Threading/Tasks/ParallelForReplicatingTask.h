@@ -10,13 +10,13 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Threading::Tasks { class ParallelOptions; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK_CREATEREPLICATASK_OFFSET UNITYSDK_OFFSET(0x1AC5DE80)
-#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK_SHOULDREPLICATE_OFFSET UNITYSDK_OFFSET(0x1AC5DE60)
-#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5DCB0)
+#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK_CREATEREPLICATASK_OFFSET UNITYSDK_OFFSET(0x1D06B830)
+#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK_SHOULDREPLICATE_OFFSET UNITYSDK_OFFSET(0x1D06B810)
+#define SYSTEM_THREADING_TASKS_PARALLELFORREPLICATINGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06B660)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ParallelForReplicatingTask_TypeDefinitionIndex = 909;
+	inline static constexpr unsigned int ParallelForReplicatingTask_TypeDefinitionIndex = 908;
 
 	class ParallelForReplicatingTask : public ::System::Threading::Tasks::Task
 	{

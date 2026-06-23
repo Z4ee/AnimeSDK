@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Object.h"
+
+class Class_3_A2D3A42EB7FD58BA;
+
+#define CLASS_2_03F4D9B3111E6159_CLASS_1_B4EF432C62997465_METHOD_1_74C5C2BA556539F6_OFFSET UNITYSDK_OFFSET(0x130866B0)
+#define CLASS_2_03F4D9B3111E6159_CLASS_1_B4EF432C62997465__CTOR_OFFSET UNITYSDK_OFFSET(0x130866A0)
+
+inline static constexpr unsigned int Class_2_03F4D9B3111E6159_Class_1_B4EF432C62997465_TypeDefinitionIndex = 62048;
+
+class Class_2_03F4D9B3111E6159_Class_1_B4EF432C62997465 : public ::System::Object
+{
+public:
+	::Class_3_A2D3A42EB7FD58BA* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03F4D9B3111E6159_CLASS_1_B4EF432C62997465__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_74C5C2BA556539F6(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Boolean> a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Boolean>))((::PBYTE)hIl2Cpp + CLASS_2_03F4D9B3111E6159_CLASS_1_B4EF432C62997465_METHOD_1_74C5C2BA556539F6_OFFSET))(this, a1);
+	}
+};

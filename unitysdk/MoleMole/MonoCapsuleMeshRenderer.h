@@ -9,17 +9,17 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x17820CD0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17820A10)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_6A042D020D7DEEED_OFFSET UNITYSDK_OFFSET(0x17820EE0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_ADE72E2505ADFFDB_OFFSET UNITYSDK_OFFSET(0x178220A0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET UNITYSDK_OFFSET(0x17821DC0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17821B00)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x17821D70)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x182FEE20)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x182FEB60)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_6A042D020D7DEEED_OFFSET UNITYSDK_OFFSET(0x182FF030)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_ADE72E2505ADFFDB_OFFSET UNITYSDK_OFFSET(0x183001F0)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET UNITYSDK_OFFSET(0x182FFF10)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x182FFC50)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x182FFEC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCapsuleMeshRenderer_TypeDefinitionIndex = 44605;
+	inline static constexpr unsigned int MonoCapsuleMeshRenderer_TypeDefinitionIndex = 42808;
 
 	class MonoCapsuleMeshRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -55,14 +55,14 @@ namespace MoleMole
 			return ((::UnityEngine::Mesh*(*)(::System::Single, ::System::Single, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_6A042D020D7DEEED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Method_5_E2C05663B5DE5BEA(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Int32& a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Single a7, ::System::Single a8, ::System::Boolean a9)
-		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
-		}
-
 		static ::System::Void Method_5_ADE72E2505ADFFDB(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Int32& a4, ::System::Int32 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Boolean a10)
 		{
 			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_ADE72E2505ADFFDB_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+		}
+
+		static ::System::Void Method_5_E2C05663B5DE5BEA(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Int32& a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Single a7, ::System::Single a8, ::System::Boolean a9)
+		{
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 	};
 }

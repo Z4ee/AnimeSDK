@@ -7,34 +7,34 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
-#define PATHCREATION_BEZIERPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6B8490)
-#define PATHCREATION_BEZIERPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B84D0)
-#define PATHCREATION_BEZIERPATH___C___CTOR_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B6B84E0)
-#define PATHCREATION_BEZIERPATH___C___CTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B6B8500)
-#define PATHCREATION_BEZIERPATH___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B6B8550)
+#define PATHCREATION_BEZIERPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DABB510)
+#define PATHCREATION_BEZIERPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB550)
+#define PATHCREATION_BEZIERPATH___C___CTOR_B__20_0_OFFSET UNITYSDK_OFFSET(0x1DABB560)
+#define PATHCREATION_BEZIERPATH___C___CTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1DABB580)
+#define PATHCREATION_BEZIERPATH___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1DABB5D0)
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int BezierPath___c_TypeDefinitionIndex = 35835;
+	inline static constexpr unsigned int BezierPath___c_TypeDefinitionIndex = 37443;
 
 	class BezierPath___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x26F10);
-		}
 		static ::PathCreation::BezierPath___c** StaticGet___9()
 		{
-			return (::PathCreation::BezierPath___c**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x26F18);
+			return (::PathCreation::BezierPath___c**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x28B90);
 		}
-		static ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>** StaticGet___9__22_0()
+		static ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x26F20);
+			return (::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x28B98);
 		}
 		static ::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::Vector3>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x26F28);
+			return (::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x28BA0);
+		}
+		static ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>** StaticGet___9__22_0()
+		{
+			return (::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BezierPath___c_TypeDefinitionIndex)->GetStaticField(0x28BA8);
 		}
 
 		static ::System::Void _cctor()

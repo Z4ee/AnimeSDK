@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ConsoleColor.h"
 #include "unitysdk/System/ConsoleKeyInfo.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class IConsoleDriver; }
 namespace System { class String; }
 
-#define SYSTEM_CONSOLEDRIVER_CREATENULLCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1A7B0DE0)
-#define SYSTEM_CONSOLEDRIVER_CREATETERMINFODRIVER_OFFSET UNITYSDK_OFFSET(0x1A7B0E70)
-#define SYSTEM_CONSOLEDRIVER_CREATEWINDOWSCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1A7B0E20)
-#define SYSTEM_CONSOLEDRIVER_GET_ISCONSOLE_OFFSET UNITYSDK_OFFSET(0x1A7B0CA0)
-#define SYSTEM_CONSOLEDRIVER_INTERNALKEYAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1A7B1280)
-#define SYSTEM_CONSOLEDRIVER_ISATTY_OFFSET UNITYSDK_OFFSET(0x1A7B1260)
-#define SYSTEM_CONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1A7B1010)
-#define SYSTEM_CONSOLEDRIVER_RESETCOLOR_OFFSET UNITYSDK_OFFSET(0x1A7B1150)
-#define SYSTEM_CONSOLEDRIVER_SETECHO_OFFSET UNITYSDK_OFFSET(0x1A7B12A0)
-#define SYSTEM_CONSOLEDRIVER_SET_FOREGROUNDCOLOR_OFFSET UNITYSDK_OFFSET(0x1A7B0EC0)
-#define SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET UNITYSDK_OFFSET(0x1A7B1290)
-#define SYSTEM_CONSOLEDRIVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7B0C50)
+#define SYSTEM_CONSOLEDRIVER_CREATENULLCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1CB11540)
+#define SYSTEM_CONSOLEDRIVER_CREATETERMINFODRIVER_OFFSET UNITYSDK_OFFSET(0x1CB115D0)
+#define SYSTEM_CONSOLEDRIVER_CREATEWINDOWSCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1CB11580)
+#define SYSTEM_CONSOLEDRIVER_GET_ISCONSOLE_OFFSET UNITYSDK_OFFSET(0x1CB11400)
+#define SYSTEM_CONSOLEDRIVER_INTERNALKEYAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1CB11780)
+#define SYSTEM_CONSOLEDRIVER_ISATTY_OFFSET UNITYSDK_OFFSET(0x1CB11760)
+#define SYSTEM_CONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1CB11620)
+#define SYSTEM_CONSOLEDRIVER_SETECHO_OFFSET UNITYSDK_OFFSET(0x1CB117A0)
+#define SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET UNITYSDK_OFFSET(0x1CB11790)
+#define SYSTEM_CONSOLEDRIVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB113B0)
 
 namespace System
 {
@@ -31,11 +28,11 @@ namespace System
 		{
 			return (::System::IConsoleDriver**)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x8D0);
 		}
-		static ::System::Boolean* StaticGet_is_console()
+		static ::System::Boolean* StaticGet_called_isatty()
 		{
 			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x1D0);
 		}
-		static ::System::Boolean* StaticGet_called_isatty()
+		static ::System::Boolean* StaticGet_is_console()
 		{
 			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x1D1);
 		}
@@ -60,19 +57,9 @@ namespace System
 			return ((::System::IConsoleDriver*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_CREATETERMINFODRIVER_OFFSET))(term);
 		}
 
-		static ::System::Void set_ForegroundColor(::System::ConsoleColor value)
-		{
-			return ((::System::Void(*)(::System::ConsoleColor))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_SET_FOREGROUNDCOLOR_OFFSET))(value);
-		}
-
 		static ::System::ConsoleKeyInfo ReadKey(::System::Boolean intercept)
 		{
 			return ((::System::ConsoleKeyInfo(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_READKEY_OFFSET))(intercept);
-		}
-
-		static ::System::Void ResetColor()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_RESETCOLOR_OFFSET))();
 		}
 
 		static ::System::Boolean get_IsConsole()

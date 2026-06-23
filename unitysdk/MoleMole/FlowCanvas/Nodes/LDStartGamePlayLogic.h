@@ -7,21 +7,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16B83BA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC_STARTGAMEPLAYLOGIC_OFFSET UNITYSDK_OFFSET(0x16B83CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x16B84020)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x16B84060)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17E73C00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC_STARTGAMEPLAYLOGIC_OFFSET UNITYSDK_OFFSET(0x17E73D20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x17E74080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTGAMEPLAYLOGIC__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x17E740C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStartGamePlayLogic_TypeDefinitionIndex = 77499;
+	inline static constexpr unsigned int LDStartGamePlayLogic_TypeDefinitionIndex = 69771;
 
 	class LDStartGamePlayLogic : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::GamePlayLogicKind>* gameTypeInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* configInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* configInput; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::GamePlayLogicKind>* gameTypeInput; // 0xB8
 
 		::System::Void _ctor()
 		{

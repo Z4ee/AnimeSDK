@@ -4,17 +4,17 @@
 
 namespace System::Threading { class WaitCallback; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_QUEUEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D7010)
+#define FLUFFYUNDERWARE_DEVTOOLS_QUEUEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69F340)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int QueuedCallback_TypeDefinitionIndex = 25881;
+	inline static constexpr unsigned int QueuedCallback_TypeDefinitionIndex = 28375;
 
 	class QueuedCallback : public ::System::Object
 	{
 	public:
-		::System::Threading::WaitCallback* Callback; // 0x10
-		::System::Object* State; // 0x18
+		::System::Object* State; // 0x10
+		::System::Threading::WaitCallback* Callback; // 0x18
 
 		::System::Void _ctor()
 		{

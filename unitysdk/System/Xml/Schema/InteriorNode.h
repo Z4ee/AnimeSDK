@@ -5,13 +5,13 @@
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1BAC7110)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1BAC72A0)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC7310)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1DE413A0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1DE41530)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE415A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int InteriorNode_TypeDefinitionIndex = 1967;
+	inline static constexpr unsigned int InteriorNode_TypeDefinitionIndex = 1966;
 
 	class InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{

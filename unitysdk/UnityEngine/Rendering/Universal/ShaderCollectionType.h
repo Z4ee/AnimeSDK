@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderCollectionType_TypeDefinitionIndex = 30101;
+	inline static constexpr unsigned int ShaderCollectionType_TypeDefinitionIndex = 27258;
 
 	enum class ShaderCollectionType : ::System::Int32
 	{
-		UI = 0,
 		Character = 1,
-		Scene = 2,
+		UI = 0,
 		Effect = 3,
+		Scene = 2,
 	};
 }

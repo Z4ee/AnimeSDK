@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventureChildWindowController_GameResult_TypeDefinitionIndex = 60021;
+	inline static constexpr unsigned int UIGrandMarcelAdventureChildWindowController_GameResult_TypeDefinitionIndex = 85139;
 
 	enum class UIGrandMarcelAdventureChildWindowController_GameResult : ::System::Int32
 	{

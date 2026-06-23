@@ -13,27 +13,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x127E4740)
-#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x127E44E0)
-#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x127E4830)
-#define CLASS_2_5BA0256FCCEF80F3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x127E4820)
+#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x139223A0)
+#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x13922150)
+#define CLASS_2_5BA0256FCCEF80F3_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13922490)
+#define CLASS_2_5BA0256FCCEF80F3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13922480)
 
-inline static constexpr unsigned int Class_2_5BA0256FCCEF80F3_1_TypeDefinitionIndex = 60169;
+inline static constexpr unsigned int Class_2_5BA0256FCCEF80F3_1_TypeDefinitionIndex = 70600;
 
 class Class_2_5BA0256FCCEF80F3_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
-	::UnityEngine::RectTransform* Field_2_7; // 0x28
-	::UnityEngine::GameObject* Field_2_8; // 0x30
-	::UnityEngine::CanvasGroup* Field_2_5; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x40
-	::UnityEngine::Animation* Field_2_3; // 0x48
-	::UIControllerExtensionData* Field_2_10; // 0x50
-	::UnityEngine::RectTransform* Field_2_2; // 0x58
-	::UnityEngine::RectTransform* Field_2_6; // 0x60
-	::UnityEngine::CanvasGroup* Field_2_4; // 0x68
+	::UnityEngine::CanvasGroup* Field_2_5; // 0x18
+	::UnityEngine::GameObject* Field_2_8; // 0x20
+	::UnityEngine::Animation* Field_2_3; // 0x28
+	::UnityEngine::RectTransform* Field_2_7; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x40
+	::UnityEngine::CanvasGroup* Field_2_4; // 0x48
+	::UnityEngine::RectTransform* Field_2_2; // 0x50
+	::UnityEngine::RectTransform* Field_2_6; // 0x58
+	::UIControllerExtensionData* Field_2_10; // 0x60
+	::UnityEngine::Transform* Field_2_1; // 0x68
 
 	::System::Void _ctor()
 	{

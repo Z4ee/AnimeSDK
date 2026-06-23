@@ -5,20 +5,20 @@
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class IArgumentProvider; }
 
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE06E90)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1AE06DB0)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1AE06DA0)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE06D80)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1D2350D0)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1D234FF0)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1D234FE0)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D234FC0)
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int ListArgumentProvider_TypeDefinitionIndex = 5020;
+	inline static constexpr unsigned int ListArgumentProvider_TypeDefinitionIndex = 5019;
 
 	class ListArgumentProvider : public ::System::Dynamic::Utils::ListProvider_1<::System::Linq::Expressions::Expression*>
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg0; // 0x10
-		::System::Linq::Expressions::IArgumentProvider* _provider; // 0x18
+		::System::Linq::Expressions::IArgumentProvider* _provider; // 0x10
+		::System::Linq::Expressions::Expression* _arg0; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::IArgumentProvider* provider, ::System::Linq::Expressions::Expression* arg0)
 		{

@@ -5,10 +5,10 @@
 
 namespace Code::Logic::Data::ScriptObject::Level { class MoveCoordinate; }
 
-#define CLASS_1_97E025CCCC9B6AAE_METHOD_1_547355FA1C1513DE_OFFSET UNITYSDK_OFFSET(0xD089A90)
-#define CLASS_1_97E025CCCC9B6AAE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0898E0)
+#define CLASS_1_97E025CCCC9B6AAE_METHOD_1_547355FA1C1513DE_OFFSET UNITYSDK_OFFSET(0x140FA2F0)
+#define CLASS_1_97E025CCCC9B6AAE__CTOR_OFFSET UNITYSDK_OFFSET(0x140FA140)
 
-inline static constexpr unsigned int Class_1_97E025CCCC9B6AAE_TypeDefinitionIndex = 53634;
+inline static constexpr unsigned int Class_1_97E025CCCC9B6AAE_TypeDefinitionIndex = 53688;
 
 class Class_1_97E025CCCC9B6AAE : public ::System::Object
 {

@@ -5,11 +5,11 @@
 namespace MoleMole::FlowCanvas::Nodes { class WaveMonsterInfoData; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CUSTOMSETWAVEMONSTERINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11738250)
+#define MOLEMOLE_FLOWCANVAS_NODES_CUSTOMSETWAVEMONSTERINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x158092C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomSetWaveMonsterInfoNode_TypeDefinitionIndex = 60354;
+	inline static constexpr unsigned int CustomSetWaveMonsterInfoNode_TypeDefinitionIndex = 52285;
 
 	class CustomSetWaveMonsterInfoNode : public ::MoleMole::FlowCanvas::Nodes::CustomSetVariableNode_2<::MoleMole::FlowCanvas::Nodes::WaveMonsterInfoData*, ::System::String*>
 	{

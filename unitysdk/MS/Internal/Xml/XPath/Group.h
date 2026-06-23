@@ -4,13 +4,13 @@
 #include "unitysdk/MS/Internal/Xml/XPath/AstNode_AstType.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_GROUP_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1B58DA20)
-#define MS_INTERNAL_XML_XPATH_GROUP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B58DA10)
-#define MS_INTERNAL_XML_XPATH_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58DA00)
+#define MS_INTERNAL_XML_XPATH_GROUP_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1D9310A0)
+#define MS_INTERNAL_XML_XPATH_GROUP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D931090)
+#define MS_INTERNAL_XML_XPATH_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D931080)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Group_TypeDefinitionIndex = 1645;
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 1644;
 
 	class Group : public ::MS::Internal::Xml::XPath::AstNode
 	{

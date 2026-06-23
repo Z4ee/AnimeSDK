@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HTTPDNSBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA50430)
+#define MIHOYO_SDK_HTTPDNSBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9614B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HttpDnsBoxConfig_TypeDefinitionIndex = 18784;
+	inline static constexpr unsigned int HttpDnsBoxConfig_TypeDefinitionIndex = 19680;
 
 	class HttpDnsBoxConfig : public ::System::Object
 	{

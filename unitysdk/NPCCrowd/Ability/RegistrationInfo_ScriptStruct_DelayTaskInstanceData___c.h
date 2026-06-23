@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB548C0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFB54900)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xFB54910)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC9DA0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC9DE0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xEBC9DF0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c_TypeDefinitionIndex = 54757;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c_TypeDefinitionIndex = 61667;
 
 	class RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x38650);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DelayTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3AA00);
 		}
 
 		static ::System::Void _cctor()

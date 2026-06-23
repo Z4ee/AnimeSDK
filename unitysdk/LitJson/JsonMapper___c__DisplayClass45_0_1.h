@@ -7,7 +7,7 @@ namespace LitJson { template <typename T> class ExporterFunc_1; }
 
 namespace LitJson
 {
-	inline static constexpr unsigned int JsonMapper___c__DisplayClass45_0_1_TypeDefinitionIndex = 8010;
+	inline static constexpr unsigned int JsonMapper___c__DisplayClass45_0_1_TypeDefinitionIndex = 8326;
 
 	template <typename T>
 	class JsonMapper___c__DisplayClass45_0_1 : public ::System::Object

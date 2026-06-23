@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int CipherSuiteCode_TypeDefinitionIndex = 2433;
+	inline static constexpr unsigned int CipherSuiteCode_TypeDefinitionIndex = 2432;
 
 	enum class CipherSuiteCode : ::System::UInt16
 	{

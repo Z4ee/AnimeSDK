@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SECTR_SECTR_STREAMERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1703D360)
+#define MOLEMOLE_SECTR_SECTR_STREAMERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF8820)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_StreamerRoot_TypeDefinitionIndex = 38701;
+	inline static constexpr unsigned int SECTR_StreamerRoot_TypeDefinitionIndex = 46349;
 
 	class SECTR_StreamerRoot : public ::UnityEngine::MonoBehaviour
 	{

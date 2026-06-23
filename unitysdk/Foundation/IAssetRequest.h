@@ -12,7 +12,7 @@ namespace UnityEngine { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IAssetRequest_TypeDefinitionIndex = 8070;
+	inline static constexpr unsigned int IAssetRequest_TypeDefinitionIndex = 8200;
 
 	class IAssetRequest
 	{

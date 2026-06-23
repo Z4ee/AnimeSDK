@@ -4,11 +4,11 @@
 #include "unitysdk/NPCCrowd/Animation/MontageTickLayerData.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_MONTAGETICKLAYERDATAEXTENSIONS_GETLAYERMONTAGEDATAREF_OFFSET UNITYSDK_OFFSET(0xF858B20)
+#define NPCCROWD_ANIMATION_MONTAGETICKLAYERDATAEXTENSIONS_GETLAYERMONTAGEDATAREF_OFFSET UNITYSDK_OFFSET(0xE8C27E0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTickLayerDataExtensions_TypeDefinitionIndex = 54324;
+	inline static constexpr unsigned int MontageTickLayerDataExtensions_TypeDefinitionIndex = 77289;
 
 	class MontageTickLayerDataExtensions : public ::System::Object
 	{

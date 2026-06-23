@@ -7,12 +7,12 @@
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_REMAPPER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1AF303B0)
-#define NODECANVAS_BEHAVIOURTREES_REMAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF30500)
+#define NODECANVAS_BEHAVIOURTREES_REMAPPER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D356780)
+#define NODECANVAS_BEHAVIOURTREES_REMAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3568D0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Remapper_TypeDefinitionIndex = 27407;
+	inline static constexpr unsigned int Remapper_TypeDefinitionIndex = 30692;
 
 	class Remapper : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{

@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGESHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x153E1480)
+#define MOLEMOLE_CONFIGUIMAINPAGESHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x161B03D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageShowSetting_TypeDefinitionIndex = 53867;
+	inline static constexpr unsigned int ConfigUIMainPageShowSetting_TypeDefinitionIndex = 66568;
 
 	class ConfigUIMainPageShowSetting : public ::System::Object
 	{
 	public:
-		::System::String* TimelinePrefabPath; // 0x10
-		::System::String* AnimatorControllerPath; // 0x18
-		::System::String* AnimationClipPath; // 0x20
-		::System::String* MainPagePrefabPath; // 0x28
-		::MoleMole::ConfigUIMainPageShowSetting_PerformType CameraPerformType; // 0x30
-		::UnityEngine::Vector2 CameraClippingPlanes; // 0x34
+		::System::String* AnimatorControllerPath; // 0x10
+		::System::String* MainPagePrefabPath; // 0x18
+		::System::String* TimelinePrefabPath; // 0x20
+		::System::String* AnimationClipPath; // 0x28
+		::UnityEngine::Vector2 CameraClippingPlanes; // 0x30
+		::MoleMole::ConfigUIMainPageShowSetting_PerformType CameraPerformType; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 #include "unitysdk/MoleMole/Config/CameraDelayMoveMode.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CAMERAS_DELAYBLENDERSETTINGS_GETBLENDCURVE_OFFSET UNITYSDK_OFFSET(0x122DEB20)
-#define MOLEMOLE_CAMERAS_DELAYBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x122DECD0)
+#define MOLEMOLE_CAMERAS_DELAYBLENDERSETTINGS_GETBLENDCURVE_OFFSET UNITYSDK_OFFSET(0x17D26DA0)
+#define MOLEMOLE_CAMERAS_DELAYBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17D26F50)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int DelayBlenderSettings_TypeDefinitionIndex = 72042;
+	inline static constexpr unsigned int DelayBlenderSettings_TypeDefinitionIndex = 45034;
 
 	class DelayBlenderSettings : public ::System::Object
 	{

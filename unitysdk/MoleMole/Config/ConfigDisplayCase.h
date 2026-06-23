@@ -15,12 +15,12 @@ namespace MoleMole::Config { class ScopedFrontCameraControlConfigInput; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE_TRYGETCFG_OFFSET UNITYSDK_OFFSET(0x17D1F4F0)
-#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D1F6D0)
+#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE_TRYGETCFG_OFFSET UNITYSDK_OFFSET(0x1A064410)
+#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0645F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDisplayCase_TypeDefinitionIndex = 40772;
+	inline static constexpr unsigned int ConfigDisplayCase_TypeDefinitionIndex = 56741;
 
 	class ConfigDisplayCase : public ::Foundation::MihoyoSerializedScriptableObject
 	{

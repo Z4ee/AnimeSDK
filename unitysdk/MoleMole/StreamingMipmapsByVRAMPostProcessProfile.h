@@ -4,22 +4,22 @@
 
 class Class_1_BCCD4DFEA016B7F9;
 
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x10BEB200)
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BEB270)
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x10BEB280)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x17389200)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17389270)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x17389280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StreamingMipmapsByVRAMPostProcessProfile_TypeDefinitionIndex = 40107;
+	inline static constexpr unsigned int StreamingMipmapsByVRAMPostProcessProfile_TypeDefinitionIndex = 84595;
 
 	class StreamingMipmapsByVRAMPostProcessProfile : public ::MoleMole::PerformanceSettingPostProcessProfileBase
 	{
 	public:
-		::System::Boolean StreamingMipmapsActive; // 0x10
-		::System::Boolean ApplyStreamingTextureMaster; // 0x11
+		::System::Single VRAMThreshold; // 0x10
 		::System::Single StreamingBudget; // 0x14
-		::System::Int32 StreamingTextureMaster; // 0x18
-		::System::Single VRAMThreshold; // 0x1C
+		::System::Boolean ApplyStreamingTextureMaster; // 0x18
+		::System::Boolean StreamingMipmapsActive; // 0x19
+		::System::Int32 StreamingTextureMaster; // 0x1C
 
 		::System::Void _ctor()
 		{

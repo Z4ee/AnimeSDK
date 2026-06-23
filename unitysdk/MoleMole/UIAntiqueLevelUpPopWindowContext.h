@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_282;
+class Class_2_208CC9941471731A_888;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x15B90610)
-#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_PARAMSISVALID_OFFSET UNITYSDK_OFFSET(0x15B90570)
-#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x15B90620)
-#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B90630)
+#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x17E30020)
+#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_PARAMSISVALID_OFFSET UNITYSDK_OFFSET(0x17E2FF80)
+#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x17E30030)
+#define MOLEMOLE_UIANTIQUELEVELUPPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E30040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAntiqueLevelUpPopWindowContext_TypeDefinitionIndex = 68960;
+	inline static constexpr unsigned int UIAntiqueLevelUpPopWindowContext_TypeDefinitionIndex = 46582;
 
 	class UIAntiqueLevelUpPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_282* Config; // 0x28
-		::System::Action* _OnClose_k__BackingField; // 0x30
-		::System::Int32 NewLevel; // 0x38
+		::System::Action* _OnClose_k__BackingField; // 0x28
+		::Class_2_208CC9941471731A_888* Config; // 0x30
+		::System::Int32 LastExp; // 0x38
 		::System::Int32 LastLevel; // 0x3C
 		::System::Int32 NewExp; // 0x40
-		::System::Int32 LastExp; // 0x44
+		::System::Int32 NewLevel; // 0x44
 
 		::System::Void _ctor()
 		{

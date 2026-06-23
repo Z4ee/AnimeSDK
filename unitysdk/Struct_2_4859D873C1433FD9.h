@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-inline static constexpr unsigned int Struct_2_4859D873C1433FD9_TypeDefinitionIndex = 70749;
+inline static constexpr unsigned int Struct_2_4859D873C1433FD9_TypeDefinitionIndex = 82768;
 
 struct alignas(8) Struct_2_4859D873C1433FD9
 {

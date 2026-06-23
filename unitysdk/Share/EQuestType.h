@@ -3,18 +3,18 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EQuestType_TypeDefinitionIndex = 16753;
+	inline static constexpr unsigned int EQuestType_TypeDefinitionIndex = 12938;
 
 	enum class EQuestType : ::System::Int16
 	{
-		DungeonInner = 2,
-		MainCity = 5,
-		Knowledge = 8,
 		Manual = 4,
-		Daily = 9,
 		HollowChallenge = 6,
+		Knowledge = 8,
+		ArchiveFile = 1,
+		MainCity = 5,
+		DungeonInner = 2,
 		ArchiveBattle = 7,
 		Hollow = 3,
-		ArchiveFile = 1,
+		Daily = 9,
 	};
 }

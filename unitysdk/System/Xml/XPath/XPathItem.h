@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 
-#define SYSTEM_XML_XPATH_XPATHITEM_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1AFFFB80)
-#define SYSTEM_XML_XPATH_XPATHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFFBA0)
+#define SYSTEM_XML_XPATH_XPATHITEM_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1D476520)
+#define SYSTEM_XML_XPATH_XPATHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D476540)
 
 namespace System::Xml::XPath
 {
-	inline static constexpr unsigned int XPathItem_TypeDefinitionIndex = 1847;
+	inline static constexpr unsigned int XPathItem_TypeDefinitionIndex = 1846;
 
 	class XPathItem : public ::System::Object
 	{

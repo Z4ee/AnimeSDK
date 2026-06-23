@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphNode_ReferenceFormatter_1_TypeDefinitionIndex = 27609;
+	inline static constexpr unsigned int GraphNode_ReferenceFormatter_1_TypeDefinitionIndex = 29780;
 
 	template <typename T>
 	class GraphNode_ReferenceFormatter_1 : public ::System::Object

@@ -10,28 +10,28 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_GETDISTANCE_GETTARGET1POS_OFFSET UNITYSDK_OFFSET(0x10E1CCC0)
-#define MOLEMOLE_GETDISTANCE_GETTARGET2POS_OFFSET UNITYSDK_OFFSET(0x10E1E0C0)
-#define MOLEMOLE_GETDISTANCE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x10E1CDE0)
-#define MOLEMOLE_GETDISTANCE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E1CB70)
-#define MOLEMOLE_GETDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E1E1E0)
-#define MOLEMOLE_GETDISTANCE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E1E280)
+#define MOLEMOLE_GETDISTANCE_GETTARGET1POS_OFFSET UNITYSDK_OFFSET(0x18B346A0)
+#define MOLEMOLE_GETDISTANCE_GETTARGET2POS_OFFSET UNITYSDK_OFFSET(0x18B35AA0)
+#define MOLEMOLE_GETDISTANCE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x18B347C0)
+#define MOLEMOLE_GETDISTANCE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B34550)
+#define MOLEMOLE_GETDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B35BB0)
+#define MOLEMOLE_GETDISTANCE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B35C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetDistance_TypeDefinitionIndex = 51127;
+	inline static constexpr unsigned int GetDistance_TypeDefinitionIndex = 49864;
 
 	class GetDistance : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName1; // 0x58
+		::System::String* TargetTypeCustomKey1; // 0x58
 		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName2; // 0x60
 		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x68
-		::System::String* TargetTypeCustomKey1; // 0x70
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
-		::System::String* Target1AttachPoint; // 0x80
+		::System::String* Target1AttachPoint; // 0x70
+		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName1; // 0x78
+		::System::String* Target2AttachPoint; // 0x80
 		::System::String* TargetTypeCustomKey2; // 0x88
-		::System::String* Target2AttachPoint; // 0x90
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x90
 		::MoleMole::AIMoveTargetType TargetType2; // 0x98
 		::MoleMole::AIMoveTargetType TargetType1; // 0x9C
 

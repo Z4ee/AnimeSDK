@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUIBtnScaleAnim_AnimState_TypeDefinitionIndex = 38898;
+inline static constexpr unsigned int MonoUIBtnScaleAnim_AnimState_TypeDefinitionIndex = 45672;
 
 enum class MonoUIBtnScaleAnim_AnimState : ::System::Int32
 {

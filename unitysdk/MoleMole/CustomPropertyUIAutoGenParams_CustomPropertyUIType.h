@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CustomPropertyUIAutoGenParams_CustomPropertyUIType_TypeDefinitionIndex = 61153;
+	inline static constexpr unsigned int CustomPropertyUIAutoGenParams_CustomPropertyUIType_TypeDefinitionIndex = 43528;
 
 	enum class CustomPropertyUIAutoGenParams_CustomPropertyUIType : ::System::Int32
 	{

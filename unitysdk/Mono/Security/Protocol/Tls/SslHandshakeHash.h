@@ -4,28 +4,28 @@
 
 namespace System::Security::Cryptography { class RSA; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_CREATESIGNATURE_OFFSET UNITYSDK_OFFSET(0x1BDA3A50)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1BDA39D0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1BDA3600)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_INITIALIZEPAD_OFFSET UNITYSDK_OFFSET(0x1BDA3480)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BDA3430)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_VERIFYSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1BDA3B70)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA3350)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_CREATESIGNATURE_OFFSET UNITYSDK_OFFSET(0x1E0EB9E0)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1E0EB960)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1E0EB590)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_INITIALIZEPAD_OFFSET UNITYSDK_OFFSET(0x1E0EB410)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E0EB3C0)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH_VERIFYSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1E0EBB00)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLHANDSHAKEHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0EB2E0)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int SslHandshakeHash_TypeDefinitionIndex = 2381;
+	inline static constexpr unsigned int SslHandshakeHash_TypeDefinitionIndex = 2380;
 
 	class SslHandshakeHash : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:
 		::System::Security::Cryptography::HashAlgorithm* md5; // 0x28
-		::Il2CppArray<::System::Byte>* outerPadMD5; // 0x30
-		::System::Security::Cryptography::HashAlgorithm* sha; // 0x38
-		::Il2CppArray<::System::Byte>* innerPadMD5; // 0x40
-		::Il2CppArray<::System::Byte>* secret; // 0x48
-		::Il2CppArray<::System::Byte>* innerPadSHA; // 0x50
-		::Il2CppArray<::System::Byte>* outerPadSHA; // 0x58
+		::Il2CppArray<::System::Byte>* outerPadSHA; // 0x30
+		::Il2CppArray<::System::Byte>* secret; // 0x38
+		::Il2CppArray<::System::Byte>* outerPadMD5; // 0x40
+		::Il2CppArray<::System::Byte>* innerPadSHA; // 0x48
+		::Il2CppArray<::System::Byte>* innerPadMD5; // 0x50
+		::System::Security::Cryptography::HashAlgorithm* sha; // 0x58
 		::System::Boolean hashing; // 0x60
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* secret)

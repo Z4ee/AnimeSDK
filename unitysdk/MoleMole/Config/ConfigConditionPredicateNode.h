@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/ConfigConditionPredicate.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-#define MOLEMOLE_CONFIG_CONFIGCONDITIONPREDICATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x139A0BA0)
+#define MOLEMOLE_CONFIG_CONFIGCONDITIONPREDICATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162A8D90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigConditionPredicateNode_TypeDefinitionIndex = 56482;
+	inline static constexpr unsigned int ConfigConditionPredicateNode_TypeDefinitionIndex = 70167;
 
 	class ConfigConditionPredicateNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

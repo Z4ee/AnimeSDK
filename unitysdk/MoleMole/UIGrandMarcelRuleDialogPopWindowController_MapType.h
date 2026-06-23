@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelRuleDialogPopWindowController_MapType_TypeDefinitionIndex = 45364;
+	inline static constexpr unsigned int UIGrandMarcelRuleDialogPopWindowController_MapType_TypeDefinitionIndex = 51756;
 
 	enum class UIGrandMarcelRuleDialogPopWindowController_MapType : ::System::Int32
 	{
-		Race = 1,
 		Survive = 2,
+		Race = 1,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions_Types_CType_TypeDefinitionIndex = 26035;
+	inline static constexpr unsigned int FieldOptions_Types_CType_TypeDefinitionIndex = 28529;
 
 	enum class FieldOptions_Types_CType : ::System::Int32
 	{

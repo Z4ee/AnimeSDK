@@ -3,7 +3,7 @@
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_CharKind_TypeDefinitionIndex = 2267;
+	inline static constexpr unsigned int MiniParser_CharKind_TypeDefinitionIndex = 2266;
 
 	enum class MiniParser_CharKind : ::System::Byte
 	{

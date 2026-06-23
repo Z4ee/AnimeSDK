@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMapGridPluginType_TypeDefinitionIndex = 11204;
+	inline static constexpr unsigned int EMapGridPluginType_TypeDefinitionIndex = 9694;
 
 	enum class EMapGridPluginType : ::System::Int16
 	{
-		RebuildStartEnd = 2,
-		MainPathBendControl = 1,
 		SetPathLayer = 3,
+		MainPathBendControl = 1,
+		RebuildStartEnd = 2,
 		None = 0,
 	};
 }

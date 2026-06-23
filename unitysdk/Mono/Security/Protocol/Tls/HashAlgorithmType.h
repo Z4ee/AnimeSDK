@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 2360;
+	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 2359;
 
 	enum class HashAlgorithmType : ::System::Int32
 	{

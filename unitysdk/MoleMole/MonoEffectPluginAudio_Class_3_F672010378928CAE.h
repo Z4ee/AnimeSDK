@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10E2CCA0)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10E2CCB0)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_WRITE_OFFSET UNITYSDK_OFFSET(0x10E2D010)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E2D260)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2D220)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14190540)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14190550)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE_WRITE_OFFSET UNITYSDK_OFFSET(0x141908B0)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE__CCTOR_OFFSET UNITYSDK_OFFSET(0x14190B00)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_CLASS_3_F672010378928CAE__CTOR_OFFSET UNITYSDK_OFFSET(0x14190AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAudio_Class_3_F672010378928CAE_TypeDefinitionIndex = 43238;
+	inline static constexpr unsigned int MonoEffectPluginAudio_Class_3_F672010378928CAE_TypeDefinitionIndex = 52950;
 
 	class MonoEffectPluginAudio_Class_3_F672010378928CAE : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoEffectPluginAudio*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_Field_3_0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAudio_Class_3_F672010378928CAE_TypeDefinitionIndex)->GetStaticField(0x379E0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAudio_Class_3_F672010378928CAE_TypeDefinitionIndex)->GetStaticField(0x485E0);
 		}
 
 		::System::Void _ctor()

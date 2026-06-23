@@ -8,24 +8,24 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C069630)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ADDMETHOD_OFFSET UNITYSDK_OFFSET(0x1C069610)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1C069690)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C069620)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0696E0)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C0696F0)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C069760)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C069600)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E3865A0)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ADDMETHOD_OFFSET UNITYSDK_OFFSET(0x1E386580)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E386600)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E386590)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E386650)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E386660)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E3866D0)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E386570)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ElementInit_TypeDefinitionIndex = 4471;
+	inline static constexpr unsigned int ElementInit_TypeDefinitionIndex = 4470;
 
 	class ElementInit : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodInfo* _AddMethod_k__BackingField; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _Arguments_k__BackingField; // 0x18
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _Arguments_k__BackingField; // 0x10
+		::System::Reflection::MethodInfo* _AddMethod_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* addMethod, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* arguments)
 		{

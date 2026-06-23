@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_B4378B46E0020E85;
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context; }
+namespace UnityEngine { class RectTransform; }
+template <typename T> class Class_0_16E4307DCC419505_153;
+template <typename T> class Class_0_16E4307DCC419505_165;
+
+#define CLASS_2_08A7423078CC29B6_METHOD_2_076188C050222996_OFFSET UNITYSDK_OFFSET(0x190C8020)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_2654A357D4E39BC5_OFFSET UNITYSDK_OFFSET(0x190C86B0)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x190C8170)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_3B0CDFE8E0767EA7_OFFSET UNITYSDK_OFFSET(0x190C8600)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_775B6D644F07B554_OFFSET UNITYSDK_OFFSET(0x190C8310)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_8069B3407960BECD_OFFSET UNITYSDK_OFFSET(0x190C85F0)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_9809C99861C91775_OFFSET UNITYSDK_OFFSET(0x190C86C0)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_B06FF734335A6866_OFFSET UNITYSDK_OFFSET(0x190C86A0)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x190C8610)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x190C8550)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_E4D7F9F7D9AA200A_OFFSET UNITYSDK_OFFSET(0x190C8540)
+#define CLASS_2_08A7423078CC29B6_METHOD_2_EE316F8D07DCD948_OFFSET UNITYSDK_OFFSET(0x190C85E0)
+#define CLASS_2_08A7423078CC29B6__CTOR_OFFSET UNITYSDK_OFFSET(0x190C84F0)
+
+inline static constexpr unsigned int Class_2_08A7423078CC29B6_TypeDefinitionIndex = 78210;
+
+class Class_2_08A7423078CC29B6 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC419505_153<::MoleMole::EntityHandle>* Field_2_3; // 0x50
+	::UnityEngine::RectTransform* Field_2_1; // 0x58
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x60
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context*>* Field_2_2; // 0x68
+	::Class_0_16E4307DCC419505_153<::System::Boolean>* Field_2_4; // 0x70
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_076188C050222996(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_076188C050222996_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_775B6D644F07B554()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_775B6D644F07B554_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E4D7F9F7D9AA200A(::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_E4D7F9F7D9AA200A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_EE316F8D07DCD948(::Class_0_16E4307DCC419505_153<::System::Boolean>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_153<::System::Boolean>*))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_EE316F8D07DCD948_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context*>* Method_2_8069B3407960BECD()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_8069B3407960BECD_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_153<::MoleMole::EntityHandle>* Method_2_3B0CDFE8E0767EA7()
+	{
+		return ((::Class_0_16E4307DCC419505_153<::MoleMole::EntityHandle>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_3B0CDFE8E0767EA7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B06FF734335A6866(::Class_0_16E4307DCC419505_153<::MoleMole::EntityHandle>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_153<::MoleMole::EntityHandle>*))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_B06FF734335A6866_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_153<::System::Boolean>* Method_2_2654A357D4E39BC5()
+	{
+		return ((::Class_0_16E4307DCC419505_153<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_2654A357D4E39BC5_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_9809C99861C91775()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_08A7423078CC29B6_METHOD_2_9809C99861C91775_OFFSET))(this);
+	}
+};

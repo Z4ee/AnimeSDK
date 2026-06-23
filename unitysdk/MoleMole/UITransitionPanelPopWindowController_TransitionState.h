@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITransitionPanelPopWindowController_TransitionState_TypeDefinitionIndex = 70323;
+	inline static constexpr unsigned int UITransitionPanelPopWindowController_TransitionState_TypeDefinitionIndex = 51418;
 
 	enum class UITransitionPanelPopWindowController_TransitionState : ::System::Int32
 	{

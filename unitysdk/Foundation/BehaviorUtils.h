@@ -11,7 +11,7 @@ namespace Foundation { template <typename T> class KeyBasedBehaviorManager_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BehaviorUtils_TypeDefinitionIndex = 9077;
+	inline static constexpr unsigned int BehaviorUtils_TypeDefinitionIndex = 8715;
 
 	class BehaviorUtils : public ::System::Object
 	{

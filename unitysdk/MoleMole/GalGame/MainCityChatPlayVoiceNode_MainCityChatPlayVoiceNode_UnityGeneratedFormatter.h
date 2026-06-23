@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x15427C00)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15427C10)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15427EB0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x154280A0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15428060)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x161F2FE0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x161F2FF0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x161F3290)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x161F3480)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x161F3440)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex = 65689;
+	inline static constexpr unsigned int MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex = 48121;
 
 	class MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatPlayVoiceNode*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BC0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BC8);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37680);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BD0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37688);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37690);
 		}
 
 		::System::Void _ctor()

@@ -17,9 +17,9 @@ class SequencePlay;
 class SingleScreen;
 class TV_Wall;
 
-#define MAINCITYOBJECTSTATE_SCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDB833C0)
+#define MAINCITYOBJECTSTATE_SCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x106A9AC0)
 
-inline static constexpr unsigned int MainCityObjectState_ScriptConfig_TypeDefinitionIndex = 48867;
+inline static constexpr unsigned int MainCityObjectState_ScriptConfig_TypeDefinitionIndex = 41252;
 
 class MainCityObjectState_ScriptConfig : public ::System::Object
 {

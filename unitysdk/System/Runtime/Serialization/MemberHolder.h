@@ -6,20 +6,20 @@
 namespace System { class Type; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AC589F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AC589B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC589A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D0663A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D066360)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D066350)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int MemberHolder_TypeDefinitionIndex = 1147;
+	inline static constexpr unsigned int MemberHolder_TypeDefinitionIndex = 1146;
 
 	class MemberHolder : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::StreamingContext context; // 0x10
-		::System::Type* memberType; // 0x20
-		::Il2CppArray<::System::Reflection::MemberInfo*>* members; // 0x28
+		::Il2CppArray<::System::Reflection::MemberInfo*>* members; // 0x10
+		::System::Runtime::Serialization::StreamingContext context; // 0x18
+		::System::Type* memberType; // 0x28
 
 		::System::Void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx)
 		{

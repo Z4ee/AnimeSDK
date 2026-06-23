@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ENPCAvatarExtAttachedItem_TypeDefinitionIndex = 71362;
+inline static constexpr unsigned int ENPCAvatarExtAttachedItem_TypeDefinitionIndex = 73749;
 
 enum class ENPCAvatarExtAttachedItem : ::System::Int32
 {

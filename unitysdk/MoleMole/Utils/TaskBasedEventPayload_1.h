@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int TaskBasedEventPayload_1_TypeDefinitionIndex = 72819;
+	inline static constexpr unsigned int TaskBasedEventPayload_1_TypeDefinitionIndex = 52400;
 
 	template <typename T>
 	class TaskBasedEventPayload_1 : public ::System::Object

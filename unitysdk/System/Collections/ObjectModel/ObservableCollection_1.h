@@ -16,7 +16,7 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int ObservableCollection_1_TypeDefinitionIndex = 3940;
+	inline static constexpr unsigned int ObservableCollection_1_TypeDefinitionIndex = 3939;
 
 	template <typename T>
 	class ObservableCollection_1 : public ::System::Collections::ObjectModel::Collection_1<T>

@@ -4,7 +4,7 @@
 #include "unitysdk/Unity/Collections/NativeArrayOptions.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-inline static constexpr unsigned int Class_1_5A101950313A38F2_TypeDefinitionIndex = 44044;
+inline static constexpr unsigned int Class_1_5A101950313A38F2_TypeDefinitionIndex = 86614;
 
 template <typename T>
 class Class_1_5A101950313A38F2 : public ::System::Object

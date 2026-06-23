@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int ModifyMaterialProperty_ModifyPropertyValue_1_TypeDefinitionIndex = 46674;
+inline static constexpr unsigned int ModifyMaterialProperty_ModifyPropertyValue_1_TypeDefinitionIndex = 61238;
 
 template <typename T>
 class ModifyMaterialProperty_ModifyPropertyValue_1 : public ::System::Object

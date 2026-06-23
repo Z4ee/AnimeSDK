@@ -13,34 +13,34 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17457600)
-#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17457610)
-#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17457B60)
-#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17457EC0)
-#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17457E80)
+#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17056510)
+#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17056520)
+#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17056A70)
+#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17056DD0)
+#define MOLEMOLE_CONFIG_CONFIGUITRIDICEORACLE_CONFIGUITRIDICEORACLE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17056D90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex = 45844;
+	inline static constexpr unsigned int ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex = 73585;
 
 	class ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigUITriDiceOracle*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigTriDiceAnimationCurveGroup*>*>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TriDiceLuckPerformType, ::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigTriDiceAnimationCurveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34870);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34878);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TriDiceLuckPerformType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37330);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34880);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37338);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TriDiceLuckPerformType, ::System::String*>*>** StaticGet_CachedSerializer1()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigTriDiceAnimationCurveGroup*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TriDiceLuckPerformType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34888);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigTriDiceAnimationCurveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37340);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUITriDiceOracle_ConfigUITriDiceOracle_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37348);
 		}
 
 		::System::Void _ctor()

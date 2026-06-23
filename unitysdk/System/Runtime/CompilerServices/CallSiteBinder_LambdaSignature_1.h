@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { template <typename T> class CallSi
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallSiteBinder_LambdaSignature_1_TypeDefinitionIndex = 4956;
+	inline static constexpr unsigned int CallSiteBinder_LambdaSignature_1_TypeDefinitionIndex = 4955;
 
 	template <typename T>
 	class CallSiteBinder_LambdaSignature_1 : public ::System::Object

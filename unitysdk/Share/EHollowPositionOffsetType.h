@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowPositionOffsetType_TypeDefinitionIndex = 16531;
+	inline static constexpr unsigned int EHollowPositionOffsetType_TypeDefinitionIndex = 15458;
 
 	enum class EHollowPositionOffsetType : ::System::Int16
 	{
-		Absolute = 1,
-		Relative = 0,
 		EnumCount = 3,
+		Absolute = 1,
 		EventPos = 2,
+		Relative = 0,
 	};
 }

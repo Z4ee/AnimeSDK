@@ -4,7 +4,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobThreadDelegate_TypeDefinitionIndex = 5070;
+	inline static constexpr unsigned int JobThreadDelegate_TypeDefinitionIndex = 5069;
 
 	struct alignas(8) JobThreadDelegate
 	{

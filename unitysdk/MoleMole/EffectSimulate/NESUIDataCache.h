@@ -6,17 +6,15 @@ namespace Coffee::UIExtensions { class UIParticle; }
 namespace Coffee::UIExtensions { class UIParticleRenderer; }
 namespace Coffee::UIExtensions { class UIParticleRendererDataIniter; }
 namespace UnityEngine { class CanvasRenderer; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_96D58F367387B136_OFFSET UNITYSDK_OFFSET(0x153EB7D0)
-#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x153EBDA0)
+#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x161B63C0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 39641;
+	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 45912;
 
 	class NESUIDataCache : public ::MoleMole::EffectSimulate::NESDataCacheBase
 	{
@@ -32,11 +30,6 @@ namespace MoleMole::EffectSimulate
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET))(this);
-		}
-
-		::System::Void Method_2_96D58F367387B136(::UnityEngine::GameObject* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_96D58F367387B136_OFFSET))(this, a1);
 		}
 	};
 }

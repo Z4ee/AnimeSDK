@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int BufferType_TypeDefinitionIndex = 3305;
+	inline static constexpr unsigned int BufferType_TypeDefinitionIndex = 3304;
 
 	enum class BufferType : ::System::Int32
 	{

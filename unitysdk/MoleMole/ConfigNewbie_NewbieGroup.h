@@ -6,12 +6,12 @@ namespace MoleMole { class ConfigNewbie_NewbieStep; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIEGROUP_ISMATCH_OFFSET UNITYSDK_OFFSET(0x16AB9720)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB9800)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIEGROUP_ISMATCH_OFFSET UNITYSDK_OFFSET(0x158D4D80)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x158D4E60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieGroup_TypeDefinitionIndex = 56131;
+	inline static constexpr unsigned int ConfigNewbie_NewbieGroup_TypeDefinitionIndex = 49750;
 
 	class ConfigNewbie_NewbieGroup : public ::System::Object
 	{

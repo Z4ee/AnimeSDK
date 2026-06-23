@@ -11,11 +11,11 @@ namespace MoleMole::Config { class Map3DFontItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x142531B0)
+#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10D11DA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 59558;
+	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 40765;
 
 	class Map3DVisualConfigItem : public ::System::Object
 	{
@@ -27,18 +27,23 @@ namespace MoleMole::Config
 		::UnityEngine::Vector4 circleOffset; // 0x28
 		::System::Collections::Generic::List_1<::Map3DColorBoxItem*>* m_ColorBoxItems; // 0x38
 		::System::Collections::Generic::List_1<::MoleMole::Config::Map3DFontItem*>* m_FontItems; // 0x40
-		::System::Boolean overrideGroundPosition; // 0x48
-		::System::Single groundOffset; // 0x4C
-		::System::Single layerClipYOffset; // 0x50
-		::UnityEngine::Vector3 lightEulerAngle; // 0x54
-		::UnityEngine::Vector4 cascadeShadowSplitValue; // 0x60
-		::UnityEngine::Vector4 outlineWithInnerMaxMinOuterMaxMin; // 0x70
-		::System::Boolean disablePostOutline; // 0x80
-		::UnityEngine::Color outlineColor; // 0x84
-		::System::Single outlineWidth; // 0x94
-		::System::Boolean enableFarOutlineFix; // 0x98
-		::System::Boolean characterArrayDisableOcclusionHighLight; // 0x99
-		::System::Single characterOcclusionDitherAlpha; // 0x9C
+		::System::Single groundRotate; // 0x48
+		::UnityEngine::Vector2 groundXZOffset; // 0x4C
+		::System::Boolean fontRotateWithGround; // 0x54
+		::UnityEngine::Vector2 fontXZOffset; // 0x58
+		::System::Single fontSelfRotateAngle; // 0x60
+		::System::Boolean overrideGroundPosition; // 0x64
+		::System::Single groundOffset; // 0x68
+		::UnityEngine::Vector3 lightEulerAngle; // 0x6C
+		::UnityEngine::Vector4 cascadeShadowSplitValue; // 0x78
+		::UnityEngine::Vector4 outlineWithInnerMaxMinOuterMaxMin; // 0x88
+		::System::Boolean disablePostOutline; // 0x98
+		::UnityEngine::Color outlineColor; // 0x9C
+		::System::Single outlineWidth; // 0xAC
+		::System::Boolean enableFarOutlineFix; // 0xB0
+		::System::Boolean characterArrayDisableOcclusionHighLight; // 0xB1
+		::System::Single characterOcclusionDitherAlpha; // 0xB4
+		::System::Single layerClipYOffset; // 0xB8
 
 		::System::Void _ctor()
 		{

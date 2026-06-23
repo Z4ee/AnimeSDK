@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDANIMTIMELINEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF9789B0)
+#define MOLEMOLE_CONFIG_CHESSBOARDANIMTIMELINEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1109D9A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardAnimTimeLineElement_TypeDefinitionIndex = 73665;
+	inline static constexpr unsigned int ChessboardAnimTimeLineElement_TypeDefinitionIndex = 71442;
 
 	class ChessboardAnimTimeLineElement : public ::MoleMole::Config::ChessboardTimeLineElement
 	{

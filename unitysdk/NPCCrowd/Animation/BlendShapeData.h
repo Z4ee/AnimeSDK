@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int BlendShapeData_TypeDefinitionIndex = 67359;
+	inline static constexpr unsigned int BlendShapeData_TypeDefinitionIndex = 85651;
 
 	struct alignas(8) BlendShapeData
 	{

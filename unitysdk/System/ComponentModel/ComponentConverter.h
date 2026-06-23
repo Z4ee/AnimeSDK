@@ -8,13 +8,13 @@ namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
-#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x19BAB450)
-#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19BAB340)
-#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAB2D0)
+#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1C06E380)
+#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C06E270)
+#define SYSTEM_COMPONENTMODEL_COMPONENTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06E200)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ComponentConverter_TypeDefinitionIndex = 2841;
+	inline static constexpr unsigned int ComponentConverter_TypeDefinitionIndex = 2840;
 
 	class ComponentConverter : public ::System::ComponentModel::ReferenceConverter
 	{

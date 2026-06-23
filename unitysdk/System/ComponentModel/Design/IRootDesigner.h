@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IRootDesigner_TypeDefinitionIndex = 3080;
+	inline static constexpr unsigned int IRootDesigner_TypeDefinitionIndex = 3079;
 
 	class IRootDesigner
 	{

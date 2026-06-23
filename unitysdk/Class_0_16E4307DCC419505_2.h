@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_33E2BE587EE07FAA;
-class Class_1_6A26BF4A9D9D3AD3;
-class Class_2_F21834FAEFB228CB;
+namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class MonoBehaviour; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_2_TypeDefinitionIndex = 9261;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_2_TypeDefinitionIndex = 7943;
 
 class Class_0_16E4307DCC419505_2
 {

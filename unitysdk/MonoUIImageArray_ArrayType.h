@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUIImageArray_ArrayType_TypeDefinitionIndex = 51917;
+inline static constexpr unsigned int MonoUIImageArray_ArrayType_TypeDefinitionIndex = 48466;
 
 enum class MonoUIImageArray_ArrayType : ::System::Int32
 {

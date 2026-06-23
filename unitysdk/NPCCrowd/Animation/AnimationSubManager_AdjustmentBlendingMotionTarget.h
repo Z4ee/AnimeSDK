@@ -5,17 +5,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/NapTransformData.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGMOTIONTARGET__CCTOR_OFFSET UNITYSDK_OFFSET(0xD44B1F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGMOTIONTARGET__CCTOR_OFFSET UNITYSDK_OFFSET(0x106FDF30)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingMotionTarget_TypeDefinitionIndex = 70450;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingMotionTarget_TypeDefinitionIndex = 57380;
 
 	struct alignas(8) AnimationSubManager_AdjustmentBlendingMotionTarget
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingMotionTarget* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingMotionTarget*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingMotionTarget_TypeDefinitionIndex)->GetStaticField(0xB4F0);
+			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingMotionTarget*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingMotionTarget_TypeDefinitionIndex)->GetStaticField(0xBAD0);
 		}
 		::UnityEngine::NapTransformData GlobalTarget; // 0x10
 		::System::Single DeltaAngle; // 0x40

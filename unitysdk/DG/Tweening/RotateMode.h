@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int RotateMode_TypeDefinitionIndex = 25354;
+	inline static constexpr unsigned int RotateMode_TypeDefinitionIndex = 27845;
 
 	enum class RotateMode : ::System::Int32
 	{

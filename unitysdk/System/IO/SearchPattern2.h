@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System::IO { class SearchPattern2_Op; }
 
-#define SYSTEM_IO_SEARCHPATTERN2_COMPILE_OFFSET UNITYSDK_OFFSET(0x19E2E9A0)
-#define SYSTEM_IO_SEARCHPATTERN2_GET_HASWILDCARD_OFFSET UNITYSDK_OFFSET(0x19E2EF90)
-#define SYSTEM_IO_SEARCHPATTERN2_ISMATCH_1_OFFSET UNITYSDK_OFFSET(0x19E2EF10)
-#define SYSTEM_IO_SEARCHPATTERN2_ISMATCH_OFFSET UNITYSDK_OFFSET(0x19E2ECD0)
-#define SYSTEM_IO_SEARCHPATTERN2_MATCH_OFFSET UNITYSDK_OFFSET(0x19E2ED40)
-#define SYSTEM_IO_SEARCHPATTERN2__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E2EFA0)
-#define SYSTEM_IO_SEARCHPATTERN2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19E2E990)
-#define SYSTEM_IO_SEARCHPATTERN2__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2D0C0)
+#define SYSTEM_IO_SEARCHPATTERN2_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C1C69D0)
+#define SYSTEM_IO_SEARCHPATTERN2_GET_HASWILDCARD_OFFSET UNITYSDK_OFFSET(0x1C1C6FD0)
+#define SYSTEM_IO_SEARCHPATTERN2_ISMATCH_1_OFFSET UNITYSDK_OFFSET(0x1C1C6F50)
+#define SYSTEM_IO_SEARCHPATTERN2_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1C1C6D10)
+#define SYSTEM_IO_SEARCHPATTERN2_MATCH_OFFSET UNITYSDK_OFFSET(0x1C1C6D80)
+#define SYSTEM_IO_SEARCHPATTERN2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1C6FE0)
+#define SYSTEM_IO_SEARCHPATTERN2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1C69C0)
+#define SYSTEM_IO_SEARCHPATTERN2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C50F0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int SearchPattern2_TypeDefinitionIndex = 3235;
+	inline static constexpr unsigned int SearchPattern2_TypeDefinitionIndex = 3234;
 
 	class SearchPattern2 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_WildcardChars()
+		static ::Il2CppArray<::System::Char>** StaticGet_InvalidChars()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SearchPattern2_TypeDefinitionIndex)->GetStaticField(0x3590);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_InvalidChars()
+		static ::Il2CppArray<::System::Char>** StaticGet_WildcardChars()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SearchPattern2_TypeDefinitionIndex)->GetStaticField(0x3598);
 		}
-		::System::IO::SearchPattern2_Op* ops; // 0x10
-		::System::String* pattern; // 0x18
-		::System::Boolean ignore; // 0x20
-		::System::Boolean hasWildcard; // 0x21
+		::System::String* pattern; // 0x10
+		::System::IO::SearchPattern2_Op* ops; // 0x18
+		::System::Boolean hasWildcard; // 0x20
+		::System::Boolean ignore; // 0x21
 
 		::System::Void _ctor(::System::String* pattern)
 		{

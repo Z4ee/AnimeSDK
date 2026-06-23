@@ -5,12 +5,12 @@
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_XML_XMLDOWNLOADMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19894CB0)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER___C__DISPLAYCLASS4_0__GETSTREAMASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19894CC0)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD023A0)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER___C__DISPLAYCLASS4_0__GETSTREAMASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1BD023B0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlDownloadManager___c__DisplayClass4_0_TypeDefinitionIndex = 1815;
+	inline static constexpr unsigned int XmlDownloadManager___c__DisplayClass4_0_TypeDefinitionIndex = 1814;
 
 	class XmlDownloadManager___c__DisplayClass4_0 : public ::System::Object
 	{

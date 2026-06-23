@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_ConfigHollowChessPieceEdge_HEdge_TypeDefinitionIndex = 43439;
+	inline static constexpr unsigned int ConfigHollowChessboard_ConfigHollowChessPieceEdge_HEdge_TypeDefinitionIndex = 64395;
 
 	enum class ConfigHollowChessboard_ConfigHollowChessPieceEdge_HEdge : ::System::Int32
 	{

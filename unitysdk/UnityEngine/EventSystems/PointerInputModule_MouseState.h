@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::EventSystems { class PointerInputModule_ButtonState; }
 
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1BBC5FE0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1BBC6110)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC6190)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1DF1A420)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1DF1A550)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1A5D0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 8541;
+	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 19050;
 
 	class PointerInputModule_MouseState : public ::System::Object
 	{

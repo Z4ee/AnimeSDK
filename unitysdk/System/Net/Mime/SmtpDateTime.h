@@ -7,23 +7,23 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define SYSTEM_NET_MIME_SMTPDATETIME_FORMATDATE_OFFSET UNITYSDK_OFFSET(0x1A256250)
-#define SYSTEM_NET_MIME_SMTPDATETIME_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1A255ED0)
-#define SYSTEM_NET_MIME_SMTPDATETIME_INITIALIZESHORTHANDLOOKUPS_OFFSET UNITYSDK_OFFSET(0x1A254F30)
-#define SYSTEM_NET_MIME_SMTPDATETIME_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1A2557B0)
-#define SYSTEM_NET_MIME_SMTPDATETIME_TIMESPANTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1A2562F0)
-#define SYSTEM_NET_MIME_SMTPDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A256030)
-#define SYSTEM_NET_MIME_SMTPDATETIME_TRYPARSETIMEZONESTRING_OFFSET UNITYSDK_OFFSET(0x1A255AA0)
-#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATEANDGETSANITIZEDTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1A255580)
-#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATEANDGETTIMEZONEOFFSETVALUES_OFFSET UNITYSDK_OFFSET(0x1A256430)
-#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATETIMEZONESHORTHANDVALUE_OFFSET UNITYSDK_OFFSET(0x1A256640)
-#define SYSTEM_NET_MIME_SMTPDATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2566D0)
-#define SYSTEM_NET_MIME_SMTPDATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A255770)
-#define SYSTEM_NET_MIME_SMTPDATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A255440)
+#define SYSTEM_NET_MIME_SMTPDATETIME_FORMATDATE_OFFSET UNITYSDK_OFFSET(0x1C663F50)
+#define SYSTEM_NET_MIME_SMTPDATETIME_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1C663BD0)
+#define SYSTEM_NET_MIME_SMTPDATETIME_INITIALIZESHORTHANDLOOKUPS_OFFSET UNITYSDK_OFFSET(0x1C662C40)
+#define SYSTEM_NET_MIME_SMTPDATETIME_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1C6634B0)
+#define SYSTEM_NET_MIME_SMTPDATETIME_TIMESPANTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1C663FF0)
+#define SYSTEM_NET_MIME_SMTPDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C663D30)
+#define SYSTEM_NET_MIME_SMTPDATETIME_TRYPARSETIMEZONESTRING_OFFSET UNITYSDK_OFFSET(0x1C6637A0)
+#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATEANDGETSANITIZEDTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1C663280)
+#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATEANDGETTIMEZONEOFFSETVALUES_OFFSET UNITYSDK_OFFSET(0x1C664130)
+#define SYSTEM_NET_MIME_SMTPDATETIME_VALIDATETIMEZONESHORTHANDVALUE_OFFSET UNITYSDK_OFFSET(0x1C664340)
+#define SYSTEM_NET_MIME_SMTPDATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6643D0)
+#define SYSTEM_NET_MIME_SMTPDATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C663470)
+#define SYSTEM_NET_MIME_SMTPDATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C663140)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int SmtpDateTime_TypeDefinitionIndex = 3634;
+	inline static constexpr unsigned int SmtpDateTime_TypeDefinitionIndex = 3633;
 
 	class SmtpDateTime : public ::System::Object
 	{
@@ -32,21 +32,21 @@ namespace System::Net::Mime
 		{
 			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x3500);
 		}
-		static ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::TimeSpan>** StaticGet_timeZoneOffsetLookup()
-		{
-			return (::System::Collections::Generic::IDictionary_2<::System::String*, ::System::TimeSpan>**)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x3508);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_allowedWhiteSpaceChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x3510);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x3508);
 		}
-		static ::System::Int32* StaticGet_offsetMaxValue()
+		static ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::TimeSpan>** StaticGet_timeZoneOffsetLookup()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x1390);
+			return (::System::Collections::Generic::IDictionary_2<::System::String*, ::System::TimeSpan>**)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x3510);
 		}
 		static ::System::Int64* StaticGet_timeSpanMaxTicks()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x1398);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x1390);
+		}
+		static ::System::Int32* StaticGet_offsetMaxValue()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmtpDateTime_TypeDefinitionIndex)->GetStaticField(0x1398);
 		}
 		// static const ::System::String* unknownTimeZoneDefaultOffset; // 0x0
 		// static const ::System::String* utcDefaultTimeZoneOffset; // 0x0
@@ -56,9 +56,9 @@ namespace System::Net::Mime
 		// static const ::System::String* dateFormatWithoutDayOfWeek; // 0x0
 		// static const ::System::String* dateFormatWithDayOfWeekAndNoSeconds; // 0x0
 		// static const ::System::String* dateFormatWithoutDayOfWeekAndNoSeconds; // 0x0
-		::System::TimeSpan timeZone; // 0x10
-		::System::Boolean unknownTimeZone; // 0x18
-		::System::DateTime date; // 0x20
+		::System::Boolean unknownTimeZone; // 0x10
+		::System::DateTime date; // 0x18
+		::System::TimeSpan timeZone; // 0x20
 
 		::System::Void _ctor(::System::DateTime value)
 		{

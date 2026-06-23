@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_E081FCEC8F87505A;
-class Class_2_208CC9941471731A_907;
+class Class_2_208CC9941471731A_739;
 
-#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E448C0)
-#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__ENTERSPECIALTRAINING_B__1_OFFSET UNITYSDK_OFFSET(0x12E448D0)
+#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12C80060)
+#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__ENTERSPECIALTRAINING_B__1_OFFSET UNITYSDK_OFFSET(0x12C80070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingSpecialRowWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 75956;
+	inline static constexpr unsigned int UITrainingSpecialRowWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 50739;
 
 	class UITrainingSpecialRowWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_907* config; // 0x10
+		::Class_2_208CC9941471731A_739* config; // 0x10
 
 		::System::Void _ctor()
 		{

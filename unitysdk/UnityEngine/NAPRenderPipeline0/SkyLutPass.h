@@ -12,21 +12,21 @@ namespace UnityEngine::NAPRenderPipeline0 { class IVisualEnvironmentE; }
 namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1B4962A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B496A10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B497B80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B496130)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1D7B3BE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7B4350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7B54C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B3A70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutPass_TypeDefinitionIndex = 5839;
+	inline static constexpr unsigned int SkyLutPass_TypeDefinitionIndex = 5845;
 
 	class SkyLutPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_ForceUpdate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_TypeDefinitionIndex)->GetStaticField(0x2D60);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_TypeDefinitionIndex)->GetStaticField(0x2D90);
 		}
 		::System::String* k_ProfilerTag; // 0xA8
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_WeatherConfig; // 0xB0

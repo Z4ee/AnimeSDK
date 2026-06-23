@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/X509/X520_AttributeTypeAndValue.h"
 
-#define MONO_SECURITY_X509_X520_GIVENNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C042B50)
+#define MONO_SECURITY_X509_X520_GIVENNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1E366C50)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X520_GivenName_TypeDefinitionIndex = 2326;
+	inline static constexpr unsigned int X520_GivenName_TypeDefinitionIndex = 2325;
 
 	class X520_GivenName : public ::Mono::Security::X509::X520_AttributeTypeAndValue
 	{

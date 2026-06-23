@@ -9,17 +9,17 @@
 class ConfigCameraSphericalCoordinateSwitcher;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__WAITUNTILTIMECURSOR_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7098C0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__WAITUNTILTIMECURSOR_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__WAITUNTILTIMECURSOR_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7A38E0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__WAITUNTILTIMECURSOR_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
-inline static constexpr unsigned int ConfigCameraSphericalCoordinateSwitcher__WaitUntilTimeCursor_d__13_TypeDefinitionIndex = 43694;
+inline static constexpr unsigned int ConfigCameraSphericalCoordinateSwitcher__WaitUntilTimeCursor_d__13_TypeDefinitionIndex = 54239;
 
 struct alignas(8) ConfigCameraSphericalCoordinateSwitcher__WaitUntilTimeCursor_d__13
 {
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
 	::ConfigCameraSphericalCoordinateSwitcher* __4__this; // 0x20
 	::System::Threading::CancellationToken token; // 0x28
-	::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
 	::System::Single resumeTime; // 0x40
 	::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x44
 	::System::Int32 __1__state; // 0x48

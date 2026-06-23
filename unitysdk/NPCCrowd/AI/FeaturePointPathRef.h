@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AI_FEATUREPOINTPATHREF_GET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0xFB4BCC0)
-#define NPCCROWD_AI_FEATUREPOINTPATHREF__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4BD70)
+#define NPCCROWD_AI_FEATUREPOINTPATHREF_GET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0xEBC0B50)
+#define NPCCROWD_AI_FEATUREPOINTPATHREF__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC0C00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FeaturePointPathRef_TypeDefinitionIndex = 78328;
+	inline static constexpr unsigned int FeaturePointPathRef_TypeDefinitionIndex = 83307;
 
 	class FeaturePointPathRef : public ::System::Object
 	{

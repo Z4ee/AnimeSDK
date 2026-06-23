@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_2BE43CDE0A45048B.h"
+#include "unitysdk/Enum_3_D1FACC9D75D67F38.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_DIALTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186C0FA0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x186C0970)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x186C06C0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x186C1580)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET UNITYSDK_OFFSET(0x186C1300)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_5DF71422BA66F31C_OFFSET UNITYSDK_OFFSET(0x186C17C0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x186C1610)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET UNITYSDK_OFFSET(0x186C09F0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x186C06B0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_B304DCD8EC233C40_OFFSET UNITYSDK_OFFSET(0x186C1620)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_B80EBAED80A5066C_OFFSET UNITYSDK_OFFSET(0x186C1000)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x186C07B0)
-#define MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x186C0820)
-#define MOLEMOLE_CONFIG_DIALTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x186C13E0)
-#define MOLEMOLE_CONFIG_DIALTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1570)
+#define MOLEMOLE_CONFIG_DIALTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x18ADA300)
+#define MOLEMOLE_CONFIG_DIALTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x18ADA460)
+#define MOLEMOLE_CONFIG_DIALTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x18ADA2F0)
+#define MOLEMOLE_CONFIG_DIALTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ADAD20)
+#define MOLEMOLE_CONFIG_DIALTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x18ADA5B0)
+#define MOLEMOLE_CONFIG_DIALTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x18ADB220)
+#define MOLEMOLE_CONFIG_DIALTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x18ADA3F0)
+#define MOLEMOLE_CONFIG_DIALTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ADAD80)
+#define MOLEMOLE_CONFIG_DIALTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x18ADA630)
+#define MOLEMOLE_CONFIG_DIALTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x18ADB300)
+#define MOLEMOLE_CONFIG_DIALTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ADB080)
+#define MOLEMOLE_CONFIG_DIALTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x18ADABE0)
+#define MOLEMOLE_CONFIG_DIALTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADB490)
+#define MOLEMOLE_CONFIG_DIALTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x18ADB4A0)
+#define MOLEMOLE_CONFIG_DIALTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x18ADB4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DialTrait_TypeDefinitionIndex = 80660;
+	inline static constexpr unsigned int DialTrait_TypeDefinitionIndex = 63087;
 
 	class DialTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
 	public:
-		::Enum_3_2BE43CDE0A45048B rotateAxis; // 0x18
+		::Enum_3_D1FACC9D75D67F38 rotateAxis; // 0x18
 		::System::Single rotateSpeed; // 0x1C
 		::System::Single initialRotation; // 0x20
 		::System::Boolean useRigidbody; // 0x24
@@ -46,74 +46,74 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_39C75ED00C6629F7(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::DialTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET))(this, a1);
+			return ((::MoleMole::Config::DialTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Void OnPostEntityReady(::MoleMole::EntityHandle a1)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_ONPOSTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_B80EBAED80A5066C(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		static ::MoleMole::Config::DialTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_B80EBAED80A5066C_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Config::DialTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_7821D1D4DDDF7E01(::FlexBuffers::FlxMap a1)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entity)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entity);
 		}
 
-		static ::MoleMole::Config::DialTrait* Method_2_B304DCD8EC233C40(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::MoleMole::Config::DialTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_B304DCD8EC233C40_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		static ::MoleMole::Config::DialTrait* Method_2_5DF71422BA66F31C(::FlexBuffers::FlxValue a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::MoleMole::Config::DialTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT_METHOD_2_5DF71422BA66F31C_OFFSET))(a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

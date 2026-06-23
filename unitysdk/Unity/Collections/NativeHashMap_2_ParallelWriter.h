@@ -5,7 +5,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeHashMap_2_ParallelWriter_TypeDefinitionIndex = 20157;
+	inline static constexpr unsigned int NativeHashMap_2_ParallelWriter_TypeDefinitionIndex = 18460;
 
 	template <typename TKey, typename TValue>
 	struct NativeHashMap_2_ParallelWriter

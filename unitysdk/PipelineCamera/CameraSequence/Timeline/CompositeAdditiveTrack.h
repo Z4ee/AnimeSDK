@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::CameraSequence { class CoreDataCompositeAdditiveTrack; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_COMPOSITEADDITIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55DAA0)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_COMPOSITEADDITIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D3C0)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int CompositeAdditiveTrack_TypeDefinitionIndex = 84909;
+	inline static constexpr unsigned int CompositeAdditiveTrack_TypeDefinitionIndex = 90483;
 
 	class CompositeAdditiveTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

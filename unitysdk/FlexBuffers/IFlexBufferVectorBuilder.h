@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int IFlexBufferVectorBuilder_TypeDefinitionIndex = 8758;
+	inline static constexpr unsigned int IFlexBufferVectorBuilder_TypeDefinitionIndex = 6744;
 
 	class IFlexBufferVectorBuilder
 	{

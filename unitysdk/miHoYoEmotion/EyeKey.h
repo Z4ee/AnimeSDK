@@ -7,54 +7,55 @@
 #include "unitysdk/miHoYoEmotion/EyeKey_EyeKeyController.h"
 #include "unitysdk/miHoYoEmotion/EyeKey_MouseShapeAnimationJob.h"
 #include "unitysdk/miHoYoEmotion/EyeKey_TickFrom.h"
-#include "unitysdk/miHoYoEmotion/EyeKey___c__DisplayClass93_0.h"
+#include "unitysdk/miHoYoEmotion/EyeKey___c__DisplayClass94_0.h"
 
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 namespace miHoYoEmotion { class EyeKey_BoneItem; }
 
-#define MIHOYOEMOTION_EYEKEY_APPLYBONEDATA_OFFSET UNITYSDK_OFFSET(0x19789A30)
-#define MIHOYOEMOTION_EYEKEY_APPLYBONEVALUE_OFFSET UNITYSDK_OFFSET(0x1978B530)
-#define MIHOYOEMOTION_EYEKEY_APPLY_1_OFFSET UNITYSDK_OFFSET(0x19795E20)
-#define MIHOYOEMOTION_EYEKEY_APPLY_OFFSET UNITYSDK_OFFSET(0x19796060)
-#define MIHOYOEMOTION_EYEKEY_CHECKINIT_1_OFFSET UNITYSDK_OFFSET(0x19795870)
-#define MIHOYOEMOTION_EYEKEY_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x197955A0)
-#define MIHOYOEMOTION_EYEKEY_CHECKRESET_OFFSET UNITYSDK_OFFSET(0x197964C0)
-#define MIHOYOEMOTION_EYEKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0x197966C0)
-#define MIHOYOEMOTION_EYEKEY_GETBONEVALUE_OFFSET UNITYSDK_OFFSET(0x1978B6D0)
-#define MIHOYOEMOTION_EYEKEY_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x19794E00)
-#define MIHOYOEMOTION_EYEKEY_GET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x19794FD0)
-#define MIHOYOEMOTION_EYEKEY_GET_SCRIPTENABLE_OFFSET UNITYSDK_OFFSET(0x19795010)
-#define MIHOYOEMOTION_EYEKEY_GET_TICKABLE_OFFSET UNITYSDK_OFFSET(0x19794FF0)
-#define MIHOYOEMOTION_EYEKEY_INITBONEDATA_OFFSET UNITYSDK_OFFSET(0x197868A0)
-#define MIHOYOEMOTION_EYEKEY_INIT_OFFSET UNITYSDK_OFFSET(0x19795450)
-#define MIHOYOEMOTION_EYEKEY_LATETICK_OFFSET UNITYSDK_OFFSET(0x19795BF0)
-#define MIHOYOEMOTION_EYEKEY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19795BA0)
-#define MIHOYOEMOTION_EYEKEY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19796B10)
-#define MIHOYOEMOTION_EYEKEY_RESET_OFFSET UNITYSDK_OFFSET(0x19796350)
-#define MIHOYOEMOTION_EYEKEY_SETTARGETROT_OFFSET UNITYSDK_OFFSET(0x19794A90)
-#define MIHOYOEMOTION_EYEKEY_SETTARGETSCALE_OFFSET UNITYSDK_OFFSET(0x197951C0)
-#define MIHOYOEMOTION_EYEKEY_SET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x19794FE0)
-#define MIHOYOEMOTION_EYEKEY_SET_SCRIPTENABLE_OFFSET UNITYSDK_OFFSET(0x19795020)
-#define MIHOYOEMOTION_EYEKEY_SET_TICKABLE_OFFSET UNITYSDK_OFFSET(0x19795000)
-#define MIHOYOEMOTION_EYEKEY_TICKTARGETROT_OFFSET UNITYSDK_OFFSET(0x19795030)
-#define MIHOYOEMOTION_EYEKEY_TICKTARGETSCALE_OFFSET UNITYSDK_OFFSET(0x197952F0)
-#define MIHOYOEMOTION_EYEKEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19796F60)
-#define MIHOYOEMOTION_EYEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x19796C90)
-#define MIHOYOEMOTION_EYEKEY__INITBONEDATA_G__FINDBONE_93_0_OFFSET UNITYSDK_OFFSET(0x19796770)
+#define MIHOYOEMOTION_EYEKEY_APPLYBONEDATA_OFFSET UNITYSDK_OFFSET(0x1BAF6140)
+#define MIHOYOEMOTION_EYEKEY_APPLYBONEVALUE_OFFSET UNITYSDK_OFFSET(0x1BAF7B70)
+#define MIHOYOEMOTION_EYEKEY_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1BB02910)
+#define MIHOYOEMOTION_EYEKEY_APPLY_OFFSET UNITYSDK_OFFSET(0x1BB02B50)
+#define MIHOYOEMOTION_EYEKEY_CHECKINIT_1_OFFSET UNITYSDK_OFFSET(0x1BB02360)
+#define MIHOYOEMOTION_EYEKEY_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x1BB02090)
+#define MIHOYOEMOTION_EYEKEY_CHECKRESET_OFFSET UNITYSDK_OFFSET(0x1BB02FB0)
+#define MIHOYOEMOTION_EYEKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BAFC9D0)
+#define MIHOYOEMOTION_EYEKEY_GETBONEVALUE_OFFSET UNITYSDK_OFFSET(0x1BAF7D30)
+#define MIHOYOEMOTION_EYEKEY_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x1BB018F0)
+#define MIHOYOEMOTION_EYEKEY_GET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x1BB01AC0)
+#define MIHOYOEMOTION_EYEKEY_GET_SCRIPTENABLE_OFFSET UNITYSDK_OFFSET(0x1BB01B00)
+#define MIHOYOEMOTION_EYEKEY_GET_TICKABLE_OFFSET UNITYSDK_OFFSET(0x1BB01AE0)
+#define MIHOYOEMOTION_EYEKEY_INITBONEDATA_OFFSET UNITYSDK_OFFSET(0x1BAF2DB0)
+#define MIHOYOEMOTION_EYEKEY_INIT_OFFSET UNITYSDK_OFFSET(0x1BB01F40)
+#define MIHOYOEMOTION_EYEKEY_LATETICK_OFFSET UNITYSDK_OFFSET(0x1BB026E0)
+#define MIHOYOEMOTION_EYEKEY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BB03680)
+#define MIHOYOEMOTION_EYEKEY_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1BB02690)
+#define MIHOYOEMOTION_EYEKEY_RESET_OFFSET UNITYSDK_OFFSET(0x1BB02E40)
+#define MIHOYOEMOTION_EYEKEY_SETTARGETROT_OFFSET UNITYSDK_OFFSET(0x1BB01580)
+#define MIHOYOEMOTION_EYEKEY_SETTARGETSCALE_OFFSET UNITYSDK_OFFSET(0x1BB01CB0)
+#define MIHOYOEMOTION_EYEKEY_SET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x1BB01AD0)
+#define MIHOYOEMOTION_EYEKEY_SET_SCRIPTENABLE_OFFSET UNITYSDK_OFFSET(0x1BB01B10)
+#define MIHOYOEMOTION_EYEKEY_SET_TICKABLE_OFFSET UNITYSDK_OFFSET(0x1BB01AF0)
+#define MIHOYOEMOTION_EYEKEY_TICKTARGETROT_OFFSET UNITYSDK_OFFSET(0x1BB01B20)
+#define MIHOYOEMOTION_EYEKEY_TICKTARGETSCALE_OFFSET UNITYSDK_OFFSET(0x1BB01DE0)
+#define MIHOYOEMOTION_EYEKEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB039F0)
+#define MIHOYOEMOTION_EYEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB036D0)
+#define MIHOYOEMOTION_EYEKEY__INITBONEDATA_G__FINDBONE_94_0_OFFSET UNITYSDK_OFFSET(0x1BB032E0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EyeKey_TypeDefinitionIndex = 37717;
+	inline static constexpr unsigned int EyeKey_TypeDefinitionIndex = 39361;
 
 	class EyeKey : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_boneNameList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EyeKey_TypeDefinitionIndex)->GetStaticField(0x292F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EyeKey_TypeDefinitionIndex)->GetStaticField(0x2AFB0);
 		}
 		// static const ::System::String* LEFT_EYE_BONE_NAME; // 0x0
 		// static const ::System::String* RIGHT_EYE_BONE_NAME; // 0x0
@@ -63,61 +64,62 @@ namespace miHoYoEmotion
 		// static const ::System::String* TEETH_UP_NAME; // 0x0
 		// static const ::System::String* TEETH_DOWN_NAME; // 0x0
 		::miHoYoEmotion::EyeKey_EyeKeyController currentController; // 0x18
-		::System::Collections::Generic::SortedDictionary_2<::System::String*, ::miHoYoEmotion::EyeKey_BoneItem*>* boneDic; // 0x20
-		::UnityEngine::Animations::AnimationScriptPlayable animationScriptPlayable; // 0x28
-		::miHoYoEmotion::EyeKey_MouseShapeAnimationJob animationJob; // 0x38
-		::UnityEngine::Animator* animator; // 0xA8
-		::UnityEngine::Transform* leftEyeBone; // 0xB0
-		::UnityEngine::Transform* rightEyeBone; // 0xB8
-		::UnityEngine::Transform* leftEyeBallBone; // 0xC0
-		::UnityEngine::Transform* rightEyeBallBone; // 0xC8
-		::UnityEngine::Vector3 leftEyeRot; // 0xD0
-		::UnityEngine::Vector3 rightEyeRot; // 0xDC
-		::System::Boolean _previewMode_k__BackingField; // 0xE8
-		::System::Boolean _tickable_k__BackingField; // 0xE9
-		::System::Boolean _ScriptEnable_k__BackingField; // 0xEA
-		::UnityEngine::Vector3 _leftEyeRotTarget; // 0xEC
-		::UnityEngine::Vector3 _rightEyeRotTarget; // 0xF8
-		::System::Single _rotTargetCurrtime; // 0x104
-		::System::Single _rotDuration; // 0x108
-		::System::Boolean ControlledByInteractionManager; // 0x10C
-		::System::Boolean enableApply; // 0x10D
-		::UnityEngine::Vector3 leftEyeBallScale; // 0x110
-		::UnityEngine::Vector3 rightEyeBallScale; // 0x11C
-		::UnityEngine::Vector3 _leftEyeBallScaleTarget; // 0x128
-		::UnityEngine::Vector3 _rightEyeBallScaleTarget; // 0x134
-		::System::Single _scaleTargetCurrtime; // 0x140
-		::System::Single _scaleDuration; // 0x144
-		::UnityEngine::Vector3 leftEyeScale; // 0x148
-		::UnityEngine::Vector3 rightEyeScale; // 0x154
-		::UnityEngine::Vector3 leftEyeBallRot; // 0x160
-		::UnityEngine::Vector3 rightEyeBallRot; // 0x16C
-		::UnityEngine::Transform* teethUpBone; // 0x178
-		::UnityEngine::Transform* teethDownBone; // 0x180
-		::UnityEngine::Vector3 teethUpRot; // 0x188
-		::UnityEngine::Vector3 teethDownRot; // 0x194
-		::UnityEngine::Vector3 teethUpScale; // 0x1A0
-		::UnityEngine::Vector3 teethDownScale; // 0x1AC
-		::UnityEngine::Vector3 teethDownPos; // 0x1B8
-		::System::Int32 _leftEyeBoneHash; // 0x1C4
-		::System::Int32 _rightEyeBoneHash; // 0x1C8
-		::System::Int32 _leftEyeBallBoneHash; // 0x1CC
-		::System::Int32 _rightEyeBallBoneHash; // 0x1D0
-		::System::Int32 _teethUpHash; // 0x1D4
-		::System::Int32 _teethDownHash; // 0x1D8
-		::UnityEngine::Vector3 _originLeftEyeRot; // 0x1DC
-		::UnityEngine::Vector3 _originRightEyeRot; // 0x1E8
-		::UnityEngine::Vector3 _originLeftEyeScale; // 0x1F4
-		::UnityEngine::Vector3 _originRightEyeScale; // 0x200
-		::UnityEngine::Vector3 _originLeftEyeBallRot; // 0x20C
-		::UnityEngine::Vector3 _originRightEyeBallRot; // 0x218
-		::UnityEngine::Vector3 _originLeftEyeBallScale; // 0x224
-		::UnityEngine::Vector3 _originRightEyeBallScale; // 0x230
-		::UnityEngine::Vector3 _originUpTeethRot; // 0x23C
-		::UnityEngine::Vector3 _originDownTeethRot; // 0x248
-		::UnityEngine::Vector3 _originUpTeethScale; // 0x254
-		::UnityEngine::Vector3 _originDownTeethScale; // 0x260
-		::UnityEngine::Vector3 _originDownTeethPos; // 0x26C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::miHoYoEmotion::EyeKey_BoneItem*>* boneDic; // 0x20
+		::System::Collections::Generic::List_1<::miHoYoEmotion::EyeKey_BoneItem*>* boneList; // 0x28
+		::UnityEngine::Animations::AnimationScriptPlayable animationScriptPlayable; // 0x30
+		::miHoYoEmotion::EyeKey_MouseShapeAnimationJob animationJob; // 0x40
+		::UnityEngine::Animator* animator; // 0xB0
+		::UnityEngine::Transform* leftEyeBone; // 0xB8
+		::UnityEngine::Transform* rightEyeBone; // 0xC0
+		::UnityEngine::Transform* leftEyeBallBone; // 0xC8
+		::UnityEngine::Transform* rightEyeBallBone; // 0xD0
+		::UnityEngine::Vector3 leftEyeRot; // 0xD8
+		::UnityEngine::Vector3 rightEyeRot; // 0xE4
+		::System::Boolean _previewMode_k__BackingField; // 0xF0
+		::System::Boolean _tickable_k__BackingField; // 0xF1
+		::System::Boolean _ScriptEnable_k__BackingField; // 0xF2
+		::UnityEngine::Vector3 _leftEyeRotTarget; // 0xF4
+		::UnityEngine::Vector3 _rightEyeRotTarget; // 0x100
+		::System::Single _rotTargetCurrtime; // 0x10C
+		::System::Single _rotDuration; // 0x110
+		::System::Boolean ControlledByInteractionManager; // 0x114
+		::System::Boolean enableApply; // 0x115
+		::UnityEngine::Vector3 leftEyeBallScale; // 0x118
+		::UnityEngine::Vector3 rightEyeBallScale; // 0x124
+		::UnityEngine::Vector3 _leftEyeBallScaleTarget; // 0x130
+		::UnityEngine::Vector3 _rightEyeBallScaleTarget; // 0x13C
+		::System::Single _scaleTargetCurrtime; // 0x148
+		::System::Single _scaleDuration; // 0x14C
+		::UnityEngine::Vector3 leftEyeScale; // 0x150
+		::UnityEngine::Vector3 rightEyeScale; // 0x15C
+		::UnityEngine::Vector3 leftEyeBallRot; // 0x168
+		::UnityEngine::Vector3 rightEyeBallRot; // 0x174
+		::UnityEngine::Transform* teethUpBone; // 0x180
+		::UnityEngine::Transform* teethDownBone; // 0x188
+		::UnityEngine::Vector3 teethUpRot; // 0x190
+		::UnityEngine::Vector3 teethDownRot; // 0x19C
+		::UnityEngine::Vector3 teethUpScale; // 0x1A8
+		::UnityEngine::Vector3 teethDownScale; // 0x1B4
+		::UnityEngine::Vector3 teethDownPos; // 0x1C0
+		::System::Int32 _leftEyeBoneHash; // 0x1CC
+		::System::Int32 _rightEyeBoneHash; // 0x1D0
+		::System::Int32 _leftEyeBallBoneHash; // 0x1D4
+		::System::Int32 _rightEyeBallBoneHash; // 0x1D8
+		::System::Int32 _teethUpHash; // 0x1DC
+		::System::Int32 _teethDownHash; // 0x1E0
+		::UnityEngine::Vector3 _originLeftEyeRot; // 0x1E4
+		::UnityEngine::Vector3 _originRightEyeRot; // 0x1F0
+		::UnityEngine::Vector3 _originLeftEyeScale; // 0x1FC
+		::UnityEngine::Vector3 _originRightEyeScale; // 0x208
+		::UnityEngine::Vector3 _originLeftEyeBallRot; // 0x214
+		::UnityEngine::Vector3 _originRightEyeBallRot; // 0x220
+		::UnityEngine::Vector3 _originLeftEyeBallScale; // 0x22C
+		::UnityEngine::Vector3 _originRightEyeBallScale; // 0x238
+		::UnityEngine::Vector3 _originUpTeethRot; // 0x244
+		::UnityEngine::Vector3 _originDownTeethRot; // 0x250
+		::UnityEngine::Vector3 _originUpTeethScale; // 0x25C
+		::UnityEngine::Vector3 _originDownTeethScale; // 0x268
+		::UnityEngine::Vector3 _originDownTeethPos; // 0x274
 
 		::System::Void _ctor()
 		{
@@ -209,9 +211,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_CHECKINIT_1_OFFSET))(this, bone, hash, originPos, originRot, originScale);
 		}
 
-		::System::Void LateUpdate()
+		::System::Void OnLateUpdate()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_LATEUPDATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_ONLATEUPDATE_OFFSET))(this);
 		}
 
 		::System::Void LateTick(::System::Single deltaTime, ::miHoYoEmotion::EyeKey_TickFrom tickFrom)
@@ -249,9 +251,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_APPLYBONEDATA_OFFSET))(this, isStopped);
 		}
 
-		::System::Void InitBoneData()
+		::System::Void InitBoneData(::System::Boolean force)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_INITBONEDATA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_INITBONEDATA_OFFSET))(this, force);
 		}
 
 		::System::Void OnDestroy()
@@ -259,9 +261,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY_ONDESTROY_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Transform* _InitBoneData_g__FindBone_93_0(::System::String* boneName, ::miHoYoEmotion::EyeKey___c__DisplayClass93_0& a2)
+		static ::UnityEngine::Transform* _InitBoneData_g__FindBone_94_0(::System::String* boneName, ::miHoYoEmotion::EyeKey___c__DisplayClass94_0& a2)
 		{
-			return ((::UnityEngine::Transform*(*)(::System::String*, ::miHoYoEmotion::EyeKey___c__DisplayClass93_0&))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY__INITBONEDATA_G__FINDBONE_93_0_OFFSET))(boneName, a2);
+			return ((::UnityEngine::Transform*(*)(::System::String*, ::miHoYoEmotion::EyeKey___c__DisplayClass94_0&))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EYEKEY__INITBONEDATA_G__FINDBONE_94_0_OFFSET))(boneName, a2);
 		}
 	};
 }

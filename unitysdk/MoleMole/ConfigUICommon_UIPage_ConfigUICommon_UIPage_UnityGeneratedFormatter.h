@@ -24,66 +24,66 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D37E30)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D37E40)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D38840)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D38E30)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D38DF0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A07E7E0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1A07E7F0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1A07F1F0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A07F7E0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_CONFIGUICOMMON_UIPAGE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07F7A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex = 52156;
+	inline static constexpr unsigned int ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex = 72245;
 
 	class ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUICommon_UIPage*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_CachedSerializer11()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478B0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::BubbleProgressColorType, ::BubbleProgressColor*>*>** StaticGet_CachedSerializer7()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::BubbleProgressColorType, ::BubbleProgressColor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478B8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478C0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478C8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopType, ::Foundation::AssetPath>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopType, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478D0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopCurrencyType, ::UnityEngine::Color>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopCurrencyType, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478D8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::System::Single>*>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478E0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyChangeDepthConfig*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyChangeDepthConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478E8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SocialPostSizeType, ::System::Single>*>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SocialPostSizeType, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478F0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic*>*>** StaticGet_CachedSerializer10()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478F8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::BubbleProgressColorType, ::BubbleProgressColor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CB0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyCameraConfig*>** StaticGet_CachedSerializer8()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47900);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CB8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic*>*>** StaticGet_CachedSerializer10()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CC0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopCurrencyType, ::UnityEngine::Color>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopCurrencyType, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CC8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::InterknotPostHeightDic*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::InterknotPostHeightDic*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47908);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::InterknotPostHeightDic*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CD0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopType, ::Foundation::AssetPath>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::HollowShopType, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CD8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SocialPostSizeType, ::System::Single>*>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SocialPostSizeType, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CE0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CE8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::System::Single>*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CF0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49CF8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyChangeDepthConfig*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BuddyChangeDepthConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49D00);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_CachedSerializer11()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_UIPage_ConfigUICommon_UIPage_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49D08);
 		}
 
 		::System::Void _ctor()

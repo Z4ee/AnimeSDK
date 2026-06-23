@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EUILayoutPlatform_TypeDefinitionIndex = 55695;
+	inline static constexpr unsigned int EUILayoutPlatform_TypeDefinitionIndex = 62558;
 
 	enum class EUILayoutPlatform : ::System::Int32
 	{
-		MobileConsole = 4,
 		Console = 3,
-		Mobile = 1,
 		PC = 2,
 		None = 0,
+		MobileConsole = 4,
+		Mobile = 1,
 	};
 }

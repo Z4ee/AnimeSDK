@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151D7540)
-#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151D7580)
-#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__REFRESHBUTTON_B__10_1_OFFSET UNITYSDK_OFFSET(0x151D7590)
+#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17201230)
+#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17201270)
+#define MOLEMOLE_UIHANDBOOKPROXYQUESTITEMWIDGETCONTROLLER___C__REFRESHBUTTON_B__10_1_OFFSET UNITYSDK_OFFSET(0x17201280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex = 73282;
+	inline static constexpr unsigned int UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex = 55532;
 
 	class UIHandBookProxyQuestItemWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__10_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE10);
-		}
 		static ::MoleMole::UIHandBookProxyQuestItemWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookProxyQuestItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE18);
+			return (::MoleMole::UIHandBookProxyQuestItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41420);
+		}
+		static ::System::Action** StaticGet___9__10_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookProxyQuestItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41428);
 		}
 
 		static ::System::Void _cctor()

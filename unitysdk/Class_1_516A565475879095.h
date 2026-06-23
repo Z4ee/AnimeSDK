@@ -22,7 +22,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 template <typename T1, typename T2> class Class_1_516A565475879095;
 template <typename T1, typename T2> class Class_1_516A565475879095_Class_1_248A9BE5392099A1;
 
-inline static constexpr unsigned int Class_1_516A565475879095_TypeDefinitionIndex = 9390;
+inline static constexpr unsigned int Class_1_516A565475879095_TypeDefinitionIndex = 18564;
 
 template <typename TKey, typename TValue>
 class Class_1_516A565475879095 : public ::System::Object

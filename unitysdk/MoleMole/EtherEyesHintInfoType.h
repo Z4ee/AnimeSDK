@@ -3,20 +3,20 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EtherEyesHintInfoType_TypeDefinitionIndex = 61117;
+	inline static constexpr unsigned int EtherEyesHintInfoType_TypeDefinitionIndex = 46231;
 
 	enum class EtherEyesHintInfoType : ::System::Int32
 	{
-		Fix = 6,
+		FixHoldInteract = 8,
 		FindFocus = 3,
 		FixFocus = 7,
-		FindHoldInteract = 4,
-		FixHoldInteract = 8,
-		BreakCoreFocus = 1,
-		ShowFocus = 2,
-		Empty = 0,
 		None = -1,
 		FixInteractFinish = 9,
 		FindInteractFinish = 5,
+		FindHoldInteract = 4,
+		ShowFocus = 2,
+		Fix = 6,
+		BreakCoreFocus = 1,
+		Empty = 0,
 	};
 }

@@ -4,19 +4,19 @@
 
 namespace Foundation { class IEnumeratorLoaderNode; }
 
-#define FOUNDATION_IENUMERATORLOADERNODECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x94CCE0)
-#define FOUNDATION_IENUMERATORLOADERNODECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x94CD90)
-#define FOUNDATION_IENUMERATORLOADERNODECOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B05F790)
+#define FOUNDATION_IENUMERATORLOADERNODECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x9EB2E0)
+#define FOUNDATION_IENUMERATORLOADERNODECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9EB390)
+#define FOUNDATION_IENUMERATORLOADERNODECOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E54E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEnumeratorLoaderNodeComparer_TypeDefinitionIndex = 7867;
+	inline static constexpr unsigned int IEnumeratorLoaderNodeComparer_TypeDefinitionIndex = 7905;
 
 	struct alignas(1) IEnumeratorLoaderNodeComparer
 	{
 		static ::Foundation::IEnumeratorLoaderNodeComparer* StaticGet_Instance()
 		{
-			return (::Foundation::IEnumeratorLoaderNodeComparer*)Il2CppClass::FromTypeDefinitionIndex(IEnumeratorLoaderNodeComparer_TypeDefinitionIndex)->GetStaticField(0x38B0);
+			return (::Foundation::IEnumeratorLoaderNodeComparer*)Il2CppClass::FromTypeDefinitionIndex(IEnumeratorLoaderNodeComparer_TypeDefinitionIndex)->GetStaticField(0x3920);
 		}
 
 		static ::System::Void _cctor()

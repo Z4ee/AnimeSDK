@@ -5,24 +5,24 @@
 namespace MoleMole { class UIGachaBtnWidgetContext; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A2C50)
-#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157A2C90)
-#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__INITVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x157A2CA0)
+#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1771BA70)
+#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1771BAB0)
+#define MOLEMOLE_UIGACHABTNWIDGETCONTROLLER___C__INITVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x1771BAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaBtnWidgetController___c_TypeDefinitionIndex = 62509;
+	inline static constexpr unsigned int UIGachaBtnWidgetController___c_TypeDefinitionIndex = 43065;
 
 	class UIGachaBtnWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIGachaBtnWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIGachaBtnWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGachaBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AA80);
-		}
 		static ::System::Func_2<::MoleMole::UIGachaBtnWidgetContext*, ::System::Int32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::MoleMole::UIGachaBtnWidgetContext*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGachaBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AA88);
+			return (::System::Func_2<::MoleMole::UIGachaBtnWidgetContext*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGachaBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C9F0);
+		}
+		static ::MoleMole::UIGachaBtnWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIGachaBtnWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGachaBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C9F8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,15 +3,15 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int LookAtBoneForwardAxis_TypeDefinitionIndex = 63189;
+	inline static constexpr unsigned int LookAtBoneForwardAxis_TypeDefinitionIndex = 42646;
 
 	enum class LookAtBoneForwardAxis : ::System::Int32
 	{
-		Down = 3,
-		Left = 4,
 		Up = 2,
+		Left = 4,
 		Forward = 0,
-		Right = 5,
 		Backward = 1,
+		Down = 3,
+		Right = 5,
 	};
 }

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdvancedCollisionConfigData_ResolutionStrategy_TypeDefinitionIndex = 68256;
+	inline static constexpr unsigned int AdvancedCollisionConfigData_ResolutionStrategy_TypeDefinitionIndex = 74256;
 
 	enum class AdvancedCollisionConfigData_ResolutionStrategy : ::System::Int32
 	{
-		PreserveCameraDistance = 2,
 		PreserveCameraHeight = 1,
 		PullCameraForward = 0,
+		PreserveCameraDistance = 2,
 	};
 }

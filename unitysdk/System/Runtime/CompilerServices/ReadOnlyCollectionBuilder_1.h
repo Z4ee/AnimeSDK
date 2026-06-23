@@ -10,7 +10,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ReadOnlyCollectionBuilder_1_TypeDefinitionIndex = 4960;
+	inline static constexpr unsigned int ReadOnlyCollectionBuilder_1_TypeDefinitionIndex = 4959;
 
 	template <typename T>
 	class ReadOnlyCollectionBuilder_1 : public ::System::Object

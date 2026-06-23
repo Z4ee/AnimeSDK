@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StageEntry_StreamingSceneType_TypeDefinitionIndex = 39946;
+	inline static constexpr unsigned int StageEntry_StreamingSceneType_TypeDefinitionIndex = 87183;
 
 	enum class StageEntry_StreamingSceneType : ::System::Int32
 	{

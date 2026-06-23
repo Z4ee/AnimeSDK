@@ -6,11 +6,11 @@ namespace MoleMole { class RegionExtension; }
 namespace MoleMole { class ServerGateway; }
 namespace System { class String; }
 
-#define MOLEMOLE_SERVERDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1386B1F0)
+#define MOLEMOLE_SERVERDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18170C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ServerDispatchData_TypeDefinitionIndex = 73771;
+	inline static constexpr unsigned int ServerDispatchData_TypeDefinitionIndex = 48981;
 
 	class ServerDispatchData : public ::System::Object
 	{

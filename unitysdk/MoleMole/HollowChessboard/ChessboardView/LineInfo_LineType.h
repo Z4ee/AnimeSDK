@@ -3,12 +3,12 @@
 
 namespace MoleMole::HollowChessboard::ChessboardView
 {
-	inline static constexpr unsigned int LineInfo_LineType_TypeDefinitionIndex = 53130;
+	inline static constexpr unsigned int LineInfo_LineType_TypeDefinitionIndex = 44058;
 
 	enum class LineInfo_LineType : ::System::Int32
 	{
-		YAxis = 1,
-		ZAxis = 2,
 		XAxis = 0,
+		ZAxis = 2,
+		YAxis = 1,
 	};
 }

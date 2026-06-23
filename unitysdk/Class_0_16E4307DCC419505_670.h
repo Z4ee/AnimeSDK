@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/RectTransform_Axis.h"
 
-namespace UnityEngine { class Transform; }
+class Class_1_449B1BB2E3AA2D13;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_670_TypeDefinitionIndex = 67558;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_670_TypeDefinitionIndex = 67388;
 
 class Class_0_16E4307DCC419505_670
 {

@@ -3,7 +3,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_error_code_TypeDefinitionIndex = 2526;
+	inline static constexpr unsigned int UnityTls_unitytls_error_code_TypeDefinitionIndex = 2525;
 
 	enum class UnityTls_unitytls_error_code : ::System::UInt32
 	{

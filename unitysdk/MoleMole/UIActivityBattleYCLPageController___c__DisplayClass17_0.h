@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIActivityBattleYCLPageController; }
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x123892A0)
-#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS17_0__ONCREATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x123892B0)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A24C40)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS17_0__ONCREATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18A24C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLPageController___c__DisplayClass17_0_TypeDefinitionIndex = 67253;
+	inline static constexpr unsigned int UIActivityBattleYCLPageController___c__DisplayClass17_0_TypeDefinitionIndex = 68278;
 
 	class UIActivityBattleYCLPageController___c__DisplayClass17_0 : public ::System::Object
 	{

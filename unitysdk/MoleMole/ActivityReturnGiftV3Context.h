@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_ACTIVITYRETURNGIFTV3CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB1A0)
+#define MOLEMOLE_ACTIVITYRETURNGIFTV3CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF4CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityReturnGiftV3Context_TypeDefinitionIndex = 72528;
+	inline static constexpr unsigned int ActivityReturnGiftV3Context_TypeDefinitionIndex = 48533;
 
 	class ActivityReturnGiftV3Context : public ::MoleMole::UIControllerContextBase
 	{

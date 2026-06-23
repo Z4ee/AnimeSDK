@@ -3,7 +3,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeLeakDetectionMode_TypeDefinitionIndex = 5086;
+	inline static constexpr unsigned int NativeLeakDetectionMode_TypeDefinitionIndex = 5085;
 
 	enum class NativeLeakDetectionMode : ::System::Int32
 	{

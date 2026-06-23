@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EOutlineRenderType_TypeDefinitionIndex = 30391;
+	inline static constexpr unsigned int EOutlineRenderType_TypeDefinitionIndex = 26768;
 
 	enum class EOutlineRenderType : ::System::Int32
 	{
-		Normal = 0,
 		EtherEye = 1,
+		Normal = 0,
 	};
 }

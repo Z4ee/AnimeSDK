@@ -4,11 +4,11 @@
 
 class Class_2_DF2C726EEEEC912D;
 
-#define MOLEMOLE_UISOCIALCIRCLELEVELDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E7E8D0)
+#define MOLEMOLE_UISOCIALCIRCLELEVELDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C26890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleLevelDialogPopWindowController_Context_TypeDefinitionIndex = 75025;
+	inline static constexpr unsigned int UISocialCircleLevelDialogPopWindowController_Context_TypeDefinitionIndex = 53608;
 
 	class UISocialCircleLevelDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

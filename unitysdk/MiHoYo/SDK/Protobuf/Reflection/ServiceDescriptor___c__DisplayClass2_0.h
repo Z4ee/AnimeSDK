@@ -7,18 +7,18 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MethodDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FA500)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C3FA510)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E73BFA0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1E73BFB0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 26097;
+	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 28591;
 
 	class ServiceDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* __4__this; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* __4__this; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x18
 
 		::System::Void _ctor()
 		{

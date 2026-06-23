@@ -12,31 +12,31 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x13AF8210)
-#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x13AF7F80)
-#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13AF82E0)
-#define CLASS_2_79F6D62CE30E3F8E_37__CTOR_OFFSET UNITYSDK_OFFSET(0x13AF82D0)
+#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x13893EB0)
+#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x13893C20)
+#define CLASS_2_79F6D62CE30E3F8E_37_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13893F80)
+#define CLASS_2_79F6D62CE30E3F8E_37__CTOR_OFFSET UNITYSDK_OFFSET(0x13893F70)
 
-inline static constexpr unsigned int Class_2_79F6D62CE30E3F8E_37_TypeDefinitionIndex = 41283;
+inline static constexpr unsigned int Class_2_79F6D62CE30E3F8E_37_TypeDefinitionIndex = 59556;
 
 class Class_2_79F6D62CE30E3F8E_37 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_7; // 0x18
-	::MonoUITableScrollV2* Field_2_11; // 0x20
-	::UnityEngine::GameObject* Field_2_8; // 0x28
+	::UnityEngine::Transform* Field_2_0; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_14; // 0x20
+	::UnityEngine::GameObject* Field_2_7; // 0x28
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_14; // 0x38
-	::UnityEngine::GameObject* Field_2_4; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x50
-	::MoleMole::UIGeneralButtonController* Field_2_1; // 0x58
-	::UnityEngine::GameObject* Field_2_13; // 0x60
-	::MoleMole::MonoGamepadSelectable* Field_2_2; // 0x68
-	::UnityEngine::GameObject* Field_2_3; // 0x70
-	::UnityEngine::Transform* Field_2_0; // 0x78
-	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x80
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x88
+	::UnityEngine::GameObject* Field_2_13; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x48
+	::UnityEngine::GameObject* Field_2_8; // 0x50
+	::UnityEngine::GameObject* Field_2_4; // 0x58
+	::MoleMole::MonoGamepadSelectable* Field_2_2; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x68
+	::MonoUITableScrollV2* Field_2_11; // 0x70
+	::MoleMole::UIGeneralButtonController* Field_2_1; // 0x78
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x80
+	::UnityEngine::GameObject* Field_2_3; // 0x88
 
 	::System::Void _ctor()
 	{

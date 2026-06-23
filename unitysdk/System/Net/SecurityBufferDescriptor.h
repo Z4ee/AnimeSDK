@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SECURITYBUFFERDESCRIPTOR_DEBUGDUMP_OFFSET UNITYSDK_OFFSET(0x19A72A50)
-#define SYSTEM_NET_SECURITYBUFFERDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A72A30)
+#define SYSTEM_NET_SECURITYBUFFERDESCRIPTOR_DEBUGDUMP_OFFSET UNITYSDK_OFFSET(0x1BEE4430)
+#define SYSTEM_NET_SECURITYBUFFERDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4410)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityBufferDescriptor_TypeDefinitionIndex = 3311;
+	inline static constexpr unsigned int SecurityBufferDescriptor_TypeDefinitionIndex = 3310;
 
 	class SecurityBufferDescriptor : public ::System::Object
 	{

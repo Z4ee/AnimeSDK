@@ -7,12 +7,12 @@ namespace System::Xml::Schema { class InteriorNode; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1AE87AA0)
-#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE87AB0)
+#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1D2D1850)
+#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1860)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SyntaxTreeNode_TypeDefinitionIndex = 1964;
+	inline static constexpr unsigned int SyntaxTreeNode_TypeDefinitionIndex = 1963;
 
 	class SyntaxTreeNode : public ::System::Object
 	{

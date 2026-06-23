@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IHelpService_TypeDefinitionIndex = 3075;
+	inline static constexpr unsigned int IHelpService_TypeDefinitionIndex = 3074;
 
 	class IHelpService
 	{

@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B08EFC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08F2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D3E7910)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E7C40)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyOverrideConfig_TypeDefinitionIndex = 30304;
+	inline static constexpr unsigned int SkyOverrideConfig_TypeDefinitionIndex = 26902;
 
 	class SkyOverrideConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyOverrideConfig*>
 	{

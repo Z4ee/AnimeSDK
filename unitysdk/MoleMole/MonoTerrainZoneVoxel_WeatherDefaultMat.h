@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/Config/WeatherType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_WEATHERDEFAULTMAT_GET_TERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x3A4A80)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_WEATHERDEFAULTMAT_GET_TERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x3EAC70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainZoneVoxel_WeatherDefaultMat_TypeDefinitionIndex = 40074;
+	inline static constexpr unsigned int MonoTerrainZoneVoxel_WeatherDefaultMat_TypeDefinitionIndex = 70795;
 
 	struct alignas(4) MonoTerrainZoneVoxel_WeatherDefaultMat
 	{

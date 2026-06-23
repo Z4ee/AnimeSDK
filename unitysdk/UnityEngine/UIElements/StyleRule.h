@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class StyleProperty; }
 
-#define UNITYENGINE_UIELEMENTS_STYLERULE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x197BA2D0)
-#define UNITYENGINE_UIELEMENTS_STYLERULE__CTOR_OFFSET UNITYSDK_OFFSET(0x197BA2E0)
+#define UNITYENGINE_UIELEMENTS_STYLERULE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1BBF0F20)
+#define UNITYENGINE_UIELEMENTS_STYLERULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF0F30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleRule_TypeDefinitionIndex = 25093;
+	inline static constexpr unsigned int StyleRule_TypeDefinitionIndex = 27596;
 
 	class StyleRule : public ::System::Object
 	{

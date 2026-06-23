@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GENERALROLESKINNAMEPLATECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11755B40)
+#define MOLEMOLE_GENERALROLESKINNAMEPLATECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15826C30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralRoleSkinNameplateContext_TypeDefinitionIndex = 46240;
+	inline static constexpr unsigned int GeneralRoleSkinNameplateContext_TypeDefinitionIndex = 66363;
 
 	class GeneralRoleSkinNameplateContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* Name; // 0x28
-		::System::String* SubName; // 0x30
+		::System::String* SubName; // 0x28
+		::System::String* Name; // 0x30
 
 		::System::Void _ctor()
 		{

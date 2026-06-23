@@ -8,37 +8,37 @@ class MonoRenderEntity;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define CAPSULESHANDLER_ADDCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B35E2A0)
-#define CAPSULESHANDLER_CONTAINSCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B35E3B0)
-#define CAPSULESHANDLER_DISPOSEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1B35ED20)
-#define CAPSULESHANDLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B35E140)
-#define CAPSULESHANDLER_INITIALIZEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1B35EAC0)
-#define CAPSULESHANDLER_REMOVECHARACTER_OFFSET UNITYSDK_OFFSET(0x1B35E8F0)
-#define CAPSULESHANDLER_RESET_OFFSET UNITYSDK_OFFSET(0x1B35EA20)
-#define CAPSULESHANDLER_UPDATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1B35ED90)
-#define CAPSULESHANDLER_UPDATECHARACTERSHADOWS_OFFSET UNITYSDK_OFFSET(0x1B35EE00)
-#define CAPSULESHANDLER_UPDATELISTS_OFFSET UNITYSDK_OFFSET(0x1B35E440)
-#define CAPSULESHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B35EFA0)
-#define CAPSULESHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35E1C0)
+#define CAPSULESHANDLER_ADDCHARACTER_OFFSET UNITYSDK_OFFSET(0x1D4D0FE0)
+#define CAPSULESHANDLER_CONTAINSCHARACTER_OFFSET UNITYSDK_OFFSET(0x1D4D10F0)
+#define CAPSULESHANDLER_DISPOSEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1D4D1A60)
+#define CAPSULESHANDLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D4D0E80)
+#define CAPSULESHANDLER_INITIALIZEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1D4D1800)
+#define CAPSULESHANDLER_REMOVECHARACTER_OFFSET UNITYSDK_OFFSET(0x1D4D1630)
+#define CAPSULESHANDLER_RESET_OFFSET UNITYSDK_OFFSET(0x1D4D1760)
+#define CAPSULESHANDLER_UPDATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1D4D1AD0)
+#define CAPSULESHANDLER_UPDATECHARACTERSHADOWS_OFFSET UNITYSDK_OFFSET(0x1D4D1B40)
+#define CAPSULESHANDLER_UPDATELISTS_OFFSET UNITYSDK_OFFSET(0x1D4D1180)
+#define CAPSULESHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4D1CE0)
+#define CAPSULESHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D0F00)
 
-inline static constexpr unsigned int CapsulesHandler_TypeDefinitionIndex = 29611;
+inline static constexpr unsigned int CapsulesHandler_TypeDefinitionIndex = 26633;
 
 class CapsulesHandler : public ::System::Object
 {
 public:
 	static ::CapsulesHandler** StaticGet_instance()
 	{
-		return (::CapsulesHandler**)Il2CppClass::FromTypeDefinitionIndex(CapsulesHandler_TypeDefinitionIndex)->GetStaticField(0x247A0);
+		return (::CapsulesHandler**)Il2CppClass::FromTypeDefinitionIndex(CapsulesHandler_TypeDefinitionIndex)->GetStaticField(0x22030);
 	}
 	static ::System::Boolean* StaticGet_capsuleAOCharacterExists()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CapsulesHandler_TypeDefinitionIndex)->GetStaticField(0x72A0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CapsulesHandler_TypeDefinitionIndex)->GetStaticField(0x6FE0);
 	}
-	::System::Collections::Generic::List_1<::Character>* Characters; // 0x10
+	::UnityEngine::ComputeBuffer* charactersBuffer; // 0x10
 	::System::Collections::Generic::List_1<::Capsule>* Capsules; // 0x18
-	::UnityEngine::ComputeBuffer* charactersBuffer; // 0x20
-	::System::Collections::Generic::List_1<::MonoRenderEntity*>* CharacterShadows; // 0x28
-	::UnityEngine::ComputeBuffer* capsulesBuffer; // 0x30
+	::System::Collections::Generic::List_1<::MonoRenderEntity*>* CharacterShadows; // 0x20
+	::UnityEngine::ComputeBuffer* capsulesBuffer; // 0x28
+	::System::Collections::Generic::List_1<::Character>* Characters; // 0x30
 
 	::System::Void _ctor()
 	{

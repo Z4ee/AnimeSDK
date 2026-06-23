@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UICoopMatchPageController; }
 
-#define MOLEMOLE_UICOOPMATCHPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13E71280)
-#define MOLEMOLE_UICOOPMATCHPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x13E71290)
+#define MOLEMOLE_UICOOPMATCHPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B71240)
+#define MOLEMOLE_UICOOPMATCHPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x15B71250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopMatchPageController___c__DisplayClass6_0_TypeDefinitionIndex = 81683;
+	inline static constexpr unsigned int UICoopMatchPageController___c__DisplayClass6_0_TypeDefinitionIndex = 44199;
 
 	class UICoopMatchPageController___c__DisplayClass6_0 : public ::System::Object
 	{

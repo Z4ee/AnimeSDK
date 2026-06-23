@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_SILENCEDATAPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1B061500)
+#define FOUNDATION_SILENCEDATAPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E7890)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SilenceDataPart_TypeDefinitionIndex = 8152;
+	inline static constexpr unsigned int SilenceDataPart_TypeDefinitionIndex = 7830;
 
 	class SilenceDataPart : public ::System::Object
 	{

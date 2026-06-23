@@ -6,10 +6,10 @@ class Class_1_B46798A9584868B1;
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_E593D09458ED939D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1328F610)
-#define CLASS_1_E593D09458ED939D__CTOR_OFFSET UNITYSDK_OFFSET(0x1328F600)
+#define CLASS_1_E593D09458ED939D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1451B230)
+#define CLASS_1_E593D09458ED939D__CTOR_OFFSET UNITYSDK_OFFSET(0x1451B220)
 
-inline static constexpr unsigned int Class_1_E593D09458ED939D_TypeDefinitionIndex = 48648;
+inline static constexpr unsigned int Class_1_E593D09458ED939D_TypeDefinitionIndex = 45926;
 
 class Class_1_E593D09458ED939D : public ::System::Object
 {

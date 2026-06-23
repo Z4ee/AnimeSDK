@@ -9,7 +9,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace PipelineCamera::Blender
 {
-	inline static constexpr unsigned int AnimationCurveBlenderBuilder_2_TypeDefinitionIndex = 36383;
+	inline static constexpr unsigned int AnimationCurveBlenderBuilder_2_TypeDefinitionIndex = 37991;
 
 	template <typename TReverseKey, typename TPriority>
 	class AnimationCurveBlenderBuilder_2 : public ::PipelineCamera::CameraDataBlenderBuilder_1<TPriority>

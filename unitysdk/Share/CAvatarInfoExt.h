@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SHARE_CAVATARINFOEXT_GETRANKBYLEVEL_OFFSET UNITYSDK_OFFSET(0x1907BB70)
+#define SHARE_CAVATARINFOEXT_GETRANKBYLEVEL_OFFSET UNITYSDK_OFFSET(0x1DAA4A50)
 
 namespace Share
 {
-	inline static constexpr unsigned int CAvatarInfoExt_TypeDefinitionIndex = 13062;
+	inline static constexpr unsigned int CAvatarInfoExt_TypeDefinitionIndex = 16347;
 
 	class CAvatarInfoExt : public ::System::Object
 	{

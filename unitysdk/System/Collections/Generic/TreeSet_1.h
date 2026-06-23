@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int TreeSet_1_TypeDefinitionIndex = 3974;
+	inline static constexpr unsigned int TreeSet_1_TypeDefinitionIndex = 3973;
 
 	template <typename T>
 	class TreeSet_1 : public ::System::Collections::Generic::SortedSet_1<T>

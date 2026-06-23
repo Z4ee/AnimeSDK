@@ -5,18 +5,18 @@
 
 namespace MoleMole { class UIAutoBattleRuleDialogPopWindowController; }
 
-#define MOLEMOLE_UIAUTOBATTLERULEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16457C70)
-#define MOLEMOLE_UIAUTOBATTLERULEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__SETUPTABS_B__0_OFFSET UNITYSDK_OFFSET(0x16458EB0)
+#define MOLEMOLE_UIAUTOBATTLERULEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4F5E0)
+#define MOLEMOLE_UIAUTOBATTLERULEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__SETUPTABS_B__0_OFFSET UNITYSDK_OFFSET(0x18A50810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 75471;
+	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 78784;
 
 	class UIAutoBattleRuleDialogPopWindowController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAutoBattleRuleDialogPopWindowController_TabData tabData; // 0x10
-		::MoleMole::UIAutoBattleRuleDialogPopWindowController* __4__this; // 0x20
+		::MoleMole::UIAutoBattleRuleDialogPopWindowController* __4__this; // 0x10
+		::MoleMole::UIAutoBattleRuleDialogPopWindowController_TabData tabData; // 0x18
 
 		::System::Void _ctor()
 		{

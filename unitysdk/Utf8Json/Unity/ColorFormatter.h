@@ -8,19 +8,19 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json::Internal { class AutomataDictionary; }
 
-#define UTF8JSON_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C002200)
-#define UTF8JSON_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C001E20)
-#define UTF8JSON_UNITY_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C001A60)
+#define UTF8JSON_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E319FA0)
+#define UTF8JSON_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E319BC0)
+#define UTF8JSON_UNITY_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E319800)
 
 namespace Utf8Json::Unity
 {
-	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 85525;
+	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 91099;
 
 	class ColorFormatter : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Il2CppArray<::System::Byte>*>* ____stringByteKeys; // 0x10
-		::Utf8Json::Internal::AutomataDictionary* ____keyMapping; // 0x18
+		::Utf8Json::Internal::AutomataDictionary* ____keyMapping; // 0x10
+		::Il2CppArray<::Il2CppArray<::System::Byte>*>* ____stringByteKeys; // 0x18
 
 		::System::Void _ctor()
 		{

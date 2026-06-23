@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Spine
 {
-	inline static constexpr unsigned int HashSetExtensions_TypeDefinitionIndex = 31291;
+	inline static constexpr unsigned int HashSetExtensions_TypeDefinitionIndex = 32842;
 
 	class HashSetExtensions : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int ImmutableList_1_TypeDefinitionIndex = 6451;
+	inline static constexpr unsigned int ImmutableList_1_TypeDefinitionIndex = 6496;
 
 	template <typename T>
 	class ImmutableList_1 : public ::System::Object

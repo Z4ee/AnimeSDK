@@ -3,61 +3,61 @@
 #include "unitysdk/Struct_2_DEFBC4F1D068893B.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_172;
-class Class_0_16E4307DCC419505_196;
+class Class_0_16E4307DCC419505_201;
+class Class_0_16E4307DCC419505_203;
 class Class_1_E43D938AEBE01021;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E7D8D0)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E7D910)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__GENRECOMMENDSHOPTABDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0x12E7DD80)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__GENRECOMMENDSHOPTABDATA_B__66_1_OFFSET UNITYSDK_OFFSET(0x12E7DE10)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__ONMAINBTNCLICKED_B__164_0_OFFSET UNITYSDK_OFFSET(0x12E7DE30)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0x12E7DA90)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_1_OFFSET UNITYSDK_OFFSET(0x12E7DC10)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_0_OFFSET UNITYSDK_OFFSET(0x12E7D920)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_1_OFFSET UNITYSDK_OFFSET(0x12E7D930)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C25880)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C258C0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__GENRECOMMENDSHOPTABDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0x15C25D30)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__GENRECOMMENDSHOPTABDATA_B__66_1_OFFSET UNITYSDK_OFFSET(0x15C25DC0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__ONMAINBTNCLICKED_B__164_0_OFFSET UNITYSDK_OFFSET(0x15C25DE0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0x15C25A40)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_1_OFFSET UNITYSDK_OFFSET(0x15C25BC0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_0_OFFSET UNITYSDK_OFFSET(0x15C258D0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_1_OFFSET UNITYSDK_OFFSET(0x15C258E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallV2PageController___c_TypeDefinitionIndex = 57211;
+	inline static constexpr unsigned int UIShoppingMallV2PageController___c_TypeDefinitionIndex = 40684;
 
 	class UIShoppingMallV2PageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__164_0()
+		static ::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::Boolean>** StaticGet___9__66_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F160);
+			return (::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x41780);
 		}
 		static ::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::UInt32>** StaticGet___9__66_1()
 		{
-			return (::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F168);
+			return (::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x41788);
+		}
+		static ::System::Func_2<::Class_0_16E4307DCC419505_201*, ::System::UInt32>** StaticGet___9__37_1()
+		{
+			return (::System::Func_2<::Class_0_16E4307DCC419505_201*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x41790);
 		}
 		static ::MoleMole::UIShoppingMallV2PageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIShoppingMallV2PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F170);
+			return (::MoleMole::UIShoppingMallV2PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x41798);
 		}
-		static ::System::Comparison_1<::Class_0_16E4307DCC419505_172*>** StaticGet___9__51_0()
+		static ::System::Comparison_1<::Class_0_16E4307DCC419505_203*>** StaticGet___9__51_0()
 		{
-			return (::System::Comparison_1<::Class_0_16E4307DCC419505_172*>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F178);
+			return (::System::Comparison_1<::Class_0_16E4307DCC419505_203*>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x417A0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_196*, ::System::UInt32>** StaticGet___9__37_1()
+		static ::System::Action** StaticGet___9__164_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_196*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F180);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x417A8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_196*, ::System::Boolean>** StaticGet___9__37_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_201*, ::System::Boolean>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_196*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F188);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_201*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x417B0);
 		}
 		static ::System::Comparison_1<::Struct_2_DEFBC4F1D068893B>** StaticGet___9__51_1()
 		{
-			return (::System::Comparison_1<::Struct_2_DEFBC4F1D068893B>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F190);
-		}
-		static ::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::Boolean>** StaticGet___9__66_0()
-		{
-			return (::System::Func_2<::Class_1_E43D938AEBE01021*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x3F198);
+			return (::System::Comparison_1<::Struct_2_DEFBC4F1D068893B>**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x417B8);
 		}
 
 		static ::System::Void _cctor()
@@ -70,19 +70,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetCurGoodsList_b__37_0(::Class_0_16E4307DCC419505_196* x)
+		::System::Boolean _SetCurGoodsList_b__37_0(::Class_0_16E4307DCC419505_201* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_196*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_201*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_0_OFFSET))(this, x);
 		}
 
-		::System::UInt32 _SetCurGoodsList_b__37_1(::Class_0_16E4307DCC419505_196* x)
+		::System::UInt32 _SetCurGoodsList_b__37_1(::Class_0_16E4307DCC419505_201* x)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_0_16E4307DCC419505_196*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_1_OFFSET))(this, x);
+			return ((::System::UInt32(*)(::PVOID, ::Class_0_16E4307DCC419505_201*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__SETCURGOODSLIST_B__37_1_OFFSET))(this, x);
 		}
 
-		::System::Int32 _RefreshMainTabData_b__51_0(::Class_0_16E4307DCC419505_172* x, ::Class_0_16E4307DCC419505_172* y)
+		::System::Int32 _RefreshMainTabData_b__51_0(::Class_0_16E4307DCC419505_203* x, ::Class_0_16E4307DCC419505_203* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_172*, ::Class_0_16E4307DCC419505_172*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_203*, ::Class_0_16E4307DCC419505_203*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__REFRESHMAINTABDATA_B__51_0_OFFSET))(this, x, y);
 		}
 
 		::System::Int32 _RefreshMainTabData_b__51_1(::Struct_2_DEFBC4F1D068893B x, ::Struct_2_DEFBC4F1D068893B y)

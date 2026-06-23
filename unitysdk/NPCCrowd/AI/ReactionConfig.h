@@ -11,7 +11,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConfig_TypeDefinitionIndex = 71560;
+	inline static constexpr unsigned int ReactionConfig_TypeDefinitionIndex = 75781;
 
 	struct alignas(8) ReactionConfig
 	{

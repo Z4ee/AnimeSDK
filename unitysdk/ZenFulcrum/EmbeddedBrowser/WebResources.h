@@ -7,30 +7,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::IO { class FileInfo; }
 namespace ZenFulcrum::EmbeddedBrowser { class WebResources_ResponsePreamble; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1C41B7A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDEND_OFFSET UNITYSDK_OFFSET(0x1C41B9C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDERROR_OFFSET UNITYSDK_OFFSET(0x1C41BC80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDFILE_OFFSET UNITYSDK_OFFSET(0x1C41BE00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDPREAMBLE_OFFSET UNITYSDK_OFFSET(0x1C41B160)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_1_OFFSET UNITYSDK_OFFSET(0x1C41BB00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_OFFSET UNITYSDK_OFFSET(0x1C41B0C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C41BF00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41BEF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1E763650)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDEND_OFFSET UNITYSDK_OFFSET(0x1E763870)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDERROR_OFFSET UNITYSDK_OFFSET(0x1E763B30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDFILE_OFFSET UNITYSDK_OFFSET(0x1E763CB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDPREAMBLE_OFFSET UNITYSDK_OFFSET(0x1E763010)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_1_OFFSET UNITYSDK_OFFSET(0x1E7639B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_SENDRESPONSE_OFFSET UNITYSDK_OFFSET(0x1E762F70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E763DB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E763DA0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int WebResources_TypeDefinitionIndex = 31201;
+	inline static constexpr unsigned int WebResources_TypeDefinitionIndex = 32752;
 
 	class WebResources : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_statusTexts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebResources_TypeDefinitionIndex)->GetStaticField(0x25600);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebResources_TypeDefinitionIndex)->GetStaticField(0x27070);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_extensionMimeTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebResources_TypeDefinitionIndex)->GetStaticField(0x25608);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebResources_TypeDefinitionIndex)->GetStaticField(0x27078);
 		}
 
 		::System::Void _ctor()

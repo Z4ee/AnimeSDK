@@ -3,13 +3,13 @@
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int ELiveHouseTrackHeadEmojiType_TypeDefinitionIndex = 49395;
+	inline static constexpr unsigned int ELiveHouseTrackHeadEmojiType_TypeDefinitionIndex = 55349;
 
 	enum class ELiveHouseTrackHeadEmojiType : ::System::Int32
 	{
-		None = 0,
-		Miss = 3,
-		Trigger = 2,
 		Idle = 1,
+		Miss = 3,
+		None = 0,
+		Trigger = 2,
 	};
 }

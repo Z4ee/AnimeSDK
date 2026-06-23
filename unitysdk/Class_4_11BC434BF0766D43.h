@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_270194760B058114.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+
+class Class_0_16E4307DCC419505_234;
+class Class_3_8840398725162854_1;
+
+#define CLASS_4_11BC434BF0766D43_METHOD_4_36F46336ADA62D13_OFFSET UNITYSDK_OFFSET(0x179F95B0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_3E4243BB348DE0D4_OFFSET UNITYSDK_OFFSET(0x179F9C10)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_461891F0FA20B457_OFFSET UNITYSDK_OFFSET(0x179F9390)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0x179F99D0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_5290C94396B890B8_OFFSET UNITYSDK_OFFSET(0x179F8D90)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_8E7D1357398C4F33_OFFSET UNITYSDK_OFFSET(0x179F9C20)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_96189EDEF38976A6_OFFSET UNITYSDK_OFFSET(0x179F9620)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_1_OFFSET UNITYSDK_OFFSET(0x179F92E0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_2_OFFSET UNITYSDK_OFFSET(0x179F93A0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_3_OFFSET UNITYSDK_OFFSET(0x179F94B0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_4_OFFSET UNITYSDK_OFFSET(0x179F9C30)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_OFFSET UNITYSDK_OFFSET(0x179F9050)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_A7E04F0A3F9FE840_OFFSET UNITYSDK_OFFSET(0x179F8EC0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_C1D3BDE2A17F5C9D_OFFSET UNITYSDK_OFFSET(0x179F90F0)
+#define CLASS_4_11BC434BF0766D43_METHOD_4_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x179F94A0)
+#define CLASS_4_11BC434BF0766D43__CTOR_OFFSET UNITYSDK_OFFSET(0x179F9200)
+
+inline static constexpr unsigned int Class_4_11BC434BF0766D43_TypeDefinitionIndex = 85195;
+
+class Class_4_11BC434BF0766D43 : public ::Class_3_270194760B058114
+{
+public:
+	::System::Boolean Field_4_2; // 0xA0
+	::System::Boolean Field_4_1; // 0xA1
+	::System::Boolean Field_4_0; // 0xA2
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_5290C94396B890B8(::Class_3_8840398725162854_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_8840398725162854_1*))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_5290C94396B890B8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_A7E04F0A3F9FE840(::Class_0_16E4307DCC419505_234* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_234*))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_A7E04F0A3F9FE840_OFFSET))(this, a1);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_4_9C3D8ED2211D368B(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_C1D3BDE2A17F5C9D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_C1D3BDE2A17F5C9D_OFFSET))(this);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_4_9C3D8ED2211D368B_1(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_461891F0FA20B457(::Class_0_16E4307DCC419505_234* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_234*))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_461891F0FA20B457_OFFSET))(this, a1);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_4_9C3D8ED2211D368B_2(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_2_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_4_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_4_9C3D8ED2211D368B_3(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_36F46336ADA62D13()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_36F46336ADA62D13_OFFSET))(this);
+	}
+
+	::System::Void Method_4_4805283D59625FD9()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_4805283D59625FD9_OFFSET))(this);
+	}
+
+	::System::Void Method_4_96189EDEF38976A6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_96189EDEF38976A6_OFFSET))(this);
+	}
+
+	::System::Void Method_4_3E4243BB348DE0D4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_3E4243BB348DE0D4_OFFSET))(this);
+	}
+
+	::System::Void Method_4_8E7D1357398C4F33(::Class_3_8840398725162854_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_8840398725162854_1*))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_8E7D1357398C4F33_OFFSET))(this, a1);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_4_9C3D8ED2211D368B_4(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_11BC434BF0766D43_METHOD_4_9C3D8ED2211D368B_4_OFFSET))(this, a1);
+	}
+};

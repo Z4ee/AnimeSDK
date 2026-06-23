@@ -7,20 +7,20 @@
 
 namespace MiHoYo::SDK { class JSONObject; }
 
-#define MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1AA88D50)
-#define MIHOYO_SDK_SDKGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA89130)
-#define MIHOYO_SDK_SDKGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA89120)
+#define MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1CE814E0)
+#define MIHOYO_SDK_SDKGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE818C0)
+#define MIHOYO_SDK_SDKGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE818B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SdkGeneralReport_TypeDefinitionIndex = 35310;
+	inline static constexpr unsigned int SdkGeneralReport_TypeDefinitionIndex = 36874;
 
 	class SdkGeneralReport : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::SdkGeneralReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::SdkGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(SdkGeneralReport_TypeDefinitionIndex)->GetStaticField(0x26D50);
+			return (::MiHoYo::SDK::SdkGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(SdkGeneralReport_TypeDefinitionIndex)->GetStaticField(0x289D0);
 		}
 
 		::System::Void _ctor()

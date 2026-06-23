@@ -7,21 +7,21 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class ChessBoardIconAnimItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x11CA63A0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x11CA6320)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA6420)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x19298560)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x192984E0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDICONANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x192985E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardIconAnim_TypeDefinitionIndex = 41572;
+	inline static constexpr unsigned int ConfigChessboardIconAnim_TypeDefinitionIndex = 50288;
 
 	class ConfigChessboardIconAnim : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::Collections::Generic::List_1<::MoleMole::Config::ChessBoardIconAnimItem*>* ChessBoardIconAnimGroup; // 0x18
-		::System::Boolean UseSpecific; // 0x20
+		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x20
 		::System::Single OverrideWaitTime; // 0x24
-		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x28
+		::System::Boolean UseSpecific; // 0x28
 
 		::System::Void _ctor()
 		{

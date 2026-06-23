@@ -3,27 +3,27 @@
 #include "unitysdk/MoleMole/UIFriendChatSpecialWidgetController_ForumPostDataResult.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_920D00A4D2C57DD8_4;
+class Class_3_920D00A4D2C57DD8_18;
 namespace MoleMole { class UIFriendChatSpecialWidgetController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1579CDC0)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1579CDD0)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x1579D0C0)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x1579D260)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17715A70)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17715A80)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x17715D30)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS39_0__INITSHARESELFFORUMPOSTUIVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x17715EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass39_0_TypeDefinitionIndex = 68399;
+	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass39_0_TypeDefinitionIndex = 84088;
 
 	class UIFriendChatSpecialWidgetController___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::Class_3_920D00A4D2C57DD8_4* forumPost; // 0x10
-		::MoleMole::UIFriendChatSpecialWidgetController* __4__this; // 0x18
+		::System::Action_1<::MoleMole::UIFriendChatSpecialWidgetController_ForumPostDataResult>* __9__2; // 0x10
+		::Class_3_920D00A4D2C57DD8_18* forumPost; // 0x18
 		::UnityEngine::Events::UnityAction* __9__1; // 0x20
-		::System::Action_1<::MoleMole::UIFriendChatSpecialWidgetController_ForumPostDataResult>* __9__2; // 0x28
+		::MoleMole::UIFriendChatSpecialWidgetController* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

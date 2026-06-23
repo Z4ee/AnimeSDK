@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTPARAMETERVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A3344D0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTPARAMETERVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3344C0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTPARAMETERVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C6E21F0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTPARAMETERVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E21E0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DefaultParameterValueAttribute_TypeDefinitionIndex = 3124;
+	inline static constexpr unsigned int DefaultParameterValueAttribute_TypeDefinitionIndex = 3123;
 
 	class DefaultParameterValueAttribute : public ::System::Attribute
 	{

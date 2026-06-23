@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorControllerParamResolver_1_TypeDefinitionIndex = 77670;
+	inline static constexpr unsigned int AnimatorControllerParamResolver_1_TypeDefinitionIndex = 86031;
 
 	template <typename TParam>
 	class AnimatorControllerParamResolver_1 : public ::System::MulticastDelegate

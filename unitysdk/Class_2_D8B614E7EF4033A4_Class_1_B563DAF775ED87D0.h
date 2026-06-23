@@ -6,17 +6,17 @@ class Class_2_D8B614E7EF4033A4;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class Action; }
 
-#define CLASS_2_D8B614E7EF4033A4_CLASS_1_B563DAF775ED87D0_METHOD_1_1C9F2AB4D7ED3ADD_OFFSET UNITYSDK_OFFSET(0x16259720)
-#define CLASS_2_D8B614E7EF4033A4_CLASS_1_B563DAF775ED87D0__CTOR_OFFSET UNITYSDK_OFFSET(0x16259710)
+#define CLASS_2_D8B614E7EF4033A4_CLASS_1_B563DAF775ED87D0_METHOD_1_1C9F2AB4D7ED3ADD_OFFSET UNITYSDK_OFFSET(0x1598E9F0)
+#define CLASS_2_D8B614E7EF4033A4_CLASS_1_B563DAF775ED87D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1598E9E0)
 
-inline static constexpr unsigned int Class_2_D8B614E7EF4033A4_Class_1_B563DAF775ED87D0_TypeDefinitionIndex = 68894;
+inline static constexpr unsigned int Class_2_D8B614E7EF4033A4_Class_1_B563DAF775ED87D0_TypeDefinitionIndex = 44481;
 
 class Class_2_D8B614E7EF4033A4_Class_1_B563DAF775ED87D0 : public ::System::Object
 {
 public:
-	::Class_2_D8B614E7EF4033A4* Field_1_2; // 0x10
-	::MoleMole::Battle::Entity* Field_1_1; // 0x18
-	::MoleMole::Battle::Entity* Field_1_0; // 0x20
+	::MoleMole::Battle::Entity* Field_1_0; // 0x10
+	::Class_2_D8B614E7EF4033A4* Field_1_2; // 0x18
+	::MoleMole::Battle::Entity* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

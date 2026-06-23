@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int MinimumQueue_1_TypeDefinitionIndex = 28819;
+	inline static constexpr unsigned int MinimumQueue_1_TypeDefinitionIndex = 31475;
 
 	template <typename T>
 	class MinimumQueue_1 : public ::System::Object

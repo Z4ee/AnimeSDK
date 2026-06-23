@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/SimplexNode.h"
 
-#define FLOWCANVAS_NODES_PUREFUNCTIONNODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F3F80)
+#define FLOWCANVAS_NODES_PUREFUNCTIONNODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C61FDB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureFunctionNodeBase_TypeDefinitionIndex = 26629;
+	inline static constexpr unsigned int PureFunctionNodeBase_TypeDefinitionIndex = 29539;
 
 	class PureFunctionNodeBase : public ::FlowCanvas::Nodes::SimplexNode
 	{

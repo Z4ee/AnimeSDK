@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x190D2060)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190D24A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1AF14C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF150C0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SceneTwistConfig_TypeDefinitionIndex = 30311;
+	inline static constexpr unsigned int SceneTwistConfig_TypeDefinitionIndex = 26991;
 
 	class SceneTwistConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SceneTwistConfig*>
 	{

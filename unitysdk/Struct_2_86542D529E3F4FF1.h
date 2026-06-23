@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-inline static constexpr unsigned int Struct_2_86542D529E3F4FF1_TypeDefinitionIndex = 58029;
+inline static constexpr unsigned int Struct_2_86542D529E3F4FF1_TypeDefinitionIndex = 87357;
 
 struct alignas(8) Struct_2_86542D529E3F4FF1
 {

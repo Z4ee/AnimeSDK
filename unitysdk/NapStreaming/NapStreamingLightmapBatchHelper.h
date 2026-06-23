@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPBATCHHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11D98FC0)
-#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPBATCHHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11D99280)
+#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPBATCHHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11373D90)
+#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPBATCHHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11374050)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingLightmapBatchHelper_TypeDefinitionIndex = 56574;
+	inline static constexpr unsigned int NapStreamingLightmapBatchHelper_TypeDefinitionIndex = 58558;
 
 	class NapStreamingLightmapBatchHelper : public ::UnityEngine::MonoBehaviour
 	{

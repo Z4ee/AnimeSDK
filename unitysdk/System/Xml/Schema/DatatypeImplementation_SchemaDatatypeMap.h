@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Xml::Schema { class DatatypeImplementation; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1B29EC40)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1B29EC20)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B29EC10)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B29EC00)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D654A80)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1D654A60)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D654A50)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_SCHEMADATATYPEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D654A40)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int DatatypeImplementation_SchemaDatatypeMap_TypeDefinitionIndex = 1988;
+	inline static constexpr unsigned int DatatypeImplementation_SchemaDatatypeMap_TypeDefinitionIndex = 1987;
 
 	class DatatypeImplementation_SchemaDatatypeMap : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::DatatypeImplementation* type; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::System::Xml::Schema::DatatypeImplementation* type; // 0x18
 		::System::Int32 parentIndex; // 0x20
 
 		::System::Void _ctor(::System::String* name, ::System::Xml::Schema::DatatypeImplementation* type)

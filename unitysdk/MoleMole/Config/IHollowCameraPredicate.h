@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IHollowCameraPredicate_TypeDefinitionIndex = 45056;
+	inline static constexpr unsigned int IHollowCameraPredicate_TypeDefinitionIndex = 55548;
 
 	class IHollowCameraPredicate
 	{

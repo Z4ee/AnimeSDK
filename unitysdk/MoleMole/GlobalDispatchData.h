@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GLOBALDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17812630)
+#define MOLEMOLE_GLOBALDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182E3E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlobalDispatchData_TypeDefinitionIndex = 38230;
+	inline static constexpr unsigned int GlobalDispatchData_TypeDefinitionIndex = 62928;
 
 	class GlobalDispatchData : public ::System::Object
 	{

@@ -7,18 +7,18 @@
 namespace MoleMole { class UITriDiceOracleDialogPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PERFORMSECONDSTEP_D__56_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x791E80)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PERFORMSECONDSTEP_D__56_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PERFORMSECONDSTEP_D__56_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81C390)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PERFORMSECONDSTEP_D__56_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__PerformSecondStep_d__56_TypeDefinitionIndex = 53819;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__PerformSecondStep_d__56_TypeDefinitionIndex = 45205;
 
 	struct alignas(8) UITriDiceOracleDialogPopWindowController__PerformSecondStep_d__56
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::MoleMole::UITriDiceOracleDialogPopWindowController* __4__this; // 0x30
+		::MoleMole::UITriDiceOracleDialogPopWindowController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

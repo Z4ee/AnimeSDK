@@ -5,18 +5,18 @@
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1A47DBE0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47DBD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1C7BA8C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BA8B0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReaderInterpreter_ReaderCallbackInfo_TypeDefinitionIndex = 1911;
+	inline static constexpr unsigned int XmlSerializationReaderInterpreter_ReaderCallbackInfo_TypeDefinitionIndex = 1910;
 
 	class XmlSerializationReaderInterpreter_ReaderCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x10
-		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x18
+		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x10
+		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x18
 
 		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::XmlTypeMapping* typeMap)
 		{

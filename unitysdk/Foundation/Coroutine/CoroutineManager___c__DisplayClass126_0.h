@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A75F0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1C1A7600)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F11A0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1E4F11B0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass126_0_TypeDefinitionIndex = 7854;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass126_0_TypeDefinitionIndex = 8014;
 
 	class CoroutineManager___c__DisplayClass126_0 : public ::System::Object
 	{

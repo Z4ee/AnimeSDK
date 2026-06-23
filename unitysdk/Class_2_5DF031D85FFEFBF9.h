@@ -11,27 +11,27 @@ namespace UnityEngine { class TextMesh; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 template <typename T> class Class_2_0D31A1661D004892;
 
-#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x1247DA90)
-#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_5A4C962718782000_OFFSET UNITYSDK_OFFSET(0x1247D860)
-#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1247DB20)
-#define CLASS_2_5DF031D85FFEFBF9__CTOR_OFFSET UNITYSDK_OFFSET(0x1247DB10)
+#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x17AFB0C0)
+#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_5A4C962718782000_OFFSET UNITYSDK_OFFSET(0x17AFAE90)
+#define CLASS_2_5DF031D85FFEFBF9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x17AFB150)
+#define CLASS_2_5DF031D85FFEFBF9__CTOR_OFFSET UNITYSDK_OFFSET(0x17AFB140)
 
-inline static constexpr unsigned int Class_2_5DF031D85FFEFBF9_TypeDefinitionIndex = 70667;
+inline static constexpr unsigned int Class_2_5DF031D85FFEFBF9_TypeDefinitionIndex = 83056;
 
 class Class_2_5DF031D85FFEFBF9 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::TextMesh* Field_2_3; // 0x18
-	::UnityEngine::TextMesh* Field_2_6; // 0x20
-	::UnityEngine::Camera* Field_2_1; // 0x28
-	::Class_2_0D31A1661D004892<::Class_2_5DF031D85FFEFBF9_Class_2_40AC881AC36B2F6D_5*>* Field_2_9; // 0x30
-	::UnityEngine::TextMesh* Field_2_8; // 0x38
+	::UnityEngine::GameObject* Field_2_10; // 0x18
+	::UnityEngine::Playables::PlayableDirector* Field_2_0; // 0x20
+	::UnityEngine::TextMesh* Field_2_6; // 0x28
+	::UnityEngine::TextMesh* Field_2_5; // 0x30
+	::UnityEngine::Camera* Field_2_1; // 0x38
 	::UnityEngine::TextMesh* Field_2_2; // 0x40
-	::UnityEngine::Playables::PlayableDirector* Field_2_0; // 0x48
-	::UnityEngine::GameObject* Field_2_10; // 0x50
+	::UnityEngine::TextMesh* Field_2_8; // 0x48
+	::UnityEngine::TextMesh* Field_2_3; // 0x50
 	::UnityEngine::TextMesh* Field_2_7; // 0x58
 	::UnityEngine::TextMesh* Field_2_4; // 0x60
-	::UnityEngine::TextMesh* Field_2_5; // 0x68
+	::Class_2_0D31A1661D004892<::Class_2_5DF031D85FFEFBF9_Class_2_40AC881AC36B2F6D_5*>* Field_2_9; // 0x68
 
 	::System::Void _ctor()
 	{

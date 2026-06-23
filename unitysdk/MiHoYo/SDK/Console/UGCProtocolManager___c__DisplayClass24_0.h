@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console { class UGCProtocolManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB8490)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS24_0__REQUESTAGREEMENTSTATUS_B__0_OFFSET UNITYSDK_OFFSET(0x18DB84A0)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A992CA0)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER___C__DISPLAYCLASS24_0__REQUESTAGREEMENTSTATUS_B__0_OFFSET UNITYSDK_OFFSET(0x1A992CB0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int UGCProtocolManager___c__DisplayClass24_0_TypeDefinitionIndex = 19543;
+	inline static constexpr unsigned int UGCProtocolManager___c__DisplayClass24_0_TypeDefinitionIndex = 20704;
 
 	class UGCProtocolManager___c__DisplayClass24_0 : public ::System::Object
 	{

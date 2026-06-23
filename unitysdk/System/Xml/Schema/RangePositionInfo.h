@@ -7,7 +7,7 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int RangePositionInfo_TypeDefinitionIndex = 1979;
+	inline static constexpr unsigned int RangePositionInfo_TypeDefinitionIndex = 1978;
 
 	struct alignas(8) RangePositionInfo
 	{

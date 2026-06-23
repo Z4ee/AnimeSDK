@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int IDTGroupParsingAttribute_TypeDefinitionIndex = 25813;
+	inline static constexpr unsigned int IDTGroupParsingAttribute_TypeDefinitionIndex = 28307;
 
 	class IDTGroupParsingAttribute
 	{

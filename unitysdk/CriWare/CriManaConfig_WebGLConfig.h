@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIMANACONFIG_WEBGLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E80B0)
+#define CRIWARE_CRIMANACONFIG_WEBGLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E403840)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaConfig_WebGLConfig_TypeDefinitionIndex = 32815;
+	inline static constexpr unsigned int CriManaConfig_WebGLConfig_TypeDefinitionIndex = 34368;
 
 	class CriManaConfig_WebGLConfig : public ::System::Object
 	{

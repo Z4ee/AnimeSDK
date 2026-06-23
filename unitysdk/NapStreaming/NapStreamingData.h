@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/NapStreaming/AdditionLockLevel.h"
 #include "unitysdk/NapStreaming/StreamingCommand.h"
 #include "unitysdk/NapStreaming/StreamingGridJobData.h"
 #include "unitysdk/NapStreaming/StreamingLayer.h"
@@ -19,33 +20,36 @@ namespace NapStreaming { class NapStreamingData_StreamingPOIData; }
 namespace NapStreaming { class NapStreamingData_StreamingPVSData; }
 namespace NapStreaming { class NapStreamingData_StreamingViewportData; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_APPLYRESULT_OFFSET UNITYSDK_OFFSET(0xCD56E20)
-#define NAPSTREAMING_NAPSTREAMINGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD59210)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETLOADDISTANCECOEFFICIENT_OFFSET UNITYSDK_OFFSET(0xCD561E0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETMOVEVELOCITY_OFFSET UNITYSDK_OFFSET(0xCD563F0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETPVSINDEX_OFFSET UNITYSDK_OFFSET(0xCD55F30)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGASSETPATH_OFFSET UNITYSDK_OFFSET(0xCD56060)
-#define NAPSTREAMING_NAPSTREAMINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0xCD582A0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCD591C0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_POSUPDATE_OFFSET UNITYSDK_OFFSET(0xCD56830)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETGRIDSTATETHREADSAFE_OFFSET UNITYSDK_OFFSET(0xCD567A0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0xCD58E10)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0xCD58E70)
-#define NAPSTREAMING_NAPSTREAMINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD59590)
-#define NAPSTREAMING_NAPSTREAMINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD59520)
+#define NAPSTREAMING_NAPSTREAMINGDATA_ADDITIONALPOSUPDATE_OFFSET UNITYSDK_OFFSET(0xD44F770)
+#define NAPSTREAMING_NAPSTREAMINGDATA_APPLYRESULT_OFFSET UNITYSDK_OFFSET(0xD44DC60)
+#define NAPSTREAMING_NAPSTREAMINGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD450F90)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETGRIDSTATEUNSAFE_OFFSET UNITYSDK_OFFSET(0xD44D5D0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETLOADDISTANCECOEFFICIENT_OFFSET UNITYSDK_OFFSET(0xD44CF70)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETMOVEVELOCITY_OFFSET UNITYSDK_OFFSET(0xD44D180)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETPVSINDEX_OFFSET UNITYSDK_OFFSET(0xD44CCC0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGASSETPATH_OFFSET UNITYSDK_OFFSET(0xD44CDF0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0xD44FF80)
+#define NAPSTREAMING_NAPSTREAMINGDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD450F40)
+#define NAPSTREAMING_NAPSTREAMINGDATA_POSUPDATE_OFFSET UNITYSDK_OFFSET(0xD44D640)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETGRIDSTATETHREADSAFE_OFFSET UNITYSDK_OFFSET(0xD44D530)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0xD450B90)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0xD450BF0)
+#define NAPSTREAMING_NAPSTREAMINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xD451460)
+#define NAPSTREAMING_NAPSTREAMINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD451330)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_TypeDefinitionIndex = 68165;
+	inline static constexpr unsigned int NapStreamingData_TypeDefinitionIndex = 78658;
 
 	class NapStreamingData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Boolean* StaticGet_isMobileShadowOff()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingData_TypeDefinitionIndex)->GetStaticField(0x10050);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingData_TypeDefinitionIndex)->GetStaticField(0x10D00);
 		}
 		::System::Collections::Generic::List_1<::NapStreaming::NapStreamingData_StreamingLayerData*>* layers; // 0x18
 		::System::Collections::Generic::List_1<::NapStreaming::NapStreamingData_StreamingGridData*>* grids; // 0x20
@@ -69,9 +73,12 @@ namespace NapStreaming
 		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingLayerJobData> layerDatas; // 0xC0
 		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingState> gridStates; // 0xD0
 		::Unity::Collections::NativeArray_1<::System::Boolean> poiVisibleStates; // 0xE0
-		::Unity::Jobs::JobHandle updateHandle; // 0xF0
-		::System::Boolean dispatched; // 0x100
-		::System::Int32 poiIndex; // 0x104
+		::Unity::Collections::NativeArray_1<::NapStreaming::AdditionLockLevel> additionalLockStates; // 0xF0
+		::Unity::Jobs::JobHandle updateHandle; // 0x100
+		::System::Boolean dispatched; // 0x110
+		::System::Int32 poiIndex; // 0x114
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* additionalLoadChecks; // 0x118
+		::System::Collections::Generic::List_1<::System::Int32>* loadDoneAdditionalIds; // 0x120
 
 		::System::Void _ctor()
 		{
@@ -108,6 +115,11 @@ namespace NapStreaming
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::NapStreaming::StreamingState))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_SETGRIDSTATETHREADSAFE_OFFSET))(this, gridIndex, state);
 		}
 
+		::NapStreaming::StreamingState GetGridStateUnSafe(::System::Int32 gridIndex)
+		{
+			return ((::NapStreaming::StreamingState(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_GETGRIDSTATEUNSAFE_OFFSET))(this, gridIndex);
+		}
+
 		::System::Void PosUpdate(::UnityEngine::Vector3 cameraPos, ::System::Boolean checkVisible, ::System::Boolean checkPOI)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_POSUPDATE_OFFSET))(this, cameraPos, checkVisible, checkPOI);
@@ -116,6 +128,11 @@ namespace NapStreaming
 		::System::Void ApplyResult()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_APPLYRESULT_OFFSET))(this);
+		}
+
+		::System::Void AdditionalPosUpdate(::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>*& additionPositions, ::System::Boolean checkVisible)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_ADDITIONALPOSUPDATE_OFFSET))(this, additionPositions, checkVisible);
 		}
 
 		::System::Void Init()

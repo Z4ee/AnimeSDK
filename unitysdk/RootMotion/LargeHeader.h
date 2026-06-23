@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ROOTMOTION_LARGEHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C11D1C0)
-#define ROOTMOTION_LARGEHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11D170)
+#define ROOTMOTION_LARGEHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E44CB50)
+#define ROOTMOTION_LARGEHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E44CB00)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int LargeHeader_TypeDefinitionIndex = 36540;
+	inline static constexpr unsigned int LargeHeader_TypeDefinitionIndex = 38258;
 
 	class LargeHeader : public ::UnityEngine::PropertyAttribute
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EE0980)
+#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2DA5B0)
 
 namespace System::Threading
 {

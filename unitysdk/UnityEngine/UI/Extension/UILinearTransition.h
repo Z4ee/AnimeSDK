@@ -16,105 +16,105 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_CALCULATEFIXPIXELWIDTH_OFFSET UNITYSDK_OFFSET(0x1B164F20)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ENABLECANVASSHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0x1B163E00)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETCONNECTEDFAREDGE_OFFSET UNITYSDK_OFFSET(0x1B164410)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B165640)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETSTARTANDENDCORNERIDBYANGLE_OFFSET UNITYSDK_OFFSET(0x1B165220)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ISALLCLIPPED_OFFSET UNITYSDK_OFFSET(0x1B164340)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LERPANGLE_OFFSET UNITYSDK_OFFSET(0x1B165330)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x1B168070)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1B1647D0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_NORMALIZEANGLE_OFFSET UNITYSDK_OFFSET(0x1B1652C0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B164060)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B163FD0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1B1651A0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_START_OFFSET UNITYSDK_OFFSET(0x1B163EA0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B163F10)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1680B0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B163D00)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B168240)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B1682D0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_START_OFFSET UNITYSDK_OFFSET(0x1B1682E0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_CALCULATEFIXPIXELWIDTH_OFFSET UNITYSDK_OFFSET(0x1CB7F550)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ENABLECANVASSHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0x1CB7E430)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETCONNECTEDFAREDGE_OFFSET UNITYSDK_OFFSET(0x1CB7EA40)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CB7FC70)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_GETSTARTANDENDCORNERIDBYANGLE_OFFSET UNITYSDK_OFFSET(0x1CB7F850)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ISALLCLIPPED_OFFSET UNITYSDK_OFFSET(0x1CB7E970)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LERPANGLE_OFFSET UNITYSDK_OFFSET(0x1CB7F960)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x1CB826A0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1CB7EE00)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_NORMALIZEANGLE_OFFSET UNITYSDK_OFFSET(0x1CB7F8F0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CB7E690)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CB7E600)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1CB7F7D0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_START_OFFSET UNITYSDK_OFFSET(0x1CB7E4D0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB7E540)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB826E0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7E330)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CB82870)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CB82900)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION___BASE_START_OFFSET UNITYSDK_OFFSET(0x1CB82910)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILinearTransition_TypeDefinitionIndex = 39922;
+	inline static constexpr unsigned int UILinearTransition_TypeDefinitionIndex = 58922;
 
 	class UILinearTransition : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		static ::System::Int32* StaticGet_LineParameter3()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x118F0);
-		}
-		static ::System::Int32* StaticGet_RampColorA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x118F4);
-		}
-		static ::System::Int32* StaticGet_RampBlendModeId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x118F8);
-		}
 		static ::System::Int32* StaticGet_TintColorB()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x118FC);
-		}
-		static ::System::Int32* StaticGet_RampColorB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11900);
-		}
-		static ::System::Int32* StaticGet_RampDirectionId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11904);
-		}
-		static ::System::Int32* StaticGet_LineParameter2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11908);
-		}
-		static ::System::Int32* StaticGet_Ramp()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x1190C);
-		}
-		static ::System::Int32* StaticGet_RampTiling()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11910);
-		}
-		static ::System::Int32* StaticGet_LineParameter1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11914);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12480);
 		}
 		static ::System::Int32* StaticGet_RampOffset()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11918);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12484);
+		}
+		static ::System::Int32* StaticGet_RampBlendModeId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12488);
 		}
 		static ::System::Int32* StaticGet_LutTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x1191C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x1248C);
 		}
-		static ::System::Int32* StaticGet_DstFactor()
+		static ::System::Int32* StaticGet_LineParameter1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11920);
-		}
-		static ::System::Int32* StaticGet_InvertMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11924);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12490);
 		}
 		static ::System::Int32* StaticGet_LineParameter0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11928);
-		}
-		static ::System::Int32* StaticGet_TintColorA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x1192C);
-		}
-		static ::System::Int32* StaticGet_LineParameter4()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11930);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12494);
 		}
 		static ::System::Int32* StaticGet_Tint()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x11934);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x12498);
+		}
+		static ::System::Int32* StaticGet_LineParameter2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x1249C);
+		}
+		static ::System::Int32* StaticGet_RampColorB()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124A0);
+		}
+		static ::System::Int32* StaticGet_InvertMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124A4);
+		}
+		static ::System::Int32* StaticGet_RampColorA()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124A8);
+		}
+		static ::System::Int32* StaticGet_RampTiling()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124AC);
+		}
+		static ::System::Int32* StaticGet_LineParameter3()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124B0);
+		}
+		static ::System::Int32* StaticGet_Ramp()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124B4);
+		}
+		static ::System::Int32* StaticGet_LineParameter4()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124B8);
+		}
+		static ::System::Int32* StaticGet_TintColorA()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124BC);
+		}
+		static ::System::Int32* StaticGet_RampDirectionId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124C0);
+		}
+		static ::System::Int32* StaticGet_DstFactor()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILinearTransition_TypeDefinitionIndex)->GetStaticField(0x124C4);
 		}
 		// static const ::System::String* UILinearTransitionPath; // 0x0
 		// static const ::System::String* LutKeyword; // 0x0

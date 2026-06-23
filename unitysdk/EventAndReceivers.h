@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int EventAndReceivers_TypeDefinitionIndex = 48564;
+inline static constexpr unsigned int EventAndReceivers_TypeDefinitionIndex = 77918;
 
 struct alignas(8) EventAndReceivers
 {

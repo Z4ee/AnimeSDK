@@ -6,34 +6,34 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 class Class_2_F3CFF1AFF7EE7DCD;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_BUILDENTITY_OFFSET UNITYSDK_OFFSET(0x183D3F30)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x183D3B40)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x183D38D0)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x183D3690)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x183D4540)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_30630EC7ADBB00AD_OFFSET UNITYSDK_OFFSET(0x183D4400)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x183D45D0)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_771E8E0EDDBEBF2B_OFFSET UNITYSDK_OFFSET(0x183D3E10)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET UNITYSDK_OFFSET(0x183D3950)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x183D3680)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_AFD6888AA6D5620F_OFFSET UNITYSDK_OFFSET(0x183D4260)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x183D3780)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_D39AAF7777560A81_OFFSET UNITYSDK_OFFSET(0x183D3BA0)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x183D37F0)
-#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4250)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_BUILDENTITY_OFFSET UNITYSDK_OFFSET(0x1A360F00)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A360380)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A3604E0)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A360370)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A360970)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A3605C0)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A360DE0)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1A360470)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3609D0)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A360640)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A360C40)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A360830)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A361230)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A361240)
+#define MOLEMOLE_CONFIG_SCENEOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A361250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneObjectTrait_TypeDefinitionIndex = 55076;
+	inline static constexpr unsigned int SceneObjectTrait_TypeDefinitionIndex = 64639;
 
 	class SceneObjectTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -45,74 +45,74 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_771E8E0EDDBEBF2B(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::SceneObjectTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_771E8E0EDDBEBF2B_OFFSET))(this, a1);
+			return ((::MoleMole::Config::SceneObjectTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::MoleMole::EntityHandle BuildEntity(::Foundation::ViewObject::ViewObjectHandle a1, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>* a2)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::EntityHandle(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_BUILDENTITY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::SceneObjectTrait* Method_2_AFD6888AA6D5620F(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::SceneObjectTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_AFD6888AA6D5620F_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::SceneObjectTrait* Method_2_30630EC7ADBB00AD(::FlexBuffers::FlxValue a1)
+		static ::MoleMole::Config::SceneObjectTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::SceneObjectTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_30630EC7ADBB00AD_OFFSET))(a1);
+			return ((::MoleMole::Config::SceneObjectTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Boolean Method_2_D39AAF7777560A81(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::MoleMole::EntityHandle BuildEntity(::Foundation::ViewObject::ViewObjectHandle handle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>* extraComponents)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_D39AAF7777560A81_OFFSET))(this, a1, a2);
+			return ((::MoleMole::EntityHandle(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_BUILDENTITY_OFFSET))(this, handle, extraComponents);
 		}
 
-		::System::Boolean Method_2_7821D1D4DDDF7E01(::FlexBuffers::FlxMap a1)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

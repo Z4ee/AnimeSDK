@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x11CA8440)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA8450)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1929B0E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1929B0F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlowBase_TypeDefinitionIndex = 66697;
+	inline static constexpr unsigned int ConfigEntityTimeSlowBase_TypeDefinitionIndex = 63771;
 
 	class ConfigEntityTimeSlowBase : public ::System::Object
 	{

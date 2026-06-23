@@ -6,12 +6,12 @@
 namespace NodeGraph { class GraphNodeBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHPORT_GET_PORTTYPE_OFFSET UNITYSDK_OFFSET(0xF07AAF0)
-#define NODEGRAPH_GRAPHPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xF07AB00)
+#define NODEGRAPH_GRAPHPORT_GET_PORTTYPE_OFFSET UNITYSDK_OFFSET(0x117B3E30)
+#define NODEGRAPH_GRAPHPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x117B3E40)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphPort_TypeDefinitionIndex = 67562;
+	inline static constexpr unsigned int GraphPort_TypeDefinitionIndex = 84479;
 
 	class GraphPort : public ::NodeGraph::IGraphPort
 	{

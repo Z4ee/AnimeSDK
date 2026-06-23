@@ -6,13 +6,13 @@ namespace Mono::Http { class NtlmSession; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
 
-#define MONO_HTTP_NTLMCLIENT___C__AUTHENTICATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1938CAA0)
-#define MONO_HTTP_NTLMCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1938CA50)
-#define MONO_HTTP_NTLMCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1938CA90)
+#define MONO_HTTP_NTLMCLIENT___C__AUTHENTICATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B7382D0)
+#define MONO_HTTP_NTLMCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B738280)
+#define MONO_HTTP_NTLMCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7382C0)
 
 namespace Mono::Http
 {
-	inline static constexpr unsigned int NtlmClient___c_TypeDefinitionIndex = 2650;
+	inline static constexpr unsigned int NtlmClient___c_TypeDefinitionIndex = 2649;
 
 	class NtlmClient___c : public ::System::Object
 	{

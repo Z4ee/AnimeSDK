@@ -5,12 +5,12 @@
 namespace MoleMole { class UIPlayerSkinSwitchRoleCardWidgetControllerContext; }
 namespace MoleMole { class UIPlayerSkinSwitchWidgetController; }
 
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D5CEE0)
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHCONTEXTS_B__0_OFFSET UNITYSDK_OFFSET(0x14D5CEF0)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152A2A50)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHCONTEXTS_B__0_OFFSET UNITYSDK_OFFSET(0x152A2A60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 60433;
+	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 68106;
 
 	class UIPlayerSkinSwitchWidgetController___c__DisplayClass27_0 : public ::System::Object
 	{

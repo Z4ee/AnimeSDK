@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_FLOATARRAYRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C531D20)
+#define MOLEMOLE_TIMELINE_FLOATARRAYRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E866490)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FloatArrayRecorderUnit_TypeDefinitionIndex = 30640;
+	inline static constexpr unsigned int FloatArrayRecorderUnit_TypeDefinitionIndex = 32186;
 
 	class FloatArrayRecorderUnit : public ::MoleMole::Timeline::RecorderUnit
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_TokenSource_TypeDefinitionIndex = 1008;
+	inline static constexpr unsigned int Tokenizer_TokenSource_TypeDefinitionIndex = 1007;
 
 	enum class Tokenizer_TokenSource : ::System::Int32
 	{

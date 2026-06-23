@@ -3,12 +3,12 @@
 #include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/IO/Ports/SerialError.h"
 
-#define SYSTEM_IO_PORTS_SERIALERRORRECEIVEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A573810)
-#define SYSTEM_IO_PORTS_SERIALERRORRECEIVEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5737D0)
+#define SYSTEM_IO_PORTS_SERIALERRORRECEIVEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C892AC0)
+#define SYSTEM_IO_PORTS_SERIALERRORRECEIVEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C892A80)
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialErrorReceivedEventArgs_TypeDefinitionIndex = 4159;
+	inline static constexpr unsigned int SerialErrorReceivedEventArgs_TypeDefinitionIndex = 4158;
 
 	class SerialErrorReceivedEventArgs : public ::System::EventArgs
 	{

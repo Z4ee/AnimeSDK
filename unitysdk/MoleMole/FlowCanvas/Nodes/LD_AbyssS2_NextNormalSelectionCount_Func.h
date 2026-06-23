@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTNORMALSELECTIONCOUNT_FUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x125C66E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTNORMALSELECTIONCOUNT_FUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x125C6860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTNORMALSELECTIONCOUNT_FUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1301A3B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTNORMALSELECTIONCOUNT_FUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1301A530)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_NextNormalSelectionCount_Func_TypeDefinitionIndex = 70632;
+	inline static constexpr unsigned int LD_AbyssS2_NextNormalSelectionCount_Func_TypeDefinitionIndex = 71374;
 
 	class LD_AbyssS2_NextNormalSelectionCount_Func : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

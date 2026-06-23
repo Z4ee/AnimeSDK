@@ -11,10 +11,10 @@ class Class_1_C18F998324203B33;
 namespace MoleMole { class CustomCollisionConfigData; }
 namespace MoleMole::Cameras { class CameraDataAccessor; }
 
-#define CLASS_2_45534E9ACEDAE009_METHOD_2_D7DAD0FC0B967F29_OFFSET UNITYSDK_OFFSET(0x143B71A0)
-#define CLASS_2_45534E9ACEDAE009__CTOR_OFFSET UNITYSDK_OFFSET(0x143B7140)
+#define CLASS_2_45534E9ACEDAE009_METHOD_2_D7DAD0FC0B967F29_OFFSET UNITYSDK_OFFSET(0x12E25600)
+#define CLASS_2_45534E9ACEDAE009__CTOR_OFFSET UNITYSDK_OFFSET(0x12E255A0)
 
-inline static constexpr unsigned int Class_2_45534E9ACEDAE009_TypeDefinitionIndex = 61701;
+inline static constexpr unsigned int Class_2_45534E9ACEDAE009_TypeDefinitionIndex = 43062;
 
 class Class_2_45534E9ACEDAE009 : public ::Class_1_53A2E307D92A577A
 {

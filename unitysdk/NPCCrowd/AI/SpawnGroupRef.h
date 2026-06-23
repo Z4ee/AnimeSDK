@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AI_SPAWNGROUPREF_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0xD0BD1F0)
-#define NPCCROWD_AI_SPAWNGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0xD0BD2A0)
+#define NPCCROWD_AI_SPAWNGROUPREF_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x11784750)
+#define NPCCROWD_AI_SPAWNGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x11784800)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnGroupRef_TypeDefinitionIndex = 47982;
+	inline static constexpr unsigned int SpawnGroupRef_TypeDefinitionIndex = 50800;
 
 	class SpawnGroupRef : public ::System::Object
 	{

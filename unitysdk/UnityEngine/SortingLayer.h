@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SORTINGLAYER_GETLAYERVALUEFROMID_OFFSET UNITYSDK_OFFSET(0x1B4DF110)
-#define UNITYENGINE_SORTINGLAYER_NAMETOID_OFFSET UNITYSDK_OFFSET(0x1B4DF120)
+#define UNITYENGINE_SORTINGLAYER_GETLAYERVALUEFROMID_OFFSET UNITYSDK_OFFSET(0x1D858B50)
+#define UNITYENGINE_SORTINGLAYER_NAMETOID_OFFSET UNITYSDK_OFFSET(0x1D858B60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SortingLayer_TypeDefinitionIndex = 5124;
+	inline static constexpr unsigned int SortingLayer_TypeDefinitionIndex = 5123;
 
 	struct alignas(4) SortingLayer
 	{

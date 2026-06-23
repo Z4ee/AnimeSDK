@@ -2,17 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_2D9FE49A93BEEC6D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x3D6170)
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_2D9FE49A93BEEC6D_1_TypeDefinitionIndex = 74449;
+#define STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_86CD02F60F681DF1_OFFSET UNITYSDK_OFFSET(0x163D3A80)
+#define STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_9B0C43B0B6D3BA9B_OFFSET UNITYSDK_OFFSET(0x818D90)
+#define STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_CDFC4C648E09ED8C_OFFSET UNITYSDK_OFFSET(0x163D37A0)
+#define STRUCT_2_2D9FE49A93BEEC6D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x2BE890)
+
+inline static constexpr unsigned int Struct_2_2D9FE49A93BEEC6D_1_TypeDefinitionIndex = 52654;
 
 struct alignas(4) Struct_2_2D9FE49A93BEEC6D_1
 {
-	::System::Boolean Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
+	::System::Int32 Field_2_0; // 0x10
+	::System::Boolean Field_2_1; // 0x14
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_2D9FE49A93BEEC6D_1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_2_9B0C43B0B6D3BA9B()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_9B0C43B0B6D3BA9B_OFFSET))(this);
+	}
+
+	static ::System::Collections::Generic::List_1<::Struct_2_2D9FE49A93BEEC6D_1>* Method_2_CDFC4C648E09ED8C(::System::String* a1)
+	{
+		return ((::System::Collections::Generic::List_1<::Struct_2_2D9FE49A93BEEC6D_1>*(*)(::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_CDFC4C648E09ED8C_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_2_86CD02F60F681DF1(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_2D9FE49A93BEEC6D_1_METHOD_2_86CD02F60F681DF1_OFFSET))(a1);
 	}
 };

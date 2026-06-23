@@ -7,12 +7,12 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4232B0)
-#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4234C0)
+#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7C4BC0)
+#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4DD0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int CreateGameObject_TypeDefinitionIndex = 27397;
+	inline static constexpr unsigned int CreateGameObject_TypeDefinitionIndex = 29491;
 
 	class CreateGameObject : public ::NodeCanvas::Framework::ActionTask
 	{

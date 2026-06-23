@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int CreateMainCityNpc_SNpcInfo_TypeDefinitionIndex = 54476;
+	inline static constexpr unsigned int CreateMainCityNpc_SNpcInfo_TypeDefinitionIndex = 87340;
 
 	struct alignas(8) CreateMainCityNpc_SNpcInfo
 	{

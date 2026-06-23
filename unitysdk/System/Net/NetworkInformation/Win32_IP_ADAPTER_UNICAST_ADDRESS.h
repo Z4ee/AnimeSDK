@@ -9,7 +9,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_UNICAST_ADDRESS_TypeDefinitionIndex = 3848;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_UNICAST_ADDRESS_TypeDefinitionIndex = 3847;
 
 	struct alignas(8) Win32_IP_ADAPTER_UNICAST_ADDRESS
 	{

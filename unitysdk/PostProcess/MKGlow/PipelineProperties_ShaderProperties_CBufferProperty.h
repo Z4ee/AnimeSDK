@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x19686730)
-#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x19686740)
-#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19686750)
+#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1B7F1CD0)
+#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1B7F1CE0)
+#define POSTPROCESS_MKGLOW_PIPELINEPROPERTIES_SHADERPROPERTIES_CBUFFERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F1CF0)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int PipelineProperties_ShaderProperties_CBufferProperty_TypeDefinitionIndex = 29664;
+	inline static constexpr unsigned int PipelineProperties_ShaderProperties_CBufferProperty_TypeDefinitionIndex = 26553;
 
 	class PipelineProperties_ShaderProperties_CBufferProperty : public ::PostProcess::MKGlow::PipelineProperties_ShaderProperties_DefaultProperty
 	{
 	public:
-		::System::Int32 _size; // 0x20
-		::System::Int32 _index; // 0x24
+		::System::Int32 _index; // 0x20
+		::System::Int32 _size; // 0x24
 
 		::System::Void _ctor(::System::String* name, ::System::Int32 index, ::System::Int32 size)
 		{

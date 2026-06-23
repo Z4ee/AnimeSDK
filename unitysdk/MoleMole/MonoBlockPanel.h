@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOBLOCKPANEL_SETTIMESPANTAKEEFFECT_OFFSET UNITYSDK_OFFSET(0x16D54270)
-#define MOLEMOLE_MONOBLOCKPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x16D541D0)
-#define MOLEMOLE_MONOBLOCKPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x16D542F0)
+#define MOLEMOLE_MONOBLOCKPANEL_SETTIMESPANTAKEEFFECT_OFFSET UNITYSDK_OFFSET(0x12628EC0)
+#define MOLEMOLE_MONOBLOCKPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x12628E20)
+#define MOLEMOLE_MONOBLOCKPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x12628F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBlockPanel_TypeDefinitionIndex = 39839;
+	inline static constexpr unsigned int MonoBlockPanel_TypeDefinitionIndex = 87352;
 
 	class MonoBlockPanel : public ::UnityEngine::MonoBehaviour
 	{

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7590C8C40FF831C9.h"
+#include "unitysdk/Enum_3_7594C8C40FFC1AE0.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/Config/TerrainMatType.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
@@ -36,13 +36,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x11759B90)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x11759CA0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11759DB0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x1582ADF0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x1582AF00)
+#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1582B010)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 48336;
+	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 47017;
 
 	class LevelConfig : public ::MoleMole::NapSplitSerialized_MainScriptableObject
 	{
@@ -90,7 +90,7 @@ namespace MoleMole::Level
 		::System::Single LongFight_Fadeout_BlackDuration; // 0x13C
 		::UnityEngine::AnimationCurve* LongFight_Fadeout_Curve; // 0x140
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultTypeReflect; // 0x148
-		::System::Collections::Generic::List_1<::Enum_3_7590C8C40FF831C9>* ApplyRatingQuestTypes; // 0x150
+		::System::Collections::Generic::List_1<::Enum_3_7594C8C40FFC1AE0>* ApplyRatingQuestTypes; // 0x150
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultWithFinish; // 0x158
 		::System::Boolean use_checkarea_culling; // 0x160
 		::System::Boolean use_checkarea_effect_culling; // 0x161
@@ -114,29 +114,30 @@ namespace MoleMole::Level
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>* HadalCountDownIconKey; // 0x1E8
 		::System::Single hadalProtectTime; // 0x1F0
 		::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>* VoidFrontFCMap; // 0x1F8
-		::System::Boolean isStartPassTimeAfterScenePerform; // 0x200
-		::System::Single startPassTimeAfterScenePerformDelay; // 0x204
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>* scenePerformOverrides; // 0x208
-		::System::Int32 maxPartnerCount; // 0x210
-		::System::Boolean avatar_AntiFreeze_Open; // 0x214
-		::System::Boolean monster_AntiFreeze_Open; // 0x215
-		::System::Single avatar_AntiFreeze_Duration; // 0x218
-		::System::Single avatar_AntiFreeze_TransferCurtain; // 0x21C
-		::System::Collections::Generic::List_1<::System::String*>* avatar_AntiFreeze_SpPrefix; // 0x220
-		::System::Single BattleRegionAvatarSafeDistance; // 0x228
-		::System::Single BattleRegionAvatarTeleportWaitTime; // 0x22C
-		::System::Single BattleRegionNonAvatarTeleportWaitTime; // 0x230
-		::System::Single BattleRegionOneWayDoorEffectAppearDistance; // 0x234
-		::System::Single BattleRegionOneWayDoorEffectSwitchDistance; // 0x238
-		::System::Single BattleRegionOneWayDoorEffectChangeInterval; // 0x23C
-		::System::String* pureBattleQuestMainFc; // 0x240
-		::System::Single FlowCanvasTaskMaxDelayTime; // 0x248
-		::System::String* AbyssS2_RouteMap_MainFc; // 0x250
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>* BangbooPlayTypeConfigs; // 0x258
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>* BranchSkillButtonIconPath; // 0x260
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooAbilityType, ::MoleMole::Level::BangbooAbilityConfig>* BangbooAbilityNames; // 0x268
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>* BangbooAbilityTemplateConfig; // 0x270
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>* BangbooFindObjMatConfigNew; // 0x278
+		::System::String* HardCoreBossMainFC; // 0x200
+		::System::Boolean isStartPassTimeAfterScenePerform; // 0x208
+		::System::Single startPassTimeAfterScenePerformDelay; // 0x20C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>* scenePerformOverrides; // 0x210
+		::System::Int32 maxPartnerCount; // 0x218
+		::System::Boolean avatar_AntiFreeze_Open; // 0x21C
+		::System::Boolean monster_AntiFreeze_Open; // 0x21D
+		::System::Single avatar_AntiFreeze_Duration; // 0x220
+		::System::Single avatar_AntiFreeze_TransferCurtain; // 0x224
+		::System::Collections::Generic::List_1<::System::String*>* avatar_AntiFreeze_SpPrefix; // 0x228
+		::System::Single BattleRegionAvatarSafeDistance; // 0x230
+		::System::Single BattleRegionAvatarTeleportWaitTime; // 0x234
+		::System::Single BattleRegionNonAvatarTeleportWaitTime; // 0x238
+		::System::Single BattleRegionOneWayDoorEffectAppearDistance; // 0x23C
+		::System::Single BattleRegionOneWayDoorEffectSwitchDistance; // 0x240
+		::System::Single BattleRegionOneWayDoorEffectChangeInterval; // 0x244
+		::System::String* pureBattleQuestMainFc; // 0x248
+		::System::Single FlowCanvasTaskMaxDelayTime; // 0x250
+		::System::String* AbyssS2_RouteMap_MainFc; // 0x258
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>* BangbooPlayTypeConfigs; // 0x260
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>* BranchSkillButtonIconPath; // 0x268
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooAbilityType, ::MoleMole::Level::BangbooAbilityConfig>* BangbooAbilityNames; // 0x270
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>* BangbooAbilityTemplateConfig; // 0x278
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>* BangbooFindObjMatConfigNew; // 0x280
 
 		::System::Void _ctor()
 		{

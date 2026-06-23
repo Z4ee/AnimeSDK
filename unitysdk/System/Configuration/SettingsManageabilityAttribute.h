@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Configuration/SettingsManageability.h"
 
-#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE_GET_MANAGEABILITY_OFFSET UNITYSDK_OFFSET(0x1A0FB240)
-#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FB230)
+#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE_GET_MANAGEABILITY_OFFSET UNITYSDK_OFFSET(0x1C48E8F0)
+#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48E8E0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsManageabilityAttribute_TypeDefinitionIndex = 4225;
+	inline static constexpr unsigned int SettingsManageabilityAttribute_TypeDefinitionIndex = 4224;
 
 	class SettingsManageabilityAttribute : public ::System::Attribute
 	{

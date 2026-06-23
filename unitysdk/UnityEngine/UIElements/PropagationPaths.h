@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_BUILD_OFFSET UNITYSDK_OFFSET(0x197A7D20)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_COPY_OFFSET UNITYSDK_OFFSET(0x197A8090)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_RELEASE_OFFSET UNITYSDK_OFFSET(0x197A8A00)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS__CCTOR_OFFSET UNITYSDK_OFFSET(0x197B8800)
-#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS__CTOR_OFFSET UNITYSDK_OFFSET(0x197B8630)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_BUILD_OFFSET UNITYSDK_OFFSET(0x1BBDE9A0)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_COPY_OFFSET UNITYSDK_OFFSET(0x1BBDED10)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1BBDF680)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBEF460)
+#define UNITYENGINE_UIELEMENTS_PROPAGATIONPATHS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEF290)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PropagationPaths_TypeDefinitionIndex = 25064;
+	inline static constexpr unsigned int PropagationPaths_TypeDefinitionIndex = 27567;
 
 	class PropagationPaths : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>** StaticGet_s_Pool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>**)Il2CppClass::FromTypeDefinitionIndex(PropagationPaths_TypeDefinitionIndex)->GetStaticField(0x1E970);
+			return (::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>**)Il2CppClass::FromTypeDefinitionIndex(PropagationPaths_TypeDefinitionIndex)->GetStaticField(0x225A0);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* targetElements; // 0x18

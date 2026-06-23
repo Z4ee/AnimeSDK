@@ -5,9 +5,9 @@
 namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_7DBA80DC1E952B67_CLASS_1_5A741906034C4C8D__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE1FE0)
+#define CLASS_2_7DBA80DC1E952B67_CLASS_1_5A741906034C4C8D__CTOR_OFFSET UNITYSDK_OFFSET(0x12C3DDE0)
 
-inline static constexpr unsigned int Class_2_7DBA80DC1E952B67_Class_1_5A741906034C4C8D_TypeDefinitionIndex = 59537;
+inline static constexpr unsigned int Class_2_7DBA80DC1E952B67_Class_1_5A741906034C4C8D_TypeDefinitionIndex = 65297;
 
 class Class_2_7DBA80DC1E952B67_Class_1_5A741906034C4C8D : public ::System::Object
 {

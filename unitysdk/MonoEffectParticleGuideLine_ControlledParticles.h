@@ -5,18 +5,18 @@
 
 class MonoEffectParticleGuideLine_GuideLineData;
 
-#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xEBDC840)
-#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES_MOVEALINEGUIDELINE_OFFSET UNITYSDK_OFFSET(0xEBDC980)
-#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES__CTOR_1_OFFSET UNITYSDK_OFFSET(0xEBDC860)
-#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDC850)
+#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x108A7990)
+#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES_MOVEALINEGUIDELINE_OFFSET UNITYSDK_OFFSET(0x108A7AD0)
+#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x108A79B0)
+#define MONOEFFECTPARTICLEGUIDELINE_CONTROLLEDPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0x108A79A0)
 
-inline static constexpr unsigned int MonoEffectParticleGuideLine_ControlledParticles_TypeDefinitionIndex = 56379;
+inline static constexpr unsigned int MonoEffectParticleGuideLine_ControlledParticles_TypeDefinitionIndex = 62805;
 
 class MonoEffectParticleGuideLine_ControlledParticles : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Single>* m_ParticlePercent; // 0x10
-	::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* m_Particles; // 0x18
+	::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* m_Particles; // 0x10
+	::Il2CppArray<::System::Single>* m_ParticlePercent; // 0x18
 	::System::Int32 m_Length; // 0x20
 
 	::System::Void _ctor()

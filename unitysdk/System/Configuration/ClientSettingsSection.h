@@ -5,13 +5,13 @@
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 namespace System::Configuration { class SettingElementCollection; }
 
-#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x193A5A10)
-#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x193A5A50)
-#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x193A59D0)
+#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B751150)
+#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1B751190)
+#define SYSTEM_CONFIGURATION_CLIENTSETTINGSSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B751110)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ClientSettingsSection_TypeDefinitionIndex = 4201;
+	inline static constexpr unsigned int ClientSettingsSection_TypeDefinitionIndex = 4200;
 
 	class ClientSettingsSection : public ::System::Configuration::ConfigurationSection
 	{

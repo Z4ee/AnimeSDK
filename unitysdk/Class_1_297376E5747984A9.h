@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define CLASS_1_297376E5747984A9_METHOD_1_AF5D6CB44A7CBA99_OFFSET UNITYSDK_OFFSET(0x16ADE360)
+#define CLASS_1_297376E5747984A9_METHOD_1_AF5D6CB44A7CBA99_OFFSET UNITYSDK_OFFSET(0x1772B060)
 
-inline static constexpr unsigned int Class_1_297376E5747984A9_TypeDefinitionIndex = 68709;
+inline static constexpr unsigned int Class_1_297376E5747984A9_TypeDefinitionIndex = 77058;
 
 class Class_1_297376E5747984A9 : public ::System::Object
 {

@@ -4,7 +4,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAParameters_TypeDefinitionIndex = 1088;
+	inline static constexpr unsigned int RSAParameters_TypeDefinitionIndex = 1087;
 
 	struct alignas(8) RSAParameters
 	{

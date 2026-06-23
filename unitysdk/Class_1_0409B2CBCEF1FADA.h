@@ -8,7 +8,7 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_1_0409B2CBCEF1FADA_TypeDefinitionIndex = 25770;
+inline static constexpr unsigned int Class_1_0409B2CBCEF1FADA_TypeDefinitionIndex = 28289;
 
 template <typename TPriority, typename TValue>
 class Class_1_0409B2CBCEF1FADA : public ::System::Object

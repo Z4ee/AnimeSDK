@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Jobs
 {
-	inline static constexpr unsigned int ChunkJobForExtensions_TypeDefinitionIndex = 9154;
+	inline static constexpr unsigned int ChunkJobForExtensions_TypeDefinitionIndex = 8693;
 
 	class ChunkJobForExtensions : public ::System::Object
 	{

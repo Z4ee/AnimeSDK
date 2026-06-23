@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_HIDEINTABLESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01FF20)
+#define SIRENIX_ODININSPECTOR_HIDEINTABLESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329230)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideInTablesAttribute_TypeDefinitionIndex = 7179;
+	inline static constexpr unsigned int HideInTablesAttribute_TypeDefinitionIndex = 7310;
 
 	class HideInTablesAttribute : public ::System::Attribute
 	{

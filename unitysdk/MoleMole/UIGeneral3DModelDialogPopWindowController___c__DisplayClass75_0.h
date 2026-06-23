@@ -5,12 +5,12 @@
 namespace MoleMole { class TweenFov; }
 namespace MoleMole { class UIGeneral3DModelDialogPopWindowController; }
 
-#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14FAC650)
-#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS75_0__ONCLICKRESET_B__0_OFFSET UNITYSDK_OFFSET(0x14FAC660)
+#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17778380)
+#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS75_0__ONCLICKRESET_B__0_OFFSET UNITYSDK_OFFSET(0x17778390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController___c__DisplayClass75_0_TypeDefinitionIndex = 64392;
+	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController___c__DisplayClass75_0_TypeDefinitionIndex = 55942;
 
 	class UIGeneral3DModelDialogPopWindowController___c__DisplayClass75_0 : public ::System::Object
 	{

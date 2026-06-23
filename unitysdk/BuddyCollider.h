@@ -1,71 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_143B7A497B890286_1.h"
+#include "unitysdk/Struct_2_143B7A497B890286.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BUDDYCOLLIDER_CALCONTAINSGRIDS_OFFSET UNITYSDK_OFFSET(0x16AEAA50)
-#define BUDDYCOLLIDER_GETLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x16AEA3E0)
-#define BUDDYCOLLIDER_GET_CONTAINSGRIDLIST_OFFSET UNITYSDK_OFFSET(0x16AE9670)
-#define BUDDYCOLLIDER_GET_GRIDSCALE_OFFSET UNITYSDK_OFFSET(0x16AE9690)
-#define BUDDYCOLLIDER_GET_ISCANPUTDOWN_OFFSET UNITYSDK_OFFSET(0x16AE96A0)
-#define BUDDYCOLLIDER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x16AE9650)
-#define BUDDYCOLLIDER_GET_RECTS_OFFSET UNITYSDK_OFFSET(0x16AE9630)
-#define BUDDYCOLLIDER_ISFULLENCIRCLEMENT_OFFSET UNITYSDK_OFFSET(0x16AEA870)
-#define BUDDYCOLLIDER_ISINGRIDMAP_OFFSET UNITYSDK_OFFSET(0x16AEA5B0)
-#define BUDDYCOLLIDER_REBUILDCOLLIDERMESH_OFFSET UNITYSDK_OFFSET(0x16AE9940)
-#define BUDDYCOLLIDER_ROTATE2_OFFSET UNITYSDK_OFFSET(0x16AEA040)
-#define BUDDYCOLLIDER_ROTATEPOINT_OFFSET UNITYSDK_OFFSET(0x16AEA2A0)
-#define BUDDYCOLLIDER_ROTATE_OFFSET UNITYSDK_OFFSET(0x16AE9EC0)
-#define BUDDYCOLLIDER_SETRCTPOSITION_OFFSET UNITYSDK_OFFSET(0x16AE9CC0)
-#define BUDDYCOLLIDER_SET_CONTAINSGRIDLIST_OFFSET UNITYSDK_OFFSET(0x16AE9680)
-#define BUDDYCOLLIDER_SET_ISCANPUTDOWN_OFFSET UNITYSDK_OFFSET(0x16AE96B0)
-#define BUDDYCOLLIDER_SET_MESH_OFFSET UNITYSDK_OFFSET(0x16AE9660)
-#define BUDDYCOLLIDER_SET_RECTS_OFFSET UNITYSDK_OFFSET(0x16AE9640)
-#define BUDDYCOLLIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16AE9E20)
-#define BUDDYCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AE96C0)
+#define BUDDYCOLLIDER_CALCONTAINSGRIDS_OFFSET UNITYSDK_OFFSET(0x12E389C0)
+#define BUDDYCOLLIDER_GETLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x12E38350)
+#define BUDDYCOLLIDER_GET_CONTAINSGRIDLIST_OFFSET UNITYSDK_OFFSET(0x12E375D0)
+#define BUDDYCOLLIDER_GET_GRIDSCALE_OFFSET UNITYSDK_OFFSET(0x12E375F0)
+#define BUDDYCOLLIDER_GET_ISCANPUTDOWN_OFFSET UNITYSDK_OFFSET(0x12E37600)
+#define BUDDYCOLLIDER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x12E375B0)
+#define BUDDYCOLLIDER_GET_RECTS_OFFSET UNITYSDK_OFFSET(0x12E37590)
+#define BUDDYCOLLIDER_ISFULLENCIRCLEMENT_OFFSET UNITYSDK_OFFSET(0x12E387E0)
+#define BUDDYCOLLIDER_ISINGRIDMAP_OFFSET UNITYSDK_OFFSET(0x12E38520)
+#define BUDDYCOLLIDER_REBUILDCOLLIDERMESH_OFFSET UNITYSDK_OFFSET(0x12E378B0)
+#define BUDDYCOLLIDER_ROTATE2_OFFSET UNITYSDK_OFFSET(0x12E37FB0)
+#define BUDDYCOLLIDER_ROTATEPOINT_OFFSET UNITYSDK_OFFSET(0x12E38210)
+#define BUDDYCOLLIDER_ROTATE_OFFSET UNITYSDK_OFFSET(0x12E37E30)
+#define BUDDYCOLLIDER_SETRCTPOSITION_OFFSET UNITYSDK_OFFSET(0x12E37C30)
+#define BUDDYCOLLIDER_SET_CONTAINSGRIDLIST_OFFSET UNITYSDK_OFFSET(0x12E375E0)
+#define BUDDYCOLLIDER_SET_ISCANPUTDOWN_OFFSET UNITYSDK_OFFSET(0x12E37610)
+#define BUDDYCOLLIDER_SET_MESH_OFFSET UNITYSDK_OFFSET(0x12E375C0)
+#define BUDDYCOLLIDER_SET_RECTS_OFFSET UNITYSDK_OFFSET(0x12E375A0)
+#define BUDDYCOLLIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12E37D90)
+#define BUDDYCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12E37620)
 
-inline static constexpr unsigned int BuddyCollider_TypeDefinitionIndex = 68160;
+inline static constexpr unsigned int BuddyCollider_TypeDefinitionIndex = 40663;
 
 class BuddyCollider : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _Mesh_k__BackingField; // 0x10
-	::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286_1>* _Rects_k__BackingField; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _ContainsGridList_k__BackingField; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* initMesh; // 0x28
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* initLocalPos; // 0x30
-	::UnityEngine::Vector2 Spacing; // 0x38
-	::System::Boolean _IsCanPutDown_k__BackingField; // 0x40
-	::UnityEngine::Vector2 outLineSize; // 0x44
-	::UnityEngine::Vector2 centerOffset; // 0x4C
-	::System::Int32 gridScale; // 0x54
-	::UnityEngine::Vector2 gridMin; // 0x58
-	::Struct_2_143B7A497B890286_1 outLineRect; // 0x60
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* initLocalPos; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _ContainsGridList_k__BackingField; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* initMesh; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _Mesh_k__BackingField; // 0x28
+	::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286>* _Rects_k__BackingField; // 0x30
+	::System::Int32 gridScale; // 0x38
+	::Struct_2_143B7A497B890286 outLineRect; // 0x3C
+	::System::Boolean _IsCanPutDown_k__BackingField; // 0x54
+	::UnityEngine::Vector2 Spacing; // 0x58
+	::UnityEngine::Vector2 gridMax; // 0x60
+	::UnityEngine::Vector2 outLineSize; // 0x68
+	::UnityEngine::Vector2 center; // 0x70
 	::System::Int32 currentAngle; // 0x78
-	::UnityEngine::Vector2 center; // 0x7C
-	::UnityEngine::Vector2 gridMax; // 0x84
+	::UnityEngine::Vector2 centerOffset; // 0x7C
+	::UnityEngine::Vector2 gridMin; // 0x84
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* mesh, ::System::Int32 gridScale)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Int32))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER__CTOR_OFFSET))(this, mesh, gridScale);
 	}
 
-	::System::Void _ctor_1(::Struct_2_143B7A497B890286_1 rect)
+	::System::Void _ctor_1(::Struct_2_143B7A497B890286 rect)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_143B7A497B890286_1))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER__CTOR_1_OFFSET))(this, rect);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_143B7A497B890286))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER__CTOR_1_OFFSET))(this, rect);
 	}
 
-	::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286_1>* get_Rects()
+	::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286>* get_Rects()
 	{
-		return ((::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286_1>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER_GET_RECTS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER_GET_RECTS_OFFSET))(this);
 	}
 
-	::System::Void set_Rects(::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286_1>* value)
+	::System::Void set_Rects(::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286>* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286_1>*))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER_SET_RECTS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_143B7A497B890286>*))((::PBYTE)hIl2Cpp + BUDDYCOLLIDER_SET_RECTS_OFFSET))(this, value);
 	}
 
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* get_Mesh()

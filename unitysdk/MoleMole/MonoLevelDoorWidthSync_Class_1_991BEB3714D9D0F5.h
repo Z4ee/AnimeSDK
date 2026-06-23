@@ -5,12 +5,12 @@
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13EA4F10)
-#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_OFFSET UNITYSDK_OFFSET(0x13EA4F00)
+#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16CD95B0)
+#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD95A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5_TypeDefinitionIndex = 74418;
+	inline static constexpr unsigned int MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5_TypeDefinitionIndex = 56425;
 
 	class MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5 : public ::System::Object
 	{

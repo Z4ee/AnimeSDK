@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPGraphDataStateAssetSO_FGraphNPCBornData_TypeDefinitionIndex = 78375;
+	inline static constexpr unsigned int WPGraphDataStateAssetSO_FGraphNPCBornData_TypeDefinitionIndex = 50637;
 
 	struct alignas(8) WPGraphDataStateAssetSO_FGraphNPCBornData
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal::Internal { class Nap3DMapDecalEffect_DecalAreaData; }
 
-#define MOLEMOLE_SERIALIZABLEDECALAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB5F80)
+#define MOLEMOLE_SERIALIZABLEDECALAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A9A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SerializableDecalAreaData_TypeDefinitionIndex = 62319;
+	inline static constexpr unsigned int SerializableDecalAreaData_TypeDefinitionIndex = 85274;
 
 	class SerializableDecalAreaData : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDSETCLICKPROTECTEDTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E412E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDSETCLICKPROTECTEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x16E413B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDSETCLICKPROTECTEDTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D35630)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDSETCLICKPROTECTEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x10D35700)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardSetClickProtectedTime_TypeDefinitionIndex = 48233;
+	inline static constexpr unsigned int ChessboardSetClickProtectedTime_TypeDefinitionIndex = 69653;
 
 	class ChessboardSetClickProtectedTime : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::Single, ::System::Single>
 	{

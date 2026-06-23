@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultyInfoWidgetControllerContext_NestType_TypeDefinitionIndex = 49839;
+	inline static constexpr unsigned int UIYorozuyaDifficultyInfoWidgetControllerContext_NestType_TypeDefinitionIndex = 44909;
 
 	enum class UIYorozuyaDifficultyInfoWidgetControllerContext_NestType : ::System::Int32
 	{

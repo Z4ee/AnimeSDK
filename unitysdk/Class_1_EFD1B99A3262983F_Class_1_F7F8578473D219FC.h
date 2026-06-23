@@ -7,17 +7,17 @@ namespace MoleMole { class ServerListInfo; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EFD1B99A3262983F_CLASS_1_F7F8578473D219FC_METHOD_1_B573ADB90E61D41E_OFFSET UNITYSDK_OFFSET(0x1254C900)
-#define CLASS_1_EFD1B99A3262983F_CLASS_1_F7F8578473D219FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1254C8F0)
+#define CLASS_1_EFD1B99A3262983F_CLASS_1_F7F8578473D219FC_METHOD_1_B573ADB90E61D41E_OFFSET UNITYSDK_OFFSET(0x14454040)
+#define CLASS_1_EFD1B99A3262983F_CLASS_1_F7F8578473D219FC__CTOR_OFFSET UNITYSDK_OFFSET(0x14454030)
 
-inline static constexpr unsigned int Class_1_EFD1B99A3262983F_Class_1_F7F8578473D219FC_TypeDefinitionIndex = 79249;
+inline static constexpr unsigned int Class_1_EFD1B99A3262983F_Class_1_F7F8578473D219FC_TypeDefinitionIndex = 72178;
 
 class Class_1_EFD1B99A3262983F_Class_1_F7F8578473D219FC : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::ServerListInfo*>* Field_1_2; // 0x10
-	::Class_1_EFD1B99A3262983F* Field_1_0; // 0x18
-	::System::Collections::Generic::List_1<::MoleMole::ServerListInfo*>* Field_1_1; // 0x20
+	::System::Collections::Generic::List_1<::MoleMole::ServerListInfo*>* Field_1_1; // 0x10
+	::System::Action_1<::MoleMole::ServerListInfo*>* Field_1_2; // 0x18
+	::Class_1_EFD1B99A3262983F* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

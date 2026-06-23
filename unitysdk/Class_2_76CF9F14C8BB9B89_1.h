@@ -9,22 +9,22 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UIToggleButton; }
 
-#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0xDB1D050)
-#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xDB1D200)
-#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xDB1D2D0)
-#define CLASS_2_76CF9F14C8BB9B89_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDB1D2C0)
+#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x14812950)
+#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14812B00)
+#define CLASS_2_76CF9F14C8BB9B89_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14812BD0)
+#define CLASS_2_76CF9F14C8BB9B89_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14812BC0)
 
-inline static constexpr unsigned int Class_2_76CF9F14C8BB9B89_1_TypeDefinitionIndex = 73466;
+inline static constexpr unsigned int Class_2_76CF9F14C8BB9B89_1_TypeDefinitionIndex = 87113;
 
 class Class_2_76CF9F14C8BB9B89_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x18
-	::UnityEngine::UI::Extension::UIToggleButton* Field_2_5; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x38
-	::UnityEngine::Transform* Field_2_1; // 0x40
+	::UnityEngine::Transform* Field_2_1; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x30
+	::UnityEngine::Transform* Field_2_0; // 0x38
+	::UnityEngine::UI::Extension::UIToggleButton* Field_2_5; // 0x40
 
 	::System::Void _ctor()
 	{

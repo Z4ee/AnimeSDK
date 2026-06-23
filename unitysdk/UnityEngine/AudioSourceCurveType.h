@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioSourceCurveType_TypeDefinitionIndex = 9623;
+	inline static constexpr unsigned int AudioSourceCurveType_TypeDefinitionIndex = 18350;
 
 	enum class AudioSourceCurveType : ::System::Int32
 	{

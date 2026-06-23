@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_SERIALIZEDSCRIPTABLEOBJECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B52C80)
+#define MOLEMOLE_SERIALIZEDSCRIPTABLEOBJECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17DEA620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SerializedScriptableObjectBase_TypeDefinitionIndex = 60898;
+	inline static constexpr unsigned int SerializedScriptableObjectBase_TypeDefinitionIndex = 51131;
 
 	class SerializedScriptableObjectBase : public ::Foundation::MihoyoSerializedScriptableObject
 	{

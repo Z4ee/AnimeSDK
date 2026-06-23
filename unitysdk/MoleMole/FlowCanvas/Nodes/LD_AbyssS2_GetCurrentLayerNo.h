@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTLAYERNO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1780C7B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTLAYERNO__CTOR_OFFSET UNITYSDK_OFFSET(0x1780C910)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTLAYERNO_INVOKE_OFFSET UNITYSDK_OFFSET(0x182DD6F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTLAYERNO__CTOR_OFFSET UNITYSDK_OFFSET(0x182DD850)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetCurrentLayerNo_TypeDefinitionIndex = 54997;
+	inline static constexpr unsigned int LD_AbyssS2_GetCurrentLayerNo_TypeDefinitionIndex = 66190;
 
 	class LD_AbyssS2_GetCurrentLayerNo : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

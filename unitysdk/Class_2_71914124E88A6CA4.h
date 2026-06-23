@@ -8,18 +8,18 @@ namespace MoleMole { class MonoGamepadScrollView; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_71914124E88A6CA4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16675FF0)
-#define CLASS_2_71914124E88A6CA4_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x16675F10)
-#define CLASS_2_71914124E88A6CA4__CTOR_OFFSET UNITYSDK_OFFSET(0x16675FE0)
+#define CLASS_2_71914124E88A6CA4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1607A7B0)
+#define CLASS_2_71914124E88A6CA4_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1607A6D0)
+#define CLASS_2_71914124E88A6CA4__CTOR_OFFSET UNITYSDK_OFFSET(0x1607A7A0)
 
-inline static constexpr unsigned int Class_2_71914124E88A6CA4_TypeDefinitionIndex = 57345;
+inline static constexpr unsigned int Class_2_71914124E88A6CA4_TypeDefinitionIndex = 85205;
 
 class Class_2_71914124E88A6CA4 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::MonoUITableScrollV2* Field_2_0; // 0x18
-	::MoleMole::MonoGamepadScrollView* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
+	::MoleMole::MonoGamepadScrollView* Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

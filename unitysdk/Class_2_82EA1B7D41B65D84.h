@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_2_82EA1B7D41B65D84_TypeDefinitionIndex = 67088;
+inline static constexpr unsigned int Class_2_82EA1B7D41B65D84_TypeDefinitionIndex = 39925;
 
 template <typename T, typename TFilter, typename TGetFilterParam>
 class Class_2_82EA1B7D41B65D84 : public ::Class_1_CC5A418407C40F98<T, TFilter>

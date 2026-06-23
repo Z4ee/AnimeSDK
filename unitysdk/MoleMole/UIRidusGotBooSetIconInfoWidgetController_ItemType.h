@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooSetIconInfoWidgetController_ItemType_TypeDefinitionIndex = 54501;
+	inline static constexpr unsigned int UIRidusGotBooSetIconInfoWidgetController_ItemType_TypeDefinitionIndex = 46735;
 
 	enum class UIRidusGotBooSetIconInfoWidgetController_ItemType : ::System::Int32
 	{

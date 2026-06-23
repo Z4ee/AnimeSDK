@@ -6,16 +6,16 @@ namespace MoleMole::Config { class ConfigEntityPartialBlurEffects; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_809925CE51F26E0B_METHOD_1_9A8FDEF5BBF3070A_OFFSET UNITYSDK_OFFSET(0x159552D0)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_809925CE51F26E0B__CTOR_OFFSET UNITYSDK_OFFSET(0x159552C0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_809925CE51F26E0B_METHOD_1_9A8FDEF5BBF3070A_OFFSET UNITYSDK_OFFSET(0x11D66850)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_809925CE51F26E0B__CTOR_OFFSET UNITYSDK_OFFSET(0x11D66840)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_809925CE51F26E0B_TypeDefinitionIndex = 69921;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_809925CE51F26E0B_TypeDefinitionIndex = 77441;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_809925CE51F26E0B : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::System::Action_1<::MoleMole::Config::ConfigEntityPartialBlurEffects*>* Field_1_2; // 0x18
+	::System::Action_1<::MoleMole::Config::ConfigEntityPartialBlurEffects*>* Field_1_2; // 0x10
+	::System::Action* Field_1_1; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

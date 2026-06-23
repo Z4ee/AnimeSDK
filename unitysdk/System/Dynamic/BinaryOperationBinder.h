@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_BINARYOPERATIONBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1C3C6510)
-#define SYSTEM_DYNAMIC_BINARYOPERATIONBINDER_FALLBACKBINARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1C3C64F0)
+#define SYSTEM_DYNAMIC_BINARYOPERATIONBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1E70ABE0)
+#define SYSTEM_DYNAMIC_BINARYOPERATIONBINDER_FALLBACKBINARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1E70ABC0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int BinaryOperationBinder_TypeDefinitionIndex = 4966;
+	inline static constexpr unsigned int BinaryOperationBinder_TypeDefinitionIndex = 4965;
 
 	class BinaryOperationBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

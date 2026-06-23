@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19C94D80)
+#define MIHOYO_SDK_BOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB33C90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 18439;
+	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 19322;
 
 	class Bool : public ::System::Object
 	{

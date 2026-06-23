@@ -9,25 +9,25 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class MonoSteerSeparate; }
 
-#define MOLEMOLE_STEERSEPARATEUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x15BB6410)
-#define MOLEMOLE_STEERSEPARATEUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x15BB66C0)
-#define MOLEMOLE_STEERSEPARATEUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15BB6B50)
-#define MOLEMOLE_STEERSEPARATEUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB6BA0)
-#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x15BB6C40)
-#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x15BB6CD0)
-#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15BB6D60)
+#define MOLEMOLE_STEERSEPARATEUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1A1AA210)
+#define MOLEMOLE_STEERSEPARATEUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1A1AA4C0)
+#define MOLEMOLE_STEERSEPARATEUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A1AA950)
+#define MOLEMOLE_STEERSEPARATEUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AA9A0)
+#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1A1AAA40)
+#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1A1AAAD0)
+#define MOLEMOLE_STEERSEPARATEUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A1AAB60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SteerSeparateUpdate_TypeDefinitionIndex = 37928;
+	inline static constexpr unsigned int SteerSeparateUpdate_TypeDefinitionIndex = 58586;
 
 	class SteerSeparateUpdate : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::Battle::MonoSteerSeparate* monoSeparate; // 0x58
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x60
-		::MoleMole::Battle::Entity* ownerEntity; // 0x68
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::MoleMole::Battle::Entity* ownerEntity; // 0x60
+		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x68
+		::MoleMole::Battle::MonoSteerSeparate* monoSeparate; // 0x70
 		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x78
 		::System::Boolean Enable; // 0x80
 

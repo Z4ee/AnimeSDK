@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_HEIGHTJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x86AB40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_HEIGHTJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x8C4AE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GerstnerWavesJobs_HeightJob_TypeDefinitionIndex = 29929;
+	inline static constexpr unsigned int GerstnerWavesJobs_HeightJob_TypeDefinitionIndex = 26946;
 
 	struct alignas(8) GerstnerWavesJobs_HeightJob
 	{

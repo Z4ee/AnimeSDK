@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int MultipleConnectAsync_State_TypeDefinitionIndex = 3680;
+	inline static constexpr unsigned int MultipleConnectAsync_State_TypeDefinitionIndex = 3679;
 
 	enum class MultipleConnectAsync_State : ::System::Int32
 	{

@@ -6,11 +6,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_ITEMICONUI__CTOR_OFFSET UNITYSDK_OFFSET(0x14292970)
+#define MOLEMOLE_ITEMICONUI__CTOR_OFFSET UNITYSDK_OFFSET(0x116256E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ItemIconUI_TypeDefinitionIndex = 46260;
+	inline static constexpr unsigned int ItemIconUI_TypeDefinitionIndex = 70288;
 
 	class ItemIconUI : public ::System::Object
 	{

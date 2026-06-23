@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_1_6D1045A276B3030B_Struct_2_49B42BD0D6865F25_TypeDefinitionIndex = 70020;
+inline static constexpr unsigned int Class_1_6D1045A276B3030B_Struct_2_49B42BD0D6865F25_TypeDefinitionIndex = 45067;
 
 struct alignas(8) Class_1_6D1045A276B3030B_Struct_2_49B42BD0D6865F25
 {

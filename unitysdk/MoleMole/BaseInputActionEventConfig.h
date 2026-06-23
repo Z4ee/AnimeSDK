@@ -4,19 +4,19 @@
 #include "unitysdk/MoleMole/InputActionDispatchPriority.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xECE3A10)
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_IGNOREPLATFORMV2_OFFSET UNITYSDK_OFFSET(0xECE3A20)
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xECE3A30)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x10CCE510)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_IGNOREPLATFORMV2_OFFSET UNITYSDK_OFFSET(0x10CCE520)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCE530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseInputActionEventConfig_TypeDefinitionIndex = 61056;
+	inline static constexpr unsigned int BaseInputActionEventConfig_TypeDefinitionIndex = 46293;
 
 	class BaseInputActionEventConfig : public ::System::Object
 	{
 	public:
-		::System::Boolean IgnorePlatform; // 0x10
-		::MoleMole::InputActionDispatchPriority InputPriority; // 0x14
+		::MoleMole::InputActionDispatchPriority InputPriority; // 0x10
+		::System::Boolean IgnorePlatform; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int Socket_WSABUF_TypeDefinitionIndex = 3656;
+	inline static constexpr unsigned int Socket_WSABUF_TypeDefinitionIndex = 3655;
 
 	struct alignas(8) Socket_WSABUF
 	{

@@ -7,7 +7,7 @@ namespace System::ComponentModel::Design { class IDesignerHost; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IComponentDiscoveryService_TypeDefinitionIndex = 3063;
+	inline static constexpr unsigned int IComponentDiscoveryService_TypeDefinitionIndex = 3062;
 
 	class IComponentDiscoveryService
 	{

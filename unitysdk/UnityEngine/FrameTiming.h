@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FrameTiming_TypeDefinitionIndex = 5184;
+	inline static constexpr unsigned int FrameTiming_TypeDefinitionIndex = 5183;
 
 	struct alignas(8) FrameTiming
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_9;
+class Class_0_16E4307DCC419505_31;
 namespace System { class Type; }
 
-#define CLASS_1_D45ADB5492AB938B_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1C423E10)
+#define CLASS_1_D45ADB5492AB938B_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1E18DF90)
 
-inline static constexpr unsigned int Class_1_D45ADB5492AB938B_TypeDefinitionIndex = 9431;
+inline static constexpr unsigned int Class_1_D45ADB5492AB938B_TypeDefinitionIndex = 18508;
 
 class Class_1_D45ADB5492AB938B : public ::System::Object
 {

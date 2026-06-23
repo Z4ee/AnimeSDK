@@ -8,11 +8,11 @@ namespace MoleMole { class UIAvatarShowSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIAVATARSHOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x15A072F0)
+#define MOLEMOLE_CONFIGUIAVATARSHOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x190D3DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowSettings_TypeDefinitionIndex = 61742;
+	inline static constexpr unsigned int ConfigUIAvatarShowSettings_TypeDefinitionIndex = 42728;
 
 	class ConfigUIAvatarShowSettings : public ::Foundation::MihoyoSerializedScriptableObject
 	{

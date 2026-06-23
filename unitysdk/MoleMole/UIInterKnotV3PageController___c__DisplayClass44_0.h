@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIInterKnotV3PageController; }
 
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15297010)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS44_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15297020)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169B1F20)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS44_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x169B1F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotV3PageController___c__DisplayClass44_0_TypeDefinitionIndex = 44908;
+	inline static constexpr unsigned int UIInterKnotV3PageController___c__DisplayClass44_0_TypeDefinitionIndex = 77340;
 
 	class UIInterKnotV3PageController___c__DisplayClass44_0 : public ::System::Object
 	{

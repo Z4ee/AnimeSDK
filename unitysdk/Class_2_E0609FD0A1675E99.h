@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_328B10E9F3553A0D.h"
+#include "unitysdk/Class_1_2D5DADE6FF36AA79.h"
 
 class Class_1_B4B6517768F4059F;
 namespace MoleMole::GalGame { class MainCityChatPlayableNodeBase; }
 namespace MoleMole::GalGame { class MainCityChatRandomNextNode; }
 
-#define CLASS_2_E0609FD0A1675E99_METHOD_2_45F0369A056A5CE7_OFFSET UNITYSDK_OFFSET(0x1293E110)
-#define CLASS_2_E0609FD0A1675E99_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1293E320)
-#define CLASS_2_E0609FD0A1675E99__CTOR_OFFSET UNITYSDK_OFFSET(0x1293E090)
+#define CLASS_2_E0609FD0A1675E99_METHOD_2_45F0369A056A5CE7_OFFSET UNITYSDK_OFFSET(0x16891B60)
+#define CLASS_2_E0609FD0A1675E99_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x16891D70)
+#define CLASS_2_E0609FD0A1675E99__CTOR_OFFSET UNITYSDK_OFFSET(0x16891AE0)
 
-inline static constexpr unsigned int Class_2_E0609FD0A1675E99_TypeDefinitionIndex = 60753;
+inline static constexpr unsigned int Class_2_E0609FD0A1675E99_TypeDefinitionIndex = 67459;
 
-class Class_2_E0609FD0A1675E99 : public ::Class_1_328B10E9F3553A0D
+class Class_2_E0609FD0A1675E99 : public ::Class_1_2D5DADE6FF36AA79
 {
 public:
 	::MoleMole::GalGame::MainCityChatRandomNextNode* Field_2_0; // 0x40

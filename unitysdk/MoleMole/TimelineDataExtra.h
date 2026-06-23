@@ -12,12 +12,12 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x15A73750)
-#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A73890)
+#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x1740D630)
+#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x1740D770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 50937;
+	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 64267;
 
 	class TimelineDataExtra : public ::System::Object
 	{
@@ -76,7 +76,8 @@ namespace MoleMole
 		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendIn; // 0xF8
 		::System::Boolean EnableSeamlessTimelineBlendOut; // 0x108
 		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendOut; // 0x110
-		::System::Boolean skipTimelineCutsceneFadeOut; // 0x120
+		::System::Boolean UsePipelineBlendCamera; // 0x120
+		::System::Boolean skipTimelineCutsceneFadeOut; // 0x121
 		::MoleMole::ParallelTimelineTimeScaleType ParallelTimelineTickTimeScaleType; // 0x124
 
 		::System::Void _ctor()

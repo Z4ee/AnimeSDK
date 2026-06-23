@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int EWaterGenQuality_TypeDefinitionIndex = 29819;
+	inline static constexpr unsigned int EWaterGenQuality_TypeDefinitionIndex = 26622;
 
 	enum class EWaterGenQuality : ::System::Int32
 	{
 		Off = 0,
-		Low = 1,
 		Medium = 2,
+		Low = 1,
 		High = 3,
 	};
 }

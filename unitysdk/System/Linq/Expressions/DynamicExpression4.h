@@ -9,24 +9,24 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Runtime::CompilerServices { class CallSiteBinder; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BD22180)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1BD22190)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BD21AD0)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SYSTEM_LINQ_EXPRESSIONS_IARGUMENTPROVIDER_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1BD21A10)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SYSTEM_LINQ_EXPRESSIONS_IARGUMENTPROVIDER_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1BD21AC0)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD202A0)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E070140)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E070150)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E06FA90)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SYSTEM_LINQ_EXPRESSIONS_IARGUMENTPROVIDER_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E06F9D0)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4_SYSTEM_LINQ_EXPRESSIONS_IARGUMENTPROVIDER_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E06FA80)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E06E260)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int DynamicExpression4_TypeDefinitionIndex = 4467;
+	inline static constexpr unsigned int DynamicExpression4_TypeDefinitionIndex = 4466;
 
 	class DynamicExpression4 : public ::System::Linq::Expressions::DynamicExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg2; // 0x20
-		::System::Linq::Expressions::Expression* _arg3; // 0x28
-		::System::Linq::Expressions::Expression* _arg1; // 0x30
-		::System::Object* _arg0; // 0x38
+		::System::Object* _arg0; // 0x20
+		::System::Linq::Expressions::Expression* _arg2; // 0x28
+		::System::Linq::Expressions::Expression* _arg3; // 0x30
+		::System::Linq::Expressions::Expression* _arg1; // 0x38
 
 		::System::Void _ctor(::System::Type* delegateType, ::System::Runtime::CompilerServices::CallSiteBinder* binder, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3)
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_IGNORECYCLICREFERENCESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0201D0)
+#define SIRENIX_ODININSPECTOR_IGNORECYCLICREFERENCESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3294D0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int IgnoreCyclicReferencesAttribute_TypeDefinitionIndex = 7186;
+	inline static constexpr unsigned int IgnoreCyclicReferencesAttribute_TypeDefinitionIndex = 7317;
 
 	class IgnoreCyclicReferencesAttribute : public ::System::Attribute
 	{

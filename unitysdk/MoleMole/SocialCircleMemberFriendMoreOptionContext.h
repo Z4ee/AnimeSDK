@@ -5,11 +5,11 @@
 class Class_2_D02DABCF41CDA271;
 class Class_2_DF2C726EEEEC912D;
 
-#define MOLEMOLE_SOCIALCIRCLEMEMBERFRIENDMOREOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FB00E0)
+#define MOLEMOLE_SOCIALCIRCLEMEMBERFRIENDMOREOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x141A5570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SocialCircleMemberFriendMoreOptionContext_TypeDefinitionIndex = 74775;
+	inline static constexpr unsigned int SocialCircleMemberFriendMoreOptionContext_TypeDefinitionIndex = 49273;
 
 	class SocialCircleMemberFriendMoreOptionContext : public ::MoleMole::FriendMoreOptionContext
 	{

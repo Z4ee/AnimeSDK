@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices { class DebugInfoGenerator; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_1_TypeDefinitionIndex = 4493;
+	inline static constexpr unsigned int Expression_1_TypeDefinitionIndex = 4492;
 
 	template <typename TDelegate>
 	class Expression_1 : public ::System::Linq::Expressions::LambdaExpression

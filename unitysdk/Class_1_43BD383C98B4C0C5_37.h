@@ -2,13 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D4EE696AE596E211;
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine::Rendering { class Volume; }
+#define CLASS_1_43BD383C98B4C0C5_37__CTOR_OFFSET UNITYSDK_OFFSET(0x116D4490)
 
-#define CLASS_1_43BD383C98B4C0C5_37__CTOR_OFFSET UNITYSDK_OFFSET(0x110CB5C0)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_37_TypeDefinitionIndex = 46309;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_37_TypeDefinitionIndex = 41150;
 
 class Class_1_43BD383C98B4C0C5_37 : public ::System::Object
 {

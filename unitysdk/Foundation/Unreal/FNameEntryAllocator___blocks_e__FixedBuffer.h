@@ -4,7 +4,7 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntryAllocator___blocks_e__FixedBuffer_TypeDefinitionIndex = 9075;
+	inline static constexpr unsigned int FNameEntryAllocator___blocks_e__FixedBuffer_TypeDefinitionIndex = 8690;
 
 	struct alignas(8) FNameEntryAllocator___blocks_e__FixedBuffer
 	{

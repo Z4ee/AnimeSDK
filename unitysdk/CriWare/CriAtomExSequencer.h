@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 32717;
+	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 34270;
 
 	class CriAtomExSequencer : public ::System::Object
 	{

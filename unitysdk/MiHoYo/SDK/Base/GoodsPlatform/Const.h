@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CONST__CTOR_OFFSET UNITYSDK_OFFSET(0x19449D60)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B1300)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int Const_TypeDefinitionIndex = 19425;
+	inline static constexpr unsigned int Const_TypeDefinitionIndex = 20586;
 
 	class Const : public ::System::Object
 	{

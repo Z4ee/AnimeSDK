@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/AttractorClaimTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x11D868C0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x11D86960)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11D86830)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_LINK_OFFSET UNITYSDK_OFFSET(0x11D867E0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_TICK_OFFSET UNITYSDK_OFFSET(0x11D86A00)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x113647B0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x11364850)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11364720)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_LINK_OFFSET UNITYSDK_OFFSET(0x113646B0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_TICK_OFFSET UNITYSDK_OFFSET(0x113648F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_AttractorClaimTask_TypeDefinitionIndex = 56693;
+	inline static constexpr unsigned int VirtualFunctionExtensions_AttractorClaimTask_TypeDefinitionIndex = 45036;
 
 	class VirtualFunctionExtensions_AttractorClaimTask : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Link(::NPCCrowd::Ability::AttractorClaimTask& self, ::StateTreeCore::StateTreeLinker& linker)
+		static ::System::Boolean Link(::NPCCrowd::Ability::AttractorClaimTask& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::NPCCrowd::Ability::AttractorClaimTask&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_LINK_OFFSET))(self, linker);
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::AttractorClaimTask&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORCLAIMTASK_LINK_OFFSET))(self, linker);
 		}
 
 		static ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::NPCCrowd::Ability::AttractorClaimTask& self)

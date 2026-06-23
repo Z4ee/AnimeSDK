@@ -10,25 +10,25 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x10B322F0)
-#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x10B32520)
-#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10B32630)
-#define CLASS_2_0D60BA6FE2D95E6C__CTOR_OFFSET UNITYSDK_OFFSET(0x10B32620)
+#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x126A1AB0)
+#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x126A1CE0)
+#define CLASS_2_0D60BA6FE2D95E6C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x126A1DF0)
+#define CLASS_2_0D60BA6FE2D95E6C__CTOR_OFFSET UNITYSDK_OFFSET(0x126A1DE0)
 
-inline static constexpr unsigned int Class_2_0D60BA6FE2D95E6C_TypeDefinitionIndex = 66509;
+inline static constexpr unsigned int Class_2_0D60BA6FE2D95E6C_TypeDefinitionIndex = 75257;
 
 class Class_2_0D60BA6FE2D95E6C : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::Class_2_B4378B46E0020E85* Field_2_1; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x20
-	::UnityEngine::GameObject* Field_2_3; // 0x28
-	::UnityEngine::GameObject* Field_2_8; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
-	::UnityEngine::GameObject* Field_2_9; // 0x40
-	::UnityEngine::GameObject* Field_2_2; // 0x48
-	::MoleMole::MonoGamepadCustomList* Field_2_4; // 0x50
-	::UnityEngine::Animation* Field_2_6; // 0x58
+	::UnityEngine::GameObject* Field_2_3; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
+	::UnityEngine::Animation* Field_2_6; // 0x30
+	::UnityEngine::GameObject* Field_2_9; // 0x38
+	::UnityEngine::GameObject* Field_2_8; // 0x40
+	::MoleMole::MonoGamepadCustomList* Field_2_4; // 0x48
+	::UnityEngine::GameObject* Field_2_2; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x58
 	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_7; // 0x60
 
 	::System::Void _ctor()

@@ -6,23 +6,23 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define TIMELINEBINDINGMAPPER_GETBINDINGENUMTYPE_OFFSET UNITYSDK_OFFSET(0x19A8E4B0)
-#define TIMELINEBINDINGMAPPER_GETBINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x19A8E380)
-#define TIMELINEBINDINGMAPPER_HASBINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x19A8E5F0)
-#define TIMELINEBINDINGMAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A8E6E0)
+#define TIMELINEBINDINGMAPPER_GETBINDINGENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1C6AB7A0)
+#define TIMELINEBINDINGMAPPER_GETBINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x1C6AB670)
+#define TIMELINEBINDINGMAPPER_HASBINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x1C6AB8E0)
+#define TIMELINEBINDINGMAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6AB9D0)
 
-inline static constexpr unsigned int TimelineBindingMapper_TypeDefinitionIndex = 82203;
+inline static constexpr unsigned int TimelineBindingMapper_TypeDefinitionIndex = 48882;
 
 class TimelineBindingMapper : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::TimelineBindingType, ::System::Type*>** StaticGet_bindingMap()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::TimelineBindingType, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TimelineBindingMapper_TypeDefinitionIndex)->GetStaticField(0x3D610);
-	}
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::TimelineBindingType>** StaticGet_reverseBindingMap()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::TimelineBindingType>**)Il2CppClass::FromTypeDefinitionIndex(TimelineBindingMapper_TypeDefinitionIndex)->GetStaticField(0x3D618);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::TimelineBindingType>**)Il2CppClass::FromTypeDefinitionIndex(TimelineBindingMapper_TypeDefinitionIndex)->GetStaticField(0x3FB50);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::TimelineBindingType, ::System::Type*>** StaticGet_bindingMap()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::TimelineBindingType, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TimelineBindingMapper_TypeDefinitionIndex)->GetStaticField(0x3FB58);
 	}
 
 	static ::System::Void _cctor()

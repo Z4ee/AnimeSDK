@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int Handshake_TypeDefinitionIndex = 4153;
+	inline static constexpr unsigned int Handshake_TypeDefinitionIndex = 4152;
 
 	enum class Handshake : ::System::Int32
 	{

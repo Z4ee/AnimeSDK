@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_A48F3719AA1CF200_3.h"
 
-class Class_1_43BD383C98B4C0C5_19;
+class Class_1_43BD383C98B4C0C5_25;
 class Class_1_C376DB68B1C74261;
 namespace MoleMole::Config { class ConfigLevelResultExitNode; }
 namespace MoleMole::Config { class ConfigUIBaseScriptableAnimationNode; }
 namespace MoleMole::Config { class UISpecialNumGroup; }
 
-#define CLASS_3_F67CB173EF632102_METHOD_3_1C1D8F032CA6010E_OFFSET UNITYSDK_OFFSET(0x113B5660)
-#define CLASS_3_F67CB173EF632102_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x113B54F0)
-#define CLASS_3_F67CB173EF632102_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x113B5740)
-#define CLASS_3_F67CB173EF632102_METHOD_3_DA75C361EBED2E92_OFFSET UNITYSDK_OFFSET(0x113B53A0)
-#define CLASS_3_F67CB173EF632102_METHOD_3_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x113B5390)
-#define CLASS_3_F67CB173EF632102__CTOR_OFFSET UNITYSDK_OFFSET(0x113B5650)
+#define CLASS_3_F67CB173EF632102_METHOD_3_1C1D8F032CA6010E_OFFSET UNITYSDK_OFFSET(0x133DE5A0)
+#define CLASS_3_F67CB173EF632102_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x133DE3A0)
+#define CLASS_3_F67CB173EF632102_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x133DE510)
+#define CLASS_3_F67CB173EF632102_METHOD_3_DA75C361EBED2E92_OFFSET UNITYSDK_OFFSET(0x133DE250)
+#define CLASS_3_F67CB173EF632102_METHOD_3_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x133DE240)
+#define CLASS_3_F67CB173EF632102__CTOR_OFFSET UNITYSDK_OFFSET(0x133DE500)
 
-inline static constexpr unsigned int Class_3_F67CB173EF632102_TypeDefinitionIndex = 72672;
+inline static constexpr unsigned int Class_3_F67CB173EF632102_TypeDefinitionIndex = 40106;
 
 class Class_3_F67CB173EF632102 : public ::Class_2_A48F3719AA1CF200_3
 {
@@ -32,9 +32,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_F0088C88851A7DFB_OFFSET))(this);
 	}
 
-	::System::Void Method_3_DA75C361EBED2E92(::MoleMole::Config::ConfigUIBaseScriptableAnimationNode* a1, ::Class_1_43BD383C98B4C0C5_19* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_C376DB68B1C74261* a4)
+	::System::Void Method_3_DA75C361EBED2E92(::MoleMole::Config::ConfigUIBaseScriptableAnimationNode* a1, ::Class_1_43BD383C98B4C0C5_25* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_C376DB68B1C74261* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigUIBaseScriptableAnimationNode*, ::Class_1_43BD383C98B4C0C5_19*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_C376DB68B1C74261*))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_DA75C361EBED2E92_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigUIBaseScriptableAnimationNode*, ::Class_1_43BD383C98B4C0C5_25*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_C376DB68B1C74261*))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_DA75C361EBED2E92_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_3_41A074549EF25F63()
@@ -42,13 +42,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_41A074549EF25F63_OFFSET))(this);
 	}
 
-	::System::Void Method_3_1C1D8F032CA6010E(::MoleMole::Config::ConfigUIBaseScriptableAnimationNode* a1, ::Class_1_43BD383C98B4C0C5_19* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_C376DB68B1C74261* a4)
-	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigUIBaseScriptableAnimationNode*, ::Class_1_43BD383C98B4C0C5_19*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_C376DB68B1C74261*))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_1C1D8F032CA6010E_OFFSET))(this, a1, a2, a3, a4);
-	}
-
 	::System::Void Method_3_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_3_1C1D8F032CA6010E(::MoleMole::Config::ConfigUIBaseScriptableAnimationNode* a1, ::Class_1_43BD383C98B4C0C5_25* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_C376DB68B1C74261* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigUIBaseScriptableAnimationNode*, ::Class_1_43BD383C98B4C0C5_25*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_C376DB68B1C74261*))((::PBYTE)hIl2Cpp + CLASS_3_F67CB173EF632102_METHOD_3_1C1D8F032CA6010E_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

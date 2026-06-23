@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController_QAState_TypeDefinitionIndex = 69154;
+	inline static constexpr unsigned int UICampIdlePageController_QAState_TypeDefinitionIndex = 86930;
 
 	enum class UICampIdlePageController_QAState : ::System::Int32
 	{

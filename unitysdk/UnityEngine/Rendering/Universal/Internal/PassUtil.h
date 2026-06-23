@@ -31,179 +31,181 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class NapRenderContext_CurrentFrameRenderConfigs; }
 namespace UnityEngine::Rendering::Universal { class VREffects; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYCHARSTYLIZATION_OFFSET UNITYSDK_OFFSET(0x1928ED70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYDESATURATIONMASKFORSCENE_OFFSET UNITYSDK_OFFSET(0x19292280)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYFXFOG_OFFSET UNITYSDK_OFFSET(0x192917B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYLIGHTSHAFTCONFIG_OFFSET UNITYSDK_OFFSET(0x192914C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYRTXGI_OFFSET UNITYSDK_OFFSET(0x19292360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYSCENEOUTLINE_OFFSET UNITYSDK_OFFSET(0x1928FD90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYSCENESCANLINE_OFFSET UNITYSDK_OFFSET(0x1928FB70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYVREFFECT_OFFSET UNITYSDK_OFFSET(0x1928F230)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CALCULATEBLOOMPARAMS3_OFFSET UNITYSDK_OFFSET(0x1928E5D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKIFCAMERAISINDOOR_OFFSET UNITYSDK_OFFSET(0x1928DAD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKISRAINON_OFFSET UNITYSDK_OFFSET(0x1928C420)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKLIGHTMAPSANDAREADIRECT_OFFSET UNITYSDK_OFFSET(0x192A1220)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CONFIGGLOBALENVPARAMS_OFFSET UNITYSDK_OFFSET(0x1928E6C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_DISABLECHARSTYLIZATION_OFFSET UNITYSDK_OFFSET(0x1928ECE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_DRAWVREFFECTSOUTLINEDISTORTION_OFFSET UNITYSDK_OFFSET(0x19290550)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHCOLORS_OFFSET UNITYSDK_OFFSET(0x1928BE80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHUVS_OFFSET UNITYSDK_OFFSET(0x1928C150)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHVERTICES_OFFSET UNITYSDK_OFFSET(0x1928BBB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETTEXTURECURVEFORMAT_OFFSET UNITYSDK_OFFSET(0x19297C80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GET_S_IDENTITYCUBE_OFFSET UNITYSDK_OFFSET(0x1928B910)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_ONCAMERAISINDOORCOMPLETEREADBACK_OFFSET UNITYSDK_OFFSET(0x1928E4F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_REFRESHENVIRONMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x19297CF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCHARACTERPARAMS_OFFSET UNITYSDK_OFFSET(0x1928C5E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCLOUDLIGHTPARAMS_OFFSET UNITYSDK_OFFSET(0x1928D760)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCLOUDSHADOWPARAMS_OFFSET UNITYSDK_OFFSET(0x1928CFF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETOVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x192A1ED0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSHADERCONSTANTSPERCAMERA_OFFSET UNITYSDK_OFFSET(0x192A1F20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSKYCOVER_OFFSET UNITYSDK_OFFSET(0x1928B5D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSKYPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0x192A1D20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x192A21D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYCHARSTYLIZATION_OFFSET UNITYSDK_OFFSET(0x1B1875E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYCUSTOMLUTWITHMASK_OFFSET UNITYSDK_OFFSET(0x1B187110)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYDESATURATIONMASKFORSCENE_OFFSET UNITYSDK_OFFSET(0x1B18ADC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYFXFOG_OFFSET UNITYSDK_OFFSET(0x1B18A2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYLIGHTSHAFTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B189EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYRTASCULLINGSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B18AEA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYRTXGI_OFFSET UNITYSDK_OFFSET(0x1B18B390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYSCENEOUTLINE_OFFSET UNITYSDK_OFFSET(0x1B188600)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYSCENESCANLINE_OFFSET UNITYSDK_OFFSET(0x1B1883E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYVREFFECT_OFFSET UNITYSDK_OFFSET(0x1B187AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CALCULATEBLOOMPARAMS3_OFFSET UNITYSDK_OFFSET(0x1B186970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKIFCAMERAISINDOOR_OFFSET UNITYSDK_OFFSET(0x1B185E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKISRAINON_OFFSET UNITYSDK_OFFSET(0x1B1847C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CHECKLIGHTMAPSANDAREADIRECT_OFFSET UNITYSDK_OFFSET(0x1B19B790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_CONFIGGLOBALENVPARAMS_OFFSET UNITYSDK_OFFSET(0x1B186A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_DISABLECHARSTYLIZATION_OFFSET UNITYSDK_OFFSET(0x1B187080)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_DRAWVREFFECTSOUTLINEDISTORTION_OFFSET UNITYSDK_OFFSET(0x1B188EF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHCOLORS_OFFSET UNITYSDK_OFFSET(0x1B184220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHUVS_OFFSET UNITYSDK_OFFSET(0x1B1844F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETMESHVERTICES_OFFSET UNITYSDK_OFFSET(0x1B183F50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GETTEXTURECURVEFORMAT_OFFSET UNITYSDK_OFFSET(0x1B1918F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_GET_S_IDENTITYCUBE_OFFSET UNITYSDK_OFFSET(0x1B183CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_ONCAMERAISINDOORCOMPLETEREADBACK_OFFSET UNITYSDK_OFFSET(0x1B186890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_REFRESHENVIRONMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B191960)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCHARACTERPARAMS_OFFSET UNITYSDK_OFFSET(0x1B184980)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCLOUDLIGHTPARAMS_OFFSET UNITYSDK_OFFSET(0x1B185B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETCLOUDSHADOWPARAMS_OFFSET UNITYSDK_OFFSET(0x1B185390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETOVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B19C420)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSHADERCONSTANTSPERCAMERA_OFFSET UNITYSDK_OFFSET(0x1B19C470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSKYCOVER_OFFSET UNITYSDK_OFFSET(0x1B183970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SETSKYPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0x1B19C270)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B19C720)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PassUtil_TypeDefinitionIndex = 30518;
+	inline static constexpr unsigned int PassUtil_TypeDefinitionIndex = 26823;
 
 	class PassUtil : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Mesh** StaticGet__IdentityCube()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234A0);
-		}
-		static ::Il2CppArray<::System::Single>** StaticGet_s_RampValue()
-		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234A8);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>** StaticGet_s_SkyLutExtraFXGradientCPUData()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234B0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet__meshVerticesMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234B8);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BD0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>** StaticGet__meshUvsMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234C0);
-		}
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_s_Pixels()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234C8);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_cameraIsIndoorCS()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234D0);
-		}
-		static ::UnityEngine::Texture2D** StaticGet_s_SceneSpecialPPSSaturationCustomLut()
-		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234D8);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_s_SkyLutExtraFXGradientGPUData()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234E0);
-		}
-		static ::Il2CppArray<::System::Single>** StaticGet_s_SkyLutExtraFXGradientCount()
-		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234E8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BD8);
 		}
 		static ::Il2CppArray<::System::Single>** StaticGet_s_RampGalValue()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234F0);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BE0);
 		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_cameraIsIndoorrBuffer()
+		static ::UnityEngine::Texture2D** StaticGet_s_SceneSpecialPPSSaturationCustomLut()
 		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x234F8);
+			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BE8);
+		}
+		static ::Il2CppArray<::System::Single>** StaticGet_s_SkyLutExtraFXGradientCount()
+		{
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BF0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>** StaticGet__meshColorsMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x23500);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20BF8);
 		}
-		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet__meshVerticesMap()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5B90);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C00);
 		}
-		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart2()
+		static ::UnityEngine::ComputeBuffer** StaticGet_cameraIsIndoorrBuffer()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5BA0);
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C08);
+		}
+		static ::Il2CppArray<::System::Single>** StaticGet_s_RampValue()
+		{
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C10);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>** StaticGet_s_SkyLutExtraFXGradientCPUData()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C18);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_cameraIsIndoorCS()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C20);
+		}
+		static ::UnityEngine::ComputeBuffer** StaticGet_s_SkyLutExtraFXGradientGPUData()
+		{
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C28);
+		}
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_s_Pixels()
+		{
+			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x20C30);
 		}
 		static ::UnityEngine::Vector4* StaticGet_s_CachedRampGapValue()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5BE0);
-		}
-		static ::System::Int32* StaticGet_preTickTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5BF0);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart7()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5BF4);
-		}
-		static ::System::Single* StaticGet_cloudRotOffset()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5C34);
-		}
-		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue3()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5C38);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart4()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5C48);
-		}
-		static ::System::Single* StaticGet_screenRainDropGlobalIntensity()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5C88);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5660);
 		}
 		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart3()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5C8C);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart6()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5CCC);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart5()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D0C);
-		}
-		static ::System::Single* StaticGet_screenRainDropTimer()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D4C);
-		}
-		static ::System::Boolean* StaticGet_s_PreFrameFxFogIsTrue()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D50);
-		}
-		static ::System::Boolean* StaticGet_s_IsCameraIndoor()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D51);
-		}
-		static ::System::Boolean* StaticGet_s_PreFrameFxFogForSkyBoxIsOn()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D52);
-		}
-		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue2()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D54);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5670);
 		}
 		static ::UnityEngine::Vector4* StaticGet_s_CachedRampGapValue2()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D64);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x56B0);
 		}
-		static ::System::Single* StaticGet_cloudMoveOffset()
+		static ::System::Int32* StaticGet_preTickTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D74);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x56C0);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart6()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x56C4);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart4()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5704);
+		}
+		static ::System::Single* StaticGet_screenRainDropTimer()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5744);
+		}
+		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5748);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart7()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5758);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart5()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5798);
 		}
 		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart1()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5D78);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x57D8);
+		}
+		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue3()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5818);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet__SceneWeatherParamsPart2()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5828);
+		}
+		static ::System::Single* StaticGet_cloudRotOffset()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5868);
+		}
+		static ::System::Single* StaticGet_cloudMoveOffset()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x586C);
 		}
 		static ::UnityEngine::Vector4* StaticGet_s_CachedRampGapValue3()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5DB8);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5870);
+		}
+		static ::System::Boolean* StaticGet_s_IsCameraIndoor()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5880);
+		}
+		static ::System::Boolean* StaticGet_s_PreFrameFxFogIsTrue()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5881);
+		}
+		static ::System::Boolean* StaticGet_s_PreFrameFxFogForSkyBoxIsOn()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5882);
+		}
+		static ::UnityEngine::Vector4* StaticGet_s_CachedRampValue2()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5884);
+		}
+		static ::System::Single* StaticGet_screenRainDropGlobalIntensity()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PassUtil_TypeDefinitionIndex)->GetStaticField(0x5894);
 		}
 		// static const ::System::Int32 maxDepthPyramid = 0xA; // 0x0
 		// static const ::System::Single screenRainDropFadeTime; // 0x0
@@ -285,6 +287,11 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_DISABLECHARSTYLIZATION_OFFSET))(deferredMat);
 		}
 
+		static ::System::Void ApplyCustomLutWithMask(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs*& config)
+		{
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYCUSTOMLUTWITHMASK_OFFSET))(cmd, config);
+		}
+
 		static ::System::Void ApplyCharStylization(::UnityEngine::Rendering::ScriptableRenderContext context)
 		{
 			return ((::System::Void(*)(::UnityEngine::Rendering::ScriptableRenderContext))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYCHARSTYLIZATION_OFFSET))(context);
@@ -323,6 +330,11 @@ namespace UnityEngine::Rendering::Universal::Internal
 		static ::System::Void ApplyDesaturationMaskForScene(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs*& config)
 		{
 			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYDESATURATIONMASKFORSCENE_OFFSET))(cmd, config);
+		}
+
+		static ::System::Void ApplyRTASCullingSettings(::System::Boolean enablePerformanceMode, ::System::Int32 forcedCPUQualityLevel)
+		{
+			return ((::System::Void(*)(::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_APPLYRTASCULLINGSETTINGS_OFFSET))(enablePerformanceMode, forcedCPUQualityLevel);
 		}
 
 		static ::System::Void ApplyRTXGI(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs*& config, ::System::Single indoorWeight)

@@ -5,20 +5,20 @@
 
 namespace UnityEngine::InputSystem::GamepadEx { class ProcessGyroInput; }
 
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_ADD_ONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1B984A00)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_INVOKEONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1B982B40)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_REMOVE_ONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1B984AB0)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_ADD_ONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1DCFB6D0)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_INVOKEONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1DCF9820)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_GAMEPADGYROSUPPORT_REMOVE_ONPROCESSSENSORINPUT_OFFSET UNITYSDK_OFFSET(0x1DCFB780)
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int GamepadGyroSupport_TypeDefinitionIndex = 37456;
+	inline static constexpr unsigned int GamepadGyroSupport_TypeDefinitionIndex = 39082;
 
 	class GamepadGyroSupport : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::InputSystem::GamepadEx::ProcessGyroInput** StaticGet_OnProcessSensorInput()
 		{
-			return (::UnityEngine::InputSystem::GamepadEx::ProcessGyroInput**)Il2CppClass::FromTypeDefinitionIndex(GamepadGyroSupport_TypeDefinitionIndex)->GetStaticField(0x279B0);
+			return (::UnityEngine::InputSystem::GamepadEx::ProcessGyroInput**)Il2CppClass::FromTypeDefinitionIndex(GamepadGyroSupport_TypeDefinitionIndex)->GetStaticField(0x29670);
 		}
 
 		static ::System::Void add_OnProcessSensorInput(::UnityEngine::InputSystem::GamepadEx::ProcessGyroInput* value)

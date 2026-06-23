@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYSTARCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19BA5FA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYSTARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA62C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYSTARCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BC3A640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYSTARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3A960)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyStarConfig_TypeDefinitionIndex = 30303;
+	inline static constexpr unsigned int SkyStarConfig_TypeDefinitionIndex = 27094;
 
 	class SkyStarConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyStarConfig*>
 	{

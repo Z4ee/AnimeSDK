@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_2_08F5D8D6F2B0662C;
+namespace MoleMole { class RABGachaRewardContext; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIRABGachaItemWidgetController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x1569A4A0)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONCANCELBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1569A6D0)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1569AC30)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONOKBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1569A670)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1569ACC0)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1569A4B0)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1569A740)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_OPENVIEW_OFFSET UNITYSDK_OFFSET(0x1569A830)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1569AD30)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1569AE90)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1569AF20)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1569AF30)
+#define MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1569AF40)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABGachaRewardListDialogPopWindowController_TypeDefinitionIndex = 56880;
+
+	class UIRABGachaRewardListDialogPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Int32 GachaRewardListCancelAccessId = 0x6F64; // 0x0
+		::Class_2_08F5D8D6F2B0662C* _view; // 0x318
+		::System::Collections::Generic::List_1<::MoleMole::UIRABGachaItemWidgetController*>* itemWidgetControllers; // 0x320
+		::MoleMole::RABGachaRewardContext* _openContext; // 0x328
+		::System::Boolean IsJump; // 0x330
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnOKBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONOKBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnCancelBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONCANCELBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OpenView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_OPENVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAREWARDLISTDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

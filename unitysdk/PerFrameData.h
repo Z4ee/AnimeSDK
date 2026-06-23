@@ -5,10 +5,10 @@
 
 class ParticlesData;
 
-#define PERFRAMEDATA_GET_PARTICLESCOUNT_OFFSET UNITYSDK_OFFSET(0xF7EB6A0)
-#define PERFRAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF7EB810)
+#define PERFRAMEDATA_GET_PARTICLESCOUNT_OFFSET UNITYSDK_OFFSET(0xF794290)
+#define PERFRAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF794400)
 
-inline static constexpr unsigned int PerFrameData_TypeDefinitionIndex = 29503;
+inline static constexpr unsigned int PerFrameData_TypeDefinitionIndex = 27095;
 
 class PerFrameData : public ::System::Object
 {

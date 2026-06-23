@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering::Universal { template <typename T> class Redire
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RedirectComponentHandler_1_TypeDefinitionIndex = 30089;
+	inline static constexpr unsigned int RedirectComponentHandler_1_TypeDefinitionIndex = 26256;
 
 	template <typename T>
 	class RedirectComponentHandler_1 : public ::UnityEngine::Rendering::Universal::RedirectComponentHandler

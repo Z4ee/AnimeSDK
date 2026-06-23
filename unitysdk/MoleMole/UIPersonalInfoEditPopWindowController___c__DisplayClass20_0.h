@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIEditBtnSmallWidgetController_Context; }
 
-#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D59B10)
-#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__RESETBTNBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x14D59B20)
+#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1529F5E0)
+#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__RESETBTNBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1529F5F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPersonalInfoEditPopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 45420;
+	inline static constexpr unsigned int UIPersonalInfoEditPopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 45486;
 
 	class UIPersonalInfoEditPopWindowController___c__DisplayClass20_0 : public ::System::Object
 	{

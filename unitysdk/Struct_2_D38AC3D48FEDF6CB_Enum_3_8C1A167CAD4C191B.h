@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Struct_2_D38AC3D48FEDF6CB_Enum_3_8C1A167CAD4C191B_TypeDefinitionIndex = 58228;
+inline static constexpr unsigned int Struct_2_D38AC3D48FEDF6CB_Enum_3_8C1A167CAD4C191B_TypeDefinitionIndex = 48708;
 
 enum class Struct_2_D38AC3D48FEDF6CB_Enum_3_8C1A167CAD4C191B : ::System::Int32
 {
-	End = 3,
 	Init = 1,
-	Unknow = 0,
 	It = 2,
+	Unknow = 0,
+	End = 3,
 };

@@ -10,25 +10,25 @@ namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { class Task; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1B4B2C20)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1B4B2C40)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4B2CC0)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B4B2E70)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1B4B2C30)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_TASK_OFFSET UNITYSDK_OFFSET(0x1B4B2C50)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B2EC0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1D804380)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1D8043A0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D804420)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1D8045D0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1D804390)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_TASK_OFFSET UNITYSDK_OFFSET(0x1D8043B0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D804620)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Monitor_TypeDefinitionIndex = 27819;
+	inline static constexpr unsigned int Monitor_TypeDefinitionIndex = 30105;
 
 	class Monitor : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{
 	public:
 		::NodeCanvas::Framework::ActionTask* _action; // 0x78
-		::NodeCanvas::Framework::Status decoratorActionStatus; // 0x80
-		::NodeCanvas::BehaviourTrees::Monitor_MonitorMode monitorMode; // 0x84
-		::NodeCanvas::BehaviourTrees::Monitor_ReturnStatusMode returnMode; // 0x88
+		::NodeCanvas::BehaviourTrees::Monitor_MonitorMode monitorMode; // 0x80
+		::NodeCanvas::BehaviourTrees::Monitor_ReturnStatusMode returnMode; // 0x84
+		::NodeCanvas::Framework::Status decoratorActionStatus; // 0x88
 
 		::System::Void _ctor()
 		{

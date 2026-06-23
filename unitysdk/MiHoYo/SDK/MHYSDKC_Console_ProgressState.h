@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_ProgressState_TypeDefinitionIndex = 34973;
+	inline static constexpr unsigned int MHYSDKC_Console_ProgressState_TypeDefinitionIndex = 36537;
 
 	enum class MHYSDKC_Console_ProgressState : ::System::Int32
 	{

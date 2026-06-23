@@ -6,7 +6,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_ConfigTagBuffCdTime_TypeDefinitionIndex = 57134;
+	inline static constexpr unsigned int ConfigBuffMisc_ConfigTagBuffCdTime_TypeDefinitionIndex = 69436;
 
 	struct alignas(4) ConfigBuffMisc_ConfigTagBuffCdTime
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUISOUND_SERVERSOUNDACTIONCLEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D39120)
+#define MOLEMOLE_CONFIGUISOUND_SERVERSOUNDACTIONCLEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07FC70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_ServerSoundActionClearConfig_TypeDefinitionIndex = 75887;
+	inline static constexpr unsigned int ConfigUISound_ServerSoundActionClearConfig_TypeDefinitionIndex = 41777;
 
 	class ConfigUISound_ServerSoundActionClearConfig : public ::System::Object
 	{

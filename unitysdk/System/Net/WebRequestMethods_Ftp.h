@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestMethods_Ftp_TypeDefinitionIndex = 3357;
+	inline static constexpr unsigned int WebRequestMethods_Ftp_TypeDefinitionIndex = 3356;
 
 	class WebRequestMethods_Ftp : public ::System::Object
 	{

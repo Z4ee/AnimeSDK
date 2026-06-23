@@ -8,7 +8,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class NativeAdditionalLightData_Nati
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipeline_TempLightData_TypeDefinitionIndex = 30265;
+	inline static constexpr unsigned int UniversalRenderPipeline_TempLightData_TypeDefinitionIndex = 27232;
 
 	struct alignas(8) UniversalRenderPipeline_TempLightData
 	{

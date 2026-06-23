@@ -13,39 +13,39 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT_GETAVAILABLECHATKEYS_OFFSET UNITYSDK_OFFSET(0x10E16BE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E16C60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x10E16E50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x10E16F20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x10E17740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_2_OFFSET UNITYSDK_OFFSET(0x10E177B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_3_OFFSET UNITYSDK_OFFSET(0x10E174B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_5_OFFSET UNITYSDK_OFFSET(0x10E174F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT_GETAVAILABLECHATKEYS_OFFSET UNITYSDK_OFFSET(0x18B2DCB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18B2DD30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2DF20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x18B2DFF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x18B2E810)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_2_OFFSET UNITYSDK_OFFSET(0x18B2E880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_3_OFFSET UNITYSDK_OFFSET(0x18B2E580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT__REGISTERPORTS_B__18_5_OFFSET UNITYSDK_OFFSET(0x18B2E5C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_InLevelChat_TypeDefinitionIndex = 64779;
+	inline static constexpr unsigned int LD_InLevelChat_TypeDefinitionIndex = 40121;
 
 	class LD_InLevelChat : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		// static const ::System::String* TAG; // 0x0
 		::FlowCanvas::FlowOutput* _onChatUIClosed; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _overriddenChatID; // 0xB0
-		::FlowCanvas::FlowOutput* _onChatCameraBlendedOut; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _outputData; // 0xC0
-		::FlowCanvas::FlowOutput* _onChatCameraBlendedIn; // 0xC8
+		::FlowCanvas::FlowOutput* _onChatCameraBlendedOut; // 0xB0
+		::FlowCanvas::FlowOutput* _onChatCameraBlendedIn; // 0xB8
+		::FlowCanvas::FlowInput* _popUpChatUI; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _overriddenChatID; // 0xC8
 		::System::String* ChatKey; // 0xD0
-		::FlowCanvas::FlowOutput* _out; // 0xD8
-		::FlowCanvas::FlowInput* _popUpChatUI; // 0xE0
-		::FlowCanvas::FlowInput* _in; // 0xE8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _chatEntity; // 0xF0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _chatEntity; // 0xD8
+		::FlowCanvas::FlowInput* _in; // 0xE0
+		::FlowCanvas::FlowOutput* _out; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _outputData; // 0xF0
 		::System::Boolean CutCameraBlendIn; // 0xF8
-		::System::Int32 ChatID; // 0xFC
-		::System::Boolean EnableChatEntityIK; // 0x100
-		::System::Boolean ManuallyFinishChat; // 0x101
-		::System::Boolean ManuallyStartUI; // 0x102
-		::System::Boolean CutCameraBlendOut; // 0x103
+		::System::Boolean ManuallyStartUI; // 0xF9
+		::System::Boolean EnableChatEntityIK; // 0xFA
+		::System::Boolean CutCameraBlendOut; // 0xFB
+		::System::Boolean ManuallyFinishChat; // 0xFC
+		::System::Int32 ChatID; // 0x100
 
 		::System::Void _ctor()
 		{

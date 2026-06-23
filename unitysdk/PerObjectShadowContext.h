@@ -9,28 +9,28 @@ class IPerObjectShadowEntity;
 namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define PEROBJECTSHADOWCONTEXT_PREPAREFORCULLING_OFFSET UNITYSDK_OFFSET(0x927F00)
-#define PEROBJECTSHADOWCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB86450)
+#define PEROBJECTSHADOWCONTEXT_PREPAREFORCULLING_OFFSET UNITYSDK_OFFSET(0x9C6460)
+#define PEROBJECTSHADOWCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEE6DD0)
 
-inline static constexpr unsigned int PerObjectShadowContext_TypeDefinitionIndex = 29630;
+inline static constexpr unsigned int PerObjectShadowContext_TypeDefinitionIndex = 27075;
 
 struct alignas(4) PerObjectShadowContext
 {
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleCollectBounds()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x24010);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x21810);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_EncapsulateBounds()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x24018);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_GetVisibility()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x24020);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x21818);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleFetchBounds()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x24028);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x21820);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_GetVisibility()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowContext_TypeDefinitionIndex)->GetStaticField(0x21828);
 	}
 	::UnityEngine::Bounds bounds; // 0x10
 	::UnityEngine::Vector3 centerWS; // 0x28

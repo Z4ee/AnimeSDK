@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionDeskRowWidgetController_TipData_TypeDefinitionIndex = 46969;
+	inline static constexpr unsigned int UISuibianTempleProductionDeskRowWidgetController_TipData_TypeDefinitionIndex = 74313;
 
 	struct alignas(4) UISuibianTempleProductionDeskRowWidgetController_TipData
 	{

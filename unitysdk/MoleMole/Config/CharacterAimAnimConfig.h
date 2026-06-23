@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIG_CHARACTERAIMANIMCONFIG_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0x122FF0C0)
+#define MOLEMOLE_CONFIG_CHARACTERAIMANIMCONFIG_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0x17D49140)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimAnimConfig_TypeDefinitionIndex = 47509;
+	inline static constexpr unsigned int CharacterAimAnimConfig_TypeDefinitionIndex = 45999;
 
 	struct alignas(4) CharacterAimAnimConfig
 	{

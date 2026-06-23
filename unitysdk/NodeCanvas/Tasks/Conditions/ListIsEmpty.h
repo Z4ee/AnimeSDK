@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace System::Collections { class IList; }
 
-#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1AF35FD0)
-#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1AF36040)
-#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF36140)
+#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D35C3A0)
+#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D35C410)
+#define NODECANVAS_TASKS_CONDITIONS_LISTISEMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35C510)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int ListIsEmpty_TypeDefinitionIndex = 27761;
+	inline static constexpr unsigned int ListIsEmpty_TypeDefinitionIndex = 30165;
 
 	class ListIsEmpty : public ::NodeCanvas::Framework::ConditionTask
 	{

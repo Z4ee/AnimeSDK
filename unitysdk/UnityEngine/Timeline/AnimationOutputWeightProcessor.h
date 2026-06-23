@@ -9,23 +9,23 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class AnimationTrack; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1BFAB700)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_1_OFFSET UNITYSDK_OFFSET(0x1BFAB290)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_OFFSET UNITYSDK_OFFSET(0x1BFAB0E0)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_SETANIMATIONTRACK_OFFSET UNITYSDK_OFFSET(0x1BFAB000)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAB010)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1E2DF410)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_1_OFFSET UNITYSDK_OFFSET(0x1E2DEFA0)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_OFFSET UNITYSDK_OFFSET(0x1E2DEDF0)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_SETANIMATIONTRACK_OFFSET UNITYSDK_OFFSET(0x1E2DED10)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DED20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationOutputWeightProcessor_TypeDefinitionIndex = 30692;
+	inline static constexpr unsigned int AnimationOutputWeightProcessor_TypeDefinitionIndex = 32243;
 
 	class AnimationOutputWeightProcessor : public ::System::Object
 	{
 	public:
-		::UnityEngine::Timeline::AnimationTrack* _animTrack; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor_WeightInfo>* m_Mixers; // 0x18
-		::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable; // 0x20
-		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor_WeightInfo>* m_Mixers; // 0x10
+		::UnityEngine::Timeline::AnimationTrack* _animTrack; // 0x18
+		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x20
+		::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable; // 0x30
 
 		::System::Void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output)
 		{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1_TypeDefinitionIndex = 27208;
+	inline static constexpr unsigned int HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1_TypeDefinitionIndex = 29880;
 
 	template <typename T>
 	class HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int IFill_TypeDefinitionIndex = 28511;
+	inline static constexpr unsigned int IFill_TypeDefinitionIndex = 31166;
 
 	class IFill
 	{

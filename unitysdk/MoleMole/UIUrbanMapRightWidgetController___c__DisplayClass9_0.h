@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIUrbanMapPageController; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3FA30)
+#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1655D260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 59340;
+	inline static constexpr unsigned int UIUrbanMapRightWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 82053;
 
 	class UIUrbanMapRightWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

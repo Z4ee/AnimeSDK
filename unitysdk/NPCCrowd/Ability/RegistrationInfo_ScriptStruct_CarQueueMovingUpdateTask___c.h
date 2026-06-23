@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11B18BE0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11B18C20)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x11B18C30)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF9A5C50)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF9A5C90)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEMOVINGUPDATETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF9A5CA0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c_TypeDefinitionIndex = 63946;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c_TypeDefinitionIndex = 39787;
 
 	class RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c_TypeDefinitionIndex)->GetStaticField(0x3F3E0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueMovingUpdateTask___c_TypeDefinitionIndex)->GetStaticField(0x41A40);
 		}
 
 		static ::System::Void _cctor()

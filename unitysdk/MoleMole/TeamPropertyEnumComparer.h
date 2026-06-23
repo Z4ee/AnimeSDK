@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/TeamProperty.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_TEAMPROPERTYENUMCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x755E00)
-#define MOLEMOLE_TEAMPROPERTYENUMCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x755E60)
+#define MOLEMOLE_TEAMPROPERTYENUMCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x814090)
+#define MOLEMOLE_TEAMPROPERTYENUMCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8140F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeamPropertyEnumComparer_TypeDefinitionIndex = 58611;
+	inline static constexpr unsigned int TeamPropertyEnumComparer_TypeDefinitionIndex = 42804;
 
 	struct alignas(1) TeamPropertyEnumComparer
 	{

@@ -6,7 +6,7 @@ namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 
 namespace DG::Tweening::Plugins::Core
 {
-	inline static constexpr unsigned int IPlugSetter_4_TypeDefinitionIndex = 25476;
+	inline static constexpr unsigned int IPlugSetter_4_TypeDefinitionIndex = 27967;
 
 	template <typename T1, typename T2, typename TPlugin, typename TPlugOptions>
 	class IPlugSetter_4

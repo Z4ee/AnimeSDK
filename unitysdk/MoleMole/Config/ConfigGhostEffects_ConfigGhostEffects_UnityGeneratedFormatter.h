@@ -13,26 +13,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF97D310)
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF97D320)
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF97D500)
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF97D6A0)
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF97D660)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x110A2300)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x110A2310)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x110A24F0)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x110A2690)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS_CONFIGGHOSTEFFECTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x110A2650)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex = 76660;
+	inline static constexpr unsigned int ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex = 43594;
 
 	class ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigGhostEffects*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::MoleMole::Config::ConfigGhostMove*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::MoleMole::Config::ConfigGhostMove*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46790);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::MoleMole::Config::ConfigGhostMove*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48370);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigGhostEffect*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigGhostEffect*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46798);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigGhostEffect*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGhostEffects_ConfigGhostEffects_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48378);
 		}
 
 		::System::Void _ctor()

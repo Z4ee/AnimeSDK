@@ -3,7 +3,7 @@
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Function_FunctionType_TypeDefinitionIndex = 1644;
+	inline static constexpr unsigned int Function_FunctionType_TypeDefinitionIndex = 1643;
 
 	enum class Function_FunctionType : ::System::Int32
 	{

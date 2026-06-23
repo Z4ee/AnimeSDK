@@ -4,7 +4,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int FormatProvider_Number_NumberBuffer_TypeDefinitionIndex = 6491;
+	inline static constexpr unsigned int FormatProvider_Number_NumberBuffer_TypeDefinitionIndex = 6392;
 
 	struct alignas(8) FormatProvider_Number_NumberBuffer
 	{

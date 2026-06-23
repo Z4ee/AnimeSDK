@@ -4,7 +4,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobThreadDelegatePtrArray_TypeDefinitionIndex = 5072;
+	inline static constexpr unsigned int JobThreadDelegatePtrArray_TypeDefinitionIndex = 5071;
 
 	struct alignas(8) JobThreadDelegatePtrArray
 	{

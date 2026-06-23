@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_1_AB23A58FFC34C976_METHOD_1_1CE13C450BB8E1E0_OFFSET UNITYSDK_OFFSET(0x1190DF70)
+#define CLASS_1_AB23A58FFC34C976_METHOD_1_1CE13C450BB8E1E0_OFFSET UNITYSDK_OFFSET(0x15469FD0)
 
-inline static constexpr unsigned int Class_1_AB23A58FFC34C976_TypeDefinitionIndex = 56506;
+inline static constexpr unsigned int Class_1_AB23A58FFC34C976_TypeDefinitionIndex = 53191;
 
 class Class_1_AB23A58FFC34C976 : public ::System::Object
 {

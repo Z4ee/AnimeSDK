@@ -5,7 +5,7 @@
 class Class_2_EA973170E0B2CCF6;
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_3_C91109162D964E4D_Struct_2_876867655EE47E8B_TypeDefinitionIndex = 47108;
+inline static constexpr unsigned int Class_3_C91109162D964E4D_Struct_2_876867655EE47E8B_TypeDefinitionIndex = 76780;
 
 struct alignas(8) Class_3_C91109162D964E4D_Struct_2_876867655EE47E8B
 {

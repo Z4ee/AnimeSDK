@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_91;
+class Class_2_208CC9941471731A_186;
 namespace MoleMole { class UIAbyssArpeggioLevelWidgetController; }
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167D6320)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0x167D6330)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0x167D6AE0)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0x167D6C40)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0x167D6CF0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173BDDD0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0x173BDDE0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0x173BE5F0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0x173BE750)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0x173BE800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 72828;
+	inline static constexpr unsigned int UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 55919;
 
 	class UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAbyssArpeggioLevelWidgetController* __4__this; // 0x10
-		::Class_2_208CC9941471731A_91* _levelCfg; // 0x18
+		::UnityEngine::Events::UnityAction* __9__1; // 0x10
+		::MoleMole::UIAbyssArpeggioLevelWidgetController* __4__this; // 0x18
 		::System::Action* __9__2; // 0x20
-		::System::Action* __9__3; // 0x28
-		::UnityEngine::Events::UnityAction* __9__1; // 0x30
+		::Class_2_208CC9941471731A_186* _levelCfg; // 0x28
+		::System::Action* __9__3; // 0x30
 		::System::Int32 consume; // 0x38
-		::System::Boolean canSweep; // 0x3C
-		::System::Int32 itemCount; // 0x40
+		::System::Int32 itemCount; // 0x3C
+		::System::Boolean canSweep; // 0x40
 
 		::System::Void _ctor()
 		{

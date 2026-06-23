@@ -6,10 +6,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C4E68D0)
-#define CINEMACHINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E6BF0)
+#define CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1E81DC80)
+#define CINEMACHINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81DFA0)
 
-inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 32452;
+inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 34003;
 
 class CinemachineTrack : public ::UnityEngine::Timeline::TrackAsset
 {

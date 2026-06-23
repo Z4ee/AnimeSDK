@@ -8,39 +8,39 @@ namespace Foundation { class ExceptionInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13637CE0)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CHECKSPACEENOUGH_B__31_0_OFFSET UNITYSDK_OFFSET(0x13637E50)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13637D20)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_0_OFFSET UNITYSDK_OFFSET(0x13637D30)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_1_OFFSET UNITYSDK_OFFSET(0x13637DB0)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_2_OFFSET UNITYSDK_OFFSET(0x13637E40)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1877EE50)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CHECKSPACEENOUGH_B__31_0_OFFSET UNITYSDK_OFFSET(0x1877EFC0)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1877EE90)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_0_OFFSET UNITYSDK_OFFSET(0x1877EEA0)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_1_OFFSET UNITYSDK_OFFSET(0x1877EF20)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__FINISH_B__28_2_OFFSET UNITYSDK_OFFSET(0x1877EFB0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DownloadDiffPatcher___c_TypeDefinitionIndex = 80182;
+	inline static constexpr unsigned int DownloadDiffPatcher___c_TypeDefinitionIndex = 63145;
 
 	class DownloadDiffPatcher___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Foundation::ExceptionInfo*>** StaticGet___9__28_2()
 		{
-			return (::System::Action_1<::Foundation::ExceptionInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2AEE0);
-		}
-		static ::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::System::Boolean>** StaticGet___9__28_0()
-		{
-			return (::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2AEE8);
-		}
-		static ::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::Foundation::ExceptionInfo*>** StaticGet___9__28_1()
-		{
-			return (::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::Foundation::ExceptionInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2AEF0);
+			return (::System::Action_1<::Foundation::ExceptionInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2EE90);
 		}
 		static ::Foundation::DownloadDiffPatcher___c** StaticGet___9()
 		{
-			return (::Foundation::DownloadDiffPatcher___c**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2AEF8);
+			return (::Foundation::DownloadDiffPatcher___c**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2EE98);
+		}
+		static ::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::Foundation::ExceptionInfo*>** StaticGet___9__28_1()
+		{
+			return (::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::Foundation::ExceptionInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2EEA0);
+		}
+		static ::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::System::Boolean>** StaticGet___9__28_0()
+		{
+			return (::System::Func_2<::Foundation::DownloadDiffPatcher_DiffResult*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2EEA8);
 		}
 		static ::System::Func_2<::Struct_2_DAA84C1CDD754F37, ::System::Int64>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::Struct_2_DAA84C1CDD754F37, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2AF00);
+			return (::System::Func_2<::Struct_2_DAA84C1CDD754F37, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(DownloadDiffPatcher___c_TypeDefinitionIndex)->GetStaticField(0x2EEB0);
 		}
 
 		static ::System::Void _cctor()

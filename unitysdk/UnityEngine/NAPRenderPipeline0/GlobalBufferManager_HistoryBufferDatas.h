@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::NAPRenderPipeline0 { class GlobalBufferManager_HistoryBuffers; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_HISTORYBUFFERDATAS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1AD49430)
-#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_HISTORYBUFFERDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD49670)
+#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_HISTORYBUFFERDATAS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1D128920)
+#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_HISTORYBUFFERDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D128B60)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GlobalBufferManager_HistoryBufferDatas_TypeDefinitionIndex = 6015;
+	inline static constexpr unsigned int GlobalBufferManager_HistoryBufferDatas_TypeDefinitionIndex = 6025;
 
 	class GlobalBufferManager_HistoryBufferDatas : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumetricFogQuality.h"
 
-#define MOLEMOLE_VOLUMETRICCLOUDPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF3ADB40)
+#define MOLEMOLE_VOLUMETRICCLOUDPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1042B440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VolumetricCloudProfileContext_TypeDefinitionIndex = 51774;
+	inline static constexpr unsigned int VolumetricCloudProfileContext_TypeDefinitionIndex = 87591;
 
 	class VolumetricCloudProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

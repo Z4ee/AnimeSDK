@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCLUSIVEORINSTRUCTION_EXCLUSIVEORSBYTE_RUN_OFFSET UNITYSDK_OFFSET(0x1C071150)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCLUSIVEORINSTRUCTION_EXCLUSIVEORSBYTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0712D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCLUSIVEORINSTRUCTION_EXCLUSIVEORSBYTE_RUN_OFFSET UNITYSDK_OFFSET(0x1E38E0C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCLUSIVEORINSTRUCTION_EXCLUSIVEORSBYTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38E240)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ExclusiveOrInstruction_ExclusiveOrSByte_TypeDefinitionIndex = 4654;
+	inline static constexpr unsigned int ExclusiveOrInstruction_ExclusiveOrSByte_TypeDefinitionIndex = 4653;
 
 	class ExclusiveOrInstruction_ExclusiveOrSByte : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction
 	{

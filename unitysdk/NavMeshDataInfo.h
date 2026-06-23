@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace UnityEngine::AI { class NavMeshData; }
 
-#define NAVMESHDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5D620)
+#define NAVMESHDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xEBE1950)
 
-inline static constexpr unsigned int NavMeshDataInfo_TypeDefinitionIndex = 48993;
+inline static constexpr unsigned int NavMeshDataInfo_TypeDefinitionIndex = 57735;
 
 class NavMeshDataInfo : public ::System::Object
 {

@@ -6,13 +6,13 @@ namespace MoleMole::Config::EffectPattern { class MonoEffectPluginFollowSoData_N
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17D2B960)
-#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17D2BBC0)
-#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2BE80)
+#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A0720A0)
+#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A072300)
+#define MOLEMOLE_CONFIG_EFFECTPATTERN_MONOEFFECTPLUGINFOLLOWSODATA_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0725C0)
 
 namespace MoleMole::Config::EffectPattern
 {
-	inline static constexpr unsigned int MonoEffectPluginFollowSoData_New_TypeDefinitionIndex = 76185;
+	inline static constexpr unsigned int MonoEffectPluginFollowSoData_New_TypeDefinitionIndex = 83915;
 
 	class MonoEffectPluginFollowSoData_New : public ::MoleMole::Config::EffectPattern::MonoEffectSoDataBase
 	{

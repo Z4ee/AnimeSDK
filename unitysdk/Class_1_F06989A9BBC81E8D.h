@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x108E8C20)
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x108E9070)
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_5426BA1D210E0567_OFFSET UNITYSDK_OFFSET(0x108E8C10)
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_A8C5A6D3A46B498A_1_OFFSET UNITYSDK_OFFSET(0x108E8E50)
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_A8C5A6D3A46B498A_OFFSET UNITYSDK_OFFSET(0x108E89F0)
-#define CLASS_1_F06989A9BBC81E8D_METHOD_1_B8ECC30C0BAAC3E4_OFFSET UNITYSDK_OFFSET(0x108E8E40)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x12C15DA0)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x12C15CB0)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_5426BA1D210E0567_OFFSET UNITYSDK_OFFSET(0x12C15A80)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_A8C5A6D3A46B498A_1_OFFSET UNITYSDK_OFFSET(0x12C15A90)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_A8C5A6D3A46B498A_OFFSET UNITYSDK_OFFSET(0x12C15860)
+#define CLASS_1_F06989A9BBC81E8D_METHOD_1_B8ECC30C0BAAC3E4_OFFSET UNITYSDK_OFFSET(0x12C15FC0)
 
-inline static constexpr unsigned int Class_1_F06989A9BBC81E8D_TypeDefinitionIndex = 70653;
+inline static constexpr unsigned int Class_1_F06989A9BBC81E8D_TypeDefinitionIndex = 66984;
 
 class Class_1_F06989A9BBC81E8D : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::TagLibraryConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::TagLibraryConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F06989A9BBC81E8D_TypeDefinitionIndex)->GetStaticField(0x2C050);
+		return (::MoleMole::Config::TagLibraryConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F06989A9BBC81E8D_TypeDefinitionIndex)->GetStaticField(0x429C0);
 	}
 
 	static ::System::Collections::Generic::List_1<::System::String*>* Method_1_A8C5A6D3A46B498A(::System::String* a1)
@@ -35,16 +35,6 @@ public:
 		return ((::MoleMole::Config::TagLibraryConfig*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_5426BA1D210E0567_OFFSET))();
 	}
 
-	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_B8ECC30C0BAAC3E4(::MoleMole::Config::TagLibraryConfig* a1)
-	{
-		return ((::System::Void(*)(::MoleMole::Config::TagLibraryConfig*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_B8ECC30C0BAAC3E4_OFFSET))(a1);
-	}
-
 	static ::System::Collections::Generic::List_1<::System::String*>* Method_1_A8C5A6D3A46B498A_1(::System::String* a1)
 	{
 		return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_A8C5A6D3A46B498A_1_OFFSET))(a1);
@@ -53,5 +43,15 @@ public:
 	static ::System::Void Method_1_502A81344CAEE4A4(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_502A81344CAEE4A4_OFFSET))(a1, a2, a3, a4);
+	}
+
+	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_B8ECC30C0BAAC3E4(::MoleMole::Config::TagLibraryConfig* a1)
+	{
+		return ((::System::Void(*)(::MoleMole::Config::TagLibraryConfig*))((::PBYTE)hIl2Cpp + CLASS_1_F06989A9BBC81E8D_METHOD_1_B8ECC30C0BAAC3E4_OFFSET))(a1);
 	}
 };

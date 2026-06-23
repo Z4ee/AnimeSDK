@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_NOTIFICATIONDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x194B1470)
+#define MIHOYO_SDK_NOTIFICATIONDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C9200)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 18457;
+	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 19340;
 
 	class NotificationDefine : public ::System::Object
 	{
@@ -47,6 +47,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* LOGIN_FLOW_SERVER_RESPONSE_ERROR; // 0x0
 		// static const ::System::String* LOGIN_FLOW_HTTP_REQUEST_ERROR; // 0x0
 		// static const ::System::String* LOGIN_FLOW_CLIENT_ERROR; // 0x0
+		// static const ::System::String* PAY_XBOX_IS_STORE_USER; // 0x0
 		// static const ::System::String* TYPE; // 0x0
 		// static const ::System::String* STATUS; // 0x0
 

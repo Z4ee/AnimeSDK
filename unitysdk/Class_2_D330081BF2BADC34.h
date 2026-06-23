@@ -11,28 +11,28 @@ namespace MoleMole { class MonoGamepadSelectable; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_D330081BF2BADC34_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x11AAA110)
-#define CLASS_2_D330081BF2BADC34_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x11AA9EA0)
-#define CLASS_2_D330081BF2BADC34_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11AAA1A0)
-#define CLASS_2_D330081BF2BADC34__CTOR_OFFSET UNITYSDK_OFFSET(0x11AAA190)
+#define CLASS_2_D330081BF2BADC34_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x1305CC30)
+#define CLASS_2_D330081BF2BADC34_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x1305C9C0)
+#define CLASS_2_D330081BF2BADC34_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1305CCC0)
+#define CLASS_2_D330081BF2BADC34__CTOR_OFFSET UNITYSDK_OFFSET(0x1305CCB0)
 
-inline static constexpr unsigned int Class_2_D330081BF2BADC34_TypeDefinitionIndex = 72076;
+inline static constexpr unsigned int Class_2_D330081BF2BADC34_TypeDefinitionIndex = 82027;
 
 class Class_2_D330081BF2BADC34 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_4; // 0x18
+	::UnityEngine::GameObject* Field_2_3; // 0x18
 	::UnityEngine::GameObject* Field_2_9; // 0x20
-	::UnityEngine::GameObject* Field_2_1; // 0x28
-	::MoleMole::MonoGamepadCustomList* Field_2_8; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
-	::UnityEngine::GameObject* Field_2_5; // 0x40
-	::UnityEngine::GameObject* Field_2_2; // 0x48
-	::UnityEngine::GameObject* Field_2_3; // 0x50
-	::MoleMole::MonoGamepadModule* Field_2_11; // 0x58
-	::UnityEngine::GameObject* Field_2_10; // 0x60
-	::MoleMole::MonoGamepadSelectable* Field_2_7; // 0x68
-	::Class_2_FDFE69FE7B72463B* Field_2_6; // 0x70
+	::Class_2_FDFE69FE7B72463B* Field_2_6; // 0x28
+	::UnityEngine::GameObject* Field_2_5; // 0x30
+	::UnityEngine::GameObject* Field_2_4; // 0x38
+	::UnityEngine::GameObject* Field_2_1; // 0x40
+	::MoleMole::MonoGamepadModule* Field_2_11; // 0x48
+	::MoleMole::MonoGamepadCustomList* Field_2_8; // 0x50
+	::UnityEngine::GameObject* Field_2_10; // 0x58
+	::MoleMole::MonoGamepadSelectable* Field_2_7; // 0x60
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x68
+	::UnityEngine::GameObject* Field_2_2; // 0x70
 
 	::System::Void _ctor()
 	{

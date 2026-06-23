@@ -10,7 +10,7 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Struct_2_D83DC7376F4C0DA0_TypeDefinitionIndex = 65651;
+inline static constexpr unsigned int Struct_2_D83DC7376F4C0DA0_TypeDefinitionIndex = 67348;
 
 struct alignas(8) Struct_2_D83DC7376F4C0DA0
 {

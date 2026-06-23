@@ -5,37 +5,37 @@
 namespace Nap::NapECS { class EcsComponent; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_1_OFFSET UNITYSDK_OFFSET(0x18E11960)
-#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_2_OFFSET UNITYSDK_OFFSET(0x18E119D0)
-#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_3_OFFSET UNITYSDK_OFFSET(0x18E11A40)
-#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_OFFSET UNITYSDK_OFFSET(0x18E118F0)
-#define CLASS_2_0CCE48347EBD6D5F___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E118A0)
-#define CLASS_2_0CCE48347EBD6D5F___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E118E0)
+#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_1_OFFSET UNITYSDK_OFFSET(0xE056990)
+#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_2_OFFSET UNITYSDK_OFFSET(0xE056A00)
+#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_3_OFFSET UNITYSDK_OFFSET(0xE056A70)
+#define CLASS_2_0CCE48347EBD6D5F___C_METHOD_1_8A429F16678BB711_OFFSET UNITYSDK_OFFSET(0xE056920)
+#define CLASS_2_0CCE48347EBD6D5F___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0568D0)
+#define CLASS_2_0CCE48347EBD6D5F___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE056910)
 
-inline static constexpr unsigned int Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex = 67206;
+inline static constexpr unsigned int Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex = 56496;
 
 class Class_2_0CCE48347EBD6D5F___c : public ::System::Object
 {
 public:
-	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__60_1()
+	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__62_0()
 	{
-		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x46030);
-	}
-	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__61_1()
-	{
-		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x46038);
+		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x41BE0);
 	}
 	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__61_0()
 	{
-		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x46040);
-	}
-	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__60_0()
-	{
-		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x46048);
+		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x41BE8);
 	}
 	static ::Class_2_0CCE48347EBD6D5F___c** StaticGet___9()
 	{
-		return (::Class_2_0CCE48347EBD6D5F___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x46050);
+		return (::Class_2_0CCE48347EBD6D5F___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x41BF0);
+	}
+	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__61_1()
+	{
+		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x41BF8);
+	}
+	static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__62_1()
+	{
+		return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0CCE48347EBD6D5F___c_TypeDefinitionIndex)->GetStaticField(0x41C00);
 	}
 
 	static ::System::Void _cctor()

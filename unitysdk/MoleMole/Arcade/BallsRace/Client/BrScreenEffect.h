@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BrScreenEffect_TypeDefinitionIndex = 83888;
+	inline static constexpr unsigned int BrScreenEffect_TypeDefinitionIndex = 89465;
 
 	struct alignas(8) BrScreenEffect
 	{

@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B424710)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B424960)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B424AA0)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B424AC0)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D7C6020)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7C6270)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C63B0)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D7C63D0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SortGameObjectListByDistance_TypeDefinitionIndex = 28201;
+	inline static constexpr unsigned int SortGameObjectListByDistance_TypeDefinitionIndex = 30250;
 
 	class SortGameObjectListByDistance : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetList; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* saveAs; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* saveAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetList; // 0x68
 		::System::Boolean reverse; // 0x70
 
 		::System::Void _ctor()

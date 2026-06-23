@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3448D0)
-#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B344990)
-#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B344880)
+#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D722F70)
+#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D723030)
+#define SYSTEM_DATA_READONLYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D722F20)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int ReadOnlyException_TypeDefinitionIndex = 36964;
+	inline static constexpr unsigned int ReadOnlyException_TypeDefinitionIndex = 38581;
 
 	class ReadOnlyException : public ::System::Data::DataException
 	{

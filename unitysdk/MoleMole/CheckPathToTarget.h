@@ -11,28 +11,28 @@ namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define MOLEMOLE_CHECKPATHTOTARGET_CHECKPATH_OFFSET UNITYSDK_OFFSET(0x1100DBC0)
-#define MOLEMOLE_CHECKPATHTOTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1100D9E0)
-#define MOLEMOLE_CHECKPATHTOTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1100DB70)
-#define MOLEMOLE_CHECKPATHTOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1100E050)
-#define MOLEMOLE_CHECKPATHTOTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1100E140)
-#define MOLEMOLE_CHECKPATHTOTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1100E1D0)
+#define MOLEMOLE_CHECKPATHTOTARGET_CHECKPATH_OFFSET UNITYSDK_OFFSET(0x13EC61E0)
+#define MOLEMOLE_CHECKPATHTOTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EC6000)
+#define MOLEMOLE_CHECKPATHTOTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EC6190)
+#define MOLEMOLE_CHECKPATHTOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC6670)
+#define MOLEMOLE_CHECKPATHTOTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EC6760)
+#define MOLEMOLE_CHECKPATHTOTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EC67F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckPathToTarget_TypeDefinitionIndex = 64417;
+	inline static constexpr unsigned int CheckPathToTarget_TypeDefinitionIndex = 66970;
 
 	class CheckPathToTarget : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x50
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::Il2CppArray<::UnityEngine::Vector3>* navMeshPathCorners; // 0x60
-		::UnityEngine::AI::NavMeshPath* navpath; // 0x68
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _cachedDataPath; // 0x70
+		::Il2CppArray<::UnityEngine::Vector3>* navMeshPathCorners; // 0x50
+		::UnityEngine::AI::NavMeshPath* navpath; // 0x58
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _cachedDataPath; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x70
 		::MoleMole::Config::ValueCompareType compareType; // 0x78
-		::System::Single distance; // 0x7C
-		::MoleMole::CheckPathToTarget_TargetType type; // 0x80
+		::MoleMole::CheckPathToTarget_TargetType type; // 0x7C
+		::System::Single distance; // 0x80
 
 		::System::Void _ctor()
 		{

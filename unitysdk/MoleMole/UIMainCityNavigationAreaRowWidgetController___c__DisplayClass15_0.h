@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityNavigationAreaRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONAREAROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13FB92D0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONAREAROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x13FB92E0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONAREAROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152E20A0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONAREAROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x152E20B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationAreaRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 57887;
+	inline static constexpr unsigned int UIMainCityNavigationAreaRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 55494;
 
 	class UIMainCityNavigationAreaRowWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{

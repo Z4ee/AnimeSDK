@@ -1,0 +1,127 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/HackEntrySubSystem_HackTarget.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace MoleMole::Battle { class Entity; }
+namespace System { class String; }
+
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_DEALLOCATE_OFFSET UNITYSDK_OFFSET(0x161F5000)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_DOINACTIVE_OFFSET UNITYSDK_OFFSET(0x161F4E50)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_EXITFOCUS_OFFSET UNITYSDK_OFFSET(0x161F4D00)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_FOCUS_OFFSET UNITYSDK_OFFSET(0x161F4CC0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_INIT_OFFSET UNITYSDK_OFFSET(0x161F4A70)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONINTERACTSUCCESS_OFFSET UNITYSDK_OFFSET(0x161F4F90)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONINTERRUPTINTERACTING_OFFSET UNITYSDK_OFFSET(0x161F4EF0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONSTARTINTERACTING_OFFSET UNITYSDK_OFFSET(0x161F4DC0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_TRYINTERRUPTSCAN_OFFSET UNITYSDK_OFFSET(0x161F4D70)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN__CTOR_OFFSET UNITYSDK_OFFSET(0x161F5090)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_DEALLOCATE_OFFSET UNITYSDK_OFFSET(0x161F50A0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_DOINACTIVE_OFFSET UNITYSDK_OFFSET(0x161F5130)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_EXITFOCUS_OFFSET UNITYSDK_OFFSET(0x161F51C0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_FOCUS_OFFSET UNITYSDK_OFFSET(0x161F5250)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x161F52E0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONINTERACTSUCCESS_OFFSET UNITYSDK_OFFSET(0x161F5330)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONINTERRUPTINTERACTING_OFFSET UNITYSDK_OFFSET(0x161F53C0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONSTARTINTERACTING_OFFSET UNITYSDK_OFFSET(0x161F5450)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int HackEntrySubSystem_HackObjectOperateScan_TypeDefinitionIndex = 83314;
+
+	class HackEntrySubSystem_HackObjectOperateScan : public ::MoleMole::HackEntrySubSystem_HackTarget
+	{
+	public:
+		::System::Boolean isScanning; // 0xB0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init(::MoleMole::Battle::Entity* entity, ::System::String* attachPointName, ::UnityEngine::Vector3 attachOffset, ::System::Single maxInteractOffset, ::System::Single interactTime, ::System::String* detectPointName)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_INIT_OFFSET))(this, entity, attachPointName, attachOffset, maxInteractOffset, interactTime, detectPointName);
+		}
+
+		::System::Void Focus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_FOCUS_OFFSET))(this);
+		}
+
+		::System::Void ExitFocus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_EXITFOCUS_OFFSET))(this);
+		}
+
+		::System::Void OnStartInteracting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONSTARTINTERACTING_OFFSET))(this);
+		}
+
+		::System::Void TryInterruptScan()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_TRYINTERRUPTSCAN_OFFSET))(this);
+		}
+
+		::System::Void DoInactive()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_DOINACTIVE_OFFSET))(this);
+		}
+
+		::System::Void OnInterruptInteracting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONINTERRUPTINTERACTING_OFFSET))(this);
+		}
+
+		::System::Void OnInteractSuccess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_ONINTERACTSUCCESS_OFFSET))(this);
+		}
+
+		::System::Void Deallocate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN_DEALLOCATE_OFFSET))(this);
+		}
+
+		::System::Void __base_Deallocate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_DEALLOCATE_OFFSET))(this);
+		}
+
+		::System::Void __base_DoInactive()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_DOINACTIVE_OFFSET))(this);
+		}
+
+		::System::Void __base_ExitFocus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_EXITFOCUS_OFFSET))(this);
+		}
+
+		::System::Void __base_Focus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_FOCUS_OFFSET))(this);
+		}
+
+		::System::Void __base_Init(::MoleMole::Battle::Entity* P0, ::System::String* P1, ::UnityEngine::Vector3 P2, ::System::Single P3, ::System::Single P4, ::System::String* P5)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_INIT_OFFSET))(this, P0, P1, P2, P3, P4, P5);
+		}
+
+		::System::Void __base_OnInteractSuccess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONINTERACTSUCCESS_OFFSET))(this);
+		}
+
+		::System::Void __base_OnInterruptInteracting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONINTERRUPTINTERACTING_OFFSET))(this);
+		}
+
+		::System::Void __base_OnStartInteracting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKENTRYSUBSYSTEM_HACKOBJECTOPERATESCAN___BASE_ONSTARTINTERACTING_OFFSET))(this);
+		}
+	};
+}

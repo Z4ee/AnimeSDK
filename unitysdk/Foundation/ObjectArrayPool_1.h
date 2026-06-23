@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class ArrayObjectPoolInstance_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectArrayPool_1_TypeDefinitionIndex = 7925;
+	inline static constexpr unsigned int ObjectArrayPool_1_TypeDefinitionIndex = 7996;
 
 	template <typename T>
 	class ObjectArrayPool_1 : public ::System::Object

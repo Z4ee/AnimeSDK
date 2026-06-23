@@ -8,17 +8,17 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_PARAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16038150)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_PARAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAB870)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardChangeBg_ParaInfo_TypeDefinitionIndex = 79556;
+	inline static constexpr unsigned int ChessboardChangeBg_ParaInfo_TypeDefinitionIndex = 69805;
 
 	class ChessboardChangeBg_ParaInfo : public ::System::Object
 	{
 	public:
-		::System::String* videoName; // 0x10
-		::MoleMole::FlowCanvas::Optional_1<::System::ValueTuple_2<::System::Single, ::UnityEngine::AnimationCurve*>> FadeInfo; // 0x18
+		::MoleMole::FlowCanvas::Optional_1<::System::ValueTuple_2<::System::Single, ::UnityEngine::AnimationCurve*>> FadeInfo; // 0x10
+		::System::String* videoName; // 0x28
 		::MoleMole::FlowCanvas::Optional_1<::MoleMole::Vector2Int> BoundIndex; // 0x30
 
 		::System::Void _ctor()

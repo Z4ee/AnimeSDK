@@ -9,25 +9,25 @@ class MonoUIBtnScaleAnim;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_8DAF7F768CC9112A_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x12A73610)
-#define CLASS_2_8DAF7F768CC9112A_METHOD_2_8CE71901D76EEEA9_OFFSET UNITYSDK_OFFSET(0x12A733E0)
-#define CLASS_2_8DAF7F768CC9112A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12A73700)
-#define CLASS_2_8DAF7F768CC9112A__CTOR_OFFSET UNITYSDK_OFFSET(0x12A736F0)
+#define CLASS_2_8DAF7F768CC9112A_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x10573AD0)
+#define CLASS_2_8DAF7F768CC9112A_METHOD_2_8CE71901D76EEEA9_OFFSET UNITYSDK_OFFSET(0x105738B0)
+#define CLASS_2_8DAF7F768CC9112A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10573BC0)
+#define CLASS_2_8DAF7F768CC9112A__CTOR_OFFSET UNITYSDK_OFFSET(0x10573BB0)
 
-inline static constexpr unsigned int Class_2_8DAF7F768CC9112A_TypeDefinitionIndex = 67563;
+inline static constexpr unsigned int Class_2_8DAF7F768CC9112A_TypeDefinitionIndex = 49923;
 
 class Class_2_8DAF7F768CC9112A : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x18
-	::UnityEngine::GameObject* Field_2_3; // 0x20
-	::UnityEngine::GameObject* Field_2_8; // 0x28
-	::UnityEngine::GameObject* Field_2_1; // 0x30
+	::UnityEngine::GameObject* Field_2_1; // 0x18
+	::UnityEngine::GameObject* Field_2_2; // 0x20
+	::Class_2_CA67A9CEB871FFD3* Field_2_5; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x30
 	::UnityEngine::GameObject* Field_2_6; // 0x38
-	::UnityEngine::GameObject* Field_2_7; // 0x40
-	::MonoUIBtnScaleAnim* Field_2_4; // 0x48
-	::UnityEngine::GameObject* Field_2_2; // 0x50
-	::Class_2_CA67A9CEB871FFD3* Field_2_5; // 0x58
+	::MonoUIBtnScaleAnim* Field_2_4; // 0x40
+	::UnityEngine::GameObject* Field_2_3; // 0x48
+	::UnityEngine::GameObject* Field_2_8; // 0x50
+	::UnityEngine::GameObject* Field_2_7; // 0x58
 
 	::System::Void _ctor()
 	{

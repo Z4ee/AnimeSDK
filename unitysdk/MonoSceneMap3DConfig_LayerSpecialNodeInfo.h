@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MONOSCENEMAP3DCONFIG_LAYERSPECIALNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE86CCC0)
+#define MONOSCENEMAP3DCONFIG_LAYERSPECIALNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11BF6980)
 
-inline static constexpr unsigned int MonoSceneMap3DConfig_LayerSpecialNodeInfo_TypeDefinitionIndex = 66982;
+inline static constexpr unsigned int MonoSceneMap3DConfig_LayerSpecialNodeInfo_TypeDefinitionIndex = 40576;
 
 class MonoSceneMap3DConfig_LayerSpecialNodeInfo : public ::System::Object
 {

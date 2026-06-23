@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawFakeLightVolumetricFogParam_TypeDefinitionIndex = 5919;
+	inline static constexpr unsigned int DrawFakeLightVolumetricFogParam_TypeDefinitionIndex = 5928;
 
 	struct alignas(4) DrawFakeLightVolumetricFogParam
 	{

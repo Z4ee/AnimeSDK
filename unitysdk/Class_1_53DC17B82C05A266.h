@@ -7,27 +7,27 @@ namespace MoleMole::Config { class AnimatorZone; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_53DC17B82C05A266_METHOD_1_16E66AF447B83C9F_OFFSET UNITYSDK_OFFSET(0x10250D70)
-#define CLASS_1_53DC17B82C05A266_METHOD_1_76918BAAE41D8910_OFFSET UNITYSDK_OFFSET(0x102509A0)
-#define CLASS_1_53DC17B82C05A266__CCTOR_OFFSET UNITYSDK_OFFSET(0x102508D0)
-#define CLASS_1_53DC17B82C05A266__CTOR_OFFSET UNITYSDK_OFFSET(0x102508C0)
+#define CLASS_1_53DC17B82C05A266_METHOD_1_16E66AF447B83C9F_OFFSET UNITYSDK_OFFSET(0xF5B3F00)
+#define CLASS_1_53DC17B82C05A266_METHOD_1_76918BAAE41D8910_OFFSET UNITYSDK_OFFSET(0xF5B3B30)
+#define CLASS_1_53DC17B82C05A266__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5B3A60)
+#define CLASS_1_53DC17B82C05A266__CTOR_OFFSET UNITYSDK_OFFSET(0xF5B3A50)
 
-inline static constexpr unsigned int Class_1_53DC17B82C05A266_TypeDefinitionIndex = 50232;
+inline static constexpr unsigned int Class_1_53DC17B82C05A266_TypeDefinitionIndex = 81214;
 
 class Class_1_53DC17B82C05A266 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Enum_3_054FCEA7D0BC7163>** StaticGet_Field_1_2()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Enum_3_054FCEA7D0BC7163>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0x3DD30);
-	}
 	static ::MoleMole::Config::AnimatorZone** StaticGet_Field_1_1()
 	{
-		return (::MoleMole::Config::AnimatorZone**)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0x3DD38);
+		return (::MoleMole::Config::AnimatorZone**)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0x36A10);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Enum_3_054FCEA7D0BC7163>** StaticGet_Field_1_2()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Enum_3_054FCEA7D0BC7163>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0x36A18);
 	}
 	static ::System::Boolean* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0xF260);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_53DC17B82C05A266_TypeDefinitionIndex)->GetStaticField(0xD8F0);
 	}
 
 	::System::Void _ctor()

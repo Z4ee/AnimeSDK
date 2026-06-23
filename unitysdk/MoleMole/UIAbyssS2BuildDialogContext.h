@@ -5,11 +5,11 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIABYSSS2BUILDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170761C0)
+#define MOLEMOLE_UIABYSSS2BUILDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D36F00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2BuildDialogContext_TypeDefinitionIndex = 74613;
+	inline static constexpr unsigned int UIAbyssS2BuildDialogContext_TypeDefinitionIndex = 59064;
 
 	class UIAbyssS2BuildDialogContext : public ::MoleMole::UIControllerContextBase
 	{

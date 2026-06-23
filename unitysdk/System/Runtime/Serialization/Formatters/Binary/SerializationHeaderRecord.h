@@ -6,26 +6,26 @@
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_GETINT32_OFFSET UNITYSDK_OFFSET(0x19604090)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_READ_OFFSET UNITYSDK_OFFSET(0x19604130)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_WRITE_OFFSET UNITYSDK_OFFSET(0x19603FB0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19603F80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x19603F70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_GETINT32_OFFSET UNITYSDK_OFFSET(0x1BA278C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_READ_OFFSET UNITYSDK_OFFSET(0x1BA27960)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD_WRITE_OFFSET UNITYSDK_OFFSET(0x1BA277F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BA277C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SERIALIZATIONHEADERRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA277B0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int SerializationHeaderRecord_TypeDefinitionIndex = 1183;
+	inline static constexpr unsigned int SerializationHeaderRecord_TypeDefinitionIndex = 1182;
 
 	class SerializationHeaderRecord : public ::System::Object
 	{
 	public:
-		::System::Int32 topId; // 0x10
-		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x14
-		::System::Int32 headerId; // 0x18
-		::System::Int32 majorVersion; // 0x1C
-		::System::Int32 binaryFormatterMinorVersion; // 0x20
-		::System::Int32 binaryFormatterMajorVersion; // 0x24
-		::System::Int32 minorVersion; // 0x28
+		::System::Int32 headerId; // 0x10
+		::System::Int32 binaryFormatterMajorVersion; // 0x14
+		::System::Int32 majorVersion; // 0x18
+		::System::Int32 minorVersion; // 0x1C
+		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x20
+		::System::Int32 topId; // 0x24
+		::System::Int32 binaryFormatterMinorVersion; // 0x28
 
 		::System::Void _ctor()
 		{

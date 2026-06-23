@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigSpecialEffectHitData_SpecialHitEffectMa
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1242EBE0)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA63030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSpecialEffectHitData_TypeDefinitionIndex = 65786;
+	inline static constexpr unsigned int ConfigSpecialEffectHitData_TypeDefinitionIndex = 83733;
 
 	class ConfigSpecialEffectHitData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

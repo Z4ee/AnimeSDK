@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIStrategyGuideRoleInfoPopWindowController; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEBAA410)
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__REFRESHSUITS_B__1_OFFSET UNITYSDK_OFFSET(0xEBAA420)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15F49810)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__REFRESHSUITS_B__1_OFFSET UNITYSDK_OFFSET(0x15F49820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 77514;
+	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 64271;
 
 	class UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass18_1 : public ::System::Object
 	{

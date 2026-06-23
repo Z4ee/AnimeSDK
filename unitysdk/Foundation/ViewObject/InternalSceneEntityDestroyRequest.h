@@ -7,7 +7,7 @@ class Class_3_3EC97B498E0B85D2;
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int InternalSceneEntityDestroyRequest_TypeDefinitionIndex = 68454;
+	inline static constexpr unsigned int InternalSceneEntityDestroyRequest_TypeDefinitionIndex = 79542;
 
 	struct alignas(8) InternalSceneEntityDestroyRequest
 	{

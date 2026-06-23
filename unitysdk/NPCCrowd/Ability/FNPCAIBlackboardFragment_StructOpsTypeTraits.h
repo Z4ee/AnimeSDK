@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_FNPCAIBLACKBOARDFRAGMENT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xFBF8A00)
-#define NPCCROWD_ABILITY_FNPCAIBLACKBOARDFRAGMENT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xFBF8A10)
+#define NPCCROWD_ABILITY_FNPCAIBLACKBOARDFRAGMENT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xFFAA140)
+#define NPCCROWD_ABILITY_FNPCAIBLACKBOARDFRAGMENT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xFFAA150)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAIBlackboardFragment_StructOpsTypeTraits_TypeDefinitionIndex = 62843;
+	inline static constexpr unsigned int FNPCAIBlackboardFragment_StructOpsTypeTraits_TypeDefinitionIndex = 72083;
 
 	class FNPCAIBlackboardFragment_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

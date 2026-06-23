@@ -3,17 +3,17 @@
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISETTINGPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1302E7D0)
+#define MOLEMOLE_UISETTINGPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11BAEB00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingPageContext_TypeDefinitionIndex = 70602;
+	inline static constexpr unsigned int UISettingPageContext_TypeDefinitionIndex = 50002;
 
 	class UISettingPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::ESystemSettingType ShowPageType; // 0x28
-		::System::Boolean PopRoulettSetting; // 0x2C
+		::System::Boolean PopRoulettSetting; // 0x28
+		::MoleMole::ESystemSettingType ShowPageType; // 0x2C
 
 		::System::Void _ctor()
 		{

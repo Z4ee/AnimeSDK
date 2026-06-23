@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls::Handshake
 {
-	inline static constexpr unsigned int HandshakeType_TypeDefinitionIndex = 2393;
+	inline static constexpr unsigned int HandshakeType_TypeDefinitionIndex = 2392;
 
 	enum class HandshakeType : ::System::Byte
 	{

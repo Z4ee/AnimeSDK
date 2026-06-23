@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Plugins::Core
 {
-	inline static constexpr unsigned int ITPlugin_4_TypeDefinitionIndex = 25474;
+	inline static constexpr unsigned int ITPlugin_4_TypeDefinitionIndex = 27965;
 
 	template <typename T1, typename T2, typename TPlugOptions, typename TPlugin>
 	class ITPlugin_4

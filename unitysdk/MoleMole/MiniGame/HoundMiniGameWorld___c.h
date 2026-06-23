@@ -5,29 +5,29 @@
 class Class_1_B0BA31736A3CCA24;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1542AA10)
-#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1542AA50)
-#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__SETPLAYERMULTIPLAYSTATE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1542AA60)
-#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__SETPLAYERMULTIPLAYSTATE_B__31_1_OFFSET UNITYSDK_OFFSET(0x1542AA80)
+#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x161F75B0)
+#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x161F75F0)
+#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__SETPLAYERMULTIPLAYSTATE_B__31_0_OFFSET UNITYSDK_OFFSET(0x161F7600)
+#define MOLEMOLE_MINIGAME_HOUNDMINIGAMEWORLD___C__SETPLAYERMULTIPLAYSTATE_B__31_1_OFFSET UNITYSDK_OFFSET(0x161F7620)
 
 namespace MoleMole::MiniGame
 {
-	inline static constexpr unsigned int HoundMiniGameWorld___c_TypeDefinitionIndex = 60272;
+	inline static constexpr unsigned int HoundMiniGameWorld___c_TypeDefinitionIndex = 55967;
 
 	class HoundMiniGameWorld___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::MiniGame::HoundMiniGameWorld___c** StaticGet___9()
 		{
-			return (::MoleMole::MiniGame::HoundMiniGameWorld___c**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x34C20);
-		}
-		static ::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>** StaticGet___9__31_1()
-		{
-			return (::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x34C28);
+			return (::MoleMole::MiniGame::HoundMiniGameWorld___c**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x376F0);
 		}
 		static ::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x34C30);
+			return (::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x376F8);
+		}
+		static ::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>** StaticGet___9__31_1()
+		{
+			return (::System::Func_2<::Class_1_B0BA31736A3CCA24*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HoundMiniGameWorld___c_TypeDefinitionIndex)->GetStaticField(0x37700);
 		}
 
 		static ::System::Void _cctor()

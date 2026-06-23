@@ -12,38 +12,38 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16AAFAF0)
-#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16AAFB00)
-#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16AAFF00)
-#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AB01A0)
-#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB0160)
+#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x158CB510)
+#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x158CB520)
+#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x158CB920)
+#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x158CBBC0)
+#define MOLEMOLE_CONFIGENVIRONMENTFEATUREMODIFIER_CONFIGENVIRONMENTFEATUREMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x158CBB80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 66774;
+	inline static constexpr unsigned int ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 67536;
 
 	class ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigEnvironmentFeatureModifier*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32100);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearStepStairDamper*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearStepStairDamper*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32108);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigStairVelocityModifier*>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigStairVelocityModifier*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32110);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearStepStairDamper*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34000);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearSlopeDamper*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearSlopeDamper*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32118);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigLinearSlopeDamper*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34008);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigGroundPositionBlendModifier*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigGroundPositionBlendModifier*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32120);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigGroundPositionBlendModifier*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34010);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigStairVelocityModifier*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigStairVelocityModifier*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34018);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEnvironmentFeatureModifier_ConfigEnvironmentFeatureModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34020);
 		}
 
 		::System::Void _ctor()

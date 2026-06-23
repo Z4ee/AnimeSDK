@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int ReadOnlyDictionary_2_ValueCollection_TypeDefinitionIndex = 1498;
+	inline static constexpr unsigned int ReadOnlyDictionary_2_ValueCollection_TypeDefinitionIndex = 1497;
 
 	template <typename TKey, typename TValue>
 	class ReadOnlyDictionary_2_ValueCollection : public ::System::Object

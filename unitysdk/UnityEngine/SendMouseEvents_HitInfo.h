@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C4E0A70)
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C4E0830)
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x9DDB40)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E817DB0)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E817B70)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0xA7F120)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SendMouseEvents_HitInfo_TypeDefinitionIndex = 7616;
+	inline static constexpr unsigned int SendMouseEvents_HitInfo_TypeDefinitionIndex = 7692;
 
 	struct alignas(8) SendMouseEvents_HitInfo
 	{

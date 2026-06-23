@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MonoPerObjectShadowBindings_NativeSerializedData_TypeDefinitionIndex = 6110;
+	inline static constexpr unsigned int MonoPerObjectShadowBindings_NativeSerializedData_TypeDefinitionIndex = 6121;
 
 	struct alignas(4) MonoPerObjectShadowBindings_NativeSerializedData
 	{

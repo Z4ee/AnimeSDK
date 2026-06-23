@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_4_B8EB3E9191ADE6A5.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_1_1685EC66FBD28897;
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIUrbanMapRightListRowNormalContext; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x8BFF9A0)
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_261D4B62BEE14763_OFFSET UNITYSDK_OFFSET(0x8BFF990)
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_7C0ABCE8E7C44D4E_OFFSET UNITYSDK_OFFSET(0x8BFD6A0)
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_C3D26EC46C82820D_OFFSET UNITYSDK_OFFSET(0x8BFE4C0)
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x8BFF970)
+#define CLASS_5_DE4B38B986B2B267_3_METHOD_5_FC553D3E1C066CD2_OFFSET UNITYSDK_OFFSET(0x8BFDBC0)
+#define CLASS_5_DE4B38B986B2B267_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8BFDB30)
+
+inline static constexpr unsigned int Class_5_DE4B38B986B2B267_3_TypeDefinitionIndex = 69733;
+
+class Class_5_DE4B38B986B2B267_3 : public ::Class_4_B8EB3E9191ADE6A5
+{
+public:
+	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Field_5_1; // 0x78
+	::System::Collections::Generic::List_1<::MoleMole::UIUrbanMapRightListRowNormalContext*>* Field_5_0; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_5_7C0ABCE8E7C44D4E(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_7C0ABCE8E7C44D4E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::MoleMole::UIUrbanMapRightListRowNormalContext*>* Method_5_FC553D3E1C066CD2()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::MoleMole::UIUrbanMapRightListRowNormalContext*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_FC553D3E1C066CD2_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Method_5_C3D26EC46C82820D()
+	{
+		return ((::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_C3D26EC46C82820D_OFFSET))(this);
+	}
+
+	::System::Boolean Method_5_F0E307B84478A272()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_F0E307B84478A272_OFFSET))(this);
+	}
+
+	::System::Void Method_5_261D4B62BEE14763(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_261D4B62BEE14763_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_5_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DE4B38B986B2B267_3_METHOD_5_1D4018D4200358D0_OFFSET))(this);
+	}
+};

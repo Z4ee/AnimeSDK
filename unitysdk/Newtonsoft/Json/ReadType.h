@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int ReadType_TypeDefinitionIndex = 6880;
+	inline static constexpr unsigned int ReadType_TypeDefinitionIndex = 7011;
 
 	enum class ReadType : ::System::Int32
 	{

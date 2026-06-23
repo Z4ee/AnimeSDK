@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int Parity_TypeDefinitionIndex = 4154;
+	inline static constexpr unsigned int Parity_TypeDefinitionIndex = 4153;
 
 	enum class Parity : ::System::Int32
 	{

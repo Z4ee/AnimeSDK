@@ -7,12 +7,12 @@ namespace MoleMole::DataStructures::Common { class OptionalColor; }
 namespace MoleMole::DataStructures::Common { class OptionalFloat; }
 namespace UnityEngine::Rendering::Universal::Internal { class OutlineObjectRenderer; }
 
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_METHOD_1_87930785EE478EBD_OFFSET UNITYSDK_OFFSET(0x153DF7E0)
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL__CTOR_OFFSET UNITYSDK_OFFSET(0x153DF6B0)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_METHOD_1_87930785EE478EBD_OFFSET UNITYSDK_OFFSET(0x161AE730)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL__CTOR_OFFSET UNITYSDK_OFFSET(0x161AE600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Global_TypeDefinitionIndex = 46152;
+	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Global_TypeDefinitionIndex = 47971;
 
 	class ConfigOutlineObjectRenderer_Global : public ::System::Object
 	{

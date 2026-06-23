@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IReference_TypeDefinitionIndex = 7799;
+	inline static constexpr unsigned int IReference_TypeDefinitionIndex = 7974;
 
 	class IReference
 	{

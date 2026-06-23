@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEENTITYABILITYBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1841A280)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEENTITYABILITYBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x1841A540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEENTITYABILITYBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A39B650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEENTITYABILITYBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39B910)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRemoveEntityAbilityById_TypeDefinitionIndex = 81346;
+	inline static constexpr unsigned int LDRemoveEntityAbilityById_TypeDefinitionIndex = 87038;
 
 	class LDRemoveEntityAbilityById : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::System::Int32>*>
 	{

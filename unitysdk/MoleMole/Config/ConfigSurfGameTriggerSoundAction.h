@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMETRIGGERSOUNDACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16A9E040)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMETRIGGERSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9E110)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMETRIGGERSOUNDACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x158B7270)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMETRIGGERSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x158B7340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameTriggerSoundAction_TypeDefinitionIndex = 49341;
+	inline static constexpr unsigned int ConfigSurfGameTriggerSoundAction_TypeDefinitionIndex = 57970;
 
 	class ConfigSurfGameTriggerSoundAction : public ::MoleMole::Config::ConfigSurfGameItemAction
 	{

@@ -8,20 +8,20 @@ namespace Spine { class SkeletonData; }
 namespace Spine::Unity { class SkeletonDataAsset; }
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET UNITYSDK_OFFSET(0x18B73AB0)
-#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x18B73A10)
-#define SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET UNITYSDK_OFFSET(0x18B73840)
-#define SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B73750)
+#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET UNITYSDK_OFFSET(0x1AD508F0)
+#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1AD50850)
+#define SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1AD50680)
+#define SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD50590)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttachment_TypeDefinitionIndex = 37896;
+	inline static constexpr unsigned int SpineAttachment_TypeDefinitionIndex = 39524;
 
 	class SpineAttachment : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
-		::System::String* slotField; // 0x28
-		::System::String* skinField; // 0x30
+		::System::String* skinField; // 0x28
+		::System::String* slotField; // 0x30
 		::System::Boolean returnAttachmentPath; // 0x38
 		::System::Boolean currentSkinOnly; // 0x39
 		::System::Boolean placeholdersOnly; // 0x3A

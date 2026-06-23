@@ -6,27 +6,27 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xF968F70)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0xF968D00)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0xF968B90)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0xF969400)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET UNITYSDK_OFFSET(0xF969200)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_46F5479027C46F32_OFFSET UNITYSDK_OFFSET(0xF968FD0)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET UNITYSDK_OFFSET(0xF968D80)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0xF968B80)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_AD2546178B84DCBA_OFFSET UNITYSDK_OFFSET(0xF969490)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_B4CE6E15972D3848_OFFSET UNITYSDK_OFFSET(0xF969640)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0xF968C90)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0xF9692E0)
-#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xF9693F0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1108C950)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1108C940)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1108CE90)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1108CAC0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1108D2D0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1108CA50)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1108CEF0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1108CB40)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1108D3B0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1108D120)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1108CD30)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1108D4C0)
+#define MOLEMOLE_CONFIG_AIPATHPOINTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1108D4D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AIPathPointTrait_TypeDefinitionIndex = 77138;
+	inline static constexpr unsigned int AIPathPointTrait_TypeDefinitionIndex = 65950;
 
 	class AIPathPointTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -38,64 +38,64 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_39C75ED00C6629F7(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::AIPathPointTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET))(this, a1);
+			return ((::MoleMole::Config::AIPathPointTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Void OnPostEntityReady(::MoleMole::EntityHandle a1)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_ONPOSTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::AIPathPointTrait* Method_2_AD2546178B84DCBA(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		static ::MoleMole::Config::AIPathPointTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::AIPathPointTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_AD2546178B84DCBA_OFFSET))(a1, a2);
+			return ((::MoleMole::Config::AIPathPointTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_46F5479027C46F32(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_46F5479027C46F32_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		static ::MoleMole::Config::AIPathPointTrait* Method_2_B4CE6E15972D3848(::FlexBuffers::FlxValue a1)
+		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::MoleMole::Config::AIPathPointTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_B4CE6E15972D3848_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Boolean Method_2_7821D1D4DDDF7E01(::FlexBuffers::FlxMap a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_AIPATHPOINTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int NewFootPhaseCurveGenerator_TypeDefinitionIndex = 52357;
+	inline static constexpr unsigned int NewFootPhaseCurveGenerator_TypeDefinitionIndex = 49178;
 
 	struct alignas(1) NewFootPhaseCurveGenerator
 	{

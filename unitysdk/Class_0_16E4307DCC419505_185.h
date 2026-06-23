@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_BCC5174FAE21E04E;
-namespace System { class Exception; }
-namespace System { class TimeoutException; }
-namespace System::Runtime::Serialization { class SerializationException; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_185_TypeDefinitionIndex = 39393;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_185_TypeDefinitionIndex = 45940;
 
 class Class_0_16E4307DCC419505_185
 {

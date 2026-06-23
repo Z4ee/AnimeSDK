@@ -9,13 +9,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class EventTriggerBehaviour; }
 namespace UnityEngine::Timeline { class EventTriggerZoneInfo; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C289180)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1C289280)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C289290)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E5A9070)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1E5A9170)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9180)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerPlayableAsset_TypeDefinitionIndex = 30769;
+	inline static constexpr unsigned int EventTriggerPlayableAsset_TypeDefinitionIndex = 32320;
 
 	class EventTriggerPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int XRFeatureDescriptor_TypeDefinitionIndex = 29069;
+	inline static constexpr unsigned int XRFeatureDescriptor_TypeDefinitionIndex = 31725;
 
 	struct alignas(8) XRFeatureDescriptor
 	{

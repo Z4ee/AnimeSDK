@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_UI_MISC_DESTROYIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x1B96D090)
+#define UNITYENGINE_UI_MISC_DESTROYIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x1DCE3D90)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 8422;
+	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 18930;
 
 	class Misc : public ::System::Object
 	{

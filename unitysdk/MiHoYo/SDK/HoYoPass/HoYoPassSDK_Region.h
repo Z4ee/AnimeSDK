@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_Region_TypeDefinitionIndex = 19157;
+	inline static constexpr unsigned int HoYoPassSDK_Region_TypeDefinitionIndex = 20056;
 
 	enum class HoYoPassSDK_Region : ::System::Int32
 	{

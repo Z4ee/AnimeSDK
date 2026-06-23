@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+class Class_2_FDFE69FE7B72463B;
+namespace MoleMole { class UIInLevelSkillButtonZiplineChangeEffWidgetController_Context; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_279EB228D4FCFA80_OFFSET UNITYSDK_OFFSET(0x113B0570)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x113B0460)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_78F8F17ADE670C05_OFFSET UNITYSDK_OFFSET(0x113B0380)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_B21C782C4FD42E9B_OFFSET UNITYSDK_OFFSET(0x113B0580)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x113B0590)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x113B0620)
+#define CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x113B04E0)
+#define CLASS_2_E1EF1C824DE1E5D4__CTOR_OFFSET UNITYSDK_OFFSET(0x113B0520)
+
+inline static constexpr unsigned int Class_2_E1EF1C824DE1E5D4_TypeDefinitionIndex = 41909;
+
+class Class_2_E1EF1C824DE1E5D4 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x50
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineChangeEffWidgetController_Context*>* Field_2_1; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_78F8F17ADE670C05(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_78F8F17ADE670C05_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineChangeEffWidgetController_Context*>* Method_2_279EB228D4FCFA80()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineChangeEffWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_279EB228D4FCFA80_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B21C782C4FD42E9B(::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineChangeEffWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIInLevelSkillButtonZiplineChangeEffWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_B21C782C4FD42E9B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1EF1C824DE1E5D4_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+};

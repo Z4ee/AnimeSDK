@@ -5,19 +5,19 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDSceneMoveNode; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B81740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x16B81750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0x16B817A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E717B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x17E717C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVENODE___C__DISPLAYCLASS19_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0x17E71810)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSceneMoveNode___c__DisplayClass19_0_TypeDefinitionIndex = 73056;
+	inline static constexpr unsigned int LDSceneMoveNode___c__DisplayClass19_0_TypeDefinitionIndex = 59308;
 
 	class LDSceneMoveNode___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDSceneMoveNode* __4__this; // 0x10
-		::FlowCanvas::Flow f; // 0x18
+		::FlowCanvas::Flow f; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDSceneMoveNode* __4__this; // 0x38
 
 		::System::Void _ctor()
 		{

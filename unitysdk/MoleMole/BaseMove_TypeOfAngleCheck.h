@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseMove_TypeOfAngleCheck_TypeDefinitionIndex = 69571;
+	inline static constexpr unsigned int BaseMove_TypeOfAngleCheck_TypeDefinitionIndex = 44562;
 
 	enum class BaseMove_TypeOfAngleCheck : ::System::Int32
 	{
-		SelfToTarget = 1,
 		TargetToSelf = 0,
+		SelfToTarget = 1,
 	};
 }

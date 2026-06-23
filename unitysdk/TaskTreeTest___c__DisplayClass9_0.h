@@ -4,10 +4,10 @@
 
 class Class_2_D6F9B792012303A1;
 
-#define TASKTREETEST___C__DISPLAYCLASS9_0__BUILDTASK_B__0_OFFSET UNITYSDK_OFFSET(0x18CC8A80)
-#define TASKTREETEST___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC8A70)
+#define TASKTREETEST___C__DISPLAYCLASS9_0__BUILDTASK_B__0_OFFSET UNITYSDK_OFFSET(0x16832DF0)
+#define TASKTREETEST___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16832DE0)
 
-inline static constexpr unsigned int TaskTreeTest___c__DisplayClass9_0_TypeDefinitionIndex = 65434;
+inline static constexpr unsigned int TaskTreeTest___c__DisplayClass9_0_TypeDefinitionIndex = 76082;
 
 class TaskTreeTest___c__DisplayClass9_0 : public ::System::Object
 {

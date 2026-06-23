@@ -4,11 +4,11 @@
 
 class Class_1_0340E479638D8801;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x183C0F10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34B940)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractCondition_TypeDefinitionIndex = 73840;
+	inline static constexpr unsigned int ConfigHollowInteractCondition_TypeDefinitionIndex = 61754;
 
 	class ConfigHollowInteractCondition : public ::System::Object
 	{

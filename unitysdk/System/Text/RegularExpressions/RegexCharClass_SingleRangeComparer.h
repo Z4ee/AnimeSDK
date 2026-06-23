@@ -4,12 +4,12 @@
 
 namespace System::Text::RegularExpressions { class RegexCharClass_SingleRange; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1A262600)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A262640)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C6702F0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C670330)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexCharClass_SingleRangeComparer_TypeDefinitionIndex = 2729;
+	inline static constexpr unsigned int RegexCharClass_SingleRangeComparer_TypeDefinitionIndex = 2728;
 
 	class RegexCharClass_SingleRangeComparer : public ::System::Object
 	{

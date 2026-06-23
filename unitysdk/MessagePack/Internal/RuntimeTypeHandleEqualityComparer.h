@@ -5,21 +5,21 @@
 
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A8F9E40)
-#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A8F9E50)
-#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8F9E60)
-#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F9E30)
+#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D38CC40)
+#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D38CC50)
+#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D38CC60)
+#define MESSAGEPACK_INTERNAL_RUNTIMETYPEHANDLEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38CC30)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int RuntimeTypeHandleEqualityComparer_TypeDefinitionIndex = 27282;
+	inline static constexpr unsigned int RuntimeTypeHandleEqualityComparer_TypeDefinitionIndex = 29819;
 
 	class RuntimeTypeHandleEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<::System::RuntimeTypeHandle>** StaticGet_Default()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeHandleEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x204A0);
+			return (::System::Collections::Generic::IEqualityComparer_1<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeHandleEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x246C0);
 		}
 
 		::System::Void _ctor()

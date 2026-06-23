@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CollectionChangeAction_TypeDefinitionIndex = 2833;
+	inline static constexpr unsigned int CollectionChangeAction_TypeDefinitionIndex = 2832;
 
 	enum class CollectionChangeAction : ::System::Int32
 	{

@@ -16,78 +16,78 @@ namespace UnityEngine::NAPRenderPipeline0 { class IVisualEnvironmentE; }
 namespace UnityEngine::NAPRenderPipeline0 { class SRPGlobalParameters; }
 namespace UnityEngine::NAPRenderPipeline0 { class VolumetricFogSystem_Base; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_CLEARRENDERFEATUREFLAGS_OFFSET UNITYSDK_OFFSET(0x1BC20710)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCAMERACOLORTARGET_OFFSET UNITYSDK_OFFSET(0x1BC1DB00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCAMERADEPTHTARGET_OFFSET UNITYSDK_OFFSET(0x1BC206A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCURRENTVISUALENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1BC209D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETHASDISTORTIONDRAWCALLS_OFFSET UNITYSDK_OFFSET(0x1BC20770)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETMAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC207B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETPEROBJECTPASSNEEDDRAW_OFFSET UNITYSDK_OFFSET(0x1BC1FB30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETPREVIEWRUNTIMEDECAL_OFFSET UNITYSDK_OFFSET(0x1BC20780)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_ISCLIENTCGMODE_OFFSET UNITYSDK_OFFSET(0x1BC20690)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_ISRENDERFEATUREON_OFFSET UNITYSDK_OFFSET(0x1BC20720)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETCAMERATARGETS_OFFSET UNITYSDK_OFFSET(0x1BC206F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETCURRENTVISUALENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1BC20970)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETMAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC20810)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETPEROBJECTPASSNEEDDRAW_OFFSET UNITYSDK_OFFSET(0x1BC207A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETPREVIEWRUNTIMEDECAL_OFFSET UNITYSDK_OFFSET(0x1BC20790)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETUPRENDERFEATUREFLAG_OFFSET UNITYSDK_OFFSET(0x1BC20740)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC20610)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_CLEARRENDERFEATUREFLAGS_OFFSET UNITYSDK_OFFSET(0x1DF5ADF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCAMERACOLORTARGET_OFFSET UNITYSDK_OFFSET(0x1DF58170)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCAMERADEPTHTARGET_OFFSET UNITYSDK_OFFSET(0x1DF5AD80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETCURRENTVISUALENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1DF5B0B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETHASDISTORTIONDRAWCALLS_OFFSET UNITYSDK_OFFSET(0x1DF5AE50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETMAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1DF5AE90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETPEROBJECTPASSNEEDDRAW_OFFSET UNITYSDK_OFFSET(0x1DF5A1A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_GETPREVIEWRUNTIMEDECAL_OFFSET UNITYSDK_OFFSET(0x1DF5AE60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_ISCLIENTCGMODE_OFFSET UNITYSDK_OFFSET(0x1DF5AD70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_ISRENDERFEATUREON_OFFSET UNITYSDK_OFFSET(0x1DF5AE00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETCAMERATARGETS_OFFSET UNITYSDK_OFFSET(0x1DF5ADD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETCURRENTVISUALENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1DF5B050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETMAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1DF5AEF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETPEROBJECTPASSNEEDDRAW_OFFSET UNITYSDK_OFFSET(0x1DF5AE80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETPREVIEWRUNTIMEDECAL_OFFSET UNITYSDK_OFFSET(0x1DF5AE70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES_SETUPRENDERFEATUREFLAG_OFFSET UNITYSDK_OFFSET(0x1DF5AE20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPGLOBALSTATES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF5ACF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SRPGlobalStates_TypeDefinitionIndex = 6025;
+	inline static constexpr unsigned int SRPGlobalStates_TypeDefinitionIndex = 6036;
 
 	class SRPGlobalStates : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ILensFlareCommonSRP** StaticGet_g_LensFlareCommonSRP()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ILensFlareCommonSRP**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FC0);
-		}
-		static ::UnityEngine::Light** StaticGet_m_MainLightObject()
-		{
-			return (::UnityEngine::Light**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FC8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::IDecalSystem** StaticGet_g_DecalSystem()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::IDecalSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FD0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::SRPGlobalParameters** StaticGet_g_GLobalParameters()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::SRPGlobalParameters**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FD8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::IUniversalRenderPipeilineAssetAccessor** StaticGet_g_RenderPipelineAssetAccessor()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::IUniversalRenderPipeilineAssetAccessor**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FE0);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::IDeferredReflectionSystem** StaticGet_g_DeferredReflectionSystem()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::IDeferredReflectionSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FE8);
+			return (::UnityEngine::NAPRenderPipeline0::IDeferredReflectionSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FC0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::IPerObjectShadowSystem** StaticGet_g_PerObjectShadowSystem()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::IPerObjectShadowSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FF0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::VolumetricFogSystem_Base** StaticGet_g_VolumetricFogSystem()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::VolumetricFogSystem_Base**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FF8);
+			return (::UnityEngine::NAPRenderPipeline0::IPerObjectShadowSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FC8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::IVisualEnvironmentE** StaticGet_m_CurrentVisualEnvironment()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::IVisualEnvironmentE**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5000);
+			return (::UnityEngine::NAPRenderPipeline0::IVisualEnvironmentE**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FD0);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::INapRenderEntityManager** StaticGet_g_NapRenderEntityManager()
+		static ::UnityEngine::Light** StaticGet_m_MainLightObject()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::INapRenderEntityManager**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5008);
+			return (::UnityEngine::Light**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FD8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::IDynamicResolutionHandler** StaticGet_g_DynamicResolutionHandler()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::IDynamicResolutionHandler**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5010);
+			return (::UnityEngine::NAPRenderPipeline0::IDynamicResolutionHandler**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FE0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::VolumetricFogSystem_Base** StaticGet_g_VolumetricFogSystem()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::VolumetricFogSystem_Base**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FE8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::INapRenderEntityManager** StaticGet_g_NapRenderEntityManager()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::INapRenderEntityManager**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FF0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::SRPGlobalParameters** StaticGet_g_GLobalParameters()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::SRPGlobalParameters**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x4FF8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ILensFlareCommonSRP** StaticGet_g_LensFlareCommonSRP()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ILensFlareCommonSRP**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5000);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::IDecalSystem** StaticGet_g_DecalSystem()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::IDecalSystem**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5008);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::IUniversalRenderPipeilineAssetAccessor** StaticGet_g_RenderPipelineAssetAccessor()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::IUniversalRenderPipeilineAssetAccessor**)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x5010);
 		}
 		static ::System::Boolean* StaticGet_m_IsMobilePlatform()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x2850);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRPGlobalStates_TypeDefinitionIndex)->GetStaticField(0x2860);
 		}
 
 		static ::System::Void _cctor()

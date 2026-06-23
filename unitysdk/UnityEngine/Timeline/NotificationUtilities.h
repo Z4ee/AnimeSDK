@@ -10,12 +10,12 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class IMarker; }
 namespace UnityEngine::Timeline { class TimeNotificationBehaviour; }
 
-#define UNITYENGINE_TIMELINE_NOTIFICATIONUTILITIES_CREATENOTIFICATIONSPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BC6E350)
-#define UNITYENGINE_TIMELINE_NOTIFICATIONUTILITIES_TRACKTYPESUPPORTSNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1BC6F0E0)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONUTILITIES_CREATENOTIFICATIONSPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DFB19D0)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONUTILITIES_TRACKTYPESUPPORTSNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1DFB2760)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int NotificationUtilities_TypeDefinitionIndex = 30885;
+	inline static constexpr unsigned int NotificationUtilities_TypeDefinitionIndex = 32436;
 
 	class NotificationUtilities : public ::System::Object
 	{

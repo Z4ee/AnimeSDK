@@ -12,24 +12,24 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 namespace System::Xml::Schema { class ValidationState; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1A45BB10)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1A45BBA0)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1A45BF20)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1A45B580)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1A45B6B0)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45B4D0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1C7988D0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1C798960)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1C798CE0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1C798340)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1C798470)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C798290)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 1978;
+	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 1977;
 
 	class NfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:
-		::System::Xml::Schema::Positions* positions; // 0x18
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x20
-		::System::Xml::Schema::BitSet* firstpos; // 0x28
-		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x30
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x18
+		::System::Xml::Schema::BitSet* firstpos; // 0x20
+		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x28
+		::System::Xml::Schema::Positions* positions; // 0x30
 		::System::Int32 endMarkerPos; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::BitSet* firstpos, ::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, ::System::Int32 endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, ::System::Boolean isOpen, ::System::Boolean isEmptiable)

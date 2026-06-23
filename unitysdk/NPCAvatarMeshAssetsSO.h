@@ -5,60 +5,68 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider.h"
 #include "unitysdk/NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle.h"
-#include "unitysdk/NPCAvatarMeshAssetsSO_FNpcAudioSettings.h"
 #include "unitysdk/NPCAvatarMeshAssetsSO_FNpcLodSettings.h"
 #include "unitysdk/NPCCrowd/EUnloadAssetReason.h"
+#include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
 
+class NPCAvatarAudioAssetsSO;
+class NPCAvatarEmotionParamsSO;
 class NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets;
-class NPCSoftMaterialPath;
-class NPCSoftMeshPath;
+class NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig;
+class NPCAvatarMeshAssetsSO_GameplayTagActionConfig;
+class NPCAvatarMeshAssetsSO_SequenceFrameHidePartMapping;
 namespace MoleMole { class SkillCharacterAnimatorZoneData; }
 namespace MoleMole::Config { class ConfigAnimatorEventPattern; }
+namespace NPCCrowd { class NPCSoftMaterialPath; }
+namespace NPCCrowd { class NPCSoftMeshPath; }
 namespace NPCCrowd::Ability { class NPCAbilityParameters; }
 namespace NPCCrowd::Animation { class AnimationControllerData; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationGraphDataset; }
 namespace NPCCrowd::Animation { class NPCCrowdAnimationData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCAVATARMESHASSETSSO_ADDMESHASSETS_OFFSET UNITYSDK_OFFSET(0xD226550)
-#define NPCAVATARMESHASSETSSO_CLEARMESHASSETS_OFFSET UNITYSDK_OFFSET(0xD2264A0)
-#define NPCAVATARMESHASSETSSO_GETAVATARSLOTMESHASSETS_OFFSET UNITYSDK_OFFSET(0xD226510)
-#define NPCAVATARMESHASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xD2262C0)
-#define NPCAVATARMESHASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD226700)
+#define NPCAVATARMESHASSETSSO_ADDMESHASSETS_OFFSET UNITYSDK_OFFSET(0xA65AF10)
+#define NPCAVATARMESHASSETSSO_CLEARMESHASSETS_OFFSET UNITYSDK_OFFSET(0xA65AE50)
+#define NPCAVATARMESHASSETSSO_GETAVATARSLOTMESHASSETS_OFFSET UNITYSDK_OFFSET(0xA65AEC0)
+#define NPCAVATARMESHASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xA65AC40)
+#define NPCAVATARMESHASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xA65B0C0)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_TypeDefinitionIndex = 56635;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_TypeDefinitionIndex = 67198;
 
-class NPCAvatarMeshAssetsSO : public ::UnityEngine::ScriptableObject
+class NPCAvatarMeshAssetsSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 {
 public:
-	::ENPCAvatarGender gender; // 0x18
-	::ENPCAvatarSize size; // 0x1C
-	::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* animationGraphDataset; // 0x20
-	::NPCCrowd::Animation::NPCCrowdAnimationData* animationProtoTypeData; // 0x28
-	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenAudio; // 0x30
-	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenBattle; // 0x38
-	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenEffect; // 0x40
-	::MoleMole::SkillCharacterAnimatorZoneData* animationZoneData; // 0x48
-	::NPCCrowd::Ability::NPCAbilityParameters* abilityParameters; // 0x50
-	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets*>* avatarSlotMeshDatas; // 0x58
-	::NPCSoftMeshPath* commonGPULod3SimpleMeshRef; // 0x60
-	::NPCSoftMeshPath* commonGPULod3SimpleFrontMeshRef; // 0x68
-	::NPCSoftMeshPath* commonGPULod3SimpleSideMeshRef; // 0x70
-	::NPCSoftMaterialPath* commonGPULod3SimpleMaterialRef; // 0x78
-	::NPCSoftMaterialPath* commonGPULod3SimpleDitherMaterialRef; // 0x80
-	::NPCSoftMeshPath* shadowProxySimpleGPUMeshPathRef; // 0x88
-	::NPCSoftMeshPath* shadowProxySimpleMeshPathRef; // 0x90
-	::NPCSoftMeshPath* shadowProxyCapsuleMeshPathRef; // 0x98
-	::NPCSoftMaterialPath* shadowProxyMaterialRef; // 0xA0
-	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider>* colliders; // 0xA8
-	::NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle navObstacle; // 0xB0
-	::NPCCrowd::Animation::AnimationControllerData* controllerData; // 0xD0
-	::NPCAvatarMeshAssetsSO_FNpcLodSettings lodSettings; // 0xD8
-	::NPCAvatarMeshAssetsSO_FNpcAudioSettings audioSettings; // 0xE0
-	::UnityEngine::Bounds rootBounds; // 0x108
-	::System::Collections::Generic::List_1<::Foundation::AssetPath>* shadowProxySkinnedMeshes; // 0x120
+	::ENPCAvatarGender gender; // 0x58
+	::ENPCAvatarSize size; // 0x5C
+	::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* animationGraphDataset; // 0x60
+	::NPCCrowd::Animation::NPCCrowdAnimationData* animationProtoTypeData; // 0x68
+	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenAudio; // 0x70
+	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenBattle; // 0x78
+	::MoleMole::Config::ConfigAnimatorEventPattern* animationEventPattenEffect; // 0x80
+	::MoleMole::SkillCharacterAnimatorZoneData* animationZoneData; // 0x88
+	::NPCCrowd::Ability::NPCAbilityParameters* abilityParameters; // 0x90
+	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>* pathGraphPointRegionTypeMaskTags; // 0x98
+	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_GameplayTagActionConfig*>* gameplayTagMaskActions; // 0xA0
+	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_SequenceFrameHidePartMapping*>* sequenceFrameHidePartMappings; // 0xA8
+	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets*>* avatarSlotMeshDatas; // 0xB0
+	::NPCCrowd::NPCSoftMeshPath* commonGPULod3SimpleMeshRef; // 0xB8
+	::NPCCrowd::NPCSoftMeshPath* commonGPULod3SimpleFrontMeshRef; // 0xC0
+	::NPCCrowd::NPCSoftMeshPath* commonGPULod3SimpleSideMeshRef; // 0xC8
+	::NPCCrowd::NPCSoftMaterialPath* commonGPULod3SimpleMaterialRef; // 0xD0
+	::NPCCrowd::NPCSoftMaterialPath* commonGPULod3SimpleDitherMaterialRef; // 0xD8
+	::NPCCrowd::NPCSoftMeshPath* shadowProxySimpleGPUMeshPathRef; // 0xE0
+	::NPCCrowd::NPCSoftMeshPath* shadowProxySimpleMeshPathRef; // 0xE8
+	::NPCCrowd::NPCSoftMeshPath* shadowProxyCapsuleMeshPathRef; // 0xF0
+	::NPCCrowd::NPCSoftMaterialPath* shadowProxyMaterialRef; // 0xF8
+	::NPCAvatarEmotionParamsSO* emotionParams; // 0x100
+	::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider>* colliders; // 0x108
+	::NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle navObstacle; // 0x110
+	::NPCCrowd::Animation::AnimationControllerData* controllerData; // 0x130
+	::NPCAvatarMeshAssetsSO_FNpcLodSettings lodSettings; // 0x138
+	::NPCAvatarAudioAssetsSO* audioAssetSo; // 0x140
+	::UnityEngine::Bounds rootBounds; // 0x148
+	::System::Collections::Generic::List_1<::Foundation::AssetPath>* shadowProxySkinnedMeshes; // 0x160
 
 	::System::Void _ctor()
 	{

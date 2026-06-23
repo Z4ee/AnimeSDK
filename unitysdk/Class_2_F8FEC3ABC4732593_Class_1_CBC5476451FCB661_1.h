@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
+#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_FA793AB1D49D0132;
@@ -11,14 +11,14 @@ namespace MoleMole { class UIWindowController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_2_F8FEC3ABC4732593_Class_1_CBC5476451FCB661_1_TypeDefinitionIndex = 48924;
+inline static constexpr unsigned int Class_2_F8FEC3ABC4732593_Class_1_CBC5476451FCB661_1_TypeDefinitionIndex = 42171;
 
 template <typename T>
 class Class_2_F8FEC3ABC4732593_Class_1_CBC5476451FCB661_1 : public ::System::Object
 {
 public:
 	::Class_2_F8FEC3ABC4732593* Field_1_0; // 0x0
-	::Enum_3_81A3942BCC6E42B5 Field_1_1; // 0x0
+	::Enum_3_7A4252233BCEB3A9 Field_1_1; // 0x0
 	::Class_2_17EF7F195EE14706* Field_1_2; // 0x0
 	::Class_1_FA793AB1D49D0132* Field_1_3; // 0x0
 	::MoleMole::UIControllerContextBase* Field_1_4; // 0x0

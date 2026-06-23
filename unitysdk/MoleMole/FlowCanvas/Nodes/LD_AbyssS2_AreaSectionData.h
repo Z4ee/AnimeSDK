@@ -5,12 +5,12 @@
 namespace MoleMole { class LevelSectionGroupData; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_AREASECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1499B440)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_AREASECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1499BA70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_AREASECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x17110480)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_AREASECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17110AA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_AreaSectionData_TypeDefinitionIndex = 48163;
+	inline static constexpr unsigned int LD_AbyssS2_AreaSectionData_TypeDefinitionIndex = 86942;
 
 	class LD_AbyssS2_AreaSectionData : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::LevelSectionGroupData*>
 	{

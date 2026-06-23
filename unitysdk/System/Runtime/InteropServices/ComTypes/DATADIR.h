@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int DATADIR_TypeDefinitionIndex = 3127;
+	inline static constexpr unsigned int DATADIR_TypeDefinitionIndex = 3126;
 
 	enum class DATADIR : ::System::Int32
 	{

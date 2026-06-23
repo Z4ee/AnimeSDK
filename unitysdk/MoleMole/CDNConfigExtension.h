@@ -6,11 +6,11 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CDNCONFIGEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x122DD610)
+#define MOLEMOLE_CDNCONFIGEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D25830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDNConfigExtension_TypeDefinitionIndex = 78464;
+	inline static constexpr unsigned int CDNConfigExtension_TypeDefinitionIndex = 74578;
 
 	class CDNConfigExtension : public ::System::Object
 	{

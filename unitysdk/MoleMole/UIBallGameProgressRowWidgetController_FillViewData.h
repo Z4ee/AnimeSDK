@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_F3B35B60B7BAFCAF.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+class Class_1_A01CE0B13E11F09E;
+class Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+template <typename T> class Class_2_0D31A1661D004892;
+
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_CHANGEVIEWTYPE_OFFSET UNITYSDK_OFFSET(0x17F49180)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_GETCONTROLNODE_OFFSET UNITYSDK_OFFSET(0x17F48F10)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x17F48990)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_ISMONSTERALLKILLED_OFFSET UNITYSDK_OFFSET(0x17F48C50)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_REFRESHSTATE_OFFSET UNITYSDK_OFFSET(0x17F49380)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_RESETMONSTERID_OFFSET UNITYSDK_OFFSET(0x17F48B20)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETFINISH_OFFSET UNITYSDK_OFFSET(0x17F48CB0)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETMONSTERID_OFFSET UNITYSDK_OFFSET(0x17F48A40)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETMONSTERKILLED_OFFSET UNITYSDK_OFFSET(0x17F48D00)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETSHOWBATTLE_OFFSET UNITYSDK_OFFSET(0x17F494A0)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x17F489A0)
+#define MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17F48DF0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBallGameProgressRowWidgetController_FillViewData_TypeDefinitionIndex = 64246;
+
+	class UIBallGameProgressRowWidgetController_FillViewData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::Int32>* CheckKilledMonsterID; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* MonsterID; // 0x18
+		::Class_1_A01CE0B13E11F09E* ControlNode; // 0x20
+		::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>* EliteView; // 0x28
+		::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473* View; // 0x30
+		::System::Collections::Generic::Dictionary_2<::Enum_3_F3B35B60B7BAFCAF, ::Class_1_A01CE0B13E11F09E*>* NodeMap; // 0x38
+		::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>* BossView; // 0x40
+		::UnityEngine::Transform* root; // 0x48
+		::System::Int32 WaveIndex; // 0x50
+		::UnityEngine::Vector2 _pos; // 0x54
+		::System::Boolean isFinish; // 0x5C
+		::System::Boolean isShowBattle; // 0x5D
+		::Enum_3_F3B35B60B7BAFCAF Type; // 0x60
+
+		::System::Void _ctor(::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>* boss, ::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>* elite, ::UnityEngine::Transform* root)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>*, ::Class_2_0D31A1661D004892<::Class_2_61D4C9C3A09F6B77_Class_2_5783D77919246473*>*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA__CTOR_OFFSET))(this, boss, elite, root);
+		}
+
+		::UnityEngine::Vector2 get_Position()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_GET_POSITION_OFFSET))(this);
+		}
+
+		::System::Void set_Position(::UnityEngine::Vector2 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SET_POSITION_OFFSET))(this, value);
+		}
+
+		::System::Void SetMonsterID(::System::Collections::Generic::List_1<::System::Int32>* ids)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETMONSTERID_OFFSET))(this, ids);
+		}
+
+		::System::Void ResetMonsterID()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_RESETMONSTERID_OFFSET))(this);
+		}
+
+		::System::Boolean IsMonsterAllKilled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_ISMONSTERALLKILLED_OFFSET))(this);
+		}
+
+		::System::Void SetMonsterKilled(::System::Int32 monsterID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETMONSTERKILLED_OFFSET))(this, monsterID);
+		}
+
+		::Class_1_A01CE0B13E11F09E* GetControlNode(::Enum_3_F3B35B60B7BAFCAF type)
+		{
+			return ((::Class_1_A01CE0B13E11F09E*(*)(::PVOID, ::Enum_3_F3B35B60B7BAFCAF))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_GETCONTROLNODE_OFFSET))(this, type);
+		}
+
+		::System::Void ChangeViewType(::Enum_3_F3B35B60B7BAFCAF type)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_F3B35B60B7BAFCAF))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_CHANGEVIEWTYPE_OFFSET))(this, type);
+		}
+
+		::System::Void SetFinish(::System::Boolean finish)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETFINISH_OFFSET))(this, finish);
+		}
+
+		::System::Void SetShowBattle(::System::Boolean showbattle)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_SETSHOWBATTLE_OFFSET))(this, showbattle);
+		}
+
+		::System::Void RefreshState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEPROGRESSROWWIDGETCONTROLLER_FILLVIEWDATA_REFRESHSTATE_OFFSET))(this);
+		}
+	};
+}

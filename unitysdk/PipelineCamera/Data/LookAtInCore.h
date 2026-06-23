@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define PIPELINECAMERA_DATA_LOOKATINCORE_GENERATEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x1A4CC780)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_GENERATEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x1C843B50)
 
 namespace PipelineCamera::Data
 {
-	inline static constexpr unsigned int LookAtInCore_TypeDefinitionIndex = 36166;
+	inline static constexpr unsigned int LookAtInCore_TypeDefinitionIndex = 37774;
 
 	class LookAtInCore : public ::System::Object
 	{

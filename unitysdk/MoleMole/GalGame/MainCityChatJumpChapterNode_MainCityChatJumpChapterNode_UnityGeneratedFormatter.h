@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1604CEE0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1604CEF0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1604D240)
-#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1604D490)
-#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1604D450)
+#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12BC04F0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12BC0500)
+#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12BC0850)
+#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BC0AA0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATJUMPCHAPTERNODE_MAINCITYCHATJUMPCHAPTERNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC0A60)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex = 76602;
+	inline static constexpr unsigned int MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex = 73164;
 
 	class MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatJumpChapterNode*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C750);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C758);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ED00);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C760);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ED08);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatJumpChapterNode_MainCityChatJumpChapterNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ED10);
 		}
 
 		::System::Void _ctor()

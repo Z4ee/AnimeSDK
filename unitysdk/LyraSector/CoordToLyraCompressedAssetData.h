@@ -5,11 +5,11 @@
 
 namespace LyraSector { class LyraPackedAssetSectorData; }
 
-#define LYRASECTOR_COORDTOLYRACOMPRESSEDASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x190FE000)
+#define LYRASECTOR_COORDTOLYRACOMPRESSEDASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0669F0)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int CoordToLyraCompressedAssetData_TypeDefinitionIndex = 29677;
+	inline static constexpr unsigned int CoordToLyraCompressedAssetData_TypeDefinitionIndex = 26737;
 
 	class CoordToLyraCompressedAssetData : public ::UnityEngine::Rendering::SerializedDictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraPackedAssetSectorData*>
 	{

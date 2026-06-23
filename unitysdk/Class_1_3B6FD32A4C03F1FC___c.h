@@ -6,32 +6,32 @@ namespace MoleMole { class DownloadFileInfo; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_5A4916DD8A9945E4_1_OFFSET UNITYSDK_OFFSET(0x1440EF30)
-#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_5A4916DD8A9945E4_OFFSET UNITYSDK_OFFSET(0x1440EEC0)
-#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_F4BAA111CDCA9A64_OFFSET UNITYSDK_OFFSET(0x1440EEE0)
-#define CLASS_1_3B6FD32A4C03F1FC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1440EE70)
-#define CLASS_1_3B6FD32A4C03F1FC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1440EEB0)
+#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_5A4916DD8A9945E4_1_OFFSET UNITYSDK_OFFSET(0x11FBEFC0)
+#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_5A4916DD8A9945E4_OFFSET UNITYSDK_OFFSET(0x11FBEF50)
+#define CLASS_1_3B6FD32A4C03F1FC___C_METHOD_1_F4BAA111CDCA9A64_OFFSET UNITYSDK_OFFSET(0x11FBEF70)
+#define CLASS_1_3B6FD32A4C03F1FC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11FBEF00)
+#define CLASS_1_3B6FD32A4C03F1FC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11FBEF40)
 
-inline static constexpr unsigned int Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex = 57962;
+inline static constexpr unsigned int Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex = 63279;
 
 class Class_1_3B6FD32A4C03F1FC___c : public ::System::Object
 {
 public:
-	static ::Class_1_3B6FD32A4C03F1FC___c** StaticGet___9()
+	static ::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>** StaticGet___9__93_0()
 	{
-		return (::Class_1_3B6FD32A4C03F1FC___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x31940);
-	}
-	static ::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>** StaticGet___9__93_1()
-	{
-		return (::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x31948);
+		return (::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x38640);
 	}
 	static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__141_0()
 	{
-		return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x31950);
+		return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x38648);
 	}
-	static ::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>** StaticGet___9__93_0()
+	static ::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>** StaticGet___9__93_1()
 	{
-		return (::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x31958);
+		return (::System::Func_2<::MoleMole::DownloadFileInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x38650);
+	}
+	static ::Class_1_3B6FD32A4C03F1FC___c** StaticGet___9()
+	{
+		return (::Class_1_3B6FD32A4C03F1FC___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B6FD32A4C03F1FC___c_TypeDefinitionIndex)->GetStaticField(0x38658);
 	}
 
 	static ::System::Void _cctor()

@@ -11,60 +11,60 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_BUILDDATAPATHINTERNAL_OFFSET UNITYSDK_OFFSET(0x10E02AB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_COLLECTVARIABLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x10E02B20)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_ENTITYID_OFFSET UNITYSDK_OFFSET(0x10E02DE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0x10E02F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_OUTPUTDIRECTION_OFFSET UNITYSDK_OFFSET(0x10E02E90)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_PITCH_OFFSET UNITYSDK_OFFSET(0x10E02D30)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_PROBELENGTH_OFFSET UNITYSDK_OFFSET(0x10E02C80)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x10E02FF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x10E03030)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYBEGIN_OFFSET UNITYSDK_OFFSET(0x10E03040)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYEND_OFFSET UNITYSDK_OFFSET(0x10E04010)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYTICK_OFFSET UNITYSDK_OFFSET(0x10E03430)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E040F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10E04060)
-#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__RECEIVENOTIFYTICK_G__DOPROBE_29_0_OFFSET UNITYSDK_OFFSET(0x10E03BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_BUILDDATAPATHINTERNAL_OFFSET UNITYSDK_OFFSET(0x18B19AD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_COLLECTVARIABLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18B19B40)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_ENTITYID_OFFSET UNITYSDK_OFFSET(0x18B19E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0x18B19F60)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_OUTPUTDIRECTION_OFFSET UNITYSDK_OFFSET(0x18B19EB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_PITCH_OFFSET UNITYSDK_OFFSET(0x18B19D50)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_FETCH_PROBELENGTH_OFFSET UNITYSDK_OFFSET(0x18B19CA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x18B1A010)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x18B1A050)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYBEGIN_OFFSET UNITYSDK_OFFSET(0x18B1A060)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYEND_OFFSET UNITYSDK_OFFSET(0x18B1B030)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT_RECEIVENOTIFYTICK_OFFSET UNITYSDK_OFFSET(0x18B1A450)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B1B110)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1B080)
+#define MOLEMOLE_FLOWCANVAS_NODES_CAMERASEQUENCESTATEEVENT_SAMPLEOPENDIRECTIONINLEVELSETTLEMENT__RECEIVENOTIFYTICK_G__DOPROBE_29_0_OFFSET UNITYSDK_OFFSET(0x18B1ABE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex = 78204;
+	inline static constexpr unsigned int CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex = 57749;
 
 	class CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement : public ::PipelineCamera::CameraSequence::CameraSequenceNotifyStateEvent
 	{
 	public:
 		static ::Il2CppArray<::System::Single>** StaticGet_ProbeDirection()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x378C0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_probeLength()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDCE0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet_EntityLocationId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDCE8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDCF0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet_ProbeFrameCountId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDCF8);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x39D20);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_OutputDirection()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDD00);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE310);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_pitch()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDD08);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE318);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_probeLength()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE320);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE328);
+		}
+		static ::Foundation::Unreal::FName* StaticGet_EntityLocationId()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE330);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xDD10);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE338);
+		}
+		static ::Foundation::Unreal::FName* StaticGet_ProbeFrameCountId()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceStateEvent_SampleOpenDirectionInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0xE340);
 		}
 		// static const ::System::Int32 SampleEachFrame = 0x4; // 0x0
 		::System::UInt32 EntityId; // 0x50

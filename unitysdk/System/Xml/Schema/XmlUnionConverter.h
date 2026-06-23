@@ -8,20 +8,20 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x19D3B540)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x19D3B4F0)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3B1B0)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1C172110)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1C1720C0)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C171D80)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlUnionConverter_TypeDefinitionIndex = 2219;
+	inline static constexpr unsigned int XmlUnionConverter_TypeDefinitionIndex = 2218;
 
 	class XmlUnionConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:
 		::Il2CppArray<::System::Xml::Schema::XmlValueConverter*>* converters; // 0x28
-		::System::Boolean hasListMember; // 0x30
-		::System::Boolean hasAtomicMember; // 0x31
+		::System::Boolean hasAtomicMember; // 0x30
+		::System::Boolean hasListMember; // 0x31
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType)
 		{

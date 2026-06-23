@@ -8,23 +8,23 @@ namespace BehaviorDesigner::Runtime { class SharedInt; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_SETACTIONMODE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B17700)
-#define MOLEMOLE_SETACTIONMODE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B178F0)
-#define MOLEMOLE_SETACTIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B17A60)
-#define MOLEMOLE_SETACTIONMODE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B17AF0)
-#define MOLEMOLE_SETACTIONMODE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B17B80)
+#define MOLEMOLE_SETACTIONMODE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x160EC2F0)
+#define MOLEMOLE_SETACTIONMODE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x160EC4E0)
+#define MOLEMOLE_SETACTIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x160EC650)
+#define MOLEMOLE_SETACTIONMODE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x160EC6E0)
+#define MOLEMOLE_SETACTIONMODE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x160EC770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetActionMode_TypeDefinitionIndex = 69503;
+	inline static constexpr unsigned int SetActionMode_TypeDefinitionIndex = 44967;
 
 	class SetActionMode : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::Class_3_0D4C1A014C7CC9DE* _levelAIComponent; // 0x60
-		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x68
-		::MoleMole::Battle::Entity* ownerEntity; // 0x70
+		::MoleMole::Battle::Entity* ownerEntity; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::Class_3_0D4C1A014C7CC9DE* _levelAIComponent; // 0x68
+		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x70
 		::BehaviorDesigner::Runtime::SharedInt* storeResult; // 0x78
 
 		::System::Void _ctor()

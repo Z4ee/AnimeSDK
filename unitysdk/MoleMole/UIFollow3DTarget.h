@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_UIFOLLOW3DTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDA6D0)
+#define MOLEMOLE_UIFOLLOW3DTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x175D3F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 59087;
+	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 69851;
 
 	class UIFollow3DTarget : public ::UnityEngine::MonoBehaviour
 	{

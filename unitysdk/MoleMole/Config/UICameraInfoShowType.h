@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UICameraInfoShowType_TypeDefinitionIndex = 57176;
+	inline static constexpr unsigned int UICameraInfoShowType_TypeDefinitionIndex = 84466;
 
 	enum class UICameraInfoShowType : ::System::Int32
 	{
-		PC = 1,
 		Mobile = 0,
+		PC = 1,
 	};
 }

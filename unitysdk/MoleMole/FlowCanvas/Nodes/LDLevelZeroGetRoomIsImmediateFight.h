@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMISIMMEDIATEFIGHT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17804140)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMISIMMEDIATEFIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x17804270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMISIMMEDIATEFIGHT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x182D5080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROGETROOMISIMMEDIATEFIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x182D51B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroGetRoomIsImmediateFight_TypeDefinitionIndex = 81004;
+	inline static constexpr unsigned int LDLevelZeroGetRoomIsImmediateFight_TypeDefinitionIndex = 62612;
 
 	class LDLevelZeroGetRoomIsImmediateFight : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -5,24 +5,24 @@
 namespace RBDDestruction { class GroupData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RBDDESTRUCTION_RBDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B078170)
-#define RBDDESTRUCTION_RBDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0781B0)
-#define RBDDESTRUCTION_RBDMANAGER___C__INIT_B__108_1_OFFSET UNITYSDK_OFFSET(0x1B0781C0)
+#define RBDDESTRUCTION_RBDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3CF270)
+#define RBDDESTRUCTION_RBDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CF2B0)
+#define RBDDESTRUCTION_RBDMANAGER___C__INIT_B__108_1_OFFSET UNITYSDK_OFFSET(0x1D3CF2C0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager___c_TypeDefinitionIndex = 29723;
+	inline static constexpr unsigned int RBDManager___c_TypeDefinitionIndex = 27136;
 
 	class RBDManager___c : public ::System::Object
 	{
 	public:
-		static ::RBDDestruction::RBDManager___c** StaticGet___9()
-		{
-			return (::RBDDestruction::RBDManager___c**)Il2CppClass::FromTypeDefinitionIndex(RBDManager___c_TypeDefinitionIndex)->GetStaticField(0x233D0);
-		}
 		static ::System::Func_2<::RBDDestruction::GroupData*, ::System::Single>** StaticGet___9__108_1()
 		{
-			return (::System::Func_2<::RBDDestruction::GroupData*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RBDManager___c_TypeDefinitionIndex)->GetStaticField(0x233D8);
+			return (::System::Func_2<::RBDDestruction::GroupData*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RBDManager___c_TypeDefinitionIndex)->GetStaticField(0x20B00);
+		}
+		static ::RBDDestruction::RBDManager___c** StaticGet___9()
+		{
+			return (::RBDDestruction::RBDManager___c**)Il2CppClass::FromTypeDefinitionIndex(RBDManager___c_TypeDefinitionIndex)->GetStaticField(0x20B08);
 		}
 
 		static ::System::Void _cctor()

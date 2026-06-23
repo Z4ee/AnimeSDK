@@ -6,21 +6,21 @@ class Class_1_0D6706375CDAAE8C;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALITEMUSEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162C1FD0)
+#define MOLEMOLE_UIGENERALITEMUSEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A6BE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemUseDialogContext_TypeDefinitionIndex = 68033;
+	inline static constexpr unsigned int UIGeneralItemUseDialogContext_TypeDefinitionIndex = 86108;
 
 	class UIGeneralItemUseDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x28
-		::System::Action_1<::System::Int32>* useAction; // 0x30
-		::System::String* titleText; // 0x38
+		::System::Action_1<::System::Int32>* useAction; // 0x28
+		::System::String* titleText; // 0x30
+		::Class_1_0D6706375CDAAE8C* itemData; // 0x38
 		::System::Int32 maxUseCount; // 0x40
-		::System::Boolean showInputField; // 0x44
-		::System::Int32 expectedInitCount; // 0x48
+		::System::Int32 expectedInitCount; // 0x44
+		::System::Boolean showInputField; // 0x48
 
 		::System::Void _ctor()
 		{

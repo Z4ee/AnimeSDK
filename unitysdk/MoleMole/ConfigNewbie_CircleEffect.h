@@ -5,12 +5,12 @@
 
 namespace MoleMole { class ConfigNewbie_TargetPath; }
 
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x17D33610)
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D337A0)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1A079FE0)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07A170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 56125;
+	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 49749;
 
 	class ConfigNewbie_CircleEffect : public ::System::Object
 	{

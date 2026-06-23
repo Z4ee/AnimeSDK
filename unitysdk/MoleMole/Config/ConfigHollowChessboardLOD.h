@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x16B34770)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x162AFA90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardLOD_TypeDefinitionIndex = 38020;
+	inline static constexpr unsigned int ConfigHollowChessboardLOD_TypeDefinitionIndex = 42314;
 
 	class ConfigHollowChessboardLOD : public ::Foundation::MihoyoSerializedScriptableObject
 	{

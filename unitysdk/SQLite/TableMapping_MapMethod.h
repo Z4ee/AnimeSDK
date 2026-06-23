@@ -3,7 +3,7 @@
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableMapping_MapMethod_TypeDefinitionIndex = 36785;
+	inline static constexpr unsigned int TableMapping_MapMethod_TypeDefinitionIndex = 38395;
 
 	enum class TableMapping_MapMethod : ::System::Int32
 	{

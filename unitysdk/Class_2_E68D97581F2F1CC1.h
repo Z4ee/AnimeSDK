@@ -5,31 +5,31 @@
 class Class_2_A9A857AD270B9CE1;
 class Class_2_B4378B46E0020E85;
 class Class_2_E68D97581F2F1CC1_Class_2_A466309E48B16DF3;
-class Class_2_E68D97581F2F1CC1_Class_2_AE5C54BE942F4824_7;
+class Class_2_E68D97581F2F1CC1_Class_2_AE5C54BE942F4824_5;
 class MonoUITableScrollV2;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 template <typename T> class Class_2_0D31A1661D004892;
 
-#define CLASS_2_E68D97581F2F1CC1_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x14A901E0)
-#define CLASS_2_E68D97581F2F1CC1_METHOD_2_8D764EEFCE1E3A5F_OFFSET UNITYSDK_OFFSET(0x14A8FF90)
-#define CLASS_2_E68D97581F2F1CC1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14A902E0)
-#define CLASS_2_E68D97581F2F1CC1__CTOR_OFFSET UNITYSDK_OFFSET(0x14A902D0)
+#define CLASS_2_E68D97581F2F1CC1_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x138C49E0)
+#define CLASS_2_E68D97581F2F1CC1_METHOD_2_8D764EEFCE1E3A5F_OFFSET UNITYSDK_OFFSET(0x138C4790)
+#define CLASS_2_E68D97581F2F1CC1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x138C4AE0)
+#define CLASS_2_E68D97581F2F1CC1__CTOR_OFFSET UNITYSDK_OFFSET(0x138C4AD0)
 
-inline static constexpr unsigned int Class_2_E68D97581F2F1CC1_TypeDefinitionIndex = 69107;
+inline static constexpr unsigned int Class_2_E68D97581F2F1CC1_TypeDefinitionIndex = 66954;
 
 class Class_2_E68D97581F2F1CC1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_0D31A1661D004892<::Class_2_E68D97581F2F1CC1_Class_2_AE5C54BE942F4824_7*>* Field_2_6; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x28
-	::UnityEngine::RectTransform* Field_2_3; // 0x30
+	::Class_2_0D31A1661D004892<::Class_2_E68D97581F2F1CC1_Class_2_A466309E48B16DF3*>* Field_2_5; // 0x18
+	::Class_2_0D31A1661D004892<::Class_2_E68D97581F2F1CC1_Class_2_AE5C54BE942F4824_5*>* Field_2_6; // 0x20
+	::UnityEngine::RectTransform* Field_2_3; // 0x28
+	::MonoUITableScrollV2* Field_2_0; // 0x30
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x38
-	::Class_2_0D31A1661D004892<::Class_2_E68D97581F2F1CC1_Class_2_A466309E48B16DF3*>* Field_2_5; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x48
-	::MonoUITableScrollV2* Field_2_0; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x50
 
 	::System::Void _ctor()
 	{

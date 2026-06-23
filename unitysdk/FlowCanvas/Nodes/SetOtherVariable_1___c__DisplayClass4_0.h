@@ -10,7 +10,7 @@ namespace NodeCanvas::Framework { class Blackboard; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SetOtherVariable_1___c__DisplayClass4_0_TypeDefinitionIndex = 27261;
+	inline static constexpr unsigned int SetOtherVariable_1___c__DisplayClass4_0_TypeDefinitionIndex = 29998;
 
 	template <typename T>
 	class SetOtherVariable_1___c__DisplayClass4_0 : public ::System::Object

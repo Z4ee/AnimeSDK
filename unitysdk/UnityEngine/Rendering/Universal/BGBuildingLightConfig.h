@@ -5,11 +5,11 @@
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BGBUILDINGLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F5AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BGBUILDINGLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C439350)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BGBuildingLightConfig_TypeDefinitionIndex = 29805;
+	inline static constexpr unsigned int BGBuildingLightConfig_TypeDefinitionIndex = 26311;
 
 	class BGBuildingLightConfig : public ::UnityEngine::ScriptableObject
 	{

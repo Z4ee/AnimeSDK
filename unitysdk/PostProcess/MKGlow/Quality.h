@@ -3,14 +3,14 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Quality_TypeDefinitionIndex = 29639;
+	inline static constexpr unsigned int Quality_TypeDefinitionIndex = 26985;
 
 	enum class Quality : ::System::Int32
 	{
-		Ultra = 1,
-		High = 2,
 		Medium = 4,
-		Low = 8,
+		High = 2,
+		Ultra = 1,
 		VeryLow = 12,
+		Low = 8,
 	};
 }

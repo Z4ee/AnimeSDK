@@ -6,18 +6,18 @@ class Class_1_BD2BE7927F889C7B;
 namespace MoleMole { class UIFashionStoreMainPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E9D900)
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSUCCESSBUYINGPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0x14E9D910)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1526A300)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSUCCESSBUYINGPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0x1526A310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass16_0_TypeDefinitionIndex = 62343;
+	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass16_0_TypeDefinitionIndex = 62609;
 
 	class UIFashionStoreMainPageController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFashionStoreMainPageController* __4__this; // 0x10
-		::Class_1_BD2BE7927F889C7B* lastSelectedItem; // 0x18
+		::Class_1_BD2BE7927F889C7B* lastSelectedItem; // 0x10
+		::MoleMole::UIFashionStoreMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

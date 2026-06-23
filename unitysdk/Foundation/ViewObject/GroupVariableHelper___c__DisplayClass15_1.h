@@ -5,11 +5,11 @@
 namespace Cysharp::Threading::Tasks { class AutoResetUniTaskCompletionSource; }
 namespace Foundation::ViewObject { class GroupVariableHelper___c__DisplayClass15_0; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10590C70)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6C8C0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper___c__DisplayClass15_1_TypeDefinitionIndex = 46016;
+	inline static constexpr unsigned int GroupVariableHelper___c__DisplayClass15_1_TypeDefinitionIndex = 80464;
 
 	class GroupVariableHelper___c__DisplayClass15_1 : public ::System::Object
 	{

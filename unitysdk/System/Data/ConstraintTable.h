@@ -5,17 +5,17 @@
 namespace System::Data { class DataTable; }
 namespace System::Xml::Schema { class XmlSchemaIdentityConstraint; }
 
-#define SYSTEM_DATA_CONSTRAINTTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B62C970)
+#define SYSTEM_DATA_CONSTRAINTTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F9060)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int ConstraintTable_TypeDefinitionIndex = 37074;
+	inline static constexpr unsigned int ConstraintTable_TypeDefinitionIndex = 38691;
 
 	class ConstraintTable : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint; // 0x10
-		::System::Data::DataTable* table; // 0x18
+		::System::Data::DataTable* table; // 0x10
+		::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint; // 0x18
 
 		::System::Void _ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c)
 		{

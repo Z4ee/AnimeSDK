@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define DYNAMICBONEV2_TRANSFORMCONFIG_GETLABELTEXT_OFFSET UNITYSDK_OFFSET(0x1BE772F0)
-#define DYNAMICBONEV2_TRANSFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE76E00)
+#define DYNAMICBONEV2_TRANSFORMCONFIG_GETLABELTEXT_OFFSET UNITYSDK_OFFSET(0x1E1B7A30)
+#define DYNAMICBONEV2_TRANSFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B7540)
 
-inline static constexpr unsigned int DynamicBoneV2_TransformConfig_TypeDefinitionIndex = 33075;
+inline static constexpr unsigned int DynamicBoneV2_TransformConfig_TypeDefinitionIndex = 34633;
 
 class DynamicBoneV2_TransformConfig : public ::System::Object
 {

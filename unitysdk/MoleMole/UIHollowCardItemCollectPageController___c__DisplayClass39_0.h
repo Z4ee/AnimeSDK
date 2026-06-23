@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/UIHollowCardItemCollectPageController_TabType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_503;
+class Class_2_208CC9941471731A_1098;
 
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A396C0)
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__GETRESEARCHPROGRESSCONFIGLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15A396D0)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167C3250)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__GETRESEARCHPROGRESSCONFIGLIST_B__0_OFFSET UNITYSDK_OFFSET(0x167C3260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass39_0_TypeDefinitionIndex = 62944;
+	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass39_0_TypeDefinitionIndex = 42853;
 
 	class UIHollowCardItemCollectPageController___c__DisplayClass39_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetResearchProgressConfigList_b__0(::Class_2_208CC9941471731A_503* x)
+		::System::Boolean _GetResearchProgressConfigList_b__0(::Class_2_208CC9941471731A_1098* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_503*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__GETRESEARCHPROGRESSCONFIGLIST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_1098*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS39_0__GETRESEARCHPROGRESSCONFIGLIST_B__0_OFFSET))(this, x);
 		}
 	};
 }

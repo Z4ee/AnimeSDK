@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController_OnHotpotLevelSelectData_TypeDefinitionIndex = 47611;
+	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController_OnHotpotLevelSelectData_TypeDefinitionIndex = 86600;
 
 	struct alignas(4) UIActivityHotPotStrategyWidgetController_OnHotpotLevelSelectData
 	{

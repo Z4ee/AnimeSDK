@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWPOPWINDOWENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xFE9BA40)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWPOPWINDOWENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xFE9BAC0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWPOPWINDOWENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12B99B60)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWPOPWINDOWENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B99BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShowPopWindowEntry_TypeDefinitionIndex = 76448;
+	inline static constexpr unsigned int AnimatorEventShowPopWindowEntry_TypeDefinitionIndex = 75460;
 
 	class AnimatorEventShowPopWindowEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

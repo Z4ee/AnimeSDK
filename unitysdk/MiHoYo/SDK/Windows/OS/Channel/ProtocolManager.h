@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/UI/OS/ChannelProtocolDisplayType.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_GETACCOUNTPRIVACYPROTOCOLURL_OFFSET UNITYSDK_OFFSET(0x1BB76A20)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_GETACCOUNTUSERAGREEMENTURL_OFFSET UNITYSDK_OFFSET(0x1BB76800)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_IFSHOWPRECOMBOLOGINPROTOCOLDIALOGFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1BB75FA0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_IFSHOWPRECOMBOLOGINPROTOCOLFORFIRSTLOCALACCEPT_OFFSET UNITYSDK_OFFSET(0x1BB75E50)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SAVEPRECOMBOLOGINPROTOCOLAGREERECORD_OFFSET UNITYSDK_OFFSET(0x1BB760F0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWACCOUNTPRIVACYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1BB76890)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWACCOUNTUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x1BB76670)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWPRECOMBOLOGINPROTOCOLDIALOG_OFFSET UNITYSDK_OFFSET(0x1BB76220)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWPRIVACYPROTOCOLINGAME_OFFSET UNITYSDK_OFFSET(0x1BB765F0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWUSERAGREEMENTINGAME_OFFSET UNITYSDK_OFFSET(0x1BB76570)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB76AB0)
+
+namespace MiHoYo::SDK::Windows::OS::Channel
+{
+	inline static constexpr unsigned int ProtocolManager_TypeDefinitionIndex = 20133;
+
+	class ProtocolManager : public ::System::Object
+	{
+	public:
+		// static const ::System::String* ACCOUNT_USER_AGREEMENT_URL_OS; // 0x0
+		// static const ::System::String* ACCOUNT_PRIVACY_POLICY_URL_OS; // 0x0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Boolean IfShowPreComboLoginProtocolForFirstLocalAccept()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_IFSHOWPRECOMBOLOGINPROTOCOLFORFIRSTLOCALACCEPT_OFFSET))();
+		}
+
+		static ::System::Boolean IfShowPreComboLoginProtocolDialogForUpdate()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_IFSHOWPRECOMBOLOGINPROTOCOLDIALOGFORUPDATE_OFFSET))();
+		}
+
+		static ::System::Void SavePreComboLoginProtocolAgreeRecord()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SAVEPRECOMBOLOGINPROTOCOLAGREERECORD_OFFSET))();
+		}
+
+		static ::System::Void ShowPreComboLoginProtocolDialog(::System::Action* onProtocolAccepted, ::System::Action* onProtocolRefused, ::MiHoYo::SDK::UI::OS::ChannelProtocolDisplayType type)
+		{
+			return ((::System::Void(*)(::System::Action*, ::System::Action*, ::MiHoYo::SDK::UI::OS::ChannelProtocolDisplayType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWPRECOMBOLOGINPROTOCOLDIALOG_OFFSET))(onProtocolAccepted, onProtocolRefused, type);
+		}
+
+		static ::System::Void ShowUserAgreementInGame()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWUSERAGREEMENTINGAME_OFFSET))();
+		}
+
+		static ::System::Void ShowPrivacyProtocolInGame()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWPRIVACYPROTOCOLINGAME_OFFSET))();
+		}
+
+		static ::System::Void ShowAccountUserAgreement()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWACCOUNTUSERAGREEMENT_OFFSET))();
+		}
+
+		static ::System::Void ShowAccountPrivacyProtocol()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_SHOWACCOUNTPRIVACYPROTOCOL_OFFSET))();
+		}
+
+		static ::System::String* GetAccountUserAgreementURL()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_GETACCOUNTUSERAGREEMENTURL_OFFSET))();
+		}
+
+		static ::System::String* GetAccountPrivacyProtocolURL()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_PROTOCOLMANAGER_GETACCOUNTPRIVACYPROTOCOLURL_OFFSET))();
+		}
+	};
+}

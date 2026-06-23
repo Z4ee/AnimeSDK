@@ -9,21 +9,21 @@
 namespace UnityEngine::NAPRenderPipeline0 { class SkyLutPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4C6B00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1B4C6BA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4C6BD0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C6A80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D818930)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D8189D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D818A00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8188B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutPass_NativeImpl_TypeDefinitionIndex = 5762;
+	inline static constexpr unsigned int SkyLutPass_NativeImpl_TypeDefinitionIndex = 5766;
 
 	class SkyLutPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_bForceUpdate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x2890);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x28A0);
 		}
 		::UnityEngine::NAPRenderPipeline0::SkyLutPassNativeState* m_NativeState; // 0xA8
 

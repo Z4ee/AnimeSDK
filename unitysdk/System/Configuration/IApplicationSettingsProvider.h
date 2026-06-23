@@ -8,7 +8,7 @@ namespace System::Configuration { class SettingsPropertyValue; }
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int IApplicationSettingsProvider_TypeDefinitionIndex = 4099;
+	inline static constexpr unsigned int IApplicationSettingsProvider_TypeDefinitionIndex = 4098;
 
 	class IApplicationSettingsProvider
 	{

@@ -4,9 +4,9 @@
 
 namespace MoleMole { class UIBaseController; }
 
-#define CLASS_1_F47B94956E504A57_METHOD_1_303C2073631877DF_OFFSET UNITYSDK_OFFSET(0x132A34C0)
+#define CLASS_1_F47B94956E504A57_METHOD_1_303C2073631877DF_OFFSET UNITYSDK_OFFSET(0xF5B8D40)
 
-inline static constexpr unsigned int Class_1_F47B94956E504A57_TypeDefinitionIndex = 63687;
+inline static constexpr unsigned int Class_1_F47B94956E504A57_TypeDefinitionIndex = 80563;
 
 class Class_1_F47B94956E504A57 : public ::System::Object
 {

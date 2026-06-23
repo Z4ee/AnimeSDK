@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_2_137DB615CC6A5FB0_3;
+namespace MoleMole { class BallGameOptionsWidgetContext; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1E41E450)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x1E41E8E0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1E41E570)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1E41E4E0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1E41E220)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1E41E290)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x1E41E670)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E41EA60)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1E41EA70)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x1E41EB00)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1E41EB90)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1E41EC30)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1E41ECC0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1E41ED50)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBallGameOptionsWidget01WidgetController_TypeDefinitionIndex = 89517;
+
+	class UIBallGameOptionsWidget01WidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_137DB615CC6A5FB0_3* _view; // 0x2F0
+		::System::Int32 eventid; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void RefreshView(::MoleMole::BallGameOptionsWidgetContext* context)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::BallGameOptionsWidgetContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this, context);
+		}
+
+		::System::Void OnItemSelect(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER_ONITEMSELECT_OFFSET))(this, isSelect);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnItemSelect(::System::Boolean P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBALLGAMEOPTIONSWIDGET01WIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

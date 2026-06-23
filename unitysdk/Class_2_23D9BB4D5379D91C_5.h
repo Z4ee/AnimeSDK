@@ -8,21 +8,24 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_23D9BB4D5379D91C_5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12560150)
-#define CLASS_2_23D9BB4D5379D91C_5_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x12560020)
-#define CLASS_2_23D9BB4D5379D91C_5__CTOR_OFFSET UNITYSDK_OFFSET(0x12560140)
+#define CLASS_2_23D9BB4D5379D91C_5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1545F9D0)
+#define CLASS_2_23D9BB4D5379D91C_5_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1545F860)
+#define CLASS_2_23D9BB4D5379D91C_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1545F9C0)
 
-inline static constexpr unsigned int Class_2_23D9BB4D5379D91C_5_TypeDefinitionIndex = 63360;
+inline static constexpr unsigned int Class_2_23D9BB4D5379D91C_5_TypeDefinitionIndex = 53646;
 
 class Class_2_23D9BB4D5379D91C_5 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Camera* Field_2_4; // 0x18
-	::UnityEngine::Transform* Field_2_2; // 0x20
-	::UnityEngine::Transform* Field_2_0; // 0x28
-	::UnityEngine::Transform* Field_2_1; // 0x30
-	::UnityEngine::Transform* Field_2_3; // 0x38
+	::UnityEngine::GameObject* Field_2_6; // 0x18
+	::UnityEngine::GameObject* Field_2_4; // 0x20
+	::UnityEngine::Transform* Field_2_3; // 0x28
+	::UnityEngine::Camera* Field_2_2; // 0x30
+	::UnityEngine::GameObject* Field_2_8; // 0x38
 	::UnityEngine::GameObject* Field_2_5; // 0x40
+	::UnityEngine::GameObject* Field_2_0; // 0x48
+	::UnityEngine::Transform* Field_2_7; // 0x50
+	::UnityEngine::GameObject* Field_2_1; // 0x58
 
 	::System::Void _ctor()
 	{

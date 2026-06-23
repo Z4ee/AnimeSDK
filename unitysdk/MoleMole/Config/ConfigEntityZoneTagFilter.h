@@ -6,13 +6,13 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER_MATCHZONETAG_OFFSET UNITYSDK_OFFSET(0x1102A9E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1102A930)
-#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1102AAF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER_MATCHZONETAG_OFFSET UNITYSDK_OFFSET(0x18F34E10)
+#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x18F34D60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYZONETAGFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F34F20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityZoneTagFilter_TypeDefinitionIndex = 68086;
+	inline static constexpr unsigned int ConfigEntityZoneTagFilter_TypeDefinitionIndex = 83165;
 
 	class ConfigEntityZoneTagFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

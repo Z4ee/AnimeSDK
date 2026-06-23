@@ -8,12 +8,12 @@ namespace UnityEngine { class IExposedPropertyTable; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_BATCHACTIVATIONREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0xFAE1460)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_BATCHACTIVATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE1130)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_BATCHACTIVATIONREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0xE944250)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_BATCHACTIVATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xE943F20)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int BatchActivationReference_TypeDefinitionIndex = 75145;
+	inline static constexpr unsigned int BatchActivationReference_TypeDefinitionIndex = 82035;
 
 	class BatchActivationReference : public ::System::Object
 	{

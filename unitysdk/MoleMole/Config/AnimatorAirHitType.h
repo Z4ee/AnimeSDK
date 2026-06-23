@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorAirHitType_TypeDefinitionIndex = 40332;
+	inline static constexpr unsigned int AnimatorAirHitType_TypeDefinitionIndex = 60638;
 
 	enum class AnimatorAirHitType : ::System::Int32
 	{
-		ThrowHigh = 4,
-		ThrowLow = 0,
-		Fly = 1,
-		Wall = 99,
-		Knock = 3,
 		InAir = 2,
+		Wall = 99,
+		ThrowLow = 0,
+		Knock = 3,
+		Fly = 1,
+		ThrowHigh = 4,
 	};
 }

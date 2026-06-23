@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A981C0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174358F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotStrategyDialogPopWindowController_Context_TypeDefinitionIndex = 68178;
+	inline static constexpr unsigned int UIActivityHotPotStrategyDialogPopWindowController_Context_TypeDefinitionIndex = 50914;
 
 	class UIActivityHotPotStrategyDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

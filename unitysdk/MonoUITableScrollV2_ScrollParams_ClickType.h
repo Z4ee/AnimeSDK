@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_ClickType_TypeDefinitionIndex = 54156;
+inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_ClickType_TypeDefinitionIndex = 69906;
 
 enum class MonoUITableScrollV2_ScrollParams_ClickType : ::System::Int32
 {
+	OnlyTriggerOnClick = 0,
 	OnlyUpdateSelect = 1,
 	UpdateSelectAndTriggerOnClick = 2,
-	OnlyTriggerOnClick = 0,
 };

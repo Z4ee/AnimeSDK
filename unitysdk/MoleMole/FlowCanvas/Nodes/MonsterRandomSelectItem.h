@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERRANDOMSELECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10E18C90)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERRANDOMSELECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2FD40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterRandomSelectItem_TypeDefinitionIndex = 79037;
+	inline static constexpr unsigned int MonsterRandomSelectItem_TypeDefinitionIndex = 79947;
 
 	class MonsterRandomSelectItem : public ::System::Object
 	{

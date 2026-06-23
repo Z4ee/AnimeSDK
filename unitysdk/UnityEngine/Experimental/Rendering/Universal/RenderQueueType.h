@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderQueueType_TypeDefinitionIndex = 29730;
+	inline static constexpr unsigned int RenderQueueType_TypeDefinitionIndex = 26545;
 
 	enum class RenderQueueType : ::System::Int32
 	{

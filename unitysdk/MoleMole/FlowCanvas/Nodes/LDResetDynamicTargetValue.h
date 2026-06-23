@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A3DA70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3DBD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16CA24E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA2640)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDResetDynamicTargetValue_TypeDefinitionIndex = 79814;
+	inline static constexpr unsigned int LDResetDynamicTargetValue_TypeDefinitionIndex = 85044;
 
 	class LDResetDynamicTargetValue : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean, ::System::Boolean>
 	{

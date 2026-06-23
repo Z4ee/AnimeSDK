@@ -5,12 +5,12 @@
 namespace MoleMole { class IVideoPlayer; }
 namespace MoleMole::ChessStateMachine { class TextureSheetConfigAction___c__DisplayClass7_0; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTION___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF3280)
-#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTION___C__DISPLAYCLASS7_1__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xFAF3290)
+#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTION___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE958290)
+#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTION___C__DISPLAYCLASS7_1__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xE9582A0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TextureSheetConfigAction___c__DisplayClass7_1_TypeDefinitionIndex = 80730;
+	inline static constexpr unsigned int TextureSheetConfigAction___c__DisplayClass7_1_TypeDefinitionIndex = 85448;
 
 	class TextureSheetConfigAction___c__DisplayClass7_1 : public ::System::Object
 	{

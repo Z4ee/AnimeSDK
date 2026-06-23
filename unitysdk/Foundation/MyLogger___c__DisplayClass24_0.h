@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD3A310)
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__DRAWPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1BD3A320)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE39100)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__DRAWPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1DE39110)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger___c__DisplayClass24_0_TypeDefinitionIndex = 8114;
+	inline static constexpr unsigned int MyLogger___c__DisplayClass24_0_TypeDefinitionIndex = 7923;
 
 	class MyLogger___c__DisplayClass24_0 : public ::System::Object
 	{

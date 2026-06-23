@@ -5,10 +5,10 @@
 namespace MoleMole { class PointerClickForwarder; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_30EDD259435FA28A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11DABB50)
-#define CLASS_1_30EDD259435FA28A__CTOR_OFFSET UNITYSDK_OFFSET(0x11DABB40)
+#define CLASS_1_30EDD259435FA28A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14C94770)
+#define CLASS_1_30EDD259435FA28A__CTOR_OFFSET UNITYSDK_OFFSET(0x14C94760)
 
-inline static constexpr unsigned int Class_1_30EDD259435FA28A_TypeDefinitionIndex = 77930;
+inline static constexpr unsigned int Class_1_30EDD259435FA28A_TypeDefinitionIndex = 82892;
 
 class Class_1_30EDD259435FA28A : public ::System::Object
 {

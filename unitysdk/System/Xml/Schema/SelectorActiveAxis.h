@@ -8,21 +8,21 @@ namespace System::Xml::Schema { class Asttree; }
 namespace System::Xml::Schema { class ConstraintStruct; }
 namespace System::Xml::Schema { class KeySequence; }
 
-#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_ENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1B8EA710)
-#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_GET_LASTDEPTH_OFFSET UNITYSDK_OFFSET(0x1B8EA5C0)
-#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_POPKS_OFFSET UNITYSDK_OFFSET(0x1B8EAB50)
-#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_PUSHKS_OFFSET UNITYSDK_OFFSET(0x1B8EA740)
-#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8EA660)
+#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_ENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1DC42BC0)
+#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_GET_LASTDEPTH_OFFSET UNITYSDK_OFFSET(0x1DC42A70)
+#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_POPKS_OFFSET UNITYSDK_OFFSET(0x1DC43000)
+#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS_PUSHKS_OFFSET UNITYSDK_OFFSET(0x1DC42BF0)
+#define SYSTEM_XML_SCHEMA_SELECTORACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC42B10)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SelectorActiveAxis_TypeDefinitionIndex = 1955;
+	inline static constexpr unsigned int SelectorActiveAxis_TypeDefinitionIndex = 1954;
 
 	class SelectorActiveAxis : public ::System::Xml::Schema::ActiveAxis
 	{
 	public:
-		::System::Xml::Schema::ConstraintStruct* cs; // 0x28
-		::System::Collections::ArrayList* KSs; // 0x30
+		::System::Collections::ArrayList* KSs; // 0x28
+		::System::Xml::Schema::ConstraintStruct* cs; // 0x30
 		::System::Int32 KSpointer; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs)

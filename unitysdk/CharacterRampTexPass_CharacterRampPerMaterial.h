@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int CharacterRampTexPass_CharacterRampPerMaterial_TypeDefinitionIndex = 29606;
+inline static constexpr unsigned int CharacterRampTexPass_CharacterRampPerMaterial_TypeDefinitionIndex = 27013;
 
 struct alignas(4) CharacterRampTexPass_CharacterRampPerMaterial
 {

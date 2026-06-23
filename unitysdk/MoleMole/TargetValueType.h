@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TargetValueType_TypeDefinitionIndex = 43070;
+	inline static constexpr unsigned int TargetValueType_TypeDefinitionIndex = 56036;
 
 	enum class TargetValueType : ::System::Int32
 	{
-		Dynamic = 0,
 		InitTargetValue = 1,
+		Dynamic = 0,
 	};
 }

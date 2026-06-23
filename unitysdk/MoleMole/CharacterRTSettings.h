@@ -5,11 +5,11 @@
 namespace MoleMole { class RTCameraSetting; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHARACTERRTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x124016A0)
+#define MOLEMOLE_CHARACTERRTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x12C53CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterRTSettings_TypeDefinitionIndex = 74707;
+	inline static constexpr unsigned int CharacterRTSettings_TypeDefinitionIndex = 75879;
 
 	class CharacterRTSettings : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

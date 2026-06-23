@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1C009B80)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1C009B70)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C009B90)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C009BA0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C009C30)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C009B60)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1E328010)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1E328000)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E328020)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E328030)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E3280C0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E327FF0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 4542;
+	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 4541;
 
 	class SwitchCase : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _TestValues_k__BackingField; // 0x18
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _TestValues_k__BackingField; // 0x10
+		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* body, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* testValues)
 		{

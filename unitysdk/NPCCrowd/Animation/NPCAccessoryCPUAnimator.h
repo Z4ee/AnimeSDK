@@ -14,11 +14,11 @@ namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Avatar; }
 
-#define NPCCROWD_ANIMATION_NPCACCESSORYCPUANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCE62070)
+#define NPCCROWD_ANIMATION_NPCACCESSORYCPUANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CD520)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCAccessoryCPUAnimator_TypeDefinitionIndex = 80293;
+	inline static constexpr unsigned int NPCAccessoryCPUAnimator_TypeDefinitionIndex = 74124;
 
 	class NPCAccessoryCPUAnimator : public ::System::Object
 	{

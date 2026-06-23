@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass82_0_1_TypeDefinitionIndex = 36862;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass82_0_1_TypeDefinitionIndex = 38472;
 
 	template <typename T>
 	class SQLiteAsyncConnection___c__DisplayClass82_0_1 : public ::System::Object

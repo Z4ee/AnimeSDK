@@ -5,7 +5,7 @@ namespace MoleMole { class AbyssS2_GenResult; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_IMapGenerator_TypeDefinitionIndex = 82326;
+	inline static constexpr unsigned int AbyssS2_IMapGenerator_TypeDefinitionIndex = 85689;
 
 	class AbyssS2_IMapGenerator
 	{

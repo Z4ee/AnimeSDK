@@ -9,28 +9,28 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_EVENTSBYCOUNT_OFFSET UNITYSDK_OFFSET(0x7D6190)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_EVENTSBYTIME_OFFSET UNITYSDK_OFFSET(0x7D6180)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_RUNTIME_OFFSET UNITYSDK_OFFSET(0x7D6160)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_TOPRACINGCOUNT_OFFSET UNITYSDK_OFFSET(0x7D6170)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_0A18A473C19B1A6D_OFFSET UNITYSDK_OFFSET(0x7D61B0)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_117C21964544FD12_OFFSET UNITYSDK_OFFSET(0x7D61C0)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x17518360)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7D61A0)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_EVENTSBYCOUNT_OFFSET UNITYSDK_OFFSET(0x7D5440)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_EVENTSBYTIME_OFFSET UNITYSDK_OFFSET(0x7D5430)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_RUNTIME_OFFSET UNITYSDK_OFFSET(0x7D5410)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_TOPRACINGCOUNT_OFFSET UNITYSDK_OFFSET(0x7D5420)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_0A18A473C19B1A6D_OFFSET UNITYSDK_OFFSET(0x7D5470)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_117C21964544FD12_OFFSET UNITYSDK_OFFSET(0x7D5460)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x144C10B0)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7D5450)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int FieldInfo_EventInfo_TypeDefinitionIndex = 42879;
+	inline static constexpr unsigned int FieldInfo_EventInfo_TypeDefinitionIndex = 81535;
 
 	struct alignas(8) FieldInfo_EventInfo
 	{
 		static ::System::Collections::Generic::List_1<::MoleMole::Battle::FieldInfo_EventInfo_K_Count>** StaticGet__TopRacingCache()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::Battle::FieldInfo_EventInfo_K_Count>**)Il2CppClass::FromTypeDefinitionIndex(FieldInfo_EventInfo_TypeDefinitionIndex)->GetStaticField(0x3A0D0);
+			return (::System::Collections::Generic::List_1<::MoleMole::Battle::FieldInfo_EventInfo_K_Count>**)Il2CppClass::FromTypeDefinitionIndex(FieldInfo_EventInfo_TypeDefinitionIndex)->GetStaticField(0x3C070);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_s_CacheEventTypeString()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldInfo_EventInfo_TypeDefinitionIndex)->GetStaticField(0x3A0D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldInfo_EventInfo_TypeDefinitionIndex)->GetStaticField(0x3C078);
 		}
 		::System::Single startTime; // 0x10
 		::System::Int32 totalCount; // 0x14
@@ -71,14 +71,14 @@ namespace MoleMole::Battle
 			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::FieldInfo_EventInfo_K_Count>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_GET_EVENTSBYCOUNT_OFFSET))(this);
 		}
 
-		::System::Void Method_2_0A18A473C19B1A6D(::Class_1_B7E341C5F1A6F199* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_0A18A473C19B1A6D_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_2_117C21964544FD12(::Class_1_B7E341C5F1A6F199* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_117C21964544FD12_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_0A18A473C19B1A6D(::Class_1_B7E341C5F1A6F199* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_METHOD_2_0A18A473C19B1A6D_OFFSET))(this, a1);
 		}
 	};
 }

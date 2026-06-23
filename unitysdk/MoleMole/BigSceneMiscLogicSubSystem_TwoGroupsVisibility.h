@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BigSceneMiscLogicSubSystem_StackedSwitch.h"
 
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_TWOGROUPSVISIBILITY_SWITCH_OFFSET UNITYSDK_OFFSET(0xFF07430)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_TWOGROUPSVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xFF075B0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_TWOGROUPSVISIBILITY_SWITCH_OFFSET UNITYSDK_OFFSET(0x13593130)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_TWOGROUPSVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x135932B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_TwoGroupsVisibility_TypeDefinitionIndex = 66895;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_TwoGroupsVisibility_TypeDefinitionIndex = 57040;
 
 	class BigSceneMiscLogicSubSystem_TwoGroupsVisibility : public ::MoleMole::BigSceneMiscLogicSubSystem_StackedSwitch
 	{

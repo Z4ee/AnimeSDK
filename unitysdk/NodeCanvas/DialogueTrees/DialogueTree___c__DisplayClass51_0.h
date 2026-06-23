@@ -5,12 +5,12 @@
 namespace NodeCanvas::DialogueTrees { class DialogueTree_ActorParameter; }
 namespace System { class String; }
 
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB7120)
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__DISPLAYCLASS51_0__SETACTORREFERENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1ADB7130)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E3A40)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__DISPLAYCLASS51_0__SETACTORREFERENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1D1E3A50)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int DialogueTree___c__DisplayClass51_0_TypeDefinitionIndex = 26839;
+	inline static constexpr unsigned int DialogueTree___c__DisplayClass51_0_TypeDefinitionIndex = 30116;
 
 	class DialogueTree___c__DisplayClass51_0 : public ::System::Object
 	{

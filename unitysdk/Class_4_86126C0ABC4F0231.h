@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_3_F78D134D9EB09E5B.h"
 
-class Class_1_43BD383C98B4C0C5_19;
+class Class_1_43BD383C98B4C0C5_25;
 class Class_1_C376DB68B1C74261;
 class Class_2_9DCE2FC33F67E8A2;
 namespace MoleMole::Config { class ConfigUIBaseScriptableAnimationNode; }
 namespace MoleMole::Config { class UISpecialNumGroup; }
 
-inline static constexpr unsigned int Class_4_86126C0ABC4F0231_TypeDefinitionIndex = 62872;
+inline static constexpr unsigned int Class_4_86126C0ABC4F0231_TypeDefinitionIndex = 71630;
 
 template <typename T>
 class Class_4_86126C0ABC4F0231 : public ::Class_3_F78D134D9EB09E5B

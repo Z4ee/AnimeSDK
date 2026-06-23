@@ -8,20 +8,20 @@ namespace MoleMole::Timeline { class LoopSubdivisionDataHolderParams; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_D4BECE2500A4E157_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x1460CD40)
-#define CLASS_2_D4BECE2500A4E157_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x1460CD50)
-#define CLASS_2_D4BECE2500A4E157_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1460C3B0)
-#define CLASS_2_D4BECE2500A4E157_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1460C480)
-#define CLASS_2_D4BECE2500A4E157__CTOR_OFFSET UNITYSDK_OFFSET(0x1460CC60)
+#define CLASS_2_D4BECE2500A4E157_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x171B3650)
+#define CLASS_2_D4BECE2500A4E157_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x171B3660)
+#define CLASS_2_D4BECE2500A4E157_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x171B2CC0)
+#define CLASS_2_D4BECE2500A4E157_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x171B2D90)
+#define CLASS_2_D4BECE2500A4E157__CTOR_OFFSET UNITYSDK_OFFSET(0x171B3570)
 
-inline static constexpr unsigned int Class_2_D4BECE2500A4E157_TypeDefinitionIndex = 51625;
+inline static constexpr unsigned int Class_2_D4BECE2500A4E157_TypeDefinitionIndex = 41694;
 
 class Class_2_D4BECE2500A4E157 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Field_2_3; // 0x10
-	::UnityEngine::GameObject* Field_2_0; // 0x18
-	::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Field_2_2; // 0x20
+	::UnityEngine::GameObject* Field_2_0; // 0x10
+	::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Field_2_2; // 0x18
+	::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Field_2_3; // 0x20
 	::System::Boolean Field_2_1; // 0x28
 
 	::System::Void _ctor()

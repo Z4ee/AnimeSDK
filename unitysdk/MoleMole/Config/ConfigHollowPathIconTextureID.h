@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPATHICONTEXTUREID__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB800)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPATHICONTEXTUREID__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD53E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowPathIconTextureID_TypeDefinitionIndex = 74041;
+	inline static constexpr unsigned int ConfigHollowPathIconTextureID_TypeDefinitionIndex = 40079;
 
 	class ConfigHollowPathIconTextureID : public ::Foundation::MihoyoSerializedScriptableObject
 	{

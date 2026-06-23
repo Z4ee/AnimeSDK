@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FChatEventArgs_TypeDefinitionIndex = 45140;
+	inline static constexpr unsigned int FChatEventArgs_TypeDefinitionIndex = 66302;
 
 	struct alignas(8) FChatEventArgs
 	{

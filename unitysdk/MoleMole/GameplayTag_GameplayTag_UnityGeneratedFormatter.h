@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125CE550)
-#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125CE560)
-#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125CE680)
-#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125CE7D0)
-#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125CE770)
+#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13022930)
+#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13022940)
+#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13022A60)
+#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13022BB0)
+#define MOLEMOLE_GAMEPLAYTAG_GAMEPLAYTAG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13022B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameplayTag_GameplayTag_UnityGeneratedFormatter_TypeDefinitionIndex = 65293;
+	inline static constexpr unsigned int GameplayTag_GameplayTag_UnityGeneratedFormatter_TypeDefinitionIndex = 60701;
 
 	class GameplayTag_GameplayTag_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GameplayTag>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GameplayTag_GameplayTag_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x479A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GameplayTag_GameplayTag_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49DC0);
 		}
 
 		::System::Void _ctor()

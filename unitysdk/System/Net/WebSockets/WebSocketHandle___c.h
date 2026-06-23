@@ -4,34 +4,34 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A260990)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTASYNCCORE_B__24_0_OFFSET UNITYSDK_OFFSET(0x1A2609E0)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTSOCKETASYNC_B__25_0_OFFSET UNITYSDK_OFFSET(0x1A260A70)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTSOCKETASYNC_B__25_1_OFFSET UNITYSDK_OFFSET(0x1A260AE0)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2609D0)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C66E680)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTASYNCCORE_B__24_0_OFFSET UNITYSDK_OFFSET(0x1C66E6D0)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTSOCKETASYNC_B__25_0_OFFSET UNITYSDK_OFFSET(0x1C66E760)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CONNECTSOCKETASYNC_B__25_1_OFFSET UNITYSDK_OFFSET(0x1C66E7D0)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C66E6C0)
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketHandle___c_TypeDefinitionIndex = 3893;
+	inline static constexpr unsigned int WebSocketHandle___c_TypeDefinitionIndex = 3892;
 
 	class WebSocketHandle___c : public ::System::Object
 	{
 	public:
-		static ::System::Net::WebSockets::WebSocketHandle___c** StaticGet___9()
-		{
-			return (::System::Net::WebSockets::WebSocketHandle___c**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3260);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet___9__24_0()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3268);
-		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__25_1()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3270);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3260);
 		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__25_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3278);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3268);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__24_0()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3270);
+		}
+		static ::System::Net::WebSockets::WebSocketHandle___c** StaticGet___9()
+		{
+			return (::System::Net::WebSockets::WebSocketHandle___c**)Il2CppClass::FromTypeDefinitionIndex(WebSocketHandle___c_TypeDefinitionIndex)->GetStaticField(0x3278);
 		}
 
 		static ::System::Void _cctor()

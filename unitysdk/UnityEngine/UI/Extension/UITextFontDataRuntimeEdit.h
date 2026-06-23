@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTFONTDATARUNTIMEEDIT_RESET_OFFSET UNITYSDK_OFFSET(0x8A64D0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTFONTDATARUNTIMEEDIT_RESET_OFFSET UNITYSDK_OFFSET(0x970340)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextFontDataRuntimeEdit_TypeDefinitionIndex = 40570;
+	inline static constexpr unsigned int UITextFontDataRuntimeEdit_TypeDefinitionIndex = 65015;
 
 	struct alignas(1) UITextFontDataRuntimeEdit
 	{

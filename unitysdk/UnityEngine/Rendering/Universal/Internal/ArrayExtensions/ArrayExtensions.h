@@ -5,11 +5,11 @@
 namespace System { class Array; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ARRAYEXTENSIONS_ARRAYEXTENSIONS_FOREACH_OFFSET UNITYSDK_OFFSET(0x1B07DA40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ARRAYEXTENSIONS_ARRAYEXTENSIONS_FOREACH_OFFSET UNITYSDK_OFFSET(0x1D3D4860)
 
 namespace UnityEngine::Rendering::Universal::Internal::ArrayExtensions
 {
-	inline static constexpr unsigned int ArrayExtensions_TypeDefinitionIndex = 30553;
+	inline static constexpr unsigned int ArrayExtensions_TypeDefinitionIndex = 26194;
 
 	class ArrayExtensions : public ::System::Object
 	{

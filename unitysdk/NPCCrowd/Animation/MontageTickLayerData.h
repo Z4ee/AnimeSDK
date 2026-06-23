@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTickLayerData_TypeDefinitionIndex = 58874;
+	inline static constexpr unsigned int MontageTickLayerData_TypeDefinitionIndex = 85870;
 
 	struct alignas(4) MontageTickLayerData
 	{
@@ -14,10 +14,10 @@ namespace NPCCrowd::Animation
 		::System::Single playSpeed; // 0x18
 		::System::Boolean isLoop; // 0x1C
 		::NPCCrowd::Animation::MontageTickData dataLayer1; // 0x20
-		::NPCCrowd::Animation::MontageTickData dataLayer2; // 0x30
-		::NPCCrowd::Animation::MontageTickData dataLayer3; // 0x40
-		::NPCCrowd::Animation::MontageTickData dataLayer4; // 0x50
-		::System::Boolean needBlend; // 0x60
-		::System::Single blendTime; // 0x64
+		::NPCCrowd::Animation::MontageTickData dataLayer2; // 0x48
+		::NPCCrowd::Animation::MontageTickData dataLayer3; // 0x70
+		::NPCCrowd::Animation::MontageTickData dataLayer4; // 0x98
+		::System::Boolean needBlend; // 0xC0
+		::System::Single blendTime; // 0xC4
 	};
 }

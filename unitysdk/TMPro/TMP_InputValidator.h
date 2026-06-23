@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_TMP_INPUTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C403700)
+#define TMPRO_TMP_INPUTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E747510)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputValidator_TypeDefinitionIndex = 37540;
+	inline static constexpr unsigned int TMP_InputValidator_TypeDefinitionIndex = 39166;
 
 	class TMP_InputValidator : public ::UnityEngine::ScriptableObject
 	{

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
+#include "unitysdk/Struct_2_ACD0EF80A5330786.h"
+#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-namespace System { class Object; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::Threading::Tasks { class Task; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
+namespace Foundation { class NativeMemory; }
+namespace UnityEngine { class Animator; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 67091;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 62036;
 
+template <typename T>
 class Class_0_16E4307DCC419505_609
 {
 public:

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 2435;
+	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 2434;
 
 	enum class HashAlgorithmType : ::System::Int32
 	{

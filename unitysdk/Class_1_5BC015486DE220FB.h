@@ -7,9 +7,9 @@ namespace MoleMole { class UISocialCircleMainTagWidgetController_Data; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_5BC015486DE220FB_METHOD_1_570ABBDE27C0E7C8_OFFSET UNITYSDK_OFFSET(0x10DB8520)
+#define CLASS_1_5BC015486DE220FB_METHOD_1_570ABBDE27C0E7C8_OFFSET UNITYSDK_OFFSET(0xF5D5780)
 
-inline static constexpr unsigned int Class_1_5BC015486DE220FB_TypeDefinitionIndex = 39242;
+inline static constexpr unsigned int Class_1_5BC015486DE220FB_TypeDefinitionIndex = 42246;
 
 class Class_1_5BC015486DE220FB : public ::System::Object
 {

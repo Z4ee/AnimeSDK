@@ -5,13 +5,13 @@
 
 namespace MoleMole { class BloomProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_020C1956FD22F27B_OFFSET UNITYSDK_OFFSET(0x17432F30)
-#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_5876DB29D7667FE1_OFFSET UNITYSDK_OFFSET(0x17432E20)
-#define MOLEMOLE_COMMANDLINEBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x17432EF0)
+#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_020C1956FD22F27B_OFFSET UNITYSDK_OFFSET(0x1702EF50)
+#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_5876DB29D7667FE1_OFFSET UNITYSDK_OFFSET(0x1702EE40)
+#define MOLEMOLE_COMMANDLINEBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1702EF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineBloom_TypeDefinitionIndex = 50582;
+	inline static constexpr unsigned int CommandLineBloom_TypeDefinitionIndex = 78836;
 
 	class CommandLineBloom : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::BloomProfileContext*, ::MoleMole::CommandLineBloom*>
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_INTERACTIONCOMMONDATA_METHOD_1_D47295659267DB14_OFFSET UNITYSDK_OFFSET(0x11CB7710)
-#define MOLEMOLE_CONFIG_INTERACTIONCOMMONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB7700)
+#define MOLEMOLE_CONFIG_INTERACTIONCOMMONDATA_METHOD_1_D47295659267DB14_OFFSET UNITYSDK_OFFSET(0x192AC940)
+#define MOLEMOLE_CONFIG_INTERACTIONCOMMONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x192AC930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InteractionCommonData_TypeDefinitionIndex = 77212;
+	inline static constexpr unsigned int InteractionCommonData_TypeDefinitionIndex = 53530;
 
 	class InteractionCommonData : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnUpdateSelectedHandler_TypeDefinitionIndex = 28812;
+	inline static constexpr unsigned int IAsyncOnUpdateSelectedHandler_TypeDefinitionIndex = 31468;
 
 	class IAsyncOnUpdateSelectedHandler
 	{

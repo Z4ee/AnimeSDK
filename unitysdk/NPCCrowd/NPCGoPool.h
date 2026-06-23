@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NPCCROWD_NPCGOPOOL_ALLOCATE_OFFSET UNITYSDK_OFFSET(0xFB5A6D0)
-#define NPCCROWD_NPCGOPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0xFB5ABB0)
-#define NPCCROWD_NPCGOPOOL_INIT_OFFSET UNITYSDK_OFFSET(0xFB5A410)
-#define NPCCROWD_NPCGOPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0xFB5A880)
-#define NPCCROWD_NPCGOPOOL_RESET_OFFSET UNITYSDK_OFFSET(0xFB5AAB0)
-#define NPCCROWD_NPCGOPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5AE80)
+#define NPCCROWD_NPCGOPOOL_ALLOCATE_OFFSET UNITYSDK_OFFSET(0xEBDDF40)
+#define NPCCROWD_NPCGOPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0xEBDE420)
+#define NPCCROWD_NPCGOPOOL_INIT_OFFSET UNITYSDK_OFFSET(0xEBDDC80)
+#define NPCCROWD_NPCGOPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0xEBDE0F0)
+#define NPCCROWD_NPCGOPOOL_RESET_OFFSET UNITYSDK_OFFSET(0xEBDE320)
+#define NPCCROWD_NPCGOPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDE6F0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCGoPool_TypeDefinitionIndex = 60728;
+	inline static constexpr unsigned int NPCGoPool_TypeDefinitionIndex = 62105;
 
 	class NPCGoPool : public ::System::Object
 	{
 	public:
 		// static const ::System::String* POOLGONAME; // 0x0
 		// static const ::System::String* POOLRootNAME; // 0x0
-		::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* goPool; // 0x10
-		::UnityEngine::GameObject* root; // 0x18
+		::UnityEngine::GameObject* root; // 0x10
+		::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* goPool; // 0x18
 		::System::Int32 poolMaxNum; // 0x20
 
 		::System::Void _ctor()

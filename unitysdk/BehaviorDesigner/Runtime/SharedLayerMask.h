@@ -3,12 +3,12 @@
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDLAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BA22CB0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDLAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA22D70)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDLAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1DDB37D0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDLAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB3890)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedLayerMask_TypeDefinitionIndex = 31734;
+	inline static constexpr unsigned int SharedLayerMask_TypeDefinitionIndex = 33285;
 
 	class SharedLayerMask : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::LayerMask>
 	{

@@ -6,7 +6,7 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceRuntimeDataProvider_2_TypeDefinitionIndex = 36241;
+	inline static constexpr unsigned int CameraSequenceRuntimeDataProvider_2_TypeDefinitionIndex = 37849;
 
 	template <typename T, typename T1>
 	class CameraSequenceRuntimeDataProvider_2 : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider

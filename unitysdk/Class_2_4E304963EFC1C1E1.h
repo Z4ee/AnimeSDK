@@ -13,24 +13,24 @@ namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 template <typename T> class Class_2_0D31A1661D004892;
 
-#define CLASS_2_4E304963EFC1C1E1_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x111F6F80)
-#define CLASS_2_4E304963EFC1C1E1_METHOD_2_731689AB6AF6DA6E_OFFSET UNITYSDK_OFFSET(0x111F7190)
-#define CLASS_2_4E304963EFC1C1E1_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x111F7380)
-#define CLASS_2_4E304963EFC1C1E1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x111F7470)
-#define CLASS_2_4E304963EFC1C1E1__CTOR_OFFSET UNITYSDK_OFFSET(0x111F7460)
+#define CLASS_2_4E304963EFC1C1E1_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x140BD6B0)
+#define CLASS_2_4E304963EFC1C1E1_METHOD_2_731689AB6AF6DA6E_OFFSET UNITYSDK_OFFSET(0x140BD8C0)
+#define CLASS_2_4E304963EFC1C1E1_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x140BDAB0)
+#define CLASS_2_4E304963EFC1C1E1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x140BDBA0)
+#define CLASS_2_4E304963EFC1C1E1__CTOR_OFFSET UNITYSDK_OFFSET(0x140BDB90)
 
-inline static constexpr unsigned int Class_2_4E304963EFC1C1E1_TypeDefinitionIndex = 67743;
+inline static constexpr unsigned int Class_2_4E304963EFC1C1E1_TypeDefinitionIndex = 81883;
 
 class Class_2_4E304963EFC1C1E1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_4; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::System::Collections::Generic::List_1<::Class_2_0D31A1661D004892<::Class_2_4E304963EFC1C1E1_Class_2_18F706B5EBB56A51*>*>* Field_2_3; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x20
+	::System::Collections::Generic::List_1<::Class_2_0D31A1661D004892<::Class_2_4E304963EFC1C1E1_Class_2_18F706B5EBB56A51*>*>* Field_2_3; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x30
+	::MonoUITableScrollV2* Field_2_1; // 0x38
 	::Class_2_0D31A1661D004892<::Class_2_4E304963EFC1C1E1_Class_2_385A368C07384AA3*>* Field_2_0; // 0x40
-	::MonoUITableScrollV2* Field_2_1; // 0x48
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_4; // 0x48
 
 	::System::Void _ctor()
 	{

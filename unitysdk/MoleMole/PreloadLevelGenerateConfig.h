@@ -2,17 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
+namespace MoleMole { class PreloadManualSupplementConfig; }
 namespace MoleMole { class ShaderGenerateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x11780870)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x11780780)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11780930)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x173FB4E0)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x173FB3F0)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173FB5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 80944;
+	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 76352;
 
 	class PreloadLevelGenerateConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,6 +25,7 @@ namespace MoleMole
 		::Il2CppArray<::System::String*>* ignoreAssetPatterns; // 0x70
 		::Il2CppArray<::System::String*>* ignoreLevelPatterns; // 0x78
 		::Il2CppArray<::System::String*>* forcePreloadPrefabPaths; // 0x80
+		::System::Collections::Generic::List_1<::MoleMole::PreloadManualSupplementConfig*>* manualSupplementConfigs; // 0x88
 
 		::System::Void _ctor()
 		{

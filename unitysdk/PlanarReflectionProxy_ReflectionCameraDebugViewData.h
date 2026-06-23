@@ -5,16 +5,16 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define PLANARREFLECTIONPROXY_REFLECTIONCAMERADEBUGVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6806B0)
+#define PLANARREFLECTIONPROXY_REFLECTIONCAMERADEBUGVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85A450)
 
-inline static constexpr unsigned int PlanarReflectionProxy_ReflectionCameraDebugViewData_TypeDefinitionIndex = 29482;
+inline static constexpr unsigned int PlanarReflectionProxy_ReflectionCameraDebugViewData_TypeDefinitionIndex = 26636;
 
 class PlanarReflectionProxy_ReflectionCameraDebugViewData : public ::System::Object
 {
 public:
 	::Il2CppArray<::UnityEngine::Plane>* frustumPlanes; // 0x10
-	::UnityEngine::Vector4 clipPlaneCS; // 0x18
-	::UnityEngine::Vector4 clipPlaneWS; // 0x28
+	::UnityEngine::Vector4 clipPlaneWS; // 0x18
+	::UnityEngine::Vector4 clipPlaneCS; // 0x28
 	::UnityEngine::Vector3 centerPosition; // 0x38
 
 	::System::Void _ctor()

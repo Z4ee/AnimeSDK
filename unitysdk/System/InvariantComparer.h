@@ -4,13 +4,13 @@
 
 namespace System::Globalization { class CompareInfo; }
 
-#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AFE1210)
-#define SYSTEM_INVARIANTCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFE1300)
-#define SYSTEM_INVARIANTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE11D0)
+#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D457C80)
+#define SYSTEM_INVARIANTCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D457D70)
+#define SYSTEM_INVARIANTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D457C40)
 
 namespace System
 {
-	inline static constexpr unsigned int InvariantComparer_TypeDefinitionIndex = 2660;
+	inline static constexpr unsigned int InvariantComparer_TypeDefinitionIndex = 2659;
 
 	class InvariantComparer : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NAPShaderQuality_TypeDefinitionIndex = 5886;
+	inline static constexpr unsigned int NAPShaderQuality_TypeDefinitionIndex = 5894;
 
 	enum class NAPShaderQuality : ::System::Int32
 	{

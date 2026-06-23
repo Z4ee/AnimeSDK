@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpaceType_TypeDefinitionIndex = 9131;
+	inline static constexpr unsigned int SpaceType_TypeDefinitionIndex = 8515;
 
 	enum class SpaceType : ::System::Int32
 	{

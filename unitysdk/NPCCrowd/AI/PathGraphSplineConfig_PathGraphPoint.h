@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphSplineConfig_PathGraphPointRegionType.h"
+#include "unitysdk/NPCCrowd/AI/PathGraphSplineConfig_PathGraphPointRegionTypeMask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_PATHGRAPHSPLINECONFIG_PATHGRAPHPOINT_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x114F7750)
-#define NPCCROWD_AI_PATHGRAPHSPLINECONFIG_PATHGRAPHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x114F7800)
+#define NPCCROWD_AI_PATHGRAPHSPLINECONFIG_PATHGRAPHPOINT_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0xE004F60)
+#define NPCCROWD_AI_PATHGRAPHSPLINECONFIG_PATHGRAPHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xE005010)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphPoint_TypeDefinitionIndex = 78194;
+	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphPoint_TypeDefinitionIndex = 53542;
 
 	class PathGraphSplineConfig_PathGraphPoint : public ::System::Object
 	{
@@ -18,6 +19,7 @@ namespace NPCCrowd::AI
 		::UnityEngine::Vector3 upAxis; // 0x1C
 		::UnityEngine::Vector3 forward; // 0x28
 		::NPCCrowd::AI::PathGraphSplineConfig_PathGraphPointRegionType pathGraphPointRegionType; // 0x34
+		::NPCCrowd::AI::PathGraphSplineConfig_PathGraphPointRegionTypeMask pathGraphPointRegionTypeMask; // 0x38
 
 		::System::Void _ctor()
 		{

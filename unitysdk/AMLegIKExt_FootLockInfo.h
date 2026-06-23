@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int AMLegIKExt_FootLockInfo_TypeDefinitionIndex = 57496;
+inline static constexpr unsigned int AMLegIKExt_FootLockInfo_TypeDefinitionIndex = 52193;
 
 struct alignas(4) AMLegIKExt_FootLockInfo
 {

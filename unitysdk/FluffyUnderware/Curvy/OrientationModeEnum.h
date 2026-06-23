@@ -3,12 +3,12 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int OrientationModeEnum_TypeDefinitionIndex = 37192;
+	inline static constexpr unsigned int OrientationModeEnum_TypeDefinitionIndex = 38794;
 
 	enum class OrientationModeEnum : ::System::Int32
 	{
-		None = 0,
 		Orientation = 1,
 		Tangent = 2,
+		None = 0,
 	};
 }

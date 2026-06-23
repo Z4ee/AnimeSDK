@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_20.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_9.h"
 #include "unitysdk/System/Object.h"
 
 class Class_2_927E2D0470CF77A4;
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15112C90)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHSKINS_B__0_OFFSET UNITYSDK_OFFSET(0x15112CA0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1613BFD0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHSKINS_B__0_OFFSET UNITYSDK_OFFSET(0x1613BFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass23_0_TypeDefinitionIndex = 65527;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass23_0_TypeDefinitionIndex = 44136;
 
 	class UIPlayerAccessoryPageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::Enum_3_ED790DAC948A65A9_20 selectedSkinType; // 0x10
+		::Enum_3_ED790DAC948A65A9_9 selectedSkinType; // 0x10
 		::System::Int32 selectedSkinID; // 0x14
 
 		::System::Void _ctor()

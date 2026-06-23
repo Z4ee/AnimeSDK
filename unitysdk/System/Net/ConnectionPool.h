@@ -21,52 +21,52 @@ namespace System::Threading { class Mutex; }
 namespace System::Threading { class Thread; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_CONNECTIONPOOL_ABORT_OFFSET UNITYSDK_OFFSET(0x19BB42D0)
-#define SYSTEM_NET_CONNECTIONPOOL_ASYNCTHREAD_OFFSET UNITYSDK_OFFSET(0x19BB27A0)
-#define SYSTEM_NET_CONNECTIONPOOL_CANCELERRORCALLBACKWRAPPER_OFFSET UNITYSDK_OFFSET(0x19BB4540)
-#define SYSTEM_NET_CONNECTIONPOOL_CANCELERRORCALLBACK_OFFSET UNITYSDK_OFFSET(0x19BB45B0)
-#define SYSTEM_NET_CONNECTIONPOOL_CLEANUPCALLBACKWRAPPER_OFFSET UNITYSDK_OFFSET(0x19BB37F0)
-#define SYSTEM_NET_CONNECTIONPOOL_CLEANUPCALLBACK_OFFSET UNITYSDK_OFFSET(0x19BB3930)
-#define SYSTEM_NET_CONNECTIONPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0x19BB4050)
-#define SYSTEM_NET_CONNECTIONPOOL_DESTROY_OFFSET UNITYSDK_OFFSET(0x19BB3EE0)
-#define SYSTEM_NET_CONNECTIONPOOL_FORCECLEANUP_OFFSET UNITYSDK_OFFSET(0x19BB3D60)
-#define SYSTEM_NET_CONNECTIONPOOL_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x19BB4B20)
-#define SYSTEM_NET_CONNECTIONPOOL_GETFROMPOOL_OFFSET UNITYSDK_OFFSET(0x19BB46C0)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19BB37A0)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_CREATIONMUTEX_OFFSET UNITYSDK_OFFSET(0x19BB1F00)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_ERROREVENT_OFFSET UNITYSDK_OFFSET(0x19BB1F80)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_ERROROCCURRED_OFFSET UNITYSDK_OFFSET(0x19BB37E0)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_MAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x19BB37C0)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_MINPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x19BB37D0)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_OFFSET UNITYSDK_OFFSET(0x19BB2C40)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_SEMAPHORE_OFFSET UNITYSDK_OFFSET(0x19BB2000)
-#define SYSTEM_NET_CONNECTIONPOOL_GET_SERVICEPOINT_OFFSET UNITYSDK_OFFSET(0x19BB37B0)
-#define SYSTEM_NET_CONNECTIONPOOL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19BB2180)
-#define SYSTEM_NET_CONNECTIONPOOL_PUTCONNECTION_1_OFFSET UNITYSDK_OFFSET(0x19BB3260)
-#define SYSTEM_NET_CONNECTIONPOOL_PUTCONNECTION_OFFSET UNITYSDK_OFFSET(0x19BB4D40)
-#define SYSTEM_NET_CONNECTIONPOOL_PUTNEW_OFFSET UNITYSDK_OFFSET(0x19BB4D60)
-#define SYSTEM_NET_CONNECTIONPOOL_QUEUEREQUEST_OFFSET UNITYSDK_OFFSET(0x19BB25B0)
-#define SYSTEM_NET_CONNECTIONPOOL_RECLAIMEMANCIPATEDOBJECTS_OFFSET UNITYSDK_OFFSET(0x19BB47C0)
-#define SYSTEM_NET_CONNECTIONPOOL_USERCREATEREQUEST_OFFSET UNITYSDK_OFFSET(0x19BB4770)
-#define SYSTEM_NET_CONNECTIONPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BB4E60)
-#define SYSTEM_NET_CONNECTIONPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB2080)
+#define SYSTEM_NET_CONNECTIONPOOL_ABORT_OFFSET UNITYSDK_OFFSET(0x1C077210)
+#define SYSTEM_NET_CONNECTIONPOOL_ASYNCTHREAD_OFFSET UNITYSDK_OFFSET(0x1C0756E0)
+#define SYSTEM_NET_CONNECTIONPOOL_CANCELERRORCALLBACKWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C077480)
+#define SYSTEM_NET_CONNECTIONPOOL_CANCELERRORCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C0774F0)
+#define SYSTEM_NET_CONNECTIONPOOL_CLEANUPCALLBACKWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C076730)
+#define SYSTEM_NET_CONNECTIONPOOL_CLEANUPCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C076870)
+#define SYSTEM_NET_CONNECTIONPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C076F90)
+#define SYSTEM_NET_CONNECTIONPOOL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1C076E20)
+#define SYSTEM_NET_CONNECTIONPOOL_FORCECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C076CA0)
+#define SYSTEM_NET_CONNECTIONPOOL_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x1C077A60)
+#define SYSTEM_NET_CONNECTIONPOOL_GETFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1C077600)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C0766E0)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_CREATIONMUTEX_OFFSET UNITYSDK_OFFSET(0x1C074E40)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_ERROREVENT_OFFSET UNITYSDK_OFFSET(0x1C074EC0)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_ERROROCCURRED_OFFSET UNITYSDK_OFFSET(0x1C076720)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_MAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1C076700)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_MINPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1C076710)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1C075B80)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_SEMAPHORE_OFFSET UNITYSDK_OFFSET(0x1C074F40)
+#define SYSTEM_NET_CONNECTIONPOOL_GET_SERVICEPOINT_OFFSET UNITYSDK_OFFSET(0x1C0766F0)
+#define SYSTEM_NET_CONNECTIONPOOL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C0750C0)
+#define SYSTEM_NET_CONNECTIONPOOL_PUTCONNECTION_1_OFFSET UNITYSDK_OFFSET(0x1C0761A0)
+#define SYSTEM_NET_CONNECTIONPOOL_PUTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1C077C80)
+#define SYSTEM_NET_CONNECTIONPOOL_PUTNEW_OFFSET UNITYSDK_OFFSET(0x1C077CA0)
+#define SYSTEM_NET_CONNECTIONPOOL_QUEUEREQUEST_OFFSET UNITYSDK_OFFSET(0x1C0754F0)
+#define SYSTEM_NET_CONNECTIONPOOL_RECLAIMEMANCIPATEDOBJECTS_OFFSET UNITYSDK_OFFSET(0x1C077700)
+#define SYSTEM_NET_CONNECTIONPOOL_USERCREATEREQUEST_OFFSET UNITYSDK_OFFSET(0x1C0776B0)
+#define SYSTEM_NET_CONNECTIONPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C077DA0)
+#define SYSTEM_NET_CONNECTIONPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C074FC0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ConnectionPool_TypeDefinitionIndex = 3409;
+	inline static constexpr unsigned int ConnectionPool_TypeDefinitionIndex = 3408;
 
 	class ConnectionPool : public ::System::Object
 	{
 	public:
-		static ::System::Net::TimerThread_Callback** StaticGet_s_CancelErrorCallback()
-		{
-			return (::System::Net::TimerThread_Callback**)Il2CppClass::FromTypeDefinitionIndex(ConnectionPool_TypeDefinitionIndex)->GetStaticField(0x3A10);
-		}
 		static ::System::Net::TimerThread_Queue** StaticGet_s_CancelErrorQueue()
 		{
-			return (::System::Net::TimerThread_Queue**)Il2CppClass::FromTypeDefinitionIndex(ConnectionPool_TypeDefinitionIndex)->GetStaticField(0x3A18);
+			return (::System::Net::TimerThread_Queue**)Il2CppClass::FromTypeDefinitionIndex(ConnectionPool_TypeDefinitionIndex)->GetStaticField(0x3A10);
 		}
 		static ::System::Net::TimerThread_Callback** StaticGet_s_CleanupCallback()
+		{
+			return (::System::Net::TimerThread_Callback**)Il2CppClass::FromTypeDefinitionIndex(ConnectionPool_TypeDefinitionIndex)->GetStaticField(0x3A18);
+		}
+		static ::System::Net::TimerThread_Callback** StaticGet_s_CancelErrorCallback()
 		{
 			return (::System::Net::TimerThread_Callback**)Il2CppClass::FromTypeDefinitionIndex(ConnectionPool_TypeDefinitionIndex)->GetStaticField(0x3A20);
 		}
@@ -77,23 +77,23 @@ namespace System::Net
 		// static const ::System::Int32 WaitTimeout = 0x102; // 0x0
 		// static const ::System::Int32 WaitAbandoned = 0x80; // 0x0
 		// static const ::System::Int32 ErrorWait = 0x1388; // 0x0
-		::System::Exception* m_ResError; // 0x10
-		::System::Net::ServicePoint* m_ServicePoint; // 0x18
-		::System::Net::TimerThread_Timer* m_ErrorTimer; // 0x20
-		::System::Collections::Queue* m_QueuedRequests; // 0x28
-		::System::Collections::ArrayList* m_ObjectList; // 0x30
-		::System::Net::TimerThread_Queue* m_CleanupQueue; // 0x38
-		::System::Net::InterlockedStack* m_StackOld; // 0x40
-		::System::Net::CreateConnectionDelegate* m_CreateConnectionCallback; // 0x48
-		::System::Threading::Thread* m_AsyncThread; // 0x50
-		::Il2CppArray<::System::Threading::WaitHandle*>* m_WaitHandles; // 0x58
-		::System::Net::InterlockedStack* m_StackNew; // 0x60
-		::System::Int32 m_MinPoolSize; // 0x68
-		::System::Net::ConnectionPool_State m_State; // 0x6C
-		::System::Int32 m_MaxPoolSize; // 0x70
-		::System::Boolean m_ErrorOccured; // 0x74
-		::System::Int32 m_WaitCount; // 0x78
-		::System::Int32 m_TotalObjects; // 0x7C
+		::System::Threading::Thread* m_AsyncThread; // 0x10
+		::System::Net::CreateConnectionDelegate* m_CreateConnectionCallback; // 0x18
+		::System::Net::InterlockedStack* m_StackOld; // 0x20
+		::Il2CppArray<::System::Threading::WaitHandle*>* m_WaitHandles; // 0x28
+		::System::Net::TimerThread_Timer* m_ErrorTimer; // 0x30
+		::System::Collections::Queue* m_QueuedRequests; // 0x38
+		::System::Net::ServicePoint* m_ServicePoint; // 0x40
+		::System::Net::InterlockedStack* m_StackNew; // 0x48
+		::System::Collections::ArrayList* m_ObjectList; // 0x50
+		::System::Net::TimerThread_Queue* m_CleanupQueue; // 0x58
+		::System::Exception* m_ResError; // 0x60
+		::System::Boolean m_ErrorOccured; // 0x68
+		::System::Int32 m_MaxPoolSize; // 0x6C
+		::System::Net::ConnectionPool_State m_State; // 0x70
+		::System::Int32 m_TotalObjects; // 0x74
+		::System::Int32 m_MinPoolSize; // 0x78
+		::System::Int32 m_WaitCount; // 0x7C
 
 		::System::Void _ctor(::System::Net::ServicePoint* servicePoint, ::System::Int32 maxPoolSize, ::System::Int32 minPoolSize, ::System::Int32 idleTimeout, ::System::Net::CreateConnectionDelegate* createConnectionCallback)
 		{

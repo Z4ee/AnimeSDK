@@ -8,7 +8,7 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ICredentialPolicy_TypeDefinitionIndex = 3540;
+	inline static constexpr unsigned int ICredentialPolicy_TypeDefinitionIndex = 3539;
 
 	class ICredentialPolicy
 	{

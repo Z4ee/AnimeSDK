@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_0F138252A5783001.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+
+class Class_1_236FD73ABC492E3F;
+class Class_1_82F3A2AA7EF42225;
+class Class_1_C836D00248E6EFFE;
+class Class_2_167BB37617B940E3;
+class Class_2_828B2711AF58BA0B;
+class Class_2_EA995402651EF7A9;
+class Class_3_F41D242A20F8FE06;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_3_99C2C0F6E8F2E46E_8_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1134D8D0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1134DDB0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_0CB3D614A4DB34A1_OFFSET UNITYSDK_OFFSET(0x1134DE30)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_147377F29C401A8D_OFFSET UNITYSDK_OFFSET(0x1134E3C0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_67CC9533F8427A45_OFFSET UNITYSDK_OFFSET(0x1134CAF0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_979D2C8BE7EA3C3D_OFFSET UNITYSDK_OFFSET(0x1134E1B0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_AB36750697462AE2_OFFSET UNITYSDK_OFFSET(0x1134DC40)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_B73F62522113F21F_OFFSET UNITYSDK_OFFSET(0x1134DBF0)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_BB2B154A9AA5F82B_OFFSET UNITYSDK_OFFSET(0x1134CA50)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_BD406C281363D718_OFFSET UNITYSDK_OFFSET(0x1134D930)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x1134DD40)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_F15E7F69F5BAD374_OFFSET UNITYSDK_OFFSET(0x1134E310)
+#define CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_F59BC96F290BB1C3_OFFSET UNITYSDK_OFFSET(0x1134E3B0)
+#define CLASS_3_99C2C0F6E8F2E46E_8__CTOR_OFFSET UNITYSDK_OFFSET(0x1134E1A0)
+
+inline static constexpr unsigned int Class_3_99C2C0F6E8F2E46E_8_TypeDefinitionIndex = 63732;
+
+class Class_3_99C2C0F6E8F2E46E_8 : public ::Class_2_0F138252A5783001
+{
+public:
+	::System::Collections::Generic::List_1<::Class_1_82F3A2AA7EF42225*>* Field_3_0; // 0x20
+	::System::Boolean Field_3_1; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_C836D00248E6EFFE* Method_3_BB2B154A9AA5F82B(::Class_3_F41D242A20F8FE06* a1, ::Class_2_167BB37617B940E3* a2, ::Class_2_EA995402651EF7A9* a3)
+	{
+		return ((::Class_1_C836D00248E6EFFE*(*)(::PVOID, ::Class_3_F41D242A20F8FE06*, ::Class_2_167BB37617B940E3*, ::Class_2_EA995402651EF7A9*))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_BB2B154A9AA5F82B_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_2_828B2711AF58BA0B*>*>* Method_3_67CC9533F8427A45()
+	{
+		return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_2_828B2711AF58BA0B*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_67CC9533F8427A45_OFFSET))(this);
+	}
+
+	::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_FROMBINARY_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_B73F62522113F21F(::System::Action_1<::System::Object*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_B73F62522113F21F_OFFSET))(this, a1);
+	}
+
+	::Class_2_0F138252A5783001* Method_3_AB36750697462AE2()
+	{
+		return ((::Class_2_0F138252A5783001*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_AB36750697462AE2_OFFSET))(this);
+	}
+
+	::System::Int32 Method_3_C444D4C8B9D548AF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_C444D4C8B9D548AF_OFFSET))(this);
+	}
+
+	::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_FROMFLX_OFFSET))(this, a1);
+	}
+
+	static ::Class_3_99C2C0F6E8F2E46E_8* Method_3_979D2C8BE7EA3C3D(::FlexBuffers::FlxValue a1)
+	{
+		return ((::Class_3_99C2C0F6E8F2E46E_8*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_979D2C8BE7EA3C3D_OFFSET))(a1);
+	}
+
+	::Class_1_C836D00248E6EFFE* Method_3_F15E7F69F5BAD374(::Class_3_F41D242A20F8FE06* a1, ::Class_2_167BB37617B940E3* a2, ::Class_2_EA995402651EF7A9* a3)
+	{
+		return ((::Class_1_C836D00248E6EFFE*(*)(::PVOID, ::Class_3_F41D242A20F8FE06*, ::Class_2_167BB37617B940E3*, ::Class_2_EA995402651EF7A9*))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_F15E7F69F5BAD374_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_2_828B2711AF58BA0B*>*>* Method_3_F59BC96F290BB1C3()
+	{
+		return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_2_828B2711AF58BA0B*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_F59BC96F290BB1C3_OFFSET))(this);
+	}
+
+	static ::Class_3_99C2C0F6E8F2E46E_8* Method_3_147377F29C401A8D(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::Class_3_99C2C0F6E8F2E46E_8*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_147377F29C401A8D_OFFSET))(a1, a2);
+	}
+
+	::System::Boolean Method_3_0CB3D614A4DB34A1(::FlexBuffers::FlxMap a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_0CB3D614A4DB34A1_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_3_BD406C281363D718(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_99C2C0F6E8F2E46E_8_METHOD_3_BD406C281363D718_OFFSET))(this, a1, a2);
+	}
+};

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInLevelRoleHudSmallWidgetChildWindowController; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_UIINLEVELROLEHUDSMALLWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150E0420)
-#define MOLEMOLE_UIINLEVELROLEHUDSMALLWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS55_0__ONLOCALAVATARCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x150E0430)
+#define MOLEMOLE_UIINLEVELROLEHUDSMALLWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D81D90)
+#define MOLEMOLE_UIINLEVELROLEHUDSMALLWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS55_0__ONLOCALAVATARCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x16D81DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelRoleHudSmallWidgetChildWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 57905;
+	inline static constexpr unsigned int UIInLevelRoleHudSmallWidgetChildWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 76776;
 
 	class UIInLevelRoleHudSmallWidgetChildWindowController___c__DisplayClass55_0 : public ::System::Object
 	{

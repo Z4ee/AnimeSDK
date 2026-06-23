@@ -12,7 +12,7 @@ namespace System::Net::Http::Headers { class HttpHeaders; }
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpHeaderValueCollection_1_TypeDefinitionIndex = 24741;
+	inline static constexpr unsigned int HttpHeaderValueCollection_1_TypeDefinitionIndex = 26141;
 
 	template <typename T>
 	class HttpHeaderValueCollection_1 : public ::System::Object

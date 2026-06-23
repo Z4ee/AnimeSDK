@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NUINT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1BA1DEA0)
-#define SYSTEM_NUINT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1BA1DEB0)
-#define SYSTEM_NUINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E5940)
-#define SYSTEM_NUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE770)
+#define SYSTEM_NUINT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1DC7F1C0)
+#define SYSTEM_NUINT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1DC7F1D0)
+#define SYSTEM_NUINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define SYSTEM_NUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x971880)
 
 namespace System
 {
-	inline static constexpr unsigned int NUInt_TypeDefinitionIndex = 7554;
+	inline static constexpr unsigned int NUInt_TypeDefinitionIndex = 6564;
 
 	struct alignas(8) NUInt
 	{

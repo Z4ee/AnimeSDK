@@ -14,37 +14,37 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x125EF860)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x125EEEB0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x125EF040)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x125EF1C0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x125EF5F0)
-#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x125EF350)
-#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EE670)
-#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EE830)
-#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x125EFAC0)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EFD30)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EFDC0)
+#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x130461F0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x13045840)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x130459C0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x13045B50)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x13045F80)
+#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x13045CE0)
+#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13045000)
+#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x130451C0)
+#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13046450)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x130466C0)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13046750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 51285;
+	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 87632;
 
 	class SetTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x68
-		::MoleMole::Battle::Entity* ownerEntity; // 0x70
-		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x78
-		::Class_3_E2819F45333A39BF* characterBattleData; // 0x80
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x88
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x90
-		::System::Single modifyValue; // 0x98
-		::MoleMole::SetTargetValue_SelectTargeting Target; // 0x9C
-		::MoleMole::TargetValueType valueType; // 0xA0
-		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0xA4
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x60
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x68
+		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x70
+		::MoleMole::Battle::Entity* ownerEntity; // 0x78
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x80
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x88
+		::Class_3_E2819F45333A39BF* characterBattleData; // 0x90
+		::MoleMole::TargetValueType valueType; // 0x98
+		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0x9C
+		::System::Single modifyValue; // 0xA0
+		::MoleMole::SetTargetValue_SelectTargeting Target; // 0xA4
 
 		::System::Void _ctor()
 		{

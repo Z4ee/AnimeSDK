@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCurveCtrlMatAlphaNode_MatAlphaCtrlType_TypeDefinitionIndex = 49833;
+	inline static constexpr unsigned int ConfigCurveCtrlMatAlphaNode_MatAlphaCtrlType_TypeDefinitionIndex = 43656;
 
 	enum class ConfigCurveCtrlMatAlphaNode_MatAlphaCtrlType : ::System::Int32
 	{
-		ByRGBA = 1,
 		ByAlpha = 0,
+		ByRGBA = 1,
 	};
 }

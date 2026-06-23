@@ -5,12 +5,12 @@
 class Class_1_F3022E48190D43CB;
 namespace MoleMole::Config { class ConfigSoundAction_Delay___c__DisplayClass6_0; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAY___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9B780)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAY___C__DISPLAYCLASS6_1__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x16A9B790)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAY___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x158B49B0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAY___C__DISPLAYCLASS6_1__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x158B49C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_Delay___c__DisplayClass6_1_TypeDefinitionIndex = 67072;
+	inline static constexpr unsigned int ConfigSoundAction_Delay___c__DisplayClass6_1_TypeDefinitionIndex = 66333;
 
 	class ConfigSoundAction_Delay___c__DisplayClass6_1 : public ::System::Object
 	{

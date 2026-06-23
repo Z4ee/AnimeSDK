@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12317EF0)
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12317F00)
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x123180E0)
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12318280)
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12318240)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D63AC0)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D63AD0)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D63CB0)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D63E50)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL_CONFIGVENTCRAWL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D63E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigVentCrawl_ConfigVentCrawl_UnityGeneratedFormatter_TypeDefinitionIndex = 74151;
+	inline static constexpr unsigned int ConfigVentCrawl_ConfigVentCrawl_UnityGeneratedFormatter_TypeDefinitionIndex = 81468;
 
 	class ConfigVentCrawl_ConfigVentCrawl_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigVentCrawl*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigVentCrawl_ConfigVentCrawl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C440);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigVentCrawl_ConfigVentCrawl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E9C0);
 		}
 
 		::System::Void _ctor()

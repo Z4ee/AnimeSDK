@@ -9,22 +9,22 @@ namespace MoleMole { class NotificationBadgeEx; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_FED0FED12E06D996_METHOD_2_5B900C0AEB2813BC_OFFSET UNITYSDK_OFFSET(0x11DB39E0)
-#define CLASS_2_FED0FED12E06D996_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x11DB3BD0)
-#define CLASS_2_FED0FED12E06D996_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11DB3CD0)
-#define CLASS_2_FED0FED12E06D996__CTOR_OFFSET UNITYSDK_OFFSET(0x11DB3CC0)
+#define CLASS_2_FED0FED12E06D996_METHOD_2_5B900C0AEB2813BC_OFFSET UNITYSDK_OFFSET(0x1081C9C0)
+#define CLASS_2_FED0FED12E06D996_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x1081CBB0)
+#define CLASS_2_FED0FED12E06D996_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1081CCB0)
+#define CLASS_2_FED0FED12E06D996__CTOR_OFFSET UNITYSDK_OFFSET(0x1081CCA0)
 
-inline static constexpr unsigned int Class_2_FED0FED12E06D996_TypeDefinitionIndex = 42624;
+inline static constexpr unsigned int Class_2_FED0FED12E06D996_TypeDefinitionIndex = 81875;
 
 class Class_2_FED0FED12E06D996 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x18
 	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
-	::MoleMole::NotificationBadgeEx* Field_2_4; // 0x30
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x38
-	::UnityEngine::Transform* Field_2_5; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x30
+	::UnityEngine::Transform* Field_2_5; // 0x38
+	::MoleMole::NotificationBadgeEx* Field_2_4; // 0x40
 
 	::System::Void _ctor()
 	{
@@ -36,13 +36,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_FED0FED12E06D996_METHOD_2_5B900C0AEB2813BC_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_FED0FED12E06D996_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_2_737220D2233A9067()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FED0FED12E06D996_METHOD_2_737220D2233A9067_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_FED0FED12E06D996_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

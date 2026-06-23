@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_ElementCount_TypeDefinitionIndex = 3986;
+	inline static constexpr unsigned int SortedSet_1_ElementCount_TypeDefinitionIndex = 3985;
 
 	template <typename T>
 	struct SortedSet_1_ElementCount

@@ -6,19 +6,19 @@ class Class_1_D12E4BF61CBE42EF;
 class Class_2_222A145CFB71510C;
 namespace MoleMole { class UIBPPurchaseDialogPopWindowController; }
 
-#define MOLEMOLE_UIBPPURCHASEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E60670)
-#define MOLEMOLE_UIBPPURCHASEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS24_0__SHOWADVANCEPURCHASEBPSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x17E60680)
+#define MOLEMOLE_UIBPPURCHASEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18673E30)
+#define MOLEMOLE_UIBPPURCHASEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS24_0__SHOWADVANCEPURCHASEBPSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x18673E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBPPurchaseDialogPopWindowController___c__DisplayClass24_0_TypeDefinitionIndex = 46367;
+	inline static constexpr unsigned int UIBPPurchaseDialogPopWindowController___c__DisplayClass24_0_TypeDefinitionIndex = 75039;
 
 	class UIBPPurchaseDialogPopWindowController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D12E4BF61CBE42EF* improveItem; // 0x10
-		::MoleMole::UIBPPurchaseDialogPopWindowController* __4__this; // 0x18
-		::Class_2_222A145CFB71510C* battlePassModel; // 0x20
+		::Class_2_222A145CFB71510C* battlePassModel; // 0x10
+		::Class_1_D12E4BF61CBE42EF* improveItem; // 0x18
+		::MoleMole::UIBPPurchaseDialogPopWindowController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

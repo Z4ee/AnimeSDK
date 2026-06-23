@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IWebProxyFinder_TypeDefinitionIndex = 3290;
+	inline static constexpr unsigned int IWebProxyFinder_TypeDefinitionIndex = 3289;
 
 	class IWebProxyFinder
 	{

@@ -5,11 +5,11 @@
 namespace MoleMole { class MonsterMappingEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONSTERMAPPINGCONFIG_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1177F1F0)
+#define MOLEMOLE_MONSTERMAPPINGCONFIG_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173F9620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterMappingConfig_KeyValueInfo_TypeDefinitionIndex = 73265;
+	inline static constexpr unsigned int MonsterMappingConfig_KeyValueInfo_TypeDefinitionIndex = 81741;
 
 	class MonsterMappingConfig_KeyValueInfo : public ::System::Object
 	{

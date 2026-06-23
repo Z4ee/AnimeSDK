@@ -4,12 +4,12 @@
 
 namespace FluffyUnderware::Curvy { class CurvyConnection; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION_UNDOFIXER_FIXISSUESINTRODUCEDBYUNDOING_OFFSET UNITYSDK_OFFSET(0x1C0BADD0)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION_UNDOFIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B71B0)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION_UNDOFIXER_FIXISSUESINTRODUCEDBYUNDOING_OFFSET UNITYSDK_OFFSET(0x1E3B7C30)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION_UNDOFIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B3FF0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyConnection_UndoFixer_TypeDefinitionIndex = 37207;
+	inline static constexpr unsigned int CurvyConnection_UndoFixer_TypeDefinitionIndex = 38798;
 
 	class CurvyConnection_UndoFixer : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEqualsFunc_1_TypeDefinitionIndex = 9088;
+	inline static constexpr unsigned int IEqualsFunc_1_TypeDefinitionIndex = 8459;
 
 	template <typename T>
 	class IEqualsFunc_1

@@ -3,21 +3,21 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcStringValueType_TypeDefinitionIndex = 70054;
+	inline static constexpr unsigned int HackerGameNpcStringValueType_TypeDefinitionIndex = 62932;
 
 	enum class HackerGameNpcStringValueType : ::System::Int32
 	{
-		OnFeverDamagedEffectKey = 6,
-		OnDamagedCameraShakeKey = 7,
 		OnFeverDeathBodyEffectKey = 9,
-		EntityTag = 11,
 		OnDeathEvent = 2,
-		OnDamagedEffectKey = 5,
-		OnDamagedEvent = 1,
-		OnCreatedEvent = 4,
-		OnBeforeMoveEvent = 3,
+		OnFeverDamagedEffectKey = 6,
 		None = 0,
 		OnEscapeEffectKey = 10,
 		OnDeathBodyEffectKey = 8,
+		EntityTag = 11,
+		OnDamagedEffectKey = 5,
+		OnCreatedEvent = 4,
+		OnDamagedCameraShakeKey = 7,
+		OnBeforeMoveEvent = 3,
+		OnDamagedEvent = 1,
 	};
 }

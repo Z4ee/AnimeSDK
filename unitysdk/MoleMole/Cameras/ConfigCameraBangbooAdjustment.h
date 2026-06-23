@@ -6,11 +6,11 @@ namespace MoleMole::Cameras { class BangbooCameraEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CAMERAS_CONFIGCAMERABANGBOOADJUSTMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12D12550)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERABANGBOOADJUSTMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B0CCE0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ConfigCameraBangbooAdjustment_TypeDefinitionIndex = 49519;
+	inline static constexpr unsigned int ConfigCameraBangbooAdjustment_TypeDefinitionIndex = 51957;
 
 	class ConfigCameraBangbooAdjustment : public ::Foundation::MihoyoSerializedScriptableObject
 	{

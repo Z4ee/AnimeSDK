@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ISoundActionTriggerCondition; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGVOICETOEVENT_VOICEUSAGECONDITIONEDRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B568F0)
+#define MOLEMOLE_CONFIGVOICETOEVENT_VOICEUSAGECONDITIONEDRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E49A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigVoiceToEvent_VoiceUsageConditionedRule_TypeDefinitionIndex = 54467;
+	inline static constexpr unsigned int ConfigVoiceToEvent_VoiceUsageConditionedRule_TypeDefinitionIndex = 71241;
 
 	class ConfigVoiceToEvent_VoiceUsageConditionedRule : public ::System::Object
 	{

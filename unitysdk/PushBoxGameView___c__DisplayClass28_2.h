@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_2_TypeDefinitionIndex = 64653;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_2_TypeDefinitionIndex = 42718;
 
 struct alignas(4) PushBoxGameView___c__DisplayClass28_2
 {

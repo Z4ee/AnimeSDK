@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphOwner___c__DisplayClass95_0_1_TypeDefinitionIndex = 27875;
+	inline static constexpr unsigned int GraphOwner___c__DisplayClass95_0_1_TypeDefinitionIndex = 30870;
 
 	template <typename T>
 	class GraphOwner___c__DisplayClass95_0_1 : public ::System::Object

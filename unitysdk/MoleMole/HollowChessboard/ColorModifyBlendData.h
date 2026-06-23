@@ -9,7 +9,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ColorModifyBlendData_TypeDefinitionIndex = 51677;
+	inline static constexpr unsigned int ColorModifyBlendData_TypeDefinitionIndex = 53186;
 
 	struct alignas(8) ColorModifyBlendData
 	{

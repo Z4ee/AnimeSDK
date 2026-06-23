@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int DVASPECT_TypeDefinitionIndex = 3128;
+	inline static constexpr unsigned int DVASPECT_TypeDefinitionIndex = 3127;
 
 	enum class DVASPECT : ::System::Int32
 	{

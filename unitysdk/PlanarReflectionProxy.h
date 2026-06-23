@@ -11,34 +11,66 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define PLANARREFLECTIONPROXY_GET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x19F230A0)
-#define PLANARREFLECTIONPROXY_ISPRNEEDDISABLEDFORSCENE_OFFSET UNITYSDK_OFFSET(0x19F22230)
-#define PLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19F22900)
-#define PLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x19F229A0)
-#define PLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19F21F40)
-#define PLANARREFLECTIONPROXY_PREPAREDEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x19F22D70)
-#define PLANARREFLECTIONPROXY_SET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x19F230B0)
-#define PLANARREFLECTIONPROXY_UPDATESSPRFORCEDISABLESCENE_OFFSET UNITYSDK_OFFSET(0x19F22610)
-#define PLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x19F230C0)
+#define PLANARREFLECTIONPROXY_GET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13EA20)
+#define PLANARREFLECTIONPROXY_ISPRNEEDDISABLEDFORSCENE_OFFSET UNITYSDK_OFFSET(0x1C13DB80)
+#define PLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C13E250)
+#define PLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1C13E2F0)
+#define PLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C13D740)
+#define PLANARREFLECTIONPROXY_PREPAREDEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13E6D0)
+#define PLANARREFLECTIONPROXY_SET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13EA30)
+#define PLANARREFLECTIONPROXY_SYNCCULLINGPARAMS_OFFSET UNITYSDK_OFFSET(0x1C13DAD0)
+#define PLANARREFLECTIONPROXY_UPDATESSPRFORCEDISABLESCENE_OFFSET UNITYSDK_OFFSET(0x1C13DF60)
+#define PLANARREFLECTIONPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C13EC10)
+#define PLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13EA40)
 
-inline static constexpr unsigned int PlanarReflectionProxy_TypeDefinitionIndex = 29481;
+inline static constexpr unsigned int PlanarReflectionProxy_TypeDefinitionIndex = 26635;
 
 class PlanarReflectionProxy : public ::UnityEngine::NAPRenderPipeline0::PlanarReflectionProxy_NativeSRP
 {
 public:
+	static ::System::Single* StaticGet_s_ScreenCullingRadiosForMiddle()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F0);
+	}
+	static ::UnityEngine::LayerMask* StaticGet_s_ScreenCullingRadiosForMiddleLayer()
+	{
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F4);
+	}
+	static ::System::Int32* StaticGet_s_MaxVisibleLightCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F8);
+	}
+	static ::UnityEngine::LayerMask* StaticGet_s_ScreenCullingRadiosForSmallLayer()
+	{
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73FC);
+	}
+	static ::System::Single* StaticGet_s_ScreenCullingRadiosForSmall()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x7400);
+	}
 	::System::Boolean _ignoreSmallStepDown; // 0x50
 	::System::Boolean smoothFollowCharacter; // 0x51
 	::UnityEngine::LayerMask disabledLayer; // 0x54
 	::UnityEngine::NAPRenderPipeline0::ECameraRenderPassMask m_RenderPassMask; // 0x58
-	::System::Boolean isPerformanceSensitiveSceneOnCurrentDevice; // 0x5C
-	::System::Boolean drawProxyCameraPosition; // 0x5D
-	::System::Boolean drawReflectionPlane; // 0x5E
-	::Il2CppArray<::UnityEngine::Color>* frustumPlanes; // 0x60
-	::PlanarReflectionProxy_ReflectionCameraDebugViewData* _DebugViewData_k__BackingField; // 0x68
+	::UnityEngine::LayerMask screenCullingRadiosForSmallLayer; // 0x5C
+	::System::Single screenCullingRadiosForSmall; // 0x60
+	::UnityEngine::LayerMask screenCullingRadiosForMiddleLayer; // 0x64
+	::System::Single screenCullingRadiosForMiddle; // 0x68
+	::System::Int32 maxVisibleLightCount; // 0x6C
+	::System::Boolean isPerformanceSensitiveSceneOnCurrentDevice; // 0x70
+	::System::Boolean drawProxyCameraPosition; // 0x71
+	::System::Boolean drawReflectionPlane; // 0x72
+	::Il2CppArray<::UnityEngine::Color>* frustumPlanes; // 0x78
+	::PlanarReflectionProxy_ReflectionCameraDebugViewData* _DebugViewData_k__BackingField; // 0x80
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANARREFLECTIONPROXY__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PLANARREFLECTIONPROXY__CCTOR_OFFSET))();
 	}
 
 	::System::Void OnEnable()
@@ -49,6 +81,11 @@ public:
 	::System::Void OnDisable()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANARREFLECTIONPROXY_ONDISABLE_OFFSET))(this);
+	}
+
+	::System::Void SyncCullingParams()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANARREFLECTIONPROXY_SYNCCULLINGPARAMS_OFFSET))(this);
 	}
 
 	::System::Boolean IsPRNeedDisabledForScene(::System::String* sceneName, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpSetting)

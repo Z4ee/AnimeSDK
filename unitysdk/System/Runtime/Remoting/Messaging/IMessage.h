@@ -5,7 +5,7 @@ namespace System::Collections { class IDictionary; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 1349;
+	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 1348;
 
 	class IMessage
 	{

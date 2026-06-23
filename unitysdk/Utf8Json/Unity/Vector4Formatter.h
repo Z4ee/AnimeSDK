@@ -8,19 +8,19 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json::Internal { class AutomataDictionary; }
 
-#define UTF8JSON_UNITY_VECTOR4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C4BAC10)
-#define UTF8JSON_UNITY_VECTOR4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C4BA830)
-#define UTF8JSON_UNITY_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BA470)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7EFC80)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7EF8A0)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EF4E0)
 
 namespace Utf8Json::Unity
 {
-	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 85523;
+	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 91097;
 
 	class Vector4Formatter : public ::System::Object
 	{
 	public:
-		::Utf8Json::Internal::AutomataDictionary* ____keyMapping; // 0x10
-		::Il2CppArray<::Il2CppArray<::System::Byte>*>* ____stringByteKeys; // 0x18
+		::Il2CppArray<::Il2CppArray<::System::Byte>*>* ____stringByteKeys; // 0x10
+		::Utf8Json::Internal::AutomataDictionary* ____keyMapping; // 0x18
 
 		::System::Void _ctor()
 		{

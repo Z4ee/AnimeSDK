@@ -5,12 +5,12 @@
 namespace RichTap::Common { class HapticDataManager; }
 namespace RichTap::Common { class HapticDataModel; }
 
-#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAAFB70)
-#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DISPLAYCLASS5_0__DECIDEREALPLAYBACK_B__1_OFFSET UNITYSDK_OFFSET(0x1BAB0720)
+#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE13A90)
+#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DISPLAYCLASS5_0__DECIDEREALPLAYBACK_B__1_OFFSET UNITYSDK_OFFSET(0x1DE14640)
 
 namespace RichTap::Common
 {
-	inline static constexpr unsigned int HapticDataManager___c__DisplayClass5_0_TypeDefinitionIndex = 36493;
+	inline static constexpr unsigned int HapticDataManager___c__DisplayClass5_0_TypeDefinitionIndex = 38101;
 
 	class HapticDataManager___c__DisplayClass5_0 : public ::System::Object
 	{

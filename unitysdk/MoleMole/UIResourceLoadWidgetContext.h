@@ -6,22 +6,22 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x154E7E10)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x154E7E30)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x154E7E20)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x154E7E40)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x154E7E50)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x178EC5D0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x178EC5F0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x178EC5E0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x178EC600)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178EC610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIResourceLoadWidgetContext_TypeDefinitionIndex = 58143;
+	inline static constexpr unsigned int UIResourceLoadWidgetContext_TypeDefinitionIndex = 54153;
 
 	class UIResourceLoadWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::ValueTuple_2<::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>*> packagesInfo; // 0x28
-		::System::Boolean _IsPackageDownload_k__BackingField; // 0x38
-		::System::Boolean _IsFullDownload_k__BackingField; // 0x39
+		::System::Boolean _IsFullDownload_k__BackingField; // 0x38
+		::System::Boolean _IsPackageDownload_k__BackingField; // 0x39
 
 		::System::Void _ctor()
 		{

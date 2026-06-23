@@ -5,7 +5,7 @@
 #include "unitysdk/Cysharp/Threading/Tasks/YieldAwaitable_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_2;
+class Class_0_16E4307DCC419505_33;
 class Class_3_3EC97B498E0B85D2;
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
 namespace Foundation::ViewObject { class GroupVariableHelper; }
@@ -13,21 +13,21 @@ namespace Foundation::ViewObject { class GroupVariableHelper___c__DisplayClass15
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PUSH_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x779B60)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PUSH_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PUSH_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x803B20)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PUSH_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper__Push_d__15_TypeDefinitionIndex = 46024;
+	inline static constexpr unsigned int GroupVariableHelper__Push_d__15_TypeDefinitionIndex = 80456;
 
 	struct alignas(8) GroupVariableHelper__Push_d__15
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
-		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
-		::Class_3_3EC97B498E0B85D2* reason; // 0x38
-		::Foundation::ViewObject::GroupVariableHelper___c__DisplayClass15_0* __8__1; // 0x40
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_2*>*>* resultTcs; // 0x48
+		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x18
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_33*>*>* resultTcs; // 0x28
+		::Foundation::ViewObject::GroupVariableHelper___c__DisplayClass15_0* __8__1; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
+		::Class_3_3EC97B498E0B85D2* reason; // 0x48
 		::System::Int32 __1__state; // 0x50
 		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x54
 

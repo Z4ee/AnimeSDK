@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int MiscHelpers_TypeDefinitionIndex = 29402;
+	inline static constexpr unsigned int MiscHelpers_TypeDefinitionIndex = 32058;
 
 	class MiscHelpers : public ::System::Object
 	{

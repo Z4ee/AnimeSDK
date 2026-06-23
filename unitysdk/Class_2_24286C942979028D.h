@@ -12,28 +12,28 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_24286C942979028D_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xB4E5A00)
-#define CLASS_2_24286C942979028D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xB4E5B00)
-#define CLASS_2_24286C942979028D_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0xB4E5750)
-#define CLASS_2_24286C942979028D__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E5AF0)
+#define CLASS_2_24286C942979028D_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x17A7D360)
+#define CLASS_2_24286C942979028D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x17A7D460)
+#define CLASS_2_24286C942979028D_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x17A7D0B0)
+#define CLASS_2_24286C942979028D__CTOR_OFFSET UNITYSDK_OFFSET(0x17A7D450)
 
-inline static constexpr unsigned int Class_2_24286C942979028D_TypeDefinitionIndex = 50586;
+inline static constexpr unsigned int Class_2_24286C942979028D_TypeDefinitionIndex = 47245;
 
 class Class_2_24286C942979028D : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x18
-	::UnityEngine::GameObject* Field_2_5; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x28
-	::Class_2_FDFE69FE7B72463B* Field_2_8; // 0x30
-	::UnityEngine::GameObject* Field_2_6; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x20
+	::MoleMole::MonoGamepadModule* Field_2_7; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x30
+	::Class_2_FDFE69FE7B72463B* Field_2_8; // 0x38
 	::UnityEngine::RectTransform* Field_2_11; // 0x40
-	::UnityEngine::GameObject* Field_2_4; // 0x48
-	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x58
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x60
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x68
-	::MoleMole::MonoGamepadModule* Field_2_7; // 0x70
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x50
+	::UnityEngine::GameObject* Field_2_6; // 0x58
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x60
+	::UnityEngine::GameObject* Field_2_4; // 0x68
+	::UnityEngine::GameObject* Field_2_5; // 0x70
 
 	::System::Void _ctor()
 	{

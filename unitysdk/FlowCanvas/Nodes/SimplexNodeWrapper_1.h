@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SimplexNodeWrapper_1_TypeDefinitionIndex = 27827;
+	inline static constexpr unsigned int SimplexNodeWrapper_1_TypeDefinitionIndex = 30311;
 
 	template <typename T>
 	class SimplexNodeWrapper_1 : public ::FlowCanvas::Nodes::SimplexNodeWrapper

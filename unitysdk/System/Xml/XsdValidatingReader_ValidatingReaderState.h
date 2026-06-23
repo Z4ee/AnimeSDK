@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XsdValidatingReader_ValidatingReaderState_TypeDefinitionIndex = 1749;
+	inline static constexpr unsigned int XsdValidatingReader_ValidatingReaderState_TypeDefinitionIndex = 1748;
 
 	enum class XsdValidatingReader_ValidatingReaderState : ::System::Int32
 	{

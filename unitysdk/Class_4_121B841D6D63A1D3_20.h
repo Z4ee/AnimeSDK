@@ -1,66 +1,74 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_9C33AF57B038AFD8.h"
-#include "unitysdk/Class_4_121B841D6D63A1D3_20_Struct_2_52AD02145F5FCE3A_27.h"
+#include "unitysdk/Class_3_9201EB3268983C13.h"
+#include "unitysdk/Class_4_121B841D6D63A1D3_20_Struct_2_52AD02145F5FCE36_35.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/SampleCountLevel.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-namespace MoleMole::Timeline { class CausticsBehaviour; }
+namespace MoleMole::Timeline { class AmplifyOcclusionBehaviour; }
 namespace System { class Object; }
-namespace UnityEngine { class Texture; }
-namespace UnityEngine::Rendering::Universal { class Caustics; }
+namespace UnityEngine::Rendering::Universal { class AmplifyOcclusion; }
 
-#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x17A00510)
-#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_71FCF7896B017C4C_OFFSET UNITYSDK_OFFSET(0x179FE6C0)
-#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x17A004F0)
-#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x179FE110)
-#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x17A00500)
-#define CLASS_4_121B841D6D63A1D3_20_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x179FE4F0)
-#define CLASS_4_121B841D6D63A1D3_20_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x179FF7C0)
-#define CLASS_4_121B841D6D63A1D3_20__CTOR_OFFSET UNITYSDK_OFFSET(0x17A00490)
+#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x163D7150)
+#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_3E06E2491B129B22_OFFSET UNITYSDK_OFFSET(0x163D42C0)
+#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_6020519A7F0B2328_OFFSET UNITYSDK_OFFSET(0x163D47B0)
+#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x163D7130)
+#define CLASS_4_121B841D6D63A1D3_20_METHOD_4_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x163D7140)
+#define CLASS_4_121B841D6D63A1D3_20_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x163D4560)
+#define CLASS_4_121B841D6D63A1D3_20_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x163D6150)
+#define CLASS_4_121B841D6D63A1D3_20__CTOR_OFFSET UNITYSDK_OFFSET(0x163D70B0)
 
-inline static constexpr unsigned int Class_4_121B841D6D63A1D3_20_TypeDefinitionIndex = 78527;
+inline static constexpr unsigned int Class_4_121B841D6D63A1D3_20_TypeDefinitionIndex = 76986;
 
-class Class_4_121B841D6D63A1D3_20 : public ::Class_3_9C33AF57B038AFD8<::UnityEngine::Rendering::Universal::Caustics*, ::MoleMole::Timeline::CausticsBehaviour*>
+class Class_4_121B841D6D63A1D3_20 : public ::Class_3_9201EB3268983C13<::UnityEngine::Rendering::Universal::AmplifyOcclusion*, ::MoleMole::Timeline::AmplifyOcclusionBehaviour*>
 {
 public:
-	::Class_4_121B841D6D63A1D3_20_Struct_2_52AD02145F5FCE3A_27 Field_4_0; // 0x38
-	::UnityEngine::Texture* Field_4_24; // 0xA8
-	::UnityEngine::Color Field_4_20; // 0xB0
-	::System::Boolean Field_4_5; // 0xC0
-	::System::Boolean Field_4_17; // 0xC1
-	::System::Boolean Field_4_26; // 0xC2
-	::System::Boolean Field_4_13; // 0xC3
-	::System::Single Field_4_12; // 0xC4
-	::System::Boolean Field_4_2; // 0xC8
-	::System::Boolean Field_4_21; // 0xC9
-	::System::Boolean Field_4_9; // 0xCA
-	::System::Boolean Field_4_11; // 0xCB
-	::System::Single Field_4_8; // 0xCC
-	::System::Single Field_4_22; // 0xD0
-	::System::Single Field_4_4; // 0xD4
-	::System::Boolean Field_4_23; // 0xD8
-	::System::Boolean Field_4_7; // 0xD9
-	::System::Boolean Field_4_15; // 0xDA
-	::System::Boolean Field_4_3; // 0xDB
-	::System::Single Field_4_10; // 0xDC
-	::System::Single Field_4_6; // 0xE0
-	::System::Boolean Field_4_1; // 0xE4
-	::System::Boolean Field_4_19; // 0xE5
-	::System::Boolean Field_4_25; // 0xE6
-	::System::Single Field_4_16; // 0xE8
-	::System::Single Field_4_14; // 0xEC
-	::System::Single Field_4_18; // 0xF0
+	::System::Single Field_4_16; // 0x38
+	::System::Single Field_4_4; // 0x3C
+	::System::Int32 Field_4_28; // 0x40
+	::System::Boolean Field_4_33; // 0x44
+	::System::Boolean Field_4_9; // 0x45
+	::System::Boolean Field_4_17; // 0x46
+	::System::Boolean Field_4_34; // 0x47
+	::System::Boolean Field_4_7; // 0x48
+	::System::Boolean Field_4_29; // 0x49
+	::System::Boolean Field_4_13; // 0x4A
+	::System::Boolean Field_4_15; // 0x4B
+	::System::Single Field_4_12; // 0x4C
+	::System::Single Field_4_8; // 0x50
+	::System::Boolean Field_4_22; // 0x54
+	::System::Boolean Field_4_3; // 0x55
+	::System::Boolean Field_4_27; // 0x56
+	::System::Boolean Field_4_11; // 0x57
+	::System::Boolean Field_4_20; // 0x58
+	::System::Boolean Field_4_1; // 0x59
+	::System::Boolean Field_4_32; // 0x5A
+	::System::Boolean Field_4_25; // 0x5B
+	::UnityEngine::Color Field_4_10; // 0x5C
+	::System::Single Field_4_18; // 0x6C
+	::System::Int32 Field_4_26; // 0x70
+	::System::Single Field_4_2; // 0x74
+	::System::Boolean Field_4_5; // 0x78
+	::System::Boolean Field_4_23; // 0x79
+	::System::Boolean Field_4_21; // 0x7A
+	::System::Boolean Field_4_24; // 0x7B
+	::System::Single Field_4_14; // 0x7C
+	::Class_4_121B841D6D63A1D3_20_Struct_2_52AD02145F5FCE36_35 Field_4_0; // 0x80
+	::UnityEngine::NAPRenderPipeline0::SampleCountLevel Field_4_6; // 0xFC
+	::System::Boolean Field_4_31; // 0x100
+	::System::Boolean Field_4_19; // 0x101
+	::System::Single Field_4_30; // 0x104
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_4_B247C6D88E785B91()
+	::System::Void Method_4_3E06E2491B129B22()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20_METHOD_4_B247C6D88E785B91_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20_METHOD_4_3E06E2491B129B22_OFFSET))(this);
 	}
 
 	::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
@@ -73,9 +81,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_4_71FCF7896B017C4C(::System::Boolean a1)
+	::System::Void Method_4_6020519A7F0B2328(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20_METHOD_4_71FCF7896B017C4C_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_20_METHOD_4_6020519A7F0B2328_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_4_832295EC279E5994()

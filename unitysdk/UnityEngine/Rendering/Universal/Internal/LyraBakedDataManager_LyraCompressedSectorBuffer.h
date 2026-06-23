@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_LyraCompressedSectorBuffer_TypeDefinitionIndex = 30458;
+	inline static constexpr unsigned int LyraBakedDataManager_LyraCompressedSectorBuffer_TypeDefinitionIndex = 27335;
 
 	struct alignas(8) LyraBakedDataManager_LyraCompressedSectorBuffer
 	{

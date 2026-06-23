@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfExtraEffect_TypeDefinitionIndex = 66263;
+	inline static constexpr unsigned int ConfigSurfExtraEffect_TypeDefinitionIndex = 41186;
 
 	struct alignas(4) ConfigSurfExtraEffect
 	{

@@ -3,7 +3,7 @@
 
 namespace MeshDecimator
 {
-	inline static constexpr unsigned int Algorithm_TypeDefinitionIndex = 33253;
+	inline static constexpr unsigned int Algorithm_TypeDefinitionIndex = 34816;
 
 	enum class Algorithm : ::System::Int32
 	{

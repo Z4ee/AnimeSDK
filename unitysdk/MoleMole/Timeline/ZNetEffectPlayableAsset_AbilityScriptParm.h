@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigPosRot; }
 namespace MoleMole::Config { class EffectAutoDynamicValue; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ABILITYSCRIPTPARM__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECAAE0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ABILITYSCRIPTPARM__CTOR_OFFSET UNITYSDK_OFFSET(0x12669B30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_AbilityScriptParm_TypeDefinitionIndex = 79665;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_AbilityScriptParm_TypeDefinitionIndex = 44688;
 
 	class ZNetEffectPlayableAsset_AbilityScriptParm : public ::System::Object
 	{

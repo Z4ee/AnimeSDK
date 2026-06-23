@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions_TypeDefinitionIndex = 6400;
+	inline static constexpr unsigned int LinqExtensions_TypeDefinitionIndex = 6445;
 
 	class LinqExtensions : public ::System::Object
 	{

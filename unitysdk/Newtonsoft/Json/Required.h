@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int Required_TypeDefinitionIndex = 6894;
+	inline static constexpr unsigned int Required_TypeDefinitionIndex = 7025;
 
 	enum class Required : ::System::Int32
 	{

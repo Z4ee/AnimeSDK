@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_ONSTATEUPDATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020860)
+#define SIRENIX_ODININSPECTOR_ONSTATEUPDATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329B60)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int OnStateUpdateAttribute_TypeDefinitionIndex = 7205;
+	inline static constexpr unsigned int OnStateUpdateAttribute_TypeDefinitionIndex = 7336;
 
 	class OnStateUpdateAttribute : public ::System::Attribute
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int StackDebugView_1_TypeDefinitionIndex = 3998;
+	inline static constexpr unsigned int StackDebugView_1_TypeDefinitionIndex = 3997;
 
 	template <typename T>
 	class StackDebugView_1 : public ::System::Object

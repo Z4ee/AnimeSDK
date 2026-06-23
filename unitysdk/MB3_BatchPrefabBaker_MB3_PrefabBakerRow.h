@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MB3_BATCHPREFABBAKER_MB3_PREFABBAKERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AFE10)
+#define MB3_BATCHPREFABBAKER_MB3_PREFABBAKERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D953490)
 
-inline static constexpr unsigned int MB3_BatchPrefabBaker_MB3_PrefabBakerRow_TypeDefinitionIndex = 84962;
+inline static constexpr unsigned int MB3_BatchPrefabBaker_MB3_PrefabBakerRow_TypeDefinitionIndex = 90536;
 
 class MB3_BatchPrefabBaker_MB3_PrefabBakerRow : public ::System::Object
 {

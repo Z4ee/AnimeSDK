@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x17D39130)
+#define MOLEMOLE_CONFIGVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07FC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigVideo_TypeDefinitionIndex = 44607;
+	inline static constexpr unsigned int ConfigVideo_TypeDefinitionIndex = 52477;
 
 	class ConfigVideo : public ::System::Object
 	{

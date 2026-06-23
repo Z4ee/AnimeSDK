@@ -3,7 +3,7 @@
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Axis_AxisType_TypeDefinitionIndex = 1641;
+	inline static constexpr unsigned int Axis_AxisType_TypeDefinitionIndex = 1640;
 
 	enum class Axis_AxisType : ::System::Int32
 	{

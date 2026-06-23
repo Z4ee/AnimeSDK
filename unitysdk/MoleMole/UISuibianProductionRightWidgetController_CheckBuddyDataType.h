@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController_CheckBuddyDataType_TypeDefinitionIndex = 62881;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController_CheckBuddyDataType_TypeDefinitionIndex = 72762;
 
 	enum class UISuibianProductionRightWidgetController_CheckBuddyDataType : ::System::Int32
 	{
-		Sale = 2,
 		Product = 1,
-		None = 0,
 		Expedition = 3,
+		Sale = 2,
+		None = 0,
 	};
 }

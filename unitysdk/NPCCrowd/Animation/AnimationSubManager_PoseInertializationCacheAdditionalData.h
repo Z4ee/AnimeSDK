@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_PoseInertializationCacheAdditionalData_TypeDefinitionIndex = 70517;
+	inline static constexpr unsigned int AnimationSubManager_PoseInertializationCacheAdditionalData_TypeDefinitionIndex = 57386;
 
 	struct alignas(4) AnimationSubManager_PoseInertializationCacheAdditionalData
 	{

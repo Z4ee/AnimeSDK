@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_DEVICESETTINGPREDICATEBASE_PREDICATE_OFFSET UNITYSDK_OFFSET(0x15A07E00)
-#define MOLEMOLE_DEVICESETTINGPREDICATEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15A07E50)
+#define MOLEMOLE_DEVICESETTINGPREDICATEBASE_PREDICATE_OFFSET UNITYSDK_OFFSET(0x190D4B90)
+#define MOLEMOLE_DEVICESETTINGPREDICATEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x190D4BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DeviceSettingPredicateBase_TypeDefinitionIndex = 70169;
+	inline static constexpr unsigned int DeviceSettingPredicateBase_TypeDefinitionIndex = 80416;
 
 	class DeviceSettingPredicateBase : public ::System::Object
 	{

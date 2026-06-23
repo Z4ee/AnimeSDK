@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Octree
 {
-	inline static constexpr unsigned int BoundsOctree_1_Node_TypeDefinitionIndex = 80036;
+	inline static constexpr unsigned int BoundsOctree_1_Node_TypeDefinitionIndex = 75696;
 
 	template <typename T>
 	class BoundsOctree_1_Node : public ::System::Object

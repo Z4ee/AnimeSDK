@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUESTOPPINGUPDATETASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xF84F400)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUESTOPPINGUPDATETASK__CCTOR_OFFSET UNITYSDK_OFFSET(0xF84F290)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUESTOPPINGUPDATETASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xE8AB860)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUESTOPPINGUPDATETASK__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8AB6F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 43846;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 44812;
 
 	class RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex)->GetStaticField(0x40C40);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex)->GetStaticField(0x436E0);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex)->GetStaticField(0x40C48);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueStoppingUpdateTask_TypeDefinitionIndex)->GetStaticField(0x436E8);
 		}
 
 		static ::System::Void _cctor()

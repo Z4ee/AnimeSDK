@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_LAZYASYNCRESULT_THREADCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1921F680)
+#define SYSTEM_NET_LAZYASYNCRESULT_THREADCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B405780)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int LazyAsyncResult_ThreadContext_TypeDefinitionIndex = 3379;
+	inline static constexpr unsigned int LazyAsyncResult_ThreadContext_TypeDefinitionIndex = 3378;
 
 	class LazyAsyncResult_ThreadContext : public ::System::Object
 	{

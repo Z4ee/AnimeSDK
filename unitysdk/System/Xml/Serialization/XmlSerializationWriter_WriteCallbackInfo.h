@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml::Serialization { class XmlSerializationWriteCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47DC20)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BA900)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationWriter_WriteCallbackInfo_TypeDefinitionIndex = 1914;
+	inline static constexpr unsigned int XmlSerializationWriter_WriteCallbackInfo_TypeDefinitionIndex = 1913;
 
 	class XmlSerializationWriter_WriteCallbackInfo : public ::System::Object
 	{
 	public:
 		::System::String* TypeName; // 0x10
-		::System::Xml::Serialization::XmlSerializationWriteCallback* Callback; // 0x18
-		::System::String* TypeNs; // 0x20
+		::System::String* TypeNs; // 0x18
+		::System::Xml::Serialization::XmlSerializationWriteCallback* Callback; // 0x20
 		::System::Type* Type; // 0x28
 
 		::System::Void _ctor()

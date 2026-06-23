@@ -5,12 +5,12 @@
 
 namespace Epic::OnlineServices { class Helper_DelegateHolder; }
 
-#define EPIC_ONLINESERVICES_HELPER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A801D10)
-#define EPIC_ONLINESERVICES_HELPER___C__DISPLAYCLASS68_0__TRYREMOVECALLBACKBYNOTIFICATIONID_B__0_OFFSET UNITYSDK_OFFSET(0x1A801D20)
+#define EPIC_ONLINESERVICES_HELPER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8CCC0)
+#define EPIC_ONLINESERVICES_HELPER___C__DISPLAYCLASS68_0__TRYREMOVECALLBACKBYNOTIFICATIONID_B__0_OFFSET UNITYSDK_OFFSET(0x1CB8CCD0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Helper___c__DisplayClass68_0_TypeDefinitionIndex = 33289;
+	inline static constexpr unsigned int Helper___c__DisplayClass68_0_TypeDefinitionIndex = 34852;
 
 	class Helper___c__DisplayClass68_0 : public ::System::Object
 	{

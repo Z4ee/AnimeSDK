@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAgeGateErrorDialog_TypeDefinitionIndex = 19303;
+	inline static constexpr unsigned int IAgeGateErrorDialog_TypeDefinitionIndex = 20219;
 
 	class IAgeGateErrorDialog
 	{

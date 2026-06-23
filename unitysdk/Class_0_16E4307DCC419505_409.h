@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 60530;
+namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController; }
+namespace MoleMole { class UIGeneralNewsBubbleWidgetController; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 48247;
 
 class Class_0_16E4307DCC419505_409
 {

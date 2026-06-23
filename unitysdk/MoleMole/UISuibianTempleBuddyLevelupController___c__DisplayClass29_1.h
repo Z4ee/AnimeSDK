@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianTempleBuddyLevelupController___c__DisplayClass29_0; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E2A320)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_1__ONCLICKBTN2_B__1_OFFSET UNITYSDK_OFFSET(0x12E2A330)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12C65730)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_1__ONCLICKBTN2_B__1_OFFSET UNITYSDK_OFFSET(0x12C65740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyLevelupController___c__DisplayClass29_1_TypeDefinitionIndex = 66372;
+	inline static constexpr unsigned int UISuibianTempleBuddyLevelupController___c__DisplayClass29_1_TypeDefinitionIndex = 71358;
 
 	class UISuibianTempleBuddyLevelupController___c__DisplayClass29_1 : public ::System::Object
 	{

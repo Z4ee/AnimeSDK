@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TeamProperty_TypeDefinitionIndex = 42219;
+	inline static constexpr unsigned int TeamProperty_TypeDefinitionIndex = 74175;
 
 	enum class TeamProperty : ::System::Int32
 	{
-		MaxEtherInfectionValue = 2,
+		CurEtherInfectionValue = 1,
 		EtherInfectionRecover = 3,
 		Fever = 0,
-		CurEtherInfectionValue = 1,
+		MaxEtherInfectionValue = 2,
 	};
 }

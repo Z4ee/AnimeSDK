@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int BaseDictionaryKeyPathProvider_1_TypeDefinitionIndex = 7426;
+	inline static constexpr unsigned int BaseDictionaryKeyPathProvider_1_TypeDefinitionIndex = 7558;
 
 	template <typename T>
 	class BaseDictionaryKeyPathProvider_1 : public ::System::Object

@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int DoEntityHandle_TypeDefinitionIndex = 36117;
+	inline static constexpr unsigned int DoEntityHandle_TypeDefinitionIndex = 37725;
 
 	struct alignas(4) DoEntityHandle
 	{

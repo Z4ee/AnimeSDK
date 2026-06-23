@@ -4,54 +4,54 @@
 #include "unitysdk/Utf8Json/Internal/DoubleConversion/Iterator.h"
 #include "unitysdk/Utf8Json/Internal/DoubleConversion/StringToDoubleConverter_Flags.h"
 
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_ADVANCETONONSPACE_OFFSET UNITYSDK_OFFSET(0x1BFFDFB0)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_CONSUMEFIRSTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1BFFE130)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_CONSUMESUBSTRING_OFFSET UNITYSDK_OFFSET(0x1BFFE060)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1BFFCBA0)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_GETFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1BFFCD20)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_ISWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1BFFDE00)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_SIGNEDZERO_OFFSET UNITYSDK_OFFSET(0x1BFFE190)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_STRINGTOIEEE_OFFSET UNITYSDK_OFFSET(0x1BFFCF20)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x1BFFCEA0)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x1BFFDD70)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFFE1B0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_ADVANCETONONSPACE_OFFSET UNITYSDK_OFFSET(0x1E315D50)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_CONSUMEFIRSTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1E315ED0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_CONSUMESUBSTRING_OFFSET UNITYSDK_OFFSET(0x1E315E00)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1E314940)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_GETFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1E314AC0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_ISWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1E315BA0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_SIGNEDZERO_OFFSET UNITYSDK_OFFSET(0x1E315F30)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_STRINGTOIEEE_OFFSET UNITYSDK_OFFSET(0x1E314CC0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x1E314C40)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x1E315B10)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_STRINGTODOUBLECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E315F50)
 
 namespace Utf8Json::Internal::DoubleConversion
 {
-	inline static constexpr unsigned int StringToDoubleConverter_TypeDefinitionIndex = 85700;
+	inline static constexpr unsigned int StringToDoubleConverter_TypeDefinitionIndex = 91274;
 
 	class StringToDoubleConverter : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_kWhitespaceTable7()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x49FA0);
-		}
-		static ::Il2CppArray<::System::UInt16>** StaticGet_kWhitespaceTable16()
-		{
-			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x49FA8);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_nan_symbol_()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x49FB0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x4E6F0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_infinity_symbol_()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x49FB8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x4E6F8);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_nan_symbol_()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x4E700);
+		}
+		static ::Il2CppArray<::System::UInt16>** StaticGet_kWhitespaceTable16()
+		{
+			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x4E708);
 		}
 		static ::System::Int32* StaticGet_kWhitespaceTable7Length()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x11FB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x12E20);
 		}
 		static ::System::Int32* StaticGet_kWhitespaceTable16Length()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x11FB4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x12E24);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_kBuffer()
+		static ::Il2CppArray<::System::Byte>** StaticGet_fallbackBuffer()
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_fallbackBuffer()
+		static ::Il2CppArray<::System::Byte>** StaticGet_kBuffer()
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(StringToDoubleConverter_TypeDefinitionIndex)->GetStaticField(0x0);
 		}

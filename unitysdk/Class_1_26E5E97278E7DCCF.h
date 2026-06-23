@@ -6,17 +6,17 @@
 class Class_1_562E27B325F76EB9_Class_1_EC905AE436B97AD0;
 namespace Foundation::Unreal { class FGameplayTagQuery; }
 
-#define CLASS_1_26E5E97278E7DCCF_METHOD_1_375156ED7E2356D6_OFFSET UNITYSDK_OFFSET(0x1410ABC0)
-#define CLASS_1_26E5E97278E7DCCF_METHOD_1_39541DD577F09C24_OFFSET UNITYSDK_OFFSET(0x1410AC80)
-#define CLASS_1_26E5E97278E7DCCF__CTOR_OFFSET UNITYSDK_OFFSET(0x1410ABB0)
+#define CLASS_1_26E5E97278E7DCCF_METHOD_1_375156ED7E2356D6_OFFSET UNITYSDK_OFFSET(0x131BD4D0)
+#define CLASS_1_26E5E97278E7DCCF_METHOD_1_39541DD577F09C24_OFFSET UNITYSDK_OFFSET(0x131BD590)
+#define CLASS_1_26E5E97278E7DCCF__CTOR_OFFSET UNITYSDK_OFFSET(0x131BD4C0)
 
-inline static constexpr unsigned int Class_1_26E5E97278E7DCCF_TypeDefinitionIndex = 76530;
+inline static constexpr unsigned int Class_1_26E5E97278E7DCCF_TypeDefinitionIndex = 54123;
 
 class Class_1_26E5E97278E7DCCF : public ::System::Object
 {
 public:
-	::Foundation::Unreal::FGameplayTagQuery* Field_1_0; // 0x10
-	::Foundation::Unreal::FGameplayTagQuery* Field_1_1; // 0x18
+	::Foundation::Unreal::FGameplayTagQuery* Field_1_1; // 0x10
+	::Foundation::Unreal::FGameplayTagQuery* Field_1_0; // 0x18
 
 	::System::Void _ctor(::Foundation::Unreal::FGameplayTagQuery* a1, ::Foundation::Unreal::FGameplayTagQuery* a2)
 	{

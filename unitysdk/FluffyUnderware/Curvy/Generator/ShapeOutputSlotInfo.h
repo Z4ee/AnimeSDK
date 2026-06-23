@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_SHAPEOUTPUTSLOTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB2A1C0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_SHAPEOUTPUTSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB2A170)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_SHAPEOUTPUTSLOTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DE9BD70)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_SHAPEOUTPUTSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9BD20)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int ShapeOutputSlotInfo_TypeDefinitionIndex = 37377;
+	inline static constexpr unsigned int ShapeOutputSlotInfo_TypeDefinitionIndex = 39038;
 
 	class ShapeOutputSlotInfo : public ::FluffyUnderware::Curvy::Generator::OutputSlotInfo
 	{

@@ -6,12 +6,12 @@ namespace NodeCanvas::Framework { class Task; }
 namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODECANVAS_FRAMEWORK_GRAPH___C__DISPLAYCLASS229_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B422F90)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__DISPLAYCLASS229_0__GETTASKSINELEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1B422FA0)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__DISPLAYCLASS229_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C48A0)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__DISPLAYCLASS229_0__GETTASKSINELEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1D7C48B0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Graph___c__DisplayClass229_0_TypeDefinitionIndex = 27749;
+	inline static constexpr unsigned int Graph___c__DisplayClass229_0_TypeDefinitionIndex = 29260;
 
 	class Graph___c__DisplayClass229_0 : public ::System::Object
 	{

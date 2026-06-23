@@ -13,11 +13,11 @@ namespace MoleMole::Cameras { class NapVirtualPipelineCamera; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CAMERAS_MONOPIPELINEMOVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFAEF210)
+#define MOLEMOLE_CAMERAS_MONOPIPELINEMOVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xE954BB0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int MonoPipelineMoveCamera_TypeDefinitionIndex = 75628;
+	inline static constexpr unsigned int MonoPipelineMoveCamera_TypeDefinitionIndex = 86784;
 
 	class MonoPipelineMoveCamera : public ::UnityEngine::MonoBehaviour
 	{

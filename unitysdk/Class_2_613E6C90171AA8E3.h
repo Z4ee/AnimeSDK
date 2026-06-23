@@ -11,27 +11,27 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_613E6C90171AA8E3_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x16219020)
-#define CLASS_2_613E6C90171AA8E3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x162190F0)
-#define CLASS_2_613E6C90171AA8E3_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x16218D90)
-#define CLASS_2_613E6C90171AA8E3__CTOR_OFFSET UNITYSDK_OFFSET(0x162190E0)
+#define CLASS_2_613E6C90171AA8E3_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x16D1A0B0)
+#define CLASS_2_613E6C90171AA8E3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16D1A180)
+#define CLASS_2_613E6C90171AA8E3_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x16D19E20)
+#define CLASS_2_613E6C90171AA8E3__CTOR_OFFSET UNITYSDK_OFFSET(0x16D1A170)
 
-inline static constexpr unsigned int Class_2_613E6C90171AA8E3_TypeDefinitionIndex = 69264;
+inline static constexpr unsigned int Class_2_613E6C90171AA8E3_TypeDefinitionIndex = 83447;
 
 class Class_2_613E6C90171AA8E3 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::GameObject* Field_2_9; // 0x18
-	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x28
-	::UnityEngine::GameObject* Field_2_7; // 0x30
-	::UnityEngine::CanvasGroup* Field_2_1; // 0x38
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x50
-	::UnityEngine::GameObject* Field_2_8; // 0x58
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x60
-	::UnityEngine::GameObject* Field_2_10; // 0x68
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x20
+	::UnityEngine::GameObject* Field_2_7; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x38
+	::UnityEngine::GameObject* Field_2_10; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x48
+	::UnityEngine::GameObject* Field_2_8; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x58
+	::UnityEngine::CanvasGroup* Field_2_1; // 0x60
+	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x194B2170)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x194B2160)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194B21B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1B6CADE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B6CADD0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGAMEOVERLAYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CAE20)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGameOverlayResult_TypeDefinitionIndex = 19397;
+	inline static constexpr unsigned int HoYoChannelGameOverlayResult_TypeDefinitionIndex = 20450;
 
 	class HoYoChannelGameOverlayResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::System::Boolean active; // 0x28
-		::System::UInt32 appId; // 0x2C
+		::System::Boolean active; // 0x30
+		::System::UInt32 appId; // 0x34
 
 		::System::Void _ctor()
 		{

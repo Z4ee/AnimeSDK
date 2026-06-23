@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/LevelEndType.h"
 #include "unitysdk/MoleMole/ExitPerform/ExitPerformEventGroup.h"
 
-#define MOLEMOLE_EXITPERFORM_KILLTYPEEXITPERFORMEVENTGROUP_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x154001C0)
-#define MOLEMOLE_EXITPERFORM_KILLTYPEEXITPERFORMEVENTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15400320)
+#define MOLEMOLE_EXITPERFORM_KILLTYPEEXITPERFORMEVENTGROUP_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x161CB110)
+#define MOLEMOLE_EXITPERFORM_KILLTYPEEXITPERFORMEVENTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x161CB270)
 
 namespace MoleMole::ExitPerform
 {
-	inline static constexpr unsigned int KillTypeExitPerformEventGroup_TypeDefinitionIndex = 72786;
+	inline static constexpr unsigned int KillTypeExitPerformEventGroup_TypeDefinitionIndex = 60905;
 
 	class KillTypeExitPerformEventGroup : public ::MoleMole::ExitPerform::ExitPerformEventGroup
 	{

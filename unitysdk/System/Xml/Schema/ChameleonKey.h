@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x19866590)
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x198664C0)
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x19866470)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BCD3CE0)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BCD3C10)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD3BC0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ChameleonKey_TypeDefinitionIndex = 1950;
+	inline static constexpr unsigned int ChameleonKey_TypeDefinitionIndex = 1949;
 
 	class ChameleonKey : public ::System::Object
 	{

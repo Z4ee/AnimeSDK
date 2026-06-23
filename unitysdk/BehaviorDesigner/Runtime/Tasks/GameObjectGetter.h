@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_GAMEOBJECTGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B428880)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_GAMEOBJECTGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E43D0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int GameObjectGetter_TypeDefinitionIndex = 31828;
+	inline static constexpr unsigned int GameObjectGetter_TypeDefinitionIndex = 33379;
 
 	class GameObjectGetter : public ::System::Object
 	{

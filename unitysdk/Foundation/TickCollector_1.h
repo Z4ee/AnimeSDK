@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_TypeDefinitionIndex = 8802;
+	inline static constexpr unsigned int TickCollector_1_TypeDefinitionIndex = 8519;
 
 	template <typename TTickingGroup>
 	class TickCollector_1 : public ::System::Object

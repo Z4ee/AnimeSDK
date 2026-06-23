@@ -7,18 +7,18 @@
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMUSICBATTLEINLEVELTOOLBARBOSSWIDGETCONTROLLER_LEVELBOSSHUDWIDGETVIEWMODEL__CALLDELAYED_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7A7800)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELTOOLBARBOSSWIDGETCONTROLLER_LEVELBOSSHUDWIDGETVIEWMODEL__CALLDELAYED_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5C4D00)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELTOOLBARBOSSWIDGETCONTROLLER_LEVELBOSSHUDWIDGETVIEWMODEL__CALLDELAYED_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8111B0)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELTOOLBARBOSSWIDGETCONTROLLER_LEVELBOSSHUDWIDGETVIEWMODEL__CALLDELAYED_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x61A480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicBattleInLevelToolBarBossWidgetController_LevelBossHudWidgetViewModel__CallDelayed_d__58_TypeDefinitionIndex = 62783;
+	inline static constexpr unsigned int UIMusicBattleInLevelToolBarBossWidgetController_LevelBossHudWidgetViewModel__CallDelayed_d__58_TypeDefinitionIndex = 56008;
 
 	struct alignas(8) UIMusicBattleInLevelToolBarBossWidgetController_LevelBossHudWidgetViewModel__CallDelayed_d__58
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::System::Action* callback; // 0x20
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x28
+		::System::Action* callback; // 0x10
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::System::Single delay; // 0x48
 		::System::Int32 __1__state; // 0x4C
 

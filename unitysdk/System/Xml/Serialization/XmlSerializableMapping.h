@@ -9,17 +9,17 @@ namespace System::Xml::Schema { class XmlSchemaComplexType; }
 namespace System::Xml::Serialization { class TypeData; }
 namespace System::Xml::Serialization { class XmlRootAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZABLEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975B30)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZABLEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCEC830)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializableMapping_TypeDefinitionIndex = 1935;
+	inline static constexpr unsigned int XmlSerializableMapping_TypeDefinitionIndex = 1934;
 
 	class XmlSerializableMapping : public ::System::Xml::Serialization::XmlTypeMapping
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaComplexType* _schemaType; // 0x78
-		::System::Xml::Schema::XmlSchema* _schema; // 0x80
+		::System::Xml::Schema::XmlSchema* _schema; // 0x78
+		::System::Xml::Schema::XmlSchemaComplexType* _schemaType; // 0x80
 		::System::Xml::XmlQualifiedName* _schemaTypeName; // 0x88
 
 		::System::Void _ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::System::String* elementName, ::System::String* ns, ::System::Xml::Serialization::TypeData* typeData, ::System::String* xmlType, ::System::String* xmlTypeNamespace)

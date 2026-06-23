@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int TransparentMaskQuality_TypeDefinitionIndex = 29826;
+	inline static constexpr unsigned int TransparentMaskQuality_TypeDefinitionIndex = 26517;
 
 	enum class TransparentMaskQuality : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 
 namespace MoleMole { class MonoEffect_LayeredEffect; }
 
-#define CLASS_3_D37B76E3ED8B42AD_CLASS_1_EF4EAE1782CBBC05__CTOR_OFFSET UNITYSDK_OFFSET(0x135F5970)
+#define CLASS_3_D37B76E3ED8B42AD_CLASS_1_EF4EAE1782CBBC05__CTOR_OFFSET UNITYSDK_OFFSET(0x12A62710)
 
-inline static constexpr unsigned int Class_3_D37B76E3ED8B42AD_Class_1_EF4EAE1782CBBC05_TypeDefinitionIndex = 67020;
+inline static constexpr unsigned int Class_3_D37B76E3ED8B42AD_Class_1_EF4EAE1782CBBC05_TypeDefinitionIndex = 59206;
 
 class Class_3_D37B76E3ED8B42AD_Class_1_EF4EAE1782CBBC05 : public ::System::Object
 {

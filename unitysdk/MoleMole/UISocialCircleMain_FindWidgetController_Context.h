@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14013420)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x153451A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleMain_FindWidgetController_Context_TypeDefinitionIndex = 64408;
+	inline static constexpr unsigned int UISocialCircleMain_FindWidgetController_Context_TypeDefinitionIndex = 76260;
 
 	class UISocialCircleMain_FindWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

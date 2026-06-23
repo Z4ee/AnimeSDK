@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D5FAB0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2A8A0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextPluginBase_TypeDefinitionIndex = 52375;
+	inline static constexpr unsigned int UITextPluginBase_TypeDefinitionIndex = 81954;
 
 	class UITextPluginBase : public ::UnityEngine::EventSystems::UIBehaviour
 	{

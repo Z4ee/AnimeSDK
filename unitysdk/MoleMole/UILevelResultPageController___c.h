@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C46DB0)
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C46DF0)
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__REFRESHCHESSBOARDVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x15C46E00)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C06770)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16C067B0)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__REFRESHCHESSBOARDVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x16C067C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageController___c_TypeDefinitionIndex = 68605;
+	inline static constexpr unsigned int UILevelResultPageController___c_TypeDefinitionIndex = 47043;
 
 	class UILevelResultPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UILevelResultPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UILevelResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32940);
-		}
 		static ::System::Comparison_1<::MoleMole::UILevelResultPageController_RewardItemMeta>** StaticGet___9__24_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UILevelResultPageController_RewardItemMeta>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32948);
+			return (::System::Comparison_1<::MoleMole::UILevelResultPageController_RewardItemMeta>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x347C0);
+		}
+		static ::MoleMole::UILevelResultPageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UILevelResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x347C8);
 		}
 
 		static ::System::Void _cctor()

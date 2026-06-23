@@ -1,0 +1,273 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_2_208CC9941471731A_155;
+class Class_2_6EE87BD460B6DD0A;
+class Class_2_C7387D40D4120A48_15;
+class Class_3_7E21E2F8DEAA5F4C_4;
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIFadeConfig; }
+namespace MoleMole { class UIGeneralPopUpHintWidgetController; }
+namespace MoleMole { class UISuibianTempleUpgradeRewardIconWidgetController; }
+namespace System { class Action; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x15C0A2D0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETQUESTSORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x15C0AE80)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETSORTEDQUESTLIST_OFFSET UNITYSDK_OFFSET(0x15C09090)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x15C06C40)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_INITSTAGEDATA_OFFSET UNITYSDK_OFFSET(0x15C0A5F0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ISSTAGEUNLOCKED_OFFSET UNITYSDK_OFFSET(0x15C07910)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONCLOSEBTNCLICK_OFFSET UNITYSDK_OFFSET(0x15C0A230)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15C0ABC0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONFINALREWARDICONCLICK_OFFSET UNITYSDK_OFFSET(0x15C09FE0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONGETGROUPALLREWARDBTNCLICK_OFFSET UNITYSDK_OFFSET(0x15C09DD0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONGROUPALLREWARDSUCCESS_OFFSET UNITYSDK_OFFSET(0x15C09F80)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x15C07300)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONPREVIEWBTNCLICK_OFFSET UNITYSDK_OFFSET(0x15C074A0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONQUESTINFOCHANGEHANDLE_OFFSET UNITYSDK_OFFSET(0x15C09720)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGEREWARDBTNCLICK_OFFSET UNITYSDK_OFFSET(0x15C097A0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGEREWARDSUCCESS_OFFSET UNITYSDK_OFFSET(0x15C09970)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGETABSELECTED_OFFSET UNITYSDK_OFFSET(0x15C075F0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15C0AC50)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15C06C50)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15C0A370)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUPDATERABSTAGEQUESTINFO_OFFSET UNITYSDK_OFFSET(0x15C0AE10)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_PLAYBLACKMASKANI_OFFSET UNITYSDK_OFFSET(0x15C09AE0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHFINALREWARD_OFFSET UNITYSDK_OFFSET(0x15C088E0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHGETGROUPALLREWARDBTN_OFFSET UNITYSDK_OFFSET(0x15C08750)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHGROUPPROGRESS_OFFSET UNITYSDK_OFFSET(0x15C07A30)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSELECTEDSTAGECONTENT_OFFSET UNITYSDK_OFFSET(0x15C076D0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSTAGEREWARDBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x15C09220)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSTAGEREWARDPANEL_OFFSET UNITYSDK_OFFSET(0x15C07C40)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x15C0A970)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15C0AFB0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER__ONUIINIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x15C0B090)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x15C0B180)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15C0B190)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x15C0B220)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15C0B2B0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15C0B2C0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15C0B2D0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABStageRewardPopWindowController_TypeDefinitionIndex = 62176;
+
+	class UIRABStageRewardPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Int32 StageRewardSlotCount = 0x5; // 0x0
+		// static const ::System::String* StageRewardBtnKeyLocked; // 0x0
+		// static const ::System::String* StageRewardBtnKeyInProgress; // 0x0
+		// static const ::System::String* StageRewardBtnKeyCanClaim; // 0x0
+		// static const ::System::String* StageRewardBtnKeyClaimed; // 0x0
+		// static const ::System::String* FinalRewardDescTxtMapKey; // 0x0
+		// static const ::System::String* BlackMaskFadeOut; // 0x0
+		// static const ::System::String* BlackMaskFadeIn; // 0x0
+		::Class_2_C7387D40D4120A48_15* _view; // 0x318
+		::System::Collections::Generic::List_1<::Class_2_208CC9941471731A_155*>* _stageList; // 0x320
+		::System::Collections::Generic::List_1<::Class_2_208CC9941471731A_155*>* _grandPrizeStages; // 0x328
+		::Class_2_208CC9941471731A_155* _currentStageConfig; // 0x330
+		::System::Int32 _lastSelectedStageId; // 0x338
+		::Class_2_6EE87BD460B6DD0A* _rabModel; // 0x340
+		::Class_2_208CC9941471731A_155* _displayGrandPrizeStageConfig; // 0x348
+		::System::Collections::Generic::List_1<::MoleMole::UISuibianTempleUpgradeRewardIconWidgetController*>* _rewardSlotControllers; // 0x350
+		::MoleMole::UIGeneralPopUpHintWidgetController* _stageRewardRedDotCtrl; // 0x358
+		::MoleMole::UIGeneralPopUpHintWidgetController* _groupAllRewardRedDotCtrl; // 0x360
+		::System::Boolean _isManualClose; // 0x368
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void OnPreviewBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONPREVIEWBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnStageTabSelected(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGETABSELECTED_OFFSET))(this, stageConfig);
+		}
+
+		::System::Void RefreshSelectedStageContent(::System::Boolean selectChange)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSELECTEDSTAGECONTENT_OFFSET))(this, selectChange);
+		}
+
+		static ::System::Boolean IsStageUnlocked(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Boolean(*)(::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ISSTAGEUNLOCKED_OFFSET))(stageConfig);
+		}
+
+		::System::Void RefreshGetGroupAllRewardBtn(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHGETGROUPALLREWARDBTN_OFFSET))(this, stageConfig);
+		}
+
+		::System::Void RefreshGroupProgress(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHGROUPPROGRESS_OFFSET))(this, stageConfig);
+		}
+
+		::System::Void RefreshStageRewardPanel(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSTAGEREWARDPANEL_OFFSET))(this, stageConfig);
+		}
+
+		::System::Void RefreshStageRewardButtonText(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHSTAGEREWARDBUTTONTEXT_OFFSET))(this, stageConfig);
+		}
+
+		::System::Void OnQuestInfoChangeHandle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONQUESTINFOCHANGEHANDLE_OFFSET))(this);
+		}
+
+		::System::Void OnStageRewardBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGEREWARDBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnStageRewardSuccess(::System::Int32 fromStageId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONSTAGEREWARDSUCCESS_OFFSET))(this, fromStageId);
+		}
+
+		::System::Void PlayBlackMaskAni(::System::Boolean isFadeOut, ::System::Action* onComplete)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_PLAYBLACKMASKANI_OFFSET))(this, isFadeOut, onComplete);
+		}
+
+		::System::Void OnGetGroupAllRewardBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONGETGROUPALLREWARDBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnGroupAllRewardSuccess(::Class_3_7E21E2F8DEAA5F4C_4* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_7E21E2F8DEAA5F4C_4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONGROUPALLREWARDSUCCESS_OFFSET))(this, rsp);
+		}
+
+		::System::Void RefreshFinalReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHFINALREWARD_OFFSET))(this);
+		}
+
+		::System::Void OnFinalRewardIconClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONFINALREWARDICONCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnCloseBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONCLOSEBTNCLICK_OFFSET))(this);
+		}
+
+		::System::String* GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_7A4252233BCEB3A9 nextPage)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET))(this, fadeData, nextPage);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void InitStageData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_INITSTAGEDATA_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnUpdateRABStageQuestInfo(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_ONUPDATERABSTAGEQUESTINFO_OFFSET))(this, args);
+		}
+
+		::System::Collections::Generic::List_1<::System::Int32>* GetSortedQuestList(::Class_2_208CC9941471731A_155* stageConfig)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID, ::Class_2_208CC9941471731A_155*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETSORTEDQUESTLIST_OFFSET))(this, stageConfig);
+		}
+
+		static ::System::Int32 GetQuestSortPriority(::System::Int32 questId)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER_GETQUESTSORTPRIORITY_OFFSET))(questId);
+		}
+
+		::MoleMole::ScrollViewItemWidgetController* _OnUIInit_b__21_0(::System::Func_1<::MoleMole::UIControlReference*>* reference)
+		{
+			return ((::MoleMole::ScrollViewItemWidgetController*(*)(::PVOID, ::System::Func_1<::MoleMole::UIControlReference*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER__ONUIINIT_B__21_0_OFFSET))(this, reference);
+		}
+
+		::System::String* __base_GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_7A4252233BCEB3A9 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

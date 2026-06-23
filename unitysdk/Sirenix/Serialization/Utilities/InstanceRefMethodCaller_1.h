@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int InstanceRefMethodCaller_1_TypeDefinitionIndex = 7506;
+	inline static constexpr unsigned int InstanceRefMethodCaller_1_TypeDefinitionIndex = 7638;
 
 	template <typename InstanceType>
 	class InstanceRefMethodCaller_1 : public ::System::MulticastDelegate

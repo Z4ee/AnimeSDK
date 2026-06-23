@@ -5,23 +5,23 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_273;
+class Class_0_16E4307DCC419505_363;
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCUSTOMCAMERASEQUENCE__CLEARWHENGAMEEND_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x77F290)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCUSTOMCAMERASEQUENCE__CLEARWHENGAMEEND_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCUSTOMCAMERASEQUENCE__CLEARWHENGAMEEND_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x741100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCUSTOMCAMERASEQUENCE__CLEARWHENGAMEEND_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayCustomCameraSequence__ClearWhenGameEnd_d__12_TypeDefinitionIndex = 75198;
+	inline static constexpr unsigned int LDPlayCustomCameraSequence__ClearWhenGameEnd_d__12_TypeDefinitionIndex = 45389;
 
 	struct alignas(8) LDPlayCustomCameraSequence__ClearWhenGameEnd_d__12
 	{
-		::Cysharp::Threading::Tasks::UniTask finishEventTask; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::System::WeakReference_1<::Class_0_16E4307DCC419505_273*>* performer; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> __u__1; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> __u__1; // 0x10
+		::System::WeakReference_1<::Class_0_16E4307DCC419505_363*>* performer; // 0x20
+		::Cysharp::Threading::Tasks::UniTask finishEventTask; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

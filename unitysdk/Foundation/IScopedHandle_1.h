@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IScopedHandle_1_TypeDefinitionIndex = 9076;
+	inline static constexpr unsigned int IScopedHandle_1_TypeDefinitionIndex = 8426;
 
 	template <typename T>
 	class IScopedHandle_1

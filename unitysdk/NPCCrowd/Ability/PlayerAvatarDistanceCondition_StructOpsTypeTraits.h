@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_PLAYERAVATARDISTANCECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xD23E2D0)
-#define NPCCROWD_ABILITY_PLAYERAVATARDISTANCECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xD23E2E0)
+#define NPCCROWD_ABILITY_PLAYERAVATARDISTANCECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xA677BF0)
+#define NPCCROWD_ABILITY_PLAYERAVATARDISTANCECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xA677C00)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int PlayerAvatarDistanceCondition_StructOpsTypeTraits_TypeDefinitionIndex = 54716;
+	inline static constexpr unsigned int PlayerAvatarDistanceCondition_StructOpsTypeTraits_TypeDefinitionIndex = 48023;
 
 	class PlayerAvatarDistanceCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

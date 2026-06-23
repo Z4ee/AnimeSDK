@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALINTRANGE2INTRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1241D160)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALINTRANGE2INTRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA515D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_GeneralIntRange2IntRangeConfig_TypeDefinitionIndex = 43458;
+	inline static constexpr unsigned int ConfigHollowChessboard_GeneralIntRange2IntRangeConfig_TypeDefinitionIndex = 64434;
 
 	class ConfigHollowChessboard_GeneralIntRange2IntRangeConfig : public ::System::Object
 	{

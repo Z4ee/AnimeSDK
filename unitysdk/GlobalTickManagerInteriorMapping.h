@@ -1,53 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/SingletonDisposable_1.h"
+#include "unitysdk/Class_2_8649573A691533F8.h"
 
+class Class_0_16E4307DCC419505_2;
 class InteriorMapping;
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T> class Class_1_3B365E645019A36F;
 
-#define GLOBALTICKMANAGERINTERIORMAPPING_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C49D980)
-#define GLOBALTICKMANAGERINTERIORMAPPING_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C49D9E0)
-#define GLOBALTICKMANAGERINTERIORMAPPING_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C49CDF0)
-#define GLOBALTICKMANAGERINTERIORMAPPING_REGISTERINTERIORMAPPING_OFFSET UNITYSDK_OFFSET(0x1C49D840)
-#define GLOBALTICKMANAGERINTERIORMAPPING_UNREGISTERINTERIORMAPPING_OFFSET UNITYSDK_OFFSET(0x1C49D8E0)
-#define GLOBALTICKMANAGERINTERIORMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49D9F0)
+#define GLOBALTICKMANAGERINTERIORMAPPING_INITDELAYREFRESHLIST_OFFSET UNITYSDK_OFFSET(0x1E80F8B0)
+#define GLOBALTICKMANAGERINTERIORMAPPING_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E80F900)
+#define GLOBALTICKMANAGERINTERIORMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E80F940)
 
-inline static constexpr unsigned int GlobalTickManagerInteriorMapping_TypeDefinitionIndex = 33083;
+inline static constexpr unsigned int GlobalTickManagerInteriorMapping_TypeDefinitionIndex = 34645;
 
-class GlobalTickManagerInteriorMapping : public ::Foundation::SingletonDisposable_1<::GlobalTickManagerInteriorMapping*>
+class GlobalTickManagerInteriorMapping : public ::Class_2_8649573A691533F8<::GlobalTickManagerInteriorMapping*>
 {
 public:
-	::System::Collections::Generic::HashSet_1<::InteriorMapping*>* _interiorMappingSet; // 0x10
-	::System::Collections::Generic::HashSet_1<::InteriorMapping*>* _delayRemoveInteriorMappingSet; // 0x18
-	::System::Collections::Generic::HashSet_1<::InteriorMapping*>* _delayAddInteriorMappingSet; // 0x20
+	::Class_1_3B365E645019A36F<::InteriorMapping*>* _interiorMappingSet; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING__CTOR_OFFSET))(this);
 	}
 
+	::System::Void InitDelayRefreshList(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_2*>* delayRefreshList)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_2*>*))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_INITDELAYREFRESHLIST_OFFSET))(this, delayRefreshList);
+	}
+
 	::System::Void OnUpdate()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_ONUPDATE_OFFSET))(this);
-	}
-
-	::System::Void RegisterInteriorMapping(::InteriorMapping* interiorMapping)
-	{
-		return ((::System::Void(*)(::PVOID, ::InteriorMapping*))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_REGISTERINTERIORMAPPING_OFFSET))(this, interiorMapping);
-	}
-
-	::System::Void UnregisterInteriorMapping(::InteriorMapping* interiorMapping)
-	{
-		return ((::System::Void(*)(::PVOID, ::InteriorMapping*))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_UNREGISTERINTERIORMAPPING_OFFSET))(this, interiorMapping);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void OnCreate()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOBALTICKMANAGERINTERIORMAPPING_ONCREATE_OFFSET))(this);
 	}
 };

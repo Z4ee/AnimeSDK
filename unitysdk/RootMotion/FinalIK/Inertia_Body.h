@@ -7,13 +7,13 @@ namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
 namespace RootMotion::FinalIK { class Inertia_Body_EffectorLink; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_INERTIA_BODY_RESET_OFFSET UNITYSDK_OFFSET(0x1C140D20)
-#define ROOTMOTION_FINALIK_INERTIA_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C140F00)
-#define ROOTMOTION_FINALIK_INERTIA_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1413E0)
+#define ROOTMOTION_FINALIK_INERTIA_BODY_RESET_OFFSET UNITYSDK_OFFSET(0x1E477AB0)
+#define ROOTMOTION_FINALIK_INERTIA_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E477C90)
+#define ROOTMOTION_FINALIK_INERTIA_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E478170)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Inertia_Body_TypeDefinitionIndex = 36709;
+	inline static constexpr unsigned int Inertia_Body_TypeDefinitionIndex = 38224;
 
 	class Inertia_Body : public ::System::Object
 	{

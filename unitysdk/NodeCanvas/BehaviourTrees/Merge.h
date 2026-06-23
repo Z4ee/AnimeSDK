@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_MERGE_GET_MAXINCONNECTIONS_OFFSET UNITYSDK_OFFSET(0x1A858CA0)
-#define NODECANVAS_BEHAVIOURTREES_MERGE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A858CB0)
-#define NODECANVAS_BEHAVIOURTREES_MERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A858E20)
+#define NODECANVAS_BEHAVIOURTREES_MERGE_GET_MAXINCONNECTIONS_OFFSET UNITYSDK_OFFSET(0x1CC477C0)
+#define NODECANVAS_BEHAVIOURTREES_MERGE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC477D0)
+#define NODECANVAS_BEHAVIOURTREES_MERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC47940)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Merge_TypeDefinitionIndex = 28226;
+	inline static constexpr unsigned int Merge_TypeDefinitionIndex = 29418;
 
 	class Merge : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{

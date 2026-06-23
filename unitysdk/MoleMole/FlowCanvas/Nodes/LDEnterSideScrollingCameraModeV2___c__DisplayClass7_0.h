@@ -5,18 +5,18 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDEnterSideScrollingCameraModeV2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18415B70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2___C__DISPLAYCLASS7_0__HANDLEFLOWINPUT_B__0_OFFSET UNITYSDK_OFFSET(0x18415B80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A396F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2___C__DISPLAYCLASS7_0__HANDLEFLOWINPUT_B__0_OFFSET UNITYSDK_OFFSET(0x1A396F40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2___c__DisplayClass7_0_TypeDefinitionIndex = 73181;
+	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2___c__DisplayClass7_0_TypeDefinitionIndex = 54129;
 
 	class LDEnterSideScrollingCameraModeV2___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDEnterSideScrollingCameraModeV2* __4__this; // 0x10
-		::FlowCanvas::Flow f; // 0x18
+		::FlowCanvas::Flow f; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDEnterSideScrollingCameraModeV2* __4__this; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowData_RuntimeMainPage3DInfo_TypeDefinitionIndex = 39682;
+	inline static constexpr unsigned int ConfigUIAvatarShowData_RuntimeMainPage3DInfo_TypeDefinitionIndex = 82016;
 
 	struct alignas(8) ConfigUIAvatarShowData_RuntimeMainPage3DInfo
 	{

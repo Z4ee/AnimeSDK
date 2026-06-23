@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETREALTIMEQTEBUTTONWORKABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E4D9A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETREALTIMEQTEBUTTONWORKABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4DA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETREALTIMEQTEBUTTONWORKABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D41CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETREALTIMEQTEBUTTONWORKABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D41D80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetRealtimeQTEButtonWorkable_TypeDefinitionIndex = 67229;
+	inline static constexpr unsigned int LDSetRealtimeQTEButtonWorkable_TypeDefinitionIndex = 63292;
 
 	class LDSetRealtimeQTEButtonWorkable : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Boolean>
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePageContext_RoomType_TypeDefinitionIndex = 64957;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePageContext_RoomType_TypeDefinitionIndex = 81761;
 
 	enum class UIGrandMarcelAdventurePageContext_RoomType : ::System::Int32
 	{

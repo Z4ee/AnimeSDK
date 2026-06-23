@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputActionRebindingExtensions___c__DisplayClass8_0; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F0520)
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_1__GETBINDINGDISPLAYSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x1B9F0530)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7DEA0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_1__GETBINDINGDISPLAYSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x1DD7DEB0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionRebindingExtensions___c__DisplayClass8_1_TypeDefinitionIndex = 28898;
+	inline static constexpr unsigned int InputActionRebindingExtensions___c__DisplayClass8_1_TypeDefinitionIndex = 31554;
 
 	class InputActionRebindingExtensions___c__DisplayClass8_1 : public ::System::Object
 	{

@@ -9,24 +9,24 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x11C15FB0)
-#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11C16040)
-#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_D25F539834051480_OFFSET UNITYSDK_OFFSET(0x11C15DD0)
-#define CLASS_2_85DAAED9061AE06B_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11C16030)
+#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0xD35A960)
+#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xD35A9F0)
+#define CLASS_2_85DAAED9061AE06B_1_METHOD_2_D25F539834051480_OFFSET UNITYSDK_OFFSET(0xD35A780)
+#define CLASS_2_85DAAED9061AE06B_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD35A9E0)
 
-inline static constexpr unsigned int Class_2_85DAAED9061AE06B_1_TypeDefinitionIndex = 73855;
+inline static constexpr unsigned int Class_2_85DAAED9061AE06B_1_TypeDefinitionIndex = 71671;
 
 class Class_2_85DAAED9061AE06B_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_5; // 0x18
-	::MoleMole::NotificationBadgeEx* Field_2_6; // 0x20
-	::UnityEngine::RectTransform* Field_2_4; // 0x28
-	::UnityEngine::RectTransform* Field_2_2; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
+	::UnityEngine::RectTransform* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
+	::UnityEngine::RectTransform* Field_2_4; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
 	::UnityEngine::RectTransform* Field_2_7; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x50
+	::MoleMole::NotificationBadgeEx* Field_2_6; // 0x48
+	::UnityEngine::RectTransform* Field_2_5; // 0x50
 
 	::System::Void _ctor()
 	{

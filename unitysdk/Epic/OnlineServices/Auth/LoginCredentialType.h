@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int LoginCredentialType_TypeDefinitionIndex = 34597;
+	inline static constexpr unsigned int LoginCredentialType_TypeDefinitionIndex = 36160;
 
 	enum class LoginCredentialType : ::System::Int32
 	{

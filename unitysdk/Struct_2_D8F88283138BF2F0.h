@@ -8,12 +8,12 @@
 namespace MoleMole { class UIAvatarLightSetting; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define STRUCT_2_D8F88283138BF2F0_METHOD_2_3CE83AC3C1D9309E_OFFSET UNITYSDK_OFFSET(0x7443C0)
-#define STRUCT_2_D8F88283138BF2F0_METHOD_2_570C5557A774C69E_OFFSET UNITYSDK_OFFSET(0x7442C0)
-#define STRUCT_2_D8F88283138BF2F0_METHOD_2_973D0A1DA9EF54E4_OFFSET UNITYSDK_OFFSET(0x744340)
-#define STRUCT_2_D8F88283138BF2F0_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x5806F0)
+#define STRUCT_2_D8F88283138BF2F0_METHOD_2_3CE83AC3C1D9309E_OFFSET UNITYSDK_OFFSET(0x6936A0)
+#define STRUCT_2_D8F88283138BF2F0_METHOD_2_570C5557A774C69E_OFFSET UNITYSDK_OFFSET(0x693620)
+#define STRUCT_2_D8F88283138BF2F0_METHOD_2_973D0A1DA9EF54E4_OFFSET UNITYSDK_OFFSET(0x693720)
+#define STRUCT_2_D8F88283138BF2F0_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x693710)
 
-inline static constexpr unsigned int Struct_2_D8F88283138BF2F0_TypeDefinitionIndex = 82408;
+inline static constexpr unsigned int Struct_2_D8F88283138BF2F0_TypeDefinitionIndex = 59144;
 
 struct alignas(8) Struct_2_D8F88283138BF2F0
 {
@@ -33,13 +33,6 @@ struct alignas(8) Struct_2_D8F88283138BF2F0
 	}
 
 	/*
-	::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion> Method_2_973D0A1DA9EF54E4(::MoleMole::UIAvatarLightSetting* a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Quaternion a4, ::UnityEngine::Quaternion a5)
-	{
-		return ((::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion>(*)(::PVOID, ::MoleMole::UIAvatarLightSetting*, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + STRUCT_2_D8F88283138BF2F0_METHOD_2_973D0A1DA9EF54E4_OFFSET))(this, a1, a2, a3, a4, a5);
-	}
-	*/
-
-	/*
 	::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion> Method_2_3CE83AC3C1D9309E(::System::Single a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Vector3 a4)
 	{
 		return ((::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STRUCT_2_D8F88283138BF2F0_METHOD_2_3CE83AC3C1D9309E_OFFSET))(this, a1, a2, a3, a4);
@@ -50,4 +43,11 @@ struct alignas(8) Struct_2_D8F88283138BF2F0
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D8F88283138BF2F0_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
 	}
+
+	/*
+	::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion> Method_2_973D0A1DA9EF54E4(::MoleMole::UIAvatarLightSetting* a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Quaternion a4, ::UnityEngine::Quaternion a5)
+	{
+		return ((::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion>(*)(::PVOID, ::MoleMole::UIAvatarLightSetting*, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + STRUCT_2_D8F88283138BF2F0_METHOD_2_973D0A1DA9EF54E4_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+	*/
 };

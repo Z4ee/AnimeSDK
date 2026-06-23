@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_EVENTNODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B4574E0)
-#define FLOWCANVAS_NODES_EVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B457570)
+#define FLOWCANVAS_NODES_EVENTNODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D81CDB0)
+#define FLOWCANVAS_NODES_EVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81CE40)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EventNode_TypeDefinitionIndex = 27253;
+	inline static constexpr unsigned int EventNode_TypeDefinitionIndex = 29981;
 
 	class EventNode : public ::FlowCanvas::FlowNode
 	{

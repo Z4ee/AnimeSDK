@@ -9,7 +9,7 @@ namespace System::ComponentModel::Design { class IDesignerHost; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDesignerEventService_TypeDefinitionIndex = 3066;
+	inline static constexpr unsigned int IDesignerEventService_TypeDefinitionIndex = 3065;
 
 	class IDesignerEventService
 	{

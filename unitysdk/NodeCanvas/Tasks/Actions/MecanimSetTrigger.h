@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B4B98E0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4B99C0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B9AF0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D80B030)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D80B110)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80B240)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetTrigger_TypeDefinitionIndex = 28220;
+	inline static constexpr unsigned int MecanimSetTrigger_TypeDefinitionIndex = 29765;
 
 	class MecanimSetTrigger : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
 	{

@@ -3,11 +3,11 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int CurvyController_MoveModeEnum_TypeDefinitionIndex = 37271;
+	inline static constexpr unsigned int CurvyController_MoveModeEnum_TypeDefinitionIndex = 38987;
 
 	enum class CurvyController_MoveModeEnum : ::System::Int32
 	{
-		Relative = 0,
 		AbsolutePrecise = 1,
+		Relative = 0,
 	};
 }

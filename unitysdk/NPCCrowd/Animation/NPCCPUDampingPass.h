@@ -17,35 +17,35 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_CREATEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0xD453AC0)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DESTROY_OFFSET UNITYSDK_OFFSET(0xD453370)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DISABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0xD453D30)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_ENABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0xD453550)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_RELEASEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0xD4533E0)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_SETDAMPINGROOTTRANS_OFFSET UNITYSDK_OFFSET(0xD453D80)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xD453040)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS___BASE_DESTROY_OFFSET UNITYSDK_OFFSET(0xD453F50)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_CREATEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0x10706400)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DESTROY_OFFSET UNITYSDK_OFFSET(0x10705CB0)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DISABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0x10706670)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_ENABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0x10705E90)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_RELEASEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0x10705D20)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_SETDAMPINGROOTTRANS_OFFSET UNITYSDK_OFFSET(0x107066C0)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x10705980)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS___BASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x10706890)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUDampingPass_TypeDefinitionIndex = 78593;
+	inline static constexpr unsigned int NPCCPUDampingPass_TypeDefinitionIndex = 73198;
 
 	class NPCCPUDampingPass : public ::NPCCrowd::Animation::NPCCPUJobPassBase
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Transform*>* dampingTrans; // 0x38
-		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIKInfo; // 0x40
-		::UnityEngine::Animator* animator; // 0x48
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Velocities; // 0x50
-		::UnityEngine::Playables::PlayableGraph graph; // 0x60
-		::System::Boolean bIsEnableDampingIK; // 0x70
-		::UnityEngine::Animations::AnimationScriptPlayable dampingPlayable; // 0x78
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Positions; // 0x88
-		::Unity::Collections::NativeArray_1<::System::Single> damping_smooths; // 0x98
-		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> damping_LocalRotations; // 0xA8
+		::UnityEngine::Animator* animator; // 0x40
+		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIKInfo; // 0x48
+		::UnityEngine::Playables::PlayableGraph graph; // 0x50
+		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> damping_LocalRotations; // 0x60
+		::UnityEngine::Animations::AnimationScriptPlayable dampingPlayable; // 0x70
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Velocities; // 0x80
+		::System::Boolean bIsEnableDampingIK; // 0x90
+		::Unity::Collections::NativeArray_1<::UnityEngine::Animations::TransformStreamHandle> damping_Handles; // 0x98
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Positions; // 0xA8
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_LocalPositions; // 0xB8
-		::Unity::Collections::NativeArray_1<::UnityEngine::Animations::TransformStreamHandle> damping_Handles; // 0xC8
-		::Unity::Collections::NativeArray_1<::System::Single> damping_rootParams; // 0xD8
+		::Unity::Collections::NativeArray_1<::System::Single> damping_rootParams; // 0xC8
+		::Unity::Collections::NativeArray_1<::System::Single> damping_smooths; // 0xD8
 		::NPCCrowd::Animation::Job::DampingJob dampingJob; // 0xE8
 
 		::System::Void _ctor(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIK, ::NPCCrowd::Animation::NPCAccessoryLegacyAnimator* npccpuAnimator)

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_RUNTIMEHELPERSABSTRACTION_WELLKNOWNNOREFERENCECONTAINSTYPEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C41DE00)
+#define CYSHARP_THREADING_TASKS_INTERNAL_RUNTIMEHELPERSABSTRACTION_WELLKNOWNNOREFERENCECONTAINSTYPEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E765C70)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int RuntimeHelpersAbstraction_TypeDefinitionIndex = 28822;
+	inline static constexpr unsigned int RuntimeHelpersAbstraction_TypeDefinitionIndex = 31478;
 
 	class RuntimeHelpersAbstraction : public ::System::Object
 	{

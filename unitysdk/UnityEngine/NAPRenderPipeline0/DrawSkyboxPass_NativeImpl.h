@@ -8,12 +8,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class DrawSkyboxPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWSKYBOXPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B3C28F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWSKYBOXPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C2870)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWSKYBOXPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D72DA70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWSKYBOXPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D72D9F0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawSkyboxPass_NativeImpl_TypeDefinitionIndex = 5737;
+	inline static constexpr unsigned int DrawSkyboxPass_NativeImpl_TypeDefinitionIndex = 5739;
 
 	class DrawSkyboxPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

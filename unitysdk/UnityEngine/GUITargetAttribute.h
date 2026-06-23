@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_GUITARGETATTRIBUTE_GETGUITARGETATTRVALUE_OFFSET UNITYSDK_OFFSET(0x1ACF7100)
-#define UNITYENGINE_GUITARGETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF70F0)
+#define UNITYENGINE_GUITARGETATTRIBUTE_GETGUITARGETATTRVALUE_OFFSET UNITYSDK_OFFSET(0x1D0F9D90)
+#define UNITYENGINE_GUITARGETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F9D80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUITargetAttribute_TypeDefinitionIndex = 6377;
+	inline static constexpr unsigned int GUITargetAttribute_TypeDefinitionIndex = 6422;
 
 	class GUITargetAttribute : public ::System::Attribute
 	{

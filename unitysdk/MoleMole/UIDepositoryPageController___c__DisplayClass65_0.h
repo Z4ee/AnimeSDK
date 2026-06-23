@@ -5,18 +5,18 @@
 class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UIDepositoryPageController; }
 
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14ECDE50)
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS65_0__ONSHOWEQUIPWEAPON_B__0_OFFSET UNITYSDK_OFFSET(0x14ECDE60)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175C71C0)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS65_0__ONSHOWEQUIPWEAPON_B__0_OFFSET UNITYSDK_OFFSET(0x175C71D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass65_0_TypeDefinitionIndex = 77131;
+	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass65_0_TypeDefinitionIndex = 82557;
 
 	class UIDepositoryPageController___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x10
-		::MoleMole::UIDepositoryPageController* __4__this; // 0x18
+		::MoleMole::UIDepositoryPageController* __4__this; // 0x10
+		::Class_1_0D6706375CDAAE8C* itemData; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,18 +4,18 @@
 
 namespace MoleMole { class UIABInLevelGeneralWidgetController; }
 
-#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6ED00)
+#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E09D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 39093;
+	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 77164;
 
 	class UIABInLevelGeneralWidgetController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIABInLevelGeneralWidgetController* __4__this; // 0x10
-		::System::Boolean isAvatar; // 0x18
-		::System::Int32 itemId; // 0x1C
+		::System::Int32 itemId; // 0x18
+		::System::Boolean isAvatar; // 0x1C
 
 		::System::Void _ctor()
 		{

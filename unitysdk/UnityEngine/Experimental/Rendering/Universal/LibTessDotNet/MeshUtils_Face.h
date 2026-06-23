@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { class MeshUtils_Edge; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE_GET_VERTSCOUNT_OFFSET UNITYSDK_OFFSET(0x1AD00730)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE_RESET_OFFSET UNITYSDK_OFFSET(0x1AD00790)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD007E0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE_GET_VERTSCOUNT_OFFSET UNITYSDK_OFFSET(0x1C3FDC90)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE_RESET_OFFSET UNITYSDK_OFFSET(0x1C3FDCF0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_MESHUTILS_FACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FDD40)
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int MeshUtils_Face_TypeDefinitionIndex = 29744;
+	inline static constexpr unsigned int MeshUtils_Face_TypeDefinitionIndex = 26669;
 
 	class MeshUtils_Face : public ::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Pooled_1<::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face*>
 	{
 	public:
 		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Edge* _anEdge; // 0x10
-		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face* _trail; // 0x18
-		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face* _prev; // 0x20
+		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face* _prev; // 0x18
+		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face* _trail; // 0x20
 		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::MeshUtils_Face* _next; // 0x28
 		::System::Int32 _n; // 0x30
 		::System::Boolean _marked; // 0x34

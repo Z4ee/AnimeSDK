@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Canvas; }
 
-#define UIGLOBALALPHA_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF2A7D60)
-#define UIGLOBALALPHA_START_OFFSET UNITYSDK_OFFSET(0xF2A7CD0)
-#define UIGLOBALALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A7E10)
+#define UIGLOBALALPHA_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A516150)
+#define UIGLOBALALPHA_START_OFFSET UNITYSDK_OFFSET(0x1A5160C0)
+#define UIGLOBALALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A516200)
 
-inline static constexpr unsigned int UIGlobalAlpha_TypeDefinitionIndex = 79867;
+inline static constexpr unsigned int UIGlobalAlpha_TypeDefinitionIndex = 57736;
 
 class UIGlobalAlpha : public ::UnityEngine::MonoBehaviour
 {

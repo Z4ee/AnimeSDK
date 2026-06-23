@@ -5,13 +5,13 @@
 
 namespace NPCCrowd::Animation { class NPCCPUAnimationSlotInfo; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__BINDBONESLOTSGALGAME_B__0_OFFSET UNITYSDK_OFFSET(0xBDEABB0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__BINDBONESLOTSGALGAME_B__1_OFFSET UNITYSDK_OFFSET(0xBDEABD0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBDEABA0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD945750)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__POSTLOADAVATARGOGALGAME_B__1_OFFSET UNITYSDK_OFFSET(0xD945760)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__POSTLOADAVATARGOGALGAME_B__2_OFFSET UNITYSDK_OFFSET(0xD945780)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass29_0_TypeDefinitionIndex = 58957;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass29_0_TypeDefinitionIndex = 66893;
 
 	class NPCCrowdAvatarManager___c__DisplayClass29_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace NPCCrowd::Avatar
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _BindBoneSlotsGalgame_b__0(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
+		::System::Boolean _PostLoadAvatarGoGalgame_b__1(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__BINDBONESLOTSGALGAME_B__0_OFFSET))(this, slotInfo);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__POSTLOADAVATARGOGALGAME_B__1_OFFSET))(this, slotInfo);
 		}
 
-		::System::Boolean _BindBoneSlotsGalgame_b__1(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
+		::System::Boolean _PostLoadAvatarGoGalgame_b__2(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__BINDBONESLOTSGALGAME_B__1_OFFSET))(this, slotInfo);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS29_0__POSTLOADAVATARGOGALGAME_B__2_OFFSET))(this, slotInfo);
 		}
 	};
 }

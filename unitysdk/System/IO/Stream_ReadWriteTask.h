@@ -10,10 +10,10 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1A0A76B0)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A0A7810)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A7880)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A76D0)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1C4F3780)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C4F38D0)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C4F3940)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F3790)
 
 namespace System::IO
 {
@@ -26,13 +26,13 @@ namespace System::IO
 		{
 			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0xD40);
 		}
-		::System::AsyncCallback* _callback; // 0x50
-		::Il2CppArray<::System::Byte>* _buffer; // 0x58
-		::System::Threading::ExecutionContext* _context; // 0x60
-		::System::IO::Stream* _stream; // 0x68
-		::System::Int32 _count; // 0x70
+		::Il2CppArray<::System::Byte>* _buffer; // 0x50
+		::System::IO::Stream* _stream; // 0x58
+		::System::AsyncCallback* _callback; // 0x60
+		::System::Threading::ExecutionContext* _context; // 0x68
+		::System::Boolean _isRead; // 0x70
 		::System::Int32 _offset; // 0x74
-		::System::Boolean _isRead; // 0x78
+		::System::Int32 _count; // 0x78
 
 		::System::Void _ctor(::System::Boolean isRead, ::System::Func_2<::System::Object*, ::System::Int32>* function, ::System::Object* state, ::System::IO::Stream* stream, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback)
 		{

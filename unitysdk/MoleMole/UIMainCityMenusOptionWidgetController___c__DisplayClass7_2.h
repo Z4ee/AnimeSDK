@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIMAINCITYMENUSOPTIONWIDGETCONTROLLER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1500D9A0)
-#define MOLEMOLE_UIMAINCITYMENUSOPTIONWIDGETCONTROLLER___C__DISPLAYCLASS7_2__SHOWOPITON_B__26_OFFSET UNITYSDK_OFFSET(0x1500D9B0)
+#define MOLEMOLE_UIMAINCITYMENUSOPTIONWIDGETCONTROLLER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x178445D0)
+#define MOLEMOLE_UIMAINCITYMENUSOPTIONWIDGETCONTROLLER___C__DISPLAYCLASS7_2__SHOWOPITON_B__26_OFFSET UNITYSDK_OFFSET(0x178445E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenusOptionWidgetController___c__DisplayClass7_2_TypeDefinitionIndex = 71771;
+	inline static constexpr unsigned int UIMainCityMenusOptionWidgetController___c__DisplayClass7_2_TypeDefinitionIndex = 75335;
 
 	class UIMainCityMenusOptionWidgetController___c__DisplayClass7_2 : public ::System::Object
 	{

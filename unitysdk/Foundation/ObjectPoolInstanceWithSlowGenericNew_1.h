@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolInstanceWithSlowGenericNew_1_TypeDefinitionIndex = 7998;
+	inline static constexpr unsigned int ObjectPoolInstanceWithSlowGenericNew_1_TypeDefinitionIndex = 8025;
 
 	template <typename T>
 	class ObjectPoolInstanceWithSlowGenericNew_1 : public ::Foundation::ObjectPoolInstance_1<T>

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONONAMECARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x142AC730)
+#define MOLEMOLE_MONONAMECARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11640200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoNameCardConfig_TypeDefinitionIndex = 75133;
+	inline static constexpr unsigned int MonoNameCardConfig_TypeDefinitionIndex = 48498;
 
 	class MonoNameCardConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

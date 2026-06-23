@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class RegexBoyerMoore; }
 namespace System::Text::RegularExpressions { class RegexPrefix; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_MAKEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x19A74C90)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x19A74BB0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODESIZE_OFFSET UNITYSDK_OFFSET(0x19A74BD0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A74AD0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_MAKEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BEE6660)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x1BEE6580)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODESIZE_OFFSET UNITYSDK_OFFSET(0x1BEE65A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE64A0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexCode_TypeDefinitionIndex = 2731;
+	inline static constexpr unsigned int RegexCode_TypeDefinitionIndex = 2730;
 
 	class RegexCode : public ::System::Object
 	{
@@ -69,13 +69,13 @@ namespace System::Text::RegularExpressions
 		// static const ::System::Int32 Back = 0x80; // 0x0
 		// static const ::System::Int32 Back2 = 0x100; // 0x0
 		// static const ::System::Int32 Ci = 0x200; // 0x0
-		::System::Collections::Hashtable* _caps; // 0x10
-		::Il2CppArray<::System::String*>* _strings; // 0x18
-		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x20
-		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x28
-		::Il2CppArray<::System::Int32>* _codes; // 0x30
-		::System::Boolean _rightToLeft; // 0x38
-		::System::Int32 _capsize; // 0x3C
+		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x10
+		::Il2CppArray<::System::Int32>* _codes; // 0x18
+		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x20
+		::System::Collections::Hashtable* _caps; // 0x28
+		::Il2CppArray<::System::String*>* _strings; // 0x30
+		::System::Int32 _capsize; // 0x38
+		::System::Boolean _rightToLeft; // 0x3C
 		::System::Int32 _trackcount; // 0x40
 		::System::Int32 _anchors; // 0x44
 

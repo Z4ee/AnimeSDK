@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeConditionBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xCD30EA0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xCD30FB0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xCD30F40)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xCD31010)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xCD31080)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xD414940)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD414A60)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xD4149F0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xD414AC0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xD414B30)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_AttractorCandidateCondition_TypeDefinitionIndex = 80604;
+	inline static constexpr unsigned int VirtualProxy_AttractorCandidateCondition_TypeDefinitionIndex = 56531;
 
-	class VirtualProxy_AttractorCandidateCondition : public ::StateTreeCore::VirtualProxy_StateTreeConditionBase
+	class VirtualProxy_AttractorCandidateCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{
 	public:
 		::System::Void _ctor()
@@ -34,9 +34,9 @@ namespace NPCCrowd::Ability
 			return ((::UnrealTypes::DataValidationResult(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeDataView))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_COMPILE_OFFSET))(this, self, instanceDataView);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

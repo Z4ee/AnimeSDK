@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeUtility_AlignOfHelper_1_TypeDefinitionIndex = 5112;
+	inline static constexpr unsigned int UnsafeUtility_AlignOfHelper_1_TypeDefinitionIndex = 5111;
 
 	template <typename T>
 	struct UnsafeUtility_AlignOfHelper_1

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_GenericDesktop_TypeDefinitionIndex = 29141;
+	inline static constexpr unsigned int HID_GenericDesktop_TypeDefinitionIndex = 31797;
 
 	enum class HID_GenericDesktop : ::System::Int32
 	{

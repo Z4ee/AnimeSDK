@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_24F60EA0D4DCCDF0.h"
 #include "unitysdk/Enum_3_2BD1943B012482C0.h"
-#include "unitysdk/Enum_3_4A097505A5A1A069.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/PipelineCamera/CameraPipeline_3.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
@@ -15,34 +15,34 @@ namespace PipelineCamera::SubModule { template <typename T> class CameraSequence
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_E06A2ADFFA06AB19_INITMODULE1_OFFSET UNITYSDK_OFFSET(0x133ED180)
-#define CLASS_1_E06A2ADFFA06AB19_INITMODULE2_OFFSET UNITYSDK_OFFSET(0x133ED310)
-#define CLASS_1_E06A2ADFFA06AB19_INITMODULE3_OFFSET UNITYSDK_OFFSET(0x133EDD40)
-#define CLASS_1_E06A2ADFFA06AB19_INITPIPELINE_OFFSET UNITYSDK_OFFSET(0x133EDED0)
-#define CLASS_1_E06A2ADFFA06AB19_METHOD_1_2F2E6C49AE161835_OFFSET UNITYSDK_OFFSET(0x133EE160)
-#define CLASS_1_E06A2ADFFA06AB19_METHOD_1_533404BA8D99FB73_OFFSET UNITYSDK_OFFSET(0x133EE050)
-#define CLASS_1_E06A2ADFFA06AB19__CCTOR_OFFSET UNITYSDK_OFFSET(0x133EDFA0)
-#define CLASS_1_E06A2ADFFA06AB19__CTOR_OFFSET UNITYSDK_OFFSET(0x133EDF90)
+#define CLASS_1_E06A2ADFFA06AB19_INITMODULE1_OFFSET UNITYSDK_OFFSET(0x14133220)
+#define CLASS_1_E06A2ADFFA06AB19_INITMODULE2_OFFSET UNITYSDK_OFFSET(0x141333B0)
+#define CLASS_1_E06A2ADFFA06AB19_INITMODULE3_OFFSET UNITYSDK_OFFSET(0x14133DE0)
+#define CLASS_1_E06A2ADFFA06AB19_INITPIPELINE_OFFSET UNITYSDK_OFFSET(0x14133F70)
+#define CLASS_1_E06A2ADFFA06AB19_METHOD_1_2F2E6C49AE161835_OFFSET UNITYSDK_OFFSET(0x14134200)
+#define CLASS_1_E06A2ADFFA06AB19_METHOD_1_533404BA8D99FB73_OFFSET UNITYSDK_OFFSET(0x141340F0)
+#define CLASS_1_E06A2ADFFA06AB19__CCTOR_OFFSET UNITYSDK_OFFSET(0x14134040)
+#define CLASS_1_E06A2ADFFA06AB19__CTOR_OFFSET UNITYSDK_OFFSET(0x14134030)
 
-inline static constexpr unsigned int Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex = 61447;
+inline static constexpr unsigned int Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex = 62019;
 
 class Class_1_E06A2ADFFA06AB19 : public ::System::Object
 {
 public:
 	static ::Foundation::Unreal::FName* StaticGet_Field_1_2()
 	{
-		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xD190);
+		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xC5F0);
 	}
 	static ::Foundation::Unreal::FName* StaticGet_Field_1_1()
 	{
-		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xD198);
+		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xC5F8);
 	}
 	static ::Foundation::Unreal::FName* StaticGet_Field_1_0()
 	{
-		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xD1A0);
+		return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E06A2ADFFA06AB19_TypeDefinitionIndex)->GetStaticField(0xC600);
 	}
-	::System::Action_1<::PipelineCamera::Module::InPlaceBlender*>* Field_1_4; // 0x10
-	::System::Action_2<::Enum_3_2BD1943B012482C0, ::PipelineCamera::SubModule::CameraSequenceCollectionPlayer_1<::PipelineCamera::WorldBasicCameraData>*>* Field_1_3; // 0x18
+	::System::Action_2<::Enum_3_2BD1943B012482C0, ::PipelineCamera::SubModule::CameraSequenceCollectionPlayer_1<::PipelineCamera::WorldBasicCameraData>*>* Field_1_3; // 0x10
+	::System::Action_1<::PipelineCamera::Module::InPlaceBlender*>* Field_1_4; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -79,8 +79,8 @@ public:
 		return ((::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID, ::Enum_3_2BD1943B012482C0))((::PBYTE)hIl2Cpp + CLASS_1_E06A2ADFFA06AB19_METHOD_1_533404BA8D99FB73_OFFSET))(this, a1);
 	}
 
-	static ::Enum_3_4A097505A5A1A069 Method_1_2F2E6C49AE161835(::Enum_3_2BD1943B012482C0 a1)
+	static ::Enum_3_24F60EA0D4DCCDF0 Method_1_2F2E6C49AE161835(::Enum_3_2BD1943B012482C0 a1)
 	{
-		return ((::Enum_3_4A097505A5A1A069(*)(::Enum_3_2BD1943B012482C0))((::PBYTE)hIl2Cpp + CLASS_1_E06A2ADFFA06AB19_METHOD_1_2F2E6C49AE161835_OFFSET))(a1);
+		return ((::Enum_3_24F60EA0D4DCCDF0(*)(::Enum_3_2BD1943B012482C0))((::PBYTE)hIl2Cpp + CLASS_1_E06A2ADFFA06AB19_METHOD_1_2F2E6C49AE161835_OFFSET))(a1);
 	}
 };

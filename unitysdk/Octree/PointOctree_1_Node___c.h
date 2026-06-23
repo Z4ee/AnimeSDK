@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Octree
 {
-	inline static constexpr unsigned int PointOctree_1_Node___c_TypeDefinitionIndex = 41610;
+	inline static constexpr unsigned int PointOctree_1_Node___c_TypeDefinitionIndex = 67397;
 
 	template <typename T>
 	class PointOctree_1_Node___c : public ::System::Object

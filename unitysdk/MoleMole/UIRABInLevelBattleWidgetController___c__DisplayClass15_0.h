@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_980AD78C3BD5BDE0;
+namespace MoleMole { class UIRABInLevelBattleWidgetController; }
+
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x152A9D30)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x152AA010)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x152AA1E0)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__3_OFFSET UNITYSDK_OFFSET(0x152AA330)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x152AA400)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152A9D20)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABInLevelBattleWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 85610;
+
+	class UIRABInLevelBattleWidgetController___c__DisplayClass15_0 : public ::System::Object
+	{
+	public:
+		::MoleMole::UIRABInLevelBattleWidgetController* __4__this; // 0x10
+		::Class_1_980AD78C3BD5BDE0* viewModel; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _BindView_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__0_OFFSET))(this);
+		}
+
+		::System::Void _BindView_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__1_OFFSET))(this);
+		}
+
+		::System::Void _BindView_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__2_OFFSET))(this);
+		}
+
+		::System::Void _BindView_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__3_OFFSET))(this);
+		}
+
+		::System::Void _BindView_b__4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS15_0__BINDVIEW_B__4_OFFSET))(this);
+		}
+	};
+}

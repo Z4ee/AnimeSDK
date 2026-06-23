@@ -15,56 +15,56 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_ATTACHEXTRAOBJECTS_OFFSET UNITYSDK_OFFSET(0x1A216D70)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_CURRENTGRAPH_OFFSET UNITYSDK_OFFSET(0x1A217190)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_ISINSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1A2170D0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_SHAREDDESERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1A217070)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_SHAREDSERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1A217010)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x1A216520)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_MARKUNINIT_OFFSET UNITYSDK_OFFSET(0x1A2167E0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_RESET_OFFSET UNITYSDK_OFFSET(0x1A216D10)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_SET_CURRENTGRAPH_OFFSET UNITYSDK_OFFSET(0x1A2171F0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_SET_ISINSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1A217130)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A216510)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__INIT_G____GETFORMATTERS_3_1_OFFSET UNITYSDK_OFFSET(0x1A216AF0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__INIT_G____GETRESOLVERS_3_0_OFFSET UNITYSDK_OFFSET(0x1A216840)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__REFRESHDESERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1A216F50)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__REFRESHSERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1A216E90)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_ATTACHEXTRAOBJECTS_OFFSET UNITYSDK_OFFSET(0x1C642D50)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_CURRENTGRAPH_OFFSET UNITYSDK_OFFSET(0x1C643170)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_ISINSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1C6430B0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_SHAREDDESERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1C643050)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_GET_SHAREDSERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1C642FF0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x1C642510)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_MARKUNINIT_OFFSET UNITYSDK_OFFSET(0x1C6427D0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_RESET_OFFSET UNITYSDK_OFFSET(0x1C642CF0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_SET_CURRENTGRAPH_OFFSET UNITYSDK_OFFSET(0x1C6431D0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_SET_ISINSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1C643110)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C642500)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__INIT_G____GETFORMATTERS_3_1_OFFSET UNITYSDK_OFFSET(0x1C642AE0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__INIT_G____GETRESOLVERS_3_0_OFFSET UNITYSDK_OFFSET(0x1C642830)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__REFRESHDESERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1C642F30)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER__REFRESHSERIALIZEOPTION_OFFSET UNITYSDK_OFFSET(0x1C642E70)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int Graph_BinarySerializer_TypeDefinitionIndex = 28209;
+	inline static constexpr unsigned int Graph_BinarySerializer_TypeDefinitionIndex = 29499;
 
 	class Graph_BinarySerializer : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::GraphUserObject** StaticGet__sharedUserObject()
-		{
-			return (::MessagePack::Formatters::GraphUserObject**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x1FE40);
-		}
 		static ::MessagePack::GraphMemoryStreamBufferWriter** StaticGet__graphBufferWriter()
 		{
-			return (::MessagePack::GraphMemoryStreamBufferWriter**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x1FE48);
-		}
-		static ::MessagePack::MessagePackSerializerOptions** StaticGet__sharedDeserializeOption()
-		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x1FE50);
-		}
-		static ::MessagePack::MessagePackSerializerOptions** StaticGet__sharedSerializeOption()
-		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x1FE58);
+			return (::MessagePack::GraphMemoryStreamBufferWriter**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x23BD0);
 		}
 		static ::NodeCanvas::Framework::Graph** StaticGet__currentGraph_k__BackingField()
 		{
-			return (::NodeCanvas::Framework::Graph**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x1FE60);
+			return (::NodeCanvas::Framework::Graph**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x23BD8);
 		}
-		static ::System::Boolean* StaticGet__IsInSerializing_k__BackingField()
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet__sharedDeserializeOption()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x49D0);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x23BE0);
+		}
+		static ::MessagePack::Formatters::GraphUserObject** StaticGet__sharedUserObject()
+		{
+			return (::MessagePack::Formatters::GraphUserObject**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x23BE8);
+		}
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet__sharedSerializeOption()
+		{
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x23BF0);
 		}
 		static ::System::Boolean* StaticGet__isInit()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x49D1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x7AA0);
+		}
+		static ::System::Boolean* StaticGet__IsInSerializing_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_TypeDefinitionIndex)->GetStaticField(0x7AA1);
 		}
 
 		static ::System::Void _cctor()

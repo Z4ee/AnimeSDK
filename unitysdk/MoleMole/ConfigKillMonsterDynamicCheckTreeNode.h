@@ -6,12 +6,12 @@ class Class_1_663AFC2250EC21C9;
 class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 namespace MoleMole::Config { class DynamicString; }
 
-#define MOLEMOLE_CONFIGKILLMONSTERDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x17D31580)
-#define MOLEMOLE_CONFIGKILLMONSTERDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D31660)
+#define MOLEMOLE_CONFIGKILLMONSTERDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A077F70)
+#define MOLEMOLE_CONFIGKILLMONSTERDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A078050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigKillMonsterDynamicCheckTreeNode_TypeDefinitionIndex = 45980;
+	inline static constexpr unsigned int ConfigKillMonsterDynamicCheckTreeNode_TypeDefinitionIndex = 73474;
 
 	class ConfigKillMonsterDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{

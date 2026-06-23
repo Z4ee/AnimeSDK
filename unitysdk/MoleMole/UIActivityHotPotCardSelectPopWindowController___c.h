@@ -4,29 +4,29 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15613F10)
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15613F50)
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__GACHAANDSHOW_B__25_0_OFFSET UNITYSDK_OFFSET(0x15613F70)
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__GACHAANDSHOW_B__25_2_OFFSET UNITYSDK_OFFSET(0x15613F60)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181B2020)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181B2060)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__GACHAANDSHOW_B__25_0_OFFSET UNITYSDK_OFFSET(0x181B2080)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__GACHAANDSHOW_B__25_2_OFFSET UNITYSDK_OFFSET(0x181B2070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex = 53698;
+	inline static constexpr unsigned int UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex = 63904;
 
 	class UIActivityHotPotCardSelectPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__25_0()
+		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__25_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x325B0);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34460);
 		}
 		static ::MoleMole::UIActivityHotPotCardSelectPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityHotPotCardSelectPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x325B8);
+			return (::MoleMole::UIActivityHotPotCardSelectPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34468);
 		}
-		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__25_2()
+		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x325C0);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotCardSelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34470);
 		}
 
 		static ::System::Void _cctor()

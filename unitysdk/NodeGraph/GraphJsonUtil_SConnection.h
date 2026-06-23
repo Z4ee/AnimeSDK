@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphJsonUtil_SConnection_TypeDefinitionIndex = 72605;
+	inline static constexpr unsigned int GraphJsonUtil_SConnection_TypeDefinitionIndex = 41826;
 
 	struct alignas(8) GraphJsonUtil_SConnection
 	{

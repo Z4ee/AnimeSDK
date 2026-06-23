@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWTIPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4D180)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWTIPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12621C90)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowTipItem_TypeDefinitionIndex = 57928;
+	inline static constexpr unsigned int HollowTipItem_TypeDefinitionIndex = 60645;
 
 	class HollowTipItem : public ::System::Object
 	{

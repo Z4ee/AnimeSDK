@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/GlitchBehaviour_Struct_2_52AD02145F5FCE3A_26.h"
+#include "unitysdk/MoleMole/Timeline/GlitchBehaviour_Struct_2_52AD02145F5FCE3A_22.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
@@ -12,26 +12,26 @@ namespace System { class String; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class Glitch; }
 
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x12FB2190)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x12FB6BD0)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x12FB6C00)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_86D92BEB6F08DBB0_OFFSET UNITYSDK_OFFSET(0x12FB2A40)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET UNITYSDK_OFFSET(0x12FB31B0)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x12FB6BF0)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x12FB6BE0)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x12FB2E30)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x12FB5B30)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x12FB5FC0)
-#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12FB6AE0)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x141A8030)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x141ACA90)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x141ACA80)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_86D92BEB6F08DBB0_OFFSET UNITYSDK_OFFSET(0x141A88E0)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET UNITYSDK_OFFSET(0x141A9050)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x141ACAA0)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x141ACA70)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x141A8CD0)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x141AB9D0)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x141ABE60)
+#define MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x141AC980)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GlitchBehaviour_TypeDefinitionIndex = 77837;
+	inline static constexpr unsigned int GlitchBehaviour_TypeDefinitionIndex = 70512;
 
 	class GlitchBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::GlitchBehaviour_Struct_2_52AD02145F5FCE3A_26 _methodParm; // 0x18
+		::MoleMole::Timeline::GlitchBehaviour_Struct_2_52AD02145F5FCE3A_22 _methodParm; // 0x18
 		::System::Boolean enabled; // 0x148
 		::System::Boolean active_glitchAngle; // 0x149
 		::System::Boolean use_glitchAngle; // 0x14A
@@ -150,9 +150,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::Universal::Glitch* Method_4_86D92BEB6F08DBB0(::System::Object* a1)
@@ -160,9 +160,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Rendering::Universal::Glitch*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_86D92BEB6F08DBB0_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_4_8DC55F996A78F0A1()
@@ -170,14 +170,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET))(this);
 		}
 
+		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+		}
+
 		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
 
-#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x1A585C00)
+#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x1C8A4EC0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityProtocol_TypeDefinitionIndex = 3260;
+	inline static constexpr unsigned int SecurityProtocol_TypeDefinitionIndex = 3259;
 
 	class SecurityProtocol : public ::System::Object
 	{

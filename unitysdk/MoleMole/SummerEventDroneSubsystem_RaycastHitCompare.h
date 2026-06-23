@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-#define MOLEMOLE_SUMMEREVENTDRONESUBSYSTEM_RAYCASTHITCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x11DFA200)
-#define MOLEMOLE_SUMMEREVENTDRONESUBSYSTEM_RAYCASTHITCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x11DFA2F0)
+#define MOLEMOLE_SUMMEREVENTDRONESUBSYSTEM_RAYCASTHITCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1839A560)
+#define MOLEMOLE_SUMMEREVENTDRONESUBSYSTEM_RAYCASTHITCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x1839A650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventDroneSubsystem_RaycastHitCompare_TypeDefinitionIndex = 62710;
+	inline static constexpr unsigned int SummerEventDroneSubsystem_RaycastHitCompare_TypeDefinitionIndex = 87306;
 
 	class SummerEventDroneSubsystem_RaycastHitCompare : public ::System::Object
 	{

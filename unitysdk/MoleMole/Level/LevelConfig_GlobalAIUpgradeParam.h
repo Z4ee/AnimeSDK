@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GLOBALAIUPGRADEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16052150)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GLOBALAIUPGRADEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC7590)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_GlobalAIUpgradeParam_TypeDefinitionIndex = 48339;
+	inline static constexpr unsigned int LevelConfig_GlobalAIUpgradeParam_TypeDefinitionIndex = 47027;
 
 	class LevelConfig_GlobalAIUpgradeParam : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawPerObjectShadowParams_TypeDefinitionIndex = 5921;
+	inline static constexpr unsigned int DrawPerObjectShadowParams_TypeDefinitionIndex = 5930;
 
 	struct alignas(8) DrawPerObjectShadowParams
 	{

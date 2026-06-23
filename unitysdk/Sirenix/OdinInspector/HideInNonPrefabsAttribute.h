@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_HIDEINNONPREFABSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01FED0)
+#define SIRENIX_ODININSPECTOR_HIDEINNONPREFABSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3291E0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideInNonPrefabsAttribute_TypeDefinitionIndex = 7174;
+	inline static constexpr unsigned int HideInNonPrefabsAttribute_TypeDefinitionIndex = 7305;
 
 	class HideInNonPrefabsAttribute : public ::System::Attribute
 	{

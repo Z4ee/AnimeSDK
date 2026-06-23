@@ -9,18 +9,18 @@ class Class_2_1824EF69C8E376A3;
 namespace MoleMole { class UIRoleSelectPageController; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_78A281F5BD052587_METHOD_1_4A41C63BFE58D26F_OFFSET UNITYSDK_OFFSET(0xF0C66E0)
-#define CLASS_1_78A281F5BD052587_METHOD_1_7B0E43C8432546B5_OFFSET UNITYSDK_OFFSET(0xF0C6630)
-#define CLASS_1_78A281F5BD052587__CTOR_OFFSET UNITYSDK_OFFSET(0xF0C6610)
+#define CLASS_1_78A281F5BD052587_METHOD_1_4A41C63BFE58D26F_OFFSET UNITYSDK_OFFSET(0x13331A00)
+#define CLASS_1_78A281F5BD052587_METHOD_1_7B0E43C8432546B5_OFFSET UNITYSDK_OFFSET(0x13331950)
+#define CLASS_1_78A281F5BD052587__CTOR_OFFSET UNITYSDK_OFFSET(0x13331930)
 
-inline static constexpr unsigned int Class_1_78A281F5BD052587_TypeDefinitionIndex = 54239;
+inline static constexpr unsigned int Class_1_78A281F5BD052587_TypeDefinitionIndex = 45009;
 
 class Class_1_78A281F5BD052587 : public ::System::Object
 {
 public:
 	::Class_1_A0B1A57C6DC75B0F* Field_1_2; // 0x10
-	::Class_2_1824EF69C8E376A3* Field_1_1; // 0x18
-	::MoleMole::UIRoleSelectPageController* Field_1_3; // 0x20
+	::MoleMole::UIRoleSelectPageController* Field_1_3; // 0x18
+	::Class_2_1824EF69C8E376A3* Field_1_1; // 0x20
 	::System::Int32 Field_1_0; // 0x28
 
 	::System::Void _ctor(::MoleMole::UIRoleSelectPageController* a1, ::Class_2_1824EF69C8E376A3* a2, ::System::Int32 a3, ::Class_1_A0B1A57C6DC75B0F* a4)

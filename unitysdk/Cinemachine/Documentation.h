@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 32551;
+	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 34102;
 
 	class Documentation : public ::System::Object
 	{

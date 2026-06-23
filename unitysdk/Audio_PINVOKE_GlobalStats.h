@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Audio_PINVOKE_GlobalStats_TypeDefinitionIndex = 67773;
+inline static constexpr unsigned int Audio_PINVOKE_GlobalStats_TypeDefinitionIndex = 86142;
 
 struct alignas(8) Audio_PINVOKE_GlobalStats
 {

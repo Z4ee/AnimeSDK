@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int ContentType_TypeDefinitionIndex = 2355;
+	inline static constexpr unsigned int ContentType_TypeDefinitionIndex = 2354;
 
 	enum class ContentType : ::System::Byte
 	{

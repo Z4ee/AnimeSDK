@@ -8,10 +8,10 @@ namespace MoleMole::HollowChessboard { class PieceMaterialChangeEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_EBACA96C31DAB7D8_METHOD_1_A5453DCD1168E46B_OFFSET UNITYSDK_OFFSET(0x12C10910)
-#define CLASS_1_EBACA96C31DAB7D8__CTOR_OFFSET UNITYSDK_OFFSET(0x12C108C0)
+#define CLASS_1_EBACA96C31DAB7D8_METHOD_1_A5453DCD1168E46B_OFFSET UNITYSDK_OFFSET(0x1609EDE0)
+#define CLASS_1_EBACA96C31DAB7D8__CTOR_OFFSET UNITYSDK_OFFSET(0x1609ED90)
 
-inline static constexpr unsigned int Class_1_EBACA96C31DAB7D8_TypeDefinitionIndex = 66256;
+inline static constexpr unsigned int Class_1_EBACA96C31DAB7D8_TypeDefinitionIndex = 76503;
 
 class Class_1_EBACA96C31DAB7D8 : public ::System::Object
 {

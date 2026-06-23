@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapBundleInfo_TypeDefinitionIndex = 7602;
+	inline static constexpr unsigned int NapBundleInfo_TypeDefinitionIndex = 7678;
 
 	struct alignas(8) NapBundleInfo
 	{

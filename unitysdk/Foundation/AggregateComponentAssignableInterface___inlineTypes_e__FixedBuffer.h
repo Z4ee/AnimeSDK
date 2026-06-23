@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateComponentAssignableInterface___inlineTypes_e__FixedBuffer_TypeDefinitionIndex = 8957;
+	inline static constexpr unsigned int AggregateComponentAssignableInterface___inlineTypes_e__FixedBuffer_TypeDefinitionIndex = 8631;
 
 	struct alignas(8) AggregateComponentAssignableInterface___inlineTypes_e__FixedBuffer
 	{

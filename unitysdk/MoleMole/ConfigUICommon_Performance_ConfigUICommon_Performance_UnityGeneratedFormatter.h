@@ -16,50 +16,50 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11CC0790)
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11CC07A0)
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11CC0FA0)
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CC1470)
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC1430)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x192B6370)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x192B6380)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x192B6B80)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x192B7050)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_CONFIGUICOMMON_PERFORMANCE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x192B7010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex = 81022;
+	inline static constexpr unsigned int ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex = 43116;
 
 	class ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUICommon_Performance*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigGeneralIconBadgeColor*>*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigGeneralIconBadgeColor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8E0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIVirtualCameraConfigs*>*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIVirtualCameraConfigs*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8E8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIVirtualCameraConfigs*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EA0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::AssetPath>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8F0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector2>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8F8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>*>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E900);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::PropBgLevel*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::PropBgLevel*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E908);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EA8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E910);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EB0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigGeneralIconBadgeColor*>*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigGeneralIconBadgeColor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EB8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector2>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EC0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::PropBgLevel*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::PropBgLevel*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40EC8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>*>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40ED0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>** StaticGet_CachedSerializer6()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E918);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Performance_ConfigUICommon_Performance_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40ED8);
 		}
 
 		::System::Void _ctor()

@@ -2,79 +2,79 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_4;
+class Class_0_16E4307DCC419505_35;
 class Class_1_0D6706375CDAAE8C;
 class Class_1_A047EA5169B6B30F;
-class Class_3_48A3D3A34C52331D_6;
+class Class_3_48A3D3A34C52331D_46;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152653A0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152653E0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__EXITHOLLOW_B__75_0_OFFSET UNITYSDK_OFFSET(0x15265A70)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__INITMISSION_B__71_0_OFFSET UNITYSDK_OFFSET(0x152658D0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__INITMISSION_B__71_1_OFFSET UNITYSDK_OFFSET(0x152659A0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONSHOW_B__19_2_OFFSET UNITYSDK_OFFSET(0x152653F0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONSHOW_B__19_3_OFFSET UNITYSDK_OFFSET(0x15265400)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_0_OFFSET UNITYSDK_OFFSET(0x15265740)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_1_OFFSET UNITYSDK_OFFSET(0x15265770)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_2_OFFSET UNITYSDK_OFFSET(0x152657A0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_2_OFFSET UNITYSDK_OFFSET(0x15265450)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_3_OFFSET UNITYSDK_OFFSET(0x15265410)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1697D4B0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1697D4F0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__EXITHOLLOW_B__75_0_OFFSET UNITYSDK_OFFSET(0x1697DBD0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__INITMISSION_B__71_0_OFFSET UNITYSDK_OFFSET(0x1697DA30)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__INITMISSION_B__71_1_OFFSET UNITYSDK_OFFSET(0x1697DB00)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONSHOW_B__19_2_OFFSET UNITYSDK_OFFSET(0x1697D500)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONSHOW_B__19_3_OFFSET UNITYSDK_OFFSET(0x1697D510)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_0_OFFSET UNITYSDK_OFFSET(0x1697D8A0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_1_OFFSET UNITYSDK_OFFSET(0x1697D8D0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONUIINIT_B__29_2_OFFSET UNITYSDK_OFFSET(0x1697D900)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_2_OFFSET UNITYSDK_OFFSET(0x1697D560)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_3_OFFSET UNITYSDK_OFFSET(0x1697D520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController___c_TypeDefinitionIndex = 80786;
+	inline static constexpr unsigned int UIHollowResultPageController___c_TypeDefinitionIndex = 57538;
 
 	class UIHollowResultPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__19_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32870);
-		}
-		static ::System::Action** StaticGet___9__19_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32878);
-		}
-		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__29_2()
-		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32880);
-		}
 		static ::System::Action** StaticGet___9__75_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32888);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34700);
 		}
-		static ::System::Action_1<::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_4*>*>** StaticGet___9__23_2()
+		static ::System::Action_1<::Class_3_48A3D3A34C52331D_46*>** StaticGet___9__23_3()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_4*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32890);
-		}
-		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>** StaticGet___9__29_0()
-		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x32898);
-		}
-		static ::System::Comparison_1<::Class_1_A047EA5169B6B30F*>** StaticGet___9__71_0()
-		{
-			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x328A0);
+			return (::System::Action_1<::Class_3_48A3D3A34C52331D_46*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34708);
 		}
 		static ::MoleMole::UIHollowResultPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x328A8);
+			return (::MoleMole::UIHollowResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34710);
 		}
 		static ::System::Comparison_1<::Class_1_A047EA5169B6B30F*>** StaticGet___9__71_1()
 		{
-			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x328B0);
+			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34718);
 		}
-		static ::System::Action_1<::Class_3_48A3D3A34C52331D_6*>** StaticGet___9__23_3()
+		static ::System::Action_1<::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_35*>*>** StaticGet___9__23_2()
 		{
-			return (::System::Action_1<::Class_3_48A3D3A34C52331D_6*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x328B8);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_35*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34720);
+		}
+		static ::System::Action** StaticGet___9__19_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34728);
+		}
+		static ::System::Action** StaticGet___9__19_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34730);
+		}
+		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>** StaticGet___9__29_0()
+		{
+			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34738);
+		}
+		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__29_2()
+		{
+			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34740);
+		}
+		static ::System::Comparison_1<::Class_1_A047EA5169B6B30F*>** StaticGet___9__71_0()
+		{
+			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34748);
 		}
 		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>** StaticGet___9__29_1()
 		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x328C0);
+			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34750);
 		}
 
 		static ::System::Void _cctor()
@@ -97,14 +97,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__ONSHOW_B__19_3_OFFSET))(this);
 		}
 
-		::System::Void __TryRallyNext_b__23_3(::Class_3_48A3D3A34C52331D_6* ret)
+		::System::Void __TryRallyNext_b__23_3(::Class_3_48A3D3A34C52331D_46* ret)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_3_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_46*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_3_OFFSET))(this, ret);
 		}
 
-		::System::Void __TryRallyNext_b__23_2(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_4*>* ntfs)
+		::System::Void __TryRallyNext_b__23_2(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_35*>* ntfs)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_4*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_2_OFFSET))(this, ntfs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_35*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C___TRYRALLYNEXT_B__23_2_OFFSET))(this, ntfs);
 		}
 
 		::System::Boolean _OnUIInit_b__29_0(::Class_1_0D6706375CDAAE8C* item)

@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E579D0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16E579E0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16E57BC0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E57D60)
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E57D20)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10D4BCC0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10D4BCD0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10D4BEB0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D4C050)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_MAINCITYCHATQUESTRECOMMENDNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4C010)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex = 47473;
+	inline static constexpr unsigned int MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex = 75206;
 
 	class MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatQuestRecommendNode*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32380);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34260);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32388);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatQuestRecommendNode_MainCityChatQuestRecommendNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34268);
 		}
 
 		::System::Void _ctor()

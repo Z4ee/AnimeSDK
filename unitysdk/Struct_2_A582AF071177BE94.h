@@ -3,7 +3,7 @@
 #include "unitysdk/Enum_3_ECC84FB0054AAAC5.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_A582AF071177BE94_TypeDefinitionIndex = 82742;
+inline static constexpr unsigned int Struct_2_A582AF071177BE94_TypeDefinitionIndex = 75556;
 
 template <typename TData, typename TTimeScale>
 struct Struct_2_A582AF071177BE94

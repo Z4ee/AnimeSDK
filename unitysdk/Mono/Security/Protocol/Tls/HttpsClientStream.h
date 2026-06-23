@@ -7,13 +7,13 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM_GET_TRUSTFAILURE_OFFSET UNITYSDK_OFFSET(0x1C483F40)
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM_RAISESERVERCERTIFICATEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1C483F60)
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C483B60)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM_GET_TRUSTFAILURE_OFFSET UNITYSDK_OFFSET(0x1E7C1F00)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM_RAISESERVERCERTIFICATEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1E7C1F20)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C1B20)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int HttpsClientStream_TypeDefinitionIndex = 2361;
+	inline static constexpr unsigned int HttpsClientStream_TypeDefinitionIndex = 2360;
 
 	class HttpsClientStream : public ::Mono::Security::Protocol::Tls::SslClientStream
 	{

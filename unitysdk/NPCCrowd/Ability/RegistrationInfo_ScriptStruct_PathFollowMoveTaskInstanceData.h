@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWMOVETASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD0C4770)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWMOVETASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0C4630)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWMOVETASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1178CEC0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWMOVETASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1178CD80)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex = 38165;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex = 51507;
 
 	class RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x35930);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x38360);
 		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x35938);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowMoveTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x38368);
 		}
 
 		static ::System::Void _cctor()

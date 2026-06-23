@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_RiseOrSink; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RISEORSINK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17536760)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RISEORSINK___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x17536770)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RISEORSINK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x144E0B40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RISEORSINK___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x144E0B50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_RiseOrSink___c__DisplayClass2_0_TypeDefinitionIndex = 43441;
+	inline static constexpr unsigned int ConfigHollowChessboard_RiseOrSink___c__DisplayClass2_0_TypeDefinitionIndex = 64438;
 
 	class ConfigHollowChessboard_RiseOrSink___c__DisplayClass2_0 : public ::System::Object
 	{

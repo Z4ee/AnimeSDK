@@ -8,22 +8,22 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1BBDAC70)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1BBDB250)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1BBDB240)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_REWRITE_OFFSET UNITYSDK_OFFSET(0x1BBDB260)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_SAMEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1BBDACE0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDAC00)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1DF2EEC0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1DF2F4A0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1DF2F490)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_REWRITE_OFFSET UNITYSDK_OFFSET(0x1DF2F4B0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2_SAMEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1DF2EF30)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK2__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF2EE50)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Block2_TypeDefinitionIndex = 4432;
+	inline static constexpr unsigned int Block2_TypeDefinitionIndex = 4431;
 
 	class Block2 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Object* _arg0; // 0x10
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
+		::System::Linq::Expressions::Expression* _arg1; // 0x10
+		::System::Object* _arg0; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1)
 		{

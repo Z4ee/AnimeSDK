@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_GETREGIONTRANSLATIONERRORRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x199976A0)
+#define MIHOYO_SDK_GETREGIONTRANSLATIONERRORRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF64760)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GetRegionTranslationErrorResponse_TypeDefinitionIndex = 18821;
+	inline static constexpr unsigned int GetRegionTranslationErrorResponse_TypeDefinitionIndex = 19717;
 
 	class GetRegionTranslationErrorResponse : public ::System::Object
 	{

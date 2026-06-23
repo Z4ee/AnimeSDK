@@ -3,7 +3,7 @@
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int INullable_TypeDefinitionIndex = 37092;
+	inline static constexpr unsigned int INullable_TypeDefinitionIndex = 38709;
 
 	class INullable
 	{

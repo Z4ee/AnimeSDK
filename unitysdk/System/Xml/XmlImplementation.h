@@ -5,13 +5,13 @@
 namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_XMLIMPLEMENTATION_CREATEDOCUMENT_OFFSET UNITYSDK_OFFSET(0x19D538B0)
-#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19D4E6B0)
-#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19D4E380)
+#define SYSTEM_XML_XMLIMPLEMENTATION_CREATEDOCUMENT_OFFSET UNITYSDK_OFFSET(0x1C18A3E0)
+#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C185230)
+#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C184F00)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlImplementation_TypeDefinitionIndex = 1770;
+	inline static constexpr unsigned int XmlImplementation_TypeDefinitionIndex = 1769;
 
 	class XmlImplementation : public ::System::Object
 	{

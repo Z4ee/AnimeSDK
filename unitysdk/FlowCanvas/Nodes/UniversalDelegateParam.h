@@ -10,11 +10,11 @@ namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class FieldInfo; }
 
-#define FLOWCANVAS_NODES_UNIVERSALDELEGATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EE300)
+#define FLOWCANVAS_NODES_UNIVERSALDELEGATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534B40)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int UniversalDelegateParam_TypeDefinitionIndex = 27132;
+	inline static constexpr unsigned int UniversalDelegateParam_TypeDefinitionIndex = 30217;
 
 	class UniversalDelegateParam : public ::System::Object
 	{

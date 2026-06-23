@@ -9,7 +9,7 @@ namespace UnityEngine::InputSystem::LowLevel { template <typename T> class Input
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateHistory_1_Record_TypeDefinitionIndex = 29301;
+	inline static constexpr unsigned int InputStateHistory_1_Record_TypeDefinitionIndex = 31957;
 
 	template <typename TValue>
 	struct InputStateHistory_1_Record

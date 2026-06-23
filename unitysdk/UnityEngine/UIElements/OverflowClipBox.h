@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int OverflowClipBox_TypeDefinitionIndex = 24964;
+	inline static constexpr unsigned int OverflowClipBox_TypeDefinitionIndex = 27467;
 
 	enum class OverflowClipBox : ::System::Int32
 	{

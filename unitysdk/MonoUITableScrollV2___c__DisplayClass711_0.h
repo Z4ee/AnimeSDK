@@ -4,19 +4,19 @@
 
 class MonoUITableScrollV2;
 
-#define MONOUITABLESCROLLV2___C__DISPLAYCLASS711_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A250B0)
-#define MONOUITABLESCROLLV2___C__DISPLAYCLASS711_0__SELECTITEM_B__0_OFFSET UNITYSDK_OFFSET(0x10A250C0)
+#define MONOUITABLESCROLLV2___C__DISPLAYCLASS711_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA8480)
+#define MONOUITABLESCROLLV2___C__DISPLAYCLASS711_0__SELECTITEM_B__0_OFFSET UNITYSDK_OFFSET(0x12CA8490)
 
-inline static constexpr unsigned int MonoUITableScrollV2___c__DisplayClass711_0_TypeDefinitionIndex = 54052;
+inline static constexpr unsigned int MonoUITableScrollV2___c__DisplayClass711_0_TypeDefinitionIndex = 69975;
 
 class MonoUITableScrollV2___c__DisplayClass711_0 : public ::System::Object
 {
 public:
 	::MonoUITableScrollV2* __4__this; // 0x10
-	::System::Int32 index; // 0x18
-	::System::Boolean hasAnim; // 0x1C
-	::System::Boolean ignoreClickCb; // 0x1D
-	::System::Boolean ignoreSelectCb; // 0x1E
+	::System::Boolean ignoreSelectCb; // 0x18
+	::System::Boolean hasAnim; // 0x19
+	::System::Boolean ignoreClickCb; // 0x1A
+	::System::Int32 index; // 0x1C
 
 	::System::Void _ctor()
 	{

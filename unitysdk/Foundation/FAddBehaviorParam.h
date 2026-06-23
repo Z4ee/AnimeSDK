@@ -9,7 +9,7 @@ namespace Foundation { class ITimestamp; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FAddBehaviorParam_TypeDefinitionIndex = 9101;
+	inline static constexpr unsigned int FAddBehaviorParam_TypeDefinitionIndex = 8628;
 
 	struct alignas(8) FAddBehaviorParam
 	{

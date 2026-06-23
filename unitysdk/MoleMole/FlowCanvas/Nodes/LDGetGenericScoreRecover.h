@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E09890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x10E09920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B208A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B20930)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetGenericScoreRecover_TypeDefinitionIndex = 49318;
+	inline static constexpr unsigned int LDGetGenericScoreRecover_TypeDefinitionIndex = 41925;
 
 	class LDGetGenericScoreRecover : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
 	{

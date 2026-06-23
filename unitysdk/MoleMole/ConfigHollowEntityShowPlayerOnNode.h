@@ -6,21 +6,21 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIGHOLLOWENTITYSHOWPLAYERONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xFB14290)
-#define MOLEMOLE_CONFIGHOLLOWENTITYSHOWPLAYERONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xFB14300)
+#define MOLEMOLE_CONFIGHOLLOWENTITYSHOWPLAYERONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xE9832A0)
+#define MOLEMOLE_CONFIGHOLLOWENTITYSHOWPLAYERONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE983310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigHollowEntityShowPlayerOnNode_TypeDefinitionIndex = 48453;
+	inline static constexpr unsigned int ConfigHollowEntityShowPlayerOnNode_TypeDefinitionIndex = 51867;
 
 	class ConfigHollowEntityShowPlayerOnNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::PlayerOnViewState PlayerOnState; // 0x18
-		::System::Boolean FixedPlayerOnState; // 0x19
-		::System::Boolean FixedPlayerOnKey; // 0x1A
-		::System::Boolean UsePrev; // 0x1B
-		::MoleMole::Config::DirectionPlayerOnKey PlayerOnKey; // 0x1C
+		::MoleMole::Config::DirectionPlayerOnKey PlayerOnKey; // 0x18
+		::MoleMole::PlayerOnViewState PlayerOnState; // 0x1C
+		::System::Boolean UsePrev; // 0x1D
+		::System::Boolean FixedPlayerOnState; // 0x1E
+		::System::Boolean FixedPlayerOnKey; // 0x1F
 
 		::System::Void _ctor()
 		{

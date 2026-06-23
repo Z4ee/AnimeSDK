@@ -6,11 +6,11 @@ namespace MoleMole { class FishMove3DCurve; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FISHMOVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x170BC550)
+#define MOLEMOLE_FISHMOVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19115C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishMoveParam_TypeDefinitionIndex = 82804;
+	inline static constexpr unsigned int FishMoveParam_TypeDefinitionIndex = 58402;
 
 	class FishMoveParam : public ::System::Object
 	{

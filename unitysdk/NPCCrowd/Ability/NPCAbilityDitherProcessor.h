@@ -14,16 +14,16 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xBDD70A0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBDD5BE0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_FINDCLOSESTENTITY_OFFSET UNITYSDK_OFFSET(0xBDD6990)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETCLOSESTENTITYDISTANCE_OFFSET UNITYSDK_OFFSET(0xBDD5EC0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xBDD5DC0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD72B0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xD92C610)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD92B100)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_FINDCLOSESTENTITY_OFFSET UNITYSDK_OFFSET(0xD92BED0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETCLOSESTENTITYDISTANCE_OFFSET UNITYSDK_OFFSET(0xD92B3E0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_TRYGETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xD92B2E0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD92C820)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityDitherProcessor_TypeDefinitionIndex = 64297;
+	inline static constexpr unsigned int NPCAbilityDitherProcessor_TypeDefinitionIndex = 48598;
 
 	class NPCAbilityDitherProcessor : public ::System::Object
 	{
@@ -40,9 +40,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::System::Int32, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment>&, ::Unity::Collections::NativeArray_1<::System::UInt32>, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>, ::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc>, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_OFFSET))(index, ditherStateFragments, entityIdFragments, entityMap, obstacleGrid, ditherRadius);
 		}
 
-		static ::NPCCrowd::Ability::NPCEntityNativeData GetNativeData(::System::UInt32 entityId, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> entityMap)
+		static ::System::Boolean TryGetNativeData(::System::UInt32 entityId, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> entityMap, ::NPCCrowd::Ability::NPCEntityNativeData& data)
 		{
-			return ((::NPCCrowd::Ability::NPCEntityNativeData(*)(::System::UInt32, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETNATIVEDATA_OFFSET))(entityId, entityMap);
+			return ((::System::Boolean(*)(::System::UInt32, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>, ::NPCCrowd::Ability::NPCEntityNativeData&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_TRYGETNATIVEDATA_OFFSET))(entityId, entityMap, data);
 		}
 
 		static ::System::ValueTuple_2<::System::Int32, ::System::Single> GetClosestEntityDistance(::System::UInt32 entityId, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> entityMap, ::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> obstacleGrid)

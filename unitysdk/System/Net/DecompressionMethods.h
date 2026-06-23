@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DecompressionMethods_TypeDefinitionIndex = 3497;
+	inline static constexpr unsigned int DecompressionMethods_TypeDefinitionIndex = 3496;
 
 	enum class DecompressionMethods : ::System::Int32
 	{

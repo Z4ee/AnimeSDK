@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UIRESULTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5DCE0)
+#define UIRESULTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB29700)
 
-inline static constexpr unsigned int UIResultAnimConfig_TypeDefinitionIndex = 42336;
+inline static constexpr unsigned int UIResultAnimConfig_TypeDefinitionIndex = 76021;
 
 class UIResultAnimConfig : public ::UnityEngine::MonoBehaviour
 {

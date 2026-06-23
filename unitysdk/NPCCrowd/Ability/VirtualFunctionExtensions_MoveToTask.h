@@ -3,31 +3,31 @@
 #include "unitysdk/NPCCrowd/Ability/MoveToTask.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xCD30B70)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xCD30C40)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xCD30AD0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0xCD30A80)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xCD30D10)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xCD30DC0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD414610)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xD4146E0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD414570)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD414520)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xD4147B0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD414860)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_MoveToTask_TypeDefinitionIndex = 45631;
+	inline static constexpr unsigned int VirtualFunctionExtensions_MoveToTask_TypeDefinitionIndex = 72291;
 
 	class VirtualFunctionExtensions_MoveToTask : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Link(::NPCCrowd::Ability::MoveToTask& self, ::StateTreeCore::StateTreeLinker& linker)
+		static ::System::Boolean Link(::NPCCrowd::Ability::MoveToTask& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::NPCCrowd::Ability::MoveToTask&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_LINK_OFFSET))(self, linker);
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::MoveToTask&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_MOVETOTASK_LINK_OFFSET))(self, linker);
 		}
 
 		static ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::NPCCrowd::Ability::MoveToTask& self)

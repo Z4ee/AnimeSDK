@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-#define CLASS_1_8B714AED6096E68C_COMPARE_OFFSET UNITYSDK_OFFSET(0x1064D4F0)
-#define CLASS_1_8B714AED6096E68C__CTOR_OFFSET UNITYSDK_OFFSET(0x1064D5E0)
+#define CLASS_1_8B714AED6096E68C_COMPARE_OFFSET UNITYSDK_OFFSET(0xFE10390)
+#define CLASS_1_8B714AED6096E68C__CTOR_OFFSET UNITYSDK_OFFSET(0xFE10480)
 
-inline static constexpr unsigned int Class_1_8B714AED6096E68C_TypeDefinitionIndex = 80676;
+inline static constexpr unsigned int Class_1_8B714AED6096E68C_TypeDefinitionIndex = 52552;
 
 class Class_1_8B714AED6096E68C : public ::System::Object
 {

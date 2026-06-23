@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapResourceFileType_TypeDefinitionIndex = 7601;
+	inline static constexpr unsigned int NapResourceFileType_TypeDefinitionIndex = 7677;
 
 	enum class NapResourceFileType : ::System::Int32
 	{

@@ -10,22 +10,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODEGRAPH_MAINCITY_RANDOMVALUE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0xCE7B050)
-#define NODEGRAPH_MAINCITY_RANDOMVALUE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0xCE7AF20)
-#define NODEGRAPH_MAINCITY_RANDOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE7ADC0)
-#define NODEGRAPH_MAINCITY_RANDOMVALUE__ONREGISTERPARAM_B__3_0_OFFSET UNITYSDK_OFFSET(0xCE7B240)
-#define NODEGRAPH_MAINCITY_RANDOMVALUE___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0xCE7B610)
-#define NODEGRAPH_MAINCITY_RANDOMVALUE___BASE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0xCE7B620)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x1274A8A0)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x1274A770)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1274A610)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE__ONREGISTERPARAM_B__3_0_OFFSET UNITYSDK_OFFSET(0x1274AA90)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x1274AE60)
+#define NODEGRAPH_MAINCITY_RANDOMVALUE___BASE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x1274AE70)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int RandomValue_TypeDefinitionIndex = 80930;
+	inline static constexpr unsigned int RandomValue_TypeDefinitionIndex = 41522;
 
 	class RandomValue : public ::NodeGraph::GraphNodeFlow
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* _values; // 0x58
-		::NodeGraph::GraphOutputValuePort* _result; // 0x60
+		::NodeGraph::GraphOutputValuePort* _result; // 0x58
+		::System::Collections::Generic::List_1<::System::Int32>* _values; // 0x60
 
 		::System::Void _ctor(::NodeGraph::NodeGraphBase* nodeGraphBase)
 		{

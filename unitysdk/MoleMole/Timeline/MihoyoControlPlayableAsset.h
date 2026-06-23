@@ -15,21 +15,21 @@ namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1387CF80)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_05ED597505047531_OFFSET UNITYSDK_OFFSET(0x1387F680)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_41E028A5F533B293_OFFSET UNITYSDK_OFFSET(0x1387F220)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_5F06DDD630BF6D19_OFFSET UNITYSDK_OFFSET(0x1387ED30)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_60FAF5F064D38859_OFFSET UNITYSDK_OFFSET(0x1387F900)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_75E95797F163FF56_OFFSET UNITYSDK_OFFSET(0x1387F560)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_98327DE548306CA0_OFFSET UNITYSDK_OFFSET(0x1387E700)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_DE1B6E378A62D004_OFFSET UNITYSDK_OFFSET(0x1387E910)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_E47EEE8FF1774C6E_OFFSET UNITYSDK_OFFSET(0x1387E880)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_FD6EF60946CE2CE7_OFFSET UNITYSDK_OFFSET(0x1387F8C0)
-#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1387F3B0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18183600)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_05ED597505047531_OFFSET UNITYSDK_OFFSET(0x18185DE0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_41E028A5F533B293_OFFSET UNITYSDK_OFFSET(0x18185880)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_5F06DDD630BF6D19_OFFSET UNITYSDK_OFFSET(0x181853A0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_60FAF5F064D38859_OFFSET UNITYSDK_OFFSET(0x18185BC0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_75E95797F163FF56_OFFSET UNITYSDK_OFFSET(0x18186020)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_98327DE548306CA0_OFFSET UNITYSDK_OFFSET(0x18184D70)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_DE1B6E378A62D004_OFFSET UNITYSDK_OFFSET(0x18184F80)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_E47EEE8FF1774C6E_OFFSET UNITYSDK_OFFSET(0x18184EF0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_FD6EF60946CE2CE7_OFFSET UNITYSDK_OFFSET(0x18185DA0)
+#define MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18185A10)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MihoyoControlPlayableAsset_TypeDefinitionIndex = 38258;
+	inline static constexpr unsigned int MihoyoControlPlayableAsset_TypeDefinitionIndex = 68885;
 
 	class MihoyoControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset
 	{
@@ -56,24 +56,19 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* Method_6_E47EEE8FF1774C6E(::UnityEngine::GameObject* a1)
+		static ::System::Void Method_6_DE1B6E378A62D004(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_E47EEE8FF1774C6E_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_DE1B6E378A62D004_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Playables::Playable Method_6_41E028A5F533B293(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::Void Method_6_60FAF5F064D38859(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Playables::PlayableGraph a3, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a4)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_41E028A5F533B293_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_60FAF5F064D38859_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Method_6_98327DE548306CA0(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_98327DE548306CA0_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void Method_6_05ED597505047531(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_05ED597505047531_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_6_5F06DDD630BF6D19(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
@@ -86,9 +81,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_FD6EF60946CE2CE7_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_6_DE1B6E378A62D004(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::Void Method_6_05ED597505047531(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_DE1B6E378A62D004_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_05ED597505047531_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void Method_6_75E95797F163FF56(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::Playable a3, ::System::Int32 a4)
@@ -96,9 +91,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_75E95797F163FF56_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void Method_6_60FAF5F064D38859(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Playables::PlayableGraph a3, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a4)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* Method_6_E47EEE8FF1774C6E(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_60FAF5F064D38859_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_E47EEE8FF1774C6E_OFFSET))(a1);
+		}
+
+		static ::UnityEngine::Playables::Playable Method_6_41E028A5F533B293(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MIHOYOCONTROLPLAYABLEASSET_METHOD_6_41E028A5F533B293_OFFSET))(a1, a2, a3);
 		}
 	};
 }

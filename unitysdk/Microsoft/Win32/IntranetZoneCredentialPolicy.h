@@ -7,12 +7,12 @@ namespace System::Net { class IAuthenticationModule; }
 namespace System::Net { class NetworkCredential; }
 namespace System::Net { class WebRequest; }
 
-#define MICROSOFT_WIN32_INTRANETZONECREDENTIALPOLICY_SHOULDSENDCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1A565350)
-#define MICROSOFT_WIN32_INTRANETZONECREDENTIALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A565310)
+#define MICROSOFT_WIN32_INTRANETZONECREDENTIALPOLICY_SHOULDSENDCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1C884600)
+#define MICROSOFT_WIN32_INTRANETZONECREDENTIALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8845C0)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int IntranetZoneCredentialPolicy_TypeDefinitionIndex = 4293;
+	inline static constexpr unsigned int IntranetZoneCredentialPolicy_TypeDefinitionIndex = 4292;
 
 	class IntranetZoneCredentialPolicy : public ::System::Object
 	{

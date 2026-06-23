@@ -7,22 +7,22 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_TRIGGERABILITYENTRY_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13ECAAF0)
-#define MOLEMOLE_TRIGGERABILITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECAC80)
-#define MOLEMOLE_TRIGGERABILITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECAE90)
-#define MOLEMOLE_TRIGGERABILITYENTRY___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13ECAF20)
-#define MOLEMOLE_TRIGGERABILITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECAFB0)
+#define MOLEMOLE_TRIGGERABILITYENTRY_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12669B40)
+#define MOLEMOLE_TRIGGERABILITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12669CD0)
+#define MOLEMOLE_TRIGGERABILITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12669EE0)
+#define MOLEMOLE_TRIGGERABILITYENTRY___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12669F70)
+#define MOLEMOLE_TRIGGERABILITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1266A000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TriggerAbilityEntry_TypeDefinitionIndex = 74106;
+	inline static constexpr unsigned int TriggerAbilityEntry_TypeDefinitionIndex = 40826;
 
 	class TriggerAbilityEntry : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* AbilityName; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::MoleMole::Battle::Entity* ownerEntity; // 0x68
+		::MoleMole::Battle::Entity* ownerEntity; // 0x58
+		::System::String* AbilityName; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
 		::System::Boolean InstantTrigger; // 0x70
 
 		::System::Void _ctor()

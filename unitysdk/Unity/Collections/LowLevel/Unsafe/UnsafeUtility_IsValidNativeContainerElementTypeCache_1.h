@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeUtility_IsValidNativeContainerElementTypeCache_1_TypeDefinitionIndex = 5111;
+	inline static constexpr unsigned int UnsafeUtility_IsValidNativeContainerElementTypeCache_1_TypeDefinitionIndex = 5110;
 
 	template <typename T>
 	struct UnsafeUtility_IsValidNativeContainerElementTypeCache_1

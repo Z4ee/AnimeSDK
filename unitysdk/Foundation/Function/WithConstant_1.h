@@ -4,7 +4,7 @@
 
 namespace Foundation::Function
 {
-	inline static constexpr unsigned int WithConstant_1_TypeDefinitionIndex = 9010;
+	inline static constexpr unsigned int WithConstant_1_TypeDefinitionIndex = 8571;
 
 	template <typename T>
 	struct WithConstant_1

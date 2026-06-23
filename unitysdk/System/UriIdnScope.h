@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriIdnScope_TypeDefinitionIndex = 2675;
+	inline static constexpr unsigned int UriIdnScope_TypeDefinitionIndex = 2674;
 
 	enum class UriIdnScope : ::System::Int32
 	{

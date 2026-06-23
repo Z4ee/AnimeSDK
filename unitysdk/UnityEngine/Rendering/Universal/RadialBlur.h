@@ -10,13 +10,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 namespace UnityEngine::Rendering::Universal { class DownSampleParameter; }
 namespace UnityEngine::Rendering::Universal { class SampleDistanceModeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1B36F520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1B36F5C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36F600)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D4E74B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D4E7550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E7590)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RadialBlur_TypeDefinitionIndex = 30155;
+	inline static constexpr unsigned int RadialBlur_TypeDefinitionIndex = 27218;
 
 	class RadialBlur : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

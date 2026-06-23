@@ -8,7 +8,7 @@ namespace System::Reflection { class AssemblyName; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ITypeResolutionService_TypeDefinitionIndex = 3086;
+	inline static constexpr unsigned int ITypeResolutionService_TypeDefinitionIndex = 3085;
 
 	class ITypeResolutionService
 	{

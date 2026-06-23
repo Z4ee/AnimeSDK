@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1517A160)
-#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER___C__DISPLAYCLASS11_1__ONCLICKGETREWARD_ASYNC_B__4_OFFSET UNITYSDK_OFFSET(0x1517A170)
+#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x176174B0)
+#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER___C__DISPLAYCLASS11_1__ONCLICKGETREWARD_ASYNC_B__4_OFFSET UNITYSDK_OFFSET(0x176174C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopLevelRewardRowWidgetController___c__DisplayClass11_1_TypeDefinitionIndex = 49751;
+	inline static constexpr unsigned int UICoopLevelRewardRowWidgetController___c__DisplayClass11_1_TypeDefinitionIndex = 51344;
 
 	class UICoopLevelRewardRowWidgetController___c__DisplayClass11_1 : public ::System::Object
 	{

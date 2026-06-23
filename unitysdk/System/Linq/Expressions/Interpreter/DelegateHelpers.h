@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS_MAKEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1B8E19B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS_MAKEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1DC56660)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 4932;
+	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 4931;
 
 	class DelegateHelpers : public ::System::Object
 	{

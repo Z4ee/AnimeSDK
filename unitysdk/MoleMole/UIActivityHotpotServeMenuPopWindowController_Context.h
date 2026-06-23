@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E2E3F0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183CE8D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotServeMenuPopWindowController_Context_TypeDefinitionIndex = 62417;
+	inline static constexpr unsigned int UIActivityHotpotServeMenuPopWindowController_Context_TypeDefinitionIndex = 52538;
 
 	class UIActivityHotpotServeMenuPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

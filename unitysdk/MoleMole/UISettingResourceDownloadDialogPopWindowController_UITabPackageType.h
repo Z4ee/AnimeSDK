@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController_UITabPackageType_TypeDefinitionIndex = 72680;
+	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController_UITabPackageType_TypeDefinitionIndex = 49871;
 
 	enum class UISettingResourceDownloadDialogPopWindowController_UITabPackageType : ::System::Int32
 	{

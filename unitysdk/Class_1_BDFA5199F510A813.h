@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_1_BDFA5199F510A813_METHOD_1_A01AE729684F1F89_OFFSET UNITYSDK_OFFSET(0x1409B300)
-#define CLASS_1_BDFA5199F510A813_METHOD_1_CB2569CCA7A26766_OFFSET UNITYSDK_OFFSET(0x1409B770)
+#define CLASS_1_BDFA5199F510A813_METHOD_1_A01AE729684F1F89_OFFSET UNITYSDK_OFFSET(0x16D3EBA0)
+#define CLASS_1_BDFA5199F510A813_METHOD_1_CB2569CCA7A26766_OFFSET UNITYSDK_OFFSET(0x16D3F010)
 
-inline static constexpr unsigned int Class_1_BDFA5199F510A813_TypeDefinitionIndex = 64024;
+inline static constexpr unsigned int Class_1_BDFA5199F510A813_TypeDefinitionIndex = 68234;
 
 class Class_1_BDFA5199F510A813 : public ::System::Object
 {

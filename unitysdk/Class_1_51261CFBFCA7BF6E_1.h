@@ -8,19 +8,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
-template <typename T> class Class_1_89C9471D0A0E4933;
+template <typename T> class Class_1_B7F81F2F2FEF13C5;
 
-#define CLASS_1_51261CFBFCA7BF6E_1_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xEAA16D0)
-#define CLASS_1_51261CFBFCA7BF6E_1_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xEAA1240)
-#define CLASS_1_51261CFBFCA7BF6E_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEAA1B70)
+#define CLASS_1_51261CFBFCA7BF6E_1_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1347DDE0)
+#define CLASS_1_51261CFBFCA7BF6E_1_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1347D950)
+#define CLASS_1_51261CFBFCA7BF6E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1347E280)
 
-inline static constexpr unsigned int Class_1_51261CFBFCA7BF6E_1_TypeDefinitionIndex = 72648;
+inline static constexpr unsigned int Class_1_51261CFBFCA7BF6E_1_TypeDefinitionIndex = 86212;
 
 class Class_1_51261CFBFCA7BF6E_1 : public ::System::Object
 {
 public:
-	::Class_1_89C9471D0A0E4933<::Struct_2_00CDCC1C68AC93EE>* Field_1_0; // 0x10
-	::Class_1_89C9471D0A0E4933<::Struct_2_00CDCC1C68AC93EE_1>* Field_1_1; // 0x18
+	::Class_1_B7F81F2F2FEF13C5<::Struct_2_00CDCC1C68AC93EE>* Field_1_1; // 0x10
+	::Class_1_B7F81F2F2FEF13C5<::Struct_2_00CDCC1C68AC93EE_1>* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

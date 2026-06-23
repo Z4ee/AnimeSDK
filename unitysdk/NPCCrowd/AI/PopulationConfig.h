@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/WeatherType.h"
 #include "unitysdk/NPCCrowd/AI/RandomSelectType.h"
 #include "unitysdk/ProtoScript/TimePeriodType.h"
 #include "unitysdk/System/Object.h"
@@ -7,12 +8,13 @@
 namespace NPCCrowd::AI { class PopulationTimeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xD22EE10)
-#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD22EF60)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET UNITYSDK_OFFSET(0xA665AB0)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xA665960)
+#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA665C60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 67512;
+	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 60974;
 
 	class PopulationConfig : public ::System::Object
 	{
@@ -30,6 +32,11 @@ namespace NPCCrowd::AI
 		::NPCCrowd::AI::PopulationTimeConfig* GetTimeConfig(::ProtoScript::TimePeriodType timePeriodID)
 		{
 			return ((::NPCCrowd::AI::PopulationTimeConfig*(*)(::PVOID, ::ProtoScript::TimePeriodType))((::PBYTE)hIl2Cpp + NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET))(this, timePeriodID);
+		}
+
+		::NPCCrowd::AI::PopulationTimeConfig* GetTimeConfig_1(::ProtoScript::TimePeriodType timePeriodID, ::MoleMole::Config::WeatherType weatherType, ::System::Boolean& weatherMatched)
+		{
+			return ((::NPCCrowd::AI::PopulationTimeConfig*(*)(::PVOID, ::ProtoScript::TimePeriodType, ::MoleMole::Config::WeatherType, ::System::Boolean&))((::PBYTE)hIl2Cpp + NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET))(this, timePeriodID, weatherType, weatherMatched);
 		}
 	};
 }

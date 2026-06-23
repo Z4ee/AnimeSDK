@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_INVOKEMEMBERBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1AE06C90)
-#define SYSTEM_DYNAMIC_INVOKEMEMBERBINDER_FALLBACKINVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE06D60)
+#define SYSTEM_DYNAMIC_INVOKEMEMBERBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1D234ED0)
+#define SYSTEM_DYNAMIC_INVOKEMEMBERBINDER_FALLBACKINVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1D234FA0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int InvokeMemberBinder_TypeDefinitionIndex = 5007;
+	inline static constexpr unsigned int InvokeMemberBinder_TypeDefinitionIndex = 5006;
 
 	class InvokeMemberBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

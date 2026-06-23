@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MB3_MeshBakerGrouper_ClusterType_TypeDefinitionIndex = 84969;
+inline static constexpr unsigned int MB3_MeshBakerGrouper_ClusterType_TypeDefinitionIndex = 90543;
 
 enum class MB3_MeshBakerGrouper_ClusterType : ::System::Int32
 {

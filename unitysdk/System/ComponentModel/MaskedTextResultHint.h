@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int MaskedTextResultHint_TypeDefinitionIndex = 2949;
+	inline static constexpr unsigned int MaskedTextResultHint_TypeDefinitionIndex = 2948;
 
 	enum class MaskedTextResultHint : ::System::Int32
 	{

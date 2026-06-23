@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x107BA630)
-#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x107BA8F0)
-#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_ECA33935490AF2E4_OFFSET UNITYSDK_OFFSET(0x107BA760)
-#define CLASS_1_BD9E8C6FC81AAB44_1__CTOR_OFFSET UNITYSDK_OFFSET(0x107BA620)
+#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1775F320)
+#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x1775F0E0)
+#define CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_ECA33935490AF2E4_OFFSET UNITYSDK_OFFSET(0x1775F190)
+#define CLASS_1_BD9E8C6FC81AAB44_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1775F0D0)
 
-inline static constexpr unsigned int Class_1_BD9E8C6FC81AAB44_1_TypeDefinitionIndex = 54728;
+inline static constexpr unsigned int Class_1_BD9E8C6FC81AAB44_1_TypeDefinitionIndex = 61971;
 
 class Class_1_BD9E8C6FC81AAB44_1 : public ::System::Object
 {
 public:
 	static ::Class_1_BD9E8C6FC81AAB44_1** StaticGet_Field_1_0()
 	{
-		return (::Class_1_BD9E8C6FC81AAB44_1**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BD9E8C6FC81AAB44_1_TypeDefinitionIndex)->GetStaticField(0x33820);
+		return (::Class_1_BD9E8C6FC81AAB44_1**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BD9E8C6FC81AAB44_1_TypeDefinitionIndex)->GetStaticField(0x44090);
 	}
 	// static const ::System::UInt16 Field_1_1 = 0x0; // 0x0
 	// static const ::System::UInt16 Field_1_2 = 0x1; // 0x0
@@ -31,6 +31,11 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD9E8C6FC81AAB44_1__CTOR_OFFSET))(this);
 	}
 
+	static ::Class_1_BD9E8C6FC81AAB44_1* Method_1_C4BFBB1BE6C0430A()
+	{
+		return ((::Class_1_BD9E8C6FC81AAB44_1*(*)())((::PBYTE)hIl2Cpp + CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_C4BFBB1BE6C0430A_OFFSET))();
+	}
+
 	::System::Void Method_1_41A074549EF25F63()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_41A074549EF25F63_OFFSET))(this);
@@ -39,10 +44,5 @@ public:
 	::System::Void Method_1_ECA33935490AF2E4()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_ECA33935490AF2E4_OFFSET))(this);
-	}
-
-	static ::Class_1_BD9E8C6FC81AAB44_1* Method_1_C4BFBB1BE6C0430A()
-	{
-		return ((::Class_1_BD9E8C6FC81AAB44_1*(*)())((::PBYTE)hIl2Cpp + CLASS_1_BD9E8C6FC81AAB44_1_METHOD_1_C4BFBB1BE6C0430A_OFFSET))();
 	}
 };

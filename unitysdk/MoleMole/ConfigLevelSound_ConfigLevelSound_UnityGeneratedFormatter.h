@@ -13,30 +13,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB14340)
-#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB14350)
-#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB145F0)
-#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB147E0)
-#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB147A0)
+#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE983350)
+#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE983360)
+#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE983600)
+#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE9837F0)
+#define MOLEMOLE_CONFIGLEVELSOUND_CONFIGLEVELSOUND_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE9837B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex = 81125;
+	inline static constexpr unsigned int ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex = 62780;
 
 	class ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigLevelSound*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigLevelSound_WwiseWeatherConfig>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigLevelSound_WwiseWeatherConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x446D0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigLevelSound_ListenerConfig>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigLevelSound_ListenerConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x446D8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigLevelSound_ListenerConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AFA0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::Int32>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x446E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AFA8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigLevelSound_WwiseWeatherConfig>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigLevelSound_WwiseWeatherConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelSound_ConfigLevelSound_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AFB0);
 		}
 
 		::System::Void _ctor()

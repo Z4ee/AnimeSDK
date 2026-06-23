@@ -7,32 +7,32 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1752C240)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1752AC70)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1752C2F0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1752AD40)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1752C780)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x144D6330)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_FROMFLX_OFFSET UNITYSDK_OFFSET(0x144D4D60)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x144D63E0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x144D4E30)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x144D6870)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraStory_TypeDefinitionIndex = 50743;
+	inline static constexpr unsigned int ConfigCameraStory_TypeDefinitionIndex = 72825;
 
 	class ConfigCameraStory : public ::System::Object
 	{
 	public:
-		::System::String* ExitCurveKey; // 0x10
-		::System::String* EnterCurveKey; // 0x18
-		::System::Single ExitTime; // 0x20
-		::System::Single EnterTime; // 0x24
-		::System::Single AvaiableFanAngle; // 0x28
-		::System::Single CameraYOffset; // 0x2C
-		::System::Single TargetElevationRatio; // 0x30
-		::System::Single MaxElevationRatio; // 0x34
-		::System::Single TargetBackRotateAngle; // 0x38
-		::System::Single MinElevationRatio; // 0x3C
-		::System::Single CameraFov; // 0x40
-		::System::Single AvatarBackRotateAngle; // 0x44
-		::System::Single ViewDistance; // 0x48
+		::System::String* EnterCurveKey; // 0x10
+		::System::String* ExitCurveKey; // 0x18
+		::System::Single AvaiableFanAngle; // 0x20
+		::System::Single ViewDistance; // 0x24
+		::System::Single MinElevationRatio; // 0x28
+		::System::Single CameraFov; // 0x2C
+		::System::Single TargetBackRotateAngle; // 0x30
+		::System::Single CameraYOffset; // 0x34
+		::System::Single ExitTime; // 0x38
+		::System::Single MaxElevationRatio; // 0x3C
+		::System::Single AvatarBackRotateAngle; // 0x40
+		::System::Single EnterTime; // 0x44
+		::System::Single TargetElevationRatio; // 0x48
 		::System::Single FollowPositionRatio; // 0x4C
 
 		::System::Void _ctor()

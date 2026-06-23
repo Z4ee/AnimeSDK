@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PhysicsAnimatorInterpolation_TypeDefinitionIndex = 7655;
+	inline static constexpr unsigned int PhysicsAnimatorInterpolation_TypeDefinitionIndex = 7701;
 
 	enum class PhysicsAnimatorInterpolation : ::System::Int32
 	{

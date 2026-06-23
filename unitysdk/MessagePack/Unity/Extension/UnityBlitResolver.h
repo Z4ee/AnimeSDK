@@ -4,19 +4,19 @@
 
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B420D80)
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B420D70)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2680)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2670)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnityBlitResolver_TypeDefinitionIndex = 26487;
+	inline static constexpr unsigned int UnityBlitResolver_TypeDefinitionIndex = 30030;
 
 	class UnityBlitResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Unity::Extension::UnityBlitResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Unity::Extension::UnityBlitResolver**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitResolver_TypeDefinitionIndex)->GetStaticField(0x20380);
+			return (::MessagePack::Unity::Extension::UnityBlitResolver**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitResolver_TypeDefinitionIndex)->GetStaticField(0x240E0);
 		}
 
 		::System::Void _ctor()

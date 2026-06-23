@@ -2,27 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_MontageProcessor_Job.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_MontageProcessor_LegacyJob.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_MontageProcessor_ParallelJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x11D91C80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x11D91B50)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x11D91B40)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x11D91B30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x11D91BB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11D92790)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1136A3C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1136A270)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x1136A260)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x1136A250)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x1136A2D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1136B130)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_MontageProcessor_TypeDefinitionIndex = 70459;
+	inline static constexpr unsigned int AnimationSubManager_MontageProcessor_TypeDefinitionIndex = 57376;
 
 	class AnimationSubManager_MontageProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_MontageProcessor_Job>* _buffer; // 0x10
+		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_MontageProcessor_LegacyJob>* _buffer; // 0x10
+		::NPCCrowd::Animation::AnimationSubManager_MontageProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
 		{

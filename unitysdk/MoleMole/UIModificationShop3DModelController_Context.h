@@ -4,11 +4,11 @@
 
 class Class_1_F71F7FB55BBEB1D9;
 
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCA6D0)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F03A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIModificationShop3DModelController_Context_TypeDefinitionIndex = 77495;
+	inline static constexpr unsigned int UIModificationShop3DModelController_Context_TypeDefinitionIndex = 48302;
 
 	class UIModificationShop3DModelController_Context : public ::MoleMole::UIControllerContextBase
 	{

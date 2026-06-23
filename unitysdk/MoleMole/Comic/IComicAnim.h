@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_COMIC_ICOMICANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DED40)
+#define MOLEMOLE_COMIC_ICOMICANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D0E40)
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int IComicAnim_TypeDefinitionIndex = 30597;
+	inline static constexpr unsigned int IComicAnim_TypeDefinitionIndex = 32143;
 
 	class IComicAnim : public ::System::Object
 	{

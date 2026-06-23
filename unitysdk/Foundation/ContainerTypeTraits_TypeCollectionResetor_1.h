@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ContainerTypeTraits_TypeCollectionResetor_1_TypeDefinitionIndex = 8211;
+	inline static constexpr unsigned int ContainerTypeTraits_TypeCollectionResetor_1_TypeDefinitionIndex = 8127;
 
 	template <typename T>
 	class ContainerTypeTraits_TypeCollectionResetor_1 : public ::System::Object

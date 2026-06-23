@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ONPASTECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020850)
+#define SIRENIX_ODININSPECTOR_ONPASTECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329B50)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int OnPasteCallbackAttribute_TypeDefinitionIndex = 7204;
+	inline static constexpr unsigned int OnPasteCallbackAttribute_TypeDefinitionIndex = 7335;
 
 	class OnPasteCallbackAttribute : public ::System::Attribute
 	{

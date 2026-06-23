@@ -3,14 +3,14 @@
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int HoundPlayerAddedTextureStatus_TypeDefinitionIndex = 69634;
+	inline static constexpr unsigned int HoundPlayerAddedTextureStatus_TypeDefinitionIndex = 79600;
 
 	enum class HoundPlayerAddedTextureStatus : ::System::Int32
 	{
+		WearWoolLoop = 2,
 		None = 0,
-		WearWoolEnd = 3,
 		Max = 4,
 		WearWoolStart = 1,
-		WearWoolLoop = 2,
+		WearWoolEnd = 3,
 	};
 }

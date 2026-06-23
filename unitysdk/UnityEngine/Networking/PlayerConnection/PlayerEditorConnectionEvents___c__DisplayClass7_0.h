@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_MessageTypeSubscribers; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS7_0__ADDANDCREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1B18B870)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18B860)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS7_0__ADDANDCREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1D58C220)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58C210)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents___c__DisplayClass7_0_TypeDefinitionIndex = 5680;
+	inline static constexpr unsigned int PlayerEditorConnectionEvents___c__DisplayClass7_0_TypeDefinitionIndex = 5682;
 
 	class PlayerEditorConnectionEvents___c__DisplayClass7_0 : public ::System::Object
 	{

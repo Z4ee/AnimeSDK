@@ -6,13 +6,13 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CLONE_OFFSET UNITYSDK_OFFSET(0x198921F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPENAME_OFFSET UNITYSDK_OFFSET(0x19892150)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19892390)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CLONE_OFFSET UNITYSDK_OFFSET(0x1BCFF8D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1BCFF830)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFFA70)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2191;
+	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2190;
 
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{

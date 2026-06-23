@@ -19,110 +19,115 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine::NAPRenderPipeline0 { class LightLoop_LightDataForCPU; }
 namespace UnityEngine::NAPRenderPipeline0 { class LightLoop_TileAndClusterData; }
 namespace UnityEngine::NAPRenderPipeline0 { class LightLoop_WorldLightGridData; }
+namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicArray_1; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDGPULIGHTLISTSCOMMON_OFFSET UNITYSDK_OFFSET(0x1B4D7420)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDGPULIGHTLISTS_OFFSET UNITYSDK_OFFSET(0x1B4D5510)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDPERTILELIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1B4D5820)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_CLEANUPLIGHTLOOP_OFFSET UNITYSDK_OFFSET(0x1B4D43F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_CLEARLIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1B4D6FA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_DIVROUNDUP_OFFSET UNITYSDK_OFFSET(0x1B4D3E50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GENERATELIGHTSSCREENSPACEAABBS_OFFSET UNITYSDK_OFFSET(0x1B4D55D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GETWORLDTOVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0x1B4D3CB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B4D3E60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GET_VISIBLEPUNCTUALLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B4D3B10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B4D4000)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_ISBUFFERINVALID_OFFSET UNITYSDK_OFFSET(0x1B4D45C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_ISPROJECTIONMATRIXOBLIQUE_OFFSET UNITYSDK_OFFSET(0x1B4D61A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTLOOPALLOCRESOLUTIONDEPENDENTBUFFERS_OFFSET UNITYSDK_OFFSET(0x1B4D47A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTLOOPNEEDRESIZE_OFFSET UNITYSDK_OFFSET(0x1B4D45E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_NATIVEBUILDBINDLIGHTINGGPUBUFFERS_OFFSET UNITYSDK_OFFSET(0x1B4D47C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PREPAREBUILDGPULIGHTLISTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B4D61F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PREPAREBUILDGPULIGHTLISTRESOURCES_OFFSET UNITYSDK_OFFSET(0x1B4D55B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PUSHLIGHTLOOPGLOBALPARAMS_OFFSET UNITYSDK_OFFSET(0x1B4D7670)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_SETGLOBALBUFFERFORWARMUP_OFFSET UNITYSDK_OFFSET(0x1B4D3B30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B4D4640)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_VOXELLIGHTLISTGENERATION_OFFSET UNITYSDK_OFFSET(0x1B4D5C70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_WORLDLIGHTGRIDGENERATION_OFFSET UNITYSDK_OFFSET(0x1B4D7150)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4D7AE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D3F50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDGPULIGHTLISTSCOMMON_OFFSET UNITYSDK_OFFSET(0x1D850C90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDGPULIGHTLISTS_OFFSET UNITYSDK_OFFSET(0x1D84EC60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_BUILDPERTILELIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1D84EF70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_CLEANUPLIGHTLOOP_OFFSET UNITYSDK_OFFSET(0x1D84DB60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_CLEARLIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1D8506F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_DIVROUNDUP_OFFSET UNITYSDK_OFFSET(0x1D84D5C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GENERATELIGHTSSCREENSPACEAABBS_OFFSET UNITYSDK_OFFSET(0x1D84ED20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GETWORLDTOVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0x1D84D420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D84D5D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_GET_VISIBLEPUNCTUALLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1D84D280)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D84D770)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_ISBUFFERINVALID_OFFSET UNITYSDK_OFFSET(0x1D84DD30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_ISPROJECTIONMATRIXOBLIQUE_OFFSET UNITYSDK_OFFSET(0x1D84F8F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTLOOPALLOCRESOLUTIONDEPENDENTBUFFERS_OFFSET UNITYSDK_OFFSET(0x1D84DF10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTLOOPNEEDRESIZE_OFFSET UNITYSDK_OFFSET(0x1D84DD50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_NATIVEBUILDBINDLIGHTINGGPUBUFFERS_OFFSET UNITYSDK_OFFSET(0x1D84DF30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PREPAREBUILDGPULIGHTLISTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1D84F940)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PREPAREBUILDGPULIGHTLISTRESOURCES_OFFSET UNITYSDK_OFFSET(0x1D84ED00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_PUSHLIGHTLOOPGLOBALPARAMS_OFFSET UNITYSDK_OFFSET(0x1D850EE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_SETGLOBALBUFFERFORWARMUP_OFFSET UNITYSDK_OFFSET(0x1D84D2A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D84DDB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_VOXELLIGHTLISTGENERATION_OFFSET UNITYSDK_OFFSET(0x1D84F3C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_WORLDLIGHTGRIDGENERATION_OFFSET UNITYSDK_OFFSET(0x1D8508A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D851350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D84D6C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightLoop_TypeDefinitionIndex = 5991;
+	inline static constexpr unsigned int LightLoop_TypeDefinitionIndex = 6001;
 
 	class LightLoop : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_TempScreenDimArray()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x5340);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::LightLoop** StaticGet__instance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::LightLoop**)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x5348);
+			return (::UnityEngine::NAPRenderPipeline0::LightLoop**)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x5350);
 		}
-		static ::System::Int32* StaticGet_s_ClearVoxelAtomicKernel()
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_TempScreenDimArray()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2BF0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x5358);
 		}
-		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt8Kernel()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_s_RTXLocalLightTopKEnable()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2BF4);
-		}
-		static ::System::Int32* StaticGet_s_GenListPerTileKernel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2BF8);
-		}
-		static ::System::Int32* StaticGet_s_GenListPerBigTileKernel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2BFC);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet_s_FlipMatrixLHSRHS()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C00);
-		}
-		static ::System::Int32* StaticGet_SizeOfLightVolumeData()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C40);
-		}
-		static ::System::Int32* StaticGet_SizeOfNapLightData()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C44);
-		}
-		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt32Kernel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C48);
-		}
-		static ::System::Int32* StaticGet_s_GenListPerVoxelKernel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C4C);
-		}
-		static ::System::Int32* StaticGet_s_GenAABBKernel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C50);
-		}
-		static ::System::Int32* StaticGet_SizeOfNapEnvLightData()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C54);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x5360);
 		}
 		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt16Kernel()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C58);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C00);
 		}
 		static ::System::Int32* StaticGet_s_ClearLightListKernel()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C5C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C04);
+		}
+		static ::System::Int32* StaticGet_s_GenAABBKernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C08);
+		}
+		static ::System::Int32* StaticGet_s_GenListPerVoxelKernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C0C);
 		}
 		static ::System::Int32* StaticGet_s_GenAABBKernel_Oblique()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C60);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C10);
+		}
+		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt8Kernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C14);
+		}
+		static ::System::Int32* StaticGet_s_ClearVoxelAtomicKernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C18);
+		}
+		static ::System::Int32* StaticGet_s_GenListPerTileKernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C1C);
+		}
+		static ::UnityEngine::Matrix4x4* StaticGet_s_FlipMatrixLHSRHS()
+		{
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C20);
 		}
 		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt64Kernel()
 		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C60);
+		}
+		static ::System::Int32* StaticGet_SizeOfNapLightData()
+		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C64);
+		}
+		static ::System::Int32* StaticGet_s_GenListPerBigTileKernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C68);
+		}
+		static ::System::Int32* StaticGet_s_GenListPerVoxelOpt32Kernel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C6C);
+		}
+		static ::System::Int32* StaticGet_SizeOfLightVolumeData()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C70);
+		}
+		static ::System::Int32* StaticGet_SizeOfNapEnvLightData()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLoop_TypeDefinitionIndex)->GetStaticField(0x2C74);
 		}
 		::UnityEngine::ComputeBuffer* m_LightDataGPUBuffer; // 0x10
 		::UnityEngine::ComputeBuffer* m_EnvLightDataGPUBuffer; // 0x18

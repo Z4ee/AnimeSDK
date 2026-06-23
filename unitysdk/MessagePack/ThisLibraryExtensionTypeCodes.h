@@ -4,7 +4,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int ThisLibraryExtensionTypeCodes_TypeDefinitionIndex = 26777;
+	inline static constexpr unsigned int ThisLibraryExtensionTypeCodes_TypeDefinitionIndex = 30773;
 
 	class ThisLibraryExtensionTypeCodes : public ::System::Object
 	{

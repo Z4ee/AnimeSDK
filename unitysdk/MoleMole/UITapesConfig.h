@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UITAPESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1379EBE0)
+#define MOLEMOLE_UITAPESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16188D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesConfig_TypeDefinitionIndex = 46531;
+	inline static constexpr unsigned int UITapesConfig_TypeDefinitionIndex = 85023;
 
 	class UITapesConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

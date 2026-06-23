@@ -6,34 +6,34 @@ namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__BINDBUTTON_B__13_0_OFFSET UNITYSDK_OFFSET(0x1340B3B0)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1340B360)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1340B3A0)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__ONRECYLE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1340B470)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__REFRESHSCROLLDATA_B__30_0_OFFSET UNITYSDK_OFFSET(0x1340B480)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__BINDBUTTON_B__13_0_OFFSET UNITYSDK_OFFSET(0x166A58E0)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166A5890)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166A58D0)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__ONRECYLE_B__20_0_OFFSET UNITYSDK_OFFSET(0x166A59A0)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__REFRESHSCROLLDATA_B__30_0_OFFSET UNITYSDK_OFFSET(0x166A59B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleResolvePageController___c_TypeDefinitionIndex = 74097;
+	inline static constexpr unsigned int UISuibianTempleResolvePageController___c_TypeDefinitionIndex = 81367;
 
 	class UISuibianTempleResolvePageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Int32>** StaticGet___9__30_0()
+		static ::System::Action** StaticGet___9__20_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3CF20);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F5B0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3CF28);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F5B8);
 		}
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Comparison_1<::System::Int32>** StaticGet___9__30_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3CF30);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F5C0);
 		}
 		static ::MoleMole::UISuibianTempleResolvePageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleResolvePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3CF38);
+			return (::MoleMole::UISuibianTempleResolvePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleResolvePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F5C8);
 		}
 
 		static ::System::Void _cctor()

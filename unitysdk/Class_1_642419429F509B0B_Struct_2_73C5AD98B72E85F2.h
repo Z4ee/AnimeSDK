@@ -9,19 +9,19 @@ class Class_1_B37365D9009BA07B;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
-template <typename T> class Class_2_FB50CDBDDEDBBCC8;
+template <typename T> class Class_2_FB50CDBDDEDBBCC8_1;
 
-#define CLASS_1_642419429F509B0B_STRUCT_2_73C5AD98B72E85F2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x781C60)
-#define CLASS_1_642419429F509B0B_STRUCT_2_73C5AD98B72E85F2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x55E040)
+#define CLASS_1_642419429F509B0B_STRUCT_2_73C5AD98B72E85F2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7BF3B0)
+#define CLASS_1_642419429F509B0B_STRUCT_2_73C5AD98B72E85F2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x61A480)
 
-inline static constexpr unsigned int Class_1_642419429F509B0B_Struct_2_73C5AD98B72E85F2_TypeDefinitionIndex = 73227;
+inline static constexpr unsigned int Class_1_642419429F509B0B_Struct_2_73C5AD98B72E85F2_TypeDefinitionIndex = 70711;
 
 struct alignas(8) Class_1_642419429F509B0B_Struct_2_73C5AD98B72E85F2
 {
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::Class_2_FB50CDBDDEDBBCC8<::Class_1_B37365D9009BA07B*>*> Field_2_4; // 0x10
-	::Class_1_642419429F509B0B* Field_2_2; // 0x18
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_3; // 0x20
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::System::String*>*> Field_2_1; // 0x28
+	::Class_1_642419429F509B0B* Field_2_2; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_2_3; // 0x18
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::System::String*>*> Field_2_1; // 0x20
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::Class_2_FB50CDBDDEDBBCC8_1<::Class_1_B37365D9009BA07B*>*> Field_2_4; // 0x38
 	::System::Int32 Field_2_0; // 0x40
 
 	::System::Void MoveNext()

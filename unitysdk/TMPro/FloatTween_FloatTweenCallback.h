@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define TMPRO_FLOATTWEEN_FLOATTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE51CD0)
+#define TMPRO_FLOATTWEEN_FLOATTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AB990)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 37489;
+	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 39115;
 
 	class FloatTween_FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::System::Single>
 	{

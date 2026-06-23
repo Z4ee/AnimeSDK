@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class RectOffset; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_LayoutMeta_TypeDefinitionIndex = 54091;
+inline static constexpr unsigned int MonoUITableScrollV2_LayoutMeta_TypeDefinitionIndex = 69952;
 
 struct alignas(8) MonoUITableScrollV2_LayoutMeta
 {

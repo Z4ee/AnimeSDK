@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpKnownHeaderNames_TypeDefinitionIndex = 3317;
+	inline static constexpr unsigned int HttpKnownHeaderNames_TypeDefinitionIndex = 3316;
 
 	class HttpKnownHeaderNames : public ::System::Object
 	{

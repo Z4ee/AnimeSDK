@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159F4FE0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159F4FF0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159F5290)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159F5480)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159F5440)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1271EE40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1271EE50)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1271F0F0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1271F2E0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION_BRANCHOPERATION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1271F2A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex = 57582;
+	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex = 82131;
 
 	class ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49350);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49358);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CB40);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_BranchOperation_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CB48);
 		}
 
 		::System::Void _ctor()

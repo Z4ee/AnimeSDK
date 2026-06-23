@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/MonoTerrainSubZone3D.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOTERRAINRECTZONE3D_METHOD_7_C3FCFEB83374757C_OFFSET UNITYSDK_OFFSET(0x11DE22E0)
-#define MOLEMOLE_MONOTERRAINRECTZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x11DE2370)
+#define MOLEMOLE_MONOTERRAINRECTZONE3D_METHOD_7_C3FCFEB83374757C_OFFSET UNITYSDK_OFFSET(0x11645B60)
+#define MOLEMOLE_MONOTERRAINRECTZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x11645BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainRectZone3D_TypeDefinitionIndex = 44978;
+	inline static constexpr unsigned int MonoTerrainRectZone3D_TypeDefinitionIndex = 65133;
 
 	class MonoTerrainRectZone3D : public ::MoleMole::MonoTerrainSubZone3D
 	{

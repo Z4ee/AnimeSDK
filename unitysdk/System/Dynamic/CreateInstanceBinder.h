@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_CREATEINSTANCEBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1BDA4BD0)
-#define SYSTEM_DYNAMIC_CREATEINSTANCEBINDER_FALLBACKCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BDA4BB0)
+#define SYSTEM_DYNAMIC_CREATEINSTANCEBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1E0ECB50)
+#define SYSTEM_DYNAMIC_CREATEINSTANCEBINDER_FALLBACKCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E0ECB30)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int CreateInstanceBinder_TypeDefinitionIndex = 4975;
+	inline static constexpr unsigned int CreateInstanceBinder_TypeDefinitionIndex = 4974;
 
 	class CreateInstanceBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

@@ -8,21 +8,21 @@ class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x181DC130)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMFLX_OFFSET UNITYSDK_OFFSET(0x181DC530)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x181DC190)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x181DC5B0)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x181DCAB0)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FFA0D0)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19FFA4D0)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FFA130)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x19FFA550)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFAA50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RenderMaterial_TypeDefinitionIndex = 47861;
+	inline static constexpr unsigned int RenderMaterial_TypeDefinitionIndex = 45402;
 
 	class RenderMaterial : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* MaterialIndexList; // 0x10
-		::System::String* RenderPath; // 0x18
+		::System::String* RenderPath; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* MaterialIndexList; // 0x18
 		::System::Boolean ApplyAllMaterials; // 0x20
 
 		::System::Void _ctor()

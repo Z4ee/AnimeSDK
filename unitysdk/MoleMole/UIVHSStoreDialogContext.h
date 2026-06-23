@@ -9,21 +9,21 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0xE46E9F0)
-#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_MODE_OFFSET UNITYSDK_OFFSET(0xE46E9E0)
-#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_PREVIEWTAGS_OFFSET UNITYSDK_OFFSET(0xE46EA10)
-#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_SLOTS_OFFSET UNITYSDK_OFFSET(0xE46EA00)
-#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE46EA20)
+#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0xFACE7A0)
+#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_MODE_OFFSET UNITYSDK_OFFSET(0xFACE790)
+#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_PREVIEWTAGS_OFFSET UNITYSDK_OFFSET(0xFACE7C0)
+#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT_GET_SLOTS_OFFSET UNITYSDK_OFFSET(0xFACE7B0)
+#define MOLEMOLE_UIVHSSTOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xFACE7D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreDialogContext_TypeDefinitionIndex = 63894;
+	inline static constexpr unsigned int UIVHSStoreDialogContext_TypeDefinitionIndex = 73758;
 
 	class UIVHSStoreDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* _previewTags_k__BackingField; // 0x28
-		::System::Func_1<::System::Collections::Generic::List_1<::System::Int32>*>* validVhsGetter; // 0x30
+		::System::Func_1<::System::Collections::Generic::List_1<::System::Int32>*>* validVhsGetter; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* _previewTags_k__BackingField; // 0x30
 		::System::Collections::Generic::List_1<::Class_2_CE905445948732C1_Class_1_A6660CA21D7C1066_Class_1_C277D6FBDA93149D*>* _slots_k__BackingField; // 0x38
 		::System::Func_2<::System::Int32, ::System::Boolean>* checkVhsInCd; // 0x40
 		::MoleMole::UIVHSStoreDialogContext_Mode _mode_k__BackingField; // 0x48

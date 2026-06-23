@@ -7,12 +7,12 @@ class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicString; }
 
-#define MOLEMOLE_CONFIGBIGSCENETIMERCOMPAREDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x14259110)
-#define MOLEMOLE_CONFIGBIGSCENETIMERCOMPAREDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14259240)
+#define MOLEMOLE_CONFIGBIGSCENETIMERCOMPAREDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x115EADF0)
+#define MOLEMOLE_CONFIGBIGSCENETIMERCOMPAREDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x115EAF20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBigSceneTimerCompareDynamicCheckTreeNode_TypeDefinitionIndex = 58917;
+	inline static constexpr unsigned int ConfigBigSceneTimerCompareDynamicCheckTreeNode_TypeDefinitionIndex = 59222;
 
 	class ConfigBigSceneTimerCompareDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{

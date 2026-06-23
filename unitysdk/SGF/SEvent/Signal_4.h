@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int Signal_4_TypeDefinitionIndex = 7959;
+	inline static constexpr unsigned int Signal_4_TypeDefinitionIndex = 8391;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class Signal_4 : public ::SGF::SEvent::SignalBase

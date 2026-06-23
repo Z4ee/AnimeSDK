@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B345F50)
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B346010)
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B345F00)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D7245E0)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D7246A0)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D724590)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 36965;
+	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 38582;
 
 	class RowNotInTableException : public ::System::Data::DataException
 	{

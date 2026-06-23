@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER_PREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167FAE70)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER_PREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175F0FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePrepPageController_PrepPageContext_TypeDefinitionIndex = 52810;
+	inline static constexpr unsigned int UIAutoBattlePrepPageController_PrepPageContext_TypeDefinitionIndex = 58244;
 
 	class UIAutoBattlePrepPageController_PrepPageContext : public ::MoleMole::UIControllerContextBase
 	{

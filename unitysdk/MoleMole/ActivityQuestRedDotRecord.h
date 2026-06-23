@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ACTIVITYQUESTREDDOTRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x1397A9E0)
-#define MOLEMOLE_ACTIVITYQUESTREDDOTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1397A9F0)
+#define MOLEMOLE_ACTIVITYQUESTREDDOTRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x16283330)
+#define MOLEMOLE_ACTIVITYQUESTREDDOTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x16283340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityQuestRedDotRecord_TypeDefinitionIndex = 63463;
+	inline static constexpr unsigned int ActivityQuestRedDotRecord_TypeDefinitionIndex = 79535;
 
 	class ActivityQuestRedDotRecord : public ::MoleMole::ActivityBaseRecord
 	{

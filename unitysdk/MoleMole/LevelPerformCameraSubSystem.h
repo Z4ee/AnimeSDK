@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
-#include "unitysdk/Struct_2_7A6F1A858DFA8957.h"
-#include "unitysdk/Struct_2_EF8C98EE12712831.h"
+#include "unitysdk/Struct_2_5A8D842CFA6E673C.h"
+#include "unitysdk/Struct_2_6B3AF550BFF57BDB.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_3_DFD5D1FDB9D2A4AC;
@@ -12,48 +12,55 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x12344EB0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x12344E40)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCAMERAFOLLOWENTITYROTATIONYAW_OFFSET UNITYSDK_OFFSET(0x12346820)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCAMERAMOVEFOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x12346510)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCURFOCUSTARGETPOS_OFFSET UNITYSDK_OFFSET(0x12346960)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_INITFOCUSDATA_OFFSET UNITYSDK_OFFSET(0x12344CA0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12344BD0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12344D50)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12344F20)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x12345B30)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERAFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x123452B0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x123458A0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERAFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x12345100)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x12345470)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHLEVELPERFORMCAMERA_OFFSET UNITYSDK_OFFSET(0x12345CF0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHOVERSHOULDERCAMERAFOCUSTARGETINFO_OFFSET UNITYSDK_OFFSET(0x12344F70)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12346EF0)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12346F10)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12346F50)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12346F90)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x13EF7CC0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x13EF9BE0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x13EF9B70)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCAMERAFOLLOWENTITYROTATIONYAW_OFFSET UNITYSDK_OFFSET(0x13EFA040)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCAMERAMOVEFOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x13EF9C50)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_GETCURFOCUSTARGETPOS_OFFSET UNITYSDK_OFFSET(0x13EFA1D0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_INITFOCUSDATA_OFFSET UNITYSDK_OFFSET(0x13EF7BB0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EF7AC0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EF7C70)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EF7DB0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x13EF8ED0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERAFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x13EF83F0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERADATA_OFFSET UNITYSDK_OFFSET(0x13EF8B30)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERAFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x13EF8180)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHFOCUSTARGETDATA_OFFSET UNITYSDK_OFFSET(0x13EF85B0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHLEVELPERFORMCAMERA_OFFSET UNITYSDK_OFFSET(0x13EF9090)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_REFRESHOVERSHOULDERCAMERAFOCUSTARGETINFO_OFFSET UNITYSDK_OFFSET(0x13EF7FF0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_TICKLEVELPERFORMCAMERACHECK_OFFSET UNITYSDK_OFFSET(0x13EF7E10)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_TICKLEVELPERFORMCAMERAFOCUSCHECK_OFFSET UNITYSDK_OFFSET(0x13EF7F00)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x13EFA760)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EFA780)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EFA7C0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EFA800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelPerformCameraSubSystem_TypeDefinitionIndex = 58045;
+	inline static constexpr unsigned int LevelPerformCameraSubSystem_TypeDefinitionIndex = 85052;
 
 	class LevelPerformCameraSubSystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::LevelPerformCameraSubSystem*>
 	{
 	public:
+		// static const ::System::Single DEFAULT_FOLLOW_ENTITY_OVERRIDE_HEIGHT; // 0x0
 		// static const ::System::Single DEFAULT_FOCUS_DAMPING_SPEED; // 0x0
 		// static const ::System::Single DEFAULT_FOCUS_BACKUP_PROTECTION_DISTANCE; // 0x0
 		// static const ::System::Single DEFAULT_FOCUS_PROTECTION_OFFSET_SCALE; // 0x0
-		::MoleMole::Cameras::ScopedOverShoulderCamera* _scopedOverShoulderCamera; // 0x10
-		::System::Collections::Generic::List_1<::Struct_2_7A6F1A858DFA8957>* _levelPerformCameraDataList; // 0x18
-		::System::Collections::Generic::List_1<::Struct_2_EF8C98EE12712831>* _focusTargetDataList; // 0x20
+		::Class_3_DFD5D1FDB9D2A4AC* _cachedOverrideFollowModelComp; // 0x10
+		::MoleMole::EntityHandle _cachedOverrideFollowEntity; // 0x18
 		::Class_3_DFD5D1FDB9D2A4AC* _cachedFocusModelComp; // 0x28
-		::UnityEngine::Transform* _cachedFocusTransform; // 0x30
-		::MoleMole::EntityHandle _cachedFocusEntity; // 0x38
-		::UnityEngine::Vector3 _cachedLastFocusTargetPos; // 0x48
-		::System::Boolean _isInFocusTargetMode; // 0x54
-		::System::Single _cachedFocusDampingSpeed; // 0x58
-		::System::Single _cachedFocusViewRatio; // 0x5C
-		::UnityEngine::Vector3 _lastCameraFollowPosition; // 0x60
+		::System::Collections::Generic::List_1<::Struct_2_6B3AF550BFF57BDB>* _levelPerformCameraDataList; // 0x30
+		::System::Collections::Generic::List_1<::Struct_2_5A8D842CFA6E673C>* _focusTargetDataList; // 0x38
+		::MoleMole::Cameras::ScopedOverShoulderCamera* _scopedOverShoulderCamera; // 0x40
+		::MoleMole::EntityHandle _cachedFocusEntity; // 0x48
+		::UnityEngine::Transform* _cachedFocusTransform; // 0x58
+		::System::Boolean _isInFocusTargetMode; // 0x60
+		::System::Boolean _isFollowEntityOverride; // 0x61
+		::UnityEngine::Vector3 _lastCameraFollowPosition; // 0x64
+		::UnityEngine::Vector3 _cachedLastFocusTargetPos; // 0x70
+		::System::Single _cachedFocusViewRatio; // 0x7C
+		::System::Single _cachedFocusDampingSpeed; // 0x80
 
 		::System::Void _ctor()
 		{
@@ -85,14 +92,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERAFOCUSTARGETDATA_OFFSET))(this, tag, needRefresh);
 		}
 
-		::System::Void PushLevelPerformCameraData(::System::String* tag, ::System::String* baseConfigKey, ::System::String* overrideConfigKey, ::System::Boolean enableInitAimTarget, ::UnityEngine::Vector3 initAimTargetPos, ::System::Boolean enableInitPitch, ::System::Single initPitch, ::System::Boolean enableInitYaw, ::System::Single initYaw, ::System::Boolean useWorldCoordYaw)
+		::System::Void PushLevelPerformCameraData(::System::String* tag, ::System::String* baseConfigKey, ::System::String* overrideConfigKey, ::System::Boolean enableInitAimTarget, ::UnityEngine::Vector3 initAimTargetPos, ::System::Boolean enableInitPitch, ::System::Single initPitch, ::System::Boolean enableInitYaw, ::System::Single initYaw, ::System::Boolean useWorldCoordYaw, ::System::UInt32 followEntityID)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERADATA_OFFSET))(this, tag, baseConfigKey, overrideConfigKey, enableInitAimTarget, initAimTargetPos, enableInitPitch, initPitch, enableInitYaw, initYaw, useWorldCoordYaw);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_PUSHLEVELPERFORMCAMERADATA_OFFSET))(this, tag, baseConfigKey, overrideConfigKey, enableInitAimTarget, initAimTargetPos, enableInitPitch, initPitch, enableInitYaw, initYaw, useWorldCoordYaw, followEntityID);
 		}
 
 		::System::Void PopLevelPerformCameraData(::System::String* tag, ::System::Boolean needRefresh)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_POPLEVELPERFORMCAMERADATA_OFFSET))(this, tag, needRefresh);
+		}
+
+		::System::Void ClearData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARDATA_OFFSET))(this);
 		}
 
 		::System::Void ClearLevelPerformCameraData()
@@ -103,6 +115,16 @@ namespace MoleMole
 		::System::Void ClearFocusTargetData()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_CLEARFOCUSTARGETDATA_OFFSET))(this);
+		}
+
+		::System::Void TickLevelPerformCameraCheck()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_TICKLEVELPERFORMCAMERACHECK_OFFSET))(this);
+		}
+
+		::System::Void TickLevelPerformCameraFocusCheck()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM_TICKLEVELPERFORMCAMERAFOCUSCHECK_OFFSET))(this);
 		}
 
 		::System::Void RefreshLevelPerformCamera(::System::Boolean fromPop)

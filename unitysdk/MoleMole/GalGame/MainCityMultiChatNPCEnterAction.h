@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1821B5A0)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0333D0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityMultiChatNPCEnterAction_TypeDefinitionIndex = 40964;
+	inline static constexpr unsigned int MainCityMultiChatNPCEnterAction_TypeDefinitionIndex = 57953;
 
 	class MainCityMultiChatNPCEnterAction : public ::MoleMole::GalGame::MainCityChatActionBase
 	{

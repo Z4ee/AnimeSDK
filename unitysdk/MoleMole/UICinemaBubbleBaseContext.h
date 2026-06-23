@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT_SETUPGRAPHCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x13E63AB0)
-#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E63B30)
+#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT_SETUPGRAPHCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15B638B0)
+#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B63930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaBubbleBaseContext_TypeDefinitionIndex = 69459;
+	inline static constexpr unsigned int UICinemaBubbleBaseContext_TypeDefinitionIndex = 58749;
 
 	class UICinemaBubbleBaseContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* onClickEventName; // 0x28
-		::System::String* onMissEventName; // 0x30
-		::System::Action* onBeforePerClick; // 0x38
-		::System::String* onShowEventName; // 0x40
-		::System::Action_1<::System::Boolean>* onFinish; // 0x48
-		::System::Action_1<::System::String*>* graphEventDisatcher; // 0x50
-		::System::String* bubbleTextKey; // 0x58
-		::System::String* onSuccessEventName; // 0x60
-		::System::Action* onMiss; // 0x68
-		::System::Func_1<::System::Int32>* onSuccessClickReturnScore; // 0x70
+		::System::Action_1<::System::String*>* graphEventDisatcher; // 0x28
+		::System::Action_1<::System::Boolean>* onFinish; // 0x30
+		::System::String* bubbleTextKey; // 0x38
+		::System::String* onClickEventName; // 0x40
+		::System::Action* onMiss; // 0x48
+		::System::String* onSuccessEventName; // 0x50
+		::System::String* onShowEventName; // 0x58
+		::System::String* onMissEventName; // 0x60
+		::System::Func_1<::System::Int32>* onSuccessClickReturnScore; // 0x68
+		::System::Action* onBeforePerClick; // 0x70
 		::System::Int32 bubbleLocationIdx; // 0x78
-		::System::Int32 hitNum; // 0x7C
-		::System::Single timeDuration; // 0x80
+		::System::Single timeDuration; // 0x7C
+		::System::Int32 hitNum; // 0x80
 
 		::System::Void _ctor()
 		{

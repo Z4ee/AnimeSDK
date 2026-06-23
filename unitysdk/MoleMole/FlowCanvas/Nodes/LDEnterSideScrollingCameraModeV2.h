@@ -9,23 +9,23 @@ namespace MoleMole::Cameras { class OverrideConfigSideScrollingCamera; }
 namespace MoleMole::Cameras { class SideScrollingCameraRuntimeParam; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x18A39CE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18A39B70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3A4A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x16C9E780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16C9E600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9EF30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2_TypeDefinitionIndex = 73180;
+	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2_TypeDefinitionIndex = 54128;
 
 	class LDEnterSideScrollingCameraModeV2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::OverrideConfigSideScrollingCamera*>* _overrideConfig; // 0xA8
-		::FlowCanvas::FlowOutput* _onBlendInFinished; // 0xB0
+		::FlowCanvas::FlowOutput* _onBlendInFinished; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::OverrideConfigSideScrollingCamera*>* _overrideConfig; // 0xB0
 		::FlowCanvas::FlowOutput* _output; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::String*>* _cameraModeKey; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xC8
-		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::SideScrollingCameraRuntimeParam*>* _param; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::SideScrollingCameraRuntimeParam*>* _param; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xD0
 
 		::System::Void _ctor()
 		{

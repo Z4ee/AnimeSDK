@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_679;
+class Class_2_208CC9941471731A_386;
 
-#define CLASS_1_0AC4A496E905719C_METHOD_1_F8887BEAC9EC0E75_OFFSET UNITYSDK_OFFSET(0x10B2D660)
-#define CLASS_1_0AC4A496E905719C__CTOR_OFFSET UNITYSDK_OFFSET(0x10B2D650)
+#define CLASS_1_0AC4A496E905719C_METHOD_1_F8887BEAC9EC0E75_OFFSET UNITYSDK_OFFSET(0x15B05810)
+#define CLASS_1_0AC4A496E905719C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B05800)
 
-inline static constexpr unsigned int Class_1_0AC4A496E905719C_TypeDefinitionIndex = 39441;
+inline static constexpr unsigned int Class_1_0AC4A496E905719C_TypeDefinitionIndex = 49826;
 
 class Class_1_0AC4A496E905719C : public ::System::Object
 {
@@ -17,8 +17,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0AC4A496E905719C__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Boolean Method_1_F8887BEAC9EC0E75(::System::Int32 a1, ::Class_2_208CC9941471731A_679*& a2)
+	static ::System::Boolean Method_1_F8887BEAC9EC0E75(::System::Int32 a1, ::Class_2_208CC9941471731A_386*& a2)
 	{
-		return ((::System::Boolean(*)(::System::Int32, ::Class_2_208CC9941471731A_679*&))((::PBYTE)hIl2Cpp + CLASS_1_0AC4A496E905719C_METHOD_1_F8887BEAC9EC0E75_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::Int32, ::Class_2_208CC9941471731A_386*&))((::PBYTE)hIl2Cpp + CLASS_1_0AC4A496E905719C_METHOD_1_F8887BEAC9EC0E75_OFFSET))(a1, a2);
 	}
 };

@@ -6,7 +6,7 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ISerializationPolicy_TypeDefinitionIndex = 7383;
+	inline static constexpr unsigned int ISerializationPolicy_TypeDefinitionIndex = 7515;
 
 	class ISerializationPolicy
 	{

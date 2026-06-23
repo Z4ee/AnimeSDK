@@ -9,13 +9,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWARROW_OFFSET UNITYSDK_OFFSET(0x1C3E0F80)
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWTEX_OFFSET UNITYSDK_OFFSET(0x1C3E0FE0)
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E1080)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWARROW_OFFSET UNITYSDK_OFFSET(0x1E5D4390)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWTEX_OFFSET UNITYSDK_OFFSET(0x1E5D43F0)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D4490)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicBubbleProxy_TypeDefinitionIndex = 30757;
+	inline static constexpr unsigned int ComicBubbleProxy_TypeDefinitionIndex = 32308;
 
 	class ComicBubbleProxy : public ::UnityEngine::MonoBehaviour
 	{

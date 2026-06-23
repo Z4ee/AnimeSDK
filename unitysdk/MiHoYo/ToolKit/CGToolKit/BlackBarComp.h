@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_BLACKBARCOMP_ONGUI_OFFSET UNITYSDK_OFFSET(0x17512BD0)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_BLACKBARCOMP__CTOR_OFFSET UNITYSDK_OFFSET(0x17512C10)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_BLACKBARCOMP_ONGUI_OFFSET UNITYSDK_OFFSET(0x144BA210)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_BLACKBARCOMP__CTOR_OFFSET UNITYSDK_OFFSET(0x144BA250)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int BlackBarComp_TypeDefinitionIndex = 72177;
+	inline static constexpr unsigned int BlackBarComp_TypeDefinitionIndex = 44535;
 
 	class BlackBarComp : public ::UnityEngine::MonoBehaviour
 	{

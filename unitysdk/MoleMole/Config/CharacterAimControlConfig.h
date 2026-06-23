@@ -8,11 +8,11 @@
 namespace MoleMole::Config { class ICharacterAssistAimConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHARACTERAIMCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x141E8830)
+#define MOLEMOLE_CONFIG_CHARACTERAIMCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A33CA00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimControlConfig_TypeDefinitionIndex = 59184;
+	inline static constexpr unsigned int CharacterAimControlConfig_TypeDefinitionIndex = 48046;
 
 	class CharacterAimControlConfig : public ::System::Object
 	{
@@ -25,10 +25,13 @@ namespace MoleMole::Config
 		::System::Boolean ForbiddenCharacterRotation; // 0x50
 		::System::Boolean EnableYawAngleLimitByCharacterForward; // 0x51
 		::System::Single YawAngleLimitThresholdByCharacterForward; // 0x54
-		::System::String* lockTargetID; // 0x58
-		::System::Single lockTargetProtectionTime; // 0x60
-		::System::Single lockTargetBreakInputThreshold; // 0x64
-		::MoleMole::Config::ICharacterAssistAimConfig* assistConfig; // 0x68
+		::System::Boolean EnableYawAngleLimitByCharacterForwardDiffRange; // 0x58
+		::System::Single YawAngleLimitThresholdByCharacterForwardLeft; // 0x5C
+		::System::Single YawAngleLimitThresholdByCharacterForwardRight; // 0x60
+		::System::String* lockTargetID; // 0x68
+		::System::Single lockTargetProtectionTime; // 0x70
+		::System::Single lockTargetBreakInputThreshold; // 0x74
+		::MoleMole::Config::ICharacterAssistAimConfig* assistConfig; // 0x78
 
 		::System::Void _ctor()
 		{

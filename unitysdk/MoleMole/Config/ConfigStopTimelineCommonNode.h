@@ -6,12 +6,12 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x181D57A0)
-#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x181D5810)
+#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19FF2150)
+#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF21C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigStopTimelineCommonNode_TypeDefinitionIndex = 38323;
+	inline static constexpr unsigned int ConfigStopTimelineCommonNode_TypeDefinitionIndex = 56261;
 
 	class ConfigStopTimelineCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

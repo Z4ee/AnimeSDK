@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00F6F0)
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS18_0__DRAWLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1C00F700)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1EDBB0)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS18_0__DRAWLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1E1EDBC0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger___c__DisplayClass18_0_TypeDefinitionIndex = 8118;
+	inline static constexpr unsigned int MyLogger___c__DisplayClass18_0_TypeDefinitionIndex = 7922;
 
 	class MyLogger___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Single endThickness; // 0x10
-		::UnityEngine::Vector3 startPos; // 0x14
-		::System::Single startThickness; // 0x20
-		::UnityEngine::Color color; // 0x24
-		::UnityEngine::Vector3 endPos; // 0x34
+		::UnityEngine::Vector3 startPos; // 0x10
+		::System::Single startThickness; // 0x1C
+		::System::Single endThickness; // 0x20
+		::UnityEngine::Vector3 endPos; // 0x24
+		::UnityEngine::Color color; // 0x30
 
 		::System::Void _ctor()
 		{

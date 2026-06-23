@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFAE1D50)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFAE1D60)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFAE2000)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFAE21F0)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE21B0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE944B30)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE944B40)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE944DE0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE944FD0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ANIMATIONEVENTSOUNDACTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE944F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex = 77952;
+	inline static constexpr unsigned int AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex = 69347;
 
 	class AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::AnimationEventSoundAction*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44430);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44438);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AD00);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationEventSoundAction_AnimationEventSoundAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AD08);
 		}
 
 		::System::Void _ctor()

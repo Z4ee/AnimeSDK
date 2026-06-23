@@ -7,21 +7,18 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_754022533D501C3E_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xDB71930)
-#define CLASS_2_754022533D501C3E_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0xDB71800)
-#define CLASS_2_754022533D501C3E_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDB71920)
+#define CLASS_2_754022533D501C3E_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1405B940)
+#define CLASS_2_754022533D501C3E_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1405B860)
+#define CLASS_2_754022533D501C3E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1405B930)
 
-inline static constexpr unsigned int Class_2_754022533D501C3E_1_TypeDefinitionIndex = 67489;
+inline static constexpr unsigned int Class_2_754022533D501C3E_1_TypeDefinitionIndex = 40949;
 
 class Class_2_754022533D501C3E_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_5; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x28
-	::UnityEngine::RectTransform* Field_2_4; // 0x30
-	::UnityEngine::RectTransform* Field_2_3; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
+	::UnityEngine::RectTransform* Field_2_0; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x28
 
 	::System::Void _ctor()
 	{

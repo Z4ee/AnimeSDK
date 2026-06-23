@@ -8,7 +8,7 @@ namespace Utf8Json { template <typename T> class JsonDeserializeFunc_1; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int EnumFormatter_1___c__DisplayClass4_2_TypeDefinitionIndex = 85754;
+	inline static constexpr unsigned int EnumFormatter_1___c__DisplayClass4_2_TypeDefinitionIndex = 91328;
 
 	template <typename T>
 	class EnumFormatter_1___c__DisplayClass4_2 : public ::System::Object

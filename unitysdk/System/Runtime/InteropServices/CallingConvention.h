@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CallingConvention_TypeDefinitionIndex = 1427;
+	inline static constexpr unsigned int CallingConvention_TypeDefinitionIndex = 1426;
 
 	enum class CallingConvention : ::System::Int32
 	{

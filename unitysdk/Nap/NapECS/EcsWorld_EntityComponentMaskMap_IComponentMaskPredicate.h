@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorld_EntityComponentMaskMap_IComponentMaskPredicate_TypeDefinitionIndex = 35688;
+	inline static constexpr unsigned int EcsWorld_EntityComponentMaskMap_IComponentMaskPredicate_TypeDefinitionIndex = 37375;
 
 	class EcsWorld_EntityComponentMaskMap_IComponentMaskPredicate
 	{

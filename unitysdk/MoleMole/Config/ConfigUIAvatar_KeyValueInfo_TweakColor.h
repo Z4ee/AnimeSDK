@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigUIAvatar_RoleTweakColor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIAVATAR_KEYVALUEINFO_TWEAKCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x159F85C0)
+#define MOLEMOLE_CONFIG_CONFIGUIAVATAR_KEYVALUEINFO_TWEAKCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12722450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIAvatar_KeyValueInfo_TweakColor_TypeDefinitionIndex = 75625;
+	inline static constexpr unsigned int ConfigUIAvatar_KeyValueInfo_TweakColor_TypeDefinitionIndex = 48021;
 
 	class ConfigUIAvatar_KeyValueInfo_TweakColor : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace System::Buffers { class IPinnable; }
 
-#define SYSTEM_BUFFERS_MEMORYHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99E060)
-#define SYSTEM_BUFFERS_MEMORYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6E92E0)
+#define SYSTEM_BUFFERS_MEMORYHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3A360)
+#define SYSTEM_BUFFERS_MEMORYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x680BB0)
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int MemoryHandle_TypeDefinitionIndex = 7574;
+	inline static constexpr unsigned int MemoryHandle_TypeDefinitionIndex = 6584;
 
 	struct alignas(8) MemoryHandle
 	{

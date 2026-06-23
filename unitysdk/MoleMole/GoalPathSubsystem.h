@@ -9,21 +9,23 @@
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GOALPATHSUBSYSTEM_DESTROYALLGOALPATH_OFFSET UNITYSDK_OFFSET(0x10E1F220)
-#define MOLEMOLE_GOALPATHSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10E1F0F0)
-#define MOLEMOLE_GOALPATHSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10E1F1B0)
-#define MOLEMOLE_GOALPATHSUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E1F150)
-#define MOLEMOLE_GOALPATHSUBSYSTEM_REGISTERGOALPATH_OFFSET UNITYSDK_OFFSET(0x10E1F4B0)
-#define MOLEMOLE_GOALPATHSUBSYSTEM_UNREGISTERGOALPATH_OFFSET UNITYSDK_OFFSET(0x10E20480)
-#define MOLEMOLE_GOALPATHSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10E20720)
-#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10E207B0)
-#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10E20840)
-#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E208D0)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_DESTROYALLGOALPATH_OFFSET UNITYSDK_OFFSET(0x18B36BF0)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x18B36AC0)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18B36B80)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B36B20)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_REGISTERFIXEDPATH_OFFSET UNITYSDK_OFFSET(0x18B37E50)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_REGISTERGOALPATH_OFFSET UNITYSDK_OFFSET(0x18B36E80)
+#define MOLEMOLE_GOALPATHSUBSYSTEM_UNREGISTERGOALPATH_OFFSET UNITYSDK_OFFSET(0x18B38460)
+#define MOLEMOLE_GOALPATHSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B38700)
+#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x18B38790)
+#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18B38820)
+#define MOLEMOLE_GOALPATHSUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B388B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GoalPathSubsystem_TypeDefinitionIndex = 53166;
+	inline static constexpr unsigned int GoalPathSubsystem_TypeDefinitionIndex = 55637;
 
 	class GoalPathSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::GoalPathSubsystem*>
 	{
@@ -58,6 +60,11 @@ namespace MoleMole
 		::System::Void RegisterGoalPath(::System::String* key, ::UnityEngine::Vector3 source, ::UnityEngine::Vector3 target, ::System::Single offMeshDistance, ::System::Single edgeAvoidDistance, ::System::Single heightOffset, ::System::Single speed, ::System::Single spawnInterval, ::Enum_3_F27E25827C684939 pathType, ::Enum_3_432942E6E9915B35 destroyType, ::System::Single destroyDistance, ::System::Single destroyTime, ::System::Boolean keepParticleOnDestroy, ::System::Boolean ignoreOffsetOnBothEnd, ::System::Action* onGoalPathDestroyed)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::Enum_3_F27E25827C684939, ::Enum_3_432942E6E9915B35, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_GOALPATHSUBSYSTEM_REGISTERGOALPATH_OFFSET))(this, key, source, target, offMeshDistance, edgeAvoidDistance, heightOffset, speed, spawnInterval, pathType, destroyType, destroyDistance, destroyTime, keepParticleOnDestroy, ignoreOffsetOnBothEnd, onGoalPathDestroyed);
+		}
+
+		::System::Void RegisterFixedPath(::System::String* key, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* fixedPath, ::System::Single speed, ::System::Single spawnInterval, ::Enum_3_F27E25827C684939 pathType, ::Enum_3_432942E6E9915B35 destroyType, ::System::Single destroyDistance, ::System::Single destroyTime, ::System::Boolean keepParticleOnDestroy, ::System::Action* onGoalPathDestroyed)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Single, ::Enum_3_F27E25827C684939, ::Enum_3_432942E6E9915B35, ::System::Single, ::System::Single, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_GOALPATHSUBSYSTEM_REGISTERFIXEDPATH_OFFSET))(this, key, fixedPath, speed, spawnInterval, pathType, destroyType, destroyDistance, destroyTime, keepParticleOnDestroy, onGoalPathDestroyed);
 		}
 
 		::System::Void UnregisterGoalPath(::System::String* key)

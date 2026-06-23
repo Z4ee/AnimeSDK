@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigUIMainPageShowSetting; }
 namespace MoleMole { class MainPageItemShowSetting; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGESKINSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x142656D0)
+#define MOLEMOLE_CONFIGUIMAINPAGESKINSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x115F7E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageSkinShowItem_TypeDefinitionIndex = 41481;
+	inline static constexpr unsigned int ConfigUIMainPageSkinShowItem_TypeDefinitionIndex = 41709;
 
 	class ConfigUIMainPageSkinShowItem : public ::System::Object
 	{

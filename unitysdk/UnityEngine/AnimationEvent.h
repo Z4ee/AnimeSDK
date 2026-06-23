@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationState; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ANIMATIONEVENT_SET_FUNCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C547980)
-#define UNITYENGINE_ANIMATIONEVENT_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1C547990)
-#define UNITYENGINE_ANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C547920)
+#define UNITYENGINE_ANIMATIONEVENT_SET_FUNCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E878160)
+#define UNITYENGINE_ANIMATIONEVENT_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1E878170)
+#define UNITYENGINE_ANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E878100)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationEvent_TypeDefinitionIndex = 6573;
+	inline static constexpr unsigned int AnimationEvent_TypeDefinitionIndex = 6655;
 
 	class AnimationEvent : public ::System::Object
 	{

@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
-class Class_2_FDFE69FE7B72463B;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x12C44C90)
-#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12C44D20)
-#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_CBC0149B5D954D19_OFFSET UNITYSDK_OFFSET(0x12C44AC0)
-#define CLASS_2_3E1A0459A6647B99_11__CTOR_OFFSET UNITYSDK_OFFSET(0x12C44D10)
+#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x123D5AA0)
+#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x123D5B30)
+#define CLASS_2_3E1A0459A6647B99_11_METHOD_2_CBC0149B5D954D19_OFFSET UNITYSDK_OFFSET(0x123D58F0)
+#define CLASS_2_3E1A0459A6647B99_11__CTOR_OFFSET UNITYSDK_OFFSET(0x123D5B20)
 
-inline static constexpr unsigned int Class_2_3E1A0459A6647B99_11_TypeDefinitionIndex = 82987;
+inline static constexpr unsigned int Class_2_3E1A0459A6647B99_11_TypeDefinitionIndex = 70335;
 
 class Class_2_3E1A0459A6647B99_11 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_2; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x20
-	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x30
-	::UnityEngine::RectTransform* Field_2_1; // 0x38
+	::UnityEngine::RectTransform* Field_2_1; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x20
+	::UnityEngine::RectTransform* Field_2_0; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x30
+	::UnityEngine::RectTransform* Field_2_3; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x40
 
 	::System::Void _ctor()
 	{

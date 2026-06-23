@@ -7,17 +7,17 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_E37B790D3234C7FA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10DBE3A0)
-#define CLASS_2_E37B790D3234C7FA_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10DBE2E0)
-#define CLASS_2_E37B790D3234C7FA__CTOR_OFFSET UNITYSDK_OFFSET(0x10DBE390)
+#define CLASS_2_E37B790D3234C7FA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x160A0D60)
+#define CLASS_2_E37B790D3234C7FA_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x160A0CA0)
+#define CLASS_2_E37B790D3234C7FA__CTOR_OFFSET UNITYSDK_OFFSET(0x160A0D50)
 
-inline static constexpr unsigned int Class_2_E37B790D3234C7FA_TypeDefinitionIndex = 63633;
+inline static constexpr unsigned int Class_2_E37B790D3234C7FA_TypeDefinitionIndex = 78755;
 
 class Class_2_E37B790D3234C7FA : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Camera* Field_2_0; // 0x18
-	::UnityEngine::RectTransform* Field_2_1; // 0x20
+	::UnityEngine::RectTransform* Field_2_1; // 0x18
+	::UnityEngine::Camera* Field_2_0; // 0x20
 
 	::System::Void _ctor()
 	{

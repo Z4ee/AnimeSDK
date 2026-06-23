@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E58560)
-#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16E58570)
-#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16E588C0)
-#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E58B10)
-#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E58AD0)
+#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10D4C8F0)
+#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10D4C900)
+#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10D4CC50)
+#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D4CEA0)
+#define MOLEMOLE_GALGAME_MINIGAMERECORDNODE_MINIGAMERECORDNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4CE60)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex = 41017;
+	inline static constexpr unsigned int MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex = 81568;
 
 	class MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MiniGameRecordNode*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32390);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32398);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34270);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x323A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34278);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MiniGameRecordNode_MiniGameRecordNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34280);
 		}
 
 		::System::Void _ctor()

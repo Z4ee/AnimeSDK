@@ -8,27 +8,27 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_B2303AC82AEE5F2A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFED82E0)
-#define CLASS_2_B2303AC82AEE5F2A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0xFED8120)
-#define CLASS_2_B2303AC82AEE5F2A__CTOR_OFFSET UNITYSDK_OFFSET(0xFED82D0)
+#define CLASS_2_B2303AC82AEE5F2A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11837E00)
+#define CLASS_2_B2303AC82AEE5F2A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x11837C40)
+#define CLASS_2_B2303AC82AEE5F2A__CTOR_OFFSET UNITYSDK_OFFSET(0x11837DF0)
 
-inline static constexpr unsigned int Class_2_B2303AC82AEE5F2A_TypeDefinitionIndex = 77150;
+inline static constexpr unsigned int Class_2_B2303AC82AEE5F2A_TypeDefinitionIndex = 48866;
 
 class Class_2_B2303AC82AEE5F2A : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_8; // 0x18
+	::UnityEngine::RectTransform* Field_2_5; // 0x18
 	::MoleMole::MonoGamepadModule* Field_2_7; // 0x20
-	::UnityEngine::RectTransform* Field_2_4; // 0x28
-	::UnityEngine::RectTransform* Field_2_1; // 0x30
+	::UnityEngine::Transform* Field_2_0; // 0x28
+	::UnityEngine::RectTransform* Field_2_11; // 0x30
 	::UnityEngine::RectTransform* Field_2_3; // 0x38
-	::UnityEngine::RectTransform* Field_2_2; // 0x40
-	::UnityEngine::RectTransform* Field_2_9; // 0x48
-	::UnityEngine::Transform* Field_2_0; // 0x50
-	::UnityEngine::RectTransform* Field_2_11; // 0x58
-	::UnityEngine::RectTransform* Field_2_5; // 0x60
-	::UnityEngine::RectTransform* Field_2_6; // 0x68
-	::UnityEngine::RectTransform* Field_2_10; // 0x70
+	::UnityEngine::RectTransform* Field_2_6; // 0x40
+	::UnityEngine::RectTransform* Field_2_4; // 0x48
+	::UnityEngine::RectTransform* Field_2_2; // 0x50
+	::UnityEngine::RectTransform* Field_2_1; // 0x58
+	::UnityEngine::RectTransform* Field_2_10; // 0x60
+	::UnityEngine::RectTransform* Field_2_8; // 0x68
+	::UnityEngine::RectTransform* Field_2_9; // 0x70
 
 	::System::Void _ctor()
 	{

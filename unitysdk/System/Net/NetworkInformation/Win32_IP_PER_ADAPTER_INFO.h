@@ -3,11 +3,11 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_IP_ADDR_STRING.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32_IP_PER_ADAPTER_INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257490)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32_IP_PER_ADAPTER_INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C665190)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_PER_ADAPTER_INFO_TypeDefinitionIndex = 3776;
+	inline static constexpr unsigned int Win32_IP_PER_ADAPTER_INFO_TypeDefinitionIndex = 3775;
 
 	class Win32_IP_PER_ADAPTER_INFO : public ::System::Object
 	{

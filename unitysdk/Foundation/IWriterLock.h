@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IWriterLock_TypeDefinitionIndex = 8845;
+	inline static constexpr unsigned int IWriterLock_TypeDefinitionIndex = 8709;
 
 	class IWriterLock
 	{

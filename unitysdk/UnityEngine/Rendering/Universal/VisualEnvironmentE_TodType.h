@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_TodType_TypeDefinitionIndex = 29912;
+	inline static constexpr unsigned int VisualEnvironmentE_TodType_TypeDefinitionIndex = 26504;
 
 	enum class VisualEnvironmentE_TodType : ::System::Int32
 	{
-		Dynamic = 0,
-		Static = 1,
-		Zero = 2,
 		Special = 3,
+		Zero = 2,
+		Dynamic = 0,
 		DynamicV2 = 4,
+		Static = 1,
 	};
 }

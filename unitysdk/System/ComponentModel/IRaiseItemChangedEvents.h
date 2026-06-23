@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IRaiseItemChangedEvents_TypeDefinitionIndex = 2906;
+	inline static constexpr unsigned int IRaiseItemChangedEvents_TypeDefinitionIndex = 2905;
 
 	class IRaiseItemChangedEvents
 	{

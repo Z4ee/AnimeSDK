@@ -3,12 +3,12 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int BuddyMoveStatus_TypeDefinitionIndex = 74896;
+	inline static constexpr unsigned int BuddyMoveStatus_TypeDefinitionIndex = 50108;
 
 	enum class BuddyMoveStatus : ::System::Int32
 	{
 		OnGround = 1,
-		None = 0,
 		Floating = 2,
+		None = 0,
 	};
 }

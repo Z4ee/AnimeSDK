@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0x142A4BB0)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_METHOD_7_BC46FCF99873D9DD_OFFSET UNITYSDK_OFFSET(0x142A4E00)
-#define MOLEMOLE_MONOEFFECTPLUGINAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x142A4C10)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0x11637B70)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO_METHOD_7_BC46FCF99873D9DD_OFFSET UNITYSDK_OFFSET(0x11637DC0)
+#define MOLEMOLE_MONOEFFECTPLUGINAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x11637BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAudio_TypeDefinitionIndex = 43236;
+	inline static constexpr unsigned int MonoEffectPluginAudio_TypeDefinitionIndex = 52948;
 
 	class MonoEffectPluginAudio : public ::MoleMole::MonoEffectSerializedPluginBase
 	{

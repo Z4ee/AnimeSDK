@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_SETINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1B6C95F0)
-#define SYSTEM_DYNAMIC_SETINDEXBINDER_FALLBACKSETINDEX_OFFSET UNITYSDK_OFFSET(0x1B6C9890)
+#define SYSTEM_DYNAMIC_SETINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1DADC990)
+#define SYSTEM_DYNAMIC_SETINDEXBINDER_FALLBACKSETINDEX_OFFSET UNITYSDK_OFFSET(0x1DADCC30)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int SetIndexBinder_TypeDefinitionIndex = 5008;
+	inline static constexpr unsigned int SetIndexBinder_TypeDefinitionIndex = 5007;
 
 	class SetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELGUIDEITEMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162F24B0)
-#define MOLEMOLE_UIINLEVELGUIDEITEMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__SETVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x162F24C0)
+#define MOLEMOLE_UIINLEVELGUIDEITEMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1825E8D0)
+#define MOLEMOLE_UIINLEVELGUIDEITEMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__SETVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x1825E8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelGuideItemChildWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 67354;
+	inline static constexpr unsigned int UIInLevelGuideItemChildWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 79406;
 
 	class UIInLevelGuideItemChildWindowController___c__DisplayClass26_0 : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int MeshUtils_Pooled_1_TypeDefinitionIndex = 29742;
+	inline static constexpr unsigned int MeshUtils_Pooled_1_TypeDefinitionIndex = 26672;
 
 	template <typename T>
 	class MeshUtils_Pooled_1 : public ::System::Object

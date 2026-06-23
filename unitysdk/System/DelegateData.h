@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DELEGATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B4CF0)
+#define SYSTEM_DELEGATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C8FF0)
 
 namespace System
 {
@@ -14,8 +14,8 @@ namespace System
 	class DelegateData : public ::System::Object
 	{
 	public:
-		::System::String* method_name; // 0x10
-		::System::Type* target_type; // 0x18
+		::System::Type* target_type; // 0x10
+		::System::String* method_name; // 0x18
 		::System::Boolean curried_first_arg; // 0x20
 
 		::System::Void _ctor()

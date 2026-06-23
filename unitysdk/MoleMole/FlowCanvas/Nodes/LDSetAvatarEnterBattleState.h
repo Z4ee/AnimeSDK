@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAVATARENTERBATTLESTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x125B5F10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAVATARENTERBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x125B60D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAVATARENTERBATTLESTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13009C90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAVATARENTERBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13009E50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetAvatarEnterBattleState_TypeDefinitionIndex = 46049;
+	inline static constexpr unsigned int LDSetAvatarEnterBattleState_TypeDefinitionIndex = 53039;
 
 	class LDSetAvatarEnterBattleState : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::System::Boolean, ::System::String*, ::System::Boolean>
 	{

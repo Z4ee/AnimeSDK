@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessPriorityClass_TypeDefinitionIndex = 2798;
+	inline static constexpr unsigned int ProcessPriorityClass_TypeDefinitionIndex = 2797;
 
 	enum class ProcessPriorityClass : ::System::Int32
 	{

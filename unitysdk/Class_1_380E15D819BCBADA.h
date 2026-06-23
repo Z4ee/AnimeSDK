@@ -10,25 +10,25 @@ class Class_1_D0D2B3C2533F6DF2_3;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_380E15D819BCBADA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFB676E0)
-#define CLASS_1_380E15D819BCBADA_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFB66250)
-#define CLASS_1_380E15D819BCBADA_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0xFB662D0)
-#define CLASS_1_380E15D819BCBADA_METHOD_1_2A40FD6706B84D8D_OFFSET UNITYSDK_OFFSET(0xFB67740)
-#define CLASS_1_380E15D819BCBADA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB68070)
+#define CLASS_1_380E15D819BCBADA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167E1770)
+#define CLASS_1_380E15D819BCBADA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x167E02E0)
+#define CLASS_1_380E15D819BCBADA_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x167E0360)
+#define CLASS_1_380E15D819BCBADA_METHOD_1_2A40FD6706B84D8D_OFFSET UNITYSDK_OFFSET(0x167E17D0)
+#define CLASS_1_380E15D819BCBADA__CTOR_OFFSET UNITYSDK_OFFSET(0x167E2100)
 
-inline static constexpr unsigned int Class_1_380E15D819BCBADA_TypeDefinitionIndex = 69771;
+inline static constexpr unsigned int Class_1_380E15D819BCBADA_TypeDefinitionIndex = 82502;
 
 class Class_1_380E15D819BCBADA : public ::System::Object
 {
 public:
-	::System::String* Field_1_3; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_615D6B88F98D475B*>* Field_1_9; // 0x18
-	::System::String* Field_1_7; // 0x20
+	::System::String* Field_1_6; // 0x10
+	::System::String* Field_1_7; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_615D6B88F98D475B*>* Field_1_5; // 0x20
 	::Class_1_D0D2B3C2533F6DF2_3* Field_1_12; // 0x28
-	::System::String* Field_1_11; // 0x30
-	::System::Collections::Generic::List_1<::Class_1_615D6B88F98D475B*>* Field_1_5; // 0x38
-	::System::String* Field_1_6; // 0x40
-	::System::String* Field_1_10; // 0x48
+	::System::Collections::Generic::List_1<::Class_1_615D6B88F98D475B*>* Field_1_9; // 0x30
+	::System::String* Field_1_10; // 0x38
+	::System::String* Field_1_3; // 0x40
+	::System::String* Field_1_11; // 0x48
 	::System::Int32 Field_1_2; // 0x50
 	::System::Int32 Field_1_4; // 0x54
 	::System::Int32 Field_1_0; // 0x58

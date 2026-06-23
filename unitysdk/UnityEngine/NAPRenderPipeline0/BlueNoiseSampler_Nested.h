@@ -4,19 +4,19 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class BlueNoiseSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_NESTED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B65C970)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_NESTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B65C9C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_NESTED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA29010)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_NESTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA29060)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int BlueNoiseSampler_Nested_TypeDefinitionIndex = 5787;
+	inline static constexpr unsigned int BlueNoiseSampler_Nested_TypeDefinitionIndex = 5791;
 
 	class BlueNoiseSampler_Nested : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::BlueNoiseSampler** StaticGet_instance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::BlueNoiseSampler**)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_Nested_TypeDefinitionIndex)->GetStaticField(0x5500);
+			return (::UnityEngine::NAPRenderPipeline0::BlueNoiseSampler**)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_Nested_TypeDefinitionIndex)->GetStaticField(0x5530);
 		}
 
 		static ::System::Void _cctor()

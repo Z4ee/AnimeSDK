@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowSamplingMode_TypeDefinitionIndex = 6179;
+	inline static constexpr unsigned int ShadowSamplingMode_TypeDefinitionIndex = 6190;
 
 	enum class ShadowSamplingMode : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Animations::Rigging
 {
-	inline static constexpr unsigned int BoneRenderer_BoneShape_TypeDefinitionIndex = 80493;
+	inline static constexpr unsigned int BoneRenderer_BoneShape_TypeDefinitionIndex = 58220;
 
 	enum class BoneRenderer_BoneShape : ::System::Int32
 	{
 		Pyramid = 1,
-		Line = 0,
 		Box = 2,
+		Line = 0,
 	};
 }

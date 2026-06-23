@@ -6,7 +6,7 @@ namespace System::Dynamic::Utils { template <typename T> class ListProvider_1; }
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int ListProvider_1__GetEnumerator_d__20_TypeDefinitionIndex = 5019;
+	inline static constexpr unsigned int ListProvider_1__GetEnumerator_d__20_TypeDefinitionIndex = 5018;
 
 	template <typename T>
 	class ListProvider_1__GetEnumerator_d__20 : public ::System::Object

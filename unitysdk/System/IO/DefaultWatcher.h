@@ -11,40 +11,40 @@ namespace System::IO { class FileSystemWatcher; }
 namespace System::IO { class IFileWatcher; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_IO_DEFAULTWATCHER_CREATEFILEDATA_OFFSET UNITYSDK_OFFSET(0x1A5736F0)
-#define SYSTEM_IO_DEFAULTWATCHER_DISPATCHEVENTS_OFFSET UNITYSDK_OFFSET(0x1A572440)
-#define SYSTEM_IO_DEFAULTWATCHER_DOFILES_OFFSET UNITYSDK_OFFSET(0x1A572040)
-#define SYSTEM_IO_DEFAULTWATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A570BB0)
-#define SYSTEM_IO_DEFAULTWATCHER_ITERATEANDMODIFYFILESDATA_OFFSET UNITYSDK_OFFSET(0x1A572520)
-#define SYSTEM_IO_DEFAULTWATCHER_MONITOR_OFFSET UNITYSDK_OFFSET(0x1A5716C0)
-#define SYSTEM_IO_DEFAULTWATCHER_STARTDISPATCHING_OFFSET UNITYSDK_OFFSET(0x1A570C80)
-#define SYSTEM_IO_DEFAULTWATCHER_STOPDISPATCHING_OFFSET UNITYSDK_OFFSET(0x1A571400)
-#define SYSTEM_IO_DEFAULTWATCHER_UPDATEDATAANDDISPATCH_OFFSET UNITYSDK_OFFSET(0x1A571370)
-#define SYSTEM_IO_DEFAULTWATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A573780)
-#define SYSTEM_IO_DEFAULTWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A570BA0)
+#define SYSTEM_IO_DEFAULTWATCHER_CREATEFILEDATA_OFFSET UNITYSDK_OFFSET(0x1C8929A0)
+#define SYSTEM_IO_DEFAULTWATCHER_DISPATCHEVENTS_OFFSET UNITYSDK_OFFSET(0x1C8916F0)
+#define SYSTEM_IO_DEFAULTWATCHER_DOFILES_OFFSET UNITYSDK_OFFSET(0x1C8912F0)
+#define SYSTEM_IO_DEFAULTWATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C88FE70)
+#define SYSTEM_IO_DEFAULTWATCHER_ITERATEANDMODIFYFILESDATA_OFFSET UNITYSDK_OFFSET(0x1C8917D0)
+#define SYSTEM_IO_DEFAULTWATCHER_MONITOR_OFFSET UNITYSDK_OFFSET(0x1C890970)
+#define SYSTEM_IO_DEFAULTWATCHER_STARTDISPATCHING_OFFSET UNITYSDK_OFFSET(0x1C88FF40)
+#define SYSTEM_IO_DEFAULTWATCHER_STOPDISPATCHING_OFFSET UNITYSDK_OFFSET(0x1C8906B0)
+#define SYSTEM_IO_DEFAULTWATCHER_UPDATEDATAANDDISPATCH_OFFSET UNITYSDK_OFFSET(0x1C890620)
+#define SYSTEM_IO_DEFAULTWATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C892A30)
+#define SYSTEM_IO_DEFAULTWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C88FE60)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int DefaultWatcher_TypeDefinitionIndex = 3219;
+	inline static constexpr unsigned int DefaultWatcher_TypeDefinitionIndex = 3218;
 
 	class DefaultWatcher : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Thread** StaticGet_thread()
-		{
-			return (::System::Threading::Thread**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3060);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_NoStringsArray()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3068);
-		}
-		static ::System::Collections::Hashtable** StaticGet_watches()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3070);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3060);
 		}
 		static ::System::IO::DefaultWatcher** StaticGet_instance()
 		{
-			return (::System::IO::DefaultWatcher**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3078);
+			return (::System::IO::DefaultWatcher**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3068);
+		}
+		static ::System::Threading::Thread** StaticGet_thread()
+		{
+			return (::System::Threading::Thread**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3070);
+		}
+		static ::System::Collections::Hashtable** StaticGet_watches()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DefaultWatcher_TypeDefinitionIndex)->GetStaticField(0x3078);
 		}
 
 		::System::Void _ctor()

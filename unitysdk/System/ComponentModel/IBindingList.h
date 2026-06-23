@@ -8,7 +8,7 @@ namespace System::ComponentModel { class PropertyDescriptor; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IBindingList_TypeDefinitionIndex = 2888;
+	inline static constexpr unsigned int IBindingList_TypeDefinitionIndex = 2887;
 
 	class IBindingList
 	{

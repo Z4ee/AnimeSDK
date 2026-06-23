@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1C137E70)
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9C3C20)
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1C137E60)
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C137E50)
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C137E90)
-#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x293FB0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1E46F0C0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA65990)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E46F0B0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E46F0A0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E46F0E0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntryHandle_TypeDefinitionIndex = 8888;
+	inline static constexpr unsigned int FNameEntryHandle_TypeDefinitionIndex = 8704;
 
 	struct alignas(4) FNameEntryHandle
 	{
-		static ::Foundation::Unreal::FNameEntryHandle* StaticGet_Invalid()
-		{
-			return (::Foundation::Unreal::FNameEntryHandle*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryHandle_TypeDefinitionIndex)->GetStaticField(0x3D50);
-		}
 		static ::Foundation::Unreal::FNameEntryHandle* StaticGet_None()
 		{
-			return (::Foundation::Unreal::FNameEntryHandle*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryHandle_TypeDefinitionIndex)->GetStaticField(0x3D58);
+			return (::Foundation::Unreal::FNameEntryHandle*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryHandle_TypeDefinitionIndex)->GetStaticField(0x3B60);
+		}
+		static ::Foundation::Unreal::FNameEntryHandle* StaticGet_Invalid()
+		{
+			return (::Foundation::Unreal::FNameEntryHandle*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryHandle_TypeDefinitionIndex)->GetStaticField(0x3B68);
 		}
 		::System::UInt32 Block; // 0x10
 		::System::UInt32 Offset; // 0x14

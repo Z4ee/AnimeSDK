@@ -3,21 +3,21 @@
 #include "unitysdk/Spine/Skin_SkinKey.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET UNITYSDK_OFFSET(0x1C560490)
-#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C5604B0)
-#define SPINE_SKIN_SKINKEYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5604D0)
-#define SPINE_SKIN_SKINKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5604C0)
+#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET UNITYSDK_OFFSET(0x1E890200)
+#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E890220)
+#define SPINE_SKIN_SKINKEYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E890240)
+#define SPINE_SKIN_SKINKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E890230)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinKeyComparer_TypeDefinitionIndex = 31353;
+	inline static constexpr unsigned int Skin_SkinKeyComparer_TypeDefinitionIndex = 32904;
 
 	class Skin_SkinKeyComparer : public ::System::Object
 	{
 	public:
 		static ::Spine::Skin_SkinKeyComparer** StaticGet_Instance()
 		{
-			return (::Spine::Skin_SkinKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(Skin_SkinKeyComparer_TypeDefinitionIndex)->GetStaticField(0x256F0);
+			return (::Spine::Skin_SkinKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(Skin_SkinKeyComparer_TypeDefinitionIndex)->GetStaticField(0x27160);
 		}
 
 		::System::Void _ctor()

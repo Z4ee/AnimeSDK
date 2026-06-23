@@ -11,37 +11,37 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1AF293D0)
-#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF29A80)
-#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CREATEGENERICFORMATTER_OFFSET UNITYSDK_OFFSET(0x1AF298F0)
-#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF291E0)
-#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__GETORCREATEMYFORMATTER_OFFSET UNITYSDK_OFFSET(0x1AF29280)
+#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D34F850)
+#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D34FF00)
+#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CREATEGENERICFORMATTER_OFFSET UNITYSDK_OFFSET(0x1D34FD70)
+#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D34F660)
+#define MESSAGEPACK_RESOLVERS_GRAPH_FIRSTPRIORITY_RESOLVER__GETORCREATEMYFORMATTER_OFFSET UNITYSDK_OFFSET(0x1D34F700)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int Graph_FirstPriority_Resolver_TypeDefinitionIndex = 28207;
+	inline static constexpr unsigned int Graph_FirstPriority_Resolver_TypeDefinitionIndex = 30745;
 
 	class Graph_FirstPriority_Resolver : public ::System::Object
 	{
 	public:
+		static ::MessagePack::Resolvers::Graph_FirstPriority_Resolver** StaticGet_Instance()
+		{
+			return (::MessagePack::Resolvers::Graph_FirstPriority_Resolver**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C10);
+		}
 		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_genericFormatterTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FE80);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet_s_PriorityFormatters()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FE88);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C18);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet__HandWriteTypedFormatters()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FE90);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C20);
 		}
-		static ::MessagePack::Resolvers::Graph_FirstPriority_Resolver** StaticGet_Instance()
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet_s_PriorityFormatters()
 		{
-			return (::MessagePack::Resolvers::Graph_FirstPriority_Resolver**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FE98);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_FirstPriority_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C28);
 		}
-		::MessagePack::Formatters::Graph_BinderConnection_Formatter* BinderConnectionFormatter; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>* _formatters; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>* _formatters; // 0x10
+		::MessagePack::Formatters::Graph_BinderConnection_Formatter* BinderConnectionFormatter; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace System::IO { class Stream; }
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int IEncodableStream_TypeDefinitionIndex = 3617;
+	inline static constexpr unsigned int IEncodableStream_TypeDefinitionIndex = 3616;
 
 	class IEncodableStream
 	{

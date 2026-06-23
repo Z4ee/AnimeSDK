@@ -9,18 +9,18 @@ class Class_1_484FC6C8D28A6453;
 namespace MoleMole::Vehicle { class VehicleTestCameraMono; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_484FC6C8D28A6453_STRUCT_2_8B65A03329AFCBBE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6335E0)
-#define CLASS_1_484FC6C8D28A6453_STRUCT_2_8B65A03329AFCBBE_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define CLASS_1_484FC6C8D28A6453_STRUCT_2_8B65A03329AFCBBE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79AD10)
+#define CLASS_1_484FC6C8D28A6453_STRUCT_2_8B65A03329AFCBBE_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
-inline static constexpr unsigned int Class_1_484FC6C8D28A6453_Struct_2_8B65A03329AFCBBE_TypeDefinitionIndex = 48516;
+inline static constexpr unsigned int Class_1_484FC6C8D28A6453_Struct_2_8B65A03329AFCBBE_TypeDefinitionIndex = 82038;
 
 struct alignas(8) Class_1_484FC6C8D28A6453_Struct_2_8B65A03329AFCBBE
 {
-	::MoleMole::Vehicle::VehicleTestCameraMono* Field_2_3; // 0x10
-	::Class_1_484FC6C8D28A6453* Field_2_2; // 0x18
-	::PipelineCamera::ScopedDelegateHandle Field_2_4; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x28
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x38
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x10
+	::MoleMole::Vehicle::VehicleTestCameraMono* Field_2_3; // 0x18
+	::Class_1_484FC6C8D28A6453* Field_2_2; // 0x20
+	::PipelineCamera::ScopedDelegateHandle Field_2_4; // 0x28
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x30
 	::System::Int32 Field_2_0; // 0x40
 
 	::System::Void MoveNext()

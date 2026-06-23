@@ -6,11 +6,11 @@ namespace MoleMole { class UIAvatarAnimationSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIAVATARCAMERAANIMATIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12B55A30)
+#define MOLEMOLE_UIAVATARCAMERAANIMATIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1612C3D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarCameraAnimationSetting_TypeDefinitionIndex = 69115;
+	inline static constexpr unsigned int UIAvatarCameraAnimationSetting_TypeDefinitionIndex = 47156;
 
 	class UIAvatarCameraAnimationSetting : public ::System::Object
 	{

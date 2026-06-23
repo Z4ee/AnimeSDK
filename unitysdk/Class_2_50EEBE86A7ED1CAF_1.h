@@ -11,25 +11,25 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x1787BF80)
-#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_87DF7AD2E0AB49C9_OFFSET UNITYSDK_OFFSET(0x1787BD50)
-#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1787C010)
-#define CLASS_2_50EEBE86A7ED1CAF_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1787C000)
+#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x1208BB80)
+#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_87DF7AD2E0AB49C9_OFFSET UNITYSDK_OFFSET(0x1208B950)
+#define CLASS_2_50EEBE86A7ED1CAF_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1208BC10)
+#define CLASS_2_50EEBE86A7ED1CAF_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1208BC00)
 
-inline static constexpr unsigned int Class_2_50EEBE86A7ED1CAF_1_TypeDefinitionIndex = 73644;
+inline static constexpr unsigned int Class_2_50EEBE86A7ED1CAF_1_TypeDefinitionIndex = 70273;
 
 class Class_2_50EEBE86A7ED1CAF_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
-	::UnityEngine::RectTransform* Field_2_4; // 0x28
-	::Class_2_FDFE69FE7B72463B* Field_2_2; // 0x30
-	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x38
+	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x18
+	::UnityEngine::Transform* Field_2_5; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x28
+	::MoleMole::MonoInputKey* Field_2_6; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
 	::UnityEngine::Transform* Field_2_7; // 0x40
-	::UnityEngine::Transform* Field_2_5; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x50
-	::MoleMole::MonoInputKey* Field_2_6; // 0x58
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x48
+	::UnityEngine::RectTransform* Field_2_4; // 0x50
+	::Class_2_FDFE69FE7B72463B* Field_2_2; // 0x58
 
 	::System::Void _ctor()
 	{

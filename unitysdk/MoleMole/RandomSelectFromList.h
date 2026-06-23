@@ -6,13 +6,13 @@
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 namespace MoleMole { class SharedStrList; }
 
-#define MOLEMOLE_RANDOMSELECTFROMLIST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FAEEF0)
-#define MOLEMOLE_RANDOMSELECTFROMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAF320)
-#define MOLEMOLE_RANDOMSELECTFROMLIST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FAF3B0)
+#define MOLEMOLE_RANDOMSELECTFROMLIST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x141A4060)
+#define MOLEMOLE_RANDOMSELECTFROMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x141A4490)
+#define MOLEMOLE_RANDOMSELECTFROMLIST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x141A4520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RandomSelectFromList_TypeDefinitionIndex = 62804;
+	inline static constexpr unsigned int RandomSelectFromList_TypeDefinitionIndex = 73558;
 
 	class RandomSelectFromList : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{

@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class Asttree; }
 
-#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_ENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1B58F070)
-#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_MOVETOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B58F380)
-#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_MOVETOSTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x1B58ECA0)
-#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B58E900)
-#define SYSTEM_XML_SCHEMA_ACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58E910)
+#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_ENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1D9326F0)
+#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_MOVETOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D932A00)
+#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_MOVETOSTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x1D932320)
+#define SYSTEM_XML_SCHEMA_ACTIVEAXIS_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1D931F80)
+#define SYSTEM_XML_SCHEMA_ACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D931F90)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ActiveAxis_TypeDefinitionIndex = 1942;
+	inline static constexpr unsigned int ActiveAxis_TypeDefinitionIndex = 1941;
 
 	class ActiveAxis : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* axisStack; // 0x10
-		::System::Xml::Schema::Asttree* axisTree; // 0x18
+		::System::Xml::Schema::Asttree* axisTree; // 0x10
+		::System::Collections::ArrayList* axisStack; // 0x18
 		::System::Int32 currentDepth; // 0x20
 		::System::Boolean isActive; // 0x24
 

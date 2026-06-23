@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 3302;
+	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 3301;
 
 	enum class ContextAttribute : ::System::Int32
 	{

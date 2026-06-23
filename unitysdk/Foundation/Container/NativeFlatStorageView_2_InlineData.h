@@ -4,7 +4,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeFlatStorageView_2_InlineData_TypeDefinitionIndex = 9052;
+	inline static constexpr unsigned int NativeFlatStorageView_2_InlineData_TypeDefinitionIndex = 8484;
 
 	template <typename TUserData, typename T>
 	struct NativeFlatStorageView_2_InlineData

@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c_TypeDefinitionIndex = 36422;
+	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c_TypeDefinitionIndex = 38030;
 
 	template <typename T>
 	class CameraSequenceCollectionPlayer_1___c : public ::System::Object

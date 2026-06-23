@@ -9,7 +9,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeSparseArrayView_2_TypeDefinitionIndex = 9092;
+	inline static constexpr unsigned int NativeSparseArrayView_2_TypeDefinitionIndex = 8510;
 
 	template <typename TUserData, typename T>
 	struct NativeSparseArrayView_2

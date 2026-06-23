@@ -5,19 +5,19 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEVARIABLECONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x197BFE50)
-#define UNITYENGINE_UIELEMENTS_STYLEVARIABLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197BFDC0)
+#define UNITYENGINE_UIELEMENTS_STYLEVARIABLECONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF6A50)
+#define UNITYENGINE_UIELEMENTS_STYLEVARIABLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF69C0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleVariableContext_TypeDefinitionIndex = 25106;
+	inline static constexpr unsigned int StyleVariableContext_TypeDefinitionIndex = 27609;
 
 	class StyleVariableContext : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::StyleVariableContext** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleVariableContext**)Il2CppClass::FromTypeDefinitionIndex(StyleVariableContext_TypeDefinitionIndex)->GetStaticField(0x1EA10);
+			return (::UnityEngine::UIElements::StyleVariableContext**)Il2CppClass::FromTypeDefinitionIndex(StyleVariableContext_TypeDefinitionIndex)->GetStaticField(0x22640);
 		}
 		::System::Int32 m_VariableHash; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* m_Variables; // 0x18

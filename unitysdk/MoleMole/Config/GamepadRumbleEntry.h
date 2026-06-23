@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_GAMEPADRUMBLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17544D60)
+#define MOLEMOLE_CONFIG_GAMEPADRUMBLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x157CC300)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GamepadRumbleEntry_TypeDefinitionIndex = 38887;
+	inline static constexpr unsigned int GamepadRumbleEntry_TypeDefinitionIndex = 47537;
 
 	class GamepadRumbleEntry : public ::System::Object
 	{

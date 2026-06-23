@@ -6,13 +6,13 @@ namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading::Tasks { class ITaskCompletionAction; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x193F0900)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x193F09E0)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x193F08F0)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1B8C03A0)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1B8C0480)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0390)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int CompletionActionInvoker_TypeDefinitionIndex = 908;
+	inline static constexpr unsigned int CompletionActionInvoker_TypeDefinitionIndex = 907;
 
 	class CompletionActionInvoker : public ::System::Object
 	{

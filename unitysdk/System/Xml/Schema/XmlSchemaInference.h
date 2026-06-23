@@ -20,107 +20,107 @@ namespace System::Xml::Schema { class XmlSchemaSet; }
 namespace System::Xml::Schema { class XmlSchemaSimpleContentExtension; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A461EF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0x1A45F060)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CHECKSIMPLECONTENTEXTENSION_OFFSET UNITYSDK_OFFSET(0x1A466C10)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CREATENEWELEMENTFORCHOICE_OFFSET UNITYSDK_OFFSET(0x1A469040)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CREATEXMLSCHEMA_OFFSET UNITYSDK_OFFSET(0x1A4658F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_DATETIME_OFFSET UNITYSDK_OFFSET(0x1A46AD20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDATTRIBUTEREF_OFFSET UNITYSDK_OFFSET(0x1A4630C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A463540)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDELEMENTREF_OFFSET UNITYSDK_OFFSET(0x1A468E50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x1A468CD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDGLOBALELEMENT_OFFSET UNITYSDK_OFFSET(0x1A465980)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDMATCHINGELEMENT_OFFSET UNITYSDK_OFFSET(0x1A467480)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_GETEFFECTIVESCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1A465D80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_GETSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1A464AC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERELEMENT_OFFSET UNITYSDK_OFFSET(0x1A45FC80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSCHEMA1_OFFSET UNITYSDK_OFFSET(0x1A45E440)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSCHEMA_OFFSET UNITYSDK_OFFSET(0x1A45E3E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1A4696B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MAKEEXISTINGATTRIBUTESOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1A466B70)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MOVEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1A466D10)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MOVEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A4672D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_PROCESSATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A465F20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_REFINESIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1A463950)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SETMINMAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1A468A50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SET_TYPEINFERENCE_OFFSET UNITYSDK_OFFSET(0x1A45E260)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SWITCHUSETOOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1A469500)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A46AE20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45E270)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C79ECD0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0x1C79BE20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CHECKSIMPLECONTENTEXTENSION_OFFSET UNITYSDK_OFFSET(0x1C7A39E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CREATENEWELEMENTFORCHOICE_OFFSET UNITYSDK_OFFSET(0x1C7A5E10)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_CREATEXMLSCHEMA_OFFSET UNITYSDK_OFFSET(0x1C7A26D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_DATETIME_OFFSET UNITYSDK_OFFSET(0x1C7A7AF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDATTRIBUTEREF_OFFSET UNITYSDK_OFFSET(0x1C79FEA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C7A0320)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDELEMENTREF_OFFSET UNITYSDK_OFFSET(0x1C7A5C20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x1C7A5AA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDGLOBALELEMENT_OFFSET UNITYSDK_OFFSET(0x1C7A2760)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_FINDMATCHINGELEMENT_OFFSET UNITYSDK_OFFSET(0x1C7A4250)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_GETEFFECTIVESCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1C7A2B60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_GETSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1C7A18A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERELEMENT_OFFSET UNITYSDK_OFFSET(0x1C79CA60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSCHEMA1_OFFSET UNITYSDK_OFFSET(0x1C79B200)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSCHEMA_OFFSET UNITYSDK_OFFSET(0x1C79B1A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_INFERSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1C7A6480)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MAKEEXISTINGATTRIBUTESOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1C7A3940)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MOVEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C7A3AE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_MOVEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C7A40A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_PROCESSATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C7A2CF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_REFINESIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1C7A0730)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SETMINMAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1C7A5820)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SET_TYPEINFERENCE_OFFSET UNITYSDK_OFFSET(0x1C79B020)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE_SWITCHUSETOOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1C7A62D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7A7BF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79B030)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaInference_TypeDefinitionIndex = 2067;
+	inline static constexpr unsigned int XmlSchemaInference_TypeDefinitionIndex = 2066;
 
 	class XmlSchemaInference : public ::System::Object
 	{
 	public:
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_time()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_unsignedInt()
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A80);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_short()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A88);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_int()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A90);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_boolean()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A98);
-		}
 		static ::Il2CppArray<::System::Xml::XmlQualifiedName*>** StaticGet_SimpleTypes()
 		{
-			return (::Il2CppArray<::System::Xml::XmlQualifiedName*>**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AA0);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_float()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AA8);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_byte()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AB0);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_unsignedInt()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AB8);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_decimal()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AC0);
+			return (::Il2CppArray<::System::Xml::XmlQualifiedName*>**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A88);
 		}
 		static ::System::Xml::XmlQualifiedName** StaticGet_ST_long()
 		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AC8);
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A90);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_double()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_time()
 		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AD0);
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1A98);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_string()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_decimal()
 		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AD8);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_unsignedByte()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AE0);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_gYearMonth()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AE8);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_dateTime()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AF0);
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AA0);
 		}
 		static ::System::Xml::XmlQualifiedName** StaticGet_ST_unsignedLong()
 		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AF8);
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AA8);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_boolean()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AB0);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_duration()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AB8);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_unsignedByte()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AC0);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_date()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AC8);
 		}
 		static ::System::Xml::XmlQualifiedName** StaticGet_ST_integer()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AD0);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_double()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AD8);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_dateTime()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AE0);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_byte()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AE8);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_string()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AF0);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_gYearMonth()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1AF8);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_float()
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1B00);
 		}
@@ -128,27 +128,27 @@ namespace System::Xml::Schema
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1B08);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_anySimpleType()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_short()
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1B10);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_duration()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_int()
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1B18);
 		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_ST_date()
+		static ::System::Xml::XmlQualifiedName** StaticGet_ST_anySimpleType()
 		{
 			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaInference_TypeDefinitionIndex)->GetStaticField(0x1B20);
 		}
-		::System::Collections::ArrayList* schemaList; // 0x10
-		::System::Xml::Schema::XmlSchema* rootSchema; // 0x18
-		::System::Xml::Schema::XmlSchemaSet* schemaSet; // 0x20
-		::System::Xml::NameTable* nametable; // 0x28
-		::System::String* TargetNamespace; // 0x30
-		::System::Xml::XmlNamespaceManager* NamespaceManager; // 0x38
-		::System::Xml::XmlReader* xtr; // 0x40
-		::System::Xml::Schema::XmlSchemaInference_InferenceOption occurrence; // 0x48
-		::System::Xml::Schema::XmlSchemaInference_InferenceOption typeInference; // 0x4C
+		::System::String* TargetNamespace; // 0x10
+		::System::Collections::ArrayList* schemaList; // 0x18
+		::System::Xml::XmlNamespaceManager* NamespaceManager; // 0x20
+		::System::Xml::Schema::XmlSchema* rootSchema; // 0x28
+		::System::Xml::XmlReader* xtr; // 0x30
+		::System::Xml::NameTable* nametable; // 0x38
+		::System::Xml::Schema::XmlSchemaSet* schemaSet; // 0x40
+		::System::Xml::Schema::XmlSchemaInference_InferenceOption typeInference; // 0x48
+		::System::Xml::Schema::XmlSchemaInference_InferenceOption occurrence; // 0x4C
 
 		::System::Void _ctor()
 		{

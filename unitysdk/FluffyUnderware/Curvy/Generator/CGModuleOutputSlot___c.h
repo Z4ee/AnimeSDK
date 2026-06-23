@@ -5,24 +5,24 @@
 namespace FluffyUnderware::Curvy::Generator { class CGData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7C7290)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C72D0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__SETDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B7C72E0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB51660)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB516A0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEOUTPUTSLOT___C__SETDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x1DB516B0)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModuleOutputSlot___c_TypeDefinitionIndex = 37331;
+	inline static constexpr unsigned int CGModuleOutputSlot___c_TypeDefinitionIndex = 39046;
 
 	class CGModuleOutputSlot___c : public ::System::Object
 	{
 	public:
 		static ::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot___c** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot___c**)Il2CppClass::FromTypeDefinitionIndex(CGModuleOutputSlot___c_TypeDefinitionIndex)->GetStaticField(0x277E0);
+			return (::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot___c**)Il2CppClass::FromTypeDefinitionIndex(CGModuleOutputSlot___c_TypeDefinitionIndex)->GetStaticField(0x29440);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGData*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModuleOutputSlot___c_TypeDefinitionIndex)->GetStaticField(0x277E8);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModuleOutputSlot___c_TypeDefinitionIndex)->GetStaticField(0x29448);
 		}
 
 		static ::System::Void _cctor()

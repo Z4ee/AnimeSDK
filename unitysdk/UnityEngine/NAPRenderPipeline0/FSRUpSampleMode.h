@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int FSRUpSampleMode_TypeDefinitionIndex = 5865;
+	inline static constexpr unsigned int FSRUpSampleMode_TypeDefinitionIndex = 5872;
 
 	enum class FSRUpSampleMode : ::System::Int32
 	{

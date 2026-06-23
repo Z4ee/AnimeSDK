@@ -6,30 +6,30 @@ namespace MoleMole { class AbyssS2_DefaultRng; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREACOUNT_OFFSET UNITYSDK_OFFSET(0xFEF8D60)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0xFEF8F40)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREACOUNT_OFFSET UNITYSDK_OFFSET(0xFEF8C40)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0xFEF8E20)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_PREPAREGENAREASERIALID_OFFSET UNITYSDK_OFFSET(0xFEF9B10)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_SETPOINTID2AREA_OFFSET UNITYSDK_OFFSET(0xFEF9F60)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xFEF9000)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREACOUNT_OFFSET UNITYSDK_OFFSET(0x135840F0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x135842D0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREACOUNT_OFFSET UNITYSDK_OFFSET(0x13583FD0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x135841B0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_PREPAREGENAREASERIALID_OFFSET UNITYSDK_OFFSET(0x13584EA0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_SETPOINTID2AREA_OFFSET UNITYSDK_OFFSET(0x135852F0)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13584390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject_TypeDefinitionIndex = 82333;
+	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject_TypeDefinitionIndex = 85703;
 
 	class AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDCounter; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaResult; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDIndexCounter; // 0x20
-		::MoleMole::AbyssS2_DefaultRng* _areaSerialGen; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaIndexResult; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* floorRouteCounter; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDIndexCounter; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDIndexCounter; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaIndexResult; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDCounter; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* floorRouteCounter; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaResult; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* guaranteeAreaIDs; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDCounter; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDIndexCounter; // 0x50
+		::MoleMole::AbyssS2_DefaultRng* _areaSerialGen; // 0x50
 		::System::Int64 innerSeed; // 0x58
 
 		::System::Void _ctor(::System::Int64 inSeed)

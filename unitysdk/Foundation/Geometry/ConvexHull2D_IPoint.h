@@ -4,7 +4,7 @@
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int ConvexHull2D_IPoint_TypeDefinitionIndex = 8959;
+	inline static constexpr unsigned int ConvexHull2D_IPoint_TypeDefinitionIndex = 8585;
 
 	class ConvexHull2D_IPoint
 	{

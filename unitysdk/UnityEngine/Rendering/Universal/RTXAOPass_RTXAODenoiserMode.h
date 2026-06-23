@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXAOPass_RTXAODenoiserMode_TypeDefinitionIndex = 30213;
+	inline static constexpr unsigned int RTXAOPass_RTXAODenoiserMode_TypeDefinitionIndex = 27007;
 
 	enum class RTXAOPass_RTXAODenoiserMode : ::System::Int32
 	{
-		Standard = 0,
 		Bilateral = 1,
+		Standard = 0,
 	};
 }

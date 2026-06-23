@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IVirtualBoneHierarchy_TypeDefinitionIndex = 36734;
+	inline static constexpr unsigned int IVirtualBoneHierarchy_TypeDefinitionIndex = 38187;
 
 	class IVirtualBoneHierarchy
 	{

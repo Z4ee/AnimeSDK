@@ -7,20 +7,20 @@ namespace NodeGraph { class GraphOutputValuePort; }
 namespace NodeGraph { class NodeGraphBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHNODEOPERATIONNODE1_GET_NODENAME_OFFSET UNITYSDK_OFFSET(0x1092FBA0)
-#define NODEGRAPH_GRAPHNODEOPERATIONNODE1_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x1092FD50)
-#define NODEGRAPH_GRAPHNODEOPERATIONNODE1__CTOR_OFFSET UNITYSDK_OFFSET(0x1092FBE0)
-#define NODEGRAPH_GRAPHNODEOPERATIONNODE1___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x1092FE20)
+#define NODEGRAPH_GRAPHNODEOPERATIONNODE1_GET_NODENAME_OFFSET UNITYSDK_OFFSET(0xE03E020)
+#define NODEGRAPH_GRAPHNODEOPERATIONNODE1_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0xE03E1D0)
+#define NODEGRAPH_GRAPHNODEOPERATIONNODE1__CTOR_OFFSET UNITYSDK_OFFSET(0xE03E060)
+#define NODEGRAPH_GRAPHNODEOPERATIONNODE1___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0xE03E2A0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeOperationNode1_TypeDefinitionIndex = 79503;
+	inline static constexpr unsigned int GraphNodeOperationNode1_TypeDefinitionIndex = 69009;
 
 	class GraphNodeOperationNode1 : public ::NodeGraph::GraphNodeFlow
 	{
 	public:
-		::NodeGraph::GraphOutputValuePort* _outValue; // 0x58
-		::NodeGraph::GraphInputValuePort* _inValue; // 0x60
+		::NodeGraph::GraphInputValuePort* _inValue; // 0x58
+		::NodeGraph::GraphOutputValuePort* _outValue; // 0x60
 
 		::System::Void _ctor(::NodeGraph::NodeGraphBase* nodeGraphBase)
 		{

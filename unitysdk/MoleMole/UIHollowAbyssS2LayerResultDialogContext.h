@@ -6,11 +6,11 @@ class Class_3_1A50D9EA321B375F;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIHOLLOWABYSSS2LAYERRESULTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1525CB40)
+#define MOLEMOLE_UIHOLLOWABYSSS2LAYERRESULTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16974CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowAbyssS2LayerResultDialogContext_TypeDefinitionIndex = 61647;
+	inline static constexpr unsigned int UIHollowAbyssS2LayerResultDialogContext_TypeDefinitionIndex = 49176;
 
 	class UIHollowAbyssS2LayerResultDialogContext : public ::MoleMole::UIHollowHollowLayerResultDialogContext
 	{

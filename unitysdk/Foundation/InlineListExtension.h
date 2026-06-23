@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InlineListExtension_TypeDefinitionIndex = 8841;
+	inline static constexpr unsigned int InlineListExtension_TypeDefinitionIndex = 8452;
 
 	class InlineListExtension : public ::System::Object
 	{

@@ -7,9 +7,9 @@ class SceneObjectTrafficLightConfig_SideWalk_Traffic;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SCENEOBJECTTRAFFICLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4ED80)
+#define SCENEOBJECTTRAFFICLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC18780)
 
-inline static constexpr unsigned int SceneObjectTrafficLightConfig_TypeDefinitionIndex = 69038;
+inline static constexpr unsigned int SceneObjectTrafficLightConfig_TypeDefinitionIndex = 49589;
 
 class SceneObjectTrafficLightConfig : public ::System::Object
 {

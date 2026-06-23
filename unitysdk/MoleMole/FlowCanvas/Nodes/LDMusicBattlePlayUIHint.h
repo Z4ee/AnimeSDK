@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 #include "unitysdk/MoleMole/Config/MusicBattleMarkerNodeType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEPLAYUIHINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x160419D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEPLAYUIHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16041C30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEPLAYUIHINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB50A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEPLAYUIHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB5300)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMusicBattlePlayUIHint_TypeDefinitionIndex = 40551;
+	inline static constexpr unsigned int LDMusicBattlePlayUIHint_TypeDefinitionIndex = 73905;
 
 	class LDMusicBattlePlayUIHint : public ::FlowCanvas::Nodes::CallableActionNode_3<::System::Int32, ::System::Single, ::MoleMole::Config::MusicBattleMarkerNodeType>
 	{

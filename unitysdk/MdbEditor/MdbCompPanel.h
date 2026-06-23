@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MdbEditor/MdbGenericPanel.h"
 
-#define MDBEDITOR_MDBCOMPPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1033F960)
+#define MDBEDITOR_MDBCOMPPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64C50)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbCompPanel_TypeDefinitionIndex = 85958;
+	inline static constexpr unsigned int MdbCompPanel_TypeDefinitionIndex = 91480;
 
 	class MdbCompPanel : public ::MdbEditor::MdbGenericPanel
 	{

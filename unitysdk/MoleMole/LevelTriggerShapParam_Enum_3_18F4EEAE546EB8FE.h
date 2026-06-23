@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelTriggerShapParam_Enum_3_18F4EEAE546EB8FE_TypeDefinitionIndex = 59961;
+	inline static constexpr unsigned int LevelTriggerShapParam_Enum_3_18F4EEAE546EB8FE_TypeDefinitionIndex = 64708;
 
 	enum class LevelTriggerShapParam_Enum_3_18F4EEAE546EB8FE : ::System::Int32
 	{

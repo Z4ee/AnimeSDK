@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_AUTOPROFILERSAMPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x19FF9540)
-#define FOUNDATION_AUTOPROFILERSAMPLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8B5CF0)
+#define FOUNDATION_AUTOPROFILERSAMPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1C5BFBB0)
+#define FOUNDATION_AUTOPROFILERSAMPLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96E860)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AutoProfilerSample_TypeDefinitionIndex = 7810;
+	inline static constexpr unsigned int AutoProfilerSample_TypeDefinitionIndex = 7893;
 
 	struct alignas(1) AutoProfilerSample
 	{

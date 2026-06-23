@@ -3,11 +3,11 @@
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF8E250)
+#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C1410)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Recoil_RecoilOffset_EffectorLink_TypeDefinitionIndex = 36725;
+	inline static constexpr unsigned int Recoil_RecoilOffset_EffectorLink_TypeDefinitionIndex = 38144;
 
 	class Recoil_RecoilOffset_EffectorLink : public ::System::Object
 	{

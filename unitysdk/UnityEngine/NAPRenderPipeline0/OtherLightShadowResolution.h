@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OtherLightShadowResolution_TypeDefinitionIndex = 5875;
+	inline static constexpr unsigned int OtherLightShadowResolution_TypeDefinitionIndex = 5882;
 
 	enum class OtherLightShadowResolution : ::System::Int32
 	{

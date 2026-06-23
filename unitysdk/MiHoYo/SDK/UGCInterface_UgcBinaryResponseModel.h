@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UGCINTERFACE_UGCBINARYRESPONSEMODEL_TOJSON_OFFSET UNITYSDK_OFFSET(0x1A5095E0)
-#define MIHOYO_SDK_UGCINTERFACE_UGCBINARYRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5098D0)
+#define MIHOYO_SDK_UGCINTERFACE_UGCBINARYRESPONSEMODEL_TOJSON_OFFSET UNITYSDK_OFFSET(0x1C83EE20)
+#define MIHOYO_SDK_UGCINTERFACE_UGCBINARYRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C83F110)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_UgcBinaryResponseModel_TypeDefinitionIndex = 35255;
+	inline static constexpr unsigned int UGCInterface_UgcBinaryResponseModel_TypeDefinitionIndex = 36819;
 
 	class UGCInterface_UgcBinaryResponseModel : public ::System::Object
 	{

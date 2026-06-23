@@ -10,25 +10,25 @@ namespace MoleMole { class UIGeneralSortWidgetController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_81A83A606854345F_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0xEAA03B0)
-#define CLASS_2_81A83A606854345F_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0xEAA05B0)
-#define CLASS_2_81A83A606854345F_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xEAA06A0)
-#define CLASS_2_81A83A606854345F__CTOR_OFFSET UNITYSDK_OFFSET(0xEAA0690)
+#define CLASS_2_81A83A606854345F_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0xFBCA200)
+#define CLASS_2_81A83A606854345F_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0xFBCA400)
+#define CLASS_2_81A83A606854345F_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFBCA4F0)
+#define CLASS_2_81A83A606854345F__CTOR_OFFSET UNITYSDK_OFFSET(0xFBCA4E0)
 
-inline static constexpr unsigned int Class_2_81A83A606854345F_TypeDefinitionIndex = 60041;
+inline static constexpr unsigned int Class_2_81A83A606854345F_TypeDefinitionIndex = 76926;
 
 class Class_2_81A83A606854345F : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::UnityEngine::GameObject* Field_2_5; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x28
-	::MonoUITableScrollV2* Field_2_3; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralSortWidgetController*>* Field_2_0; // 0x40
-	::UnityEngine::UI::Text* Field_2_4; // 0x48
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralSortWidgetController*>* Field_2_0; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x28
+	::UnityEngine::UI::Text* Field_2_4; // 0x30
+	::UnityEngine::GameObject* Field_2_5; // 0x38
+	::MonoUITableScrollV2* Field_2_3; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x48
 
 	::System::Void _ctor()
 	{

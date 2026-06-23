@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_96;
-class Class_3_D92ADC48CDFCC09B;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_95_TypeDefinitionIndex = 32940;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_95_TypeDefinitionIndex = 28692;
 
-template <typename TDrived>
 class Class_0_16E4307DCC419505_95
 {
 public:

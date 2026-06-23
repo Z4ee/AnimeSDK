@@ -4,19 +4,19 @@
 
 namespace System::ComponentModel::Design { class IDesignerHost; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS_GET_NEWDESIGNER_OFFSET UNITYSDK_OFFSET(0x19EE6480)
-#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS_GET_OLDDESIGNER_OFFSET UNITYSDK_OFFSET(0x19EE6470)
-#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE6400)
+#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS_GET_NEWDESIGNER_OFFSET UNITYSDK_OFFSET(0x1C2E00B0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS_GET_OLDDESIGNER_OFFSET UNITYSDK_OFFSET(0x1C2E00A0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_ACTIVEDESIGNEREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E0030)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ActiveDesignerEventArgs_TypeDefinitionIndex = 3031;
+	inline static constexpr unsigned int ActiveDesignerEventArgs_TypeDefinitionIndex = 3030;
 
 	class ActiveDesignerEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::ComponentModel::Design::IDesignerHost* newDesigner; // 0x10
-		::System::ComponentModel::Design::IDesignerHost* oldDesigner; // 0x18
+		::System::ComponentModel::Design::IDesignerHost* oldDesigner; // 0x10
+		::System::ComponentModel::Design::IDesignerHost* newDesigner; // 0x18
 
 		::System::Void _ctor(::System::ComponentModel::Design::IDesignerHost* oldDesigner, ::System::ComponentModel::Design::IDesignerHost* newDesigner)
 		{

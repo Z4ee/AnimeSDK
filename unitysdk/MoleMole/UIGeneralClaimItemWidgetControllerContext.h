@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_92BB5F3881865EA5.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGENERALCLAIMITEMWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14FAC950)
+#define MOLEMOLE_UIGENERALCLAIMITEMWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17778C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralClaimItemWidgetControllerContext_TypeDefinitionIndex = 78942;
+	inline static constexpr unsigned int UIGeneralClaimItemWidgetControllerContext_TypeDefinitionIndex = 74231;
 
 	class UIGeneralClaimItemWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBakerHorizontalVertical_IPipeline_TypeDefinitionIndex = 85158;
+	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBakerHorizontalVertical_IPipeline_TypeDefinitionIndex = 90732;
 
 	class MB3_TextureCombinerPackerMeshBakerHorizontalVertical_IPipeline
 	{

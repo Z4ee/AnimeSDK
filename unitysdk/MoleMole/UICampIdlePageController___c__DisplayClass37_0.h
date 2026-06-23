@@ -5,12 +5,12 @@
 namespace MoleMole { class UICampIdlePageController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16471860)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS37_0__ONSELECTCHECKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x16471870)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6A7A0)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS37_0__ONSELECTCHECKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x18A6A7B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass37_0_TypeDefinitionIndex = 69152;
+	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass37_0_TypeDefinitionIndex = 86931;
 
 	class UICampIdlePageController___c__DisplayClass37_0 : public ::System::Object
 	{

@@ -6,18 +6,18 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B975AF0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975A70)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DCEC7F0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCEC770)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAttributeEventArgs_TypeDefinitionIndex = 1855;
+	inline static constexpr unsigned int XmlAttributeEventArgs_TypeDefinitionIndex = 1854;
 
 	class XmlAttributeEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Object* o; // 0x10
-		::System::String* qnames; // 0x18
+		::System::String* qnames; // 0x10
+		::System::Object* o; // 0x18
 		::System::Xml::XmlAttribute* attr; // 0x20
 		::System::Int32 linePosition; // 0x28
 		::System::Int32 lineNumber; // 0x2C

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FOUNDATION_BLACKFORGENCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75EEF0)
+#define FOUNDATION_BLACKFORGENCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB4D60)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BlackForGenCode_TypeDefinitionIndex = 7828;
+	inline static constexpr unsigned int BlackForGenCode_TypeDefinitionIndex = 7754;
 
 	class BlackForGenCode : public ::System::Attribute
 	{

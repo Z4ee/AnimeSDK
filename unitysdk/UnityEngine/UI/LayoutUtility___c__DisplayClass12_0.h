@@ -9,7 +9,7 @@ namespace UnityEngine::UI { class ILayoutLimiter; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutUtility___c__DisplayClass12_0_TypeDefinitionIndex = 8414;
+	inline static constexpr unsigned int LayoutUtility___c__DisplayClass12_0_TypeDefinitionIndex = 18922;
 
 	struct alignas(8) LayoutUtility___c__DisplayClass12_0
 	{

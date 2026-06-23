@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int FalloffType_TypeDefinitionIndex = 6283;
+	inline static constexpr unsigned int FalloffType_TypeDefinitionIndex = 6309;
 
 	enum class FalloffType : ::System::Byte
 	{

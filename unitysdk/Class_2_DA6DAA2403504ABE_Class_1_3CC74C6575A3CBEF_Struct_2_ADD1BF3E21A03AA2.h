@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_2_DA6DAA2403504ABE_Class_1_3CC74C6575A3CBEF_Struct_2_ADD1BF3E21A03AA2_TypeDefinitionIndex = 55216;
+inline static constexpr unsigned int Class_2_DA6DAA2403504ABE_Class_1_3CC74C6575A3CBEF_Struct_2_ADD1BF3E21A03AA2_TypeDefinitionIndex = 65635;
 
 template <typename T>
 struct Class_2_DA6DAA2403504ABE_Class_1_3CC74C6575A3CBEF_Struct_2_ADD1BF3E21A03AA2

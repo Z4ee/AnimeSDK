@@ -5,28 +5,28 @@
 namespace Sirenix::Serialization::Utilities { template <typename T> class Cache_1; }
 namespace System::IO { class MemoryStream; }
 
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_CLAIM_1_OFFSET UNITYSDK_OFFSET(0x1BCED5E0)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_CLAIM_OFFSET UNITYSDK_OFFSET(0x1BCED3D0)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_GET_MEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x1BCED100)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_ONCLAIMED_OFFSET UNITYSDK_OFFSET(0x1BCED360)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_ONFREED_OFFSET UNITYSDK_OFFSET(0x1BCED210)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCED820)
-#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCED190)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_CLAIM_1_OFFSET UNITYSDK_OFFSET(0x1E043440)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_CLAIM_OFFSET UNITYSDK_OFFSET(0x1E043230)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_GET_MEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x1E042F60)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_ONCLAIMED_OFFSET UNITYSDK_OFFSET(0x1E0431C0)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM_ONFREED_OFFSET UNITYSDK_OFFSET(0x1E043070)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E043680)
+#define SIRENIX_SERIALIZATION_CACHEDMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E042FF0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int CachedMemoryStream_TypeDefinitionIndex = 7363;
+	inline static constexpr unsigned int CachedMemoryStream_TypeDefinitionIndex = 7495;
 
 	class CachedMemoryStream : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_MaxCapacity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CachedMemoryStream_TypeDefinitionIndex)->GetStaticField(0x32A0);
-		}
 		static ::System::Int32* StaticGet_InitialCapacity()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CachedMemoryStream_TypeDefinitionIndex)->GetStaticField(0x32A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CachedMemoryStream_TypeDefinitionIndex)->GetStaticField(0x3330);
+		}
+		static ::System::Int32* StaticGet_MaxCapacity()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CachedMemoryStream_TypeDefinitionIndex)->GetStaticField(0x3334);
 		}
 		::System::IO::MemoryStream* memoryStream; // 0x10
 

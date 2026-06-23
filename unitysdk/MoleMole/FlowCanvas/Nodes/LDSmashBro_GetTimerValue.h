@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12328920)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x12328AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13ED2010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED21A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSmashBro_GetTimerValue_TypeDefinitionIndex = 60283;
+	inline static constexpr unsigned int LDSmashBro_GetTimerValue_TypeDefinitionIndex = 56417;
 
 	class LDSmashBro_GetTimerValue : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
 	{

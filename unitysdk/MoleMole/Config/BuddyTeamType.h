@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuddyTeamType_TypeDefinitionIndex = 45138;
+	inline static constexpr unsigned int BuddyTeamType_TypeDefinitionIndex = 74210;
 
 	enum class BuddyTeamType : ::System::Int32
 	{
-		Assisting = 2,
 		Fighting = 1,
 		Unknown = 0,
+		Assisting = 2,
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ROOTMOTION_INSPECTORCOMMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1EC870)
-#define ROOTMOTION_INSPECTORCOMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1EC820)
+#define ROOTMOTION_INSPECTORCOMMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5279F0)
+#define ROOTMOTION_INSPECTORCOMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5279A0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int InspectorComment_TypeDefinitionIndex = 36531;
+	inline static constexpr unsigned int InspectorComment_TypeDefinitionIndex = 38292;
 
 	class InspectorComment : public ::UnityEngine::PropertyAttribute
 	{

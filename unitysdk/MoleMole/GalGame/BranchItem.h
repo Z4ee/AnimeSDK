@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_BRANCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x125CB8E0)
+#define MOLEMOLE_GALGAME_BRANCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1301F580)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int BranchItem_TypeDefinitionIndex = 69252;
+	inline static constexpr unsigned int BranchItem_TypeDefinitionIndex = 54004;
 
 	class BranchItem : public ::System::Object
 	{

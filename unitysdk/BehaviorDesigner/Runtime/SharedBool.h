@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBOOL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C2A8B50)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A8C10)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBOOL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E5F6600)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F66C0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedBool_TypeDefinitionIndex = 31725;
+	inline static constexpr unsigned int SharedBool_TypeDefinitionIndex = 33276;
 
 	class SharedBool : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Boolean>
 	{

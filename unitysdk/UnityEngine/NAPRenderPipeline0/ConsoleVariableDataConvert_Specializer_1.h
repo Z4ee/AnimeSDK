@@ -9,7 +9,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ConsoleVariableDataConvert_Specializer_1_TypeDefinitionIndex = 5683;
+	inline static constexpr unsigned int ConsoleVariableDataConvert_Specializer_1_TypeDefinitionIndex = 5685;
 
 	template <typename T>
 	class ConsoleVariableDataConvert_Specializer_1 : public ::System::Object

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC69A0)
-#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHEXP_B__0_OFFSET UNITYSDK_OFFSET(0x15EC69B0)
-#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHEXP_B__1_OFFSET UNITYSDK_OFFSET(0x15EC6A20)
+#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3DDD0)
+#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHEXP_B__0_OFFSET UNITYSDK_OFFSET(0x17A3DDE0)
+#define MOLEMOLE_UIANTIQUEREWARDPAGEPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHEXP_B__1_OFFSET UNITYSDK_OFFSET(0x17A3DE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAntiqueRewardPagePageController___c__DisplayClass18_0_TypeDefinitionIndex = 80715;
+	inline static constexpr unsigned int UIAntiqueRewardPagePageController___c__DisplayClass18_0_TypeDefinitionIndex = 62294;
 
 	class UIAntiqueRewardPagePageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 nextNeedCount; // 0x10
-		::System::Int32 showItemCount; // 0x14
+		::System::Int32 showItemCount; // 0x10
+		::System::Int32 nextNeedCount; // 0x14
 
 		::System::Void _ctor()
 		{

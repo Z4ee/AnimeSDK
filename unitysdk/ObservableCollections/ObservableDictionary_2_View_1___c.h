@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableDictionary_2_View_1___c_TypeDefinitionIndex = 25571;
+	inline static constexpr unsigned int ObservableDictionary_2_View_1___c_TypeDefinitionIndex = 28164;
 
 	template <typename TKey, typename TValue, typename TView>
 	class ObservableDictionary_2_View_1___c : public ::System::Object

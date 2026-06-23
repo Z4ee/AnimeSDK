@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
+#include "unitysdk/Struct_2_9F85650CFFBE9F44.h"
 
-class Class_0_16E4307DCC419505_282;
-namespace System { class String; }
-namespace System::Collections { class IList; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_194_TypeDefinitionIndex = 64475;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_194_TypeDefinitionIndex = 40310;
 
 class Class_0_16E4307DCC419505_194
 {

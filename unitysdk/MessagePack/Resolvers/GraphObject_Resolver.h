@@ -7,33 +7,33 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER_GENERATEUNITYOBJECTFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1B4B21B0)
-#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1B4B1E30)
-#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4B1C40)
-#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B1E20)
+#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER_GENERATEUNITYOBJECTFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D803910)
+#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D803590)
+#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8033B0)
+#define MESSAGEPACK_RESOLVERS_GRAPHOBJECT_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D803580)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GraphObject_Resolver_TypeDefinitionIndex = 27794;
+	inline static constexpr unsigned int GraphObject_Resolver_TypeDefinitionIndex = 30089;
 
 	class GraphObject_Resolver : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet__knownUnityTypes()
-		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FEE0);
-		}
 		static ::System::Type** StaticGet__UnitObjectType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FEE8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C70);
 		}
 		static ::MessagePack::Resolvers::GraphObject_Resolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::GraphObject_Resolver**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FEF0);
+			return (::MessagePack::Resolvers::GraphObject_Resolver**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C78);
+		}
+		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet__knownUnityTypes()
+		{
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C80);
 		}
 		static ::Il2CppArray<::System::Type*>** StaticGet_waitCheckTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FEF8);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObject_Resolver_TypeDefinitionIndex)->GetStaticField(0x23C88);
 		}
 
 		static ::System::Void _cctor()

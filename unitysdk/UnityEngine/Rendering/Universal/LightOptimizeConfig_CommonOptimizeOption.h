@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightOptimizeConfig_CommonOptimizeOption_TypeDefinitionIndex = 30021;
+	inline static constexpr unsigned int LightOptimizeConfig_CommonOptimizeOption_TypeDefinitionIndex = 26975;
 
 	enum class LightOptimizeConfig_CommonOptimizeOption : ::System::Int32
 	{

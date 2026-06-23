@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/VOPerformSubSystem_NpcNameShowInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_VOPERFORMSUBSYSTEM___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE866290)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM___C__DISPLAYCLASS56_0___OPERATENPCENTITYNAMEBYENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xE8662A0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BEEB00)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM___C__DISPLAYCLASS56_0___OPERATENPCENTITYNAMEBYENTITY_B__1_OFFSET UNITYSDK_OFFSET(0x11BEEB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VOPerformSubSystem___c__DisplayClass56_0_TypeDefinitionIndex = 54624;
+	inline static constexpr unsigned int VOPerformSubSystem___c__DisplayClass56_0_TypeDefinitionIndex = 69479;
 
 	class VOPerformSubSystem___c__DisplayClass56_0 : public ::System::Object
 	{

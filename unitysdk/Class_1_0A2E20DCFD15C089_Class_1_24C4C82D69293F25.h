@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_0A2E20DCFD15C089_Class_1_24C4C82D69293F25_TypeDefinitionIndex = 55898;
+inline static constexpr unsigned int Class_1_0A2E20DCFD15C089_Class_1_24C4C82D69293F25_TypeDefinitionIndex = 53606;
 
 template <typename T>
 class Class_1_0A2E20DCFD15C089_Class_1_24C4C82D69293F25 : public ::System::Object

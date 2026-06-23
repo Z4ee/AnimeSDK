@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseMove_AroundAxis_TypeDefinitionIndex = 69568;
+	inline static constexpr unsigned int BaseMove_AroundAxis_TypeDefinitionIndex = 44565;
 
 	enum class BaseMove_AroundAxis : ::System::Int32
 	{

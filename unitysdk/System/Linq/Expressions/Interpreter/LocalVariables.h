@@ -10,26 +10,26 @@ namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables_VariableScope; }
 namespace System::Linq::Expressions::Interpreter { template <typename T1, typename T2> class HybridReferenceDictionary_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_ADDCLOSUREVARIABLE_OFFSET UNITYSDK_OFFSET(0x1BFEA1A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_BOX_OFFSET UNITYSDK_OFFSET(0x1BFE9E90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_DEFINELOCAL_OFFSET UNITYSDK_OFFSET(0x1BFE9B70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_GET_CLOSUREVARIABLES_OFFSET UNITYSDK_OFFSET(0x1BFEA190)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_GET_LOCALCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFEA060)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_TRYGETLOCALORCLOSURE_OFFSET UNITYSDK_OFFSET(0x1BFEA070)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_UNDEFINELOCAL_OFFSET UNITYSDK_OFFSET(0x1BFE9D50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEA2E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_ADDCLOSUREVARIABLE_OFFSET UNITYSDK_OFFSET(0x1E308180)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_BOX_OFFSET UNITYSDK_OFFSET(0x1E307E70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_DEFINELOCAL_OFFSET UNITYSDK_OFFSET(0x1E307B50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_GET_CLOSUREVARIABLES_OFFSET UNITYSDK_OFFSET(0x1E308170)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_GET_LOCALCOUNT_OFFSET UNITYSDK_OFFSET(0x1E308040)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_TRYGETLOCALORCLOSURE_OFFSET UNITYSDK_OFFSET(0x1E308050)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_UNDEFINELOCAL_OFFSET UNITYSDK_OFFSET(0x1E307D30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3082C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LocalVariables_TypeDefinitionIndex = 4792;
+	inline static constexpr unsigned int LocalVariables_TypeDefinitionIndex = 4791;
 
 	class LocalVariables : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _closureVariables; // 0x10
-		::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* _variables; // 0x18
-		::System::Int32 _maxLocalCount; // 0x20
-		::System::Int32 _localCount; // 0x24
+		::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* _variables; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _closureVariables; // 0x18
+		::System::Int32 _localCount; // 0x20
+		::System::Int32 _maxLocalCount; // 0x24
 
 		::System::Void _ctor()
 		{

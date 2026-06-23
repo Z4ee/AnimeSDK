@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14585A90)
-#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__DISPLAYCLASS16_0__PLAYBGFADEIN_B__0_OFFSET UNITYSDK_OFFSET(0x14585AA0)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16696050)
+#define MOLEMOLE_UISHOPPINGMALLV2PAGECONTROLLER___C__DISPLAYCLASS16_0__PLAYBGFADEIN_B__0_OFFSET UNITYSDK_OFFSET(0x16696060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallV2PageController___c__DisplayClass16_0_TypeDefinitionIndex = 57218;
+	inline static constexpr unsigned int UIShoppingMallV2PageController___c__DisplayClass16_0_TypeDefinitionIndex = 40680;
 
 	class UIShoppingMallV2PageController___c__DisplayClass16_0 : public ::System::Object
 	{

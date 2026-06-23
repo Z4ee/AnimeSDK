@@ -7,13 +7,13 @@ namespace MoleMole::Config { class ConfigMultiplayer_GameplayTagSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17452150)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x17452930)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17452CA0)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1704F140)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1704F920)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1704FC90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMultiplayer_TypeDefinitionIndex = 78797;
+	inline static constexpr unsigned int ConfigMultiplayer_TypeDefinitionIndex = 50135;
 
 	class ConfigMultiplayer : public ::Foundation::MihoyoSerializedScriptableObject
 	{

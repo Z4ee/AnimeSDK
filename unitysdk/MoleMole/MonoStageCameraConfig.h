@@ -5,13 +5,13 @@
 namespace Cinemachine { class CinemachineBlenderSettings; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define MOLEMOLE_MONOSTAGECAMERACONFIG_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x12360660)
-#define MOLEMOLE_MONOSTAGECAMERACONFIG_METHOD_5_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0x12360680)
-#define MOLEMOLE_MONOSTAGECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x123609D0)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x13F15DD0)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG_METHOD_5_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0x13F15DF0)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F16140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStageCameraConfig_TypeDefinitionIndex = 45113;
+	inline static constexpr unsigned int MonoStageCameraConfig_TypeDefinitionIndex = 57053;
 
 	class MonoStageCameraConfig : public ::UnityEngine::MonoBehaviour
 	{

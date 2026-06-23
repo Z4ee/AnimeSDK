@@ -8,23 +8,23 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_C42082441C30442A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x156F4DB0)
-#define CLASS_2_C42082441C30442A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x156F4C50)
-#define CLASS_2_C42082441C30442A__CTOR_OFFSET UNITYSDK_OFFSET(0x156F4DA0)
+#define CLASS_2_C42082441C30442A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x17926460)
+#define CLASS_2_C42082441C30442A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x17926300)
+#define CLASS_2_C42082441C30442A__CTOR_OFFSET UNITYSDK_OFFSET(0x17926450)
 
-inline static constexpr unsigned int Class_2_C42082441C30442A_TypeDefinitionIndex = 80057;
+inline static constexpr unsigned int Class_2_C42082441C30442A_TypeDefinitionIndex = 75009;
 
 class Class_2_C42082441C30442A : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MoleMole::MonoGamepadSelectable* Field_2_6; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
-	::MoleMole::MonoGamepadSelectable* Field_2_5; // 0x28
+	::MoleMole::MonoGamepadSelectable* Field_2_7; // 0x18
+	::MoleMole::MonoGamepadSelectable* Field_2_6; // 0x20
+	::UnityEngine::Transform* Field_2_4; // 0x28
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x30
-	::UnityEngine::Transform* Field_2_4; // 0x38
-	::UnityEngine::Transform* Field_2_2; // 0x40
-	::UnityEngine::Transform* Field_2_3; // 0x48
-	::MoleMole::MonoGamepadSelectable* Field_2_7; // 0x50
+	::UnityEngine::Transform* Field_2_3; // 0x38
+	::UnityEngine::Transform* Field_2_1; // 0x40
+	::UnityEngine::Transform* Field_2_2; // 0x48
+	::MoleMole::MonoGamepadSelectable* Field_2_5; // 0x50
 
 	::System::Void _ctor()
 	{

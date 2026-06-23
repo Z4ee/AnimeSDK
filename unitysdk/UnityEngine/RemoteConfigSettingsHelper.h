@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RemoteConfigSettingsHelper_TypeDefinitionIndex = 84222;
+	inline static constexpr unsigned int RemoteConfigSettingsHelper_TypeDefinitionIndex = 89801;
 
 	class RemoteConfigSettingsHelper : public ::System::Object
 	{

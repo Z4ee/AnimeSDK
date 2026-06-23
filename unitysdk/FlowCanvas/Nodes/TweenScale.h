@@ -7,12 +7,12 @@
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_TWEENSCALE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B326580)
-#define FLOWCANVAS_NODES_TWEENSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B326610)
+#define FLOWCANVAS_NODES_TWEENSCALE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D6DF2C0)
+#define FLOWCANVAS_NODES_TWEENSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DF350)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenScale_TypeDefinitionIndex = 26611;
+	inline static constexpr unsigned int TweenScale_TypeDefinitionIndex = 30780;
 
 	class TweenScale : public ::FlowCanvas::Nodes::LatentActionNode_5<::UnityEngine::Transform*, ::UnityEngine::Vector3, ::System::Single, ::ParadoxNotion::Animation::EaseType, ::System::Boolean>
 	{

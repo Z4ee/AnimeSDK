@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B021E50)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CREATEWEBREQUEST_B__61_0_OFFSET UNITYSDK_OFFSET(0x1B021EA0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B021E90)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__SENDASYNC_B__64_0_OFFSET UNITYSDK_OFFSET(0x1B021F10)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D498530)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CREATEWEBREQUEST_B__61_0_OFFSET UNITYSDK_OFFSET(0x1D498580)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D498570)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C__SENDASYNC_B__64_0_OFFSET UNITYSDK_OFFSET(0x1D4985F0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClientHandler___c_TypeDefinitionIndex = 24709;
+	inline static constexpr unsigned int HttpClientHandler___c_TypeDefinitionIndex = 26109;
 
 	class HttpClientHandler___c : public ::System::Object
 	{
 	public:
-		static ::System::Net::Http::HttpClientHandler___c** StaticGet___9()
-		{
-			return (::System::Net::Http::HttpClientHandler___c**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1E830);
-		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__61_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1E838);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1FF90);
 		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__64_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1E840);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1FF98);
+		}
+		static ::System::Net::Http::HttpClientHandler___c** StaticGet___9()
+		{
+			return (::System::Net::Http::HttpClientHandler___c**)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler___c_TypeDefinitionIndex)->GetStaticField(0x1FFA0);
 		}
 
 		static ::System::Void _cctor()

@@ -8,26 +8,26 @@
 class Class_3_B537A0AA78803363;
 class Class_3_DCB7F8B839F0C44B_4;
 namespace System { class String; }
-template <typename T> class Class_4_2FF7D360A2F3EC48;
-template <typename T> class Class_4_8D3E479B491881B3;
+template <typename T> class Class_4_B51FB35349ACD175;
+template <typename T> class Class_4_F91115D9A1F02F5F;
 
-#define CLASS_3_85A32403EDE2F6BC_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x116D57E0)
-#define CLASS_3_85A32403EDE2F6BC_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x116D6040)
-#define CLASS_3_85A32403EDE2F6BC_METHOD_3_D36F1AC51FF9E63B_OFFSET UNITYSDK_OFFSET(0x116D5AA0)
-#define CLASS_3_85A32403EDE2F6BC__CTOR_OFFSET UNITYSDK_OFFSET(0x116D5E00)
+#define CLASS_3_85A32403EDE2F6BC_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x13B37620)
+#define CLASS_3_85A32403EDE2F6BC_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13B37E80)
+#define CLASS_3_85A32403EDE2F6BC_METHOD_3_D36F1AC51FF9E63B_OFFSET UNITYSDK_OFFSET(0x13B378E0)
+#define CLASS_3_85A32403EDE2F6BC__CTOR_OFFSET UNITYSDK_OFFSET(0x13B37C40)
 
-inline static constexpr unsigned int Class_3_85A32403EDE2F6BC_TypeDefinitionIndex = 80003;
+inline static constexpr unsigned int Class_3_85A32403EDE2F6BC_TypeDefinitionIndex = 54243;
 
 class Class_3_85A32403EDE2F6BC : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_3_B537A0AA78803363* Field_3_5; // 0x18
-	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_3_3; // 0x20
+	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_3_1; // 0x18
+	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_3_3; // 0x20
 	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x28
-	::Class_4_8D3E479B491881B3<::System::Boolean>* Field_3_4; // 0x30
-	::Class_3_B537A0AA78803363* Field_3_6; // 0x38
-	::Class_4_2FF7D360A2F3EC48<::Foundation::ViewObject::ViewObjectHandle>* Field_3_2; // 0x40
-	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_3_1; // 0x48
+	::Class_4_B51FB35349ACD175<::System::Boolean>* Field_3_4; // 0x30
+	::Class_3_B537A0AA78803363* Field_3_5; // 0x38
+	::Class_4_F91115D9A1F02F5F<::Foundation::ViewObject::ViewObjectHandle>* Field_3_2; // 0x40
+	::Class_3_B537A0AA78803363* Field_3_6; // 0x48
 
 	::System::Void _ctor()
 	{

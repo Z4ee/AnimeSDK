@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE_COLLECTLEAFNODE_OFFSET UNITYSDK_OFFSET(0x1C0A3BE0)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1C0A3BC0)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A3FD0)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE_COLLECTLEAFNODE_OFFSET UNITYSDK_OFFSET(0x1400CEF0)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1400CED0)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1400D2E0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int GameplayTagNode_TypeDefinitionIndex = 9047;
+	inline static constexpr unsigned int GameplayTagNode_TypeDefinitionIndex = 16978;
 
 	class GameplayTagNode : public ::System::Object
 	{

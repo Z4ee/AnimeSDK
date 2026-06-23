@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int TargetType_TypeDefinitionIndex = 32937;
+	inline static constexpr unsigned int TargetType_TypeDefinitionIndex = 34490;
 
 	enum class TargetType : ::System::Int32
 	{

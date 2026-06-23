@@ -8,15 +8,15 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_A72BFC623106BA9B;
-template <typename T> class Class_1_B0D1B3309B7F3713;
+template <typename T> class Class_1_B0D1B3309B7F371A;
 
-inline static constexpr unsigned int Class_1_A72BFC623106BA9B_TypeDefinitionIndex = 25606;
+inline static constexpr unsigned int Class_1_A72BFC623106BA9B_TypeDefinitionIndex = 28102;
 
 template <typename T>
 class Class_1_A72BFC623106BA9B : public ::System::Object
 {
 public:
 	::System::Int32 Field_1_0; // 0x0
-	::Class_1_B0D1B3309B7F3713<T>* Field_1_1; // 0x0
-	::Class_1_B0D1B3309B7F3713<T>* Field_1_2; // 0x0
+	::Class_1_B0D1B3309B7F371A<T>* Field_1_1; // 0x0
+	::Class_1_B0D1B3309B7F371A<T>* Field_1_2; // 0x0
 };

@@ -11,26 +11,26 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x13D7C500)
-#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13D7C5D0)
-#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x13D7C290)
-#define CLASS_2_89EA4941BA4D8ACD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13D7C5C0)
+#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xFBC8F10)
+#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFBC8FE0)
+#define CLASS_2_89EA4941BA4D8ACD_1_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0xFBC8CA0)
+#define CLASS_2_89EA4941BA4D8ACD_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFBC8FD0)
 
-inline static constexpr unsigned int Class_2_89EA4941BA4D8ACD_1_TypeDefinitionIndex = 76586;
+inline static constexpr unsigned int Class_2_89EA4941BA4D8ACD_1_TypeDefinitionIndex = 73521;
 
 class Class_2_89EA4941BA4D8ACD_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x18
-	::UnityEngine::GameObject* Field_2_7; // 0x20
+	::UnityEngine::GameObject* Field_2_7; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x20
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x28
 	::UnityEngine::GameObject* Field_2_8; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x48
-	::MoleMole::NotificationBadgeEx* Field_2_6; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x40
+	::MoleMole::NotificationBadgeEx* Field_2_6; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x50
 	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x58
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x60
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x60
 
 	::System::Void _ctor()
 	{

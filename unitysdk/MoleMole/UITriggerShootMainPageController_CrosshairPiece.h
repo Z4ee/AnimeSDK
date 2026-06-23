@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UITRIGGERSHOOTMAINPAGECONTROLLER_CROSSHAIRPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x713E40)
+#define MOLEMOLE_UITRIGGERSHOOTMAINPAGECONTROLLER_CROSSHAIRPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x7BC350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriggerShootMainPageController_CrosshairPiece_TypeDefinitionIndex = 57992;
+	inline static constexpr unsigned int UITriggerShootMainPageController_CrosshairPiece_TypeDefinitionIndex = 72116;
 
 	struct alignas(8) UITriggerShootMainPageController_CrosshairPiece
 	{

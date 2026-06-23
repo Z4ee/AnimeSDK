@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_INFO_TypeDefinitionIndex = 3839;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_INFO_TypeDefinitionIndex = 3838;
 
 	struct alignas(8) Win32_IP_ADAPTER_INFO
 	{

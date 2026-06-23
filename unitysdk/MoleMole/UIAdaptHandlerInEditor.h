@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-#define MOLEMOLE_UIADAPTHANDLERINEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC4930)
+#define MOLEMOLE_UIADAPTHANDLERINEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3BD60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAdaptHandlerInEditor_TypeDefinitionIndex = 82964;
+	inline static constexpr unsigned int UIAdaptHandlerInEditor_TypeDefinitionIndex = 44783;
 
 	class UIAdaptHandlerInEditor : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

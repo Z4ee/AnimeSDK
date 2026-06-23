@@ -6,7 +6,7 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceBlendSetting; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int INapCameraSequenceDataTableEntry_TypeDefinitionIndex = 42677;
+	inline static constexpr unsigned int INapCameraSequenceDataTableEntry_TypeDefinitionIndex = 71927;
 
 	class INapCameraSequenceDataTableEntry
 	{

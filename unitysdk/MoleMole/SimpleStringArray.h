@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SIMPLESTRINGARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x10E4FA60)
+#define MOLEMOLE_SIMPLESTRINGARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19178A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SimpleStringArray_TypeDefinitionIndex = 53021;
+	inline static constexpr unsigned int SimpleStringArray_TypeDefinitionIndex = 86944;
 
 	class SimpleStringArray : public ::Foundation::MihoyoSerializedScriptableObject
 	{

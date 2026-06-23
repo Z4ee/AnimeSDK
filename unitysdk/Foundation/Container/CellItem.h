@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/Container/Pointer.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_CELLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9C5FF0)
+#define FOUNDATION_CONTAINER_CELLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DBD0)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int CellItem_TypeDefinitionIndex = 9067;
+	inline static constexpr unsigned int CellItem_TypeDefinitionIndex = 8759;
 
 	struct alignas(8) CellItem
 	{

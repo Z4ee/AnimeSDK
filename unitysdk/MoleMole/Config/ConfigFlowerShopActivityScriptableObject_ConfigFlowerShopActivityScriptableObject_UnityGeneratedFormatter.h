@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB04EC0)
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB04ED0)
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB050B0)
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB05250)
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB05210)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE96B270)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE96B280)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE96B460)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE96B600)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE96B5C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex = 68422;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex = 53104;
 
 	class ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigFlowerShopActivityScriptableObject*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::ESlotType, ::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::ESlotType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x445D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::ESlotType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AEB0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::EFinishJudge, ::System::String*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::EFinishJudge, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x445D8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UI::FlowerShop::EFinishJudge, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFlowerShopActivityScriptableObject_ConfigFlowerShopActivityScriptableObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AEB8);
 		}
 
 		::System::Void _ctor()

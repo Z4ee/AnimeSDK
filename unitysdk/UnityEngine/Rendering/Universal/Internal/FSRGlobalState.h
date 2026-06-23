@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/FSRContext.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1B07DC00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B07DC50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B07DC40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1D3D6130)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3D6180)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D6170)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FSRGlobalState_TypeDefinitionIndex = 30328;
+	inline static constexpr unsigned int FSRGlobalState_TypeDefinitionIndex = 26999;
 
 	class FSRGlobalState : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::FSRContext* StaticGet_s_Context()
 		{
-			return (::UnityEngine::Rendering::FSRContext*)Il2CppClass::FromTypeDefinitionIndex(FSRGlobalState_TypeDefinitionIndex)->GetStaticField(0x61D0);
+			return (::UnityEngine::Rendering::FSRContext*)Il2CppClass::FromTypeDefinitionIndex(FSRGlobalState_TypeDefinitionIndex)->GetStaticField(0x5D00);
 		}
 
 		::System::Void _ctor()

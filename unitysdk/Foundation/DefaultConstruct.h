@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DefaultConstruct_TypeDefinitionIndex = 9141;
+	inline static constexpr unsigned int DefaultConstruct_TypeDefinitionIndex = 8548;
 
 	enum class DefaultConstruct : ::System::Int32
 	{

@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticSceneObjectListLoopType_TypeDefinitionIndex = 55722;
+	inline static constexpr unsigned int StaticSceneObjectListLoopType_TypeDefinitionIndex = 53815;
 
 	enum class StaticSceneObjectListLoopType : ::System::Int32
 	{
-		RadomLoop = 3,
-		ListLoop = 0,
-		ListOnce = 1,
-		RadomOnce = 2,
 		ListOnceAndEndPause = 4,
+		ListLoop = 0,
+		RadomLoop = 3,
+		RadomOnce = 2,
+		ListOnce = 1,
 	};
 }

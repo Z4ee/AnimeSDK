@@ -14,7 +14,7 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IComNativeDescriptorHandler_TypeDefinitionIndex = 2892;
+	inline static constexpr unsigned int IComNativeDescriptorHandler_TypeDefinitionIndex = 2891;
 
 	class IComNativeDescriptorHandler
 	{

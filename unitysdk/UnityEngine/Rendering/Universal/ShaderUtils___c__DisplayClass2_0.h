@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA3470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS___C__DISPLAYCLASS2_0__GETENUMFROMPATH_B__0_OFFSET UNITYSDK_OFFSET(0x19BA3480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC37AE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS___C__DISPLAYCLASS2_0__GETENUMFROMPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1BC37AF0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderUtils___c__DisplayClass2_0_TypeDefinitionIndex = 30229;
+	inline static constexpr unsigned int ShaderUtils___c__DisplayClass2_0_TypeDefinitionIndex = 26245;
 
 	class ShaderUtils___c__DisplayClass2_0 : public ::System::Object
 	{

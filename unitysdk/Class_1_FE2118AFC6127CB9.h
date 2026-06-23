@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3851A71600C3C6B9.h"
+#include "unitysdk/Enum_3_04C7107E01AF7B0E.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/System/Object.h"
@@ -10,20 +10,20 @@ class Class_1_9AABCF9E4188EF07;
 namespace MoleMole::Config { class DynamicInt; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FE2118AFC6127CB9_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x112E8A80)
-#define CLASS_1_FE2118AFC6127CB9_FROMFLX_OFFSET UNITYSDK_OFFSET(0x112E8D40)
-#define CLASS_1_FE2118AFC6127CB9_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x112E8DC0)
-#define CLASS_1_FE2118AFC6127CB9_METHOD_1_E091A92EA4DC55B8_OFFSET UNITYSDK_OFFSET(0x112E8AE0)
-#define CLASS_1_FE2118AFC6127CB9__CTOR_OFFSET UNITYSDK_OFFSET(0x112E9270)
+#define CLASS_1_FE2118AFC6127CB9_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x114CD670)
+#define CLASS_1_FE2118AFC6127CB9_FROMFLX_OFFSET UNITYSDK_OFFSET(0x114CD930)
+#define CLASS_1_FE2118AFC6127CB9_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x114CD9B0)
+#define CLASS_1_FE2118AFC6127CB9_METHOD_1_E091A92EA4DC55B8_OFFSET UNITYSDK_OFFSET(0x114CD6D0)
+#define CLASS_1_FE2118AFC6127CB9__CTOR_OFFSET UNITYSDK_OFFSET(0x114CDE50)
 
-inline static constexpr unsigned int Class_1_FE2118AFC6127CB9_TypeDefinitionIndex = 78830;
+inline static constexpr unsigned int Class_1_FE2118AFC6127CB9_TypeDefinitionIndex = 40255;
 
 class Class_1_FE2118AFC6127CB9 : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicInt* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_9AABCF9E4188EF07*>* Field_1_2; // 0x18
-	::Enum_3_3851A71600C3C6B9 Field_1_1; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_9AABCF9E4188EF07*>* Field_1_2; // 0x10
+	::MoleMole::Config::DynamicInt* Field_1_0; // 0x18
+	::Enum_3_04C7107E01AF7B0E Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -25,56 +25,56 @@ namespace UnityEngine::Rendering::Universal { class WaterInteractiveObject; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterInteractionPass_GlobalHistoryBufferDatas; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterInteractionPass_WaterDepthHistoryBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_ALLOCATERESOURCE_OFFSET UNITYSDK_OFFSET(0x1A302970)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CHECKALLOCATETEXTURE_OFFSET UNITYSDK_OFFSET(0x1A308C60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEANUP_1_OFFSET UNITYSDK_OFFSET(0x1A308BC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1A308AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEARRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A302D20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_DRAWINTERACTIVEOBJECTTODEPTH_OFFSET UNITYSDK_OFFSET(0x1A302F20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A303520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_MARKDEPTHTEXTUREDIRTY_OFFSET UNITYSDK_OFFSET(0x1A3026C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_RESETHEIGHTMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1A3028A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1A302EC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A309110)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A302740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_ALLOCATERESOURCE_OFFSET UNITYSDK_OFFSET(0x1C4467D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CHECKALLOCATETEXTURE_OFFSET UNITYSDK_OFFSET(0x1C44CAB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEANUP_1_OFFSET UNITYSDK_OFFSET(0x1C44CA20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C44C960)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_CLEARRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C446B80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_DRAWINTERACTIVEOBJECTTODEPTH_OFFSET UNITYSDK_OFFSET(0x1C446D80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C447380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_MARKDEPTHTEXTUREDIRTY_OFFSET UNITYSDK_OFFSET(0x1C446520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_RESETHEIGHTMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1C446700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C446D20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C44CF60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4465A0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int WaterInteractionPass_TypeDefinitionIndex = 30542;
+	inline static constexpr unsigned int WaterInteractionPass_TypeDefinitionIndex = 26397;
 
 	class WaterInteractionPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_WaterInteractionDebug()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(WaterInteractionPass_TypeDefinitionIndex)->GetStaticField(0x24950);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(WaterInteractionPass_TypeDefinitionIndex)->GetStaticField(0x22200);
 		}
 		static ::System::Boolean* StaticGet_s_DepthTextureDirty()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WaterInteractionPass_TypeDefinitionIndex)->GetStaticField(0x7590);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WaterInteractionPass_TypeDefinitionIndex)->GetStaticField(0x7300);
 		}
 		// static const ::System::Int32 WaterInteractKernelID = 0x0; // 0x0
 		// static const ::System::Int32 InitWaterHeightKernelID = 0x1; // 0x0
-		::System::String* m_ProfilerTag; // 0xA8
-		::UnityEngine::RenderTexture* m_DynamicDepthTexture; // 0xB0
-		::UnityEngine::ComputeShader* m_SetupWaterHeightCS; // 0xB8
-		::UnityEngine::MaterialPropertyBlock* dynamicObjectProperty; // 0xC0
-		::UnityEngine::RenderTexture* m_WaterInteractionObjectDepthTexture; // 0xC8
-		::UnityEngine::RenderTexture* m_CurrentWaterHeightMap; // 0xD0
-		::UnityEngine::RenderTexture* m_TempWaterHeightMap; // 0xD8
-		::UnityEngine::MaterialPropertyBlock* staticObjectProperty; // 0xE0
-		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass_GlobalHistoryBufferDatas* m_HistoryBufferDatas; // 0xE8
-		::UnityEngine::RenderTexture* m_PreviousWaterHeightMap; // 0xF0
-		::UnityEngine::ComputeShader* m_WaterInteractCS; // 0xF8
-		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass_WaterDepthHistoryBuffer* m_DepthHistory; // 0x100
-		::UnityEngine::RenderTexture* m_StaticDepthTexture; // 0x108
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0x110
-		::UnityEngine::RenderTexture* m_PrePreviousWaterHeightMap; // 0x118
-		::System::Boolean bAllocated; // 0x120
+		::UnityEngine::MaterialPropertyBlock* dynamicObjectProperty; // 0xA8
+		::UnityEngine::RenderTexture* m_PreviousWaterHeightMap; // 0xB0
+		::UnityEngine::RenderTexture* m_StaticDepthTexture; // 0xB8
+		::UnityEngine::RenderTexture* m_CurrentWaterHeightMap; // 0xC0
+		::UnityEngine::ComputeShader* m_SetupWaterHeightCS; // 0xC8
+		::UnityEngine::RenderTexture* m_PrePreviousWaterHeightMap; // 0xD0
+		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass_WaterDepthHistoryBuffer* m_DepthHistory; // 0xD8
+		::System::String* m_ProfilerTag; // 0xE0
+		::UnityEngine::ComputeShader* m_WaterInteractCS; // 0xE8
+		::UnityEngine::MaterialPropertyBlock* staticObjectProperty; // 0xF0
+		::UnityEngine::RenderTexture* m_WaterInteractionObjectDepthTexture; // 0xF8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0x100
+		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass_GlobalHistoryBufferDatas* m_HistoryBufferDatas; // 0x108
+		::UnityEngine::RenderTexture* m_DynamicDepthTexture; // 0x110
+		::UnityEngine::RenderTexture* m_TempWaterHeightMap; // 0x118
+		::System::Boolean m_IsFirstFrame; // 0x120
 		::System::Boolean m_StaticBoundaryInitialized; // 0x121
-		::System::Boolean m_IsFirstFrame; // 0x122
-		::System::Int32 m_InteractionTextureSize; // 0x124
-		::System::Single m_TimeUpdate; // 0x128
+		::System::Boolean bAllocated; // 0x122
+		::System::Single m_TimeUpdate; // 0x124
+		::System::Int32 m_InteractionTextureSize; // 0x128
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::ComputeShader* waterInteractCS, ::UnityEngine::ComputeShader* setupWaterHeightCS)
 		{

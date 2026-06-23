@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer_TypeDefinitionIndex = 29203;
+	inline static constexpr unsigned int QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer_TypeDefinitionIndex = 31859;
 
 	struct alignas(1) QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer
 	{

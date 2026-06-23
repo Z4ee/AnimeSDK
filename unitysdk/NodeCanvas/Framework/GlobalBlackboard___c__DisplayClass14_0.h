@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { class GlobalBlackboard; }
 namespace System { class String; }
 
-#define NODECANVAS_FRAMEWORK_GLOBALBLACKBOARD___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCF230)
-#define NODECANVAS_FRAMEWORK_GLOBALBLACKBOARD___C__DISPLAYCLASS14_0__FIND_B__0_OFFSET UNITYSDK_OFFSET(0x1AFCF240)
+#define NODECANVAS_FRAMEWORK_GLOBALBLACKBOARD___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40F1C0)
+#define NODECANVAS_FRAMEWORK_GLOBALBLACKBOARD___C__DISPLAYCLASS14_0__FIND_B__0_OFFSET UNITYSDK_OFFSET(0x1D40F1D0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GlobalBlackboard___c__DisplayClass14_0_TypeDefinitionIndex = 27489;
+	inline static constexpr unsigned int GlobalBlackboard___c__DisplayClass14_0_TypeDefinitionIndex = 29171;
 
 	class GlobalBlackboard___c__DisplayClass14_0 : public ::System::Object
 	{

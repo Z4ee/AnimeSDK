@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSubModuleContainer_1_ItemBlendInfo_TypeDefinitionIndex = 35925;
+	inline static constexpr unsigned int CameraSubModuleContainer_1_ItemBlendInfo_TypeDefinitionIndex = 37533;
 
 	enum class CameraSubModuleContainer_1_ItemBlendInfo : ::System::Byte
 	{

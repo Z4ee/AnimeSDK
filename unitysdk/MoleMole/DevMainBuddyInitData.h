@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DevBuddyInitData.h"
 
-#define MOLEMOLE_DEVMAINBUDDYINITDATA_GET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x14265A20)
-#define MOLEMOLE_DEVMAINBUDDYINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14265A30)
+#define MOLEMOLE_DEVMAINBUDDYINITDATA_GET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x115F8510)
+#define MOLEMOLE_DEVMAINBUDDYINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x115F8520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DevMainBuddyInitData_TypeDefinitionIndex = 65916;
+	inline static constexpr unsigned int DevMainBuddyInitData_TypeDefinitionIndex = 66364;
 
 	class DevMainBuddyInitData : public ::MoleMole::DevBuddyInitData
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/X509/X520_AttributeTypeAndValue.h"
 
-#define MONO_SECURITY_X509_X520_DOMAINCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9E870)
+#define MONO_SECURITY_X509_X520_DOMAINCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E64C0)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X520_DomainComponent_TypeDefinitionIndex = 2319;
+	inline static constexpr unsigned int X520_DomainComponent_TypeDefinitionIndex = 2318;
 
 	class X520_DomainComponent : public ::Mono::Security::X509::X520_AttributeTypeAndValue
 	{

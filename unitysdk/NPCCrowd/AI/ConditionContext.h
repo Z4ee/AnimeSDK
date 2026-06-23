@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ConditionContext_TypeDefinitionIndex = 61879;
+	inline static constexpr unsigned int ConditionContext_TypeDefinitionIndex = 55069;
 
 	struct alignas(4) ConditionContext
 	{

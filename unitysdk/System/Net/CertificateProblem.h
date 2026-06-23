@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CertificateProblem_TypeDefinitionIndex = 3313;
+	inline static constexpr unsigned int CertificateProblem_TypeDefinitionIndex = 3312;
 
 	enum class CertificateProblem : ::System::Int32
 	{

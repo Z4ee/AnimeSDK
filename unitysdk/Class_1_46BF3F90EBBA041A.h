@@ -3,16 +3,16 @@
 #include "unitysdk/MoleMole/StatusEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_46BF3F90EBBA041A_METHOD_1_4E140453C4B32F06_OFFSET UNITYSDK_OFFSET(0x130B3170)
-#define CLASS_1_46BF3F90EBBA041A__CTOR_OFFSET UNITYSDK_OFFSET(0x130B31E0)
+#define CLASS_1_46BF3F90EBBA041A_METHOD_1_4E140453C4B32F06_OFFSET UNITYSDK_OFFSET(0x17934470)
+#define CLASS_1_46BF3F90EBBA041A__CTOR_OFFSET UNITYSDK_OFFSET(0x179344E0)
 
-inline static constexpr unsigned int Class_1_46BF3F90EBBA041A_TypeDefinitionIndex = 49927;
+inline static constexpr unsigned int Class_1_46BF3F90EBBA041A_TypeDefinitionIndex = 85290;
 
 class Class_1_46BF3F90EBBA041A : public ::System::Object
 {
 public:
-	::MoleMole::StatusEffectType Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x14
+	::System::Single Field_1_1; // 0x10
+	::MoleMole::StatusEffectType Field_1_0; // 0x14
 
 	::System::Void _ctor()
 	{

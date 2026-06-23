@@ -9,21 +9,21 @@ namespace PipelineCamera { template <typename T> class CameraSubModuleContainer_
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_OFFSET UNITYSDK_OFFSET(0x1B504930)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_COMMANDTYPE_OFFSET UNITYSDK_OFFSET(0x1B504790)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_PIPELINE_OFFSET UNITYSDK_OFFSET(0x1B5047E0)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B504820)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_OFFSET UNITYSDK_OFFSET(0x1D8B6FB0)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_COMMANDTYPE_OFFSET UNITYSDK_OFFSET(0x1D8B6E10)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_PIPELINE_OFFSET UNITYSDK_OFFSET(0x1D8B6E60)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6EA0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraCommandUnSpawnSubModules_TypeDefinitionIndex = 35872;
+	inline static constexpr unsigned int CameraCommandUnSpawnSubModules_TypeDefinitionIndex = 37480;
 
 	class CameraCommandUnSpawnSubModules : public ::System::Object
 	{
 	public:
 		::PipelineCamera::ICameraDataBlenderBuilder* _blendOut; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>* _subModules; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>*>* _specificSubModules; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Object*>*>* _specificSubModules; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>* _subModules; // 0x20
 		::System::Int32 _pipeline; // 0x28
 
 		::System::Void _ctor(::System::Int32 pipeline)

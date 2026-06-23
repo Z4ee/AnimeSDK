@@ -3,25 +3,27 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapProfileId_TypeDefinitionIndex = 30148;
+	inline static constexpr unsigned int NapProfileId_TypeDefinitionIndex = 26375;
 
 	enum class NapProfileId : ::System::Int32
 	{
-		RadialBlur = 0,
-		NapBloom = 1,
 		OutlineEffect = 2,
+		RadialBlur = 0,
+		CharacterGhost = 14,
+		VREffectDistortion = 8,
 		NapSecondaryBloom = 3,
+		PostProcessPass_Render = 17,
+		NapBloom = 1,
+		VREffects = 7,
+		MKGlow = 12,
 		DistortionBlit = 4,
 		PartialBlur = 5,
+		VREffectOutline = 9,
+		PostProcessPass_RenderFinalPass = 16,
 		ComicDot = 6,
-		VREffects = 7,
-		VREffectDistortion = 8,
-		UnsharpMask = 9,
-		UberPost = 10,
-		MKGlow = 11,
-		CharacterGhost = 12,
-		CharacterIgnisFatuus = 13,
-		PostProcessPass_RenderFinalPass = 14,
-		PostProcessPass_Render = 15,
+		CharacterIgnisFatuus = 15,
+		UnsharpMask = 10,
+		Pixelation = 13,
+		UberPost = 11,
 	};
 }

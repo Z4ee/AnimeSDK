@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int EGraphicCastShape_TypeDefinitionIndex = 38822;
+	inline static constexpr unsigned int EGraphicCastShape_TypeDefinitionIndex = 46936;
 
 	enum class EGraphicCastShape : ::System::Int32
 	{

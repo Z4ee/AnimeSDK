@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ThreeDiffValue_3_TypeDefinitionIndex = 55073;
+	inline static constexpr unsigned int ThreeDiffValue_3_TypeDefinitionIndex = 52919;
 
 	template <typename T1, typename T2, typename T3>
 	class ThreeDiffValue_3 : public ::System::Object

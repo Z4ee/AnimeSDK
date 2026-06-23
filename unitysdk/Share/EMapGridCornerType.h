@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMapGridCornerType_TypeDefinitionIndex = 15757;
+	inline static constexpr unsigned int EMapGridCornerType_TypeDefinitionIndex = 11721;
 
 	enum class EMapGridCornerType : ::System::Int16
 	{
-		None = 0,
 		LeftDown = 3,
+		Center = 5,
+		None = 0,
 		LeftUp = 1,
 		RightDown = 4,
 		RightUp = 2,
-		Center = 5,
 	};
 }

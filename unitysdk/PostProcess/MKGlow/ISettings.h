@@ -16,7 +16,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int ISettings_TypeDefinitionIndex = 29656;
+	inline static constexpr unsigned int ISettings_TypeDefinitionIndex = 26786;
 
 	class ISettings
 	{

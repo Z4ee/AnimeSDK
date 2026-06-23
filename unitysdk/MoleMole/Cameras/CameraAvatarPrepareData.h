@@ -4,8 +4,8 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 
 class Class_1_D976BC8B485169A1;
-class Class_3_3A3A95CA33F5CFBC;
 class Class_3_883E597458B91E77;
+class Class_3_B8F2A25A5ADF5CEE;
 class Class_3_DFD5D1FDB9D2A4AC;
 class Class_3_E2819F45333A39BF;
 class Class_3_F33F9DC5F4112336;
@@ -15,13 +15,13 @@ namespace System { class String; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_625FBF14AF26EF8B_OFFSET UNITYSDK_OFFSET(0xFAE6BD0)
-#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFAE6B60)
-#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE6B50)
+#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_625FBF14AF26EF8B_OFFSET UNITYSDK_OFFSET(0xE94C4C0)
+#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE94C540)
+#define MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE94C4B0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraAvatarPrepareData_TypeDefinitionIndex = 80234;
+	inline static constexpr unsigned int CameraAvatarPrepareData_TypeDefinitionIndex = 79624;
 
 	class CameraAvatarPrepareData : public ::System::Object
 	{
@@ -34,7 +34,7 @@ namespace MoleMole::Cameras
 		::Class_3_F33F9DC5F4112336* AnimateComponent; // 0x20
 		::UnityEngine::AnimatorStateInfo CurrentAnimState; // 0x28
 		::Class_3_DFD5D1FDB9D2A4AC* ModelComponent; // 0x50
-		::Class_3_3A3A95CA33F5CFBC* BaseDataComponent; // 0x58
+		::Class_3_B8F2A25A5ADF5CEE* BaseDataComponent; // 0x58
 		::Class_3_E2819F45333A39BF* BattleComponent; // 0x60
 		::Class_3_883E597458B91E77* MovementComponent; // 0x68
 		::UnityEngine::Rigidbody* Rigidbody; // 0x70
@@ -47,14 +47,14 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_CA373AA1C7054598_OFFSET))(this);
-		}
-
 		::System::Boolean Method_1_625FBF14AF26EF8B()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_625FBF14AF26EF8B_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERAAVATARPREPAREDATA_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 		}
 	};
 }

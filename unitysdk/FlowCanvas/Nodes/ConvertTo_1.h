@@ -6,7 +6,7 @@ namespace System { class IConvertible; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ConvertTo_1_TypeDefinitionIndex = 26526;
+	inline static constexpr unsigned int ConvertTo_1_TypeDefinitionIndex = 30615;
 
 	template <typename T>
 	class ConvertTo_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, ::System::IConvertible*>

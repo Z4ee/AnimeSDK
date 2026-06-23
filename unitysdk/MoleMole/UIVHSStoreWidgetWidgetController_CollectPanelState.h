@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController_CollectPanelState_TypeDefinitionIndex = 72938;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController_CollectPanelState_TypeDefinitionIndex = 86382;
 
 	enum class UIVHSStoreWidgetWidgetController_CollectPanelState : ::System::Int32
 	{

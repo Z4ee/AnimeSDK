@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_MoveEffectPoint_TypeDefinitionIndex = 43467;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_MoveEffectPoint_TypeDefinitionIndex = 64410;
 
 	enum class ConfigHollowChessboard_BigTVMoveFireEffect_MoveEffectPoint : ::System::Int32
 	{
 		MoveForwardLeftTwo = 1,
-		MoveForwardLeftForward = 3,
-		MoveForwardLeftOne = 0,
-		MoveForwardLeftThree = 2,
 		Max = 4,
+		MoveForwardLeftOne = 0,
+		MoveForwardLeftForward = 3,
+		MoveForwardLeftThree = 2,
 	};
 }

@@ -12,50 +12,50 @@ class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A85B50)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16A83060)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A85BB0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x16A830E0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x16A86680)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1589C310)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_FROMFLX_OFFSET UNITYSDK_OFFSET(0x15899830)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1589C370)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x158998B0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1589CE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraStretch_TypeDefinitionIndex = 57480;
+	inline static constexpr unsigned int ConfigCameraStretch_TypeDefinitionIndex = 69807;
 
 	class ConfigCameraStretch : public ::System::Object
 	{
 	public:
-		::System::String* EndCurveKey; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* RuntimeCamFollowYPoints; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* RuntimeCamFollowYPoints; // 0x10
+		::System::String* EndCurveKey; // 0x18
 		::System::String* StartCurveKey; // 0x20
-		::System::Single RadiusRatio; // 0x28
-		::System::Single EndElevationAngleMax; // 0x2C
-		::System::Single ElevationAngleMax; // 0x30
-		::System::Single RuntimeCamFollowYOffsetRatio; // 0x34
-		::System::Single RotationZ; // 0x38
-		::System::Single DelayTime; // 0x3C
-		::MoleMole::Config::ValueVariationType FovVariationType; // 0x40
-		::System::Single StretchTime; // 0x44
-		::System::Boolean IsEndEleAngleAbsoluted; // 0x48
-		::System::Boolean IsEleAngleAbsoluted; // 0x49
-		::System::Boolean IgnoreLocalAvatar; // 0x4A
-		::System::Single HoldTime; // 0x4C
-		::System::Boolean CamOffsetLocalCoords; // 0x50
-		::System::Boolean IgnoreWorldTimeScale; // 0x51
-		::System::Boolean ApplyAthPtsCamFollowYOffset; // 0x52
-		::System::Boolean ApplyRuntimeCamFollowYOffset; // 0x53
+		::System::Single HoldTime; // 0x28
+		::System::Single ElevationAngleMin; // 0x2C
+		::System::Boolean IgnoreLocalAvatar; // 0x30
+		::System::Boolean IsEndEleAngleAbsoluted; // 0x31
+		::System::Boolean IsAppliedEndEleAngle; // 0x32
+		::System::Boolean IgnoreOwnerTimeScale; // 0x33
+		::System::Boolean IngorePriorityInEndTime; // 0x34
+		::System::Boolean ApplyAthPtsCamFollowYOffset; // 0x35
+		::System::Boolean IsEleAngleAbsoluted; // 0x36
+		::MoleMole::Config::ValueVariationType FovVariationType; // 0x38
+		::System::Single EndElevationAngleMax; // 0x3C
+		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x40
+		::System::Single DelayTime; // 0x44
+		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x48
+		::System::Single PosOffsetX; // 0x4C
+		::System::Single StretchTime; // 0x50
 		::System::Single RecoilTime; // 0x54
-		::System::Single EndElevationAngleMin; // 0x58
-		::System::Boolean IsAppliedEleRatio; // 0x5C
-		::System::Boolean IgnoreOwnerTimeScale; // 0x5D
-		::System::Boolean IngorePriorityInEndTime; // 0x5E
-		::System::Boolean IsAppliedEndEleAngle; // 0x5F
-		::System::Single PosOffsetZ; // 0x60
-		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x64
-		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x68
-		::System::Single ElevationAngleMin; // 0x6C
-		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x70
-		::System::Single PosOffsetX; // 0x74
+		::System::Single ElevationAngleMax; // 0x58
+		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x5C
+		::System::Single RadiusRatio; // 0x60
+		::System::Single PosOffsetZ; // 0x64
+		::System::Single EndElevationAngleMin; // 0x68
+		::System::Single RuntimeCamFollowYOffsetRatio; // 0x6C
+		::System::Single RotationZ; // 0x70
+		::System::Boolean IgnoreWorldTimeScale; // 0x74
+		::System::Boolean CamOffsetLocalCoords; // 0x75
+		::System::Boolean ApplyRuntimeCamFollowYOffset; // 0x76
+		::System::Boolean IsAppliedEleRatio; // 0x77
 		::System::Single PosOffsetY; // 0x78
 
 		::System::Void _ctor()

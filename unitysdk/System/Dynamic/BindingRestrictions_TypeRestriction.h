@@ -6,20 +6,20 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AE06B50)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1AE06C30)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AE06BE0)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE06AE0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D234D90)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1D234E70)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D234E20)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D234D20)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int BindingRestrictions_TypeRestriction_TypeDefinitionIndex = 4972;
+	inline static constexpr unsigned int BindingRestrictions_TypeRestriction_TypeDefinitionIndex = 4971;
 
 	class BindingRestrictions_TypeRestriction : public ::System::Dynamic::BindingRestrictions
 	{
 	public:
-		::System::Type* _type; // 0x10
-		::System::Linq::Expressions::Expression* _expression; // 0x18
+		::System::Linq::Expressions::Expression* _expression; // 0x10
+		::System::Type* _type; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type)
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ARASAMPLES_ROTATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BED36B0)
-#define ARASAMPLES_ROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED3790)
+#define ARASAMPLES_ROTATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E21FCE0)
+#define ARASAMPLES_ROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E21FDC0)
 
 namespace AraSamples
 {
-	inline static constexpr unsigned int Rotation_TypeDefinitionIndex = 31368;
+	inline static constexpr unsigned int Rotation_TypeDefinitionIndex = 32919;
 
 	class Rotation : public ::UnityEngine::MonoBehaviour
 	{

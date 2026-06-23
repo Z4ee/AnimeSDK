@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_8C3326BB658EF7C4_Enum_3_F3A50E13CD7E677C.h"
-#include "unitysdk/Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D_1.h"
+#include "unitysdk/Class_1_8C3326BB658EF7C4_Enum_3_797210DF3C1FEA90.h"
+#include "unitysdk/Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D.h"
 #include "unitysdk/Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
@@ -14,22 +14,22 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_298DB773AEC6BF50_OFFSET UNITYSDK_OFFSET(0x11E77110)
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8650BEA467C41CD3_OFFSET UNITYSDK_OFFSET(0x11E77430)
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8973B6E20FF061EF_OFFSET UNITYSDK_OFFSET(0x11E77A20)
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8A97D61066DE6708_OFFSET UNITYSDK_OFFSET(0x11E77320)
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_E37A32491513531F_OFFSET UNITYSDK_OFFSET(0x11E77760)
-#define CLASS_1_8C3326BB658EF7C4_METHOD_1_EFA6B049428278BC_OFFSET UNITYSDK_OFFSET(0x11E779F0)
-#define CLASS_1_8C3326BB658EF7C4__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E77060)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_298DB773AEC6BF50_OFFSET UNITYSDK_OFFSET(0x12893A60)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8650BEA467C41CD3_OFFSET UNITYSDK_OFFSET(0x12893C70)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8973B6E20FF061EF_OFFSET UNITYSDK_OFFSET(0x128932A0)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_8A97D61066DE6708_OFFSET UNITYSDK_OFFSET(0x12893190)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_E37A32491513531F_OFFSET UNITYSDK_OFFSET(0x12892F00)
+#define CLASS_1_8C3326BB658EF7C4_METHOD_1_EFA6B049428278BC_OFFSET UNITYSDK_OFFSET(0x12893A30)
+#define CLASS_1_8C3326BB658EF7C4__CCTOR_OFFSET UNITYSDK_OFFSET(0x12892E50)
 
-inline static constexpr unsigned int Class_1_8C3326BB658EF7C4_TypeDefinitionIndex = 76979;
+inline static constexpr unsigned int Class_1_8C3326BB658EF7C4_TypeDefinitionIndex = 46842;
 
 class Class_1_8C3326BB658EF7C4 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Int32>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8C3326BB658EF7C4_TypeDefinitionIndex)->GetStaticField(0x450E0);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8C3326BB658EF7C4_TypeDefinitionIndex)->GetStaticField(0x45C70);
 	}
 
 	static ::System::Void _cctor()
@@ -37,9 +37,24 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4__CCTOR_OFFSET))();
 	}
 
-	static ::Class_1_8C3326BB658EF7C4_Enum_3_F3A50E13CD7E677C Method_1_298DB773AEC6BF50(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+	static ::System::Boolean Method_1_E37A32491513531F(::System::ValueTuple_2<::System::Int32, ::System::Int32>& a1, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A& a2, ::Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D& a3)
 	{
-		return ((::Class_1_8C3326BB658EF7C4_Enum_3_F3A50E13CD7E677C(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_298DB773AEC6BF50_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::ValueTuple_2<::System::Int32, ::System::Int32>&, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A&, ::Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D&))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_E37A32491513531F_OFFSET))(a1, a2, a3);
+	}
+
+	static ::Class_1_8C3326BB658EF7C4_Enum_3_797210DF3C1FEA90 Method_1_8A97D61066DE6708(::UnityEngine::Vector2 a1)
+	{
+		return ((::Class_1_8C3326BB658EF7C4_Enum_3_797210DF3C1FEA90(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_8A97D61066DE6708_OFFSET))(a1);
+	}
+
+	static ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Method_1_8973B6E20FF061EF(::System::Int32 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*& a3, ::System::Int32 a4, ::System::Int32 a5, ::MoleMole::Vector2Int a6, ::MoleMole::Vector2Int a7)
+	{
+		return ((::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*(*)(::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*&, ::System::Int32, ::System::Int32, ::MoleMole::Vector2Int, ::MoleMole::Vector2Int))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_8973B6E20FF061EF_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+	}
+
+	static ::Class_1_8C3326BB658EF7C4_Enum_3_797210DF3C1FEA90 Method_1_298DB773AEC6BF50(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+	{
+		return ((::Class_1_8C3326BB658EF7C4_Enum_3_797210DF3C1FEA90(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_298DB773AEC6BF50_OFFSET))(a1, a2);
 	}
 
 	static ::UnityEngine::GameObject* Method_1_8650BEA467C41CD3(::UnityEngine::Vector3 a1, ::UnityEngine::Color a2, ::System::Single a3)
@@ -47,23 +62,8 @@ public:
 		return ((::UnityEngine::GameObject*(*)(::UnityEngine::Vector3, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_8650BEA467C41CD3_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Boolean Method_1_E37A32491513531F(::System::ValueTuple_2<::System::Int32, ::System::Int32>& a1, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A& a2, ::Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D_1& a3)
-	{
-		return ((::System::Boolean(*)(::System::ValueTuple_2<::System::Int32, ::System::Int32>&, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A&, ::Class_1_8C3326BB658EF7C4_Struct_2_0AFF4972FB25A51D_1&))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_E37A32491513531F_OFFSET))(a1, a2, a3);
-	}
-
-	static ::Class_1_8C3326BB658EF7C4_Enum_3_F3A50E13CD7E677C Method_1_8A97D61066DE6708(::UnityEngine::Vector2 a1)
-	{
-		return ((::Class_1_8C3326BB658EF7C4_Enum_3_F3A50E13CD7E677C(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_8A97D61066DE6708_OFFSET))(a1);
-	}
-
 	static ::System::ValueTuple_2<::System::Int32, ::System::Int32> Method_1_EFA6B049428278BC(::MoleMole::HollowChessboard::HollowCell a1, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A& a2)
 	{
 		return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::MoleMole::HollowChessboard::HollowCell, ::Class_1_8C3326BB658EF7C4_Struct_2_F3EC3463E6D19B4A&))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_EFA6B049428278BC_OFFSET))(a1, a2);
-	}
-
-	static ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Method_1_8973B6E20FF061EF(::System::Int32 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*& a3, ::System::Int32 a4, ::System::Int32 a5, ::MoleMole::Vector2Int a6, ::MoleMole::Vector2Int a7)
-	{
-		return ((::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*(*)(::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*&, ::System::Int32, ::System::Int32, ::MoleMole::Vector2Int, ::MoleMole::Vector2Int))((::PBYTE)hIl2Cpp + CLASS_1_8C3326BB658EF7C4_METHOD_1_8973B6E20FF061EF_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 	}
 };

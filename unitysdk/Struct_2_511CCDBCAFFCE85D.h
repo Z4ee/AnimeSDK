@@ -4,9 +4,9 @@
 #include "unitysdk/ProtoScript/NodeState.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_511CCDBCAFFCE85D_METHOD_2_AB71CB6A7FDDA465_OFFSET UNITYSDK_OFFSET(0x6B1060)
+#define STRUCT_2_511CCDBCAFFCE85D_METHOD_2_AB71CB6A7FDDA465_OFFSET UNITYSDK_OFFSET(0x704090)
 
-inline static constexpr unsigned int Struct_2_511CCDBCAFFCE85D_TypeDefinitionIndex = 56527;
+inline static constexpr unsigned int Struct_2_511CCDBCAFFCE85D_TypeDefinitionIndex = 73730;
 
 struct alignas(4) Struct_2_511CCDBCAFFCE85D
 {

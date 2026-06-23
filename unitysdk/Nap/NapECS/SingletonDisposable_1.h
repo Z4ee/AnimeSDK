@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int SingletonDisposable_1_TypeDefinitionIndex = 35680;
+	inline static constexpr unsigned int SingletonDisposable_1_TypeDefinitionIndex = 37342;
 
 	template <typename T>
 	class SingletonDisposable_1 : public ::System::Object

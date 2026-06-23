@@ -4,12 +4,12 @@
 #include "unitysdk/Foundation/Unreal/GameplayTagQueryExpressionType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_1_OFFSET UNITYSDK_OFFSET(0x1C1B4BC0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_OFFSET UNITYSDK_OFFSET(0x1C1B4B80)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_1_OFFSET UNITYSDK_OFFSET(0x1645FF40)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_OFFSET UNITYSDK_OFFSET(0x1645FF00)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagQueryExpression_TypeDefinitionIndex = 8973;
+	inline static constexpr unsigned int FGameplayTagQueryExpression_TypeDefinitionIndex = 11574;
 
 	struct alignas(8) FGameplayTagQueryExpression
 	{

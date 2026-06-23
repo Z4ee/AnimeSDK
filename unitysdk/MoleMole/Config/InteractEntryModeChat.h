@@ -6,12 +6,12 @@ class Class_1_35D50070BC469EAB;
 namespace MoleMole::Config { class InteractEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_INTERACTENTRYMODECHAT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x153D0EB0)
-#define MOLEMOLE_CONFIG_INTERACTENTRYMODECHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x153D0FC0)
+#define MOLEMOLE_CONFIG_INTERACTENTRYMODECHAT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1619CC70)
+#define MOLEMOLE_CONFIG_INTERACTENTRYMODECHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1619CD80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InteractEntryModeChat_TypeDefinitionIndex = 64807;
+	inline static constexpr unsigned int InteractEntryModeChat_TypeDefinitionIndex = 66782;
 
 	class InteractEntryModeChat : public ::MoleMole::Config::InteractEntryMode
 	{

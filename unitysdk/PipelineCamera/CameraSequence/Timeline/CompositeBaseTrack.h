@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::CameraSequence { class CoreDataComposite; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_COMPOSITEBASETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55DB00)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_COMPOSITEBASETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D420)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int CompositeBaseTrack_TypeDefinitionIndex = 84910;
+	inline static constexpr unsigned int CompositeBaseTrack_TypeDefinitionIndex = 90484;
 
 	class CompositeBaseTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

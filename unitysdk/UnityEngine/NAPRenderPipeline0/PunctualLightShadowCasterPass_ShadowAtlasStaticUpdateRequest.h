@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest_TypeDefinitionIndex = 5807;
+	inline static constexpr unsigned int PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest_TypeDefinitionIndex = 5813;
 
 	struct alignas(4) PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest
 	{

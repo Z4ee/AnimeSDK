@@ -7,11 +7,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D3430)
+#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E620C40)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_MatEntry_TypeDefinitionIndex = 8463;
+	inline static constexpr unsigned int StencilMaterial_MatEntry_TypeDefinitionIndex = 18971;
 
 	class StencilMaterial_MatEntry : public ::System::Object
 	{

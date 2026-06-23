@@ -5,12 +5,12 @@
 class Class_2_3C4EC276A982A2CD;
 namespace MoleMole { class UIFishingContestQuestPageController___c__DisplayClass19_0; }
 
-#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF61C0)
-#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__ONGOTOTASKBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x16EF61D0)
+#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB3760)
+#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__ONGOTOTASKBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x19DB3770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_1_TypeDefinitionIndex = 57931;
+	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_1_TypeDefinitionIndex = 66406;
 
 	class UIFishingContestQuestPageController___c__DisplayClass19_1 : public ::System::Object
 	{

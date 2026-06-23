@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_LDAPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E3030)
+#define SYSTEM_LDAPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF6B60)
 
 namespace System
 {
-	inline static constexpr unsigned int LdapStyleUriParser_TypeDefinitionIndex = 2685;
+	inline static constexpr unsigned int LdapStyleUriParser_TypeDefinitionIndex = 2684;
 
 	class LdapStyleUriParser : public ::System::UriParser
 	{

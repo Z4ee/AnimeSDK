@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowErosionRowWidgetController_CurseCollectShowType_TypeDefinitionIndex = 51421;
+	inline static constexpr unsigned int UIHollowErosionRowWidgetController_CurseCollectShowType_TypeDefinitionIndex = 71651;
 
 	enum class UIHollowErosionRowWidgetController_CurseCollectShowType : ::System::Int32
 	{

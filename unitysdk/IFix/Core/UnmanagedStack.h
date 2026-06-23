@@ -5,7 +5,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int UnmanagedStack_TypeDefinitionIndex = 6809;
+	inline static constexpr unsigned int UnmanagedStack_TypeDefinitionIndex = 6940;
 
 	struct alignas(8) UnmanagedStack
 	{

@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_DETAILEDINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F6E0)
+#define SIRENIX_ODININSPECTOR_DETAILEDINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3289F0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DetailedInfoBoxAttribute_TypeDefinitionIndex = 7142;
+	inline static constexpr unsigned int DetailedInfoBoxAttribute_TypeDefinitionIndex = 7273;
 
 	class DetailedInfoBoxAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Details; // 0x10
-		::System::String* Message; // 0x18
+		::System::String* Message; // 0x10
+		::System::String* Details; // 0x18
 		::System::String* VisibleIf; // 0x20
-		::Sirenix::OdinInspector::InfoMessageType InfoMessageType; // 0x28
-		::System::Boolean ReplaceNoWrapSpaces; // 0x2C
+		::System::Boolean ReplaceNoWrapSpaces; // 0x28
+		::Sirenix::OdinInspector::InfoMessageType InfoMessageType; // 0x2C
 
 		::System::Void _ctor(::System::String* message, ::System::String* details, ::Sirenix::OdinInspector::InfoMessageType infoMessageType, ::System::String* visibleIf)
 		{

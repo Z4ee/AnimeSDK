@@ -4,7 +4,7 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int FirstPersonCameraDefaultSetting_TypeDefinitionIndex = 69637;
+	inline static constexpr unsigned int FirstPersonCameraDefaultSetting_TypeDefinitionIndex = 75897;
 
 	struct alignas(4) FirstPersonCameraDefaultSetting
 	{

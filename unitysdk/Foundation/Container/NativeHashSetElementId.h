@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x578080)
-#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC9F8C0)
-#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x5C90F0)
+#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E058E60)
+#define FOUNDATION_CONTAINER_NATIVEHASHSETELEMENTID__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeHashSetElementId_TypeDefinitionIndex = 9083;
+	inline static constexpr unsigned int NativeHashSetElementId_TypeDefinitionIndex = 8501;
 
 	struct alignas(8) NativeHashSetElementId
 	{
 		static ::Foundation::Container::NativeHashSetElementId* StaticGet_Null()
 		{
-			return (::Foundation::Container::NativeHashSetElementId*)Il2CppClass::FromTypeDefinitionIndex(NativeHashSetElementId_TypeDefinitionIndex)->GetStaticField(0x3F30);
+			return (::Foundation::Container::NativeHashSetElementId*)Il2CppClass::FromTypeDefinitionIndex(NativeHashSetElementId_TypeDefinitionIndex)->GetStaticField(0x3D40);
 		}
 		::System::Int64 Index; // 0x10
 

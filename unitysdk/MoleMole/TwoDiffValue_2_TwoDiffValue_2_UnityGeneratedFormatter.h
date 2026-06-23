@@ -10,7 +10,7 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TwoDiffValue_2_TwoDiffValue_2_UnityGeneratedFormatter_TypeDefinitionIndex = 58328;
+	inline static constexpr unsigned int TwoDiffValue_2_TwoDiffValue_2_UnityGeneratedFormatter_TypeDefinitionIndex = 78746;
 
 	template <typename T1, typename T2>
 	class TwoDiffValue_2_TwoDiffValue_2_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::TwoDiffValue_2<T1, T2>*>

@@ -5,7 +5,7 @@ namespace NodeCanvas::Framework { class BBParameter; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ISubParametersContainer_TypeDefinitionIndex = 27933;
+	inline static constexpr unsigned int ISubParametersContainer_TypeDefinitionIndex = 29665;
 
 	class ISubParametersContainer
 	{

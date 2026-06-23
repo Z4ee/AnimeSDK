@@ -5,23 +5,24 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UINOUNDETAILPANELWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15C83520)
+#define MOLEMOLE_UINOUNDETAILPANELWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182062F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINounDetailPanelWidgetController_Data_TypeDefinitionIndex = 82396;
+	inline static constexpr unsigned int UINounDetailPanelWidgetController_Data_TypeDefinitionIndex = 77763;
 
 	class UINounDetailPanelWidgetController_Data : public ::System::Object
 	{
 	public:
-		::System::String* SourceText; // 0x10
-		::System::String* DetailText; // 0x18
-		::System::String* Title; // 0x20
-		::MoleMole::UINounDetailPanelWidgetController_HeightState CurrentHeightState; // 0x28
-		::MoleMole::UINounDetailPanelWidgetController_HeightState InitialHeightState; // 0x2C
-		::System::Int32 TermId; // 0x30
-		::System::Boolean IsExpanded; // 0x34
-		::System::Boolean CurrentVisible; // 0x35
+		::System::String* Title; // 0x10
+		::System::String* SourceText; // 0x18
+		::System::String* DetailText; // 0x20
+		::System::Int32 TermId; // 0x28
+		::System::Boolean CurrentVisible; // 0x2C
+		::System::Boolean IsDeactivated; // 0x2D
+		::System::Boolean IsExpanded; // 0x2E
+		::MoleMole::UINounDetailPanelWidgetController_HeightState CurrentHeightState; // 0x30
+		::MoleMole::UINounDetailPanelWidgetController_HeightState InitialHeightState; // 0x34
 
 		::System::Void _ctor()
 		{

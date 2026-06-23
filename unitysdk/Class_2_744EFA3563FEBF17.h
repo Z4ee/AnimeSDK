@@ -10,22 +10,22 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_744EFA3563FEBF17_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x11F5D540)
-#define CLASS_2_744EFA3563FEBF17_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x11F5D700)
-#define CLASS_2_744EFA3563FEBF17_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11F5D810)
-#define CLASS_2_744EFA3563FEBF17__CTOR_OFFSET UNITYSDK_OFFSET(0x11F5D800)
+#define CLASS_2_744EFA3563FEBF17_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x126C5E90)
+#define CLASS_2_744EFA3563FEBF17_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x126C6050)
+#define CLASS_2_744EFA3563FEBF17_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x126C6160)
+#define CLASS_2_744EFA3563FEBF17__CTOR_OFFSET UNITYSDK_OFFSET(0x126C6150)
 
-inline static constexpr unsigned int Class_2_744EFA3563FEBF17_TypeDefinitionIndex = 57041;
+inline static constexpr unsigned int Class_2_744EFA3563FEBF17_TypeDefinitionIndex = 82345;
 
 class Class_2_744EFA3563FEBF17 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::MoleMole::UIGeneralButtonController* Field_2_2; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x20
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_3; // 0x28
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_3; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
 	::Class_2_B4378B46E0020E85* Field_2_4; // 0x30
 	::UnityEngine::RectTransform* Field_2_1; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
 
 	::System::Void _ctor()
 	{

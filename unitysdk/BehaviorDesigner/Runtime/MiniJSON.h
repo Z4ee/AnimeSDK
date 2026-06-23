@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_MINIJSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C2A8A60)
-#define BEHAVIORDESIGNER_RUNTIME_MINIJSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C2A8AB0)
+#define BEHAVIORDESIGNER_RUNTIME_MINIJSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E5F6510)
+#define BEHAVIORDESIGNER_RUNTIME_MINIJSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E5F6560)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int MiniJSON_TypeDefinitionIndex = 31697;
+	inline static constexpr unsigned int MiniJSON_TypeDefinitionIndex = 33248;
 
 	class MiniJSON : public ::System::Object
 	{

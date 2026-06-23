@@ -5,11 +5,11 @@
 
 namespace NPCCrowd::Animation { class AnimatorZoneSegmentWrap; }
 
-#define NPCCROWD_ANIMATION_ZONEEVENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x6B8F30)
+#define NPCCROWD_ANIMATION_ZONEEVENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x698590)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ZoneEventItem_TypeDefinitionIndex = 79021;
+	inline static constexpr unsigned int ZoneEventItem_TypeDefinitionIndex = 53898;
 
 	struct alignas(8) ZoneEventItem
 	{

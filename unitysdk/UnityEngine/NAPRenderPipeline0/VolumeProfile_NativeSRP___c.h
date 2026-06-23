@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class VolumeComponent; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFBCD80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBCDC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__ONENABLE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AFBCDD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D433280)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4332C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__ONENABLE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1D4332D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumeProfile_NativeSRP___c_TypeDefinitionIndex = 6065;
+	inline static constexpr unsigned int VolumeProfile_NativeSRP___c_TypeDefinitionIndex = 6076;
 
 	class VolumeProfile_NativeSRP___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c** StaticGet___9()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5310);
-		}
 		static ::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>** StaticGet___9__3_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5318);
+			return (::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5320);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c** StaticGet___9()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5328);
 		}
 
 		static ::System::Void _cctor()

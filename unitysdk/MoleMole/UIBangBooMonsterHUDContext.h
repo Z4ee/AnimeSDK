@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBANGBOOMONSTERHUDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E5EB80)
+#define MOLEMOLE_UIBANGBOOMONSTERHUDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15224F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooMonsterHUDContext_TypeDefinitionIndex = 73626;
+	inline static constexpr unsigned int UIBangBooMonsterHUDContext_TypeDefinitionIndex = 54578;
 
 	class UIBangBooMonsterHUDContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,24 +7,24 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_DROPPERFORMREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAF100)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_DROPPERFORMREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC939940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VOPerformSubSystem_DropPerformRequest_TypeDefinitionIndex = 54627;
+	inline static constexpr unsigned int VOPerformSubSystem_DropPerformRequest_TypeDefinitionIndex = 69487;
 
 	class VOPerformSubSystem_DropPerformRequest : public ::System::Object
 	{
 	public:
 		::MoleMole::EntityHandle CachedEntity; // 0x10
 		::UnityEngine::AnimationCurve* RhythmCurve; // 0x20
-		::System::Boolean EntityResolved; // 0x28
-		::System::Single LaunchHeight; // 0x2C
-		::System::Single TotalDuration; // 0x30
-		::Foundation::ViewObject::GroupMemberIdentifier Identifier; // 0x34
-		::System::Single ElapsedTime; // 0x3C
-		::UnityEngine::Vector3 Target; // 0x40
-		::UnityEngine::Vector3 Origin; // 0x4C
+		::System::Single TotalDuration; // 0x28
+		::UnityEngine::Vector3 Target; // 0x2C
+		::Foundation::ViewObject::GroupMemberIdentifier Identifier; // 0x38
+		::System::Single ElapsedTime; // 0x40
+		::UnityEngine::Vector3 Origin; // 0x44
+		::System::Single LaunchHeight; // 0x50
+		::System::Boolean EntityResolved; // 0x54
 
 		::System::Void _ctor()
 		{

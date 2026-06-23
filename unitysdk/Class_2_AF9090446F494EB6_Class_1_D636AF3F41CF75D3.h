@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_AF9090446F494EB6;
+namespace MoleMole { class QuickEditorBattleTeamOption; }
+namespace System { class String; }
+template <typename T> class Class_2_F16D73323D71766B;
+
+#define CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_420F5543CED5025E_OFFSET UNITYSDK_OFFSET(0x19E222A0)
+#define CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_4F208C066A19ACA4_OFFSET UNITYSDK_OFFSET(0x19E223C0)
+#define CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_EEA2FE649684CA1B_OFFSET UNITYSDK_OFFSET(0x19E224B0)
+#define CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3__CTOR_OFFSET UNITYSDK_OFFSET(0x19E22290)
+
+inline static constexpr unsigned int Class_2_AF9090446F494EB6_Class_1_D636AF3F41CF75D3_TypeDefinitionIndex = 68907;
+
+class Class_2_AF9090446F494EB6_Class_1_D636AF3F41CF75D3 : public ::System::Object
+{
+public:
+	::Class_2_F16D73323D71766B<::MoleMole::QuickEditorBattleTeamOption*>* Field_1_1; // 0x10
+	::Class_2_AF9090446F494EB6* Field_1_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3__CTOR_OFFSET))(this);
+	}
+
+	::System::String* Method_1_420F5543CED5025E()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_420F5543CED5025E_OFFSET))(this);
+	}
+
+	::MoleMole::QuickEditorBattleTeamOption* Method_1_4F208C066A19ACA4()
+	{
+		return ((::MoleMole::QuickEditorBattleTeamOption*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_4F208C066A19ACA4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EEA2FE649684CA1B(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_AF9090446F494EB6_CLASS_1_D636AF3F41CF75D3_METHOD_1_EEA2FE649684CA1B_OFFSET))(this, a1);
+	}
+};

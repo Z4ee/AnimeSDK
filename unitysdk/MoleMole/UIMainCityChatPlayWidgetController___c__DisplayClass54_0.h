@@ -5,19 +5,19 @@
 namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152A3890)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__ENSUREPREVIOUSNODEFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x152A38A0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__ENSUREPREVIOUSNODEFADEOUT_B__1_OFFSET UNITYSDK_OFFSET(0x152A38D0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169BE9E0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__ENSUREPREVIOUSNODEFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x169BE9F0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS54_0__ENSUREPREVIOUSNODEFADEOUT_B__1_OFFSET UNITYSDK_OFFSET(0x169BEA20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass54_0_TypeDefinitionIndex = 47780;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass54_0_TypeDefinitionIndex = 83706;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x18
 		::System::Boolean showBlackScreen; // 0x20
 
 		::System::Void _ctor()

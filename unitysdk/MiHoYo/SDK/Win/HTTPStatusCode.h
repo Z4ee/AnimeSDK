@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int HTTPStatusCode_TypeDefinitionIndex = 19986;
+	inline static constexpr unsigned int HTTPStatusCode_TypeDefinitionIndex = 21152;
 
 	enum class HTTPStatusCode : ::System::Int32
 	{

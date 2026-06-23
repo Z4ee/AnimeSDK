@@ -6,20 +6,20 @@ namespace MoleMole { class UIGeneralExpProgressWidgetController; }
 namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB06C0)
-#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__STARTEXPPROGRESS_G___FULL_HANDLE_1_OFFSET UNITYSDK_OFFSET(0x14FB0740)
-#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__STARTEXPPROGRESS_G____FILL_EXP_0_OFFSET UNITYSDK_OFFSET(0x14FB06D0)
+#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1777CF20)
+#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__STARTEXPPROGRESS_G___FULL_HANDLE_1_OFFSET UNITYSDK_OFFSET(0x1777CFA0)
+#define MOLEMOLE_UIGENERALEXPPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS20_0__STARTEXPPROGRESS_G____FILL_EXP_0_OFFSET UNITYSDK_OFFSET(0x1777CF30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralExpProgressWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 74868;
+	inline static constexpr unsigned int UIGeneralExpProgressWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 57321;
 
 	class UIGeneralExpProgressWidgetController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIGeneralExpProgressWidgetController* __4__this; // 0x10
-		::System::Single inFillDuration; // 0x18
-		::System::Int32 addExpPerS; // 0x1C
+		::System::Int32 addExpPerS; // 0x18
+		::System::Single inFillDuration; // 0x1C
 
 		::System::Void _ctor()
 		{

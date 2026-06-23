@@ -6,24 +6,24 @@
 
 class AMLegIKExt;
 
-#define AMFOOTSHAPE_CALCFOOTPOINTS_OFFSET UNITYSDK_OFFSET(0xFD76750)
-#define AMFOOTSHAPE_HITGROUND_OFFSET UNITYSDK_OFFSET(0xFD77070)
-#define AMFOOTSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xFD76740)
+#define AMFOOTSHAPE_CALCFOOTPOINTS_OFFSET UNITYSDK_OFFSET(0x1333B1A0)
+#define AMFOOTSHAPE_HITGROUND_OFFSET UNITYSDK_OFFSET(0x1333BAC0)
+#define AMFOOTSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1333B190)
 
-inline static constexpr unsigned int AMFootShape_TypeDefinitionIndex = 66377;
+inline static constexpr unsigned int AMFootShape_TypeDefinitionIndex = 40807;
 
 class AMFootShape : public ::System::Object
 {
 public:
 	::AMLegIKExt* amLegIk; // 0x10
-	::System::Boolean hasToe; // 0x18
-	::UnityEngine::Vector3 rightVector; // 0x1C
-	::UnityEngine::Vector3 frontVector; // 0x28
+	::UnityEngine::Vector3 leftSidePos; // 0x18
+	::UnityEngine::Vector3 footPos; // 0x24
+	::System::Boolean hasToe; // 0x30
 	::UnityEngine::Vector3 toePos; // 0x34
-	::UnityEngine::Vector3 leftSidePos; // 0x40
-	::UnityEngine::Vector3 rightSidePos; // 0x4C
-	::UnityEngine::Vector3 heelPos; // 0x58
-	::UnityEngine::Vector3 footPos; // 0x64
+	::UnityEngine::Vector3 rightSidePos; // 0x40
+	::UnityEngine::Vector3 heelPos; // 0x4C
+	::UnityEngine::Vector3 rightVector; // 0x58
+	::UnityEngine::Vector3 frontVector; // 0x64
 
 	::System::Void _ctor()
 	{

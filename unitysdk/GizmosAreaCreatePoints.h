@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define GIZMOSAREACREATEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x12470650)
+#define GIZMOSAREACREATEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x17DAE9B0)
 
-inline static constexpr unsigned int GizmosAreaCreatePoints_TypeDefinitionIndex = 42271;
+inline static constexpr unsigned int GizmosAreaCreatePoints_TypeDefinitionIndex = 42336;
 
 class GizmosAreaCreatePoints : public ::GizmosArea
 {

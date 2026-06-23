@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessBoardChangePieceInfoV2_ServerInfo.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEPIECEINFOV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x10B9A890)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEPIECEINFOV2__CTOR_OFFSET UNITYSDK_OFFSET(0x10B9AC60)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEPIECEINFOV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x15108DC0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEPIECEINFOV2__CTOR_OFFSET UNITYSDK_OFFSET(0x15109190)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardChangePieceInfoV2_TypeDefinitionIndex = 82304;
+	inline static constexpr unsigned int ChessBoardChangePieceInfoV2_TypeDefinitionIndex = 73973;
 
 	class ChessBoardChangePieceInfoV2 : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::MoleMole::FlowCanvas::ChessBoardChangePieceInfoV2_ServerInfo>
 	{

@@ -8,24 +8,24 @@ namespace MoleMole { class NotificationBadge; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define CLASS_2_2556D4B31F6E596B_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x10C03ED0)
-#define CLASS_2_2556D4B31F6E596B_METHOD_2_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x10C040F0)
-#define CLASS_2_2556D4B31F6E596B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10C04270)
-#define CLASS_2_2556D4B31F6E596B__CTOR_OFFSET UNITYSDK_OFFSET(0x10C04260)
+#define CLASS_2_2556D4B31F6E596B_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x137C5950)
+#define CLASS_2_2556D4B31F6E596B_METHOD_2_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x137C5B70)
+#define CLASS_2_2556D4B31F6E596B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x137C5CF0)
+#define CLASS_2_2556D4B31F6E596B__CTOR_OFFSET UNITYSDK_OFFSET(0x137C5CE0)
 
-inline static constexpr unsigned int Class_2_2556D4B31F6E596B_TypeDefinitionIndex = 49113;
+inline static constexpr unsigned int Class_2_2556D4B31F6E596B_TypeDefinitionIndex = 72211;
 
 class Class_2_2556D4B31F6E596B : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x28
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x30
-	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x38
-	::MoleMole::NotificationBadge* Field_2_2; // 0x40
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x48
-	::UnityEngine::UI::Extension::UITabButton* Field_2_5; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x20
+	::MoleMole::NotificationBadge* Field_2_2; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x30
+	::UnityEngine::UI::Extension::UITabButton* Field_2_5; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x48
+	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x50
 
 	::System::Void _ctor()
 	{

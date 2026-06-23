@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOSPIN_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x170311B0)
-#define MOLEMOLE_MONOSPIN_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x170313A0)
-#define MOLEMOLE_MONOSPIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x17031160)
-#define MOLEMOLE_MONOSPIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17031350)
+#define MOLEMOLE_MONOSPIN_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x18CEC9B0)
+#define MOLEMOLE_MONOSPIN_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x18CECBA0)
+#define MOLEMOLE_MONOSPIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x18CEC960)
+#define MOLEMOLE_MONOSPIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18CECB50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSpin_TypeDefinitionIndex = 48238;
+	inline static constexpr unsigned int MonoSpin_TypeDefinitionIndex = 56599;
 
 	class MonoSpin : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPIN_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPIN_METHOD_5_1290EA767C459179_OFFSET))(this);
-		}
-
 		::System::Boolean Method_5_391A84BCD9F51317()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPIN_METHOD_5_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_5_1290EA767C459179()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPIN_METHOD_5_1290EA767C459179_OFFSET))(this);
 		}
 	};
 }

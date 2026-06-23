@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDENABLEACCELERATIONMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14983440)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDENABLEACCELERATIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14983670)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDENABLEACCELERATIONMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x170F8520)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDENABLEACCELERATIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x170F8740)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardEnableAccelerationMode_TypeDefinitionIndex = 41092;
+	inline static constexpr unsigned int ChessboardEnableAccelerationMode_TypeDefinitionIndex = 80825;
 
 	class ChessboardEnableAccelerationMode : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Boolean>
 	{

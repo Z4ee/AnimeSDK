@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDREFRESHPIECEINFOBYCACHESERVERINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x177F93B0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDREFRESHPIECEINFOBYCACHESERVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x177F9670)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDREFRESHPIECEINFOBYCACHESERVERINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x182CA320)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDREFRESHPIECEINFOBYCACHESERVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x182CA5E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardRefreshPieceInfoByCacheServerInfo_TypeDefinitionIndex = 69431;
+	inline static constexpr unsigned int ChessboardRefreshPieceInfoByCacheServerInfo_TypeDefinitionIndex = 40530;
 
 	class ChessboardRefreshPieceInfoByCacheServerInfo : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

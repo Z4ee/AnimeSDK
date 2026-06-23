@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class IClampedPolicy_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Clamped_1_TypeDefinitionIndex = 8876;
+	inline static constexpr unsigned int Clamped_1_TypeDefinitionIndex = 8447;
 
 	template <typename T>
 	struct Clamped_1

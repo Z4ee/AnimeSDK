@@ -5,19 +5,19 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_XORMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1A1F4910)
-#define FLOWCANVAS_NODES_XORMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A1F47F0)
-#define FLOWCANVAS_NODES_XORMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F4A00)
+#define FLOWCANVAS_NODES_XORMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1C620740)
+#define FLOWCANVAS_NODES_XORMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1C620620)
+#define FLOWCANVAS_NODES_XORMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C620830)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int XORMerge_TypeDefinitionIndex = 26757;
+	inline static constexpr unsigned int XORMerge_TypeDefinitionIndex = 29252;
 
 	class XORMerge : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::Il2CppArray<::System::Int32>* calls; // 0xA8
-		::FlowCanvas::FlowOutput* fOut; // 0xB0
+		::FlowCanvas::FlowOutput* fOut; // 0xA8
+		::Il2CppArray<::System::Int32>* calls; // 0xB0
 		::System::Int32 lastFrameCall; // 0xB8
 		::System::Int32 _portCount; // 0xBC
 

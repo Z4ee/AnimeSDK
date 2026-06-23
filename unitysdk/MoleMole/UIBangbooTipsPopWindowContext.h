@@ -4,11 +4,11 @@
 
 class Class_1_37531022BA965541;
 
-#define MOLEMOLE_UIBANGBOOTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16777630)
+#define MOLEMOLE_UIBANGBOOTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x187C4420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooTipsPopWindowContext_TypeDefinitionIndex = 63062;
+	inline static constexpr unsigned int UIBangbooTipsPopWindowContext_TypeDefinitionIndex = 59550;
 
 	class UIBangbooTipsPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ConsoleObjectTypeToEnum_Specializer_1_TypeDefinitionIndex = 5686;
+	inline static constexpr unsigned int ConsoleObjectTypeToEnum_Specializer_1_TypeDefinitionIndex = 5688;
 
 	template <typename T>
 	class ConsoleObjectTypeToEnum_Specializer_1 : public ::System::Object

@@ -7,20 +7,20 @@ class Class_4_DA19DD65175B97CF;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET UNITYSDK_OFFSET(0xFB12FC0)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0xFB12C80)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONSTOP_OFFSET UNITYSDK_OFFSET(0xFB130E0)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xFB13130)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET UNITYSDK_OFFSET(0xE981B10)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0xE9817D0)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONSTOP_OFFSET UNITYSDK_OFFSET(0xE981C30)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xE981C80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShowEffectPlayerAndTarget_TypeDefinitionIndex = 76581;
+	inline static constexpr unsigned int ShowEffectPlayerAndTarget_TypeDefinitionIndex = 56542;
 
 	class ShowEffectPlayerAndTarget : public ::MoleMole::Config::HollowInteractEffectImpBase
 	{
 	public:
-		::System::String* TargetEffect; // 0x20
-		::System::String* PlayerEffect; // 0x28
+		::System::String* PlayerEffect; // 0x20
+		::System::String* TargetEffect; // 0x28
 
 		::System::Void _ctor()
 		{

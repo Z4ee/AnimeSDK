@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGMAINSTORYSHRINKTAPESNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1424CB30)
-#define MOLEMOLE_CONFIG_CONFIGMAINSTORYSHRINKTAPESNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1424CBA0)
+#define MOLEMOLE_CONFIG_CONFIGMAINSTORYSHRINKTAPESNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x10D0AE10)
+#define MOLEMOLE_CONFIG_CONFIGMAINSTORYSHRINKTAPESNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0AE80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMainStoryShrinkTapesNode_TypeDefinitionIndex = 50633;
+	inline static constexpr unsigned int ConfigMainStoryShrinkTapesNode_TypeDefinitionIndex = 48904;
 
 	class ConfigMainStoryShrinkTapesNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

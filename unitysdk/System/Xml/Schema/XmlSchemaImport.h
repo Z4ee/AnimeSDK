@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Xml::Schema { class XmlSchemaAnnotation; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAIMPORT_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1BACC3E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAIMPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACC3D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAIMPORT_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1DE46650)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAIMPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE46640)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaImport_TypeDefinitionIndex = 2167;
+	inline static constexpr unsigned int XmlSchemaImport_TypeDefinitionIndex = 2166;
 
 	class XmlSchemaImport : public ::System::Xml::Schema::XmlSchemaExternal
 	{
 	public:
-		::System::String* ns; // 0x68
-		::System::Xml::Schema::XmlSchemaAnnotation* annotation; // 0x70
+		::System::Xml::Schema::XmlSchemaAnnotation* annotation; // 0x68
+		::System::String* ns; // 0x70
 
 		::System::Void _ctor()
 		{

@@ -10,25 +10,25 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_A83F0BD817A71056_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xECC3400)
-#define CLASS_2_A83F0BD817A71056_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xECC3500)
-#define CLASS_2_A83F0BD817A71056_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0xECC3190)
-#define CLASS_2_A83F0BD817A71056__CTOR_OFFSET UNITYSDK_OFFSET(0xECC34F0)
+#define CLASS_2_A83F0BD817A71056_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x13AAD9E0)
+#define CLASS_2_A83F0BD817A71056_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13AADAE0)
+#define CLASS_2_A83F0BD817A71056_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x13AAD770)
+#define CLASS_2_A83F0BD817A71056__CTOR_OFFSET UNITYSDK_OFFSET(0x13AADAD0)
 
-inline static constexpr unsigned int Class_2_A83F0BD817A71056_TypeDefinitionIndex = 66311;
+inline static constexpr unsigned int Class_2_A83F0BD817A71056_TypeDefinitionIndex = 43786;
 
 class Class_2_A83F0BD817A71056 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_1; // 0x18
-	::Class_2_CA67A9CEB871FFD3* Field_2_2; // 0x20
-	::Class_2_FDFE69FE7B72463B* Field_2_6; // 0x28
-	::Class_2_CA67A9CEB871FFD3* Field_2_4; // 0x30
-	::UnityEngine::GameObject* Field_2_0; // 0x38
-	::UnityEngine::GameObject* Field_2_8; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x48
-	::UnityEngine::CanvasGroup* Field_2_5; // 0x50
-	::Class_2_CA67A9CEB871FFD3* Field_2_3; // 0x58
+	::Class_2_CA67A9CEB871FFD3* Field_2_3; // 0x18
+	::UnityEngine::GameObject* Field_2_0; // 0x20
+	::UnityEngine::GameObject* Field_2_1; // 0x28
+	::Class_2_FDFE69FE7B72463B* Field_2_6; // 0x30
+	::Class_2_CA67A9CEB871FFD3* Field_2_4; // 0x38
+	::Class_2_CA67A9CEB871FFD3* Field_2_2; // 0x40
+	::UnityEngine::GameObject* Field_2_8; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x50
+	::UnityEngine::CanvasGroup* Field_2_5; // 0x58
 
 	::System::Void _ctor()
 	{

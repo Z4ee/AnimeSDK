@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_MaterialCommandDispatch_TypeDefinitionIndex = 5616;
+	inline static constexpr unsigned int PostLateUpdate_MaterialCommandDispatch_TypeDefinitionIndex = 5618;
 
 	struct alignas(1) PostLateUpdate_MaterialCommandDispatch
 	{

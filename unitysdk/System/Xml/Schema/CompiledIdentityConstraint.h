@@ -8,13 +8,13 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class Asttree; }
 namespace System::Xml::Schema { class XmlSchemaIdentityConstraint; }
 
-#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B96DDA0)
-#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B96D8F0)
-#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B96D880)
+#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCE4AA0)
+#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DCE45F0)
+#define SYSTEM_XML_SCHEMA_COMPILEDIDENTITYCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE4580)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int CompiledIdentityConstraint_TypeDefinitionIndex = 1951;
+	inline static constexpr unsigned int CompiledIdentityConstraint_TypeDefinitionIndex = 1950;
 
 	class CompiledIdentityConstraint : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace System::Xml::Schema
 		{
 			return (::System::Xml::Schema::CompiledIdentityConstraint**)Il2CppClass::FromTypeDefinitionIndex(CompiledIdentityConstraint_TypeDefinitionIndex)->GetStaticField(0x18B0);
 		}
-		::System::Xml::Schema::Asttree* selector; // 0x10
-		::System::Xml::XmlQualifiedName* refer; // 0x18
-		::Il2CppArray<::System::Xml::Schema::Asttree*>* fields; // 0x20
+		::System::Xml::XmlQualifiedName* refer; // 0x10
+		::Il2CppArray<::System::Xml::Schema::Asttree*>* fields; // 0x18
+		::System::Xml::Schema::Asttree* selector; // 0x20
 		::System::Xml::XmlQualifiedName* name; // 0x28
 		::System::Xml::Schema::CompiledIdentityConstraint_ConstraintRole role; // 0x30
 

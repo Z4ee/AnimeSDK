@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-inline static constexpr unsigned int Struct_2_A27AD37EB804567E_TypeDefinitionIndex = 77440;
+inline static constexpr unsigned int Struct_2_A27AD37EB804567E_TypeDefinitionIndex = 77947;
 
 struct alignas(8) Struct_2_A27AD37EB804567E
 {

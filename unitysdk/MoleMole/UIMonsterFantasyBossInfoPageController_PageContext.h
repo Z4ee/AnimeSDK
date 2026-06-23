@@ -6,22 +6,22 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER_PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147D5FA0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER_PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17163540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController_PageContext_TypeDefinitionIndex = 79944;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController_PageContext_TypeDefinitionIndex = 50844;
 
 	class UIMonsterFantasyBossInfoPageController_PageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* TeamInfo; // 0x28
-		::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>* OnCloseCallBack; // 0x30
-		::MoleMole::UIMonsterFantasyBossInfoPageController_PageType Type; // 0x38
-		::System::Int32 SourceConfigID; // 0x3C
-		::System::Int32 SourceIndex; // 0x40
-		::System::Int32 LevelID; // 0x44
-		::System::Int32 SourceEntityID; // 0x48
+		::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>* OnCloseCallBack; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* TeamInfo; // 0x30
+		::System::Int32 SourceIndex; // 0x38
+		::System::Int32 SourceEntityID; // 0x3C
+		::System::Int32 LevelID; // 0x40
+		::System::Int32 SourceConfigID; // 0x44
+		::MoleMole::UIMonsterFantasyBossInfoPageController_PageType Type; // 0x48
 
 		::System::Void _ctor()
 		{

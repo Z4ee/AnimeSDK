@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer_LogLevel_TypeDefinitionIndex = 35136;
+	inline static constexpr unsigned int MiHoYoSDKServer_LogLevel_TypeDefinitionIndex = 36700;
 
 	enum class MiHoYoSDKServer_LogLevel : ::System::Int32
 	{

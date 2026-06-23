@@ -2,9 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_340_TypeDefinitionIndex = 77518;
+class Class_1_2A3859B4230FECE9;
+namespace Cinemachine { class CinemachineVirtualCameraBase; }
+namespace MoleMole::Cameras { class CameraDataAccessor; }
 
-template <typename T>
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_340_TypeDefinitionIndex = 80402;
+
 class Class_1_534AF681CC2BD5FD_340 : public ::System::Object
 {
 public:

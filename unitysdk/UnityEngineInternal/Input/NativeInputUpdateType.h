@@ -3,7 +3,7 @@
 
 namespace UnityEngineInternal::Input
 {
-	inline static constexpr unsigned int NativeInputUpdateType_TypeDefinitionIndex = 24833;
+	inline static constexpr unsigned int NativeInputUpdateType_TypeDefinitionIndex = 27426;
 
 	enum class NativeInputUpdateType : ::System::Int32
 	{

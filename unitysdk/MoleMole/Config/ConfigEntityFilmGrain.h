@@ -9,27 +9,27 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x11027C00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x11027C80)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x11027EF0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETTYPE_OFFSET UNITYSDK_OFFSET(0x11027B90)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x11027D00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x11027F60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x18F32030)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x18F320B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x18F32320)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GETTYPE_OFFSET UNITYSDK_OFFSET(0x18F31FC0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x18F32130)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18F32390)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFilmGrain_TypeDefinitionIndex = 68576;
+	inline static constexpr unsigned int ConfigEntityFilmGrain_TypeDefinitionIndex = 76360;
 
 	class ConfigEntityFilmGrain : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
 		::MoleMole::Config::ScreenEffectFloat* response; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x48
-		::UnityEngine::Texture2D* _texture; // 0x50
-		::System::String* texturePath; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType textureHandleType; // 0x60
-		::MoleMole::Config::ScreenEffectFieldHandleType typeHandleType; // 0x64
-		::UnityEngine::Rendering::Universal::FilmGrainLookup type; // 0x68
+		::UnityEngine::Texture2D* _texture; // 0x48
+		::System::String* texturePath; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x58
+		::MoleMole::Config::ScreenEffectFieldHandleType typeHandleType; // 0x60
+		::UnityEngine::Rendering::Universal::FilmGrainLookup type; // 0x64
+		::MoleMole::Config::ScreenEffectFieldHandleType textureHandleType; // 0x68
 		::MoleMole::Config::ScreenEffectFieldHandleType responseHandleType; // 0x6C
 		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x70
 

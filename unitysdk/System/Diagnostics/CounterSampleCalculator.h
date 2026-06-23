@@ -3,12 +3,12 @@
 #include "unitysdk/System/Diagnostics/CounterSample.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DIAGNOSTICS_COUNTERSAMPLECALCULATOR_COMPUTECOUNTERVALUE_1_OFFSET UNITYSDK_OFFSET(0x19EE9200)
-#define SYSTEM_DIAGNOSTICS_COUNTERSAMPLECALCULATOR_COMPUTECOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x19EE91C0)
+#define SYSTEM_DIAGNOSTICS_COUNTERSAMPLECALCULATOR_COMPUTECOUNTERVALUE_1_OFFSET UNITYSDK_OFFSET(0x1C2E2E30)
+#define SYSTEM_DIAGNOSTICS_COUNTERSAMPLECALCULATOR_COMPUTECOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1C2E2DF0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int CounterSampleCalculator_TypeDefinitionIndex = 4168;
+	inline static constexpr unsigned int CounterSampleCalculator_TypeDefinitionIndex = 4167;
 
 	class CounterSampleCalculator : public ::System::Object
 	{

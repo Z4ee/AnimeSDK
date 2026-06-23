@@ -6,35 +6,35 @@
 namespace Octree::Native { class IUnsafe; }
 namespace System { class String; }
 
-#define OCTREE_NATIVE_UNSAFEUTILITY_ALIGNSIZE_OFFSET UNITYSDK_OFFSET(0x1808EF20)
-#define OCTREE_NATIVE_UNSAFEUTILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1808FB50)
-#define OCTREE_NATIVE_UNSAFEUTILITY_FREEREFOBJECT_OFFSET UNITYSDK_OFFSET(0x1808F070)
-#define OCTREE_NATIVE_UNSAFEUTILITY_INTARRAYSET_OFFSET UNITYSDK_OFFSET(0x1808F950)
-#define OCTREE_NATIVE_UNSAFEUTILITY_MEMCOPY_1_OFFSET UNITYSDK_OFFSET(0x1808F640)
-#define OCTREE_NATIVE_UNSAFEUTILITY_MEMCOPY_OFFSET UNITYSDK_OFFSET(0x1808F480)
-#define OCTREE_NATIVE_UNSAFEUTILITY_MEMMOVE_OFFSET UNITYSDK_OFFSET(0x1808F2B0)
-#define OCTREE_NATIVE_UNSAFEUTILITY_MEMSET_OFFSET UNITYSDK_OFFSET(0x1808F7B0)
-#define OCTREE_NATIVE_UNSAFEUTILITY_PINREFOBJECT_OFFSET UNITYSDK_OFFSET(0x1808EF70)
-#define OCTREE_NATIVE_UNSAFEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1808FCF0)
+#define OCTREE_NATIVE_UNSAFEUTILITY_ALIGNSIZE_OFFSET UNITYSDK_OFFSET(0xFBCDF30)
+#define OCTREE_NATIVE_UNSAFEUTILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xFBCEB60)
+#define OCTREE_NATIVE_UNSAFEUTILITY_FREEREFOBJECT_OFFSET UNITYSDK_OFFSET(0xFBCE080)
+#define OCTREE_NATIVE_UNSAFEUTILITY_INTARRAYSET_OFFSET UNITYSDK_OFFSET(0xFBCE960)
+#define OCTREE_NATIVE_UNSAFEUTILITY_MEMCOPY_1_OFFSET UNITYSDK_OFFSET(0xFBCE650)
+#define OCTREE_NATIVE_UNSAFEUTILITY_MEMCOPY_OFFSET UNITYSDK_OFFSET(0xFBCE490)
+#define OCTREE_NATIVE_UNSAFEUTILITY_MEMMOVE_OFFSET UNITYSDK_OFFSET(0xFBCE2C0)
+#define OCTREE_NATIVE_UNSAFEUTILITY_MEMSET_OFFSET UNITYSDK_OFFSET(0xFBCE7C0)
+#define OCTREE_NATIVE_UNSAFEUTILITY_PINREFOBJECT_OFFSET UNITYSDK_OFFSET(0xFBCDF80)
+#define OCTREE_NATIVE_UNSAFEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBCED00)
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int UnsafeUtility_TypeDefinitionIndex = 49564;
+	inline static constexpr unsigned int UnsafeUtility_TypeDefinitionIndex = 65173;
 
 	class UnsafeUtility : public ::System::Object
 	{
 	public:
 		static ::Octree::Native::IUnsafe** StaticGet_extUnsafe()
 		{
-			return (::Octree::Native::IUnsafe**)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x48CB0);
+			return (::Octree::Native::IUnsafe**)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x4C300);
 		}
 		static ::System::Int32* StaticGet_sizeofInt()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x118D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x12460);
 		}
 		static ::System::Int32* StaticGet_sizeofLong()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x118D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnsafeUtility_TypeDefinitionIndex)->GetStaticField(0x12464);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdDuration_DurationType_TypeDefinitionIndex = 2235;
+	inline static constexpr unsigned int XsdDuration_DurationType_TypeDefinitionIndex = 2234;
 
 	enum class XsdDuration_DurationType : ::System::Int32
 	{

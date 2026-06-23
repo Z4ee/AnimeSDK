@@ -6,51 +6,51 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 namespace Foundation::ViewObject { class ITraitEntityBuild; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x153CC580)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x153CBE90)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x153CB4A0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GET_FINALPREFABPATH_OFFSET UNITYSDK_OFFSET(0x153CC480)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GET_ISPREFABDEFINED_OFFSET UNITYSDK_OFFSET(0x153CC3E0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x153CB520)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_12258585B54C162D_OFFSET UNITYSDK_OFFSET(0x153CC650)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x153CB1A0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x153CD020)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x153CD0B0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_66DDCFACE808B0BA_OFFSET UNITYSDK_OFFSET(0x153CCA40)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_7A8DC74ED3D40789_OFFSET UNITYSDK_OFFSET(0x153CD0C0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_85B401BB8BA57AEA_OFFSET UNITYSDK_OFFSET(0x153CD3A0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_BD31C97E6FF9EB6F_OFFSET UNITYSDK_OFFSET(0x153CD260)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x153CB290)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_CD729A9634455FE2_OFFSET UNITYSDK_OFFSET(0x153CC490)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_D4ABEF7DE8CFDB8D_OFFSET UNITYSDK_OFFSET(0x153CB120)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_E00E5E8C04C50887_OFFSET UNITYSDK_OFFSET(0x153CC9B0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_FDFE9AC64A706A16_OFFSET UNITYSDK_OFFSET(0x153CBEF0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x153CB300)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x153CCF30)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x153CCBB0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTBUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x153CCAF0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x153CCEE0)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x153CD010)
-#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x153CCFD0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x17059EE0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDMODELCOMPONENT_OFFSET UNITYSDK_OFFSET(0x17059FB0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDMOVEMENTCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1705A3C0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDTIMESLOWCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1705A330)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x17058370)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x170584D0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x170582F0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170594C0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x170586A0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x17059DF0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x17058460)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GET_FINALPREFABPATH_OFFSET UNITYSDK_OFFSET(0x17059D60)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GET_ISPREFABDEFINED_OFFSET UNITYSDK_OFFSET(0x17059CC0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17059520)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x17058720)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ISGADGETDEFAULTTRAIT_OFFSET UNITYSDK_OFFSET(0x17059D70)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x1705A9B0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1705A530)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17059B20)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x17059380)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTBUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1705A470)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x1705A960)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1705AA90)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1705AA50)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1705AAA0)
+#define MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1705AAB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GadgetDefaultTrait_TypeDefinitionIndex = 78129;
+	inline static constexpr unsigned int GadgetDefaultTrait_TypeDefinitionIndex = 62953;
 
 	class GadgetDefaultTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsOpenGadgetDefaultAsyncLoad()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GadgetDefaultTrait_TypeDefinitionIndex)->GetStaticField(0xCEB0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GadgetDefaultTrait_TypeDefinitionIndex)->GetStaticField(0xDA80);
 		}
 		// static const ::System::String* DefaultPrefabPath; // 0x0
 		::System::String* ShowName; // 0x18
@@ -59,6 +59,8 @@ namespace MoleMole::Config
 		::System::Boolean EnableDither; // 0x29
 		::System::String* DitherConfigKey; // 0x30
 		::System::Boolean EnableMove; // 0x38
+		::System::Boolean EnableRigidBodyInit; // 0x39
+		::System::Boolean InitEntityDisable; // 0x3A
 
 		::System::Void _ctor()
 		{
@@ -70,34 +72,54 @@ namespace MoleMole::Config
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT__CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_2_D4ABEF7DE8CFDB8D(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_D4ABEF7DE8CFDB8D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
+		}
+
+		static ::MoleMole::Config::GadgetDefaultTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
+		{
+			return ((::MoleMole::Config::GadgetDefaultTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_PARSEFROMFLX_OFFSET))(node);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+		}
+
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+		}
+
+		static ::MoleMole::Config::GadgetDefaultTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::MoleMole::Config::GadgetDefaultTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean get_IsPrefabDefined()
@@ -110,84 +132,64 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GET_FINALPREFABPATH_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_CD729A9634455FE2(::Class_1_F91ACF27C085FD90* a1)
+		static ::System::Boolean IsGadgetDefaultTrait(::Foundation::ViewObject::ITraitEntityBuild* trait)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_CD729A9634455FE2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::Foundation::ViewObject::ITraitEntityBuild*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ISGADGETDEFAULTTRAIT_OFFSET))(trait);
 		}
 
-		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& a1)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Boolean PostBuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& a1)
+		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTBUILDENTITYCOMPONENT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void OnPostEntityReady(::MoleMole::EntityHandle a1)
+		::System::Boolean PostBuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTBUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void PostProcessEntity(::MoleMole::EntityHandle a1)
+		::System::Void BuildModelComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTPROCESSENTITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDMODELCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void OnPostEntityDissociate(::MoleMole::EntityHandle a1)
+		::System::Void BuildTimeSlowComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDTIMESLOWCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Void BuildMovementComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_BUILDMOVEMENTCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entityHandle);
 		}
 
-		static ::MoleMole::Config::GadgetDefaultTrait* Method_2_7A8DC74ED3D40789(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Void PostProcessEntity(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::MoleMole::Config::GadgetDefaultTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_7A8DC74ED3D40789_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_POSTPROCESSENTITY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Void Method_2_12258585B54C162D(::Foundation::ViewObject::EntityBuildContext& a1)
+		::System::Void OnPostEntityDissociate(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_12258585B54C162D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET))(this, entityHandle);
 		}
 
-		static ::MoleMole::Config::GadgetDefaultTrait* Method_2_BD31C97E6FF9EB6F(::FlexBuffers::FlxValue a1)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::MoleMole::Config::GadgetDefaultTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_BD31C97E6FF9EB6F_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean Method_2_0BD393E566CD3D4A(::FlexBuffers::FlxMap a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_0BD393E566CD3D4A_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_2_66DDCFACE808B0BA(::Foundation::ViewObject::EntityBuildContext& a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_66DDCFACE808B0BA_OFFSET))(this, a1);
-		}
-
-		static ::System::Boolean Method_2_85B401BB8BA57AEA(::Foundation::ViewObject::ITraitEntityBuild* a1)
-		{
-			return ((::System::Boolean(*)(::Foundation::ViewObject::ITraitEntityBuild*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_85B401BB8BA57AEA_OFFSET))(a1);
-		}
-
-		::System::Void Method_2_E00E5E8C04C50887(::Foundation::ViewObject::EntityBuildContext& a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_E00E5E8C04C50887_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_2_FDFE9AC64A706A16(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT_METHOD_2_FDFE9AC64A706A16_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETDEFAULTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

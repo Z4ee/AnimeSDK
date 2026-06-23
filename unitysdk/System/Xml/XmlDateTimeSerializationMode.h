@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlDateTimeSerializationMode_TypeDefinitionIndex = 1812;
+	inline static constexpr unsigned int XmlDateTimeSerializationMode_TypeDefinitionIndex = 1811;
 
 	enum class XmlDateTimeSerializationMode : ::System::Int32
 	{

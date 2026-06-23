@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EACTPerformShowMoment_TypeDefinitionIndex = 12222;
+	inline static constexpr unsigned int EACTPerformShowMoment_TypeDefinitionIndex = 13308;
 
 	enum class EACTPerformShowMoment : ::System::Int16
 	{
-		End = 1,
 		Begin = 0,
+		End = 1,
 	};
 }

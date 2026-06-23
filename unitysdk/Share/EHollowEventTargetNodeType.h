@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowEventTargetNodeType_TypeDefinitionIndex = 16990;
+	inline static constexpr unsigned int EHollowEventTargetNodeType_TypeDefinitionIndex = 15199;
 
 	enum class EHollowEventTargetNodeType : ::System::Int16
 	{
+		NonCore = 2,
 		Core = 1,
 		All = 0,
-		NonCore = 2,
 	};
 }

@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1679E970)
-#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__SETURL_B__0_OFFSET UNITYSDK_OFFSET(0x1679E980)
-#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__SETURL_B__1_OFFSET UNITYSDK_OFFSET(0x1679EA90)
+#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187ED7A0)
+#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__SETURL_B__0_OFFSET UNITYSDK_OFFSET(0x187ED7B0)
+#define MOLEMOLE_UIGENERALCLICKTOPROCEED02WIDGETCONTROLLER___C__DISPLAYCLASS3_0__SETURL_B__1_OFFSET UNITYSDK_OFFSET(0x187ED8C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralClickToProceed02WidgetController___c__DisplayClass3_0_TypeDefinitionIndex = 76233;
+	inline static constexpr unsigned int UIGeneralClickToProceed02WidgetController___c__DisplayClass3_0_TypeDefinitionIndex = 42958;
 
 	class UIGeneralClickToProceed02WidgetController___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* __9__1; // 0x10
-		::System::String* url; // 0x18
+		::System::String* url; // 0x10
+		::System::Action_1<::System::String*>* __9__1; // 0x18
 		::System::Boolean webView; // 0x20
 
 		::System::Void _ctor()

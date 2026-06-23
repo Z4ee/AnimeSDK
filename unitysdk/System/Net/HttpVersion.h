@@ -4,12 +4,12 @@
 
 namespace System { class Version; }
 
-#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AF3D70)
-#define SYSTEM_NET_HTTPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF3D60)
+#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C021220)
+#define SYSTEM_NET_HTTPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021210)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpVersion_TypeDefinitionIndex = 3282;
+	inline static constexpr unsigned int HttpVersion_TypeDefinitionIndex = 3281;
 
 	class HttpVersion : public ::System::Object
 	{

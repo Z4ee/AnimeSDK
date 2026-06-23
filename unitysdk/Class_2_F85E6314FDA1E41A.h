@@ -8,18 +8,18 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_F85E6314FDA1E41A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x100F2060)
-#define CLASS_2_F85E6314FDA1E41A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x100F1F80)
-#define CLASS_2_F85E6314FDA1E41A__CTOR_OFFSET UNITYSDK_OFFSET(0x100F2050)
+#define CLASS_2_F85E6314FDA1E41A_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11CF0A90)
+#define CLASS_2_F85E6314FDA1E41A_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x11CF09B0)
+#define CLASS_2_F85E6314FDA1E41A__CTOR_OFFSET UNITYSDK_OFFSET(0x11CF0A80)
 
-inline static constexpr unsigned int Class_2_F85E6314FDA1E41A_TypeDefinitionIndex = 46096;
+inline static constexpr unsigned int Class_2_F85E6314FDA1E41A_TypeDefinitionIndex = 40371;
 
 class Class_2_F85E6314FDA1E41A : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::UnityEngine::RectTransform* Field_2_0; // 0x20
-	::UnityEngine::Animation* Field_2_1; // 0x28
+	::UnityEngine::Animation* Field_2_1; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x20
+	::UnityEngine::RectTransform* Field_2_0; // 0x28
 
 	::System::Void _ctor()
 	{

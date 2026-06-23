@@ -17,109 +17,109 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x141F0E50)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A345460)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformMisc_TypeDefinitionIndex = 43325;
+	inline static constexpr unsigned int ConfigGachaPerformMisc_TypeDefinitionIndex = 57267;
 
 	class ConfigGachaPerformMisc : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::WeaponEuler>* WeaponEulers; // 0x10
-		::MoleMole::Config::ConfigHollowCameraShake* WeaponShakeConfig; // 0x18
-		::System::String* NonGachaCamFovCurve; // 0x20
-		::System::String* UITextIntensityCurve; // 0x28
-		::MoleMole::Config::ConfigEntityGaussianBlurEffect* GaussianBlurResetParams; // 0x30
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* RaritySScreenEffects; // 0x38
-		::System::String* WeaponLightColorIntensityCurve; // 0x40
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::MoleMole::Config::ConfigColor>* UITextColors; // 0x48
-		::UnityEngine::AnimationCurve* ActivateAnimCurve; // 0x50
-		::System::String* BangbooCamShakeKey; // 0x58
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::Single>* TvRarityEffAnimShowOffset; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceSummon>*>* Summons; // 0x68
-		::System::String* WeaponRotCurve; // 0x70
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_PlatformHeight, ::System::Single>* PlatformHeights; // 0x78
-		::System::String* CamRarityEff_Common; // 0x80
-		::System::String* SpeedUpCurve; // 0x88
-		::System::String* UITextTwinkleCurve; // 0x90
-		::System::String* WeaponCamShakeKey; // 0x98
-		::System::String* CamRotAxisYCurve_Circle; // 0xA0
-		::System::String* CamRarityEff_Openning; // 0xA8
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* RaritySScreenEffects_ItemStage; // 0xB0
-		::System::String* CamRarityEff_ItemStage; // 0xB8
-		::System::String* CamEff_Rotate; // 0xC0
-		::System::String* NonGachaFadeInBlackCurtainCurve; // 0xC8
-		::System::String* CamShakeKey; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* WeaponTriggerAnimDelayOffsets; // 0xD8
-		::System::String* UITextMoveCurve; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::Single>* TvRarityEffShowOffset; // 0xE8
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* PersistentScreenEffects; // 0xF0
-		::System::String* CamRotAxisYCurve_HalfCircle; // 0xF8
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* StageRotateScreenEffects; // 0x100
-		::System::String* TvCommonEffAnim_ItemStage; // 0x108
-		::System::String* GachaRewardWindowEffect; // 0x110
-		::System::String* UITextFadeInCurve; // 0x118
-		::System::String* BlackCurtainCurve; // 0x120
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::String*>* TvRarityEffAnimations; // 0x128
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::UnityEngine::Color>* ItemLightColors; // 0x130
-		::System::Single CamEff_Rotate_Delay_Circle; // 0x138
-		::System::Single AnimationKeyDelay_HalfCircle; // 0x13C
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* WeaponTriggerAnimDelayOffsets; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* StageRotateScreenEffects; // 0x18
+		::System::String* WeaponLightColorIntensityCurve; // 0x20
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::Single>* TvRarityEffShowOffset; // 0x28
+		::System::String* UITextFadeInCurve; // 0x30
+		::System::String* CamRotAxisYCurve_HalfCircle; // 0x38
+		::System::String* UITextMoveCurve; // 0x40
+		::System::String* BlackCurtainCurve; // 0x48
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* PersistentScreenEffects; // 0x50
+		::System::String* NonGachaCamFovCurve; // 0x58
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::String*>* TvRarityEffAnimations; // 0x60
+		::MoleMole::Config::ConfigHollowCameraShake* WeaponShakeConfig; // 0x68
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* RaritySScreenEffects_ItemStage; // 0x70
+		::System::String* WeaponRotCurve; // 0x78
+		::System::String* GachaRewardWindowEffect; // 0x80
+		::UnityEngine::AnimationCurve* ActivateAnimCurve; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceSummon>*>* Summons; // 0x90
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::MoleMole::Config::ConfigColor>* UITextColors; // 0x98
+		::System::String* CamEff_Rotate; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::UnityEngine::Color>* ItemLightColors; // 0xA8
+		::System::String* CamRotAxisYCurve_Circle; // 0xB0
+		::System::String* CamRarityEff_Openning; // 0xB8
+		::MoleMole::Config::ConfigEntityGaussianBlurEffect* GaussianBlurResetParams; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_PlatformHeight, ::System::Single>* PlatformHeights; // 0xC8
+		::System::String* SpeedUpCurve; // 0xD0
+		::System::String* CamRarityEff_Common; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity, ::System::Single>* TvRarityEffAnimShowOffset; // 0xE0
+		::System::String* TvCommonEffAnim_ItemStage; // 0xE8
+		::System::String* BangbooCamShakeKey; // 0xF0
+		::System::String* UITextTwinkleCurve; // 0xF8
+		::System::String* WeaponCamShakeKey; // 0x100
+		::System::String* CamShakeKey; // 0x108
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigGachaPerformanceScreenEffect>* RaritySScreenEffects; // 0x110
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::WeaponEuler>* WeaponEulers; // 0x118
+		::System::String* CamRarityEff_ItemStage; // 0x120
+		::System::String* NonGachaFadeInBlackCurtainCurve; // 0x128
+		::System::String* UITextIntensityCurve; // 0x130
+		::System::Single UITextSpeedUpScale; // 0x138
+		::System::Single WeaponPosY; // 0x13C
 		::System::Single NonGachaFadeInBlackCurtainDuration; // 0x140
-		::System::Single RaritySScreenEffectsOffset; // 0x144
-		::System::Single ShowConfirmBtnDelay; // 0x148
-		::System::Single NonGachaFovDuration; // 0x14C
-		::System::Single RolePoolBlackMaskTime; // 0x150
-		::System::Single BlackCurtainDuration; // 0x154
-		::System::Single CamRotAxisYDuartion_Circle; // 0x158
-		::System::Single SkipAllSRarityStartRotTimeOffset; // 0x15C
-		::System::Single WeaponPerlinScale; // 0x160
-		::System::Single AvatarTextshotTLDelay; // 0x164
-		::System::Single WeaponFloatingStrength; // 0x168
-		::System::Single ShowGachaRewardWindowEffectDelay; // 0x16C
-		::System::Single WeaponLightColorIntensityDuration; // 0x170
-		::System::Single WeaponRotDuration; // 0x174
-		::System::Single UITextMoveThinkInterval; // 0x178
-		::System::Single WeaponPosY; // 0x17C
-		::System::Single NonGachaCamFromFov; // 0x180
-		::System::Single WeaponLightColorIntensity; // 0x184
-		::System::Single GaussianBlurTilling; // 0x188
-		::System::Single DelayShowRewardsTime; // 0x18C
-		::System::Single First4ShotsProtectTime; // 0x190
-		::System::Single NonGachaAnimationKeyDelay; // 0x194
-		::System::Single CamEff_Rotate_Delay_HalfCircle; // 0x198
-		::System::Single WeaponAngleFloatingDelay; // 0x19C
-		::System::Single ActivateAnimInterval; // 0x1A0
-		::System::Single CommonWeaponTriggerAnimDelayOffset; // 0x1A4
-		::System::Single UITextMoveDistance2; // 0x1A8
-		::System::Single TvShowInterval; // 0x1AC
-		::System::Single OpenningDelayEnd; // 0x1B0
-		::System::Single NonGachaRarityScreenEffTLStartOffset; // 0x1B4
-		::System::Single WeaponAngleFloatingStrength; // 0x1B8
-		::UnityEngine::Vector3 WeaponStayEuler; // 0x1BC
-		::System::Boolean MainLightsUseCutscene; // 0x1C8
-		::System::Boolean ClockwiseRot; // 0x1C9
-		::System::Single BangbooScale; // 0x1CC
-		::System::Single CamRotAxisYDuartion_HalfCircle; // 0x1D0
-		::System::Single UITextMoveDuration; // 0x1D4
-		::System::Int32 GachaPerformTemplateID; // 0x1D8
-		::System::Single WeaponFloatingDelay; // 0x1DC
-		::System::Single SkipAllDelay; // 0x1E0
-		::System::Single RewardItemPlaySoundDelay; // 0x1E4
-		::System::Single ShowRewardInterval; // 0x1E8
-		::System::Single UITextSpeedUpScale; // 0x1EC
-		::System::Single UITextIntensityDuration; // 0x1F0
-		::System::Single WeaponScale; // 0x1F4
-		::UnityEngine::Vector3 WeaponInitEuler; // 0x1F8
-		::System::Single WeaponAnglePerlinScale; // 0x204
-		::System::Single AnimationKeyDelay_Circle; // 0x208
-		::System::Single AvatarAnimationPlayOffset; // 0x20C
-		::System::Single NextItemProtectTime; // 0x210
-		::System::Single UITextMoveDistance3; // 0x214
-		::System::Single OpenningFirst3TvInterval; // 0x218
-		::System::Single UITextTwinkleDuration; // 0x21C
-		::System::Single UITextMoveDistance1; // 0x220
-		::System::Single NonGachaCamToFov; // 0x224
+		::System::Single WeaponLightColorIntensityDuration; // 0x144
+		::System::Single ActivateAnimInterval; // 0x148
+		::System::Single CommonWeaponTriggerAnimDelayOffset; // 0x14C
+		::System::Single AvatarTextshotTLDelay; // 0x150
+		::System::Single CamEff_Rotate_Delay_HalfCircle; // 0x154
+		::System::Single WeaponAngleFloatingDelay; // 0x158
+		::System::Single GaussianBlurTilling; // 0x15C
+		::System::Single RewardItemPlaySoundDelay; // 0x160
+		::System::Single WeaponPerlinScale; // 0x164
+		::System::Single OpenningDelayEnd; // 0x168
+		::System::Single WeaponAnglePerlinScale; // 0x16C
+		::System::Single First4ShotsProtectTime; // 0x170
+		::System::Single DelayShowRewardsTime; // 0x174
+		::System::Boolean ClockwiseRot; // 0x178
+		::System::Boolean MainLightsUseCutscene; // 0x179
+		::System::Single NonGachaCamFromFov; // 0x17C
+		::System::Single ShowRewardInterval; // 0x180
+		::System::Single AnimationKeyDelay_Circle; // 0x184
+		::UnityEngine::Vector3 WeaponStayEuler; // 0x188
+		::System::Single UITextIntensityDuration; // 0x194
+		::System::Single WeaponFloatingStrength; // 0x198
+		::System::Single WeaponLightColorIntensity; // 0x19C
+		::System::Single UITextMoveDuration; // 0x1A0
+		::System::Single CamEff_Rotate_Delay_Circle; // 0x1A4
+		::System::Single SkipAllSRarityStartRotTimeOffset; // 0x1A8
+		::System::Single RolePoolBlackMaskTime; // 0x1AC
+		::System::Single UITextMoveThinkInterval; // 0x1B0
+		::System::Single BangbooScale; // 0x1B4
+		::System::Single CamRotAxisYDuartion_Circle; // 0x1B8
+		::System::Single ShowGachaRewardWindowEffectDelay; // 0x1BC
+		::System::Single OpenningFirst3TvInterval; // 0x1C0
+		::System::Single NextItemProtectTime; // 0x1C4
+		::System::Single WeaponRotDuration; // 0x1C8
+		::System::Single NonGachaAnimationKeyDelay; // 0x1CC
+		::System::Single WeaponAngleFloatingStrength; // 0x1D0
+		::UnityEngine::Vector3 WeaponInitEuler; // 0x1D4
+		::System::Single NonGachaFovDuration; // 0x1E0
+		::System::Single WeaponFloatingDelay; // 0x1E4
+		::System::Single UITextMoveDistance1; // 0x1E8
+		::System::Single BlackCurtainDuration; // 0x1EC
+		::System::Single UITextTwinkleDuration; // 0x1F0
+		::System::Single UITextMoveDistance2; // 0x1F4
+		::System::Single SkipAllDelay; // 0x1F8
+		::System::Single WeaponScale; // 0x1FC
+		::System::Single ShowConfirmBtnDelay; // 0x200
+		::System::Single NonGachaRarityScreenEffTLStartOffset; // 0x204
+		::System::Single AnimationKeyDelay_HalfCircle; // 0x208
+		::System::Single NonGachaCamToFov; // 0x20C
+		::System::Int32 GachaPerformTemplateID; // 0x210
+		::System::Single AvatarAnimationPlayOffset; // 0x214
+		::System::Single TvShowInterval; // 0x218
+		::System::Single UITextMoveDistance3; // 0x21C
+		::System::Single CamRotAxisYDuartion_HalfCircle; // 0x220
+		::System::Single RaritySScreenEffectsOffset; // 0x224
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x182E2BE0)
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x182E2C30)
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x182E2C90)
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x182E2C40)
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x182E2BD0)
+#define MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2__CTOR_OFFSET UNITYSDK_OFFSET(0x182E2BC0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int GameEngine_Class_1_145B59CFC4B9FEDD_2_TypeDefinitionIndex = 70658;
+
+	class GameEngine_Class_1_145B59CFC4B9FEDD_2 : public ::System::Object
+	{
+	public:
+		::System::Object* Field_1_1; // 0x10
+		::System::Int32 Field_1_0; // 0x18
+
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE_CLASS_1_145B59CFC4B9FEDD_2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

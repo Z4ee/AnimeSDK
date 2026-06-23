@@ -6,20 +6,20 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Data { class DataViewManager; }
 namespace System::Data { class DataViewSettingCollection; }
 
-#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BA044E0)
-#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BA04320)
-#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BA04400)
-#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA04150)
+#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD7AA90)
+#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DD7A8D0)
+#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DD7A9B0)
+#define SYSTEM_DATA_DATAVIEWSETTINGCOLLECTION_DATAVIEWSETTINGSENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7A700)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataViewSettingCollection_DataViewSettingsEnumerator_TypeDefinitionIndex = 37007;
+	inline static constexpr unsigned int DataViewSettingCollection_DataViewSettingsEnumerator_TypeDefinitionIndex = 38624;
 
 	class DataViewSettingCollection_DataViewSettingsEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::IEnumerator* _tableEnumerator; // 0x10
-		::System::Data::DataViewSettingCollection* _dataViewSettings; // 0x18
+		::System::Data::DataViewSettingCollection* _dataViewSettings; // 0x10
+		::System::Collections::IEnumerator* _tableEnumerator; // 0x18
 
 		::System::Void _ctor(::System::Data::DataViewManager* dvm)
 		{

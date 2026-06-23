@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser_UserFlags_TypeDefinitionIndex = 29096;
+	inline static constexpr unsigned int InputUser_UserFlags_TypeDefinitionIndex = 31752;
 
 	enum class InputUser_UserFlags : ::System::Int32
 	{

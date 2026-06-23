@@ -14,38 +14,38 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1869F790)
-#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1869F7A0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1869FC40)
-#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1869FF40)
-#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1869FF00)
+#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x106BB4C0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x106BB4D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x106BB970)
+#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x106BBC70)
+#define MOLEMOLE_CONFIG_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_ANIMATORZONEALLOWQTEPASSINCAMERASHOT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x106BBC30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex = 80389;
+	inline static constexpr unsigned int AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex = 78253;
 
 	class AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorZoneAllowQTEPassInCameraShot*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37500);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39950);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37508);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39958);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37510);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37518);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39960);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37520);
+			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39968);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneAllowQTEPassInCameraShot_AnimatorZoneAllowQTEPassInCameraShot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39970);
 		}
 
 		::System::Void _ctor()

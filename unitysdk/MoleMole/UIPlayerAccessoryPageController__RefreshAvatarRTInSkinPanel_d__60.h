@@ -9,23 +9,23 @@ namespace MoleMole { class AvatarShowSetting; }
 namespace MoleMole { class UIPlayerAccessoryPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER__REFRESHAVATARRTINSKINPANEL_D__60_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x785660)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER__REFRESHAVATARRTINSKINPANEL_D__60_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER__REFRESHAVATARRTINSKINPANEL_D__60_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E860)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER__REFRESHAVATARRTINSKINPANEL_D__60_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController__RefreshAvatarRTInSkinPanel_d__60_TypeDefinitionIndex = 65532;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController__RefreshAvatarRTInSkinPanel_d__60_TypeDefinitionIndex = 44126;
 
 	struct alignas(8) UIPlayerAccessoryPageController__RefreshAvatarRTInSkinPanel_d__60
 	{
 		::MoleMole::AvatarShowSetting* _avatarSetting_5__2; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::MoleMole::UIPlayerAccessoryPageController* __4__this; // 0x18
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
 		::Foundation::AssetPath _avatarPath_5__3; // 0x30
-		::MoleMole::UIPlayerAccessoryPageController* __4__this; // 0x40
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x40
 		::System::Int32 avatarID; // 0x48
-		::System::UInt32 skinID; // 0x4C
-		::System::Int32 __1__state; // 0x50
+		::System::Int32 __1__state; // 0x4C
+		::System::UInt32 skinID; // 0x50
 
 		::System::Void MoveNext()
 		{

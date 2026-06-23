@@ -7,16 +7,16 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net::Mime { class QEncodedStream; }
 
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1A32BBE0)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1A32BC40)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1A32BCB0)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1A32BF00)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A32C170)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A32BB30)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1C6D9900)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1C6D9960)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1C6D99D0)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1C6D9C20)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6D9E90)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D9850)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int QEncodedStream_WriteAsyncResult_TypeDefinitionIndex = 3630;
+	inline static constexpr unsigned int QEncodedStream_WriteAsyncResult_TypeDefinitionIndex = 3629;
 
 	class QEncodedStream_WriteAsyncResult : public ::System::Net::LazyAsyncResult
 	{
@@ -25,11 +25,11 @@ namespace System::Net::Mime
 		{
 			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(QEncodedStream_WriteAsyncResult_TypeDefinitionIndex)->GetStaticField(0x3250);
 		}
-		::System::Net::Mime::QEncodedStream* parent; // 0x48
-		::Il2CppArray<::System::Byte>* buffer; // 0x50
-		::System::Int32 count; // 0x58
-		::System::Int32 written; // 0x5C
-		::System::Int32 offset; // 0x60
+		::Il2CppArray<::System::Byte>* buffer; // 0x48
+		::System::Net::Mime::QEncodedStream* parent; // 0x50
+		::System::Int32 written; // 0x58
+		::System::Int32 offset; // 0x5C
+		::System::Int32 count; // 0x60
 
 		::System::Void _ctor(::System::Net::Mime::QEncodedStream* parent, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
 		{

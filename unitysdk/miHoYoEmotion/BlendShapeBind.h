@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_BLENDSHAPEBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x19776A60)
+#define MIHOYOEMOTION_BLENDSHAPEBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE2950)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BlendShapeBind_TypeDefinitionIndex = 37772;
+	inline static constexpr unsigned int BlendShapeBind_TypeDefinitionIndex = 39330;
 
 	class BlendShapeBind : public ::System::Object
 	{

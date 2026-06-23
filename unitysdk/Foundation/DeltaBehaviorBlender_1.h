@@ -13,7 +13,7 @@ namespace Foundation { template <typename T> class IPlusFunc_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DeltaBehaviorBlender_1_TypeDefinitionIndex = 8839;
+	inline static constexpr unsigned int DeltaBehaviorBlender_1_TypeDefinitionIndex = 8494;
 
 	template <typename TData>
 	class DeltaBehaviorBlender_1 : public ::System::Object

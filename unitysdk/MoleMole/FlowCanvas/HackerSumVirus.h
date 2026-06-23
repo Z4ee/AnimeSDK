@@ -4,12 +4,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x170BE760)
-#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS__CTOR_OFFSET UNITYSDK_OFFSET(0x170BE820)
+#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x19117E50)
+#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19117F10)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerSumVirus_TypeDefinitionIndex = 60034;
+	inline static constexpr unsigned int HackerSumVirus_TypeDefinitionIndex = 74151;
 
 	class HackerSumVirus : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_2<::System::Int32, ::MoleMole::ChessEntity*>
 	{

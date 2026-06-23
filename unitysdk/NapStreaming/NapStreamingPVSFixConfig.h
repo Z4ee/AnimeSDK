@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGPVSFIXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF85F850)
+#define NAPSTREAMING_NAPSTREAMINGPVSFIXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11F8CE80)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingPVSFixConfig_TypeDefinitionIndex = 63143;
+	inline static constexpr unsigned int NapStreamingPVSFixConfig_TypeDefinitionIndex = 70293;
 
 	class NapStreamingPVSFixConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

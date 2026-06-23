@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDebuggerCallTrace_TypeDefinitionIndex = 25071;
+	inline static constexpr unsigned int EventDebuggerCallTrace_TypeDefinitionIndex = 27574;
 
 	class EventDebuggerCallTrace : public ::UnityEngine::UIElements::EventDebuggerTrace
 	{

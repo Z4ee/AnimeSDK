@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIWORKBENCHTRUSTLEVELREWARDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1344B7E0)
+#define MOLEMOLE_UIWORKBENCHTRUSTLEVELREWARDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x139D1CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustLevelRewardDialogContext_TypeDefinitionIndex = 51357;
+	inline static constexpr unsigned int UIWorkBenchTrustLevelRewardDialogContext_TypeDefinitionIndex = 77656;
 
 	class UIWorkBenchTrustLevelRewardDialogContext : public ::MoleMole::UIControllerContextBase
 	{

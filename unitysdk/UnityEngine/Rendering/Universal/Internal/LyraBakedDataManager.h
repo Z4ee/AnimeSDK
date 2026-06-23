@@ -24,170 +24,170 @@ namespace UnityEngine::Rendering::Universal::Internal { class LyraBakedDataManag
 namespace UnityEngine::Rendering::Universal::Internal { class LyraBakedDataManager_LyraClipmapRenderingContext; }
 namespace UnityEngine::Rendering::Universal::Internal { class LyraBakedDataManager_PropertiesSetInterface; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ADDASSET_OFFSET UNITYSDK_OFFSET(0x190BE5B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ASYNCDECOMPRESSLYRASECTORJOBIMPL_OFFSET UNITYSDK_OFFSET(0x190BC780)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ENSUREASSETS_OFFSET UNITYSDK_OFFSET(0x190BC2A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_FLOATTOVECTOR3_OFFSET UNITYSDK_OFFSET(0x190BF2C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ALBEDOLUTTEX_OFFSET UNITYSDK_OFFSET(0x190BE530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ENABLEDISTANCEFIELD_OFFSET UNITYSDK_OFFSET(0x190BC080)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ENABLESCENEVOXEL_OFFSET UNITYSDK_OFFSET(0x190BC190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x190BB8D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_INVERSE_1_OFFSET UNITYSDK_OFFSET(0x190BF220)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_INVERSE_OFFSET UNITYSDK_OFFSET(0x190BF190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_LYRAADDUPDATEREGIONSFORAXIS_OFFSET UNITYSDK_OFFSET(0x190BF340)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_PREPAREFORRENDERINGIMPL_OFFSET UNITYSDK_OFFSET(0x190BD340)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_PREPAREFORRENDERING_OFFSET UNITYSDK_OFFSET(0x190BEFC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_REMOVEALLASSETS_OFFSET UNITYSDK_OFFSET(0x190BECB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_REMOVEASSET_OFFSET UNITYSDK_OFFSET(0x190BEB60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETREFRESHCLIPMAP_OFFSET UNITYSDK_OFFSET(0x190C54B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIESGLOBAL_OFFSET UNITYSDK_OFFSET(0x190C6EC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIESIMPL_OFFSET UNITYSDK_OFFSET(0x190C5AD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_1_OFFSET UNITYSDK_OFFSET(0x190C6D40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_2_OFFSET UNITYSDK_OFFSET(0x190C6DE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x190C6BE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ALBEDOLUTTEX_OFFSET UNITYSDK_OFFSET(0x190BE550)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ENABLEDISTANCEFIELD_OFFSET UNITYSDK_OFFSET(0x190BC100)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ENABLESCENEVOXEL_OFFSET UNITYSDK_OFFSET(0x190BC210)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x190BF110)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_UPDATECLIPMAPIMPL_OFFSET UNITYSDK_OFFSET(0x190BF7F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_UPDATECLIPMAP_OFFSET UNITYSDK_OFFSET(0x190C5580)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_VISUALIZEIMPL_OFFSET UNITYSDK_OFFSET(0x190C6F60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_VISUALIZE_OFFSET UNITYSDK_OFFSET(0x190C7F20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x190C82E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x190BB9C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ADDASSET_OFFSET UNITYSDK_OFFSET(0x1AF00250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ASYNCDECOMPRESSLYRASECTORJOBIMPL_OFFSET UNITYSDK_OFFSET(0x1AEFE440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_ENSUREASSETS_OFFSET UNITYSDK_OFFSET(0x1AEFDF60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_FLOATTOVECTOR3_OFFSET UNITYSDK_OFFSET(0x1AF00F70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ALBEDOLUTTEX_OFFSET UNITYSDK_OFFSET(0x1AF001D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ENABLEDISTANCEFIELD_OFFSET UNITYSDK_OFFSET(0x1AEFDD40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_ENABLESCENEVOXEL_OFFSET UNITYSDK_OFFSET(0x1AEFDE50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AEFD590)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_INVERSE_1_OFFSET UNITYSDK_OFFSET(0x1AF00ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_INVERSE_OFFSET UNITYSDK_OFFSET(0x1AF00E40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_LYRAADDUPDATEREGIONSFORAXIS_OFFSET UNITYSDK_OFFSET(0x1AF00FF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_PREPAREFORRENDERINGIMPL_OFFSET UNITYSDK_OFFSET(0x1AEFF000)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_PREPAREFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1AF00C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_REMOVEALLASSETS_OFFSET UNITYSDK_OFFSET(0x1AF00950)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_REMOVEASSET_OFFSET UNITYSDK_OFFSET(0x1AF00800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETREFRESHCLIPMAP_OFFSET UNITYSDK_OFFSET(0x1AF07160)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIESGLOBAL_OFFSET UNITYSDK_OFFSET(0x1AF08B70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIESIMPL_OFFSET UNITYSDK_OFFSET(0x1AF07780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_1_OFFSET UNITYSDK_OFFSET(0x1AF089F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_2_OFFSET UNITYSDK_OFFSET(0x1AF08A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SETSHADERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1AF08890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ALBEDOLUTTEX_OFFSET UNITYSDK_OFFSET(0x1AF001F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ENABLEDISTANCEFIELD_OFFSET UNITYSDK_OFFSET(0x1AEFDDC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_SET_ENABLESCENEVOXEL_OFFSET UNITYSDK_OFFSET(0x1AEFDED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x1AF00DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_UPDATECLIPMAPIMPL_OFFSET UNITYSDK_OFFSET(0x1AF014A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_UPDATECLIPMAP_OFFSET UNITYSDK_OFFSET(0x1AF07230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_VISUALIZEIMPL_OFFSET UNITYSDK_OFFSET(0x1AF08C10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_VISUALIZE_OFFSET UNITYSDK_OFFSET(0x1AF09BD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF09F90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEFD680)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_TypeDefinitionIndex = 30455;
+	inline static constexpr unsigned int LyraBakedDataManager_TypeDefinitionIndex = 27315;
 
 	class LyraBakedDataManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldTestUAVLoadFlag()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIVisualizeDistanceField()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F40);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20630);
 		}
 		static ::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager** StaticGet_m_Instance()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F48);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIShouldFreezeSceneVoxel()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F50);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIRefreshDistanceField()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F58);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIVisualizeDistanceField()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F60);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldBinaryDecompressJobCountPerFrame()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F68);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldPropagateMaxSteps()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F70);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGISceneVoxelTestUAVLoadFlag()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F78);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableLoadingBakedResources()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F80);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldBlockDecompressJobCountPerFrame()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F88);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldUseNextClipmap()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F90);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableDistanceField()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22F98);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIForceFullUpdateSceneVoxel()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FA0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIVisualizeSceneVoxel()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FA8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldClipmapResolution()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FB0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldTestClipmapUpdate()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FB8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIRefreshSceneVoxel()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FC0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIShouldFreezeDistanceField()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FC8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGISceneVoxelBinaryDecompressJobCountPerFrame()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FD0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableCheckForLyraDistanceFieldBlockDecompression()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FD8);
+			return (::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20638);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIForceFullUpdateDistanceField()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FE0);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20640);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldDecompressingBlockCountPreJob()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableCheckForLyraDistanceFieldBlockDecompression()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FE8);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20648);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIBinaryDecompressingeUnitBufferSize()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIRefreshSceneVoxel()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FF0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableSceneVoxel()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x22FF8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGISceneVoxelClipmapResolution()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x23000);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGISceneVoxelUseNextClipmap()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x23008);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20650);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldForcePropagate()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x23010);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20658);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIRefreshDistanceField()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20660);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldTestClipmapUpdate()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20668);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldBinaryDecompressJobCountPerFrame()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20670);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldUseNextClipmap()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20678);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGISceneVoxelClipmapResolution()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20680);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIShouldFreezeSceneVoxel()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20688);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIShouldFreezeDistanceField()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20690);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIDistanceFieldTestUAVLoadFlag()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20698);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGISceneVoxelBinaryDecompressJobCountPerFrame()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206A0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldPropagateMaxSteps()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206A8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGISceneVoxelTestClipmapUpdate()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x23018);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206B0);
 		}
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_UpdateSceneVoxelSampler; // 0x10
-		::UnityEngine::ComputeShader* m_LyraUpdateBakedDataClipmapCS; // 0x18
-		::Il2CppArray<::UnityEngine::Vector3Int>* scrollOffsetInPagesArray; // 0x20
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_UpdateDistanceFieldSampler; // 0x28
-		::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_MinMaxAABB>*>* updateRegionsArray; // 0x30
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_VisualizeDistanceFieldSampler; // 0x38
-		::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_LyraClipmapManagerData* m_LyraDistanceFieldManagerData; // 0x40
-		::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_LyraClipmapManagerData* m_LyraSceneVoxelManagerData; // 0x48
-		::UnityEngine::ComputeShader* m_LyraDebugClipmapCS; // 0x50
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldClipmapResolution()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206B8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableSceneVoxel()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206C0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableDistanceField()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206C8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIForceFullUpdateSceneVoxel()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206D0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldBlockDecompressJobCountPerFrame()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206D8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGISceneVoxelUseNextClipmap()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206E0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGIEnableLoadingBakedResources()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206E8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraGISceneVoxelTestUAVLoadFlag()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206F0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIDistanceFieldDecompressingBlockCountPreJob()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x206F8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIBinaryDecompressingeUnitBufferSize()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20700);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_LyraGIVisualizeSceneVoxel()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedDataManager_TypeDefinitionIndex)->GetStaticField(0x20708);
+		}
+		::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_LyraClipmapManagerData* m_LyraDistanceFieldManagerData; // 0x10
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_UpdateDistanceFieldSampler; // 0x18
+		::Il2CppArray<::System::Collections::Generic::HashSet_1<::LyraSector::LyraSectorCoord>*>* changedSectorCoordArray; // 0x20
+		::UnityEngine::ComputeShader* m_LyraUpdateBakedDataClipmapCS; // 0x28
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_VisualizeDistanceFieldSampler; // 0x30
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_UpdateSceneVoxelSampler; // 0x38
+		::UnityEngine::ComputeShader* m_LyraDebugClipmapCS; // 0x40
+		::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_MinMaxAABB>*>* updateRegionsArray; // 0x48
+		::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_LyraClipmapManagerData* m_LyraSceneVoxelManagerData; // 0x50
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_VisualizeSceneVoxelSampler; // 0x58
-		::Il2CppArray<::System::Collections::Generic::HashSet_1<::LyraSector::LyraSectorCoord>*>* changedSectorCoordArray; // 0x60
-		::Unity::Profiling::ProfilerMarker m_LyraSectorDecompressProfiler; // 0x68
-		::Unity::Profiling::ProfilerMarker m_LyraSectorBlockDecmpressProfiler; // 0x70
+		::Il2CppArray<::UnityEngine::Vector3Int>* scrollOffsetInPagesArray; // 0x60
+		::Unity::Profiling::ProfilerMarker m_LyraSectorBlockDecmpressProfiler; // 0x68
+		::Unity::Profiling::ProfilerMarker m_LyraSectorDecompressProfiler; // 0x70
 
 		::System::Void _ctor()
 		{

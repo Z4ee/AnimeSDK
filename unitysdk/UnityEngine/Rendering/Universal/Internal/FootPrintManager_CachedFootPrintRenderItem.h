@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/FootPrintManager_FootPrintSpawnerType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CACHEDFOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x94DBF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CACHEDFOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED440)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_CachedFootPrintRenderItem_TypeDefinitionIndex = 30496;
+	inline static constexpr unsigned int FootPrintManager_CachedFootPrintRenderItem_TypeDefinitionIndex = 26801;
 
 	struct alignas(4) FootPrintManager_CachedFootPrintRenderItem
 	{

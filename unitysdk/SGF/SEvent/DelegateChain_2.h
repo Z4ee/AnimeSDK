@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int DelegateChain_2_TypeDefinitionIndex = 8077;
+	inline static constexpr unsigned int DelegateChain_2_TypeDefinitionIndex = 7891;
 
 	template <typename TInput, typename TOutput>
 	class DelegateChain_2 : public ::System::Object

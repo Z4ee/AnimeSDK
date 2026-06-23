@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B60560)
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS4_0__INITSORT_B__1_OFFSET UNITYSDK_OFFSET(0x12B60570)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F48390)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS4_0__INITSORT_B__1_OFFSET UNITYSDK_OFFSET(0x17F483A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 75968;
+	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 58286;
 
 	class UIBackendRelicCollectWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{

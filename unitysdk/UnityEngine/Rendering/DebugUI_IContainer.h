@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObservableList_1;
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_IContainer_TypeDefinitionIndex = 9569;
+	inline static constexpr unsigned int DebugUI_IContainer_TypeDefinitionIndex = 18299;
 
 	class DebugUI_IContainer
 	{

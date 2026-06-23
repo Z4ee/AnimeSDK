@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_25.h"
+
+class Class_2_208CC9941471731A_402;
+class Class_2_9E185D2699C28ECF;
+class Class_3_2F8B50E43F3E219E;
+namespace System { class String; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+template <typename T> class Class_1_4BC87A1432B12C4C;
+
+#define CLASS_2_0C451C94475DA3D1_METHOD_2_91800718C54C52E6_OFFSET UNITYSDK_OFFSET(0x141617A0)
+#define CLASS_2_0C451C94475DA3D1_METHOD_2_C25034D9FBB699FF_OFFSET UNITYSDK_OFFSET(0x14161160)
+#define CLASS_2_0C451C94475DA3D1_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x14161000)
+#define CLASS_2_0C451C94475DA3D1__CTOR_OFFSET UNITYSDK_OFFSET(0x14161100)
+
+inline static constexpr unsigned int Class_2_0C451C94475DA3D1_TypeDefinitionIndex = 66965;
+
+class Class_2_0C451C94475DA3D1 : public ::Class_1_C331A5DC726F030A
+{
+public:
+	::Class_0_16E4307DCC419505_165<::Enum_3_DB663931210BBC27_25>* Field_2_2; // 0x60
+	::Class_0_16E4307DCC419505_165<::System::UInt64>* Field_2_1; // 0x68
+	::Class_0_16E4307DCC419505_165<::System::String*>* Field_2_3; // 0x70
+	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_0; // 0x78
+	::Class_1_4BC87A1432B12C4C<::Class_2_9E185D2699C28ECF*>* Field_2_4; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0C451C94475DA3D1__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0C451C94475DA3D1_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C25034D9FBB699FF(::Class_3_2F8B50E43F3E219E* a1, ::Class_2_208CC9941471731A_402* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_2F8B50E43F3E219E*, ::Class_2_208CC9941471731A_402*))((::PBYTE)hIl2Cpp + CLASS_2_0C451C94475DA3D1_METHOD_2_C25034D9FBB699FF_OFFSET))(this, a1, a2);
+	}
+
+	::Class_2_208CC9941471731A_402* Method_2_91800718C54C52E6()
+	{
+		return ((::Class_2_208CC9941471731A_402*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0C451C94475DA3D1_METHOD_2_91800718C54C52E6_OFFSET))(this);
+	}
+};

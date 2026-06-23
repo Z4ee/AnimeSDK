@@ -5,12 +5,12 @@
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
-#define MONO_NET_SECURITY_ASYNCSHUTDOWNREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x19A3F270)
-#define MONO_NET_SECURITY_ASYNCSHUTDOWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3F240)
+#define MONO_NET_SECURITY_ASYNCSHUTDOWNREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1BEB0C50)
+#define MONO_NET_SECURITY_ASYNCSHUTDOWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB0C20)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncShutdownRequest_TypeDefinitionIndex = 2618;
+	inline static constexpr unsigned int AsyncShutdownRequest_TypeDefinitionIndex = 2617;
 
 	class AsyncShutdownRequest : public ::Mono::Net::Security::AsyncProtocolRequest
 	{

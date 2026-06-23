@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x141F1050)
-#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTION___C__DISPLAYCLASS4_0__ONAFTERDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x141F1060)
+#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A345660)
+#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTION___C__DISPLAYCLASS4_0__ONAFTERDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1A345670)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGlobalSoundAction___c__DisplayClass4_0_TypeDefinitionIndex = 56310;
+	inline static constexpr unsigned int ConfigGlobalSoundAction___c__DisplayClass4_0_TypeDefinitionIndex = 41733;
 
 	class ConfigGlobalSoundAction___c__DisplayClass4_0 : public ::System::Object
 	{

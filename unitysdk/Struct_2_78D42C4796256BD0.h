@@ -7,10 +7,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_78D42C4796256BD0_METHOD_2_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0x6FC310)
-#define STRUCT_2_78D42C4796256BD0_METHOD_2_BE6C191AFAB59F19_OFFSET UNITYSDK_OFFSET(0x107E2690)
+#define STRUCT_2_78D42C4796256BD0_METHOD_2_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0x842010)
+#define STRUCT_2_78D42C4796256BD0_METHOD_2_BE6C191AFAB59F19_OFFSET UNITYSDK_OFFSET(0x180566B0)
 
-inline static constexpr unsigned int Struct_2_78D42C4796256BD0_TypeDefinitionIndex = 54313;
+inline static constexpr unsigned int Struct_2_78D42C4796256BD0_TypeDefinitionIndex = 85394;
 
 struct alignas(8) Struct_2_78D42C4796256BD0
 {

@@ -5,9 +5,9 @@
 namespace MoleMole { class NotificationBadgeEx; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_3_EA9E55D1590FA04D_2_CLASS_2_F3BC65307684B21C__CTOR_OFFSET UNITYSDK_OFFSET(0x10664E20)
+#define CLASS_3_EA9E55D1590FA04D_2_CLASS_2_F3BC65307684B21C__CTOR_OFFSET UNITYSDK_OFFSET(0x1609B620)
 
-inline static constexpr unsigned int Class_3_EA9E55D1590FA04D_2_Class_2_F3BC65307684B21C_TypeDefinitionIndex = 62429;
+inline static constexpr unsigned int Class_3_EA9E55D1590FA04D_2_Class_2_F3BC65307684B21C_TypeDefinitionIndex = 55425;
 
 class Class_3_EA9E55D1590FA04D_2_Class_2_F3BC65307684B21C : public ::Class_1_8C4EEDCDF27EDEA0
 {

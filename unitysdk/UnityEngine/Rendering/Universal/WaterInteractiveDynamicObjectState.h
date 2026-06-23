@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterInteractiveDynamicObjectState_TypeDefinitionIndex = 29936;
+	inline static constexpr unsigned int WaterInteractiveDynamicObjectState_TypeDefinitionIndex = 26979;
 
 	enum class WaterInteractiveDynamicObjectState : ::System::Int32
 	{

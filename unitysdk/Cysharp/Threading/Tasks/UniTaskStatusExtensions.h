@@ -3,12 +3,12 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_UNITASKSTATUSEXTENSIONS_ISCOMPLETEDSUCCESSFULLY_OFFSET UNITYSDK_OFFSET(0x1C326840)
-#define CYSHARP_THREADING_TASKS_UNITASKSTATUSEXTENSIONS_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C326830)
+#define CYSHARP_THREADING_TASKS_UNITASKSTATUSEXTENSIONS_ISCOMPLETEDSUCCESSFULLY_OFFSET UNITYSDK_OFFSET(0x1E6677C0)
+#define CYSHARP_THREADING_TASKS_UNITASKSTATUSEXTENSIONS_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E6677B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskStatusExtensions_TypeDefinitionIndex = 28536;
+	inline static constexpr unsigned int UniTaskStatusExtensions_TypeDefinitionIndex = 31191;
 
 	class UniTaskStatusExtensions : public ::System::Object
 	{

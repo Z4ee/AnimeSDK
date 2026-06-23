@@ -2,69 +2,53 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RTXRenderer_RTXCommonShaderIDs.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXSHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFB16A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXSHADERIDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB1650)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXSHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D427B60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXSHADERIDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D427B10)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex = 5797;
+	inline static constexpr unsigned int RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex = 5801;
 
 	class RTXAreaLight_RTXShaderIDs : public ::UnityEngine::NAPRenderPipeline0::RTXRenderer_RTXCommonShaderIDs
 	{
 	public:
-		static ::System::Int32* StaticGet__FrameIndex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B30);
-		}
-		static ::System::Int32* StaticGet__ALBuffer()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B34);
-		}
-		static ::System::Int32* StaticGet__HistorySceneNormal()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B38);
-		}
-		static ::System::Int32* StaticGet__SSWF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B3C);
-		}
 		static ::System::Int32* StaticGet__SceneDepth()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B40);
 		}
-		static ::System::Int32* StaticGet__LastCameraPos()
+		static ::System::Int32* StaticGet__RTXALMode()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B44);
 		}
-		static ::System::Int32* StaticGet__LastVP()
+		static ::System::Int32* StaticGet__RWLTC()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B48);
 		}
-		static ::System::Int32* StaticGet__RWSceneNormal()
+		static ::System::Int32* StaticGet__LastVPInv()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B4C);
 		}
-		static ::System::Int32* StaticGet__ALCount()
+		static ::System::Int32* StaticGet__FrameIndex()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B50);
 		}
-		static ::System::Int32* StaticGet__ALWorldLightGridInfo()
+		static ::System::Int32* StaticGet__SceneNormal()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B54);
 		}
-		static ::System::Int32* StaticGet__SPP()
+		static ::System::Int32* StaticGet__HistorySceneNormal()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B58);
 		}
-		static ::System::Int32* StaticGet__LastVPInv()
+		static ::System::Int32* StaticGet__ALBoost()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B5C);
 		}
-		static ::System::Int32* StaticGet__ALWorldLightIndex()
+		static ::System::Int32* StaticGet__ALCount()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B60);
 		}
-		static ::System::Int32* StaticGet__ShaodwSPP()
+		static ::System::Int32* StaticGet__SPP()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B64);
 		}
@@ -72,45 +56,61 @@ namespace UnityEngine::NAPRenderPipeline0
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B68);
 		}
-		static ::System::Int32* StaticGet__ALWorldLightGrid()
+		static ::System::Int32* StaticGet__ALBuffer()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B6C);
 		}
-		static ::System::Int32* StaticGet__RWSceneDepth()
+		static ::System::Int32* StaticGet__Result()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B70);
 		}
-		static ::System::Int32* StaticGet__RTXALMode()
+		static ::System::Int32* StaticGet__SSWF()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B74);
 		}
-		static ::System::Int32* StaticGet__Resolution()
+		static ::System::Int32* StaticGet__HistoryResult()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B78);
 		}
-		static ::System::Int32* StaticGet__ALBoost()
+		static ::System::Int32* StaticGet__RWSceneDepth()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B7C);
 		}
-		static ::System::Int32* StaticGet__HistorySceneDepth()
+		static ::System::Int32* StaticGet__ALWorldLightGridInfo()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B80);
 		}
-		static ::System::Int32* StaticGet__Result()
+		static ::System::Int32* StaticGet__LastVP()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B84);
 		}
-		static ::System::Int32* StaticGet__HistoryResult()
+		static ::System::Int32* StaticGet__LastCameraPos()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B88);
 		}
-		static ::System::Int32* StaticGet__SceneNormal()
+		static ::System::Int32* StaticGet__ALWorldLightGrid()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B8C);
 		}
-		static ::System::Int32* StaticGet__RWLTC()
+		static ::System::Int32* StaticGet__RWSceneNormal()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B90);
+		}
+		static ::System::Int32* StaticGet__HistorySceneDepth()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B94);
+		}
+		static ::System::Int32* StaticGet__Resolution()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B98);
+		}
+		static ::System::Int32* StaticGet__ALWorldLightIndex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2B9C);
+		}
+		static ::System::Int32* StaticGet__ShaodwSPP()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_RTXShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2BA0);
 		}
 
 		::System::Void _ctor()

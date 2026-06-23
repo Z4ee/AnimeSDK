@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GetComponentsScope_1_TypeDefinitionIndex = 29783;
+	inline static constexpr unsigned int GetComponentsScope_1_TypeDefinitionIndex = 27250;
 
 	template <typename T>
 	struct GetComponentsScope_1

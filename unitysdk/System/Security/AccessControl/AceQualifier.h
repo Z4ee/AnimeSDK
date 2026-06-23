@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AceQualifier_TypeDefinitionIndex = 968;
+	inline static constexpr unsigned int AceQualifier_TypeDefinitionIndex = 967;
 
 	enum class AceQualifier : ::System::Int32
 	{

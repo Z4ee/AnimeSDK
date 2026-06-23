@@ -3,7 +3,7 @@
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int GuidanceModule_GuidanceType_TypeDefinitionIndex = 49052;
+	inline static constexpr unsigned int GuidanceModule_GuidanceType_TypeDefinitionIndex = 53709;
 
 	enum class GuidanceModule_GuidanceType : ::System::Int32
 	{

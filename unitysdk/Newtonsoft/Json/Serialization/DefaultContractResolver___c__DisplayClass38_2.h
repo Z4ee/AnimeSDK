@@ -7,18 +7,18 @@ namespace Newtonsoft::Json::Serialization { class DefaultContractResolver___c__D
 namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectConstructor_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA7E70)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x1BBA7E80)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0B0B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x1DF0B0C0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_2_TypeDefinitionIndex = 6972;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_2_TypeDefinitionIndex = 7103;
 
 	class DefaultContractResolver___c__DisplayClass38_2 : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* createEnumerableWrapper; // 0x10
-		::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass38_0* CS___8__locals2; // 0x18
+		::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass38_0* CS___8__locals2; // 0x10
+		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* createEnumerableWrapper; // 0x18
 
 		::System::Void _ctor()
 		{

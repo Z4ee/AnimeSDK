@@ -8,24 +8,24 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_BFE316B9839966CD_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x117CB010)
-#define CLASS_2_BFE316B9839966CD_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x117CAEA0)
-#define CLASS_2_BFE316B9839966CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x117CB000)
+#define CLASS_2_BFE316B9839966CD_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1020C390)
+#define CLASS_2_BFE316B9839966CD_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1020C220)
+#define CLASS_2_BFE316B9839966CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1020C380)
 
-inline static constexpr unsigned int Class_2_BFE316B9839966CD_1_TypeDefinitionIndex = 73647;
+inline static constexpr unsigned int Class_2_BFE316B9839966CD_1_TypeDefinitionIndex = 59670;
 
 class Class_2_BFE316B9839966CD_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
-	::UnityEngine::CanvasGroup* Field_2_8; // 0x40
+	::UnityEngine::CanvasGroup* Field_2_8; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x40
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x50
-	::UnityEngine::RectTransform* Field_2_7; // 0x58
+	::UnityEngine::RectTransform* Field_2_7; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x58
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketClientAccessPolicyProtocol_TypeDefinitionIndex = 3664;
+	inline static constexpr unsigned int SocketClientAccessPolicyProtocol_TypeDefinitionIndex = 3663;
 
 	enum class SocketClientAccessPolicyProtocol : ::System::Int32
 	{

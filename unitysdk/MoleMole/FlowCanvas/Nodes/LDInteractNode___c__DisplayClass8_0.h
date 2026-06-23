@@ -5,18 +5,18 @@
 namespace MoleMole::FlowCanvas::Nodes { class LDInteractNode; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTNODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18209230)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTNODE___C__DISPLAYCLASS8_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x18209240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTNODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A020D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTNODE___C__DISPLAYCLASS8_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A020DA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDInteractNode___c__DisplayClass8_0_TypeDefinitionIndex = 45521;
+	inline static constexpr unsigned int LDInteractNode___c__DisplayClass8_0_TypeDefinitionIndex = 69121;
 
 	class LDInteractNode___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDInteractNode* __4__this; // 0x10
-		::System::String* valueName; // 0x18
+		::System::String* valueName; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDInteractNode* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

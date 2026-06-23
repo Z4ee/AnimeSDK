@@ -1,57 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_4A097505A5A1A069.h"
+#include "unitysdk/Enum_3_801EC18359FE40A3.h"
+#include "unitysdk/Enum_3_B14F8B04216FFB95.h"
+#include "unitysdk/Enum_3_DAFCB1AA7EAADD66.h"
+#include "unitysdk/Foundation/ViewObject/GroupMemberIdentifier.h"
+#include "unitysdk/MoleMole/Config/ConfigInteractionFanCylinder.h"
 #include "unitysdk/System/Object.h"
 
-class AkCallbackManager_EventCallback;
-class AkExternalSourceInfoArray;
-class Class_3_01E03BF53558728A;
-class Class_3_848BA58F81F05F34;
-class Class_3_848BA58F81F05F34_1;
-namespace UnityEngine { class GameObject; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_49_METHOD_1_B64C60973842FE45_OFFSET UNITYSDK_OFFSET(0x14CE9D20)
-#define CLASS_1_43BD383C98B4C0C5_49_POLISH_OFFSET UNITYSDK_OFFSET(0x14CE9CB0)
-#define CLASS_1_43BD383C98B4C0C5_49_RECYCLE_OFFSET UNITYSDK_OFFSET(0x14CE9BA0)
-#define CLASS_1_43BD383C98B4C0C5_49__CTOR_OFFSET UNITYSDK_OFFSET(0x14CE9D10)
+#define CLASS_1_43BD383C98B4C0C5_49__CTOR_OFFSET UNITYSDK_OFFSET(0x139E9830)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_49_TypeDefinitionIndex = 43158;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_49_TypeDefinitionIndex = 46153;
 
 class Class_1_43BD383C98B4C0C5_49 : public ::System::Object
 {
 public:
-	::Class_3_848BA58F81F05F34_1* Field_1_4; // 0x10
-	::AkCallbackManager_EventCallback* Field_1_14; // 0x18
-	::UnityEngine::GameObject* Field_1_1; // 0x20
-	::Class_3_01E03BF53558728A* Field_1_3; // 0x28
-	::AkExternalSourceInfoArray* Field_1_5; // 0x30
-	::Class_3_848BA58F81F05F34* Field_1_2; // 0x38
-	::System::Boolean Field_1_6; // 0x40
-	::System::Boolean Field_1_11; // 0x41
-	::System::Boolean Field_1_13; // 0x42
-	::System::UInt32 Field_1_12; // 0x44
-	::System::Single Field_1_7; // 0x48
-	::System::UInt32 Field_1_9; // 0x4C
-	::System::Int32 Field_1_8; // 0x50
-	::System::UInt32 Field_1_0; // 0x54
-	::System::Single Field_1_10; // 0x58
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_19; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_14; // 0x20
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_16; // 0x28
+	::System::String* Field_1_29; // 0x30
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_17; // 0x38
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_13; // 0x40
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_15; // 0x48
+	::Enum_3_DAFCB1AA7EAADD66 Field_1_10; // 0x50
+	::System::Int32 Field_1_23; // 0x54
+	::System::Boolean Field_1_18; // 0x58
+	::System::Boolean Field_1_20; // 0x59
+	::System::Boolean Field_1_12; // 0x5A
+	::System::Int32 Field_1_24; // 0x5C
+	::System::Int32 Field_1_28; // 0x60
+	::System::Int32 Field_1_4; // 0x64
+	::System::Single Field_1_25; // 0x68
+	::MoleMole::Config::ConfigInteractionFanCylinder Field_1_7; // 0x6C
+	::System::Int32 Field_1_0; // 0x94
+	::Enum_3_B14F8B04216FFB95 Field_1_21; // 0x98
+	::System::Int32 Field_1_2; // 0x9C
+	::System::Boolean Field_1_26; // 0xA0
+	::System::Boolean Field_1_5; // 0xA1
+	::System::Boolean Field_1_8; // 0xA2
+	::Enum_3_4A097505A5A1A069 Field_1_6; // 0xA3
+	::Enum_3_801EC18359FE40A3 Field_1_22; // 0xA4
+	::Foundation::ViewObject::GroupMemberIdentifier Field_1_3; // 0xA8
+	::System::Boolean Field_1_11; // 0xB0
+	::System::Boolean Field_1_27; // 0xB1
+	::MoleMole::Config::ConfigInteractionFanCylinder Field_1_9; // 0xB4
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_49__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Recycle()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_49_RECYCLE_OFFSET))(this);
-	}
-
-	::System::Void Polish()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_49_POLISH_OFFSET))(this);
-	}
-
-	static ::Class_1_43BD383C98B4C0C5_49* Method_1_B64C60973842FE45()
-	{
-		return ((::Class_1_43BD383C98B4C0C5_49*(*)())((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_49_METHOD_1_B64C60973842FE45_OFFSET))();
 	}
 };

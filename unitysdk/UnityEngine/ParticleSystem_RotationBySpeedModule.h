@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_ROTATIONBYSPEEDMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define UNITYENGINE_PARTICLESYSTEM_ROTATIONBYSPEEDMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_RotationBySpeedModule_TypeDefinitionIndex = 24887;
+	inline static constexpr unsigned int ParticleSystem_RotationBySpeedModule_TypeDefinitionIndex = 18791;
 
 	struct alignas(8) ParticleSystem_RotationBySpeedModule
 	{

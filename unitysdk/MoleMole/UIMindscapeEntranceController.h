@@ -10,36 +10,36 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_GETSHEETURL_OFFSET UNITYSDK_OFFSET(0x13FCDA10)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x13FCD8F0)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_REFRESHLANGUAGE_OFFSET UNITYSDK_OFFSET(0x13FCD9A0)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_SETAVATAR_OFFSET UNITYSDK_OFFSET(0x13FCDB10)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_SETCOLORBYID_OFFSET UNITYSDK_OFFSET(0x13FCDC30)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FCE070)
-#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FCDFC0)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_GETSHEETURL_OFFSET UNITYSDK_OFFSET(0x152F6D50)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x152F6C30)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_REFRESHLANGUAGE_OFFSET UNITYSDK_OFFSET(0x152F6CE0)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_SETAVATAR_OFFSET UNITYSDK_OFFSET(0x152F6E50)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER_SETCOLORBYID_OFFSET UNITYSDK_OFFSET(0x152F6F70)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x152F73B0)
+#define MOLEMOLE_UIMINDSCAPEENTRANCECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x152F7300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeEntranceController_TypeDefinitionIndex = 76922;
+	inline static constexpr unsigned int UIMindscapeEntranceController_TypeDefinitionIndex = 59421;
 
 	class UIMindscapeEntranceController : public ::MoleMole::UIMonoController
 	{
 	public:
 		static ::System::Int32* StaticGet__Hue()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0xFF20);
-		}
-		static ::System::Int32* StaticGet__Gamma()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0xFF24);
-		}
-		static ::System::Int32* StaticGet__Brightness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0xFF28);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0x10B30);
 		}
 		static ::System::Int32* StaticGet__Saturation()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0xFF2C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0x10B34);
+		}
+		static ::System::Int32* StaticGet__Brightness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0x10B38);
+		}
+		static ::System::Int32* StaticGet__Gamma()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeEntranceController_TypeDefinitionIndex)->GetStaticField(0x10B3C);
 		}
 		// static const ::System::String* numPath; // 0x0
 		// static const ::System::String* sheetRawPath; // 0x0

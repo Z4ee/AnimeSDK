@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK::MTR { class MiHoYoMTRInterface___c__DisplayClass12_0; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A87C310)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_1__GETHOSTRESOLVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1A87C320)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE3FB0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_1__GETHOSTRESOLVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1CBE3FC0)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___c__DisplayClass12_1_TypeDefinitionIndex = 35458;
+	inline static constexpr unsigned int MiHoYoMTRInterface___c__DisplayClass12_1_TypeDefinitionIndex = 37057;
 
 	class MiHoYoMTRInterface___c__DisplayClass12_1 : public ::System::Object
 	{

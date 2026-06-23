@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
-#include "unitysdk/MoleMole/PlayerOnViewState.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_508_TypeDefinitionIndex = 77107;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_508_TypeDefinitionIndex = 83142;
 
 class Class_0_16E4307DCC419505_508
 {

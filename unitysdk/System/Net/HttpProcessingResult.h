@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpProcessingResult_TypeDefinitionIndex = 3322;
+	inline static constexpr unsigned int HttpProcessingResult_TypeDefinitionIndex = 3321;
 
 	enum class HttpProcessingResult : ::System::Int32
 	{

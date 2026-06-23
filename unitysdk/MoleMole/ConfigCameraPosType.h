@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCameraPosType_TypeDefinitionIndex = 67758;
+	inline static constexpr unsigned int ConfigCameraPosType_TypeDefinitionIndex = 39858;
 
 	enum class ConfigCameraPosType : ::System::Int32
 	{
-		LocalPos = 1,
 		SpecialCamera = 2,
+		LocalPos = 1,
 		WorldPos = 0,
 	};
 }

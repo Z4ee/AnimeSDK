@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD1ECB0)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1BD1ED60)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD1ED20)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD1EC40)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E06CC70)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E06CD20)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E06CCE0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_INSTANCERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E06CC00)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int BindingRestrictions_InstanceRestriction_TypeDefinitionIndex = 4973;
+	inline static constexpr unsigned int BindingRestrictions_InstanceRestriction_TypeDefinitionIndex = 4972;
 
 	class BindingRestrictions_InstanceRestriction : public ::System::Dynamic::BindingRestrictions
 	{
 	public:
-		::System::Linq::Expressions::Expression* _expression; // 0x10
-		::System::Object* _instance; // 0x18
+		::System::Object* _instance; // 0x10
+		::System::Linq::Expressions::Expression* _expression; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance)
 		{

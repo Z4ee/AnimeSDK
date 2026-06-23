@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOSCROLLBAR_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x13864E90)
-#define MOLEMOLE_MONOSCROLLBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x13864F00)
+#define MOLEMOLE_MONOSCROLLBAR_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x16CDC770)
+#define MOLEMOLE_MONOSCROLLBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDC7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoScrollBar_TypeDefinitionIndex = 61201;
+	inline static constexpr unsigned int MonoScrollBar_TypeDefinitionIndex = 65584;
 
 	class MonoScrollBar : public ::UnityEngine::MonoBehaviour
 	{

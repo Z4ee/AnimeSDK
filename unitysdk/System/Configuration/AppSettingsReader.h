@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_CONFIGURATION_APPSETTINGSREADER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x19A4F250)
-#define SYSTEM_CONFIGURATION_APPSETTINGSREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4F210)
+#define SYSTEM_CONFIGURATION_APPSETTINGSREADER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1BEC0C40)
+#define SYSTEM_CONFIGURATION_APPSETTINGSREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC0C00)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int AppSettingsReader_TypeDefinitionIndex = 4200;
+	inline static constexpr unsigned int AppSettingsReader_TypeDefinitionIndex = 4199;
 
 	class AppSettingsReader : public ::System::Object
 	{

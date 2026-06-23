@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E07C40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E07DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B1EC60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1EDE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCurveMoveSwitchState_TypeDefinitionIndex = 72245;
+	inline static constexpr unsigned int LDCurveMoveSwitchState_TypeDefinitionIndex = 67006;
 
 	class LDCurveMoveSwitchState : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::Battle::Entity*, ::System::Boolean>
 	{

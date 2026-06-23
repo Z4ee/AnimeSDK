@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1AFD1680)
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1AFD1760)
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD17F0)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D411610)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D4116F0)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D411780)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetBoolean_TypeDefinitionIndex = 26766;
+	inline static constexpr unsigned int SetBoolean_TypeDefinitionIndex = 29392;
 
 	class SetBoolean : public ::NodeCanvas::Framework::ActionTask
 	{

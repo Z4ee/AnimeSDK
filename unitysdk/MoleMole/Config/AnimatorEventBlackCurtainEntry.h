@@ -6,18 +6,18 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x17D0FAA0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0FBB0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1A055CF0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A055E00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventBlackCurtainEntry_TypeDefinitionIndex = 45463;
+	inline static constexpr unsigned int AnimatorEventBlackCurtainEntry_TypeDefinitionIndex = 74695;
 
 	class AnimatorEventBlackCurtainEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* WhiteAbilityTargetKeyList; // 0x58
-		::System::String* Key; // 0x60
+		::System::String* Key; // 0x58
+		::System::Collections::Generic::List_1<::System::String*>* WhiteAbilityTargetKeyList; // 0x60
 		::System::Boolean Enable; // 0x68
 
 		::System::Void _ctor()

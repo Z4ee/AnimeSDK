@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CGRUNTIMEUNIT_GET_REFERENCENAME_OFFSET UNITYSDK_OFFSET(0x1751C000)
-#define MOLEMOLE_CGRUNTIMEUNIT_METHOD_1_D6C88EFC4A50BAC6_OFFSET UNITYSDK_OFFSET(0x1751C050)
-#define MOLEMOLE_CGRUNTIMEUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1751C3D0)
+#define MOLEMOLE_CGRUNTIMEUNIT_GET_REFERENCENAME_OFFSET UNITYSDK_OFFSET(0x144C5850)
+#define MOLEMOLE_CGRUNTIMEUNIT_METHOD_1_D6C88EFC4A50BAC6_OFFSET UNITYSDK_OFFSET(0x144C58A0)
+#define MOLEMOLE_CGRUNTIMEUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x144C5C20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CGRuntimeUnit_TypeDefinitionIndex = 48771;
+	inline static constexpr unsigned int CGRuntimeUnit_TypeDefinitionIndex = 60028;
 
 	class CGRuntimeUnit : public ::System::Object
 	{

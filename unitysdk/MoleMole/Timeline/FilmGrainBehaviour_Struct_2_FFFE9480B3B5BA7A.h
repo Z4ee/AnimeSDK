@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture; }
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FilmGrainBehaviour_Struct_2_FFFE9480B3B5BA7A_TypeDefinitionIndex = 50537;
+	inline static constexpr unsigned int FilmGrainBehaviour_Struct_2_FFFE9480B3B5BA7A_TypeDefinitionIndex = 60819;
 
 	struct alignas(8) FilmGrainBehaviour_Struct_2_FFFE9480B3B5BA7A
 	{

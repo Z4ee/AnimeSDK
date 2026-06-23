@@ -3,9 +3,9 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6244D4D9A46137D8_METHOD_1_1BA835168B114F7B_OFFSET UNITYSDK_OFFSET(0xF1E92F0)
+#define CLASS_1_6244D4D9A46137D8_METHOD_1_1BA835168B114F7B_OFFSET UNITYSDK_OFFSET(0x14D32750)
 
-inline static constexpr unsigned int Class_1_6244D4D9A46137D8_TypeDefinitionIndex = 47084;
+inline static constexpr unsigned int Class_1_6244D4D9A46137D8_TypeDefinitionIndex = 54686;
 
 class Class_1_6244D4D9A46137D8 : public ::System::Object
 {

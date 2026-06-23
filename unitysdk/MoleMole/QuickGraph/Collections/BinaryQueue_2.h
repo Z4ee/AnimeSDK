@@ -10,7 +10,7 @@ template <typename T1, typename T2> class Class_1_0409B2CBCEF1FADA;
 
 namespace MoleMole::QuickGraph::Collections
 {
-	inline static constexpr unsigned int BinaryQueue_2_TypeDefinitionIndex = 25746;
+	inline static constexpr unsigned int BinaryQueue_2_TypeDefinitionIndex = 28247;
 
 	template <typename TVertex, typename TDistance>
 	class BinaryQueue_2 : public ::System::Object

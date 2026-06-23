@@ -18,61 +18,61 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleV
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal::Internal { class LyraUpdateProbePass; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B085900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1B083F90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZEGI_OFFSET UNITYSDK_OFFSET(0x1B084770)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZELOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1B085370)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZESDFLIGHT_OFFSET UNITYSDK_OFFSET(0x1B084A50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZEVOXELLIGHTING_OFFSET UNITYSDK_OFFSET(0x1B083FE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B086DB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B083CF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D3DDE20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1D3DC4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZEGI_OFFSET UNITYSDK_OFFSET(0x1D3DCC90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZELOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1D3DD890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZESDFLIGHT_OFFSET UNITYSDK_OFFSET(0x1D3DCF70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS_VISUALIZEVOXELLIGHTING_OFFSET UNITYSDK_OFFSET(0x1D3DC500)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3DF2D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRADEBUGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DC210)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraDebugPass_TypeDefinitionIndex = 30508;
+	inline static constexpr unsigned int LyraDebugPass_TypeDefinitionIndex = 26387;
 
 	class LyraDebugPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraDebugBLV()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AB0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingCopyLyraState()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AB8);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_ProfilingVisualizeSDFLighting()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AC0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_VisualizeVoxelLightingSampler()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AC8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_ProfilingVisualizeGI()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AD0);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212A0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingSampler()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AD8);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212A8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingCopyLyraState()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212B0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingDebugLyraUniforms()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x23AE0);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212B8);
 		}
-		static ::System::Int32* StaticGet__LyraDebugRT()
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_ProfilingVisualizeGI()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x6510);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212C0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_LyraDebugBLV()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212C8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_VisualizeVoxelLightingSampler()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x212D0);
 		}
 		static ::System::Int32* StaticGet__LyraStateRT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x6514);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x6040);
 		}
-		::UnityEngine::ComputeShader* m_lyraDebugProbesCS; // 0xA8
-		::UnityEngine::Material* m_lyraDebugMaterial; // 0xB0
-		::UnityEngine::Rendering::Universal::Internal::LyraUpdateProbePass* m_lyraUpdateProbePass; // 0xB8
+		static ::System::Int32* StaticGet__LyraDebugRT()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LyraDebugPass_TypeDefinitionIndex)->GetStaticField(0x6044);
+		}
+		::UnityEngine::Rendering::Universal::Internal::LyraUpdateProbePass* m_lyraUpdateProbePass; // 0xA8
+		::UnityEngine::ComputeShader* m_lyraDebugProbesCS; // 0xB0
+		::UnityEngine::Material* m_lyraDebugMaterial; // 0xB8
 		::System::Boolean m_lastFreeze; // 0xC0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_colorRTHandle; // 0xC4
 

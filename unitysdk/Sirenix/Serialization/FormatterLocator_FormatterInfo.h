@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterLocator_FormatterInfo_TypeDefinitionIndex = 7303;
+	inline static constexpr unsigned int FormatterLocator_FormatterInfo_TypeDefinitionIndex = 7435;
 
 	struct alignas(8) FormatterLocator_FormatterInfo
 	{

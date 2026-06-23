@@ -5,23 +5,23 @@
 namespace UnrealTypes { class Enum; }
 namespace UnrealTypes { class EnumParams; }
 
-#define STATETREECORE_REGISTRATIONINFO_ENUM_STATETREEDATASOURCETYPE_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C508890)
-#define STATETREECORE_REGISTRATIONINFO_ENUM_STATETREEDATASOURCETYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C508780)
+#define STATETREECORE_REGISTRATIONINFO_ENUM_STATETREEDATASOURCETYPE_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E83AAA0)
+#define STATETREECORE_REGISTRATIONINFO_ENUM_STATETREEDATASOURCETYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E83A990)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex = 28436;
+	inline static constexpr unsigned int RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex = 31091;
 
 	class RegistrationInfo_Enum_StateTreeDataSourceType : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::EnumParams** StaticGet_EnumParams()
-		{
-			return (::UnrealTypes::EnumParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex)->GetStaticField(0x20F00);
-		}
 		static ::UnrealTypes::Enum** StaticGet_Enum()
 		{
-			return (::UnrealTypes::Enum**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex)->GetStaticField(0x20F08);
+			return (::UnrealTypes::Enum**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex)->GetStaticField(0x24C40);
+		}
+		static ::UnrealTypes::EnumParams** StaticGet_EnumParams()
+		{
+			return (::UnrealTypes::EnumParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_StateTreeDataSourceType_TypeDefinitionIndex)->GetStaticField(0x24C48);
 		}
 
 		static ::System::Void _cctor()

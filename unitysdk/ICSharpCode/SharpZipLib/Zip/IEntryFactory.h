@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int IEntryFactory_TypeDefinitionIndex = 6709;
+	inline static constexpr unsigned int IEntryFactory_TypeDefinitionIndex = 6840;
 
 	class IEntryFactory
 	{

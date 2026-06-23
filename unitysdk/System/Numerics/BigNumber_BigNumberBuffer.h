@@ -4,11 +4,11 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NUMERICS_BIGNUMBER_BIGNUMBERBUFFER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B1DC1D0)
+#define SYSTEM_NUMERICS_BIGNUMBER_BIGNUMBERBUFFER_CREATE_OFFSET UNITYSDK_OFFSET(0x1D5C3C80)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int BigNumber_BigNumberBuffer_TypeDefinitionIndex = 6484;
+	inline static constexpr unsigned int BigNumber_BigNumberBuffer_TypeDefinitionIndex = 6385;
 
 	struct alignas(8) BigNumber_BigNumberBuffer
 	{

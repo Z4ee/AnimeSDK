@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AudioClip; }
 
-#define MOLEMOLE_NOTESFX__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAF6D0)
+#define MOLEMOLE_NOTESFX__CTOR_OFFSET UNITYSDK_OFFSET(0x1264EC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NoteSfx_TypeDefinitionIndex = 71750;
+	inline static constexpr unsigned int NoteSfx_TypeDefinitionIndex = 55830;
 
 	class NoteSfx : public ::System::Object
 	{

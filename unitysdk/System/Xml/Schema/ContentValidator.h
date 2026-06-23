@@ -9,23 +9,23 @@ namespace System::Xml::Schema { class ValidationState; }
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_ADDPARTICLETOEXPECTED_1_OFFSET UNITYSDK_OFFSET(0x1B8E8520)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_ADDPARTICLETOEXPECTED_OFFSET UNITYSDK_OFFSET(0x1B8E84B0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1B8E8480)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1B8E8490)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1B8E84A0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISEMPTIABLE_OFFSET UNITYSDK_OFFSET(0x1B8E8410)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x1B8E8420)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_PRESERVEWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1B8E83F0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1B8E8440)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1B8E8450)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8E87D0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B8E83E0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E83D0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_ADDPARTICLETOEXPECTED_1_OFFSET UNITYSDK_OFFSET(0x1DC409B0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_ADDPARTICLETOEXPECTED_OFFSET UNITYSDK_OFFSET(0x1DC40940)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1DC40910)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1DC40920)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1DC40930)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISEMPTIABLE_OFFSET UNITYSDK_OFFSET(0x1DC408A0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x1DC408B0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_PRESERVEWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1DC40880)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1DC408D0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1DC408E0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC40C60)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DC40870)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC40860)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ContentValidator_TypeDefinitionIndex = 1975;
+	inline static constexpr unsigned int ContentValidator_TypeDefinitionIndex = 1974;
 
 	class ContentValidator : public ::System::Object
 	{
@@ -34,21 +34,21 @@ namespace System::Xml::Schema
 		{
 			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x1880);
 		}
-		static ::System::Xml::Schema::ContentValidator** StaticGet_TextOnly()
+		static ::System::Xml::Schema::ContentValidator** StaticGet_Empty()
 		{
 			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x1888);
 		}
-		static ::System::Xml::Schema::ContentValidator** StaticGet_Empty()
+		static ::System::Xml::Schema::ContentValidator** StaticGet_Any()
 		{
 			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x1890);
 		}
-		static ::System::Xml::Schema::ContentValidator** StaticGet_Any()
+		static ::System::Xml::Schema::ContentValidator** StaticGet_TextOnly()
 		{
 			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x1898);
 		}
-		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x10
-		::System::Boolean isOpen; // 0x14
-		::System::Boolean isEmptiable; // 0x15
+		::System::Boolean isOpen; // 0x10
+		::System::Boolean isEmptiable; // 0x11
+		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x14
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType)
 		{

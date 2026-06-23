@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B620A0)
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS29_0__ONINITFAIL_B__0_OFFSET UNITYSDK_OFFSET(0x19B620B0)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53DB80)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS29_0__ONINITFAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1B53DB90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass29_0_TypeDefinitionIndex = 19911;
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass29_0_TypeDefinitionIndex = 21074;
 
 	class BiliBiliManager___c__DisplayClass29_0 : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { templ
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 29751;
+	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 26600;
 
 	template <typename TValue>
 	class PriorityQueue_1 : public ::System::Object

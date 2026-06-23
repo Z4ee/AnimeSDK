@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GamepadNavDirConfig_TypeDefinitionIndex = 71312;
+	inline static constexpr unsigned int GamepadNavDirConfig_TypeDefinitionIndex = 79176;
 
 	struct alignas(4) GamepadNavDirConfig
 	{

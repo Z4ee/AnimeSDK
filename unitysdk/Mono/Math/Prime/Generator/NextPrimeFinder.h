@@ -5,12 +5,12 @@
 namespace Mono::Math { class BigInteger; }
 namespace System { class Object; }
 
-#define MONO_MATH_PRIME_GENERATOR_NEXTPRIMEFINDER_GENERATESEARCHBASE_OFFSET UNITYSDK_OFFSET(0x1C4ADAE0)
-#define MONO_MATH_PRIME_GENERATOR_NEXTPRIMEFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4ADBE0)
+#define MONO_MATH_PRIME_GENERATOR_NEXTPRIMEFINDER_GENERATESEARCHBASE_OFFSET UNITYSDK_OFFSET(0x1E7E5240)
+#define MONO_MATH_PRIME_GENERATOR_NEXTPRIMEFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E5340)
 
 namespace Mono::Math::Prime::Generator
 {
-	inline static constexpr unsigned int NextPrimeFinder_TypeDefinitionIndex = 2488;
+	inline static constexpr unsigned int NextPrimeFinder_TypeDefinitionIndex = 2487;
 
 	class NextPrimeFinder : public ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase
 	{

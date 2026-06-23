@@ -5,44 +5,52 @@
 class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
 class Class_2_B4378B46E0020E85;
-class MonoUITableScrollV2;
-namespace MoleMole { class MonoGamepadNavigatableList; }
-namespace MoleMole { class MonoGamepadSpaceList; }
+class Class_2_C7387D40D4120A48_10_Class_2_58A8C6E436715E11;
+class Class_2_C7387D40D4120A48_10_Class_2_E33BF98CBB411DC6;
+class Class_2_CA67A9CEB871FFD3;
+namespace MoleMole { class NotificationBadge; }
+namespace MoleMole { class UIActivityCompRewardBtnGroupWidgetController; }
+namespace MoleMole { class UIActivityCompWeekRewardBtnWidgetController; }
 namespace MoleMole { class UIControlCollection; }
-namespace MoleMole { class UIGeneralSortWidgetController; }
-namespace MoleMole { class UISuibianTempleDeployBangbooDetailWidgetController; }
 namespace UnityEngine { class RectTransform; }
-namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+namespace UnityEngine::UI::Extension { class UITimeWidget; }
+template <typename T> class Class_2_0D31A1661D004892;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_C7387D40D4120A48_10_METHOD_2_8AF27F640869EFF7_OFFSET UNITYSDK_OFFSET(0x1296D950)
-#define CLASS_2_C7387D40D4120A48_10_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1296DE60)
-#define CLASS_2_C7387D40D4120A48_10_METHOD_2_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0x1296DCD0)
-#define CLASS_2_C7387D40D4120A48_10__CTOR_OFFSET UNITYSDK_OFFSET(0x1296DE50)
+#define CLASS_2_C7387D40D4120A48_10_METHOD_2_218124418542E081_OFFSET UNITYSDK_OFFSET(0x190C7970)
+#define CLASS_2_C7387D40D4120A48_10_METHOD_2_8AF27F640869EFF7_OFFSET UNITYSDK_OFFSET(0x190C74A0)
+#define CLASS_2_C7387D40D4120A48_10_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x190C7BE0)
+#define CLASS_2_C7387D40D4120A48_10__CTOR_OFFSET UNITYSDK_OFFSET(0x190C7BD0)
 
-inline static constexpr unsigned int Class_2_C7387D40D4120A48_10_TypeDefinitionIndex = 50704;
+inline static constexpr unsigned int Class_2_C7387D40D4120A48_10_TypeDefinitionIndex = 53568;
 
 class Class_2_C7387D40D4120A48_10 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_5; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x20
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralSortWidgetController*>* Field_2_7; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_12; // 0x30
-	::UnityEngine::RectTransform* Field_2_16; // 0x38
-	::MoleMole::MonoGamepadNavigatableList* Field_2_14; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x48
-	::Class_3_30A064D7BE47C07D<::MoleMole::UISuibianTempleDeployBangbooDetailWidgetController*>* Field_2_6; // 0x50
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_11; // 0x68
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x70
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x78
-	::UnityEngine::UI::Text* Field_2_2; // 0x80
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_13; // 0x88
-	::MoleMole::MonoGamepadSpaceList* Field_2_15; // 0x90
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x98
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_13; // 0x28
+	::UnityEngine::RectTransform* Field_2_18; // 0x30
+	::Class_2_CA67A9CEB871FFD3* Field_2_3; // 0x38
+	::UnityEngine::RectTransform* Field_2_19; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_16; // 0x48
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* Field_2_11; // 0x50
+	::MoleMole::NotificationBadge* Field_2_21; // 0x58
+	::Class_2_0D31A1661D004892<::Class_2_C7387D40D4120A48_10_Class_2_E33BF98CBB411DC6*>* Field_2_8; // 0x60
+	::UnityEngine::RectTransform* Field_2_15; // 0x68
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* Field_2_22; // 0x70
+	::Class_2_1A39E1B51756BF41* Field_2_17; // 0x78
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_14; // 0x80
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x88
+	::MoleMole::NotificationBadge* Field_2_20; // 0x90
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* Field_2_2; // 0x98
+	::Class_2_B4378B46E0020E85* Field_2_10; // 0xA0
+	::Class_2_B4378B46E0020E85* Field_2_1; // 0xA8
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_6; // 0xB0
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompRewardBtnGroupWidgetController*>* Field_2_7; // 0xB8
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0xC0
+	::Class_2_0D31A1661D004892<::Class_2_C7387D40D4120A48_10_Class_2_58A8C6E436715E11*>* Field_2_9; // 0xC8
 
 	::System::Void _ctor()
 	{
@@ -54,13 +62,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_10_METHOD_2_8AF27F640869EFF7_OFFSET))(this, a1, a2);
 	}
 
+	::System::Void Method_2_218124418542E081()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_10_METHOD_2_218124418542E081_OFFSET))(this);
+	}
+
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_10_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Method_2_DD784213055292FB()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_10_METHOD_2_DD784213055292FB_OFFSET))(this);
 	}
 };

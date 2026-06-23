@@ -11,45 +11,59 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_DELAYRELEASECAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7FD240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF7FC8D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_ISCAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7FD1C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_SETNEXTCAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7FD130)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_SETUP_OFFSET UNITYSDK_OFFSET(0xF7FC870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xF7FC7D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_DELAYRELEASECAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7A6BE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF7A6140)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_ISCAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7A6B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_SETNEXTCAPTURESOURCE_OFFSET UNITYSDK_OFFSET(0xF7A6A40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS_SETUP_OFFSET UNITYSDK_OFFSET(0xF7A60E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7A6C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xF7A6040)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCapturePass_TypeDefinitionIndex = 30202;
+	inline static constexpr unsigned int NapCapturePass_TypeDefinitionIndex = 26527;
 
 	class NapCapturePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Boolean* StaticGet_m_ReleaseAfterCapture()
+		static ::System::Int32* StaticGet__NapCaptureUpscaleSourceID()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x78C0);
-		}
-		static ::System::Boolean* StaticGet_m_ReplaceCaptureSource()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x78C1);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x69E0);
 		}
 		static ::System::Int32* StaticGet_m_CaptureSourceID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x78C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x69E4);
+		}
+		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet__NapCaptureUpscaleSource()
+		{
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x69E8);
 		}
 		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_m_CaptureSource()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x78C8);
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x6A10);
 		}
-		::System::String* profilerTag; // 0xA8
-		::System::Collections::Generic::List_1<::System::Int32>* m_NeedRemovedCaptureIds; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorHandle; // 0xB8
-		::System::Int32 captureIndex; // 0xBC
+		static ::System::Boolean* StaticGet_m_ReleaseAfterCapture()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x6A38);
+		}
+		static ::System::Boolean* StaticGet_m_ReplaceCaptureSource()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapCapturePass_TypeDefinitionIndex)->GetStaticField(0x6A39);
+		}
+		::System::Collections::Generic::List_1<::System::Int32>* m_NeedRemovedCaptureIds; // 0xA8
+		::System::String* profilerTag; // 0xB0
+		::System::Int32 captureIndex; // 0xB8
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorHandle; // 0xBC
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraDepthHandle; // 0xC0
 
 		::System::Void _ctor(::System::String* profilerTag, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent renderPassEvent)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS__CTOR_OFFSET))(this, profilerTag, renderPassEvent);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREPASS__CCTOR_OFFSET))();
 		}
 
 		::System::Void Setup(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle colorHandle, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle depthHandle)

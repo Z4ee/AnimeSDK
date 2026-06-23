@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E0DF60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x10E0E0B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B24FA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B250F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReadHollowParam_TypeDefinitionIndex = 44529;
+	inline static constexpr unsigned int LDReadHollowParam_TypeDefinitionIndex = 54112;
 
 	class LDReadHollowParam : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Object*, ::System::String*>
 	{

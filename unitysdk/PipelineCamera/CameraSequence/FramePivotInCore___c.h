@@ -6,20 +6,20 @@
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class FramePivotInCore_DataProvider; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6C5A80)
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C5AC0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B6C5AD0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAC8A80)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC8AC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1DAC8AD0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FramePivotInCore___c_TypeDefinitionIndex = 36362;
+	inline static constexpr unsigned int FramePivotInCore___c_TypeDefinitionIndex = 37970;
 
 	class FramePivotInCore___c : public ::System::Object
 	{
 	public:
 		static ::PipelineCamera::CameraSequence::FramePivotInCore___c** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::FramePivotInCore___c**)Il2CppClass::FromTypeDefinitionIndex(FramePivotInCore___c_TypeDefinitionIndex)->GetStaticField(0x27090);
+			return (::PipelineCamera::CameraSequence::FramePivotInCore___c**)Il2CppClass::FromTypeDefinitionIndex(FramePivotInCore___c_TypeDefinitionIndex)->GetStaticField(0x28D10);
 		}
 
 		static ::System::Void _cctor()

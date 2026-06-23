@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PaniniProjectCBuffer_TypeDefinitionIndex = 30401;
+	inline static constexpr unsigned int PaniniProjectCBuffer_TypeDefinitionIndex = 27379;
 
 	struct alignas(4) PaniniProjectCBuffer
 	{

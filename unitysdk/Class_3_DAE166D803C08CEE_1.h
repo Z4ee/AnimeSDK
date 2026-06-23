@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A48F3719AA1CF200.h"
+#include "unitysdk/Class_2_A48F3719AA1CF200_1.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_DAE166D803C08CEE_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC3AD0)
+#define CLASS_3_DAE166D803C08CEE_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBAD60)
 
-inline static constexpr unsigned int Class_3_DAE166D803C08CEE_1_TypeDefinitionIndex = 83271;
+inline static constexpr unsigned int Class_3_DAE166D803C08CEE_1_TypeDefinitionIndex = 88437;
 
-class Class_3_DAE166D803C08CEE_1 : public ::Class_2_A48F3719AA1CF200
+class Class_3_DAE166D803C08CEE_1 : public ::Class_2_A48F3719AA1CF200_1
 {
 public:
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_3_2; // 0x10

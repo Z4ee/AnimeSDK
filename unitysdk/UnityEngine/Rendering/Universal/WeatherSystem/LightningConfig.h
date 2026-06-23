@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x192B4DC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B4F90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B1AFAB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AFC80)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LightningConfig_TypeDefinitionIndex = 30309;
+	inline static constexpr unsigned int LightningConfig_TypeDefinitionIndex = 26899;
 
 	class LightningConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LightningConfig*>
 	{

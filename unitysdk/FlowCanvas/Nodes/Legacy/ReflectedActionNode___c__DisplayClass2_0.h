@@ -6,18 +6,18 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes::Legacy { class ReflectedActionNode; }
 
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EC4A0)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B0EC4B0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D532CC0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D532CD0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode___c__DisplayClass2_0_TypeDefinitionIndex = 26913;
+	inline static constexpr unsigned int ReflectedActionNode___c__DisplayClass2_0_TypeDefinitionIndex = 30881;
 
 	class ReflectedActionNode___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::Legacy::ReflectedActionNode* __4__this; // 0x10
-		::FlowCanvas::FlowOutput* o; // 0x18
+		::FlowCanvas::FlowOutput* o; // 0x10
+		::FlowCanvas::Nodes::Legacy::ReflectedActionNode* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace System::Buffers::Text
 {
-	inline static constexpr unsigned int Utf8Parser_ParseNumberOptions_TypeDefinitionIndex = 7579;
+	inline static constexpr unsigned int Utf8Parser_ParseNumberOptions_TypeDefinitionIndex = 6589;
 
 	enum class Utf8Parser_ParseNumberOptions : ::System::Int32
 	{

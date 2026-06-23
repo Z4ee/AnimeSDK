@@ -4,12 +4,12 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x9D82A0)
-#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x3A4A20)
+#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0xA79E00)
+#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x3E5700)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 28617;
+	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 31273;
 
 	struct alignas(8) SwitchToMainThreadAwaitable
 	{

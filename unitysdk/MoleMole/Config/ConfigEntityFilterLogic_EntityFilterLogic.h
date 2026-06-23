@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFilterLogic_EntityFilterLogic_TypeDefinitionIndex = 41053;
+	inline static constexpr unsigned int ConfigEntityFilterLogic_EntityFilterLogic_TypeDefinitionIndex = 68580;
 
 	enum class ConfigEntityFilterLogic_EntityFilterLogic : ::System::Int32
 	{

@@ -6,24 +6,24 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define IFIX_CORE_PATCHMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A794EE0)
-#define IFIX_CORE_PATCHMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A794F20)
-#define IFIX_CORE_PATCHMANAGER___C__READMETHOD_B__2_1_OFFSET UNITYSDK_OFFSET(0x1A794F30)
+#define IFIX_CORE_PATCHMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAA4EA0)
+#define IFIX_CORE_PATCHMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA4EE0)
+#define IFIX_CORE_PATCHMANAGER___C__READMETHOD_B__2_1_OFFSET UNITYSDK_OFFSET(0x1CAA4EF0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager___c_TypeDefinitionIndex = 6786;
+	inline static constexpr unsigned int PatchManager___c_TypeDefinitionIndex = 6917;
 
 	class PatchManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager___c_TypeDefinitionIndex)->GetStaticField(0x5C90);
-		}
 		static ::IFix::Core::PatchManager___c** StaticGet___9()
 		{
-			return (::IFix::Core::PatchManager___c**)Il2CppClass::FromTypeDefinitionIndex(PatchManager___c_TypeDefinitionIndex)->GetStaticField(0x5C98);
+			return (::IFix::Core::PatchManager___c**)Il2CppClass::FromTypeDefinitionIndex(PatchManager___c_TypeDefinitionIndex)->GetStaticField(0x5D80);
+		}
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager___c_TypeDefinitionIndex)->GetStaticField(0x5D88);
 		}
 
 		static ::System::Void _cctor()

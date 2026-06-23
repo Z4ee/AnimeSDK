@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ContentTypeValues_TypeDefinitionIndex = 3301;
+	inline static constexpr unsigned int ContentTypeValues_TypeDefinitionIndex = 3300;
 
 	enum class ContentTypeValues : ::System::Int32
 	{

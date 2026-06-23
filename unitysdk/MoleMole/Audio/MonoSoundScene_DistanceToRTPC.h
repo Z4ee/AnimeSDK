@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_AUDIO_MONOSOUNDSCENE_DISTANCETORTPC_UPDATE_OFFSET UNITYSDK_OFFSET(0xFE8A680)
-#define MOLEMOLE_AUDIO_MONOSOUNDSCENE_DISTANCETORTPC__CTOR_OFFSET UNITYSDK_OFFSET(0xFE8AB50)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENE_DISTANCETORTPC_UPDATE_OFFSET UNITYSDK_OFFSET(0x12B87350)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENE_DISTANCETORTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x12B87820)
 
 namespace MoleMole::Audio
 {
-	inline static constexpr unsigned int MonoSoundScene_DistanceToRTPC_TypeDefinitionIndex = 78394;
+	inline static constexpr unsigned int MonoSoundScene_DistanceToRTPC_TypeDefinitionIndex = 56774;
 
 	class MonoSoundScene_DistanceToRTPC : public ::UnityEngine::MonoBehaviour
 	{

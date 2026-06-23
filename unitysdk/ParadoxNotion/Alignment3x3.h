@@ -3,18 +3,18 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int Alignment3x3_TypeDefinitionIndex = 27940;
+	inline static constexpr unsigned int Alignment3x3_TypeDefinitionIndex = 30135;
 
 	enum class Alignment3x3 : ::System::Int32
 	{
-		MiddleRight = 5,
-		BottomRight = 8,
 		BottomLeft = 6,
-		TopLeft = 0,
-		MiddleCenter = 4,
-		TopRight = 2,
 		TopCenter = 1,
+		TopLeft = 0,
+		BottomRight = 8,
 		BottomCenter = 7,
+		MiddleCenter = 4,
 		MiddleLeft = 3,
+		MiddleRight = 5,
+		TopRight = 2,
 	};
 }

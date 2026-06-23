@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigBuffMisc; }
 namespace System { class Action; }
 
-#define CLASS_1_110F2DD152BF4DBC_CLASS_1_570F10366F6888F5_METHOD_1_7CEE10A27FBC03B0_OFFSET UNITYSDK_OFFSET(0x13ADAF80)
-#define CLASS_1_110F2DD152BF4DBC_CLASS_1_570F10366F6888F5__CTOR_OFFSET UNITYSDK_OFFSET(0x13ADAF70)
+#define CLASS_1_110F2DD152BF4DBC_CLASS_1_570F10366F6888F5_METHOD_1_7CEE10A27FBC03B0_OFFSET UNITYSDK_OFFSET(0x1431D720)
+#define CLASS_1_110F2DD152BF4DBC_CLASS_1_570F10366F6888F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1431D710)
 
-inline static constexpr unsigned int Class_1_110F2DD152BF4DBC_Class_1_570F10366F6888F5_TypeDefinitionIndex = 81414;
+inline static constexpr unsigned int Class_1_110F2DD152BF4DBC_Class_1_570F10366F6888F5_TypeDefinitionIndex = 75680;
 
 class Class_1_110F2DD152BF4DBC_Class_1_570F10366F6888F5 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::Foundation::AssetPath Field_1_1; // 0x18
+	::Foundation::AssetPath Field_1_1; // 0x10
+	::System::Action* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

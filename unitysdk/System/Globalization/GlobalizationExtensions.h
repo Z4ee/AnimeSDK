@@ -6,11 +6,11 @@
 namespace System { class StringComparer; }
 namespace System::Globalization { class CompareInfo; }
 
-#define SYSTEM_GLOBALIZATION_GLOBALIZATIONEXTENSIONS_GETSTRINGCOMPARER_OFFSET UNITYSDK_OFFSET(0x19965890)
+#define SYSTEM_GLOBALIZATION_GLOBALIZATIONEXTENSIONS_GETSTRINGCOMPARER_OFFSET UNITYSDK_OFFSET(0x1BE18840)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int GlobalizationExtensions_TypeDefinitionIndex = 1630;
+	inline static constexpr unsigned int GlobalizationExtensions_TypeDefinitionIndex = 1629;
 
 	class GlobalizationExtensions : public ::System::Object
 	{

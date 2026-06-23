@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_620;
-class Class_1_F1489324C27A1B39;
-namespace MoleMole { class UIInLevelSkillButtonBranchBaseController; }
-namespace MoleMole { class UIWindowController; }
-namespace UnityEngine { class Transform; }
+class Class_1_1FCBF6F207BFD09E;
+class Class_2_6D8377DB91A00B0F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_303_TypeDefinitionIndex = 71882;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_303_TypeDefinitionIndex = 48527;
 
 class Class_0_16E4307DCC419505_303
 {

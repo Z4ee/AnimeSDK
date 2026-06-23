@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForEach_1___c__DisplayClass3_0_TypeDefinitionIndex = 26995;
+	inline static constexpr unsigned int ForEach_1___c__DisplayClass3_0_TypeDefinitionIndex = 29235;
 
 	template <typename T>
 	class ForEach_1___c__DisplayClass3_0 : public ::System::Object

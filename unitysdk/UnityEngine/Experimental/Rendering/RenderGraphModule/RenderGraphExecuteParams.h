@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphExecuteParams_TypeDefinitionIndex = 9506;
+	inline static constexpr unsigned int RenderGraphExecuteParams_TypeDefinitionIndex = 18236;
 
 	struct alignas(4) RenderGraphExecuteParams
 	{

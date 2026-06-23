@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct_TypeDefinitionIndex = 72794;
+	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct_TypeDefinitionIndex = 44727;
 
 	struct alignas(8) ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct
 	{

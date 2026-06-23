@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int HueAndSaturation_TypeDefinitionIndex = 70878;
+inline static constexpr unsigned int HueAndSaturation_TypeDefinitionIndex = 52671;
 
 struct alignas(4) HueAndSaturation
 {

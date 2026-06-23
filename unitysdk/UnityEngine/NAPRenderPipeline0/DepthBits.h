@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DepthBits_TypeDefinitionIndex = 5857;
+	inline static constexpr unsigned int DepthBits_TypeDefinitionIndex = 5864;
 
 	enum class DepthBits : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/SampleDistanceMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SAMPLEDISTANCEMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F6A70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SAMPLEDISTANCEMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A48C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SampleDistanceModeParameter_TypeDefinitionIndex = 30157;
+	inline static constexpr unsigned int SampleDistanceModeParameter_TypeDefinitionIndex = 27347;
 
 	class SampleDistanceModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::SampleDistanceMode>
 	{

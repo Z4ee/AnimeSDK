@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Chunk
 {
-	inline static constexpr unsigned int ChunkView2D_1_TypeDefinitionIndex = 9098;
+	inline static constexpr unsigned int ChunkView2D_1_TypeDefinitionIndex = 8626;
 
 	template <typename T>
 	struct ChunkView2D_1

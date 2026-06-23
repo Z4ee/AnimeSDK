@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EC23F0)
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC2430)
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__ONUIINIT_B__6_5_OFFSET UNITYSDK_OFFSET(0x16EC2440)
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__ONUIINIT_B__6_6_OFFSET UNITYSDK_OFFSET(0x16EC2550)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18689AB0)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18689AF0)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__ONUIINIT_B__6_5_OFFSET UNITYSDK_OFFSET(0x18689B00)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__ONUIINIT_B__6_6_OFFSET UNITYSDK_OFFSET(0x18689C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerRecordPageController___c_TypeDefinitionIndex = 77430;
+	inline static constexpr unsigned int UIBabeltowerRecordPageController___c_TypeDefinitionIndex = 63663;
 
 	class UIBabeltowerRecordPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__6_5()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x37C20);
-		}
-		static ::System::Action** StaticGet___9__6_6()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x37C28);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A0C0);
 		}
 		static ::MoleMole::UIBabeltowerRecordPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBabeltowerRecordPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x37C30);
+			return (::MoleMole::UIBabeltowerRecordPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A0C8);
+		}
+		static ::System::Action** StaticGet___9__6_6()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRecordPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A0D0);
 		}
 
 		static ::System::Void _cctor()

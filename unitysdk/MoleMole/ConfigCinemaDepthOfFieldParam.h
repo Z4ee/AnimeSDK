@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCinemaDepthOfFieldParam_TypeDefinitionIndex = 74038;
+	inline static constexpr unsigned int ConfigCinemaDepthOfFieldParam_TypeDefinitionIndex = 65976;
 
 	struct alignas(4) ConfigCinemaDepthOfFieldParam
 	{

@@ -6,7 +6,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_TypeDefinitionIndex = 3844;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_DNS_SERVER_ADDRESS_TypeDefinitionIndex = 3843;
 
 	struct alignas(8) Win32_IP_ADAPTER_DNS_SERVER_ADDRESS
 	{

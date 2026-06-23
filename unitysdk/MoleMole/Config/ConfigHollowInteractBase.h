@@ -12,11 +12,11 @@ namespace MoleMole::Config { class ConfigHollowInteractCondition; }
 namespace MoleMole::Config { class ConfigHollowInteractEffect; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1230C2C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56F50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 51978;
+	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 68588;
 
 	class ConfigHollowInteractBase : public ::System::Object
 	{
@@ -24,19 +24,19 @@ namespace MoleMole::Config
 		::MoleMole::Config::ConfigHollowInteractEffect* Effect; // 0x10
 		::MoleMole::Config::ConfigHollowInteractEffect* FailureEffect; // 0x18
 		::MoleMole::Config::ConfigHollowInteractCondition* Condition; // 0x20
-		::MoleMole::Config::HollowInteractType InteractType; // 0x28
-		::MoleMole::Config::InteractTargetType Type; // 0x2C
-		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x30
-		::MoleMole::Config::InteractPosType PosType; // 0x34
-		::System::Int32 Group; // 0x38
-		::System::Boolean BreakSleep; // 0x3C
-		::System::Boolean DestroyAfterInteract; // 0x3D
-		::System::Boolean EnableDefault; // 0x3E
-		::System::Boolean ForbidMove; // 0x3F
-		::MoleMole::Config::BindSendMsgType BindMove; // 0x40
-		::System::Int32 Priority; // 0x44
-		::System::Boolean IsInteractFailure; // 0x48
-		::System::Boolean TryMoveToTarget; // 0x49
+		::System::Boolean IsInteractFailure; // 0x28
+		::System::Boolean DestroyAfterInteract; // 0x29
+		::System::Boolean ForbidMove; // 0x2A
+		::System::Boolean TryMoveToTarget; // 0x2B
+		::System::Boolean BreakSleep; // 0x2C
+		::System::Boolean EnableDefault; // 0x2D
+		::MoleMole::Config::HollowInteractType InteractType; // 0x30
+		::System::Int32 Priority; // 0x34
+		::MoleMole::Config::BindSendMsgType BindMove; // 0x38
+		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x3C
+		::System::Int32 Group; // 0x40
+		::MoleMole::Config::InteractPosType PosType; // 0x44
+		::MoleMole::Config::InteractTargetType Type; // 0x48
 
 		::System::Void _ctor()
 		{

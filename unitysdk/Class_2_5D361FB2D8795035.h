@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIUrbanMapListRowLevelInfoWidgetContext; }
+namespace System { class String; }
+template <typename T> class Class_2_000597E145D7A42A;
+
+#define CLASS_2_5D361FB2D8795035_METHOD_2_4BC5868A43E8DC5B_1_OFFSET UNITYSDK_OFFSET(0x1287D960)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_4BC5868A43E8DC5B_OFFSET UNITYSDK_OFFSET(0x1287D220)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_7D4D6D43B1CF82D7_OFFSET UNITYSDK_OFFSET(0x1287C9A0)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_AB5F8DA9983FCCE6_OFFSET UNITYSDK_OFFSET(0x1287D3E0)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_B29144DB3BFE1DAE_OFFSET UNITYSDK_OFFSET(0x1287D660)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_BB011A679D73B43B_OFFSET UNITYSDK_OFFSET(0x1287D6F0)
+#define CLASS_2_5D361FB2D8795035_METHOD_2_EEF0744B559AC089_OFFSET UNITYSDK_OFFSET(0x1287CEF0)
+#define CLASS_2_5D361FB2D8795035__CTOR_OFFSET UNITYSDK_OFFSET(0x1287CEA0)
+
+inline static constexpr unsigned int Class_2_5D361FB2D8795035_TypeDefinitionIndex = 63651;
+
+class Class_2_5D361FB2D8795035 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_2_000597E145D7A42A<::MoleMole::UIUrbanMapListRowLevelInfoWidgetContext*>* Field_2_0; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7D4D6D43B1CF82D7(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_7D4D6D43B1CF82D7_OFFSET))(this, a1, a2);
+	}
+
+	::System::Single Method_2_EEF0744B559AC089()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_EEF0744B559AC089_OFFSET))(this);
+	}
+
+	::System::String* Method_2_4BC5868A43E8DC5B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_4BC5868A43E8DC5B_OFFSET))(this);
+	}
+
+	::System::String* Method_2_AB5F8DA9983FCCE6()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_AB5F8DA9983FCCE6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B29144DB3BFE1DAE(::MoleMole::UIUrbanMapListRowLevelInfoWidgetContext* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapListRowLevelInfoWidgetContext*))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_B29144DB3BFE1DAE_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_2_BB011A679D73B43B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_BB011A679D73B43B_OFFSET))(this);
+	}
+
+	::System::String* Method_2_4BC5868A43E8DC5B_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5D361FB2D8795035_METHOD_2_4BC5868A43E8DC5B_1_OFFSET))(this);
+	}
+};

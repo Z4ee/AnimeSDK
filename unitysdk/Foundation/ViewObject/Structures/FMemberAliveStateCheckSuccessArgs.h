@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FMemberAliveStateCheckSuccessArgs_TypeDefinitionIndex = 64385;
+	inline static constexpr unsigned int FMemberAliveStateCheckSuccessArgs_TypeDefinitionIndex = 49302;
 
 	struct alignas(8) FMemberAliveStateCheckSuccessArgs
 	{

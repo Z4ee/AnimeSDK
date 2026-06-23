@@ -8,26 +8,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11CA9570)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11CA9580)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11CA98E0)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CA9B30)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA9AF0)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1929C200)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1929C210)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1929C570)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1929C7C0)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_CONFIGHITINHALATIONEFFECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1929C780)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex = 68369;
+	inline static constexpr unsigned int ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex = 64715;
 
 	class ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHitInhalationEffect*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E760);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40D20);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E768);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHitInhalationEffect_ConfigHitInhalationEffect_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40D28);
 		}
 
 		::System::Void _ctor()

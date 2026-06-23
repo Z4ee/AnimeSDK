@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackEffectConfigType_TypeDefinitionIndex = 82972;
+	inline static constexpr unsigned int AttackEffectConfigType_TypeDefinitionIndex = 66656;
 
 	enum class AttackEffectConfigType : ::System::Int32
 	{

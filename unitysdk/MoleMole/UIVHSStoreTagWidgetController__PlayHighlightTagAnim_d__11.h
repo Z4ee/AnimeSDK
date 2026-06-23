@@ -8,23 +8,23 @@
 namespace MoleMole { class UIVHSStoreTagWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIVHSSTORETAGWIDGETCONTROLLER__PLAYHIGHLIGHTTAGANIM_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x76DBD0)
-#define MOLEMOLE_UIVHSSTORETAGWIDGETCONTROLLER__PLAYHIGHLIGHTTAGANIM_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIVHSSTORETAGWIDGETCONTROLLER__PLAYHIGHLIGHTTAGANIM_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x740430)
+#define MOLEMOLE_UIVHSSTORETAGWIDGETCONTROLLER__PLAYHIGHLIGHTTAGANIM_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreTagWidgetController__PlayHighlightTagAnim_d__11_TypeDefinitionIndex = 40454;
+	inline static constexpr unsigned int UIVHSStoreTagWidgetController__PlayHighlightTagAnim_d__11_TypeDefinitionIndex = 66237;
 
 	struct alignas(8) UIVHSStoreTagWidgetController__PlayHighlightTagAnim_d__11
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIVHSStoreTagWidgetController* __4__this; // 0x18
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::MoleMole::UIVHSStoreTagWidgetController* __4__this; // 0x28
+		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Boolean skipAnim; // 0x38
 		::System::Boolean highlight; // 0x39
-		::System::Single animDelayTime; // 0x3C
-		::System::Int32 __1__state; // 0x40
+		::System::Int32 __1__state; // 0x3C
+		::System::Single animDelayTime; // 0x40
 
 		::System::Void MoveNext()
 		{

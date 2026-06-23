@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11338750)
-#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11338790)
-#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__GOTOMAINCITY_B__26_0_OFFSET UNITYSDK_OFFSET(0x113387A0)
+#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13840150)
+#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13840190)
+#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__GOTOMAINCITY_B__26_0_OFFSET UNITYSDK_OFFSET(0x138401A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex = 72879;
+	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex = 51045;
 
 	class UIYorozuyaDifficultWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__26_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43A30);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4B210);
 		}
 		static ::MoleMole::UIYorozuyaDifficultWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIYorozuyaDifficultWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43A38);
+			return (::MoleMole::UIYorozuyaDifficultWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaDifficultWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4B218);
 		}
 
 		static ::System::Void _cctor()

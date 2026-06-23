@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEFORWARDEDFROMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0AA370)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEFORWARDEDFROMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AA360)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEFORWARDEDFROMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4F6450)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEFORWARDEDFROMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F6440)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int TypeForwardedFromAttribute_TypeDefinitionIndex = 1397;
+	inline static constexpr unsigned int TypeForwardedFromAttribute_TypeDefinitionIndex = 1396;
 
 	class TypeForwardedFromAttribute : public ::System::Attribute
 	{

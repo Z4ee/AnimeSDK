@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginArrow_ScrollViewDirtyFlag_TypeDefinitionIndex = 54071;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginArrow_ScrollViewDirtyFlag_TypeDefinitionIndex = 69926;
 
 enum class MonoUITableScrollV2_TableScrollPluginArrow_ScrollViewDirtyFlag : ::System::Int32
 {

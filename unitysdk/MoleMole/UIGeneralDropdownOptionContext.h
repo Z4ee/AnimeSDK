@@ -10,29 +10,29 @@ class Class_1_0EB9C77975304C39;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALDROPDOWNOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8A620)
+#define MOLEMOLE_UIGENERALDROPDOWNOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6B200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralDropdownOptionContext_TypeDefinitionIndex = 40225;
+	inline static constexpr unsigned int UIGeneralDropdownOptionContext_TypeDefinitionIndex = 70095;
 
 	class UIGeneralDropdownOptionContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Foundation::AssetPath iconPath; // 0x28
-		::Struct_2_A47ACAABA9AAFE92 otherInfo; // 0x38
-		::Class_1_0EB9C77975304C39* loginParam; // 0x50
-		::System::Action_1<::System::Int32>* onLockedClick; // 0x58
-		::Foundation::AssetPath redImagePath; // 0x60
-		::System::String* descKey; // 0x70
-		::System::String* desc; // 0x78
-		::System::Int32 index; // 0x80
+		::System::String* desc; // 0x38
+		::System::Action_1<::System::Int32>* onLockedClick; // 0x40
+		::System::String* descKey; // 0x48
+		::Foundation::AssetPath redImagePath; // 0x50
+		::Struct_2_A47ACAABA9AAFE92 otherInfo; // 0x60
+		::Class_1_0EB9C77975304C39* loginParam; // 0x78
+		::MoleMole::LanguageType languageType; // 0x80
 		::Enum_3_1920A05BA1489633 iconType; // 0x84
-		::System::Boolean locked; // 0x88
-		::System::Boolean isDesCenter; // 0x89
-		::System::Boolean isRed; // 0x8A
-		::System::Boolean isNew; // 0x8B
-		::MoleMole::LanguageType languageType; // 0x8C
+		::System::Int32 index; // 0x88
+		::System::Boolean isNew; // 0x8C
+		::System::Boolean isRed; // 0x8D
+		::System::Boolean locked; // 0x8E
+		::System::Boolean isDesCenter; // 0x8F
 
 		::System::Void _ctor()
 		{

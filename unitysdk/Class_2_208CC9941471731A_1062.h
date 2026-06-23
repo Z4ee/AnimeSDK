@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_48F4A404A08692BE_76.h"
-#include "unitysdk/Struct_2_58DF5669875F2C66_283.h"
+#include "unitysdk/Class_1_5DA2E7556103D5A3_388.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_907.h"
 
-class Class_0_16E4307DCC419505_13;
-class Class_2_D43F76BF4351F32C_9;
+class Class_0_16E4307DCC419505_7;
+namespace System { class String; }
 
-#define CLASS_2_208CC9941471731A_1062_METHOD_2_86953C79667FC2E6_OFFSET UNITYSDK_OFFSET(0x1BA5C650)
-#define CLASS_2_208CC9941471731A_1062__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5C640)
+#define CLASS_2_208CC9941471731A_1062_METHOD_2_2FE14E9DDA8EF9CA_OFFSET UNITYSDK_OFFSET(0x1856F690)
+#define CLASS_2_208CC9941471731A_1062__CTOR_OFFSET UNITYSDK_OFFSET(0x1856F6A0)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_1062_TypeDefinitionIndex = 83095;
+inline static constexpr unsigned int Class_2_208CC9941471731A_1062_TypeDefinitionIndex = 16242;
 
-class Class_2_208CC9941471731A_1062 : public ::Class_1_48F4A404A08692BE_76
+class Class_2_208CC9941471731A_1062 : public ::Class_1_5DA2E7556103D5A3_388
 {
 public:
-	::System::Void _ctor(::Struct_2_58DF5669875F2C66_283 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_907 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_58DF5669875F2C66_283, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1062__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_907, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1062__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_86953C79667FC2E6(::Class_2_D43F76BF4351F32C_9* a1)
+	::System::String* Method_2_2FE14E9DDA8EF9CA()
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_D43F76BF4351F32C_9*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1062_METHOD_2_86953C79667FC2E6_OFFSET))(this, a1);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1062_METHOD_2_2FE14E9DDA8EF9CA_OFFSET))(this);
 	}
 };

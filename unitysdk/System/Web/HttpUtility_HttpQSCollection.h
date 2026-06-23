@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_WEB_HTTPUTILITY_HTTPQSCOLLECTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A2654C0)
-#define SYSTEM_WEB_HTTPUTILITY_HTTPQSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2656B0)
+#define SYSTEM_WEB_HTTPUTILITY_HTTPQSCOLLECTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C6731B0)
+#define SYSTEM_WEB_HTTPUTILITY_HTTPQSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6733A0)
 
 namespace System::Web
 {
-	inline static constexpr unsigned int HttpUtility_HttpQSCollection_TypeDefinitionIndex = 3119;
+	inline static constexpr unsigned int HttpUtility_HttpQSCollection_TypeDefinitionIndex = 3118;
 
 	class HttpUtility_HttpQSCollection : public ::System::Collections::Specialized::NameValueCollection
 	{

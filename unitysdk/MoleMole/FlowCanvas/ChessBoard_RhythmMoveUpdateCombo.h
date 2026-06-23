@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATECOMBO_INVOKE_OFFSET UNITYSDK_OFFSET(0x15401C80)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATECOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x15401D70)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATECOMBO_INVOKE_OFFSET UNITYSDK_OFFSET(0x161CD0E0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATECOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x161CD1D0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_RhythmMoveUpdateCombo_TypeDefinitionIndex = 64260;
+	inline static constexpr unsigned int ChessBoard_RhythmMoveUpdateCombo_TypeDefinitionIndex = 40157;
 
 	class ChessBoard_RhythmMoveUpdateCombo : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

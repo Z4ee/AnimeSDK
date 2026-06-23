@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System::Xml::Schema { class SchemaInfo; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOLLECTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9751C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOLLECTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCEBEC0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaCollectionNode_TypeDefinitionIndex = 2126;
+	inline static constexpr unsigned int XmlSchemaCollectionNode_TypeDefinitionIndex = 2125;
 
 	class XmlSchemaCollectionNode : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchema* schema; // 0x10
+		::System::String* namespaceUri; // 0x10
 		::System::Xml::Schema::SchemaInfo* schemaInfo; // 0x18
-		::System::String* namespaceUri; // 0x20
+		::System::Xml::Schema::XmlSchema* schema; // 0x20
 
 		::System::Void _ctor()
 		{

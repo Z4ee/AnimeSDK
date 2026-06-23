@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int FogType_TypeDefinitionIndex = 5869;
+	inline static constexpr unsigned int FogType_TypeDefinitionIndex = 5876;
 
 	enum class FogType : ::System::Int32
 	{

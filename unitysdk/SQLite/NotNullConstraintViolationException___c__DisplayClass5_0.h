@@ -4,12 +4,12 @@
 
 namespace SQLite { class TableMapping_Column; }
 
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2772D0)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B277580)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D633630)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1D6338E0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int NotNullConstraintViolationException___c__DisplayClass5_0_TypeDefinitionIndex = 36752;
+	inline static constexpr unsigned int NotNullConstraintViolationException___c__DisplayClass5_0_TypeDefinitionIndex = 38362;
 
 	class NotNullConstraintViolationException___c__DisplayClass5_0 : public ::System::Object
 	{

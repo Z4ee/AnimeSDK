@@ -8,7 +8,7 @@ namespace PipelineCamera::CameraSequence { class CoreDataCollection; }
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int LevelPerformConfig_InLevelCameraSequenceConfig_TypeDefinitionIndex = 68501;
+	inline static constexpr unsigned int LevelPerformConfig_InLevelCameraSequenceConfig_TypeDefinitionIndex = 66241;
 
 	struct alignas(8) LevelPerformConfig_InLevelCameraSequenceConfig
 	{

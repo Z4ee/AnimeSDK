@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int VREffectsCBuffer_TypeDefinitionIndex = 30403;
+	inline static constexpr unsigned int VREffectsCBuffer_TypeDefinitionIndex = 27019;
 
 	struct alignas(4) VREffectsCBuffer
 	{
@@ -56,5 +56,7 @@ namespace UnityEngine::Rendering::Universal::Internal
 		::UnityEngine::Vector4 _DistanceDistortionColorizationParams2; // 0x2F0
 		::UnityEngine::Vector4 _DistanceDistortionColorizationParams3; // 0x300
 		::UnityEngine::Vector4 _DistanceDistortionColorizationParams4; // 0x310
+		::UnityEngine::Vector4 _SpotParams1; // 0x320
+		::UnityEngine::Vector4 _SpotParams2; // 0x330
 	};
 }

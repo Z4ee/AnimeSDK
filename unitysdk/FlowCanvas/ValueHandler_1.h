@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int ValueHandler_1_TypeDefinitionIndex = 28057;
+	inline static constexpr unsigned int ValueHandler_1_TypeDefinitionIndex = 29131;
 
 	template <typename T>
 	class ValueHandler_1 : public ::System::MulticastDelegate

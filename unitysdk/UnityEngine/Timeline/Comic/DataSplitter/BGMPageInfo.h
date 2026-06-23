@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5326B0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E866E20)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int BGMPageInfo_TypeDefinitionIndex = 30913;
+	inline static constexpr unsigned int BGMPageInfo_TypeDefinitionIndex = 32464;
 
 	class BGMPageInfo : public ::System::Object
 	{

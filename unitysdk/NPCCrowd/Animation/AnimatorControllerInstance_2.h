@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorControllerInstance_2_TypeDefinitionIndex = 53910;
+	inline static constexpr unsigned int AnimatorControllerInstance_2_TypeDefinitionIndex = 62111;
 
 	template <typename TState, typename TParam>
 	class AnimatorControllerInstance_2 : public ::System::Object

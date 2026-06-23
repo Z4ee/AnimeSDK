@@ -6,11 +6,11 @@
 namespace MoleMole { class UIHIADoubleWeekActivityPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149EE840)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA9760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityPageController___c__DisplayClass18_0_TypeDefinitionIndex = 38177;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityPageController___c__DisplayClass18_0_TypeDefinitionIndex = 47139;
 
 	class UIHIADoubleWeekActivityPageController___c__DisplayClass18_0 : public ::System::Object
 	{

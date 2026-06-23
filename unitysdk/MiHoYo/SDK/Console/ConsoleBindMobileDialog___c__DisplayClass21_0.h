@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console { class ConsoleBindMobileDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50D2B0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A50D2C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE45060)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BE45070)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleBindMobileDialog___c__DisplayClass21_0_TypeDefinitionIndex = 19549;
+	inline static constexpr unsigned int ConsoleBindMobileDialog___c__DisplayClass21_0_TypeDefinitionIndex = 20710;
 
 	class ConsoleBindMobileDialog___c__DisplayClass21_0 : public ::System::Object
 	{

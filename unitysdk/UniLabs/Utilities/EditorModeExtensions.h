@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UniLabs/Utilities/EditorMode.h"
 
-#define UNILABS_UTILITIES_EDITORMODEEXTENSIONS_HASFLAGFAST_OFFSET UNITYSDK_OFFSET(0x1C49CD80)
+#define UNILABS_UTILITIES_EDITORMODEEXTENSIONS_HASFLAGFAST_OFFSET UNITYSDK_OFFSET(0x1E7DA3E0)
 
 namespace UniLabs::Utilities
 {
-	inline static constexpr unsigned int EditorModeExtensions_TypeDefinitionIndex = 85819;
+	inline static constexpr unsigned int EditorModeExtensions_TypeDefinitionIndex = 91393;
 
 	class EditorModeExtensions : public ::System::Object
 	{

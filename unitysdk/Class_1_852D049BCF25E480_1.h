@@ -4,16 +4,16 @@
 
 namespace System { class Type; }
 
-#define CLASS_1_852D049BCF25E480_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5436A0)
+#define CLASS_1_852D049BCF25E480_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB2FA10)
 
-inline static constexpr unsigned int Class_1_852D049BCF25E480_1_TypeDefinitionIndex = 47201;
+inline static constexpr unsigned int Class_1_852D049BCF25E480_1_TypeDefinitionIndex = 68089;
 
 class Class_1_852D049BCF25E480_1 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Type*>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_852D049BCF25E480_1_TypeDefinitionIndex)->GetStaticField(0x40E60);
+		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_852D049BCF25E480_1_TypeDefinitionIndex)->GetStaticField(0x3A910);
 	}
 
 	static ::System::Void _cctor()

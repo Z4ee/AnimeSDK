@@ -3,9 +3,9 @@
 #include "unitysdk/AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCOMMONUSERSETTINGS_SPATIALAUDIOSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C536320)
+#define AKCOMMONUSERSETTINGS_SPATIALAUDIOSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8686E0)
 
-inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_TypeDefinitionIndex = 31513;
+inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_TypeDefinitionIndex = 33064;
 
 class AkCommonUserSettings_SpatialAudioSettings : public ::System::Object
 {

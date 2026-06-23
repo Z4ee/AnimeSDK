@@ -5,12 +5,12 @@
 namespace System { class Attribute; }
 namespace System::Collections { class ICollection; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x19216DC0)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19216E30)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B3FCE90)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FCF00)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_AttributeFilterCacheItem_TypeDefinitionIndex = 3000;
+	inline static constexpr unsigned int TypeDescriptor_AttributeFilterCacheItem_TypeDefinitionIndex = 2999;
 
 	class TypeDescriptor_AttributeFilterCacheItem : public ::System::Object
 	{

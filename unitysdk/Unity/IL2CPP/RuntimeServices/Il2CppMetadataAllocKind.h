@@ -3,26 +3,26 @@
 
 namespace Unity::IL2CPP::RuntimeServices
 {
-	inline static constexpr unsigned int Il2CppMetadataAllocKind_TypeDefinitionIndex = 6833;
+	inline static constexpr unsigned int Il2CppMetadataAllocKind_TypeDefinitionIndex = 6974;
 
 	enum class Il2CppMetadataAllocKind : ::System::Int32
 	{
-		EventInfo = 5,
-		ExtraMethodInfo = 8,
-		MethodInfo = 3,
-		StringLiteral = 10,
 		ParameterInfo = 4,
-		PropertyInfo = 6,
-		String = 9,
-		Class = 1,
 		ClassRGCTX = 11,
-		Miscellaneous = 0,
+		MethodInfo = 3,
+		String = 9,
 		Inflated = 16,
-		GenericInst = 15,
 		GenericMethod = 14,
-		FieldInfo = 7,
+		PropertyInfo = 6,
+		ExtraMethodInfo = 8,
+		Class = 1,
 		GenericClass = 13,
-		Vtable = 2,
+		Miscellaneous = 0,
+		StringLiteral = 10,
+		FieldInfo = 7,
+		EventInfo = 5,
+		GenericInst = 15,
 		MethodRGCTX = 12,
+		Vtable = 2,
 	};
 }

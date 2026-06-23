@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICompanionPlayerMoveChildWindowController_JoystickInputDir_TypeDefinitionIndex = 69461;
+	inline static constexpr unsigned int UICompanionPlayerMoveChildWindowController_JoystickInputDir_TypeDefinitionIndex = 52574;
 
 	enum class UICompanionPlayerMoveChildWindowController_JoystickInputDir : ::System::Int32
 	{
-		Down = 2,
-		LeftUp = 5,
-		Right = 4,
-		RightUp = 6,
 		LeftDown = 7,
+		Down = 2,
 		Left = 3,
+		RightUp = 6,
+		Right = 4,
+		LeftUp = 5,
 		Up = 1,
-		RightDown = 8,
 		None = 0,
+		RightDown = 8,
 	};
 }

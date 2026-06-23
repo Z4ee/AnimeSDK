@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK_PREPOSTPROCESSTRACK_OFFSET UNITYSDK_OFFSET(0x1BA42D50)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA42FB0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK_PREPOSTPROCESSTRACK_OFFSET UNITYSDK_OFFSET(0x1DD955A0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD95800)
 
 namespace MoleMole::Timeline::OverrideAnimation
 {
-	inline static constexpr unsigned int SkinOverrideAnimationTrack_TypeDefinitionIndex = 30684;
+	inline static constexpr unsigned int SkinOverrideAnimationTrack_TypeDefinitionIndex = 32235;
 
 	class SkinOverrideAnimationTrack : public ::UnityEngine::Timeline::AnimationTrack
 	{

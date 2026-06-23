@@ -8,19 +8,19 @@ namespace MoleMole { class UIQuestionsAnswerChatPlayContext; }
 namespace MoleMole { class UIQuestionsAnswerWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCHAT_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x76DB80)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCHAT_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCHAT_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8152C0)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCHAT_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__WaitChat_d__58_TypeDefinitionIndex = 74568;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__WaitChat_d__58_TypeDefinitionIndex = 61875;
 
 	struct alignas(8) UIQuestionsAnswerWidgetController__WaitChat_d__58
 	{
-		::MoleMole::UIQuestionsAnswerWidgetController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIQuestionsAnswerWidgetController* __4__this; // 0x20
 		::MoleMole::UIQuestionsAnswerChatPlayContext* context; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

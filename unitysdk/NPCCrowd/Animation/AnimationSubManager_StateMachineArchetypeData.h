@@ -30,50 +30,51 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_ADDADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0xB545B90)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_ADDSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xB5451C0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_CHECKSHAREDSTATEDATA_OFFSET UNITYSDK_OFFSET(0xB5463D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_CLEARCOLLECTDATA_OFFSET UNITYSDK_OFFSET(0xB546940)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_COLLECT_OFFSET UNITYSDK_OFFSET(0xB546A40)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB546CF0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_FINDORADDSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xB544FB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xB5465D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDPARAMDATA_OFFSET UNITYSDK_OFFSET(0xB546810)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDSTATEDATA_OFFSET UNITYSDK_OFFSET(0xB5466E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_ISCHUNKVALID_OFFSET UNITYSDK_OFFSET(0xB544F20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB544E10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_SHAREDDATAVIEW_OFFSET UNITYSDK_OFFSET(0xB546C60)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_SHAREDSTATEDATAVIEW_OFFSET UNITYSDK_OFFSET(0xB546BC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_POSTCOLLECT_OFFSET UNITYSDK_OFFSET(0xB546AA0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB544220)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_ADDADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0xFDE8DB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_ADDSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xFDE83E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_CHECKSHAREDSTATEDATA_OFFSET UNITYSDK_OFFSET(0xFDE9E60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_CLEARCOLLECTDATA_OFFSET UNITYSDK_OFFSET(0xFDEA3D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_COLLECT_OFFSET UNITYSDK_OFFSET(0xFDEA4D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFDEA780)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_FINDORADDSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xFDE81D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xFDEA060)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDPARAMDATA_OFFSET UNITYSDK_OFFSET(0xFDEA2A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GETSHAREDSTATEDATA_OFFSET UNITYSDK_OFFSET(0xFDEA170)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_CHUNKCOUNT_OFFSET UNITYSDK_OFFSET(0xFDE80E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_ISCHUNKVALID_OFFSET UNITYSDK_OFFSET(0xFDE8140)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xFDE7FD0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_SHAREDDATAVIEW_OFFSET UNITYSDK_OFFSET(0xFDEA6F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_SHAREDSTATEDATAVIEW_OFFSET UNITYSDK_OFFSET(0xFDEA650)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_POSTCOLLECT_OFFSET UNITYSDK_OFFSET(0xFDEA530)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFDE73F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeData_TypeDefinitionIndex = 70488;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeData_TypeDefinitionIndex = 57384;
 
 	class AnimationSubManager_StateMachineArchetypeData : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_NormalizedTimeHashs()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_StateMachineArchetypeData_TypeDefinitionIndex)->GetStaticField(0x3AFB0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_StateMachineArchetypeData_TypeDefinitionIndex)->GetStaticField(0x3D0F0);
 		}
 		// static const ::System::Int32 ChunkSizeBit = 0x4; // 0x0
 		// static const ::System::String* NormalizedTimeLayer; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* _sharedDataMap; // 0x10
-		::Foundation::Adapter::ChunkList2D_1<::Foundation::StateMachine::Parameter>* _sharedParamData; // 0x18
-		::Il2CppArray<::Foundation::Container::NativeVector_1<::System::IntPtr>>* _chunkData; // 0x20
-		::NPCCrowd::Animation::AnimationControllerTemplateConfig* _templateConfig; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::StateMachine::ParameterId>* ParamLookupTable; // 0x10
+		::Il2CppArray<::Foundation::Container::NativeVector_1<::System::IntPtr>>* _chunkData; // 0x18
+		::Foundation::Adapter::ChunkList2D_1<::Foundation::StateMachine::Parameter>* _sharedParamData; // 0x20
+		::Il2CppArray<::Foundation::StateMachine::StateId>* DefaultState; // 0x28
 		::Foundation::Adapter::ChunkList2D_1<::NPCCrowd::Animation::CPUStateMachine::SharedStateData>* _sharedStateData; // 0x30
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::SharedData>* _sharedData; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* StateLookupTable; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::StateMachine::ParameterId>* ParamLookupTable; // 0x48
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationControllerInstanceConfig*>* _instanceConfigs; // 0x50
-		::Il2CppArray<::Foundation::StateMachine::StateId>* DefaultState; // 0x58
-		::Foundation::StateMachine::Machine MachineData; // 0x60
-		::Foundation::Container::NativeVector_1<::Foundation::StateMachine::ParameterId> NormalizedTimeIds; // 0x118
-		::Foundation::Container::NativeVector_1<::System::Int32> _count; // 0x128
-		::Foundation::Container::NativeVector_1<::System::Int32> _dimensions; // 0x138
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* StateLookupTable; // 0x38
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::SharedData>* _sharedData; // 0x40
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationControllerInstanceConfig*>* _instanceConfigs; // 0x48
+		::NPCCrowd::Animation::AnimationControllerTemplateConfig* _templateConfig; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* _sharedDataMap; // 0x58
+		::Foundation::Container::NativeVector_1<::System::Int32> _dimensions; // 0x60
+		::Foundation::StateMachine::Machine MachineData; // 0x70
+		::Foundation::Container::NativeVector_1<::Foundation::StateMachine::ParameterId> NormalizedTimeIds; // 0x128
+		::Foundation::Container::NativeVector_1<::System::Int32> _count; // 0x138
 
 		::System::Void _ctor(::NPCCrowd::Animation::AnimationControllerTemplateConfig* templateConfig)
 		{
@@ -83,6 +84,11 @@ namespace NPCCrowd::Animation
 		::System::Boolean get_IsValid()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_ISVALID_OFFSET))(this);
+		}
+
+		::System::Int32 get_ChunkCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA_GET_CHUNKCOUNT_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsChunkValid()

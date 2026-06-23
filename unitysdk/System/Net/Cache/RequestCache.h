@@ -9,14 +9,14 @@ namespace System::Collections::Specialized { class StringCollection; }
 namespace System::IO { class Stream; }
 namespace System::Net::Cache { class RequestCacheEntry; }
 
-#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x193B61A0)
-#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_ISPRIVATECACHE_OFFSET UNITYSDK_OFFSET(0x193B6190)
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x193B61B0)
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x193B6180)
+#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1B7618F0)
+#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_ISPRIVATECACHE_OFFSET UNITYSDK_OFFSET(0x1B7618E0)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B761900)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7618D0)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 3861;
+	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 3860;
 
 	class RequestCache : public ::System::Object
 	{

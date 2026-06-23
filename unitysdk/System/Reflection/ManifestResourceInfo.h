@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C1A20)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB21F20)
 
 namespace System::Reflection
 {

@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ObjectPo
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GenericPool_1_TypeDefinitionIndex = 5960;
+	inline static constexpr unsigned int GenericPool_1_TypeDefinitionIndex = 5970;
 
 	template <typename T>
 	class GenericPool_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Authenticode
 {
-	inline static constexpr unsigned int Authority_TypeDefinitionIndex = 2475;
+	inline static constexpr unsigned int Authority_TypeDefinitionIndex = 2474;
 
 	enum class Authority : ::System::Int32
 	{

@@ -1,12 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/StateTreeCore/StateTreeExternalDataDesc.h"
+#include "unitysdk/UnrealTypes/Object.h"
+#include "unitysdk/UnrealTypes/ReadOnlyNativeListView_1.h"
+
+namespace UnrealTypes { class Class; }
+namespace UnrealTypes { class ScriptStruct; }
+namespace UnrealTypes { class Struct; }
+
+#define STATETREECORE_STATETREESCHEMA_GETCONTEXTDATADESCS_OFFSET UNITYSDK_OFFSET(0x1E78AD20)
+#define STATETREECORE_STATETREESCHEMA_ISCLASSALLOWED_OFFSET UNITYSDK_OFFSET(0x1E78AD00)
+#define STATETREECORE_STATETREESCHEMA_ISEXTERNALITEMALLOWED_OFFSET UNITYSDK_OFFSET(0x1E78AD10)
+#define STATETREECORE_STATETREESCHEMA_ISSTRUCTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E78ACF0)
+#define STATETREECORE_STATETREESCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78AD30)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeSchema_TypeDefinitionIndex = 28398;
+	inline static constexpr unsigned int StateTreeSchema_TypeDefinitionIndex = 31052;
 
-	struct alignas(1) StateTreeSchema
+	class StateTreeSchema : public ::UnrealTypes::Object
 	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREESCHEMA__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsStructAllowed(::UnrealTypes::ScriptStruct* scriptStruct)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::ScriptStruct*))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREESCHEMA_ISSTRUCTALLOWED_OFFSET))(this, scriptStruct);
+		}
+
+		::System::Boolean IsClassAllowed(::UnrealTypes::Class* class_)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::Class*))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREESCHEMA_ISCLASSALLOWED_OFFSET))(this, class_);
+		}
+
+		::System::Boolean IsExternalItemAllowed(::UnrealTypes::Struct* struct_)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::Struct*))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREESCHEMA_ISEXTERNALITEMALLOWED_OFFSET))(this, struct_);
+		}
+
+		::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc> GetContextDataDescs()
+		{
+			return ((::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc>(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREESCHEMA_GETCONTEXTDATADESCS_OFFSET))(this);
+		}
 	};
 }

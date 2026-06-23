@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UILEVELINFOWIDGETCONTROLLER_LEVELITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15004140)
+#define MOLEMOLE_UILEVELINFOWIDGETCONTROLLER_LEVELITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x177DB250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelInfoWidgetController_LevelItem_TypeDefinitionIndex = 42696;
+	inline static constexpr unsigned int UILevelInfoWidgetController_LevelItem_TypeDefinitionIndex = 45858;
 
 	class UILevelInfoWidgetController_LevelItem : public ::System::Object
 	{
 	public:
 		::System::String* desc; // 0x10
-		::System::Int32 level; // 0x18
-		::System::Int32 rankid; // 0x1C
-		::System::Boolean locked; // 0x20
-		::System::Boolean changeColor; // 0x21
-		::UnityEngine::Color descColor; // 0x24
+		::System::Boolean changeColor; // 0x18
+		::System::Boolean locked; // 0x19
+		::System::Int32 level; // 0x1C
+		::UnityEngine::Color descColor; // 0x20
+		::System::Int32 rankid; // 0x30
 
 		::System::Void _ctor()
 		{

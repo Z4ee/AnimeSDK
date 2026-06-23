@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_CUSTOMBRIDGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7AD570)
+#define IFIX_CUSTOMBRIDGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD540)
 
 namespace IFix
 {
-	inline static constexpr unsigned int CustomBridgeAttribute_TypeDefinitionIndex = 6778;
+	inline static constexpr unsigned int CustomBridgeAttribute_TypeDefinitionIndex = 6909;
 
 	class CustomBridgeAttribute : public ::System::Attribute
 	{

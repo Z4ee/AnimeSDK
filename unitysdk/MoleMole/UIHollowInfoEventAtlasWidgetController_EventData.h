@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER_EVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15CBEA30)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER_EVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1881F480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoEventAtlasWidgetController_EventData_TypeDefinitionIndex = 69348;
+	inline static constexpr unsigned int UIHollowInfoEventAtlasWidgetController_EventData_TypeDefinitionIndex = 69051;
 
 	class UIHollowInfoEventAtlasWidgetController_EventData : public ::System::Object
 	{

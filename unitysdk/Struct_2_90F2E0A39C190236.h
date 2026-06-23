@@ -6,9 +6,9 @@
 namespace MoleMole::Config { class ConfigTurnBasePreviewEffect; }
 namespace System { class String; }
 
-#define STRUCT_2_90F2E0A39C190236__CTOR_OFFSET UNITYSDK_OFFSET(0x72F9F0)
+#define STRUCT_2_90F2E0A39C190236__CTOR_OFFSET UNITYSDK_OFFSET(0x80A7F0)
 
-inline static constexpr unsigned int Struct_2_90F2E0A39C190236_TypeDefinitionIndex = 71214;
+inline static constexpr unsigned int Struct_2_90F2E0A39C190236_TypeDefinitionIndex = 83394;
 
 struct alignas(8) Struct_2_90F2E0A39C190236
 {

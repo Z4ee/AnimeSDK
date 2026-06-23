@@ -6,13 +6,13 @@
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19565700)
-#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x195657F0)
-#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19565640)
+#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B9480A0)
+#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B948190)
+#define SYSTEM_THREADING_TASKS_TASKCANCELEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B947FE0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskCanceledException_TypeDefinitionIndex = 919;
+	inline static constexpr unsigned int TaskCanceledException_TypeDefinitionIndex = 918;
 
 	class TaskCanceledException : public ::System::OperationCanceledException
 	{

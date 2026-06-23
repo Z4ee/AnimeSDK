@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_PROPERTYCONSTANT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B7AE7B0)
-#define UNITYENGINE_TIMELINE_PROPERTYCONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7AE740)
+#define UNITYENGINE_TIMELINE_PROPERTYCONSTANT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DB90B90)
+#define UNITYENGINE_TIMELINE_PROPERTYCONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB90B20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PropertyConstant_TypeDefinitionIndex = 30741;
+	inline static constexpr unsigned int PropertyConstant_TypeDefinitionIndex = 32292;
 
 	class PropertyConstant : public ::System::Object
 	{

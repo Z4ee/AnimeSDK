@@ -10,7 +10,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_4_TypeDefinitionIndex = 85706;
+	inline static constexpr unsigned int CollectionFormatterBase_4_TypeDefinitionIndex = 91280;
 
 	template <typename TElement, typename TIntermediate, typename TEnumerator, typename TCollection>
 	class CollectionFormatterBase_4 : public ::System::Object

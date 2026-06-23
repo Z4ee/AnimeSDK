@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_855BB6A8CC9E7974_3.h"
+#include "unitysdk/Class_2_855BB6A8CC9E7974.h"
 
-class Class_2_208CC9941471731A_282;
-class Class_2_E33C3D8379182471;
+class Class_2_208CC9941471731A_888;
+class Class_2_EE5CA22072C05B40;
 
-#define CLASS_3_60E1D351EE1DEED8_METHOD_3_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x12AC1B20)
-#define CLASS_3_60E1D351EE1DEED8_METHOD_3_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x12AC1B10)
-#define CLASS_3_60E1D351EE1DEED8__CTOR_OFFSET UNITYSDK_OFFSET(0x12AC1A10)
+#define CLASS_3_60E1D351EE1DEED8_METHOD_3_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0x1281DC50)
+#define CLASS_3_60E1D351EE1DEED8_METHOD_3_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1281DC40)
+#define CLASS_3_60E1D351EE1DEED8__CTOR_OFFSET UNITYSDK_OFFSET(0x1281DB40)
 
-inline static constexpr unsigned int Class_3_60E1D351EE1DEED8_TypeDefinitionIndex = 50653;
+inline static constexpr unsigned int Class_3_60E1D351EE1DEED8_TypeDefinitionIndex = 43166;
 
-class Class_3_60E1D351EE1DEED8 : public ::Class_2_855BB6A8CC9E7974_3
+class Class_3_60E1D351EE1DEED8 : public ::Class_2_855BB6A8CC9E7974
 {
 public:
-	::Class_2_208CC9941471731A_282* Field_3_1; // 0x30
-	::Class_2_E33C3D8379182471* Field_3_0; // 0x38
+	::Class_2_208CC9941471731A_888* Field_3_1; // 0x30
+	::Class_2_EE5CA22072C05B40* Field_3_0; // 0x38
 
-	::System::Void _ctor(::Class_2_E33C3D8379182471* a1, ::System::Boolean a2)
+	::System::Void _ctor(::Class_2_EE5CA22072C05B40* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_E33C3D8379182471*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_60E1D351EE1DEED8__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_EE5CA22072C05B40*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_60E1D351EE1DEED8__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Int32 Method_3_C74CF020AA42ED85()
@@ -27,8 +27,8 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_60E1D351EE1DEED8_METHOD_3_C74CF020AA42ED85_OFFSET))(this);
 	}
 
-	::System::Void Method_3_460F8AE6EF9687FD()
+	::System::Void Method_3_735EE20B25F86BF4()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_60E1D351EE1DEED8_METHOD_3_460F8AE6EF9687FD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_60E1D351EE1DEED8_METHOD_3_735EE20B25F86BF4_OFFSET))(this);
 	}
 };

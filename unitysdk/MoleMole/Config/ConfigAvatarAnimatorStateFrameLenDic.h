@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGAVATARANIMATORSTATEFRAMELENDIC__CTOR_OFFSET UNITYSDK_OFFSET(0xED0FD90)
+#define MOLEMOLE_CONFIG_CONFIGAVATARANIMATORSTATEFRAMELENDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x10CFAD60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAvatarAnimatorStateFrameLenDic_TypeDefinitionIndex = 77360;
+	inline static constexpr unsigned int ConfigAvatarAnimatorStateFrameLenDic_TypeDefinitionIndex = 71397;
 
 	class ConfigAvatarAnimatorStateFrameLenDic : public ::Foundation::MihoyoSerializedScriptableObject
 	{

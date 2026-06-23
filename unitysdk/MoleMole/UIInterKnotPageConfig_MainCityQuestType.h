@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPageConfig_MainCityQuestType_TypeDefinitionIndex = 62789;
+	inline static constexpr unsigned int UIInterKnotPageConfig_MainCityQuestType_TypeDefinitionIndex = 61204;
 
 	enum class UIInterKnotPageConfig_MainCityQuestType : ::System::Int32
 	{
-		CharacterQuest = 3,
 		None = 0,
-		MainQuest = 1,
-		ActivityQuest = 6,
+		MainFreePhase2 = 12,
 		MainFreePhase1 = 11,
+		MainQuest = 1,
 		SideQuest = 2,
 		CharacterMessageQuest = 31,
+		ActivityQuest = 6,
 		DailyQuest = 5,
-		MainFreePhase2 = 12,
+		CharacterQuest = 3,
 	};
 }

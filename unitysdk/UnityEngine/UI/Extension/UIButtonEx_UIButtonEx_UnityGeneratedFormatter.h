@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 namespace UnityEngine::UI::Extension { class UIImgEventTrigger_ScrollCallback; }
 
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12AA68E0)
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12AA68F0)
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12AA6AD0)
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AA6C70)
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA6C30)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1DA4D9F0)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1DA4DA00)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1DA4DBE0)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA4DD80)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEX_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4DD40)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex = 46952;
+	inline static constexpr unsigned int UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex = 70891;
 
 	class UIButtonEx_UIButtonEx_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::UnityEngine::UI::Extension::UIButtonEx*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::UI::Extension::UIImgEventTrigger_ScrollCallback*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::UI::Extension::UIImgEventTrigger_ScrollCallback*>**)Il2CppClass::FromTypeDefinitionIndex(UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42770);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::UI::Extension::UIImgEventTrigger_ScrollCallback*>**)Il2CppClass::FromTypeDefinitionIndex(UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x457F0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>**)Il2CppClass::FromTypeDefinitionIndex(UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42778);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>**)Il2CppClass::FromTypeDefinitionIndex(UIButtonEx_UIButtonEx_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x457F8);
 		}
 
 		::System::Void _ctor()

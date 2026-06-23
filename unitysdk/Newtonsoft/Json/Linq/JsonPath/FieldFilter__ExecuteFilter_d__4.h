@@ -11,36 +11,36 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C0A1CB0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_NEWTONSOFT_JSON_LINQ_JTOKEN__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C0A24D0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_NEWTONSOFT_JSON_LINQ_JTOKEN__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C0A2460)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C0A26C0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C0A24C0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C0A2470)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C0A18C0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A17E0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C0A1BD0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1C0A1AF0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E3C0510)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_NEWTONSOFT_JSON_LINQ_JTOKEN__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E3C0D30)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_NEWTONSOFT_JSON_LINQ_JTOKEN__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E3C0CC0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E3C0F20)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E3C0D20)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E3C0CD0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E3C0120)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C0040)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1E3C0430)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_FIELDFILTER__EXECUTEFILTER_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1E3C0350)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int FieldFilter__ExecuteFilter_d__4_TypeDefinitionIndex = 7074;
+	inline static constexpr unsigned int FieldFilter__ExecuteFilter_d__4_TypeDefinitionIndex = 7205;
 
 	class FieldFilter__ExecuteFilter_d__4 : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Linq::JObject* _o_5__1; // 0x10
-		::Newtonsoft::Json::Linq::JToken* __2__current; // 0x18
-		::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current; // 0x20
-		::Newtonsoft::Json::Linq::JToken* _t_5__2; // 0x28
-		::Newtonsoft::Json::Linq::JsonPath::FieldFilter* __4__this; // 0x30
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Newtonsoft::Json::Linq::JToken*>>* __7__wrap2; // 0x38
-		::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap1; // 0x40
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Newtonsoft::Json::Linq::JToken*>>* __7__wrap2; // 0x10
+		::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap1; // 0x18
+		::Newtonsoft::Json::Linq::JObject* _o_5__1; // 0x20
+		::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current; // 0x28
+		::Newtonsoft::Json::Linq::JToken* __2__current; // 0x30
+		::Newtonsoft::Json::Linq::JsonPath::FieldFilter* __4__this; // 0x38
+		::Newtonsoft::Json::Linq::JToken* _t_5__2; // 0x40
 		::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* __3__current; // 0x48
-		::System::Boolean __3__errorWhenNoMatch; // 0x50
-		::System::Boolean errorWhenNoMatch; // 0x51
-		::System::Int32 __l__initialThreadId; // 0x54
-		::System::Int32 __1__state; // 0x58
+		::System::Boolean errorWhenNoMatch; // 0x50
+		::System::Boolean __3__errorWhenNoMatch; // 0x51
+		::System::Int32 __1__state; // 0x54
+		::System::Int32 __l__initialThreadId; // 0x58
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

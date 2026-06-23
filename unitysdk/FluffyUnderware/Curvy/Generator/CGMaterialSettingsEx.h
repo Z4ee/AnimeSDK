@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/Curvy/Generator/CGMaterialSettings.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMATERIALSETTINGSEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B727590)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMATERIALSETTINGSEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09200)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGMaterialSettingsEx_TypeDefinitionIndex = 37310;
+	inline static constexpr unsigned int CGMaterialSettingsEx_TypeDefinitionIndex = 38951;
 
 	class CGMaterialSettingsEx : public ::FluffyUnderware::Curvy::Generator::CGMaterialSettings
 	{

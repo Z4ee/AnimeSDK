@@ -6,7 +6,7 @@ namespace MoleMole { class UIAdaptData; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBlackEdgeInfoPopWindowController___c__DisplayClass3_0_TypeDefinitionIndex = 81917;
+	inline static constexpr unsigned int UIBlackEdgeInfoPopWindowController___c__DisplayClass3_0_TypeDefinitionIndex = 67412;
 
 	struct alignas(8) UIBlackEdgeInfoPopWindowController___c__DisplayClass3_0
 	{

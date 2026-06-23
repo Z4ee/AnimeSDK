@@ -5,12 +5,12 @@
 namespace MoleMole { class UIOngoingTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CLOSECHAT_B__0_OFFSET UNITYSDK_OFFSET(0x15588E00)
-#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15588DF0)
+#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CLOSECHAT_B__0_OFFSET UNITYSDK_OFFSET(0x178C6BA0)
+#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178C6B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOngoingTipsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 80483;
+	inline static constexpr unsigned int UIOngoingTipsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 70717;
 
 	class UIOngoingTipsWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

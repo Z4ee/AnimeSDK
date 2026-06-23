@@ -6,16 +6,16 @@ namespace MoleMole::Config { class ConfigEntityShadowsMidtonesHighlightsEffects;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_F06C4EB90B7E5A12_METHOD_1_A076548AE4CDB6AB_OFFSET UNITYSDK_OFFSET(0x15954DF0)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_F06C4EB90B7E5A12__CTOR_OFFSET UNITYSDK_OFFSET(0x15954DE0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_F06C4EB90B7E5A12_METHOD_1_A076548AE4CDB6AB_OFFSET UNITYSDK_OFFSET(0x19644D20)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_F06C4EB90B7E5A12__CTOR_OFFSET UNITYSDK_OFFSET(0x19644D10)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_F06C4EB90B7E5A12_TypeDefinitionIndex = 69932;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_F06C4EB90B7E5A12_TypeDefinitionIndex = 77439;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_F06C4EB90B7E5A12 : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Config::ConfigEntityShadowsMidtonesHighlightsEffects*>* Field_1_2; // 0x10
-	::System::Action* Field_1_1; // 0x18
+	::System::Action* Field_1_1; // 0x10
+	::System::Action_1<::MoleMole::Config::ConfigEntityShadowsMidtonesHighlightsEffects*>* Field_1_2; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

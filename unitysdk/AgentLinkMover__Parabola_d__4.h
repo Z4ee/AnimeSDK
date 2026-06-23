@@ -5,26 +5,26 @@
 
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define AGENTLINKMOVER__PARABOLA_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x127DE370)
-#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x127DE5E0)
-#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x127DE640)
-#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x127DE5F0)
-#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x127DE360)
-#define AGENTLINKMOVER__PARABOLA_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x127DE350)
+#define AGENTLINKMOVER__PARABOLA_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12389630)
+#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x123898A0)
+#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12389900)
+#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x123898B0)
+#define AGENTLINKMOVER__PARABOLA_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12389620)
+#define AGENTLINKMOVER__PARABOLA_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x12389610)
 
-inline static constexpr unsigned int AgentLinkMover__Parabola_d__4_TypeDefinitionIndex = 80470;
+inline static constexpr unsigned int AgentLinkMover__Parabola_d__4_TypeDefinitionIndex = 49401;
 
 class AgentLinkMover__Parabola_d__4 : public ::System::Object
 {
 public:
-	::UnityEngine::AI::NavMeshAgent* agent; // 0x10
-	::System::Object* __2__current; // 0x18
-	::UnityEngine::Vector3 _endPos_5__3; // 0x20
-	::System::Single duration; // 0x2C
-	::System::Int32 __1__state; // 0x30
-	::System::Single height; // 0x34
-	::System::Single _normalizedTime_5__4; // 0x38
-	::UnityEngine::Vector3 _startPos_5__2; // 0x3C
+	::System::Object* __2__current; // 0x10
+	::UnityEngine::AI::NavMeshAgent* agent; // 0x18
+	::System::Single height; // 0x20
+	::System::Single _normalizedTime_5__4; // 0x24
+	::UnityEngine::Vector3 _startPos_5__2; // 0x28
+	::UnityEngine::Vector3 _endPos_5__3; // 0x34
+	::System::Single duration; // 0x40
+	::System::Int32 __1__state; // 0x44
 
 	::System::Void _ctor(::System::Int32 __1__state)
 	{

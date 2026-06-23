@@ -6,40 +6,40 @@ namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine::NAPRenderPipeline0 { class RayTracingResources; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B182720)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B181D70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_GET_RTXRES_OFFSET UNITYSDK_OFFSET(0x1B181D60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_LOAD_OFFSET UNITYSDK_OFFSET(0x1B181DE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_SETRESOURCES_OFFSET UNITYSDK_OFFSET(0x1B182460)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B182770)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B181DD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D5830F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D582740)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_GET_RTXRES_OFFSET UNITYSDK_OFFSET(0x1D582730)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_LOAD_OFFSET UNITYSDK_OFFSET(0x1D5827B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER_SETRESOURCES_OFFSET UNITYSDK_OFFSET(0x1D582E30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D583140)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BLUENOISESAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5827A0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int BlueNoiseSampler_TypeDefinitionIndex = 5786;
+	inline static constexpr unsigned int BlueNoiseSampler_TypeDefinitionIndex = 5790;
 
 	class BlueNoiseSampler : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__ScramblingTile()
+		static ::System::Int32* StaticGet__Slice()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2D70);
-		}
-		static ::System::Int32* StaticGet__Sobol()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2D74);
-		}
-		static ::System::Int32* StaticGet__Data()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2D78);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2DA0);
 		}
 		static ::System::Int32* StaticGet__RankingTile()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2D7C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2DA4);
 		}
-		static ::System::Int32* StaticGet__Slice()
+		static ::System::Int32* StaticGet__Data()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2D80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2DA8);
+		}
+		static ::System::Int32* StaticGet__Sobol()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2DAC);
+		}
+		static ::System::Int32* StaticGet__ScramblingTile()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlueNoiseSampler_TypeDefinitionIndex)->GetStaticField(0x2DB0);
 		}
 		::UnityEngine::ComputeBuffer* dataBuffer0; // 0x10
 		::UnityEngine::ComputeBuffer* dataBuffer1; // 0x18

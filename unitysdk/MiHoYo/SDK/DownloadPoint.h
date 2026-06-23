@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_DOWNLOADPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA84B10)
+#define MIHOYO_SDK_DOWNLOADPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7CBB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DownloadPoint_TypeDefinitionIndex = 35109;
+	inline static constexpr unsigned int DownloadPoint_TypeDefinitionIndex = 36673;
 
 	class DownloadPoint : public ::System::Object
 	{
 	public:
-		::System::UInt64 time; // 0x10
-		::System::UInt64 downloadSize; // 0x18
+		::System::UInt64 downloadSize; // 0x10
+		::System::UInt64 time; // 0x18
 
 		::System::Void _ctor(::System::UInt64 time, ::System::UInt64 downloadSize)
 		{

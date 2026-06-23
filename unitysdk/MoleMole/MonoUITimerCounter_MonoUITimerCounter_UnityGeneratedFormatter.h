@@ -13,30 +13,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10E48F60)
-#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10E48F70)
-#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10E492D0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E49520)
-#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10E494E0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x191708A0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x191708B0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x19170C10)
+#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19170E60)
+#define MOLEMOLE_MONOUITIMERCOUNTER_MONOUITIMERCOUNTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19170E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex = 48182;
+	inline static constexpr unsigned int MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex = 46886;
 
 	class MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoUITimerCounter*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RollConfig>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RollConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A30);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RandomConfig>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RandomConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A38);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RandomConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39EF0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RollConfig>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RollConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39EF8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::UnityEngine::UI::Image*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::UnityEngine::UI::Image*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A40);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::UnityEngine::UI::Image*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUITimerCounter_MonoUITimerCounter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39F00);
 		}
 
 		::System::Void _ctor()

@@ -10,25 +10,25 @@ namespace MoleMole { class UIGeneralToggleWidgetController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_834D5E50EF6D17E3_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x12DD48A0)
-#define CLASS_2_834D5E50EF6D17E3_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x12DD4AA0)
-#define CLASS_2_834D5E50EF6D17E3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12DD4BB0)
-#define CLASS_2_834D5E50EF6D17E3__CTOR_OFFSET UNITYSDK_OFFSET(0x12DD4BA0)
+#define CLASS_2_834D5E50EF6D17E3_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x1A204930)
+#define CLASS_2_834D5E50EF6D17E3_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x1A204B30)
+#define CLASS_2_834D5E50EF6D17E3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1A204C40)
+#define CLASS_2_834D5E50EF6D17E3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A204C30)
 
-inline static constexpr unsigned int Class_2_834D5E50EF6D17E3_TypeDefinitionIndex = 82253;
+inline static constexpr unsigned int Class_2_834D5E50EF6D17E3_TypeDefinitionIndex = 76915;
 
 class Class_2_834D5E50EF6D17E3 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_5; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_6; // 0x28
-	::MonoUITableScrollV2* Field_2_1; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x40
-	::UnityEngine::Transform* Field_2_3; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x18
+	::UnityEngine::Transform* Field_2_3; // 0x20
+	::MonoUITableScrollV2* Field_2_1; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x30
+	::UnityEngine::GameObject* Field_2_5; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x40
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_6; // 0x48
 
 	::System::Void _ctor()
 	{

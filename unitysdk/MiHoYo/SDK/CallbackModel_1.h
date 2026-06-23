@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CallbackModel_1_TypeDefinitionIndex = 18735;
+	inline static constexpr unsigned int CallbackModel_1_TypeDefinitionIndex = 19630;
 
 	template <typename T>
 	class CallbackModel_1 : public ::System::Object

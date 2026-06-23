@@ -3,11 +3,11 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GraphBufferWriter_MODE_TypeDefinitionIndex = 26463;
+	inline static constexpr unsigned int GraphBufferWriter_MODE_TypeDefinitionIndex = 30537;
 
 	enum class GraphBufferWriter_MODE : ::System::Int32
 	{
-		WRAP_ORGIN = 1,
 		SELF = 0,
+		WRAP_ORGIN = 1,
 	};
 }

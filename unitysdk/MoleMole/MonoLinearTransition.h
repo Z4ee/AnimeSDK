@@ -7,13 +7,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI::Extension { class UILinearTransition; }
 
-#define MOLEMOLE_MONOLINEARTRANSITION_REFRESH_OFFSET UNITYSDK_OFFSET(0x125E4C00)
-#define MOLEMOLE_MONOLINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x125E4BB0)
-#define MOLEMOLE_MONOLINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x125E4EF0)
+#define MOLEMOLE_MONOLINEARTRANSITION_REFRESH_OFFSET UNITYSDK_OFFSET(0x13038450)
+#define MOLEMOLE_MONOLINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x13038400)
+#define MOLEMOLE_MONOLINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x13038740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLinearTransition_TypeDefinitionIndex = 40643;
+	inline static constexpr unsigned int MonoLinearTransition_TypeDefinitionIndex = 52210;
 
 	class MonoLinearTransition : public ::UnityEngine::MonoBehaviour
 	{

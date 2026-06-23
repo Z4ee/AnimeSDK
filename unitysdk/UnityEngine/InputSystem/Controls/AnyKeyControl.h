@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/Controls/ButtonControl.h"
 
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_ANYKEYCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1B34C290)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_ANYKEYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34C110)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_ANYKEYCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1D739F70)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_ANYKEYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D739DF0)
 
 namespace UnityEngine::InputSystem::Controls
 {
-	inline static constexpr unsigned int AnyKeyControl_TypeDefinitionIndex = 29350;
+	inline static constexpr unsigned int AnyKeyControl_TypeDefinitionIndex = 32006;
 
 	class AnyKeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl
 	{

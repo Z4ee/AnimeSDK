@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_84516C3E776F194F_OFFSET UNITYSDK_OFFSET(0x1A14FBE0)
-#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_8FD0952225841B46_OFFSET UNITYSDK_OFFSET(0x1A14FC50)
-#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1A14FC40)
-#define CLASS_1_9AC357D52CEBEEFD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A14FAE0)
+#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_84516C3E776F194F_OFFSET UNITYSDK_OFFSET(0x13AAC6F0)
+#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_8FD0952225841B46_OFFSET UNITYSDK_OFFSET(0x13AAC760)
+#define CLASS_1_9AC357D52CEBEEFD_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x13AAC750)
+#define CLASS_1_9AC357D52CEBEEFD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13AAC5F0)
 
-inline static constexpr unsigned int Class_1_9AC357D52CEBEEFD_1_TypeDefinitionIndex = 47843;
+inline static constexpr unsigned int Class_1_9AC357D52CEBEEFD_1_TypeDefinitionIndex = 60419;
 
 class Class_1_9AC357D52CEBEEFD_1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_3; // 0x10
-	::UnityEngine::Transform* Field_1_2; // 0x18
-	::System::Action_2<::System::Boolean, ::System::String*>* Field_1_4; // 0x20
-	::Class_2_B4378B46E0020E85* Field_1_1; // 0x28
+	::Class_2_B4378B46E0020E85* Field_1_1; // 0x10
+	::System::Action_2<::System::Boolean, ::System::String*>* Field_1_4; // 0x18
+	::UnityEngine::Transform* Field_1_2; // 0x20
+	::System::String* Field_1_3; // 0x28
 	::System::Boolean Field_1_0; // 0x30
 
 	::System::Void _ctor(::System::Boolean a1, ::Class_2_B4378B46E0020E85* a2, ::UnityEngine::Transform* a3, ::System::String* a4, ::System::Action_2<::System::Boolean, ::System::String*>* a5)

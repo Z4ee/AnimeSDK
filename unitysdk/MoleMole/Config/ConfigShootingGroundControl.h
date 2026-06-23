@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/Config/ConfigShootingGroundControl_ZoomInputType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x17539D00)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x144E40E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundControl_TypeDefinitionIndex = 55361;
+	inline static constexpr unsigned int ConfigShootingGroundControl_TypeDefinitionIndex = 58936;
 
 	class ConfigShootingGroundControl : public ::System::Object
 	{

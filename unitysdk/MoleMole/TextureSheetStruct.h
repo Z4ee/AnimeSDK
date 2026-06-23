@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetStruct_TypeDefinitionIndex = 71001;
+	inline static constexpr unsigned int TextureSheetStruct_TypeDefinitionIndex = 66288;
 
 	struct alignas(8) TextureSheetStruct
 	{

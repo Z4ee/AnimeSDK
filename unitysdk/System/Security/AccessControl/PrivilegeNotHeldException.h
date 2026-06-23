@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A0B91B0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B90F0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C5052D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C505210)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int PrivilegeNotHeldException_TypeDefinitionIndex = 998;
+	inline static constexpr unsigned int PrivilegeNotHeldException_TypeDefinitionIndex = 997;
 
 	class PrivilegeNotHeldException : public ::System::UnauthorizedAccessException
 	{

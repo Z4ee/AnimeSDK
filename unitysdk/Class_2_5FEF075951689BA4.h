@@ -7,18 +7,18 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define CLASS_2_5FEF075951689BA4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10C20180)
-#define CLASS_2_5FEF075951689BA4_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10C200A0)
-#define CLASS_2_5FEF075951689BA4__CTOR_OFFSET UNITYSDK_OFFSET(0x10C20170)
+#define CLASS_2_5FEF075951689BA4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13AB0960)
+#define CLASS_2_5FEF075951689BA4_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x13AB0880)
+#define CLASS_2_5FEF075951689BA4__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB0950)
 
-inline static constexpr unsigned int Class_2_5FEF075951689BA4_TypeDefinitionIndex = 63988;
+inline static constexpr unsigned int Class_2_5FEF075951689BA4_TypeDefinitionIndex = 66993;
 
 class Class_2_5FEF075951689BA4 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::SkinnedMeshRenderer* Field_2_1; // 0x18
-	::UnityEngine::SkinnedMeshRenderer* Field_2_2; // 0x20
-	::UnityEngine::Animator* Field_2_0; // 0x28
+	::UnityEngine::SkinnedMeshRenderer* Field_2_2; // 0x18
+	::UnityEngine::Animator* Field_2_0; // 0x20
+	::UnityEngine::SkinnedMeshRenderer* Field_2_1; // 0x28
 
 	::System::Void _ctor()
 	{

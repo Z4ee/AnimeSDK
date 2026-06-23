@@ -8,23 +8,23 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicInt; }
 
-#define CLASS_1_9CCB1E121B59E45A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x108182D0)
-#define CLASS_1_9CCB1E121B59E45A_FROMFLX_OFFSET UNITYSDK_OFFSET(0x108186F0)
-#define CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0x10818770)
-#define CLASS_1_9CCB1E121B59E45A_METHOD_1_92953CB5B7300582_OFFSET UNITYSDK_OFFSET(0x10818330)
-#define CLASS_1_9CCB1E121B59E45A__CTOR_OFFSET UNITYSDK_OFFSET(0x108191C0)
+#define CLASS_1_9CCB1E121B59E45A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xD461120)
+#define CLASS_1_9CCB1E121B59E45A_FROMFLX_OFFSET UNITYSDK_OFFSET(0xD461540)
+#define CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0xD4615C0)
+#define CLASS_1_9CCB1E121B59E45A_METHOD_1_92953CB5B7300582_OFFSET UNITYSDK_OFFSET(0xD461180)
+#define CLASS_1_9CCB1E121B59E45A__CTOR_OFFSET UNITYSDK_OFFSET(0xD462010)
 
-inline static constexpr unsigned int Class_1_9CCB1E121B59E45A_TypeDefinitionIndex = 43957;
+inline static constexpr unsigned int Class_1_9CCB1E121B59E45A_TypeDefinitionIndex = 65529;
 
 class Class_1_9CCB1E121B59E45A : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicInt* Field_1_5; // 0x10
-	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x18
-	::MoleMole::Config::DynamicFloat* Field_1_3; // 0x20
-	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x28
-	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x30
-	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x38
+	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x10
+	::MoleMole::Config::DynamicFloat* Field_1_3; // 0x18
+	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x20
+	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x28
+	::MoleMole::Config::DynamicInt* Field_1_5; // 0x30
+	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x38
 
 	::System::Void _ctor()
 	{
@@ -41,13 +41,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_1_9CCB1E121B59E45A_FROMFLX_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_00531776927FE5B6(::FlexBuffers::FlxMap a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET))(this, a1);
-	}
-
 	::System::Boolean Method_1_92953CB5B7300582(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_9CCB1E121B59E45A_METHOD_1_92953CB5B7300582_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_00531776927FE5B6(::FlexBuffers::FlxMap a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET))(this, a1);
 	}
 };

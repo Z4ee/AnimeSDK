@@ -3,7 +3,7 @@
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int MemberAttributes_TypeDefinitionIndex = 4058;
+	inline static constexpr unsigned int MemberAttributes_TypeDefinitionIndex = 4057;
 
 	enum class MemberAttributes : ::System::Int32
 	{

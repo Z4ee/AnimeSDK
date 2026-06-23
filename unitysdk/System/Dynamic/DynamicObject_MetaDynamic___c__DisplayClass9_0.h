@@ -6,12 +6,12 @@ namespace System::Dynamic { class BinaryOperationBinder; }
 namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS9_0__BINDBINARYOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0x1BFE6C30)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE6C20)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS9_0__BINDBINARYOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0x1E304C10)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E304C00)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass9_0_TypeDefinitionIndex = 4989;
+	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass9_0_TypeDefinitionIndex = 4988;
 
 	class DynamicObject_MetaDynamic___c__DisplayClass9_0 : public ::System::Object
 	{

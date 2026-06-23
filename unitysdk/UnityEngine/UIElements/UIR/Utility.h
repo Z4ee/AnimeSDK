@@ -6,34 +6,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEENGINEUPDATE_OFFSET UNITYSDK_OFFSET(0x197C2000)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEFLUSHPENDINGRESOURCES_OFFSET UNITYSDK_OFFSET(0x197C20B0)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEGRAPHICSRESOURCESRECREATE_OFFSET UNITYSDK_OFFSET(0x197C1F70)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x197C2140)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x197C2130)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEENGINEUPDATE_OFFSET UNITYSDK_OFFSET(0x1BBF8BF0)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEFLUSHPENDINGRESOURCES_OFFSET UNITYSDK_OFFSET(0x1BBF8CA0)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEGRAPHICSRESOURCESRECREATE_OFFSET UNITYSDK_OFFSET(0x1BBF8B60)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF8D30)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF8D20)
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 25113;
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 27616;
 
 	class Utility : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet_EngineUpdate()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x1EA40);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet_GraphicsResourcesRecreate()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x1EA48);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x22670);
 		}
 		static ::System::Action** StaticGet_FlushPendingResources()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x1EA50);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x22678);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet_GraphicsResourcesRecreate()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x22680);
 		}
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_MarkerRaiseEngineUpdate()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x4730);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x77D0);
 		}
 
 		::System::Void _ctor()

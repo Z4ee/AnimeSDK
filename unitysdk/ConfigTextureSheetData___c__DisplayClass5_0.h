@@ -5,10 +5,10 @@
 
 namespace MoleMole { class ConfigTextureSheet; }
 
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11703B60)
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS5_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x11703B70)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6F720)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS5_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x16C6F730)
 
-inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass5_0_TypeDefinitionIndex = 44050;
+inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass5_0_TypeDefinitionIndex = 62965;
 
 class ConfigTextureSheetData___c__DisplayClass5_0 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatNPCLocation_TypeDefinitionIndex = 45070;
+	inline static constexpr unsigned int MainCityChatNPCLocation_TypeDefinitionIndex = 56562;
 
 	enum class MainCityChatNPCLocation : ::System::Int32
 	{

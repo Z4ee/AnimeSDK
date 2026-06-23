@@ -5,12 +5,12 @@
 class Class_1_5A6771CD0CA2718D;
 namespace MoleMole::ChessStateMachine { class ShowLinkPathViewAction; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12D14730)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x12D14740)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B0EEC0)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x12B0EED0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ShowLinkPathViewAction___c__DisplayClass3_0_TypeDefinitionIndex = 44841;
+	inline static constexpr unsigned int ShowLinkPathViewAction___c__DisplayClass3_0_TypeDefinitionIndex = 74494;
 
 	class ShowLinkPathViewAction___c__DisplayClass3_0 : public ::System::Object
 	{

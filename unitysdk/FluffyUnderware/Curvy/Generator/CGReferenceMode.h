@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGReferenceMode_TypeDefinitionIndex = 37335;
+	inline static constexpr unsigned int CGReferenceMode_TypeDefinitionIndex = 38792;
 
 	enum class CGReferenceMode : ::System::Int32
 	{

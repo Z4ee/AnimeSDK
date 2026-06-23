@@ -6,32 +6,32 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x17D2CA80)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17D2C6B0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x17D2C170)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_0F6C8AFD4346CFC5_OFFSET UNITYSDK_OFFSET(0x17D2D5E0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x17D2BEE0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_5FEED8BF00B20F35_OFFSET UNITYSDK_OFFSET(0x17D2D300)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x17D2D720)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_775C2B47B8DBA768_OFFSET UNITYSDK_OFFSET(0x17D2C710)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_B73F62522113F21F_OFFSET UNITYSDK_OFFSET(0x17D2BE90)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x17D2BFD0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x17D2C1F0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_E0CFB5DABD0D5243_OFFSET UNITYSDK_OFFSET(0x17D2D730)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x17D2C040)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x17D2D290)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x17D2CFD0)
-#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2D5D0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A0734A0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A072620)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A072780)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A0725D0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A072F30)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A0728B0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1A072710)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A072F90)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A072930)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x1A073CB0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A073300)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A072DF0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x1A0739F0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_TRYUNBINDCAPTUREDMODEL_OFFSET UNITYSDK_OFFSET(0x1A073D20)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A073FF0)
+#define MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A074000)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GadgetModelCaptureTrait_TypeDefinitionIndex = 39791;
+	inline static constexpr unsigned int GadgetModelCaptureTrait_TypeDefinitionIndex = 59959;
 
 	class GadgetModelCaptureTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -45,79 +45,79 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_B73F62522113F21F(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_B73F62522113F21F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& a1)
+		static ::MoleMole::Config::GadgetModelCaptureTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, a1);
+			return ((::MoleMole::Config::GadgetModelCaptureTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Void PostProcessEntity(::MoleMole::EntityHandle a1)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_POSTPROCESSENTITY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Void OnPostEntityDissociate(::MoleMole::EntityHandle a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_ONPOSTENTITYDISSOCIATE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::GadgetModelCaptureTrait* Method_2_0F6C8AFD4346CFC5(::FlexBuffers::FlxValue a1)
+		static ::MoleMole::Config::GadgetModelCaptureTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::GadgetModelCaptureTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_0F6C8AFD4346CFC5_OFFSET))(a1);
+			return ((::MoleMole::Config::GadgetModelCaptureTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_DF413489329CBAF8(::FlexBuffers::FlxMap a1)
+		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_DF413489329CBAF8_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void PostProcessEntity(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_POSTPROCESSENTITY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Boolean Method_2_5FEED8BF00B20F35(::MoleMole::EntityHandle a1)
+		::System::Void OnPostEntityDissociate(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_5FEED8BF00B20F35_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_ONPOSTENTITYDISSOCIATE_OFFSET))(this, entityHandle);
 		}
 
-		static ::MoleMole::Config::GadgetModelCaptureTrait* Method_2_E0CFB5DABD0D5243(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean TryUnbindCapturedModel(::MoleMole::EntityHandle entityHandle)
 		{
-			return ((::MoleMole::Config::GadgetModelCaptureTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_E0CFB5DABD0D5243_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_TRYUNBINDCAPTUREDMODEL_OFFSET))(this, entityHandle);
 		}
 
-		::System::Boolean Method_2_775C2B47B8DBA768(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT_METHOD_2_775C2B47B8DBA768_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GADGETMODELCAPTURETRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

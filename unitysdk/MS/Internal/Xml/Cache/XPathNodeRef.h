@@ -3,12 +3,12 @@
 #include "unitysdk/MS/Internal/Xml/Cache/XPathNode.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8CF620)
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x39EDC0)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x978F60)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x332CF0)
 
 namespace MS::Internal::Xml::Cache
 {
-	inline static constexpr unsigned int XPathNodeRef_TypeDefinitionIndex = 1657;
+	inline static constexpr unsigned int XPathNodeRef_TypeDefinitionIndex = 1656;
 
 	struct alignas(8) XPathNodeRef
 	{

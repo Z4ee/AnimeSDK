@@ -5,11 +5,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassProxy_GroupData___c__DisplayClass4_0_TypeDefinitionIndex = 30242;
+	inline static constexpr unsigned int GPUGrassProxy_GroupData___c__DisplayClass4_0_TypeDefinitionIndex = 26559;
 
 	struct alignas(4) GPUGrassProxy_GroupData___c__DisplayClass4_0
 	{
-		::UnityEngine::Vector3 min; // 0x10
-		::UnityEngine::Vector3 max; // 0x1C
+		::UnityEngine::Vector3 max; // 0x10
+		::UnityEngine::Vector3 min; // 0x1C
 	};
 }

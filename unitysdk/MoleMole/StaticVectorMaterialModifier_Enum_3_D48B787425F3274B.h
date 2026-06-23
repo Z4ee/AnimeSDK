@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticVectorMaterialModifier_Enum_3_D48B787425F3274B_TypeDefinitionIndex = 63652;
+	inline static constexpr unsigned int StaticVectorMaterialModifier_Enum_3_D48B787425F3274B_TypeDefinitionIndex = 49534;
 
 	enum class StaticVectorMaterialModifier_Enum_3_D48B787425F3274B : ::System::Int32
 	{

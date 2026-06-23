@@ -14,30 +14,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10BCD0E0)
-#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10BCD0F0)
-#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10BCD390)
-#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BCD580)
-#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCD540)
+#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1513A8D0)
+#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1513A8E0)
+#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1513AB80)
+#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1513AD70)
+#define MOLEMOLE_MONOACTIVITYRESSETTING_MONOACTIVITYRESSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1513AD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 81900;
+	inline static constexpr unsigned int MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 49888;
 
 	class MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoActivityResSetting*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::System::Collections::Generic::List_1<::MoleMole::ActivityColorImageSetting*>*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::System::Collections::Generic::List_1<::MoleMole::ActivityColorImageSetting*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EBA0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::System::Collections::Generic::List_1<::MoleMole::ActivityColorImageSetting*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41160);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Color>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EBA8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41168);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Material*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EBB0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ActivityResSettingTag, ::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityResSetting_MonoActivityResSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41170);
 		}
 
 		::System::Void _ctor()

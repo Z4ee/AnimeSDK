@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Xml { class XmlSqlBinaryReader_NamespaceDecl; }
 
-#define SYSTEM_XML_XMLSQLBINARYREADER_ELEMINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x94C820)
-#define SYSTEM_XML_XMLSQLBINARYREADER_ELEMINFO_SET_OFFSET UNITYSDK_OFFSET(0x94C7F0)
+#define SYSTEM_XML_XMLSQLBINARYREADER_ELEMINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x9F00C0)
+#define SYSTEM_XML_XMLSQLBINARYREADER_ELEMINFO_SET_OFFSET UNITYSDK_OFFSET(0x9F0090)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlSqlBinaryReader_ElemInfo_TypeDefinitionIndex = 1674;
+	inline static constexpr unsigned int XmlSqlBinaryReader_ElemInfo_TypeDefinitionIndex = 1673;
 
 	struct alignas(8) XmlSqlBinaryReader_ElemInfo
 	{

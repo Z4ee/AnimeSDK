@@ -5,12 +5,12 @@
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER_GETTOKENINDEX_OFFSET UNITYSDK_OFFSET(0x1BB5EA00)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB5ECB0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER_GETTOKENINDEX_OFFSET UNITYSDK_OFFSET(0x1DED83C0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED8670)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 7079;
+	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 7210;
 
 	class PathFilter : public ::System::Object
 	{

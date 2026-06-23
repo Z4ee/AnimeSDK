@@ -6,12 +6,12 @@
 class Class_5_8A5B236F53009830;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14275270)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x14275280)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x116054B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x116054C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardSetFeverWave___c__DisplayClass7_0_TypeDefinitionIndex = 46738;
+	inline static constexpr unsigned int ChessboardSetFeverWave___c__DisplayClass7_0_TypeDefinitionIndex = 52323;
 
 	class ChessboardSetFeverWave___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { templ
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 29735;
+	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 27063;
 
 	template <typename TValue>
 	class Dict_1 : public ::System::Object

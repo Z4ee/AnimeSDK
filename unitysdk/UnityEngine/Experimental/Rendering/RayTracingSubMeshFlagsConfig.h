@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingSubMeshFlagsConfig_TypeDefinitionIndex = 6317;
+	inline static constexpr unsigned int RayTracingSubMeshFlagsConfig_TypeDefinitionIndex = 6343;
 
 	struct alignas(4) RayTracingSubMeshFlagsConfig
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOOTINGRELOADENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x159DAE50)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOOTINGRELOADENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x159DAED0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOOTINGRELOADENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12703510)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOOTINGRELOADENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12703590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShootingReloadEntry_TypeDefinitionIndex = 73072;
+	inline static constexpr unsigned int AnimatorEventShootingReloadEntry_TypeDefinitionIndex = 53973;
 
 	class AnimatorEventShootingReloadEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB13E60)
-#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB13E70)
-#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB14050)
-#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB14220)
-#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB141C0)
+#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE982E70)
+#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE982E80)
+#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE983060)
+#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE983230)
+#define MOLEMOLE_CONFIG_VECTOR3RANGE_VECTOR3RANGE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE9831D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Vector3Range_Vector3Range_UnityGeneratedFormatter_TypeDefinitionIndex = 66604;
+	inline static constexpr unsigned int Vector3Range_Vector3Range_UnityGeneratedFormatter_TypeDefinitionIndex = 79795;
 
 	class Vector3Range_Vector3Range_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::Vector3Range>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Vector3Range_Vector3Range_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x446C0);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Vector3Range_Vector3Range_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AF90);
 		}
 
 		::System::Void _ctor()

@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_323;
+
+inline static constexpr unsigned int Class_1_455124A410922D9D_2_TypeDefinitionIndex = 47575;
+
+template <typename T>
+class Class_1_455124A410922D9D_2 : public ::System::Object
+{
+public:
+	T Field_1_0; // 0x0
+};

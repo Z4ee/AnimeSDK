@@ -6,13 +6,13 @@ namespace AraSamples { class AxleInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class WheelCollider; }
 
-#define ARASAMPLES_CARCONTROLLER_APPLYLOCALPOSITIONTOVISUALS_OFFSET UNITYSDK_OFFSET(0x1BED2FA0)
-#define ARASAMPLES_CARCONTROLLER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1BED30B0)
-#define ARASAMPLES_CARCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED32D0)
+#define ARASAMPLES_CARCONTROLLER_APPLYLOCALPOSITIONTOVISUALS_OFFSET UNITYSDK_OFFSET(0x1E21F5D0)
+#define ARASAMPLES_CARCONTROLLER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1E21F6E0)
+#define ARASAMPLES_CARCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E21F900)
 
 namespace AraSamples
 {
-	inline static constexpr unsigned int CarController_TypeDefinitionIndex = 31366;
+	inline static constexpr unsigned int CarController_TypeDefinitionIndex = 32917;
 
 	class CarController : public ::UnityEngine::MonoBehaviour
 	{

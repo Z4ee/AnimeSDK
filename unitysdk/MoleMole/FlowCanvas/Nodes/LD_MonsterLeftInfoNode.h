@@ -3,13 +3,13 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_4.h"
 #include "unitysdk/MoleMole/Config/MonsterStrengthType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x154215E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_QUERYMONSTERCOUNT_OFFSET UNITYSDK_OFFSET(0x15421650)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x154219A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x161EC9E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_QUERYMONSTERCOUNT_OFFSET UNITYSDK_OFFSET(0x161ECA50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x161ECD90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_MonsterLeftInfoNode_TypeDefinitionIndex = 72660;
+	inline static constexpr unsigned int LD_MonsterLeftInfoNode_TypeDefinitionIndex = 64317;
 
 	class LD_MonsterLeftInfoNode : public ::FlowCanvas::Nodes::PureFunctionNode_4<::System::Int32, ::System::Boolean, ::MoleMole::Config::MonsterStrengthType, ::System::Boolean>
 	{

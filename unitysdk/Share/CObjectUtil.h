@@ -7,11 +7,11 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SHARE_COBJECTUTIL_SHUFFLEINDEXS_OFFSET UNITYSDK_OFFSET(0x1907C020)
+#define SHARE_COBJECTUTIL_SHUFFLEINDEXS_OFFSET UNITYSDK_OFFSET(0x1DAA4F00)
 
 namespace Share
 {
-	inline static constexpr unsigned int CObjectUtil_TypeDefinitionIndex = 16111;
+	inline static constexpr unsigned int CObjectUtil_TypeDefinitionIndex = 15770;
 
 	class CObjectUtil : public ::System::Object
 	{

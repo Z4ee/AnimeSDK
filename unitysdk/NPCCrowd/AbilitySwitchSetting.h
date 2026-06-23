@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int AbilitySwitchSetting_TypeDefinitionIndex = 78162;
+	inline static constexpr unsigned int AbilitySwitchSetting_TypeDefinitionIndex = 71611;
 
 	struct alignas(1) AbilitySwitchSetting
 	{

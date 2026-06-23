@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateStreamingManager_TypeDefinitionIndex = 5537;
+	inline static constexpr unsigned int EarlyUpdate_UpdateStreamingManager_TypeDefinitionIndex = 5538;
 
 	struct alignas(1) EarlyUpdate_UpdateStreamingManager
 	{

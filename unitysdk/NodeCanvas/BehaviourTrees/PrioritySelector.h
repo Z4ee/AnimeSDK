@@ -9,22 +9,22 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONCHILDCONNECTED_OFFSET UNITYSDK_OFFSET(0x1B45A260)
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONCHILDDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1B45A4B0)
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B45A530)
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B45A710)
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45A720)
-#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B45A730)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONCHILDCONNECTED_OFFSET UNITYSDK_OFFSET(0x1D81FB60)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONCHILDDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1D81FDB0)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D81FE30)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1D820010)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D820020)
+#define NODECANVAS_BEHAVIOURTREES_PRIORITYSELECTOR__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D820030)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int PrioritySelector_TypeDefinitionIndex = 27498;
+	inline static constexpr unsigned int PrioritySelector_TypeDefinitionIndex = 30033;
 
 	class PrioritySelector : public ::NodeCanvas::BehaviourTrees::BTComposite
 	{
 	public:
-		::Il2CppArray<::NodeCanvas::Framework::Connection*>* orderedConnections; // 0x78
-		::System::Collections::Generic::List_1<::NodeCanvas::Framework::BBParameter_1<::System::Single>*>* priorities; // 0x80
+		::System::Collections::Generic::List_1<::NodeCanvas::Framework::BBParameter_1<::System::Single>*>* priorities; // 0x78
+		::Il2CppArray<::NodeCanvas::Framework::Connection*>* orderedConnections; // 0x80
 		::System::Int32 current; // 0x88
 
 		::System::Void _ctor()

@@ -4,21 +4,21 @@
 
 namespace MoleMole { class UILoginMessageBoxPopWindowController; }
 
-#define CUSTOMSKIN_SDKALERT_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11709920)
-#define CUSTOMSKIN_SDKALERT_ONCLICKCANCEL_OFFSET UNITYSDK_OFFSET(0x11709F70)
-#define CUSTOMSKIN_SDKALERT_ONCLICKCONFIRM_OFFSET UNITYSDK_OFFSET(0x11709EF0)
-#define CUSTOMSKIN_SDKALERT_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x11709AE0)
-#define CUSTOMSKIN_SDKALERT_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11709BF0)
-#define CUSTOMSKIN_SDKALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x11709A50)
+#define CUSTOMSKIN_SDKALERT_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12219440)
+#define CUSTOMSKIN_SDKALERT_ONCLICKCANCEL_OFFSET UNITYSDK_OFFSET(0x12219A90)
+#define CUSTOMSKIN_SDKALERT_ONCLICKCONFIRM_OFFSET UNITYSDK_OFFSET(0x12219A10)
+#define CUSTOMSKIN_SDKALERT_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x12219600)
+#define CUSTOMSKIN_SDKALERT_ONSHOW_OFFSET UNITYSDK_OFFSET(0x12219710)
+#define CUSTOMSKIN_SDKALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x12219570)
 
-inline static constexpr unsigned int CustomSkin_SDKAlert_TypeDefinitionIndex = 73133;
+inline static constexpr unsigned int CustomSkin_SDKAlert_TypeDefinitionIndex = 41636;
 
 class CustomSkin_SDKAlert : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_SDKAlert** StaticGet__instance()
 	{
-		return (::CustomSkin_SDKAlert**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_SDKAlert_TypeDefinitionIndex)->GetStaticField(0x43E20);
+		return (::CustomSkin_SDKAlert**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_SDKAlert_TypeDefinitionIndex)->GetStaticField(0x4A880);
 	}
 	::MoleMole::UILoginMessageBoxPopWindowController* tip; // 0x18
 

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingFogEffect_TypeDefinitionIndex = 70818;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingFogEffect_TypeDefinitionIndex = 65853;
 
 	struct alignas(8) ConfigLevelResultPerforms_RatingFogEffect
 	{

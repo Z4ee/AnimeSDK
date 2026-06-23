@@ -8,33 +8,33 @@ namespace DigitalOpus::MB::Core { class MB3_TextureCombinerNonTextureProperties;
 namespace DigitalOpus::MB::Core { class MB_TexSet; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_BUILDTRANSFORMMESHUV2ATLASRECT_OFFSET UNITYSDK_OFFSET(0x1BEC3590)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_DOINTEGRITYCHECKMERGEDENCAPSULATINGSAMPLINGRECTS_OFFSET UNITYSDK_OFFSET(0x1BEC52E0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_MERGEDISTINCTMATERIALTEXTURESTHATWOULDEXCEEDMAXATLASSIZEANDCALCMATERIALSUBRECTS_OFFSET UNITYSDK_OFFSET(0x1BEC5D70)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_MERGEOVERLAPPINGDISTINCTMATERIALTEXTURESANDCALCMATERIALSUBRECTS_OFFSET UNITYSDK_OFFSET(0x1BEC3800)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEC73E0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC37E0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_BUILDTRANSFORMMESHUV2ATLASRECT_OFFSET UNITYSDK_OFFSET(0x1E208BA0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_DOINTEGRITYCHECKMERGEDENCAPSULATINGSAMPLINGRECTS_OFFSET UNITYSDK_OFFSET(0x1E20A8F0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_MERGEDISTINCTMATERIALTEXTURESTHATWOULDEXCEEDMAXATLASSIZEANDCALCMATERIALSUBRECTS_OFFSET UNITYSDK_OFFSET(0x1E20B380)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING_MERGEOVERLAPPINGDISTINCTMATERIALTEXTURESANDCALCMATERIALSUBRECTS_OFFSET UNITYSDK_OFFSET(0x1E208E10)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E20C9F0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERMERGING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E208DF0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerMerging_TypeDefinitionIndex = 85133;
+	inline static constexpr unsigned int MB3_TextureCombinerMerging_TypeDefinitionIndex = 90707;
 
 	class MB3_TextureCombinerMerging : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_DO_INTEGRITY_CHECKS()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MB3_TextureCombinerMerging_TypeDefinitionIndex)->GetStaticField(0x11E50);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MB3_TextureCombinerMerging_TypeDefinitionIndex)->GetStaticField(0x12CC0);
 		}
 		static ::System::Boolean* StaticGet_LOG_LEVEL_TRACE_MERGE_MAT_SUBRECTS()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MB3_TextureCombinerMerging_TypeDefinitionIndex)->GetStaticField(0x11E51);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MB3_TextureCombinerMerging_TypeDefinitionIndex)->GetStaticField(0x12CC1);
 		}
 		::DigitalOpus::MB::Core::MB3_TextureCombinerNonTextureProperties* resultMaterialTextureBlender; // 0x10
 		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x18
-		::System::Boolean _HasBeenInitialized; // 0x1C
+		::System::Boolean fixOutOfBoundsUVs; // 0x1C
 		::System::Boolean _considerNonTextureProperties; // 0x1D
-		::System::Boolean fixOutOfBoundsUVs; // 0x1E
+		::System::Boolean _HasBeenInitialized; // 0x1E
 
 		::System::Void _ctor(::System::Boolean considerNonTextureProps, ::DigitalOpus::MB::Core::MB3_TextureCombinerNonTextureProperties* resultMaterialTexBlender, ::System::Boolean fixObUVs, ::DigitalOpus::MB::Core::MB2_LogLevel logLevel)
 		{

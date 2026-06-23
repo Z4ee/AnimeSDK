@@ -6,12 +6,12 @@
 class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class MonoSurfSingleDigit; }
 
-#define MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1605F020)
-#define MOLEMOLE_MONOSURFDOUBLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1605F130)
+#define MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x12BD4140)
+#define MOLEMOLE_MONOSURFDOUBLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD4250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfDoubleDigit_TypeDefinitionIndex = 78535;
+	inline static constexpr unsigned int MonoSurfDoubleDigit_TypeDefinitionIndex = 53032;
 
 	class MonoSurfDoubleDigit : public ::UnityEngine::MonoBehaviour
 	{

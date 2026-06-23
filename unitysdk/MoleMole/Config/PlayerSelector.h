@@ -3,14 +3,16 @@
 #include "unitysdk/MoleMole/Config/ConfigTargetSelector.h"
 
 namespace MoleMole::Battle { class Entity; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_PLAYERSELECTOR_METHOD_2_C2750097377FC541_OFFSET UNITYSDK_OFFSET(0x16B47EC0)
-#define MOLEMOLE_CONFIG_PLAYERSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B481B0)
+#define MOLEMOLE_CONFIG_PLAYERSELECTOR_METHOD_2_C2750097377FC541_OFFSET UNITYSDK_OFFSET(0x17E397D0)
+#define MOLEMOLE_CONFIG_PLAYERSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x17E39AC0)
+#define MOLEMOLE_CONFIG_PLAYERSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E39B00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PlayerSelector_TypeDefinitionIndex = 47456;
+	inline static constexpr unsigned int PlayerSelector_TypeDefinitionIndex = 46283;
 
 	class PlayerSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -26,6 +28,11 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_C2750097377FC541(::MoleMole::Battle::Entity* a1)
 		{
 			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PLAYERSELECTOR_METHOD_2_C2750097377FC541_OFFSET))(this, a1);
+		}
+
+		::System::String* Method_2_DA1BF2C227DC3D86()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PLAYERSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
 		}
 	};
 }

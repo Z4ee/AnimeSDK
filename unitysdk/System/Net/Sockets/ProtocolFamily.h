@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int ProtocolFamily_TypeDefinitionIndex = 3650;
+	inline static constexpr unsigned int ProtocolFamily_TypeDefinitionIndex = 3649;
 
 	enum class ProtocolFamily : ::System::Int32
 	{

@@ -8,13 +8,13 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1991EFA0)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1991EFB0)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1991F250)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BB720)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B9BB730)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1B9BB9D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountManager___c__DisplayClass38_0_TypeDefinitionIndex = 18817;
+	inline static constexpr unsigned int AccountManager___c__DisplayClass38_0_TypeDefinitionIndex = 19713;
 
 	class AccountManager___c__DisplayClass38_0 : public ::System::Object
 	{

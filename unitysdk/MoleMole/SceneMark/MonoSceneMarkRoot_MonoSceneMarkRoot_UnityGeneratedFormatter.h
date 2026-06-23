@@ -12,30 +12,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1386A400)
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1386A410)
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1386A6B0)
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1386A8A0)
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1386A860)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16CE2C40)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16CE2C50)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16CE2EF0)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CE30E0)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARKROOT_MONOSCENEMARKROOT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE30A0)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex = 62755;
+	inline static constexpr unsigned int MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex = 70868;
 
 	class MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SceneMark::MonoSceneMarkRoot*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::SceneMark::SceneMarkNode*>*>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::SceneMark::SceneMarkNode*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FB0);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::SceneMark::SceneMarkNode*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::SceneMark::SceneMarkNode*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40560);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::SceneMark::SceneMarkNode*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FB8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40568);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::SceneMark::SceneMarkNode*>*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::SceneMark::SceneMarkNode*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40570);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMarkRoot_MonoSceneMarkRoot_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FC0);
 		}
 
 		::System::Void _ctor()

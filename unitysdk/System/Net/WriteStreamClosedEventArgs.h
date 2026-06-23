@@ -4,12 +4,12 @@
 
 namespace System { class Exception; }
 
-#define SYSTEM_NET_WRITESTREAMCLOSEDEVENTARGS_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1A111110)
-#define SYSTEM_NET_WRITESTREAMCLOSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1110C0)
+#define SYSTEM_NET_WRITESTREAMCLOSEDEVENTARGS_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1C4A4780)
+#define SYSTEM_NET_WRITESTREAMCLOSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A4730)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WriteStreamClosedEventArgs_TypeDefinitionIndex = 3364;
+	inline static constexpr unsigned int WriteStreamClosedEventArgs_TypeDefinitionIndex = 3363;
 
 	class WriteStreamClosedEventArgs : public ::System::EventArgs
 	{

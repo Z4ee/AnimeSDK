@@ -4,11 +4,11 @@
 
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CONNECTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1BCC5400)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CONNECTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1E01C6B0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_ConnectMsg_TypeDefinitionIndex = 28992;
+	inline static constexpr unsigned int InputRemoting_ConnectMsg_TypeDefinitionIndex = 31648;
 
 	class InputRemoting_ConnectMsg : public ::System::Object
 	{

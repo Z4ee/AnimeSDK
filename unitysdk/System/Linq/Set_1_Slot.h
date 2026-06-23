@@ -4,7 +4,7 @@
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Set_1_Slot_TypeDefinitionIndex = 4383;
+	inline static constexpr unsigned int Set_1_Slot_TypeDefinitionIndex = 4382;
 
 	template <typename TElement>
 	struct Set_1_Slot

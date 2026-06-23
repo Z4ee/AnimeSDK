@@ -8,21 +8,21 @@ namespace MiHoYo::SDK::HoYoPass { class RiskCheckManager; }
 namespace MiHoYo::SDK::PC::OS { class GeetestV4Model; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1A17A710)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x1A17ABE0)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__2_OFFSET UNITYSDK_OFFSET(0x1A17AC60)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17A700)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1BA7DD90)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x1BA7E260)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__2_OFFSET UNITYSDK_OFFSET(0x1BA7E2E0)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7DD80)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int RiskCheckManager___c__DisplayClass9_0_TypeDefinitionIndex = 19198;
+	inline static constexpr unsigned int RiskCheckManager___c__DisplayClass9_0_TypeDefinitionIndex = 20103;
 
 	class RiskCheckManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::GeetestV4Model* aigisParams; // 0x10
-		::MiHoYo::SDK::HoYoPass::RiskCheckManager* __4__this; // 0x18
-		::MiHoYo::SDK::Web* geetestV4Web; // 0x20
+		::MiHoYo::SDK::Web* geetestV4Web; // 0x18
+		::MiHoYo::SDK::HoYoPass::RiskCheckManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

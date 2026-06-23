@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int GroupedEnumerable_4_TypeDefinitionIndex = 4384;
+	inline static constexpr unsigned int GroupedEnumerable_4_TypeDefinitionIndex = 4383;
 
 	template <typename TSource, typename TKey, typename TElement, typename TResult>
 	class GroupedEnumerable_4 : public ::System::Object

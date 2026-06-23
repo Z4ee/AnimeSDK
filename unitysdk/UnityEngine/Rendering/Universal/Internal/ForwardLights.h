@@ -14,32 +14,32 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class Lighting; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_GETLIGHTFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x1968A660)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_INITIALIZELIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1968A780)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUPMAINLIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1968A1D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUP_OFFSET UNITYSDK_OFFSET(0x19689CC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x19689BB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__INITIALIZELIGHTCONSTANTS_G__GETPATH_10_0_OFFSET UNITYSDK_OFFSET(0x1968BAB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_GETLIGHTFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x1B7F5C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_INITIALIZELIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1B7F5D40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUPMAINLIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1B7F5790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUP_OFFSET UNITYSDK_OFFSET(0x1B7F5280)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F5170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__INITIALIZELIGHTCONSTANTS_G__GETPATH_10_0_OFFSET UNITYSDK_OFFSET(0x1B7F7070)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ForwardLights_TypeDefinitionIndex = 30434;
+	inline static constexpr unsigned int ForwardLights_TypeDefinitionIndex = 26734;
 
 	class ForwardLights : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Camera** StaticGet_currentCamera()
 		{
-			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x24810);
+			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x220B0);
 		}
 		static ::System::Boolean* StaticGet_debugMainLightPosition()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x7470);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x71E0);
 		}
 		// static const ::System::String* k_SetupLightConstants; // 0x0
-		::UnityEngine::Vector4 k_DefaultShadowTintColor; // 0x10
-		::UnityEngine::Vector4 k_DefaultLightColor; // 0x20
-		::UnityEngine::Vector4 k_DefaultLightPosition; // 0x30
+		::UnityEngine::Vector4 k_DefaultLightPosition; // 0x10
+		::UnityEngine::Vector4 k_DefaultShadowTintColor; // 0x20
+		::UnityEngine::Vector4 k_DefaultLightColor; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -5,24 +5,24 @@
 class Class_2_B51557505C9FDEC9;
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1631C140)
-#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1631C180)
-#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__INITITEMS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1631C190)
+#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C3E390)
+#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3E3D0)
+#define MOLEMOLE_UIABYSSS2TALENTPAGECONTROLLER___C__INITITEMS_B__17_0_OFFSET UNITYSDK_OFFSET(0x18C3E3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2TalentPageController___c_TypeDefinitionIndex = 53248;
+	inline static constexpr unsigned int UIAbyssS2TalentPageController___c_TypeDefinitionIndex = 73884;
 
 	class UIAbyssS2TalentPageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIAbyssS2TalentPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2TalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2TalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x34CE0);
+			return (::MoleMole::UIAbyssS2TalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2TalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x37790);
 		}
 		static ::System::Predicate_1<::Class_2_B51557505C9FDEC9*>** StaticGet___9__17_0()
 		{
-			return (::System::Predicate_1<::Class_2_B51557505C9FDEC9*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2TalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x34CE8);
+			return (::System::Predicate_1<::Class_2_B51557505C9FDEC9*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2TalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x37798);
 		}
 
 		static ::System::Void _cctor()

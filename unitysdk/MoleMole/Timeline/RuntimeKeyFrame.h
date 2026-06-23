@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
-#define MOLEMOLE_TIMELINE_RUNTIMEKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79FA20)
+#define MOLEMOLE_TIMELINE_RUNTIMEKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB81E80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimeKeyFrame_TypeDefinitionIndex = 30616;
+	inline static constexpr unsigned int RuntimeKeyFrame_TypeDefinitionIndex = 32162;
 
 	class RuntimeKeyFrame : public ::System::Object
 	{

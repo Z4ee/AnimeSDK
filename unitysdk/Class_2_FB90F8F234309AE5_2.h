@@ -8,25 +8,25 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x179040C0)
-#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x179042C0)
-#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x17904390)
-#define CLASS_2_FB90F8F234309AE5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17904380)
+#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0xFBC0730)
+#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xFBC0930)
+#define CLASS_2_FB90F8F234309AE5_2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFBC0A00)
+#define CLASS_2_FB90F8F234309AE5_2__CTOR_OFFSET UNITYSDK_OFFSET(0xFBC09F0)
 
-inline static constexpr unsigned int Class_2_FB90F8F234309AE5_2_TypeDefinitionIndex = 80501;
+inline static constexpr unsigned int Class_2_FB90F8F234309AE5_2_TypeDefinitionIndex = 82262;
 
 class Class_2_FB90F8F234309AE5_2 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x18
-	::UnityEngine::Transform* Field_2_2; // 0x20
-	::UnityEngine::Transform* Field_2_7; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::UnityEngine::Transform* Field_2_3; // 0x38
-	::UnityEngine::Transform* Field_2_6; // 0x40
+	::UnityEngine::Transform* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_1; // 0x28
+	::UnityEngine::Transform* Field_2_6; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x38
+	::UnityEngine::Transform* Field_2_3; // 0x40
 	::UnityEngine::Transform* Field_2_8; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x50
-	::Class_2_B4378B46E0020E85* Field_2_1; // 0x58
+	::UnityEngine::Transform* Field_2_0; // 0x50
+	::UnityEngine::Transform* Field_2_7; // 0x58
 
 	::System::Void _ctor()
 	{

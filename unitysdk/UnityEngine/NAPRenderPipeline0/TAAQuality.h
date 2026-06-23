@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TAAQuality_TypeDefinitionIndex = 5889;
+	inline static constexpr unsigned int TAAQuality_TypeDefinitionIndex = 5897;
 
 	enum class TAAQuality : ::System::Int32
 	{

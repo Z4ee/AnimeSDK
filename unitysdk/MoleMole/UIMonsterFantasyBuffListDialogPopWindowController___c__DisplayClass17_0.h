@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBuffListItemRowWidgetController_BuffListItemData; }
 namespace MoleMole { class UIMonsterFantasyBuffListDialogPopWindowController; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x14D4D5E0)
-#define MOLEMOLE_UIMONSTERFANTASYBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D4D5D0)
+#define MOLEMOLE_UIMONSTERFANTASYBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15292D60)
+#define MOLEMOLE_UIMONSTERFANTASYBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15292D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBuffListDialogPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 41394;
+	inline static constexpr unsigned int UIMonsterFantasyBuffListDialogPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 77668;
 
 	class UIMonsterFantasyBuffListDialogPopWindowController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMonsterFantasyBuffListDialogPopWindowController* __4__this; // 0x10
-		::MoleMole::UIBuffListItemRowWidgetController_BuffListItemData* data; // 0x18
+		::MoleMole::UIBuffListItemRowWidgetController_BuffListItemData* data; // 0x10
+		::MoleMole::UIMonsterFantasyBuffListDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

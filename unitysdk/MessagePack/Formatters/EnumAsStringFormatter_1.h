@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int EnumAsStringFormatter_1_TypeDefinitionIndex = 27341;
+	inline static constexpr unsigned int EnumAsStringFormatter_1_TypeDefinitionIndex = 30027;
 
 	template <typename T>
 	class EnumAsStringFormatter_1 : public ::System::Object

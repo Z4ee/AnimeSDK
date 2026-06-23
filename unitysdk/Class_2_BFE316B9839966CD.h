@@ -8,24 +8,24 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_BFE316B9839966CD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1199D230)
-#define CLASS_2_BFE316B9839966CD_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1199D0C0)
-#define CLASS_2_BFE316B9839966CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1199D220)
+#define CLASS_2_BFE316B9839966CD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x147E9EB0)
+#define CLASS_2_BFE316B9839966CD_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x147E9D40)
+#define CLASS_2_BFE316B9839966CD__CTOR_OFFSET UNITYSDK_OFFSET(0x147E9EA0)
 
-inline static constexpr unsigned int Class_2_BFE316B9839966CD_TypeDefinitionIndex = 56909;
+inline static constexpr unsigned int Class_2_BFE316B9839966CD_TypeDefinitionIndex = 51667;
 
 class Class_2_BFE316B9839966CD : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x18
-	::UnityEngine::RectTransform* Field_2_7; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x20
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
+	::UnityEngine::CanvasGroup* Field_2_8; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x38
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x48
-	::UnityEngine::CanvasGroup* Field_2_8; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x58
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x50
+	::UnityEngine::RectTransform* Field_2_7; // 0x58
 
 	::System::Void _ctor()
 	{

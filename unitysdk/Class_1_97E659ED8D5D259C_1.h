@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_41536F26CBEE8D4C_1.h"
+#include "unitysdk/Enum_3_41536F26CBEE8D4C.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_97E659ED8D5D259C_1_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xFC1C1A0)
-#define CLASS_1_97E659ED8D5D259C_1_METHOD_1_7786DC814C2FC3BE_OFFSET UNITYSDK_OFFSET(0xFC1C190)
-#define CLASS_1_97E659ED8D5D259C_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFC1C180)
+#define CLASS_1_97E659ED8D5D259C_1_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xC9A03E0)
+#define CLASS_1_97E659ED8D5D259C_1_METHOD_1_7786DC814C2FC3BE_OFFSET UNITYSDK_OFFSET(0xC9A03D0)
+#define CLASS_1_97E659ED8D5D259C_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A03C0)
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_1_TypeDefinitionIndex = 40613;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_1_TypeDefinitionIndex = 46508;
 
 class Class_1_97E659ED8D5D259C_1 : public ::System::Object
 {

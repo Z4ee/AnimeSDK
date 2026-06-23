@@ -3,34 +3,102 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIMainCityChatPlayWidgetController; }
-namespace MoleMole::Battle { class Entity; }
-namespace MoleMole::GalGame { class MainCityChatInLevelPlayStoryNode; }
 namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150099B0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__INLEVELPLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET UNITYSDK_OFFSET(0x150099C0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178401B0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__10_OFFSET UNITYSDK_OFFSET(0x17841060)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__11_OFFSET UNITYSDK_OFFSET(0x178410C0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__1_OFFSET UNITYSDK_OFFSET(0x17840AE0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__2_OFFSET UNITYSDK_OFFSET(0x17840B40)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__3_OFFSET UNITYSDK_OFFSET(0x17840E00)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__6_OFFSET UNITYSDK_OFFSET(0x17841200)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__7_OFFSET UNITYSDK_OFFSET(0x17840C90)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__8_OFFSET UNITYSDK_OFFSET(0x17840DA0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__9_OFFSET UNITYSDK_OFFSET(0x17840F10)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_G__ONFINISH_4_OFFSET UNITYSDK_OFFSET(0x17840F70)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_G__OPENNARRATORSCREEN_0_OFFSET UNITYSDK_OFFSET(0x178401C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass69_0_TypeDefinitionIndex = 47784;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass69_0_TypeDefinitionIndex = 83703;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x10
-		::System::Action* finishFunc; // 0x18
-		::MoleMole::GalGame::MainCityChatInLevelPlayStoryNode* config; // 0x20
-		::MoleMole::Battle::Entity* entity; // 0x28
-		::System::Boolean isSkip; // 0x30
+		::UnityEngine::Events::UnityAction* __9__9; // 0x10
+		::UnityEngine::Events::UnityAction* __9__8; // 0x18
+		::System::Action* onFinished; // 0x20
+		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x28
+		::System::Action* __9__7; // 0x30
+		::System::Action* onFadeInFinished; // 0x38
+		::System::Collections::Generic::List_1<::System::String*>* textKeys; // 0x40
+		::System::String* soundEvent; // 0x48
+		::System::Single speakSpeed; // 0x50
+		::System::Boolean anim; // 0x54
+		::System::Boolean isSkip; // 0x55
+		::System::Single delay; // 0x58
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _InLevelPlayStoryNode_g__DoPlayStoryNode_0()
+		::System::Void _ShowNarratorScreen_g__OpenNarratorScreen_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__INLEVELPLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_G__OPENNARRATORSCREEN_0_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__1_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__2_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__7_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__8_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__3_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__9_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_g__OnFinish_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_G__ONFINISH_4_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__10()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__10_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__11()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__11_OFFSET))(this);
+		}
+
+		::System::Void _ShowNarratorScreen_b__6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS69_0__SHOWNARRATORSCREEN_B__6_OFFSET))(this);
 		}
 	};
 }

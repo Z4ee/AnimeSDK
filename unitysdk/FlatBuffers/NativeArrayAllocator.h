@@ -7,34 +7,34 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CHECKBUFFERISVALID_OFFSET UNITYSDK_OFFSET(0x1BEDA320)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CLEANUPALLINSTANCES_OFFSET UNITYSDK_OFFSET(0x1BEDA0E0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEDA500)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DODISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEDA2D0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1BEDA440)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1BEDA380)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1BEDA330)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1BEDA310)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEDA5B0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED4AD0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CHECKBUFFERISVALID_OFFSET UNITYSDK_OFFSET(0x1E215C30)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CLEANUPALLINSTANCES_OFFSET UNITYSDK_OFFSET(0x1E2159F0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E215E10)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DODISPOSE_OFFSET UNITYSDK_OFFSET(0x1E215BE0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1E215D50)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1E215C90)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1E215C40)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1E215C20)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E215ED0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E210370)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int NativeArrayAllocator_TypeDefinitionIndex = 8736;
+	inline static constexpr unsigned int NativeArrayAllocator_TypeDefinitionIndex = 6721;
 
 	class NativeArrayAllocator : public ::FlatBuffers::ByteBufferAllocator
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>** StaticGet_s_AllInstances()
 		{
-			return (::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x7CB0);
+			return (::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x5B90);
 		}
 		static ::System::Boolean* StaticGet_s_UnloadRegistered()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x3C70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x31B0);
 		}
-		::System::Void* _rawDataPtr; // 0x18
-		::Unity::Collections::NativeArray_1<::System::Byte> _NativeArray; // 0x20
+		::Unity::Collections::NativeArray_1<::System::Byte> _NativeArray; // 0x18
+		::System::Void* _rawDataPtr; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* bytes)
 		{

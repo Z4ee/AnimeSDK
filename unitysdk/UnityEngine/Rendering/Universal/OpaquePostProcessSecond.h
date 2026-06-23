@@ -11,6 +11,7 @@
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/OpaquePostProcessSecond___c__DisplayClass14_0.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 class WeatherConfig;
@@ -20,47 +21,48 @@ namespace UnityEngine::Rendering::Universal { class OpaquePostProcessSecond_Bloo
 namespace UnityEngine::Rendering::Universal { class OpaquePostProcessSecond_BloomData; }
 namespace UnityEngine::Rendering::Universal { class OpaquePostProcessSecond_BloomStage; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x191459D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETBLOOMTHRESHOLDPARAMS_OFFSET UNITYSDK_OFFSET(0x1914A010)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETUEBLOOMTHRESHOLDPARAMS_OFFSET UNITYSDK_OFFSET(0x1914A0E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_LUMINANCE_OFFSET UNITYSDK_OFFSET(0x1914A300)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_PREPAREHIGHQUALITYBLOOMDATA_OFFSET UNITYSDK_OFFSET(0x191463B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_SETUP_OFFSET UNITYSDK_OFFSET(0x191458D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_UEBLOOM_OFFSET UNITYSDK_OFFSET(0x19146D40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1914A360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0x19145360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__UEBLOOM_G__DRAWBLOOMPASS_14_0_OFFSET UNITYSDK_OFFSET(0x19148F50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B0B4CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETBLOOMTHRESHOLDPARAMS_OFFSET UNITYSDK_OFFSET(0x1B0B9400)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETTARGETBLOOMSOURCESIZE_OFFSET UNITYSDK_OFFSET(0x1B0B93B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETUEBLOOMTHRESHOLDPARAMS_OFFSET UNITYSDK_OFFSET(0x1B0B94D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_LUMINANCE_OFFSET UNITYSDK_OFFSET(0x1B0B96F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_PREPAREHIGHQUALITYBLOOMDATA_OFFSET UNITYSDK_OFFSET(0x1B0B56D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_SETUP_OFFSET UNITYSDK_OFFSET(0x1B0B4BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_UEBLOOM_OFFSET UNITYSDK_OFFSET(0x1B0B60E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0B9750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B4630)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND__UEBLOOM_G__DRAWBLOOMPASS_14_0_OFFSET UNITYSDK_OFFSET(0x1B0B82F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OpaquePostProcessSecond_TypeDefinitionIndex = 30204;
+	inline static constexpr unsigned int OpaquePostProcessSecond_TypeDefinitionIndex = 26608;
 
 	class OpaquePostProcessSecond : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Single* StaticGet_s_GlareScalerForHDR()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12180);
-		}
 		static ::System::Single* StaticGet_s_GlareThresholdForHDR()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12184);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12FE0);
+		}
+		static ::System::Single* StaticGet_s_GlareScalerForHDR()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12FE4);
 		}
 		static ::System::Boolean* StaticGet_s_OverrideHDRBloomValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12188);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond_TypeDefinitionIndex)->GetStaticField(0x12FE8);
 		}
 		// static const ::System::Int32 BloomSizeScale = 0x4; // 0x0
 		// static const ::System::Int32 k_MaxBloomMipCount = 0x7; // 0x0
 		// static const ::System::Int32 k_RTGuardBandSize = 0x4; // 0x0
-		::Il2CppArray<::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomStage*>* bloomStages; // 0xA8
-		::UnityEngine::Rendering::Universal::NapBloom* _napBloom; // 0xB0
-		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomData* bloomData; // 0xB8
-		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomCombineData* bloomCombineData; // 0xC0
-		::WeatherConfig* weatherConfig; // 0xC8
-		::System::Single oldHdrMaxLum; // 0xD0
-		::UnityEngine::Experimental::Rendering::GraphicsFormat m_DefaultHDRFormat; // 0xD4
-		::UnityEngine::Vector4 m_BloomBicubicParams; // 0xD8
+		::WeatherConfig* weatherConfig; // 0xA8
+		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomCombineData* bloomCombineData; // 0xB0
+		::Il2CppArray<::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomStage*>* bloomStages; // 0xB8
+		::UnityEngine::Rendering::Universal::NapBloom* _napBloom; // 0xC0
+		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond_BloomData* bloomData; // 0xC8
+		::UnityEngine::Vector4 m_BloomBicubicParams; // 0xD0
+		::System::Single oldHdrMaxLum; // 0xE0
+		::UnityEngine::Experimental::Rendering::GraphicsFormat m_DefaultHDRFormat; // 0xE4
 		::UnityEngine::Rendering::RenderTargetIdentifier sourceColor; // 0xE8
 		::UnityEngine::Rendering::RenderTargetIdentifier sourceDepth; // 0x110
 
@@ -87,6 +89,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void UEBloom(::UnityEngine::Rendering::CommandBuffer* cmdWrapper, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::System::Int32 Width, ::System::Int32 Height)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_UEBLOOM_OFFSET))(this, cmdWrapper, renderingData, Width, Height);
+		}
+
+		::UnityEngine::Vector2Int GetTargetBloomSourceSize(::UnityEngine::NAPRenderPipeline0::CameraData& cameraData)
+		{
+			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_GETTARGETBLOOMSOURCESIZE_OFFSET))(this, cameraData);
 		}
 
 		::UnityEngine::Vector4 GetBloomThresholdParams()

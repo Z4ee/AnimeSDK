@@ -3,7 +3,7 @@
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int SchemaTypes_TypeDefinitionIndex = 1866;
+	inline static constexpr unsigned int SchemaTypes_TypeDefinitionIndex = 1865;
 
 	enum class SchemaTypes : ::System::Int32
 	{

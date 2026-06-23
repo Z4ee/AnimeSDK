@@ -4,9 +4,9 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_4F7627118896AA80__CCTOR_OFFSET UNITYSDK_OFFSET(0x139CA140)
+#define CLASS_1_4F7627118896AA80__CCTOR_OFFSET UNITYSDK_OFFSET(0x143A8940)
 
-inline static constexpr unsigned int Class_1_4F7627118896AA80_TypeDefinitionIndex = 39413;
+inline static constexpr unsigned int Class_1_4F7627118896AA80_TypeDefinitionIndex = 70643;
 
 class Class_1_4F7627118896AA80 : public ::System::Object
 {

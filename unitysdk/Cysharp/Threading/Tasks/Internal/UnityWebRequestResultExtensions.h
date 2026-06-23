@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYWEBREQUESTRESULTEXTENSIONS_ISERROR_OFFSET UNITYSDK_OFFSET(0x1C323B90)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYWEBREQUESTRESULTEXTENSIONS_ISERROR_OFFSET UNITYSDK_OFFSET(0x1E664A00)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int UnityWebRequestResultExtensions_TypeDefinitionIndex = 28831;
+	inline static constexpr unsigned int UnityWebRequestResultExtensions_TypeDefinitionIndex = 31487;
 
 	class UnityWebRequestResultExtensions : public ::System::Object
 	{

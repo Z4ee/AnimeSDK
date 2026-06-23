@@ -3,7 +3,7 @@
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int INativeUtils_TypeDefinitionIndex = 44977;
+	inline static constexpr unsigned int INativeUtils_TypeDefinitionIndex = 45711;
 
 	class INativeUtils
 	{

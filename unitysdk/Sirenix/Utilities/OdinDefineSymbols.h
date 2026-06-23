@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD8710)
+#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE52950)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int OdinDefineSymbols_TypeDefinitionIndex = 6458;
+	inline static constexpr unsigned int OdinDefineSymbols_TypeDefinitionIndex = 6503;
 
 	class OdinDefineSymbols : public ::System::Object
 	{

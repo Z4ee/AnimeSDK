@@ -7,7 +7,7 @@ namespace System::Xml { class IDtdParserAdapter; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdParser_TypeDefinitionIndex = 1689;
+	inline static constexpr unsigned int IDtdParser_TypeDefinitionIndex = 1688;
 
 	class IDtdParser
 	{

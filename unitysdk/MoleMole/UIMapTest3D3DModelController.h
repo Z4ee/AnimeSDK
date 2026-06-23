@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIBase3DModelController.h"
 
-#define MOLEMOLE_UIMAPTEST3D3DMODELCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x148DD070)
+#define MOLEMOLE_UIMAPTEST3D3DMODELCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1574A250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMapTest3D3DModelController_TypeDefinitionIndex = 55987;
+	inline static constexpr unsigned int UIMapTest3D3DModelController_TypeDefinitionIndex = 64937;
 
 	class UIMapTest3D3DModelController : public ::MoleMole::UIBase3DModelController
 	{

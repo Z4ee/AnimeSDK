@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_450;
+class Class_1_E87E347C649FDDBC;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_747_TypeDefinitionIndex = 77983;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_747_TypeDefinitionIndex = 75554;
 
 class Class_0_16E4307DCC419505_747
 {

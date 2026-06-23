@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_SPOOKYHASH_U__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define UNITYENGINE_SPOOKYHASH_U__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
 
 namespace UnityEngine
 {

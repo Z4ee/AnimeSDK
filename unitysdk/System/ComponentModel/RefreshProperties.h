@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int RefreshProperties_TypeDefinitionIndex = 3023;
+	inline static constexpr unsigned int RefreshProperties_TypeDefinitionIndex = 3022;
 
 	enum class RefreshProperties : ::System::Int32
 	{

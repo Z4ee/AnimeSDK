@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_20910DEB255D80E4_METHOD_2_39361D1F2D1BD8E3_OFFSET UNITYSDK_OFFSET(0xEFE2980)
-#define CLASS_2_20910DEB255D80E4_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0xEFE2830)
-#define CLASS_2_20910DEB255D80E4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xEFE2AE0)
-#define CLASS_2_20910DEB255D80E4__CTOR_OFFSET UNITYSDK_OFFSET(0xEFE2AD0)
+#define CLASS_2_20910DEB255D80E4_METHOD_2_39361D1F2D1BD8E3_OFFSET UNITYSDK_OFFSET(0x15357230)
+#define CLASS_2_20910DEB255D80E4_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x153570E0)
+#define CLASS_2_20910DEB255D80E4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15357390)
+#define CLASS_2_20910DEB255D80E4__CTOR_OFFSET UNITYSDK_OFFSET(0x15357380)
 
-inline static constexpr unsigned int Class_2_20910DEB255D80E4_TypeDefinitionIndex = 56242;
+inline static constexpr unsigned int Class_2_20910DEB255D80E4_TypeDefinitionIndex = 87278;
 
 class Class_2_20910DEB255D80E4 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_4; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_1; // 0x20
-	::UnityEngine::Transform* Field_2_2; // 0x28
-	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x30
-	::UnityEngine::Transform* Field_2_3; // 0x38
+	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_1; // 0x18
+	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x20
+	::UnityEngine::Transform* Field_2_3; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UILocalizationText*>* Field_2_4; // 0x30
+	::UnityEngine::Transform* Field_2_2; // 0x38
 
 	::System::Void _ctor()
 	{

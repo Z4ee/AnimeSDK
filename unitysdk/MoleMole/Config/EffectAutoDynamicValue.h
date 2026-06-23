@@ -8,25 +8,25 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicInt; }
 
-#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xF98DD60)
-#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_FROMFLX_OFFSET UNITYSDK_OFFSET(0xF98E180)
-#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xF98DDC0)
-#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xF98E200)
-#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xF98EC50)
+#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170BA7B0)
+#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x170BABD0)
+#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x170BA810)
+#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x170BAC50)
+#define MOLEMOLE_CONFIG_EFFECTAUTODYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x170BB6A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectAutoDynamicValue_TypeDefinitionIndex = 71992;
+	inline static constexpr unsigned int EffectAutoDynamicValue_TypeDefinitionIndex = 80798;
 
 	class EffectAutoDynamicValue : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::DynamicFloat* EffHoldTime; // 0x10
-		::MoleMole::Config::DynamicFloat* EffStartSizeY; // 0x18
-		::MoleMole::Config::DynamicFloat* EffStartSizeX; // 0x20
-		::MoleMole::Config::DynamicFloat* EffFadeOutTime; // 0x28
-		::MoleMole::Config::DynamicFloat* EffFadeInTime; // 0x30
-		::MoleMole::Config::DynamicInt* EffectTarget; // 0x38
+		::MoleMole::Config::DynamicFloat* EffFadeInTime; // 0x10
+		::MoleMole::Config::DynamicInt* EffectTarget; // 0x18
+		::MoleMole::Config::DynamicFloat* EffStartSizeY; // 0x20
+		::MoleMole::Config::DynamicFloat* EffStartSizeX; // 0x28
+		::MoleMole::Config::DynamicFloat* EffFadeOutTime; // 0x30
+		::MoleMole::Config::DynamicFloat* EffHoldTime; // 0x38
 
 		::System::Void _ctor()
 		{

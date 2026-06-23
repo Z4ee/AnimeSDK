@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+
+class Class_0_16E4307DCC419505_29;
+class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C;
+class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1;
+class Class_2_67F3C5E647F33C2D;
+class Class_4_D33B9A7B327FB4F5_1_Class_1_3AEF359018856817_2;
+class Class_4_D33B9A7B327FB4F5_1_Class_1_47451A8991413A43_1;
+namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
+namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0x1685CD10)
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_A39055E0EAF0CACF_OFFSET UNITYSDK_OFFSET(0x1685CCE0)
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_B43DD0430B0FE876_1_OFFSET UNITYSDK_OFFSET(0x1685CF30)
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_B43DD0430B0FE876_OFFSET UNITYSDK_OFFSET(0x1685CF10)
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_C258448D97A2BF6C_OFFSET UNITYSDK_OFFSET(0x1685CF50)
+#define CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1685CCD0)
+
+inline static constexpr unsigned int Class_4_D33B9A7B327FB4F5_1_Class_1_BD05B701CC07B87A_2_TypeDefinitionIndex = 84866;
+
+class Class_4_D33B9A7B327FB4F5_1_Class_1_BD05B701CC07B87A_2 : public ::System::Object
+{
+public:
+	::Class_4_D33B9A7B327FB4F5_1_Class_1_47451A8991413A43_1* Field_1_1; // 0x10
+	::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C* Field_1_4; // 0x18
+	::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1* Field_1_5; // 0x20
+	::System::Action* Field_1_6; // 0x28
+	::Class_4_D33B9A7B327FB4F5_1_Class_1_3AEF359018856817_2* Field_1_2; // 0x30
+	::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* Field_1_3; // 0x38
+	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_0; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2__CTOR_OFFSET))(this);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask Method_1_A39055E0EAF0CACF(::System::Threading::CancellationToken a1)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_A39055E0EAF0CACF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8CA05BCD86E125DF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_8CA05BCD86E125DF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B43DD0430B0FE876(::Class_0_16E4307DCC419505_29* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_B43DD0430B0FE876_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B43DD0430B0FE876_1(::Class_0_16E4307DCC419505_29* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_B43DD0430B0FE876_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C258448D97A2BF6C(::Class_2_67F3C5E647F33C2D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_67F3C5E647F33C2D*))((::PBYTE)hIl2Cpp + CLASS_4_D33B9A7B327FB4F5_1_CLASS_1_BD05B701CC07B87A_2_METHOD_1_C258448D97A2BF6C_OFFSET))(this, a1);
+	}
+};

@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 template <typename T> class Class_1_A07BD2D5EF164750___c__9_1;
 
-inline static constexpr unsigned int Class_1_A07BD2D5EF164750___c__9_1_TypeDefinitionIndex = 80776;
+inline static constexpr unsigned int Class_1_A07BD2D5EF164750___c__9_1_TypeDefinitionIndex = 52269;
 
 template <typename T>
 class Class_1_A07BD2D5EF164750___c__9_1 : public ::System::Object

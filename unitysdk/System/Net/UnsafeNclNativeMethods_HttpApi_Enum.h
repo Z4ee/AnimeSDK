@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_Enum_TypeDefinitionIndex = 3485;
+	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_Enum_TypeDefinitionIndex = 3484;
 
 	enum class UnsafeNclNativeMethods_HttpApi_Enum : ::System::Int32
 	{

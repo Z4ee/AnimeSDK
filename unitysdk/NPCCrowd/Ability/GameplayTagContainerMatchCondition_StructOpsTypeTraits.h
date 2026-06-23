@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_GAMEPLAYTAGCONTAINERMATCHCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xCD2A2D0)
-#define NPCCROWD_ABILITY_GAMEPLAYTAGCONTAINERMATCHCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2A2E0)
+#define NPCCROWD_ABILITY_GAMEPLAYTAGCONTAINERMATCHCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xD40DB20)
+#define NPCCROWD_ABILITY_GAMEPLAYTAGCONTAINERMATCHCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xD40DB30)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int GameplayTagContainerMatchCondition_StructOpsTypeTraits_TypeDefinitionIndex = 57304;
+	inline static constexpr unsigned int GameplayTagContainerMatchCondition_StructOpsTypeTraits_TypeDefinitionIndex = 77581;
 
 	class GameplayTagContainerMatchCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

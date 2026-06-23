@@ -6,7 +6,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_TimeListHeader_TypeDefinitionIndex = 8806;
+	inline static constexpr unsigned int TickCollector_1_TimeListHeader_TypeDefinitionIndex = 8522;
 
 	template <typename TTickingGroup>
 	struct TickCollector_1_TimeListHeader

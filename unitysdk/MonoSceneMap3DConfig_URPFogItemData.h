@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int MonoSceneMap3DConfig_URPFogItemData_TypeDefinitionIndex = 66981;
+inline static constexpr unsigned int MonoSceneMap3DConfig_URPFogItemData_TypeDefinitionIndex = 40579;
 
 struct alignas(4) MonoSceneMap3DConfig_URPFogItemData
 {

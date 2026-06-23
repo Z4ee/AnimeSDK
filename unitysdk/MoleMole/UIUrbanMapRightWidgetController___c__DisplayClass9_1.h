@@ -5,12 +5,12 @@
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 namespace MoleMole { class UIUrbanMapRightWidgetController___c__DisplayClass9_0; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_1__APPLYBANGKOVITEMINFOTOREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x1275FA20)
-#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1275FA10)
+#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_1__APPLYBANGKOVITEMINFOTOREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x156D7280)
+#define MOLEMOLE_UIURBANMAPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x156D7270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightWidgetController___c__DisplayClass9_1_TypeDefinitionIndex = 59339;
+	inline static constexpr unsigned int UIUrbanMapRightWidgetController___c__DisplayClass9_1_TypeDefinitionIndex = 82054;
 
 	class UIUrbanMapRightWidgetController___c__DisplayClass9_1 : public ::System::Object
 	{

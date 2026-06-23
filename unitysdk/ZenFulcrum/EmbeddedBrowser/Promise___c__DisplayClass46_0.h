@@ -7,13 +7,13 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C195E10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1C196DF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1C196E20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D37F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1E4D47D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1E4D4800)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass46_0_TypeDefinitionIndex = 31181;
+	inline static constexpr unsigned int Promise___c__DisplayClass46_0_TypeDefinitionIndex = 32732;
 
 	class Promise___c__DisplayClass46_0 : public ::System::Object
 	{

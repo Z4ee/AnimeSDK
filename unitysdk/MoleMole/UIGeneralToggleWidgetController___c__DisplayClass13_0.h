@@ -7,23 +7,23 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A24D40)
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15A24D50)
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x15A24F10)
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x15A24FB0)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167AA2E0)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x167AA2F0)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x167AA4B0)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x167AA550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralToggleWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 55228;
+	inline static constexpr unsigned int UIGeneralToggleWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 80946;
 
 	class UIGeneralToggleWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Action*>* doubleCheckAction; // 0x10
+		::System::Action* __9__2; // 0x10
 		::MoleMole::UIGeneralToggleWidgetController* __4__this; // 0x18
 		::System::Func_1<::System::Boolean>* CheckCanToggle; // 0x20
-		::System::Action* __9__1; // 0x28
-		::System::Action* __9__2; // 0x30
+		::System::Action_1<::System::Action*>* doubleCheckAction; // 0x28
+		::System::Action* __9__1; // 0x30
 
 		::System::Void _ctor()
 		{

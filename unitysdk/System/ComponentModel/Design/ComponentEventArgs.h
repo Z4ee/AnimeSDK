@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel { class IComponent; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1AFDD620)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDD630)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1D454060)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D454070)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ComponentEventArgs_TypeDefinitionIndex = 3039;
+	inline static constexpr unsigned int ComponentEventArgs_TypeDefinitionIndex = 3038;
 
 	class ComponentEventArgs : public ::System::EventArgs
 	{

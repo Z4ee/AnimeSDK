@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int SelectionTypes_TypeDefinitionIndex = 3088;
+	inline static constexpr unsigned int SelectionTypes_TypeDefinitionIndex = 3087;
 
 	enum class SelectionTypes : ::System::Int32
 	{

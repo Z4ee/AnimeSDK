@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateCanvasRectTransform_TypeDefinitionIndex = 5552;
+	inline static constexpr unsigned int EarlyUpdate_UpdateCanvasRectTransform_TypeDefinitionIndex = 5554;
 
 	struct alignas(1) EarlyUpdate_UpdateCanvasRectTransform
 	{

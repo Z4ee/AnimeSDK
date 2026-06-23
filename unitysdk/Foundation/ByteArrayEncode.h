@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_BYTEARRAYENCODE_FROMNUMBER_OFFSET UNITYSDK_OFFSET(0x1C00CB20)
-#define FOUNDATION_BYTEARRAYENCODE_TONUMBER_OFFSET UNITYSDK_OFFSET(0x1C00CC00)
-#define FOUNDATION_BYTEARRAYENCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00CD00)
+#define FOUNDATION_BYTEARRAYENCODE_FROMNUMBER_OFFSET UNITYSDK_OFFSET(0x1E1EAFD0)
+#define FOUNDATION_BYTEARRAYENCODE_TONUMBER_OFFSET UNITYSDK_OFFSET(0x1E1EB0B0)
+#define FOUNDATION_BYTEARRAYENCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1EB1B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ByteArrayEncode_TypeDefinitionIndex = 8146;
+	inline static constexpr unsigned int ByteArrayEncode_TypeDefinitionIndex = 7976;
 
 	class ByteArrayEncode : public ::System::Object
 	{

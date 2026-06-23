@@ -1,0 +1,154 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FluffyUnderware/DevTools/DTVersionedMonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace FluffyUnderware::Curvy { class CurvyMetadataBase_Point_Empty; }
+namespace FluffyUnderware::Curvy { class CurvySpline; }
+namespace System { class String; }
+
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E52E690)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_CHECKSTARTPOINTANDENDPOINTPARENT_OFFSET UNITYSDK_OFFSET(0x1E52F5B0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_DESTROYSTARTPOINTANDENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E52F050)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GETUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x1E52E1F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1E52E600)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E52E230)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_INSPECTORDEBUG_OFFSET UNITYSDK_OFFSET(0x1E52E200)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_POINTOWNER_OFFSET UNITYSDK_OFFSET(0x1E52E250)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_SPLINE_OFFSET UNITYSDK_OFFSET(0x1E52E1E0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1E52E210)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_TF_OFFSET UNITYSDK_OFFSET(0x1E52E570)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1E52E260)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_LAZYCREATESTARTPOINTANDENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E52E7F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_NOTIFYMODIFICATION_OFFSET UNITYSDK_OFFSET(0x1E52F3E0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ONAFTERCREATEZONEPOINT_OFFSET UNITYSDK_OFFSET(0x1E52FD70)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E52EF00)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_SET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E52E240)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_SET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1E52E220)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATEGAMEOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1E52FD80)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATESTARTPOINTANDENDPOINTORDER_OFFSET UNITYSDK_OFFSET(0x1E52FCF0)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E52F520)
+#define FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E52FF20)
+
+namespace FluffyUnderware::Curvy
+{
+	inline static constexpr unsigned int CurvyMetadataBase_Zone_TypeDefinitionIndex = 38793;
+
+	class CurvyMetadataBase_Zone : public ::FluffyUnderware::DevTools::DTVersionedMonoBehaviour
+	{
+	public:
+		::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* _StartPoint; // 0x28
+		::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* _EndPoint; // 0x30
+		::FluffyUnderware::Curvy::CurvySpline* mSpline; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE__CTOR_OFFSET))(this);
+		}
+
+		::FluffyUnderware::Curvy::CurvySpline* get_Spline()
+		{
+			return ((::FluffyUnderware::Curvy::CurvySpline*(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_SPLINE_OFFSET))(this);
+		}
+
+		::System::String* GetUniqueName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GETUNIQUENAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_InspectorDebug()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_INSPECTORDEBUG_OFFSET))(this);
+		}
+
+		::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* get_StartPoint()
+		{
+			return ((::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty*(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_STARTPOINT_OFFSET))(this);
+		}
+
+		::System::Void set_StartPoint(::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_SET_STARTPOINT_OFFSET))(this, value);
+		}
+
+		::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* get_EndPoint()
+		{
+			return ((::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty*(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_ENDPOINT_OFFSET))(this);
+		}
+
+		::System::Void set_EndPoint(::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvyMetadataBase_Point_Empty*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_SET_ENDPOINT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_PointOwner()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_POINTOWNER_OFFSET))(this);
+		}
+
+		::System::Boolean IsValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ISVALID_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 get_TF()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_TF_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 get_Distance()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_GET_DISTANCE_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void NotifyModification()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_NOTIFYMODIFICATION_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnAfterCreateZonePoint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_ONAFTERCREATEZONEPOINT_OFFSET))(this);
+		}
+
+		::System::Void UpdateStartPointAndEndPointOrder()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATESTARTPOINTANDENDPOINTORDER_OFFSET))(this);
+		}
+
+		::System::Void CheckStartPointAndEndPointParent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_CHECKSTARTPOINTANDENDPOINTPARENT_OFFSET))(this);
+		}
+
+		::System::Void LazyCreateStartPointAndEndPoint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_LAZYCREATESTARTPOINTANDENDPOINT_OFFSET))(this);
+		}
+
+		::System::Void DestroyStartPointAndEndPoint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_DESTROYSTARTPOINTANDENDPOINT_OFFSET))(this);
+		}
+
+		::System::Void UpdateGameObjectName()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYMETADATABASE_ZONE_UPDATEGAMEOBJECTNAME_OFFSET))(this);
+		}
+	};
+}

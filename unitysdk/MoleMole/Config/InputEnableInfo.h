@@ -7,26 +7,32 @@
 
 class Class_1_236FD73ABC492E3F;
 
-#define MOLEMOLE_CONFIG_INPUTENABLEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11CB6EA0)
-#define MOLEMOLE_CONFIG_INPUTENABLEINFO_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11CB7200)
-#define MOLEMOLE_CONFIG_INPUTENABLEINFO_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x11CB6F00)
-#define MOLEMOLE_CONFIG_INPUTENABLEINFO_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x11CB7280)
-#define MOLEMOLE_CONFIG_INPUTENABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB76F0)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x192AC060)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x192AC0E0)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO_FROMFLX_OFFSET UNITYSDK_OFFSET(0x192AC440)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192AC140)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x192AC4C0)
+#define MOLEMOLE_CONFIG_INPUTENABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x192AC0D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InputEnableInfo_TypeDefinitionIndex = 80552;
+	inline static constexpr unsigned int InputEnableInfo_TypeDefinitionIndex = 42880;
 
 	class InputEnableInfo : public ::System::Object
 	{
 	public:
-		::System::Boolean Enabled; // 0x10
-		::System::Boolean KeepUI; // 0x11
+		::System::Boolean KeepUI; // 0x10
+		::System::Boolean Enabled; // 0x11
 		::MoleMole::Config::InputType InputType; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INPUTENABLEINFO__CTOR_OFFSET))(this);
+		}
+
+		static ::MoleMole::Config::InputEnableInfo* Clone(::MoleMole::Config::InputEnableInfo* inputEnableInfo)
+		{
+			return ((::MoleMole::Config::InputEnableInfo*(*)(::MoleMole::Config::InputEnableInfo*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INPUTENABLEINFO_CLONE_OFFSET))(inputEnableInfo);
 		}
 
 		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)

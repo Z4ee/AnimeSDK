@@ -10,21 +10,21 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B65CC20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS_GENERATECOLORGRADINGLUT_OFFSET UNITYSDK_OFFSET(0x1B65D0F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B65D9F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B65CB30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DA292C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS_GENERATECOLORGRADINGLUT_OFFSET UNITYSDK_OFFSET(0x1DA29790)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA2A090)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COLORGRADINGLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA291D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ColorGradingLutPass_TypeDefinitionIndex = 5809;
+	inline static constexpr unsigned int ColorGradingLutPass_TypeDefinitionIndex = 5815;
 
 	class ColorGradingLutPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Single* StaticGet_s_LiftGammaGainSettingStrength()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_TypeDefinitionIndex)->GetStaticField(0x2E40);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_TypeDefinitionIndex)->GetStaticField(0x2E70);
 		}
 		::UnityEngine::Experimental::Rendering::GraphicsFormat m_HdrLutFormat; // 0xA8
 		::UnityEngine::Experimental::Rendering::GraphicsFormat m_LdrLutFormat; // 0xAC

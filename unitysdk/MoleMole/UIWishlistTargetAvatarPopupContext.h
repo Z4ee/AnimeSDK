@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIWISHLISTTARGETAVATARPOPUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D75240)
+#define MOLEMOLE_UIWISHLISTTARGETAVATARPOPUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1490A230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistTargetAvatarPopupContext_TypeDefinitionIndex = 52287;
+	inline static constexpr unsigned int UIWishlistTargetAvatarPopupContext_TypeDefinitionIndex = 76133;
 
 	class UIWishlistTargetAvatarPopupContext : public ::MoleMole::UIControllerContextBase
 	{

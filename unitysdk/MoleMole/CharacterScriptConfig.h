@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_45DCCA85C18A63B1.h"
+#include "unitysdk/Enum_3_9BDB9B3460BCD57E.h"
 #include "unitysdk/MoleMole/AvatarSteerType.h"
 #include "unitysdk/MoleMole/Battle/EntityBodySize.h"
 #include "unitysdk/MoleMole/CharacterScriptConfig_NumberPositiveType.h"
@@ -28,11 +28,11 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x124017E0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12C53E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 46568;
+	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 72217;
 
 	class CharacterScriptConfig : public ::MoleMole::SkillCharacterScriptConfig
 	{
@@ -88,7 +88,7 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::TwoValue_1<::MoleMole::TwoDiffValue_2<::System::String*, ::System::Single>*>*>* CustomProperties; // 0x348
 		::System::Collections::Generic::HashSet_1<::System::String*>* MPCustomProperties; // 0x350
 		::MoleMole::Config::ShoesType CharacterShoes; // 0x358
-		::Enum_3_45DCCA85C18A63B1 DefendType; // 0x35C
+		::Enum_3_9BDB9B3460BCD57E DefendType; // 0x35C
 		::System::Collections::Generic::List_1<::MoleMole::TwoDiffValue_2<::MoleMole::Config::ConfigAudioFetchAnimatorParam*, ::MoleMole::Config::AudioRTPCConvert*>*>* audioFetchAnimatorParams; // 0x360
 		::System::String* TeamShieldHudAttachPoint; // 0x368
 		::System::Single TeamShieldHudOffsetX; // 0x370
@@ -143,7 +143,10 @@ namespace MoleMole
 		::System::Single AvatarFlyHeightLimitStart; // 0x4A4
 		::System::Single AvatarFlyHeightLimitMax; // 0x4A8
 		::System::String* AvatarFlyHeightCurveKey; // 0x4B0
-		::System::String* LifePointCustomProperty; // 0x4B8
+		::System::Boolean EnableAvatarAI; // 0x4B8
+		::System::String* LifePointCustomProperty; // 0x4C0
+		::System::Collections::Generic::List_1<::System::Int32>* DynamicWeapons; // 0x4C8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* DefaultDynamicAccs; // 0x4D0
 
 		::System::Void _ctor()
 		{

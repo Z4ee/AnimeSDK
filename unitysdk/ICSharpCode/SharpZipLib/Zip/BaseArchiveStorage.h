@@ -5,12 +5,12 @@
 
 namespace System::IO { class Stream; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1B5D4E00)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D4DF0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1D987EB0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D987EA0)
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int BaseArchiveStorage_TypeDefinitionIndex = 6750;
+	inline static constexpr unsigned int BaseArchiveStorage_TypeDefinitionIndex = 6881;
 
 	class BaseArchiveStorage : public ::System::Object
 	{

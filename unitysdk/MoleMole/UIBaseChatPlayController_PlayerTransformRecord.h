@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseChatPlayController_PlayerTransformRecord_TypeDefinitionIndex = 39183;
+	inline static constexpr unsigned int UIBaseChatPlayController_PlayerTransformRecord_TypeDefinitionIndex = 42201;
 
 	struct alignas(4) UIBaseChatPlayController_PlayerTransformRecord
 	{

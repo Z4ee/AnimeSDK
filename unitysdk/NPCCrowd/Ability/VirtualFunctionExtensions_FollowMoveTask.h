@@ -3,31 +3,31 @@
 #include "unitysdk/NPCCrowd/Ability/FollowMoveTask.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x11D86BB0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x11D86C60)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11D86B10)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_LINK_OFFSET UNITYSDK_OFFSET(0x11D86AA0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x11D86D30)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_TICK_OFFSET UNITYSDK_OFFSET(0x11D86DE0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x11364AA0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x11364B50)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11364A00)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_LINK_OFFSET UNITYSDK_OFFSET(0x11364990)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x11364C20)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_TICK_OFFSET UNITYSDK_OFFSET(0x11364CD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_FollowMoveTask_TypeDefinitionIndex = 62934;
+	inline static constexpr unsigned int VirtualFunctionExtensions_FollowMoveTask_TypeDefinitionIndex = 51862;
 
 	class VirtualFunctionExtensions_FollowMoveTask : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Link(::NPCCrowd::Ability::FollowMoveTask& self, ::StateTreeCore::StateTreeLinker& linker)
+		static ::System::Boolean Link(::NPCCrowd::Ability::FollowMoveTask& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::NPCCrowd::Ability::FollowMoveTask&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_LINK_OFFSET))(self, linker);
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::FollowMoveTask&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_FOLLOWMOVETASK_LINK_OFFSET))(self, linker);
 		}
 
 		static ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::NPCCrowd::Ability::FollowMoveTask& self)

@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialConditionRowWidgetController_ShowState_TypeDefinitionIndex = 64071;
+	inline static constexpr unsigned int UIActivityTeamTrialConditionRowWidgetController_ShowState_TypeDefinitionIndex = 44498;
 
 	enum class UIActivityTeamTrialConditionRowWidgetController_ShowState : ::System::Int32
 	{
-		Show = 1,
 		Empty = 0,
+		Show = 1,
 	};
 }

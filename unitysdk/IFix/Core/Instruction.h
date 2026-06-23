@@ -5,7 +5,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 6804;
+	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 6935;
 
 	struct alignas(4) Instruction
 	{

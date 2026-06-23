@@ -22,7 +22,7 @@ namespace System::Linq::Expressions { template <typename T> class Expression_1; 
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableQuery_1_TypeDefinitionIndex = 36810;
+	inline static constexpr unsigned int TableQuery_1_TypeDefinitionIndex = 38420;
 
 	template <typename T>
 	class TableQuery_1 : public ::SQLite::BaseTableQuery

@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int AuthenticationSchemes_TypeDefinitionIndex = 3263;
+	inline static constexpr unsigned int AuthenticationSchemes_TypeDefinitionIndex = 3262;
 
 	enum class AuthenticationSchemes : ::System::Int32
 	{

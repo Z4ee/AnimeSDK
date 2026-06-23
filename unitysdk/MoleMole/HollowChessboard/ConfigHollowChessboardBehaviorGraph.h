@@ -4,11 +4,11 @@
 
 namespace MoleMole::HollowChessboard { class IConfigHollowChessboardBehavior; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDBEHAVIORGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x13838530)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDBEHAVIORGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x16CB0310)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowChessboardBehaviorGraph_TypeDefinitionIndex = 60331;
+	inline static constexpr unsigned int ConfigHollowChessboardBehaviorGraph_TypeDefinitionIndex = 83633;
 
 	class ConfigHollowChessboardBehaviorGraph : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TOGGLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021FF0)
+#define SIRENIX_ODININSPECTOR_TOGGLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32B300)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ToggleAttribute_TypeDefinitionIndex = 7240;
+	inline static constexpr unsigned int ToggleAttribute_TypeDefinitionIndex = 7371;
 
 	class ToggleAttribute : public ::System::Attribute
 	{

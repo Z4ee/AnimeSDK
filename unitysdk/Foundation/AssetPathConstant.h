@@ -5,58 +5,58 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKPATH_1_OFFSET UNITYSDK_OFFSET(0x1BE50200)
-#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKPATH_OFFSET UNITYSDK_OFFSET(0x1BE500A0)
-#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKRELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x1BE50620)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEBLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1BE4F9E0)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEBUNDLEROOT_OFFSET UNITYSDK_OFFSET(0x1BE4F900)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEFILEROOT_OFFSET UNITYSDK_OFFSET(0x1BE4F640)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_TEMPFILEROOT_OFFSET UNITYSDK_OFFSET(0x1BE4F7A0)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEAUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1BE4FE00)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEBLOCKPATH_OFFSET UNITYSDK_OFFSET(0x1BE4FCA0)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEBUNDLEPATH_OFFSET UNITYSDK_OFFSET(0x1BE4FB40)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEFILEROOT_OFFSET UNITYSDK_OFFSET(0x1BE4F4E0)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEMISCPATH_OFFSET UNITYSDK_OFFSET(0x1BE4FFC0)
-#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEVIDEOPATH_OFFSET UNITYSDK_OFFSET(0x1BE4FEE0)
+#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKPATH_1_OFFSET UNITYSDK_OFFSET(0x1E19EAD0)
+#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKPATH_OFFSET UNITYSDK_OFFSET(0x1E19E970)
+#define FOUNDATION_ASSETPATHCONSTANT_GETUPDATEBLOCKRELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x1E19EEF0)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEBLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1E19E2B0)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEBUNDLEROOT_OFFSET UNITYSDK_OFFSET(0x1E19E1D0)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_BASEFILEROOT_OFFSET UNITYSDK_OFFSET(0x1E19DF10)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_TEMPFILEROOT_OFFSET UNITYSDK_OFFSET(0x1E19E070)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEAUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1E19E6D0)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEBLOCKPATH_OFFSET UNITYSDK_OFFSET(0x1E19E570)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEBUNDLEPATH_OFFSET UNITYSDK_OFFSET(0x1E19E410)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEFILEROOT_OFFSET UNITYSDK_OFFSET(0x1E19DDB0)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEMISCPATH_OFFSET UNITYSDK_OFFSET(0x1E19E890)
+#define FOUNDATION_ASSETPATHCONSTANT_GET_UPDATEVIDEOPATH_OFFSET UNITYSDK_OFFSET(0x1E19E7B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetPathConstant_TypeDefinitionIndex = 8205;
+	inline static constexpr unsigned int AssetPathConstant_TypeDefinitionIndex = 8183;
 
 	class AssetPathConstant : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__updateFileRoot()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x73F0);
-		}
-		static ::System::String** StaticGet__UpdateBlockPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x73F8);
-		}
-		static ::System::String** StaticGet__cacheVersionFilePath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7400);
-		}
-		static ::System::String** StaticGet__baseFileRoot()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7408);
-		}
-		static ::System::String** StaticGet__tempFileRoot()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7410);
-		}
 		static ::System::String** StaticGet__cacheConfigBinFilePath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7418);
-		}
-		static ::System::String** StaticGet__UpdateBundlePath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7420);
 		}
-		static ::System::String** StaticGet__BaseBlockRoot()
+		static ::System::String** StaticGet__UpdateBundlePath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7428);
+		}
+		static ::System::String** StaticGet__UpdateBlockPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7430);
+		}
+		static ::System::String** StaticGet__updateFileRoot()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7438);
+		}
+		static ::System::String** StaticGet__cacheVersionFilePath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7440);
+		}
+		static ::System::String** StaticGet__BaseBlockRoot()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7448);
+		}
+		static ::System::String** StaticGet__baseFileRoot()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7450);
+		}
+		static ::System::String** StaticGet__tempFileRoot()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetPathConstant_TypeDefinitionIndex)->GetStaticField(0x7458);
 		}
 		// static const ::System::String* AppStoreCDNUrl; // 0x0
 		// static const ::System::String* RealCDNUrl; // 0x0

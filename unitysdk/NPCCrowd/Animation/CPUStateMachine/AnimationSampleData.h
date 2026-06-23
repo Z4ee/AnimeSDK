@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/Animation/NPCAnimationLib_AnimationId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONSAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x582BD0)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONSAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x748960)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int AnimationSampleData_TypeDefinitionIndex = 63591;
+	inline static constexpr unsigned int AnimationSampleData_TypeDefinitionIndex = 81338;
 
 	struct alignas(4) AnimationSampleData
 	{

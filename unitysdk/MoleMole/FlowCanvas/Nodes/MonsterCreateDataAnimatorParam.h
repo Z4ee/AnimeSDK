@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateDataAnimatorParam_TypeDefinitionIndex = 47573;
+	inline static constexpr unsigned int MonsterCreateDataAnimatorParam_TypeDefinitionIndex = 72186;
 
 	struct alignas(8) MonsterCreateDataAnimatorParam
 	{

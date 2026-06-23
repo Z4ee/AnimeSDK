@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_381D780505B409F3;
+namespace MoleMole { class UIActivityWinterPageTabWidgetController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_708_TypeDefinitionIndex = 72537;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_708_TypeDefinitionIndex = 70424;
 
 class Class_0_16E4307DCC419505_708
 {

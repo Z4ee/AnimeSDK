@@ -10,29 +10,29 @@ namespace DigitalOpus::MB::Core { class MB3_TextureCombinerPipeline_TexturePipel
 namespace DigitalOpus::MB::Core { class ProgressUpdateDelegate; }
 namespace UnityEngine { class Texture2D; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B6E9790)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B6EAEA0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B6EAF00)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B6EAEB0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6E9780)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E9770)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DAD99F0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DADB100)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DADB160)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DADB110)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DAD99E0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERUNITY__CREATEATLASES_D__2__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD99D0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPackerUnity__CreateAtlases_d__2_TypeDefinitionIndex = 85166;
+	inline static constexpr unsigned int MB3_TextureCombinerPackerUnity__CreateAtlases_d__2_TypeDefinitionIndex = 90740;
 
 	class MB3_TextureCombinerPackerUnity__CreateAtlases_d__2 : public ::System::Object
 	{
 	public:
-		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x10
-		::Il2CppArray<::UnityEngine::Texture2D*>* atlases; // 0x18
-		::DigitalOpus::MB::Core::AtlasPackingResult* packedAtlasRects; // 0x20
-		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x28
-		::System::Object* __2__current; // 0x30
-		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x38
-		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x40
-		::System::Int32 __1__state; // 0x48
-		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x4C
+		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x10
+		::DigitalOpus::MB::Core::AtlasPackingResult* packedAtlasRects; // 0x18
+		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x20
+		::System::Object* __2__current; // 0x28
+		::Il2CppArray<::UnityEngine::Texture2D*>* atlases; // 0x30
+		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x38
+		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x40
+		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x48
+		::System::Int32 __1__state; // 0x4C
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

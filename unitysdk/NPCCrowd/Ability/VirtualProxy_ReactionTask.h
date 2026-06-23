@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeTaskBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD0C4BE0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD0C4B70)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD0C4C40)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C4CC0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1178D330)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x1178D2C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1178D390)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1178D410)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_ReactionTask_TypeDefinitionIndex = 50386;
+	inline static constexpr unsigned int VirtualProxy_ReactionTask_TypeDefinitionIndex = 54163;
 
-	class VirtualProxy_ReactionTask : public ::StateTreeCore::VirtualProxy_StateTreeTaskBase
+	class VirtualProxy_ReactionTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{
 	public:
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

@@ -4,7 +4,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_x509list_TypeDefinitionIndex = 2532;
+	inline static constexpr unsigned int UnityTls_unitytls_x509list_TypeDefinitionIndex = 2531;
 
 	struct alignas(1) UnityTls_unitytls_x509list
 	{

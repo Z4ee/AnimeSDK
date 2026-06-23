@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0708D0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C070910)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__NEW_B__358_0_OFFSET UNITYSDK_OFFSET(0x1C070920)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38D840)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38D880)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION___C__NEW_B__358_0_OFFSET UNITYSDK_OFFSET(0x1E38D890)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression___c_TypeDefinitionIndex = 4430;
+	inline static constexpr unsigned int Expression___c_TypeDefinitionIndex = 4429;
 
 	class Expression___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__358_0()
-		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Expression___c_TypeDefinitionIndex)->GetStaticField(0x3BC0);
-		}
 		static ::System::Linq::Expressions::Expression___c** StaticGet___9()
 		{
-			return (::System::Linq::Expressions::Expression___c**)Il2CppClass::FromTypeDefinitionIndex(Expression___c_TypeDefinitionIndex)->GetStaticField(0x3BC8);
+			return (::System::Linq::Expressions::Expression___c**)Il2CppClass::FromTypeDefinitionIndex(Expression___c_TypeDefinitionIndex)->GetStaticField(0x3BC0);
+		}
+		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__358_0()
+		{
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Expression___c_TypeDefinitionIndex)->GetStaticField(0x3BC8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164415F0)
-#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16441630)
-#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__ONCREATEPROPERTY_B__16_0_OFFSET UNITYSDK_OFFSET(0x16441640)
+#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A37410)
+#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A37450)
+#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_ACTIVITYHOTPOTREWARDROW_DATABIND___C__ONCREATEPROPERTY_B__16_0_OFFSET UNITYSDK_OFFSET(0x18A37460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex = 60251;
+	inline static constexpr unsigned int UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex = 53358;
 
 	class UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c** StaticGet___9()
-		{
-			return (::MoleMole::UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x437A0);
-		}
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x437A8);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x486F0);
+		}
+		static ::MoleMole::UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c** StaticGet___9()
+		{
+			return (::MoleMole::UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x486F8);
 		}
 
 		static ::System::Void _cctor()

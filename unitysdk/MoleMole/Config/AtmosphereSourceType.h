@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AtmosphereSourceType_TypeDefinitionIndex = 44634;
+	inline static constexpr unsigned int AtmosphereSourceType_TypeDefinitionIndex = 52602;
 
 	enum class AtmosphereSourceType : ::System::Int32
 	{
-		None = 0,
 		TimeRewind = 1,
+		None = 0,
 	};
 }

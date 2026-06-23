@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A86370)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A863B0)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__ONRSPGETALLTASKREWARDERROR_B__18_0_OFFSET UNITYSDK_OFFSET(0x15A863C0)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__ONRSPGETALLTASKREWARDERROR_B__18_1_OFFSET UNITYSDK_OFFSET(0x15A863F0)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17420580)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x174205C0)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__ONRSPGETALLTASKREWARDERROR_B__18_0_OFFSET UNITYSDK_OFFSET(0x174205D0)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONDIALOGPOPWINDOWCONTROLLER___C__ONRSPGETALLTASKREWARDERROR_B__18_1_OFFSET UNITYSDK_OFFSET(0x174206D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex = 54345;
+	inline static constexpr unsigned int UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex = 48098;
 
 	class UIAbyssS2RewardMissionDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__18_1()
+		static ::System::Action** StaticGet___9__18_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A790);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C6F0);
 		}
 		static ::MoleMole::UIAbyssS2RewardMissionDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2RewardMissionDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A798);
+			return (::MoleMole::UIAbyssS2RewardMissionDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C6F8);
 		}
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action** StaticGet___9__18_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A7A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C700);
 		}
 
 		static ::System::Void _cctor()

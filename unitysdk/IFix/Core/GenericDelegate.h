@@ -4,21 +4,21 @@
 
 namespace IFix::Core { class VirtualMachine; }
 
-#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1A78E820)
-#define IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78E800)
+#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1CA9E7E0)
+#define IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA9E7C0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 6802;
+	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 6933;
 
 	class GenericDelegate : public ::System::Object
 	{
 	public:
-		::System::Object* anonObj; // 0x10
-		::IFix::Core::VirtualMachine* virtualMachine; // 0x18
-		::System::Int32 extraArgNum; // 0x20
-		::System::Boolean pushSelf; // 0x24
-		::System::Int32 methodId; // 0x28
+		::IFix::Core::VirtualMachine* virtualMachine; // 0x10
+		::System::Object* anonObj; // 0x18
+		::System::Int32 methodId; // 0x20
+		::System::Int32 extraArgNum; // 0x24
+		::System::Boolean pushSelf; // 0x28
 
 		::System::Void _ctor(::IFix::Core::VirtualMachine* virtualMachine, ::System::Int32 methodId, ::System::Object* anonObj)
 		{

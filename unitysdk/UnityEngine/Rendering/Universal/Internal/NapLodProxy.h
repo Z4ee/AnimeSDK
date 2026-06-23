@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODPROXY_ISONETIMELODPROXY_OFFSET UNITYSDK_OFFSET(0x1907FA60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1907F9D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODPROXY_ISONETIMELODPROXY_OFFSET UNITYSDK_OFFSET(0x1AEBBEB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEBBE20)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapLodProxy_TypeDefinitionIndex = 30443;
+	inline static constexpr unsigned int NapLodProxy_TypeDefinitionIndex = 26541;
 
 	class NapLodProxy : public ::UnityEngine::MonoBehaviour
 	{

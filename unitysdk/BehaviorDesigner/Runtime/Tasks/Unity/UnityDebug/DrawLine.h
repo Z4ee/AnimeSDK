@@ -8,24 +8,24 @@ namespace BehaviorDesigner::Runtime { class SharedColor; }
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA7E700)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA7E330)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7E7C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA7E880)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA7E910)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDE0230)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDDFE60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE02F0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDE03B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYDEBUG_DRAWLINE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDE0440)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityDebug
 {
-	inline static constexpr unsigned int DrawLine_TypeDefinitionIndex = 32175;
+	inline static constexpr unsigned int DrawLine_TypeDefinitionIndex = 33726;
 
 	class DrawLine : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedBool* depthTest; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector3* start; // 0x60
-		::BehaviorDesigner::Runtime::SharedColor* color; // 0x68
-		::BehaviorDesigner::Runtime::SharedVector3* end; // 0x70
-		::BehaviorDesigner::Runtime::SharedFloat* duration; // 0x78
+		::BehaviorDesigner::Runtime::SharedVector3* start; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector3* end; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* duration; // 0x68
+		::BehaviorDesigner::Runtime::SharedColor* color; // 0x70
+		::BehaviorDesigner::Runtime::SharedBool* depthTest; // 0x78
 
 		::System::Void _ctor()
 		{

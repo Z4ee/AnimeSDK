@@ -6,12 +6,12 @@ namespace MoleMole { class UIBangkovTalentPageController; }
 namespace MoleMole { class UIBangkovTalentPageController_TalentConnectionLine; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBANGKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC4530)
-#define MOLEMOLE_UIBANGKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS29_0__ONNODESTATECHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x15AC4540)
+#define MOLEMOLE_UIBANGKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176D65C0)
+#define MOLEMOLE_UIBANGKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS29_0__ONNODESTATECHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x176D65D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTalentPageController___c__DisplayClass29_0_TypeDefinitionIndex = 49174;
+	inline static constexpr unsigned int UIBangkovTalentPageController___c__DisplayClass29_0_TypeDefinitionIndex = 69428;
 
 	class UIBangkovTalentPageController___c__DisplayClass29_0 : public ::System::Object
 	{

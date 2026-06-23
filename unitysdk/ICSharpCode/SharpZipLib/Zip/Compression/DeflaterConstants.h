@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C554050)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C554040)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8841E0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8841D0)
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
-	inline static constexpr unsigned int DeflaterConstants_TypeDefinitionIndex = 6695;
+	inline static constexpr unsigned int DeflaterConstants_TypeDefinitionIndex = 6826;
 
 	class DeflaterConstants : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_COMPR_FUNC()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5AF0);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_NICE_LENGTH()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5AF8);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_MAX_LAZY()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5B00);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_GOOD_LENGTH()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5B08);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5BE0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_MAX_CHAIN()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5B10);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5BE8);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_COMPR_FUNC()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5BF0);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_MAX_LAZY()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5BF8);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_NICE_LENGTH()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x5C00);
 		}
 		static ::System::Int32* StaticGet_MAX_BLOCK_SIZE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x3130);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeflaterConstants_TypeDefinitionIndex)->GetStaticField(0x31C0);
 		}
 		// static const ::System::Boolean DEBUGGING; // 0x0
 		// static const ::System::Int32 STORED_BLOCK = 0x0; // 0x0

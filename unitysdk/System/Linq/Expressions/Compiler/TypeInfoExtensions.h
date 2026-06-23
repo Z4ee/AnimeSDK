@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions::Compiler { class DelegateHelpers_TypeInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_TYPEINFOEXTENSIONS_MAKEDELEGATETYPE_1_OFFSET UNITYSDK_OFFSET(0x1C070490)
-#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_TYPEINFOEXTENSIONS_MAKEDELEGATETYPE_OFFSET UNITYSDK_OFFSET(0x1C070480)
+#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_TYPEINFOEXTENSIONS_MAKEDELEGATETYPE_1_OFFSET UNITYSDK_OFFSET(0x1E38D400)
+#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_TYPEINFOEXTENSIONS_MAKEDELEGATETYPE_OFFSET UNITYSDK_OFFSET(0x1E38D3F0)
 
 namespace System::Linq::Expressions::Compiler
 {
-	inline static constexpr unsigned int TypeInfoExtensions_TypeDefinitionIndex = 4949;
+	inline static constexpr unsigned int TypeInfoExtensions_TypeDefinitionIndex = 4948;
 
 	class TypeInfoExtensions : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIABInLevelPlayerInfoWidgetController; }
 namespace MoleMole { class UIABStandbyPhaseWidgetController___c__DisplayClass47_0; }
 
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2EDF0)
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__TOGGLEPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x12B2EE00)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x161053F0)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__TOGGLEPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x16105400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass47_1_TypeDefinitionIndex = 71651;
+	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass47_1_TypeDefinitionIndex = 86078;
 
 	class UIABStandbyPhaseWidgetController___c__DisplayClass47_1 : public ::System::Object
 	{

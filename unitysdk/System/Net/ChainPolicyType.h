@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ChainPolicyType_TypeDefinitionIndex = 3306;
+	inline static constexpr unsigned int ChainPolicyType_TypeDefinitionIndex = 3305;
 
 	enum class ChainPolicyType : ::System::Int32
 	{

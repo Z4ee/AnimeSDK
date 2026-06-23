@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultDelayEvent_DelayItem_TypeDefinitionIndex = 64592;
+	inline static constexpr unsigned int UILevelResultDelayEvent_DelayItem_TypeDefinitionIndex = 72345;
 
 	struct alignas(8) UILevelResultDelayEvent_DelayItem
 	{

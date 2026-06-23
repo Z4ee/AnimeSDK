@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int LoggingPolicy_TypeDefinitionIndex = 6499;
+	inline static constexpr unsigned int LoggingPolicy_TypeDefinitionIndex = 6543;
 
 	enum class LoggingPolicy : ::System::Int32
 	{

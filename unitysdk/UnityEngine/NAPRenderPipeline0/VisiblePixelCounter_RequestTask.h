@@ -7,21 +7,21 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine::NAPRenderPipeline0 { class VisiblePixelCounter; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1B0792F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1B079260)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1B079250)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B079270)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1D3D03F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1D3D0360)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1D3D0350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VISIBLEPIXELCOUNTER_REQUESTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D0370)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VisiblePixelCounter_RequestTask_TypeDefinitionIndex = 29775;
+	inline static constexpr unsigned int VisiblePixelCounter_RequestTask_TypeDefinitionIndex = 26860;
 
 	class VisiblePixelCounter_RequestTask : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* Ages; // 0x10
-		::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* action; // 0x18
-		::UnityEngine::NAPRenderPipeline0::VisiblePixelCounter* self; // 0x20
+		::UnityEngine::NAPRenderPipeline0::VisiblePixelCounter* self; // 0x10
+		::Il2CppArray<::System::Int32>* Ages; // 0x18
+		::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* action; // 0x20
 		::UnityEngine::ComputeBuffer* buffer; // 0x28
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::VisiblePixelCounter* self, ::UnityEngine::ComputeBuffer* buffer)

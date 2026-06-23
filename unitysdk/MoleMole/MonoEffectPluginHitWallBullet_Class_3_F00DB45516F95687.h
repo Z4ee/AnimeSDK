@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x142A5D70)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_READMEMBER_OFFSET UNITYSDK_OFFSET(0x142A5D80)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_WRITE_OFFSET UNITYSDK_OFFSET(0x142A5F60)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687__CCTOR_OFFSET UNITYSDK_OFFSET(0x142A6100)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687__CTOR_OFFSET UNITYSDK_OFFSET(0x142A60C0)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17E8E7D0)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17E8E7E0)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687_WRITE_OFFSET UNITYSDK_OFFSET(0x17E8E9C0)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E8EB60)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET_CLASS_3_F00DB45516F95687__CTOR_OFFSET UNITYSDK_OFFSET(0x17E8EB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex = 57031;
+	inline static constexpr unsigned int MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex = 83272;
 
 	class MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687 : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoEffectPluginHitWallBullet*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Battle::BulletHoleConfigObject*>*>** StaticGet_Field_3_1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Battle::BulletHoleConfigObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex)->GetStaticField(0x45BE0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitWallCameraShakeConfig*>** StaticGet_Field_3_0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitWallCameraShakeConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex)->GetStaticField(0x45BE8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitWallCameraShakeConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex)->GetStaticField(0x44E90);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Battle::BulletHoleConfigObject*>*>** StaticGet_Field_3_1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Battle::BulletHoleConfigObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginHitWallBullet_Class_3_F00DB45516F95687_TypeDefinitionIndex)->GetStaticField(0x44E98);
 		}
 
 		::System::Void _ctor()

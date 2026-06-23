@@ -5,12 +5,12 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E04C30)
-#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CTOR_OFFSET UNITYSDK_OFFSET(0x19E04C20)
+#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C19CBC0)
+#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19CBB0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int DictionaryHashHelpers_TypeDefinitionIndex = 1528;
+	inline static constexpr unsigned int DictionaryHashHelpers_TypeDefinitionIndex = 1527;
 
 	class DictionaryHashHelpers : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication
 {
-	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 3148;
+	inline static constexpr unsigned int HashAlgorithmType_TypeDefinitionIndex = 3147;
 
 	enum class HashAlgorithmType : ::System::Int32
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_PKCS7_SORTEDSET_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BE9A720)
-#define MONO_SECURITY_PKCS7_SORTEDSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9A8A0)
+#define MONO_SECURITY_PKCS7_SORTEDSET_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E1E2360)
+#define MONO_SECURITY_PKCS7_SORTEDSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E24E0)
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int PKCS7_SortedSet_TypeDefinitionIndex = 2283;
+	inline static constexpr unsigned int PKCS7_SortedSet_TypeDefinitionIndex = 2282;
 
 	class PKCS7_SortedSet : public ::System::Object
 	{

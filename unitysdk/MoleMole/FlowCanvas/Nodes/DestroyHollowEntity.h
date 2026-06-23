@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_DESTROYHOLLOWENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x10B9F140)
-#define MOLEMOLE_FLOWCANVAS_NODES_DESTROYHOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x10B9F2B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_DESTROYHOLLOWENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1510D660)
+#define MOLEMOLE_FLOWCANVAS_NODES_DESTROYHOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1510D7D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DestroyHollowEntity_TypeDefinitionIndex = 51739;
+	inline static constexpr unsigned int DestroyHollowEntity_TypeDefinitionIndex = 45677;
 
 	class DestroyHollowEntity : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::UInt32>
 	{

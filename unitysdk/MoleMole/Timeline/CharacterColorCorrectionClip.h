@@ -9,13 +9,13 @@ namespace MoleMole::Timeline { class CharacterColorCorrectionBehaviour; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 
-#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1585F060)
-#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1585F050)
-#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1585F3C0)
+#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1642F1B0)
+#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1642F1A0)
+#define MOLEMOLE_TIMELINE_CHARACTERCOLORCORRECTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1642F510)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CharacterColorCorrectionClip_TypeDefinitionIndex = 39840;
+	inline static constexpr unsigned int CharacterColorCorrectionClip_TypeDefinitionIndex = 80644;
 
 	class CharacterColorCorrectionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

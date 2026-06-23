@@ -4,11 +4,11 @@
 
 namespace NodeCanvas::Framework { class BBParameter; }
 
-#define FLOWCANVAS_NODES_PARAMETERVARIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EC960)
+#define FLOWCANVAS_NODES_PARAMETERVARIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D533190)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ParameterVariableNode_TypeDefinitionIndex = 28157;
+	inline static constexpr unsigned int ParameterVariableNode_TypeDefinitionIndex = 29516;
 
 	class ParameterVariableNode : public ::FlowCanvas::FlowNode
 	{

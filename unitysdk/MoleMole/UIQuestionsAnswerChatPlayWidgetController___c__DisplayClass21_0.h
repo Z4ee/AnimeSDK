@@ -6,19 +6,19 @@ namespace MoleMole { class UIQuestionsAnswerChatPlayWidgetController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA2AC0)
-#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__STARTPLAYTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x14DA4830)
-#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__STARTPLAYTEXT_B__1_OFFSET UNITYSDK_OFFSET(0x14DA4980)
+#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15781280)
+#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__STARTPLAYTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x15782FF0)
+#define MOLEMOLE_UIQUESTIONSANSWERCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS21_0__STARTPLAYTEXT_B__1_OFFSET UNITYSDK_OFFSET(0x15783140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerChatPlayWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 50864;
+	inline static constexpr unsigned int UIQuestionsAnswerChatPlayWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 43544;
 
 	class UIQuestionsAnswerChatPlayWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::UIQuestionsAnswerChatPlayWidgetController* __4__this; // 0x18
+		::MoleMole::UIQuestionsAnswerChatPlayWidgetController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::String* textKey; // 0x20
 
 		::System::Void _ctor()

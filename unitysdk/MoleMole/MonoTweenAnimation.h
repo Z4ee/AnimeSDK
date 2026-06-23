@@ -7,11 +7,11 @@ namespace MoleMole::SceneMark { class StageTweenAnimData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOTWEENANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAA080)
+#define MOLEMOLE_MONOTWEENANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12648F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTweenAnimation_TypeDefinitionIndex = 52051;
+	inline static constexpr unsigned int MonoTweenAnimation_TypeDefinitionIndex = 42688;
 
 	class MonoTweenAnimation : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

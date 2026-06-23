@@ -6,11 +6,11 @@ namespace System { class Delegate; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x18C8BB00)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x18C8B980)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x18C8BA30)
-#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C8B910)
-#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8B970)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x1AE76010)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1AE75E90)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x1AE75F40)
+#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE75E20)
+#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE75E80)
 
 namespace System::Threading
 {
@@ -23,8 +23,8 @@ namespace System::Threading
 		{
 			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x1140);
 		}
-		::System::Delegate* _start; // 0x10
-		::System::Object* _startArg; // 0x18
+		::System::Object* _startArg; // 0x10
+		::System::Delegate* _start; // 0x18
 		::System::Threading::ExecutionContext* _executionContext; // 0x20
 
 		static ::System::Void _cctor()

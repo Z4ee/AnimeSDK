@@ -7,13 +7,13 @@ namespace System::Linq::Expressions::Interpreter { class ByRefUpdater; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1A3ECC30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1A3ECC70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3ECC20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C78FB10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1C78FB50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFNEWINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C78FB00)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ByRefNewInstruction_TypeDefinitionIndex = 4830;
+	inline static constexpr unsigned int ByRefNewInstruction_TypeDefinitionIndex = 4829;
 
 	class ByRefNewInstruction : public ::System::Linq::Expressions::Interpreter::NewInstruction
 	{

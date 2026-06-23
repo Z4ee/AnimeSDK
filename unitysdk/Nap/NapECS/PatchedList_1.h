@@ -6,7 +6,7 @@ namespace Nap::NapECS { class IPatchedList; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int PatchedList_1_TypeDefinitionIndex = 35768;
+	inline static constexpr unsigned int PatchedList_1_TypeDefinitionIndex = 37358;
 
 	template <typename T>
 	class PatchedList_1 : public ::System::Object

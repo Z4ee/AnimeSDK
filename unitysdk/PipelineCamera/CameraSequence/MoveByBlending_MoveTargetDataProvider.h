@@ -3,11 +3,11 @@
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_MOVETARGETDATAPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11DCE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_MOVETARGETDATAPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D564420)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int MoveByBlending_MoveTargetDataProvider_TypeDefinitionIndex = 36369;
+	inline static constexpr unsigned int MoveByBlending_MoveTargetDataProvider_TypeDefinitionIndex = 37977;
 
 	class MoveByBlending_MoveTargetDataProvider : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::UnityEngine::Vector3>
 	{

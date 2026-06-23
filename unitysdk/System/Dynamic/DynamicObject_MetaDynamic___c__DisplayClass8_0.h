@@ -6,12 +6,12 @@ namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 namespace System::Dynamic { class InvokeBinder; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS8_0__BINDINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x1C3C67B0)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C67A0)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS8_0__BINDINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x1E70AE80)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E70AE70)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass8_0_TypeDefinitionIndex = 4988;
+	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass8_0_TypeDefinitionIndex = 4987;
 
 	class DynamicObject_MetaDynamic___c__DisplayClass8_0 : public ::System::Object
 	{

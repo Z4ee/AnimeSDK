@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DataParseStatus_TypeDefinitionIndex = 3367;
+	inline static constexpr unsigned int DataParseStatus_TypeDefinitionIndex = 3366;
 
 	enum class DataParseStatus : ::System::Int32
 	{

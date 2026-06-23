@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIINTERKNOTCOURSECHAPTERWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14826140)
+#define MOLEMOLE_UIINTERKNOTCOURSECHAPTERWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16925480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotCourseChapterWidgetController_Data_TypeDefinitionIndex = 50694;
+	inline static constexpr unsigned int UIInterKnotCourseChapterWidgetController_Data_TypeDefinitionIndex = 62572;
 
 	class UIInterKnotCourseChapterWidgetController_Data : public ::System::Object
 	{

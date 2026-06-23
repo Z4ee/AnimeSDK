@@ -8,30 +8,30 @@ namespace UnityEngine::Experimental::Rendering { class RayTracingAccelerationStr
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_ACCSTRUCT_OFFSET UNITYSDK_OFFSET(0x1B4C1190)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B4C13C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_WAITFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1B4C1B80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4C0BC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C0B30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_ACCSTRUCT_OFFSET UNITYSDK_OFFSET(0x1D812E20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D813050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER_WAITFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1D813990)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D812760)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_RTXACCMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8126D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXRenderer_RTXAccManager_TypeDefinitionIndex = 5785;
+	inline static constexpr unsigned int RTXRenderer_RTXAccManager_TypeDefinitionIndex = 5789;
 
 	class RTXRenderer_RTXAccManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet__RTXSolidAngleCullingMinAngle()
+		static ::UnityEngine::NAPRenderPipeline0::RTXRenderer_RTXAccManager** StaticGet_instance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_RTXAccManager_TypeDefinitionIndex)->GetStaticField(0x4FA0);
+			return (::UnityEngine::NAPRenderPipeline0::RTXRenderer_RTXAccManager**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_RTXAccManager_TypeDefinitionIndex)->GetStaticField(0x4FA0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet__RTXEnableSolidAngleCulling()
 		{
 			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_RTXAccManager_TypeDefinitionIndex)->GetStaticField(0x4FA8);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::RTXRenderer_RTXAccManager** StaticGet_instance()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet__RTXSolidAngleCullingMinAngle()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::RTXRenderer_RTXAccManager**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_RTXAccManager_TypeDefinitionIndex)->GetStaticField(0x4FB0);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_RTXAccManager_TypeDefinitionIndex)->GetStaticField(0x4FB0);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Experimental::Rendering::RayTracingAccelerationStructure*>* rayTracingAccelerationStructures; // 0x10
 

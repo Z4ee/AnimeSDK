@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x15B3EA30)
-#define MOLEMOLE_MONOITEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B3EBC0)
+#define MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x17DD6470)
+#define MOLEMOLE_MONOITEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD65F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoItemState_TypeDefinitionIndex = 56938;
+	inline static constexpr unsigned int MonoItemState_TypeDefinitionIndex = 40345;
 
 	class MonoItemState : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityHotpotInGamePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS195_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167DFE60)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS195_0__PLAYCOUNTDOWNANIM_B__0_OFFSET UNITYSDK_OFFSET(0x167DFE70)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS195_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173C7CE0)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS195_0__PLAYCOUNTDOWNANIM_B__0_OFFSET UNITYSDK_OFFSET(0x173C7CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass195_0_TypeDefinitionIndex = 53750;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass195_0_TypeDefinitionIndex = 75057;
 
 	class UIActivityHotpotInGamePageController___c__DisplayClass195_0 : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_DELTATIMED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AFC0410)
-#define FLOWCANVAS_NODES_DELTATIMED__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC0450)
+#define FLOWCANVAS_NODES_DELTATIMED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D400400)
+#define FLOWCANVAS_NODES_DELTATIMED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D400440)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DeltaTimed_TypeDefinitionIndex = 27995;
+	inline static constexpr unsigned int DeltaTimed_TypeDefinitionIndex = 29586;
 
 	class DeltaTimed : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Single, ::System::Single, ::System::Single>
 	{

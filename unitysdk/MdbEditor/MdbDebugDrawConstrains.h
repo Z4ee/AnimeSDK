@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MDBEDITOR_MDBDEBUGDRAWCONSTRAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1033FA00)
+#define MDBEDITOR_MDBDEBUGDRAWCONSTRAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64CF0)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbDebugDrawConstrains_TypeDefinitionIndex = 85950;
+	inline static constexpr unsigned int MdbDebugDrawConstrains_TypeDefinitionIndex = 91481;
 
 	class MdbDebugDrawConstrains : public ::System::Object
 	{

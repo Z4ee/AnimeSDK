@@ -5,19 +5,19 @@
 namespace MoleMole::FlowCanvas::Nodes { class LDShowUIHollowMiniGame; }
 namespace System { class Action; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CLOSEBIGTVMINIGAME_B__0_OFFSET UNITYSDK_OFFSET(0x15417740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CLOSEBIGTVMINIGAME_B__1_OFFSET UNITYSDK_OFFSET(0x15417830)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15417730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CLOSEBIGTVMINIGAME_B__0_OFFSET UNITYSDK_OFFSET(0x161E2B50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CLOSEBIGTVMINIGAME_B__1_OFFSET UNITYSDK_OFFSET(0x161E2C40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIHOLLOWMINIGAME___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161E2B40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowUIHollowMiniGame___c__DisplayClass19_0_TypeDefinitionIndex = 70702;
+	inline static constexpr unsigned int LDShowUIHollowMiniGame___c__DisplayClass19_0_TypeDefinitionIndex = 67221;
 
 	class LDShowUIHollowMiniGame___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDShowUIHollowMiniGame* __4__this; // 0x18
+		::MoleMole::FlowCanvas::Nodes::LDShowUIHollowMiniGame* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::Boolean isSuccess; // 0x20
 		::System::Boolean skipFadeOut; // 0x21
 

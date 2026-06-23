@@ -5,11 +5,11 @@
 class Class_2_F8EB4D9464ADCCA1;
 namespace MoleMole { class UIMonsterCardInfoPopWindowController_MonsterInfoExt; }
 
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOOVERALL__CTOR_OFFSET UNITYSDK_OFFSET(0x14D4C240)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOOVERALL__CTOR_OFFSET UNITYSDK_OFFSET(0x152919D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoOverAll_TypeDefinitionIndex = 38124;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoOverAll_TypeDefinitionIndex = 69310;
 
 	class UIMonsterCardInfoPopWindowController_MonsterInfoOverAll : public ::System::Object
 	{

@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalCameraData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CAPTURE_B__3_1_OFFSET UNITYSDK_OFFSET(0x190CEB10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x190CEAC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x190CEB00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CAPTURE_B__3_1_OFFSET UNITYSDK_OFFSET(0x1AF11430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF113E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF11420)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCapture___c_TypeDefinitionIndex = 30200;
+	inline static constexpr unsigned int NapCapture___c_TypeDefinitionIndex = 26745;
 
 	class NapCapture___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::NapCapture___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::Universal::NapCapture___c**)Il2CppClass::FromTypeDefinitionIndex(NapCapture___c_TypeDefinitionIndex)->GetStaticField(0x24780);
-		}
 		static ::System::Action_1<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>** StaticGet___9__3_1()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCapture___c_TypeDefinitionIndex)->GetStaticField(0x24788);
+			return (::System::Action_1<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCapture___c_TypeDefinitionIndex)->GetStaticField(0x21FF0);
+		}
+		static ::UnityEngine::Rendering::Universal::NapCapture___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::Universal::NapCapture___c**)Il2CppClass::FromTypeDefinitionIndex(NapCapture___c_TypeDefinitionIndex)->GetStaticField(0x21FF8);
 		}
 
 		static ::System::Void _cctor()

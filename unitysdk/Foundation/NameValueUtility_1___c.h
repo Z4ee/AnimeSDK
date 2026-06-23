@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class NameValueUtility_1___c; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NameValueUtility_1___c_TypeDefinitionIndex = 8818;
+	inline static constexpr unsigned int NameValueUtility_1___c_TypeDefinitionIndex = 8428;
 
 	template <typename T>
 	class NameValueUtility_1___c : public ::System::Object

@@ -12,34 +12,34 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_CALLDESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1ADB2570)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_CLEARDELEGATESCACHE_OFFSET UNITYSDK_OFFSET(0x1ADB1D60)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ADB29A0)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GENERATEONEFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1ADB1130)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GETORCREATEDESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1ADB1E60)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GETORCREATESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1ADB1460)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GET_CACHEDFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1ADB2940)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ADB0E60)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADB2BD0)
-#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB2AD0)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_CALLDESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D1DEEA0)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_CLEARDELEGATESCACHE_OFFSET UNITYSDK_OFFSET(0x1D1DE690)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D1DF2D0)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GENERATEONEFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D1DDA60)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GETORCREATEDESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D1DE790)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GETORCREATESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D1DDD90)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_GET_CACHEDFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1D1DF270)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D1DD790)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1DF500)
+#define MESSAGEPACK_FORMATTERS_GRAPHOBJECTDYNAMIC_FALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DF400)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex = 26744;
+	inline static constexpr unsigned int GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex = 29759;
 
 	class GraphObjectDynamic_FallbackFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter** StaticGet_Instance()
-		{
-			return (::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter**)Il2CppClass::FromTypeDefinitionIndex(GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x20080);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet_FormatterGetters()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x20088);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x23E10);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter_DeSerializeMethod*>* DeSerializerDelegates; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter_SerializeMethod*>* SerializerDelegates; // 0x18
+		static ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter** StaticGet_Instance()
+		{
+			return (::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter**)Il2CppClass::FromTypeDefinitionIndex(GraphObjectDynamic_FallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x23E18);
+		}
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter_SerializeMethod*>* SerializerDelegates; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::GraphObjectDynamic_FallbackFormatter_DeSerializeMethod*>* DeSerializerDelegates; // 0x18
 
 		::System::Void _ctor()
 		{

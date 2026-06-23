@@ -6,12 +6,12 @@
 class AkCallbackInfo;
 namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController___c__DisplayClass49_0; }
 
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x169B95D0)
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS49_1__PLAYSOUND_B__1_OFFSET UNITYSDK_OFFSET(0x169B95E0)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB920)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS49_1__PLAYSOUND_B__1_OFFSET UNITYSDK_OFFSET(0x186BB930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController___c__DisplayClass49_1_TypeDefinitionIndex = 73370;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController___c__DisplayClass49_1_TypeDefinitionIndex = 86506;
 
 	class UIGeneralNewsBubbleRowWidgetController___c__DisplayClass49_1 : public ::System::Object
 	{

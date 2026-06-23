@@ -13,55 +13,55 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define NAPGRADIENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFB5B750)
-#define NAPGRADIENT_GET_HDR_OFFSET UNITYSDK_OFFSET(0xFB5B730)
-#define NAPGRADIENT_RENDER_OFFSET UNITYSDK_OFFSET(0xFB5BF30)
-#define NAPGRADIENT_SET_HDR_OFFSET UNITYSDK_OFFSET(0xFB5B740)
-#define NAPGRADIENT_VALIDATION_OFFSET UNITYSDK_OFFSET(0xFB5BE80)
-#define NAPGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB5CEB0)
-#define NAPGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xFB5CD70)
-#define NAPGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5C960)
+#define NAPGRADIENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEBDFA80)
+#define NAPGRADIENT_GET_HDR_OFFSET UNITYSDK_OFFSET(0xEBDFA60)
+#define NAPGRADIENT_RENDER_OFFSET UNITYSDK_OFFSET(0xEBE0260)
+#define NAPGRADIENT_SET_HDR_OFFSET UNITYSDK_OFFSET(0xEBDFA70)
+#define NAPGRADIENT_VALIDATION_OFFSET UNITYSDK_OFFSET(0xEBE01B0)
+#define NAPGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBE11E0)
+#define NAPGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xEBE10A0)
+#define NAPGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xEBE0C90)
 
-inline static constexpr unsigned int NapGradient_TypeDefinitionIndex = 73305;
+inline static constexpr unsigned int NapGradient_TypeDefinitionIndex = 60604;
 
 class NapGradient : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_colors()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x38760);
+		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3AAB0);
 	}
 	static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_alphas()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x38768);
-	}
-	static ::System::Int32* StaticGet__Offset()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE080);
-	}
-	static ::System::Int32* StaticGet__AlphaKeyCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE084);
-	}
-	static ::System::Int32* StaticGet__Mode()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE088);
-	}
-	static ::System::Int32* StaticGet__ColorKeys()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE08C);
+		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3AAB8);
 	}
 	static ::System::Int32* StaticGet__Scale()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE090);
-	}
-	static ::System::Int32* StaticGet__ColorKeyCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE094);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6C0);
 	}
 	static ::System::Int32* StaticGet__AlphaKeys()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE098);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6C4);
+	}
+	static ::System::Int32* StaticGet__AlphaKeyCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6C8);
+	}
+	static ::System::Int32* StaticGet__ColorKeyCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6CC);
+	}
+	static ::System::Int32* StaticGet__Mode()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6D0);
+	}
+	static ::System::Int32* StaticGet__Offset()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6D4);
+	}
+	static ::System::Int32* StaticGet__ColorKeys()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE6D8);
 	}
 	::System::Collections::Generic::List_1<::NapGradientColorKey>* colorKeys; // 0x10
 	::System::Collections::Generic::List_1<::NapGradientAlphaKey>* alphaKeys; // 0x18

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewDeviceMsg_Data_TypeDefinitionIndex = 28999;
+	inline static constexpr unsigned int InputRemoting_NewDeviceMsg_Data_TypeDefinitionIndex = 31655;
 
 	struct alignas(8) InputRemoting_NewDeviceMsg_Data
 	{

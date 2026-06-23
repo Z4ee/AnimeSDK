@@ -9,7 +9,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int TaskBasedEventCollection_1___c_TypeDefinitionIndex = 74074;
+	inline static constexpr unsigned int TaskBasedEventCollection_1___c_TypeDefinitionIndex = 70126;
 
 	template <typename T>
 	class TaskBasedEventCollection_1___c : public ::System::Object

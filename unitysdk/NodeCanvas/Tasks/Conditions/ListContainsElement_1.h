@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int ListContainsElement_1_TypeDefinitionIndex = 27947;
+	inline static constexpr unsigned int ListContainsElement_1_TypeDefinitionIndex = 29728;
 
 	template <typename T>
 	class ListContainsElement_1 : public ::NodeCanvas::Framework::ConditionTask

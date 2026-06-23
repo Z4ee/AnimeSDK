@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define TMPRO_TMP_MATH_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1C495C20)
-#define TMPRO_TMP_MATH_MOD_OFFSET UNITYSDK_OFFSET(0x1C495C50)
-#define TMPRO_TMP_MATH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C495C70)
+#define TMPRO_TMP_MATH_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1E7D16B0)
+#define TMPRO_TMP_MATH_MOD_OFFSET UNITYSDK_OFFSET(0x1E7D16E0)
+#define TMPRO_TMP_MATH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D1700)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Math_TypeDefinitionIndex = 37611;
+	inline static constexpr unsigned int TMP_Math_TypeDefinitionIndex = 39237;
 
 	class TMP_Math : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector2* StaticGet_MAX_16BIT()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x9210);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x9720);
 		}
 		static ::UnityEngine::Vector2* StaticGet_MIN_16BIT()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x9218);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TMP_Math_TypeDefinitionIndex)->GetStaticField(0x9728);
 		}
 		// static const ::System::Single FLOAT_MAX; // 0x0
 		// static const ::System::Single FLOAT_MIN; // 0x0

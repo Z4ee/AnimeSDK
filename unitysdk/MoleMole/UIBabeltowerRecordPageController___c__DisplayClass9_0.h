@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBabeltowerRecordPageController; }
 
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158B80F0)
-#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x158B8100)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172BDED0)
+#define MOLEMOLE_UIBABELTOWERRECORDPAGECONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x172BDEE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerRecordPageController___c__DisplayClass9_0_TypeDefinitionIndex = 77431;
+	inline static constexpr unsigned int UIBabeltowerRecordPageController___c__DisplayClass9_0_TypeDefinitionIndex = 63662;
 
 	class UIBabeltowerRecordPageController___c__DisplayClass9_0 : public ::System::Object
 	{

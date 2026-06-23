@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_E894E54C3D94F028.h"
-#include "unitysdk/Struct_2_1862835F8661A21F_268.h"
+#include "unitysdk/Struct_2_1862835F8661A21F_605.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Project::Config { class AbyssS2SuddenEventTemplateExt; }
@@ -9,29 +9,29 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_0741E6E06E98EE5D_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19333D40)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x19333640)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_2DAC0DC8DBBC14B7_OFFSET UNITYSDK_OFFSET(0x19333EE0)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x193339F0)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x19333900)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x19333BA0)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x19333C60)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x19333A00)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x19333620)
-#define CLASS_1_0741E6E06E98EE5D_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x19333EC0)
-#define CLASS_1_0741E6E06E98EE5D__CTOR_OFFSET UNITYSDK_OFFSET(0x19333E70)
+#define CLASS_1_0741E6E06E98EE5D_FINALIZE_OFFSET UNITYSDK_OFFSET(0x136841D0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x13683AF0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_2DAC0DC8DBBC14B7_OFFSET UNITYSDK_OFFSET(0x13684350)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x13683E90)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x13683DB0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x13684030)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x136840F0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x13683EA0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x13683AD0)
+#define CLASS_1_0741E6E06E98EE5D_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x136845B0)
+#define CLASS_1_0741E6E06E98EE5D__CTOR_OFFSET UNITYSDK_OFFSET(0x13684300)
 
-inline static constexpr unsigned int Class_1_0741E6E06E98EE5D_TypeDefinitionIndex = 15579;
+inline static constexpr unsigned int Class_1_0741E6E06E98EE5D_TypeDefinitionIndex = 10995;
 
 class Class_1_0741E6E06E98EE5D : public ::System::Object
 {
 public:
-	::Struct_2_1862835F8661A21F_268 Field_1_0; // 0x10
-	::Il2CppArray<::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt*>* Field_1_1; // 0x28
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_3; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x38
-	::System::Boolean Field_1_5; // 0x40
-	::System::Int32 Field_1_4; // 0x44
+	::Il2CppArray<::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x18
+	::Struct_2_1862835F8661A21F_605 Field_1_0; // 0x20
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_3; // 0x38
+	::System::Int32 Field_1_4; // 0x40
+	::System::Boolean Field_1_5; // 0x44
 
 	::System::Void _ctor()
 	{
@@ -73,6 +73,11 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0741E6E06E98EE5D_FINALIZE_OFFSET))(this);
 	}
 
+	::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt* Method_1_2DAC0DC8DBBC14B7(::System::Int32 a1)
+	{
+		return ((::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0741E6E06E98EE5D_METHOD_1_2DAC0DC8DBBC14B7_OFFSET))(this, a1);
+	}
+
 	::System::Void Method_1_7DB49B5407C8FD68()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0741E6E06E98EE5D_METHOD_1_7DB49B5407C8FD68_OFFSET))(this);
@@ -81,10 +86,5 @@ public:
 	::System::Void Method_1_F730968E2645E14B()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0741E6E06E98EE5D_METHOD_1_F730968E2645E14B_OFFSET))(this);
-	}
-
-	::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt* Method_1_2DAC0DC8DBBC14B7(::System::Int32 a1)
-	{
-		return ((::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0741E6E06E98EE5D_METHOD_1_2DAC0DC8DBBC14B7_OFFSET))(this, a1);
 	}
 };

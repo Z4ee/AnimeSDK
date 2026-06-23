@@ -7,7 +7,7 @@ namespace System::ComponentModel::Design::Serialization { class IDesignerSeriali
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int IDesignerSerializationProvider_TypeDefinitionIndex = 3107;
+	inline static constexpr unsigned int IDesignerSerializationProvider_TypeDefinitionIndex = 3106;
 
 	class IDesignerSerializationProvider
 	{

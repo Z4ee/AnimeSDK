@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestMethods_TypeDefinitionIndex = 3356;
+	inline static constexpr unsigned int WebRequestMethods_TypeDefinitionIndex = 3355;
 
 	class WebRequestMethods : public ::System::Object
 	{

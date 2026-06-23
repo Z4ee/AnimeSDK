@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCompletionSource_1_TypeDefinitionIndex = 28633;
+	inline static constexpr unsigned int UniTaskCompletionSource_1_TypeDefinitionIndex = 31289;
 
 	template <typename T>
 	class UniTaskCompletionSource_1 : public ::System::Object

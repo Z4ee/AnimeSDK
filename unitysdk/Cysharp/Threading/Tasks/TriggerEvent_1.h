@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TriggerEvent_1_TypeDefinitionIndex = 28577;
+	inline static constexpr unsigned int TriggerEvent_1_TypeDefinitionIndex = 31232;
 
 	template <typename T>
 	struct TriggerEvent_1

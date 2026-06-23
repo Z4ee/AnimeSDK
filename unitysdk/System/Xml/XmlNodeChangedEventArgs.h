@@ -6,17 +6,17 @@
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD1700)
+#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE4B950)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNodeChangedEventArgs_TypeDefinitionIndex = 1779;
+	inline static constexpr unsigned int XmlNodeChangedEventArgs_TypeDefinitionIndex = 1778;
 
 	class XmlNodeChangedEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlNode* newParent; // 0x10
-		::System::String* oldValue; // 0x18
+		::System::String* oldValue; // 0x10
+		::System::Xml::XmlNode* newParent; // 0x18
 		::System::Xml::XmlNode* oldParent; // 0x20
 		::System::String* newValue; // 0x28
 		::System::Xml::XmlNode* node; // 0x30

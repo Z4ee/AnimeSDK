@@ -5,18 +5,18 @@
 namespace MoleMole { class UITowerDefenseLevelPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DDAAA0)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS14_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0x14DDAAB0)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157C5810)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS14_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0x157C5820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass14_0_TypeDefinitionIndex = 79482;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass14_0_TypeDefinitionIndex = 82782;
 
 	class UITowerDefenseLevelPageController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* dataList; // 0x10
-		::MoleMole::UITowerDefenseLevelPageController* __4__this; // 0x18
+		::MoleMole::UITowerDefenseLevelPageController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* dataList; // 0x18
 
 		::System::Void _ctor()
 		{

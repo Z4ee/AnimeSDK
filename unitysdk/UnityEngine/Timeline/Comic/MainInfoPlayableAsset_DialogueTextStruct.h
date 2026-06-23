@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_DIALOGUETEXTSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C389070)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_DIALOGUETEXTSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CD380)
 
 namespace UnityEngine::Timeline::Comic
 {
-	inline static constexpr unsigned int MainInfoPlayableAsset_DialogueTextStruct_TypeDefinitionIndex = 30908;
+	inline static constexpr unsigned int MainInfoPlayableAsset_DialogueTextStruct_TypeDefinitionIndex = 32459;
 
 	class MainInfoPlayableAsset_DialogueTextStruct : public ::System::Object
 	{

@@ -7,12 +7,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETCHILDTAGNODES_OFFSET UNITYSDK_OFFSET(0x1A5C86D0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETSINGLETAGCONTAINER_OFFSET UNITYSDK_OFFSET(0x1A5C86C0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETCHILDTAGNODES_OFFSET UNITYSDK_OFFSET(0x1859B500)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETSINGLETAGCONTAINER_OFFSET UNITYSDK_OFFSET(0x1859B4F0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNodeMethod_TypeDefinitionIndex = 9149;
+	inline static constexpr unsigned int FGameplayTagNodeMethod_TypeDefinitionIndex = 12598;
 
 	class FGameplayTagNodeMethod : public ::System::Object
 	{

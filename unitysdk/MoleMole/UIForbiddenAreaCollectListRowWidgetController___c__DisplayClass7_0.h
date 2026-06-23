@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_467;
+class Class_2_208CC9941471731A_145;
 
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16796590)
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x167965A0)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187E5600)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x187E5610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 57704;
+	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 73526;
 
 	class UIForbiddenAreaCollectListRowWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_467* collectionConfig; // 0x10
+		::Class_2_208CC9941471731A_145* collectionConfig; // 0x10
 		::System::Int32 collectionId; // 0x18
 
 		::System::Void _ctor()

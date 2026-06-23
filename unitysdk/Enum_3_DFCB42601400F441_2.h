@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_DFCB42601400F441_2_TypeDefinitionIndex = 24594;
+inline static constexpr unsigned int Enum_3_DFCB42601400F441_2_TypeDefinitionIndex = 25868;
 
 enum class Enum_3_DFCB42601400F441_2 : ::System::Int32
 {
-	Value_1014 = 1014,
-	Value_1035 = 1035,
-	Value_1037 = 1037,
-	Value_1003 = 1003,
-	Value_1007 = 1007,
+	Value_7 = 7,
+	Value_1 = 1,
+	Value_6 = 6,
+	Value_12 = 12,
+	Value_3 = 3,
+	Value_8 = 8,
+	Value_10 = 10,
+	Value_11 = 11,
+	Value_4 = 4,
+	Value_2 = 2,
+	Value_9 = 9,
 	Value_0 = 0,
-	Value_1013 = 1013,
-	Value_1001 = 1001,
-	Value_1002 = 1002,
-	Value_1004 = 1004,
-	Value_1012 = 1012,
-	Value_1036 = 1036,
-	Value_1006 = 1006,
+	Value_5 = 5,
 };

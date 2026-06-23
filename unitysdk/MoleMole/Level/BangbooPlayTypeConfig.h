@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooPlayTypeConfig_TypeDefinitionIndex = 54759;
+	inline static constexpr unsigned int BangbooPlayTypeConfig_TypeDefinitionIndex = 58250;
 
 	struct alignas(8) BangbooPlayTypeConfig
 	{

@@ -7,10 +7,10 @@ class Class_2_14A4AB35DBFBD2FB;
 namespace MoleMole { class SceneObjectStateWidget; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_098B1B5BC8ACD1ED_METHOD_2_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x1253B140)
-#define CLASS_2_098B1B5BC8ACD1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1253AFB0)
+#define CLASS_2_098B1B5BC8ACD1ED_METHOD_2_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x188ED4C0)
+#define CLASS_2_098B1B5BC8ACD1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x188ED330)
 
-inline static constexpr unsigned int Class_2_098B1B5BC8ACD1ED_TypeDefinitionIndex = 48573;
+inline static constexpr unsigned int Class_2_098B1B5BC8ACD1ED_TypeDefinitionIndex = 66289;
 
 class Class_2_098B1B5BC8ACD1ED : public ::Class_1_222AFD56C06A15C1
 {

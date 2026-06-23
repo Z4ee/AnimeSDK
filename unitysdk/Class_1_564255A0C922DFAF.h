@@ -5,9 +5,9 @@
 namespace MoleMole { class BlendTextureSheetData; }
 namespace System { class String; }
 
-#define CLASS_1_564255A0C922DFAF_METHOD_1_D0AA4F4FDCD7208E_OFFSET UNITYSDK_OFFSET(0x11659110)
+#define CLASS_1_564255A0C922DFAF_METHOD_1_D0AA4F4FDCD7208E_OFFSET UNITYSDK_OFFSET(0x1431DC60)
 
-inline static constexpr unsigned int Class_1_564255A0C922DFAF_TypeDefinitionIndex = 74972;
+inline static constexpr unsigned int Class_1_564255A0C922DFAF_TypeDefinitionIndex = 60817;
 
 class Class_1_564255A0C922DFAF : public ::System::Object
 {

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_CAMERASHADOWCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C0050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_CAMERASHADOWCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D811AC0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GlobalBufferManager_CameraShadowCacheData_TypeDefinitionIndex = 6013;
+	inline static constexpr unsigned int GlobalBufferManager_CameraShadowCacheData_TypeDefinitionIndex = 6023;
 
 	class GlobalBufferManager_CameraShadowCacheData : public ::System::Object
 	{

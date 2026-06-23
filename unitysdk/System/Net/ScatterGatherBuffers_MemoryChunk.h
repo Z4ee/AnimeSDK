@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_MEMORYCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257580)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_MEMORYCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C665280)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ScatterGatherBuffers_MemoryChunk_TypeDefinitionIndex = 3392;
+	inline static constexpr unsigned int ScatterGatherBuffers_MemoryChunk_TypeDefinitionIndex = 3391;
 
 	class ScatterGatherBuffers_MemoryChunk : public ::System::Object
 	{

@@ -7,34 +7,34 @@ namespace MoleMole::Config { class ConfigUISimpleParkourGame_SerializableWaveCon
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALNODECOUNT_B__9_0_OFFSET UNITYSDK_OFFSET(0x186C0580)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALNODECOUNT_B__9_1_OFFSET UNITYSDK_OFFSET(0x186C05A0)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALSCORE_B__8_0_OFFSET UNITYSDK_OFFSET(0x186C0560)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186C0510)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186C0550)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALNODECOUNT_B__9_0_OFFSET UNITYSDK_OFFSET(0x18ADA160)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALNODECOUNT_B__9_1_OFFSET UNITYSDK_OFFSET(0x18ADA180)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CALCULATETOTALSCORE_B__8_0_OFFSET UNITYSDK_OFFSET(0x18ADA140)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18ADA0F0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURLEVELCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADA130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex = 43826;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex = 72949;
 
 	class ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x37800);
-		}
 		static ::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x37808);
-		}
-		static ::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*, ::System::Int32>** StaticGet___9__9_1()
-		{
-			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x37810);
+			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x39C60);
 		}
 		static ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x37818);
+			return (::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x39C68);
+		}
+		static ::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*, ::System::Int32>** StaticGet___9__9_1()
+		{
+			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x39C70);
+		}
+		static ::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*, ::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigUISimpleParkourGame_SerializableNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUISimpleParkourGame_SimpleParkourLevelConfig___c_TypeDefinitionIndex)->GetStaticField(0x39C78);
 		}
 
 		static ::System::Void _cctor()

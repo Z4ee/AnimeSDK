@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EmptyDictionary_2_TypeDefinitionIndex = 49840;
+	inline static constexpr unsigned int EmptyDictionary_2_TypeDefinitionIndex = 82514;
 
 	template <typename TKey, typename TValue>
 	class EmptyDictionary_2 : public ::System::Collections::Generic::Dictionary_2<TKey, TValue>

@@ -7,7 +7,7 @@ namespace MoleMole::FlowCanvas::Nodes { class LDSceneMoveResetPositionNode; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSceneMoveResetPositionNode___c__DisplayClass7_0_TypeDefinitionIndex = 62224;
+	inline static constexpr unsigned int LDSceneMoveResetPositionNode___c__DisplayClass7_0_TypeDefinitionIndex = 76327;
 
 	struct alignas(8) LDSceneMoveResetPositionNode___c__DisplayClass7_0
 	{

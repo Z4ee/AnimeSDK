@@ -7,155 +7,155 @@
 
 namespace System { class String; }
 
-#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x19DC3D80)
-#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x19DC3ED0)
-#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_3_OFFSET UNITYSDK_OFFSET(0x19DC4020)
-#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x19DC3C30)
-#define STANDART_HASH_XXHASH_XXHASH3_UNSAFECOMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x19DC4150)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_64BITS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x19DBEA90)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_512_OFFSET UNITYSDK_OFFSET(0x19DC3520)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_512_SCALAR_OFFSET UNITYSDK_OFFSET(0x19DC36C0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_OFFSET UNITYSDK_OFFSET(0x19DC3430)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x19DC0370)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_64B_INTERNAL_OFFSET UNITYSDK_OFFSET(0x19DC1910)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_64B_WITHSEED_OFFSET UNITYSDK_OFFSET(0x19DC10C0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_INTERNAL_LOOP_OFFSET UNITYSDK_OFFSET(0x19DC2B30)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_INITCUSTOMSECRET_OFFSET UNITYSDK_OFFSET(0x19DC1570)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_INITCUSTOMSECRET_SCALAR_OFFSET UNITYSDK_OFFSET(0x19DC1770)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_0TO16_64B_OFFSET UNITYSDK_OFFSET(0x19DBFA80)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_129TO240_64B_OFFSET UNITYSDK_OFFSET(0x19DC0D00)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_17TO128_64B_OFFSET UNITYSDK_OFFSET(0x19DC06F0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_1TO3_64B_OFFSET UNITYSDK_OFFSET(0x19DC05C0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_4TO8_64B_OFFSET UNITYSDK_OFFSET(0x19DC03F0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_9TO16_64B_OFFSET UNITYSDK_OFFSET(0x19DBFF90)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MERGEACCS_OFFSET UNITYSDK_OFFSET(0x19DC2770)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MIX16B_OFFSET UNITYSDK_OFFSET(0x19DC0C80)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MIX2ACCS_OFFSET UNITYSDK_OFFSET(0x19DC2AC0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MUL128_FOLD64_OFFSET UNITYSDK_OFFSET(0x19DC0210)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_RRMXMX_OFFSET UNITYSDK_OFFSET(0x19DC0520)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCALARROUND_OFFSET UNITYSDK_OFFSET(0x19DC37F0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCALARSCRAMBLEROUND_OFFSET UNITYSDK_OFFSET(0x19DC3B30)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCRAMBLEACC_OFFSET UNITYSDK_OFFSET(0x19DC3880)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCRAMBLEACC_SCALAR_OFFSET UNITYSDK_OFFSET(0x19DC3A00)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH64_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x19DC3BB0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT32TO64_OFFSET UNITYSDK_OFFSET(0x19DBE860)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT64TO128_OFFSET UNITYSDK_OFFSET(0x19DBE8C0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT64TO128_SCALAR_OFFSET UNITYSDK_OFFSET(0x19DBE9E0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_READLE32_OFFSET UNITYSDK_OFFSET(0x19DBE840)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_READLE64_OFFSET UNITYSDK_OFFSET(0x19DBE830)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_ROTL64_OFFSET UNITYSDK_OFFSET(0x19DBE8A0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_SWAP32_OFFSET UNITYSDK_OFFSET(0x19DBE890)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_SWAP64_OFFSET UNITYSDK_OFFSET(0x19DBE850)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_WRITELE64_OFFSET UNITYSDK_OFFSET(0x19DBE8B0)
-#define STANDART_HASH_XXHASH_XXHASH3_XXH_XORSHIFT64_OFFSET UNITYSDK_OFFSET(0x19DBE870)
-#define STANDART_HASH_XXHASH_XXHASH3__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DC4360)
+#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x1C0029E0)
+#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x1C002B30)
+#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_3_OFFSET UNITYSDK_OFFSET(0x1C002C80)
+#define STANDART_HASH_XXHASH_XXHASH3_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1C002890)
+#define STANDART_HASH_XXHASH_XXHASH3_UNSAFECOMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1C002DB0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_64BITS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1BFFD6F0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_512_OFFSET UNITYSDK_OFFSET(0x1C002180)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_512_SCALAR_OFFSET UNITYSDK_OFFSET(0x1C002320)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_ACCUMULATE_OFFSET UNITYSDK_OFFSET(0x1C002090)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x1BFFEFD0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_64B_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1C000570)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_64B_WITHSEED_OFFSET UNITYSDK_OFFSET(0x1BFFFD20)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_HASHLONG_INTERNAL_LOOP_OFFSET UNITYSDK_OFFSET(0x1C001790)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_INITCUSTOMSECRET_OFFSET UNITYSDK_OFFSET(0x1C0001D0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_INITCUSTOMSECRET_SCALAR_OFFSET UNITYSDK_OFFSET(0x1C0003D0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_0TO16_64B_OFFSET UNITYSDK_OFFSET(0x1BFFE6E0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_129TO240_64B_OFFSET UNITYSDK_OFFSET(0x1BFFF960)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_17TO128_64B_OFFSET UNITYSDK_OFFSET(0x1BFFF350)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_1TO3_64B_OFFSET UNITYSDK_OFFSET(0x1BFFF220)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_4TO8_64B_OFFSET UNITYSDK_OFFSET(0x1BFFF050)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_LEN_9TO16_64B_OFFSET UNITYSDK_OFFSET(0x1BFFEBF0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MERGEACCS_OFFSET UNITYSDK_OFFSET(0x1C0013D0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MIX16B_OFFSET UNITYSDK_OFFSET(0x1BFFF8E0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MIX2ACCS_OFFSET UNITYSDK_OFFSET(0x1C001720)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_MUL128_FOLD64_OFFSET UNITYSDK_OFFSET(0x1BFFEE70)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_RRMXMX_OFFSET UNITYSDK_OFFSET(0x1BFFF180)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCALARROUND_OFFSET UNITYSDK_OFFSET(0x1C002450)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCALARSCRAMBLEROUND_OFFSET UNITYSDK_OFFSET(0x1C002790)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCRAMBLEACC_OFFSET UNITYSDK_OFFSET(0x1C0024E0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH3_SCRAMBLEACC_SCALAR_OFFSET UNITYSDK_OFFSET(0x1C002660)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH64_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x1C002810)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT32TO64_OFFSET UNITYSDK_OFFSET(0x1BFFD4C0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT64TO128_OFFSET UNITYSDK_OFFSET(0x1BFFD520)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_MULT64TO128_SCALAR_OFFSET UNITYSDK_OFFSET(0x1BFFD640)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_READLE32_OFFSET UNITYSDK_OFFSET(0x1BFFD4A0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_READLE64_OFFSET UNITYSDK_OFFSET(0x1BFFD490)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_ROTL64_OFFSET UNITYSDK_OFFSET(0x1BFFD500)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_SWAP32_OFFSET UNITYSDK_OFFSET(0x1BFFD4F0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_SWAP64_OFFSET UNITYSDK_OFFSET(0x1BFFD4B0)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_WRITELE64_OFFSET UNITYSDK_OFFSET(0x1BFFD510)
+#define STANDART_HASH_XXHASH_XXHASH3_XXH_XORSHIFT64_OFFSET UNITYSDK_OFFSET(0x1BFFD4D0)
+#define STANDART_HASH_XXHASH_XXHASH3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C002FC0)
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int xxHash3_TypeDefinitionIndex = 7695;
+	inline static constexpr unsigned int xxHash3_TypeDefinitionIndex = 8273;
 
 	class xxHash3 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::UInt64>** StaticGet_XXH3_INIT_ACC()
-		{
-			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x72F0);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_XXH3_SECRET()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x72F8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x7290);
 		}
-		static ::System::UInt64* StaticGet_XXH_PRIME64_2()
+		static ::Il2CppArray<::System::UInt64>** StaticGet_XXH3_INIT_ACC()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3910);
-		}
-		static ::System::UInt32* StaticGet_XXH_PRIME32_5()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3918);
-		}
-		static ::System::UInt32* StaticGet_XXH_PRIME32_2()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x391C);
-		}
-		static ::System::UInt64* StaticGet_XXH_PRIME64_3()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3920);
+			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x7298);
 		}
 		static ::System::UInt64* StaticGet_XXH_PRIME64_1()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3928);
-		}
-		static ::System::UInt32* StaticGet_XXH_PRIME32_1()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3930);
-		}
-		static ::System::Int32* StaticGet_XXH_SECRET_MERGEACCS_START()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3934);
-		}
-		static ::System::Int32* StaticGet_XXH_SECRET_CONSUME_RATE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3938);
-		}
-		static ::System::Byte* StaticGet_MM_SHUFFLE_1_0_3_2()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x393C);
-		}
-		static ::System::Byte* StaticGet_MM_SHUFFLE_0_3_0_1()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x393D);
-		}
-		static ::System::Int32* StaticGet_XXH_SECRET_DEFAULT_SIZE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3940);
-		}
-		static ::System::Int32* StaticGet_XXH3_MIDSIZE_MAX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3944);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3980);
 		}
 		static ::System::UInt32* StaticGet_XXH_PRIME32_4()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3948);
-		}
-		static ::System::Int32* StaticGet_XXH_SECRET_LASTACC_START()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x394C);
-		}
-		static ::System::Int32* StaticGet_XXH3_MIDSIZE_STARTOFFSET()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3950);
-		}
-		static ::System::Int32* StaticGet_XXH_STRIPE_LEN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3954);
-		}
-		static ::System::Int32* StaticGet_XXH_ACC_NB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3958);
-		}
-		static ::System::Int32* StaticGet_XXH3_MIDSIZE_LASTOFFSET()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x395C);
-		}
-		static ::System::UInt32* StaticGet_XXH_PRIME32_3()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3960);
-		}
-		static ::System::Int32* StaticGet_XXH3_SECRET_SIZE_MIN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3964);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3988);
 		}
 		static ::System::Int32* StaticGet_XXH3_SECRET_DEFAULT_SIZE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3968);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x398C);
+		}
+		static ::System::UInt64* StaticGet_XXH_PRIME64_3()
+		{
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3990);
+		}
+		static ::System::UInt32* StaticGet_XXH_PRIME32_5()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3998);
+		}
+		static ::System::Int32* StaticGet_XXH_STRIPE_LEN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x399C);
+		}
+		static ::System::Int32* StaticGet_XXH_SECRET_MERGEACCS_START()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39A0);
+		}
+		static ::System::Int32* StaticGet_XXH3_MIDSIZE_STARTOFFSET()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39A4);
+		}
+		static ::System::Int32* StaticGet_XXH_SECRET_DEFAULT_SIZE()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39A8);
+		}
+		static ::System::Byte* StaticGet_MM_SHUFFLE_0_3_0_1()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39AC);
+		}
+		static ::System::Byte* StaticGet_MM_SHUFFLE_1_0_3_2()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39AD);
+		}
+		static ::System::Int32* StaticGet_XXH3_SECRET_SIZE_MIN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39B0);
+		}
+		static ::System::UInt32* StaticGet_XXH_PRIME32_2()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39B4);
+		}
+		static ::System::Int32* StaticGet_XXH_SECRET_LASTACC_START()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39B8);
+		}
+		static ::System::Int32* StaticGet_XXH_ACC_NB()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39BC);
+		}
+		static ::System::Int32* StaticGet_XXH3_MIDSIZE_MAX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39C0);
+		}
+		static ::System::Int32* StaticGet_XXH3_MIDSIZE_LASTOFFSET()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39C4);
 		}
 		static ::System::UInt64* StaticGet_XXH_PRIME64_4()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3970);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39C8);
+		}
+		static ::System::UInt32* StaticGet_XXH_PRIME32_3()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39D0);
+		}
+		static ::System::UInt64* StaticGet_XXH_PRIME64_2()
+		{
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39D8);
+		}
+		static ::System::Int32* StaticGet_XXH_SECRET_CONSUME_RATE()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39E0);
+		}
+		static ::System::UInt32* StaticGet_XXH_PRIME32_1()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39E4);
 		}
 		static ::System::UInt64* StaticGet_XXH_PRIME64_5()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x3978);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash3_TypeDefinitionIndex)->GetStaticField(0x39E8);
 		}
 
 		static ::System::Void _cctor()

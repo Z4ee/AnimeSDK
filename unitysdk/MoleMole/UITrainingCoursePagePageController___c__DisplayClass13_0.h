@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UITrainingCoursePagePageController; }
 
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C36690)
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__DISPLAYCLASS13_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x14C38420)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x165531E0)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__DISPLAYCLASS13_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x16555280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingCoursePagePageController___c__DisplayClass13_0_TypeDefinitionIndex = 42543;
+	inline static constexpr unsigned int UITrainingCoursePagePageController___c__DisplayClass13_0_TypeDefinitionIndex = 77325;
 
 	class UITrainingCoursePagePageController___c__DisplayClass13_0 : public ::System::Object
 	{

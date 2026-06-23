@@ -3,7 +3,7 @@
 
 namespace RichTap::Types
 {
-	inline static constexpr unsigned int RichtapPrebakeId_TypeDefinitionIndex = 36477;
+	inline static constexpr unsigned int RichtapPrebakeId_TypeDefinitionIndex = 38085;
 
 	enum class RichtapPrebakeId : ::System::Int32
 	{

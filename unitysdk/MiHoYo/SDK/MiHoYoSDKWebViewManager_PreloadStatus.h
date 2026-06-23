@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager_PreloadStatus_TypeDefinitionIndex = 35389;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_PreloadStatus_TypeDefinitionIndex = 36988;
 
 	enum class MiHoYoSDKWebViewManager_PreloadStatus : ::System::Int32
 	{

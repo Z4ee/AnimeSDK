@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_LEVELFAILEDCAMERASEQUENCECONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x7E43D0)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_LEVELFAILEDCAMERASEQUENCECONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x8561E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_LevelFailedCameraSequenceConfig_TypeDefinitionIndex = 70813;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_LevelFailedCameraSequenceConfig_TypeDefinitionIndex = 65846;
 
 	struct alignas(4) ConfigLevelResultPerforms_LevelFailedCameraSequenceConfig
 	{

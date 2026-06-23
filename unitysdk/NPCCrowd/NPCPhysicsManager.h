@@ -11,85 +11,85 @@ namespace NPCCrowd { class NPCPhysicsManager_PhysicsJobDelegate; }
 namespace NPCCrowd::Ability { class NPCAbility; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCPHYSICSMANAGER_DISPATCHSPHERECAST_OFFSET UNITYSDK_OFFSET(0xF4F90B0)
-#define NPCCROWD_NPCPHYSICSMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF4F7E30)
-#define NPCCROWD_NPCPHYSICSMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xF4F7FB0)
-#define NPCCROWD_NPCPHYSICSMANAGER_NORMALSPHERECAST_OFFSET UNITYSDK_OFFSET(0xF4F8740)
-#define NPCCROWD_NPCPHYSICSMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF4F8300)
-#define NPCCROWD_NPCPHYSICSMANAGER_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4F85B0)
-#define NPCCROWD_NPCPHYSICSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0xF4F9870)
-#define NPCCROWD_NPCPHYSICSMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF4F8260)
-#define NPCCROWD_NPCPHYSICSMANAGER_SPHERECASTJOB_OFFSET UNITYSDK_OFFSET(0xF4F7910)
-#define NPCCROWD_NPCPHYSICSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0xF4F9C40)
-#define NPCCROWD_NPCPHYSICSMANAGER_UPDATERESULTPOSITION_OFFSET UNITYSDK_OFFSET(0xF4F9340)
-#define NPCCROWD_NPCPHYSICSMANAGER_UPDATESOURCEPOSITION_OFFSET UNITYSDK_OFFSET(0xF4F8F20)
-#define NPCCROWD_NPCPHYSICSMANAGER_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xF4F9690)
-#define NPCCROWD_NPCPHYSICSMANAGER_WAITSPHERECAST_OFFSET UNITYSDK_OFFSET(0xF4F9220)
-#define NPCCROWD_NPCPHYSICSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4FA240)
-#define NPCCROWD_NPCPHYSICSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF4FA150)
-#define NPCCROWD_NPCPHYSICSMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xF4FA2C0)
-#define NPCCROWD_NPCPHYSICSMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF4FA350)
-#define NPCCROWD_NPCPHYSICSMANAGER___BASE_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4FA3E0)
-#define NPCCROWD_NPCPHYSICSMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF4FA480)
+#define NPCCROWD_NPCPHYSICSMANAGER_DISPATCHSPHERECAST_OFFSET UNITYSDK_OFFSET(0x10A0DF40)
+#define NPCCROWD_NPCPHYSICSMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x10A0CC70)
+#define NPCCROWD_NPCPHYSICSMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x10A0CDF0)
+#define NPCCROWD_NPCPHYSICSMANAGER_NORMALSPHERECAST_OFFSET UNITYSDK_OFFSET(0x10A0D5D0)
+#define NPCCROWD_NPCPHYSICSMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10A0D190)
+#define NPCCROWD_NPCPHYSICSMANAGER_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10A0D440)
+#define NPCCROWD_NPCPHYSICSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x10A0E700)
+#define NPCCROWD_NPCPHYSICSMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x10A0D0A0)
+#define NPCCROWD_NPCPHYSICSMANAGER_SPHERECASTJOB_OFFSET UNITYSDK_OFFSET(0x10A0C750)
+#define NPCCROWD_NPCPHYSICSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x10A0EAD0)
+#define NPCCROWD_NPCPHYSICSMANAGER_UPDATERESULTPOSITION_OFFSET UNITYSDK_OFFSET(0x10A0E1D0)
+#define NPCCROWD_NPCPHYSICSMANAGER_UPDATESOURCEPOSITION_OFFSET UNITYSDK_OFFSET(0x10A0DDB0)
+#define NPCCROWD_NPCPHYSICSMANAGER_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x10A0E520)
+#define NPCCROWD_NPCPHYSICSMANAGER_WAITSPHERECAST_OFFSET UNITYSDK_OFFSET(0x10A0E0B0)
+#define NPCCROWD_NPCPHYSICSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A0F0E0)
+#define NPCCROWD_NPCPHYSICSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x10A0EFE0)
+#define NPCCROWD_NPCPHYSICSMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x10A0F160)
+#define NPCCROWD_NPCPHYSICSMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10A0F1F0)
+#define NPCCROWD_NPCPHYSICSMANAGER___BASE_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10A0F280)
+#define NPCCROWD_NPCPHYSICSMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x10A0F320)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPhysicsManager_TypeDefinitionIndex = 64872;
+	inline static constexpr unsigned int NPCPhysicsManager_TypeDefinitionIndex = 48670;
 
 	class NPCPhysicsManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_NormalHitResults()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x40D10);
-		}
-		static ::Unity::Collections::NativeArray_1<::System::Int32>* StaticGet__hitCounts()
-		{
-			return (::Unity::Collections::NativeArray_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB60);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x437D0);
 		}
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>* StaticGet__hitResults()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB70);
-		}
-		static ::System::Single* StaticGet_MaxCastDistance()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB80);
-		}
-		static ::UnityEngine::PhysicsScene* StaticGet__physicsScene()
-		{
-			return (::UnityEngine::PhysicsScene*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB84);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x104F0);
 		}
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>* StaticGet__originPosition()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB88);
-		}
-		static ::System::Boolean* StaticGet_FallbackToNormalCast()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB98);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10500);
 		}
 		static ::System::Int32* StaticGet_MaxKernelCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFB9C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10510);
 		}
 		static ::System::Single* StaticGet_SphereRadius()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFBA0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10514);
+		}
+		static ::Unity::Collections::NativeArray_1<::System::Int32>* StaticGet__hitCounts()
+		{
+			return (::Unity::Collections::NativeArray_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10518);
+		}
+		static ::System::Boolean* StaticGet_FallbackToNormalCast()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10528);
+		}
+		static ::System::Single* StaticGet_MaxCastDistance()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x1052C);
 		}
 		static ::System::Single* StaticGet_DeltaHeight()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0xFBA4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10530);
+		}
+		static ::UnityEngine::PhysicsScene* StaticGet__physicsScene()
+		{
+			return (::UnityEngine::PhysicsScene*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x10534);
 		}
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet__hitResultsInJob()
 		{
 			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsManager_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 		// static const ::System::Int32 MaxHitResultCount = 0x8; // 0x0
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbility*>* _npcList; // 0x18
-		::NPCCrowd::NPCPhysicsManager_PhysicsJobDelegate* _jobDelegate; // 0x20
-		::Unity::Jobs::LowLevel::Unsafe::JobThreadDelegate _jobThreadDelegate; // 0x28
-		::System::UInt64 _jobID; // 0x48
-		::Unity::Collections::NativeArray_1<::System::Int32> _jobDataArray; // 0x50
-		::Unity::Collections::NativeArray_1<::System::IntPtr> _delegateFuncArray; // 0x60
+		::NPCCrowd::NPCPhysicsManager_PhysicsJobDelegate* _jobDelegate; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbility*>* _npcList; // 0x20
+		::System::UInt64 _jobID; // 0x28
+		::Unity::Collections::NativeArray_1<::System::IntPtr> _delegateFuncArray; // 0x30
+		::Unity::Collections::NativeArray_1<::System::Int32> _jobDataArray; // 0x40
+		::Unity::Jobs::LowLevel::Unsafe::JobThreadDelegate _jobThreadDelegate; // 0x50
 
 		::System::Void _ctor()
 		{

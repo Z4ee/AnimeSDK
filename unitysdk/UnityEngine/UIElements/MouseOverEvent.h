@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_MOUSEOVEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197B3B20)
+#define UNITYENGINE_UIELEMENTS_MOUSEOVEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEA780)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseOverEvent_TypeDefinitionIndex = 25041;
+	inline static constexpr unsigned int MouseOverEvent_TypeDefinitionIndex = 27544;
 
 	class MouseOverEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOverEvent*>
 	{

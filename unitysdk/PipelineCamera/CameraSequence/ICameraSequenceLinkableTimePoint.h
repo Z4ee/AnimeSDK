@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceLinkableTimePoint_TypeDefinitionIndex = 36235;
+	inline static constexpr unsigned int ICameraSequenceLinkableTimePoint_TypeDefinitionIndex = 37843;
 
 	class ICameraSequenceLinkableTimePoint
 	{

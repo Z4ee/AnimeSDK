@@ -5,7 +5,7 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int INotifyPropertyChanged_TypeDefinitionIndex = 2904;
+	inline static constexpr unsigned int INotifyPropertyChanged_TypeDefinitionIndex = 2903;
 
 	class INotifyPropertyChanged
 	{

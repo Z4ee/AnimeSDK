@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 25944;
+	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 28438;
 
 	enum class ElementType : ::System::Int32
 	{

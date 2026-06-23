@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpStatusCode_TypeDefinitionIndex = 3607;
+	inline static constexpr unsigned int SmtpStatusCode_TypeDefinitionIndex = 3606;
 
 	enum class SmtpStatusCode : ::System::Int32
 	{

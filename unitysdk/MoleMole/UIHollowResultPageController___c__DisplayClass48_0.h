@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHollowResultPageController; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1468BD30)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS48_0__DOSHOWPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x1468BD40)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1469FBC0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS48_0__DOSHOWPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x1469FBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass48_0_TypeDefinitionIndex = 80801;
+	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass48_0_TypeDefinitionIndex = 57536;
 
 	class UIHollowResultPageController___c__DisplayClass48_0 : public ::System::Object
 	{

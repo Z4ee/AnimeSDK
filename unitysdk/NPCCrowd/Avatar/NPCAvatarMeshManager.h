@@ -13,37 +13,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETALLLODMESH_OFFSET UNITYSDK_OFFSET(0x11509270)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETAVATARMESHCONFIG_1_OFFSET UNITYSDK_OFFSET(0x1150A4D0)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETAVATARMESHCONFIG_OFFSET UNITYSDK_OFFSET(0x1150A2B0)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x11508FC0)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x11509140)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1150AF70)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x115097E0)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x115092B0)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_RELEASERESOURCES_OFFSET UNITYSDK_OFFSET(0x1150AE20)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1150B180)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x1150B190)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1150B220)
-#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x1150B2B0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETALLLODMESH_OFFSET UNITYSDK_OFFSET(0xE028390)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETAVATARMESHCONFIG_1_OFFSET UNITYSDK_OFFSET(0xE0295F0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GETAVATARMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xE0293D0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xE0280E0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xE028260)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE02A080)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xE028900)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xE0283D0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER_RELEASERESOURCES_OFFSET UNITYSDK_OFFSET(0xE029F30)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE02A290)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xE02A2A0)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE02A330)
+#define NPCCROWD_AVATAR_NPCAVATARMESHMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xE02A3C0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarMeshManager_TypeDefinitionIndex = 67061;
+	inline static constexpr unsigned int NPCAvatarMeshManager_TypeDefinitionIndex = 59869;
 
 	class NPCAvatarMeshManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_meshAssetsLoaders()
-		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarMeshManager_TypeDefinitionIndex)->GetStaticField(0x47D90);
-		}
 		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_matAssetsLoaders()
 		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarMeshManager_TypeDefinitionIndex)->GetStaticField(0x47D98);
+			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarMeshManager_TypeDefinitionIndex)->GetStaticField(0x4A2E0);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets*>* allLodMeshIDDicts; // 0x18
-		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO*>* meshConfigSO; // 0x20
+		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_meshAssetsLoaders()
+		{
+			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarMeshManager_TypeDefinitionIndex)->GetStaticField(0x4A2E8);
+		}
+		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO*>* meshConfigSO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets*>* allLodMeshIDDicts; // 0x20
 
 		::System::Void _ctor()
 		{

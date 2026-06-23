@@ -6,12 +6,12 @@
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_SEMAPHOREAUDITRULE_GET_SEMAPHORERIGHTS_OFFSET UNITYSDK_OFFSET(0x1AAAE2C0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_SEMAPHOREAUDITRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAAE220)
+#define SYSTEM_SECURITY_ACCESSCONTROL_SEMAPHOREAUDITRULE_GET_SEMAPHORERIGHTS_OFFSET UNITYSDK_OFFSET(0x1CEDFA90)
+#define SYSTEM_SECURITY_ACCESSCONTROL_SEMAPHOREAUDITRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDF9F0)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int SemaphoreAuditRule_TypeDefinitionIndex = 3140;
+	inline static constexpr unsigned int SemaphoreAuditRule_TypeDefinitionIndex = 3139;
 
 	class SemaphoreAuditRule : public ::System::Security::AccessControl::AuditRule
 	{

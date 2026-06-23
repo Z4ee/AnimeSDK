@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ABILITYREGISTRYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1396FC80)
+#define MOLEMOLE_ABILITYREGISTRYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x162785A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbilityRegistryInfo_TypeDefinitionIndex = 81992;
+	inline static constexpr unsigned int AbilityRegistryInfo_TypeDefinitionIndex = 61771;
 
 	class AbilityRegistryInfo : public ::System::Object
 	{

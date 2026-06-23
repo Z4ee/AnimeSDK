@@ -5,9 +5,9 @@
 namespace MoleMole { class ComicImgSplitScreenGroup; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset; }
 
-#define CLASS_1_CC581D9D8BC5462F_METHOD_1_814CB41B3D4741B1_OFFSET UNITYSDK_OFFSET(0x115835D0)
+#define CLASS_1_CC581D9D8BC5462F_METHOD_1_814CB41B3D4741B1_OFFSET UNITYSDK_OFFSET(0x151CE390)
 
-inline static constexpr unsigned int Class_1_CC581D9D8BC5462F_TypeDefinitionIndex = 47730;
+inline static constexpr unsigned int Class_1_CC581D9D8BC5462F_TypeDefinitionIndex = 40450;
 
 class Class_1_CC581D9D8BC5462F : public ::System::Object
 {

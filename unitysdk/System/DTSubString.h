@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x8AC8C0)
+#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x957540)
 
 namespace System
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define ZXING_READEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1886B790)
+#define ZXING_READEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB40D20)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int ReaderException_TypeDefinitionIndex = 8630;
+	inline static constexpr unsigned int ReaderException_TypeDefinitionIndex = 19128;
 
 	class ReaderException : public ::System::Exception
 	{

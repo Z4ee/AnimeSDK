@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_44.h"
+#include "unitysdk/Enum_3_D2BBBB758B896E04.h"
+
+class Class_2_60638234271CCDB8_72;
+class Class_2_D244C6518E0DA169;
+class Class_3_1ED83B5B8C9621CC;
+namespace MoleMole { class UIRealtimeQTEGeneralButtonChildWindowController; }
+namespace MoleMole::Config { class GeneralEffectSinglePressCountDownEntryStyleEntry; }
+namespace System { class Action; }
+
+#define CLASS_2_C21D9D3238DD7D20_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x14948380)
+#define CLASS_2_C21D9D3238DD7D20_METHOD_2_DA330B81959DF65D_OFFSET UNITYSDK_OFFSET(0x149482E0)
+#define CLASS_2_C21D9D3238DD7D20_METHOD_2_F8700066C30A3B1F_OFFSET UNITYSDK_OFFSET(0x149483E0)
+#define CLASS_2_C21D9D3238DD7D20_METHOD_2_FE9EDDCF1894ED9D_OFFSET UNITYSDK_OFFSET(0x149489E0)
+#define CLASS_2_C21D9D3238DD7D20__CTOR_OFFSET UNITYSDK_OFFSET(0x14948260)
+
+inline static constexpr unsigned int Class_2_C21D9D3238DD7D20_TypeDefinitionIndex = 82667;
+
+class Class_2_C21D9D3238DD7D20 : public ::Class_1_43BD383C98B4C0C5_44
+{
+public:
+	::MoleMole::Config::GeneralEffectSinglePressCountDownEntryStyleEntry* Field_2_0; // 0x10
+	::Class_2_60638234271CCDB8_72* Field_2_2; // 0x18
+	::Class_3_1ED83B5B8C9621CC* Field_2_4; // 0x20
+	::MoleMole::UIRealtimeQTEGeneralButtonChildWindowController* Field_2_3; // 0x28
+	::Class_2_D244C6518E0DA169* Field_2_1; // 0x30
+
+	::System::Void _ctor(::MoleMole::Config::GeneralEffectSinglePressCountDownEntryStyleEntry* a1, ::Class_2_D244C6518E0DA169* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::GeneralEffectSinglePressCountDownEntryStyleEntry*, ::Class_2_D244C6518E0DA169*))((::PBYTE)hIl2Cpp + CLASS_2_C21D9D3238DD7D20__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_DA330B81959DF65D(::MoleMole::UIRealtimeQTEGeneralButtonChildWindowController* a1, ::Class_2_60638234271CCDB8_72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIRealtimeQTEGeneralButtonChildWindowController*, ::Class_2_60638234271CCDB8_72*))((::PBYTE)hIl2Cpp + CLASS_2_C21D9D3238DD7D20_METHOD_2_DA330B81959DF65D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_C21D9D3238DD7D20_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_F8700066C30A3B1F(::Enum_3_D2BBBB758B896E04 a1, ::System::Action* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_D2BBBB758B896E04, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_C21D9D3238DD7D20_METHOD_2_F8700066C30A3B1F_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_FE9EDDCF1894ED9D(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_C21D9D3238DD7D20_METHOD_2_FE9EDDCF1894ED9D_OFFSET))(this, a1);
+	}
+};

@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigAraTrail; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGARATRAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x12415CA0)
+#define MOLEMOLE_CONFIG_CONFIGARATRAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA49040)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAraTrails_TypeDefinitionIndex = 48664;
+	inline static constexpr unsigned int ConfigAraTrails_TypeDefinitionIndex = 62793;
 
 	class ConfigAraTrails : public ::Foundation::MihoyoSerializedScriptableObject
 	{

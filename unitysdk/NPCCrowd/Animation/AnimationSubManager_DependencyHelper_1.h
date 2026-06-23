@@ -7,7 +7,7 @@ namespace NPCCrowd::Animation { class AnimationSubManager_AnimationScheduler; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_DependencyHelper_1_TypeDefinitionIndex = 70442;
+	inline static constexpr unsigned int AnimationSubManager_DependencyHelper_1_TypeDefinitionIndex = 57366;
 
 	template <typename T>
 	struct AnimationSubManager_DependencyHelper_1

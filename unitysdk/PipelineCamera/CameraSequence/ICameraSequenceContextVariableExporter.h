@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceContextVariableExporter_TypeDefinitionIndex = 36335;
+	inline static constexpr unsigned int ICameraSequenceContextVariableExporter_TypeDefinitionIndex = 37943;
 
 	class ICameraSequenceContextVariableExporter
 	{

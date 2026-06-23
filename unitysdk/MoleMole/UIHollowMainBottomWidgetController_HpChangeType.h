@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController_HpChangeType_TypeDefinitionIndex = 57753;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController_HpChangeType_TypeDefinitionIndex = 47523;
 
 	enum class UIHollowMainBottomWidgetController_HpChangeType : ::System::Int32
 	{
-		AnimBeforeHide = 1,
-		DontHide = 2,
 		Default = 0,
+		DontHide = 2,
+		AnimBeforeHide = 1,
 	};
 }

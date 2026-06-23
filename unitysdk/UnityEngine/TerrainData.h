@@ -6,57 +6,57 @@
 
 namespace UnityEngine { class Terrain; }
 
-#define UNITYENGINE_TERRAINDATA_GETALPHAMAPRESOLUTIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C39FC60)
-#define UNITYENGINE_TERRAINDATA_GETBOUNDARYVALUE_OFFSET UNITYSDK_OFFSET(0x1C39FBB0)
-#define UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1C39FC50)
-#define UNITYENGINE_TERRAINDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1C39D650)
-#define UNITYENGINE_TERRAINDATA_GET_USERS_OFFSET UNITYSDK_OFFSET(0x1C39B1E0)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C39FC40)
-#define UNITYENGINE_TERRAINDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C39FC70)
-#define UNITYENGINE_TERRAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C39FBC0)
+#define UNITYENGINE_TERRAINDATA_GETALPHAMAPRESOLUTIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E6DB970)
+#define UNITYENGINE_TERRAINDATA_GETBOUNDARYVALUE_OFFSET UNITYSDK_OFFSET(0x1E6DB8C0)
+#define UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E6DB960)
+#define UNITYENGINE_TERRAINDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1E6D9370)
+#define UNITYENGINE_TERRAINDATA_GET_USERS_OFFSET UNITYSDK_OFFSET(0x1E6D6EF0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1E6DB950)
+#define UNITYENGINE_TERRAINDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DB980)
+#define UNITYENGINE_TERRAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DB8D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainData_TypeDefinitionIndex = 30926;
+	inline static constexpr unsigned int TerrainData_TypeDefinitionIndex = 32477;
 
 	class TerrainData : public ::UnityEngine::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_k_MinimumAlphamapResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B50);
-		}
-		static ::System::Int32* StaticGet_k_MaximumAlphamapResolution()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B54);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8000);
 		}
 		static ::System::Int32* StaticGet_k_MinimumDetailResolutionPerPatch()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B58);
-		}
-		static ::System::Int32* StaticGet_k_MaximumResolution()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B5C);
-		}
-		static ::System::Int32* StaticGet_k_MinimumBaseMapResolution()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B60);
-		}
-		static ::System::Int32* StaticGet_k_MaximumDetailResolutionPerPatch()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B64);
-		}
-		static ::System::Int32* StaticGet_k_MaximumBaseMapResolution()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B68);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8004);
 		}
 		static ::System::Int32* StaticGet_k_MaximumDetailsPerRes()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B6C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8008);
+		}
+		static ::System::Int32* StaticGet_k_MaximumResolution()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x800C);
+		}
+		static ::System::Int32* StaticGet_k_MinimumBaseMapResolution()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8010);
+		}
+		static ::System::Int32* StaticGet_k_MaximumAlphamapResolution()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8014);
+		}
+		static ::System::Int32* StaticGet_k_MaximumBaseMapResolution()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8018);
+		}
+		static ::System::Int32* StaticGet_k_MaximumDetailResolutionPerPatch()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x801C);
 		}
 		static ::System::Int32* StaticGet_k_MaximumDetailPatchCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x7B70);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x8020);
 		}
 
 		::System::Void _ctor()

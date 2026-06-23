@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12EAED00)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12EAED10)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12EAEEF0)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12EAF090)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAF050)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xC939540)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xC939550)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xC939730)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9398D0)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_NAPCAMERASEQUENCE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC939890)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequence_NapCameraSequence_UnityGeneratedFormatter_TypeDefinitionIndex = 70340;
+	inline static constexpr unsigned int NapCameraSequence_NapCameraSequence_UnityGeneratedFormatter_TypeDefinitionIndex = 70570;
 
 	class NapCameraSequence_NapCameraSequence_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Utils::NapCameraSequence*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_NapCameraSequence_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47C00);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_NapCameraSequence_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4A120);
 		}
 
 		::System::Void _ctor()

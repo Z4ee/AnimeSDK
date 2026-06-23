@@ -1,9 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_E4C95F6C5D4D6E84.h"
 
-namespace MoleMole { class TurnBattleUnitBase; }
+class Class_0_16E4307DCC419505_654;
+class Class_2_4404167111A26FF8;
+namespace System { class String; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections { class IEnumerable; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+template <typename T> class Class_2_27110FADB294B5B7;
+template <typename T> class Class_2_F16D73323D71766B;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_700_TypeDefinitionIndex = 71404;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_700_TypeDefinitionIndex = 69849;
 
 class Class_0_16E4307DCC419505_700
 {

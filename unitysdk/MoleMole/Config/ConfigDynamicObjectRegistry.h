@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class DynamicObjectEntry; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICOBJECTREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x186AEB30)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICOBJECTREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x106CBD80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicObjectRegistry_TypeDefinitionIndex = 47826;
+	inline static constexpr unsigned int ConfigDynamicObjectRegistry_TypeDefinitionIndex = 85397;
 
 	class ConfigDynamicObjectRegistry : public ::Foundation::MihoyoSerializedScriptableObject
 	{

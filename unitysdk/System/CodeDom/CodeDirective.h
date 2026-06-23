@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/CodeDom/CodeObject.h"
 
-#define SYSTEM_CODEDOM_CODEDIRECTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5693A0)
+#define SYSTEM_CODEDOM_CODEDIRECTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C888670)
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeDirective_TypeDefinitionIndex = 4041;
+	inline static constexpr unsigned int CodeDirective_TypeDefinitionIndex = 4040;
 
 	class CodeDirective : public ::System::CodeDom::CodeObject
 	{

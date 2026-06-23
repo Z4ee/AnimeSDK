@@ -10,21 +10,21 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_5F53453ACF8181EA_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0xFB69C30)
-#define CLASS_2_5F53453ACF8181EA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFB69DA0)
-#define CLASS_2_5F53453ACF8181EA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB69D90)
+#define CLASS_2_5F53453ACF8181EA_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x1689A4E0)
+#define CLASS_2_5F53453ACF8181EA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1689A650)
+#define CLASS_2_5F53453ACF8181EA__CTOR_OFFSET UNITYSDK_OFFSET(0x1689A640)
 
-inline static constexpr unsigned int Class_2_5F53453ACF8181EA_TypeDefinitionIndex = 80580;
+inline static constexpr unsigned int Class_2_5F53453ACF8181EA_TypeDefinitionIndex = 80807;
 
 class Class_2_5F53453ACF8181EA : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_FDFE69FE7B72463B* Field_2_4; // 0x18
+	::ShaderAniHelp* Field_2_0; // 0x18
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
 	::MoleMole::MonoUIStyleColorConfig* Field_2_2; // 0x28
-	::ShaderAniHelp* Field_2_0; // 0x30
-	::Class_2_FDFE69FE7B72463B* Field_2_5; // 0x38
-	::UnityEngine::RectTransform* Field_2_3; // 0x40
+	::Class_2_FDFE69FE7B72463B* Field_2_5; // 0x30
+	::UnityEngine::RectTransform* Field_2_3; // 0x38
+	::Class_2_FDFE69FE7B72463B* Field_2_4; // 0x40
 
 	::System::Void _ctor()
 	{

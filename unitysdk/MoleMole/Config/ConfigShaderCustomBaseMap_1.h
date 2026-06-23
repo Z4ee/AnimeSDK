@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShaderCustomBaseMap_1_TypeDefinitionIndex = 81218;
+	inline static constexpr unsigned int ConfigShaderCustomBaseMap_1_TypeDefinitionIndex = 62072;
 
 	template <typename T>
 	class ConfigShaderCustomBaseMap_1 : public ::MoleMole::Config::ConfigShaderCustomBaseMap

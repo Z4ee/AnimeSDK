@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceMemberPath___path_e__FixedBuffer_TypeDefinitionIndex = 36353;
+	inline static constexpr unsigned int CameraSequenceMemberPath___path_e__FixedBuffer_TypeDefinitionIndex = 37961;
 
 	struct alignas(4) CameraSequenceMemberPath___path_e__FixedBuffer
 	{

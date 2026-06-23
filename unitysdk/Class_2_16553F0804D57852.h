@@ -12,24 +12,24 @@ namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_16553F0804D57852_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0xE4D7EC0)
-#define CLASS_2_16553F0804D57852_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xE4D80A0)
-#define CLASS_2_16553F0804D57852_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xE4D8170)
-#define CLASS_2_16553F0804D57852__CTOR_OFFSET UNITYSDK_OFFSET(0xE4D8160)
+#define CLASS_2_16553F0804D57852_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x14495EC0)
+#define CLASS_2_16553F0804D57852_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x144960A0)
+#define CLASS_2_16553F0804D57852_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14496170)
+#define CLASS_2_16553F0804D57852__CTOR_OFFSET UNITYSDK_OFFSET(0x14496160)
 
-inline static constexpr unsigned int Class_2_16553F0804D57852_TypeDefinitionIndex = 56499;
+inline static constexpr unsigned int Class_2_16553F0804D57852_TypeDefinitionIndex = 59810;
 
 class Class_2_16553F0804D57852 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_0; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x20
-	::MonoUITableScrollV2* Field_2_2; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::UnityEngine::UI::Text* Field_2_1; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
+	::UnityEngine::GameObject* Field_2_0; // 0x20
+	::UnityEngine::UI::Text* Field_2_1; // 0x28
+	::UnityEngine::Transform* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
 	::UnityEngine::UI::Extension::UITimeWidget* Field_2_7; // 0x40
-	::UnityEngine::Transform* Field_2_3; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x48
+	::MonoUITableScrollV2* Field_2_2; // 0x50
 
 	::System::Void _ctor()
 	{

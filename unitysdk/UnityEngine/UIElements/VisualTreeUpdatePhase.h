@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualTreeUpdatePhase_TypeDefinitionIndex = 24978;
+	inline static constexpr unsigned int VisualTreeUpdatePhase_TypeDefinitionIndex = 27481;
 
 	enum class VisualTreeUpdatePhase : ::System::Int32
 	{

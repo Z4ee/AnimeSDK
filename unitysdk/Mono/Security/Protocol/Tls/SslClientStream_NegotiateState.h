@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int SslClientStream_NegotiateState_TypeDefinitionIndex = 2379;
+	inline static constexpr unsigned int SslClientStream_NegotiateState_TypeDefinitionIndex = 2378;
 
 	enum class SslClientStream_NegotiateState : ::System::Int32
 	{

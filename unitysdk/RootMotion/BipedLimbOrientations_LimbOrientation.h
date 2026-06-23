@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_BIPEDLIMBORIENTATIONS_LIMBORIENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C138370)
+#define ROOTMOTION_BIPEDLIMBORIENTATIONS_LIMBORIENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E46F100)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int BipedLimbOrientations_LimbOrientation_TypeDefinitionIndex = 36523;
+	inline static constexpr unsigned int BipedLimbOrientations_LimbOrientation_TypeDefinitionIndex = 38159;
 
 	class BipedLimbOrientations_LimbOrientation : public ::System::Object
 	{

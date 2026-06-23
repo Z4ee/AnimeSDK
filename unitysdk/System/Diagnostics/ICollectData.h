@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ICollectData_TypeDefinitionIndex = 4176;
+	inline static constexpr unsigned int ICollectData_TypeDefinitionIndex = 4175;
 
 	class ICollectData
 	{

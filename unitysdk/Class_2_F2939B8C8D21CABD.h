@@ -8,12 +8,12 @@ namespace MoleMole::Config { class InteractEntryMode_ClueView; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_1C92751553E32AE6_OFFSET UNITYSDK_OFFSET(0x1355DE20)
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_825F7C05602A972C_OFFSET UNITYSDK_OFFSET(0x1355D850)
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x1355DDD0)
-#define CLASS_2_F2939B8C8D21CABD__CTOR_OFFSET UNITYSDK_OFFSET(0x1355D7C0)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_1C92751553E32AE6_OFFSET UNITYSDK_OFFSET(0x137656E0)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_A2CBE01D475F2463_OFFSET UNITYSDK_OFFSET(0x137650C0)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x13765690)
+#define CLASS_2_F2939B8C8D21CABD__CTOR_OFFSET UNITYSDK_OFFSET(0x13765030)
 
-inline static constexpr unsigned int Class_2_F2939B8C8D21CABD_TypeDefinitionIndex = 39126;
+inline static constexpr unsigned int Class_2_F2939B8C8D21CABD_TypeDefinitionIndex = 67055;
 
 class Class_2_F2939B8C8D21CABD : public ::Class_1_35D50070BC469EAB
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::InteractEntry*))((::PBYTE)hIl2Cpp + CLASS_2_F2939B8C8D21CABD__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_825F7C05602A972C(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2)
+	::System::Boolean Method_2_A2CBE01D475F2463(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_2_F2939B8C8D21CABD_METHOD_2_825F7C05602A972C_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_2_F2939B8C8D21CABD_METHOD_2_A2CBE01D475F2463_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_CB210D3CDDB106B2(::System::Collections::Generic::List_1<::System::String*>* a1)

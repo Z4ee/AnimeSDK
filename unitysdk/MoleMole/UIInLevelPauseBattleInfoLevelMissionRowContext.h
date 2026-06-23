@@ -5,11 +5,11 @@
 class Class_1_EA67DE3E7B7C743B;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2_ValueCollection; }
 
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOLEVELMISSIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16088120)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOLEVELMISSIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186EED90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseBattleInfoLevelMissionRowContext_TypeDefinitionIndex = 60186;
+	inline static constexpr unsigned int UIInLevelPauseBattleInfoLevelMissionRowContext_TypeDefinitionIndex = 59585;
 
 	class UIInLevelPauseBattleInfoLevelMissionRowContext : public ::MoleMole::UIControllerContextBase
 	{

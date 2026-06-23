@@ -7,12 +7,12 @@ namespace MoleMole { class UIInterKnotPageConfig_MainCityQuestTypeRowConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIINTERKNOTPAGECONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x14B7BDF0)
-#define MOLEMOLE_UIINTERKNOTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14B7BF70)
+#define MOLEMOLE_UIINTERKNOTPAGECONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x1816C7A0)
+#define MOLEMOLE_UIINTERKNOTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1816C920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPageConfig_TypeDefinitionIndex = 62788;
+	inline static constexpr unsigned int UIInterKnotPageConfig_TypeDefinitionIndex = 61203;
 
 	class UIInterKnotPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

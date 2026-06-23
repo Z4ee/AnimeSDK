@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RijndaelManagedTransformMode_TypeDefinitionIndex = 1084;
+	inline static constexpr unsigned int RijndaelManagedTransformMode_TypeDefinitionIndex = 1083;
 
 	enum class RijndaelManagedTransformMode : ::System::Int32
 	{

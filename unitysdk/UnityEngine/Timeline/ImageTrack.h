@@ -8,13 +8,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define UNITYENGINE_TIMELINE_IMAGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C172710)
-#define UNITYENGINE_TIMELINE_IMAGETRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C1727E0)
-#define UNITYENGINE_TIMELINE_IMAGETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1727F0)
+#define UNITYENGINE_TIMELINE_IMAGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1E4BAD30)
+#define UNITYENGINE_TIMELINE_IMAGETRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E4BAE00)
+#define UNITYENGINE_TIMELINE_IMAGETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4BAE10)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImageTrack_TypeDefinitionIndex = 30836;
+	inline static constexpr unsigned int ImageTrack_TypeDefinitionIndex = 32387;
 
 	class ImageTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

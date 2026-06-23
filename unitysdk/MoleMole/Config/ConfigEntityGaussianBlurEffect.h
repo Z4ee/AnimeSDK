@@ -9,35 +9,35 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x11028060)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKDEBUG_OFFSET UNITYSDK_OFFSET(0x110284B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKROTATION_OFFSET UNITYSDK_OFFSET(0x11028430)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKTILING_OFFSET UNITYSDK_OFFSET(0x110283B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASK_OFFSET UNITYSDK_OFFSET(0x11028340)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x110280D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GET_MASK_OFFSET UNITYSDK_OFFSET(0x11028150)
-#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11028530)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x18F32490)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKDEBUG_OFFSET UNITYSDK_OFFSET(0x18F328E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKROTATION_OFFSET UNITYSDK_OFFSET(0x18F32860)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASKTILING_OFFSET UNITYSDK_OFFSET(0x18F327E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETMASK_OFFSET UNITYSDK_OFFSET(0x18F32770)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x18F32500)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT_GET_MASK_OFFSET UNITYSDK_OFFSET(0x18F32580)
+#define MOLEMOLE_CONFIG_CONFIGENTITYGAUSSIANBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F32960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityGaussianBlurEffect_TypeDefinitionIndex = 45536;
+	inline static constexpr unsigned int ConfigEntityGaussianBlurEffect_TypeDefinitionIndex = 59872;
 
 	class ConfigEntityGaussianBlurEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectFloat* radius; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* maskRotation; // 0x48
-		::System::String* maskPath; // 0x50
-		::UnityEngine::Texture2D* _mask; // 0x58
-		::MoleMole::Config::ScreenEffectBool* maskDebug; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* maskTiling; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType maskDebugHandleType; // 0x74
-		::MoleMole::Config::ScreenEffectFieldHandleType maskTilingHandleType; // 0x78
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x7C
-		::MoleMole::Config::ScreenEffectFieldHandleType maskRotationHandleType; // 0x80
-		::System::Int32 downSample; // 0x84
-		::MoleMole::Config::ScreenEffectFieldHandleType maskHandleType; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* maskRotation; // 0x40
+		::System::String* maskPath; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* radius; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* maskTiling; // 0x58
+		::UnityEngine::Texture2D* _mask; // 0x60
+		::MoleMole::Config::ScreenEffectBool* maskDebug; // 0x68
+		::System::Int32 downSample; // 0x70
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType maskRotationHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType maskHandleType; // 0x7C
+		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0x80
+		::MoleMole::Config::ScreenEffectFieldHandleType maskDebugHandleType; // 0x84
+		::MoleMole::Config::ScreenEffectFieldHandleType maskTilingHandleType; // 0x88
 
 		::System::Void _ctor()
 		{

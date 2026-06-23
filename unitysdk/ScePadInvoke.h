@@ -11,49 +11,49 @@
 #include "unitysdk/ScePadTriggerMask.h"
 #include "unitysdk/System/Object.h"
 
-#define SCEPADINVOKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AE498A0)
-#define SCEPADINVOKE_GETSCEPADHANDLE_OFFSET UNITYSDK_OFFSET(0x1AE48AE0)
-#define SCEPADINVOKE_INITSCEPADINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AE487D0)
-#define SCEPADINVOKE_SCEPADSETTRIGGEREFFECTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AE48BB0)
-#define SCEPADINVOKE_SCEPADSETTRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0x1AE486B0)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AE490E0)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTMULTIPLEPOSITIONFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AE49440)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTMULTIPLEPOSITIONVIBRATION_OFFSET UNITYSDK_OFFSET(0x1AE49240)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTOFF_OFFSET UNITYSDK_OFFSET(0x1AE49790)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTSLOPEFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AE495F0)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTVIBRATION_OFFSET UNITYSDK_OFFSET(0x1AE48F60)
-#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTWEAPON_OFFSET UNITYSDK_OFFSET(0x1AE48DE0)
-#define SCEPADINVOKE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE49A50)
-#define SCEPADINVOKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE49A40)
+#define SCEPADINVOKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AEA8F00)
+#define SCEPADINVOKE_GETSCEPADHANDLE_OFFSET UNITYSDK_OFFSET(0x1AEA8140)
+#define SCEPADINVOKE_INITSCEPADINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AEA7E30)
+#define SCEPADINVOKE_SCEPADSETTRIGGEREFFECTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AEA8210)
+#define SCEPADINVOKE_SCEPADSETTRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0x1AEA7D10)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AEA8740)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTMULTIPLEPOSITIONFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AEA8AA0)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTMULTIPLEPOSITIONVIBRATION_OFFSET UNITYSDK_OFFSET(0x1AEA88A0)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTOFF_OFFSET UNITYSDK_OFFSET(0x1AEA8DF0)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTSLOPEFEEDBACK_OFFSET UNITYSDK_OFFSET(0x1AEA8C50)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTVIBRATION_OFFSET UNITYSDK_OFFSET(0x1AEA85C0)
+#define SCEPADINVOKE_SETGAMEPADTRIGGEREFFECTWEAPON_OFFSET UNITYSDK_OFFSET(0x1AEA8440)
+#define SCEPADINVOKE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEA90B0)
+#define SCEPADINVOKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA90A0)
 
-inline static constexpr unsigned int ScePadInvoke_TypeDefinitionIndex = 76689;
+inline static constexpr unsigned int ScePadInvoke_TypeDefinitionIndex = 76123;
 
 class ScePadInvoke : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet__scePadHandle()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE800);
-	}
-	static ::System::Byte* StaticGet_SCE_PAD_TRIGGER_EFFECT_TRIGGER_MASK_R2()
-	{
-		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE804);
-	}
-	static ::System::Byte* StaticGet_SCE_PAD_TRIGGER_EFFECT_TRIGGER_MASK_L2()
-	{
-		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE805);
-	}
-	static ::System::Boolean* StaticGet__sceInited()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE806);
-	}
 	static ::System::Int32* StaticGet_SCE_USER_SERVICE_MAX_LOGIN_USERS()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE808);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF60);
+	}
+	static ::System::Int32* StaticGet__scePadHandle()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF64);
 	}
 	static ::System::Int32* StaticGet_SCE_PAD_TRIGGER_EFFECT_CONTROL_POINT_NUM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xE80C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF68);
+	}
+	static ::System::Boolean* StaticGet__sceInited()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF6C);
+	}
+	static ::System::Byte* StaticGet_SCE_PAD_TRIGGER_EFFECT_TRIGGER_MASK_L2()
+	{
+		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF6D);
+	}
+	static ::System::Byte* StaticGet_SCE_PAD_TRIGGER_EFFECT_TRIGGER_MASK_R2()
+	{
+		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScePadInvoke_TypeDefinitionIndex)->GetStaticField(0xEF6E);
 	}
 
 	::System::Void _ctor()

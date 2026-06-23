@@ -5,24 +5,24 @@
 class Class_1_57F7F2BF8C55D6B6;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1561E0A0)
-#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1561E0E0)
-#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__ONUIINIT_B__2_7_OFFSET UNITYSDK_OFFSET(0x1561E0F0)
+#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181BC5F0)
+#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181BC630)
+#define MOLEMOLE_UIADDFRIENDWIDGETCONTROLLER___C__ONUIINIT_B__2_7_OFFSET UNITYSDK_OFFSET(0x181BC640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAddFriendWidgetController___c_TypeDefinitionIndex = 77475;
+	inline static constexpr unsigned int UIAddFriendWidgetController___c_TypeDefinitionIndex = 62618;
 
 	class UIAddFriendWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIAddFriendWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAddFriendWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAddFriendWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ECE0);
-		}
 		static ::System::Action_1<::Class_1_57F7F2BF8C55D6B6*>** StaticGet___9__2_7()
 		{
-			return (::System::Action_1<::Class_1_57F7F2BF8C55D6B6*>**)Il2CppClass::FromTypeDefinitionIndex(UIAddFriendWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ECE8);
+			return (::System::Action_1<::Class_1_57F7F2BF8C55D6B6*>**)Il2CppClass::FromTypeDefinitionIndex(UIAddFriendWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x412F0);
+		}
+		static ::MoleMole::UIAddFriendWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIAddFriendWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAddFriendWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x412F8);
 		}
 
 		static ::System::Void _cctor()

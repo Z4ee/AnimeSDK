@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NAP_NAPECS_ECSIDGENERATOR_GENERATE_OFFSET UNITYSDK_OFFSET(0x192CE900)
-#define NAP_NAPECS_ECSIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x192CFB30)
+#define NAP_NAPECS_ECSIDGENERATOR_GENERATE_OFFSET UNITYSDK_OFFSET(0x1B2ED6F0)
+#define NAP_NAPECS_ECSIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2EE910)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsIdGenerator_TypeDefinitionIndex = 35665;
+	inline static constexpr unsigned int EcsIdGenerator_TypeDefinitionIndex = 37385;
 
 	class EcsIdGenerator : public ::System::Object
 	{

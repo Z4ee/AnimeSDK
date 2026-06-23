@@ -3,7 +3,7 @@
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeTypeReferenceOptions_TypeDefinitionIndex = 4054;
+	inline static constexpr unsigned int CodeTypeReferenceOptions_TypeDefinitionIndex = 4053;
 
 	enum class CodeTypeReferenceOptions : ::System::Int32
 	{

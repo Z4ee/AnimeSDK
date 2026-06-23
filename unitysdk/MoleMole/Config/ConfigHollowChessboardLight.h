@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A900F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x158A8F80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardLight_TypeDefinitionIndex = 79498;
+	inline static constexpr unsigned int ConfigHollowChessboardLight_TypeDefinitionIndex = 66398;
 
 	class ConfigHollowChessboardLight : public ::Foundation::MihoyoSerializedScriptableObject
 	{

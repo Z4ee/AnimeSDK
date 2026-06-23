@@ -5,13 +5,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B425D30)
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B425DA0)
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B425E40)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D7C7640)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D7C76B0)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C7750)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int StringContains_TypeDefinitionIndex = 26483;
+	inline static constexpr unsigned int StringContains_TypeDefinitionIndex = 29558;
 
 	class StringContains : public ::NodeCanvas::Framework::ConditionTask
 	{

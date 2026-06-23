@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/PhysicMaterialCombine.h"
 
-inline static constexpr unsigned int Class_1_B46798A9584868B1_Struct_2_AB49E166385563AB_TypeDefinitionIndex = 42883;
+inline static constexpr unsigned int Class_1_B46798A9584868B1_Struct_2_AB49E166385563AB_TypeDefinitionIndex = 52408;
 
 struct alignas(4) Class_1_B46798A9584868B1_Struct_2_AB49E166385563AB
 {

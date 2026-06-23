@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/PP_Quality.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_PPQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA2F10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_PPQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC37580)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PPQualityParameter_TypeDefinitionIndex = 30141;
+	inline static constexpr unsigned int PPQualityParameter_TypeDefinitionIndex = 26920;
 
 	class PPQualityParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::PP_Quality>
 	{

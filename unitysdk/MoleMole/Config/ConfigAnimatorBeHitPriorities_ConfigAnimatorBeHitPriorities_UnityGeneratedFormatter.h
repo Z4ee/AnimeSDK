@@ -13,26 +13,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12415890)
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x124158A0)
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12415A80)
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12415C20)
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12415BE0)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1AA48C30)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1AA48C40)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1AA48E20)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA48FC0)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES_CONFIGANIMATORBEHITPRIORITIES_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA48F80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex = 51363;
+	inline static constexpr unsigned int ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex = 52154;
 
 	class ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigAnimatorBeHitPriorities*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::MoleMole::AniamtorParamsSetting*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::MoleMole::AniamtorParamsSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x401E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::MoleMole::AniamtorParamsSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42BC0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::BaseConfigAnimatorBeHitPriority*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::BaseConfigAnimatorBeHitPriority*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x401E8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::BaseConfigAnimatorBeHitPriority*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAnimatorBeHitPriorities_ConfigAnimatorBeHitPriorities_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42BC8);
 		}
 
 		::System::Void _ctor()

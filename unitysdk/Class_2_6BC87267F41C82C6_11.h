@@ -6,16 +6,24 @@ class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_6BC87267F41C82C6_11_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFE7A270)
-#define CLASS_2_6BC87267F41C82C6_11_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0xFE7A1D0)
-#define CLASS_2_6BC87267F41C82C6_11__CTOR_OFFSET UNITYSDK_OFFSET(0xFE7A260)
+#define CLASS_2_6BC87267F41C82C6_11_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1AE9E5C0)
+#define CLASS_2_6BC87267F41C82C6_11_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1AE9E450)
+#define CLASS_2_6BC87267F41C82C6_11__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9E5B0)
 
-inline static constexpr unsigned int Class_2_6BC87267F41C82C6_11_TypeDefinitionIndex = 66729;
+inline static constexpr unsigned int Class_2_6BC87267F41C82C6_11_TypeDefinitionIndex = 61234;
 
 class Class_2_6BC87267F41C82C6_11 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x18
+	::UnityEngine::Transform* Field_2_8; // 0x18
+	::UnityEngine::Transform* Field_2_2; // 0x20
+	::UnityEngine::Transform* Field_2_4; // 0x28
+	::UnityEngine::Transform* Field_2_6; // 0x30
+	::UnityEngine::Transform* Field_2_5; // 0x38
+	::UnityEngine::Transform* Field_2_1; // 0x40
+	::UnityEngine::Transform* Field_2_0; // 0x48
+	::UnityEngine::Transform* Field_2_3; // 0x50
+	::UnityEngine::Transform* Field_2_7; // 0x58
 
 	::System::Void _ctor()
 	{

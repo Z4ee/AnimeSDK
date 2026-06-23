@@ -9,7 +9,7 @@ namespace FlowCanvas::Nodes { template <typename T1, typename T2, typename T3, t
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CallableActionNode_4___c__DisplayClass1_0_TypeDefinitionIndex = 27429;
+	inline static constexpr unsigned int CallableActionNode_4___c__DisplayClass1_0_TypeDefinitionIndex = 30703;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class CallableActionNode_4___c__DisplayClass1_0 : public ::System::Object

@@ -8,21 +8,21 @@ namespace System::Xml::Serialization { class TypeData; }
 namespace System::Xml::Serialization { class XmlTypeMapElementInfo; }
 namespace System::Xml::Serialization { class XmlTypeMapElementInfoList; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x1BACD8B0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x1BACD7A0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x1BACE080)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACD730)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x1DE47B10)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x1DE47A00)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x1DE482E0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE479A0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapMemberElement_TypeDefinitionIndex = 1927;
+	inline static constexpr unsigned int XmlTypeMapMemberElement_TypeDefinitionIndex = 1926;
 
 	class XmlTypeMapMemberElement : public ::System::Xml::Serialization::XmlTypeMapMember
 	{
 	public:
-		::System::Xml::Serialization::XmlTypeMapElementInfoList* _elementInfo; // 0x50
-		::System::Xml::Serialization::TypeData* _choiceTypeData; // 0x58
-		::System::String* _choiceMember; // 0x60
+		::System::String* _choiceMember; // 0x50
+		::System::Xml::Serialization::XmlTypeMapElementInfoList* _elementInfo; // 0x58
+		::System::Xml::Serialization::TypeData* _choiceTypeData; // 0x60
 		::System::Boolean _isTextCollector; // 0x68
 
 		::System::Void _ctor()

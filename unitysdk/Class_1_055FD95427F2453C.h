@@ -5,26 +5,26 @@
 
 namespace System { class String; }
 
-#define CLASS_1_055FD95427F2453C_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x1307E680)
-#define CLASS_1_055FD95427F2453C_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1307EC70)
-#define CLASS_1_055FD95427F2453C_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x1307E6D0)
-#define CLASS_1_055FD95427F2453C_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1307E740)
-#define CLASS_1_055FD95427F2453C__CTOR_OFFSET UNITYSDK_OFFSET(0x1307EC60)
+#define CLASS_1_055FD95427F2453C_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x1BF3A820)
+#define CLASS_1_055FD95427F2453C_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1BF3AE10)
+#define CLASS_1_055FD95427F2453C_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x1BF3A870)
+#define CLASS_1_055FD95427F2453C_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BF3A8E0)
+#define CLASS_1_055FD95427F2453C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3AE00)
 
-inline static constexpr unsigned int Class_1_055FD95427F2453C_TypeDefinitionIndex = 56947;
+inline static constexpr unsigned int Class_1_055FD95427F2453C_TypeDefinitionIndex = 84230;
 
 class Class_1_055FD95427F2453C : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::System::String* Field_1_0; // 0x18
-	::System::String* Field_1_8; // 0x20
-	::System::Int32 Field_1_4; // 0x28
-	::MoleMole::HollowChessboard::ShowEntryType Field_1_3; // 0x2C
-	::System::Boolean Field_1_5; // 0x30
-	::System::Boolean Field_1_9; // 0x31
-	::System::Boolean Field_1_7; // 0x32
-	::System::Int32 Field_1_1; // 0x34
+	::System::String* Field_1_8; // 0x10
+	::System::String* Field_1_2; // 0x18
+	::System::String* Field_1_0; // 0x20
+	::MoleMole::HollowChessboard::ShowEntryType Field_1_3; // 0x28
+	::System::Int32 Field_1_1; // 0x2C
+	::System::Int32 Field_1_4; // 0x30
+	::System::Boolean Field_1_9; // 0x34
+	::System::Boolean Field_1_7; // 0x35
+	::System::Boolean Field_1_5; // 0x36
 	::System::Int32 Field_1_6; // 0x38
 
 	::System::Void _ctor()

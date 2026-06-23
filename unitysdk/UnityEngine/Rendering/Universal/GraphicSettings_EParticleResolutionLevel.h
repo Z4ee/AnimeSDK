@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GraphicSettings_EParticleResolutionLevel_TypeDefinitionIndex = 30004;
+	inline static constexpr unsigned int GraphicSettings_EParticleResolutionLevel_TypeDefinitionIndex = 26458;
 
 	enum class GraphicSettings_EParticleResolutionLevel : ::System::Int32
 	{
-		FullScreen = 0,
 		HalfScreen = 1,
+		FullScreen = 0,
 	};
 }

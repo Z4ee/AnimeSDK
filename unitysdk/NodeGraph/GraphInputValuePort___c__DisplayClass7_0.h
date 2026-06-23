@@ -3,12 +3,12 @@
 #include "unitysdk/Struct_2_A47ACAABA9AAFE92.h"
 #include "unitysdk/System/Object.h"
 
-#define NODEGRAPH_GRAPHINPUTVALUEPORT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBDFBC10)
-#define NODEGRAPH_GRAPHINPUTVALUEPORT___C__DISPLAYCLASS7_0__SETVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xBDFBC20)
+#define NODEGRAPH_GRAPHINPUTVALUEPORT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD959400)
+#define NODEGRAPH_GRAPHINPUTVALUEPORT___C__DISPLAYCLASS7_0__SETVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xD959410)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphInputValuePort___c__DisplayClass7_0_TypeDefinitionIndex = 46314;
+	inline static constexpr unsigned int GraphInputValuePort___c__DisplayClass7_0_TypeDefinitionIndex = 59991;
 
 	class GraphInputValuePort___c__DisplayClass7_0 : public ::System::Object
 	{

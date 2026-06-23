@@ -6,12 +6,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class ConfigPosRotWithReferTarget; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14989770)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149899C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x170FE800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x170FEA40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAddEffectNode_TypeDefinitionIndex = 52950;
+	inline static constexpr unsigned int LDAddEffectNode_TypeDefinitionIndex = 72980;
 
 	class LDAddEffectNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::MoleMole::FlowCanvas::Nodes::ConfigPosRotWithReferTarget*>
 	{

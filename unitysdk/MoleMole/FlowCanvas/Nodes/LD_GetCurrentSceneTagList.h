@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1499C870)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1499C9B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x17111890)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x171119D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetCurrentSceneTagList_TypeDefinitionIndex = 55927;
+	inline static constexpr unsigned int LD_GetCurrentSceneTagList_TypeDefinitionIndex = 56726;
 
 	class LD_GetCurrentSceneTagList : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean>
 	{

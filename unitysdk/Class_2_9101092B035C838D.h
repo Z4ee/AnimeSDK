@@ -10,28 +10,28 @@ namespace MoleMole { class UIActivitySeriesRewardItemWidgetController; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_9101092B035C838D_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xE886400)
-#define CLASS_2_9101092B035C838D_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xE886650)
-#define CLASS_2_9101092B035C838D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xE886720)
-#define CLASS_2_9101092B035C838D__CTOR_OFFSET UNITYSDK_OFFSET(0xE886710)
+#define CLASS_2_9101092B035C838D_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xFB1CE50)
+#define CLASS_2_9101092B035C838D_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xFB1D0A0)
+#define CLASS_2_9101092B035C838D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFB1D170)
+#define CLASS_2_9101092B035C838D__CTOR_OFFSET UNITYSDK_OFFSET(0xFB1D160)
 
-inline static constexpr unsigned int Class_2_9101092B035C838D_TypeDefinitionIndex = 38448;
+inline static constexpr unsigned int Class_2_9101092B035C838D_TypeDefinitionIndex = 72000;
 
 class Class_2_9101092B035C838D : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MoleMole::NotificationBadgeEx* Field_2_1; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x20
-	::UnityEngine::RectTransform* Field_2_7; // 0x28
-	::UnityEngine::RectTransform* Field_2_6; // 0x30
-	::UnityEngine::RectTransform* Field_2_2; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivitySeriesRewardItemWidgetController*>* Field_2_4; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x50
-	::UnityEngine::RectTransform* Field_2_5; // 0x58
-	::MoleMole::MonoGamepadSelectable* Field_2_3; // 0x60
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivitySeriesRewardItemWidgetController*>* Field_2_4; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_8; // 0x20
+	::MoleMole::MonoGamepadSelectable* Field_2_3; // 0x28
+	::UnityEngine::RectTransform* Field_2_5; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
+	::UnityEngine::RectTransform* Field_2_7; // 0x40
+	::MoleMole::NotificationBadgeEx* Field_2_1; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x50
+	::UnityEngine::RectTransform* Field_2_6; // 0x58
+	::UnityEngine::RectTransform* Field_2_2; // 0x60
 
 	::System::Void _ctor()
 	{

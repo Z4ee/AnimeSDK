@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int InlinedArray_1_TypeDefinitionIndex = 29391;
+	inline static constexpr unsigned int InlinedArray_1_TypeDefinitionIndex = 32047;
 
 	template <typename TValue>
 	struct InlinedArray_1

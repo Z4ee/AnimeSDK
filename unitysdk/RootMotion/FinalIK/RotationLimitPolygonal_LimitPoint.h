@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_ROTATIONLIMITPOLYGONAL_LIMITPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3A8C0)
+#define ROOTMOTION_FINALIK_ROTATIONLIMITPOLYGONAL_LIMITPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB4220)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int RotationLimitPolygonal_LimitPoint_TypeDefinitionIndex = 36682;
+	inline static constexpr unsigned int RotationLimitPolygonal_LimitPoint_TypeDefinitionIndex = 38139;
 
 	class RotationLimitPolygonal_LimitPoint : public ::System::Object
 	{

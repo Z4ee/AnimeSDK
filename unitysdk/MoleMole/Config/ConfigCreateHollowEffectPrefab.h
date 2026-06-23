@@ -6,12 +6,12 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCREATEHOLLOWEFFECTPREFAB_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12302FA0)
-#define MOLEMOLE_CONFIG_CONFIGCREATEHOLLOWEFFECTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x12303010)
+#define MOLEMOLE_CONFIG_CONFIGCREATEHOLLOWEFFECTPREFAB_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17D4D010)
+#define MOLEMOLE_CONFIG_CONFIGCREATEHOLLOWEFFECTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4D080)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCreateHollowEffectPrefab_TypeDefinitionIndex = 60324;
+	inline static constexpr unsigned int ConfigCreateHollowEffectPrefab_TypeDefinitionIndex = 81972;
 
 	class ConfigCreateHollowEffectPrefab : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

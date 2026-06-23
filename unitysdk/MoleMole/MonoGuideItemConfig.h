@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOGUIDEITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x158409C0)
+#define MOLEMOLE_MONOGUIDEITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1640D480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGuideItemConfig_TypeDefinitionIndex = 56809;
+	inline static constexpr unsigned int MonoGuideItemConfig_TypeDefinitionIndex = 61339;
 
 	class MonoGuideItemConfig : public ::UnityEngine::MonoBehaviour
 	{

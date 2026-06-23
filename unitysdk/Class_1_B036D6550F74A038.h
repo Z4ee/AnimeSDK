@@ -11,28 +11,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B036D6550F74A038_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x161E5A00)
-#define CLASS_1_B036D6550F74A038_FROMFLX_OFFSET UNITYSDK_OFFSET(0x161E6360)
-#define CLASS_1_B036D6550F74A038_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x161E63E0)
-#define CLASS_1_B036D6550F74A038_METHOD_1_24A25E33E8D4A2E6_OFFSET UNITYSDK_OFFSET(0x161E5A60)
-#define CLASS_1_B036D6550F74A038__CTOR_OFFSET UNITYSDK_OFFSET(0x161E74E0)
+#define CLASS_1_B036D6550F74A038_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xD581050)
+#define CLASS_1_B036D6550F74A038_FROMFLX_OFFSET UNITYSDK_OFFSET(0xD5819B0)
+#define CLASS_1_B036D6550F74A038_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0xD581A30)
+#define CLASS_1_B036D6550F74A038_METHOD_1_24A25E33E8D4A2E6_OFFSET UNITYSDK_OFFSET(0xD5810B0)
+#define CLASS_1_B036D6550F74A038__CTOR_OFFSET UNITYSDK_OFFSET(0xD582B30)
 
-inline static constexpr unsigned int Class_1_B036D6550F74A038_TypeDefinitionIndex = 55094;
+inline static constexpr unsigned int Class_1_B036D6550F74A038_TypeDefinitionIndex = 41346;
 
 class Class_1_B036D6550F74A038 : public ::System::Object
 {
 public:
-	::System::String* Field_1_7; // 0x10
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_5; // 0x18
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x28
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_5; // 0x20
+	::System::String* Field_1_7; // 0x28
 	::System::Collections::Generic::List_1<::System::String*>* Field_1_6; // 0x30
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DynamicFloat*>* Field_1_8; // 0x38
-	::UnityEngine::Vector3 Field_1_9; // 0x40
-	::System::Int32 Field_1_0; // 0x4C
-	::UnityEngine::Vector3 Field_1_10; // 0x50
-	::System::Boolean Field_1_1; // 0x5C
-	::System::Boolean Field_1_3; // 0x5D
+	::System::Boolean Field_1_3; // 0x40
+	::System::Boolean Field_1_1; // 0x41
+	::System::Int32 Field_1_0; // 0x44
+	::UnityEngine::Vector3 Field_1_10; // 0x48
+	::UnityEngine::Vector3 Field_1_9; // 0x54
 
 	::System::Void _ctor()
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient_HeaderName_TypeDefinitionIndex = 3597;
+	inline static constexpr unsigned int SmtpClient_HeaderName_TypeDefinitionIndex = 3596;
 
 	struct alignas(1) SmtpClient_HeaderName
 	{

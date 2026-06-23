@@ -6,7 +6,7 @@
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_HIDCollectionDescriptor_TypeDefinitionIndex = 29137;
+	inline static constexpr unsigned int HID_HIDCollectionDescriptor_TypeDefinitionIndex = 31793;
 
 	struct alignas(4) HID_HIDCollectionDescriptor
 	{

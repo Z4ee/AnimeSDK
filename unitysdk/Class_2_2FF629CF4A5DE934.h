@@ -9,24 +9,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_2FF629CF4A5DE934_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x16C2D500)
-#define CLASS_2_2FF629CF4A5DE934_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x16C2D6E0)
-#define CLASS_2_2FF629CF4A5DE934_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16C2D7B0)
-#define CLASS_2_2FF629CF4A5DE934__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2D7A0)
+#define CLASS_2_2FF629CF4A5DE934_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0xFFF69D0)
+#define CLASS_2_2FF629CF4A5DE934_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xFFF6BB0)
+#define CLASS_2_2FF629CF4A5DE934_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFFF6C80)
+#define CLASS_2_2FF629CF4A5DE934__CTOR_OFFSET UNITYSDK_OFFSET(0xFFF6C70)
 
-inline static constexpr unsigned int Class_2_2FF629CF4A5DE934_TypeDefinitionIndex = 50700;
+inline static constexpr unsigned int Class_2_2FF629CF4A5DE934_TypeDefinitionIndex = 44550;
 
 class Class_2_2FF629CF4A5DE934 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_1; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x20
-	::UnityEngine::GameObject* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x28
+	::UnityEngine::GameObject* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x48
+	::UnityEngine::Transform* Field_2_1; // 0x50
 
 	::System::Void _ctor()
 	{

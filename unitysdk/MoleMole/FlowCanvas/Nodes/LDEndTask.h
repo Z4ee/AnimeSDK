@@ -7,20 +7,20 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x170C1B30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_START_OFFSET UNITYSDK_OFFSET(0x170C1C20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x170C1D80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x170C1DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1911B240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_START_OFFSET UNITYSDK_OFFSET(0x1911B330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1911B490)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1911B4D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEndTask_TypeDefinitionIndex = 62187;
+	inline static constexpr unsigned int LDEndTask_TypeDefinitionIndex = 83825;
 
 	class LDEndTask : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::TaskCompletionSourceNodeHandle>* taskInput; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::TaskCompletionSourceNodeHandle>* taskInput; // 0xB0
 
 		::System::Void _ctor()
 		{

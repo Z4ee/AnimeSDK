@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF3F9140)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x8C49690)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManagerConfig_TypeDefinitionIndex = 69083;
+	inline static constexpr unsigned int AnimationSubManagerConfig_TypeDefinitionIndex = 54030;
 
 	class AnimationSubManagerConfig : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IValidationEventHandling_TypeDefinitionIndex = 1693;
+	inline static constexpr unsigned int IValidationEventHandling_TypeDefinitionIndex = 1692;
 
 	class IValidationEventHandling
 	{

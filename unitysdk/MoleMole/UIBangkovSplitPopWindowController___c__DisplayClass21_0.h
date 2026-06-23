@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1677D140)
-#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1677D150)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187CA020)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x187CA030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovSplitPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 73493;
+	inline static constexpr unsigned int UIBangkovSplitPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 49935;
 
 	class UIBangkovSplitPopWindowController___c__DisplayClass21_0 : public ::System::Object
 	{

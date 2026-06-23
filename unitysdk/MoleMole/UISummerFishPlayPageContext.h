@@ -5,11 +5,11 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E3BB90)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C77100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishPlayPageContext_TypeDefinitionIndex = 73567;
+	inline static constexpr unsigned int UISummerFishPlayPageContext_TypeDefinitionIndex = 77957;
 
 	class UISummerFishPlayPageContext : public ::MoleMole::UIControllerContextBase
 	{

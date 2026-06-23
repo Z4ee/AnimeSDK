@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCGCOLORWSLERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F4010)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCGCOLORWSLERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A1DB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCGColorWSLerp_TypeDefinitionIndex = 30051;
+	inline static constexpr unsigned int NapCGColorWSLerp_TypeDefinitionIndex = 26289;
 
 	class NapCGColorWSLerp : public ::UnityEngine::MonoBehaviour
 	{

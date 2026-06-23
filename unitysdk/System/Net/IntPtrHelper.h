@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_INTPTRHELPER_ADD_OFFSET UNITYSDK_OFFSET(0x18FB7020)
-#define SYSTEM_NET_INTPTRHELPER_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x18FB7030)
+#define SYSTEM_NET_INTPTRHELPER_ADD_OFFSET UNITYSDK_OFFSET(0x1B1C5150)
+#define SYSTEM_NET_INTPTRHELPER_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x1B1C5160)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IntPtrHelper_TypeDefinitionIndex = 3292;
+	inline static constexpr unsigned int IntPtrHelper_TypeDefinitionIndex = 3291;
 
 	class IntPtrHelper : public ::System::Object
 	{

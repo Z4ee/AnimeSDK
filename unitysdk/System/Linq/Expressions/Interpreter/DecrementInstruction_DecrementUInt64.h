@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DECREMENTINSTRUCTION_DECREMENTUINT64_RUN_OFFSET UNITYSDK_OFFSET(0x1BDABC40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DECREMENTINSTRUCTION_DECREMENTUINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDABD60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DECREMENTINSTRUCTION_DECREMENTUINT64_RUN_OFFSET UNITYSDK_OFFSET(0x1E0F3BC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DECREMENTINSTRUCTION_DECREMENTUINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F3CE0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DecrementInstruction_DecrementUInt64_TypeDefinitionIndex = 4614;
+	inline static constexpr unsigned int DecrementInstruction_DecrementUInt64_TypeDefinitionIndex = 4613;
 
 	class DecrementInstruction_DecrementUInt64 : public ::System::Linq::Expressions::Interpreter::DecrementInstruction
 	{

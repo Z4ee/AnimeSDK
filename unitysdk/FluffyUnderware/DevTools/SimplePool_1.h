@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int SimplePool_1_TypeDefinitionIndex = 25883;
+	inline static constexpr unsigned int SimplePool_1_TypeDefinitionIndex = 28377;
 
 	template <typename T>
 	class SimplePool_1 : public ::System::Object

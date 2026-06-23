@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int IDToTaskWrapper_ContentType_TypeDefinitionIndex = 31708;
+	inline static constexpr unsigned int IDToTaskWrapper_ContentType_TypeDefinitionIndex = 33259;
 
 	enum class IDToTaskWrapper_ContentType : ::System::Int32
 	{

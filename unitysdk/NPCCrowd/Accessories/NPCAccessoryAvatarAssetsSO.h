@@ -6,20 +6,22 @@
 #include "unitysdk/NPCCrowd/EUnloadAssetReason.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
+namespace NPCCrowd { class NPCSoftMaterialPath; }
+namespace NPCCrowd { class NPCSoftMeshPath; }
 namespace NPCCrowd::Accessories { class NPCAccessoryAnimationAssetsSO; }
 namespace NPCCrowd::Accessories { class NPCAccessoryAttachInfo; }
 namespace NPCCrowd::Accessories { class NPCAccessoryLodMeshAssets; }
 namespace NPCCrowd::Accessories { class NPCAccessoryMDBPose; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_GET_BNEEDREADGPUSLOTDATA_OFFSET UNITYSDK_OFFSET(0xD23F250)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_REFRESHASSETS_OFFSET UNITYSDK_OFFSET(0xD23F210)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xD23F2C0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD23F510)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_GET_BNEEDREADGPUSLOTDATA_OFFSET UNITYSDK_OFFSET(0xA678E40)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_REFRESHASSETS_OFFSET UNITYSDK_OFFSET(0xA678E00)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xA678EB0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xA679160)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAvatarAssetsSO_TypeDefinitionIndex = 74836;
+	inline static constexpr unsigned int NPCAccessoryAvatarAssetsSO_TypeDefinitionIndex = 61024;
 
 	class NPCAccessoryAvatarAssetsSO : public ::UnityEngine::ScriptableObject
 	{
@@ -33,6 +35,10 @@ namespace NPCCrowd::Accessories
 		::NPCCrowd::Accessories::NPCAccessoryAnimationAssetsSO* animation; // 0x40
 		::Foundation::AssetPath avatarAssetPath; // 0x48
 		::System::Boolean useDitherMaterial; // 0x58
+		::System::Boolean bUseSimpleAsset; // 0x59
+		::NPCCrowd::NPCSoftMeshPath* commonSimpleMeshRef; // 0x60
+		::NPCCrowd::NPCSoftMaterialPath* commonSimpleMaterialRef; // 0x68
+		::NPCCrowd::NPCSoftMaterialPath* commonSimpleDitherMaterialRef; // 0x70
 
 		::System::Void _ctor()
 		{

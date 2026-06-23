@@ -4,12 +4,12 @@
 
 class Class_1_6D1045A276B3030B;
 
-#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EE3970)
-#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS44_0__TRYSELECTVM_B__0_OFFSET UNITYSDK_OFFSET(0x15EE3980)
+#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A61D70)
+#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS44_0__TRYSELECTVM_B__0_OFFSET UNITYSDK_OFFSET(0x17A61D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCasePageController___c__DisplayClass44_0_TypeDefinitionIndex = 78103;
+	inline static constexpr unsigned int UIDisplayCasePageController___c__DisplayClass44_0_TypeDefinitionIndex = 61269;
 
 	class UIDisplayCasePageController___c__DisplayClass44_0 : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CHESSEFFECTBASELIST__CTOR_OFFSET UNITYSDK_OFFSET(0xF97D730)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CHESSEFFECTBASELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x110A2720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_ChessEffectBaseList_TypeDefinitionIndex = 43414;
+	inline static constexpr unsigned int ConfigHollowChessboard_ChessEffectBaseList_TypeDefinitionIndex = 64436;
 
 	class ConfigHollowChessboard_ChessEffectBaseList : public ::System::Object
 	{

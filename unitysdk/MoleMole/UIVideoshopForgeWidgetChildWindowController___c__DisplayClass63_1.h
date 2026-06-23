@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_0; }
 
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__CTOR_OFFSET UNITYSDK_OFFSET(0xF630390)
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__SEND_B__1_OFFSET UNITYSDK_OFFSET(0xF6303A0)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__CTOR_OFFSET UNITYSDK_OFFSET(0x122D0750)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__SEND_B__1_OFFSET UNITYSDK_OFFSET(0x122D0760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1_TypeDefinitionIndex = 72585;
+	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1_TypeDefinitionIndex = 70530;
 
 	class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1 : public ::System::Object
 	{

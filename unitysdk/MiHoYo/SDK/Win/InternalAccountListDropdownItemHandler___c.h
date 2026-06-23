@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F8D50)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197F8D90)
-#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__PARSEACCOUNTINFO_B__21_0_OFFSET UNITYSDK_OFFSET(0x197F8DA0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B348FE0)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B349020)
+#define MIHOYO_SDK_WIN_INTERNALACCOUNTLISTDROPDOWNITEMHANDLER___C__PARSEACCOUNTINFO_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B349030)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex = 19880;
+	inline static constexpr unsigned int InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex = 21043;
 
 	class InternalAccountListDropdownItemHandler___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::InternalAccountListDropdownItemHandler___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Win::InternalAccountListDropdownItemHandler___c**)Il2CppClass::FromTypeDefinitionIndex(InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex)->GetStaticField(0xA6A0);
-		}
 		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__21_0()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex)->GetStaticField(0xA6A8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex)->GetStaticField(0xA9C0);
+		}
+		static ::MiHoYo::SDK::Win::InternalAccountListDropdownItemHandler___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::InternalAccountListDropdownItemHandler___c**)Il2CppClass::FromTypeDefinitionIndex(InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex)->GetStaticField(0xA9C8);
 		}
 
 		static ::System::Void _cctor()

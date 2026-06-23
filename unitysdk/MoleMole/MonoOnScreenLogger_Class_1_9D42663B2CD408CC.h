@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoOnScreenLogger_Class_1_9D42663B2CD408CC_TypeDefinitionIndex = 62753;
+	inline static constexpr unsigned int MonoOnScreenLogger_Class_1_9D42663B2CD408CC_TypeDefinitionIndex = 82734;
 
 	template <typename T>
 	class MonoOnScreenLogger_Class_1_9D42663B2CD408CC : public ::System::Object

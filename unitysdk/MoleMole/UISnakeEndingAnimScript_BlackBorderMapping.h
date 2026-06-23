@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UISnakeEndingAnimScript_Enum_3_8739E20E95CB228C.h"
+#include "unitysdk/MoleMole/UISnakeEndingAnimScript_Enum_3_E950BFCC4FF152A7.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine { class RectTransform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISnakeEndingAnimScript_BlackBorderMapping_TypeDefinitionIndex = 85381;
+	inline static constexpr unsigned int UISnakeEndingAnimScript_BlackBorderMapping_TypeDefinitionIndex = 90991;
 
 	struct alignas(8) UISnakeEndingAnimScript_BlackBorderMapping
 	{
@@ -15,6 +15,6 @@ namespace MoleMole
 		::UnityEngine::RectTransform* rectSource; // 0x10
 		::UnityEngine::RectTransform* rectBlackBorder; // 0x18
 		::System::Single offset; // 0x20
-		::MoleMole::UISnakeEndingAnimScript_Enum_3_8739E20E95CB228C type; // 0x24
+		::MoleMole::UISnakeEndingAnimScript_Enum_3_E950BFCC4FF152A7 type; // 0x24
 	};
 }

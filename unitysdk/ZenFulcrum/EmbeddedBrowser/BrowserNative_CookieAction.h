@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_CookieAction_TypeDefinitionIndex = 31024;
+	inline static constexpr unsigned int BrowserNative_CookieAction_TypeDefinitionIndex = 32575;
 
 	enum class BrowserNative_CookieAction : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DistanceMetric_TypeDefinitionIndex = 6238;
+	inline static constexpr unsigned int DistanceMetric_TypeDefinitionIndex = 6264;
 
 	enum class DistanceMetric : ::System::Int32
 	{

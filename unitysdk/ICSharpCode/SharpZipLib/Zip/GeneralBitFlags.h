@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int GeneralBitFlags_TypeDefinitionIndex = 6714;
+	inline static constexpr unsigned int GeneralBitFlags_TypeDefinitionIndex = 6845;
 
 	enum class GeneralBitFlags : ::System::Int32
 	{

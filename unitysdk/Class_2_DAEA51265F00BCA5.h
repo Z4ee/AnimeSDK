@@ -10,23 +10,23 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class GridLayoutGroup; }
 namespace UnityEngine::UI { class VerticalLayoutGroup; }
 
-#define CLASS_2_DAEA51265F00BCA5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13D92960)
-#define CLASS_2_DAEA51265F00BCA5_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x13D92800)
-#define CLASS_2_DAEA51265F00BCA5__CTOR_OFFSET UNITYSDK_OFFSET(0x13D92950)
+#define CLASS_2_DAEA51265F00BCA5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14A9EDF0)
+#define CLASS_2_DAEA51265F00BCA5_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x14A9EC90)
+#define CLASS_2_DAEA51265F00BCA5__CTOR_OFFSET UNITYSDK_OFFSET(0x14A9EDE0)
 
-inline static constexpr unsigned int Class_2_DAEA51265F00BCA5_TypeDefinitionIndex = 76822;
+inline static constexpr unsigned int Class_2_DAEA51265F00BCA5_TypeDefinitionIndex = 83651;
 
 class Class_2_DAEA51265F00BCA5 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_1; // 0x18
-	::UnityEngine::GameObject* Field_2_3; // 0x20
-	::UnityEngine::UI::GridLayoutGroup* Field_2_7; // 0x28
-	::UnityEngine::GameObject* Field_2_2; // 0x30
-	::UnityEngine::GameObject* Field_2_5; // 0x38
-	::UnityEngine::UI::VerticalLayoutGroup* Field_2_6; // 0x40
-	::UnityEngine::GameObject* Field_2_4; // 0x48
-	::MonoUITableScrollV2* Field_2_0; // 0x50
+	::UnityEngine::GameObject* Field_2_5; // 0x18
+	::UnityEngine::GameObject* Field_2_4; // 0x20
+	::UnityEngine::GameObject* Field_2_2; // 0x28
+	::UnityEngine::UI::VerticalLayoutGroup* Field_2_6; // 0x30
+	::UnityEngine::UI::GridLayoutGroup* Field_2_7; // 0x38
+	::MonoUITableScrollV2* Field_2_0; // 0x40
+	::UnityEngine::RectTransform* Field_2_1; // 0x48
+	::UnityEngine::GameObject* Field_2_3; // 0x50
 
 	::System::Void _ctor()
 	{

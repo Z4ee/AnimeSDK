@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsDirectConverter_1_TypeDefinitionIndex = 28141;
+	inline static constexpr unsigned int fsDirectConverter_1_TypeDefinitionIndex = 29873;
 
 	template <typename TModel>
 	class fsDirectConverter_1 : public ::ParadoxNotion::Serialization::FullSerializer::fsDirectConverter

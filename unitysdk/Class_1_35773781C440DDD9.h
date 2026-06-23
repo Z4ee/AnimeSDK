@@ -5,19 +5,19 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_35773781C440DDD9_METHOD_1_68AA92DBDBFCA9AD_OFFSET UNITYSDK_OFFSET(0x10B2D240)
-#define CLASS_1_35773781C440DDD9_METHOD_1_CCFD131833AE484B_OFFSET UNITYSDK_OFFSET(0x10B2D0B0)
-#define CLASS_1_35773781C440DDD9__CTOR_OFFSET UNITYSDK_OFFSET(0x10B2D020)
+#define CLASS_1_35773781C440DDD9_METHOD_1_68AA92DBDBFCA9AD_OFFSET UNITYSDK_OFFSET(0x11C1E310)
+#define CLASS_1_35773781C440DDD9_METHOD_1_CCFD131833AE484B_OFFSET UNITYSDK_OFFSET(0x11C1E180)
+#define CLASS_1_35773781C440DDD9__CTOR_OFFSET UNITYSDK_OFFSET(0x11C1E0F0)
 
-inline static constexpr unsigned int Class_1_35773781C440DDD9_TypeDefinitionIndex = 75484;
+inline static constexpr unsigned int Class_1_35773781C440DDD9_TypeDefinitionIndex = 68609;
 
 class Class_1_35773781C440DDD9 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::Action*>* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
-	::System::Boolean Field_1_3; // 0x20
+	::System::Single Field_1_2; // 0x18
+	::System::Boolean Field_1_3; // 0x1C
+	::System::Int32 Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

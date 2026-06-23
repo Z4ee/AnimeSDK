@@ -9,27 +9,27 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_E5693B95A3F2667B_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x135237A0)
-#define CLASS_2_E5693B95A3F2667B_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x13523560)
-#define CLASS_2_E5693B95A3F2667B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x135238B0)
-#define CLASS_2_E5693B95A3F2667B__CTOR_OFFSET UNITYSDK_OFFSET(0x135238A0)
+#define CLASS_2_E5693B95A3F2667B_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x1448B740)
+#define CLASS_2_E5693B95A3F2667B_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x1448B500)
+#define CLASS_2_E5693B95A3F2667B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1448B850)
+#define CLASS_2_E5693B95A3F2667B__CTOR_OFFSET UNITYSDK_OFFSET(0x1448B840)
 
-inline static constexpr unsigned int Class_2_E5693B95A3F2667B_TypeDefinitionIndex = 66858;
+inline static constexpr unsigned int Class_2_E5693B95A3F2667B_TypeDefinitionIndex = 39702;
 
 class Class_2_E5693B95A3F2667B : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::GameObject* Field_2_2; // 0x18
-	::MonoUITableScrollV2* Field_2_8; // 0x20
+	::UnityEngine::GameObject* Field_2_6; // 0x20
 	::UnityEngine::GameObject* Field_2_1; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x30
-	::UnityEngine::GameObject* Field_2_7; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_9; // 0x40
-	::UnityEngine::GameObject* Field_2_5; // 0x48
-	::UnityEngine::GameObject* Field_2_6; // 0x50
-	::UnityEngine::GameObject* Field_2_0; // 0x58
-	::UnityEngine::Transform* Field_2_4; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_10; // 0x68
+	::Class_2_B4378B46E0020E85* Field_2_9; // 0x30
+	::UnityEngine::GameObject* Field_2_5; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_10; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
+	::UnityEngine::GameObject* Field_2_0; // 0x50
+	::UnityEngine::Transform* Field_2_4; // 0x58
+	::UnityEngine::GameObject* Field_2_7; // 0x60
+	::MonoUITableScrollV2* Field_2_8; // 0x68
 
 	::System::Void _ctor()
 	{

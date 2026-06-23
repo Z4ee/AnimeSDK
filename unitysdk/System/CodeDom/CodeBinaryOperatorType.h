@@ -3,7 +3,7 @@
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeBinaryOperatorType_TypeDefinitionIndex = 4245;
+	inline static constexpr unsigned int CodeBinaryOperatorType_TypeDefinitionIndex = 4244;
 
 	enum class CodeBinaryOperatorType : ::System::Int32
 	{

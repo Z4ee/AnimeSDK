@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_STENCILSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1B2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_STENCILSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41B1D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int StencilStateData_TypeDefinitionIndex = 29815;
+	inline static constexpr unsigned int StencilStateData_TypeDefinitionIndex = 26814;
 
 	class StencilStateData : public ::System::Object
 	{

@@ -9,34 +9,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define POPTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0x19F5C410)
-#define POPTEXT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x19F5C110)
-#define POPTEXT_GET_TIMERINTERVAL_OFFSET UNITYSDK_OFFSET(0x19F5C0F0)
-#define POPTEXT_ONFINISH_OFFSET UNITYSDK_OFFSET(0x19F5C370)
-#define POPTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x19F5C6A0)
-#define POPTEXT_REPLAY_OFFSET UNITYSDK_OFFSET(0x19F5D050)
-#define POPTEXT_RESOLVESPEED_OFFSET UNITYSDK_OFFSET(0x19F5C290)
-#define POPTEXT_SETFINISH_OFFSET UNITYSDK_OFFSET(0x19F5C320)
-#define POPTEXT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x19F5C120)
-#define POPTEXT_SETTIMER_OFFSET UNITYSDK_OFFSET(0x19F5C1A0)
-#define POPTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x19F5C4D0)
-#define POPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5D090)
-#define POPTEXT___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19F5D190)
-#define POPTEXT___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x19F5D1A0)
+#define POPTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BB25510)
+#define POPTEXT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25210)
+#define POPTEXT_GET_TIMERINTERVAL_OFFSET UNITYSDK_OFFSET(0x1BB251F0)
+#define POPTEXT_ONFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25470)
+#define POPTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1BB257A0)
+#define POPTEXT_REPLAY_OFFSET UNITYSDK_OFFSET(0x1BB26150)
+#define POPTEXT_RESOLVESPEED_OFFSET UNITYSDK_OFFSET(0x1BB25390)
+#define POPTEXT_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25420)
+#define POPTEXT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1BB25220)
+#define POPTEXT_SETTIMER_OFFSET UNITYSDK_OFFSET(0x1BB252A0)
+#define POPTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB255D0)
+#define POPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB26190)
+#define POPTEXT___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BB26290)
+#define POPTEXT___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1BB262A0)
 
-inline static constexpr unsigned int PopText_TypeDefinitionIndex = 38324;
+inline static constexpr unsigned int PopText_TypeDefinitionIndex = 85937;
 
 class PopText : public ::UnityEngine::UI::TextItalicAdobeStyle
 {
 public:
-	::System::Boolean PlayAwake; // 0x3C0
-	::System::Single Speed; // 0x3C4
-	::System::Collections::Generic::List_1<::System::Single>* timer; // 0x3C8
-	::System::Action* finishAction; // 0x3D0
-	::System::Boolean finish; // 0x3D8
-	::UnityEngine::AnimationCurve* Curve; // 0x3E0
-	::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* listUIVertex; // 0x3E8
-	::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* newUIVertex; // 0x3F0
+	::System::Boolean PlayAwake; // 0x3C8
+	::System::Single Speed; // 0x3CC
+	::System::Collections::Generic::List_1<::System::Single>* timer; // 0x3D0
+	::System::Action* finishAction; // 0x3D8
+	::System::Boolean finish; // 0x3E0
+	::UnityEngine::AnimationCurve* Curve; // 0x3E8
+	::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* listUIVertex; // 0x3F0
+	::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* newUIVertex; // 0x3F8
 
 	::System::Void _ctor()
 	{

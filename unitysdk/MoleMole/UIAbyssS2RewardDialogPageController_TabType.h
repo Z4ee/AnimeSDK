@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController_TabType_TypeDefinitionIndex = 49894;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController_TabType_TypeDefinitionIndex = 66547;
 
 	enum class UIAbyssS2RewardDialogPageController_TabType : ::System::Int32
 	{

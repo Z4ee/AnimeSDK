@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int AssemblyRef_TypeDefinitionIndex = 2258;
+inline static constexpr unsigned int AssemblyRef_TypeDefinitionIndex = 2257;
 
 class AssemblyRef : public ::System::Object
 {

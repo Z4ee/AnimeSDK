@@ -3,17 +3,17 @@
 #include "unitysdk/System/Data/Nodes.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DATA_OPERATORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4BE40)
+#define SYSTEM_DATA_OPERATORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E182F70)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int OperatorInfo_TypeDefinitionIndex = 37022;
+	inline static constexpr unsigned int OperatorInfo_TypeDefinitionIndex = 38639;
 
 	class OperatorInfo : public ::System::Object
 	{
 	public:
-		::System::Data::Nodes _type; // 0x10
-		::System::Int32 _op; // 0x14
+		::System::Int32 _op; // 0x10
+		::System::Data::Nodes _type; // 0x14
 		::System::Int32 _priority; // 0x18
 
 		::System::Void _ctor(::System::Data::Nodes type, ::System::Int32 op, ::System::Int32 pri)

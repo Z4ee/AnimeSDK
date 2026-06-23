@@ -3,7 +3,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper_WorkingStatus_TypeDefinitionIndex = 46015;
+	inline static constexpr unsigned int GroupVariableHelper_WorkingStatus_TypeDefinitionIndex = 80463;
 
 	enum class GroupVariableHelper_WorkingStatus : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 class Class_2_1A39E1B51756BF41;
 
-#define MOLEMOLE_UIINLEVELPLAYERMOVECHILDWINDOWCONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x148B21A0)
+#define MOLEMOLE_UIINLEVELPLAYERMOVECHILDWINDOWCONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1571DA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPlayerMoveChildWindowController_DirData_TypeDefinitionIndex = 81775;
+	inline static constexpr unsigned int UIInLevelPlayerMoveChildWindowController_DirData_TypeDefinitionIndex = 57993;
 
 	class UIInLevelPlayerMoveChildWindowController_DirData : public ::System::Object
 	{

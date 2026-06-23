@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEVALIDATOR_CREATEVALIDATOR_OFFSET UNITYSDK_OFFSET(0x19A52300)
-#define SYSTEM_NET_CACHE_REQUESTCACHEVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A52350)
+#define SYSTEM_NET_CACHE_REQUESTCACHEVALIDATOR_CREATEVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1BEC3D00)
+#define SYSTEM_NET_CACHE_REQUESTCACHEVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC3D50)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCacheValidator_TypeDefinitionIndex = 3864;
+	inline static constexpr unsigned int RequestCacheValidator_TypeDefinitionIndex = 3863;
 
 	class RequestCacheValidator : public ::System::Object
 	{

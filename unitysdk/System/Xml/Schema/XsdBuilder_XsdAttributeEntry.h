@@ -5,11 +5,11 @@
 
 namespace System::Xml::Schema { class XsdBuilder_XsdBuildFunction; }
 
-#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A740340)
+#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA29AA0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdBuilder_XsdAttributeEntry_TypeDefinitionIndex = 2225;
+	inline static constexpr unsigned int XsdBuilder_XsdAttributeEntry_TypeDefinitionIndex = 2224;
 
 	class XsdBuilder_XsdAttributeEntry : public ::System::Object
 	{

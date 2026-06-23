@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalGameNPCFadeAction_FadeType_TypeDefinitionIndex = 50746;
+	inline static constexpr unsigned int GalGameNPCFadeAction_FadeType_TypeDefinitionIndex = 60635;
 
 	enum class GalGameNPCFadeAction_FadeType : ::System::Byte
 	{

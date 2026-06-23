@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int WindType_TypeDefinitionIndex = 5868;
+	inline static constexpr unsigned int WindType_TypeDefinitionIndex = 5875;
 
 	enum class WindType : ::System::Int32
 	{

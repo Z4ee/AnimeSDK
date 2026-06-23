@@ -7,13 +7,13 @@
 #include "unitysdk/Unity/Collections/NativeSlice_1.h"
 #include "unitysdk/UnityEngine/Animations/AnimatorControllerPlayable.h"
 
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_1_OFFSET UNITYSDK_OFFSET(0xD253EE0)
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_2_OFFSET UNITYSDK_OFFSET(0xD253F40)
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_OFFSET UNITYSDK_OFFSET(0xD253E80)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_1_OFFSET UNITYSDK_OFFSET(0xA6901A0)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_2_OFFSET UNITYSDK_OFFSET(0xA690200)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_OFFSET UNITYSDK_OFFSET(0xA690140)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int InstanceExtension_TypeDefinitionIndex = 58933;
+	inline static constexpr unsigned int InstanceExtension_TypeDefinitionIndex = 85586;
 
 	class InstanceExtension : public ::System::Object
 	{

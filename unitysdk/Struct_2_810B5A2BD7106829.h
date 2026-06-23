@@ -7,7 +7,7 @@
 namespace MoleMole::Config { class ConfigMovement; }
 namespace MoleMole::Config { class ConfigRotation; }
 
-inline static constexpr unsigned int Struct_2_810B5A2BD7106829_TypeDefinitionIndex = 47270;
+inline static constexpr unsigned int Struct_2_810B5A2BD7106829_TypeDefinitionIndex = 62004;
 
 struct alignas(8) Struct_2_810B5A2BD7106829
 {

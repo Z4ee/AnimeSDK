@@ -10,7 +10,7 @@ namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DynamicObject_MetaDynamic_Fallback_1_TypeDefinitionIndex = 4982;
+	inline static constexpr unsigned int DynamicObject_MetaDynamic_Fallback_1_TypeDefinitionIndex = 4981;
 
 	template <typename TBinder>
 	class DynamicObject_MetaDynamic_Fallback_1 : public ::System::MulticastDelegate

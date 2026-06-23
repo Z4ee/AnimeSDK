@@ -4,7 +4,7 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntry__Storage_e__FixedBuffer_TypeDefinitionIndex = 9009;
+	inline static constexpr unsigned int FNameEntry__Storage_e__FixedBuffer_TypeDefinitionIndex = 8462;
 
 	struct alignas(1) FNameEntry__Storage_e__FixedBuffer
 	{

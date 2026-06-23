@@ -4,25 +4,25 @@
 
 namespace UnityEngine::UIElements { class IEventHandler; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_CAPTUREMOUSE_OFFSET UNITYSDK_OFFSET(0x197B1B20)
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_HASMOUSECAPTURE_OFFSET UNITYSDK_OFFSET(0x197B0880)
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_RELEASEMOUSE_OFFSET UNITYSDK_OFFSET(0x197B1D30)
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x197B1EB0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_CAPTUREMOUSE_OFFSET UNITYSDK_OFFSET(0x1BBE8780)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_HASMOUSECAPTURE_OFFSET UNITYSDK_OFFSET(0x1BBE74E0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER_RELEASEMOUSE_OFFSET UNITYSDK_OFFSET(0x1BBE8990)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTURECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE8B10)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseCaptureController_TypeDefinitionIndex = 24950;
+	inline static constexpr unsigned int MouseCaptureController_TypeDefinitionIndex = 27453;
 
 	class MouseCaptureController : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_m_IsMouseCapturedWarningEmitted()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MouseCaptureController_TypeDefinitionIndex)->GetStaticField(0x46F0);
-		}
 		static ::System::Boolean* StaticGet_m_ReleaseMouseWarningEmitted()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MouseCaptureController_TypeDefinitionIndex)->GetStaticField(0x46F1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MouseCaptureController_TypeDefinitionIndex)->GetStaticField(0x7790);
+		}
+		static ::System::Boolean* StaticGet_m_IsMouseCapturedWarningEmitted()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MouseCaptureController_TypeDefinitionIndex)->GetStaticField(0x7791);
 		}
 
 		static ::System::Void _cctor()

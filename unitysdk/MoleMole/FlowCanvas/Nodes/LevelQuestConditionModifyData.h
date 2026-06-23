@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Battle/LevelQuestConditionOperation.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LEVELQUESTCONDITIONMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E554C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LEVELQUESTCONDITIONMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D49E20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LevelQuestConditionModifyData_TypeDefinitionIndex = 46991;
+	inline static constexpr unsigned int LevelQuestConditionModifyData_TypeDefinitionIndex = 78901;
 
 	class LevelQuestConditionModifyData : public ::System::Object
 	{

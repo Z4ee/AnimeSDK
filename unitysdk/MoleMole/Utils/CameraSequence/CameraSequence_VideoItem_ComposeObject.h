@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_VIDEOITEM_COMPOSEOBJECT__AUTOSET_OFFSET UNITYSDK_OFFSET(0x12EAE7E0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_VIDEOITEM_COMPOSEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAE8E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_VIDEOITEM_COMPOSEOBJECT__AUTOSET_OFFSET UNITYSDK_OFFSET(0xC939020)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_VIDEOITEM_COMPOSEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC939120)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequence_VideoItem_ComposeObject_TypeDefinitionIndex = 52845;
+	inline static constexpr unsigned int CameraSequence_VideoItem_ComposeObject_TypeDefinitionIndex = 65733;
 
 	class CameraSequence_VideoItem_ComposeObject : public ::System::Object
 	{

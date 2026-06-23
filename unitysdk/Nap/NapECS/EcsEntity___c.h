@@ -6,29 +6,29 @@ namespace Nap::NapECS { class EcsComponent; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define NAP_NAPECS_ECSENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192D3780)
-#define NAP_NAPECS_ECSENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192D37C0)
-#define NAP_NAPECS_ECSENTITY___C__ONUPDATEARCHETYPE_B__67_0_OFFSET UNITYSDK_OFFSET(0x192D37D0)
-#define NAP_NAPECS_ECSENTITY___C__ONUPDATEARCHETYPE_B__67_1_OFFSET UNITYSDK_OFFSET(0x192D37E0)
+#define NAP_NAPECS_ECSENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F2580)
+#define NAP_NAPECS_ECSENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F25C0)
+#define NAP_NAPECS_ECSENTITY___C__ONUPDATEARCHETYPE_B__67_0_OFFSET UNITYSDK_OFFSET(0x1B2F25D0)
+#define NAP_NAPECS_ECSENTITY___C__ONUPDATEARCHETYPE_B__67_1_OFFSET UNITYSDK_OFFSET(0x1B2F25E0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntity___c_TypeDefinitionIndex = 35742;
+	inline static constexpr unsigned int EcsEntity___c_TypeDefinitionIndex = 37319;
 
 	class EcsEntity___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__67_1()
 		{
-			return (::System::Comparison_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x26DF0);
+			return (::System::Comparison_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x28A70);
 		}
 		static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__67_0()
 		{
-			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x26DF8);
+			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x28A78);
 		}
 		static ::Nap::NapECS::EcsEntity___c** StaticGet___9()
 		{
-			return (::Nap::NapECS::EcsEntity___c**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x26E00);
+			return (::Nap::NapECS::EcsEntity___c**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x28A80);
 		}
 
 		static ::System::Void _cctor()

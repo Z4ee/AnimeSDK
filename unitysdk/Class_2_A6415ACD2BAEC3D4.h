@@ -12,25 +12,25 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_63BBC99244640EE0_OFFSET UNITYSDK_OFFSET(0x169DB4C0)
-#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x169DB6C0)
-#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x169DB7B0)
-#define CLASS_2_A6415ACD2BAEC3D4__CTOR_OFFSET UNITYSDK_OFFSET(0x169DB7A0)
+#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_63BBC99244640EE0_OFFSET UNITYSDK_OFFSET(0x18620DE0)
+#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x18620FE0)
+#define CLASS_2_A6415ACD2BAEC3D4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x186210D0)
+#define CLASS_2_A6415ACD2BAEC3D4__CTOR_OFFSET UNITYSDK_OFFSET(0x186210C0)
 
-inline static constexpr unsigned int Class_2_A6415ACD2BAEC3D4_TypeDefinitionIndex = 64960;
+inline static constexpr unsigned int Class_2_A6415ACD2BAEC3D4_TypeDefinitionIndex = 81093;
 
 class Class_2_A6415ACD2BAEC3D4 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x18
-	::MoleMole::UIGeneralButtonController* Field_2_3; // 0x20
-	::MonoUITableScrollV2* Field_2_6; // 0x28
+	::MoleMole::MonoGamepadNestedListDelegate* Field_2_8; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x20
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_5; // 0x28
 	::Class_2_B4378B46E0020E85* Field_2_0; // 0x30
 	::UnityEngine::Transform* Field_2_7; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x40
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_5; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x50
-	::MoleMole::MonoGamepadNestedListDelegate* Field_2_8; // 0x58
+	::MonoUITableScrollV2* Field_2_6; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x50
+	::MoleMole::UIGeneralButtonController* Field_2_3; // 0x58
 
 	::System::Void _ctor()
 	{
@@ -42,13 +42,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_A6415ACD2BAEC3D4_METHOD_2_63BBC99244640EE0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_A6415ACD2BAEC3D4_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_2_77EA5BCD93BD96AE()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A6415ACD2BAEC3D4_METHOD_2_77EA5BCD93BD96AE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_A6415ACD2BAEC3D4_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

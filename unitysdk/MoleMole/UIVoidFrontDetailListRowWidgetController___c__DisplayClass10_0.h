@@ -5,12 +5,12 @@
 class Class_2_10C1E1662BD0781C_2_Class_1_025C70E19F82BF2F_2;
 namespace MoleMole { class UIVoidFrontDetailListRowWidgetController; }
 
-#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D71EB0)
-#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONCLICKITEM_B__0_OFFSET UNITYSDK_OFFSET(0x10D71EC0)
+#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14906CE0)
+#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONCLICKITEM_B__0_OFFSET UNITYSDK_OFFSET(0x14906CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 61053;
+	inline static constexpr unsigned int UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 86436;
 
 	class UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

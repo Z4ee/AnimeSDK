@@ -8,11 +8,11 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SCENEWEATHERPARAMS_FLUSH_OFFSET UNITYSDK_OFFSET(0x8AE700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_PASSUTIL_SCENEWEATHERPARAMS_FLUSH_OFFSET UNITYSDK_OFFSET(0x953250)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PassUtil_SceneWeatherParams_TypeDefinitionIndex = 30519;
+	inline static constexpr unsigned int PassUtil_SceneWeatherParams_TypeDefinitionIndex = 26825;
 
 	struct alignas(8) PassUtil_SceneWeatherParams
 	{

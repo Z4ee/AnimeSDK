@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_TEXTURESHEETSKIPFRAMEPARAMXY__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBD4B0)
+#define MOLEMOLE_TEXTURESHEETSKIPFRAMEPARAMXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1265C520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetSkipFrameParamXY_TypeDefinitionIndex = 61533;
+	inline static constexpr unsigned int TextureSheetSkipFrameParamXY_TypeDefinitionIndex = 67526;
 
 	class TextureSheetSkipFrameParamXY : public ::System::Object
 	{

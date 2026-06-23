@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UIMAINSTORYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE5E00)
+#define UIMAINSTORYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC77F60)
 
-inline static constexpr unsigned int UIMainStoryParam_TypeDefinitionIndex = 57346;
+inline static constexpr unsigned int UIMainStoryParam_TypeDefinitionIndex = 68917;
 
 class UIMainStoryParam : public ::UnityEngine::MonoBehaviour
 {

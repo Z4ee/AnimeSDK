@@ -6,19 +6,19 @@ class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class UIControlCollection; }
 namespace MoleMole { class UIGeneralToggleWidgetController; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_814741BDEE96A7A7_METHOD_2_37917191637BFFF4_OFFSET UNITYSDK_OFFSET(0x12CCD520)
-#define CLASS_2_814741BDEE96A7A7_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x12CCD670)
-#define CLASS_2_814741BDEE96A7A7_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12CCD740)
-#define CLASS_2_814741BDEE96A7A7__CTOR_OFFSET UNITYSDK_OFFSET(0x12CCD730)
+#define CLASS_2_814741BDEE96A7A7_METHOD_2_37917191637BFFF4_OFFSET UNITYSDK_OFFSET(0x12DE53F0)
+#define CLASS_2_814741BDEE96A7A7_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x12DE5540)
+#define CLASS_2_814741BDEE96A7A7_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12DE5610)
+#define CLASS_2_814741BDEE96A7A7__CTOR_OFFSET UNITYSDK_OFFSET(0x12DE5600)
 
-inline static constexpr unsigned int Class_2_814741BDEE96A7A7_TypeDefinitionIndex = 55346;
+inline static constexpr unsigned int Class_2_814741BDEE96A7A7_TypeDefinitionIndex = 41966;
 
 class Class_2_814741BDEE96A7A7 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_0; // 0x18
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_0; // 0x18
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
 
 	::System::Void _ctor()

@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ChessStateMachine/TextureSheetConfigAction.h"
 
-class Class_1_43BD383C98B4C0C5_20;
+class Class_1_43BD383C98B4C0C5_24;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION_RUN_OFFSET UNITYSDK_OFFSET(0xDB8BE70)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDB8C900)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0xDB8C910)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION_RUN_OFFSET UNITYSDK_OFFSET(0x106B1990)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x106B2410)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0x106B2420)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ShowLinkPathViewAction_TypeDefinitionIndex = 44840;
+	inline static constexpr unsigned int ShowLinkPathViewAction_TypeDefinitionIndex = 74493;
 
 	class ShowLinkPathViewAction : public ::MoleMole::ChessStateMachine::TextureSheetConfigAction
 	{
@@ -24,14 +24,14 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_1_43BD383C98B4C0C5_20* context)
+		::System::Void Run(::Class_1_43BD383C98B4C0C5_24* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_20*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_24*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION_RUN_OFFSET))(this, context);
 		}
 
-		::System::Void __base_Run(::Class_1_43BD383C98B4C0C5_20* P0)
+		::System::Void __base_Run(::Class_1_43BD383C98B4C0C5_24* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_20*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___BASE_RUN_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_24*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___BASE_RUN_OFFSET))(this, P0);
 		}
 	};
 }

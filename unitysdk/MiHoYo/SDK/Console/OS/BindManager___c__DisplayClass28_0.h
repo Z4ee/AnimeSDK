@@ -7,20 +7,20 @@ namespace MiHoYo::SDK::Console::OS { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C75860)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__REQUESTACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x19C75870)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB2DA0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__REQUESTACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1BBB2DB0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass28_0_TypeDefinitionIndex = 19652;
+	inline static constexpr unsigned int BindManager___c__DisplayClass28_0_TypeDefinitionIndex = 20813;
 
 	class BindManager___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x10
-		::System::String* actionType; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x20
-		::System::String* account; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::String* account; // 0x18
+		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x20
+		::System::String* actionType; // 0x28
 
 		::System::Void _ctor()
 		{

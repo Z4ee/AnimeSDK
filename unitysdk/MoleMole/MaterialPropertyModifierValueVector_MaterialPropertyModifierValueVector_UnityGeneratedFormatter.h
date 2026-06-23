@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16054EC0)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16054ED0)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x160551F0)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16055430)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x160553D0)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12BCA340)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12BCA350)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12BCA670)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BCA8B0)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUEVECTOR_MATERIALPROPERTYMODIFIERVALUEVECTOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BCA850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex = 55097;
+	inline static constexpr unsigned int MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex = 54060;
 
 	class MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MaterialPropertyModifierValueVector>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C870);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Byte>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C878);
+			return (::Sirenix::Serialization::Serializer_1<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE50);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE58);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector4>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C880);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueVector_MaterialPropertyModifierValueVector_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE60);
 		}
 
 		::System::Void _ctor()

@@ -6,11 +6,11 @@ class Class_2_98B938A2E3D3C17C_Class_1_6F12E11FBB9A2E65;
 namespace MoleMole { class UISummerFishingCollectItemWidgetController; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UISUMMERFISHINGCOLLECTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C27F20)
+#define MOLEMOLE_UISUMMERFISHINGCOLLECTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16544850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishingCollectItemContext_TypeDefinitionIndex = 69419;
+	inline static constexpr unsigned int UISummerFishingCollectItemContext_TypeDefinitionIndex = 83344;
 
 	class UISummerFishingCollectItemContext : public ::MoleMole::UIControllerContextBase
 	{

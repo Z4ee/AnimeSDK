@@ -3,9 +3,9 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define STRUCT_2_315B161BC0C52EFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x75F080)
+#define STRUCT_2_315B161BC0C52EFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x795660)
 
-inline static constexpr unsigned int Struct_2_315B161BC0C52EFD_TypeDefinitionIndex = 52565;
+inline static constexpr unsigned int Struct_2_315B161BC0C52EFD_TypeDefinitionIndex = 83961;
 
 struct alignas(8) Struct_2_315B161BC0C52EFD
 {

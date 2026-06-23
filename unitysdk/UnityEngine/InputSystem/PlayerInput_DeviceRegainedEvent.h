@@ -4,11 +4,11 @@
 
 namespace UnityEngine::InputSystem { class PlayerInput; }
 
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_DEVICEREGAINEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC470F0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_DEVICEREGAINEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF78210)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInput_DeviceRegainedEvent_TypeDefinitionIndex = 29048;
+	inline static constexpr unsigned int PlayerInput_DeviceRegainedEvent_TypeDefinitionIndex = 31704;
 
 	class PlayerInput_DeviceRegainedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*>
 	{

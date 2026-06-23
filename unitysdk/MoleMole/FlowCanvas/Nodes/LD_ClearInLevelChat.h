@@ -6,19 +6,19 @@
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1499C030)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1499C0F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1499C130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17111060)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x17111120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLEARINLEVELCHAT__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x17111160)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ClearInLevelChat_TypeDefinitionIndex = 74538;
+	inline static constexpr unsigned int LD_ClearInLevelChat_TypeDefinitionIndex = 51162;
 
 	class LD_ClearInLevelChat : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* _in; // 0xA8
-		::FlowCanvas::FlowOutput* _out; // 0xB0
+		::FlowCanvas::FlowOutput* _out; // 0xA8
+		::FlowCanvas::FlowInput* _in; // 0xB0
 
 		::System::Void _ctor()
 		{

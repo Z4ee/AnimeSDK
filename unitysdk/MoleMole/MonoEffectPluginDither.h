@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x13854E90)
+#define MOLEMOLE_MONOEFFECTPLUGINDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CCD3C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 71268;
+	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 79532;
 
 	class MonoEffectPluginDither : public ::MoleMole::MonoEffectPluginBase
 	{

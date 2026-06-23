@@ -5,12 +5,12 @@
 namespace Foundation { class ParallelFileVerifier_FileResult; }
 namespace System { class String; }
 
-#define FOUNDATION_PARALLELHASHTASK_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x11F47F30)
-#define FOUNDATION_PARALLELHASHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x11F47F20)
+#define FOUNDATION_PARALLELHASHTASK_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x1586CD10)
+#define FOUNDATION_PARALLELHASHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1586CD00)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelHashTask_TypeDefinitionIndex = 45151;
+	inline static constexpr unsigned int ParallelHashTask_TypeDefinitionIndex = 40970;
 
 	class ParallelHashTask : public ::System::Object
 	{

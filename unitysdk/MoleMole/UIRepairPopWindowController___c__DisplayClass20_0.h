@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16131DB0)
-#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__SHOWREPAIRSUCCESS_B__0_OFFSET UNITYSDK_OFFSET(0x16131DC0)
+#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1789E5B0)
+#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__SHOWREPAIRSUCCESS_B__0_OFFSET UNITYSDK_OFFSET(0x1789E5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRepairPopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 59640;
+	inline static constexpr unsigned int UIRepairPopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 52308;
 
 	class UIRepairPopWindowController___c__DisplayClass20_0 : public ::System::Object
 	{

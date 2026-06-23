@@ -7,7 +7,7 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int DirectionalBlurBehaviour_Struct_2_52AD02145F5FCE36_22_TypeDefinitionIndex = 60148;
+	inline static constexpr unsigned int DirectionalBlurBehaviour_Struct_2_52AD02145F5FCE36_22_TypeDefinitionIndex = 62678;
 
 	struct alignas(4) DirectionalBlurBehaviour_Struct_2_52AD02145F5FCE36_22
 	{

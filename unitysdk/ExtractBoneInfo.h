@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int ExtractBoneInfo_TypeDefinitionIndex = 29577;
+inline static constexpr unsigned int ExtractBoneInfo_TypeDefinitionIndex = 27292;
 
 struct alignas(4) ExtractBoneInfo
 {

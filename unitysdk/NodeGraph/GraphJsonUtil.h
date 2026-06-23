@@ -13,22 +13,22 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODEGRAPH_GRAPHJSONUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x11513B20)
+#define NODEGRAPH_GRAPHJSONUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xE03C180)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphJsonUtil_TypeDefinitionIndex = 72602;
+	inline static constexpr unsigned int GraphJsonUtil_TypeDefinitionIndex = 41823;
 
 	class GraphJsonUtil : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphTask*>*>** StaticGet__registerTaskFunc()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphTask*>*>**)Il2CppClass::FromTypeDefinitionIndex(GraphJsonUtil_TypeDefinitionIndex)->GetStaticField(0x47DB0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphTask*>*>**)Il2CppClass::FromTypeDefinitionIndex(GraphJsonUtil_TypeDefinitionIndex)->GetStaticField(0x4A330);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphNodeBase*>*>** StaticGet__registerNodeFunc()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphNodeBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(GraphJsonUtil_TypeDefinitionIndex)->GetStaticField(0x47DB8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::NodeGraph::NodeGraphNormal*, ::NodeGraph::GraphNodeBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(GraphJsonUtil_TypeDefinitionIndex)->GetStaticField(0x4A338);
 		}
 
 		static ::System::Void _cctor()

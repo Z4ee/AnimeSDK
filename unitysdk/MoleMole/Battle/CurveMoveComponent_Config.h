@@ -9,17 +9,19 @@
 #include "unitysdk/MoleMole/Battle/CurveMoveComponent_Config_MoveType.h"
 #include "unitysdk/MoleMole/Battle/CurveMoveComponent_Config_SpeedMode.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0xFE8CEB0)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0xFE8CEF0)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFE8CFA0)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0x12B89B60)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0x12B89BA0)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B89C50)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 54008;
+	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 53500;
 
 	class CurveMoveComponent_Config : public ::System::Object
 	{
@@ -36,20 +38,23 @@ namespace MoleMole::Battle
 		::System::Boolean useCache; // 0x38
 		::System::Boolean enableRotation; // 0x39
 		::System::Boolean enableCurvyRotation; // 0x3A
-		::System::Boolean needPauseWhenWipeOut; // 0x3B
-		::System::Single speed; // 0x3C
-		::System::Single speedUpAcceleration; // 0x40
-		::System::Single speedDownAcceleration; // 0x44
-		::UnityEngine::AnimationCurve* curve; // 0x48
-		::System::Single time; // 0x50
-		::System::String* startMoveSoundEvent; // 0x58
-		::System::String* stopMoveSoundEvent; // 0x60
-		::System::Boolean setMoveBackSound; // 0x68
-		::System::String* startMoveBackSoundEvent; // 0x70
-		::System::String* stopMoveBackSoundEvent; // 0x78
-		::System::Boolean muteSound; // 0x80
-		::System::Boolean ManageRotate; // 0x81
-		::MoleMole::Battle::CurveMoveComponent_Config_MoveType moveType; // 0x84
+		::UnityEngine::Vector2 curvyRotationPitchRange; // 0x3C
+		::System::Boolean enableAttachRotationMotion; // 0x44
+		::System::Boolean needPauseWhenWipeOut; // 0x45
+		::System::Single speed; // 0x48
+		::System::Single speedUpAcceleration; // 0x4C
+		::System::Single speedDownAcceleration; // 0x50
+		::UnityEngine::AnimationCurve* curve; // 0x58
+		::System::Single time; // 0x60
+		::UnityEngine::Vector3 positionOffset; // 0x64
+		::System::String* startMoveSoundEvent; // 0x70
+		::System::String* stopMoveSoundEvent; // 0x78
+		::System::Boolean setMoveBackSound; // 0x80
+		::System::String* startMoveBackSoundEvent; // 0x88
+		::System::String* stopMoveBackSoundEvent; // 0x90
+		::System::Boolean muteSound; // 0x98
+		::System::Boolean ManageRotate; // 0x99
+		::MoleMole::Battle::CurveMoveComponent_Config_MoveType moveType; // 0x9C
 
 		::System::Void _ctor()
 		{

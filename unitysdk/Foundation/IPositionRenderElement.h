@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace Foundation
+{
+	inline static constexpr unsigned int IPositionRenderElement_TypeDefinitionIndex = 89536;
+
+	class IPositionRenderElement
+	{
+	public:
+	};
+}

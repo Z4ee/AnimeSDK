@@ -7,7 +7,7 @@ namespace MoleMole::Config { class RenderMaterial; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_25797252421662EF_TypeDefinitionIndex = 70037;
+inline static constexpr unsigned int Struct_2_25797252421662EF_TypeDefinitionIndex = 50956;
 
 struct alignas(8) Struct_2_25797252421662EF
 {

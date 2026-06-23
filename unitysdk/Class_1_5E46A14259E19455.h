@@ -3,10 +3,10 @@
 #include "unitysdk/MoleMole/UIRidusGotBooPageController_KeyPosition.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5E46A14259E19455_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15332270)
-#define CLASS_1_5E46A14259E19455__CTOR_OFFSET UNITYSDK_OFFSET(0x15332230)
+#define CLASS_1_5E46A14259E19455_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14078D20)
+#define CLASS_1_5E46A14259E19455__CTOR_OFFSET UNITYSDK_OFFSET(0x14078CE0)
 
-inline static constexpr unsigned int Class_1_5E46A14259E19455_TypeDefinitionIndex = 61797;
+inline static constexpr unsigned int Class_1_5E46A14259E19455_TypeDefinitionIndex = 41800;
 
 class Class_1_5E46A14259E19455 : public ::System::Object
 {

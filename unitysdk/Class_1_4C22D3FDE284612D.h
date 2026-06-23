@@ -7,9 +7,9 @@
 namespace Nap::NapECS { class EcsComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4C22D3FDE284612D_METHOD_1_3C18A35E0FF0A1D2_OFFSET UNITYSDK_OFFSET(0x139FC660)
+#define CLASS_1_4C22D3FDE284612D_METHOD_1_3C18A35E0FF0A1D2_OFFSET UNITYSDK_OFFSET(0x15CFC260)
 
-inline static constexpr unsigned int Class_1_4C22D3FDE284612D_TypeDefinitionIndex = 50678;
+inline static constexpr unsigned int Class_1_4C22D3FDE284612D_TypeDefinitionIndex = 48027;
 
 class Class_1_4C22D3FDE284612D : public ::System::Object
 {

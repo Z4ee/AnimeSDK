@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilityStandingSteeringFragment_TypeDefinitionIndex = 78366;
+	inline static constexpr unsigned int FNPCAbilityStandingSteeringFragment_TypeDefinitionIndex = 55234;
 
 	struct alignas(4) FNPCAbilityStandingSteeringFragment
 	{

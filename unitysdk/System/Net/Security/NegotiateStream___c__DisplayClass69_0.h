@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace System::Net { class NetworkCredential; }
 namespace System::Net::Security { class NegotiateStream; }
 
-#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__AUTHENTICATEASCLIENTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19EF5680)
-#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF5670)
+#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__AUTHENTICATEASCLIENTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C2EF2E0)
+#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EF2D0)
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int NegotiateStream___c__DisplayClass69_0_TypeDefinitionIndex = 3698;
+	inline static constexpr unsigned int NegotiateStream___c__DisplayClass69_0_TypeDefinitionIndex = 3697;
 
 	class NegotiateStream___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
 		::System::Net::Security::NegotiateStream* __4__this; // 0x10
-		::System::Net::NetworkCredential* credential; // 0x18
-		::System::String* targetName; // 0x20
+		::System::String* targetName; // 0x18
+		::System::Net::NetworkCredential* credential; // 0x20
 		::System::Security::Principal::TokenImpersonationLevel allowedImpersonationLevel; // 0x28
 		::System::Net::Security::ProtectionLevel requiredProtectionLevel; // 0x2C
 

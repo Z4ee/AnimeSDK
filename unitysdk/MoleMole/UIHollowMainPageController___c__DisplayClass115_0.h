@@ -7,21 +7,21 @@ namespace MoleMole { class UIHollowMainPageController; }
 namespace MoleMole::Config { class ConfigChessboardPlayStartPerform; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152640D0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x152640E0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x15264360)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x15264310)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1697C210)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1697C220)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x1697C4A0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x1697C450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 44959;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 78280;
 
 	class UIHollowMainPageController___c__DisplayClass115_0 : public ::System::Object
 	{
 	public:
-		::Class_5_A6F8D19602712D95* pieceCtrl; // 0x10
+		::MoleMole::Config::ConfigChessboardPlayStartPerform* config; // 0x10
 		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
-		::MoleMole::Config::ConfigChessboardPlayStartPerform* config; // 0x20
+		::Class_5_A6F8D19602712D95* pieceCtrl; // 0x20
 		::System::Action* endCB; // 0x28
 		::System::Action* __9__3; // 0x30
 

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYINVINCIBLEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x11028540)
-#define MOLEMOLE_CONFIG_CONFIGENTITYINVINCIBLEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11028690)
+#define MOLEMOLE_CONFIG_CONFIGENTITYINVINCIBLEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x18F32970)
+#define MOLEMOLE_CONFIG_CONFIGENTITYINVINCIBLEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F32AC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityInvincibleFilter_TypeDefinitionIndex = 58426;
+	inline static constexpr unsigned int ConfigEntityInvincibleFilter_TypeDefinitionIndex = 54588;
 
 	class ConfigEntityInvincibleFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

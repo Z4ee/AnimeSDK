@@ -6,12 +6,12 @@ namespace MoleMole { class UIGeneralActivityTagInfoWidgetController; }
 namespace System { class Action; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_UIGENERALACTIVITYTAGINFOWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162BF760)
-#define MOLEMOLE_UIGENERALACTIVITYTAGINFOWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHTIMEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x162BF770)
+#define MOLEMOLE_UIGENERALACTIVITYTAGINFOWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A69680)
+#define MOLEMOLE_UIGENERALACTIVITYTAGINFOWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHTIMEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x15A69690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralActivityTagInfoWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 73156;
+	inline static constexpr unsigned int UIGeneralActivityTagInfoWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 74224;
 
 	class UIGeneralActivityTagInfoWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

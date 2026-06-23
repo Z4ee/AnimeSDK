@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IGraphAssignable_1_TypeDefinitionIndex = 27209;
+	inline static constexpr unsigned int IGraphAssignable_1_TypeDefinitionIndex = 29937;
 
 	template <typename T>
 	class IGraphAssignable_1

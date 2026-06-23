@@ -8,99 +8,99 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class JsonDeserializeFunc_1; }
 namespace Utf8Json { template <typename T> class JsonSerializeAction_1; }
 
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD2A20)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD2A60)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1BDD31F0)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1BDD3240)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_2_OFFSET UNITYSDK_OFFSET(0x1BDD3290)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_3_OFFSET UNITYSDK_OFFSET(0x1BDD32E0)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_4_OFFSET UNITYSDK_OFFSET(0x1BDD3330)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_5_OFFSET UNITYSDK_OFFSET(0x1BDD3380)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_6_OFFSET UNITYSDK_OFFSET(0x1BDD33D0)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_7_OFFSET UNITYSDK_OFFSET(0x1BDD3480)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1BDD2A70)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_1_OFFSET UNITYSDK_OFFSET(0x1BDD2B60)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_2_OFFSET UNITYSDK_OFFSET(0x1BDD2C50)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_3_OFFSET UNITYSDK_OFFSET(0x1BDD2D40)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_4_OFFSET UNITYSDK_OFFSET(0x1BDD2E30)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_5_OFFSET UNITYSDK_OFFSET(0x1BDD2F20)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_6_OFFSET UNITYSDK_OFFSET(0x1BDD3010)
-#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_7_OFFSET UNITYSDK_OFFSET(0x1BDD3100)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E11A9C0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E11AA00)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1E11B190)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1E11B1E0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_2_OFFSET UNITYSDK_OFFSET(0x1E11B230)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_3_OFFSET UNITYSDK_OFFSET(0x1E11B280)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_4_OFFSET UNITYSDK_OFFSET(0x1E11B2D0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_5_OFFSET UNITYSDK_OFFSET(0x1E11B320)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_6_OFFSET UNITYSDK_OFFSET(0x1E11B370)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETDESERIALIZEDELEGATE_B__1_7_OFFSET UNITYSDK_OFFSET(0x1E11B420)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1E11AA10)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_1_OFFSET UNITYSDK_OFFSET(0x1E11AB00)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_2_OFFSET UNITYSDK_OFFSET(0x1E11ABF0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_3_OFFSET UNITYSDK_OFFSET(0x1E11ACE0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_4_OFFSET UNITYSDK_OFFSET(0x1E11ADD0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_5_OFFSET UNITYSDK_OFFSET(0x1E11AEC0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_6_OFFSET UNITYSDK_OFFSET(0x1E11AFB0)
+#define UTF8JSON_FORMATTERS_ENUMFORMATTERHELPER___C__GETSERIALIZEDELEGATE_B__0_7_OFFSET UNITYSDK_OFFSET(0x1E11B0A0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int EnumFormatterHelper___c_TypeDefinitionIndex = 85750;
+	inline static constexpr unsigned int EnumFormatterHelper___c_TypeDefinitionIndex = 91324;
 
 	class EnumFormatterHelper___c : public ::System::Object
 	{
 	public:
-		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_7()
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_4()
 		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A630);
-		}
-		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_5()
-		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A638);
-		}
-		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_6()
-		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A640);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_6()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A648);
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4ED80);
 		}
 		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_0()
 		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A650);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_7()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A658);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_2()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A660);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_5()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A668);
-		}
-		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_1()
-		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A670);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_1()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A678);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_0()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A680);
-		}
-		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_4()
-		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A688);
-		}
-		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_2()
-		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A690);
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4ED88);
 		}
 		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_3()
 		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A698);
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4ED90);
 		}
-		static ::Utf8Json::Formatters::EnumFormatterHelper___c** StaticGet___9()
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_5()
 		{
-			return (::Utf8Json::Formatters::EnumFormatterHelper___c**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A6A0);
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4ED98);
+		}
+		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_2()
+		{
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDA0);
+		}
+		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_5()
+		{
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDA8);
+		}
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_7()
+		{
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDB0);
+		}
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_1()
+		{
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDB8);
+		}
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_6()
+		{
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDC0);
+		}
+		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_1()
+		{
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDC8);
+		}
+		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_6()
+		{
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDD0);
+		}
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_0()
+		{
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDD8);
 		}
 		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_3()
 		{
-			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A6A8);
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDE0);
+		}
+		static ::Utf8Json::Formatters::EnumFormatterHelper___c** StaticGet___9()
+		{
+			return (::Utf8Json::Formatters::EnumFormatterHelper___c**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDE8);
 		}
 		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_4()
 		{
-			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4A6B0);
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDF0);
+		}
+		static ::Utf8Json::JsonSerializeAction_1<::System::Object*>** StaticGet___9__0_2()
+		{
+			return (::Utf8Json::JsonSerializeAction_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EDF8);
+		}
+		static ::Utf8Json::JsonDeserializeFunc_1<::System::Object*>** StaticGet___9__1_7()
+		{
+			return (::Utf8Json::JsonDeserializeFunc_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(EnumFormatterHelper___c_TypeDefinitionIndex)->GetStaticField(0x4EE00);
 		}
 
 		static ::System::Void _cctor()

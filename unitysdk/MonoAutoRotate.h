@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MONOAUTOROTATE_START_OFFSET UNITYSDK_OFFSET(0x12EAFBF0)
-#define MONOAUTOROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12EAFC50)
-#define MONOAUTOROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAFD70)
+#define MONOAUTOROTATE_START_OFFSET UNITYSDK_OFFSET(0xC93A430)
+#define MONOAUTOROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC93A490)
+#define MONOAUTOROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC93A5B0)
 
-inline static constexpr unsigned int MonoAutoRotate_TypeDefinitionIndex = 59216;
+inline static constexpr unsigned int MonoAutoRotate_TypeDefinitionIndex = 81780;
 
 class MonoAutoRotate : public ::UnityEngine::MonoBehaviour
 {

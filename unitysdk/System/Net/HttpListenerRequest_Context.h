@@ -5,12 +5,12 @@
 
 namespace System::Security::Authentication::ExtendedProtection { class ChannelBinding; }
 
-#define SYSTEM_NET_HTTPLISTENERREQUEST_CONTEXT_GETCHANNELBINDING_OFFSET UNITYSDK_OFFSET(0x1A7E62E0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E6330)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_CONTEXT_GETCHANNELBINDING_OFFSET UNITYSDK_OFFSET(0x1CAF9E40)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF9E90)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerRequest_Context_TypeDefinitionIndex = 3529;
+	inline static constexpr unsigned int HttpListenerRequest_Context_TypeDefinitionIndex = 3528;
 
 	class HttpListenerRequest_Context : public ::System::Net::TransportContext
 	{

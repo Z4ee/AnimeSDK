@@ -10,13 +10,13 @@
 
 namespace MoleMole { class ParticleQualityProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_811EE164562C9434_OFFSET UNITYSDK_OFFSET(0x11013B60)
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_927E546B2D95E0F1_OFFSET UNITYSDK_OFFSET(0x110139D0)
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11013B20)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_06912F6B34652BD4_OFFSET UNITYSDK_OFFSET(0x13ECB8C0)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_927E546B2D95E0F1_OFFSET UNITYSDK_OFFSET(0x13ECB730)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECB880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineParticleQuality_TypeDefinitionIndex = 69047;
+	inline static constexpr unsigned int CommandLineParticleQuality_TypeDefinitionIndex = 81776;
 
 	class CommandLineParticleQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::ParticleQualityProfileContext*, ::MoleMole::CommandLineParticleQuality*>
 	{
@@ -41,9 +41,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineParticleQuality*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_927E546B2D95E0F1_OFFSET))(this, a1);
 		}
 
-		::MoleMole::ParticleQualityProfileContext* Method_2_811EE164562C9434(::MoleMole::ParticleQualityProfileContext* a1)
+		::MoleMole::ParticleQualityProfileContext* Method_2_06912F6B34652BD4(::MoleMole::ParticleQualityProfileContext* a1)
 		{
-			return ((::MoleMole::ParticleQualityProfileContext*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_811EE164562C9434_OFFSET))(this, a1);
+			return ((::MoleMole::ParticleQualityProfileContext*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_06912F6B34652BD4_OFFSET))(this, a1);
 		}
 	};
 }

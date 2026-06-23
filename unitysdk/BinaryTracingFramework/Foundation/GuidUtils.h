@@ -4,7 +4,7 @@
 
 namespace BinaryTracingFramework::Foundation
 {
-	inline static constexpr unsigned int GuidUtils_TypeDefinitionIndex = 32438;
+	inline static constexpr unsigned int GuidUtils_TypeDefinitionIndex = 33989;
 
 	class GuidUtils : public ::System::Object
 	{

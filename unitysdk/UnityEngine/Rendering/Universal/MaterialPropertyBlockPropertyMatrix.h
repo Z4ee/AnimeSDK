@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/MaterialPropertyBlockProperty_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1968F2D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA900)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MaterialPropertyBlockPropertyMatrix_TypeDefinitionIndex = 29859;
+	inline static constexpr unsigned int MaterialPropertyBlockPropertyMatrix_TypeDefinitionIndex = 27086;
 
 	class MaterialPropertyBlockPropertyMatrix : public ::UnityEngine::Rendering::Universal::MaterialPropertyBlockProperty_1<::UnityEngine::Matrix4x4>
 	{

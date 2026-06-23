@@ -7,34 +7,34 @@ class Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B;
 class Class_3_5139B0F7496B8379_5;
 template <typename T1, typename T2> class Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5;
 
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x151E8CA0)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_1_OFFSET UNITYSDK_OFFSET(0x151E8DF0)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_2_OFFSET UNITYSDK_OFFSET(0x151E8FA0)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151E8C50)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151E8C90)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x16EA00F0)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_1_OFFSET UNITYSDK_OFFSET(0x16EA0240)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__BUILDDATABINDINGFORLIST_B__9_2_OFFSET UNITYSDK_OFFSET(0x16EA03F0)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EA00A0)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA00E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex = 76313;
+	inline static constexpr unsigned int UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex = 47841;
 
 	class UIMiniScapeMapPage_MapIconDetailWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>** StaticGet___9__9_2()
-		{
-			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F060);
-		}
 		static ::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>** StaticGet___9__9_1()
 		{
-			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F068);
+			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41640);
+		}
+		static ::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>** StaticGet___9__9_2()
+		{
+			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_1_A047EA5169B6B30F*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41648);
 		}
 		static ::MoleMole::UIMiniScapeMapPage_MapIconDetailWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMiniScapeMapPage_MapIconDetailWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F070);
+			return (::MoleMole::UIMiniScapeMapPage_MapIconDetailWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41650);
 		}
 		static ::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_3_5139B0F7496B8379_5*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>** StaticGet___9__9_0()
 		{
-			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_3_5139B0F7496B8379_5*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F078);
+			return (::Class_1_ABDEC71785FA04E7_Class_3_B6136C2F127116DF_5<::Class_3_5139B0F7496B8379_5*, ::Class_2_1AF58D2D7D5CC9BA_Class_2_EF3FA500F8E0C51B*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41658);
 		}
 
 		static ::System::Void _cctor()

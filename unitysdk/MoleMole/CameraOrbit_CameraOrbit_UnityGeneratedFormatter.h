@@ -8,22 +8,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x122DD730)
-#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x122DD740)
-#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x122DD900)
-#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x122DDAA0)
-#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x122DDA40)
+#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D259B0)
+#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D259C0)
+#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D25B80)
+#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D25D20)
+#define MOLEMOLE_CAMERAORBIT_CAMERAORBIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D25CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraOrbit_CameraOrbit_UnityGeneratedFormatter_TypeDefinitionIndex = 72567;
+	inline static constexpr unsigned int CameraOrbit_CameraOrbit_UnityGeneratedFormatter_TypeDefinitionIndex = 67243;
 
 	class CameraOrbit_CameraOrbit_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::CameraOrbit>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraOrbit_CameraOrbit_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C0D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraOrbit_CameraOrbit_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E650);
 		}
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS210_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A8CF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS210_0__SET_ZOOM_B__0_OFFSET UNITYSDK_OFFSET(0x1C4A8D00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS210_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E0480)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS210_0__SET_ZOOM_B__0_OFFSET UNITYSDK_OFFSET(0x1E7E0490)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass210_0_TypeDefinitionIndex = 30979;
+	inline static constexpr unsigned int Browser___c__DisplayClass210_0_TypeDefinitionIndex = 32530;
 
 	class Browser___c__DisplayClass210_0 : public ::System::Object
 	{

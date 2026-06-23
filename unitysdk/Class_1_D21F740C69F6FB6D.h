@@ -3,10 +3,10 @@
 #include "unitysdk/Struct_2_D0732A9EE482521E.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_269;
+class Class_0_16E4307DCC419505_430;
 class Class_1_E6FFFFD82483DB9E;
 
-inline static constexpr unsigned int Class_1_D21F740C69F6FB6D_TypeDefinitionIndex = 42574;
+inline static constexpr unsigned int Class_1_D21F740C69F6FB6D_TypeDefinitionIndex = 63577;
 
 template <typename T>
 class Class_1_D21F740C69F6FB6D : public ::System::Object
@@ -17,7 +17,7 @@ public:
 	T Field_1_2; // 0x0
 	::Class_1_E6FFFFD82483DB9E* Field_1_3; // 0x0
 	::Struct_2_D0732A9EE482521E Field_1_4; // 0x0
-	::Class_0_16E4307DCC419505_269* Field_1_5; // 0x0
+	::Class_0_16E4307DCC419505_430* Field_1_5; // 0x0
 	::System::Boolean Field_1_6; // 0x0
 	::System::Boolean Field_1_7; // 0x0
 };

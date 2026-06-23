@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B0FCCB0)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_KEYTABLE_OFFSET UNITYSDK_OFFSET(0x1B0FCB10)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_TYPETABLE_OFFSET UNITYSDK_OFFSET(0x1B0FCBD0)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETKEYTABLE_OFFSET UNITYSDK_OFFSET(0x1B0FCC90)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETTYPETABLE_OFFSET UNITYSDK_OFFSET(0x1B0FCCA0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D543500)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_KEYTABLE_OFFSET UNITYSDK_OFFSET(0x1D543360)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_TYPETABLE_OFFSET UNITYSDK_OFFSET(0x1D543420)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETKEYTABLE_OFFSET UNITYSDK_OFFSET(0x1D5434E0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETTYPETABLE_OFFSET UNITYSDK_OFFSET(0x1D5434F0)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int V2BinaryRegistry_TypeDefinitionIndex = 27316;
+	inline static constexpr unsigned int V2BinaryRegistry_TypeDefinitionIndex = 30344;
 
 	class V2BinaryRegistry : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__keyTable()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x1FAD0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__typeTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x1FAD8);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x23830);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__keyTable()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x23838);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* get_KeyTable()

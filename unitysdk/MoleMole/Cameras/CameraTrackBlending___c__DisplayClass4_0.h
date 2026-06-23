@@ -8,12 +8,12 @@ namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace PipelineCamera { class ICameraDataBlender; }
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x122DDB60)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__DISPLAYCLASS4_0__GENERATEBLENDERBUILDER_B__0_OFFSET UNITYSDK_OFFSET(0x122DDB70)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D25DE0)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__DISPLAYCLASS4_0__GENERATEBLENDERBUILDER_B__0_OFFSET UNITYSDK_OFFSET(0x17D25DF0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraTrackBlending___c__DisplayClass4_0_TypeDefinitionIndex = 60045;
+	inline static constexpr unsigned int CameraTrackBlending___c__DisplayClass4_0_TypeDefinitionIndex = 76698;
 
 	class CameraTrackBlending___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyCoverTimeParams_TypeDefinitionIndex = 5913;
+	inline static constexpr unsigned int SkyCoverTimeParams_TypeDefinitionIndex = 5922;
 
 	struct alignas(4) SkyCoverTimeParams
 	{

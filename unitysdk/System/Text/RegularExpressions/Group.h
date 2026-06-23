@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x19E45FE0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19E45FD0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x19E45FC0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x19E46040)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E46110)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19E461A0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19E45F30)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1C1DE1F0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C1DE1E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1C1DE1D0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1C1DE250)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DE320)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1DE3B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DE140)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2736;
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2735;
 
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
@@ -24,8 +24,8 @@ namespace System::Text::RegularExpressions
 		{
 			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x3550);
 		}
-		::System::String* _name; // 0x20
-		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x28
+		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x20
+		::System::String* _name; // 0x28
 		::Il2CppArray<::System::Int32>* _caps; // 0x30
 		::System::Int32 _capcount; // 0x38
 

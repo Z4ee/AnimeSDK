@@ -4,12 +4,12 @@
 
 namespace System::IO { class StreamReader; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x1A98DF30)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A98DF20)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x1CD9D950)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9D940)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_StreamTokenReader_TypeDefinitionIndex = 1011;
+	inline static constexpr unsigned int Tokenizer_StreamTokenReader_TypeDefinitionIndex = 1010;
 
 	class Tokenizer_StreamTokenReader : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitEntityReadyProcessor_TypeDefinitionIndex = 62018;
+	inline static constexpr unsigned int ITraitEntityReadyProcessor_TypeDefinitionIndex = 63755;
 
 	class ITraitEntityReadyProcessor
 	{

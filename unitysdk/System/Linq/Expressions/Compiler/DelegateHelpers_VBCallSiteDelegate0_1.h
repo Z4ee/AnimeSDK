@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System::Linq::Expressions::Compiler
 {
-	inline static constexpr unsigned int DelegateHelpers_VBCallSiteDelegate0_1_TypeDefinitionIndex = 4941;
+	inline static constexpr unsigned int DelegateHelpers_VBCallSiteDelegate0_1_TypeDefinitionIndex = 4940;
 
 	template <typename T>
 	class DelegateHelpers_VBCallSiteDelegate0_1 : public ::System::MulticastDelegate

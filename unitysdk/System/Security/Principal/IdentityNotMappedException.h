@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Principal { class IdentityReferenceCollection; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x19E1B850)
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19E1B7C0)
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1B700)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C1B37E0)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1B3750)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B3690)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int IdentityNotMappedException_TypeDefinitionIndex = 1019;
+	inline static constexpr unsigned int IdentityNotMappedException_TypeDefinitionIndex = 1018;
 
 	class IdentityNotMappedException : public ::System::SystemException
 	{

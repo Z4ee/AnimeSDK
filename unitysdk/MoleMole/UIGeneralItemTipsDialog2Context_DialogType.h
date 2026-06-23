@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemTipsDialog2Context_DialogType_TypeDefinitionIndex = 72161;
+	inline static constexpr unsigned int UIGeneralItemTipsDialog2Context_DialogType_TypeDefinitionIndex = 85885;
 
 	enum class UIGeneralItemTipsDialog2Context_DialogType : ::System::Int32
 	{
-		Photo = 4,
 		Ramen = 1,
-		Cafe = 3,
 		Item = 0,
+		Photo = 4,
+		Cafe = 3,
 		DungeonBuff = 2,
 	};
 }

@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_274;
+class Class_2_208CC9941471731A_273;
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_UIOVERLORDFEASTDISHOBJECTCONTROLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x151FBA10)
+#define MOLEMOLE_UIOVERLORDFEASTDISHOBJECTCONTROLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB3250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastDishObjectControlContext_TypeDefinitionIndex = 69829;
+	inline static constexpr unsigned int UIOverlordFeastDishObjectControlContext_TypeDefinitionIndex = 65192;
 
 	class UIOverlordFeastDishObjectControlContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::Int32>* OnClickObject; // 0x28
-		::Class_2_208CC9941471731A_274* DishConfig; // 0x30
-		::System::Action_2<::System::Int32, ::UnityEngine::EventSystems::PointerEventData*>* OnDrag; // 0x38
-		::System::Action_2<::System::Int32, ::UnityEngine::EventSystems::PointerEventData*>* OnBeginDrag; // 0x40
+		::System::Action_1<::System::Int32>* OnRemove; // 0x28
+		::System::Action_2<::System::Int32, ::UnityEngine::EventSystems::PointerEventData*>* OnBeginDrag; // 0x30
+		::System::Action_1<::System::Int32>* OnClickObject; // 0x38
+		::Class_2_208CC9941471731A_273* DishConfig; // 0x40
 		::System::Action_2<::System::Int32, ::UnityEngine::EventSystems::PointerEventData*>* OnEndDrag; // 0x48
-		::System::Action_1<::System::Int32>* OnRemove; // 0x50
+		::System::Action_2<::System::Int32, ::UnityEngine::EventSystems::PointerEventData*>* OnDrag; // 0x50
 		::System::Boolean isPreorder; // 0x58
 		::System::Int32 index; // 0x5C
 

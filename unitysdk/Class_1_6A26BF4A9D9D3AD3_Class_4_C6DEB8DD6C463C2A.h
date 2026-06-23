@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/IOException.h"
 
-#define CLASS_1_6A26BF4A9D9D3AD3_CLASS_4_C6DEB8DD6C463C2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B3200)
+#define CLASS_1_6A26BF4A9D9D3AD3_CLASS_4_C6DEB8DD6C463C2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1E49E9F0)
 
-inline static constexpr unsigned int Class_1_6A26BF4A9D9D3AD3_Class_4_C6DEB8DD6C463C2A_TypeDefinitionIndex = 9372;
+inline static constexpr unsigned int Class_1_6A26BF4A9D9D3AD3_Class_4_C6DEB8DD6C463C2A_TypeDefinitionIndex = 18633;
 
 class Class_1_6A26BF4A9D9D3AD3_Class_4_C6DEB8DD6C463C2A : public ::System::IO::IOException
 {

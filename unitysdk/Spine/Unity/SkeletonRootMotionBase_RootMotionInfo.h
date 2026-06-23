@@ -5,7 +5,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionInfo_TypeDefinitionIndex = 37823;
+	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionInfo_TypeDefinitionIndex = 39451;
 
 	struct alignas(4) SkeletonRootMotionBase_RootMotionInfo
 	{

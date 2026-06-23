@@ -4,7 +4,7 @@
 
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Class_1_BB3117A36EC48A78_TypeDefinitionIndex = 47443;
+inline static constexpr unsigned int Class_1_BB3117A36EC48A78_TypeDefinitionIndex = 67945;
 
 template <typename TData>
 class Class_1_BB3117A36EC48A78 : public ::System::Object

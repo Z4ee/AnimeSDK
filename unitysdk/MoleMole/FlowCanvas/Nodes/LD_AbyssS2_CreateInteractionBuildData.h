@@ -5,13 +5,13 @@
 namespace MoleMole::FlowCanvas::Nodes { class AbyssS2InteractionBuildData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA_INNERBUILD_OFFSET UNITYSDK_OFFSET(0x16D43F20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D43E50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16D44170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA_INNERBUILD_OFFSET UNITYSDK_OFFSET(0x12618860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x12618790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12618AB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CreateInteractionBuildData_TypeDefinitionIndex = 66341;
+	inline static constexpr unsigned int LD_AbyssS2_CreateInteractionBuildData_TypeDefinitionIndex = 66318;
 
 	class LD_AbyssS2_CreateInteractionBuildData : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::AbyssS2InteractionBuildData*>*, ::System::Int32>
 	{

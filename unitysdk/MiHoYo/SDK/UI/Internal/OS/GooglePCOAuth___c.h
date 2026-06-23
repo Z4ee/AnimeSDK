@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::Internal::OS { class GooglePCOAuth; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x194CC230)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x194CC270)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x194CC280)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6E60C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E6100)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x1B6E6110)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int GooglePCOAuth___c_TypeDefinitionIndex = 19280;
+	inline static constexpr unsigned int GooglePCOAuth___c_TypeDefinitionIndex = 20194;
 
 	class GooglePCOAuth___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>** StaticGet___9__29_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0xAD70);
-		}
 		static ::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0xAD78);
+			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0xB0C0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>** StaticGet___9__29_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0xB0C8);
 		}
 
 		static ::System::Void _cctor()

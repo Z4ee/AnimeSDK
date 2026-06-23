@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_HADALGUIDECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4B130)
+#define MOLEMOLE_HADALGUIDECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1261FBF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HadalGuideContext_TypeDefinitionIndex = 41679;
+	inline static constexpr unsigned int HadalGuideContext_TypeDefinitionIndex = 85152;
 
 	class HadalGuideContext : public ::MoleMole::UIControllerContextBase
 	{

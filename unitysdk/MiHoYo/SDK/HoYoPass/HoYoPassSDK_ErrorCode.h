@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_ErrorCode_TypeDefinitionIndex = 19144;
+	inline static constexpr unsigned int HoYoPassSDK_ErrorCode_TypeDefinitionIndex = 20043;
 
 	enum class HoYoPassSDK_ErrorCode : ::System::Int32
 	{
@@ -20,7 +20,5 @@ namespace MiHoYo::SDK::HoYoPass
 		InvalidToken = 9,
 		NeedLoginAfterReactivate = 10,
 		AgeGateAccountBanned = 11,
-		ConfigurationInvalid = 12,
-		StorageInitFailed = 13,
 	};
 }

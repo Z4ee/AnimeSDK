@@ -13,48 +13,48 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ObjectPool_1; }
 
-#define OPAQUESOFTEDGERENDERER_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x19B82480)
-#define OPAQUESOFTEDGERENDERER_DRAWSOFTEDGEGBUFFER_OFFSET UNITYSDK_OFFSET(0x19B81D30)
-#define OPAQUESOFTEDGERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19B83180)
-#define OPAQUESOFTEDGERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19B838E0)
-#define OPAQUESOFTEDGERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19B831D0)
-#define OPAQUESOFTEDGERENDERER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x19B83890)
-#define OPAQUESOFTEDGERENDERER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x19B83A90)
-#define OPAQUESOFTEDGERENDERER_REFRESHCACHEDINFO_OFFSET UNITYSDK_OFFSET(0x19B832A0)
-#define OPAQUESOFTEDGERENDERER_RELEASEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x19B82A50)
-#define OPAQUESOFTEDGERENDERER_RESETCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x19B83250)
-#define OPAQUESOFTEDGERENDERER_SYNCGIINFO_OFFSET UNITYSDK_OFFSET(0x19B82BC0)
-#define OPAQUESOFTEDGERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B83C20)
-#define OPAQUESOFTEDGERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83BC0)
+#define OPAQUESOFTEDGERENDERER_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1BC14700)
+#define OPAQUESOFTEDGERENDERER_DRAWSOFTEDGEGBUFFER_OFFSET UNITYSDK_OFFSET(0x1BC13FB0)
+#define OPAQUESOFTEDGERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC15400)
+#define OPAQUESOFTEDGERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BC15B60)
+#define OPAQUESOFTEDGERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC15450)
+#define OPAQUESOFTEDGERENDERER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1BC15B10)
+#define OPAQUESOFTEDGERENDERER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1BC15D10)
+#define OPAQUESOFTEDGERENDERER_REFRESHCACHEDINFO_OFFSET UNITYSDK_OFFSET(0x1BC15520)
+#define OPAQUESOFTEDGERENDERER_RELEASEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1BC14CD0)
+#define OPAQUESOFTEDGERENDERER_RESETCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1BC154D0)
+#define OPAQUESOFTEDGERENDERER_SYNCGIINFO_OFFSET UNITYSDK_OFFSET(0x1BC14E40)
+#define OPAQUESOFTEDGERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC15EA0)
+#define OPAQUESOFTEDGERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC15E40)
 
-inline static constexpr unsigned int OpaqueSoftEdgeRenderer_TypeDefinitionIndex = 29599;
+inline static constexpr unsigned int OpaqueSoftEdgeRenderer_TypeDefinitionIndex = 26522;
 
 class OpaqueSoftEdgeRenderer : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::String** StaticGet_SoftEdgePassName()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x241E0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x219E0);
 	}
 	static ::System::Collections::Generic::List_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>** StaticGet_OpaqueSoftEdgeObjectInfoList()
 	{
-		return (::System::Collections::Generic::List_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x241E8);
+		return (::System::Collections::Generic::List_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x219E8);
 	}
 	static ::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>** StaticGet_s_SoftEdgeObjectInfoPool()
 	{
-		return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x241F0);
-	}
-	static ::System::Int32* StaticGet__SoftEdgeParams()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x69C0);
+		return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::OpaqueSoftEdgeRenderer_ObjectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x219F0);
 	}
 	static ::System::Int32* StaticGet_cachedGeometrySoftEdgePassIndex()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x69C4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x65E0);
+	}
+	static ::System::Int32* StaticGet__SoftEdgeParams()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x65E4);
 	}
 	static ::System::Int32* StaticGet__SceneStencil()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x69C8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer_TypeDefinitionIndex)->GetStaticField(0x65E8);
 	}
 	::System::Int32 SubMeshID; // 0x18
 	::System::Single SoftEdgeRange; // 0x1C

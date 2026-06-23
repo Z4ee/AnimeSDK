@@ -4,48 +4,48 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HTTPMETHOD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B0266D0)
-#define SYSTEM_NET_HTTP_HTTPMETHOD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B0266A0)
-#define SYSTEM_NET_HTTP_HTTPMETHOD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B026750)
-#define SYSTEM_NET_HTTP_HTTPMETHOD_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B026670)
-#define SYSTEM_NET_HTTP_HTTPMETHOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B0267E0)
-#define SYSTEM_NET_HTTP_HTTPMETHOD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0267F0)
-#define SYSTEM_NET_HTTP_HTTPMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0265F0)
+#define SYSTEM_NET_HTTP_HTTPMETHOD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D49CCE0)
+#define SYSTEM_NET_HTTP_HTTPMETHOD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D49CCB0)
+#define SYSTEM_NET_HTTP_HTTPMETHOD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D49CD60)
+#define SYSTEM_NET_HTTP_HTTPMETHOD_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D49CC80)
+#define SYSTEM_NET_HTTP_HTTPMETHOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D49CDF0)
+#define SYSTEM_NET_HTTP_HTTPMETHOD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D49CE00)
+#define SYSTEM_NET_HTTP_HTTPMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49CC00)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpMethod_TypeDefinitionIndex = 24719;
+	inline static constexpr unsigned int HttpMethod_TypeDefinitionIndex = 26119;
 
 	class HttpMethod : public ::System::Object
 	{
 	public:
 		static ::System::Net::Http::HttpMethod** StaticGet_options_method()
 		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E7F0);
-		}
-		static ::System::Net::Http::HttpMethod** StaticGet_get_method()
-		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E7F8);
-		}
-		static ::System::Net::Http::HttpMethod** StaticGet_post_method()
-		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E800);
-		}
-		static ::System::Net::Http::HttpMethod** StaticGet_put_method()
-		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E808);
-		}
-		static ::System::Net::Http::HttpMethod** StaticGet_delete_method()
-		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E810);
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF50);
 		}
 		static ::System::Net::Http::HttpMethod** StaticGet_trace_method()
 		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E818);
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF58);
+		}
+		static ::System::Net::Http::HttpMethod** StaticGet_put_method()
+		{
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF60);
+		}
+		static ::System::Net::Http::HttpMethod** StaticGet_get_method()
+		{
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF68);
+		}
+		static ::System::Net::Http::HttpMethod** StaticGet_post_method()
+		{
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF70);
 		}
 		static ::System::Net::Http::HttpMethod** StaticGet_head_method()
 		{
-			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1E820);
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF78);
+		}
+		static ::System::Net::Http::HttpMethod** StaticGet_delete_method()
+		{
+			return (::System::Net::Http::HttpMethod**)Il2CppClass::FromTypeDefinitionIndex(HttpMethod_TypeDefinitionIndex)->GetStaticField(0x1FF80);
 		}
 		::System::String* method; // 0x10
 

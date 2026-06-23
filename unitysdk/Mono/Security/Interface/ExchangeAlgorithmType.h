@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 2434;
+	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 2433;
 
 	enum class ExchangeAlgorithmType : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18FFEF10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFF1A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1AF6ABC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6AE50)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WetnessConfig_TypeDefinitionIndex = 30307;
+	inline static constexpr unsigned int WetnessConfig_TypeDefinitionIndex = 27087;
 
 	class WetnessConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::WetnessConfig*>
 	{

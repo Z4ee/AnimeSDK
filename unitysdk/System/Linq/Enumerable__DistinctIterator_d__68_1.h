@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T> class Set_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__DistinctIterator_d__68_1_TypeDefinitionIndex = 4361;
+	inline static constexpr unsigned int Enumerable__DistinctIterator_d__68_1_TypeDefinitionIndex = 4360;
 
 	template <typename TSource>
 	class Enumerable__DistinctIterator_d__68_1 : public ::System::Object

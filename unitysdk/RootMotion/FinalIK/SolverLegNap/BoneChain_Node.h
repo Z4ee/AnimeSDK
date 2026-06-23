@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_BONECHAIN_NODE_MAKEIDENTITY_OFFSET UNITYSDK_OFFSET(0x1BD1CB10)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_BONECHAIN_NODE_MAKEIDENTITY_OFFSET UNITYSDK_OFFSET(0x1E06AAD0)
 
 namespace RootMotion::FinalIK::SolverLegNap
 {
-	inline static constexpr unsigned int BoneChain_Node_TypeDefinitionIndex = 36740;
+	inline static constexpr unsigned int BoneChain_Node_TypeDefinitionIndex = 38209;
 
 	struct alignas(4) BoneChain_Node
 	{

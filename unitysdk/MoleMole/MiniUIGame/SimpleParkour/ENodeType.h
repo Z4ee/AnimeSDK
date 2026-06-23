@@ -3,16 +3,16 @@
 
 namespace MoleMole::MiniUIGame::SimpleParkour
 {
-	inline static constexpr unsigned int ENodeType_TypeDefinitionIndex = 48278;
+	inline static constexpr unsigned int ENodeType_TypeDefinitionIndex = 44172;
 
 	enum class ENodeType : ::System::Int32
 	{
 		Touch = 3,
-		HoldRelease = 5,
-		HoldPress = 4,
-		Hold = 2,
-		Dodge = 1,
-		HoldSegment = 6,
 		Tap = 0,
+		Dodge = 1,
+		HoldPress = 4,
+		HoldSegment = 6,
+		HoldRelease = 5,
+		Hold = 2,
 	};
 }

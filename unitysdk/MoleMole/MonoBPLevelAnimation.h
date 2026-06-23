@@ -6,13 +6,13 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOBPLEVELANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10E2BB40)
-#define MOLEMOLE_MONOBPLEVELANIMATION_PLAYANIMATIONPROGRESS_OFFSET UNITYSDK_OFFSET(0x10E2BC90)
-#define MOLEMOLE_MONOBPLEVELANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2C010)
+#define MOLEMOLE_MONOBPLEVELANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x191500F0)
+#define MOLEMOLE_MONOBPLEVELANIMATION_PLAYANIMATIONPROGRESS_OFFSET UNITYSDK_OFFSET(0x19150240)
+#define MOLEMOLE_MONOBPLEVELANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x191505C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBPLevelAnimation_TypeDefinitionIndex = 65320;
+	inline static constexpr unsigned int MonoBPLevelAnimation_TypeDefinitionIndex = 69083;
 
 	class MonoBPLevelAnimation : public ::UnityEngine::MonoBehaviour
 	{

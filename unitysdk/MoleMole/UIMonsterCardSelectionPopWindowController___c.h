@@ -8,39 +8,39 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1610B460)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CREATEREWARDFILTER_B__52_0_OFFSET UNITYSDK_OFFSET(0x1610B4B0)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CREATEREWARDFILTER_B__52_1_OFFSET UNITYSDK_OFFSET(0x1610B590)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1610B4A0)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__ONLYREFRESHFILTERCARDBUFF_B__60_0_OFFSET UNITYSDK_OFFSET(0x1610B690)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__ONLYREFRESHFILTERCARDBUFF_B__60_1_OFFSET UNITYSDK_OFFSET(0x1610B6B0)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17872C30)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CREATEREWARDFILTER_B__52_0_OFFSET UNITYSDK_OFFSET(0x17872C80)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CREATEREWARDFILTER_B__52_1_OFFSET UNITYSDK_OFFSET(0x17872D60)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17872C70)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__ONLYREFRESHFILTERCARDBUFF_B__60_0_OFFSET UNITYSDK_OFFSET(0x17872E60)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__ONLYREFRESHFILTERCARDBUFF_B__60_1_OFFSET UNITYSDK_OFFSET(0x17872E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex = 59567;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex = 50316;
 
 	class UIMonsterCardSelectionPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Collections::Generic::IList_1<::System::Int32>*>** StaticGet___9__52_1()
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__52_0()
 		{
-			return (::System::Func_1<::System::Collections::Generic::IList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x439A0);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C0E0);
 		}
 		static ::MoleMole::UIMonsterCardSelectionPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMonsterCardSelectionPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x439A8);
+			return (::MoleMole::UIMonsterCardSelectionPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C0E8);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__60_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x439B0);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C0F0);
 		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__52_0()
+		static ::System::Func_1<::System::Collections::Generic::IList_1<::System::Int32>*>** StaticGet___9__52_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x439B8);
+			return (::System::Func_1<::System::Collections::Generic::IList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C0F8);
 		}
 		static ::System::Func_2<::Class_1_7F8E72A37FA24C0F*, ::System::Int32>** StaticGet___9__60_0()
 		{
-			return (::System::Func_2<::Class_1_7F8E72A37FA24C0F*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x439C0);
+			return (::System::Func_2<::Class_1_7F8E72A37FA24C0F*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterCardSelectionPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C100);
 		}
 
 		static ::System::Void _cctor()

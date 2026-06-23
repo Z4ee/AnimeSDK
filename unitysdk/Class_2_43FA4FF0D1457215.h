@@ -11,26 +11,26 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define CLASS_2_43FA4FF0D1457215_METHOD_2_87DF7AD2E0AB49C9_OFFSET UNITYSDK_OFFSET(0x118E12F0)
-#define CLASS_2_43FA4FF0D1457215_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x118E1510)
-#define CLASS_2_43FA4FF0D1457215_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x118E15C0)
-#define CLASS_2_43FA4FF0D1457215__CTOR_OFFSET UNITYSDK_OFFSET(0x118E15B0)
+#define CLASS_2_43FA4FF0D1457215_METHOD_2_87DF7AD2E0AB49C9_OFFSET UNITYSDK_OFFSET(0x145D69B0)
+#define CLASS_2_43FA4FF0D1457215_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x145D6BD0)
+#define CLASS_2_43FA4FF0D1457215_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x145D6C80)
+#define CLASS_2_43FA4FF0D1457215__CTOR_OFFSET UNITYSDK_OFFSET(0x145D6C70)
 
-inline static constexpr unsigned int Class_2_43FA4FF0D1457215_TypeDefinitionIndex = 74652;
+inline static constexpr unsigned int Class_2_43FA4FF0D1457215_TypeDefinitionIndex = 79715;
 
 class Class_2_43FA4FF0D1457215 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
-	::UnityEngine::UI::Extension::UITabButton* Field_2_8; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x28
+	::UnityEngine::UI::Extension::UITabButton* Field_2_8; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x20
+	::UnityEngine::RectTransform* Field_2_2; // 0x28
 	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x30
-	::UnityEngine::RectTransform* Field_2_0; // 0x38
-	::UnityEngine::RectTransform* Field_2_1; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x38
+	::MoleMole::NotificationBadgeEx* Field_2_9; // 0x40
 	::MoleMole::NotificationBadge* Field_2_7; // 0x48
-	::UnityEngine::RectTransform* Field_2_2; // 0x50
+	::UnityEngine::RectTransform* Field_2_1; // 0x50
 	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x58
-	::MoleMole::NotificationBadgeEx* Field_2_9; // 0x60
+	::UnityEngine::RectTransform* Field_2_0; // 0x60
 
 	::System::Void _ctor()
 	{

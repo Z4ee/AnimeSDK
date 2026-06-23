@@ -6,9 +6,9 @@ class Class_1_BF85135934DD45B5;
 class Class_3_8840398725162854_1;
 namespace System { class Action; }
 
-#define CLASS_1_811BBB359BDA88AB_METHOD_1_DA5CE807899D0617_OFFSET UNITYSDK_OFFSET(0x13C10B10)
+#define CLASS_1_811BBB359BDA88AB_METHOD_1_DA5CE807899D0617_OFFSET UNITYSDK_OFFSET(0x129756F0)
 
-inline static constexpr unsigned int Class_1_811BBB359BDA88AB_TypeDefinitionIndex = 46203;
+inline static constexpr unsigned int Class_1_811BBB359BDA88AB_TypeDefinitionIndex = 73724;
 
 class Class_1_811BBB359BDA88AB : public ::System::Object
 {

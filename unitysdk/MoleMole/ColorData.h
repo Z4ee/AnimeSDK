@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR0_OFFSET UNITYSDK_OFFSET(0x122E26E0)
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR1_OFFSET UNITYSDK_OFFSET(0x122E27D0)
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR2_OFFSET UNITYSDK_OFFSET(0x122E2850)
-#define MOLEMOLE_COLORDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0x122E2920)
-#define MOLEMOLE_COLORDATA_METHOD_1_56B774DFD857D6B7_OFFSET UNITYSDK_OFFSET(0x122E2750)
-#define MOLEMOLE_COLORDATA_METHOD_1_B3B4D0DB7D9B7A2C_OFFSET UNITYSDK_OFFSET(0x122E2A00)
-#define MOLEMOLE_COLORDATA_METHOD_1_C4D4393255477B34_OFFSET UNITYSDK_OFFSET(0x122E2970)
-#define MOLEMOLE_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x122E28D0)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR0_OFFSET UNITYSDK_OFFSET(0x17D2A610)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR1_OFFSET UNITYSDK_OFFSET(0x17D2A700)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR2_OFFSET UNITYSDK_OFFSET(0x17D2A780)
+#define MOLEMOLE_COLORDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0x17D2A850)
+#define MOLEMOLE_COLORDATA_METHOD_1_56B774DFD857D6B7_OFFSET UNITYSDK_OFFSET(0x17D2A680)
+#define MOLEMOLE_COLORDATA_METHOD_1_B3B4D0DB7D9B7A2C_OFFSET UNITYSDK_OFFSET(0x17D2A930)
+#define MOLEMOLE_COLORDATA_METHOD_1_C4D4393255477B34_OFFSET UNITYSDK_OFFSET(0x17D2A8A0)
+#define MOLEMOLE_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2A800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 80308;
+	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 72953;
 
 	class ColorData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>** StaticGet_tweakColorConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>**)Il2CppClass::FromTypeDefinitionIndex(ColorData_TypeDefinitionIndex)->GetStaticField(0x3C120);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>**)Il2CppClass::FromTypeDefinitionIndex(ColorData_TypeDefinitionIndex)->GetStaticField(0x3E690);
 		}
 		::System::Int32 avatarId; // 0x10
 		::UnityEngine::Color unlockColor; // 0x14

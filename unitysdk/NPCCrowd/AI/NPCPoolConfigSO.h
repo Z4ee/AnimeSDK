@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class NPCPoolConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCPOOLCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE45C30)
+#define NPCCROWD_AI_NPCPOOLCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD5ABBE0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCPoolConfigSO_TypeDefinitionIndex = 60174;
+	inline static constexpr unsigned int NPCPoolConfigSO_TypeDefinitionIndex = 60803;
 
 	class NPCPoolConfigSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

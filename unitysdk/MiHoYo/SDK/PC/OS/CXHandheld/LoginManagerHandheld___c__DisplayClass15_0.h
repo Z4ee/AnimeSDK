@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::PC::OS::CXHandheld { class LoginManagerHandheld; }
+namespace System { class Action; }
+
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A99F550)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1A99F560)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x1A99F810)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x1A99FB00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__3_OFFSET UNITYSDK_OFFSET(0x1A99FCC0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__4_OFFSET UNITYSDK_OFFSET(0x1A99FE80)
+
+namespace MiHoYo::SDK::PC::OS::CXHandheld
+{
+	inline static constexpr unsigned int LoginManagerHandheld___c__DisplayClass15_0_TypeDefinitionIndex = 20497;
+
+	class LoginManagerHandheld___c__DisplayClass15_0 : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::PC::OS::CXHandheld::LoginManagerHandheld* __4__this; // 0x10
+		::System::Action* agreedCallback; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ShowUserAgreementDialog_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__0_OFFSET))(this);
+		}
+
+		::System::Void _ShowUserAgreementDialog_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__1_OFFSET))(this);
+		}
+
+		::System::Void _ShowUserAgreementDialog_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__2_OFFSET))(this);
+		}
+
+		::System::Void _ShowUserAgreementDialog_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__3_OFFSET))(this);
+		}
+
+		::System::Void _ShowUserAgreementDialog_b__4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD___C__DISPLAYCLASS15_0__SHOWUSERAGREEMENTDIALOG_B__4_OFFSET))(this);
+		}
+	};
+}

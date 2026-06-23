@@ -5,18 +5,18 @@
 namespace MoleMole { class UIGoldMiningDayTodoListPageController; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15255D10)
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS9_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x15255D20)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1696BE60)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS9_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1696BE70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayTodoListPageController___c__DisplayClass9_0_TypeDefinitionIndex = 42423;
+	inline static constexpr unsigned int UIGoldMiningDayTodoListPageController___c__DisplayClass9_0_TypeDefinitionIndex = 73200;
 
 	class UIGoldMiningDayTodoListPageController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Extension::UITabButton* tab; // 0x10
-		::MoleMole::UIGoldMiningDayTodoListPageController* __4__this; // 0x18
+		::MoleMole::UIGoldMiningDayTodoListPageController* __4__this; // 0x10
+		::UnityEngine::UI::Extension::UITabButton* tab; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int AccountListLogoutOption_TypeDefinitionIndex = 19311;
+	inline static constexpr unsigned int AccountListLogoutOption_TypeDefinitionIndex = 20227;
 
 	enum class AccountListLogoutOption : ::System::Int32
 	{

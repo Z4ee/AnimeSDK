@@ -8,17 +8,17 @@
 
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_B7EE00AB623C98BE_METHOD_2_2FE6E80B753999C0_OFFSET UNITYSDK_OFFSET(0x11302B10)
-#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_1_OFFSET UNITYSDK_OFFSET(0x11302B70)
-#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_2_OFFSET UNITYSDK_OFFSET(0x11302B80)
-#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x11302B60)
-#define CLASS_2_B7EE00AB623C98BE_METHOD_2_F46C7E53386150D3_OFFSET UNITYSDK_OFFSET(0x11302860)
-#define CLASS_2_B7EE00AB623C98BE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x113027D0)
-#define CLASS_2_B7EE00AB623C98BE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x11302750)
-#define CLASS_2_B7EE00AB623C98BE_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x11302460)
-#define CLASS_2_B7EE00AB623C98BE__CTOR_OFFSET UNITYSDK_OFFSET(0x11302850)
+#define CLASS_2_B7EE00AB623C98BE_METHOD_2_2FE6E80B753999C0_OFFSET UNITYSDK_OFFSET(0x123A0AE0)
+#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_1_OFFSET UNITYSDK_OFFSET(0x123A0AD0)
+#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_2_OFFSET UNITYSDK_OFFSET(0x123A0DE0)
+#define CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x123A0AC0)
+#define CLASS_2_B7EE00AB623C98BE_METHOD_2_F46C7E53386150D3_OFFSET UNITYSDK_OFFSET(0x123A0B30)
+#define CLASS_2_B7EE00AB623C98BE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x123A0A30)
+#define CLASS_2_B7EE00AB623C98BE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x123A09B0)
+#define CLASS_2_B7EE00AB623C98BE_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x123A06C0)
+#define CLASS_2_B7EE00AB623C98BE__CTOR_OFFSET UNITYSDK_OFFSET(0x123A0AB0)
 
-inline static constexpr unsigned int Class_2_B7EE00AB623C98BE_TypeDefinitionIndex = 67283;
+inline static constexpr unsigned int Class_2_B7EE00AB623C98BE_TypeDefinitionIndex = 55728;
 
 class Class_2_B7EE00AB623C98BE : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -47,14 +47,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 	}
 
-	static ::UnityEngine::Playables::ScriptPlayable_1<::Class_2_B7EE00AB623C98BE*> Method_2_F46C7E53386150D3(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Animation* a2)
-	{
-		return ((::UnityEngine::Playables::ScriptPlayable_1<::Class_2_B7EE00AB623C98BE*>(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_F46C7E53386150D3_OFFSET))(a1, a2);
-	}
-
 	::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_79ED6854413CA2F4_1(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_1_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_2FE6E80B753999C0(::UnityEngine::Animation* a1)
@@ -62,9 +62,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_2FE6E80B753999C0_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_79ED6854413CA2F4_1(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+	static ::UnityEngine::Playables::ScriptPlayable_1<::Class_2_B7EE00AB623C98BE*> Method_2_F46C7E53386150D3(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Animation* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_79ED6854413CA2F4_1_OFFSET))(this, a1, a2);
+		return ((::UnityEngine::Playables::ScriptPlayable_1<::Class_2_B7EE00AB623C98BE*>(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + CLASS_2_B7EE00AB623C98BE_METHOD_2_F46C7E53386150D3_OFFSET))(a1, a2);
 	}
 
 	::System::Void Method_2_79ED6854413CA2F4_2(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)

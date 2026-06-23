@@ -4,9 +4,9 @@
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_2_EE0106BAC68200BB_STRUCT_2_B3F7444A521CED3F_METHOD_2_7AEA4B2B25797605_OFFSET UNITYSDK_OFFSET(0x5D75D0)
+#define CLASS_2_EE0106BAC68200BB_STRUCT_2_B3F7444A521CED3F_METHOD_2_7AEA4B2B25797605_OFFSET UNITYSDK_OFFSET(0x879B10)
 
-inline static constexpr unsigned int Class_2_EE0106BAC68200BB_Struct_2_B3F7444A521CED3F_TypeDefinitionIndex = 55107;
+inline static constexpr unsigned int Class_2_EE0106BAC68200BB_Struct_2_B3F7444A521CED3F_TypeDefinitionIndex = 45963;
 
 struct alignas(8) Class_2_EE0106BAC68200BB_Struct_2_B3F7444A521CED3F
 {

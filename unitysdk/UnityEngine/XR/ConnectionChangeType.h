@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int ConnectionChangeType_TypeDefinitionIndex = 25154;
+	inline static constexpr unsigned int ConnectionChangeType_TypeDefinitionIndex = 27639;
 
 	enum class ConnectionChangeType : ::System::UInt32
 	{

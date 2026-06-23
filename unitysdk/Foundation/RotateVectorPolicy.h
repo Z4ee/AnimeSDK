@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int RotateVectorPolicy_TypeDefinitionIndex = 8879;
+	inline static constexpr unsigned int RotateVectorPolicy_TypeDefinitionIndex = 8707;
 
 	enum class RotateVectorPolicy : ::System::Byte
 	{

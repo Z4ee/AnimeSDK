@@ -9,14 +9,14 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_LAYERMASHSELECT_OFFSET UNITYSDK_OFFSET(0x1C447350)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1C447230)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1C4479C0)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C447740)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_LAYERMASHSELECT_OFFSET UNITYSDK_OFFSET(0x1E7564A0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1E756380)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1E756B10)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E756890)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MeshRendererParams_TypeDefinitionIndex = 30671;
+	inline static constexpr unsigned int MeshRendererParams_TypeDefinitionIndex = 32218;
 
 	class MeshRendererParams : public ::System::Object
 	{
@@ -46,9 +46,9 @@ namespace MoleMole::Timeline
 			return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_LAYERMASHSELECT_OFFSET))(this);
 		}
 
-		::System::Void SetSkinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* meshRenderer)
+		::System::Void SetSkinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* meshRenderer, ::System::Boolean isAuthoredApply)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET))(this, meshRenderer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET))(this, meshRenderer, isAuthoredApply);
 		}
 	};
 }

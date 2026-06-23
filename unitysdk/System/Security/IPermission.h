@@ -3,7 +3,7 @@
 
 namespace System::Security
 {
-	inline static constexpr unsigned int IPermission_TypeDefinitionIndex = 943;
+	inline static constexpr unsigned int IPermission_TypeDefinitionIndex = 942;
 
 	class IPermission
 	{

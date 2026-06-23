@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_TIMELINEASSET___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C532DA0)
-#define UNITYENGINE_TIMELINE_TIMELINEASSET___C__DISPLAYCLASS45_0__GETOUTPUTTRACK_B__0_OFFSET UNITYSDK_OFFSET(0x1C532DB0)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E867510)
+#define UNITYENGINE_TIMELINE_TIMELINEASSET___C__DISPLAYCLASS45_0__GETOUTPUTTRACK_B__0_OFFSET UNITYSDK_OFFSET(0x1E867520)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset___c__DisplayClass45_0_TypeDefinitionIndex = 30723;
+	inline static constexpr unsigned int TimelineAsset___c__DisplayClass45_0_TypeDefinitionIndex = 32274;
 
 	class TimelineAsset___c__DisplayClass45_0 : public ::System::Object
 	{

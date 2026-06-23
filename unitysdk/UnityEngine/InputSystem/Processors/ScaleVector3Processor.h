@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B9F4BD0)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B9F4C00)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F4CD0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1DD82540)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD82570)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD82640)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int ScaleVector3Processor_TypeDefinitionIndex = 29316;
+	inline static constexpr unsigned int ScaleVector3Processor_TypeDefinitionIndex = 31972;
 
 	class ScaleVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>
 	{
 	public:
-		::System::Single z; // 0x10
-		::System::Single x; // 0x14
-		::System::Single y; // 0x18
+		::System::Single x; // 0x10
+		::System::Single y; // 0x14
+		::System::Single z; // 0x18
 
 		::System::Void _ctor()
 		{

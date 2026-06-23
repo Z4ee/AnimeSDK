@@ -4,12 +4,12 @@
 
 namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> class MethodCall_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_1__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1BFD0C30)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD0C20)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_1__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1E2FA8D0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2FA8C0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionObject___c__DisplayClass13_1_TypeDefinitionIndex = 6946;
+	inline static constexpr unsigned int ReflectionObject___c__DisplayClass13_1_TypeDefinitionIndex = 7077;
 
 	class ReflectionObject___c__DisplayClass13_1 : public ::System::Object
 	{

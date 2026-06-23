@@ -4,22 +4,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CUSTOMSKIN_ACCOUNTLOGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x118DC8C0)
-#define CUSTOMSKIN_ACCOUNTLOGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x118DC900)
-#define CUSTOMSKIN_ACCOUNTLOGIN___C__SETTHIRDLOGIN_B__18_0_OFFSET UNITYSDK_OFFSET(0x118DC910)
+#define CUSTOMSKIN_ACCOUNTLOGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A251800)
+#define CUSTOMSKIN_ACCOUNTLOGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A251840)
+#define CUSTOMSKIN_ACCOUNTLOGIN___C__SETTHIRDLOGIN_B__18_0_OFFSET UNITYSDK_OFFSET(0x1A251850)
 
-inline static constexpr unsigned int CustomSkin_AccountLogin___c_TypeDefinitionIndex = 63567;
+inline static constexpr unsigned int CustomSkin_AccountLogin___c_TypeDefinitionIndex = 78567;
 
 class CustomSkin_AccountLogin___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__18_0()
 	{
-		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLogin___c_TypeDefinitionIndex)->GetStaticField(0x41110);
+		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLogin___c_TypeDefinitionIndex)->GetStaticField(0x43F30);
 	}
 	static ::CustomSkin_AccountLogin___c** StaticGet___9()
 	{
-		return (::CustomSkin_AccountLogin___c**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLogin___c_TypeDefinitionIndex)->GetStaticField(0x41118);
+		return (::CustomSkin_AccountLogin___c**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLogin___c_TypeDefinitionIndex)->GetStaticField(0x43F38);
 	}
 
 	static ::System::Void _cctor()

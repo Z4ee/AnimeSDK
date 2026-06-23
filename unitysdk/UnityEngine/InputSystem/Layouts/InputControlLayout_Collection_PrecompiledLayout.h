@@ -8,7 +8,7 @@ namespace UnityEngine::InputSystem { class InputDevice; }
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_Collection_PrecompiledLayout_TypeDefinitionIndex = 29334;
+	inline static constexpr unsigned int InputControlLayout_Collection_PrecompiledLayout_TypeDefinitionIndex = 31990;
 
 	struct alignas(8) InputControlLayout_Collection_PrecompiledLayout
 	{

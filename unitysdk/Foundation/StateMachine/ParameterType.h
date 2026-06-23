@@ -3,15 +3,15 @@
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int ParameterType_TypeDefinitionIndex = 8821;
+	inline static constexpr unsigned int ParameterType_TypeDefinitionIndex = 8442;
 
 	enum class ParameterType : ::System::Byte
 	{
-		Max = 0xA,
-		Int = 0x3,
-		Float = 0x1,
-		None = 0x0,
 		Trigger = 0x9,
 		Bool = 0x4,
+		Int = 0x3,
+		None = 0x0,
+		Max = 0xA,
+		Float = 0x1,
 	};
 }

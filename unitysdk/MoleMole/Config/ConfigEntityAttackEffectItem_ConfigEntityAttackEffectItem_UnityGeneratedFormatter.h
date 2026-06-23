@@ -12,38 +12,38 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159E8EA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159E8EB0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159E9800)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159E9DA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159E9D60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12712D20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12712D30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12713680)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12713C20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_CONFIGENTITYATTACKEFFECTITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12713BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex = 39244;
+	inline static constexpr unsigned int ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex = 81371;
 
 	class ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigEntityAttackEffectItem*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer3()
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AttackEffectTriggerAt>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49240);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49248);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49250);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AttackEffectTriggerAt>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA30);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitDirectionType>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49258);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA38);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AttackEffectTriggerAt>** StaticGet_CachedSerializer2()
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AttackEffectTriggerAt>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49260);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA40);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA48);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAttackEffectItem_ConfigEntityAttackEffectItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4CA50);
 		}
 
 		::System::Void _ctor()

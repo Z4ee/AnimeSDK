@@ -4,13 +4,13 @@
 #include "unitysdk/Foundation/Unreal/FNameEntry__Storage_e__FixedBuffer.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FNAMEENTRY_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x8EA6F0)
-#define FOUNDATION_UNREAL_FNAMEENTRY_GETSTRINGVIEW_OFFSET UNITYSDK_OFFSET(0x8EA700)
-#define FOUNDATION_UNREAL_FNAMEENTRY_STORE_OFFSET UNITYSDK_OFFSET(0x8EA7D0)
+#define FOUNDATION_UNREAL_FNAMEENTRY_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x98C850)
+#define FOUNDATION_UNREAL_FNAMEENTRY_GETSTRINGVIEW_OFFSET UNITYSDK_OFFSET(0x98C860)
+#define FOUNDATION_UNREAL_FNAMEENTRY_STORE_OFFSET UNITYSDK_OFFSET(0x98C930)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntry_TypeDefinitionIndex = 9008;
+	inline static constexpr unsigned int FNameEntry_TypeDefinitionIndex = 8461;
 
 	struct alignas(4) FNameEntry
 	{

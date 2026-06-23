@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x1C54BBA0)
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1C54BBB0)
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x1C54BB90)
-#define CRIWARE_CRIFSINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C54BBC0)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x1E87C350)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1E87C360)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x1E87C340)
+#define CRIWARE_CRIFSINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E87C370)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstallRequest_TypeDefinitionIndex = 32763;
+	inline static constexpr unsigned int CriFsInstallRequest_TypeDefinitionIndex = 34316;
 
 	class CriFsInstallRequest : public ::CriWare::CriFsRequest
 	{
 	public:
-		::System::String* _sourcePath_k__BackingField; // 0x38
-		::System::String* _destinationPath_k__BackingField; // 0x40
+		::System::String* _destinationPath_k__BackingField; // 0x38
+		::System::String* _sourcePath_k__BackingField; // 0x40
 		::System::Single _progress_k__BackingField; // 0x48
 
 		::System::Void _ctor()

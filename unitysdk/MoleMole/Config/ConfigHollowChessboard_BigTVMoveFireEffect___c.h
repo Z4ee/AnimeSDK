@@ -5,20 +5,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181CA2C0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181CA300)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x181CA310)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B3C1E0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3C220)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x12B3C230)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect___c_TypeDefinitionIndex = 43465;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect___c_TypeDefinitionIndex = 64409;
 
 	class ConfigHollowChessboard_BigTVMoveFireEffect___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboard_BigTVMoveFireEffect___c_TypeDefinitionIndex)->GetStaticField(0x37770);
+			return (::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboard_BigTVMoveFireEffect___c_TypeDefinitionIndex)->GetStaticField(0x39BD0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISIMPORTANTNPC_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A44680)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISIMPORTANTNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x18A44840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISIMPORTANTNPC_INVOKE_OFFSET UNITYSDK_OFFSET(0x16CA9210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISIMPORTANTNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA93D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_IsImportantNpc_TypeDefinitionIndex = 69753;
+	inline static constexpr unsigned int LD_AbyssS2_IsImportantNpc_TypeDefinitionIndex = 70917;
 
 	class LD_AbyssS2_IsImportantNpc : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::MoleMole::Battle::Entity*>
 	{

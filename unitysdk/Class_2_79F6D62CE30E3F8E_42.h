@@ -6,55 +6,58 @@ class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
 class Class_2_B4378B46E0020E85;
 class MonoUITableScrollV2;
-namespace MoleMole { class MonoGamepadCustomList; }
-namespace MoleMole { class MonoGamepadModule; }
 namespace MoleMole { class UIControlCollection; }
-namespace MoleMole { class UIGeneralButtonController; }
-namespace UnityEngine { class GameObject; }
+namespace MoleMole { class UIDailyChallengeCardRowWidgetController; }
+namespace MoleMole { class UIGeneralHeadRowWidgetController; }
+namespace MoleMole { class UIGeneralToggleWidgetController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
-namespace UnityEngine::UI { class Image; }
-namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
+namespace UnityEngine::UI::Extension { class UITimeWidget; }
+template <typename T> class Class_3_026083D0A4F08738;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x16532200)
-#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16532850)
-#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0x16532680)
-#define CLASS_2_79F6D62CE30E3F8E_42__CTOR_OFFSET UNITYSDK_OFFSET(0x16532840)
+#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x12F02400)
+#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_8770616CEB49576D_OFFSET UNITYSDK_OFFSET(0x12F028D0)
+#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12F02C30)
+#define CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x12F02AB0)
+#define CLASS_2_79F6D62CE30E3F8E_42__CTOR_OFFSET UNITYSDK_OFFSET(0x12F02C20)
 
-inline static constexpr unsigned int Class_2_79F6D62CE30E3F8E_42_TypeDefinitionIndex = 43281;
+inline static constexpr unsigned int Class_2_79F6D62CE30E3F8E_42_TypeDefinitionIndex = 49595;
 
 class Class_2_79F6D62CE30E3F8E_42 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_B4378B46E0020E85* Field_2_9; // 0x18
-	::UnityEngine::UI::Text* Field_2_12; // 0x20
-	::UnityEngine::UI::Image* Field_2_21; // 0x28
-	::UnityEngine::UI::Image* Field_2_19; // 0x30
-	::Class_2_1A39E1B51756BF41* Field_2_27; // 0x38
-	::UnityEngine::UI::Image* Field_2_22; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_28; // 0x48
-	::MoleMole::MonoGamepadCustomList* Field_2_11; // 0x50
-	::Class_2_B4378B46E0020E85* Field_2_10; // 0x58
-	::UnityEngine::UI::Text* Field_2_8; // 0x60
-	::UnityEngine::GameObject* Field_2_23; // 0x68
-	::UnityEngine::GameObject* Field_2_16; // 0x70
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_25; // 0x78
-	::MoleMole::MonoGamepadModule* Field_2_15; // 0x80
-	::UnityEngine::GameObject* Field_2_6; // 0x88
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_26; // 0x90
-	::Class_2_1A39E1B51756BF41* Field_2_24; // 0x98
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0xA0
-	::UnityEngine::UI::Image* Field_2_18; // 0xA8
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0xB0
-	::Class_2_1A39E1B51756BF41* Field_2_17; // 0xB8
-	::UnityEngine::GameObject* Field_2_20; // 0xC0
-	::MoleMole::UIGeneralButtonController* Field_2_3; // 0xC8
-	::MoleMole::UIGeneralButtonController* Field_2_2; // 0xD0
-	::UnityEngine::UI::Text* Field_2_7; // 0xD8
-	::UnityEngine::RectTransform* Field_2_0; // 0xE0
-	::MonoUITableScrollV2* Field_2_14; // 0xE8
-	::Class_2_B4378B46E0020E85* Field_2_1; // 0xF0
-	::UnityEngine::UI::Text* Field_2_13; // 0xF8
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x18
+	::UnityEngine::RectTransform* Field_2_2; // 0x20
+	::UnityEngine::RectTransform* Field_2_4; // 0x28
+	::UnityEngine::RectTransform* Field_2_17; // 0x30
+	::Class_3_026083D0A4F08738<::MoleMole::UIDailyChallengeCardRowWidgetController*>* Field_2_27; // 0x38
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_24; // 0x40
+	::UnityEngine::RectTransform* Field_2_28; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_23; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_26; // 0x58
+	::UnityEngine::RectTransform* Field_2_16; // 0x60
+	::MonoUITableScrollV2* Field_2_18; // 0x68
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_11; // 0x70
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x78
+	::System::Collections::Generic::List_1<::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralHeadRowWidgetController*>*>* Field_2_29; // 0x80
+	::MonoUITableScrollV2* Field_2_22; // 0x88
+	::UnityEngine::RectTransform* Field_2_10; // 0x90
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_3; // 0x98
+	::UnityEngine::RectTransform* Field_2_7; // 0xA0
+	::UnityEngine::RectTransform* Field_2_14; // 0xA8
+	::MonoUITableScrollV2* Field_2_21; // 0xB0
+	::Class_2_B4378B46E0020E85* Field_2_13; // 0xB8
+	::UnityEngine::RectTransform* Field_2_15; // 0xC0
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0xC8
+	::Class_2_1A39E1B51756BF41* Field_2_8; // 0xD0
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_19; // 0xD8
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0xE0
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0xE8
+	::MonoUITableScrollV2* Field_2_25; // 0xF0
+	::Class_2_1A39E1B51756BF41* Field_2_12; // 0xF8
+	::MonoUITableScrollV2* Field_2_20; // 0x100
 
 	::System::Void _ctor()
 	{
@@ -66,13 +69,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_7879E8D5956B4E2C_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_EC2B405D0723571D()
+	::System::Collections::Generic::List_1<::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralHeadRowWidgetController*>*>* Method_2_8770616CEB49576D(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_EC2B405D0723571D_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralHeadRowWidgetController*>*>*(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_8770616CEB49576D_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_DE52BD42C4B0B772()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_79F6D62CE30E3F8E_42_METHOD_2_DE52BD42C4B0B772_OFFSET))(this);
 	}
 };

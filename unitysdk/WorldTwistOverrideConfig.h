@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define WORLDTWISTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA6320)
+#define WORLDTWISTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3EDF0)
 
-inline static constexpr unsigned int WorldTwistOverrideConfig_TypeDefinitionIndex = 29531;
+inline static constexpr unsigned int WorldTwistOverrideConfig_TypeDefinitionIndex = 27082;
 
 class WorldTwistOverrideConfig : public ::UnityEngine::ScriptableObject
 {

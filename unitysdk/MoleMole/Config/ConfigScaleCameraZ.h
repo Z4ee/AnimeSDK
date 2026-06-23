@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigScaleCameraZPattern; }
 
-#define MOLEMOLE_CONFIG_CONFIGSCALECAMERAZ__CTOR_OFFSET UNITYSDK_OFFSET(0x1424CF60)
+#define MOLEMOLE_CONFIG_CONFIGSCALECAMERAZ__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0B240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigScaleCameraZ_TypeDefinitionIndex = 77981;
+	inline static constexpr unsigned int ConfigScaleCameraZ_TypeDefinitionIndex = 56985;
 
 	class ConfigScaleCameraZ : public ::Foundation::MihoyoSerializedScriptableObject
 	{

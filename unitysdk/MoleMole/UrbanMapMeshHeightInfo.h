@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_URBANMAPMESHHEIGHTINFO_METHOD_1_A5E72182E846274E_OFFSET UNITYSDK_OFFSET(0xF63DBE0)
-#define MOLEMOLE_URBANMAPMESHHEIGHTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xF63DB80)
+#define MOLEMOLE_URBANMAPMESHHEIGHTINFO_METHOD_1_A5E72182E846274E_OFFSET UNITYSDK_OFFSET(0x122DEA20)
+#define MOLEMOLE_URBANMAPMESHHEIGHTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x122DE9C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UrbanMapMeshHeightInfo_TypeDefinitionIndex = 60843;
+	inline static constexpr unsigned int UrbanMapMeshHeightInfo_TypeDefinitionIndex = 61419;
 
 	class UrbanMapMeshHeightInfo : public ::System::Object
 	{

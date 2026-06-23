@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::Protobuf { class ByteString; }
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_PROTOBUF_MESSAGEPARSER_PARSEFROM_OFFSET UNITYSDK_OFFSET(0x1C3DBBC0)
-#define MIHOYO_SDK_PROTOBUF_MESSAGEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DBBB0)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEPARSER_PARSEFROM_OFFSET UNITYSDK_OFFSET(0x1E720290)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E720280)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int MessageParser_TypeDefinitionIndex = 25973;
+	inline static constexpr unsigned int MessageParser_TypeDefinitionIndex = 28467;
 
 	class MessageParser : public ::System::Object
 	{

@@ -12,27 +12,27 @@ namespace MoleMole::ChessStateMachine { class ChessStateMachineConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_0217AFCE2CF29437_METHOD_1_4E2CB03B71119CB3_OFFSET UNITYSDK_OFFSET(0x10C09960)
-#define CLASS_1_0217AFCE2CF29437_METHOD_1_64B952FBE8E560B9_OFFSET UNITYSDK_OFFSET(0x10C09230)
-#define CLASS_1_0217AFCE2CF29437_METHOD_1_918D047ACA2C14CD_OFFSET UNITYSDK_OFFSET(0x10C09570)
-#define CLASS_1_0217AFCE2CF29437_METHOD_1_9A6202A5D2529A4D_OFFSET UNITYSDK_OFFSET(0x10C09D00)
-#define CLASS_1_0217AFCE2CF29437_METHOD_1_C550D8BCDAF3A581_OFFSET UNITYSDK_OFFSET(0x10C0A3F0)
-#define CLASS_1_0217AFCE2CF29437_SPAWN_OFFSET UNITYSDK_OFFSET(0x10C091D0)
-#define CLASS_1_0217AFCE2CF29437__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C09450)
-#define CLASS_1_0217AFCE2CF29437__CTOR_OFFSET UNITYSDK_OFFSET(0x10C09440)
+#define CLASS_1_0217AFCE2CF29437_METHOD_1_0E2CF5C03F29B632_OFFSET UNITYSDK_OFFSET(0xFE229B0)
+#define CLASS_1_0217AFCE2CF29437_METHOD_1_4E2CB03B71119CB3_OFFSET UNITYSDK_OFFSET(0xFE21960)
+#define CLASS_1_0217AFCE2CF29437_METHOD_1_64B952FBE8E560B9_OFFSET UNITYSDK_OFFSET(0xFE21230)
+#define CLASS_1_0217AFCE2CF29437_METHOD_1_918D047ACA2C14CD_OFFSET UNITYSDK_OFFSET(0xFE21570)
+#define CLASS_1_0217AFCE2CF29437_METHOD_1_C550D8BCDAF3A581_OFFSET UNITYSDK_OFFSET(0xFE21D00)
+#define CLASS_1_0217AFCE2CF29437_SPAWN_OFFSET UNITYSDK_OFFSET(0xFE211D0)
+#define CLASS_1_0217AFCE2CF29437__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE21450)
+#define CLASS_1_0217AFCE2CF29437__CTOR_OFFSET UNITYSDK_OFFSET(0xFE21440)
 
-inline static constexpr unsigned int Class_1_0217AFCE2CF29437_TypeDefinitionIndex = 39599;
+inline static constexpr unsigned int Class_1_0217AFCE2CF29437_TypeDefinitionIndex = 71592;
 
 class Class_1_0217AFCE2CF29437 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0217AFCE2CF29437_TypeDefinitionIndex)->GetStaticField(0x3BD30);
-	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0217AFCE2CF29437_TypeDefinitionIndex)->GetStaticField(0x3BD38);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0217AFCE2CF29437_TypeDefinitionIndex)->GetStaticField(0x3D280);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>** StaticGet_Field_1_1()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0217AFCE2CF29437_TypeDefinitionIndex)->GetStaticField(0x3D288);
 	}
 
 	::System::Void _ctor(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1)
@@ -50,9 +50,9 @@ public:
 		return ((::Class_2_EF10ADA6B197DAB5*(*)(::PVOID, ::Class_2_EF10ADA6B197DAB5*, ::MoleMole::ChessStateMachine::ChessStateMachineConfig*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_SPAWN_OFFSET))(this, a1, a2);
 	}
 
-	::Class_2_EF10ADA6B197DAB5* Method_1_64B952FBE8E560B9(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1, ::Class_2_EF10ADA6B197DAB5* a2)
+	::System::Void Method_1_918D047ACA2C14CD(::Class_2_EF10ADA6B197DAB5* a1, ::MoleMole::ChessStateMachine::ChessStateMachineConfig* a2)
 	{
-		return ((::Class_2_EF10ADA6B197DAB5*(*)(::PVOID, ::MoleMole::ChessStateMachine::ChessStateMachineConfig*, ::Class_2_EF10ADA6B197DAB5*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_64B952FBE8E560B9_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_EF10ADA6B197DAB5*, ::MoleMole::ChessStateMachine::ChessStateMachineConfig*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_918D047ACA2C14CD_OFFSET))(this, a1, a2);
 	}
 
 	static ::System::Void Method_1_4E2CB03B71119CB3(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1, ::Class_2_EF10ADA6B197DAB5* a2, ::Class_1_0217AFCE2CF29437_Struct_2_A5B9ECBADD91D66C& a3)
@@ -60,9 +60,9 @@ public:
 		return ((::System::Void(*)(::MoleMole::ChessStateMachine::ChessStateMachineConfig*, ::Class_2_EF10ADA6B197DAB5*, ::Class_1_0217AFCE2CF29437_Struct_2_A5B9ECBADD91D66C&))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_4E2CB03B71119CB3_OFFSET))(a1, a2, a3);
 	}
 
-	::System::Void Method_1_918D047ACA2C14CD(::Class_2_EF10ADA6B197DAB5* a1, ::MoleMole::ChessStateMachine::ChessStateMachineConfig* a2)
+	static ::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>*> Method_1_0E2CF5C03F29B632(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1, ::Class_2_EF10ADA6B197DAB5* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_EF10ADA6B197DAB5*, ::MoleMole::ChessStateMachine::ChessStateMachineConfig*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_918D047ACA2C14CD_OFFSET))(this, a1, a2);
+		return ((::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>*>(*)(::MoleMole::ChessStateMachine::ChessStateMachineConfig*, ::Class_2_EF10ADA6B197DAB5*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_0E2CF5C03F29B632_OFFSET))(a1, a2);
 	}
 
 	::System::Void Method_1_C550D8BCDAF3A581(::Class_2_3B99BD6E50089267* a1, ::Class_2_3B99BD6E50089267* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5)
@@ -70,8 +70,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_3B99BD6E50089267*, ::Class_2_3B99BD6E50089267*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_C550D8BCDAF3A581_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	static ::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>*> Method_1_9A6202A5D2529A4D(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1, ::Class_2_EF10ADA6B197DAB5* a2)
+	::Class_2_EF10ADA6B197DAB5* Method_1_64B952FBE8E560B9(::MoleMole::ChessStateMachine::ChessStateMachineConfig* a1, ::Class_2_EF10ADA6B197DAB5* a2)
 	{
-		return ((::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_3_0B01610F9F860761*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_87F676A6DEA77C54*>*>(*)(::MoleMole::ChessStateMachine::ChessStateMachineConfig*, ::Class_2_EF10ADA6B197DAB5*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_9A6202A5D2529A4D_OFFSET))(a1, a2);
+		return ((::Class_2_EF10ADA6B197DAB5*(*)(::PVOID, ::MoleMole::ChessStateMachine::ChessStateMachineConfig*, ::Class_2_EF10ADA6B197DAB5*))((::PBYTE)hIl2Cpp + CLASS_1_0217AFCE2CF29437_METHOD_1_64B952FBE8E560B9_OFFSET))(this, a1, a2);
 	}
 };

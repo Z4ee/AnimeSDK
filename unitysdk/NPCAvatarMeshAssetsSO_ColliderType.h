@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_ColliderType_TypeDefinitionIndex = 56640;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_ColliderType_TypeDefinitionIndex = 67216;
 
 enum class NPCAvatarMeshAssetsSO_ColliderType : ::System::Int32
 {

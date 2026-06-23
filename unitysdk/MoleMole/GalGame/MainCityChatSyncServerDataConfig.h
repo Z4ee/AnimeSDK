@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
+#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class Action; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCSERVERDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13834F60)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCSERVERDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAD0E0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatSyncServerDataConfig_TypeDefinitionIndex = 53592;
+	inline static constexpr unsigned int MainCityChatSyncServerDataConfig_TypeDefinitionIndex = 73814;
 
 	class MainCityChatSyncServerDataConfig : public ::System::Object
 	{

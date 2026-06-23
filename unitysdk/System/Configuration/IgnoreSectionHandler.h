@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_CONFIGURATION_IGNORESECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B1E5A90)
-#define SYSTEM_CONFIGURATION_IGNORESECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1E5A50)
+#define SYSTEM_CONFIGURATION_IGNORESECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1D5CD570)
+#define SYSTEM_CONFIGURATION_IGNORESECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CD530)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int IgnoreSectionHandler_TypeDefinitionIndex = 4211;
+	inline static constexpr unsigned int IgnoreSectionHandler_TypeDefinitionIndex = 4210;
 
 	class IgnoreSectionHandler : public ::System::Object
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_GETMOVEMENTMAG_OFFSET UNITYSDK_OFFSET(0xF402A80)
-#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xF402BF0)
-#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0xF402CB0)
-#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF402F60)
+#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_GETMOVEMENTMAG_OFFSET UNITYSDK_OFFSET(0x10D8E260)
+#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x10D8E3D0)
+#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x10D8E490)
+#define NPCCROWD_LOD_NPCCROWDCAMERAAGENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D8E740)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdCameraAgent_TypeDefinitionIndex = 75670;
+	inline static constexpr unsigned int NPCCrowdCameraAgent_TypeDefinitionIndex = 82812;
 
 	class NPCCrowdCameraAgent : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 lastPos; // 0x10
-		::System::Int32 lastUpdateFrame; // 0x1C
-		::UnityEngine::Vector3 curPos; // 0x20
+		::UnityEngine::Vector3 curPos; // 0x1C
+		::System::Int32 lastUpdateFrame; // 0x28
 
 		::System::Void _ctor()
 		{

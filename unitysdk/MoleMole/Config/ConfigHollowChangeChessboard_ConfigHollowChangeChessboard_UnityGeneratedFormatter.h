@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1230BCD0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1230BCE0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1230BEC0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1230C060)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1230C020)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D56960)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D56970)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D56B50)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D56CF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_CONFIGHOLLOWCHANGECHESSBOARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56CB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChangeChessboard_ConfigHollowChangeChessboard_UnityGeneratedFormatter_TypeDefinitionIndex = 68515;
+	inline static constexpr unsigned int ConfigHollowChangeChessboard_ConfigHollowChangeChessboard_UnityGeneratedFormatter_TypeDefinitionIndex = 71673;
 
 	class ConfigHollowChangeChessboard_ConfigHollowChangeChessboard_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHollowChangeChessboard*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::DirectType, ::System::String*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::DirectType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChangeChessboard_ConfigHollowChangeChessboard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C3E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::ProtoScript::DirectType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChangeChessboard_ConfigHollowChangeChessboard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E940);
 		}
 
 		::System::Void _ctor()

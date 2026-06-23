@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int Logger_VerboseLevel_TypeDefinitionIndex = 28333;
+	inline static constexpr unsigned int Logger_VerboseLevel_TypeDefinitionIndex = 30983;
 
 	enum class Logger_VerboseLevel : ::System::Int32
 	{

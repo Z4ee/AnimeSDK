@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTPLUGINFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA7990)
+#define UNITYENGINE_UI_EXTENSION_UITEXTPLUGINFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4EAA0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextPluginFormat_TypeDefinitionIndex = 75731;
+	inline static constexpr unsigned int UITextPluginFormat_TypeDefinitionIndex = 79293;
 
 	class UITextPluginFormat : public ::UnityEngine::UI::Extension::UITextPluginBase
 	{

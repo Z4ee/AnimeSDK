@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SQLITE_PRIMARYKEYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B279320)
+#define SQLITE_PRIMARYKEYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D635680)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int PrimaryKeyAttribute_TypeDefinitionIndex = 36771;
+	inline static constexpr unsigned int PrimaryKeyAttribute_TypeDefinitionIndex = 38381;
 
 	class PrimaryKeyAttribute : public ::System::Attribute
 	{

@@ -8,9 +8,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_820267F94C5D0AA4__CTOR_OFFSET UNITYSDK_OFFSET(0x580630)
+#define STRUCT_2_820267F94C5D0AA4__CTOR_OFFSET UNITYSDK_OFFSET(0x794C10)
 
-inline static constexpr unsigned int Struct_2_820267F94C5D0AA4_TypeDefinitionIndex = 68752;
+inline static constexpr unsigned int Struct_2_820267F94C5D0AA4_TypeDefinitionIndex = 83972;
 
 struct alignas(8) Struct_2_820267F94C5D0AA4
 {

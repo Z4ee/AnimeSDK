@@ -3,7 +3,7 @@
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int NotifyCollectionChangedAction_TypeDefinitionIndex = 3925;
+	inline static constexpr unsigned int NotifyCollectionChangedAction_TypeDefinitionIndex = 3924;
 
 	enum class NotifyCollectionChangedAction : ::System::Int32
 	{

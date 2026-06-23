@@ -3,12 +3,12 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationBlendPosePerBoneFlag_TypeDefinitionIndex = 66004;
+	inline static constexpr unsigned int AnimationBlendPosePerBoneFlag_TypeDefinitionIndex = 80296;
 
 	enum class AnimationBlendPosePerBoneFlag : ::System::Byte
 	{
-		MeshSpaceScale = 0x2,
 		MeshSpaceRotation = 0x1,
 		None = 0x0,
+		MeshSpaceScale = 0x2,
 	};
 }

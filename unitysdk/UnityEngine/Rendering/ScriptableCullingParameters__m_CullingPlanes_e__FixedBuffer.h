@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer_TypeDefinitionIndex = 6208;
+	inline static constexpr unsigned int ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer_TypeDefinitionIndex = 6234;
 
 	struct alignas(1) ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer
 	{

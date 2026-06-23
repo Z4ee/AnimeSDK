@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int IDictionaryDebugView_2_TypeDefinitionIndex = 3950;
+	inline static constexpr unsigned int IDictionaryDebugView_2_TypeDefinitionIndex = 3949;
 
 	template <typename K, typename V>
 	class IDictionaryDebugView_2 : public ::System::Object

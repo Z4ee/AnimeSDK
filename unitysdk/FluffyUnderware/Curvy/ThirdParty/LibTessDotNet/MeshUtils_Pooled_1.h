@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int MeshUtils_Pooled_1_TypeDefinitionIndex = 25930;
+	inline static constexpr unsigned int MeshUtils_Pooled_1_TypeDefinitionIndex = 28424;
 
 	template <typename T>
 	class MeshUtils_Pooled_1 : public ::System::Object

@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Runtime::CompilerServices { class CallSiteBinder; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSIONN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C06EA20)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSIONN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06E9A0)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSIONN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E38B990)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSIONN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38B910)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypedDynamicExpressionN_TypeDefinitionIndex = 4460;
+	inline static constexpr unsigned int TypedDynamicExpressionN_TypeDefinitionIndex = 4459;
 
 	class TypedDynamicExpressionN : public ::System::Linq::Expressions::DynamicExpressionN
 	{

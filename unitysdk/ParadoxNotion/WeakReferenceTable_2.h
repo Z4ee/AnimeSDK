@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int WeakReferenceTable_2_TypeDefinitionIndex = 28161;
+	inline static constexpr unsigned int WeakReferenceTable_2_TypeDefinitionIndex = 30657;
 
 	template <typename TKey, typename TValue>
 	class WeakReferenceTable_2 : public ::System::Object

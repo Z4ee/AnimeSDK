@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TimeMode_TypeDefinitionIndex = 32619;
+	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TimeMode_TypeDefinitionIndex = 34170;
 
 	enum class CinemachineTriggerAction_ActionSettings_TimeMode : ::System::Int32
 	{

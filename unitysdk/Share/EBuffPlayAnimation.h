@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EBuffPlayAnimation_TypeDefinitionIndex = 10640;
+	inline static constexpr unsigned int EBuffPlayAnimation_TypeDefinitionIndex = 13451;
 
 	enum class EBuffPlayAnimation : ::System::Int16
 	{
 		True = 1,
-		False = 2,
 		EnumCount = 3,
+		False = 2,
 		None = 0,
 	};
 }

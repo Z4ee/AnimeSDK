@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYCURRENCYPOPGETPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1643F0E0)
+#define MOLEMOLE_UIACTIVITYCURRENCYPOPGETPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A2A440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCurrencyPopGetPopWindowController_Context_TypeDefinitionIndex = 79896;
+	inline static constexpr unsigned int UIActivityCurrencyPopGetPopWindowController_Context_TypeDefinitionIndex = 86430;
 
 	class UIActivityCurrencyPopGetPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

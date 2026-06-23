@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EventNode_1_TypeDefinitionIndex = 26870;
+	inline static constexpr unsigned int EventNode_1_TypeDefinitionIndex = 30446;
 
 	template <typename T>
 	class EventNode_1 : public ::FlowCanvas::Nodes::EventNode

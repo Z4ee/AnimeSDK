@@ -6,7 +6,7 @@ namespace Sirenix::Serialization::Utilities { template <typename T> class Cache_
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 7498;
+	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 7630;
 
 	template <typename T>
 	class Cache_1 : public ::System::Object

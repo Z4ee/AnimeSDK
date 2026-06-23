@@ -8,11 +8,11 @@ namespace MoleMole::Config { class UICameraSettingData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0C6C0)
+#define MOLEMOLE_CONFIG_CONFIGUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xE97A9B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUICamera_TypeDefinitionIndex = 65956;
+	inline static constexpr unsigned int ConfigUICamera_TypeDefinitionIndex = 78064;
 
 	class ConfigUICamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{

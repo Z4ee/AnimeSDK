@@ -5,21 +5,21 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9636B0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x963650)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x963750)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F5E90)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x963630)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA07590)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA07530)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA07630)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6ABEF0)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA07510)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 6221;
+	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 6247;
 
 	struct alignas(4) RasterState
 	{
 		static ::UnityEngine::Rendering::RasterState* StaticGet_defaultValue()
 		{
-			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0x2570);
+			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0x2580);
 		}
 		::UnityEngine::Rendering::CullMode m_CullingMode; // 0x10
 		::System::Int32 m_OffsetUnits; // 0x14

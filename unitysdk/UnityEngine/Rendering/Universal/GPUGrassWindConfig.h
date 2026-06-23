@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassWindConfig_TypeDefinitionIndex = 30246;
+	inline static constexpr unsigned int GPUGrassWindConfig_TypeDefinitionIndex = 26807;
 
 	struct alignas(8) GPUGrassWindConfig
 	{

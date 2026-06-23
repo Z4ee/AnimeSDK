@@ -7,7 +7,7 @@ namespace Utf8Json::Internal::Emit { class MetaMember; }
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_DeserializeInfo_TypeDefinitionIndex = 85568;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_DeserializeInfo_TypeDefinitionIndex = 91142;
 
 	struct alignas(8) DynamicObjectTypeBuilder_DeserializeInfo
 	{

@@ -8,7 +8,7 @@ namespace Foundation::Unreal { class FGameplayTagQuery; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-inline static constexpr unsigned int Struct_2_C70A12CE5BBC6553_TypeDefinitionIndex = 50941;
+inline static constexpr unsigned int Struct_2_C70A12CE5BBC6553_TypeDefinitionIndex = 77243;
 
 struct alignas(8) Struct_2_C70A12CE5BBC6553
 {

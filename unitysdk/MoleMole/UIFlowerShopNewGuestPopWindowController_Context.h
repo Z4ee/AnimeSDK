@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157EAE30)
+#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166CC6F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopNewGuestPopWindowController_Context_TypeDefinitionIndex = 78166;
+	inline static constexpr unsigned int UIFlowerShopNewGuestPopWindowController_Context_TypeDefinitionIndex = 67940;
 
 	class UIFlowerShopNewGuestPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -9,28 +9,28 @@ namespace System::Runtime::Remoting::Messaging { class RemotingSurrogate; }
 namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x19ED67B0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ED6910)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED67A0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x1C2D0430)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2D0590)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D0420)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int RemotingSurrogateSelector_TypeDefinitionIndex = 1366;
+	inline static constexpr unsigned int RemotingSurrogateSelector_TypeDefinitionIndex = 1365;
 
 	class RemotingSurrogateSelector : public ::System::Object
 	{
 	public:
-		static ::System::Type** StaticGet_s_cachedTypeObjRef()
+		static ::System::Runtime::Remoting::Messaging::RemotingSurrogate** StaticGet__objRemotingSurrogate()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(RemotingSurrogateSelector_TypeDefinitionIndex)->GetStaticField(0x910);
+			return (::System::Runtime::Remoting::Messaging::RemotingSurrogate**)Il2CppClass::FromTypeDefinitionIndex(RemotingSurrogateSelector_TypeDefinitionIndex)->GetStaticField(0x910);
 		}
 		static ::System::Runtime::Remoting::Messaging::ObjRefSurrogate** StaticGet__objRefSurrogate()
 		{
 			return (::System::Runtime::Remoting::Messaging::ObjRefSurrogate**)Il2CppClass::FromTypeDefinitionIndex(RemotingSurrogateSelector_TypeDefinitionIndex)->GetStaticField(0x918);
 		}
-		static ::System::Runtime::Remoting::Messaging::RemotingSurrogate** StaticGet__objRemotingSurrogate()
+		static ::System::Type** StaticGet_s_cachedTypeObjRef()
 		{
-			return (::System::Runtime::Remoting::Messaging::RemotingSurrogate**)Il2CppClass::FromTypeDefinitionIndex(RemotingSurrogateSelector_TypeDefinitionIndex)->GetStaticField(0x920);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(RemotingSurrogateSelector_TypeDefinitionIndex)->GetStaticField(0x920);
 		}
 		::System::Runtime::Serialization::ISurrogateSelector* _next; // 0x10
 

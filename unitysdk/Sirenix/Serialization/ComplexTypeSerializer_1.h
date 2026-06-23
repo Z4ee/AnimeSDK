@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ComplexTypeSerializer_1_TypeDefinitionIndex = 7408;
+	inline static constexpr unsigned int ComplexTypeSerializer_1_TypeDefinitionIndex = 7540;
 
 	template <typename T>
 	class ComplexTypeSerializer_1 : public ::Sirenix::Serialization::Serializer_1<T>

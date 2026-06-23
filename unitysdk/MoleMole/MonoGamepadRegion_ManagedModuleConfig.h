@@ -6,7 +6,7 @@ namespace MoleMole { class MonoGamepadModule; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadRegion_ManagedModuleConfig_TypeDefinitionIndex = 45694;
+	inline static constexpr unsigned int MonoGamepadRegion_ManagedModuleConfig_TypeDefinitionIndex = 62224;
 
 	struct alignas(8) MonoGamepadRegion_ManagedModuleConfig
 	{

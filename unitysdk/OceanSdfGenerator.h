@@ -14,9 +14,9 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 
-#define OCEANSDFGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B81CA0)
+#define OCEANSDFGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC13F20)
 
-inline static constexpr unsigned int OceanSdfGenerator_TypeDefinitionIndex = 29596;
+inline static constexpr unsigned int OceanSdfGenerator_TypeDefinitionIndex = 26953;
 
 class OceanSdfGenerator : public ::UnityEngine::MonoBehaviour
 {

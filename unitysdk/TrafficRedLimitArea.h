@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define TRAFFICREDLIMITAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2C2A0)
+#define TRAFFICREDLIMITAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x11EB1EC0)
 
-inline static constexpr unsigned int TrafficRedLimitArea_TypeDefinitionIndex = 64363;
+inline static constexpr unsigned int TrafficRedLimitArea_TypeDefinitionIndex = 43862;
 
 class TrafficRedLimitArea : public ::System::Object
 {

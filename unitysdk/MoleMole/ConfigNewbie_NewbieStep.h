@@ -11,12 +11,12 @@ namespace MoleMole { class ConfigNewbie_HighLightData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x16B52850)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x16B536F0)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x17E458B0)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x17E46820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 56124;
+	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 49748;
 
 	class ConfigNewbie_NewbieStep : public ::System::Object
 	{
@@ -39,6 +39,7 @@ namespace MoleMole
 		::MoleMole::ConfigNewbie_CircleEffect* CircleEffect; // 0x68
 		::MoleMole::ConfigNewbie_CircleEffect* ConsoleCircleEffect; // 0x70
 		::System::Boolean ForceHideCursor; // 0x78
+		::System::Boolean SendEndNewBieBeforeLastStepFadeout; // 0x79
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationControllerConst_TypeDefinitionIndex = 53646;
+	inline static constexpr unsigned int AnimationControllerConst_TypeDefinitionIndex = 81281;
 
 	class AnimationControllerConst : public ::System::Object
 	{

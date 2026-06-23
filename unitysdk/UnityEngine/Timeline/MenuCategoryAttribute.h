@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_MENUCATEGORYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0B8B0)
+#define UNITYENGINE_TIMELINE_MENUCATEGORYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE5FC20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MenuCategoryAttribute_TypeDefinitionIndex = 30866;
+	inline static constexpr unsigned int MenuCategoryAttribute_TypeDefinitionIndex = 32417;
 
 	class MenuCategoryAttribute : public ::System::Attribute
 	{

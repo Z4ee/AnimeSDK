@@ -5,12 +5,12 @@
 namespace Newtonsoft::Json::Serialization { class NamingStrategy; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS52_0__CREATEDICTIONARYCONTRACT_B__0_OFFSET UNITYSDK_OFFSET(0x1B5FC350)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F9860)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS52_0__CREATEDICTIONARYCONTRACT_B__0_OFFSET UNITYSDK_OFFSET(0x1D9C7770)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C4C80)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass52_0_TypeDefinitionIndex = 6973;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass52_0_TypeDefinitionIndex = 7104;
 
 	class DefaultContractResolver___c__DisplayClass52_0 : public ::System::Object
 	{

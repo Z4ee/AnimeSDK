@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectArrayPool_TypeDefinitionIndex = 8094;
+	inline static constexpr unsigned int ObjectArrayPool_TypeDefinitionIndex = 8277;
 
 	class ObjectArrayPool : public ::System::Object
 	{

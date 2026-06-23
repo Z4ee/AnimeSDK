@@ -6,13 +6,13 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x19A729D0)
-#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19A729F0)
-#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A72950)
+#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1BEE43B0)
+#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BEE43D0)
+#define SYSTEM_NET_OPENWRITECOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4330)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int OpenWriteCompletedEventArgs_TypeDefinitionIndex = 3461;
+	inline static constexpr unsigned int OpenWriteCompletedEventArgs_TypeDefinitionIndex = 3460;
 
 	class OpenWriteCompletedEventArgs : public ::System::ComponentModel::AsyncCompletedEventArgs
 	{

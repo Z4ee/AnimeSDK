@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINFOLLOWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1235ABE0)
+#define MOLEMOLE_MONOEFFECTPLUGINFOLLOWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x13F108D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginFollowCamera_TypeDefinitionIndex = 64129;
+	inline static constexpr unsigned int MonoEffectPluginFollowCamera_TypeDefinitionIndex = 64354;
 
 	class MonoEffectPluginFollowCamera : public ::UnityEngine::MonoBehaviour
 	{

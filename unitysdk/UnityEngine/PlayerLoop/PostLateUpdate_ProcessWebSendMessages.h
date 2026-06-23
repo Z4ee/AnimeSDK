@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ProcessWebSendMessages_TypeDefinitionIndex = 5637;
+	inline static constexpr unsigned int PostLateUpdate_ProcessWebSendMessages_TypeDefinitionIndex = 5639;
 
 	struct alignas(1) PostLateUpdate_ProcessWebSendMessages
 	{

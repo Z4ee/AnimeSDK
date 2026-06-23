@@ -3,7 +3,7 @@
 #include "unitysdk/System/Globalization/HebrewNumber_HebrewToken.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_HEBREWVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A97DDE0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_HEBREWVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8D750)
 
 namespace System::Globalization
 {

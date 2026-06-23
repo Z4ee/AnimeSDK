@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int LinuxNetworkChange_EventType_TypeDefinitionIndex = 3807;
+	inline static constexpr unsigned int LinuxNetworkChange_EventType_TypeDefinitionIndex = 3806;
 
 	enum class LinuxNetworkChange_EventType : ::System::Int32
 	{

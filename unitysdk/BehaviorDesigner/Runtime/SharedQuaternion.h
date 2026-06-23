@@ -3,12 +3,12 @@
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B04B820)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04B8F0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D4A9730)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A9800)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedQuaternion_TypeDefinitionIndex = 31740;
+	inline static constexpr unsigned int SharedQuaternion_TypeDefinitionIndex = 33291;
 
 	class SharedQuaternion : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Quaternion>
 	{

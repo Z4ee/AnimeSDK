@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_TeleportData_TypeDefinitionIndex = 57254;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_TeleportData_TypeDefinitionIndex = 67699;
 
 	struct alignas(4) NPCAbilityPathFollowProcessor_TeleportData
 	{

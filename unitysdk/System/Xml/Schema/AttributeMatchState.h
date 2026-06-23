@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int AttributeMatchState_TypeDefinitionIndex = 2087;
+	inline static constexpr unsigned int AttributeMatchState_TypeDefinitionIndex = 2086;
 
 	enum class AttributeMatchState : ::System::Int32
 	{

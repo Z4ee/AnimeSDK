@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_MATERIALEFFECTPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x947060)
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_MATERIALEFFECTPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E1000)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_MATERIALEFFECTPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x9E9480)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_MATERIALEFFECTPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2ADAB0)
 
 namespace UnityEngine::Experimental::Playables
 {
-	inline static constexpr unsigned int MaterialEffectPlayable_TypeDefinitionIndex = 6297;
+	inline static constexpr unsigned int MaterialEffectPlayable_TypeDefinitionIndex = 6323;
 
 	struct alignas(8) MaterialEffectPlayable
 	{

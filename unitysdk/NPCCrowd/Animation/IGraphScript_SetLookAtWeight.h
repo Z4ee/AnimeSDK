@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int IGraphScript_SetLookAtWeight_TypeDefinitionIndex = 61123;
+	inline static constexpr unsigned int IGraphScript_SetLookAtWeight_TypeDefinitionIndex = 84467;
 
 	class IGraphScript_SetLookAtWeight
 	{

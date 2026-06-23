@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_DYNAMICBONEPARA__CTOR_OFFSET UNITYSDK_OFFSET(0x11040FD0)
+#define MOLEMOLE_DYNAMICBONEPARA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4F490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DynamicBonePara_TypeDefinitionIndex = 62317;
+	inline static constexpr unsigned int DynamicBonePara_TypeDefinitionIndex = 49155;
 
 	class DynamicBonePara : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Specialized { class StringDictionary; }
 
-#define SYSTEM_DIAGNOSTICS_ENVIRONMENTBLOCK_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x18FB18F0)
+#define SYSTEM_DIAGNOSTICS_ENVIRONMENTBLOCK_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1B1BFA00)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int EnvironmentBlock_TypeDefinitionIndex = 2784;
+	inline static constexpr unsigned int EnvironmentBlock_TypeDefinitionIndex = 2783;
 
 	class EnvironmentBlock : public ::System::Object
 	{

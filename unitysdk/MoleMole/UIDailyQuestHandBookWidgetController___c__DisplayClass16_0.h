@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_D3704D04572A8616_Class_2_1CC09060E24A37CA_1;
+class Class_2_D3704D04572A8616_Class_2_1CC09060E24A37CA;
 namespace MoleMole { class UIDailyQuestHandBookWidgetController; }
 namespace System { class Action; }
 template <typename T> class Class_2_0D31A1661D004892;
 
-#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16788430)
-#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__PLAYPROGRESSPOINTDONEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x16788440)
-#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__PLAYPROGRESSPOINTDONEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x167888F0)
+#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187D6A00)
+#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__PLAYPROGRESSPOINTDONEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x187D6A10)
+#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS16_0__PLAYPROGRESSPOINTDONEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x187D6E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyQuestHandBookWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 69671;
+	inline static constexpr unsigned int UIDailyQuestHandBookWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 85072;
 
 	class UIDailyQuestHandBookWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Class_2_0D31A1661D004892<::Class_2_D3704D04572A8616_Class_2_1CC09060E24A37CA_1*>* progressPoint; // 0x10
-		::System::Action* __9__1; // 0x18
-		::System::Action* onFinish; // 0x20
+		::System::Action* onFinish; // 0x10
+		::Class_2_0D31A1661D004892<::Class_2_D3704D04572A8616_Class_2_1CC09060E24A37CA*>* progressPoint; // 0x18
+		::System::Action* __9__1; // 0x20
 		::MoleMole::UIDailyQuestHandBookWidgetController* __4__this; // 0x28
 		::System::Int32 level; // 0x30
 

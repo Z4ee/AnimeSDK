@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_MOVINGWALLCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16062510)
-#define MOLEMOLE_MOVINGWALLCONFIG___C__DISPLAYCLASS3_0__RELOADFROMFILEASYNC_G__LOADCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x16062520)
+#define MOLEMOLE_MOVINGWALLCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD74E0)
+#define MOLEMOLE_MOVINGWALLCONFIG___C__DISPLAYCLASS3_0__RELOADFROMFILEASYNC_G__LOADCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x12BD74F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MovingWallConfig___c__DisplayClass3_0_TypeDefinitionIndex = 63968;
+	inline static constexpr unsigned int MovingWallConfig___c__DisplayClass3_0_TypeDefinitionIndex = 76514;
 
 	class MovingWallConfig___c__DisplayClass3_0 : public ::System::Object
 	{

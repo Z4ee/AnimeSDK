@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TelerportSelectionTarget_Enum_3_ADC527EEFF9D3E75_TypeDefinitionIndex = 50149;
+	inline static constexpr unsigned int TelerportSelectionTarget_Enum_3_ADC527EEFF9D3E75_TypeDefinitionIndex = 84569;
 
 	enum class TelerportSelectionTarget_Enum_3_ADC527EEFF9D3E75 : ::System::Int32
 	{

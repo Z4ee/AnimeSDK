@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_2F3C7D4EFC74D485;
+class Class_3_7A7210476589789D_1;
+namespace MoleMole { class TitleNMedalTabContext; }
+
+#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D_METHOD_1_B657C97BCCA720F2_OFFSET UNITYSDK_OFFSET(0x13AC83A0)
+#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x13AC8270)
+#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC8260)
+
+inline static constexpr unsigned int Class_2_2F3C7D4EFC74D485_Class_1_2C7B4B3E9BEF321D_TypeDefinitionIndex = 63022;
+
+class Class_2_2F3C7D4EFC74D485_Class_1_2C7B4B3E9BEF321D : public ::System::Object
+{
+public:
+	::MoleMole::TitleNMedalTabContext* Field_1_1; // 0x10
+	::Class_2_2F3C7D4EFC74D485* Field_1_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E3DE31A03057E055()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D_METHOD_1_E3DE31A03057E055_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B657C97BCCA720F2(::Class_3_7A7210476589789D_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_7A7210476589789D_1*))((::PBYTE)hIl2Cpp + CLASS_2_2F3C7D4EFC74D485_CLASS_1_2C7B4B3E9BEF321D_METHOD_1_B657C97BCCA720F2_OFFSET))(this, a1);
+	}
+};

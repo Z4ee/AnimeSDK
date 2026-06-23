@@ -9,7 +9,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 55679;
+inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 82924;
 
 struct alignas(8) FNpcAvatarGenericParams_AccessoryInfo
 {
@@ -22,8 +22,9 @@ struct alignas(8) FNpcAvatarGenericParams_AccessoryInfo
 	::System::Boolean OverrideDefaultSlotOffset; // 0x30
 	::UnityEngine::Vector3 OffsetPosition; // 0x34
 	::UnityEngine::Quaternion OffsetRotation; // 0x40
-	::System::Boolean OverrideMaterials; // 0x50
-	::Il2CppArray<::Foundation::AssetPath>* OverrideMaterialPathList; // 0x58
-	::Il2CppArray<::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*>* OverridePropertyColorsArray; // 0x60
-	::Il2CppArray<::System::Int32>* AnimIDList; // 0x68
+	::UnityEngine::Vector3 OffsetScale; // 0x50
+	::System::Boolean OverrideMaterials; // 0x5C
+	::Il2CppArray<::Foundation::AssetPath>* OverrideMaterialPathList; // 0x60
+	::Il2CppArray<::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*>* OverridePropertyColorsArray; // 0x68
+	::Il2CppArray<::System::Int32>* AnimIDList; // 0x70
 };

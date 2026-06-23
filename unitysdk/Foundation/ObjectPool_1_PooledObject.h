@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class ObjectPool_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 7872;
+	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 7745;
 
 	template <typename T>
 	struct ObjectPool_1_PooledObject

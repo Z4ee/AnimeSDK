@@ -6,7 +6,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebParseError_TypeDefinitionIndex = 3371;
+	inline static constexpr unsigned int WebParseError_TypeDefinitionIndex = 3370;
 
 	struct alignas(4) WebParseError
 	{

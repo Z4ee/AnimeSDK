@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Activation { class IConstructionReturnMessa
 
 namespace System::Runtime::Remoting::Activation
 {
-	inline static constexpr unsigned int IActivator_TypeDefinitionIndex = 1314;
+	inline static constexpr unsigned int IActivator_TypeDefinitionIndex = 1313;
 
 	class IActivator
 	{

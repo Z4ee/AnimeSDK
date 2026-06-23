@@ -5,12 +5,12 @@
 namespace NodeCanvas::DialogueTrees { class Statement; }
 namespace NodeCanvas::Framework { class ConditionTask; }
 
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_CHOICE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B0B6210)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_CHOICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B6200)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_CHOICE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D5273A0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_CHOICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D527390)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int MultipleChoiceNode_Choice_TypeDefinitionIndex = 28130;
+	inline static constexpr unsigned int MultipleChoiceNode_Choice_TypeDefinitionIndex = 29187;
 
 	class MultipleChoiceNode_Choice : public ::System::Object
 	{

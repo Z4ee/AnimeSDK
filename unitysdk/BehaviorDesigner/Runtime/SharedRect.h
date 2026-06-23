@@ -3,12 +3,12 @@
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C266840)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C266910)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E5BD590)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BD660)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedRect_TypeDefinitionIndex = 31741;
+	inline static constexpr unsigned int SharedRect_TypeDefinitionIndex = 33292;
 
 	class SharedRect : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Rect>
 	{

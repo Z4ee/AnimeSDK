@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_765BE772598E3A58.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_ACTIVITYHOTPOTCARDSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x123F6380)
+#define MOLEMOLE_ACTIVITYHOTPOTCARDSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C48750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityHotPotCardSelectContext_TypeDefinitionIndex = 66594;
+	inline static constexpr unsigned int ActivityHotPotCardSelectContext_TypeDefinitionIndex = 62406;
 
 	class ActivityHotPotCardSelectContext : public ::MoleMole::UIControllerContextBase
 	{

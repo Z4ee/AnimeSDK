@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int Func_12_TypeDefinitionIndex = 4328;
+	inline static constexpr unsigned int Func_12_TypeDefinitionIndex = 4327;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename TResult>
 	class Func_12 : public ::System::MulticastDelegate

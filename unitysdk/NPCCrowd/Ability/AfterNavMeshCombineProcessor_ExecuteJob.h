@@ -2,11 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Container/HierarchicalHashGrid2D_2.h"
 #include "unitysdk/Foundation/Container/NativeHashSet_2.h"
+#include "unitysdk/NPCCrowd/Ability/CrowdSplineSnapshot.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityGhostLocationFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityPathFollowFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityPathFollowFragmentV2.h"
+#include "unitysdk/NPCCrowd/Ability/FNPCAbilitySplineFollowFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityStandingSteeringFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilitySteeringFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCCPUAnimatorFragment.h"
@@ -22,13 +24,13 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityParameters; }
 
-#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x631490)
-#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_SETMOVEMENTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x6314A0)
-#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_SETORIENTATIONPARAMETERS_OFFSET UNITYSDK_OFFSET(0x6314B0)
+#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6A5380)
+#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_SETMOVEMENTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x6A5390)
+#define NPCCROWD_ABILITY_AFTERNAVMESHCOMBINEPROCESSOR_EXECUTEJOB_SETORIENTATIONPARAMETERS_OFFSET UNITYSDK_OFFSET(0x6A53A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int AfterNavMeshCombineProcessor_ExecuteJob_TypeDefinitionIndex = 66645;
+	inline static constexpr unsigned int AfterNavMeshCombineProcessor_ExecuteJob_TypeDefinitionIndex = 43095;
 
 	struct alignas(8) AfterNavMeshCombineProcessor_ExecuteJob
 	{
@@ -45,12 +47,14 @@ namespace NPCCrowd::Ability
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform; // 0x108
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragment> runtime_pathFollow; // 0x118
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2> runtime_pathFollowV2; // 0x128
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> runtime_moveTarget; // 0x138
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment> runtime_animatorBufferData; // 0x148
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityStandingSteeringFragment> runtime_standingSteering; // 0x158
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityGhostLocationFragment> runtime_ghost; // 0x168
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment> runtime_movement; // 0x178
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment> ditherStateFragments; // 0x188
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilitySplineFollowFragment> runtime_splineFollow; // 0x138
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> runtime_moveTarget; // 0x148
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment> runtime_animatorBufferData; // 0x158
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityStandingSteeringFragment> runtime_standingSteering; // 0x168
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityGhostLocationFragment> runtime_ghost; // 0x178
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment> runtime_movement; // 0x188
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment> ditherStateFragments; // 0x198
+		::NPCCrowd::Ability::CrowdSplineSnapshot splineSnapshot; // 0x1A8
 
 		::System::Void Execute(::System::Int32 idx)
 		{

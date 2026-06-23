@@ -3,7 +3,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobThreadDelegatePriority_TypeDefinitionIndex = 5069;
+	inline static constexpr unsigned int JobThreadDelegatePriority_TypeDefinitionIndex = 5068;
 
 	enum class JobThreadDelegatePriority : ::System::Int32
 	{

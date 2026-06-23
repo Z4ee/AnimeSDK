@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_GET_SWITCHKEYARRAY_OFFSET UNITYSDK_OFFSET(0x1BBF64F0)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITLOGMODULECOLOR_OFFSET UNITYSDK_OFFSET(0x1BBF69C0)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1BBF6900)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITSWITCHKEYARRAY_OFFSET UNITYSDK_OFFSET(0x1BBF6530)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_RESETLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1BBF6680)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_GET_SWITCHKEYARRAY_OFFSET UNITYSDK_OFFSET(0x1E3733D0)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITLOGMODULECOLOR_OFFSET UNITYSDK_OFFSET(0x1E3738A0)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1E3737E0)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_INITSWITCHKEYARRAY_OFFSET UNITYSDK_OFFSET(0x1E373410)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEHELPER_RESETLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1E373560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug_LogModuleHelper_TypeDefinitionIndex = 7776;
+	inline static constexpr unsigned int SuperDebug_LogModuleHelper_TypeDefinitionIndex = 8066;
 
 	class SuperDebug_LogModuleHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__switchKeyArray()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_LogModuleHelper_TypeDefinitionIndex)->GetStaticField(0x7330);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_LogModuleHelper_TypeDefinitionIndex)->GetStaticField(0x74A0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::String*>* get_SwitchKeyArray()

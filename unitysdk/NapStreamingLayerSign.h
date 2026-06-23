@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define NAPSTREAMINGLAYERSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5D5B0)
+#define NAPSTREAMINGLAYERSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0xEBE18E0)
 
-inline static constexpr unsigned int NapStreamingLayerSign_TypeDefinitionIndex = 66668;
+inline static constexpr unsigned int NapStreamingLayerSign_TypeDefinitionIndex = 46225;
 
 class NapStreamingLayerSign : public ::UnityEngine::MonoBehaviour
 {

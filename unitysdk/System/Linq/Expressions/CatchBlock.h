@@ -7,26 +7,26 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1C070380)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x1C070390)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1C070370)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1C070360)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0703A0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C0703B0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C070440)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C070340)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1E38D2F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x1E38D300)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1E38D2E0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1E38D2D0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38D310)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E38D320)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E38D3B0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38D2B0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int CatchBlock_TypeDefinitionIndex = 4443;
+	inline static constexpr unsigned int CatchBlock_TypeDefinitionIndex = 4442;
 
 	class CatchBlock : public ::System::Object
 	{
 	public:
 		::System::Linq::Expressions::Expression* _Filter_k__BackingField; // 0x10
 		::System::Linq::Expressions::ParameterExpression* _Variable_k__BackingField; // 0x18
-		::System::Type* _Test_k__BackingField; // 0x20
-		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x28
+		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x20
+		::System::Type* _Test_k__BackingField; // 0x28
 
 		::System::Void _ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* filter)
 		{

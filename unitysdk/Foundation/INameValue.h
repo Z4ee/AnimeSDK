@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int INameValue_TypeDefinitionIndex = 9068;
+	inline static constexpr unsigned int INameValue_TypeDefinitionIndex = 8460;
 
 	class INameValue
 	{

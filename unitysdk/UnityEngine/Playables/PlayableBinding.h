@@ -7,15 +7,15 @@ namespace System { class Type; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableBinding_CreateOutputMethod; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AE76890)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUT_OFFSET UNITYSDK_OFFSET(0x947D70)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x28B580)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_STREAMNAME_OFFSET UNITYSDK_OFFSET(0x228FE0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE768B0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D2A7780)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUT_OFFSET UNITYSDK_OFFSET(0x9EA190)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x2A99F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_STREAMNAME_OFFSET UNITYSDK_OFFSET(0x246290)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2A77A0)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableBinding_TypeDefinitionIndex = 6263;
+	inline static constexpr unsigned int PlayableBinding_TypeDefinitionIndex = 6289;
 
 	struct alignas(8) PlayableBinding
 	{
@@ -25,7 +25,7 @@ namespace UnityEngine::Playables
 		}
 		static ::System::Double* StaticGet_DefaultDuration()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(PlayableBinding_TypeDefinitionIndex)->GetStaticField(0x2310);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(PlayableBinding_TypeDefinitionIndex)->GetStaticField(0x2320);
 		}
 		::System::String* m_StreamName; // 0x10
 		::UnityEngine::Object* m_SourceObject; // 0x18

@@ -7,7 +7,7 @@ class Class_1_566A03E0D2F6A738;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameSubsystemBaseEx_1_TypeDefinitionIndex = 78720;
+	inline static constexpr unsigned int GameSubsystemBaseEx_1_TypeDefinitionIndex = 52430;
 
 	template <typename T>
 	class GameSubsystemBaseEx_1 : public ::MoleMole::GameSubsystemBase

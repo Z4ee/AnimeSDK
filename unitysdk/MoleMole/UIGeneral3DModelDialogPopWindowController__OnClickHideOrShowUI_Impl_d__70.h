@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87.h"
+#include "unitysdk/Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskVoidMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
@@ -8,18 +8,18 @@
 namespace MoleMole { class UIGeneral3DModelDialogPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER__ONCLICKHIDEORSHOWUI_IMPL_D__70_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B80D0)
-#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER__ONCLICKHIDEORSHOWUI_IMPL_D__70_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER__ONCLICKHIDEORSHOWUI_IMPL_D__70_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x84E710)
+#define MOLEMOLE_UIGENERAL3DMODELDIALOGPOPWINDOWCONTROLLER__ONCLICKHIDEORSHOWUI_IMPL_D__70_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController__OnClickHideOrShowUI_Impl_d__70_TypeDefinitionIndex = 64391;
+	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController__OnClickHideOrShowUI_Impl_d__70_TypeDefinitionIndex = 55941;
 
 	struct alignas(8) UIGeneral3DModelDialogPopWindowController__OnClickHideOrShowUI_Impl_d__70
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
 		::MoleMole::UIGeneral3DModelDialogPopWindowController* __4__this; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87> __u__1; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x20
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

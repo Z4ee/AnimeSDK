@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapTransformData_TypeDefinitionIndex = 6565;
+	inline static constexpr unsigned int NapTransformData_TypeDefinitionIndex = 6647;
 
 	struct alignas(4) NapTransformData
 	{

@@ -6,7 +6,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Line2Line2Intr_TypeDefinitionIndex = 33121;
+	inline static constexpr unsigned int Line2Line2Intr_TypeDefinitionIndex = 34684;
 
 	struct alignas(4) Line2Line2Intr
 	{

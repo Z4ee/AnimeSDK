@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int InlinedArray_1_Enumerator_TypeDefinitionIndex = 29392;
+	inline static constexpr unsigned int InlinedArray_1_Enumerator_TypeDefinitionIndex = 32048;
 
 	template <typename TValue>
 	struct InlinedArray_1_Enumerator

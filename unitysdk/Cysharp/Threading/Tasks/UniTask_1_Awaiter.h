@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_Awaiter_TypeDefinitionIndex = 28624;
+	inline static constexpr unsigned int UniTask_1_Awaiter_TypeDefinitionIndex = 31280;
 
 	template <typename T>
 	struct UniTask_1_Awaiter

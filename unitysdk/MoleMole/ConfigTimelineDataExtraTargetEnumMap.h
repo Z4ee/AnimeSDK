@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTIMELINEDATAEXTRATARGETENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x186CB590)
+#define MOLEMOLE_CONFIGTIMELINEDATAEXTRATARGETENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE5040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineDataExtraTargetEnumMap_TypeDefinitionIndex = 72430;
+	inline static constexpr unsigned int ConfigTimelineDataExtraTargetEnumMap_TypeDefinitionIndex = 82899;
 
 	class ConfigTimelineDataExtraTargetEnumMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{

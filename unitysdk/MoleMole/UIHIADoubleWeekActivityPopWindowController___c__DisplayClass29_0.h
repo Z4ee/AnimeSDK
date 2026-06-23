@@ -6,12 +6,12 @@ class Class_3_31FA216B8128BBFD_5;
 namespace MoleMole { class UIHIADoubleWeekActivityPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x151CD750)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS29_0__SHOWBINGOTIP_B__0_OFFSET UNITYSDK_OFFSET(0x151CD760)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x171F6230)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS29_0__SHOWBINGOTIP_B__0_OFFSET UNITYSDK_OFFSET(0x171F6240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass29_0_TypeDefinitionIndex = 42161;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass29_0_TypeDefinitionIndex = 50903;
 
 	class UIHIADoubleWeekActivityPopWindowController___c__DisplayClass29_0 : public ::System::Object
 	{

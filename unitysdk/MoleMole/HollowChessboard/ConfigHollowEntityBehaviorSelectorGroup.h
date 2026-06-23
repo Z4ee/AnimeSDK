@@ -7,12 +7,12 @@ namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace MoleMole::HollowChessboard { class IConfigHollowEntityBehaviorSelection; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTORGROUP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16050000)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16050370)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTORGROUP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12BC5440)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC57B0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectorGroup_TypeDefinitionIndex = 41248;
+	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectorGroup_TypeDefinitionIndex = 60261;
 
 	class ConfigHollowEntityBehaviorSelectorGroup : public ::System::Object
 	{

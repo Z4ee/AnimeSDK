@@ -6,7 +6,7 @@ namespace System::Net::NetworkInformation { class NetworkAvailabilityChangedEven
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int INetworkChange_TypeDefinitionIndex = 3799;
+	inline static constexpr unsigned int INetworkChange_TypeDefinitionIndex = 3798;
 
 	class INetworkChange
 	{

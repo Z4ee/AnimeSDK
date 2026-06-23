@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDANIMATIONCURVE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BA9FE50)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9FF10)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDANIMATIONCURVE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1DE03D40)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE03E00)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedAnimationCurve_TypeDefinitionIndex = 31723;
+	inline static constexpr unsigned int SharedAnimationCurve_TypeDefinitionIndex = 33274;
 
 	class SharedAnimationCurve : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::AnimationCurve*>
 	{

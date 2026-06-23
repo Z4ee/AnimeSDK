@@ -5,11 +5,11 @@
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaRedefine; }
 
-#define SYSTEM_XML_SCHEMA_REDEFINEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE87A80)
+#define SYSTEM_XML_SCHEMA_REDEFINEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1830)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int RedefineEntry_TypeDefinitionIndex = 2075;
+	inline static constexpr unsigned int RedefineEntry_TypeDefinitionIndex = 2074;
 
 	class RedefineEntry : public ::System::Object
 	{

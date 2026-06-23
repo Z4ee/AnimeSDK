@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RBDDESTRUCTION_GROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F26C0)
+#define RBDDESTRUCTION_GROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C435F50)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int GroupData_TypeDefinitionIndex = 29701;
+	inline static constexpr unsigned int GroupData_TypeDefinitionIndex = 26661;
 
 	class GroupData : public ::System::Object
 	{

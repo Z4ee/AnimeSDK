@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int KFrameFieldType_TypeDefinitionIndex = 30742;
+	inline static constexpr unsigned int KFrameFieldType_TypeDefinitionIndex = 32293;
 
 	enum class KFrameFieldType : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace System::Collections { class IDictionaryEnumerator; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IDictionary_TypeDefinitionIndex = 1468;
+	inline static constexpr unsigned int IDictionary_TypeDefinitionIndex = 1467;
 
 	class IDictionary
 	{

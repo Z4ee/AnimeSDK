@@ -6,10 +6,10 @@
 namespace MoleMole::SceneMark { class StageTweenAnimData; }
 namespace System { class String; }
 
-#define CLASS_1_C4156CC052262364_METHOD_1_DE81A84862645066_OFFSET UNITYSDK_OFFSET(0x15165C90)
-#define CLASS_1_C4156CC052262364__CTOR_OFFSET UNITYSDK_OFFSET(0x15165C40)
+#define CLASS_1_C4156CC052262364_METHOD_1_DE81A84862645066_OFFSET UNITYSDK_OFFSET(0x11348090)
+#define CLASS_1_C4156CC052262364__CTOR_OFFSET UNITYSDK_OFFSET(0x11348040)
 
-inline static constexpr unsigned int Class_1_C4156CC052262364_TypeDefinitionIndex = 80312;
+inline static constexpr unsigned int Class_1_C4156CC052262364_TypeDefinitionIndex = 55617;
 
 class Class_1_C4156CC052262364 : public ::System::Object
 {

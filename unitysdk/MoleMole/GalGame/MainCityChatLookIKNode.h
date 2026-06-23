@@ -3,27 +3,27 @@
 #include "unitysdk/MoleMole/GalGame/MainCityChatIKType.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatPlayableNodeBase.h"
 
-class Class_1_328B10E9F3553A0D;
+class Class_1_2D5DADE6FF36AA79;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class LookIKCfg; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_GETLOOKIKCFG_OFFSET UNITYSDK_OFFSET(0x16D49440)
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x16D494F0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D494E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_GETLOOKIKCFG_OFFSET UNITYSDK_OFFSET(0x1261DE40)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1261DEF0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1261DEE0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatLookIKNode_TypeDefinitionIndex = 46085;
+	inline static constexpr unsigned int MainCityChatLookIKNode_TypeDefinitionIndex = 40413;
 
 	class MainCityChatLookIKNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::String* GroupMember; // 0x18
-		::System::String* IKMemberParam; // 0x20
-		::System::Boolean Enable; // 0x28
-		::MoleMole::GalGame::MainCityChatIKType IKType; // 0x2C
+		::System::String* IKMemberParam; // 0x18
+		::System::String* GroupMember; // 0x20
+		::MoleMole::GalGame::MainCityChatIKType IKType; // 0x28
+		::System::Boolean Enable; // 0x2C
 		::System::Int32 AvatarID; // 0x30
 		::System::Int32 IKParam; // 0x34
 
@@ -37,9 +37,9 @@ namespace MoleMole::GalGame
 			return ((::MoleMole::GalGame::LookIKCfg*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_GETLOOKIKCFG_OFFSET))(this);
 		}
 
-		::Class_1_328B10E9F3553A0D* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
+		::Class_1_2D5DADE6FF36AA79* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
 		{
-			return ((::Class_1_328B10E9F3553A0D*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET))(this, controller, context);
+			return ((::Class_1_2D5DADE6FF36AA79*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET))(this, controller, context);
 		}
 	};
 }

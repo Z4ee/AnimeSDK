@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IDownloader_TypeDefinitionIndex = 7963;
+	inline static constexpr unsigned int IDownloader_TypeDefinitionIndex = 8058;
 
 	class IDownloader
 	{

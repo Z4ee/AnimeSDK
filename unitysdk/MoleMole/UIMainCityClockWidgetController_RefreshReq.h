@@ -3,19 +3,19 @@
 #include "unitysdk/System/DayOfWeek.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ_ISVALID_OFFSET UNITYSDK_OFFSET(0x7AC630)
-#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ__CCTOR_OFFSET UNITYSDK_OFFSET(0x160B8C90)
-#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ__CTOR_OFFSET UNITYSDK_OFFSET(0x3EABD0)
+#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ_ISVALID_OFFSET UNITYSDK_OFFSET(0x80E6F0)
+#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D73580)
+#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER_REFRESHREQ__CTOR_OFFSET UNITYSDK_OFFSET(0x4E6C30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityClockWidgetController_RefreshReq_TypeDefinitionIndex = 53264;
+	inline static constexpr unsigned int UIMainCityClockWidgetController_RefreshReq_TypeDefinitionIndex = 69181;
 
 	struct alignas(4) UIMainCityClockWidgetController_RefreshReq
 	{
 		static ::MoleMole::UIMainCityClockWidgetController_RefreshReq* StaticGet_INVALID()
 		{
-			return (::MoleMole::UIMainCityClockWidgetController_RefreshReq*)Il2CppClass::FromTypeDefinitionIndex(UIMainCityClockWidgetController_RefreshReq_TypeDefinitionIndex)->GetStaticField(0xE700);
+			return (::MoleMole::UIMainCityClockWidgetController_RefreshReq*)Il2CppClass::FromTypeDefinitionIndex(UIMainCityClockWidgetController_RefreshReq_TypeDefinitionIndex)->GetStaticField(0xEE50);
 		}
 		::System::DayOfWeek dayOfWeek; // 0x10
 		::System::Int32 hours; // 0x14

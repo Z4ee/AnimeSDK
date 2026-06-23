@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIHandBookPopWindowController_EHandBookTab.h"
 
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x149F8760)
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x149F87C0)
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x149F87D0)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x16AB4730)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB4790)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x16AB47F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookPopContext_TypeDefinitionIndex = 46789;
+	inline static constexpr unsigned int UIHandBookPopContext_TypeDefinitionIndex = 50571;
 
 	class UIHandBookPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 ModuleID; // 0x28
-		::MoleMole::UIHandBookPopWindowController_EHandBookTab startTab; // 0x2C
+		::MoleMole::UIHandBookPopWindowController_EHandBookTab startTab; // 0x28
+		::System::Int32 ModuleID; // 0x2C
 		::System::Int32 trainQuestID; // 0x30
 
 		::System::Void _ctor()

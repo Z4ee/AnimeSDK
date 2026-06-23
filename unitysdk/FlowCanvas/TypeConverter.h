@@ -5,12 +5,12 @@
 namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_TYPECONVERTER_HASCONVERTION_OFFSET UNITYSDK_OFFSET(0x1B49D5C0)
-#define FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_OFFSET UNITYSDK_OFFSET(0x1B49D640)
+#define FLOWCANVAS_TYPECONVERTER_HASCONVERTION_OFFSET UNITYSDK_OFFSET(0x1D83D830)
+#define FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_OFFSET UNITYSDK_OFFSET(0x1D83D8B0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 27334;
+	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 29447;
 
 	class TypeConverter : public ::System::Object
 	{

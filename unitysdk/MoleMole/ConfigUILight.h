@@ -6,12 +6,12 @@ namespace MoleMole { class ConfigUILightParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUILIGHT_GETPARAMBYKEY_OFFSET UNITYSDK_OFFSET(0xFB17D50)
-#define MOLEMOLE_CONFIGUILIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB17ED0)
+#define MOLEMOLE_CONFIGUILIGHT_GETPARAMBYKEY_OFFSET UNITYSDK_OFFSET(0xE986260)
+#define MOLEMOLE_CONFIGUILIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xE9863E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUILight_TypeDefinitionIndex = 78077;
+	inline static constexpr unsigned int ConfigUILight_TypeDefinitionIndex = 63541;
 
 	class ConfigUILight : public ::Foundation::MihoyoSerializedScriptableObject
 	{

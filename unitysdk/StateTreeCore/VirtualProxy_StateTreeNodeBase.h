@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C4D74D0)
-#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C4D7590)
-#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_LINK_OFFSET UNITYSDK_OFFSET(0x1C4D7530)
-#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D7630)
+#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E80AB70)
+#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E80AC30)
+#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_LINK_OFFSET UNITYSDK_OFFSET(0x1E80ABD0)
+#define STATETREECORE_VIRTUALPROXY_STATETREENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E80ACD0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualProxy_StateTreeNodeBase_TypeDefinitionIndex = 28338;
+	inline static constexpr unsigned int VirtualProxy_StateTreeNodeBase_TypeDefinitionIndex = 30990;
 
 	class VirtualProxy_StateTreeNodeBase : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace StateTreeCore
 			return ((::UnrealTypes::DataValidationResult(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeDataView))((::PBYTE)hIl2Cpp + STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_COMPILE_OFFSET))(this, self, instanceDataView);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + STATETREECORE_VIRTUALPROXY_STATETREENODEBASE_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

@@ -3,12 +3,12 @@
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int IGraphNode_NodeState_TypeDefinitionIndex = 45142;
+	inline static constexpr unsigned int IGraphNode_NodeState_TypeDefinitionIndex = 70568;
 
 	enum class IGraphNode_NodeState : ::System::Int32
 	{
-		Done = 2,
-		Create = 0,
 		Active = 1,
+		Create = 0,
+		Done = 2,
 	};
 }

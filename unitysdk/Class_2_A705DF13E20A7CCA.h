@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UICoopLevelLockDialogPopWindowController_Context; }
+namespace System::Collections { class IEnumerable; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_4307B2A4B4A12C1A_1_OFFSET UNITYSDK_OFFSET(0x13E56FF0)
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x13E56D40)
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_A7059CD7DD0C03BC_OFFSET UNITYSDK_OFFSET(0x13E56850)
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x13E568E0)
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13E56CB0)
+#define CLASS_2_A705DF13E20A7CCA_METHOD_2_FA052527C47A07CA_OFFSET UNITYSDK_OFFSET(0x13E56E50)
+#define CLASS_2_A705DF13E20A7CCA__CTOR_OFFSET UNITYSDK_OFFSET(0x13E56C60)
+
+inline static constexpr unsigned int Class_2_A705DF13E20A7CCA_TypeDefinitionIndex = 61998;
+
+class Class_2_A705DF13E20A7CCA : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC419505_165<::MoleMole::UICoopLevelLockDialogPopWindowController_Context*>* Field_2_0; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A7059CD7DD0C03BC(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_A7059CD7DD0C03BC_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_C638E91FC0D3A13A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_C638E91FC0D3A13A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4307B2A4B4A12C1A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_4307B2A4B4A12C1A_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerable* Method_2_FA052527C47A07CA()
+	{
+		return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_FA052527C47A07CA_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4307B2A4B4A12C1A_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A705DF13E20A7CCA_METHOD_2_4307B2A4B4A12C1A_1_OFFSET))(this);
+	}
+};

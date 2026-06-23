@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_SHOWRECONNECTPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1606CFD0)
-#define MOLEMOLE_SHOWRECONNECTPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1606D010)
-#define MOLEMOLE_SHOWRECONNECTPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1606CFE0)
+#define MOLEMOLE_SHOWRECONNECTPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12BE0E80)
+#define MOLEMOLE_SHOWRECONNECTPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12BE0EC0)
+#define MOLEMOLE_SHOWRECONNECTPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x12BE0E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShowReconnectPopShow_TypeDefinitionIndex = 52217;
+	inline static constexpr unsigned int ShowReconnectPopShow_TypeDefinitionIndex = 41136;
 
 	class ShowReconnectPopShow : public ::MoleMole::DisplayMessageBase
 	{

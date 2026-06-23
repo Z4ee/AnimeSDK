@@ -6,12 +6,12 @@
 
 namespace MoleMole { class MonoTerrainSubZone3D; }
 
-#define MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x12FA4D40)
-#define MOLEMOLE_MONOTERRAINZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x12FA4DA0)
+#define MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x141994A0)
+#define MOLEMOLE_MONOTERRAINZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x14199500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainZone3D_TypeDefinitionIndex = 50930;
+	inline static constexpr unsigned int MonoTerrainZone3D_TypeDefinitionIndex = 66988;
 
 	class MonoTerrainZone3D : public ::MoleMole::MonoZone3D_1<::MoleMole::MonoTerrainSubZone3D*>
 	{

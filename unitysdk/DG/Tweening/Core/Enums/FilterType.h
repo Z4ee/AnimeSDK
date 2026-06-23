@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core::Enums
 {
-	inline static constexpr unsigned int FilterType_TypeDefinitionIndex = 25505;
+	inline static constexpr unsigned int FilterType_TypeDefinitionIndex = 27996;
 
 	enum class FilterType : ::System::Int32
 	{

@@ -7,20 +7,20 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class EntityData; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1603E940)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1603EAE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1603EBC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1603EC00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE_GETENTITY_OFFSET UNITYSDK_OFFSET(0x12BB2030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BB21D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB22B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYBYENTITYDATANODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x12BB22F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetEntityByEntityDataNode_TypeDefinitionIndex = 51533;
+	inline static constexpr unsigned int LDGetEntityByEntityDataNode_TypeDefinitionIndex = 87246;
 
 	class LDGetEntityByEntityDataNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntityData*>* inputValue; // 0xA8
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* outputValue; // 0xB0
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* outputValue; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntityData*>* inputValue; // 0xB0
 
 		::System::Void _ctor()
 		{

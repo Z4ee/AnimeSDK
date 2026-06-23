@@ -8,25 +8,25 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_FLUSHALLREQUEST_OFFSET UNITYSDK_OFFSET(0x19A95A60)
-#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_REMOVEDEFERMARKDIRTYREQUEST_OFFSET UNITYSDK_OFFSET(0x19A95AD0)
-#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_REQUIREDEFERMARKDIRTY_OFFSET UNITYSDK_OFFSET(0x19A957E0)
-#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A95BA0)
+#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_FLUSHALLREQUEST_OFFSET UNITYSDK_OFFSET(0x1C6B84D0)
+#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_REMOVEDEFERMARKDIRTYREQUEST_OFFSET UNITYSDK_OFFSET(0x1C6B8540)
+#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY_REQUIREDEFERMARKDIRTY_OFFSET UNITYSDK_OFFSET(0x1C6B8250)
+#define UNITYENGINE_UI_EXTENSION_UILOCALIZATIONTEXT_DEFERMARKDIRTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6B8610)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILocalizationText_DeferMarkDirty_TypeDefinitionIndex = 70840;
+	inline static constexpr unsigned int UILocalizationText_DeferMarkDirty_TypeDefinitionIndex = 45422;
 
 	class UILocalizationText_DeferMarkDirty : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Extension::UILocalizationText*>** StaticGet__requests()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Extension::UILocalizationText*>**)Il2CppClass::FromTypeDefinitionIndex(UILocalizationText_DeferMarkDirty_TypeDefinitionIndex)->GetStaticField(0x3D650);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Extension::UILocalizationText*>**)Il2CppClass::FromTypeDefinitionIndex(UILocalizationText_DeferMarkDirty_TypeDefinitionIndex)->GetStaticField(0x3FBA0);
 		}
 		static ::Foundation::Coroutine::CoroutineHandle* StaticGet__deferHandle()
 		{
-			return (::Foundation::Coroutine::CoroutineHandle*)Il2CppClass::FromTypeDefinitionIndex(UILocalizationText_DeferMarkDirty_TypeDefinitionIndex)->GetStaticField(0xEFC0);
+			return (::Foundation::Coroutine::CoroutineHandle*)Il2CppClass::FromTypeDefinitionIndex(UILocalizationText_DeferMarkDirty_TypeDefinitionIndex)->GetStaticField(0xF5E0);
 		}
 
 		static ::System::Void _cctor()

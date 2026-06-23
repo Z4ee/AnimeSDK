@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EntityDieCheckType_TypeDefinitionIndex = 43152;
+	inline static constexpr unsigned int EntityDieCheckType_TypeDefinitionIndex = 74929;
 
 	enum class EntityDieCheckType : ::System::Int32
 	{
-		DeadShot = 2,
 		EntityDestroy = 1,
+		DeadShot = 2,
 		ZeroHp = 0,
 	};
 }

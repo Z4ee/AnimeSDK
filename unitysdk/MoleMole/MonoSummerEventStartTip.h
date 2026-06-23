@@ -7,13 +7,13 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_METHOD_5_1D9AD08B174D2098_OFFSET UNITYSDK_OFFSET(0x15B427A0)
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET UNITYSDK_OFFSET(0x15B425B0)
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15B42830)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_METHOD_5_1D9AD08B174D2098_OFFSET UNITYSDK_OFFSET(0x17DD9A40)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET UNITYSDK_OFFSET(0x17DD9850)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD9AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSummerEventStartTip_TypeDefinitionIndex = 50022;
+	inline static constexpr unsigned int MonoSummerEventStartTip_TypeDefinitionIndex = 77793;
 
 	class MonoSummerEventStartTip : public ::UnityEngine::MonoBehaviour
 	{

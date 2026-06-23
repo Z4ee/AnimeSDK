@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InputActionDispatchPriority_TypeDefinitionIndex = 46793;
+	inline static constexpr unsigned int InputActionDispatchPriority_TypeDefinitionIndex = 41306;
 
 	enum class InputActionDispatchPriority : ::System::Int32
 	{
-		Normal = 0,
-		High = 1,
-		Critical = 2,
 		Low = -1,
+		High = 1,
+		Normal = 0,
+		Critical = 2,
 	};
 }

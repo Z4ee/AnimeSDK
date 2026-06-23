@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_INTERACTIONTRIGGERENDSUDDENEVENTEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1232EAA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_INTERACTIONTRIGGERENDSUDDENEVENTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1232EAE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_INTERACTIONTRIGGERENDSUDDENEVENTEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x13ED8140)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_INTERACTIONTRIGGERENDSUDDENEVENTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED8180)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_InteractionTriggerEndSuddenEventEvent_TypeDefinitionIndex = 52361;
+	inline static constexpr unsigned int LD_AbyssS2_InteractionTriggerEndSuddenEventEvent_TypeDefinitionIndex = 55305;
 
 	class LD_AbyssS2_InteractionTriggerEndSuddenEventEvent : public ::MoleMole::FlowCanvas::Nodes::InLevelInteractionEventNode_1<::MoleMole::FlowCanvas::Nodes::InteractionEndSuddenEventMsg>
 	{

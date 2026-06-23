@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/NPCCrowd/Animation/MontageData.h"
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xCE62540)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CD9F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageAsset_TypeDefinitionIndex = 75974;
+	inline static constexpr unsigned int NPCCrowdMontageAsset_TypeDefinitionIndex = 42079;
 
 	class NPCCrowdMontageAsset : public ::Foundation::MihoyoSerializedScriptableObject
 	{

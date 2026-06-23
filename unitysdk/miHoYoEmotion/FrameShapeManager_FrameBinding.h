@@ -7,12 +7,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMEBINDING_APPLY_OFFSET UNITYSDK_OFFSET(0x1979C110)
-#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1979C4B0)
+#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMEBINDING_APPLY_OFFSET UNITYSDK_OFFSET(0x1BB08AC0)
+#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB08E60)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameShapeManager_FrameBinding_TypeDefinitionIndex = 37724;
+	inline static constexpr unsigned int FrameShapeManager_FrameBinding_TypeDefinitionIndex = 39338;
 
 	class FrameShapeManager_FrameBinding : public ::System::Object
 	{

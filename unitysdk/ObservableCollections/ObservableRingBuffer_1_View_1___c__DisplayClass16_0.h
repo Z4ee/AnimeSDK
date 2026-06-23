@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableRingBuffer_1_View_1___c__DisplayClass16_0_TypeDefinitionIndex = 25659;
+	inline static constexpr unsigned int ObservableRingBuffer_1_View_1___c__DisplayClass16_0_TypeDefinitionIndex = 28146;
 
 	template <typename T, typename TView>
 	class ObservableRingBuffer_1_View_1___c__DisplayClass16_0 : public ::System::Object

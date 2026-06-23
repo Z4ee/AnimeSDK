@@ -6,9 +6,9 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MONOUIIMAGEARRAY_CHILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D94BA0)
+#define MONOUIIMAGEARRAY_CHILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1950FE30)
 
-inline static constexpr unsigned int MonoUIImageArray_ChildData_TypeDefinitionIndex = 51916;
+inline static constexpr unsigned int MonoUIImageArray_ChildData_TypeDefinitionIndex = 48464;
 
 class MonoUIImageArray_ChildData : public ::System::Object
 {

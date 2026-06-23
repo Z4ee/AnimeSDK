@@ -4,12 +4,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateData; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E178D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10E17AC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18B2E9A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2EB90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_MonsterCreateData_TypeDefinitionIndex = 81496;
+	inline static constexpr unsigned int LD_MonsterCreateData_TypeDefinitionIndex = 69004;
 
 	class LD_MonsterCreateData : public ::MoleMole::FlowCanvas::Nodes::ObjectFunctionNode_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>
 	{

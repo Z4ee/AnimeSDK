@@ -6,9 +6,9 @@ namespace MoleMole::Config { class ConfigCameraShakes; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_ADA90F6FF4FE19C6__CTOR_OFFSET UNITYSDK_OFFSET(0x10829630)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_ADA90F6FF4FE19C6__CTOR_OFFSET UNITYSDK_OFFSET(0x13CCEFA0)
 
-inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_ADA90F6FF4FE19C6_TypeDefinitionIndex = 60501;
+inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_ADA90F6FF4FE19C6_TypeDefinitionIndex = 85496;
 
 class Class_1_6D3799F67B8415DA_Class_1_ADA90F6FF4FE19C6 : public ::System::Object
 {

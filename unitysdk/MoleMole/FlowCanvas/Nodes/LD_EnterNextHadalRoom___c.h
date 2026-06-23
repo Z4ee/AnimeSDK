@@ -5,24 +5,24 @@
 class Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x160475C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16047600)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C___TRYLOADNEXTHADALROOM_B__9_1_OFFSET UNITYSDK_OFFSET(0x16047610)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BBAD30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBAD70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERNEXTHADALROOM___C___TRYLOADNEXTHADALROOM_B__9_1_OFFSET UNITYSDK_OFFSET(0x12BBAD80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_EnterNextHadalRoom___c_TypeDefinitionIndex = 71350;
+	inline static constexpr unsigned int LD_EnterNextHadalRoom___c_TypeDefinitionIndex = 42652;
 
 	class LD_EnterNextHadalRoom___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::FlowCanvas::Nodes::LD_EnterNextHadalRoom___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LD_EnterNextHadalRoom___c**)Il2CppClass::FromTypeDefinitionIndex(LD_EnterNextHadalRoom___c_TypeDefinitionIndex)->GetStaticField(0x3C620);
+			return (::MoleMole::FlowCanvas::Nodes::LD_EnterNextHadalRoom___c**)Il2CppClass::FromTypeDefinitionIndex(LD_EnterNextHadalRoom___c_TypeDefinitionIndex)->GetStaticField(0x3EBC0);
 		}
 		static ::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>** StaticGet___9__9_1()
 		{
-			return (::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>**)Il2CppClass::FromTypeDefinitionIndex(LD_EnterNextHadalRoom___c_TypeDefinitionIndex)->GetStaticField(0x3C628);
+			return (::System::Action_1<::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*>**)Il2CppClass::FromTypeDefinitionIndex(LD_EnterNextHadalRoom___c_TypeDefinitionIndex)->GetStaticField(0x3EBC8);
 		}
 
 		static ::System::Void _cctor()

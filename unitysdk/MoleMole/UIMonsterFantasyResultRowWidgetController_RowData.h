@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyResultRowWidgetController_RowData_TypeDefinitionIndex = 68794;
+	inline static constexpr unsigned int UIMonsterFantasyResultRowWidgetController_RowData_TypeDefinitionIndex = 63981;
 
 	struct alignas(8) UIMonsterFantasyResultRowWidgetController_RowData
 	{

@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_INPUTANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x16051500)
+#define MOLEMOLE_INPUTANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC6940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InputAnimBlocker_TypeDefinitionIndex = 76928;
+	inline static constexpr unsigned int InputAnimBlocker_TypeDefinitionIndex = 81523;
 
 	class InputAnimBlocker : public ::System::Object
 	{

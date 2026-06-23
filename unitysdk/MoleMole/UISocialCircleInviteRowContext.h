@@ -5,11 +5,11 @@
 class Class_1_BE6BF7909AD9D940;
 class Class_2_DF2C726EEEEC912D;
 
-#define MOLEMOLE_UISOCIALCIRCLEINVITEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152369E0)
+#define MOLEMOLE_UISOCIALCIRCLEINVITEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122AF8F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleInviteRowContext_TypeDefinitionIndex = 48768;
+	inline static constexpr unsigned int UISocialCircleInviteRowContext_TypeDefinitionIndex = 40133;
 
 	class UISocialCircleInviteRowContext : public ::MoleMole::UIControllerContextBase
 	{

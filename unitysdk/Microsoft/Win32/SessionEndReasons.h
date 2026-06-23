@@ -3,7 +3,7 @@
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int SessionEndReasons_TypeDefinitionIndex = 4298;
+	inline static constexpr unsigned int SessionEndReasons_TypeDefinitionIndex = 4297;
 
 	enum class SessionEndReasons : ::System::Int32
 	{

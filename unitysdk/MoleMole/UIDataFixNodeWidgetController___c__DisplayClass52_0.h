@@ -5,18 +5,18 @@
 namespace MoleMole { class UIDataFixNodeWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EEBA10)
-#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS52_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x16EEBA20)
+#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA8EC0)
+#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS52_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x19DA8ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataFixNodeWidgetController___c__DisplayClass52_0_TypeDefinitionIndex = 44491;
+	inline static constexpr unsigned int UIDataFixNodeWidgetController___c__DisplayClass52_0_TypeDefinitionIndex = 75657;
 
 	class UIDataFixNodeWidgetController___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::MoleMole::UIDataFixNodeWidgetController* __4__this; // 0x18
+		::MoleMole::UIDataFixNodeWidgetController* __4__this; // 0x10
+		::System::Action* callback; // 0x18
 
 		::System::Void _ctor()
 		{

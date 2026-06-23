@@ -5,7 +5,7 @@
 
 namespace MS::Internal::Xml::Cache
 {
-	inline static constexpr unsigned int XPathNodePageInfo_TypeDefinitionIndex = 1659;
+	inline static constexpr unsigned int XPathNodePageInfo_TypeDefinitionIndex = 1658;
 
 	class XPathNodePageInfo : public ::System::Object
 	{

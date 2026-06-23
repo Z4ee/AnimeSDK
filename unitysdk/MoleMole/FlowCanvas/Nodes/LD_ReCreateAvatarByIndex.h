@@ -6,20 +6,20 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX_PROCESS_OFFSET UNITYSDK_OFFSET(0x1499F780)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1499F690)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1499FB70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1499FBB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX_PROCESS_OFFSET UNITYSDK_OFFSET(0x171147D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x171146E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x17114BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECREATEAVATARBYINDEX__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x17114C00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReCreateAvatarByIndex_TypeDefinitionIndex = 77797;
+	inline static constexpr unsigned int LD_ReCreateAvatarByIndex_TypeDefinitionIndex = 60330;
 
 	class LD_ReCreateAvatarByIndex : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* TargetAvatarIndex; // 0xA8
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* TargetAvatarIndex; // 0xB0
 
 		::System::Void _ctor()
 		{

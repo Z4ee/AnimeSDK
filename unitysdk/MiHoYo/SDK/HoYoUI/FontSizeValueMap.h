@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADF5860)
+#define MIHOYO_SDK_HOYOUI_FONTSIZEVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D265EC0)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int FontSizeValueMap_TypeDefinitionIndex = 35494;
+	inline static constexpr unsigned int FontSizeValueMap_TypeDefinitionIndex = 37094;
 
 	class FontSizeValueMap : public ::MiHoYo::SDK::HoYoUI::SerializableDictionary_2<::System::String*, ::System::Int32>
 	{

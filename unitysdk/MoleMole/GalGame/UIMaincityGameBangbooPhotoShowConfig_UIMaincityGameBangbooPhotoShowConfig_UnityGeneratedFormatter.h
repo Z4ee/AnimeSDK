@@ -9,34 +9,34 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10BC1BC0)
-#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10BC1BD0)
-#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10BC1F20)
-#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BC2170)
-#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC2130)
+#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x151302F0)
+#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15130300)
+#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15130650)
+#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x151308A0)
+#define MOLEMOLE_GALGAME_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UIMAINCITYGAMEBANGBOOPHOTOSHOWCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15130860)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 48143;
+	inline static constexpr unsigned int UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 71564;
 
 	class UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::UIMaincityGameBangbooPhotoShowConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB60);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB68);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41120);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB70);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41128);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB78);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41130);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityGameBangbooPhotoShowConfig_UIMaincityGameBangbooPhotoShowConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41138);
 		}
 
 		::System::Void _ctor()

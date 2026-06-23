@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExLatencyEstimator_EstimatorInfo_TypeDefinitionIndex = 32729;
+	inline static constexpr unsigned int CriAtomExLatencyEstimator_EstimatorInfo_TypeDefinitionIndex = 34282;
 
 	struct alignas(4) CriAtomExLatencyEstimator_EstimatorInfo
 	{

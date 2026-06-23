@@ -5,17 +5,17 @@
 namespace UnityEngine::Rendering::Universal { class GPUGrassCommonConfig; }
 namespace UnityEngine::Rendering::Universal { class GPUGrassRenderItem; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19688540)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F3B00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassSettings_TypeDefinitionIndex = 30248;
+	inline static constexpr unsigned int GPUGrassSettings_TypeDefinitionIndex = 27011;
 
 	class GPUGrassSettings : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::Universal::GPUGrassCommonConfig* commonConfig; // 0x10
-		::UnityEngine::Rendering::Universal::GPUGrassRenderItem* renderItemConfig; // 0x18
+		::UnityEngine::Rendering::Universal::GPUGrassRenderItem* renderItemConfig; // 0x10
+		::UnityEngine::Rendering::Universal::GPUGrassCommonConfig* commonConfig; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -7,19 +7,19 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPIECEPROXYMODEL_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1743EAC0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPIECEPROXYMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1743EB80)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPIECEPROXYMODEL_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1703AD20)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDPIECEPROXYMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1703ADE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardPieceProxyModel_TypeDefinitionIndex = 42761;
+	inline static constexpr unsigned int ConfigChessboardPieceProxyModel_TypeDefinitionIndex = 69044;
 
 	class ConfigChessboardPieceProxyModel : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::String* PivotCellKey; // 0x18
-		::MoleMole::Config::ConfigChessboardPieceProxyModel_PieceProxyModelActionType Type; // 0x20
-		::System::Boolean UseSpecific; // 0x24
+		::System::Boolean UseSpecific; // 0x20
+		::MoleMole::Config::ConfigChessboardPieceProxyModel_PieceProxyModelActionType Type; // 0x24
 		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x28
 
 		::System::Void _ctor()

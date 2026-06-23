@@ -6,7 +6,7 @@ namespace MoleMole { class UISuibianTempleManageInfoTabIconBtnWidgetController; 
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController_TabWidget_TypeDefinitionIndex = 44796;
+	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController_TabWidget_TypeDefinitionIndex = 58305;
 
 	struct alignas(8) UISuibianTempleManageInfoWidgetController_TabWidget
 	{

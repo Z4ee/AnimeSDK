@@ -14,38 +14,38 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x110342E0)
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x110342F0)
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x110346F0)
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11034990)
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11034950)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18F3FCD0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18F3FCE0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18F400E0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F40380)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_LEVELSHOOTGAMECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F40340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 58583;
+	inline static constexpr unsigned int LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 70560;
 
 	class LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::LevelShootGameConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::LevelShootGameConfig_WaveParam*>*>*>** StaticGet_CachedSerializer3()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWaveGroup*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::LevelShootGameConfig_WaveParam*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E5D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWaveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x30410);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E5D8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWaveGroup*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWaveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E5E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x30418);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWave*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWave*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E5E8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_MonsterWave*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x30420);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::LevelShootGameConfig_WaveParam*>*>*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::LevelShootGameConfig_WaveParam*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x30428);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_WayPathConfig*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_WayPathConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E5F0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LevelShootGameConfig_WayPathConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelShootGameConfig_LevelShootGameConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x30430);
 		}
 
 		::System::Void _ctor()

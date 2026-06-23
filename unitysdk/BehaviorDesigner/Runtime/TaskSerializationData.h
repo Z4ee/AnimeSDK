@@ -6,11 +6,11 @@ namespace BehaviorDesigner::Runtime { class FieldSerializationData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA79180)
+#define BEHAVIORDESIGNER_RUNTIME_TASKSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDACB0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int TaskSerializationData_TypeDefinitionIndex = 31713;
+	inline static constexpr unsigned int TaskSerializationData_TypeDefinitionIndex = 33264;
 
 	class TaskSerializationData : public ::System::Object
 	{

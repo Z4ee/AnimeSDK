@@ -1,0 +1,107 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_EEA0111A28582B57.h"
+
+class Class_2_A9A857AD270B9CE1;
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralButtonController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_038F061574B4C26B_OFFSET UNITYSDK_OFFSET(0x19E1F420)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_082DE155818A77D8_OFFSET UNITYSDK_OFFSET(0x19E1F440)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_4D10873DB5CC58E4_OFFSET UNITYSDK_OFFSET(0x19E1F460)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_4F75C9B796DF2E67_OFFSET UNITYSDK_OFFSET(0x19E1F480)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_69FAD2F9E8A43CC3_1_OFFSET UNITYSDK_OFFSET(0x19E1F430)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_69FAD2F9E8A43CC3_OFFSET UNITYSDK_OFFSET(0x19E1F410)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_978DEB991218B150_1_OFFSET UNITYSDK_OFFSET(0x19E1F490)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_978DEB991218B150_OFFSET UNITYSDK_OFFSET(0x19E1F470)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_9CA5A80F6B5B9E01_OFFSET UNITYSDK_OFFSET(0x19E1F4A0)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_AB195FC75502CC36_OFFSET UNITYSDK_OFFSET(0x19E1F2B0)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_BF4C5F512EB04EE8_OFFSET UNITYSDK_OFFSET(0x19E1F450)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x19E1F4B0)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x19E1F1A0)
+#define CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F400)
+
+inline static constexpr unsigned int Class_2_C7387D40D4120A48_15_Class_2_913533322067CFEA_TypeDefinitionIndex = 82861;
+
+class Class_2_C7387D40D4120A48_15_Class_2_913533322067CFEA : public ::Class_1_EEA0111A28582B57
+{
+public:
+	::UnityEngine::GameObject* Field_2_3; // 0x18
+	::MoleMole::UIGeneralButtonController* Field_2_0; // 0x20
+	::UnityEngine::RectTransform* Field_2_1; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_2_2; // 0x30
+	::UnityEngine::RectTransform* Field_2_4; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E9A21D244C9D6B36(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_E9A21D244C9D6B36_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_69FAD2F9E8A43CC3(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_69FAD2F9E8A43CC3_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_2_038F061574B4C26B()
+	{
+		return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_038F061574B4C26B_OFFSET))(this);
+	}
+
+	::System::Void Method_2_69FAD2F9E8A43CC3_1(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_69FAD2F9E8A43CC3_1_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_2_082DE155818A77D8()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_082DE155818A77D8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BF4C5F512EB04EE8(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_BF4C5F512EB04EE8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_4D10873DB5CC58E4(::UnityEngine::GameObject* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_4D10873DB5CC58E4_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_2_978DEB991218B150()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_978DEB991218B150_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4F75C9B796DF2E67(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_4F75C9B796DF2E67_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_2_978DEB991218B150_1()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_978DEB991218B150_1_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_2_AB195FC75502CC36(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_AB195FC75502CC36_OFFSET))(this, a1, a2);
+	}
+
+	::UnityEngine::GameObject* Method_2_9CA5A80F6B5B9E01()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_9CA5A80F6B5B9E01_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_C7387D40D4120A48_15_CLASS_2_913533322067CFEA_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+};

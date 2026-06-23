@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1AE6AB40)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1D29B9F0)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobHandleUnsafeUtility_TypeDefinitionIndex = 5064;
+	inline static constexpr unsigned int JobHandleUnsafeUtility_TypeDefinitionIndex = 5063;
 
 	class JobHandleUnsafeUtility : public ::System::Object
 	{

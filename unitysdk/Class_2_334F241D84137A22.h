@@ -10,27 +10,27 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UIToggleButton; }
 
-#define CLASS_2_334F241D84137A22_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x10B28640)
-#define CLASS_2_334F241D84137A22_METHOD_2_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x10B288A0)
-#define CLASS_2_334F241D84137A22_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10B28A20)
-#define CLASS_2_334F241D84137A22__CTOR_OFFSET UNITYSDK_OFFSET(0x10B28A10)
+#define CLASS_2_334F241D84137A22_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x16392980)
+#define CLASS_2_334F241D84137A22_METHOD_2_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x16392BE0)
+#define CLASS_2_334F241D84137A22_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16392D60)
+#define CLASS_2_334F241D84137A22__CTOR_OFFSET UNITYSDK_OFFSET(0x16392D50)
 
-inline static constexpr unsigned int Class_2_334F241D84137A22_TypeDefinitionIndex = 82763;
+inline static constexpr unsigned int Class_2_334F241D84137A22_TypeDefinitionIndex = 45907;
 
 class Class_2_334F241D84137A22 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x18
-	::MoleMole::NotificationBadgeEx* Field_2_10; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x28
-	::Class_2_1A39E1B51756BF41* Field_2_8; // 0x30
-	::UnityEngine::UI::Extension::UIToggleButton* Field_2_2; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x20
+	::UnityEngine::UI::Extension::UIToggleButton* Field_2_2; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x30
+	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x38
 	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x40
 	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x48
-	::UnityEngine::RectTransform* Field_2_1; // 0x50
-	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x60
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x68
+	::MoleMole::NotificationBadgeEx* Field_2_10; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_8; // 0x58
+	::UnityEngine::RectTransform* Field_2_1; // 0x60
+	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x68
 
 	::System::Void _ctor()
 	{

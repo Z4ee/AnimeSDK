@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIEFAIRY_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x81DD30)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIEFAIRY_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x8C75D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieFairy_TypeDefinitionIndex = 56123;
+	inline static constexpr unsigned int ConfigNewbie_NewbieFairy_TypeDefinitionIndex = 49755;
 
 	struct alignas(8) ConfigNewbie_NewbieFairy
 	{

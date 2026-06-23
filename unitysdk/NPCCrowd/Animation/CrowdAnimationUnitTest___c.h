@@ -5,24 +5,24 @@
 namespace NPCCrowd::Animation { class NPCCPUAnimationClipInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD451190)
-#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD4511D0)
-#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__GETGENDERSIZEANIMATIONS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD4511E0)
+#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10703940)
+#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10703980)
+#define NPCCROWD_ANIMATION_CROWDANIMATIONUNITTEST___C__GETGENDERSIZEANIMATIONS_B__7_0_OFFSET UNITYSDK_OFFSET(0x10703990)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdAnimationUnitTest___c_TypeDefinitionIndex = 54306;
+	inline static constexpr unsigned int CrowdAnimationUnitTest___c_TypeDefinitionIndex = 40631;
 
 	class CrowdAnimationUnitTest___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Animation::CrowdAnimationUnitTest___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Animation::CrowdAnimationUnitTest___c**)Il2CppClass::FromTypeDefinitionIndex(CrowdAnimationUnitTest___c_TypeDefinitionIndex)->GetStaticField(0x48C10);
+			return (::NPCCrowd::Animation::CrowdAnimationUnitTest___c**)Il2CppClass::FromTypeDefinitionIndex(CrowdAnimationUnitTest___c_TypeDefinitionIndex)->GetStaticField(0x4C270);
 		}
 		static ::System::Func_2<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*, ::System::Int32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdAnimationUnitTest___c_TypeDefinitionIndex)->GetStaticField(0x48C18);
+			return (::System::Func_2<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdAnimationUnitTest___c_TypeDefinitionIndex)->GetStaticField(0x4C278);
 		}
 
 		static ::System::Void _cctor()

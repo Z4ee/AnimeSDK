@@ -5,12 +5,12 @@
 namespace MoleMole { class UISummerEventResultRowNewWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_SUMMEREVENTRESULTROWCONTEXT_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1585EF70)
-#define MOLEMOLE_SUMMEREVENTRESULTROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1585EFE0)
+#define MOLEMOLE_SUMMEREVENTRESULTROWCONTEXT_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1642F080)
+#define MOLEMOLE_SUMMEREVENTRESULTROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1642F0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventResultRowContext_TypeDefinitionIndex = 77425;
+	inline static constexpr unsigned int SummerEventResultRowContext_TypeDefinitionIndex = 45845;
 
 	class SummerEventResultRowContext : public ::MoleMole::UIControllerContextBase
 	{

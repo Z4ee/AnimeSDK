@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RBDDESTRUCTION_SIMULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF7EBB40)
+#define RBDDESTRUCTION_SIMULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF794730)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int SimulationConfig_TypeDefinitionIndex = 29702;
+	inline static constexpr unsigned int SimulationConfig_TypeDefinitionIndex = 26596;
 
 	class SimulationConfig : public ::System::Object
 	{

@@ -11,29 +11,29 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_A2C07A829A1F9263_METHOD_2_4FCC8881976741C7_OFFSET UNITYSDK_OFFSET(0x1080CEA0)
-#define CLASS_2_A2C07A829A1F9263_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x1080D0D0)
-#define CLASS_2_A2C07A829A1F9263_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1080D1A0)
-#define CLASS_2_A2C07A829A1F9263__CTOR_OFFSET UNITYSDK_OFFSET(0x1080D190)
+#define CLASS_2_A2C07A829A1F9263_METHOD_2_4FCC8881976741C7_OFFSET UNITYSDK_OFFSET(0x1A207740)
+#define CLASS_2_A2C07A829A1F9263_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x1A207970)
+#define CLASS_2_A2C07A829A1F9263_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1A207A40)
+#define CLASS_2_A2C07A829A1F9263__CTOR_OFFSET UNITYSDK_OFFSET(0x1A207A30)
 
-inline static constexpr unsigned int Class_2_A2C07A829A1F9263_TypeDefinitionIndex = 70121;
+inline static constexpr unsigned int Class_2_A2C07A829A1F9263_TypeDefinitionIndex = 56027;
 
 class Class_2_A2C07A829A1F9263 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_10; // 0x18
-	::UnityEngine::Transform* Field_2_5; // 0x20
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_12; // 0x28
-	::MoleMole::NotificationBadge* Field_2_8; // 0x30
-	::MonoUITableScrollV2* Field_2_0; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x40
-	::UnityEngine::Transform* Field_2_11; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x50
-	::MoleMole::UIGeneralButtonController* Field_2_1; // 0x58
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_12; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x30
+	::UnityEngine::Transform* Field_2_11; // 0x38
+	::MoleMole::UIGeneralButtonController* Field_2_1; // 0x40
+	::MoleMole::NotificationBadge* Field_2_8; // 0x48
+	::MonoUITableScrollV2* Field_2_0; // 0x50
+	::UnityEngine::Transform* Field_2_10; // 0x58
 	::UnityEngine::Transform* Field_2_6; // 0x60
 	::MoleMole::NotificationBadge* Field_2_7; // 0x68
 	::UnityEngine::Transform* Field_2_9; // 0x70
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x78
+	::UnityEngine::Transform* Field_2_5; // 0x78
 
 	::System::Void _ctor()
 	{

@@ -6,9 +6,9 @@ class Class_2_FEB0042A043413D3;
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_F456EA97250A2522_STRUCT_2_67F84A976C898BD5_METHOD_2_0DA2EF203AC3BAAE_OFFSET UNITYSDK_OFFSET(0x71EDB0)
+#define CLASS_1_F456EA97250A2522_STRUCT_2_67F84A976C898BD5_METHOD_2_0DA2EF203AC3BAAE_OFFSET UNITYSDK_OFFSET(0x7B0430)
 
-inline static constexpr unsigned int Class_1_F456EA97250A2522_Struct_2_67F84A976C898BD5_TypeDefinitionIndex = 39779;
+inline static constexpr unsigned int Class_1_F456EA97250A2522_Struct_2_67F84A976C898BD5_TypeDefinitionIndex = 50184;
 
 struct alignas(8) Class_1_F456EA97250A2522_Struct_2_67F84A976C898BD5
 {

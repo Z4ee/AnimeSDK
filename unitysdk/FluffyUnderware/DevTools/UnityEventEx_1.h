@@ -8,7 +8,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int UnityEventEx_1_TypeDefinitionIndex = 25845;
+	inline static constexpr unsigned int UnityEventEx_1_TypeDefinitionIndex = 28339;
 
 	template <typename T0>
 	class UnityEventEx_1 : public ::UnityEngine::Events::UnityEvent_1<T0>

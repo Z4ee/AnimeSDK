@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SecondaryCharacterType_TypeDefinitionIndex = 59610;
+	inline static constexpr unsigned int SecondaryCharacterType_TypeDefinitionIndex = 62471;
 
 	enum class SecondaryCharacterType : ::System::Int32
 	{
+		Avatar = 1,
 		Unknown = 0,
 		Monster = 2,
-		Avatar = 1,
 	};
 }

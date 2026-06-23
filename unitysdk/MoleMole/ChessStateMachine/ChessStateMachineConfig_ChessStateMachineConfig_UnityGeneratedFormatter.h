@@ -13,30 +13,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x124035B0)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x124035C0)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12403860)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12403A50)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12403A10)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12C55C00)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12C55C10)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12C55EB0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C560A0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_CHESSSTATEMACHINECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C56060)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 53313;
+	inline static constexpr unsigned int ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 63366;
 
 	class ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ChessStateMachine::ChessStateMachineConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::StateNodeConfig*>*>** StaticGet_CachedSerializer1()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::LayerConfig*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::StateNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x400F0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::LayerConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42AD0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::TransitionConfig*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::TransitionConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x400F8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::TransitionConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42AD8);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::LayerConfig*>*>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::StateNodeConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::LayerConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40100);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::StateNodeConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_ChessStateMachineConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42AE0);
 		}
 
 		::System::Void _ctor()

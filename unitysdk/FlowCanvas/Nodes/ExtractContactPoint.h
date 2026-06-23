@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Collider; }
 
-#define FLOWCANVAS_NODES_EXTRACTCONTACTPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B0ABE50)
-#define FLOWCANVAS_NODES_EXTRACTCONTACTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0ABEA0)
+#define FLOWCANVAS_NODES_EXTRACTCONTACTPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D51CFC0)
+#define FLOWCANVAS_NODES_EXTRACTCONTACTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51D010)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractContactPoint_TypeDefinitionIndex = 26599;
+	inline static constexpr unsigned int ExtractContactPoint_TypeDefinitionIndex = 29701;
 
 	class ExtractContactPoint : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::ContactPoint, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Collider*, ::UnityEngine::Collider*>
 	{

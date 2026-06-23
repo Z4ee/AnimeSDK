@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MAINCITYREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14299EC0)
-#define MOLEMOLE_MAINCITYREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x14299D80)
+#define MOLEMOLE_MAINCITYREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1162CB00)
+#define MOLEMOLE_MAINCITYREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1162C9C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainCityRewardPopShow_TypeDefinitionIndex = 65355;
+	inline static constexpr unsigned int MainCityRewardPopShow_TypeDefinitionIndex = 58000;
 
 	class MainCityRewardPopShow : public ::MoleMole::LogicMessageBase
 	{

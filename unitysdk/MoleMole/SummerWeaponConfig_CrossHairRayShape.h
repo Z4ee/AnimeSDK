@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerWeaponConfig_CrossHairRayShape_TypeDefinitionIndex = 51878;
+	inline static constexpr unsigned int SummerWeaponConfig_CrossHairRayShape_TypeDefinitionIndex = 84860;
 
 	enum class SummerWeaponConfig_CrossHairRayShape : ::System::Int32
 	{
-		Box = 1,
 		Sphere = 0,
+		Box = 1,
 	};
 }

@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B41BA00)
-#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B41B9A0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B41BBC0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41BBB0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D7BD2F0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D7BD290)
+#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7BD4B0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_POSITION_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BD4A0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_Position_Formatter_TypeDefinitionIndex = 26866;
+	inline static constexpr unsigned int Graph_Position_Formatter_TypeDefinitionIndex = 30040;
 
 	class Graph_Position_Formatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::Graph_Position_Formatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::Graph_Position_Formatter**)Il2CppClass::FromTypeDefinitionIndex(Graph_Position_Formatter_TypeDefinitionIndex)->GetStaticField(0x20320);
+			return (::MessagePack::Formatters::Graph_Position_Formatter**)Il2CppClass::FromTypeDefinitionIndex(Graph_Position_Formatter_TypeDefinitionIndex)->GetStaticField(0x24080);
 		}
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x195592F0)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93BF80)
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int SecurityAttribute_TypeDefinitionIndex = 959;
+	inline static constexpr unsigned int SecurityAttribute_TypeDefinitionIndex = 958;
 
 	class SecurityAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_CharElementType_TypeDefinitionIndex = 65493;
+	inline static constexpr unsigned int NAP_CharElementType_TypeDefinitionIndex = 59282;
 
 	enum class NAP_CharElementType : ::System::Byte
 	{

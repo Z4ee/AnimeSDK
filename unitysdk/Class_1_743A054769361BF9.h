@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueTuple_2.h"
 
 class Class_2_3B1E761D184CCDAF;
-class Class_3_C3F0E3B5AB5977AE_13;
+class Class_3_C3F0E3B5AB5977AE_54;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_1_743A054769361BF9_TypeDefinitionIndex = 53366;
+inline static constexpr unsigned int Class_1_743A054769361BF9_TypeDefinitionIndex = 40261;
 
 template <typename T>
 class Class_1_743A054769361BF9 : public ::System::Object

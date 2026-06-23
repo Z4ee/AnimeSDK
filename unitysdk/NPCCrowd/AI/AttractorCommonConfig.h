@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorCommonConfig_TypeDefinitionIndex = 59333;
+	inline static constexpr unsigned int AttractorCommonConfig_TypeDefinitionIndex = 53685;
 
 	struct alignas(4) AttractorCommonConfig
 	{

@@ -10,25 +10,25 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x112FFC20)
-#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x112FFE20)
-#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x112FFEF0)
-#define CLASS_2_1BCC3EC1CB8D0220__CTOR_OFFSET UNITYSDK_OFFSET(0x112FFEE0)
+#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0xEC08460)
+#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xEC08660)
+#define CLASS_2_1BCC3EC1CB8D0220_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xEC08730)
+#define CLASS_2_1BCC3EC1CB8D0220__CTOR_OFFSET UNITYSDK_OFFSET(0xEC08720)
 
-inline static constexpr unsigned int Class_2_1BCC3EC1CB8D0220_TypeDefinitionIndex = 64985;
+inline static constexpr unsigned int Class_2_1BCC3EC1CB8D0220_TypeDefinitionIndex = 56617;
 
 class Class_2_1BCC3EC1CB8D0220 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::MoleMole::UIGeneralButtonController* Field_2_4; // 0x18
-	::UnityEngine::RectTransform* Field_2_3; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x28
-	::UnityEngine::RectTransform* Field_2_1; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x20
+	::UnityEngine::RectTransform* Field_2_1; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x40
 	::UnityEngine::RectTransform* Field_2_2; // 0x48
 	::MoleMole::NotificationBadge* Field_2_8; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x58
+	::UnityEngine::RectTransform* Field_2_3; // 0x58
 
 	::System::Void _ctor()
 	{

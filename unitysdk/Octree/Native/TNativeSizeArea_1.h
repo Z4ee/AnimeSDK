@@ -6,7 +6,7 @@
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int TNativeSizeArea_1_TypeDefinitionIndex = 45700;
+	inline static constexpr unsigned int TNativeSizeArea_1_TypeDefinitionIndex = 74831;
 
 	template <typename T>
 	struct TNativeSizeArea_1

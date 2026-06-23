@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering::Universal { class OpaquePostProcessSecond; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OpaquePostProcessSecond___c__DisplayClass14_0_TypeDefinitionIndex = 30209;
+	inline static constexpr unsigned int OpaquePostProcessSecond___c__DisplayClass14_0_TypeDefinitionIndex = 26612;
 
 	struct alignas(8) OpaquePostProcessSecond___c__DisplayClass14_0
 	{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define PARADOXNOTION_OBJECTUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A215460)
-#define PARADOXNOTION_OBJECTUTILS___C__DISPLAYCLASS5_0__FINDGAMEOBJECTSWITHINLAYERMASK_B__0_OFFSET UNITYSDK_OFFSET(0x1A215470)
+#define PARADOXNOTION_OBJECTUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C641450)
+#define PARADOXNOTION_OBJECTUTILS___C__DISPLAYCLASS5_0__FINDGAMEOBJECTSWITHINLAYERMASK_B__0_OFFSET UNITYSDK_OFFSET(0x1C641460)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ObjectUtils___c__DisplayClass5_0_TypeDefinitionIndex = 27495;
+	inline static constexpr unsigned int ObjectUtils___c__DisplayClass5_0_TypeDefinitionIndex = 29898;
 
 	class ObjectUtils___c__DisplayClass5_0 : public ::System::Object
 	{

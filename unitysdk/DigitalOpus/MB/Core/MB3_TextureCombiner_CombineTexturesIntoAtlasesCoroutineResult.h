@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER_COMBINETEXTURESINTOATLASESCOROUTINERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66ACB0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER_COMBINETEXTURESINTOATLASESCOROUTINERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA69A80)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult_TypeDefinitionIndex = 85121;
+	inline static constexpr unsigned int MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult_TypeDefinitionIndex = 90695;
 
 	class MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult : public ::System::Object
 	{

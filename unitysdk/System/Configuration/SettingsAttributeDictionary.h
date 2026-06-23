@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Hashtable.h"
 
-#define SYSTEM_CONFIGURATION_SETTINGSATTRIBUTEDICTIONARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1921B3D0)
-#define SYSTEM_CONFIGURATION_SETTINGSATTRIBUTEDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1921B390)
+#define SYSTEM_CONFIGURATION_SETTINGSATTRIBUTEDICTIONARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B4014A0)
+#define SYSTEM_CONFIGURATION_SETTINGSATTRIBUTEDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B401460)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsAttributeDictionary_TypeDefinitionIndex = 4080;
+	inline static constexpr unsigned int SettingsAttributeDictionary_TypeDefinitionIndex = 4079;
 
 	class SettingsAttributeDictionary : public ::System::Collections::Hashtable
 	{

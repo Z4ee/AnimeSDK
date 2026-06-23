@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableDictionary_2_TypeDefinitionIndex = 25569;
+	inline static constexpr unsigned int ObservableDictionary_2_TypeDefinitionIndex = 28162;
 
 	template <typename TKey, typename TValue>
 	class ObservableDictionary_2 : public ::System::Object

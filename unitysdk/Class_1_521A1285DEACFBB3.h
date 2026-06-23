@@ -8,19 +8,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_521A1285DEACFBB3_METHOD_1_27CDA859F7ADAF64_OFFSET UNITYSDK_OFFSET(0x13118710)
-#define CLASS_1_521A1285DEACFBB3_METHOD_1_30D9F359AEE91264_OFFSET UNITYSDK_OFFSET(0x13118A00)
-#define CLASS_1_521A1285DEACFBB3_METHOD_1_415752109343FC19_OFFSET UNITYSDK_OFFSET(0x13118620)
-#define CLASS_1_521A1285DEACFBB3__CTOR_OFFSET UNITYSDK_OFFSET(0x13118610)
+#define CLASS_1_521A1285DEACFBB3_METHOD_1_27CDA859F7ADAF64_OFFSET UNITYSDK_OFFSET(0x15630F60)
+#define CLASS_1_521A1285DEACFBB3_METHOD_1_30D9F359AEE91264_OFFSET UNITYSDK_OFFSET(0x15631250)
+#define CLASS_1_521A1285DEACFBB3_METHOD_1_415752109343FC19_OFFSET UNITYSDK_OFFSET(0x15630E70)
+#define CLASS_1_521A1285DEACFBB3__CTOR_OFFSET UNITYSDK_OFFSET(0x15630E60)
 
-inline static constexpr unsigned int Class_1_521A1285DEACFBB3_TypeDefinitionIndex = 77250;
+inline static constexpr unsigned int Class_1_521A1285DEACFBB3_TypeDefinitionIndex = 68535;
 
 class Class_1_521A1285DEACFBB3 : public ::System::Object
 {
 public:
 	static ::MoleMole::ChessboardTextureSheetTagsData** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::ChessboardTextureSheetTagsData**)Il2CppClass::FromTypeDefinitionIndex(Class_1_521A1285DEACFBB3_TypeDefinitionIndex)->GetStaticField(0x34480);
+		return (::MoleMole::ChessboardTextureSheetTagsData**)Il2CppClass::FromTypeDefinitionIndex(Class_1_521A1285DEACFBB3_TypeDefinitionIndex)->GetStaticField(0x36B70);
 	}
 
 	::System::Void _ctor()

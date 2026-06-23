@@ -9,13 +9,13 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define CURTAINCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x118DBDB0)
-#define CURTAINCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x118DBC90)
-#define CURTAINCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x118DBF70)
-#define CURTAINCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x118DC200)
-#define CURTAINCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x118DC780)
+#define CURTAINCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A250C10)
+#define CURTAINCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A250A00)
+#define CURTAINCONTROLLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A251140)
+#define CURTAINCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1A250EB0)
+#define CURTAINCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2516C0)
 
-inline static constexpr unsigned int CurtainController_TypeDefinitionIndex = 58136;
+inline static constexpr unsigned int CurtainController_TypeDefinitionIndex = 73948;
 
 class CurtainController : public ::UnityEngine::MonoBehaviour
 {
@@ -65,8 +65,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURTAINCONTROLLER_START_OFFSET))(this);
 	}
 
-	::System::Void Update()
+	::System::Void OnUpdate()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURTAINCONTROLLER_UPDATE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CURTAINCONTROLLER_ONUPDATE_OFFSET))(this);
 	}
 };

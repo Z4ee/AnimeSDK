@@ -6,11 +6,11 @@ namespace CriWare { class CriAtomEx3dListener; }
 namespace CriWare { class CriAtomEx3dSource; }
 namespace CriWare { class CriAtomExPlayer; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAYERSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D9D80)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAYERSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7B100)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomTimelinePreviewer_PlayerSource_TypeDefinitionIndex = 32840;
+	inline static constexpr unsigned int CriAtomTimelinePreviewer_PlayerSource_TypeDefinitionIndex = 34393;
 
 	struct alignas(8) CriAtomTimelinePreviewer_PlayerSource
 	{

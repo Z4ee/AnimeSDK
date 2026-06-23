@@ -6,11 +6,11 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
 
-#define MESSAGEPACK_RESOLVERS_CACHINGFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49EE30)
+#define MESSAGEPACK_RESOLVERS_CACHINGFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83F120)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int CachingFormatterResolver_TypeDefinitionIndex = 26480;
+	inline static constexpr unsigned int CachingFormatterResolver_TypeDefinitionIndex = 30663;
 
 	class CachingFormatterResolver : public ::System::Object
 	{

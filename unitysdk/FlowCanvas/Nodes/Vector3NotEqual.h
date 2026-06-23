@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_VECTOR3NOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A1F4780)
-#define FLOWCANVAS_NODES_VECTOR3NOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F47D0)
+#define FLOWCANVAS_NODES_VECTOR3NOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6205B0)
+#define FLOWCANVAS_NODES_VECTOR3NOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C620600)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Vector3NotEqual_TypeDefinitionIndex = 26747;
+	inline static constexpr unsigned int Vector3NotEqual_TypeDefinitionIndex = 29853;
 
 	class Vector3NotEqual : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
 	{

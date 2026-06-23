@@ -7,19 +7,19 @@ namespace Foundation { class ReservedObjectPool; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12A39B20)
-#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x12A39B30)
-#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__INIT_B__1_OFFSET UNITYSDK_OFFSET(0x12A39CE0)
+#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142F8430)
+#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x142F8440)
+#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_0__INIT_B__1_OFFSET UNITYSDK_OFFSET(0x142F85F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReservedObjectPool___c__DisplayClass28_0_TypeDefinitionIndex = 60095;
+	inline static constexpr unsigned int ReservedObjectPool___c__DisplayClass28_0_TypeDefinitionIndex = 62278;
 
 	class ReservedObjectPool___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::Foundation::ReservedObjectPool* __4__this; // 0x10
-		::System::Action_1<::Foundation::AssetRequestHandle>* preloadFunc; // 0x18
+		::System::Action_1<::Foundation::AssetRequestHandle>* preloadFunc; // 0x10
+		::Foundation::ReservedObjectPool* __4__this; // 0x18
 		::System::Int32 preloadCount; // 0x20
 
 		::System::Void _ctor()

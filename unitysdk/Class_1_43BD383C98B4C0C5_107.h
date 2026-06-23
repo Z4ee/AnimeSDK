@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_5F20C77812135856.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
+#define CLASS_1_43BD383C98B4C0C5_107__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20FA40)
 
-#define CLASS_1_43BD383C98B4C0C5_107__CTOR_OFFSET UNITYSDK_OFFSET(0x10DBAA90)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_107_TypeDefinitionIndex = 67083;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_107_TypeDefinitionIndex = 61314;
 
 class Class_1_43BD383C98B4C0C5_107 : public ::System::Object
 {

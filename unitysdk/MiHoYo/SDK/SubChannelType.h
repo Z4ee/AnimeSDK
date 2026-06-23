@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SubChannelType_TypeDefinitionIndex = 18952;
+	inline static constexpr unsigned int SubChannelType_TypeDefinitionIndex = 19848;
 
 	enum class SubChannelType : ::System::Int32
 	{
@@ -14,6 +14,7 @@ namespace MiHoYo::SDK
 		SamSung = 4,
 		Steam = 5,
 		Google = 6,
-		MAX = 7,
+		Xbox = 7,
+		MAX = 8,
 	};
 }

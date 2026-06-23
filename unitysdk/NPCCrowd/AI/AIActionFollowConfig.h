@@ -3,17 +3,20 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONFOLLOWCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6B4090)
-#define NPCCROWD_AI_AIACTIONFOLLOWCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6B40E0)
+#define NPCCROWD_AI_AIACTIONFOLLOWCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x64FED0)
+#define NPCCROWD_AI_AIACTIONFOLLOWCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x64FF20)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionFollowConfig_TypeDefinitionIndex = 68012;
+	inline static constexpr unsigned int AIActionFollowConfig_TypeDefinitionIndex = 79280;
 
 	struct alignas(8) AIActionFollowConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Single duration; // 0x18
+		::System::Boolean completeOnEnter; // 0x1C
+		::System::Boolean isExit; // 0x1D
+		::System::Single stopRadius; // 0x20
 
 		::NPCCrowd::AI::BaseActionConfig GetBaseActionConfig()
 		{

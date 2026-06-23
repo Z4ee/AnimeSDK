@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1644FE30)
-#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1644FE70)
-#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__OPENTEAMPAGE_B__44_3_OFFSET UNITYSDK_OFFSET(0x1644FE80)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A46CE0)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A46D20)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINGWIDGETCONTROLLER___C__OPENTEAMPAGE_B__44_3_OFFSET UNITYSDK_OFFSET(0x18A46D30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex = 56362;
+	inline static constexpr unsigned int UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex = 64723;
 
 	class UIActivityTeamTrialFightingWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIActivityTeamTrialFightingWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityTeamTrialFightingWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x2EAE0);
+			return (::MoleMole::UIActivityTeamTrialFightingWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x30A00);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__44_3()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x2EAE8);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityTeamTrialFightingWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x30A08);
 		}
 
 		static ::System::Void _cctor()

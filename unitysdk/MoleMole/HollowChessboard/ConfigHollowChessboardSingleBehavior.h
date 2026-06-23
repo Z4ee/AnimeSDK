@@ -7,19 +7,19 @@ namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace MoleMole::HollowChessboard { class HollowRenderSequenceConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR_INITFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x10E21EA0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR_MOLEMOLE_HOLLOWCHESSBOARD_ICONFIGHOLLOWCHESSBOARDBEHAVIOR_INITFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x10E22070)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10E22060)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR_INITFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x18B39FD0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR_MOLEMOLE_HOLLOWCHESSBOARD_ICONFIGHOLLOWCHESSBOARDBEHAVIOR_INITFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x18B3A1A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWCHESSBOARDSINGLEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3A190)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowChessboardSingleBehavior_TypeDefinitionIndex = 67454;
+	inline static constexpr unsigned int ConfigHollowChessboardSingleBehavior_TypeDefinitionIndex = 71042;
 
 	class ConfigHollowChessboardSingleBehavior : public ::System::Object
 	{
 	public:
-		::MoleMole::HollowChessboard::HollowRenderSequenceConfig* SequenceConfig; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowRenderSequenceConfig*>* RandomSequenceConfigList; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowRenderSequenceConfig*>* RandomSequenceConfigList; // 0x10
+		::MoleMole::HollowChessboard::HollowRenderSequenceConfig* SequenceConfig; // 0x18
 		::System::Boolean UseRandom; // 0x20
 
 		::System::Void _ctor()

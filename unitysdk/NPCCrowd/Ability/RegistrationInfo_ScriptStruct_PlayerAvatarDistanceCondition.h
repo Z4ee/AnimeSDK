@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xCD30750)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD305E0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD4141F0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xD414080)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 57491;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 70277;
 
 	class RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
-		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex)->GetStaticField(0x424F0);
-		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex)->GetStaticField(0x424F8);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex)->GetStaticField(0x45630);
+		}
+		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
+		{
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition_TypeDefinitionIndex)->GetStaticField(0x45638);
 		}
 
 		static ::System::Void _cctor()

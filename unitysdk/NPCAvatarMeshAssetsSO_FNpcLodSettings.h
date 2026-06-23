@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcLodSettings_TypeDefinitionIndex = 56639;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcLodSettings_TypeDefinitionIndex = 67209;
 
 struct alignas(4) NPCAvatarMeshAssetsSO_FNpcLodSettings
 {

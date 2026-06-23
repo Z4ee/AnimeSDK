@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9D410)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BE7F0)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int TokenizerStringBlock_TypeDefinitionIndex = 1013;
+	inline static constexpr unsigned int TokenizerStringBlock_TypeDefinitionIndex = 1012;
 
 	class TokenizerStringBlock : public ::System::Object
 	{

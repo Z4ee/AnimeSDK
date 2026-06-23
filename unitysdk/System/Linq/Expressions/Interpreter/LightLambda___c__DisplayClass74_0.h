@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class LightLambda; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1B680)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__MAKERUNDELEGATECTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1AE1B690)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D249850)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__MAKERUNDELEGATECTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1D249860)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightLambda___c__DisplayClass74_0_TypeDefinitionIndex = 4767;
+	inline static constexpr unsigned int LightLambda___c__DisplayClass74_0_TypeDefinitionIndex = 4766;
 
 	class LightLambda___c__DisplayClass74_0 : public ::System::Object
 	{

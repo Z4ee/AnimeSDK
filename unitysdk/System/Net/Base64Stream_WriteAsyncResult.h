@@ -7,16 +7,16 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class Base64Stream; }
 
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x19E32AC0)
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x19E32DA0)
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x19E32B20)
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x19E32890)
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E32E10)
-#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E327E0)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1C1CAB10)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1C1CADF0)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1C1CAB70)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1C1CA8E0)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1CAE60)
+#define SYSTEM_NET_BASE64STREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CA830)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Base64Stream_WriteAsyncResult_TypeDefinitionIndex = 3435;
+	inline static constexpr unsigned int Base64Stream_WriteAsyncResult_TypeDefinitionIndex = 3434;
 
 	class Base64Stream_WriteAsyncResult : public ::System::Net::LazyAsyncResult
 	{
@@ -25,11 +25,11 @@ namespace System::Net
 		{
 			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(Base64Stream_WriteAsyncResult_TypeDefinitionIndex)->GetStaticField(0x35A0);
 		}
-		::Il2CppArray<::System::Byte>* buffer; // 0x48
-		::System::Net::Base64Stream* parent; // 0x50
-		::System::Int32 written; // 0x58
+		::System::Net::Base64Stream* parent; // 0x48
+		::Il2CppArray<::System::Byte>* buffer; // 0x50
+		::System::Int32 count; // 0x58
 		::System::Int32 offset; // 0x5C
-		::System::Int32 count; // 0x60
+		::System::Int32 written; // 0x60
 
 		::System::Void _ctor(::System::Net::Base64Stream* parent, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
 		{

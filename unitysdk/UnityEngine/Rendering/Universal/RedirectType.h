@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RedirectType_TypeDefinitionIndex = 30086;
+	inline static constexpr unsigned int RedirectType_TypeDefinitionIndex = 26643;
 
 	enum class RedirectType : ::System::Int32
 	{
 		Null = 0,
-		GameObject = 1,
 		Component = 2,
+		GameObject = 1,
 	};
 }

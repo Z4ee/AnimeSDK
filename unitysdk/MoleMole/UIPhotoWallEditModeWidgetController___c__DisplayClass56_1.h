@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIPhotoWallEditModeWidgetController___c__DisplayClass56_0; }
 
-#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D5A380)
-#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS56_1__ONSELECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x14D5A390)
+#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1529FEF0)
+#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS56_1__ONSELECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x1529FF00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallEditModeWidgetController___c__DisplayClass56_1_TypeDefinitionIndex = 82942;
+	inline static constexpr unsigned int UIPhotoWallEditModeWidgetController___c__DisplayClass56_1_TypeDefinitionIndex = 73429;
 
 	class UIPhotoWallEditModeWidgetController___c__DisplayClass56_1 : public ::System::Object
 	{

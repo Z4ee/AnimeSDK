@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x163318B0)
+#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C57A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotBubbleWidgetControllerContext_TypeDefinitionIndex = 52181;
+	inline static constexpr unsigned int UIActivityHotpotBubbleWidgetControllerContext_TypeDefinitionIndex = 66017;
 
 	class UIActivityHotpotBubbleWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

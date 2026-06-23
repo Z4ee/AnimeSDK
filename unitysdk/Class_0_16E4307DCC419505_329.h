@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F780BA94AF5E7E37.h"
 
-class Class_0_16E4307DCC419505_180;
-namespace System { template <typename T1, typename T2> class Func_2; }
+class Class_1_8E6394891B1A4CC4;
+namespace MoleMole { class CameraShotData; }
+namespace Nap::NapECS { class EcsWorld; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_329_TypeDefinitionIndex = 44669;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_329_TypeDefinitionIndex = 61950;
 
 class Class_0_16E4307DCC419505_329
 {

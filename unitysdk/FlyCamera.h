@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLYCAMERA_GETBASEINPUT_OFFSET UNITYSDK_OFFSET(0x1C467B30)
-#define FLYCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C4674B0)
-#define FLYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467C00)
+#define FLYCAMERA_GETBASEINPUT_OFFSET UNITYSDK_OFFSET(0x1E7A5950)
+#define FLYCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E7A52D0)
+#define FLYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5A20)
 
-inline static constexpr unsigned int FlyCamera_TypeDefinitionIndex = 85487;
+inline static constexpr unsigned int FlyCamera_TypeDefinitionIndex = 91057;
 
 class FlyCamera : public ::UnityEngine::MonoBehaviour
 {

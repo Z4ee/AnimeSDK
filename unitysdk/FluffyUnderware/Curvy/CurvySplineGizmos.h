@@ -3,22 +3,22 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineGizmos_TypeDefinitionIndex = 37189;
+	inline static constexpr unsigned int CurvySplineGizmos_TypeDefinitionIndex = 38875;
 
 	enum class CurvySplineGizmos : ::System::Int32
 	{
 		None = 0,
-		Connections = 1,
-		Curve = 2,
-		Approximation = 4,
-		Tangents = 8,
-		Orientation = 16,
-		Labels = 32,
 		Metadata = 64,
+		Labels = 32,
+		Tangents = 8,
 		Bounds = 128,
-		TFs = 256,
+		Approximation = 4,
+		All = 65535,
+		Curve = 2,
+		Connections = 1,
 		RelativeDistances = 512,
 		OrientationAnchors = 1024,
-		All = 65535,
+		TFs = 256,
+		Orientation = 16,
 	};
 }

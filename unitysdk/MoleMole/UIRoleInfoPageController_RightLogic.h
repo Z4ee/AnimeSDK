@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoPageController_RightLogic_TypeDefinitionIndex = 67734;
+	inline static constexpr unsigned int UIRoleInfoPageController_RightLogic_TypeDefinitionIndex = 73103;
 
 	enum class UIRoleInfoPageController_RightLogic : ::System::Int32
 	{
-		NoFadein = 0,
 		Fadein = 1,
+		NoFadein = 0,
 	};
 }

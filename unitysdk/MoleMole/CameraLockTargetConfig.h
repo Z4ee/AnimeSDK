@@ -7,11 +7,11 @@ namespace MoleMole { class CameraModuleLockRotateData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERALOCKTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE6B20)
+#define MOLEMOLE_CAMERALOCKTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE94C480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraLockTargetConfig_TypeDefinitionIndex = 81367;
+	inline static constexpr unsigned int CameraLockTargetConfig_TypeDefinitionIndex = 59389;
 
 	class CameraLockTargetConfig : public ::System::Object
 	{

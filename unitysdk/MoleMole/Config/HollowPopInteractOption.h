@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HOLLOWPOPINTERACTOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x153D0840)
+#define MOLEMOLE_CONFIG_HOLLOWPOPINTERACTOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1705E0B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowPopInteractOption_TypeDefinitionIndex = 56998;
+	inline static constexpr unsigned int HollowPopInteractOption_TypeDefinitionIndex = 49437;
 
 	class HollowPopInteractOption : public ::System::Object
 	{

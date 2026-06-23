@@ -7,7 +7,7 @@ namespace MoleMole { class ChessEntity; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackerGamePlayerEffectTypeChangedData_TypeDefinitionIndex = 79546;
+	inline static constexpr unsigned int HackerGamePlayerEffectTypeChangedData_TypeDefinitionIndex = 86112;
 
 	struct alignas(8) HackerGamePlayerEffectTypeChangedData
 	{

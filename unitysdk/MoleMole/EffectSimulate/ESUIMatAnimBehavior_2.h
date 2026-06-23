@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_17B78A87EAE1DCED.h"
 #include "unitysdk/MoleMole/EffectSimulate/ESLoopable_2.h"
 
 namespace MoleMole::EffectSimulate { class NESUIDataCache; }
@@ -12,7 +11,7 @@ namespace UnityEngine { class Material; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESUIMatAnimBehavior_2_TypeDefinitionIndex = 44965;
+	inline static constexpr unsigned int ESUIMatAnimBehavior_2_TypeDefinitionIndex = 74673;
 
 	template <typename EvaluateCurveType, typename ValType>
 	class ESUIMatAnimBehavior_2 : public ::MoleMole::EffectSimulate::ESLoopable_2<EvaluateCurveType, ValType>

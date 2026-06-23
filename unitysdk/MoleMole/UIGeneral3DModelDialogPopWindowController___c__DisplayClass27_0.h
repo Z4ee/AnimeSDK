@@ -7,7 +7,7 @@ namespace MoleMole { class UIGeneral3DModelDialogPopWindowController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 64390;
+	inline static constexpr unsigned int UIGeneral3DModelDialogPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 55943;
 
 	struct alignas(8) UIGeneral3DModelDialogPopWindowController___c__DisplayClass27_0
 	{

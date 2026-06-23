@@ -5,18 +5,18 @@
 namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { class String; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS64_0__BACKUPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B27FC00)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27B330)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS64_0__BACKUPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D63BF70)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D637690)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass64_0_TypeDefinitionIndex = 36845;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass64_0_TypeDefinitionIndex = 38455;
 
 	class SQLiteAsyncConnection___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::System::String* databaseName; // 0x10
-		::System::String* destinationDatabasePath; // 0x18
+		::System::String* destinationDatabasePath; // 0x10
+		::System::String* databaseName; // 0x18
 
 		::System::Void _ctor()
 		{

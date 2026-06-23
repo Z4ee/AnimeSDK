@@ -3,7 +3,7 @@
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Operator_Op_TypeDefinitionIndex = 1648;
+	inline static constexpr unsigned int Operator_Op_TypeDefinitionIndex = 1647;
 
 	enum class Operator_Op : ::System::Int32
 	{

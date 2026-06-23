@@ -8,7 +8,7 @@ class Class_2_12BDE7300F0E061C;
 namespace System { template <typename T1, typename T2> class Func_2; }
 template <typename T> class Class_3_A1F6BE4D2A616357___c;
 
-inline static constexpr unsigned int Class_3_A1F6BE4D2A616357___c_TypeDefinitionIndex = 53307;
+inline static constexpr unsigned int Class_3_A1F6BE4D2A616357___c_TypeDefinitionIndex = 80078;
 
 template <typename TFilter>
 class Class_3_A1F6BE4D2A616357___c : public ::System::Object

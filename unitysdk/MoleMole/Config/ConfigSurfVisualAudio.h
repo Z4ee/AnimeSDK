@@ -8,7 +8,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfVisualAudio_TypeDefinitionIndex = 80338;
+	inline static constexpr unsigned int ConfigSurfVisualAudio_TypeDefinitionIndex = 48154;
 
 	struct alignas(8) ConfigSurfVisualAudio
 	{

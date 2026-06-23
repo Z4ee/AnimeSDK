@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_NPCAGENTPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x11D85C50)
+#define NPCCROWD_ABILITY_NPCAGENTPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x11363450)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAgentParameters_TypeDefinitionIndex = 76072;
+	inline static constexpr unsigned int NPCAgentParameters_TypeDefinitionIndex = 53836;
 
 	class NPCAgentParameters : public ::System::Object
 	{

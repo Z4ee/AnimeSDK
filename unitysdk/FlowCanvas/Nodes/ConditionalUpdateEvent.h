@@ -5,13 +5,13 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1AF21400)
-#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AF21490)
-#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF215C0)
+#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D347B50)
+#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D347BE0)
+#define FLOWCANVAS_NODES_CONDITIONALUPDATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D347D10)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ConditionalUpdateEvent_TypeDefinitionIndex = 26552;
+	inline static constexpr unsigned int ConditionalUpdateEvent_TypeDefinitionIndex = 30142;
 
 	class ConditionalUpdateEvent : public ::FlowCanvas::Nodes::EventNode
 	{

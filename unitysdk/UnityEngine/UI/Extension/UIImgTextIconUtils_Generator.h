@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_95E491FD617A3F68_Class_1_E23FBD37533CCEFB.h"
+#include "unitysdk/Class_1_D79D852F682C7303_Class_1_E23FBD37533CCEFB.h"
 #include "unitysdk/UnityEngine/UI/Extension/UIImgTextIconUtils_EIconType.h"
 
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENERATOR_ADDICON_OFFSET UNITYSDK_OFFSET(0x19A956D0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A957D0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENERATOR_ADDICON_OFFSET UNITYSDK_OFFSET(0x1C6B8140)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B8240)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgTextIconUtils_Generator_TypeDefinitionIndex = 44983;
+	inline static constexpr unsigned int UIImgTextIconUtils_Generator_TypeDefinitionIndex = 52334;
 
-	class UIImgTextIconUtils_Generator : public ::Class_1_95E491FD617A3F68_Class_1_E23FBD37533CCEFB
+	class UIImgTextIconUtils_Generator : public ::Class_1_D79D852F682C7303_Class_1_E23FBD37533CCEFB
 	{
 	public:
 		::System::Void _ctor()

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_30798CA871D0A37F;
+class Class_2_DA3A8DDFF1297CFF;
 
-#define MOLEMOLE_UICREATEROLEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157D5F10)
+#define MOLEMOLE_UICREATEROLEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166B7160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICreateRolePageContext_TypeDefinitionIndex = 74399;
+	inline static constexpr unsigned int UICreateRolePageContext_TypeDefinitionIndex = 57154;
 
 	class UICreateRolePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_30798CA871D0A37F* procedureConfig; // 0x28
+		::Class_2_DA3A8DDFF1297CFF* procedureConfig; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace UniLabs::Time
 {
-	inline static constexpr unsigned int TimeUnit_TypeDefinitionIndex = 85823;
+	inline static constexpr unsigned int TimeUnit_TypeDefinitionIndex = 91397;
 
 	enum class TimeUnit : ::System::Int32
 	{

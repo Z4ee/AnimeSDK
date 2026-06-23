@@ -8,20 +8,20 @@ namespace UnrealTypes { class FieldClass; }
 namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class Property; }
 
-#define UNREALTYPES_FIELD_ADDCPPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1ADA2A10)
-#define UNREALTYPES_FIELD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ADA29D0)
-#define UNREALTYPES_FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA2930)
+#define UNREALTYPES_FIELD_ADDCPPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1D1B5FA0)
+#define UNREALTYPES_FIELD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1B5F60)
+#define UNREALTYPES_FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B5EC0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Field_TypeDefinitionIndex = 25236;
+	inline static constexpr unsigned int Field_TypeDefinitionIndex = 27726;
 
 	class Field : public ::System::Object
 	{
 	public:
-		::UnrealTypes::Field* Next; // 0x10
-		::UnrealTypes::FieldClass* ClassPrivate; // 0x18
-		::System::String* Name; // 0x20
+		::System::String* Name; // 0x10
+		::UnrealTypes::Field* Next; // 0x18
+		::UnrealTypes::FieldClass* ClassPrivate; // 0x20
 		::UnrealTypes::IFieldVariant* Owner; // 0x28
 		::Foundation::Unreal::FName NamePrivate; // 0x30
 

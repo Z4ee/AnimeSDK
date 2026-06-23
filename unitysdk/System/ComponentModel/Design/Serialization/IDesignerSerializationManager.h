@@ -13,7 +13,7 @@ namespace System::ComponentModel::Design::Serialization { class ResolveNameEvent
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int IDesignerSerializationManager_TypeDefinitionIndex = 3106;
+	inline static constexpr unsigned int IDesignerSerializationManager_TypeDefinitionIndex = 3105;
 
 	class IDesignerSerializationManager
 	{

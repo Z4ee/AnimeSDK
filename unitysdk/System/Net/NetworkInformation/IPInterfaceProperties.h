@@ -11,11 +11,11 @@ namespace System::Net::NetworkInformation { class IPv6InterfaceProperties; }
 namespace System::Net::NetworkInformation { class MulticastIPAddressInformationCollection; }
 namespace System::Net::NetworkInformation { class UnicastIPAddressInformationCollection; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19E36460)
+#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CE4C0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPInterfaceProperties_TypeDefinitionIndex = 3712;
+	inline static constexpr unsigned int IPInterfaceProperties_TypeDefinitionIndex = 3711;
 
 	class IPInterfaceProperties : public ::System::Object
 	{

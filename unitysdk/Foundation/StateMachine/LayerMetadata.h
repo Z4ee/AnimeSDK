@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_STATEMACHINE_LAYERMETADATA_GET_ANYTRANSITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x3F6FF0)
-#define FOUNDATION_STATEMACHINE_LAYERMETADATA_GET_ANYTRANSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x361400)
+#define FOUNDATION_STATEMACHINE_LAYERMETADATA_GET_ANYTRANSITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x3E4240)
+#define FOUNDATION_STATEMACHINE_LAYERMETADATA_GET_ANYTRANSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x35AE50)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int LayerMetadata_TypeDefinitionIndex = 8941;
+	inline static constexpr unsigned int LayerMetadata_TypeDefinitionIndex = 8656;
 
 	struct alignas(2) LayerMetadata
 	{

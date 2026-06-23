@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 
-namespace Nap::NapECS { class EcsWorld; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_449_TypeDefinitionIndex = 78590;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_449_TypeDefinitionIndex = 83437;
 
 class Class_0_16E4307DCC419505_449
 {

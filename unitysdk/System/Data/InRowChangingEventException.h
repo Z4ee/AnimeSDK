@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE4BAD0)
-#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BE4BB90)
-#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4BA80)
+#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E182C00)
+#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E182CC0)
+#define SYSTEM_DATA_INROWCHANGINGEVENTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E182BB0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int InRowChangingEventException_TypeDefinitionIndex = 36961;
+	inline static constexpr unsigned int InRowChangingEventException_TypeDefinitionIndex = 38578;
 
 	class InRowChangingEventException : public ::System::Data::DataException
 	{

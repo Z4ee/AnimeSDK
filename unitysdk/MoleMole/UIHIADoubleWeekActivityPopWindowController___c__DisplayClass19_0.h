@@ -5,18 +5,18 @@
 class Class_3_31FA216B8128BBFD_5;
 namespace MoleMole { class UIHIADoubleWeekActivityPopWindowController; }
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x151CD530)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__ONSELECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0x151CD540)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x171F6010)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__ONSELECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0x171F6020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 42157;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 50904;
 
 	class UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHIADoubleWeekActivityPopWindowController* __4__this; // 0x10
-		::Class_3_31FA216B8128BBFD_5* grid; // 0x18
+		::Class_3_31FA216B8128BBFD_5* grid; // 0x10
+		::MoleMole::UIHIADoubleWeekActivityPopWindowController* __4__this; // 0x18
 		::System::Int32 idx; // 0x20
 
 		::System::Void _ctor()

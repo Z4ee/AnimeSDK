@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYUPDATERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA79E30)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYUPDATERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE71E60)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int AddNotifyLobbyUpdateReceivedOptions_TypeDefinitionIndex = 34040;
+	inline static constexpr unsigned int AddNotifyLobbyUpdateReceivedOptions_TypeDefinitionIndex = 35603;
 
 	class AddNotifyLobbyUpdateReceivedOptions : public ::System::Object
 	{

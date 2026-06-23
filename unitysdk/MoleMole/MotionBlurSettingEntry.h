@@ -4,13 +4,13 @@
 #include "unitysdk/MoleMole/GraphicEnumSettingEntryBase.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileType.h"
 
-#define MOLEMOLE_MOTIONBLURSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x13EAD7D0)
-#define MOLEMOLE_MOTIONBLURSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x13EAD7C0)
-#define MOLEMOLE_MOTIONBLURSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAD7E0)
+#define MOLEMOLE_MOTIONBLURSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1264CB30)
+#define MOLEMOLE_MOTIONBLURSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1264CB20)
+#define MOLEMOLE_MOTIONBLURSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1264CB40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MotionBlurSettingEntry_TypeDefinitionIndex = 50916;
+	inline static constexpr unsigned int MotionBlurSettingEntry_TypeDefinitionIndex = 60981;
 
 	class MotionBlurSettingEntry : public ::MoleMole::GraphicEnumSettingEntryBase
 	{

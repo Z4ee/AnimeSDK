@@ -9,6 +9,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NAPShaderQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostProcessingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SSAOQuality.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/SSDOQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SSPRQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ShadowData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/TAAQuality.h"
@@ -18,7 +19,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RenderingData_TypeDefinitionIndex = 5941;
+	inline static constexpr unsigned int RenderingData_TypeDefinitionIndex = 5951;
 
 	struct alignas(8) RenderingData
 	{
@@ -73,6 +74,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::Il2CppArray<::Il2CppArray<::System::Single>*>* layerShadowCullingDistances; // 0x590
 		::UnityEngine::NAPRenderPipeline0::NAPShaderQuality napShaderQuality; // 0x598
 		::UnityEngine::NAPRenderPipeline0::VolumetricFogQuality volumetricCloudQuality; // 0x59C
-		::System::Boolean useBakedDecal; // 0x5A0
+		::UnityEngine::NAPRenderPipeline0::SSDOQuality ssdoQuality; // 0x5A0
+		::System::Boolean useBakedDecal; // 0x5A4
 	};
 }

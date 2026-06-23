@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IMECompositionString__buffer_e__FixedBuffer_TypeDefinitionIndex = 29253;
+	inline static constexpr unsigned int IMECompositionString__buffer_e__FixedBuffer_TypeDefinitionIndex = 31909;
 
 	struct alignas(2) IMECompositionString__buffer_e__FixedBuffer
 	{

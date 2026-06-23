@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int PrefabModificationType_TypeDefinitionIndex = 7387;
+	inline static constexpr unsigned int PrefabModificationType_TypeDefinitionIndex = 7519;
 
 	enum class PrefabModificationType : ::System::Int32
 	{

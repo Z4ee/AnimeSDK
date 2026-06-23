@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B523360)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B523380)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B523430)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1D8DF900)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D8DF920)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_CLAMPPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DF9D0)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int ClampProcessor_TypeDefinitionIndex = 29305;
+	inline static constexpr unsigned int ClampProcessor_TypeDefinitionIndex = 31961;
 
 	class ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::System::Single>
 	{
 	public:
-		::System::Single min; // 0x10
-		::System::Single max; // 0x14
+		::System::Single max; // 0x10
+		::System::Single min; // 0x14
 
 		::System::Void _ctor()
 		{

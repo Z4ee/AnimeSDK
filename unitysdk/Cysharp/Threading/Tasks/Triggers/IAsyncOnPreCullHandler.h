@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnPreCullHandler_TypeDefinitionIndex = 28742;
+	inline static constexpr unsigned int IAsyncOnPreCullHandler_TypeDefinitionIndex = 31398;
 
 	class IAsyncOnPreCullHandler
 	{

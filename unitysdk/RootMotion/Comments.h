@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ROOTMOTION_COMMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE16670)
+#define ROOTMOTION_COMMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1533D0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Comments_TypeDefinitionIndex = 36529;
+	inline static constexpr unsigned int Comments_TypeDefinitionIndex = 38281;
 
 	class Comments : public ::UnityEngine::MonoBehaviour
 	{

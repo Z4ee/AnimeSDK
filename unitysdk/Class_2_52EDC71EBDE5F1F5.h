@@ -6,21 +6,21 @@ class Class_2_F5737224A0253470;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_2_52EDC71EBDE5F1F5_METHOD_2_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0xFC35190)
-#define CLASS_2_52EDC71EBDE5F1F5_METHOD_2_D2E86A575805E3C6_OFFSET UNITYSDK_OFFSET(0xFC34CC0)
-#define CLASS_2_52EDC71EBDE5F1F5__CTOR_OFFSET UNITYSDK_OFFSET(0xFC34BF0)
+#define CLASS_2_52EDC71EBDE5F1F5_METHOD_2_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0x1506EAB0)
+#define CLASS_2_52EDC71EBDE5F1F5_METHOD_2_D2E86A575805E3C6_OFFSET UNITYSDK_OFFSET(0x1506E5E0)
+#define CLASS_2_52EDC71EBDE5F1F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1506E510)
 
-inline static constexpr unsigned int Class_2_52EDC71EBDE5F1F5_TypeDefinitionIndex = 73825;
+inline static constexpr unsigned int Class_2_52EDC71EBDE5F1F5_TypeDefinitionIndex = 70398;
 
 class Class_2_52EDC71EBDE5F1F5 : public ::Class_1_3002EE73D986F5EA
 {
 public:
 	::System::String* Field_2_0; // 0x18
-	::Class_2_F5737224A0253470* Field_2_4; // 0x20
-	::System::Action* Field_2_3; // 0x28
-	::System::Int32 Field_2_1; // 0x30
-	::System::Single Field_2_5; // 0x34
-	::System::Boolean Field_2_2; // 0x38
+	::System::Action* Field_2_3; // 0x20
+	::Class_2_F5737224A0253470* Field_2_4; // 0x28
+	::System::Single Field_2_5; // 0x30
+	::System::Boolean Field_2_2; // 0x34
+	::System::Int32 Field_2_1; // 0x38
 
 	::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3)
 	{

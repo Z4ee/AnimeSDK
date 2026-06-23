@@ -8,7 +8,7 @@ namespace UnityEngine::InputSystem::Utilities { template <typename T> class Wher
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int WhereObservable_1_Where_TypeDefinitionIndex = 29418;
+	inline static constexpr unsigned int WhereObservable_1_Where_TypeDefinitionIndex = 32074;
 
 	template <typename TValue>
 	class WhereObservable_1_Where : public ::System::Object

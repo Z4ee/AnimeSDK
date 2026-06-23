@@ -4,9 +4,9 @@
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class Object; }
-template <typename T> class Class_0_16E4307DCC419505_625;
+template <typename T> class Class_0_16E4307DCC419505_684;
 
-inline static constexpr unsigned int Struct_2_62045C6D411AE8C4_TypeDefinitionIndex = 63350;
+inline static constexpr unsigned int Struct_2_62045C6D411AE8C4_TypeDefinitionIndex = 74768;
 
 template <typename T>
 struct Struct_2_62045C6D411AE8C4

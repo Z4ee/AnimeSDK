@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_OBJECTSERVICE_OBJECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9C3C10)
+#define FOUNDATION_OBJECTSERVICE_OBJECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA65980)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectService_ObjectItem_TypeDefinitionIndex = 8895;
+	inline static constexpr unsigned int ObjectService_ObjectItem_TypeDefinitionIndex = 8543;
 
 	struct alignas(4) ObjectService_ObjectItem
 	{

@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class LevelShootGameConfig_WayPoint; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAYPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA57F0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAYPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x158BF5E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_WayPathConfig_TypeDefinitionIndex = 58585;
+	inline static constexpr unsigned int LevelShootGameConfig_WayPathConfig_TypeDefinitionIndex = 70555;
 
 	class LevelShootGameConfig_WayPathConfig : public ::System::Object
 	{

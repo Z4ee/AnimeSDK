@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MDB_ClothLayerType_TypeDefinitionIndex = 37661;
+	inline static constexpr unsigned int MDB_ClothLayerType_TypeDefinitionIndex = 39287;
 
 	enum class MDB_ClothLayerType : ::System::Int32
 	{

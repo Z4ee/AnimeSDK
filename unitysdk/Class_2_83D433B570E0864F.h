@@ -12,26 +12,26 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_83D433B570E0864F_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x150A29D0)
-#define CLASS_2_83D433B570E0864F_METHOD_2_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0x150A2790)
-#define CLASS_2_83D433B570E0864F_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x150A2AC0)
-#define CLASS_2_83D433B570E0864F__CTOR_OFFSET UNITYSDK_OFFSET(0x150A2AB0)
+#define CLASS_2_83D433B570E0864F_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x16597860)
+#define CLASS_2_83D433B570E0864F_METHOD_2_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0x16597620)
+#define CLASS_2_83D433B570E0864F_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16597950)
+#define CLASS_2_83D433B570E0864F__CTOR_OFFSET UNITYSDK_OFFSET(0x16597940)
 
-inline static constexpr unsigned int Class_2_83D433B570E0864F_TypeDefinitionIndex = 48494;
+inline static constexpr unsigned int Class_2_83D433B570E0864F_TypeDefinitionIndex = 61982;
 
 class Class_2_83D433B570E0864F : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_4; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
-	::UnityEngine::RectTransform* Field_2_5; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x38
+	::UnityEngine::Animation* Field_2_6; // 0x18
+	::MonoUITableScrollV2* Field_2_8; // 0x20
+	::MonoUITableScrollV2* Field_2_9; // 0x28
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_7; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x38
 	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x40
-	::UnityEngine::Animation* Field_2_6; // 0x48
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_7; // 0x50
-	::MonoUITableScrollV2* Field_2_9; // 0x58
-	::MonoUITableScrollV2* Field_2_8; // 0x60
+	::UnityEngine::RectTransform* Field_2_5; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x58
+	::MonoUITableScrollV2* Field_2_4; // 0x60
 
 	::System::Void _ctor()
 	{

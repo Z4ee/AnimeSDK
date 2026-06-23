@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DownloadTagSet_TypeDefinitionIndex = 77339;
+	inline static constexpr unsigned int DownloadTagSet_TypeDefinitionIndex = 64572;
 
 	struct alignas(8) DownloadTagSet
 	{

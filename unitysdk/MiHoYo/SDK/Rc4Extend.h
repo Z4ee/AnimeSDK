@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1A504E90)
+#define MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1C83A710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Rc4Extend_TypeDefinitionIndex = 35302;
+	inline static constexpr unsigned int Rc4Extend_TypeDefinitionIndex = 36866;
 
 	class Rc4Extend : public ::System::Object
 	{

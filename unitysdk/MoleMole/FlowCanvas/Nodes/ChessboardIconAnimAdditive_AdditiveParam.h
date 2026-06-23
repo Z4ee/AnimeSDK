@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMADDITIVE_ADDITIVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14989240)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMADDITIVE_ADDITIVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x170FE2D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardIconAnimAdditive_AdditiveParam_TypeDefinitionIndex = 80719;
+	inline static constexpr unsigned int ChessboardIconAnimAdditive_AdditiveParam_TypeDefinitionIndex = 51744;
 
 	class ChessboardIconAnimAdditive_AdditiveParam : public ::System::Object
 	{
 	public:
 		::System::String* AnimKey; // 0x10
-		::System::Boolean IsBigTv; // 0x18
-		::MoleMole::HollowPieceBlendMode BlendMode; // 0x1C
+		::MoleMole::HollowPieceBlendMode BlendMode; // 0x18
+		::System::Boolean IsBigTv; // 0x1C
 
 		::System::Void _ctor()
 		{

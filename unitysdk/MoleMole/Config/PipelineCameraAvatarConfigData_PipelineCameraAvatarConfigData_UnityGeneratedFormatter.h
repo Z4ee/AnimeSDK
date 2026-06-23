@@ -13,30 +13,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14253EE0)
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14253EF0)
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x14254190)
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14254390)
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14254350)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10D15330)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10D15340)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10D155E0)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D157E0)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_PIPELINECAMERAAVATARCONFIGDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D157A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex = 63812;
+	inline static constexpr unsigned int PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex = 44800;
 
 	class PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::PipelineCameraAvatarConfigData*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModelSphereData*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModelSphereData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45860);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InlevelCameraState, ::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InlevelCameraState, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45868);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InlevelCameraState, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x465B0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModuleAvatarDataConfigExt*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModuleAvatarDataConfigExt*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45870);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModuleAvatarDataConfigExt*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x465B8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModelSphereData*>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::CameraModelSphereData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PipelineCameraAvatarConfigData_PipelineCameraAvatarConfigData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x465C0);
 		}
 
 		::System::Void _ctor()

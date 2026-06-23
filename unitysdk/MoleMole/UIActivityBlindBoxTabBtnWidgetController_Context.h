@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYBLINDBOXTABBTNWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E24750)
+#define MOLEMOLE_UIACTIVITYBLINDBOXTABBTNWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183C4A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBlindBoxTabBtnWidgetController_Context_TypeDefinitionIndex = 70379;
+	inline static constexpr unsigned int UIActivityBlindBoxTabBtnWidgetController_Context_TypeDefinitionIndex = 54344;
 
 	class UIActivityBlindBoxTabBtnWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AdditionalCanvasShaderChannels_TypeDefinitionIndex = 7683;
+	inline static constexpr unsigned int AdditionalCanvasShaderChannels_TypeDefinitionIndex = 18406;
 
 	enum class AdditionalCanvasShaderChannels : ::System::Int32
 	{

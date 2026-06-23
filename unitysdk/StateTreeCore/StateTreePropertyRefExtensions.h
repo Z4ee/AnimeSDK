@@ -10,7 +10,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyRefExtensions_TypeDefinitionIndex = 28394;
+	inline static constexpr unsigned int StateTreePropertyRefExtensions_TypeDefinitionIndex = 31048;
 
 	class StateTreePropertyRefExtensions : public ::System::Object
 	{

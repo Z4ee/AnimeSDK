@@ -12,28 +12,28 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOHIDE_OFFSET UNITYSDK_OFFSET(0x1702D4A0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOREALRESET_OFFSET UNITYSDK_OFFSET(0x1702D920)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOSHOW_OFFSET UNITYSDK_OFFSET(0x1702CD30)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOSTARTRESET_OFFSET UNITYSDK_OFFSET(0x1702D4F0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOUPDATE_OFFSET UNITYSDK_OFFSET(0x1702D5A0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_09B5E063A8E55AF5_OFFSET UNITYSDK_OFFSET(0x1702E5A0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_3EC59EBDB116E19C_OFFSET UNITYSDK_OFFSET(0x1702EE70)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_513522A29644217D_OFFSET UNITYSDK_OFFSET(0x17030300)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_67D41ACFEF39E84E_OFFSET UNITYSDK_OFFSET(0x1702CDB0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_8DF6D21677681C65_OFFSET UNITYSDK_OFFSET(0x1702DDB0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_BAAE641E9BDEB492_OFFSET UNITYSDK_OFFSET(0x1702E0E0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_CCF1D6419B23EEE1_OFFSET UNITYSDK_OFFSET(0x1702FE70)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_F5586C5D862C8EF0_OFFSET UNITYSDK_OFFSET(0x17030E90)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_F9B8047F726FEAA7_OFFSET UNITYSDK_OFFSET(0x1702FB30)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1702DAB0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_SETTOMAT_OFFSET UNITYSDK_OFFSET(0x1702D2C0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_UPDATEWAYPOINTSSTARTEND_OFFSET UNITYSDK_OFFSET(0x1702DBF0)
-#define MOLEMOLE_MONOSCENEFINDWAYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1702DCC0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOHIDE_OFFSET UNITYSDK_OFFSET(0x18CE8CA0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOREALRESET_OFFSET UNITYSDK_OFFSET(0x18CE9120)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOSHOW_OFFSET UNITYSDK_OFFSET(0x18CE8530)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOSTARTRESET_OFFSET UNITYSDK_OFFSET(0x18CE8CF0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_DOUPDATE_OFFSET UNITYSDK_OFFSET(0x18CE8DA0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_09B5E063A8E55AF5_OFFSET UNITYSDK_OFFSET(0x18CE9C20)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_3EC59EBDB116E19C_OFFSET UNITYSDK_OFFSET(0x18CEBCA0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_513522A29644217D_OFFSET UNITYSDK_OFFSET(0x18CEA980)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_67D41ACFEF39E84E_OFFSET UNITYSDK_OFFSET(0x18CE85B0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_8DF6D21677681C65_OFFSET UNITYSDK_OFFSET(0x18CE95B0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_BAAE641E9BDEB492_OFFSET UNITYSDK_OFFSET(0x18CEB510)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_CCF1D6419B23EEE1_OFFSET UNITYSDK_OFFSET(0x18CEA4F0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_F5586C5D862C8EF0_OFFSET UNITYSDK_OFFSET(0x18CEB9D0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_F9B8047F726FEAA7_OFFSET UNITYSDK_OFFSET(0x18CE98E0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18CE92B0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_SETTOMAT_OFFSET UNITYSDK_OFFSET(0x18CE8AC0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT_UPDATEWAYPOINTSSTARTEND_OFFSET UNITYSDK_OFFSET(0x18CE93F0)
+#define MOLEMOLE_MONOSCENEFINDWAYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE94C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSceneFindWayObject_TypeDefinitionIndex = 67830;
+	inline static constexpr unsigned int MonoSceneFindWayObject_TypeDefinitionIndex = 55382;
 
 	class MonoSceneFindWayObject : public ::MoleMole::MonoSceneObjectBase
 	{
@@ -114,21 +114,6 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_67D41ACFEF39E84E_OFFSET))(this);
 		}
 
-		::System::Void Method_7_8DF6D21677681C65()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_8DF6D21677681C65_OFFSET))(this);
-		}
-
-		::System::Void Method_7_BAAE641E9BDEB492(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_BAAE641E9BDEB492_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_7_3EC59EBDB116E19C(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a5)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_3EC59EBDB116E19C_OFFSET))(this, a1, a2, a3, a4, a5);
-		}
-
 		::System::Void Method_7_F9B8047F726FEAA7(::System::Collections::Generic::List_1<::System::Int32>* a1, ::System::Int32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_F9B8047F726FEAA7_OFFSET))(this, a1, a2);
@@ -139,14 +124,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_09B5E063A8E55AF5_OFFSET))(this, a1, a2);
 		}
 
+		::System::Void Method_7_CCF1D6419B23EEE1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_CCF1D6419B23EEE1_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void Method_7_BAAE641E9BDEB492(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_BAAE641E9BDEB492_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_7_8DF6D21677681C65()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_8DF6D21677681C65_OFFSET))(this);
+		}
+
 		::System::Void Method_7_513522A29644217D(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a4, ::System::Collections::Generic::List_1<::System::Int32>* a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::UnityEngine::Vector3 a8, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a9)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_513522A29644217D_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void Method_7_CCF1D6419B23EEE1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		::System::Void Method_7_3EC59EBDB116E19C(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_CCF1D6419B23EEE1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCENEFINDWAYOBJECT_METHOD_7_3EC59EBDB116E19C_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean Method_7_F5586C5D862C8EF0(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)

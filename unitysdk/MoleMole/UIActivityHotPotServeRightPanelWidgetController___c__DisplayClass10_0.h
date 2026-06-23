@@ -4,20 +4,20 @@
 
 namespace MoleMole { class UIActivityHotPotServeRightPanelWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F361C0)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__SETNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0x12F361D0)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__SETNUMBER_B__1_OFFSET UNITYSDK_OFFSET(0x12F36210)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12C00DF0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__SETNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0x12C00E00)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS10_0__SETNUMBER_B__1_OFFSET UNITYSDK_OFFSET(0x12C00E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 57873;
+	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 50203;
 
 	class UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIActivityHotPotServeRightPanelWidgetController* __4__this; // 0x10
-		::System::Int32 number; // 0x18
-		::System::Int32 currentJudgeScore; // 0x1C
+		::System::Int32 currentJudgeScore; // 0x18
+		::System::Int32 number; // 0x1C
 
 		::System::Void _ctor()
 		{

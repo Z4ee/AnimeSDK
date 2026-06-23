@@ -7,9 +7,9 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_1_27FB375A0E2DE216_METHOD_1_DD5019BB88E132E3_OFFSET UNITYSDK_OFFSET(0x1120BDC0)
+#define CLASS_1_27FB375A0E2DE216_METHOD_1_DD5019BB88E132E3_OFFSET UNITYSDK_OFFSET(0x144732F0)
 
-inline static constexpr unsigned int Class_1_27FB375A0E2DE216_TypeDefinitionIndex = 57943;
+inline static constexpr unsigned int Class_1_27FB375A0E2DE216_TypeDefinitionIndex = 47752;
 
 class Class_1_27FB375A0E2DE216 : public ::System::Object
 {

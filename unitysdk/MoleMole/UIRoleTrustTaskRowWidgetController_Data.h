@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIROLETRUSTTASKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x161398A0)
+#define MOLEMOLE_UIROLETRUSTTASKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB0480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleTrustTaskRowWidgetController_Data_TypeDefinitionIndex = 59390;
+	inline static constexpr unsigned int UIRoleTrustTaskRowWidgetController_Data_TypeDefinitionIndex = 72542;
 
 	class UIRoleTrustTaskRowWidgetController_Data : public ::System::Object
 	{

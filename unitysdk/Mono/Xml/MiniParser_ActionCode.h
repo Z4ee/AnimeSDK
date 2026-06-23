@@ -3,7 +3,7 @@
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_ActionCode_TypeDefinitionIndex = 2268;
+	inline static constexpr unsigned int MiniParser_ActionCode_TypeDefinitionIndex = 2267;
 
 	enum class MiniParser_ActionCode : ::System::Byte
 	{

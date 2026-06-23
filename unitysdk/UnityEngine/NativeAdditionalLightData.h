@@ -8,9 +8,15 @@
 
 namespace System { class Type; }
 namespace UnityEngine { class Material; }
+namespace UnityEngine { class Texture2DArray; }
 
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_REGISTERADDITIONALLIGHTDATATYPE_OFFSET UNITYSDK_OFFSET(0x1AADAE10)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9410)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWFACEINDEX_OFFSET UNITYSDK_OFFSET(0x1CF36D30)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWWORLDTOSHADOWMATRIX_OFFSET UNITYSDK_OFFSET(0x1CF36D70)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1CF36D00)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_REGISTERADDITIONALLIGHTDATATYPE_OFFSET UNITYSDK_OFFSET(0x1CF36E30)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SETRUNTIMEBAKEDSHADOWGPUPARAMS_OFFSET UNITYSDK_OFFSET(0x1CF36D20)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1CF36D10)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF352F0)
 
 namespace UnityEngine
 {
@@ -63,10 +69,38 @@ namespace UnityEngine
 		::UnityEngine::Color m_RTXColor; // 0x154
 		::System::Single m_RTXDiffuseIntensity; // 0x164
 		::System::Boolean m_RTXGI; // 0x168
+		::UnityEngine::Texture2DArray* m_BakedShadowMapArray; // 0x170
+		::Il2CppArray<::System::Int32>* _runtimeBakedShadowFaceIndices; // 0x178
+		::Il2CppArray<::UnityEngine::Matrix4x4>* _runtimeBakedShadowWorldToShadowMatrices; // 0x180
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Texture2DArray* get_bakedShadowMapArray()
+		{
+			return ((::UnityEngine::Texture2DArray*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GET_BAKEDSHADOWMAPARRAY_OFFSET))(this);
+		}
+
+		::System::Void set_bakedShadowMapArray(::UnityEngine::Texture2DArray* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2DArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SET_BAKEDSHADOWMAPARRAY_OFFSET))(this, value);
+		}
+
+		::System::Void SetRuntimeBakedShadowGpuParams(::Il2CppArray<::System::Int32>* faceIndices, ::Il2CppArray<::UnityEngine::Matrix4x4>* worldToShadowMatrices)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SETRUNTIMEBAKEDSHADOWGPUPARAMS_OFFSET))(this, faceIndices, worldToShadowMatrices);
+		}
+
+		::System::Int32 GetRuntimeOrSerializedBakedShadowFaceIndex(::System::Int32 slot)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWFACEINDEX_OFFSET))(this, slot);
+		}
+
+		::UnityEngine::Matrix4x4 GetRuntimeOrSerializedBakedShadowWorldToShadowMatrix(::System::Int32 slot)
+		{
+			return ((::UnityEngine::Matrix4x4(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWWORLDTOSHADOWMATRIX_OFFSET))(this, slot);
 		}
 
 		static ::System::Void RegisterAdditionalLightDataType(::System::Type* lightDataType)

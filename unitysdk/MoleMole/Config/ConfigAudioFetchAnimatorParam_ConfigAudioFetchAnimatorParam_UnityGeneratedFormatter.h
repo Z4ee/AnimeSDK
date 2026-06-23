@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x186ABB80)
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x186ABB90)
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x186ABD70)
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186ABF10)
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186ABED0)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x106C8D60)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x106C8D70)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x106C8F50)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x106C90F0)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_CONFIGAUDIOFETCHANIMATORPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x106C90B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex = 43233;
+	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex = 72151;
 
 	class ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigAudioFetchAnimatorParam*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x376B0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39B10);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAudioFetchAnimatorParam_AnimatorParamType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAudioFetchAnimatorParam_AnimatorParamType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x376B8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAudioFetchAnimatorParam_AnimatorParamType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigAudioFetchAnimatorParam_ConfigAudioFetchAnimatorParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39B18);
 		}
 
 		::System::Void _ctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSHOWHOLLOWSKILLBUTTON_INVOKE_OFFSET UNITYSDK_OFFSET(0x16038580)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSHOWHOLLOWSKILLBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x160387B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSHOWHOLLOWSKILLBUTTON_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BABCA0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSHOWHOLLOWSKILLBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x12BABEC0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardShowHollowSkillButton_TypeDefinitionIndex = 40208;
+	inline static constexpr unsigned int ChessboardShowHollowSkillButton_TypeDefinitionIndex = 50783;
 
 	class ChessboardShowHollowSkillButton : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Boolean>
 	{

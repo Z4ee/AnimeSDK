@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int IOOperation_TypeDefinitionIndex = 2698;
+	inline static constexpr unsigned int IOOperation_TypeDefinitionIndex = 2697;
 
 	enum class IOOperation : ::System::Int32
 	{

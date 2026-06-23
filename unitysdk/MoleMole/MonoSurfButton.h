@@ -6,11 +6,11 @@ namespace MoleMole { class SurfPoint; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOSURFBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x142B21F0)
+#define MOLEMOLE_MONOSURFBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x11645080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfButton_TypeDefinitionIndex = 76520;
+	inline static constexpr unsigned int MonoSurfButton_TypeDefinitionIndex = 67913;
 
 	class MonoSurfButton : public ::UnityEngine::MonoBehaviour
 	{

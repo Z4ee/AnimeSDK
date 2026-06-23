@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYREFERENCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A5AE770)
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AE760)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYREFERENCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C8CD9E0)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8CD9D0)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int IdentityReference_TypeDefinitionIndex = 1020;
+	inline static constexpr unsigned int IdentityReference_TypeDefinitionIndex = 1019;
 
 	class IdentityReference : public ::System::Object
 	{

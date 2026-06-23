@@ -10,11 +10,11 @@ namespace System::Net { class CookieCollection; }
 namespace System::Net::WebSockets { class WebSocket; }
 namespace System::Security::Principal { class IPrincipal; }
 
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B00FD0)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C02E490)
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketContext_TypeDefinitionIndex = 3901;
+	inline static constexpr unsigned int WebSocketContext_TypeDefinitionIndex = 3900;
 
 	class WebSocketContext : public ::System::Object
 	{

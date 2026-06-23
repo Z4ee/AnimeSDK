@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1__Reverse_d__94_TypeDefinitionIndex = 3991;
+	inline static constexpr unsigned int SortedSet_1__Reverse_d__94_TypeDefinitionIndex = 3990;
 
 	template <typename T>
 	class SortedSet_1__Reverse_d__94 : public ::System::Object

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_PKCS7_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF525B0)
+#define MONO_SECURITY_PKCS7_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1D362CC0)
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int PKCS7_Oid_TypeDefinitionIndex = 2276;
+	inline static constexpr unsigned int PKCS7_Oid_TypeDefinitionIndex = 2275;
 
 	class PKCS7_Oid : public ::System::Object
 	{

@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS244_0__CB_DISPLAYDIALOGFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C418EA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS244_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C418E90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS244_0__CB_DISPLAYDIALOGFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1E760D10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS244_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E760D00)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass244_0_TypeDefinitionIndex = 30989;
+	inline static constexpr unsigned int Browser___c__DisplayClass244_0_TypeDefinitionIndex = 32540;
 
 	class Browser___c__DisplayClass244_0 : public ::System::Object
 	{
 	public:
 		::System::String* text; // 0x10
-		::System::String* promptText; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x18
+		::System::String* promptText; // 0x20
 		::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType dialogType; // 0x28
 
 		::System::Void _ctor()

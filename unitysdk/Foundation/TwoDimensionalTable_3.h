@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TwoDimensionalTable_3_TypeDefinitionIndex = 7745;
+	inline static constexpr unsigned int TwoDimensionalTable_3_TypeDefinitionIndex = 7874;
 
 	template <typename TX, typename TY, typename V>
 	class TwoDimensionalTable_3 : public ::System::Object

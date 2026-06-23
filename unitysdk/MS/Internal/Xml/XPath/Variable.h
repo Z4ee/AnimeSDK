@@ -6,19 +6,19 @@
 
 namespace System { class String; }
 
-#define MS_INTERNAL_XML_XPATH_VARIABLE_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1A457D50)
-#define MS_INTERNAL_XML_XPATH_VARIABLE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A457D40)
-#define MS_INTERNAL_XML_XPATH_VARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A457D30)
+#define MS_INTERNAL_XML_XPATH_VARIABLE_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1C794B00)
+#define MS_INTERNAL_XML_XPATH_VARIABLE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C794AF0)
+#define MS_INTERNAL_XML_XPATH_VARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C794AE0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Variable_TypeDefinitionIndex = 1650;
+	inline static constexpr unsigned int Variable_TypeDefinitionIndex = 1649;
 
 	class Variable : public ::MS::Internal::Xml::XPath::AstNode
 	{
 	public:
-		::System::String* prefix; // 0x10
-		::System::String* localname; // 0x18
+		::System::String* localname; // 0x10
+		::System::String* prefix; // 0x18
 
 		::System::Void _ctor(::System::String* name, ::System::String* prefix)
 		{

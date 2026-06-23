@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int SubClassOf_1_TypeDefinitionIndex = 36097;
+	inline static constexpr unsigned int SubClassOf_1_TypeDefinitionIndex = 37705;
 
 	template <typename T>
 	class SubClassOf_1 : public ::PipelineCamera::SerializableTypeClass

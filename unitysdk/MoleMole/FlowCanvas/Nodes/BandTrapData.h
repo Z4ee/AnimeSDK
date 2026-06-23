@@ -6,11 +6,11 @@ namespace MoleMole::FlowCanvas::Nodes { class BandData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_BANDTRAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18205660)
+#define MOLEMOLE_FLOWCANVAS_NODES_BANDTRAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01D1D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BandTrapData_TypeDefinitionIndex = 40057;
+	inline static constexpr unsigned int BandTrapData_TypeDefinitionIndex = 82437;
 
 	class BandTrapData : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class GradientFill; }
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_PostponedStopData_TypeDefinitionIndex = 28478;
+	inline static constexpr unsigned int SVGDocument_PostponedStopData_TypeDefinitionIndex = 31133;
 
 	struct alignas(8) SVGDocument_PostponedStopData
 	{

@@ -6,20 +6,20 @@
 namespace MoleMole::Utils::CameraSequence { class MaintainLastCameraRotation; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF80D350)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF80D390)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0xF80D3A0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE86E390)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE86E3D0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0xE86E3E0)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int MaintainLastCameraRotation___c_TypeDefinitionIndex = 64821;
+	inline static constexpr unsigned int MaintainLastCameraRotation___c_TypeDefinitionIndex = 81470;
 
 	class MaintainLastCameraRotation___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation___c** StaticGet___9()
 		{
-			return (::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation___c**)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation___c_TypeDefinitionIndex)->GetStaticField(0x40B30);
+			return (::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation___c**)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation___c_TypeDefinitionIndex)->GetStaticField(0x435C0);
 		}
 
 		static ::System::Void _cctor()

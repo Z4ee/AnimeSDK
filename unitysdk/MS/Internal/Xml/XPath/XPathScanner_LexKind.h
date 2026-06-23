@@ -3,7 +3,7 @@
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int XPathScanner_LexKind_TypeDefinitionIndex = 1654;
+	inline static constexpr unsigned int XPathScanner_LexKind_TypeDefinitionIndex = 1653;
 
 	enum class XPathScanner_LexKind : ::System::Int32
 	{

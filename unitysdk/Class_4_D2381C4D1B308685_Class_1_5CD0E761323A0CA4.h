@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
+#include "unitysdk/Struct_2_FE9BD044832BC9C3.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x125720E0)
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12572390)
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x125723F0)
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x125723A0)
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x125720D0)
+#define CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4__CTOR_OFFSET UNITYSDK_OFFSET(0x125720C0)
+
+inline static constexpr unsigned int Class_4_D2381C4D1B308685_Class_1_5CD0E761323A0CA4_TypeDefinitionIndex = 60169;
+
+class Class_4_D2381C4D1B308685_Class_1_5CD0E761323A0CA4 : public ::System::Object
+{
+public:
+	::Foundation::ViewObject::ViewObjectHandle Field_1_4; // 0x10
+	::Struct_2_FE9BD044832BC9C3 Field_1_2; // 0x20
+	::System::Int32 Field_1_0; // 0x50
+	::System::Int32 Field_1_5; // 0x54
+	::System::Single Field_1_1; // 0x58
+	::System::UInt32 Field_1_3; // 0x5C
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_D2381C4D1B308685_CLASS_1_5CD0E761323A0CA4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

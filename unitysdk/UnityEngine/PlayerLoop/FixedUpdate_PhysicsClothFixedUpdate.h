@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_PhysicsClothFixedUpdate_TypeDefinitionIndex = 5577;
+	inline static constexpr unsigned int FixedUpdate_PhysicsClothFixedUpdate_TypeDefinitionIndex = 5579;
 
 	struct alignas(1) FixedUpdate_PhysicsClothFixedUpdate
 	{

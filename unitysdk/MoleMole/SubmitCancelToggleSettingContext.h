@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_SUBMITCANCELTOGGLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B1BFF0)
+#define MOLEMOLE_SUBMITCANCELTOGGLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160F0C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SubmitCancelToggleSettingContext_TypeDefinitionIndex = 74593;
+	inline static constexpr unsigned int SubmitCancelToggleSettingContext_TypeDefinitionIndex = 55151;
 
 	class SubmitCancelToggleSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

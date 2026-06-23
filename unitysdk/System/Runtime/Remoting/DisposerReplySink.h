@@ -7,13 +7,13 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A0AA690)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A0AA520)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AA510)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C4F6770)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C4F6600)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F65F0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int DisposerReplySink_TypeDefinitionIndex = 1260;
+	inline static constexpr unsigned int DisposerReplySink_TypeDefinitionIndex = 1259;
 
 	class DisposerReplySink : public ::System::Object
 	{

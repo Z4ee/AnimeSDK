@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xF3EA990)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xF3EA850)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x8C2A860)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C2A720)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex = 73498;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex = 82347;
 
 	class RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
-		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x2F660);
-		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x2F668);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x31890);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x31898);
 		}
 
 		static ::System::Void _cctor()

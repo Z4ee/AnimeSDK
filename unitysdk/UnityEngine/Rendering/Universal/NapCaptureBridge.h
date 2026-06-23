@@ -7,28 +7,28 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering::Universal { class NapCaptureAction; }
 namespace UnityEngine::Rendering::Universal { class NapCaptureData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_GET_CAPTREUACTIONS_OFFSET UNITYSDK_OFFSET(0x19ABA780)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_ISCAMERANEEDCAPTURE_OFFSET UNITYSDK_OFFSET(0x19ABAB80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x19ABAAE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_REGISTER_OFFSET UNITYSDK_OFFSET(0x19ABA7E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x19ABA930)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ABAEA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABAE90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_GET_CAPTREUACTIONS_OFFSET UNITYSDK_OFFSET(0x1BDC2840)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_ISCAMERANEEDCAPTURE_OFFSET UNITYSDK_OFFSET(0x1BDC2C40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1BDC2BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_REGISTER_OFFSET UNITYSDK_OFFSET(0x1BDC28A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1BDC29F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDC2F60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC2F50)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCaptureBridge_TypeDefinitionIndex = 30201;
+	inline static constexpr unsigned int NapCaptureBridge_TypeDefinitionIndex = 26294;
 
 	class NapCaptureBridge : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::NapCaptureData*>** StaticGet__dictionary()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::NapCaptureData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCaptureBridge_TypeDefinitionIndex)->GetStaticField(0x23D20);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::NapCaptureData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCaptureBridge_TypeDefinitionIndex)->GetStaticField(0x21510);
 		}
 		static ::System::Int32* StaticGet_increasingID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCaptureBridge_TypeDefinitionIndex)->GetStaticField(0x6670);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCaptureBridge_TypeDefinitionIndex)->GetStaticField(0x61F0);
 		}
 
 		::System::Void _ctor()

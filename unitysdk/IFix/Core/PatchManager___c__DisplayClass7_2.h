@@ -6,18 +6,18 @@ namespace IFix::Core { class PatchManager___c__DisplayClass7_1; }
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A794900)
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_2__LOAD_B__1_OFFSET UNITYSDK_OFFSET(0x1A795080)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA48C0)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_2__LOAD_B__1_OFFSET UNITYSDK_OFFSET(0x1CAA5040)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager___c__DisplayClass7_2_TypeDefinitionIndex = 6790;
+	inline static constexpr unsigned int PatchManager___c__DisplayClass7_2_TypeDefinitionIndex = 6921;
 
 	class PatchManager___c__DisplayClass7_2 : public ::System::Object
 	{
 	public:
-		::System::Type* IFixPatched; // 0x10
-		::System::Reflection::FieldInfo* patchedIDs; // 0x18
+		::System::Reflection::FieldInfo* patchedIDs; // 0x10
+		::System::Type* IFixPatched; // 0x18
 		::IFix::Core::PatchManager___c__DisplayClass7_1* CS___8__locals1; // 0x20
 		::System::Int32 maxPos; // 0x28
 

@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETCONDITIONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x186BDA70)
-#define MOLEMOLE_CONFIG_CONFIGSETCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x186BDAE0)
+#define MOLEMOLE_CONFIG_CONFIGSETCONDITIONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x18AD7650)
+#define MOLEMOLE_CONFIG_CONFIGSETCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD76C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetConditionNode_TypeDefinitionIndex = 72873;
+	inline static constexpr unsigned int ConfigSetConditionNode_TypeDefinitionIndex = 71011;
 
 	class ConfigSetConditionNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

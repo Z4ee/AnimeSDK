@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509RevocationMode_TypeDefinitionIndex = 3179;
+	inline static constexpr unsigned int X509RevocationMode_TypeDefinitionIndex = 3178;
 
 	enum class X509RevocationMode : ::System::Int32
 	{

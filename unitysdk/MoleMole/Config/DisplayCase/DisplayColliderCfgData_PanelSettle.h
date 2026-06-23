@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config::DisplayCase
 {
-	inline static constexpr unsigned int DisplayColliderCfgData_PanelSettle_TypeDefinitionIndex = 66532;
+	inline static constexpr unsigned int DisplayColliderCfgData_PanelSettle_TypeDefinitionIndex = 55789;
 
 	struct alignas(4) DisplayColliderCfgData_PanelSettle
 	{

@@ -4,13 +4,13 @@
 #include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-template <typename T> class Class_4_2FF7D360A2F3EC48;
-template <typename T> class Class_4_8D3E479B491881B3;
+template <typename T> class Class_4_B51FB35349ACD175;
+template <typename T> class Class_4_F91115D9A1F02F5F;
 
-#define CLASS_4_4FF2AF837FCB7DF7_METHOD_4_5E2AE1516CAE1DCB_OFFSET UNITYSDK_OFFSET(0x12952300)
-#define CLASS_4_4FF2AF837FCB7DF7__CTOR_OFFSET UNITYSDK_OFFSET(0x12952A20)
+#define CLASS_4_4FF2AF837FCB7DF7_METHOD_4_5E2AE1516CAE1DCB_OFFSET UNITYSDK_OFFSET(0x179D9210)
+#define CLASS_4_4FF2AF837FCB7DF7__CTOR_OFFSET UNITYSDK_OFFSET(0x179D9930)
 
-inline static constexpr unsigned int Class_4_4FF2AF837FCB7DF7_TypeDefinitionIndex = 56060;
+inline static constexpr unsigned int Class_4_4FF2AF837FCB7DF7_TypeDefinitionIndex = 48855;
 
 class Class_4_4FF2AF837FCB7DF7 : public ::Class_3_F3948D237059FA7A
 {

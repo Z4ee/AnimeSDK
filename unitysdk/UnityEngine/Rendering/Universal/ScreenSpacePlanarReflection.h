@@ -8,19 +8,19 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class LayerMaskParameter; }
 namespace UnityEngine::Rendering::Universal { class ScreenSpacePlanarReflection_RenderLayerMaskParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENSPACEPLANARREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x190CF4F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENSPACEPLANARREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x190CF250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENSPACEPLANARREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF11E40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENSPACEPLANARREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF11BA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScreenSpacePlanarReflection_TypeDefinitionIndex = 30167;
+	inline static constexpr unsigned int ScreenSpacePlanarReflection_TypeDefinitionIndex = 26616;
 
 	class ScreenSpacePlanarReflection : public ::UnityEngine::NAPRenderPipeline0::ScreenSpacePlanarReflection_NativeSRP
 	{
 	public:
 		static ::UnityEngine::LayerMask* StaticGet_s_DisablePlanarReflectionMask()
 		{
-			return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(ScreenSpacePlanarReflection_TypeDefinitionIndex)->GetStaticField(0x67A0);
+			return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(ScreenSpacePlanarReflection_TypeDefinitionIndex)->GetStaticField(0x6350);
 		}
 		::UnityEngine::NAPRenderPipeline0::BoolParameter* mirrorReflectionOverride; // 0x58
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* planarReflectionBlurAmount; // 0x60

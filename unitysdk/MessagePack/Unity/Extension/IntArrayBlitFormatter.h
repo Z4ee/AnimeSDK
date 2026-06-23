@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_1.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B420D40)
-#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B420D50)
+#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1D7C2640)
+#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C2650)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int IntArrayBlitFormatter_TypeDefinitionIndex = 27757;
+	inline static constexpr unsigned int IntArrayBlitFormatter_TypeDefinitionIndex = 30553;
 
 	class IntArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_1<::System::Int32>
 	{

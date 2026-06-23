@@ -6,42 +6,42 @@
 namespace MoleMole { class UIWindowController; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_1_OFFSET UNITYSDK_OFFSET(0xD08D0B0)
-#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_2_OFFSET UNITYSDK_OFFSET(0xD08D110)
-#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_3_OFFSET UNITYSDK_OFFSET(0xD08D170)
-#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_4_OFFSET UNITYSDK_OFFSET(0xD08D1D0)
-#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_OFFSET UNITYSDK_OFFSET(0xD08D050)
-#define CLASS_1_C9D60C1B332EDA68___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD08D000)
-#define CLASS_1_C9D60C1B332EDA68___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD08D040)
+#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_1_OFFSET UNITYSDK_OFFSET(0x128798D0)
+#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_2_OFFSET UNITYSDK_OFFSET(0x12879930)
+#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_3_OFFSET UNITYSDK_OFFSET(0x12879990)
+#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_4_OFFSET UNITYSDK_OFFSET(0x128799F0)
+#define CLASS_1_C9D60C1B332EDA68___C_METHOD_1_1B4F94AE4DAC1EB8_OFFSET UNITYSDK_OFFSET(0x12879870)
+#define CLASS_1_C9D60C1B332EDA68___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12879820)
+#define CLASS_1_C9D60C1B332EDA68___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12879860)
 
-inline static constexpr unsigned int Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex = 63659;
+inline static constexpr unsigned int Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex = 49817;
 
 class Class_1_C9D60C1B332EDA68___c : public ::System::Object
 {
 public:
-	static ::Class_1_C9D60C1B332EDA68___c** StaticGet___9()
-	{
-		return (::Class_1_C9D60C1B332EDA68___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35640);
-	}
-	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__58_0()
-	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35648);
-	}
-	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__26_0()
-	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35650);
-	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__104_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35658);
+		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DDE0);
+	}
+	static ::Class_1_C9D60C1B332EDA68___c** StaticGet___9()
+	{
+		return (::Class_1_C9D60C1B332EDA68___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DDE8);
 	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__27_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35660);
+		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DDF0);
+	}
+	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__26_0()
+	{
+		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DDF8);
 	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__28_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x35668);
+		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DE00);
+	}
+	static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>** StaticGet___9__58_0()
+	{
+		return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::UIWindowController*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9D60C1B332EDA68___c_TypeDefinitionIndex)->GetStaticField(0x3DE08);
 	}
 
 	static ::System::Void _cctor()

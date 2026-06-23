@@ -4,11 +4,11 @@
 
 namespace Foundation::ViewObject::Donjon { class FloorStreamingLayerLoadComponent_RequestGroupStateCallback; }
 
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12A39D50)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142F8660)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c__DisplayClass2_0_TypeDefinitionIndex = 79786;
+	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c__DisplayClass2_0_TypeDefinitionIndex = 83375;
 
 	class FloorStreamingLayerLoadComponent___c__DisplayClass2_0 : public ::System::Object
 	{

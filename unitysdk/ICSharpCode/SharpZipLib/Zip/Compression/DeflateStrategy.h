@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
-	inline static constexpr unsigned int DeflateStrategy_TypeDefinitionIndex = 6696;
+	inline static constexpr unsigned int DeflateStrategy_TypeDefinitionIndex = 6827;
 
 	enum class DeflateStrategy : ::System::Int32
 	{

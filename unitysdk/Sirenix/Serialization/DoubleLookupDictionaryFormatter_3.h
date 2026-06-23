@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DoubleLookupDictionaryFormatter_3_TypeDefinitionIndex = 7323;
+	inline static constexpr unsigned int DoubleLookupDictionaryFormatter_3_TypeDefinitionIndex = 7455;
 
 	template <typename TPrimary, typename TSecondary, typename TValue>
 	class DoubleLookupDictionaryFormatter_3 : public ::Sirenix::Serialization::BaseFormatter_1<::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<TPrimary, TSecondary, TValue>*>

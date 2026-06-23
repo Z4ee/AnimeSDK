@@ -5,11 +5,11 @@
 namespace MoleMole::GalGame { class GalGameActionBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALACTIONPLAYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14287340)
+#define MOLEMOLE_GALGAME_GALACTIONPLAYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11617560)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalActionPlayNode_TypeDefinitionIndex = 68618;
+	inline static constexpr unsigned int GalActionPlayNode_TypeDefinitionIndex = 58502;
 
 	class GalActionPlayNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

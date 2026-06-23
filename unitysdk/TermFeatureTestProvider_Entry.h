@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int TermFeatureTestProvider_Entry_TypeDefinitionIndex = 40579;
+inline static constexpr unsigned int TermFeatureTestProvider_Entry_TypeDefinitionIndex = 47071;
 
 struct alignas(8) TermFeatureTestProvider_Entry
 {

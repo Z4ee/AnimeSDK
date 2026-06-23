@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Uri_Offset_TypeDefinitionIndex = 2667;
+	inline static constexpr unsigned int Uri_Offset_TypeDefinitionIndex = 2666;
 
 	struct alignas(1) Uri_Offset
 	{

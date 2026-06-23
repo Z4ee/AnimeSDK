@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBVIEWNATIVERESULTPAYLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A882BB0)
+#define MIHOYO_SDK_WEBVIEWNATIVERESULTPAYLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEA890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebViewNativeResultPayload_TypeDefinitionIndex = 35377;
+	inline static constexpr unsigned int WebViewNativeResultPayload_TypeDefinitionIndex = 36976;
 
 	class WebViewNativeResultPayload : public ::System::Object
 	{

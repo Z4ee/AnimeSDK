@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS154_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169CD970)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS154_0__REFRESHMISSIONTITLEPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x169CD980)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS154_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186D4DB0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS154_0__REFRESHMISSIONTITLEPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x186D4DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass154_0_TypeDefinitionIndex = 44942;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass154_0_TypeDefinitionIndex = 78297;
 
 	class UIHollowMainPageController___c__DisplayClass154_0 : public ::System::Object
 	{

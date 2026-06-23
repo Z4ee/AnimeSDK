@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int MailPriority_TypeDefinitionIndex = 3591;
+	inline static constexpr unsigned int MailPriority_TypeDefinitionIndex = 3590;
 
 	enum class MailPriority : ::System::Int32
 	{

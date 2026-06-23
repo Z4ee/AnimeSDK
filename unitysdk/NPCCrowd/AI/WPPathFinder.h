@@ -12,50 +12,50 @@ namespace NPCCrowd::AI { class WPGraphRuntime; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_WPPATHFINDER_COMPUTECATMULLROM_OFFSET UNITYSDK_OFFSET(0xF3E8590)
-#define NPCCROWD_AI_WPPATHFINDER_COMPUTECLOSESTPOINTFROMPOINTTOLINE_OFFSET UNITYSDK_OFFSET(0xF3E8800)
-#define NPCCROWD_AI_WPPATHFINDER_FINDNEARESTNODE_1_OFFSET UNITYSDK_OFFSET(0xF3E7690)
-#define NPCCROWD_AI_WPPATHFINDER_FINDNEARESTNODE_OFFSET UNITYSDK_OFFSET(0xF3E74B0)
-#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTEDPATHINTERNAL_OFFSET UNITYSDK_OFFSET(0xF3E5510)
-#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFNODES_OFFSET UNITYSDK_OFFSET(0xF3E53F0)
-#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFPOINTS_INTERNAL_OFFSET UNITYSDK_OFFSET(0xF3E6740)
-#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFPOINTS_OFFSET UNITYSDK_OFFSET(0xF3E65D0)
-#define NPCCROWD_AI_WPPATHFINDER_GETCATMULLROMCURVEPATHPOINTS_OFFSET UNITYSDK_OFFSET(0xF3E7CF0)
-#define NPCCROWD_AI_WPPATHFINDER_GETCLOSESTPOINTONANYPATH_OFFSET UNITYSDK_OFFSET(0xF3E7910)
-#define NPCCROWD_AI_WPPATHFINDER_GETSTRAIGHTPATHPOINTS_OFFSET UNITYSDK_OFFSET(0xF3E8430)
-#define NPCCROWD_AI_WPPATHFINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF3E89E0)
-#define NPCCROWD_AI_WPPATHFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E89D0)
+#define NPCCROWD_AI_WPPATHFINDER_COMPUTECATMULLROM_OFFSET UNITYSDK_OFFSET(0x8C27F10)
+#define NPCCROWD_AI_WPPATHFINDER_COMPUTECLOSESTPOINTFROMPOINTTOLINE_OFFSET UNITYSDK_OFFSET(0x8C28180)
+#define NPCCROWD_AI_WPPATHFINDER_FINDNEARESTNODE_1_OFFSET UNITYSDK_OFFSET(0x8C27010)
+#define NPCCROWD_AI_WPPATHFINDER_FINDNEARESTNODE_OFFSET UNITYSDK_OFFSET(0x8C26E30)
+#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTEDPATHINTERNAL_OFFSET UNITYSDK_OFFSET(0x8C24E90)
+#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFNODES_OFFSET UNITYSDK_OFFSET(0x8C24D70)
+#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFPOINTS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x8C260C0)
+#define NPCCROWD_AI_WPPATHFINDER_FINDSHORTESTPATHOFPOINTS_OFFSET UNITYSDK_OFFSET(0x8C25F50)
+#define NPCCROWD_AI_WPPATHFINDER_GETCATMULLROMCURVEPATHPOINTS_OFFSET UNITYSDK_OFFSET(0x8C27670)
+#define NPCCROWD_AI_WPPATHFINDER_GETCLOSESTPOINTONANYPATH_OFFSET UNITYSDK_OFFSET(0x8C27290)
+#define NPCCROWD_AI_WPPATHFINDER_GETSTRAIGHTPATHPOINTS_OFFSET UNITYSDK_OFFSET(0x8C27DB0)
+#define NPCCROWD_AI_WPPATHFINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C28360)
+#define NPCCROWD_AI_WPPATHFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x8C28350)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPPathFinder_TypeDefinitionIndex = 53059;
+	inline static constexpr unsigned int WPPathFinder_TypeDefinitionIndex = 44061;
 
 	class WPPathFinder : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::NPCCrowd::AI::Path*>** StaticGet_PathList()
+		static ::System::Collections::Generic::List_1<::NPCCrowd::AI::Node*>** StaticGet_NodeList()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::AI::Path*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x2F4F0);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::AI::Node*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x316F0);
 		}
 		static ::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::NPCCrowd::AI::Node*>** StaticGet_GetNodeFromNodeOrVector()
 		{
-			return (::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::NPCCrowd::AI::Node*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x2F4F8);
+			return (::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::NPCCrowd::AI::Node*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x316F8);
 		}
 		static ::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::UnityEngine::Vector3>** StaticGet_GetPositionFromNodeOrVector()
 		{
-			return (::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x2F500);
+			return (::System::Func_3<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x31700);
 		}
-		static ::System::Collections::Generic::List_1<::NPCCrowd::AI::Node*>** StaticGet_NodeList()
+		static ::System::Collections::Generic::List_1<::NPCCrowd::AI::Path*>** StaticGet_PathList()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::AI::Node*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x2F508);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::AI::Path*>**)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0x31708);
 		}
 		static ::System::Boolean* StaticGet_DrawDebugLine()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0xAD40);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0xB300);
 		}
 		static ::System::Single* StaticGet_DrawDebugLineDuration()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0xAD44);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(WPPathFinder_TypeDefinitionIndex)->GetStaticField(0xB304);
 		}
 
 		::System::Void _ctor()

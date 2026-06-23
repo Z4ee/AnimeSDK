@@ -3,11 +3,11 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TransitionDisplayItem_ItemType_TypeDefinitionIndex = 66862;
+	inline static constexpr unsigned int TransitionDisplayItem_ItemType_TypeDefinitionIndex = 64105;
 
 	enum class TransitionDisplayItem_ItemType : ::System::Int32
 	{
-		Condition = 1,
 		Text = 0,
+		Condition = 1,
 	};
 }

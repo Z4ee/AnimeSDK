@@ -4,9 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9F8F7BD904611B66__CTOR_OFFSET UNITYSDK_OFFSET(0x1146CC20)
+#define CLASS_2_9F8F7BD904611B66__CTOR_OFFSET UNITYSDK_OFFSET(0x1140CBF0)
 
-inline static constexpr unsigned int Class_2_9F8F7BD904611B66_TypeDefinitionIndex = 73617;
+inline static constexpr unsigned int Class_2_9F8F7BD904611B66_TypeDefinitionIndex = 61154;
 
 class Class_2_9F8F7BD904611B66 : public ::MoleMole::ExitPerform::ExitPerformEvent
 {

@@ -9,22 +9,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B613F10)
-#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B613F20)
-#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1B6140E0)
-#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x1B6141C0)
+#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87F740)
+#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D87F750)
+#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1D87F910)
+#define FOUNDATION_ASSETPOOLRUNMODE___C__DISPLAYCLASS29_0__GETINSTANCEASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x1D87F9F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetPoolRunMode___c__DisplayClass29_0_TypeDefinitionIndex = 7813;
+	inline static constexpr unsigned int AssetPoolRunMode___c__DisplayClass29_0_TypeDefinitionIndex = 7857;
 
 	class AssetPoolRunMode___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::Foundation::AssetPath assetPath; // 0x10
-		::Foundation::AssetRequestHandle request; // 0x20
-		::System::Action_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* completed; // 0x40
-		::UnityEngine::Transform* parent; // 0x48
+		::System::Action_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* completed; // 0x10
+		::Foundation::AssetPath assetPath; // 0x18
+		::UnityEngine::Transform* parent; // 0x28
+		::Foundation::AssetRequestHandle request; // 0x30
 		::System::Boolean activeState; // 0x50
 
 		::System::Void _ctor()

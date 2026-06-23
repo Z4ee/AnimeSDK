@@ -10,32 +10,33 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GETITEMLISTSHOW_DIRECTSHOW_OFFSET UNITYSDK_OFFSET(0x178120D0)
-#define MOLEMOLE_GETITEMLISTSHOW_DOPROCESS_OFFSET UNITYSDK_OFFSET(0x17812120)
-#define MOLEMOLE_GETITEMLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x17811C20)
-#define MOLEMOLE_GETITEMLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x17812080)
-#define MOLEMOLE_GETITEMLISTSHOW_SETDETAILANDTTITLE_OFFSET UNITYSDK_OFFSET(0x17812540)
-#define MOLEMOLE_GETITEMLISTSHOW_SETGOBTN_OFFSET UNITYSDK_OFFSET(0x178124D0)
-#define MOLEMOLE_GETITEMLISTSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x17812020)
-#define MOLEMOLE_GETITEMLISTSHOW_SHOWREWARDWINDOW_OFFSET UNITYSDK_OFFSET(0x17812170)
-#define MOLEMOLE_GETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x17811C30)
-#define MOLEMOLE_GETITEMLISTSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x178125A0)
+#define MOLEMOLE_GETITEMLISTSHOW_DIRECTSHOW_OFFSET UNITYSDK_OFFSET(0x182E36A0)
+#define MOLEMOLE_GETITEMLISTSHOW_DOPROCESS_OFFSET UNITYSDK_OFFSET(0x182E36F0)
+#define MOLEMOLE_GETITEMLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x182E3200)
+#define MOLEMOLE_GETITEMLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x182E3650)
+#define MOLEMOLE_GETITEMLISTSHOW_SETDETAILANDTTITLE_OFFSET UNITYSDK_OFFSET(0x182E3CB0)
+#define MOLEMOLE_GETITEMLISTSHOW_SETGOBTN_1_OFFSET UNITYSDK_OFFSET(0x182E3B70)
+#define MOLEMOLE_GETITEMLISTSHOW_SETGOBTN_OFFSET UNITYSDK_OFFSET(0x182E3B00)
+#define MOLEMOLE_GETITEMLISTSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x182E35F0)
+#define MOLEMOLE_GETITEMLISTSHOW_SHOWREWARDWINDOW_OFFSET UNITYSDK_OFFSET(0x182E3740)
+#define MOLEMOLE_GETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x182E3210)
+#define MOLEMOLE_GETITEMLISTSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x182E3D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetItemListShow_TypeDefinitionIndex = 71077;
+	inline static constexpr unsigned int GetItemListShow_TypeDefinitionIndex = 84351;
 
 	class GetItemListShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Class_1_61B3BCD70D19C820* _context; // 0x28
-		::System::String* title; // 0x30
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x38
-		::System::String* detail; // 0x40
-		::System::String* GainTitle; // 0x48
-		::MoleMole::GetItemListShow_GoBtnData GoData; // 0x50
-		::System::Boolean showCustomDetailTitle; // 0x70
-		::System::Boolean ShowCustomGainText; // 0x71
+		::MoleMole::GetItemListShow_GoBtnData GoData; // 0x28
+		::System::String* title; // 0x48
+		::System::String* GainTitle; // 0x50
+		::Class_1_61B3BCD70D19C820* _context; // 0x58
+		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x60
+		::System::String* detail; // 0x68
+		::System::Boolean ShowCustomGainText; // 0x70
+		::System::Boolean showCustomDetailTitle; // 0x71
 
 		::System::Void _ctor(::Class_1_61B3BCD70D19C820* context)
 		{
@@ -75,6 +76,11 @@ namespace MoleMole
 		::System::Void SetGoBtn(::System::String* key, ::System::Action* callback, ::System::Func_1<::System::Boolean>* showGoPredicate)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GETITEMLISTSHOW_SETGOBTN_OFFSET))(this, key, callback, showGoPredicate);
+		}
+
+		::System::Void SetGoBtn_1(::System::Int32 accessId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GETITEMLISTSHOW_SETGOBTN_1_OFFSET))(this, accessId);
 		}
 
 		::System::Void SetDetailAndTtitle(::System::String* title, ::System::String* detail)

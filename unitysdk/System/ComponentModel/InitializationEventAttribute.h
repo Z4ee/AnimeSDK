@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_INITIALIZATIONEVENTATTRIBUTE_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x19E281E0)
-#define SYSTEM_COMPONENTMODEL_INITIALIZATIONEVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E281D0)
+#define SYSTEM_COMPONENTMODEL_INITIALIZATIONEVENTATTRIBUTE_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1C1C0200)
+#define SYSTEM_COMPONENTMODEL_INITIALIZATIONEVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C01F0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int InitializationEventAttribute_TypeDefinitionIndex = 2915;
+	inline static constexpr unsigned int InitializationEventAttribute_TypeDefinitionIndex = 2914;
 
 	class InitializationEventAttribute : public ::System::Attribute
 	{

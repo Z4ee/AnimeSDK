@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_EPostProcessShaderQualityLevel_TypeDefinitionIndex = 30522;
+	inline static constexpr unsigned int PostProcessPass_EPostProcessShaderQualityLevel_TypeDefinitionIndex = 26710;
 
 	enum class PostProcessPass_EPostProcessShaderQualityLevel : ::System::Int32
 	{
-		Low = 0,
-		Medium = 1,
 		High = 2,
 		Num = 3,
+		Medium = 1,
+		Low = 0,
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigSurfGameItemAction; }
 
-#define MOLEMOLE_CONFIG_SURFGAMEITEMDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x7D96A0)
+#define MOLEMOLE_CONFIG_SURFGAMEITEMDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x879430)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SurfGameItemDataEntry_TypeDefinitionIndex = 81443;
+	inline static constexpr unsigned int SurfGameItemDataEntry_TypeDefinitionIndex = 46168;
 
 	struct alignas(8) SurfGameItemDataEntry
 	{

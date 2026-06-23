@@ -3,13 +3,13 @@
 #include "unitysdk/MoleMole/Timeline/BaseTimeline/BaseTimelineBehavior.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1BA18700)
-#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR_PRELOAD_OFFSET UNITYSDK_OFFSET(0x1BA18730)
-#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA18740)
+#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1DD5D3A0)
+#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR_PRELOAD_OFFSET UNITYSDK_OFFSET(0x1DD5D3D0)
+#define UNITYENGINE_TIMELINE_PRELOADPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D3E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PreloadPlayableBehaviour_TypeDefinitionIndex = 30852;
+	inline static constexpr unsigned int PreloadPlayableBehaviour_TypeDefinitionIndex = 32403;
 
 	class PreloadPlayableBehaviour : public ::MoleMole::Timeline::BaseTimeline::BaseTimelineBehavior
 	{

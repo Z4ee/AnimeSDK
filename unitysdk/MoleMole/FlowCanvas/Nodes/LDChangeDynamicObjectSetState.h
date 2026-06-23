@@ -7,19 +7,19 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1498B8E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1498B9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1498BA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17100950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17100A60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x17100AA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeDynamicObjectSetState_TypeDefinitionIndex = 61125;
+	inline static constexpr unsigned int LDChangeDynamicObjectSetState_TypeDefinitionIndex = 73189;
 
 	class LDChangeDynamicObjectSetState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* inputSetNameId; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Int32>* inputStateIndex; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* inputStateIndex; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* inputSetNameId; // 0xB0
 		::FlowCanvas::FlowOutput* _output; // 0xB8
 
 		::System::Void _ctor()

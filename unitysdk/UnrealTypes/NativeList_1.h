@@ -8,7 +8,7 @@ namespace UnrealTypes { class StructOpsTraitsBase; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeList_1_TypeDefinitionIndex = 25197;
+	inline static constexpr unsigned int NativeList_1_TypeDefinitionIndex = 27687;
 
 	template <typename T>
 	struct NativeList_1

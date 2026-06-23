@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int MinPathQueryResult_TypeDefinitionIndex = 74274;
+	inline static constexpr unsigned int MinPathQueryResult_TypeDefinitionIndex = 82479;
 
 	struct alignas(4) MinPathQueryResult
 	{

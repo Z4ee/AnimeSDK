@@ -8,20 +8,20 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UISlider; }
 
-#define CLASS_3_DD4B8DDE7EB75BE6_METHOD_3_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0x16627590)
-#define CLASS_3_DD4B8DDE7EB75BE6_METHOD_3_79D44D69484C8F4A_OFFSET UNITYSDK_OFFSET(0x16627480)
-#define CLASS_3_DD4B8DDE7EB75BE6__CTOR_OFFSET UNITYSDK_OFFSET(0x16627800)
+#define CLASS_3_DD4B8DDE7EB75BE6_METHOD_3_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0x1583CF70)
+#define CLASS_3_DD4B8DDE7EB75BE6_METHOD_3_79D44D69484C8F4A_OFFSET UNITYSDK_OFFSET(0x1583CE60)
+#define CLASS_3_DD4B8DDE7EB75BE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1583D1E0)
 
-inline static constexpr unsigned int Class_3_DD4B8DDE7EB75BE6_TypeDefinitionIndex = 48070;
+inline static constexpr unsigned int Class_3_DD4B8DDE7EB75BE6_TypeDefinitionIndex = 41583;
 
 class Class_3_DD4B8DDE7EB75BE6 : public ::Class_2_E87F1D15F1D4AC72
 {
 public:
-	::UnityEngine::RectTransform* Field_3_0; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_3_3; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_3_1; // 0x38
-	::UnityEngine::UI::Extension::UISlider* Field_3_4; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_3_2; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_3_1; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_3_2; // 0x30
+	::UnityEngine::UI::Extension::UISlider* Field_3_4; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_3_3; // 0x40
+	::UnityEngine::RectTransform* Field_3_0; // 0x48
 
 	::System::Void _ctor()
 	{

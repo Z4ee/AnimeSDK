@@ -7,12 +7,12 @@ namespace Foundation { class MultiVersionInfo_HandleAssetPathDelegate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D230)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__GETASSETPATHS_B__0_OFFSET UNITYSDK_OFFSET(0x1B76D240)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC30A0)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__GETASSETPATHS_B__0_OFFSET UNITYSDK_OFFSET(0x1DCC30B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass3_0_TypeDefinitionIndex = 7973;
+	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass3_0_TypeDefinitionIndex = 7738;
 
 	class MultiVersionDiffConfig___c__DisplayClass3_0 : public ::System::Object
 	{

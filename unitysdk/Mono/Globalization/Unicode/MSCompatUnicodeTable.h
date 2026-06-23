@@ -9,30 +9,30 @@ namespace Mono::Globalization::Unicode { class TailoringInfo; }
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_BUILDTAILORINGTABLES_OFFSET UNITYSDK_OFFSET(0x18B76430)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CATEGORY_OFFSET UNITYSDK_OFFSET(0x18B76CD0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJKCORE_OFFSET UNITYSDK_OFFSET(0x18B77B40)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJK_OFFSET UNITYSDK_OFFSET(0x18B77A30)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETRESOURCE_OFFSET UNITYSDK_OFFSET(0x18B77580)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETTAILORINGINFO_OFFSET UNITYSDK_OFFSET(0x18B763D0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_HASSPECIALWEIGHT_OFFSET UNITYSDK_OFFSET(0x18B77440)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHALFWIDTHKANA_OFFSET UNITYSDK_OFFSET(0x18B774A0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHIRAGANA_OFFSET UNITYSDK_OFFSET(0x18B774B0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLENONSPACING_OFFSET UNITYSDK_OFFSET(0x18B77220)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_1_OFFSET UNITYSDK_OFFSET(0x18B77150)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x18B77090)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISJAPANESESMALLLETTER_OFFSET UNITYSDK_OFFSET(0x18B774C0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISSORTABLE_1_OFFSET UNITYSDK_OFFSET(0x18B76F80)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISSORTABLE_OFFSET UNITYSDK_OFFSET(0x18B76ED0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL1_OFFSET UNITYSDK_OFFSET(0x18B76D50)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL2_OFFSET UNITYSDK_OFFSET(0x18B76DD0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL3_OFFSET UNITYSDK_OFFSET(0x18B76E50)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_SETCJKREFERENCES_OFFSET UNITYSDK_OFFSET(0x18B76B40)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOKANATYPEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x18B772C0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOWIDTHCOMPAT_OFFSET UNITYSDK_OFFSET(0x18B772D0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_UINT32FROMBYTEPTR_OFFSET UNITYSDK_OFFSET(0x18B77600)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B77630)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B77F50)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_BUILDTAILORINGTABLES_OFFSET UNITYSDK_OFFSET(0x1AD987B0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1AD99050)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJKCORE_OFFSET UNITYSDK_OFFSET(0x1AD99EC0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJK_OFFSET UNITYSDK_OFFSET(0x1AD99DB0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETRESOURCE_OFFSET UNITYSDK_OFFSET(0x1AD99900)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETTAILORINGINFO_OFFSET UNITYSDK_OFFSET(0x1AD98750)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_HASSPECIALWEIGHT_OFFSET UNITYSDK_OFFSET(0x1AD997C0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHALFWIDTHKANA_OFFSET UNITYSDK_OFFSET(0x1AD99820)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHIRAGANA_OFFSET UNITYSDK_OFFSET(0x1AD99830)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLENONSPACING_OFFSET UNITYSDK_OFFSET(0x1AD995A0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_1_OFFSET UNITYSDK_OFFSET(0x1AD994D0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x1AD99410)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISJAPANESESMALLLETTER_OFFSET UNITYSDK_OFFSET(0x1AD99840)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISSORTABLE_1_OFFSET UNITYSDK_OFFSET(0x1AD99300)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISSORTABLE_OFFSET UNITYSDK_OFFSET(0x1AD99250)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL1_OFFSET UNITYSDK_OFFSET(0x1AD990D0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL2_OFFSET UNITYSDK_OFFSET(0x1AD99150)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL3_OFFSET UNITYSDK_OFFSET(0x1AD991D0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_SETCJKREFERENCES_OFFSET UNITYSDK_OFFSET(0x1AD98EC0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOKANATYPEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1AD99640)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOWIDTHCOMPAT_OFFSET UNITYSDK_OFFSET(0x1AD99650)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_UINT32FROMBYTEPTR_OFFSET UNITYSDK_OFFSET(0x1AD99980)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD999B0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9A2D0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -53,69 +53,69 @@ namespace Mono::Globalization::Unicode
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0xEB0);
 		}
-		static ::System::Byte** StaticGet_cjkKOlv2()
+		static ::System::Byte** StaticGet_ignorableFlags()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x400);
 		}
-		static ::System::Byte** StaticGet_level3()
+		static ::System::Byte** StaticGet_cjkKOlv2()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x408);
 		}
-		static ::System::Byte** StaticGet_cjkJAcategory()
+		static ::System::Byte** StaticGet_cjkKOlv1()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x410);
 		}
-		static ::System::Byte** StaticGet_cjkKOlv1()
+		static ::System::Byte** StaticGet_level1()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x418);
 		}
-		static ::System::Byte** StaticGet_cjkJAlv1()
+		static ::System::Byte** StaticGet_cjkCHSlv1()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x420);
 		}
-		static ::System::Byte** StaticGet_level2()
+		static ::System::Byte** StaticGet_cjkKOcategory()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x428);
 		}
-		static ::System::Byte** StaticGet_cjkCHScategory()
+		static ::System::Byte** StaticGet_cjkJAcategory()
 		{
 			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x430);
 		}
-		static ::System::Byte** StaticGet_ignorableFlags()
+		static ::System::Boolean* StaticGet_isReady()
 		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x438);
-		}
-		static ::System::Byte** StaticGet_cjkKOcategory()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x440);
-		}
-		static ::System::Byte** StaticGet_level1()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x448);
-		}
-		static ::System::Byte** StaticGet_cjkCHSlv1()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x450);
-		}
-		static ::System::Byte** StaticGet_categories()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x458);
-		}
-		static ::System::Byte** StaticGet_cjkCHTlv1()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x460);
-		}
-		static ::System::Byte** StaticGet_cjkCHTcategory()
-		{
-			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x468);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x438);
 		}
 		static ::System::Int32* StaticGet_MaxExpansionLength()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x470);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x43C);
 		}
-		static ::System::Boolean* StaticGet_isReady()
+		static ::System::Byte** StaticGet_cjkCHTcategory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x474);
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x440);
+		}
+		static ::System::Byte** StaticGet_cjkJAlv1()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x448);
+		}
+		static ::System::Byte** StaticGet_cjkCHScategory()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x450);
+		}
+		static ::System::Byte** StaticGet_level3()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x458);
+		}
+		static ::System::Byte** StaticGet_level2()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x460);
+		}
+		static ::System::Byte** StaticGet_categories()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x468);
+		}
+		static ::System::Byte** StaticGet_cjkCHTlv1()
+		{
+			return (::System::Byte**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable_TypeDefinitionIndex)->GetStaticField(0x470);
 		}
 
 		static ::System::Void _cctor()

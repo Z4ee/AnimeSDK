@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Console { class PayManagerBase; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A346550)
-#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A346560)
+#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C568260)
+#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1C568270)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 19569;
+	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 20730;
 
 	class PayManagerBase___c__DisplayClass26_0 : public ::System::Object
 	{

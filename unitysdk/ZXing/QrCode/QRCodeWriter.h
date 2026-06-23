@@ -9,13 +9,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::QrCode::Internal { class QRCode; }
 
-#define ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1889F0C0)
-#define ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1889F720)
-#define ZXING_QRCODE_QRCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1886C690)
+#define ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1AB74670)
+#define ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1AB74CD0)
+#define ZXING_QRCODE_QRCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB41C20)
 
 namespace ZXing::QrCode
 {
-	inline static constexpr unsigned int QRCodeWriter_TypeDefinitionIndex = 8651;
+	inline static constexpr unsigned int QRCodeWriter_TypeDefinitionIndex = 19149;
 
 	class QRCodeWriter : public ::System::Object
 	{

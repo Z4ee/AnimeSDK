@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170D7450)
+#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19130CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowCardCombineAnimationConfig_TypeDefinitionIndex = 44782;
+	inline static constexpr unsigned int HollowCardCombineAnimationConfig_TypeDefinitionIndex = 80611;
 
 	class HollowCardCombineAnimationConfig : public ::System::Object
 	{

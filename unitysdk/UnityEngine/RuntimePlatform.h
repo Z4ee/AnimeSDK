@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimePlatform_TypeDefinitionIndex = 5119;
+	inline static constexpr unsigned int RuntimePlatform_TypeDefinitionIndex = 5118;
 
 	enum class RuntimePlatform : ::System::Int32
 	{
@@ -50,5 +50,7 @@ namespace UnityEngine
 		XboxScarlett = 39,
 		XboxPC = 40,
 		XboxPC_Handheld = 41,
+		XboxPC_HandheldAlly = 42,
+		XboxPC_HandheldAllyX = 43,
 	};
 }

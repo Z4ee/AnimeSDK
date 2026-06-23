@@ -4,12 +4,12 @@
 
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158BA330)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS26_0__TRYSHOWNEWEQUIPTIPSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x158BA340)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172C2FF0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS26_0__TRYSHOWNEWEQUIPTIPSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x172C3000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass26_0_TypeDefinitionIndex = 41735;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass26_0_TypeDefinitionIndex = 61521;
 
 	class UIBangBooUAVLevelPageController___c__DisplayClass26_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_FOCUSEVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x197ABE40)
-#define UNITYENGINE_UIELEMENTS_FOCUSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197ABED0)
+#define UNITYENGINE_UIELEMENTS_FOCUSEVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x1BBE2AA0)
+#define UNITYENGINE_UIELEMENTS_FOCUSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2B30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusEvent_TypeDefinitionIndex = 25016;
+	inline static constexpr unsigned int FocusEvent_TypeDefinitionIndex = 27519;
 
 	class FocusEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusEvent*>
 	{

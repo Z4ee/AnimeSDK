@@ -12,13 +12,13 @@ namespace MoleMole::Battle { class Entity; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11340EB0)
-#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO_UPDATE_OFFSET UNITYSDK_OFFSET(0x113409F0)
-#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x11340F00)
+#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13848AD0)
+#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO_UPDATE_OFFSET UNITYSDK_OFFSET(0x13848610)
+#define MOLEMOLE_VEHICLE_VEHICLETESTCAMERAMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x13848B20)
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleTestCameraMono_TypeDefinitionIndex = 48288;
+	inline static constexpr unsigned int VehicleTestCameraMono_TypeDefinitionIndex = 70225;
 
 	class VehicleTestCameraMono : public ::UnityEngine::MonoBehaviour
 	{

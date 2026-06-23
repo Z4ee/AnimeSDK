@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87.h"
+#include "unitysdk/Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
@@ -10,20 +10,20 @@ namespace MoleMole { class UIQuestionsAnswerScreenSettleContext; }
 namespace MoleMole { class UIQuestionsAnswerScreenWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSETTLE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x777800)
-#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSETTLE_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSETTLE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7FF6B0)
+#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSETTLE_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerScreenWidgetController__ChangeToSettle_d__13_TypeDefinitionIndex = 44831;
+	inline static constexpr unsigned int UIQuestionsAnswerScreenWidgetController__ChangeToSettle_d__13_TypeDefinitionIndex = 49065;
 
 	struct alignas(8) UIQuestionsAnswerScreenWidgetController__ChangeToSettle_d__13
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87> __u__1; // 0x20
-		::System::Threading::CancellationToken cts; // 0x30
+		::MoleMole::UIQuestionsAnswerScreenSettleContext* context; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x28
 		::MoleMole::UIQuestionsAnswerScreenWidgetController* __4__this; // 0x38
-		::MoleMole::UIQuestionsAnswerScreenSettleContext* context; // 0x40
+		::System::Threading::CancellationToken cts; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

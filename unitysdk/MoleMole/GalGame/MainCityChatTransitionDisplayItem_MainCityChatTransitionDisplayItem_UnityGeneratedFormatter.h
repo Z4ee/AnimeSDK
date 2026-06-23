@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16D49840)
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16D49850)
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16D49C50)
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D49EF0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D49EB0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1261E240)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1261E250)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1261E650)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1261E8F0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM_MAINCITYCHATTRANSITIONDISPLAYITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1261E8B0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex = 48117;
+	inline static constexpr unsigned int MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex = 53920;
 
 	class MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatTransitionDisplayItem*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E810);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x307A0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E818);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatTransitionDisplayItem_MainCityChatTransitionDisplayItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x307A8);
 		}
 
 		::System::Void _ctor()

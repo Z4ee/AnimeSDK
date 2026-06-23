@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int HashOf_1_TypeDefinitionIndex = 8866;
+	inline static constexpr unsigned int HashOf_1_TypeDefinitionIndex = 8682;
 
 	template <typename T>
 	class HashOf_1 : public ::System::Object

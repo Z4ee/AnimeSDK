@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C97950)
-#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__DISPLAYCLASS9_0__LOGOUTWITHGAMENOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x19C97960)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB36860)
+#define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C__DISPLAYCLASS9_0__LOGOUTWITHGAMENOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x1BB36870)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass9_0_TypeDefinitionIndex = 19553;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass9_0_TypeDefinitionIndex = 20714;
 
 	class ComboManager___c__DisplayClass9_0 : public ::System::Object
 	{

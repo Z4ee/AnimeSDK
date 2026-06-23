@@ -6,7 +6,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int FORMATETC_TypeDefinitionIndex = 3129;
+	inline static constexpr unsigned int FORMATETC_TypeDefinitionIndex = 3128;
 
 	struct alignas(8) FORMATETC
 	{

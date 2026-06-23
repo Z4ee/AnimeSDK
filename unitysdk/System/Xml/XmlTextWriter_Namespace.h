@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x8FA690)
+#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x99A1B0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriter_Namespace_TypeDefinitionIndex = 1734;
+	inline static constexpr unsigned int XmlTextWriter_Namespace_TypeDefinitionIndex = 1733;
 
 	struct alignas(8) XmlTextWriter_Namespace
 	{

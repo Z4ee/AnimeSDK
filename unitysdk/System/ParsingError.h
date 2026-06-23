@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ParsingError_TypeDefinitionIndex = 2676;
+	inline static constexpr unsigned int ParsingError_TypeDefinitionIndex = 2675;
 
 	enum class ParsingError : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 class Class_2_DF73794ED874FFFB;
 
-#define MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14B4BA60)
+#define MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1813A5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowEventWidgetContext_TypeDefinitionIndex = 73884;
+	inline static constexpr unsigned int UIHollowEventWidgetContext_TypeDefinitionIndex = 54741;
 
 	class UIHollowEventWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -6,12 +6,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::XR { class XRMeshSubsystemDescriptor; }
 
-#define UNITYENGINE_XR_XRMESHSUBSYSTEM_INVOKEMESHREADYDELEGATE_OFFSET UNITYSDK_OFFSET(0x1C446360)
-#define UNITYENGINE_XR_XRMESHSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4463D0)
+#define UNITYENGINE_XR_XRMESHSUBSYSTEM_INVOKEMESHREADYDELEGATE_OFFSET UNITYSDK_OFFSET(0x1E78EDF0)
+#define UNITYENGINE_XR_XRMESHSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78EE60)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRMeshSubsystem_TypeDefinitionIndex = 25174;
+	inline static constexpr unsigned int XRMeshSubsystem_TypeDefinitionIndex = 27659;
 
 	class XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRMeshSubsystemDescriptor*>
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int EncryptionPolicy_TypeDefinitionIndex = 3695;
+	inline static constexpr unsigned int EncryptionPolicy_TypeDefinitionIndex = 3694;
 
 	enum class EncryptionPolicy : ::System::Int32
 	{

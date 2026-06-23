@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBECD0)
+#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CCE00)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPInterfaceStatistics_TypeDefinitionIndex = 3713;
+	inline static constexpr unsigned int IPInterfaceStatistics_TypeDefinitionIndex = 3712;
 
 	class IPInterfaceStatistics : public ::System::Object
 	{

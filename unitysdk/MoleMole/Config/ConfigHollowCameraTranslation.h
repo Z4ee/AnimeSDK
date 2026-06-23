@@ -7,21 +7,21 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERATRANSLATION_TRIGGERZONE_OFFSET UNITYSDK_OFFSET(0x181CA100)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERATRANSLATION__CTOR_OFFSET UNITYSDK_OFFSET(0x181CA250)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERATRANSLATION_TRIGGERZONE_OFFSET UNITYSDK_OFFSET(0x12B3C030)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERATRANSLATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3C170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraTranslation_TypeDefinitionIndex = 53351;
+	inline static constexpr unsigned int ConfigHollowCameraTranslation_TypeDefinitionIndex = 81340;
 
 	class ConfigHollowCameraTranslation : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::UnityEngine::Vector4>* translationTriggerZones; // 0x10
-		::UnityEngine::AnimationCurve* translationCurve; // 0x18
-		::System::Boolean DebugGUI; // 0x20
-		::System::Single translationSeconds; // 0x24
-		::System::Single OverlapAreaPercent; // 0x28
+		::UnityEngine::AnimationCurve* translationCurve; // 0x10
+		::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::UnityEngine::Vector4>* translationTriggerZones; // 0x18
+		::System::Single OverlapAreaPercent; // 0x20
+		::System::Boolean DebugGUI; // 0x24
+		::System::Single translationSeconds; // 0x28
 
 		::System::Void _ctor()
 		{

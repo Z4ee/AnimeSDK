@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_CHILDGAMEOBJECTSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F620)
+#define SIRENIX_ODININSPECTOR_CHILDGAMEOBJECTSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E328930)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ChildGameObjectsOnlyAttribute_TypeDefinitionIndex = 7135;
+	inline static constexpr unsigned int ChildGameObjectsOnlyAttribute_TypeDefinitionIndex = 7266;
 
 	class ChildGameObjectsOnlyAttribute : public ::System::Attribute
 	{

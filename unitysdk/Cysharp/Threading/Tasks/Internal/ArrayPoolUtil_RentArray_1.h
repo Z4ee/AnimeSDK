@@ -6,7 +6,7 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Arra
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayPoolUtil_RentArray_1_TypeDefinitionIndex = 28816;
+	inline static constexpr unsigned int ArrayPoolUtil_RentArray_1_TypeDefinitionIndex = 31472;
 
 	template <typename T>
 	struct ArrayPoolUtil_RentArray_1

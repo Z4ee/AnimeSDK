@@ -5,16 +5,16 @@
 class Class_2_9898C607BA2F1EDB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9898C607BA2F1EDB_CLASS_1_D625FEB9DAFBD30B_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x13A38BB0)
-#define CLASS_2_9898C607BA2F1EDB_CLASS_1_D625FEB9DAFBD30B__CTOR_OFFSET UNITYSDK_OFFSET(0x13A38BA0)
+#define CLASS_2_9898C607BA2F1EDB_CLASS_1_D625FEB9DAFBD30B_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x1389B400)
+#define CLASS_2_9898C607BA2F1EDB_CLASS_1_D625FEB9DAFBD30B__CTOR_OFFSET UNITYSDK_OFFSET(0x1389B3F0)
 
-inline static constexpr unsigned int Class_2_9898C607BA2F1EDB_Class_1_D625FEB9DAFBD30B_TypeDefinitionIndex = 57511;
+inline static constexpr unsigned int Class_2_9898C607BA2F1EDB_Class_1_D625FEB9DAFBD30B_TypeDefinitionIndex = 78047;
 
 class Class_2_9898C607BA2F1EDB_Class_1_D625FEB9DAFBD30B : public ::System::Object
 {
 public:
-	::Class_2_9898C607BA2F1EDB* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
+	::Class_2_9898C607BA2F1EDB* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

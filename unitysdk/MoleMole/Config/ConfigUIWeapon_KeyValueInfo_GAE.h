@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIG_CONFIGUIWEAPON_KEYVALUEINFO_GAE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2AB80)
+#define MOLEMOLE_CONFIG_CONFIGUIWEAPON_KEYVALUEINFO_GAE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0712C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIWeapon_KeyValueInfo_GAE_TypeDefinitionIndex = 74993;
+	inline static constexpr unsigned int ConfigUIWeapon_KeyValueInfo_GAE_TypeDefinitionIndex = 50222;
 
 	class ConfigUIWeapon_KeyValueInfo_GAE : public ::System::Object
 	{

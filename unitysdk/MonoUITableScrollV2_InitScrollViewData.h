@@ -3,25 +3,27 @@
 #include "unitysdk/MonoUITableScrollV2_InitScrollViewData_SAlignParam.h"
 #include "unitysdk/System/Object.h"
 
+class MonoUITableScrollV2_ScrollParams_AlignParam;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_GET_PLAYPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0xEBE2970)
-#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_SET_PLAYPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0xEBE2980)
-#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_WITHALIGNPARAM_OFFSET UNITYSDK_OFFSET(0xEBE28E0)
-#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_WITHPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0xEBE2890)
-#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xEBE26F0)
+#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_GET_PLAYPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0x108ADA90)
+#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_SET_PLAYPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0x108ADAA0)
+#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_WITHALIGNPARAM_OFFSET UNITYSDK_OFFSET(0x108ADA00)
+#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA_WITHPAGESHOWANIM_OFFSET UNITYSDK_OFFSET(0x108AD9B0)
+#define MONOUITABLESCROLLV2_INITSCROLLVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x108AD810)
 
-inline static constexpr unsigned int MonoUITableScrollV2_InitScrollViewData_TypeDefinitionIndex = 54042;
+inline static constexpr unsigned int MonoUITableScrollV2_InitScrollViewData_TypeDefinitionIndex = 69993;
 
 class MonoUITableScrollV2_InitScrollViewData : public ::System::Object
 {
 public:
-	::MonoUITableScrollV2_InitScrollViewData_SAlignParam AlignParam; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* lineSize; // 0x48
-	::System::Int32 ScrollToIndex; // 0x50
-	::System::Boolean _PlayPageShowAnim_k__BackingField; // 0x54
-	::System::Int32 SelectIndex; // 0x58
-	::System::Int32 nonEmptyDataCount; // 0x5C
+	::MonoUITableScrollV2_ScrollParams_AlignParam* AlignParam2; // 0x10
+	::MonoUITableScrollV2_InitScrollViewData_SAlignParam AlignParam; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* lineSize; // 0x50
+	::System::Int32 nonEmptyDataCount; // 0x58
+	::System::Int32 SelectIndex; // 0x5C
+	::System::Int32 ScrollToIndex; // 0x60
+	::System::Boolean _PlayPageShowAnim_k__BackingField; // 0x64
 
 	::System::Void _ctor(::System::Int32 scrollToIndex, ::System::Boolean playPageShowAnim)
 	{

@@ -4,28 +4,28 @@
 
 namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_BSWAP_OFFSET UNITYSDK_OFFSET(0x196059E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CIPHERFUNCT_OFFSET UNITYSDK_OFFSET(0x19605160)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x19605EF0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_GETSTRONGKEY_OFFSET UNITYSDK_OFFSET(0x19604630)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PERMUTATION_OFFSET UNITYSDK_OFFSET(0x196054C0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PROCESSBLOCK_OFFSET UNITYSDK_OFFSET(0x19605A80)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_SETKEY_OFFSET UNITYSDK_OFFSET(0x196049F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x19605F90)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19604390)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_BSWAP_OFFSET UNITYSDK_OFFSET(0x1BA29210)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_CIPHERFUNCT_OFFSET UNITYSDK_OFFSET(0x1BA28990)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1BA29720)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_GETSTRONGKEY_OFFSET UNITYSDK_OFFSET(0x1BA27E60)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PERMUTATION_OFFSET UNITYSDK_OFFSET(0x1BA28CF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_PROCESSBLOCK_OFFSET UNITYSDK_OFFSET(0x1BA292B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM_SETKEY_OFFSET UNITYSDK_OFFSET(0x1BA28220)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA297C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27BC0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int DESTransform_TypeDefinitionIndex = 1115;
+	inline static constexpr unsigned int DESTransform_TypeDefinitionIndex = 1114;
 
 	class DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:
-		static ::Il2CppArray<::System::UInt32>** StaticGet_fpTab()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF50);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_PC1()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF50);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_PC2()
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF58);
 		}
@@ -33,23 +33,23 @@ namespace System::Security::Cryptography
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF60);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_PC2()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_fpTab()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF68);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_spBoxes()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF70);
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF68);
 		}
 		static ::Il2CppArray<::System::UInt32>** StaticGet_ipTab()
 		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF70);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_spBoxes()
+		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0xF78);
 		}
-		static ::System::Int32* StaticGet_BLOCK_BIT_SIZE()
+		static ::System::Int32* StaticGet_KEY_BYTE_SIZE()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x4B0);
 		}
-		static ::System::Int32* StaticGet_KEY_BYTE_SIZE()
+		static ::System::Int32* StaticGet_BLOCK_BIT_SIZE()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x4B4);
 		}
@@ -61,9 +61,9 @@ namespace System::Security::Cryptography
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DESTransform_TypeDefinitionIndex)->GetStaticField(0x4BC);
 		}
-		::Il2CppArray<::System::UInt32>* dwordBuff; // 0x50
-		::Il2CppArray<::System::Byte>* byteBuff; // 0x58
-		::Il2CppArray<::System::Byte>* keySchedule; // 0x60
+		::Il2CppArray<::System::Byte>* byteBuff; // 0x50
+		::Il2CppArray<::System::Byte>* keySchedule; // 0x58
+		::Il2CppArray<::System::UInt32>* dwordBuff; // 0x60
 
 		::System::Void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, ::System::Boolean encryption, ::Il2CppArray<::System::Byte>* key, ::Il2CppArray<::System::Byte>* iv)
 		{

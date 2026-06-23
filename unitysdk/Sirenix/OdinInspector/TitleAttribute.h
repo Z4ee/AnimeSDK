@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TITLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021DC0)
+#define SIRENIX_ODININSPECTOR_TITLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32B0D0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TitleAttribute_TypeDefinitionIndex = 7238;
+	inline static constexpr unsigned int TitleAttribute_TypeDefinitionIndex = 7369;
 
 	class TitleAttribute : public ::System::Attribute
 	{

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhysicalPosHandler_AlignMeta_TypeDefinitionIndex = 62264;
+	inline static constexpr unsigned int UIPhysicalPosHandler_AlignMeta_TypeDefinitionIndex = 61590;
 
 	struct alignas(8) UIPhysicalPosHandler_AlignMeta
 	{

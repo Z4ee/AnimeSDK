@@ -4,7 +4,7 @@
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int EmptyEnumerable_1_TypeDefinitionIndex = 4371;
+	inline static constexpr unsigned int EmptyEnumerable_1_TypeDefinitionIndex = 4370;
 
 	template <typename TElement>
 	class EmptyEnumerable_1 : public ::System::Object

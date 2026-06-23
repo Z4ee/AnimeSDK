@@ -4,9 +4,9 @@
 
 namespace System { class Action; }
 
-#define RESOURCEMODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC5540)
+#define RESOURCEMODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16802930)
 
-inline static constexpr unsigned int ResourceModeBase_TypeDefinitionIndex = 39547;
+inline static constexpr unsigned int ResourceModeBase_TypeDefinitionIndex = 64571;
 
 class ResourceModeBase : public ::System::Object
 {

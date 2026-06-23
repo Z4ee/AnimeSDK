@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
 
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05C220)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__ONSENSOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A05C230)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C4A10)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE___C__DISPLAYCLASS7_0__ONSENSOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C0C4A20)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudPipe___c__DisplayClass7_0_TypeDefinitionIndex = 19470;
+	inline static constexpr unsigned int CloudPipe___c__DisplayClass7_0_TypeDefinitionIndex = 20631;
 
 	class CloudPipe___c__DisplayClass7_0 : public ::System::Object
 	{

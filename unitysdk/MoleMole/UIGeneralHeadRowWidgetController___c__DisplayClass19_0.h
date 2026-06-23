@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167A5A40)
-#define MOLEMOLE_UIGENERALHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__PLAYROLEICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x167A5A50)
+#define MOLEMOLE_UIGENERALHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187F4880)
+#define MOLEMOLE_UIGENERALHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__PLAYROLEICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x187F4890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralHeadRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 39354;
+	inline static constexpr unsigned int UIGeneralHeadRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 84556;
 
 	class UIGeneralHeadRowWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{

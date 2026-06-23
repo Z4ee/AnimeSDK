@@ -8,19 +8,19 @@ namespace System::Xml { class XmlElementList; }
 namespace System::Xml { class XmlNodeChangedEventArgs; }
 namespace System::Xml { class XmlNodeChangedEventHandler; }
 
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER_ONLISTCHANGED_OFFSET UNITYSDK_OFFSET(0x1AE96F40)
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AE971B0)
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE96DC0)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER_ONLISTCHANGED_OFFSET UNITYSDK_OFFSET(0x1D2E0CD0)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D2E0F40)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E0B50)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlElementListListener_TypeDefinitionIndex = 1766;
+	inline static constexpr unsigned int XmlElementListListener_TypeDefinitionIndex = 1765;
 
 	class XmlElementListListener : public ::System::Object
 	{
 	public:
-		::System::Xml::XmlDocument* doc; // 0x10
-		::System::WeakReference* elemList; // 0x18
+		::System::WeakReference* elemList; // 0x10
+		::System::Xml::XmlDocument* doc; // 0x18
 		::System::Xml::XmlNodeChangedEventHandler* nodeChangeHandler; // 0x20
 
 		::System::Void _ctor(::System::Xml::XmlDocument* doc, ::System::Xml::XmlElementList* elemList)

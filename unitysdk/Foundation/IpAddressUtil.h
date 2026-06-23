@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_IPADDRESSUTIL_PARSEIPADDRESSANDPORT_OFFSET UNITYSDK_OFFSET(0x1A00F1E0)
+#define FOUNDATION_IPADDRESSUTIL_PARSEIPADDRESSANDPORT_OFFSET UNITYSDK_OFFSET(0x1C5D59B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IpAddressUtil_TypeDefinitionIndex = 8057;
+	inline static constexpr unsigned int IpAddressUtil_TypeDefinitionIndex = 7981;
 
 	class IpAddressUtil : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SIRENIX_SERIALIZATION_BINARYDATAREADER_TYPERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x9D8420)
+#define SIRENIX_SERIALIZATION_BINARYDATAREADER_TYPERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xA79F80)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int BinaryDataReader_TypeRecord_TypeDefinitionIndex = 7285;
+	inline static constexpr unsigned int BinaryDataReader_TypeRecord_TypeDefinitionIndex = 7417;
 
 	struct alignas(8) BinaryDataReader_TypeRecord
 	{

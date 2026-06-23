@@ -9,39 +9,39 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D3F080)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3F0C0)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_2_OFFSET UNITYSDK_OFFSET(0x14D3F0E0)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_3_OFFSET UNITYSDK_OFFSET(0x14D3F1E0)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_4_OFFSET UNITYSDK_OFFSET(0x14D3F390)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__REFRESHSTAGE_B__26_0_OFFSET UNITYSDK_OFFSET(0x14D3F0D0)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15284810)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15284850)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_2_OFFSET UNITYSDK_OFFSET(0x15284870)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_3_OFFSET UNITYSDK_OFFSET(0x15284970)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__ONCLICKSENDTIME_B__32_4_OFFSET UNITYSDK_OFFSET(0x15284B20)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__REFRESHSTAGE_B__26_0_OFFSET UNITYSDK_OFFSET(0x15284860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex = 42561;
+	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex = 78546;
 
 	class UIMainCitySwitchRoleTimePanelWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__26_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37FB0);
-		}
-		static ::MoleMole::UIMainCitySwitchRoleTimePanelWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMainCitySwitchRoleTimePanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37FB8);
-		}
-		static ::System::Action** StaticGet___9__32_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37FC0);
-		}
 		static ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>** StaticGet___9__32_4()
 		{
-			return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37FC8);
+			return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A4C0);
+		}
+		static ::System::Action** StaticGet___9__26_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A4C8);
 		}
 		static ::System::Action_1<::Class_2_67F3C5E647F33C2D*>** StaticGet___9__32_2()
 		{
-			return (::System::Action_1<::Class_2_67F3C5E647F33C2D*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37FD0);
+			return (::System::Action_1<::Class_2_67F3C5E647F33C2D*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A4D0);
+		}
+		static ::System::Action** StaticGet___9__32_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A4D8);
+		}
+		static ::MoleMole::UIMainCitySwitchRoleTimePanelWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIMainCitySwitchRoleTimePanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySwitchRoleTimePanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A4E0);
 		}
 
 		static ::System::Void _cctor()

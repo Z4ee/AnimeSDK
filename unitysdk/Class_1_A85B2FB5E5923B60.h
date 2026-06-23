@@ -8,28 +8,28 @@ class Class_3_F2DAD7F45F518868;
 namespace NPCCrowd::Animation { class NPCUnionAnimator_NpcTransformCache; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define CLASS_1_A85B2FB5E5923B60_METHOD_1_F6C48622ED52A6DD_OFFSET UNITYSDK_OFFSET(0x130738D0)
-#define CLASS_1_A85B2FB5E5923B60_PROVIDECHARACTERRENDERINGTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x130730C0)
-#define CLASS_1_A85B2FB5E5923B60_RELEASE_OFFSET UNITYSDK_OFFSET(0x130737A0)
-#define CLASS_1_A85B2FB5E5923B60__CCTOR_OFFSET UNITYSDK_OFFSET(0x13073850)
-#define CLASS_1_A85B2FB5E5923B60__CTOR_OFFSET UNITYSDK_OFFSET(0x13073840)
+#define CLASS_1_A85B2FB5E5923B60_METHOD_1_F6C48622ED52A6DD_OFFSET UNITYSDK_OFFSET(0x1AC71E30)
+#define CLASS_1_A85B2FB5E5923B60_PROVIDECHARACTERRENDERINGTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1AC71630)
+#define CLASS_1_A85B2FB5E5923B60_RELEASE_OFFSET UNITYSDK_OFFSET(0x1AC71D00)
+#define CLASS_1_A85B2FB5E5923B60__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC71DB0)
+#define CLASS_1_A85B2FB5E5923B60__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC71DA0)
 
-inline static constexpr unsigned int Class_1_A85B2FB5E5923B60_TypeDefinitionIndex = 67748;
+inline static constexpr unsigned int Class_1_A85B2FB5E5923B60_TypeDefinitionIndex = 84554;
 
 class Class_1_A85B2FB5E5923B60 : public ::System::Object
 {
 public:
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_Field_1_0()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A85B2FB5E5923B60_TypeDefinitionIndex)->GetStaticField(0x30420);
-	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A85B2FB5E5923B60_TypeDefinitionIndex)->GetStaticField(0x30428);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A85B2FB5E5923B60_TypeDefinitionIndex)->GetStaticField(0x31F00);
 	}
-	::NPCCrowd::Animation::NPCUnionAnimator_NpcTransformCache* Field_1_3; // 0x10
-	::Class_3_F2DAD7F45F518868* Field_1_2; // 0x18
-	::NPCCrowd::Animation::NPCUnionAnimator_NpcTransformCache* Field_1_4; // 0x20
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_Field_1_0()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A85B2FB5E5923B60_TypeDefinitionIndex)->GetStaticField(0x31F08);
+	}
+	::Class_3_F2DAD7F45F518868* Field_1_2; // 0x10
+	::NPCCrowd::Animation::NPCUnionAnimator_NpcTransformCache* Field_1_4; // 0x18
+	::NPCCrowd::Animation::NPCUnionAnimator_NpcTransformCache* Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -6,26 +6,26 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ISubsystem; }
 namespace UnityEngine { class IntegratedSubsystem; }
 
-#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_CLEARMANAGEDINSTANCES_OFFSET UNITYSDK_OFFSET(0x1C548710)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_GETINSTANCEBYPTR_OFFSET UNITYSDK_OFFSET(0x1C548BC0)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_INITIALIZEMANAGEDINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C548670)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_REMOVEINSTANCEBYPTR_OFFSET UNITYSDK_OFFSET(0x1C548940)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C548D60)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_CLEARMANAGEDINSTANCES_OFFSET UNITYSDK_OFFSET(0x1E878ED0)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_GETINSTANCEBYPTR_OFFSET UNITYSDK_OFFSET(0x1E879380)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_INITIALIZEMANAGEDINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E878E30)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES_INTERNAL_REMOVEINSTANCEBYPTR_OFFSET UNITYSDK_OFFSET(0x1E879100)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMINSTANCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E879520)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Internal_SubsystemInstances_TypeDefinitionIndex = 9649;
+	inline static constexpr unsigned int Internal_SubsystemInstances_TypeDefinitionIndex = 18835;
 
 	class Internal_SubsystemInstances : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>** StaticGet_s_StandaloneSubsystemInstances()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemInstances_TypeDefinitionIndex)->GetStaticField(0x8B90);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemInstances_TypeDefinitionIndex)->GetStaticField(0x8680);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>** StaticGet_s_IntegratedSubsystemInstances()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemInstances_TypeDefinitionIndex)->GetStaticField(0x8B98);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemInstances_TypeDefinitionIndex)->GetStaticField(0x8688);
 		}
 
 		static ::System::Void _cctor()

@@ -10,15 +10,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_CREATEBUDDYPARTSASYNC_OFFSET UNITYSDK_OFFSET(0x1742A680)
-#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_21378A7EB1BCB13B_OFFSET UNITYSDK_OFFSET(0x1742AAA0)
-#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_A705E81AD7FB6202_OFFSET UNITYSDK_OFFSET(0x1742AC80)
-#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_PREVIEWFASHION_OFFSET UNITYSDK_OFFSET(0x1742A460)
-#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1742A910)
+#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_CREATEBUDDYPARTSASYNC_OFFSET UNITYSDK_OFFSET(0x17024FA0)
+#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_21378A7EB1BCB13B_OFFSET UNITYSDK_OFFSET(0x170259C0)
+#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_A705E81AD7FB6202_OFFSET UNITYSDK_OFFSET(0x170253C0)
+#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST_PREVIEWFASHION_OFFSET UNITYSDK_OFFSET(0x17024D80)
+#define MOLEMOLE_BUDDYFASHIONPREVIEWTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x17025230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyFashionPreviewTest_TypeDefinitionIndex = 61781;
+	inline static constexpr unsigned int BuddyFashionPreviewTest_TypeDefinitionIndex = 83341;
 
 	class BuddyFashionPreviewTest : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::AssetPath>*, ::UnityEngine::Transform*, ::System::Action_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPREVIEWTEST_CREATEBUDDYPARTSASYNC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_21378A7EB1BCB13B()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_21378A7EB1BCB13B_OFFSET))(this);
-		}
-
 		::System::Void Method_5_A705E81AD7FB6202(::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_A705E81AD7FB6202_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_21378A7EB1BCB13B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPREVIEWTEST_METHOD_5_21378A7EB1BCB13B_OFFSET))(this);
 		}
 	};
 }

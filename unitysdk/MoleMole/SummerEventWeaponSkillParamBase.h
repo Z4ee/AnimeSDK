@@ -8,23 +8,23 @@
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 
-#define MOLEMOLE_SUMMEREVENTWEAPONSKILLPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x125F3760)
+#define MOLEMOLE_SUMMEREVENTWEAPONSKILLPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1304B160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventWeaponSkillParamBase_TypeDefinitionIndex = 61783;
+	inline static constexpr unsigned int SummerEventWeaponSkillParamBase_TypeDefinitionIndex = 62122;
 
 	class SummerEventWeaponSkillParamBase : public ::System::Object
 	{
 	public:
-		::System::String* SkillInterruptedEventName; // 0x10
-		::MoleMole::Config::ConfigSoundActionGeneral* skillEndSoundAction; // 0x18
-		::Foundation::AssetPath SkillOverrideCrosshairPath; // 0x20
-		::MoleMole::Config::ConfigSoundActionGeneral* skillStartSoundAction; // 0x30
-		::System::Boolean changeWeaponSkill; // 0x38
-		::MoleMole::SummerWeaponConfig_CrossHairRayShape crossHairRayShape; // 0x3C
-		::System::Single OverrideSkillCrosshairRaycastRadius; // 0x40
-		::System::Single duration; // 0x44
+		::MoleMole::Config::ConfigSoundActionGeneral* skillEndSoundAction; // 0x10
+		::MoleMole::Config::ConfigSoundActionGeneral* skillStartSoundAction; // 0x18
+		::System::String* SkillInterruptedEventName; // 0x20
+		::Foundation::AssetPath SkillOverrideCrosshairPath; // 0x28
+		::System::Single OverrideSkillCrosshairRaycastRadius; // 0x38
+		::System::Single duration; // 0x3C
+		::System::Boolean changeWeaponSkill; // 0x40
+		::MoleMole::SummerWeaponConfig_CrossHairRayShape crossHairRayShape; // 0x44
 		::UnityEngine::Vector2 crossHairBoxRayParam; // 0x48
 
 		::System::Void _ctor()

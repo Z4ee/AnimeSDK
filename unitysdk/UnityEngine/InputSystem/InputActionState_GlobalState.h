@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionState_GlobalState_TypeDefinitionIndex = 28914;
+	inline static constexpr unsigned int InputActionState_GlobalState_TypeDefinitionIndex = 31570;
 
 	struct alignas(8) InputActionState_GlobalState
 	{

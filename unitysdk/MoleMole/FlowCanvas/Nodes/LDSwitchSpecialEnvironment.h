@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A42C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A42FB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16CA7710)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA7AB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchSpecialEnvironment_TypeDefinitionIndex = 74792;
+	inline static constexpr unsigned int LDSwitchSpecialEnvironment_TypeDefinitionIndex = 73727;
 
 	class LDSwitchSpecialEnvironment : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

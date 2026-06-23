@@ -11,21 +11,21 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UIToggleButton; }
 
-#define CLASS_2_C3EDD1939743B320_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10B728F0)
-#define CLASS_2_C3EDD1939743B320_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10B727C0)
-#define CLASS_2_C3EDD1939743B320_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10B728E0)
+#define CLASS_2_C3EDD1939743B320_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13906270)
+#define CLASS_2_C3EDD1939743B320_1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x13906140)
+#define CLASS_2_C3EDD1939743B320_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13906260)
 
-inline static constexpr unsigned int Class_2_C3EDD1939743B320_1_TypeDefinitionIndex = 73246;
+inline static constexpr unsigned int Class_2_C3EDD1939743B320_1_TypeDefinitionIndex = 55802;
 
 class Class_2_C3EDD1939743B320_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_3; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
-	::UnityEngine::UI::Extension::UIToggleButton* Field_2_0; // 0x28
-	::MoleMole::NotificationBadgeEx* Field_2_5; // 0x30
-	::MonoUITableScrollV2* Field_2_2; // 0x38
-	::UnityEngine::RectTransform* Field_2_4; // 0x40
+	::MonoUITableScrollV2* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UIToggleButton* Field_2_0; // 0x20
+	::MoleMole::NotificationBadgeEx* Field_2_5; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
+	::UnityEngine::RectTransform* Field_2_4; // 0x38
+	::UnityEngine::GameObject* Field_2_3; // 0x40
 
 	::System::Void _ctor()
 	{

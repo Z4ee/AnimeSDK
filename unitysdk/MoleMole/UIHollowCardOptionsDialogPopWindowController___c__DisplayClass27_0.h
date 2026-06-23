@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHollowCardOptionsDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1582FD00)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYFADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x15831620)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D432D0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYFADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x16D44BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 64354;
+	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 72877;
 
 	class UIHollowCardOptionsDialogPopWindowController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::Action* finish; // 0x10
-		::MoleMole::UIHollowCardOptionsDialogPopWindowController* __4__this; // 0x18
+		::MoleMole::UIHollowCardOptionsDialogPopWindowController* __4__this; // 0x10
+		::System::Action* finish; // 0x18
 
 		::System::Void _ctor()
 		{

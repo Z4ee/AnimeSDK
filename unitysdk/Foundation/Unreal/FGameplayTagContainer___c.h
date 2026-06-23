@@ -6,24 +6,24 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C214950)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C214990)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C2149A0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BEB5C0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEB600)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x18BEB610)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 9153;
+	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 10222;
 
 	class FGameplayTagContainer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x7F60);
-		}
 		static ::Foundation::Unreal::FGameplayTagContainer___c** StaticGet___9()
 		{
-			return (::Foundation::Unreal::FGameplayTagContainer___c**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x7F68);
+			return (::Foundation::Unreal::FGameplayTagContainer___c**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x78C0);
+		}
+		static ::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x78C8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_C42E6B3B5FED49EF_Struct_2_E0CEA152E12AB41D_TypeDefinitionIndex = 55439;
+inline static constexpr unsigned int Class_1_C42E6B3B5FED49EF_Struct_2_E0CEA152E12AB41D_TypeDefinitionIndex = 40277;
 
 struct alignas(8) Class_1_C42E6B3B5FED49EF_Struct_2_E0CEA152E12AB41D
 {

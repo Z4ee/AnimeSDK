@@ -7,7 +7,7 @@ namespace System::Net { class NetworkCredential; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ICredentials_TypeDefinitionIndex = 3285;
+	inline static constexpr unsigned int ICredentials_TypeDefinitionIndex = 3284;
 
 	class ICredentials
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WindowsInstallationType_TypeDefinitionIndex = 3299;
+	inline static constexpr unsigned int WindowsInstallationType_TypeDefinitionIndex = 3298;
 
 	enum class WindowsInstallationType : ::System::Int32
 	{

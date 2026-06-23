@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_HABLECURVE_SEGMENT_EVAL_OFFSET UNITYSDK_OFFSET(0x1AFB0320)
-#define UNITYENGINE_NAPRENDERPIPELINE0_HABLECURVE_SEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB0380)
+#define UNITYENGINE_NAPRENDERPIPELINE0_HABLECURVE_SEGMENT_EVAL_OFFSET UNITYSDK_OFFSET(0x1D4267E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_HABLECURVE_SEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D426840)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int HableCurve_Segment_TypeDefinitionIndex = 5952;
+	inline static constexpr unsigned int HableCurve_Segment_TypeDefinitionIndex = 5962;
 
 	class HableCurve_Segment : public ::System::Object
 	{

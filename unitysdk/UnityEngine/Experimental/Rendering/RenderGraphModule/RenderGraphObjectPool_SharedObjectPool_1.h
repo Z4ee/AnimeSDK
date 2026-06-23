@@ -8,7 +8,7 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule { template <ty
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphObjectPool_SharedObjectPool_1_TypeDefinitionIndex = 9516;
+	inline static constexpr unsigned int RenderGraphObjectPool_SharedObjectPool_1_TypeDefinitionIndex = 18246;
 
 	template <typename T>
 	class RenderGraphObjectPool_SharedObjectPool_1 : public ::System::Object

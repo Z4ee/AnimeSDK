@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PieceModelAnimType_TypeDefinitionIndex = 53054;
+	inline static constexpr unsigned int PieceModelAnimType_TypeDefinitionIndex = 69501;
 
 	enum class PieceModelAnimType : ::System::Int32
 	{
-		Sink = 2,
-		Raise = 1,
 		None = 0,
+		Raise = 1,
+		Sink = 2,
 	};
 }

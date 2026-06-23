@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/CodeDom/CodeExpression.h"
 
-#define SYSTEM_CODEDOM_CODEPROPERTYSETVALUEREFERENCEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE53D0)
+#define SYSTEM_CODEDOM_CODEPROPERTYSETVALUEREFERENCEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DF000)
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodePropertySetValueReferenceExpression_TypeDefinitionIndex = 4272;
+	inline static constexpr unsigned int CodePropertySetValueReferenceExpression_TypeDefinitionIndex = 4271;
 
 	class CodePropertySetValueReferenceExpression : public ::System::CodeDom::CodeExpression
 	{

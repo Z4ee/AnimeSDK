@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_DEVMODE_TypeDefinitionIndex = 35384;
+	inline static constexpr unsigned int BrowserWin32Helper_DEVMODE_TypeDefinitionIndex = 36983;
 
 	struct alignas(8) BrowserWin32Helper_DEVMODE
 	{

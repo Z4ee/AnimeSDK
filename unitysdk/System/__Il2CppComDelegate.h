@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/__Il2CppComObject.h"
 
-#define SYSTEM___IL2CPPCOMDELEGATE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A3BDED0)
+#define SYSTEM___IL2CPPCOMDELEGATE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C710550)
 
 namespace System
 {
-	inline static constexpr unsigned int __Il2CppComDelegate_TypeDefinitionIndex = 1633;
+	inline static constexpr unsigned int __Il2CppComDelegate_TypeDefinitionIndex = 1632;
 
 	class __Il2CppComDelegate : public ::System::__Il2CppComObject
 	{

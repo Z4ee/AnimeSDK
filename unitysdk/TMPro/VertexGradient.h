@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define TMPRO_VERTEXGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9DF5F0)
-#define TMPRO_VERTEXGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF5C0)
+#define TMPRO_VERTEXGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA81310)
+#define TMPRO_VERTEXGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA812E0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int VertexGradient_TypeDefinitionIndex = 37613;
+	inline static constexpr unsigned int VertexGradient_TypeDefinitionIndex = 39239;
 
 	struct alignas(4) VertexGradient
 	{

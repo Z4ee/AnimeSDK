@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_RANDOMMONSTERSELECTPARAM_RESET_OFFSET UNITYSDK_OFFSET(0x1386A110)
-#define MOLEMOLE_RANDOMMONSTERSELECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1386A1E0)
+#define MOLEMOLE_RANDOMMONSTERSELECTPARAM_RESET_OFFSET UNITYSDK_OFFSET(0x16CE2940)
+#define MOLEMOLE_RANDOMMONSTERSELECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RandomMonsterSelectParam_TypeDefinitionIndex = 67132;
+	inline static constexpr unsigned int RandomMonsterSelectParam_TypeDefinitionIndex = 66188;
 
 	class RandomMonsterSelectParam : public ::System::Object
 	{

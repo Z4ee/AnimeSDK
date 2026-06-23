@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MSAASamples_TypeDefinitionIndex = 5858;
+	inline static constexpr unsigned int MSAASamples_TypeDefinitionIndex = 5865;
 
 	enum class MSAASamples : ::System::Int32
 	{

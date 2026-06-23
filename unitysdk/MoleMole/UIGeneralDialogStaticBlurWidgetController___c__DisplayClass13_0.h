@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralDialogStaticBlurWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALDIALOGSTATICBLURWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CCE690)
-#define MOLEMOLE_UIGENERALDIALOGSTATICBLURWIDGETCONTROLLER___C__DISPLAYCLASS13_0__STARTUIBLURFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x16CCE6A0)
+#define MOLEMOLE_UIGENERALDIALOGSTATICBLURWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F96690)
+#define MOLEMOLE_UIGENERALDIALOGSTATICBLURWIDGETCONTROLLER___C__DISPLAYCLASS13_0__STARTUIBLURFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x17F966A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralDialogStaticBlurWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 64846;
+	inline static constexpr unsigned int UIGeneralDialogStaticBlurWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 79984;
 
 	class UIGeneralDialogStaticBlurWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{

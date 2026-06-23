@@ -5,18 +5,18 @@
 class Class_3_C2426F57DB2A743B;
 namespace MoleMole { class UIHollowMainBottomWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146886E0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__INITPLAYERPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x146886F0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1469C5C0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__INITPLAYERPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1469C5D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 57760;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 47511;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainBottomWidgetController* __4__this; // 0x10
-		::Class_3_C2426F57DB2A743B* avatar; // 0x18
+		::Class_3_C2426F57DB2A743B* avatar; // 0x10
+		::MoleMole::UIHollowMainBottomWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

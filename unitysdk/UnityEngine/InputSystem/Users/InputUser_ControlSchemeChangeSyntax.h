@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER_CONTROLSCHEMECHANGESYNTAX_ANDPAIRREMAININGDEVICES_OFFSET UNITYSDK_OFFSET(0x9733B0)
+#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER_CONTROLSCHEMECHANGESYNTAX_ANDPAIRREMAININGDEVICES_OFFSET UNITYSDK_OFFSET(0xA14770)
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser_ControlSchemeChangeSyntax_TypeDefinitionIndex = 29095;
+	inline static constexpr unsigned int InputUser_ControlSchemeChangeSyntax_TypeDefinitionIndex = 31751;
 
 	struct alignas(4) InputUser_ControlSchemeChangeSyntax
 	{

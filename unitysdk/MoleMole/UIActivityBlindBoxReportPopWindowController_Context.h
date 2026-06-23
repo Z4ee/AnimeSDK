@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYBLINDBOXREPORTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDFA10)
+#define MOLEMOLE_UIACTIVITYBLINDBOXREPORTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1731FA70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBlindBoxReportPopWindowController_Context_TypeDefinitionIndex = 70413;
+	inline static constexpr unsigned int UIActivityBlindBoxReportPopWindowController_Context_TypeDefinitionIndex = 64018;
 
 	class UIActivityBlindBoxReportPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

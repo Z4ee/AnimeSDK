@@ -10,25 +10,25 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x1614F0A0)
-#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_B6EEC4B10357AB73_OFFSET UNITYSDK_OFFSET(0x1614EE70)
-#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1614F150)
-#define CLASS_2_AFDB8E3CDAA089B8__CTOR_OFFSET UNITYSDK_OFFSET(0x1614F140)
+#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x151BB4A0)
+#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_B6EEC4B10357AB73_OFFSET UNITYSDK_OFFSET(0x151BB280)
+#define CLASS_2_AFDB8E3CDAA089B8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x151BB550)
+#define CLASS_2_AFDB8E3CDAA089B8__CTOR_OFFSET UNITYSDK_OFFSET(0x151BB540)
 
-inline static constexpr unsigned int Class_2_AFDB8E3CDAA089B8_TypeDefinitionIndex = 69476;
+inline static constexpr unsigned int Class_2_AFDB8E3CDAA089B8_TypeDefinitionIndex = 69330;
 
 class Class_2_AFDB8E3CDAA089B8 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::GameObject* Field_2_5; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
-	::MoleMole::NotificationBadgeEx* Field_2_8; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x30
-	::UnityEngine::GameObject* Field_2_7; // 0x38
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x40
-	::UnityEngine::GameObject* Field_2_6; // 0x48
-	::UnityEngine::GameObject* Field_2_1; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x58
+	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x20
+	::UnityEngine::GameObject* Field_2_4; // 0x28
+	::UnityEngine::GameObject* Field_2_8; // 0x30
+	::MoleMole::NotificationBadgeEx* Field_2_7; // 0x38
+	::UnityEngine::GameObject* Field_2_3; // 0x40
+	::UnityEngine::GameObject* Field_2_2; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x58
 
 	::System::Void _ctor()
 	{

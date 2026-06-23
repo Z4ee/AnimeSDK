@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC7A3F0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEC7A430)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xEC7A440)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1029AF00)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1029AF40)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FTRANSFORMFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1029AF50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FTransformFragment___c_TypeDefinitionIndex = 48706;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FTransformFragment___c_TypeDefinitionIndex = 80317;
 
 	class RegistrationInfo_ScriptStruct_FTransformFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FTransformFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FTransformFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FTransformFragment___c_TypeDefinitionIndex)->GetStaticField(0x32F20);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FTransformFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FTransformFragment___c_TypeDefinitionIndex)->GetStaticField(0x34E60);
 		}
 
 		static ::System::Void _cctor()

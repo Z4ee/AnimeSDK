@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENELUTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0xF804990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENELUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF804C50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENELUTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E59F4C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENELUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E59F780)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SceneLUTConfig_TypeDefinitionIndex = 30314;
+	inline static constexpr unsigned int SceneLUTConfig_TypeDefinitionIndex = 26749;
 
 	class SceneLUTConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SceneLUTConfig*>
 	{

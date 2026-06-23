@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
 namespace System { template <typename T> class Action_1; }
-template <typename T> class Class_0_16E4307DCC419505_97;
-template <typename T> class Class_0_16E4307DCC41950C_13;
+template <typename T> class Class_0_16E4307DCC419505_163;
+template <typename T> class Class_0_16E4307DCC419505_165;
 
-#define CLASS_2_279AB55CDC9A1BDB_METHOD_2_B991AA5072E9A99A_OFFSET UNITYSDK_OFFSET(0x13DB7410)
-#define CLASS_2_279AB55CDC9A1BDB_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x13DB7230)
-#define CLASS_2_279AB55CDC9A1BDB__CTOR_OFFSET UNITYSDK_OFFSET(0x13DB73B0)
+#define CLASS_2_279AB55CDC9A1BDB_METHOD_2_B991AA5072E9A99A_OFFSET UNITYSDK_OFFSET(0x1172C4A0)
+#define CLASS_2_279AB55CDC9A1BDB_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1172C2C0)
+#define CLASS_2_279AB55CDC9A1BDB__CTOR_OFFSET UNITYSDK_OFFSET(0x1172C440)
 
-inline static constexpr unsigned int Class_2_279AB55CDC9A1BDB_TypeDefinitionIndex = 71227;
+inline static constexpr unsigned int Class_2_279AB55CDC9A1BDB_TypeDefinitionIndex = 44787;
 
-class Class_2_279AB55CDC9A1BDB : public ::Class_1_F4299CC27263318B
+class Class_2_279AB55CDC9A1BDB : public ::Class_1_C331A5DC726F030A
 {
 public:
-	::Class_0_16E4307DCC419505_97<::System::Boolean>* Field_2_3; // 0x70
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_2; // 0x78
-	::System::Action_1<::System::Int32>* Field_2_1; // 0x80
-	::Class_0_16E4307DCC41950C_13<::System::Int32>* Field_2_0; // 0x88
+	::System::Action_1<::System::Int32>* Field_2_1; // 0x60
+	::Class_0_16E4307DCC419505_165<::System::Boolean>* Field_2_2; // 0x68
+	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_0; // 0x70
+	::Class_0_16E4307DCC419505_163<::System::Boolean>* Field_2_3; // 0x78
 
 	::System::Void _ctor()
 	{

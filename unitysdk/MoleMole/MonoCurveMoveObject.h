@@ -7,11 +7,11 @@ namespace MoleMole::Battle { class CurveMoveComponent_Config; }
 namespace MoleMole::Battle { class CurveMoveComponent_TriggerConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_MONOCURVEMOVEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x142A1DA0)
+#define MOLEMOLE_MONOCURVEMOVEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11634D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCurveMoveObject_TypeDefinitionIndex = 78663;
+	inline static constexpr unsigned int MonoCurveMoveObject_TypeDefinitionIndex = 39980;
 
 	class MonoCurveMoveObject : public ::MoleMole::MonoSceneObjectBase
 	{

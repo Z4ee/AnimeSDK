@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XmlReadMode_TypeDefinitionIndex = 37079;
+	inline static constexpr unsigned int XmlReadMode_TypeDefinitionIndex = 38696;
 
 	enum class XmlReadMode : ::System::Int32
 	{

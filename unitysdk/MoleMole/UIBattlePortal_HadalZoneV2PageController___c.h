@@ -4,44 +4,44 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163685C0)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16368600)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__ENTERLAYERROOM_B__26_0_OFFSET UNITYSDK_OFFSET(0x163686D0)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_3_OFFSET UNITYSDK_OFFSET(0x16368700)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_4_OFFSET UNITYSDK_OFFSET(0x163686E0)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_5_OFFSET UNITYSDK_OFFSET(0x163686F0)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___UPDATECONTENTS_B__22_1_OFFSET UNITYSDK_OFFSET(0x16368610)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C935E0)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C93620)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C__ENTERLAYERROOM_B__26_0_OFFSET UNITYSDK_OFFSET(0x18C936F0)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_3_OFFSET UNITYSDK_OFFSET(0x18C93720)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_4_OFFSET UNITYSDK_OFFSET(0x18C93700)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___ONCLICKBACKBTN_B__27_5_OFFSET UNITYSDK_OFFSET(0x18C93710)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONEV2PAGECONTROLLER___C___UPDATECONTENTS_B__22_1_OFFSET UNITYSDK_OFFSET(0x18C93630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex = 65974;
+	inline static constexpr unsigned int UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex = 49365;
 
 	class UIBattlePortal_HadalZoneV2PageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBattlePortal_HadalZoneV2PageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBattlePortal_HadalZoneV2PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E60);
-		}
-		static ::System::Action** StaticGet___9__27_5()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E68);
-		}
 		static ::System::Action** StaticGet___9__27_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E70);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x378F0);
 		}
-		static ::System::Action** StaticGet___9__22_1()
+		static ::MoleMole::UIBattlePortal_HadalZoneV2PageController___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E78);
+			return (::MoleMole::UIBattlePortal_HadalZoneV2PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x378F8);
 		}
 		static ::System::Action** StaticGet___9__26_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E80);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x37900);
 		}
 		static ::System::Action** StaticGet___9__27_4()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x34E88);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x37908);
+		}
+		static ::System::Action** StaticGet___9__27_5()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x37910);
+		}
+		static ::System::Action** StaticGet___9__22_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBattlePortal_HadalZoneV2PageController___c_TypeDefinitionIndex)->GetStaticField(0x37918);
 		}
 
 		static ::System::Void _cctor()

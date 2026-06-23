@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOANIMATIONCONTROLRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x170DE9D0)
+#define MOLEMOLE_MONOANIMATIONCONTROLRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19139E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAnimationControlRenderer_TypeDefinitionIndex = 46306;
+	inline static constexpr unsigned int MonoAnimationControlRenderer_TypeDefinitionIndex = 52604;
 
 	class MonoAnimationControlRenderer : public ::UnityEngine::MonoBehaviour
 	{

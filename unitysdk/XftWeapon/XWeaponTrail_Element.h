@@ -5,13 +5,13 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XFTWEAPON_XWEAPONTRAIL_ELEMENT_GET_POS_OFFSET UNITYSDK_OFFSET(0x1B17E300)
-#define XFTWEAPON_XWEAPONTRAIL_ELEMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1801E0)
-#define XFTWEAPON_XWEAPONTRAIL_ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B180150)
+#define XFTWEAPON_XWEAPONTRAIL_ELEMENT_GET_POS_OFFSET UNITYSDK_OFFSET(0x1D57ECE0)
+#define XFTWEAPON_XWEAPONTRAIL_ELEMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D580BC0)
+#define XFTWEAPON_XWEAPONTRAIL_ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D580B30)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int XWeaponTrail_Element_TypeDefinitionIndex = 37681;
+	inline static constexpr unsigned int XWeaponTrail_Element_TypeDefinitionIndex = 39307;
 
 	class XWeaponTrail_Element : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace XftWeapon
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points; // 0x10
 		::UnityEngine::Vector3 PointStart; // 0x18
 		::UnityEngine::Vector3 up; // 0x24
-		::UnityEngine::Vector3 forward; // 0x30
+		::UnityEngine::Vector3 PointEnd; // 0x30
 		::UnityEngine::Vector3 right; // 0x3C
-		::UnityEngine::Vector3 PointEnd; // 0x48
+		::UnityEngine::Vector3 forward; // 0x48
 
 		::System::Void _ctor(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end)
 		{

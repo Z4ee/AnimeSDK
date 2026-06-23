@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ITimelineClipAsset_TypeDefinitionIndex = 30872;
+	inline static constexpr unsigned int ITimelineClipAsset_TypeDefinitionIndex = 32423;
 
 	class ITimelineClipAsset
 	{

@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeMultiHashMapIterator_1_TypeDefinitionIndex = 20155;
+	inline static constexpr unsigned int NativeMultiHashMapIterator_1_TypeDefinitionIndex = 18458;
 
 	template <typename TKey>
 	struct NativeMultiHashMapIterator_1

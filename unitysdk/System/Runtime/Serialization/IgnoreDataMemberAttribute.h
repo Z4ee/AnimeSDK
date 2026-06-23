@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_IGNOREDATAMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C560CA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_IGNOREDATAMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E890AF0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IgnoreDataMemberAttribute_TypeDefinitionIndex = 6522;
+	inline static constexpr unsigned int IgnoreDataMemberAttribute_TypeDefinitionIndex = 6604;
 
 	class IgnoreDataMemberAttribute : public ::System::Attribute
 	{

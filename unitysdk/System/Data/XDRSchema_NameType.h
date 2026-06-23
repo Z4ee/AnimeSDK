@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DATA_XDRSCHEMA_NAMETYPE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1B504630)
-#define SYSTEM_DATA_XDRSCHEMA_NAMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B504620)
+#define SYSTEM_DATA_XDRSCHEMA_NAMETYPE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D8A5DD0)
+#define SYSTEM_DATA_XDRSCHEMA_NAMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A5DC0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XDRSchema_NameType_TypeDefinitionIndex = 37071;
+	inline static constexpr unsigned int XDRSchema_NameType_TypeDefinitionIndex = 38688;
 
 	class XDRSchema_NameType : public ::System::Object
 	{

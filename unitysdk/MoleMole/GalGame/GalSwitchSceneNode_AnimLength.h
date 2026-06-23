@@ -3,11 +3,11 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalSwitchSceneNode_AnimLength_TypeDefinitionIndex = 38836;
+	inline static constexpr unsigned int GalSwitchSceneNode_AnimLength_TypeDefinitionIndex = 71872;
 
 	enum class GalSwitchSceneNode_AnimLength : ::System::Int32
 	{
-		Long = 1,
 		Short = 0,
+		Long = 1,
 	};
 }

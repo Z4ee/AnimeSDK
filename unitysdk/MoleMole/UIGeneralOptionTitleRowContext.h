@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALOPTIONTITLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1580CF20)
+#define MOLEMOLE_UIGENERALOPTIONTITLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166EEBC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralOptionTitleRowContext_TypeDefinitionIndex = 46665;
+	inline static constexpr unsigned int UIGeneralOptionTitleRowContext_TypeDefinitionIndex = 74342;
 
 	class UIGeneralOptionTitleRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* Title; // 0x28
-		::System::String* EnTitle; // 0x30
+		::System::String* EnTitle; // 0x28
+		::System::String* Title; // 0x30
 
 		::System::Void _ctor()
 		{

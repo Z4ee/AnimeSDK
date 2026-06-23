@@ -4,17 +4,17 @@
 #include "unitysdk/UnityEngine/Animations/Axis.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_08B13B541773FBB0_OFFSET UNITYSDK_OFFSET(0x7D0AF0)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_0C2475D66B7731A6_OFFSET UNITYSDK_OFFSET(0x7D9E80)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_2D57525B151AC32D_OFFSET UNITYSDK_OFFSET(0x7D9E10)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_2FBCD398A9261AD9_OFFSET UNITYSDK_OFFSET(0x7D9DD0)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_A7E1C6A1FC599256_OFFSET UNITYSDK_OFFSET(0x7D9D00)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_B1ECD783BD361910_OFFSET UNITYSDK_OFFSET(0x17F6FC20)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_CBA4B4666B09026D_OFFSET UNITYSDK_OFFSET(0x17F70960)
-#define STRUCT_2_F05FA2639984AB9F_METHOD_2_DC91253AA06C6A80_OFFSET UNITYSDK_OFFSET(0x7D9D90)
-#define STRUCT_2_F05FA2639984AB9F__CTOR_OFFSET UNITYSDK_OFFSET(0x7D9CC0)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_08B13B541773FBB0_OFFSET UNITYSDK_OFFSET(0x674F40)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_0C2475D66B7731A6_OFFSET UNITYSDK_OFFSET(0x674F50)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_2D57525B151AC32D_OFFSET UNITYSDK_OFFSET(0x674ED0)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_2FBCD398A9261AD9_OFFSET UNITYSDK_OFFSET(0x674DC0)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_A7E1C6A1FC599256_OFFSET UNITYSDK_OFFSET(0x674E40)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_B1ECD783BD361910_OFFSET UNITYSDK_OFFSET(0xF5E93F0)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_CBA4B4666B09026D_OFFSET UNITYSDK_OFFSET(0xF5EA1B0)
+#define STRUCT_2_F05FA2639984AB9F_METHOD_2_DC91253AA06C6A80_OFFSET UNITYSDK_OFFSET(0x674E00)
+#define STRUCT_2_F05FA2639984AB9F__CTOR_OFFSET UNITYSDK_OFFSET(0x674D80)
 
-inline static constexpr unsigned int Struct_2_F05FA2639984AB9F_TypeDefinitionIndex = 56256;
+inline static constexpr unsigned int Struct_2_F05FA2639984AB9F_TypeDefinitionIndex = 82587;
 
 struct alignas(4) Struct_2_F05FA2639984AB9F
 {
@@ -26,6 +26,20 @@ struct alignas(4) Struct_2_F05FA2639984AB9F
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F__CTOR_OFFSET))(this, a1, a2, a3);
 	}
+
+	/*
+	::UnityEngine::Vector3 Method_2_2FBCD398A9261AD9(::Foundation::DualQuaternion a1)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::Foundation::DualQuaternion))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_2FBCD398A9261AD9_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::UnityEngine::Bounds Method_2_DC91253AA06C6A80(::Foundation::DualQuaternion a1)
+	{
+		return ((::UnityEngine::Bounds(*)(::PVOID, ::Foundation::DualQuaternion))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_DC91253AA06C6A80_OFFSET))(this, a1);
+	}
+	*/
 
 	static ::Struct_2_F05FA2639984AB9F Method_2_B1ECD783BD361910(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::UnityEngine::Animations::Axis a4)
 	{
@@ -39,25 +53,6 @@ struct alignas(4) Struct_2_F05FA2639984AB9F
 	}
 	*/
 
-	static ::Struct_2_F05FA2639984AB9F Method_2_CBA4B4666B09026D(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
-	{
-		return ((::Struct_2_F05FA2639984AB9F(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_CBA4B4666B09026D_OFFSET))(a1, a2, a3);
-	}
-
-	/*
-	::UnityEngine::Bounds Method_2_DC91253AA06C6A80(::Foundation::DualQuaternion a1)
-	{
-		return ((::UnityEngine::Bounds(*)(::PVOID, ::Foundation::DualQuaternion))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_DC91253AA06C6A80_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::UnityEngine::Vector3 Method_2_2FBCD398A9261AD9(::Foundation::DualQuaternion a1)
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::Foundation::DualQuaternion))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_2FBCD398A9261AD9_OFFSET))(this, a1);
-	}
-	*/
-
 	/*
 	::System::Single Method_2_2D57525B151AC32D(::Foundation::DualQuaternion a1)
 	{
@@ -66,16 +61,21 @@ struct alignas(4) Struct_2_F05FA2639984AB9F
 	*/
 
 	/*
-	::System::Nullable_1<::System::Single> Method_2_0C2475D66B7731A6(::Foundation::DualQuaternion a1, ::PipelineCamera::FinalCameraData a2, ::System::Single a3, ::System::Boolean a4)
-	{
-		return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::Foundation::DualQuaternion, ::PipelineCamera::FinalCameraData, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_0C2475D66B7731A6_OFFSET))(this, a1, a2, a3, a4);
-	}
-	*/
-
-	/*
 	::System::Single Method_2_08B13B541773FBB0(::Foundation::DualQuaternion a1)
 	{
 		return ((::System::Single(*)(::PVOID, ::Foundation::DualQuaternion))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_08B13B541773FBB0_OFFSET))(this, a1);
+	}
+	*/
+
+	static ::Struct_2_F05FA2639984AB9F Method_2_CBA4B4666B09026D(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+	{
+		return ((::Struct_2_F05FA2639984AB9F(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_CBA4B4666B09026D_OFFSET))(a1, a2, a3);
+	}
+
+	/*
+	::System::Nullable_1<::System::Single> Method_2_0C2475D66B7731A6(::Foundation::DualQuaternion a1, ::PipelineCamera::FinalCameraData a2, ::System::Single a3, ::System::Boolean a4)
+	{
+		return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::Foundation::DualQuaternion, ::PipelineCamera::FinalCameraData, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_F05FA2639984AB9F_METHOD_2_0C2475D66B7731A6_OFFSET))(this, a1, a2, a3, a4);
 	}
 	*/
 };

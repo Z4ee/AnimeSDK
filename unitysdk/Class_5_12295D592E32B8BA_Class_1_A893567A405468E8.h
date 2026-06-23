@@ -9,18 +9,18 @@ class Class_5_A6F8D19602712D95;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xFEAE880)
-#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8_METHOD_1_B238CE6261F18051_OFFSET UNITYSDK_OFFSET(0xFEAE8F0)
-#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8__CTOR_OFFSET UNITYSDK_OFFSET(0xFEAB430)
+#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x12750E00)
+#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8_METHOD_1_B238CE6261F18051_OFFSET UNITYSDK_OFFSET(0x12750E70)
+#define CLASS_5_12295D592E32B8BA_CLASS_1_A893567A405468E8__CTOR_OFFSET UNITYSDK_OFFSET(0x12750DF0)
 
-inline static constexpr unsigned int Class_5_12295D592E32B8BA_Class_1_A893567A405468E8_TypeDefinitionIndex = 37980;
+inline static constexpr unsigned int Class_5_12295D592E32B8BA_Class_1_A893567A405468E8_TypeDefinitionIndex = 65830;
 
 class Class_5_12295D592E32B8BA_Class_1_A893567A405468E8 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::Struct_2_A85DD0CF7A2118D1>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Field_1_0; // 0x18
-	::Class_1_229DBE8532954410* Field_1_2; // 0x20
+	::Class_1_229DBE8532954410* Field_1_2; // 0x18
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

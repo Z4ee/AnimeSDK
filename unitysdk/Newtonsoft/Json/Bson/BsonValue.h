@@ -5,13 +5,13 @@
 
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B237CB0)
-#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B237CA0)
-#define NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B237C90)
+#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D61F250)
+#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D61F240)
+#define NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61F230)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonValue_TypeDefinitionIndex = 7107;
+	inline static constexpr unsigned int BsonValue_TypeDefinitionIndex = 7238;
 
 	class BsonValue : public ::Newtonsoft::Json::Bson::BsonToken
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Octree
 {
-	inline static constexpr unsigned int PointOctree_1_Node_TypeDefinitionIndex = 41608;
+	inline static constexpr unsigned int PointOctree_1_Node_TypeDefinitionIndex = 67396;
 
 	template <typename T>
 	struct PointOctree_1_Node

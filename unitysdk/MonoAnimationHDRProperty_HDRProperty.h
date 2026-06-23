@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define MONOANIMATIONHDRPROPERTY_HDRPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0x1345B450)
-#define MONOANIMATIONHDRPROPERTY_HDRPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1345B4B0)
+#define MONOANIMATIONHDRPROPERTY_HDRPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0x139E3FF0)
+#define MONOANIMATIONHDRPROPERTY_HDRPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x139E4050)
 
-inline static constexpr unsigned int MonoAnimationHDRProperty_HDRProperty_TypeDefinitionIndex = 64705;
+inline static constexpr unsigned int MonoAnimationHDRProperty_HDRProperty_TypeDefinitionIndex = 85440;
 
 class MonoAnimationHDRProperty_HDRProperty : public ::System::Object
 {

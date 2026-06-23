@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_MATHUTIL_COLOREXTENSION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x12F95A10)
+#define MOLEMOLE_MATHUTIL_COLOREXTENSION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x14188840)
 
 namespace MoleMole::MathUtil
 {
-	inline static constexpr unsigned int ColorExtension_TypeDefinitionIndex = 50526;
+	inline static constexpr unsigned int ColorExtension_TypeDefinitionIndex = 62350;
 
 	class ColorExtension : public ::System::Object
 	{

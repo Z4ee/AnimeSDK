@@ -4,39 +4,39 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE4BB30)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE4BB70)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_CHANGEFOV_SCROLLY_B__68_0_OFFSET UNITYSDK_OFFSET(0x1AE4BD30)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_FOV_TWOPOINTDRAG_B__70_0_OFFSET UNITYSDK_OFFSET(0x1AE4BFB0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_MOVEZPOS_SCROLLY_B__67_0_OFFSET UNITYSDK_OFFSET(0x1AE4BB80)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_MOVEZPOS_TWOPOINTDRAG_B__69_0_OFFSET UNITYSDK_OFFSET(0x1AE4BEE0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEAF380)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEAF3C0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_CHANGEFOV_SCROLLY_B__68_0_OFFSET UNITYSDK_OFFSET(0x1AEAF580)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_FOV_TWOPOINTDRAG_B__70_0_OFFSET UNITYSDK_OFFSET(0x1AEAF800)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_MOVEZPOS_SCROLLY_B__67_0_OFFSET UNITYSDK_OFFSET(0x1AEAF3D0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER___C__REG_MOVEZPOS_TWOPOINTDRAG_B__69_0_OFFSET UNITYSDK_OFFSET(0x1AEAF730)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgEventTrigger___c_TypeDefinitionIndex = 81045;
+	inline static constexpr unsigned int UIImgEventTrigger___c_TypeDefinitionIndex = 65759;
 
 	class UIImgEventTrigger___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__69_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x36250);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__68_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x36258);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__67_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x36260);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__70_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x36268);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x38880);
 		}
 		static ::UnityEngine::UI::Extension::UIImgEventTrigger___c** StaticGet___9()
 		{
-			return (::UnityEngine::UI::Extension::UIImgEventTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x36270);
+			return (::UnityEngine::UI::Extension::UIImgEventTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x38888);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__70_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x38890);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__68_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x38898);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__67_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIImgEventTrigger___c_TypeDefinitionIndex)->GetStaticField(0x388A0);
 		}
 
 		static ::System::Void _cctor()

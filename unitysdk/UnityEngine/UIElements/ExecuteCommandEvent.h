@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/CommandEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_EXECUTECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197AACA0)
+#define UNITYENGINE_UIELEMENTS_EXECUTECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE1900)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ExecuteCommandEvent_TypeDefinitionIndex = 24992;
+	inline static constexpr unsigned int ExecuteCommandEvent_TypeDefinitionIndex = 27495;
 
 	class ExecuteCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent*>
 	{

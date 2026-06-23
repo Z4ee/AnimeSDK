@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFE3A80)
-#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE39C0)
+#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D45A500)
+#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45A440)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 3293;
+	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 3292;
 
 	class InternalException : public ::System::SystemException
 	{

@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerBase_1_AsyncTriggerEnumerator_TypeDefinitionIndex = 28662;
+	inline static constexpr unsigned int AsyncTriggerBase_1_AsyncTriggerEnumerator_TypeDefinitionIndex = 31318;
 
 	template <typename T>
 	class AsyncTriggerBase_1_AsyncTriggerEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource

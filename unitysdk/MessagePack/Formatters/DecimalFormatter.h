@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ADB0300)
-#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ADB0130)
-#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADB0E20)
-#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB0120)
+#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D1DCC30)
+#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D1DCA60)
+#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1DD750)
+#define MESSAGEPACK_FORMATTERS_DECIMALFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DCA50)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DecimalFormatter_TypeDefinitionIndex = 28101;
+	inline static constexpr unsigned int DecimalFormatter_TypeDefinitionIndex = 29574;
 
 	class DecimalFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::DecimalFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::DecimalFormatter**)Il2CppClass::FromTypeDefinitionIndex(DecimalFormatter_TypeDefinitionIndex)->GetStaticField(0x1FCD0);
+			return (::MessagePack::Formatters::DecimalFormatter**)Il2CppClass::FromTypeDefinitionIndex(DecimalFormatter_TypeDefinitionIndex)->GetStaticField(0x23A60);
 		}
 
 		::System::Void _ctor()

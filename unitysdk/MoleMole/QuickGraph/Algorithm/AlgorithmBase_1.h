@@ -3,8 +3,8 @@
 #include "unitysdk/Enum_3_124EF969CBD5C24A.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_32;
-class Class_0_16E4307DCC419505_33;
+class Class_0_16E4307DCC419505_45;
+class Class_0_16E4307DCC419505_75;
 class Class_1_FD893FD36F6A3A6D;
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::QuickGraph::Algorithm
 {
-	inline static constexpr unsigned int AlgorithmBase_1_TypeDefinitionIndex = 25535;
+	inline static constexpr unsigned int AlgorithmBase_1_TypeDefinitionIndex = 28218;
 
 	template <typename TGraph>
 	class AlgorithmBase_1 : public ::System::Object

@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FuncSwitchType_TypeDefinitionIndex = 51071;
+	inline static constexpr unsigned int FuncSwitchType_TypeDefinitionIndex = 63249;
 
 	enum class FuncSwitchType : ::System::Int32
 	{
-		GalgameSoundFX = 1,
 		GalgameSoundVO = 2,
+		GalgameSoundFX = 1,
 	};
 }

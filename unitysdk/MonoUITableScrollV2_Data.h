@@ -4,7 +4,7 @@
 
 namespace System { class Object; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_Data_TypeDefinitionIndex = 54134;
+inline static constexpr unsigned int MonoUITableScrollV2_Data_TypeDefinitionIndex = 69982;
 
 struct alignas(8) MonoUITableScrollV2_Data
 {

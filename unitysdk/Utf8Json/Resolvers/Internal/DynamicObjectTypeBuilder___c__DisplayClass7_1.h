@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace Utf8Json::Internal::Emit { class MetaMember; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_1__BUILDANONYMOUSFORMATTER_B__2_OFFSET UNITYSDK_OFFSET(0x1C33F260)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C33F250)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_1__BUILDANONYMOUSFORMATTER_B__2_OFFSET UNITYSDK_OFFSET(0x1E688A40)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E688A30)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_1_TypeDefinitionIndex = 85583;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_1_TypeDefinitionIndex = 91157;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass7_1 : public ::System::Object
 	{

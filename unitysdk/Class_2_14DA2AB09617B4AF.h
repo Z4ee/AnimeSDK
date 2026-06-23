@@ -12,31 +12,31 @@ namespace MoleMole { class UIMechBooPrepWidgetController; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_14DA2AB09617B4AF_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1093B040)
-#define CLASS_2_14DA2AB09617B4AF_METHOD_2_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0x1093AEB0)
-#define CLASS_2_14DA2AB09617B4AF_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x1093AB60)
-#define CLASS_2_14DA2AB09617B4AF__CTOR_OFFSET UNITYSDK_OFFSET(0x1093B030)
+#define CLASS_2_14DA2AB09617B4AF_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x135726E0)
+#define CLASS_2_14DA2AB09617B4AF_METHOD_2_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0x13572550)
+#define CLASS_2_14DA2AB09617B4AF_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x13572200)
+#define CLASS_2_14DA2AB09617B4AF__CTOR_OFFSET UNITYSDK_OFFSET(0x135726D0)
 
-inline static constexpr unsigned int Class_2_14DA2AB09617B4AF_TypeDefinitionIndex = 61156;
+inline static constexpr unsigned int Class_2_14DA2AB09617B4AF_TypeDefinitionIndex = 74138;
 
 class Class_2_14DA2AB09617B4AF : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButton* Field_2_11; // 0x18
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIMechBooPrepFreedomWidgetController*>* Field_2_8; // 0x20
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivityCompRewardBtnGroupWidgetController*>* Field_2_2; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x30
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_6; // 0x18
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompRewardBtnGroupWidgetController*>* Field_2_2; // 0x20
+	::UnityEngine::UI::Extension::UITabButton* Field_2_11; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x30
 	::Class_2_FDFE69FE7B72463B* Field_2_12; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_4; // 0x40
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_5; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_1; // 0x50
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_7; // 0x58
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_9; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x68
-	::UnityEngine::UI::Extension::UITabButton* Field_2_10; // 0x70
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_6; // 0x78
+	::UnityEngine::UI::Extension::UITabButton* Field_2_10; // 0x40
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_9; // 0x48
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIMechBooPrepFreedomWidgetController*>* Field_2_8; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_1; // 0x58
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_7; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x68
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_4; // 0x70
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIMechBooPrepWidgetController*>* Field_2_5; // 0x78
 
 	::System::Void _ctor()
 	{

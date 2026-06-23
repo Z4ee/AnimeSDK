@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_MATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD2290)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_MATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF266D0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMaskMaterial_MatEntry_TypeDefinitionIndex = 8460;
+	inline static constexpr unsigned int SmoothMaskMaterial_MatEntry_TypeDefinitionIndex = 18968;
 
 	class SmoothMaskMaterial_MatEntry : public ::System::Object
 	{

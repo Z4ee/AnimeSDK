@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALACCESSINSTRUCTION_TODEBUGSTRING_OFFSET UNITYSDK_OFFSET(0x1BDCF1B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALACCESSINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCD520)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALACCESSINSTRUCTION_TODEBUGSTRING_OFFSET UNITYSDK_OFFSET(0x1E117160)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALACCESSINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1154D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LocalAccessInstruction_TypeDefinitionIndex = 4769;
+	inline static constexpr unsigned int LocalAccessInstruction_TypeDefinitionIndex = 4768;
 
 	class LocalAccessInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{

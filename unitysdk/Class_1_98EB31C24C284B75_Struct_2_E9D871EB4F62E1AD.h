@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD_TypeDefinitionIndex = 57461;
+inline static constexpr unsigned int Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD_TypeDefinitionIndex = 59909;
 
 struct alignas(8) Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD
 {

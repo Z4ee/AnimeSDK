@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int KeyboardState__keys_e__FixedBuffer_TypeDefinitionIndex = 29227;
+	inline static constexpr unsigned int KeyboardState__keys_e__FixedBuffer_TypeDefinitionIndex = 31883;
 
 	struct alignas(1) KeyboardState__keys_e__FixedBuffer
 	{

@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int InfoMessageType_TypeDefinitionIndex = 7261;
+	inline static constexpr unsigned int InfoMessageType_TypeDefinitionIndex = 7392;
 
 	enum class InfoMessageType : ::System::Int32
 	{

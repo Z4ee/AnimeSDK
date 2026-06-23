@@ -5,11 +5,11 @@
 namespace MoleMole::Cameras { class TacticalCombatCameraConfig; }
 namespace MoleMole::Config { class ScopedTacticalCombatConfigInput; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDTACTICALCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB023A0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDTACTICALCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0xE9678B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraScopedTacticalCombat_TypeDefinitionIndex = 75611;
+	inline static constexpr unsigned int ConfigCameraScopedTacticalCombat_TypeDefinitionIndex = 80577;
 
 	class ConfigCameraScopedTacticalCombat : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIDailyChallengePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIDAILYCHALLENGEPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15660120)
-#define MOLEMOLE_UIDAILYCHALLENGEPAGECONTROLLER___C__DISPLAYCLASS28_0__FADEOUTLINEUPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15660130)
+#define MOLEMOLE_UIDAILYCHALLENGEPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFB040)
+#define MOLEMOLE_UIDAILYCHALLENGEPAGECONTROLLER___C__DISPLAYCLASS28_0__FADEOUTLINEUPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16EFB050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyChallengePageController___c__DisplayClass28_0_TypeDefinitionIndex = 67172;
+	inline static constexpr unsigned int UIDailyChallengePageController___c__DisplayClass28_0_TypeDefinitionIndex = 74590;
 
 	class UIDailyChallengePageController___c__DisplayClass28_0 : public ::System::Object
 	{

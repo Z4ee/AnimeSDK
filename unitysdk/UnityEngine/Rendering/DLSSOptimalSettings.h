@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DLSSOptimalSettings_TypeDefinitionIndex = 6130;
+	inline static constexpr unsigned int DLSSOptimalSettings_TypeDefinitionIndex = 6141;
 
 	struct alignas(4) DLSSOptimalSettings
 	{

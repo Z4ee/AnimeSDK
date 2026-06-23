@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class WheelCollider; }
 
-#define ARASAMPLES_AXLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED2F90)
+#define ARASAMPLES_AXLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E21F5C0)
 
 namespace AraSamples
 {
-	inline static constexpr unsigned int AxleInfo_TypeDefinitionIndex = 31365;
+	inline static constexpr unsigned int AxleInfo_TypeDefinitionIndex = 32916;
 
 	class AxleInfo : public ::System::Object
 	{

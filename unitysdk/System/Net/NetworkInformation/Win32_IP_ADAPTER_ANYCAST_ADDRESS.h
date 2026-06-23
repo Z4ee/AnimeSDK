@@ -6,7 +6,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_ANYCAST_ADDRESS_TypeDefinitionIndex = 3843;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_ANYCAST_ADDRESS_TypeDefinitionIndex = 3842;
 
 	struct alignas(8) Win32_IP_ADAPTER_ANYCAST_ADDRESS
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureDimension_TypeDefinitionIndex = 6182;
+	inline static constexpr unsigned int TextureDimension_TypeDefinitionIndex = 6193;
 
 	enum class TextureDimension : ::System::Int32
 	{

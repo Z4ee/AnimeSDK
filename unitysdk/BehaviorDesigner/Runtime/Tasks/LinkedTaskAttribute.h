@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LINKEDTASKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA1BA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LINKEDTASKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE05A90)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int LinkedTaskAttribute_TypeDefinitionIndex = 31769;
+	inline static constexpr unsigned int LinkedTaskAttribute_TypeDefinitionIndex = 33320;
 
 	class LinkedTaskAttribute : public ::System::Attribute
 	{

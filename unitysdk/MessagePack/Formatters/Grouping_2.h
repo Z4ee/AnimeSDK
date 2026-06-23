@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 28043;
+	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 29737;
 
 	template <typename TKey, typename TElement>
 	class Grouping_2 : public ::System::Object

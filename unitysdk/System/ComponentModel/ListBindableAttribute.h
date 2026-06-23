@@ -5,30 +5,30 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19A47EB0)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19A47F10)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_GET_LISTBINDABLE_OFFSET UNITYSDK_OFFSET(0x19A47EA0)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19A47F20)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A47FE0)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19A47E90)
-#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A47E80)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BEB98C0)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BEB9920)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_GET_LISTBINDABLE_OFFSET UNITYSDK_OFFSET(0x1BEB98B0)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BEB9930)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEB99F0)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BEB98A0)
+#define SYSTEM_COMPONENTMODEL_LISTBINDABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB9890)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ListBindableAttribute_TypeDefinitionIndex = 2935;
+	inline static constexpr unsigned int ListBindableAttribute_TypeDefinitionIndex = 2934;
 
 	class ListBindableAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::ListBindableAttribute** StaticGet_No()
+		static ::System::ComponentModel::ListBindableAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::ListBindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(ListBindableAttribute_TypeDefinitionIndex)->GetStaticField(0x3660);
 		}
-		static ::System::ComponentModel::ListBindableAttribute** StaticGet_Default()
+		static ::System::ComponentModel::ListBindableAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::ListBindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(ListBindableAttribute_TypeDefinitionIndex)->GetStaticField(0x3668);
 		}
-		static ::System::ComponentModel::ListBindableAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::ListBindableAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::ListBindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(ListBindableAttribute_TypeDefinitionIndex)->GetStaticField(0x3670);
 		}

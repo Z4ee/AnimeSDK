@@ -1,8 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_333D68058B10D010.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_425_TypeDefinitionIndex = 49686;
+class Class_2_BCC5174FAE21E04E;
+namespace System { class Exception; }
+namespace System { class TimeoutException; }
+namespace System::Runtime::Serialization { class SerializationException; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_425_TypeDefinitionIndex = 49221;
 
 class Class_0_16E4307DCC419505_425
 {

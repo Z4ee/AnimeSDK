@@ -5,12 +5,12 @@
 namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System::Collections { class IEnumerable; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27B090)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS58_0__UPDATEALLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B27EF60)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6373F0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS58_0__UPDATEALLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D63B2D0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass58_0_TypeDefinitionIndex = 36839;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass58_0_TypeDefinitionIndex = 38449;
 
 	class SQLiteAsyncConnection___c__DisplayClass58_0 : public ::System::Object
 	{

@@ -16,41 +16,41 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_CLEANUP_OFFSET UNITYSDK_OFFSET(0xF7EC400)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_GETORTHOPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0xF7ECA60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xF7EBC60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_REBUILDMATRICES_OFFSET UNITYSDK_OFFSET(0xF7EC7B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_RESIZE_OFFSET UNITYSDK_OFFSET(0xF7EC1F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7ECC00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF7ECBF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_CLEANUP_OFFSET UNITYSDK_OFFSET(0xF795000)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_GETORTHOPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0xF795670)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xF794850)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_REBUILDMATRICES_OFFSET UNITYSDK_OFFSET(0xF7953C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM_RESIZE_OFFSET UNITYSDK_OFFSET(0xF794DE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xF795810)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_OFFSCREENPARTICLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF795800)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleManager_OffscreenParticleItem_TypeDefinitionIndex = 29766;
+	inline static constexpr unsigned int OffscreenParticleManager_OffscreenParticleItem_TypeDefinitionIndex = 26719;
 
 	class OffscreenParticleManager_OffscreenParticleItem : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_InstanceOffset()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_OffscreenParticleItem_TypeDefinitionIndex)->GetStaticField(0x7760);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_OffscreenParticleItem_TypeDefinitionIndex)->GetStaticField(0x7500);
 		}
-		::UnityEngine::RenderTexture* RT; // 0x10
-		::UnityEngine::NAPRenderPipeline0::AssetPathInSRP AssetPath; // 0x18
-		::UnityEngine::Transform* Transform; // 0x28
-		::UnityEngine::GameObject* GOInstance; // 0x30
-		::System::Collections::Generic::LinkedListNode_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* Node; // 0x38
-		::Il2CppArray<::UnityEngine::Renderer*>* Renderers; // 0x40
-		::Il2CppArray<::UnityEngine::ParticleSystem*>* ParticleSystems; // 0x48
-		::UnityEngine::Animation* Animation; // 0x50
-		::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticleItemDesc Desc; // 0x58
-		::System::String* Name; // 0x98
+		::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticleItemDesc Desc; // 0x10
+		::UnityEngine::Transform* Transform; // 0x50
+		::UnityEngine::Animation* Animation; // 0x58
+		::Il2CppArray<::UnityEngine::ParticleSystem*>* ParticleSystems; // 0x60
+		::UnityEngine::GameObject* GOInstance; // 0x68
+		::System::String* Name; // 0x70
+		::Il2CppArray<::UnityEngine::Renderer*>* Renderers; // 0x78
+		::System::Collections::Generic::LinkedListNode_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* Node; // 0x80
+		::UnityEngine::NAPRenderPipeline0::AssetPathInSRP AssetPath; // 0x88
+		::UnityEngine::RenderTexture* RT; // 0x98
 		::UnityEngine::Matrix4x4 ViewMat; // 0xA0
-		::System::Boolean IsPath; // 0xE0
-		::System::Boolean IsNew; // 0xE1
-		::System::Byte DrawSetId; // 0xE2
-		::UnityEngine::Matrix4x4 ProjMat; // 0xE4
-		::UnityEngine::Bounds ScreenBounds; // 0x124
+		::UnityEngine::Bounds ScreenBounds; // 0xE0
+		::System::Boolean IsPath; // 0xF8
+		::System::Byte DrawSetId; // 0xF9
+		::System::Boolean IsNew; // 0xFA
+		::UnityEngine::Matrix4x4 ProjMat; // 0xFC
 		::System::Int32 StartFrame; // 0x13C
 
 		::System::Void _ctor()

@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::Adapter
 {
-	inline static constexpr unsigned int ChunkList2D_1_TypeDefinitionIndex = 8899;
+	inline static constexpr unsigned int ChunkList2D_1_TypeDefinitionIndex = 8727;
 
 	template <typename T>
 	class ChunkList2D_1 : public ::System::Object

@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting { class ObjRef; }
 
 namespace System::Runtime::Remoting::Services
 {
-	inline static constexpr unsigned int ITrackingHandler_TypeDefinitionIndex = 1268;
+	inline static constexpr unsigned int ITrackingHandler_TypeDefinitionIndex = 1267;
 
 	class ITrackingHandler
 	{

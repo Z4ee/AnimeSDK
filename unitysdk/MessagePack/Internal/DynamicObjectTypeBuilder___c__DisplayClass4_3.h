@@ -7,18 +7,18 @@ namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember;
 namespace System { class Action; }
 namespace System::Reflection::Emit { class ILGenerator; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__BUILDFORMATTERTODYNAMICMETHOD_B__6_OFFSET UNITYSDK_OFFSET(0x1AFC82E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC82D0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__BUILDFORMATTERTODYNAMICMETHOD_B__6_OFFSET UNITYSDK_OFFSET(0x1D408280)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1D408270)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_3_TypeDefinitionIndex = 26717;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_3_TypeDefinitionIndex = 29284;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass4_3 : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::ILGenerator* il; // 0x10
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass4_0* CS___8__locals3; // 0x18
+		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass4_0* CS___8__locals3; // 0x10
+		::System::Reflection::Emit::ILGenerator* il; // 0x18
 
 		::System::Void _ctor()
 		{

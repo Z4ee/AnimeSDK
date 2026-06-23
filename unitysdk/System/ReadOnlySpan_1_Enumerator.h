@@ -5,7 +5,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ReadOnlySpan_1_Enumerator_TypeDefinitionIndex = 7546;
+	inline static constexpr unsigned int ReadOnlySpan_1_Enumerator_TypeDefinitionIndex = 6556;
 
 	template <typename T>
 	struct ReadOnlySpan_1_Enumerator

@@ -14,7 +14,7 @@ namespace System::IO { class TextWriter; }
 
 namespace System::CodeDom::Compiler
 {
-	inline static constexpr unsigned int ICodeGenerator_TypeDefinitionIndex = 4032;
+	inline static constexpr unsigned int ICodeGenerator_TypeDefinitionIndex = 4031;
 
 	class ICodeGenerator
 	{

@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class IAIActionConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_AI_AIACTIONCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE45190)
+#define NPCCROWD_AI_AIACTIONCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD5AB150)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionConfigAssetSO_TypeDefinitionIndex = 55542;
+	inline static constexpr unsigned int AIActionConfigAssetSO_TypeDefinitionIndex = 59621;
 
 	class AIActionConfigAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

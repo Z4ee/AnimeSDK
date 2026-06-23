@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class RadialBlurBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_RADIALBLURCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12B26F80)
-#define MOLEMOLE_TIMELINE_RADIALBLURCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12B26F70)
-#define MOLEMOLE_TIMELINE_RADIALBLURCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12B27160)
+#define MOLEMOLE_TIMELINE_RADIALBLURCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x160FBBA0)
+#define MOLEMOLE_TIMELINE_RADIALBLURCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x160FBB90)
+#define MOLEMOLE_TIMELINE_RADIALBLURCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x160FBD80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RadialBlurClip_TypeDefinitionIndex = 54612;
+	inline static constexpr unsigned int RadialBlurClip_TypeDefinitionIndex = 81596;
 
 	class RadialBlurClip : public ::UnityEngine::Playables::PlayableAsset
 	{

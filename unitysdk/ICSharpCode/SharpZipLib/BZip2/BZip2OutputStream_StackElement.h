@@ -4,7 +4,7 @@
 
 namespace ICSharpCode::SharpZipLib::BZip2
 {
-	inline static constexpr unsigned int BZip2OutputStream_StackElement_TypeDefinitionIndex = 6639;
+	inline static constexpr unsigned int BZip2OutputStream_StackElement_TypeDefinitionIndex = 6770;
 
 	struct alignas(4) BZip2OutputStream_StackElement
 	{

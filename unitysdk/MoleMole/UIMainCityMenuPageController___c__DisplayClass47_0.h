@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_877AA22B04AFB81F_1;
+class Class_1_877AA22B04AFB81F;
 namespace MoleMole { class UIMainCityMenuPageController; }
 
-#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E500)
-#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__ONOPENACTIVITYCAROUSEL_B__0_OFFSET UNITYSDK_OFFSET(0x15C4E510)
+#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C0E0F0)
+#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__ONOPENACTIVITYCAROUSEL_B__0_OFFSET UNITYSDK_OFFSET(0x16C0E100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenuPageController___c__DisplayClass47_0_TypeDefinitionIndex = 79215;
+	inline static constexpr unsigned int UIMainCityMenuPageController___c__DisplayClass47_0_TypeDefinitionIndex = 84833;
 
 	class UIMainCityMenuPageController___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
-		::Class_1_877AA22B04AFB81F_1* uiCarouselData; // 0x10
+		::Class_1_877AA22B04AFB81F* uiCarouselData; // 0x10
 		::MoleMole::UIMainCityMenuPageController* __4__this; // 0x18
 
 		::System::Void _ctor()

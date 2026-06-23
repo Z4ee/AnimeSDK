@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_A81CCC36AFBE5B92_CLASS_1_4A524C1CE6EB6939_METHOD_1_E5032B047EEB340F_OFFSET UNITYSDK_OFFSET(0x120686A0)
-#define CLASS_1_A81CCC36AFBE5B92_CLASS_1_4A524C1CE6EB6939__CTOR_OFFSET UNITYSDK_OFFSET(0x12068690)
+#define CLASS_1_A81CCC36AFBE5B92_CLASS_1_4A524C1CE6EB6939_METHOD_1_E5032B047EEB340F_OFFSET UNITYSDK_OFFSET(0x15D486A0)
+#define CLASS_1_A81CCC36AFBE5B92_CLASS_1_4A524C1CE6EB6939__CTOR_OFFSET UNITYSDK_OFFSET(0x15D48690)
 
-inline static constexpr unsigned int Class_1_A81CCC36AFBE5B92_Class_1_4A524C1CE6EB6939_TypeDefinitionIndex = 51022;
+inline static constexpr unsigned int Class_1_A81CCC36AFBE5B92_Class_1_4A524C1CE6EB6939_TypeDefinitionIndex = 51830;
 
 class Class_1_A81CCC36AFBE5B92_Class_1_4A524C1CE6EB6939 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x10
-	::System::String* Field_1_0; // 0x18
-	::Il2CppArray<::System::String*>* Field_1_2; // 0x20
+	::Il2CppArray<::System::String*>* Field_1_2; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_1; // 0x18
+	::System::String* Field_1_0; // 0x20
 	::UnityEngine::LayerMask Field_1_3; // 0x28
 
 	::System::Void _ctor()

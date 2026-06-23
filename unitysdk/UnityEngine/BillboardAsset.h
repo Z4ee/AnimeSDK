@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_BILLBOARDASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B2EBEB0)
-#define UNITYENGINE_BILLBOARDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2EBE50)
+#define UNITYENGINE_BILLBOARDASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1D6A1D40)
+#define UNITYENGINE_BILLBOARDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A1CE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BillboardAsset_TypeDefinitionIndex = 5173;
+	inline static constexpr unsigned int BillboardAsset_TypeDefinitionIndex = 5172;
 
 	class BillboardAsset : public ::UnityEngine::Object
 	{

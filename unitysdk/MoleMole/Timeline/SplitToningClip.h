@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class SplitToningBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x152BD240)
-#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x152BD230)
-#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x152BD420)
+#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15E2FB80)
+#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15E2FB70)
+#define MOLEMOLE_TIMELINE_SPLITTONINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2FD60)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SplitToningClip_TypeDefinitionIndex = 41417;
+	inline static constexpr unsigned int SplitToningClip_TypeDefinitionIndex = 82290;
 
 	class SplitToningClip : public ::UnityEngine::Playables::PlayableAsset
 	{

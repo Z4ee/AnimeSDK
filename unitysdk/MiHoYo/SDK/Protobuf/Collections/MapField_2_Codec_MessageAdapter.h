@@ -9,7 +9,7 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 26104;
+	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 28598;
 
 	template <typename TKey, typename TValue>
 	class MapField_2_Codec_MessageAdapter : public ::System::Object

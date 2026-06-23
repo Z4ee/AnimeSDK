@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNAVSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A9900)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNAVSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E10A0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNavState_TypeDefinitionIndex = 31200;
+	inline static constexpr unsigned int BrowserNavState_TypeDefinitionIndex = 32751;
 
 	class BrowserNavState : public ::System::Object
 	{

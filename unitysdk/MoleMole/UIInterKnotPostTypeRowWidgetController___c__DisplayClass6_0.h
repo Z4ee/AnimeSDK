@@ -5,18 +5,18 @@
 class Class_1_EFEAEB43E55695E2;
 namespace MoleMole { class UIInterKnotPostTypeRowWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1609C2E0)
-#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1609C2F0)
+#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18704A60)
+#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x18704A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 58640;
+	inline static constexpr unsigned int UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 66963;
 
 	class UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIInterKnotPostTypeRowWidgetController* __4__this; // 0x10
-		::Class_1_EFEAEB43E55695E2* _data; // 0x18
+		::Class_1_EFEAEB43E55695E2* _data; // 0x10
+		::MoleMole::UIInterKnotPostTypeRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

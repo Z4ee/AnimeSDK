@@ -3,20 +3,20 @@
 #include "unitysdk/MoleMole/Cameras/BangbooAdjustmentCameraOverriddenConfig.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A2977A6946016742_METHOD_1_47120572F92DD074_OFFSET UNITYSDK_OFFSET(0x13618590)
-#define CLASS_1_A2977A6946016742_METHOD_1_71E5CBDD8DC87396_OFFSET UNITYSDK_OFFSET(0x136183F0)
-#define CLASS_1_A2977A6946016742_METHOD_1_ACFCB0B57DC2E546_OFFSET UNITYSDK_OFFSET(0x136184B0)
-#define CLASS_1_A2977A6946016742__CCTOR_OFFSET UNITYSDK_OFFSET(0x136183B0)
-#define CLASS_1_A2977A6946016742__CTOR_OFFSET UNITYSDK_OFFSET(0x136183A0)
+#define CLASS_1_A2977A6946016742_METHOD_1_47120572F92DD074_OFFSET UNITYSDK_OFFSET(0x126A4200)
+#define CLASS_1_A2977A6946016742_METHOD_1_71E5CBDD8DC87396_OFFSET UNITYSDK_OFFSET(0x126A4290)
+#define CLASS_1_A2977A6946016742_METHOD_1_ACFCB0B57DC2E546_OFFSET UNITYSDK_OFFSET(0x126A4120)
+#define CLASS_1_A2977A6946016742__CCTOR_OFFSET UNITYSDK_OFFSET(0x126A40E0)
+#define CLASS_1_A2977A6946016742__CTOR_OFFSET UNITYSDK_OFFSET(0x126A40D0)
 
-inline static constexpr unsigned int Class_1_A2977A6946016742_TypeDefinitionIndex = 63539;
+inline static constexpr unsigned int Class_1_A2977A6946016742_TypeDefinitionIndex = 46746;
 
 class Class_1_A2977A6946016742 : public ::System::Object
 {
 public:
 	static ::Class_1_A2977A6946016742** StaticGet_Field_1_0()
 	{
-		return (::Class_1_A2977A6946016742**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2977A6946016742_TypeDefinitionIndex)->GetStaticField(0x33A20);
+		return (::Class_1_A2977A6946016742**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2977A6946016742_TypeDefinitionIndex)->GetStaticField(0x422C0);
 	}
 
 	::System::Void _ctor()
@@ -29,11 +29,6 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A2977A6946016742__CCTOR_OFFSET))();
 	}
 
-	::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig Method_1_71E5CBDD8DC87396(::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a1, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a2)
-	{
-		return ((::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig(*)(::PVOID, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig))((::PBYTE)hIl2Cpp + CLASS_1_A2977A6946016742_METHOD_1_71E5CBDD8DC87396_OFFSET))(this, a1, a2);
-	}
-
 	::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig Method_1_ACFCB0B57DC2E546(::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a1, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a2, ::System::Single a3)
 	{
 		return ((::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig(*)(::PVOID, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_A2977A6946016742_METHOD_1_ACFCB0B57DC2E546_OFFSET))(this, a1, a2, a3);
@@ -42,5 +37,10 @@ public:
 	::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig Method_1_47120572F92DD074(::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a1)
 	{
 		return ((::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig(*)(::PVOID, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig))((::PBYTE)hIl2Cpp + CLASS_1_A2977A6946016742_METHOD_1_47120572F92DD074_OFFSET))(this, a1);
+	}
+
+	::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig Method_1_71E5CBDD8DC87396(::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a1, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig a2)
+	{
+		return ((::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig(*)(::PVOID, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig, ::MoleMole::Cameras::BangbooAdjustmentCameraOverriddenConfig))((::PBYTE)hIl2Cpp + CLASS_1_A2977A6946016742_METHOD_1_71E5CBDD8DC87396_OFFSET))(this, a1, a2);
 	}
 };

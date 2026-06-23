@@ -3,7 +3,7 @@
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int ManagedWebSocket_MessageOpcode_TypeDefinitionIndex = 3875;
+	inline static constexpr unsigned int ManagedWebSocket_MessageOpcode_TypeDefinitionIndex = 3874;
 
 	enum class ManagedWebSocket_MessageOpcode : ::System::Byte
 	{

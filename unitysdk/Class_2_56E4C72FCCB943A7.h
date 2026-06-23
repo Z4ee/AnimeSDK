@@ -9,24 +9,24 @@ namespace MoleMole { class MonoGamepadSelectable; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_56E4C72FCCB943A7_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x13062050)
-#define CLASS_2_56E4C72FCCB943A7_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x13062230)
-#define CLASS_2_56E4C72FCCB943A7_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13062300)
-#define CLASS_2_56E4C72FCCB943A7__CTOR_OFFSET UNITYSDK_OFFSET(0x130622F0)
+#define CLASS_2_56E4C72FCCB943A7_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x101D8330)
+#define CLASS_2_56E4C72FCCB943A7_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x101D8510)
+#define CLASS_2_56E4C72FCCB943A7_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x101D85E0)
+#define CLASS_2_56E4C72FCCB943A7__CTOR_OFFSET UNITYSDK_OFFSET(0x101D85D0)
 
-inline static constexpr unsigned int Class_2_56E4C72FCCB943A7_TypeDefinitionIndex = 43712;
+inline static constexpr unsigned int Class_2_56E4C72FCCB943A7_TypeDefinitionIndex = 84594;
 
 class Class_2_56E4C72FCCB943A7 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UIControlReferenceList* Field_2_6; // 0x18
-	::UnityEngine::GameObject* Field_2_1; // 0x20
-	::UIControlReferenceList* Field_2_5; // 0x28
-	::UnityEngine::GameObject* Field_2_2; // 0x30
-	::UnityEngine::GameObject* Field_2_7; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x18
+	::UnityEngine::GameObject* Field_2_7; // 0x20
+	::UIControlReferenceList* Field_2_6; // 0x28
+	::MoleMole::MonoGamepadSelectable* Field_2_4; // 0x30
+	::UnityEngine::GameObject* Field_2_2; // 0x38
 	::UnityEngine::GameObject* Field_2_0; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
-	::MoleMole::MonoGamepadSelectable* Field_2_4; // 0x50
+	::UIControlReferenceList* Field_2_5; // 0x48
+	::UnityEngine::GameObject* Field_2_1; // 0x50
 
 	::System::Void _ctor()
 	{

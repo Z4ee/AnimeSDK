@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType_TypeDefinitionIndex = 57237;
+	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType_TypeDefinitionIndex = 57951;
 
 	enum class ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType : ::System::Int32
 	{
-		SceneLights = 1,
-		ShowLights = 0,
-		TvSceneLights = 3,
 		CharacterLights = 2,
+		TvSceneLights = 3,
+		ShowLights = 0,
+		SceneLights = 1,
 	};
 }

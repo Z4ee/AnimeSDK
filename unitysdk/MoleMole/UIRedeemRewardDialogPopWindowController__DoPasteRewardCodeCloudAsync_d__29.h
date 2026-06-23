@@ -8,12 +8,12 @@ namespace MoleMole { class UIRedeemRewardDialogPopWindowController; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__DOPASTEREWARDCODECLOUDASYNC_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79EB90)
-#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__DOPASTEREWARDCODECLOUDASYNC_D__29_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5C4D00)
+#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__DOPASTEREWARDCODECLOUDASYNC_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82EE50)
+#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__DOPASTEREWARDCODECLOUDASYNC_D__29_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6CB1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRedeemRewardDialogPopWindowController__DoPasteRewardCodeCloudAsync_d__29_TypeDefinitionIndex = 41846;
+	inline static constexpr unsigned int UIRedeemRewardDialogPopWindowController__DoPasteRewardCodeCloudAsync_d__29_TypeDefinitionIndex = 86885;
 
 	struct alignas(8) UIRedeemRewardDialogPopWindowController__DoPasteRewardCodeCloudAsync_d__29
 	{

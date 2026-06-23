@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWWATERFLOWFISHINGWIDGETCONTROLLER_HOLLOWWATERFLOWPERCENTTIPSINITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15269160)
+#define MOLEMOLE_UIHOLLOWWATERFLOWFISHINGWIDGETCONTROLLER_HOLLOWWATERFLOWPERCENTTIPSINITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16981410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowWaterFlowFishingWidgetController_HollowWaterFlowPercentTipsInitInfo_TypeDefinitionIndex = 69227;
+	inline static constexpr unsigned int UIHollowWaterFlowFishingWidgetController_HollowWaterFlowPercentTipsInitInfo_TypeDefinitionIndex = 64230;
 
 	class UIHollowWaterFlowFishingWidgetController_HollowWaterFlowPercentTipsInitInfo : public ::System::Object
 	{

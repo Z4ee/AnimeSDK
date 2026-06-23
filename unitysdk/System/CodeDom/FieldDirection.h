@@ -3,7 +3,7 @@
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int FieldDirection_TypeDefinitionIndex = 4069;
+	inline static constexpr unsigned int FieldDirection_TypeDefinitionIndex = 4068;
 
 	enum class FieldDirection : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1___c__DisplayClass5_0_TypeDefinitionIndex = 85672;
+	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1___c__DisplayClass5_0_TypeDefinitionIndex = 91246;
 
 	template <typename TValue>
 	class ThreadsafeTypeKeyHashTable_1___c__DisplayClass5_0 : public ::System::Object

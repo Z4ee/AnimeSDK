@@ -25,210 +25,210 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define NAPRENDERER_BEGINOPERATEMATERIALPROPERTYIMPL_OFFSET UNITYSDK_OFFSET(0x19F17740)
-#define NAPRENDERER_BEGINOPERATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19F169F0)
-#define NAPRENDERER_BEGINSETMATERIALPROPERTY_OFFSET UNITYSDK_OFFSET(0x19F17E00)
-#define NAPRENDERER_BEGINSETRENDERERPROPERTY_OFFSET UNITYSDK_OFFSET(0x19F17B80)
-#define NAPRENDERER_FINDNAPRENDERER_OFFSET UNITYSDK_OFFSET(0x19F20E40)
-#define NAPRENDERER_GETCOLOR_1_OFFSET UNITYSDK_OFFSET(0x19F1F550)
-#define NAPRENDERER_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x19F1F4B0)
-#define NAPRENDERER_GETFLOAT_1_OFFSET UNITYSDK_OFFSET(0x19F1E790)
-#define NAPRENDERER_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x19F1E710)
-#define NAPRENDERER_GETMATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x19F17F30)
-#define NAPRENDERER_GETMATERIAL_OFFSET UNITYSDK_OFFSET(0x19F145F0)
-#define NAPRENDERER_GETSHAREDMATERIALSCACHEDPERFRAME_OFFSET UNITYSDK_OFFSET(0x19F14380)
-#define NAPRENDERER_GETTEXTUREOFFSET_1_OFFSET UNITYSDK_OFFSET(0x19F206E0)
-#define NAPRENDERER_GETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x19F20660)
-#define NAPRENDERER_GETTEXTURESCALE_1_OFFSET UNITYSDK_OFFSET(0x19F203C0)
-#define NAPRENDERER_GETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x19F20340)
-#define NAPRENDERER_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x19F1FCC0)
-#define NAPRENDERER_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x19F1FC40)
-#define NAPRENDERER_GETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x19F1EEA0)
-#define NAPRENDERER_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x19F1EE00)
-#define NAPRENDERER_GET_DISABLECASCADESHADOW_OFFSET UNITYSDK_OFFSET(0x19F14680)
-#define NAPRENDERER_GET_DRAWPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x19F14560)
-#define NAPRENDERER_GET_ENCAPSULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x19F14580)
-#define NAPRENDERER_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19F14210)
-#define NAPRENDERER_GET_ISLOD3_OFFSET UNITYSDK_OFFSET(0x19F14350)
-#define NAPRENDERER_GET_ISSETTINGPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19F14270)
-#define NAPRENDERER_GET_ISSHADOWRENDERER_OFFSET UNITYSDK_OFFSET(0x19F14310)
-#define NAPRENDERER_GET_ISSOURCERENDERER_OFFSET UNITYSDK_OFFSET(0x19F14330)
-#define NAPRENDERER_GET_LODGROUP_OFFSET UNITYSDK_OFFSET(0x19F14290)
-#define NAPRENDERER_GET_LODINDEX_OFFSET UNITYSDK_OFFSET(0x19F142B0)
-#define NAPRENDERER_GET_LODPARTIDOFFSET_OFFSET UNITYSDK_OFFSET(0x19F142F0)
-#define NAPRENDERER_GET_LODPARTINDEX_OFFSET UNITYSDK_OFFSET(0x19F142D0)
-#define NAPRENDERER_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x19F146D0)
-#define NAPRENDERER_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x19F14250)
-#define NAPRENDERER_GET_RENDERER_OFFSET UNITYSDK_OFFSET(0x19F14230)
-#define NAPRENDERER_GET_SUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x19F14370)
-#define NAPRENDERER_GET_SUPPORTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x19F145A0)
-#define NAPRENDERER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x19F209E0)
-#define NAPRENDERER_INITMATERIALARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19F161B0)
-#define NAPRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0x19F146F0)
-#define NAPRENDERER_NOTIFYNATIVESETCOLOR_OFFSET UNITYSDK_OFFSET(0x19F18390)
-#define NAPRENDERER_NOTIFYNATIVESETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x19F18520)
-#define NAPRENDERER_NOTIFYNATIVESETFLOAT_OFFSET UNITYSDK_OFFSET(0x19F18200)
-#define NAPRENDERER_NOTIFYNATIVESETMATRIX_OFFSET UNITYSDK_OFFSET(0x19F18310)
-#define NAPRENDERER_NOTIFYNATIVESETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x19F18630)
-#define NAPRENDERER_NOTIFYNATIVESETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x19F185B0)
-#define NAPRENDERER_NOTIFYNATIVESETTEXTURE_OFFSET UNITYSDK_OFFSET(0x19F18410)
-#define NAPRENDERER_NOTIFYNATIVESETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x19F18490)
-#define NAPRENDERER_NOTIFYNATIVESETVECTOR_OFFSET UNITYSDK_OFFSET(0x19F18290)
-#define NAPRENDERER_RELEASE_OFFSET UNITYSDK_OFFSET(0x19F20A30)
-#define NAPRENDERER_REPLACEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x19F20F90)
-#define NAPRENDERER_SAFESETTEXTURE_OFFSET UNITYSDK_OFFSET(0x19F1C6B0)
-#define NAPRENDERER_SETCOLORARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x19F17300)
-#define NAPRENDERER_SETCOLOR_1_OFFSET UNITYSDK_OFFSET(0x19F1BA80)
-#define NAPRENDERER_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x19F1B380)
-#define NAPRENDERER_SETFLAG_OFFSET UNITYSDK_OFFSET(0x19F20980)
-#define NAPRENDERER_SETFLOATARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x19F17510)
-#define NAPRENDERER_SETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x19F1A0B0)
-#define NAPRENDERER_SETFLOAT_1_OFFSET UNITYSDK_OFFSET(0x19F19AA0)
-#define NAPRENDERER_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x19F19380)
-#define NAPRENDERER_SETMATRIX_1_OFFSET UNITYSDK_OFFSET(0x19F1ADE0)
-#define NAPRENDERER_SETMATRIX_OFFSET UNITYSDK_OFFSET(0x19F1A7A0)
-#define NAPRENDERER_SETTEXTUREOFFSET_1_OFFSET UNITYSDK_OFFSET(0x19F1D860)
-#define NAPRENDERER_SETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x19F1D570)
-#define NAPRENDERER_SETTEXTURESCALE_1_OFFSET UNITYSDK_OFFSET(0x19F1D280)
-#define NAPRENDERER_SETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x19F1CF00)
-#define NAPRENDERER_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x19F1C8C0)
-#define NAPRENDERER_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x19F1C070)
-#define NAPRENDERER_SETVECTORARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x19F17180)
-#define NAPRENDERER_SETVECTORARRAY_1_OFFSET UNITYSDK_OFFSET(0x19F1E110)
-#define NAPRENDERER_SETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x19F1DBE0)
-#define NAPRENDERER_SETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x19F18DA0)
-#define NAPRENDERER_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x19F186B0)
-#define NAPRENDERER_SET_DRAWPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x19F14570)
-#define NAPRENDERER_SET_ENCAPSULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x19F14590)
-#define NAPRENDERER_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19F14220)
-#define NAPRENDERER_SET_ISLOD3_OFFSET UNITYSDK_OFFSET(0x19F14360)
-#define NAPRENDERER_SET_ISSETTINGPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19F14280)
-#define NAPRENDERER_SET_ISSHADOWRENDERER_OFFSET UNITYSDK_OFFSET(0x19F14320)
-#define NAPRENDERER_SET_ISSOURCERENDERER_OFFSET UNITYSDK_OFFSET(0x19F14340)
-#define NAPRENDERER_SET_LODGROUP_OFFSET UNITYSDK_OFFSET(0x19F142A0)
-#define NAPRENDERER_SET_LODINDEX_OFFSET UNITYSDK_OFFSET(0x19F142C0)
-#define NAPRENDERER_SET_LODPARTIDOFFSET_OFFSET UNITYSDK_OFFSET(0x19F14300)
-#define NAPRENDERER_SET_LODPARTINDEX_OFFSET UNITYSDK_OFFSET(0x19F142E0)
-#define NAPRENDERER_SET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x19F14260)
-#define NAPRENDERER_SET_RENDERER_OFFSET UNITYSDK_OFFSET(0x19F14240)
-#define NAPRENDERER_SHOULDUSENATIVERENDERER_OFFSET UNITYSDK_OFFSET(0x19F17FC0)
-#define NAPRENDERER_STOPOPERATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19F16D70)
-#define NAPRENDERER_TRYGETNAPMATERIAL_OFFSET UNITYSDK_OFFSET(0x19F165A0)
-#define NAPRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F211B0)
-#define NAPRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F21130)
+#define NAPRENDERER_BEGINOPERATEMATERIALPROPERTYIMPL_OFFSET UNITYSDK_OFFSET(0x1C132F00)
+#define NAPRENDERER_BEGINOPERATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C1321B0)
+#define NAPRENDERER_BEGINSETMATERIALPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C1335C0)
+#define NAPRENDERER_BEGINSETRENDERERPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C133340)
+#define NAPRENDERER_FINDNAPRENDERER_OFFSET UNITYSDK_OFFSET(0x1C13C640)
+#define NAPRENDERER_GETCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1C13AD20)
+#define NAPRENDERER_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1C13AC80)
+#define NAPRENDERER_GETFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1C139F50)
+#define NAPRENDERER_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1C139ED0)
+#define NAPRENDERER_GETMATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1C1336F0)
+#define NAPRENDERER_GETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C12FDA0)
+#define NAPRENDERER_GETSHAREDMATERIALSCACHEDPERFRAME_OFFSET UNITYSDK_OFFSET(0x1C12FB40)
+#define NAPRENDERER_GETTEXTUREOFFSET_1_OFFSET UNITYSDK_OFFSET(0x1C13BEB0)
+#define NAPRENDERER_GETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x1C13BE30)
+#define NAPRENDERER_GETTEXTURESCALE_1_OFFSET UNITYSDK_OFFSET(0x1C13BB90)
+#define NAPRENDERER_GETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x1C13BB10)
+#define NAPRENDERER_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1C13B490)
+#define NAPRENDERER_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C13B410)
+#define NAPRENDERER_GETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1C13A660)
+#define NAPRENDERER_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x1C13A5C0)
+#define NAPRENDERER_GET_DISABLECASCADESHADOW_OFFSET UNITYSDK_OFFSET(0x1C12FE30)
+#define NAPRENDERER_GET_DRAWPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1C12FD10)
+#define NAPRENDERER_GET_ENCAPSULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C12FD30)
+#define NAPRENDERER_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C12F9D0)
+#define NAPRENDERER_GET_ISLOD3_OFFSET UNITYSDK_OFFSET(0x1C12FB10)
+#define NAPRENDERER_GET_ISSETTINGPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C12FA30)
+#define NAPRENDERER_GET_ISSHADOWRENDERER_OFFSET UNITYSDK_OFFSET(0x1C12FAD0)
+#define NAPRENDERER_GET_ISSOURCERENDERER_OFFSET UNITYSDK_OFFSET(0x1C12FAF0)
+#define NAPRENDERER_GET_LODGROUP_OFFSET UNITYSDK_OFFSET(0x1C12FA50)
+#define NAPRENDERER_GET_LODINDEX_OFFSET UNITYSDK_OFFSET(0x1C12FA70)
+#define NAPRENDERER_GET_LODPARTIDOFFSET_OFFSET UNITYSDK_OFFSET(0x1C12FAB0)
+#define NAPRENDERER_GET_LODPARTINDEX_OFFSET UNITYSDK_OFFSET(0x1C12FA90)
+#define NAPRENDERER_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1C12FE80)
+#define NAPRENDERER_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1C12FA10)
+#define NAPRENDERER_GET_RENDERER_OFFSET UNITYSDK_OFFSET(0x1C12F9F0)
+#define NAPRENDERER_GET_SUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x1C12FB30)
+#define NAPRENDERER_GET_SUPPORTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1C12FD50)
+#define NAPRENDERER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1C13C1C0)
+#define NAPRENDERER_INITMATERIALARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C131970)
+#define NAPRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0x1C12FEA0)
+#define NAPRENDERER_NOTIFYNATIVESETCOLOR_OFFSET UNITYSDK_OFFSET(0x1C133B60)
+#define NAPRENDERER_NOTIFYNATIVESETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x1C133CF0)
+#define NAPRENDERER_NOTIFYNATIVESETFLOAT_OFFSET UNITYSDK_OFFSET(0x1C1339D0)
+#define NAPRENDERER_NOTIFYNATIVESETMATRIX_OFFSET UNITYSDK_OFFSET(0x1C133AE0)
+#define NAPRENDERER_NOTIFYNATIVESETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x1C133E00)
+#define NAPRENDERER_NOTIFYNATIVESETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x1C133D80)
+#define NAPRENDERER_NOTIFYNATIVESETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C133BE0)
+#define NAPRENDERER_NOTIFYNATIVESETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1C133C60)
+#define NAPRENDERER_NOTIFYNATIVESETVECTOR_OFFSET UNITYSDK_OFFSET(0x1C133A60)
+#define NAPRENDERER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1C13C210)
+#define NAPRENDERER_REPLACEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C13C790)
+#define NAPRENDERER_SAFESETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C137E90)
+#define NAPRENDERER_SETCOLORARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x1C132AC0)
+#define NAPRENDERER_SETCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1C137260)
+#define NAPRENDERER_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1C136B60)
+#define NAPRENDERER_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1C13C150)
+#define NAPRENDERER_SETFLOATARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x1C132CD0)
+#define NAPRENDERER_SETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x1C135890)
+#define NAPRENDERER_SETFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1C135280)
+#define NAPRENDERER_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x1C134B60)
+#define NAPRENDERER_SETMATRIX_1_OFFSET UNITYSDK_OFFSET(0x1C1365C0)
+#define NAPRENDERER_SETMATRIX_OFFSET UNITYSDK_OFFSET(0x1C135F80)
+#define NAPRENDERER_SETTEXTUREOFFSET_1_OFFSET UNITYSDK_OFFSET(0x1C139030)
+#define NAPRENDERER_SETTEXTUREOFFSET_OFFSET UNITYSDK_OFFSET(0x1C138D40)
+#define NAPRENDERER_SETTEXTURESCALE_1_OFFSET UNITYSDK_OFFSET(0x1C138A50)
+#define NAPRENDERER_SETTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x1C1386E0)
+#define NAPRENDERER_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1C1380A0)
+#define NAPRENDERER_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C137850)
+#define NAPRENDERER_SETVECTORARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x1C132940)
+#define NAPRENDERER_SETVECTORARRAY_1_OFFSET UNITYSDK_OFFSET(0x1C1398D0)
+#define NAPRENDERER_SETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1C1393A0)
+#define NAPRENDERER_SETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1C134580)
+#define NAPRENDERER_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x1C133E80)
+#define NAPRENDERER_SET_DRAWPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1C12FD20)
+#define NAPRENDERER_SET_ENCAPSULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C12FD40)
+#define NAPRENDERER_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C12F9E0)
+#define NAPRENDERER_SET_ISLOD3_OFFSET UNITYSDK_OFFSET(0x1C12FB20)
+#define NAPRENDERER_SET_ISSETTINGPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C12FA40)
+#define NAPRENDERER_SET_ISSHADOWRENDERER_OFFSET UNITYSDK_OFFSET(0x1C12FAE0)
+#define NAPRENDERER_SET_ISSOURCERENDERER_OFFSET UNITYSDK_OFFSET(0x1C12FB00)
+#define NAPRENDERER_SET_LODGROUP_OFFSET UNITYSDK_OFFSET(0x1C12FA60)
+#define NAPRENDERER_SET_LODINDEX_OFFSET UNITYSDK_OFFSET(0x1C12FA80)
+#define NAPRENDERER_SET_LODPARTIDOFFSET_OFFSET UNITYSDK_OFFSET(0x1C12FAC0)
+#define NAPRENDERER_SET_LODPARTINDEX_OFFSET UNITYSDK_OFFSET(0x1C12FAA0)
+#define NAPRENDERER_SET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1C12FA20)
+#define NAPRENDERER_SET_RENDERER_OFFSET UNITYSDK_OFFSET(0x1C12FA00)
+#define NAPRENDERER_SHOULDUSENATIVERENDERER_OFFSET UNITYSDK_OFFSET(0x1C133790)
+#define NAPRENDERER_STOPOPERATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C132530)
+#define NAPRENDERER_TRYGETNAPMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C131D60)
+#define NAPRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C13C9B0)
+#define NAPRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13C930)
 
-inline static constexpr unsigned int NapRenderer_TypeDefinitionIndex = 29590;
+inline static constexpr unsigned int NapRenderer_TypeDefinitionIndex = 26663;
 
 class NapRenderer : public ::System::Object
 {
 public:
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTextureOffset()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24990);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MPBSetProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24998);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_StopOperateProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249A0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetFloatArray()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249A8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetMatrix()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249B0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitMaterialArrayProperties()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249B8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MaterialGetProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249C0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateFlags()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249C8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249D0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::NapRenderer*>** StaticGet_napRendererMap()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::NapRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249D8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetFloat()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249E0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetVectorArray()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249E8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BeginOperateProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249F0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RendererSetPropertyBlock()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x249F8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetColor()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A00);
-	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RendererGetPropertyBlock()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A08);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetVector()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A10);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTexture()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A18);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTextureScale()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A20);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MaterialSetProperty()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A28);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22240);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitLodPartIndex()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x24A30);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22248);
 	}
-	::NapRenderEntity* entity; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* sharedMaterialsPerFrame; // 0x18
-	::CachedSubMeshCount subMeshCountCache; // 0x20
-	::UnityEngine::Renderer* _Renderer_k__BackingField; // 0x48
-	::UnityEngine::GameObject* _GameObject_k__BackingField; // 0x50
-	::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* mpbs; // 0x58
-	::System::Collections::Generic::List_1<::NapMaterial*>* napMaterials; // 0x60
-	::UnityEngine::LODGroup* _LodGroup_k__BackingField; // 0x68
-	::System::Int32 _LODPartIndex_k__BackingField; // 0x70
-	::NapRendererFlags flags; // 0x74
-	::System::Boolean _DrawPerObjectShadow_k__BackingField; // 0x78
-	::System::Boolean _EncapsulateBounds_k__BackingField; // 0x79
-	::NapRenderer_PropertyMode propertyMode; // 0x7C
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22250);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetMatrix()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22258);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RendererSetPropertyBlock()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22260);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTextureScale()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22268);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetVectorArray()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22270);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetVector()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22278);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MaterialGetProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22280);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetFloat()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22288);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::NapRenderer*>** StaticGet_napRendererMap()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::NapRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22290);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_StopOperateProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x22298);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateFlags()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222A0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTextureOffset()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222A8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetFloatArray()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222B0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BeginOperateProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222B8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitMaterialArrayProperties()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222C0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MPBSetProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222C8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MaterialSetProperty()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222D0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetTexture()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222D8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetColor()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderer_TypeDefinitionIndex)->GetStaticField(0x222E0);
+	}
+	::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* mpbs; // 0x10
+	::UnityEngine::LODGroup* _LodGroup_k__BackingField; // 0x18
+	::UnityEngine::GameObject* _GameObject_k__BackingField; // 0x20
+	::System::Collections::Generic::List_1<::NapMaterial*>* napMaterials; // 0x28
+	::UnityEngine::Renderer* _Renderer_k__BackingField; // 0x30
+	::NapRenderEntity* entity; // 0x38
+	::CachedSubMeshCount subMeshCountCache; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* sharedMaterialsPerFrame; // 0x68
+	::System::Int32 sharedMaterialsCachedFrameIndex; // 0x70
+	::System::Int32 _LodIndex_k__BackingField; // 0x74
+	::System::Int32 indexOfBatchAliveQuery; // 0x78
+	::System::Int32 indexOfBatchVisibilityQuery; // 0x7C
 	::System::IntPtr _NativeHandle_k__BackingField; // 0x80
-	::System::Boolean _IsSourceRenderer_k__BackingField; // 0x88
-	::System::Boolean _IsLod3_k__BackingField; // 0x89
-	::System::Boolean _IsSettingProperties_k__BackingField; // 0x8A
+	::System::Boolean _IsSettingProperties_k__BackingField; // 0x88
+	::System::Boolean _IsSourceRenderer_k__BackingField; // 0x89
+	::System::Boolean _EncapsulateBounds_k__BackingField; // 0x8A
 	::System::Boolean _IsShadowRenderer_k__BackingField; // 0x8B
-	::System::Int32 _LODPartIdOffset_k__BackingField; // 0x8C
-	::System::Int32 indexOfBatchAliveQuery; // 0x90
-	::System::Int32 _LodIndex_k__BackingField; // 0x94
-	::System::Int32 sharedMaterialsCachedFrameIndex; // 0x98
-	::System::Int32 indexOfBatchVisibilityQuery; // 0x9C
+	::NapRenderer_PropertyMode propertyMode; // 0x8C
+	::System::Int32 _LODPartIndex_k__BackingField; // 0x90
+	::System::Boolean _IsLod3_k__BackingField; // 0x94
+	::System::Boolean _DrawPerObjectShadow_k__BackingField; // 0x95
+	::System::Int32 _LODPartIdOffset_k__BackingField; // 0x98
+	::NapRendererFlags flags; // 0x9C
 
 	::System::Void _ctor()
 	{

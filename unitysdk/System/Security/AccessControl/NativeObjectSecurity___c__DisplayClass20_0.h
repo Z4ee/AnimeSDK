@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Security::AccessControl { class NativeObjectSecurity; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8420)
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1A6C8430)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DC710)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1C9DC720)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass20_0_TypeDefinitionIndex = 993;
+	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass20_0_TypeDefinitionIndex = 992;
 
 	class NativeObjectSecurity___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::Security::AccessControl::NativeObjectSecurity* __4__this; // 0x18
+		::System::Security::AccessControl::NativeObjectSecurity* __4__this; // 0x10
+		::System::String* name; // 0x18
 
 		::System::Void _ctor()
 		{

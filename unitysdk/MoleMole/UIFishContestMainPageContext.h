@@ -5,17 +5,17 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14EA4330)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15270EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestMainPageContext_TypeDefinitionIndex = 51095;
+	inline static constexpr unsigned int UIFishContestMainPageContext_TypeDefinitionIndex = 75589;
 
 	class UIFishContestMainPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::Boolean>* OnClose; // 0x28
-		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x30
+		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x28
+		::System::Action_1<::System::Boolean>* OnClose; // 0x30
 
 		::System::Void _ctor()
 		{

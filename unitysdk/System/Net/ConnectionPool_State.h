@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ConnectionPool_State_TypeDefinitionIndex = 3410;
+	inline static constexpr unsigned int ConnectionPool_State_TypeDefinitionIndex = 3409;
 
 	enum class ConnectionPool_State : ::System::Int32
 	{

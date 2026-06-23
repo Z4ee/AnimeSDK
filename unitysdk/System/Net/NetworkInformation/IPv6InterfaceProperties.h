@@ -3,12 +3,12 @@
 #include "unitysdk/System/Net/NetworkInformation/ScopeLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPV6INTERFACEPROPERTIES_GETSCOPEID_OFFSET UNITYSDK_OFFSET(0x19AFAA90)
-#define SYSTEM_NET_NETWORKINFORMATION_IPV6INTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19AFAAE0)
+#define SYSTEM_NET_NETWORKINFORMATION_IPV6INTERFACEPROPERTIES_GETSCOPEID_OFFSET UNITYSDK_OFFSET(0x1C027F40)
+#define SYSTEM_NET_NETWORKINFORMATION_IPV6INTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C027F90)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPv6InterfaceProperties_TypeDefinitionIndex = 3719;
+	inline static constexpr unsigned int IPv6InterfaceProperties_TypeDefinitionIndex = 3718;
 
 	class IPv6InterfaceProperties : public ::System::Object
 	{

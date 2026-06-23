@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_5DA2E7556103D5A3_336;
+class Class_1_5DA2E7556103D5A3_399;
 namespace MoleMole { class UIHadalZone_LayerItemRowV2WidgetController; }
 
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157B4090)
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS24_0___UPDATESTATELAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x157B40A0)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169D7B80)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS24_0___UPDATESTATELAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x169D7B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 54488;
+	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 68197;
 
 	class UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHadalZone_LayerItemRowV2WidgetController* __4__this; // 0x10
-		::Class_1_5DA2E7556103D5A3_336* infoTemplate; // 0x18
+		::Class_1_5DA2E7556103D5A3_399* infoTemplate; // 0x10
+		::MoleMole::UIHadalZone_LayerItemRowV2WidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

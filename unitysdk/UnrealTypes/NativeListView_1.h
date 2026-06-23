@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeListView_1_TypeDefinitionIndex = 25198;
+	inline static constexpr unsigned int NativeListView_1_TypeDefinitionIndex = 27688;
 
 	template <typename T>
 	struct NativeListView_1

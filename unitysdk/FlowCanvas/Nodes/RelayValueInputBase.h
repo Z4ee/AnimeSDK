@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define FLOWCANVAS_NODES_RELAYVALUEINPUTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8471F0)
+#define FLOWCANVAS_NODES_RELAYVALUEINPUTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC35D20)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RelayValueInputBase_TypeDefinitionIndex = 26490;
+	inline static constexpr unsigned int RelayValueInputBase_TypeDefinitionIndex = 29503;
 
 	class RelayValueInputBase : public ::FlowCanvas::FlowNode
 	{

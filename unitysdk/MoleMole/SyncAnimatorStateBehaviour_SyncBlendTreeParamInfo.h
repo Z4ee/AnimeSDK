@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo_TypeDefinitionIndex = 43367;
+	inline static constexpr unsigned int SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo_TypeDefinitionIndex = 69165;
 
 	struct alignas(8) SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo
 	{

@@ -13,25 +13,25 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ATTACHSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x18BA5A80)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x18BA3F50)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_DISPOSESERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x18BA6040)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ONLIFETIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0x18BA5FF0)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_STARTTRACKINGLIFETIME_OFFSET UNITYSDK_OFFSET(0x18BA3D90)
-#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA5FE0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ATTACHSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1ADC7E20)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1ADC62F0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_DISPOSESERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1ADC83E0)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_ONLIFETIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0x1ADC8390)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY_STARTTRACKINGLIFETIME_OFFSET UNITYSDK_OFFSET(0x1ADC6130)
+#define SYSTEM_RUNTIME_REMOTING_SERVERIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC8380)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ServerIdentity_TypeDefinitionIndex = 1256;
+	inline static constexpr unsigned int ServerIdentity_TypeDefinitionIndex = 1255;
 
 	class ServerIdentity : public ::System::Runtime::Remoting::Identity
 	{
 	public:
-		::System::MarshalByRefObject* _serverObject; // 0x48
-		::System::Runtime::Remoting::Contexts::Context* _context; // 0x50
-		::System::Runtime::Remoting::Lifetime::Lease* _lease; // 0x58
+		::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink; // 0x48
+		::System::MarshalByRefObject* _serverObject; // 0x50
+		::System::Runtime::Remoting::Contexts::Context* _context; // 0x58
 		::System::Type* _objectType; // 0x60
-		::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink; // 0x68
+		::System::Runtime::Remoting::Lifetime::Lease* _lease; // 0x68
 
 		::System::Void _ctor(::System::String* objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType)
 		{

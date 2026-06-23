@@ -10,7 +10,7 @@ namespace UnityEngine { class Transform; }
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int IDialogueActor_TypeDefinitionIndex = 27711;
+	inline static constexpr unsigned int IDialogueActor_TypeDefinitionIndex = 30008;
 
 	class IDialogueActor
 	{

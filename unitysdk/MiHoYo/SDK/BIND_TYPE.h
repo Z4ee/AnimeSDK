@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BIND_TYPE_TypeDefinitionIndex = 18962;
+	inline static constexpr unsigned int BIND_TYPE_TypeDefinitionIndex = 19858;
 
 	enum class BIND_TYPE : ::System::Int32
 	{

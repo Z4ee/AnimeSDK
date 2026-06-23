@@ -3,20 +3,20 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmClickPageController_EffectType_TypeDefinitionIndex = 46825;
+	inline static constexpr unsigned int UIActivityRhythmClickPageController_EffectType_TypeDefinitionIndex = 81294;
 
 	enum class UIActivityRhythmClickPageController_EffectType : ::System::Int32
 	{
-		None = 0,
-		SpeedUp = 8,
-		ScreenDifficulty = 4,
-		Radio = 2,
+		Bangboo = 6,
 		DarkForce = 10,
 		AboutCharacter = 1,
-		ReachRank = 9,
-		ScreenResult = 3,
-		Bangboo = 6,
-		Fever = 5,
+		Radio = 2,
+		SpeedUp = 8,
 		Flash = 7,
+		ScreenResult = 3,
+		Fever = 5,
+		None = 0,
+		ScreenDifficulty = 4,
+		ReachRank = 9,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdParser_ScanningFunction_TypeDefinitionIndex = 1803;
+	inline static constexpr unsigned int DtdParser_ScanningFunction_TypeDefinitionIndex = 1802;
 
 	enum class DtdParser_ScanningFunction : ::System::Int32
 	{

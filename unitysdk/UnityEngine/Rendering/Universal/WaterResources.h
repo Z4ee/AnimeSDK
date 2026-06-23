@@ -6,11 +6,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1CFA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E910)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterResources_TypeDefinitionIndex = 29942;
+	inline static constexpr unsigned int WaterResources_TypeDefinitionIndex = 27280;
 
 	class WaterResources : public ::UnityEngine::ScriptableObject
 	{

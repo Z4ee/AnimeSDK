@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_TargetArrowUIItem_State_TypeDefinitionIndex = 82608;
+	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_TargetArrowUIItem_State_TypeDefinitionIndex = 78531;
 
 	enum class UIMainCityCameraControlChildWindowController_TargetArrowUIItem_State : ::System::Int32
 	{
-		FadeIn = 0,
 		FadeOut = 2,
+		FadeIn = 0,
 		Loop = 1,
 	};
 }

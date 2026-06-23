@@ -5,18 +5,18 @@
 namespace MoleMole { class UIYorozuyaSphereItemWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF3AC280)
-#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYIDLEANI_B__0_OFFSET UNITYSDK_OFFSET(0xF3AC290)
+#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10427AB0)
+#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYIDLEANI_B__0_OFFSET UNITYSDK_OFFSET(0x10427AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 77343;
+	inline static constexpr unsigned int UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 62731;
 
 	class UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIYorozuyaSphereItemWidgetController* __4__this; // 0x10
-		::System::String* idle; // 0x18
+		::System::String* idle; // 0x10
+		::MoleMole::UIYorozuyaSphereItemWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

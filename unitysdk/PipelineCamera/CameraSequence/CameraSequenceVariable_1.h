@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceVariable_1_TypeDefinitionIndex = 36328;
+	inline static constexpr unsigned int CameraSequenceVariable_1_TypeDefinitionIndex = 37936;
 
 	template <typename T>
 	class CameraSequenceVariable_1 : public ::System::MulticastDelegate

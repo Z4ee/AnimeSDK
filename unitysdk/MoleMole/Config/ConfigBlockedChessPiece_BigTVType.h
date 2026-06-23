@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBlockedChessPiece_BigTVType_TypeDefinitionIndex = 40529;
+	inline static constexpr unsigned int ConfigBlockedChessPiece_BigTVType_TypeDefinitionIndex = 43856;
 
 	enum class ConfigBlockedChessPiece_BigTVType : ::System::Int32
 	{
-		Video = 1,
 		TextureSheet = 2,
 		None = 0,
+		Video = 1,
 	};
 }

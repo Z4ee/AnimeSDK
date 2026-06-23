@@ -10,40 +10,40 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTFLICKFREQUENCY_OFFSET UNITYSDK_OFFSET(0x186B99F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTUREOVERLAYSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x186B9950)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTUREOVERLAY_OFFSET UNITYSDK_OFFSET(0x186B98E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTURESCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x186B9650)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTURE_OFFSET UNITYSDK_OFFSET(0x186B94F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETENABLE_OFFSET UNITYSDK_OFFSET(0x186B9560)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x186B95D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GET_DIRTTEXTUREOVERLAY_OFFSET UNITYSDK_OFFSET(0x186B96F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GET_DIRTTEXTURE_OFFSET UNITYSDK_OFFSET(0x186B9300)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x186B9A70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTFLICKFREQUENCY_OFFSET UNITYSDK_OFFSET(0x18AD35E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTUREOVERLAYSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x18AD3540)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTUREOVERLAY_OFFSET UNITYSDK_OFFSET(0x18AD34D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTURESCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x106D7770)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETDIRTTEXTURE_OFFSET UNITYSDK_OFFSET(0x106D7610)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETENABLE_OFFSET UNITYSDK_OFFSET(0x106D7680)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x106D76F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GET_DIRTTEXTUREOVERLAY_OFFSET UNITYSDK_OFFSET(0x106D7810)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT_GET_DIRTTEXTURE_OFFSET UNITYSDK_OFFSET(0x106D7420)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLENSDIRTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD3660)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityLensDirtEffect_TypeDefinitionIndex = 63086;
+	inline static constexpr unsigned int ConfigEntityLensDirtEffect_TypeDefinitionIndex = 71548;
 
 	class ConfigEntityLensDirtEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::System::String* dirtTextureOverlayPath; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* dirtFlickFrequency; // 0x48
-		::UnityEngine::Texture2D* _dirtTextureOverlay; // 0x50
-		::MoleMole::Config::ScreenEffectVector4* dirtTextureOverlayScaleOffset; // 0x58
-		::System::String* dirtTexturePath; // 0x60
-		::MoleMole::Config::ScreenEffectVector4* dirtTextureScaleOffset; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x70
-		::UnityEngine::Texture2D* _dirtTexture; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* dirtFlickFrequency; // 0x40
+		::UnityEngine::Texture2D* _dirtTextureOverlay; // 0x48
+		::MoleMole::Config::ScreenEffectVector4* dirtTextureOverlayScaleOffset; // 0x50
+		::System::String* dirtTextureOverlayPath; // 0x58
+		::UnityEngine::Texture2D* _dirtTexture; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x68
+		::System::String* dirtTexturePath; // 0x70
+		::MoleMole::Config::ScreenEffectVector4* dirtTextureScaleOffset; // 0x78
 		::MoleMole::Config::ScreenEffectFieldHandleType dirtFlickFrequencyHandleType; // 0x80
-		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureOverlayScaleOffsetHandleType; // 0x84
-		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureHandleType; // 0x88
-		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureScaleOffsetHandleType; // 0x8C
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x90
-		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureOverlayHandleType; // 0x94
-		::MoleMole::Config::ScreenEffectFieldHandleType enableHandleType; // 0x98
-		::System::Boolean enable; // 0x9C
+		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureScaleOffsetHandleType; // 0x84
+		::System::Boolean enable; // 0x88
+		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureOverlayScaleOffsetHandleType; // 0x8C
+		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureOverlayHandleType; // 0x90
+		::MoleMole::Config::ScreenEffectFieldHandleType enableHandleType; // 0x94
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x98
+		::MoleMole::Config::ScreenEffectFieldHandleType dirtTextureHandleType; // 0x9C
 
 		::System::Void _ctor()
 		{

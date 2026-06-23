@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODEGRAPH_GRAPHTASK_GET_GRAPH_OFFSET UNITYSDK_OFFSET(0xFB5DCB0)
-#define NODEGRAPH_GRAPHTASK_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xFB5DD10)
-#define NODEGRAPH_GRAPHTASK_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0xFB5DB30)
-#define NODEGRAPH_GRAPHTASK_ONSTART_OFFSET UNITYSDK_OFFSET(0xFB5DCD0)
-#define NODEGRAPH_GRAPHTASK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xFB5DD50)
-#define NODEGRAPH_GRAPHTASK_SETPARAM_OFFSET UNITYSDK_OFFSET(0xFB5DB80)
-#define NODEGRAPH_GRAPHTASK_SET_GRAPH_OFFSET UNITYSDK_OFFSET(0xFB5DCC0)
-#define NODEGRAPH_GRAPHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5DD90)
+#define NODEGRAPH_GRAPHTASK_GET_GRAPH_OFFSET UNITYSDK_OFFSET(0xEBE1FE0)
+#define NODEGRAPH_GRAPHTASK_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xEBE2040)
+#define NODEGRAPH_GRAPHTASK_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0xEBE1E60)
+#define NODEGRAPH_GRAPHTASK_ONSTART_OFFSET UNITYSDK_OFFSET(0xEBE2000)
+#define NODEGRAPH_GRAPHTASK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xEBE2080)
+#define NODEGRAPH_GRAPHTASK_SETPARAM_OFFSET UNITYSDK_OFFSET(0xEBE1EB0)
+#define NODEGRAPH_GRAPHTASK_SET_GRAPH_OFFSET UNITYSDK_OFFSET(0xEBE1FF0)
+#define NODEGRAPH_GRAPHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xEBE20C0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphTask_TypeDefinitionIndex = 59108;
+	inline static constexpr unsigned int GraphTask_TypeDefinitionIndex = 54918;
 
 	class GraphTask : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::SimpleJSON::JSONNode*>*>* _paramRegister; // 0x10
-		::NodeGraph::NodeGraphBase* _Graph_k__BackingField; // 0x18
+		::NodeGraph::NodeGraphBase* _Graph_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::SimpleJSON::JSONNode*>*>* _paramRegister; // 0x18
 
 		::System::Void _ctor()
 		{

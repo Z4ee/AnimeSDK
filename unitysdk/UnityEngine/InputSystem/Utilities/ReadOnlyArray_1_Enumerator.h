@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ReadOnlyArray_1_Enumerator_TypeDefinitionIndex = 29423;
+	inline static constexpr unsigned int ReadOnlyArray_1_Enumerator_TypeDefinitionIndex = 32079;
 
 	template <typename TValue>
 	struct ReadOnlyArray_1_Enumerator

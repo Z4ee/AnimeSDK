@@ -7,11 +7,11 @@
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define STRUCT_2_D9F43A238F81E067_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x79F2A0)
-#define STRUCT_2_D9F43A238F81E067_EQUALS_OFFSET UNITYSDK_OFFSET(0x79F1A0)
-#define STRUCT_2_D9F43A238F81E067_METHOD_2_5E3E9C73AC450301_OFFSET UNITYSDK_OFFSET(0x79F2E0)
+#define STRUCT_2_D9F43A238F81E067_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x7965D0)
+#define STRUCT_2_D9F43A238F81E067_EQUALS_OFFSET UNITYSDK_OFFSET(0x7964D0)
+#define STRUCT_2_D9F43A238F81E067_METHOD_2_5E3E9C73AC450301_OFFSET UNITYSDK_OFFSET(0x796610)
 
-inline static constexpr unsigned int Struct_2_D9F43A238F81E067_TypeDefinitionIndex = 49262;
+inline static constexpr unsigned int Struct_2_D9F43A238F81E067_TypeDefinitionIndex = 79841;
 
 struct alignas(8) Struct_2_D9F43A238F81E067
 {
@@ -37,6 +37,7 @@ struct alignas(8) Struct_2_D9F43A238F81E067
 	::System::Single Field_2_19; // 0xC0
 	::System::Single Field_2_20; // 0xC4
 	::System::Boolean Field_2_21; // 0xC8
+	::System::Boolean Field_2_22; // 0xC9
 
 	::System::Boolean Equals(::System::Object* a1)
 	{

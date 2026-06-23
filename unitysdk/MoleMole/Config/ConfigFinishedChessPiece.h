@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_NOISETEXTURE_OFFSET UNITYSDK_OFFSET(0x141F0AF0)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_SCREENMAPTEXTURE_OFFSET UNITYSDK_OFFSET(0x141F0900)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_ISMAPTEXTUREVALID_OFFSET UNITYSDK_OFFSET(0x141F0CE0)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x141F0E40)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_NOISETEXTURE_OFFSET UNITYSDK_OFFSET(0x1A345100)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_SCREENMAPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A344F10)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_ISMAPTEXTUREVALID_OFFSET UNITYSDK_OFFSET(0x1A3452F0)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A345450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFinishedChessPiece_TypeDefinitionIndex = 67941;
+	inline static constexpr unsigned int ConfigFinishedChessPiece_TypeDefinitionIndex = 46158;
 
 	class ConfigFinishedChessPiece : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* overlayEffect; // 0x10
-		::System::String* textureSheetConfigKey; // 0x18
-		::UnityEngine::Texture2D* _noiseTexture; // 0x20
-		::System::String* screenMapTexturePath; // 0x28
-		::System::Collections::Generic::List_1<::System::String*>* overlayEffectPathes; // 0x30
-		::System::String* noiseTexturePath; // 0x38
-		::UnityEngine::Texture2D* _screenMapTexture; // 0x40
-		::System::Boolean isTextureSheet; // 0x48
-		::System::Boolean noiseTrigger; // 0x49
-		::UnityEngine::Color screenMapColor; // 0x4C
-		::UnityEngine::Color noiseColor; // 0x5C
+		::System::Collections::Generic::List_1<::System::String*>* overlayEffectPathes; // 0x10
+		::UnityEngine::Texture2D* _noiseTexture; // 0x18
+		::System::String* screenMapTexturePath; // 0x20
+		::System::String* textureSheetConfigKey; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* overlayEffect; // 0x30
+		::UnityEngine::Texture2D* _screenMapTexture; // 0x38
+		::System::String* noiseTexturePath; // 0x40
+		::UnityEngine::Color screenMapColor; // 0x48
+		::UnityEngine::Color noiseColor; // 0x58
+		::System::Boolean noiseTrigger; // 0x68
+		::System::Boolean isTextureSheet; // 0x69
 
 		::System::Void _ctor()
 		{

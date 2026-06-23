@@ -3,20 +3,22 @@
 #include "unitysdk/System/Object.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityMovementStyleSpeedParameters; }
+namespace NPCCrowd::Ability { class NPCStateMachineRandomIntInitConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTMOVESTYLEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x11501190)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTMOVESTYLEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xE012600)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMovementMoveStyleParameters_TypeDefinitionIndex = 79729;
+	inline static constexpr unsigned int NPCAbilityMovementMoveStyleParameters_TypeDefinitionIndex = 77718;
 
 	class NPCAbilityMovementMoveStyleParameters : public ::System::Object
 	{
 	public:
 		::System::String* movementStyle; // 0x10
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityMovementStyleSpeedParameters*>* DesiredSpeeds; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCStateMachineRandomIntInitConfig*>* StateMachineRandomIntInitConfigs; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityMovementStyleSpeedParameters*>* DesiredSpeeds; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -3,15 +3,15 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_DebugClipmapCSKernel_TypeDefinitionIndex = 30473;
+	inline static constexpr unsigned int LyraBakedDataManager_DebugClipmapCSKernel_TypeDefinitionIndex = 27321;
 
 	enum class LyraBakedDataManager_DebugClipmapCSKernel : ::System::Int32
 	{
-		kInitSceneVoxelVisualizationBuffer = 0,
-		kUnpackSectorSceneVoxelForDebug = 1,
 		kFullCompressSceneVoxelClipmap = 2,
-		kDiffSceneVoxelClipmap = 3,
 		kClearVoxelVisualizationIndirectDrawBuffer = 9,
 		kMinKernelCount = 10,
+		kUnpackSectorSceneVoxelForDebug = 1,
+		kDiffSceneVoxelClipmap = 3,
+		kInitSceneVoxelVisualizationBuffer = 0,
 	};
 }

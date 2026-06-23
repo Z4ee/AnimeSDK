@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_GuestBindElements_TypeDefinitionIndex = 19786;
+	inline static constexpr unsigned int PluginUIConstants_GuestBindElements_TypeDefinitionIndex = 20949;
 
 	class PluginUIConstants_GuestBindElements : public ::System::Object
 	{

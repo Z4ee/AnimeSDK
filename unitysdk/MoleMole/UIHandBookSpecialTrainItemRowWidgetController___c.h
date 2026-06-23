@@ -9,44 +9,44 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A321E0)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A32220)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHAVATARLEVELUP_B__8_0_OFFSET UNITYSDK_OFFSET(0x15A32230)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHEQUIPLEVELUP_B__19_0_OFFSET UNITYSDK_OFFSET(0x15A322D0)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x15A32320)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__25_1_OFFSET UNITYSDK_OFFSET(0x15A32340)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHWEAPONLEVELUP_B__10_0_OFFSET UNITYSDK_OFFSET(0x15A32280)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167BBBC0)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167BBC00)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHAVATARLEVELUP_B__8_0_OFFSET UNITYSDK_OFFSET(0x167BBC10)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHEQUIPLEVELUP_B__19_0_OFFSET UNITYSDK_OFFSET(0x167BBCB0)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x167BBD00)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__25_1_OFFSET UNITYSDK_OFFSET(0x167BBD20)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__REFRESHWEAPONLEVELUP_B__10_0_OFFSET UNITYSDK_OFFSET(0x167BBC60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex = 53994;
+	inline static constexpr unsigned int UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex = 53064;
 
 	class UIHandBookSpecialTrainItemRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__10_0()
-		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE40);
-		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE48);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__25_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE50);
-		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__19_0()
-		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE58);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__25_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE60);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41450);
+		}
+		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__10_0()
+		{
+			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41458);
 		}
 		static ::MoleMole::UIHandBookSpecialTrainItemRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookSpecialTrainItemRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE68);
+			return (::MoleMole::UIHandBookSpecialTrainItemRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41460);
+		}
+		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__19_0()
+		{
+			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41468);
+		}
+		static ::System::Comparison_1<::Class_2_208CC9941471731A_131*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::Class_2_208CC9941471731A_131*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41470);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__25_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSpecialTrainItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41478);
 		}
 
 		static ::System::Void _cctor()

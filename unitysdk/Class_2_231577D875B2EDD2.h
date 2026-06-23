@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_231577D875B2EDD2_Class_2_C843BD4406843552;
+class Class_2_231577D875B2EDD2_Class_2_C843BD4406843552_1;
 class Class_2_A9A857AD270B9CE1;
 class MonoUITableScrollGroup;
 class MonoUITableScrollV2;
@@ -10,21 +10,21 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI::Extension { class UIToggleButton; }
 template <typename T> class Class_2_0D31A1661D004892;
 
-#define CLASS_2_231577D875B2EDD2_METHOD_2_47574FC129FD3CC7_OFFSET UNITYSDK_OFFSET(0x15B080D0)
-#define CLASS_2_231577D875B2EDD2_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x15B08270)
-#define CLASS_2_231577D875B2EDD2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15B08340)
-#define CLASS_2_231577D875B2EDD2__CTOR_OFFSET UNITYSDK_OFFSET(0x15B08330)
+#define CLASS_2_231577D875B2EDD2_METHOD_2_47574FC129FD3CC7_OFFSET UNITYSDK_OFFSET(0xFFE4EB0)
+#define CLASS_2_231577D875B2EDD2_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xFFE5050)
+#define CLASS_2_231577D875B2EDD2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFFE5120)
+#define CLASS_2_231577D875B2EDD2__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE5110)
 
-inline static constexpr unsigned int Class_2_231577D875B2EDD2_TypeDefinitionIndex = 69562;
+inline static constexpr unsigned int Class_2_231577D875B2EDD2_TypeDefinitionIndex = 75401;
 
 class Class_2_231577D875B2EDD2 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_0D31A1661D004892<::Class_2_231577D875B2EDD2_Class_2_C843BD4406843552*>* Field_2_4; // 0x18
-	::UnityEngine::UI::Extension::UIToggleButton* Field_2_0; // 0x20
-	::MonoUITableScrollGroup* Field_2_3; // 0x28
-	::MonoUITableScrollV2* Field_2_2; // 0x30
-	::UnityEngine::UI::Extension::UIToggleButton* Field_2_1; // 0x38
+	::MonoUITableScrollV2* Field_2_2; // 0x18
+	::MonoUITableScrollGroup* Field_2_3; // 0x20
+	::UnityEngine::UI::Extension::UIToggleButton* Field_2_1; // 0x28
+	::UnityEngine::UI::Extension::UIToggleButton* Field_2_0; // 0x30
+	::Class_2_0D31A1661D004892<::Class_2_231577D875B2EDD2_Class_2_C843BD4406843552_1*>* Field_2_4; // 0x38
 
 	::System::Void _ctor()
 	{

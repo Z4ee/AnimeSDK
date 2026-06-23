@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1175BBF0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1582C950)
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int PlayerSheetConfigData_TypeDefinitionIndex = 49914;
+	inline static constexpr unsigned int PlayerSheetConfigData_TypeDefinitionIndex = 82278;
 
 	class PlayerSheetConfigData : public ::System::Object
 	{

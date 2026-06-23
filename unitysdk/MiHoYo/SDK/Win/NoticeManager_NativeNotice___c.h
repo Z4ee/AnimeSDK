@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A198600)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A198640)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__TRYONSETSERVERID_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A198650)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAA7110)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA7150)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__TRYONSETSERVERID_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BAA7160)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager_NativeNotice___c_TypeDefinitionIndex = 19978;
+	inline static constexpr unsigned int NoticeManager_NativeNotice___c_TypeDefinitionIndex = 21144;
 
 	class NoticeManager_NativeNotice___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__9_0()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0xA460);
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0xA780);
 		}
 		static ::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0xA468);
+			return (::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0xA788);
 		}
 
 		static ::System::Void _cctor()

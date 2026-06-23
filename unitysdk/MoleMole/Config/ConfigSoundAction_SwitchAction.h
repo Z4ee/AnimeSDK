@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionIntending.h"
 
-class Class_0_16E4307DCC419505_147;
+class Class_0_16E4307DCC419505_197;
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_BEGINSCOPE_OFFSET UNITYSDK_OFFSET(0x1753B550)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_ENDSCOPE_OFFSET UNITYSDK_OFFSET(0x1753B820)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1753BD70)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1753C190)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_SETSCOPEVALUE_OFFSET UNITYSDK_OFFSET(0x1753BB00)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1753C3B0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1753C3F0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_BEGINSCOPE_OFFSET UNITYSDK_OFFSET(0x144E5930)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_ENDSCOPE_OFFSET UNITYSDK_OFFSET(0x144E5C00)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x144E6150)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x144E6560)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_SETSCOPEVALUE_OFFSET UNITYSDK_OFFSET(0x144E5EE0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x144E6780)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x144E67C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SwitchAction_TypeDefinitionIndex = 55428;
+	inline static constexpr unsigned int ConfigSoundAction_SwitchAction_TypeDefinitionIndex = 83426;
 
 	class ConfigSoundAction_SwitchAction : public ::MoleMole::Config::ConfigSoundActionIntending
 	{
 	public:
 		::System::String* scopeName; // 0x20
-		::MoleMole::Config::ConfigSoundActionGeneral* defaultAction; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>* switchActions; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>* switchActions; // 0x28
+		::MoleMole::Config::ConfigSoundActionGeneral* defaultAction; // 0x30
 		::System::Boolean useDefaultScope; // 0x38
 
 		::System::Void _ctor()
@@ -47,9 +47,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_SETSCOPEVALUE_OFFSET))(this, value);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_147* context)
+		::System::Void Execute(::Class_0_16E4307DCC419505_197* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_EXECUTE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SWITCHACTION_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

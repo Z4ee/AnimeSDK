@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ICancelAddNew_TypeDefinitionIndex = 2890;
+	inline static constexpr unsigned int ICancelAddNew_TypeDefinitionIndex = 2889;
 
 	class ICancelAddNew
 	{

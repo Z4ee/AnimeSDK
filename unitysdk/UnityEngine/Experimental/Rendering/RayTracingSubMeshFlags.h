@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingSubMeshFlags_TypeDefinitionIndex = 6310;
+	inline static constexpr unsigned int RayTracingSubMeshFlags_TypeDefinitionIndex = 6336;
 
 	enum class RayTracingSubMeshFlags : ::System::Int32
 	{

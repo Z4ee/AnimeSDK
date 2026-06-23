@@ -2,13 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_74;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+#define CLASS_1_43BD383C98B4C0C5_9_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1DEF8FA0)
+#define CLASS_1_43BD383C98B4C0C5_9__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF8FE0)
 
-#define CLASS_1_43BD383C98B4C0C5_9__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D1460)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_9_TypeDefinitionIndex = 26349;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_9_TypeDefinitionIndex = 28939;
 
 class Class_1_43BD383C98B4C0C5_9 : public ::System::Object
 {
@@ -16,5 +13,10 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_9__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_9_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 };

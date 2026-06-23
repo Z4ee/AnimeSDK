@@ -11,7 +11,7 @@ namespace System::Linq { template <typename T1, typename T2> class Lookup_2_Grou
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Lookup_2__ApplyResultSelector_d__13_1_TypeDefinitionIndex = 4381;
+	inline static constexpr unsigned int Lookup_2__ApplyResultSelector_d__13_1_TypeDefinitionIndex = 4380;
 
 	template <typename TKey, typename TElement, typename TResult>
 	class Lookup_2__ApplyResultSelector_d__13_1 : public ::System::Object

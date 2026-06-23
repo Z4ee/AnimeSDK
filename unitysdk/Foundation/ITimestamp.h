@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ITimestamp_TypeDefinitionIndex = 9178;
+	inline static constexpr unsigned int ITimestamp_TypeDefinitionIndex = 8620;
 
 	class ITimestamp
 	{

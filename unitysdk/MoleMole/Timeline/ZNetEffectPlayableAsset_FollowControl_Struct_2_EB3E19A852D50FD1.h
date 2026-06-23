@@ -7,11 +7,11 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_FollowControl_Struct_2_EB3E19A852D50FD1_TypeDefinitionIndex = 79663;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_FollowControl_Struct_2_EB3E19A852D50FD1_TypeDefinitionIndex = 44686;
 
 	struct alignas(8) ZNetEffectPlayableAsset_FollowControl_Struct_2_EB3E19A852D50FD1
 	{
-		::UnityEngine::Transform* Field_2_0; // 0x10
-		::MoleMole::Timeline::ZNetEffectPlayableAsset_FollowControl* Field_2_1; // 0x18
+		::MoleMole::Timeline::ZNetEffectPlayableAsset_FollowControl* Field_2_1; // 0x10
+		::UnityEngine::Transform* Field_2_0; // 0x18
 	};
 }

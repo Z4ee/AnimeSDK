@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OCTREE_NATIVE_HASHHELPER_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x11DC6040)
-#define OCTREE_NATIVE_HASHHELPER_GETPRIME_OFFSET UNITYSDK_OFFSET(0x11DC5DD0)
-#define OCTREE_NATIVE_HASHHELPER_ISPRIME_OFFSET UNITYSDK_OFFSET(0x11DC5D20)
-#define OCTREE_NATIVE_HASHHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DC60E0)
+#define OCTREE_NATIVE_HASHHELPER_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x11E6B230)
+#define OCTREE_NATIVE_HASHHELPER_GETPRIME_OFFSET UNITYSDK_OFFSET(0x11E6AFC0)
+#define OCTREE_NATIVE_HASHHELPER_ISPRIME_OFFSET UNITYSDK_OFFSET(0x11E6AF10)
+#define OCTREE_NATIVE_HASHHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E6B2D0)
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int HashHelper_TypeDefinitionIndex = 66769;
+	inline static constexpr unsigned int HashHelper_TypeDefinitionIndex = 42109;
 
 	class HashHelper : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_primes()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelper_TypeDefinitionIndex)->GetStaticField(0x43C80);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelper_TypeDefinitionIndex)->GetStaticField(0x4DB50);
 		}
 		// static const ::System::Int32 MaxPrimeArrayLength = 0x7FEFFFFD; // 0x0
 

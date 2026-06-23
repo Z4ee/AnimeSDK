@@ -5,9 +5,9 @@
 class MainCityObjectLoopStateCondition;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MAINCITYOBJECTSTATEGRAPHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17423030)
+#define MAINCITYOBJECTSTATEGRAPHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1701CB50)
 
-inline static constexpr unsigned int MainCityObjectStateGraphItem_TypeDefinitionIndex = 48271;
+inline static constexpr unsigned int MainCityObjectStateGraphItem_TypeDefinitionIndex = 71591;
 
 class MainCityObjectStateGraphItem : public ::System::Object
 {

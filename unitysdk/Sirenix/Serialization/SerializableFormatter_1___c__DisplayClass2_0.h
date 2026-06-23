@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializableFormatter_1___c__DisplayClass2_0_TypeDefinitionIndex = 7354;
+	inline static constexpr unsigned int SerializableFormatter_1___c__DisplayClass2_0_TypeDefinitionIndex = 7486;
 
 	template <typename T>
 	class SerializableFormatter_1___c__DisplayClass2_0 : public ::System::Object

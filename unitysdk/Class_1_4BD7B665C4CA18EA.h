@@ -6,16 +6,16 @@
 
 class Class_1_C9DFE5EE7107C629_1;
 
-#define CLASS_1_4BD7B665C4CA18EA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13AFC1A0)
-#define CLASS_1_4BD7B665C4CA18EA__CTOR_OFFSET UNITYSDK_OFFSET(0x13AFC190)
+#define CLASS_1_4BD7B665C4CA18EA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10FB3870)
+#define CLASS_1_4BD7B665C4CA18EA__CTOR_OFFSET UNITYSDK_OFFSET(0x10FB3860)
 
-inline static constexpr unsigned int Class_1_4BD7B665C4CA18EA_TypeDefinitionIndex = 80113;
+inline static constexpr unsigned int Class_1_4BD7B665C4CA18EA_TypeDefinitionIndex = 67073;
 
 class Class_1_4BD7B665C4CA18EA : public ::System::Object
 {
 public:
-	::MoleMole::HollowChessboard::HollowCell Field_1_0; // 0x10
-	::Enum_3_4608E37A1B3D374A_3 Field_1_1; // 0x1C
+	::Enum_3_4608E37A1B3D374A_3 Field_1_1; // 0x10
+	::MoleMole::HollowChessboard::HollowCell Field_1_0; // 0x14
 
 	::System::Void _ctor()
 	{

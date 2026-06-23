@@ -8,27 +8,27 @@ namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SQLITE_SQLITECONNECTIONPOOL_CLOSECONNECTION_OFFSET UNITYSDK_OFFSET(0x1B27BE00)
-#define SQLITE_SQLITECONNECTIONPOOL_GETCONNECTIONANDTRANSACTIONLOCK_OFFSET UNITYSDK_OFFSET(0x1B27A0C0)
-#define SQLITE_SQLITECONNECTIONPOOL_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x1B279FC0)
-#define SQLITE_SQLITECONNECTIONPOOL_GET_SHARED_OFFSET UNITYSDK_OFFSET(0x1B287DA0)
-#define SQLITE_SQLITECONNECTIONPOOL_RESET_OFFSET UNITYSDK_OFFSET(0x1B279CA0)
-#define SQLITE_SQLITECONNECTIONPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B288000)
-#define SQLITE_SQLITECONNECTIONPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B287F60)
+#define SQLITE_SQLITECONNECTIONPOOL_CLOSECONNECTION_OFFSET UNITYSDK_OFFSET(0x1D638160)
+#define SQLITE_SQLITECONNECTIONPOOL_GETCONNECTIONANDTRANSACTIONLOCK_OFFSET UNITYSDK_OFFSET(0x1D636420)
+#define SQLITE_SQLITECONNECTIONPOOL_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x1D636320)
+#define SQLITE_SQLITECONNECTIONPOOL_GET_SHARED_OFFSET UNITYSDK_OFFSET(0x1D644100)
+#define SQLITE_SQLITECONNECTIONPOOL_RESET_OFFSET UNITYSDK_OFFSET(0x1D636000)
+#define SQLITE_SQLITECONNECTIONPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D644360)
+#define SQLITE_SQLITECONNECTIONPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6442C0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnectionPool_TypeDefinitionIndex = 36878;
+	inline static constexpr unsigned int SQLiteConnectionPool_TypeDefinitionIndex = 38488;
 
 	class SQLiteConnectionPool : public ::System::Object
 	{
 	public:
 		static ::SQLite::SQLiteConnectionPool** StaticGet__shared()
 		{
-			return (::SQLite::SQLiteConnectionPool**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnectionPool_TypeDefinitionIndex)->GetStaticField(0x27390);
+			return (::SQLite::SQLiteConnectionPool**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnectionPool_TypeDefinitionIndex)->GetStaticField(0x29010);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::SQLite::SQLiteConnectionPool_Entry*>* _entries; // 0x10
-		::System::Object* _entriesLock; // 0x18
+		::System::Object* _entriesLock; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::SQLite::SQLiteConnectionPool_Entry*>* _entries; // 0x18
 
 		::System::Void _ctor()
 		{

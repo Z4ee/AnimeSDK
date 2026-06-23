@@ -8,37 +8,37 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_BASEMESHEFFECT_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B3A7010)
-#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1B3A7900)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B3A7760)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B3A74A0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B3A71D0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_REGISTERMESHMODIFIERFORGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B3A73A0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_UNREGISTERMESHMODIFIERFORGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B3A7660)
-#define UNITYENGINE_UI_BASEMESHEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3A7AC0)
-#define UNITYENGINE_UI_BASEMESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A7A70)
-#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B3A7BE0)
-#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B3A7C70)
-#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B3A7D00)
+#define UNITYENGINE_UI_BASEMESHEFFECT_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1D75DB60)
+#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1D75E450)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1D75E2B0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D75DFF0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D75DD20)
+#define UNITYENGINE_UI_BASEMESHEFFECT_REGISTERMESHMODIFIERFORGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1D75DEF0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_UNREGISTERMESHMODIFIERFORGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1D75E1B0)
+#define UNITYENGINE_UI_BASEMESHEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D75E610)
+#define UNITYENGINE_UI_BASEMESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D75E5C0)
+#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1D75E730)
+#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D75E7C0)
+#define UNITYENGINE_UI_BASEMESHEFFECT___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D75E850)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int BaseMeshEffect_TypeDefinitionIndex = 8481;
+	inline static constexpr unsigned int BaseMeshEffect_TypeDefinitionIndex = 18989;
 
 	class BaseMeshEffect : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
+		static ::UnityEngine::UI::VertexHelper** StaticGet_s_VertexHelper()
+		{
+			return (::UnityEngine::UI::VertexHelper**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x87E0);
+		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>** StaticGet_s_SharedVertsList1()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x7590);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x87E8);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>** StaticGet_s_SharedVertsList2()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x7598);
-		}
-		static ::UnityEngine::UI::VertexHelper** StaticGet_s_VertexHelper()
-		{
-			return (::UnityEngine::UI::VertexHelper**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x75A0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(BaseMeshEffect_TypeDefinitionIndex)->GetStaticField(0x87F0);
 		}
 		::UnityEngine::UI::Graphic* m_Graphic; // 0x18
 

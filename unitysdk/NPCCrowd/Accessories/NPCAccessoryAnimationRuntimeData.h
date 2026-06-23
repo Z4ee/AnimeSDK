@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF3EB2A0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8C2B170)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationRuntimeData_TypeDefinitionIndex = 74808;
+	inline static constexpr unsigned int NPCAccessoryAnimationRuntimeData_TypeDefinitionIndex = 50283;
 
 	class NPCAccessoryAnimationRuntimeData : public ::System::Object
 	{

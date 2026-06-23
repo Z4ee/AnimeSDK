@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class WeatherConfigScriptableObject; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERGROUPSCRIPTABLEOBJECT_WEATHERCONFIGKEYPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30FF40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERGROUPSCRIPTABLEOBJECT_WEATHERCONFIGKEYPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C453FB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherGroupScriptableObject_WeatherConfigKeyPath_TypeDefinitionIndex = 29990;
+	inline static constexpr unsigned int WeatherGroupScriptableObject_WeatherConfigKeyPath_TypeDefinitionIndex = 26521;
 
 	class WeatherGroupScriptableObject_WeatherConfigKeyPath : public ::System::Object
 	{

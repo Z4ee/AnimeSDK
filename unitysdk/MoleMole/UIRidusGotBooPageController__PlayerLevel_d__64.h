@@ -7,21 +7,21 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYERLEVEL_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75E470)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYERLEVEL_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYERLEVEL_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x761290)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYERLEVEL_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__PlayerLevel_d__64_TypeDefinitionIndex = 75540;
+	inline static constexpr unsigned int UIRidusGotBooPageController__PlayerLevel_d__64_TypeDefinitionIndex = 40727;
 
 	struct alignas(8) UIRidusGotBooPageController__PlayerLevel_d__64
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x30
-		::System::Int32 __1__state; // 0x38
-		::System::Single _playerInteractTime_5__3; // 0x3C
-		::System::Single _totalTime_5__2; // 0x40
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Single _playerInteractTime_5__3; // 0x38
+		::System::Single _totalTime_5__2; // 0x3C
+		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()
 		{

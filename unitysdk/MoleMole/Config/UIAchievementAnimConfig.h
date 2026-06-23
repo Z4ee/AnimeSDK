@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_UIACHIEVEMENTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB8700)
+#define MOLEMOLE_CONFIG_UIACHIEVEMENTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192AF290)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIAchievementAnimConfig_TypeDefinitionIndex = 75717;
+	inline static constexpr unsigned int UIAchievementAnimConfig_TypeDefinitionIndex = 61068;
 
 	class UIAchievementAnimConfig : public ::UnityEngine::MonoBehaviour
 	{

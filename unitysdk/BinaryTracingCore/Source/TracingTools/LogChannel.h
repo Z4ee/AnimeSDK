@@ -7,22 +7,22 @@ namespace BinaryTracingCore::Source::TracingTools { class LogMetaHandle; }
 namespace BinaryTracingCore::Source::TracingTools { class TracingSystem; }
 namespace System { class String; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_BEGINLOG_OFFSET UNITYSDK_OFFSET(0x1BF00F80)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_GET_CHANNELMETA_OFFSET UNITYSDK_OFFSET(0x1BF00F30)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1BF00F50)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_SET_CHANNELMETA_OFFSET UNITYSDK_OFFSET(0x1BF00F40)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_SET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1BF00F60)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF00F70)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_BEGINLOG_OFFSET UNITYSDK_OFFSET(0x1E22C560)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_GET_CHANNELMETA_OFFSET UNITYSDK_OFFSET(0x1E22C510)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1E22C530)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_SET_CHANNELMETA_OFFSET UNITYSDK_OFFSET(0x1E22C520)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL_SET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1E22C540)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22C550)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogChannel_TypeDefinitionIndex = 32396;
+	inline static constexpr unsigned int LogChannel_TypeDefinitionIndex = 33947;
 
 	class LogChannel : public ::System::Object
 	{
 	public:
-		::BinaryTracingCore::Source::TracingTools::LogMetaHandle* _ChannelMeta_k__BackingField; // 0x10
-		::BinaryTracingCore::Source::TracingTools::TracingSystem* _System_k__BackingField; // 0x18
+		::BinaryTracingCore::Source::TracingTools::TracingSystem* _System_k__BackingField; // 0x10
+		::BinaryTracingCore::Source::TracingTools::LogMetaHandle* _ChannelMeta_k__BackingField; // 0x18
 
 		::System::Void _ctor(::BinaryTracingCore::Source::TracingTools::TracingSystem* system, ::BinaryTracingCore::Source::TracingTools::LogMetaHandle* metaHandle)
 		{

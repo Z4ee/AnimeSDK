@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X500DistinguishedNameFlags_TypeDefinitionIndex = 3172;
+	inline static constexpr unsigned int X500DistinguishedNameFlags_TypeDefinitionIndex = 3171;
 
 	enum class X500DistinguishedNameFlags : ::System::Int32
 	{

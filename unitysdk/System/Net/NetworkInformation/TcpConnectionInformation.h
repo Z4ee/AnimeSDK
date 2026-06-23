@@ -5,11 +5,11 @@
 
 namespace System::Net { class IPEndPoint; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_TCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1EF2C0)
+#define SYSTEM_NET_NETWORKINFORMATION_TCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D6DA0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int TcpConnectionInformation_TypeDefinitionIndex = 3745;
+	inline static constexpr unsigned int TcpConnectionInformation_TypeDefinitionIndex = 3744;
 
 	class TcpConnectionInformation : public ::System::Object
 	{

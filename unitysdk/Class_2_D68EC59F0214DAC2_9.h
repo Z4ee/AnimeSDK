@@ -6,19 +6,17 @@ class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_D68EC59F0214DAC2_9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12A64DF0)
-#define CLASS_2_D68EC59F0214DAC2_9_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x12A64CF0)
-#define CLASS_2_D68EC59F0214DAC2_9__CTOR_OFFSET UNITYSDK_OFFSET(0x12A64DE0)
+#define CLASS_2_D68EC59F0214DAC2_9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15199A10)
+#define CLASS_2_D68EC59F0214DAC2_9_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x15199950)
+#define CLASS_2_D68EC59F0214DAC2_9__CTOR_OFFSET UNITYSDK_OFFSET(0x15199A00)
 
-inline static constexpr unsigned int Class_2_D68EC59F0214DAC2_9_TypeDefinitionIndex = 55372;
+inline static constexpr unsigned int Class_2_D68EC59F0214DAC2_9_TypeDefinitionIndex = 57815;
 
 class Class_2_D68EC59F0214DAC2_9 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_3; // 0x18
+	::UnityEngine::GameObject* Field_2_0; // 0x18
 	::UnityEngine::GameObject* Field_2_1; // 0x20
-	::UnityEngine::GameObject* Field_2_2; // 0x28
-	::UnityEngine::GameObject* Field_2_0; // 0x30
 
 	::System::Void _ctor()
 	{

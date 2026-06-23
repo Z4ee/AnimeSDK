@@ -3,12 +3,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetsUnloadLevel_TypeDefinitionIndex = 8195;
+	inline static constexpr unsigned int AssetsUnloadLevel_TypeDefinitionIndex = 8385;
 
 	enum class AssetsUnloadLevel : ::System::Byte
 	{
+		ExceptBoot = 0x1,
 		None = 0x2,
 		All = 0x0,
-		ExceptBoot = 0x1,
 	};
 }

@@ -6,18 +6,18 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class AnimationCurveUISpecialNum; }
 namespace MoleMole::Config { class FloatUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERATELEPORTCENTERNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16A86770)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERATELEPORTCENTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A86830)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERATELEPORTCENTERNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1589F1E0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERATELEPORTCENTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1589F2A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardCameraTeleportCenterNode_TypeDefinitionIndex = 45500;
+	inline static constexpr unsigned int ConfigChessboardCameraTeleportCenterNode_TypeDefinitionIndex = 70882;
 
 	class ConfigChessboardCameraTeleportCenterNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::AnimationCurveUISpecialNum* MoveToCenterCurve; // 0x18
-		::MoleMole::Config::FloatUISpecialNum* MoveToCenterDuration; // 0x20
+		::MoleMole::Config::FloatUISpecialNum* MoveToCenterDuration; // 0x18
+		::MoleMole::Config::AnimationCurveUISpecialNum* MoveToCenterCurve; // 0x20
 		::System::Boolean UseCustomZ; // 0x28
 		::System::Boolean IgnoreIfTargetInFocusRange; // 0x29
 

@@ -14,33 +14,33 @@ namespace System::Diagnostics { class Stopwatch; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BAFEA20)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BAFF260)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BAFF2C0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BAFF270)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BAFE5A0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFE590)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1BAFE5C0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DE88100)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE88940)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE889A0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DE88950)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DE87C80)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE87C70)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER___COMBINETEXTURESINTOATLASES_D__83___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1DE87CA0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombiner___CombineTexturesIntoAtlases_d__83_TypeDefinitionIndex = 85123;
+	inline static constexpr unsigned int MB3_TextureCombiner___CombineTexturesIntoAtlases_d__83_TypeDefinitionIndex = 90697;
 
 	class MB3_TextureCombiner___CombineTexturesIntoAtlases_d__83 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* texPropsToIgnore; // 0x10
-		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* allowedMaterialsFilter; // 0x20
-		::System::Diagnostics::Stopwatch* _sw_5__2; // 0x28
-		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* objsToMesh; // 0x38
-		::DigitalOpus::MB::Core::MB3_TextureCombiner* __4__this; // 0x40
-		::DigitalOpus::MB::Core::MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult* result; // 0x48
-		::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::AtlasPackingResult*>* atlasPackingResult; // 0x50
+		::DigitalOpus::MB::Core::MB3_TextureCombiner* __4__this; // 0x10
+		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x18
+		::DigitalOpus::MB::Core::MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult* result; // 0x20
+		::System::Collections::Generic::List_1<::System::String*>* texPropsToIgnore; // 0x28
+		::MB_AtlasesAndRects* resultAtlasesAndRects; // 0x30
+		::System::Diagnostics::Stopwatch* _sw_5__2; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* allowedMaterialsFilter; // 0x40
+		::UnityEngine::Material* resultMaterial; // 0x48
+		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x50
 		::System::Object* __2__current; // 0x58
-		::MB_AtlasesAndRects* resultAtlasesAndRects; // 0x60
-		::UnityEngine::Material* resultMaterial; // 0x68
+		::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::AtlasPackingResult*>* atlasPackingResult; // 0x60
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* objsToMesh; // 0x68
 		::System::Int32 __1__state; // 0x70
 		::System::Boolean onlyPackRects; // 0x74
 		::System::Boolean splitAtlasWhenPackingIfTooBig; // 0x75

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int LightMode_TypeDefinitionIndex = 6282;
+	inline static constexpr unsigned int LightMode_TypeDefinitionIndex = 6308;
 
 	enum class LightMode : ::System::Byte
 	{

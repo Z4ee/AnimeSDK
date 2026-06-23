@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19F39580)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x19F39400)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F397F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C1556F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1C155560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C155AA0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 30292;
+	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 26681;
 
 	class GIConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::GIConfig*>
 	{
@@ -19,20 +19,25 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Color skyColor; // 0x1C
 		::UnityEngine::Color middleColor; // 0x2C
 		::UnityEngine::Color groundColor; // 0x3C
-		::System::Single dynamicObjectGIIntensity; // 0x4C
-		::System::Single emissionHueIntensity; // 0x50
-		::System::Single cloudShadowIntensityForGI; // 0x54
-		::System::Single secondaryBounceIntensity; // 0x58
-		::System::Single skyIndirectIntensity; // 0x5C
-		::System::Single sceneInteriorFakeBrightness; // 0x60
-		::System::Single mainLightKodamaGIIndirectMultiplier; // 0x64
-		::System::Single mainLightLyraGIIndirectMultiplier; // 0x68
-		::System::Single lyraSkyPassThrough; // 0x6C
-		::System::Single GIIntensity; // 0x70
-		::System::Single IBLIntensity; // 0x74
-		::UnityEngine::Color GIColorOffset; // 0x78
-		::UnityEngine::Color GISpecularColorOffset; // 0x88
-		::System::Single EmissionIntensity; // 0x98
+		::System::Boolean useRTXGICustomSkySH; // 0x4C
+		::System::Single rtxSkyIntensity; // 0x50
+		::UnityEngine::Color rtxSkyColor; // 0x54
+		::UnityEngine::Color rtxMiddleColor; // 0x64
+		::UnityEngine::Color rtxGroundColor; // 0x74
+		::System::Single dynamicObjectGIIntensity; // 0x84
+		::System::Single emissionHueIntensity; // 0x88
+		::System::Single cloudShadowIntensityForGI; // 0x8C
+		::System::Single secondaryBounceIntensity; // 0x90
+		::System::Single skyIndirectIntensity; // 0x94
+		::System::Single sceneInteriorFakeBrightness; // 0x98
+		::System::Single mainLightKodamaGIIndirectMultiplier; // 0x9C
+		::System::Single mainLightLyraGIIndirectMultiplier; // 0xA0
+		::System::Single lyraSkyPassThrough; // 0xA4
+		::System::Single GIIntensity; // 0xA8
+		::System::Single IBLIntensity; // 0xAC
+		::UnityEngine::Color GIColorOffset; // 0xB0
+		::UnityEngine::Color GISpecularColorOffset; // 0xC0
+		::System::Single EmissionIntensity; // 0xD0
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_AISTEERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1231AA50)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_AISTEERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6BE10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIScriptConfig_AISteerParam_TypeDefinitionIndex = 81445;
+	inline static constexpr unsigned int LevelGlobalAIScriptConfig_AISteerParam_TypeDefinitionIndex = 40099;
 
 	class LevelGlobalAIScriptConfig_AISteerParam : public ::System::Object
 	{

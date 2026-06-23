@@ -8,33 +8,33 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B9B8610)
-#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1B9B9640)
-#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B9670)
-#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B9650)
+#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DD40540)
+#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1DD41570)
+#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD415A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY_SPRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD41580)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int RotatorDampingPolicy_Spring_TypeDefinitionIndex = 36296;
+	inline static constexpr unsigned int RotatorDampingPolicy_Spring_TypeDefinitionIndex = 37904;
 
 	class RotatorDampingPolicy_Spring : public ::PipelineCamera::CameraSequence::RotatorDampingPolicy
 	{
 	public:
+		static ::Foundation::Unreal::FName* StaticGet_LastTarget()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8C80);
+		}
 		static ::Foundation::Unreal::FName* StaticGet_Velocity()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x87C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8C88);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_LastCurrent()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x87C8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet_LastTarget()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x87D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8C90);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_DampingTime()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x87D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(RotatorDampingPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8C98);
 		}
 		::UnityEngine::Vector3 stiffness; // 0x40
 		::UnityEngine::Vector3 damping; // 0x4C

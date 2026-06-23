@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CompareFunction_TypeDefinitionIndex = 6152;
+	inline static constexpr unsigned int CompareFunction_TypeDefinitionIndex = 6163;
 
 	enum class CompareFunction : ::System::Int32
 	{

@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEBINDING_CREATEAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1C259BD0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1C259B10)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEBINDING_CREATEAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1E5AB820)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1E5AB760)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioPlayableBinding_TypeDefinitionIndex = 9638;
+	inline static constexpr unsigned int AudioPlayableBinding_TypeDefinitionIndex = 18365;
 
 	class AudioPlayableBinding : public ::System::Object
 	{

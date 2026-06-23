@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CINEMACHINE_SAVEDURINGPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD690)
+#define CINEMACHINE_SAVEDURINGPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8149D0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int SaveDuringPlayAttribute_TypeDefinitionIndex = 32570;
+	inline static constexpr unsigned int SaveDuringPlayAttribute_TypeDefinitionIndex = 34121;
 
 	class SaveDuringPlayAttribute : public ::System::Attribute
 	{

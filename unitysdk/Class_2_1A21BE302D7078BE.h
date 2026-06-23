@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_1A21BE302D7078BE_METHOD_2_13D66C43117B2D48_OFFSET UNITYSDK_OFFSET(0x10DC9400)
-#define CLASS_2_1A21BE302D7078BE_METHOD_2_447C6886DED7E74D_OFFSET UNITYSDK_OFFSET(0x10DC9340)
-#define CLASS_2_1A21BE302D7078BE_METHOD_2_96980C17A8BB1F06_OFFSET UNITYSDK_OFFSET(0x10DC9170)
-#define CLASS_2_1A21BE302D7078BE__CTOR_OFFSET UNITYSDK_OFFSET(0x10DC90C0)
+#define CLASS_2_1A21BE302D7078BE_METHOD_2_13D66C43117B2D48_OFFSET UNITYSDK_OFFSET(0x19036700)
+#define CLASS_2_1A21BE302D7078BE_METHOD_2_447C6886DED7E74D_OFFSET UNITYSDK_OFFSET(0x19036470)
+#define CLASS_2_1A21BE302D7078BE_METHOD_2_96980C17A8BB1F06_OFFSET UNITYSDK_OFFSET(0x19036530)
+#define CLASS_2_1A21BE302D7078BE__CTOR_OFFSET UNITYSDK_OFFSET(0x190363C0)
 
-inline static constexpr unsigned int Class_2_1A21BE302D7078BE_TypeDefinitionIndex = 78820;
+inline static constexpr unsigned int Class_2_1A21BE302D7078BE_TypeDefinitionIndex = 42126;
 
 class Class_2_1A21BE302D7078BE : public ::Foundation::Singleton_1<::Class_2_1A21BE302D7078BE*>
 {
@@ -28,14 +28,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1A21BE302D7078BE__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_96980C17A8BB1F06()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1A21BE302D7078BE_METHOD_2_96980C17A8BB1F06_OFFSET))(this);
-	}
-
 	::MoleMole::UIHollowChessPieceParticle* Method_2_447C6886DED7E74D(::System::String* a1, ::MoleMole::Config::HollowChessboardParticleConfig* a2, ::UnityEngine::Transform* a3)
 	{
 		return ((::MoleMole::UIHollowChessPieceParticle*(*)(::PVOID, ::System::String*, ::MoleMole::Config::HollowChessboardParticleConfig*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_1A21BE302D7078BE_METHOD_2_447C6886DED7E74D_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_96980C17A8BB1F06()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1A21BE302D7078BE_METHOD_2_96980C17A8BB1F06_OFFSET))(this);
 	}
 
 	::System::Void Method_2_13D66C43117B2D48(::MoleMole::UIHollowChessPieceParticle* a1)

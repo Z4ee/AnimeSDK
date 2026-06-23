@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define PIPELINECAMERA_DATA_LOOKATINFINAL_GENERATEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x1BBD3DB0)
+#define PIPELINECAMERA_DATA_LOOKATINFINAL_GENERATEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x1DF281F0)
 
 namespace PipelineCamera::Data
 {
-	inline static constexpr unsigned int LookAtInFinal_TypeDefinitionIndex = 36172;
+	inline static constexpr unsigned int LookAtInFinal_TypeDefinitionIndex = 37780;
 
 	class LookAtInFinal : public ::System::Object
 	{

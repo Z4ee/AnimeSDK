@@ -11,27 +11,27 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_C5C18FC3BC229838_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x11E9F480)
-#define CLASS_2_C5C18FC3BC229838_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x11E9F6F0)
-#define CLASS_2_C5C18FC3BC229838_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11E9F830)
-#define CLASS_2_C5C18FC3BC229838__CTOR_OFFSET UNITYSDK_OFFSET(0x11E9F820)
+#define CLASS_2_C5C18FC3BC229838_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x14A79180)
+#define CLASS_2_C5C18FC3BC229838_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x14A793F0)
+#define CLASS_2_C5C18FC3BC229838_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14A79530)
+#define CLASS_2_C5C18FC3BC229838__CTOR_OFFSET UNITYSDK_OFFSET(0x14A79520)
 
-inline static constexpr unsigned int Class_2_C5C18FC3BC229838_TypeDefinitionIndex = 62240;
+inline static constexpr unsigned int Class_2_C5C18FC3BC229838_TypeDefinitionIndex = 70439;
 
 class Class_2_C5C18FC3BC229838 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_1; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x30
-	::UnityEngine::RectTransform* Field_2_0; // 0x38
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x40
-	::UnityEngine::RectTransform* Field_2_2; // 0x48
-	::UnityEngine::Canvas* Field_2_6; // 0x50
+	::UnityEngine::RectTransform* Field_2_9; // 0x18
+	::UnityEngine::RectTransform* Field_2_0; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_8; // 0x28
+	::UnityEngine::RectTransform* Field_2_2; // 0x30
+	::UnityEngine::Canvas* Field_2_6; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x48
+	::UnityEngine::RectTransform* Field_2_1; // 0x50
 	::UnityEngine::CanvasGroup* Field_2_10; // 0x58
-	::UnityEngine::RectTransform* Field_2_9; // 0x60
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x68
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x60
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x68
 
 	::System::Void _ctor()
 	{

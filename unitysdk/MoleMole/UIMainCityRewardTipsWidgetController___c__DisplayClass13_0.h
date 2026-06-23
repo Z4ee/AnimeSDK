@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityRewardTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x148D7EF0)
-#define MOLEMOLE_UIMAINCITYREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYREWARDFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x148D7F00)
+#define MOLEMOLE_UIMAINCITYREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15744C60)
+#define MOLEMOLE_UIMAINCITYREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYREWARDFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x15744C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRewardTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 67517;
+	inline static constexpr unsigned int UIMainCityRewardTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 82921;
 
 	class UIMainCityRewardTipsWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{

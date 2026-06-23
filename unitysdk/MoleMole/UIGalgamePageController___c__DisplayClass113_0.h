@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/GalGame/GalNPCLocation.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13E992A0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS113_0__PLAYNPCFADESOUND_B__0_OFFSET UNITYSDK_OFFSET(0x13E992B0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9BEA0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS113_0__PLAYNPCFADESOUND_B__0_OFFSET UNITYSDK_OFFSET(0x15B9BEB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass113_0_TypeDefinitionIndex = 41776;
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass113_0_TypeDefinitionIndex = 54892;
 
 	class UIGalgamePageController___c__DisplayClass113_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean fadeIn; // 0x10
-		::System::Boolean isDouble; // 0x11
+		::System::Boolean isDouble; // 0x10
+		::System::Boolean fadeIn; // 0x11
 		::MoleMole::GalGame::GalNPCLocation location; // 0x14
 
 		::System::Void _ctor()

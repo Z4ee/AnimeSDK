@@ -5,12 +5,12 @@
 namespace System::Linq::Expressions { class DynamicExpression; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSIONVISITOR_VISITDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1C1C4A80)
-#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSIONVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C4AD0)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSIONVISITOR_VISITDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1E505B70)
+#define SYSTEM_LINQ_EXPRESSIONS_DYNAMICEXPRESSIONVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E505BC0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int DynamicExpressionVisitor_TypeDefinitionIndex = 4470;
+	inline static constexpr unsigned int DynamicExpressionVisitor_TypeDefinitionIndex = 4469;
 
 	class DynamicExpressionVisitor : public ::System::Linq::Expressions::ExpressionVisitor
 	{

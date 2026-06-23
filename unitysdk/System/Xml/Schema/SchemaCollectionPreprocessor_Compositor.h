@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SchemaCollectionPreprocessor_Compositor_TypeDefinitionIndex = 2082;
+	inline static constexpr unsigned int SchemaCollectionPreprocessor_Compositor_TypeDefinitionIndex = 2081;
 
 	enum class SchemaCollectionPreprocessor_Compositor : ::System::Int32
 	{

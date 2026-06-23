@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A98DF60)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9D980)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int TokenizerShortBlock_TypeDefinitionIndex = 1012;
+	inline static constexpr unsigned int TokenizerShortBlock_TypeDefinitionIndex = 1011;
 
 	class TokenizerShortBlock : public ::System::Object
 	{
 	public:
-		::System::Security::Util::TokenizerShortBlock* m_next; // 0x10
-		::Il2CppArray<::System::Int16>* m_block; // 0x18
+		::Il2CppArray<::System::Int16>* m_block; // 0x10
+		::System::Security::Util::TokenizerShortBlock* m_next; // 0x18
 
 		::System::Void _ctor()
 		{

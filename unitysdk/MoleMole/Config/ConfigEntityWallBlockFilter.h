@@ -7,13 +7,13 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_TAGSCHECK_OFFSET UNITYSDK_OFFSET(0x16A8CBC0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x16A8C460)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8CD50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_TAGSCHECK_OFFSET UNITYSDK_OFFSET(0x158A5790)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x158A5030)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x158A5920)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityWallBlockFilter_TypeDefinitionIndex = 39910;
+	inline static constexpr unsigned int ConfigEntityWallBlockFilter_TypeDefinitionIndex = 78624;
 
 	class ConfigEntityWallBlockFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

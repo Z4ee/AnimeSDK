@@ -12,29 +12,29 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_4FEE8A549F002FDE_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x110EEF50)
-#define CLASS_2_4FEE8A549F002FDE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x110EF090)
-#define CLASS_2_4FEE8A549F002FDE_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x110EECC0)
-#define CLASS_2_4FEE8A549F002FDE__CTOR_OFFSET UNITYSDK_OFFSET(0x110EF080)
+#define CLASS_2_4FEE8A549F002FDE_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x16D2E000)
+#define CLASS_2_4FEE8A549F002FDE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16D2E140)
+#define CLASS_2_4FEE8A549F002FDE_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x16D2DD70)
+#define CLASS_2_4FEE8A549F002FDE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D2E130)
 
-inline static constexpr unsigned int Class_2_4FEE8A549F002FDE_TypeDefinitionIndex = 70120;
+inline static constexpr unsigned int Class_2_4FEE8A549F002FDE_TypeDefinitionIndex = 67169;
 
 class Class_2_4FEE8A549F002FDE : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_1; // 0x18
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIShareBtnWidgetController*>* Field_2_9; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x20
+	::UnityEngine::UI::Text* Field_2_2; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x30
 	::UnityEngine::GameObject* Field_2_6; // 0x38
 	::UnityEngine::Animation* Field_2_8; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x48
-	::UnityEngine::GameObject* Field_2_10; // 0x50
-	::MonoUIPainting* Field_2_3; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x60
-	::UnityEngine::UI::Text* Field_2_2; // 0x68
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIShareBtnWidgetController*>* Field_2_9; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x50
+	::UnityEngine::GameObject* Field_2_1; // 0x58
+	::UnityEngine::GameObject* Field_2_10; // 0x60
+	::MonoUIPainting* Field_2_3; // 0x68
 
 	::System::Void _ctor()
 	{

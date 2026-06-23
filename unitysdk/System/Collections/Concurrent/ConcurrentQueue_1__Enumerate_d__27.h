@@ -7,7 +7,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentQueue_1__Enumerate_d__27_TypeDefinitionIndex = 1509;
+	inline static constexpr unsigned int ConcurrentQueue_1__Enumerate_d__27_TypeDefinitionIndex = 1508;
 
 	template <typename T>
 	class ConcurrentQueue_1__Enumerate_d__27 : public ::System::Object

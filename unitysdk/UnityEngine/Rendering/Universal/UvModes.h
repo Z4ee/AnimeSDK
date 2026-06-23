@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UvModes_TypeDefinitionIndex = 30160;
+	inline static constexpr unsigned int UvModes_TypeDefinitionIndex = 26240;
 
 	enum class UvModes : ::System::Int32
 	{
-		General = 0,
-		Polar = 1,
 		GeneralNormalized = 2,
+		Polar = 1,
+		General = 0,
 	};
 }

@@ -9,27 +9,27 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x128B9340)
-#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x128B90E0)
-#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x128B9450)
-#define CLASS_2_19206BC47BA92FC3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x128B9440)
+#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x127B1510)
+#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x127B12B0)
+#define CLASS_2_19206BC47BA92FC3_2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x127B1620)
+#define CLASS_2_19206BC47BA92FC3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x127B1610)
 
-inline static constexpr unsigned int Class_2_19206BC47BA92FC3_2_TypeDefinitionIndex = 72606;
+inline static constexpr unsigned int Class_2_19206BC47BA92FC3_2_TypeDefinitionIndex = 66311;
 
 class Class_2_19206BC47BA92FC3_2 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x18
-	::UnityEngine::Transform* Field_2_9; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
-	::UnityEngine::Transform* Field_2_8; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_11; // 0x38
-	::UnityEngine::Transform* Field_2_1; // 0x40
-	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x48
-	::UnityEngine::RectTransform* Field_2_6; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x58
-	::UnityEngine::Transform* Field_2_0; // 0x60
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x68
+	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_11; // 0x20
+	::UnityEngine::Transform* Field_2_1; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x30
+	::UnityEngine::RectTransform* Field_2_6; // 0x38
+	::UnityEngine::Transform* Field_2_8; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x58
+	::UnityEngine::Transform* Field_2_9; // 0x60
+	::UnityEngine::Transform* Field_2_0; // 0x68
 	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x70
 
 	::System::Void _ctor()

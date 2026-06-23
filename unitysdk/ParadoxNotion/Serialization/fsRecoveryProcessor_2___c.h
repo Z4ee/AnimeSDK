@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int fsRecoveryProcessor_2___c_TypeDefinitionIndex = 27050;
+	inline static constexpr unsigned int fsRecoveryProcessor_2___c_TypeDefinitionIndex = 30340;
 
 	template <typename TCanProcess, typename TMissing>
 	class fsRecoveryProcessor_2___c : public ::System::Object

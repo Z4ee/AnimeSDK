@@ -6,34 +6,34 @@ class Class_3_6D0592AEE1AF8169;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E35B10)
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E35B50)
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYJOINABPVP_B__78_0_OFFSET UNITYSDK_OFFSET(0x13E35C80)
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYJOINABPVP_B__78_1_OFFSET UNITYSDK_OFFSET(0x13E35C90)
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYSHOWRANKCHANGEDIALOG_B__31_0_OFFSET UNITYSDK_OFFSET(0x13E35B60)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B32200)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B32240)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYJOINABPVP_B__78_0_OFFSET UNITYSDK_OFFSET(0x15B32370)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYJOINABPVP_B__78_1_OFFSET UNITYSDK_OFFSET(0x15B32380)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__TRYSHOWRANKCHANGEDIALOG_B__31_0_OFFSET UNITYSDK_OFFSET(0x15B32250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePVPPageController___c_TypeDefinitionIndex = 44541;
+	inline static constexpr unsigned int UIAutoBattlePVPPageController___c_TypeDefinitionIndex = 51729;
 
 	class UIAutoBattlePVPPageController___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_3_6D0592AEE1AF8169*>** StaticGet___9__78_0()
+		{
+			return (::System::Action_1<::Class_3_6D0592AEE1AF8169*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x37870);
+		}
 		static ::System::Action** StaticGet___9__31_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x34DE0);
-		}
-		static ::MoleMole::UIAutoBattlePVPPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAutoBattlePVPPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x34DE8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x37878);
 		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__78_1()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x34DF0);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x37880);
 		}
-		static ::System::Action_1<::Class_3_6D0592AEE1AF8169*>** StaticGet___9__78_0()
+		static ::MoleMole::UIAutoBattlePVPPageController___c** StaticGet___9()
 		{
-			return (::System::Action_1<::Class_3_6D0592AEE1AF8169*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x34DF8);
+			return (::MoleMole::UIAutoBattlePVPPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePVPPageController___c_TypeDefinitionIndex)->GetStaticField(0x37888);
 		}
 
 		static ::System::Void _cctor()

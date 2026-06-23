@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BILIBILIGAMEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x194D1C30)
+#define MIHOYO_SDK_WIN_BILIBILIGAMEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EBB30)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliGameInfoModel_TypeDefinitionIndex = 19912;
+	inline static constexpr unsigned int BiliBiliGameInfoModel_TypeDefinitionIndex = 21075;
 
 	class BiliBiliGameInfoModel : public ::System::Object
 	{

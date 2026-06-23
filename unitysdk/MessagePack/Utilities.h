@@ -8,7 +8,7 @@ namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 27535;
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 29988;
 
 	class Utilities : public ::System::Object
 	{

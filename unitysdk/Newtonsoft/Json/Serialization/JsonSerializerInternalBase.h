@@ -12,23 +12,23 @@ namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> clas
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_CLEARERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B7061D0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_GETERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B706120)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_GET_DEFAULTREFERENCEMAPPINGS_OFFSET UNITYSDK_OFFSET(0x1B705D90)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_ISERRORHANDLED_OFFSET UNITYSDK_OFFSET(0x1B706240)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B706060)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_CLEARERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x1DB1D120)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_GETERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x1DB1D070)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_GET_DEFAULTREFERENCEMAPPINGS_OFFSET UNITYSDK_OFFSET(0x1DB1CCE0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE_ISERRORHANDLED_OFFSET UNITYSDK_OFFSET(0x1DB1D190)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1CFB0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalBase_TypeDefinitionIndex = 7004;
+	inline static constexpr unsigned int JsonSerializerInternalBase_TypeDefinitionIndex = 7135;
 
 	class JsonSerializerInternalBase : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Serialization::JsonSerializerProxy* InternalSerializer; // 0x10
+		::Newtonsoft::Json::JsonSerializer* Serializer; // 0x10
 		::Newtonsoft::Json::Serialization::ITraceWriter* TraceWriter; // 0x18
-		::Newtonsoft::Json::JsonSerializer* Serializer; // 0x20
-		::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::System::String*, ::System::Object*>* _mappings; // 0x28
+		::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::System::String*, ::System::Object*>* _mappings; // 0x20
+		::Newtonsoft::Json::Serialization::JsonSerializerProxy* InternalSerializer; // 0x28
 		::Newtonsoft::Json::Serialization::ErrorContext* _currentErrorContext; // 0x30
 
 		::System::Void _ctor(::Newtonsoft::Json::JsonSerializer* serializer)

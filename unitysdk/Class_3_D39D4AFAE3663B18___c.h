@@ -4,22 +4,22 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_3_D39D4AFAE3663B18___C_METHOD_1_50CCDD1FE0CC143C_OFFSET UNITYSDK_OFFSET(0x15B020A0)
-#define CLASS_3_D39D4AFAE3663B18___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B02050)
-#define CLASS_3_D39D4AFAE3663B18___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B02090)
+#define CLASS_3_D39D4AFAE3663B18___C_METHOD_1_50CCDD1FE0CC143C_OFFSET UNITYSDK_OFFSET(0xF9990F0)
+#define CLASS_3_D39D4AFAE3663B18___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF9990A0)
+#define CLASS_3_D39D4AFAE3663B18___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF9990E0)
 
-inline static constexpr unsigned int Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex = 52400;
+inline static constexpr unsigned int Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex = 50730;
 
 class Class_3_D39D4AFAE3663B18___c : public ::System::Object
 {
 public:
-	static ::Class_3_D39D4AFAE3663B18___c** StaticGet___9()
-	{
-		return (::Class_3_D39D4AFAE3663B18___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex)->GetStaticField(0x31720);
-	}
 	static ::System::Func_1<::System::Boolean>** StaticGet___9__6_5()
 	{
-		return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex)->GetStaticField(0x31728);
+		return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex)->GetStaticField(0x454A0);
+	}
+	static ::Class_3_D39D4AFAE3663B18___c** StaticGet___9()
+	{
+		return (::Class_3_D39D4AFAE3663B18___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D39D4AFAE3663B18___c_TypeDefinitionIndex)->GetStaticField(0x454A8);
 	}
 
 	static ::System::Void _cctor()

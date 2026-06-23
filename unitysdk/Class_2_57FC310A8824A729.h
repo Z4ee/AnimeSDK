@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIActivityCameraRemakeInfoDialogPopWindowController_Context; }
+namespace System { class String; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+
+#define CLASS_2_57FC310A8824A729_METHOD_2_06A8ABF1ADB7B194_OFFSET UNITYSDK_OFFSET(0x13404EA0)
+#define CLASS_2_57FC310A8824A729_METHOD_2_2BBB8D86B361713F_OFFSET UNITYSDK_OFFSET(0x13404EB0)
+#define CLASS_2_57FC310A8824A729_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x13404D90)
+#define CLASS_2_57FC310A8824A729_METHOD_2_BB4F9CE38883FF81_OFFSET UNITYSDK_OFFSET(0x13404990)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x13405080)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x13405110)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13404E10)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_1_OFFSET UNITYSDK_OFFSET(0x13404FA0)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_2_OFFSET UNITYSDK_OFFSET(0x134051A0)
+#define CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0x13404EC0)
+#define CLASS_2_57FC310A8824A729__CTOR_OFFSET UNITYSDK_OFFSET(0x13404E50)
+
+inline static constexpr unsigned int Class_2_57FC310A8824A729_TypeDefinitionIndex = 40249;
+
+class Class_2_57FC310A8824A729 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC419505_165<::System::String*>* Field_2_2; // 0x50
+	::Class_0_16E4307DCC419505_165<::System::String*>* Field_2_1; // 0x58
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIActivityCameraRemakeInfoDialogPopWindowController_Context*>* Field_2_3; // 0x60
+	::Class_0_16E4307DCC419505_165<::System::String*>* Field_2_0; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BB4F9CE38883FF81(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_BB4F9CE38883FF81_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIActivityCameraRemakeInfoDialogPopWindowController_Context*>* Method_2_06A8ABF1ADB7B194()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIActivityCameraRemakeInfoDialogPopWindowController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_06A8ABF1ADB7B194_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2BBB8D86B361713F(::Class_0_16E4307DCC419505_165<::MoleMole::UIActivityCameraRemakeInfoDialogPopWindowController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIActivityCameraRemakeInfoDialogPopWindowController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_2BBB8D86B361713F_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_2_CD5C08A2521794A0()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_OFFSET))(this);
+	}
+
+	::System::String* Method_2_CD5C08A2521794A0_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::String* Method_2_CD5C08A2521794A0_2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_57FC310A8824A729_METHOD_2_CD5C08A2521794A0_2_OFFSET))(this);
+	}
+};

@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace UnityEngine { class AssetBundle; }
 namespace UnityEngine { class AssetBundleCreateRequest; }
 
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1E3BE0)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1C1E3A50)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1C1E3A40)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C1E3AF0)
-#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E3A60)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E51ED50)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1E51EBC0)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1E51EBB0)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E51EC60)
+#define CRIWARE_CRIFSLOADASSETBUNDLEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E51EBD0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsLoadAssetBundleRequest_TypeDefinitionIndex = 32762;
+	inline static constexpr unsigned int CriFsLoadAssetBundleRequest_TypeDefinitionIndex = 34315;
 
 	class CriFsLoadAssetBundleRequest : public ::CriWare::CriFsRequest
 	{
 	public:
-		::UnityEngine::AssetBundle* _assetBundle_k__BackingField; // 0x38
-		::System::String* _path_k__BackingField; // 0x40
-		::CriWare::CriFsLoadFileRequest* loadFileReq; // 0x48
-		::UnityEngine::AssetBundleCreateRequest* assetBundleReq; // 0x50
+		::UnityEngine::AssetBundleCreateRequest* assetBundleReq; // 0x38
+		::CriWare::CriFsLoadFileRequest* loadFileReq; // 0x40
+		::UnityEngine::AssetBundle* _assetBundle_k__BackingField; // 0x48
+		::System::String* _path_k__BackingField; // 0x50
 
 		::System::Void _ctor(::CriWare::CriFsBinder* binder, ::System::String* path, ::System::Int32 readUnitSize)
 		{

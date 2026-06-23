@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x193DB270)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x193DB1E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8AAD30)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AACA0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderCore_ContinuationWrapper_TypeDefinitionIndex = 1382;
+	inline static constexpr unsigned int AsyncMethodBuilderCore_ContinuationWrapper_TypeDefinitionIndex = 1381;
 
 	class AsyncMethodBuilderCore_ContinuationWrapper : public ::System::Object
 	{

@@ -7,25 +7,25 @@ namespace DG::Tweening::Core { template <typename T> class DOGetter_1; }
 namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 namespace MoleMole { class UIGeneralTutorialTipsRowWidgetController; }
 
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__0_OFFSET UNITYSDK_OFFSET(0x149E7AB0)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__1_OFFSET UNITYSDK_OFFSET(0x149E7D50)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__2_OFFSET UNITYSDK_OFFSET(0x149E7D60)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__3_OFFSET UNITYSDK_OFFSET(0x149E7D70)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149E67B0)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__0_OFFSET UNITYSDK_OFFSET(0x16AA2870)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__1_OFFSET UNITYSDK_OFFSET(0x16AA2B10)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__2_OFFSET UNITYSDK_OFFSET(0x16AA2B20)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CLOSEWIDGETWITHFADE_B__3_OFFSET UNITYSDK_OFFSET(0x16AA2B30)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA1530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTutorialTipsRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 70278;
+	inline static constexpr unsigned int UIGeneralTutorialTipsRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 62547;
 
 	class UIGeneralTutorialTipsRowWidgetController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__2; // 0x10
-		::DG::Tweening::TweenCallback* __9__3; // 0x18
-		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__1; // 0x20
-		::MoleMole::UIGeneralTutorialTipsRowWidgetController* __4__this; // 0x28
-		::System::Single currentWidth; // 0x30
-		::System::Single length; // 0x34
+		::MoleMole::UIGeneralTutorialTipsRowWidgetController* __4__this; // 0x10
+		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__2; // 0x18
+		::DG::Tweening::TweenCallback* __9__3; // 0x20
+		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__1; // 0x28
+		::System::Single length; // 0x30
+		::System::Single currentWidth; // 0x34
 
 		::System::Void _ctor()
 		{

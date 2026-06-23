@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_ONINSPECTORDISPOSEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0207E0)
-#define SIRENIX_ODININSPECTOR_ONINSPECTORDISPOSEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0207D0)
+#define SIRENIX_ODININSPECTOR_ONINSPECTORDISPOSEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E329AE0)
+#define SIRENIX_ODININSPECTOR_ONINSPECTORDISPOSEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329AD0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int OnInspectorDisposeAttribute_TypeDefinitionIndex = 7201;
+	inline static constexpr unsigned int OnInspectorDisposeAttribute_TypeDefinitionIndex = 7332;
 
 	class OnInspectorDisposeAttribute : public ::Sirenix::OdinInspector::ShowInInspectorAttribute
 	{

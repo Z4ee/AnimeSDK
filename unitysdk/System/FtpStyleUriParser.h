@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_FTPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E2460)
+#define SYSTEM_FTPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF5F70)
 
 namespace System
 {
-	inline static constexpr unsigned int FtpStyleUriParser_TypeDefinitionIndex = 2681;
+	inline static constexpr unsigned int FtpStyleUriParser_TypeDefinitionIndex = 2680;
 
 	class FtpStyleUriParser : public ::System::UriParser
 	{

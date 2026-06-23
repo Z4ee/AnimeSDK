@@ -6,29 +6,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B38C220)
-#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C260)
-#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__GET_ONANYBUTTONPRESS_B__79_0_OFFSET UNITYSDK_OFFSET(0x1B38C270)
-#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__GET_ONANYBUTTONPRESS_B__79_1_OFFSET UNITYSDK_OFFSET(0x1B38C290)
+#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7545C0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D754600)
+#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__GET_ONANYBUTTONPRESS_B__79_0_OFFSET UNITYSDK_OFFSET(0x1D754610)
+#define UNITYENGINE_INPUTSYSTEM_INPUTSYSTEM___C__GET_ONANYBUTTONPRESS_B__79_1_OFFSET UNITYSDK_OFFSET(0x1D754630)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputSystem___c_TypeDefinitionIndex = 28946;
+	inline static constexpr unsigned int InputSystem___c_TypeDefinitionIndex = 31602;
 
 	class InputSystem___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::System::Boolean>** StaticGet___9__79_1()
+		{
+			return (::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x25F30);
+		}
 		static ::UnityEngine::InputSystem::InputSystem___c** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputSystem___c**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x221A0);
+			return (::UnityEngine::InputSystem::InputSystem___c**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x25F38);
 		}
 		static ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputControl*>** StaticGet___9__79_0()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputControl*>**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x221A8);
-		}
-		static ::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::System::Boolean>** StaticGet___9__79_1()
-		{
-			return (::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x221B0);
+			return (::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputControl*>**)Il2CppClass::FromTypeDefinitionIndex(InputSystem___c_TypeDefinitionIndex)->GetStaticField(0x25F40);
 		}
 
 		static ::System::Void _cctor()

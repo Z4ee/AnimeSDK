@@ -3,7 +3,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int IViewObjectEntityBuilderComponent_TypeDefinitionIndex = 65449;
+	inline static constexpr unsigned int IViewObjectEntityBuilderComponent_TypeDefinitionIndex = 83082;
 
 	class IViewObjectEntityBuilderComponent
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_588_TypeDefinitionIndex = 78547;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_588_TypeDefinitionIndex = 60785;
 
 class Class_0_16E4307DCC419505_588
 {

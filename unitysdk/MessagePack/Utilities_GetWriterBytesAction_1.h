@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_GetWriterBytesAction_1_TypeDefinitionIndex = 27536;
+	inline static constexpr unsigned int Utilities_GetWriterBytesAction_1_TypeDefinitionIndex = 29989;
 
 	template <typename TArg>
 	class Utilities_GetWriterBytesAction_1 : public ::System::MulticastDelegate

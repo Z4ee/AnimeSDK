@@ -3,27 +3,27 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_4_FFDCB461A077D183;
+class Class_4_C2BA23F5AA27FA67;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_SETALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1236C110)
-#define MOLEMOLE_SETALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1236BF10)
-#define MOLEMOLE_SETALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1236C060)
-#define MOLEMOLE_SETALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1236C160)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1236C1F0)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1236C280)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1236C310)
+#define MOLEMOLE_SETALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13F21D30)
+#define MOLEMOLE_SETALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13F21B40)
+#define MOLEMOLE_SETALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13F21C80)
+#define MOLEMOLE_SETALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13F21D80)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13F21E10)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13F21EA0)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13F21F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetAlertValue_TypeDefinitionIndex = 48728;
+	inline static constexpr unsigned int SetAlertValue_TypeDefinitionIndex = 74766;
 
 	class SetAlertValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* TargetSharedValue; // 0x58
-		::Class_4_FFDCB461A077D183* _enterBattleComponent; // 0x60
+		::Class_4_C2BA23F5AA27FA67* _enterBattleComponent; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* TargetSharedValue; // 0x60
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
 
 		::System::Void _ctor()

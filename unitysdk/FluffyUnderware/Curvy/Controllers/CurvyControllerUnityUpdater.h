@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FluffyUnderware/Curvy/CurvyUpdateMethod.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace FluffyUnderware::Curvy::Controllers { class CurvyController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_APPLYHIDEFLAGS_OFFSET UNITYSDK_OFFSET(0x1E0D3C00)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E0D3BF0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_DETACH_OFFSET UNITYSDK_OFFSET(0x1E0D4010)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1E0D44D0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_GET_HASTRACKEDCONTROLLERS_OFFSET UNITYSDK_OFFSET(0x1E0D4520)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E0D3C30)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E0D4490)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1E0D3C20)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_REMOVEDESTROYEDREFERENCES_OFFSET UNITYSDK_OFFSET(0x1E0D3DC0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_RESET_OFFSET UNITYSDK_OFFSET(0x1E0D3C10)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_SHOULDRUNFORSTAGE_OFFSET UNITYSDK_OFFSET(0x1E0D44E0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_TICK_OFFSET UNITYSDK_OFFSET(0x1E0D4180)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E0D4170)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D4540)
+
+namespace FluffyUnderware::Curvy::Controllers
+{
+	inline static constexpr unsigned int CurvyControllerUnityUpdater_TypeDefinitionIndex = 38785;
+
+	class CurvyControllerUnityUpdater : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Collections::Generic::List_1<::FluffyUnderware::Curvy::Controllers::CurvyController*>* trackedControllers; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_RESET_OFFSET))(this);
+		}
+
+		::System::Void OnValidate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_ONVALIDATE_OFFSET))(this);
+		}
+
+		::System::Void Initialize(::FluffyUnderware::Curvy::Controllers::CurvyController* controller)
+		{
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::Controllers::CurvyController*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_INITIALIZE_OFFSET))(this, controller);
+		}
+
+		::System::Void Detach(::FluffyUnderware::Curvy::Controllers::CurvyController* controller)
+		{
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::Controllers::CurvyController*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_DETACH_OFFSET))(this, controller);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void FixedUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_FIXEDUPDATE_OFFSET))(this);
+		}
+
+		::System::Void Tick(::FluffyUnderware::Curvy::CurvyUpdateMethod stage)
+		{
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvyUpdateMethod))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_TICK_OFFSET))(this, stage);
+		}
+
+		static ::System::Boolean ShouldRunForStage(::FluffyUnderware::Curvy::Controllers::CurvyController* controller, ::FluffyUnderware::Curvy::CurvyUpdateMethod stage)
+		{
+			return ((::System::Boolean(*)(::FluffyUnderware::Curvy::Controllers::CurvyController*, ::FluffyUnderware::Curvy::CurvyUpdateMethod))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_SHOULDRUNFORSTAGE_OFFSET))(controller, stage);
+		}
+
+		::System::Boolean get_HasTrackedControllers()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_GET_HASTRACKEDCONTROLLERS_OFFSET))(this);
+		}
+
+		::System::Void RemoveDestroyedReferences()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_REMOVEDESTROYEDREFERENCES_OFFSET))(this);
+		}
+
+		::System::Void ApplyHideFlags()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLERUNITYUPDATER_APPLYHIDEFLAGS_OFFSET))(this);
+		}
+	};
+}

@@ -7,11 +7,11 @@ namespace MoleMole::HollowChessboard { class EffectRoleConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLETABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17813240)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLETABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x182F1E00)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int EffectRoleTableConfig_TypeDefinitionIndex = 68634;
+	inline static constexpr unsigned int EffectRoleTableConfig_TypeDefinitionIndex = 43180;
 
 	class EffectRoleTableConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

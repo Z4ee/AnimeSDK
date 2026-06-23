@@ -6,64 +6,64 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B88A30)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B88A70)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__KICKPLAYER_B__29_1_OFFSET UNITYSDK_OFFSET(0x14B88A80)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONADDBUTTONCLICK_B__83_1_OFFSET UNITYSDK_OFFSET(0x14B88AB0)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONLOCKINBATTLEBUTTONCLICK_B__85_1_OFFSET UNITYSDK_OFFSET(0x14B88B10)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONMPBACKBTNCLICK_B__37_1_OFFSET UNITYSDK_OFFSET(0x14B88A90)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONTOGGLENOREWARDMODEBTN_B__138_1_OFFSET UNITYSDK_OFFSET(0x14B88B40)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__REALGO_B__124_1_OFFSET UNITYSDK_OFFSET(0x14B88B30)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__SHOWNEEDAVATAR_B__122_0_OFFSET UNITYSDK_OFFSET(0x14B88B20)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__TRYQUICK_B__40_1_OFFSET UNITYSDK_OFFSET(0x14B88AA0)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__TRYTOSENDSTORYMODEFIRSTVISIBLEREQUEST_B__142_0_OFFSET UNITYSDK_OFFSET(0x14B88B50)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C331C0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C33200)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__KICKPLAYER_B__29_1_OFFSET UNITYSDK_OFFSET(0x14C33210)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONADDBUTTONCLICK_B__83_1_OFFSET UNITYSDK_OFFSET(0x14C33240)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONLOCKINBATTLEBUTTONCLICK_B__85_1_OFFSET UNITYSDK_OFFSET(0x14C332A0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONMPBACKBTNCLICK_B__37_1_OFFSET UNITYSDK_OFFSET(0x14C33220)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__ONTOGGLENOREWARDMODEBTN_B__138_1_OFFSET UNITYSDK_OFFSET(0x14C332D0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__REALGO_B__124_1_OFFSET UNITYSDK_OFFSET(0x14C332C0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__SHOWNEEDAVATAR_B__122_0_OFFSET UNITYSDK_OFFSET(0x14C332B0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__TRYQUICK_B__40_1_OFFSET UNITYSDK_OFFSET(0x14C33230)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__TRYTOSENDSTORYMODEFIRSTVISIBLEREQUEST_B__142_0_OFFSET UNITYSDK_OFFSET(0x14C332E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectPageController___c_TypeDefinitionIndex = 56018;
+	inline static constexpr unsigned int UILineupSelectPageController___c_TypeDefinitionIndex = 79046;
 
 	class UILineupSelectPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__85_1()
+		static ::System::Action** StaticGet___9__122_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF10);
-		}
-		static ::System::Action** StaticGet___9__124_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF18);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x414F0);
 		}
 		static ::System::Action** StaticGet___9__138_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF20);
-		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__83_1()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF28);
-		}
-		static ::System::Action** StaticGet___9__122_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF30);
-		}
-		static ::System::Action** StaticGet___9__142_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF38);
-		}
-		static ::MoleMole::UILineupSelectPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UILineupSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF40);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x414F8);
 		}
 		static ::System::Action** StaticGet___9__37_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF48);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41500);
+		}
+		static ::System::Action** StaticGet___9__142_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41508);
+		}
+		static ::MoleMole::UILineupSelectPageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UILineupSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41510);
+		}
+		static ::System::Action** StaticGet___9__85_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41518);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__83_1()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41520);
 		}
 		static ::System::Action** StaticGet___9__40_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF50);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41528);
 		}
 		static ::System::Action** StaticGet___9__29_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF58);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41530);
+		}
+		static ::System::Action** StaticGet___9__124_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x41538);
 		}
 
 		static ::System::Void _cctor()

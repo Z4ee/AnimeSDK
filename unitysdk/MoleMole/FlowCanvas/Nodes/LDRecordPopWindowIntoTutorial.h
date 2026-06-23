@@ -7,19 +7,19 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D3E750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_START_OFFSET UNITYSDK_OFFSET(0x16D3E840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3EAB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12613020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_START_OFFSET UNITYSDK_OFFSET(0x12613110)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x12613380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRecordPopWindowIntoTutorial_TypeDefinitionIndex = 39515;
+	inline static constexpr unsigned int LDRecordPopWindowIntoTutorial_TypeDefinitionIndex = 83795;
 
 	class LDRecordPopWindowIntoTutorial : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Int32>*>* _popIDs; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Int32>*>* _popIDs; // 0xB0
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int PerformanceCounterInstanceLifetime_TypeDefinitionIndex = 4181;
+	inline static constexpr unsigned int PerformanceCounterInstanceLifetime_TypeDefinitionIndex = 4180;
 
 	enum class PerformanceCounterInstanceLifetime : ::System::Int32
 	{

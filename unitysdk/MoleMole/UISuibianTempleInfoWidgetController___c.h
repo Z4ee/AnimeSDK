@@ -6,34 +6,34 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E8EDD0)
-#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8EE10)
-#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__GOINGEXPEDITION_B__38_0_OFFSET UNITYSDK_OFFSET(0x12E8EE90)
-#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__GOINGEXPEDITION_B__38_2_OFFSET UNITYSDK_OFFSET(0x12E8EEA0)
-#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__UPDATETIME_B__32_0_OFFSET UNITYSDK_OFFSET(0x12E8EE20)
+#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C36FA0)
+#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C36FE0)
+#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__GOINGEXPEDITION_B__38_0_OFFSET UNITYSDK_OFFSET(0x15C37060)
+#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__GOINGEXPEDITION_B__38_2_OFFSET UNITYSDK_OFFSET(0x15C37070)
+#define MOLEMOLE_UISUIBIANTEMPLEINFOWIDGETCONTROLLER___C__UPDATETIME_B__32_0_OFFSET UNITYSDK_OFFSET(0x15C36FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex = 49579;
+	inline static constexpr unsigned int UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex = 44451;
 
 	class UISuibianTempleInfoWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UISuibianTempleInfoWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEF0);
+			return (::MoleMole::UISuibianTempleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F580);
 		}
 		static ::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>** StaticGet___9__32_0()
 		{
-			return (::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEF8);
-		}
-		static ::System::Action** StaticGet___9__38_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF00);
+			return (::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F588);
 		}
 		static ::System::Action** StaticGet___9__38_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF08);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F590);
+		}
+		static ::System::Action** StaticGet___9__38_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F598);
 		}
 
 		static ::System::Void _cctor()

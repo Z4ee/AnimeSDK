@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1243CDD0)
+#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA76AD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkillTypeToAttackTagsConfig_TypeDefinitionIndex = 53138;
+	inline static constexpr unsigned int SkillTypeToAttackTagsConfig_TypeDefinitionIndex = 65129;
 
 	class SkillTypeToAttackTagsConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

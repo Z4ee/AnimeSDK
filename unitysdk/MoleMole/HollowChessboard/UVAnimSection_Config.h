@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1233DCC0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EF0C00)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int UVAnimSection_Config_TypeDefinitionIndex = 40851;
+	inline static constexpr unsigned int UVAnimSection_Config_TypeDefinitionIndex = 54748;
 
 	class UVAnimSection_Config : public ::System::Object
 	{

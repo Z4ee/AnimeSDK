@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO_PATHSTATEOVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D83B90)
+#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO_PATHSTATEOVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11360880)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPGraphDataStateAssetSO_PathStateOverrideData_TypeDefinitionIndex = 78374;
+	inline static constexpr unsigned int WPGraphDataStateAssetSO_PathStateOverrideData_TypeDefinitionIndex = 50634;
 
 	class WPGraphDataStateAssetSO_PathStateOverrideData : public ::System::Object
 	{

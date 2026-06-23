@@ -5,10 +5,10 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 
-#define NPCCROWDANIMATIONUTILITY_RESIZETRANSFORMACCESSARRAY_OFFSET UNITYSDK_OFFSET(0xCE755D0)
-#define NPCCROWDANIMATIONUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xCE75760)
+#define NPCCROWDANIMATIONUTILITY_RESIZETRANSFORMACCESSARRAY_OFFSET UNITYSDK_OFFSET(0x127485C0)
+#define NPCCROWDANIMATIONUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x12748750)
 
-inline static constexpr unsigned int NPCCrowdAnimationUtility_TypeDefinitionIndex = 70722;
+inline static constexpr unsigned int NPCCrowdAnimationUtility_TypeDefinitionIndex = 52866;
 
 class NPCCrowdAnimationUtility : public ::System::Object
 {

@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_A40193274BE16FFE_TypeDefinitionIndex = 52048;
+inline static constexpr unsigned int Struct_2_A40193274BE16FFE_TypeDefinitionIndex = 75636;
 
 struct alignas(8) Struct_2_A40193274BE16FFE
 {

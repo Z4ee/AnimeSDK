@@ -12,51 +12,51 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1BABD9C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_BEGINCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1BABDF90)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1BABDED0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_OFFSET_OFFSET UNITYSDK_OFFSET(0x1BABDE10)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_PIVOTLOCATION_OFFSET UNITYSDK_OFFSET(0x1BABDB60)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_RADIUS_OFFSET UNITYSDK_OFFSET(0x1BABDD50)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_ROTATION_OFFSET UNITYSDK_OFFSET(0x1BABDC60)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BABC760)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1BABD910)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1BABD920)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BABE0B0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABE0A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1BABE1F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1BABE2E0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1DE218D0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_BEGINCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1DE21EA0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1DE21DE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_OFFSET_OFFSET UNITYSDK_OFFSET(0x1DE21D20)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_PIVOTLOCATION_OFFSET UNITYSDK_OFFSET(0x1DE21A70)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_RADIUS_OFFSET UNITYSDK_OFFSET(0x1DE21C60)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_FETCH_ROTATION_OFFSET UNITYSDK_OFFSET(0x1DE21B70)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DE20670)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1DE21820)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1DE21830)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE21FC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE21FB0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1DE22100)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINCOREPOLICY_FREEZE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1DE221F0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FixedInCorePolicy_Freeze_TypeDefinitionIndex = 36286;
+	inline static constexpr unsigned int FixedInCorePolicy_Freeze_TypeDefinitionIndex = 37894;
 
 	class FixedInCorePolicy_Freeze : public ::PipelineCamera::CameraSequence::FixedInCorePolicy
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_radius()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8530);
-		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_BeginCameraData()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8538);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x89F0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_pivotLocation()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_radius()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8540);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x89F8);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8548);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8A00);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_offset()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8550);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8A08);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_rotation()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8558);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8A10);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_pivotLocation()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInCorePolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8A18);
 		}
 		::PipelineCamera::WorldBasicCameraData BeginCameraData; // 0x40
 		::UnityEngine::Vector3 pivotLocation; // 0x6C

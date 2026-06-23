@@ -9,26 +9,26 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_12D0168415E134E2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15491D50)
-#define CLASS_2_12D0168415E134E2_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x15491BB0)
-#define CLASS_2_12D0168415E134E2__CTOR_OFFSET UNITYSDK_OFFSET(0x15491D40)
+#define CLASS_2_12D0168415E134E2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15493C40)
+#define CLASS_2_12D0168415E134E2_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x15493AA0)
+#define CLASS_2_12D0168415E134E2__CTOR_OFFSET UNITYSDK_OFFSET(0x15493C30)
 
-inline static constexpr unsigned int Class_2_12D0168415E134E2_TypeDefinitionIndex = 51702;
+inline static constexpr unsigned int Class_2_12D0168415E134E2_TypeDefinitionIndex = 46371;
 
 class Class_2_12D0168415E134E2 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_5; // 0x18
-	::UnityEngine::RectTransform* Field_2_7; // 0x20
-	::UnityEngine::RectTransform* Field_2_2; // 0x28
-	::UnityEngine::Animation* Field_2_0; // 0x30
-	::UnityEngine::CanvasGroup* Field_2_1; // 0x38
-	::UnityEngine::RectTransform* Field_2_6; // 0x40
-	::UnityEngine::RectTransform* Field_2_8; // 0x48
-	::UnityEngine::RectTransform* Field_2_9; // 0x50
-	::UnityEngine::GameObject* Field_2_3; // 0x58
-	::UnityEngine::RectTransform* Field_2_10; // 0x60
-	::UnityEngine::RectTransform* Field_2_4; // 0x68
+	::UnityEngine::RectTransform* Field_2_9; // 0x18
+	::UnityEngine::GameObject* Field_2_3; // 0x20
+	::UnityEngine::RectTransform* Field_2_8; // 0x28
+	::UnityEngine::RectTransform* Field_2_4; // 0x30
+	::UnityEngine::RectTransform* Field_2_6; // 0x38
+	::UnityEngine::CanvasGroup* Field_2_1; // 0x40
+	::UnityEngine::RectTransform* Field_2_2; // 0x48
+	::UnityEngine::RectTransform* Field_2_5; // 0x50
+	::UnityEngine::RectTransform* Field_2_10; // 0x58
+	::UnityEngine::Animation* Field_2_0; // 0x60
+	::UnityEngine::RectTransform* Field_2_7; // 0x68
 
 	::System::Void _ctor()
 	{

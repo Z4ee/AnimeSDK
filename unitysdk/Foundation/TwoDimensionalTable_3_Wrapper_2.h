@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TwoDimensionalTable_3_Wrapper_2_TypeDefinitionIndex = 7749;
+	inline static constexpr unsigned int TwoDimensionalTable_3_Wrapper_2_TypeDefinitionIndex = 7880;
 
 	template <typename TX, typename TY, typename V, typename TY, typename V>
 	class TwoDimensionalTable_3_Wrapper_2 : public ::System::Object

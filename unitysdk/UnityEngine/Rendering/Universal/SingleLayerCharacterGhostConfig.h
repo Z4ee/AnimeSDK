@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIG_TOVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x94DC60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIG_TOVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x9ED4B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SingleLayerCharacterGhostConfig_TypeDefinitionIndex = 30162;
+	inline static constexpr unsigned int SingleLayerCharacterGhostConfig_TypeDefinitionIndex = 26349;
 
 	struct alignas(4) SingleLayerCharacterGhostConfig
 	{

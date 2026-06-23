@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONPROXY_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB0EE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONPROXY_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D427390)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PlanarReflectionProxy_NativeSRP_TypeDefinitionIndex = 6000;
+	inline static constexpr unsigned int PlanarReflectionProxy_NativeSRP_TypeDefinitionIndex = 6010;
 
 	class PlanarReflectionProxy_NativeSRP : public ::UnityEngine::MonoBehaviour
 	{

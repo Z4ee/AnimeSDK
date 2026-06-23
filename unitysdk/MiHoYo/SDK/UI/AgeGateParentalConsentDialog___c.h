@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A359C60)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A359CA0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1A359CB0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C580D00)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C580D40)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1C580D50)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDialog___c_TypeDefinitionIndex = 19231;
+	inline static constexpr unsigned int AgeGateParentalConsentDialog___c_TypeDefinitionIndex = 20141;
 
 	class AgeGateParentalConsentDialog___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0xAFF0);
+			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0xB360);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>** StaticGet___9__45_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0xAFF8);
+			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0xB368);
 		}
 
 		static ::System::Void _cctor()

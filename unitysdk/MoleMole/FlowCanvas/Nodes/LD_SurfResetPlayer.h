@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFRESETPLAYER_INVOKE_OFFSET UNITYSDK_OFFSET(0x15423360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFRESETPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x15423420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFRESETPLAYER_INVOKE_OFFSET UNITYSDK_OFFSET(0x161EE760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFRESETPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x161EE820)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfResetPlayer_TypeDefinitionIndex = 56941;
+	inline static constexpr unsigned int LD_SurfResetPlayer_TypeDefinitionIndex = 67019;
 
 	class LD_SurfResetPlayer : public ::FlowCanvas::Nodes::CallableActionNode
 	{

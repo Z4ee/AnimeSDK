@@ -4,11 +4,11 @@
 
 namespace miHoYoEmotion { class PhonemeShapeListWrapper; }
 
-#define MIHOYOEMOTION_EMOTIONGROUPEDPHONEMES__CTOR_OFFSET UNITYSDK_OFFSET(0x19791BB0)
+#define MIHOYOEMOTION_EMOTIONGROUPEDPHONEMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFE690)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EmotionGroupedPhonemes_TypeDefinitionIndex = 37751;
+	inline static constexpr unsigned int EmotionGroupedPhonemes_TypeDefinitionIndex = 39388;
 
 	class EmotionGroupedPhonemes : public ::miHoYoEmotion::SerializableDictionary_2<::System::Int32, ::miHoYoEmotion::PhonemeShapeListWrapper*>
 	{

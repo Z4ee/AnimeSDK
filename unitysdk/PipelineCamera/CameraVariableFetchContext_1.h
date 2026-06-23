@@ -5,7 +5,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraVariableFetchContext_1_TypeDefinitionIndex = 35932;
+	inline static constexpr unsigned int CameraVariableFetchContext_1_TypeDefinitionIndex = 37540;
 
 	template <typename T>
 	struct CameraVariableFetchContext_1

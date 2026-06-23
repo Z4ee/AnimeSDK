@@ -11,30 +11,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16A9DA20)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16A9DA30)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16A9DCD0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9DEC0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9DE80)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x158B6C50)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x158B6C60)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x158B6F00)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x158B70F0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_WHEN_CONFIGSOUNDACTION_WHEN_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x158B70B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex = 79255;
+	inline static constexpr unsigned int ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex = 83773;
 
 	class ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_When*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31FF0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ISoundActionTriggerCondition*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ISoundActionTriggerCondition*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31FF8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33EF0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32000);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33EF8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ISoundActionTriggerCondition*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ISoundActionTriggerCondition*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_When_ConfigSoundAction_When_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33F00);
 		}
 
 		::System::Void _ctor()

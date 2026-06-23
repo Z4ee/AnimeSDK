@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpSysSettings_TypeDefinitionIndex = 3487;
+	inline static constexpr unsigned int HttpSysSettings_TypeDefinitionIndex = 3486;
 
 	class HttpSysSettings : public ::System::Object
 	{

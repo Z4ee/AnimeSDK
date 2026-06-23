@@ -3,13 +3,13 @@
 #include "unitysdk/NPCCrowd/Animation/FAnimationClipInfo.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_HASROOTMOTION_OFFSET UNITYSDK_OFFSET(0x687DD0)
-#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_ISCLIPLOOPING_OFFSET UNITYSDK_OFFSET(0x687E70)
-#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_ISLOOPDISABLED_OFFSET UNITYSDK_OFFSET(0x687E20)
+#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_HASROOTMOTION_OFFSET UNITYSDK_OFFSET(0x4122B0)
+#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_ISCLIPLOOPING_OFFSET UNITYSDK_OFFSET(0x412350)
+#define NPCCROWD_ANIMATION_GPUIANIMATIONCLIPDATA_ISLOOPDISABLED_OFFSET UNITYSDK_OFFSET(0x412300)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUIAnimationClipData_TypeDefinitionIndex = 54906;
+	inline static constexpr unsigned int GPUIAnimationClipData_TypeDefinitionIndex = 50323;
 
 	struct alignas(8) GPUIAnimationClipData
 	{
@@ -21,6 +21,8 @@ namespace NPCCrowd::Animation
 		::System::Int32 isLoopDisabled; // 0x24
 		::System::Int32 isClipLooping; // 0x28
 		::NPCCrowd::Animation::FAnimationClipInfo clipInfo; // 0x30
+		::System::Int32 clipTextureWidth; // 0x40
+		::System::Int32 clipTextureHeight; // 0x44
 
 		::System::Boolean HasRootMotion()
 		{

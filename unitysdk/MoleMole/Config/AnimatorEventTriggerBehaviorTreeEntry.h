@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERBEHAVIORTREEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12D25450)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERBEHAVIORTREEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12D254D0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERBEHAVIORTREEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12B237A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERBEHAVIORTREEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B23820)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventTriggerBehaviorTreeEntry_TypeDefinitionIndex = 63205;
+	inline static constexpr unsigned int AnimatorEventTriggerBehaviorTreeEntry_TypeDefinitionIndex = 56906;
 
 	class AnimatorEventTriggerBehaviorTreeEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

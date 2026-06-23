@@ -3,12 +3,12 @@
 #include "unitysdk/Microsoft/Win32/SessionSwitchReason.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define MICROSOFT_WIN32_SESSIONSWITCHEVENTARGS_GET_REASON_OFFSET UNITYSDK_OFFSET(0x19AD5EC0)
-#define MICROSOFT_WIN32_SESSIONSWITCHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD5E80)
+#define MICROSOFT_WIN32_SESSIONSWITCHEVENTARGS_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1C003300)
+#define MICROSOFT_WIN32_SESSIONSWITCHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0032C0)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int SessionSwitchEventArgs_TypeDefinitionIndex = 4302;
+	inline static constexpr unsigned int SessionSwitchEventArgs_TypeDefinitionIndex = 4301;
 
 	class SessionSwitchEventArgs : public ::System::EventArgs
 	{

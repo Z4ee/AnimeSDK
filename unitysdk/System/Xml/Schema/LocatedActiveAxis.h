@@ -5,12 +5,12 @@
 namespace System::Xml::Schema { class Asttree; }
 namespace System::Xml::Schema { class KeySequence; }
 
-#define SYSTEM_XML_SCHEMA_LOCATEDACTIVEAXIS_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1AD5FC60)
-#define SYSTEM_XML_SCHEMA_LOCATEDACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5FC30)
+#define SYSTEM_XML_SCHEMA_LOCATEDACTIVEAXIS_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1D172C80)
+#define SYSTEM_XML_SCHEMA_LOCATEDACTIVEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D172C50)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int LocatedActiveAxis_TypeDefinitionIndex = 1954;
+	inline static constexpr unsigned int LocatedActiveAxis_TypeDefinitionIndex = 1953;
 
 	class LocatedActiveAxis : public ::System::Xml::Schema::ActiveAxis
 	{

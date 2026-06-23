@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraLocationMotionChannel_TypeDefinitionIndex = 36035;
+	inline static constexpr unsigned int CameraLocationMotionChannel_TypeDefinitionIndex = 37643;
 
 	enum class CameraLocationMotionChannel : ::System::Int32
 	{

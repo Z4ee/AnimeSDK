@@ -3,7 +3,7 @@
 
 namespace System::CodeDom::Compiler
 {
-	inline static constexpr unsigned int LanguageOptions_TypeDefinitionIndex = 4028;
+	inline static constexpr unsigned int LanguageOptions_TypeDefinitionIndex = 4027;
 
 	enum class LanguageOptions : ::System::Int32
 	{

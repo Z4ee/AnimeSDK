@@ -1,22 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
-template <typename T> class Class_0_16E4307DCC41950C_13;
+template <typename T> class Class_0_16E4307DCC419505_165;
 
-#define CLASS_2_4B9EFC6AA779DF8D_2_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x11DD7140)
-#define CLASS_2_4B9EFC6AA779DF8D_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11DD7230)
+#define CLASS_2_4B9EFC6AA779DF8D_2_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x139E9850)
+#define CLASS_2_4B9EFC6AA779DF8D_2__CTOR_OFFSET UNITYSDK_OFFSET(0x139E98D0)
 
-inline static constexpr unsigned int Class_2_4B9EFC6AA779DF8D_2_TypeDefinitionIndex = 55387;
+inline static constexpr unsigned int Class_2_4B9EFC6AA779DF8D_2_TypeDefinitionIndex = 72663;
 
-class Class_2_4B9EFC6AA779DF8D_2 : public ::Class_1_F4299CC27263318B
+class Class_2_4B9EFC6AA779DF8D_2 : public ::Class_1_C331A5DC726F030A
 {
 public:
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_3; // 0x70
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_1; // 0x78
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_2; // 0x80
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_0; // 0x88
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_4; // 0x90
+	::Class_0_16E4307DCC419505_165<::System::Boolean>* Field_2_0; // 0x60
 
 	::System::Void _ctor()
 	{

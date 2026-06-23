@@ -1,9 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F448758FAF3F7C96.h"
+#include "unitysdk/Class_1_534AF681CC2BD5FD_280_Struct_2_04E70A334141E591.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_280_TypeDefinitionIndex = 47520;
+class Class_1_9465CC52E1CFB15A;
+class Class_1_B7E341C5F1A6F199;
+class Class_1_D9E0C80DACE89226;
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_280_TypeDefinitionIndex = 53248;
 
 class Class_1_534AF681CC2BD5FD_280 : public ::System::Object
 {

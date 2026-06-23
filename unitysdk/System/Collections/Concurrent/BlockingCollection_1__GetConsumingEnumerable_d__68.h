@@ -10,7 +10,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int BlockingCollection_1__GetConsumingEnumerable_d__68_TypeDefinitionIndex = 4005;
+	inline static constexpr unsigned int BlockingCollection_1__GetConsumingEnumerable_d__68_TypeDefinitionIndex = 4004;
 
 	template <typename T>
 	class BlockingCollection_1__GetConsumingEnumerable_d__68 : public ::System::Object

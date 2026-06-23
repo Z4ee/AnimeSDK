@@ -11,31 +11,31 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x19D38DE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x19D38D90)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19D38DC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x19D38DB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19D38DD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x19D38C50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x19D38CF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D38F40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x1C16F9C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1C16F970)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C16F9A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1C16F990)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C16F9B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1C16F830)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1C16F8D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16FB20)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2121;
+	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2120;
 
 	class XmlSchemaAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x50
+		::System::String* defaultValue; // 0x50
 		::System::Xml::XmlQualifiedName* typeName; // 0x58
 		::System::String* name; // 0x60
-		::System::String* fixedValue; // 0x68
-		::System::String* defaultValue; // 0x70
-		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x78
-		::System::Xml::XmlQualifiedName* qualifiedName; // 0x80
-		::System::Xml::Schema::SchemaAttDef* attDef; // 0x88
-		::System::Xml::XmlQualifiedName* refName; // 0x90
+		::System::Xml::XmlQualifiedName* qualifiedName; // 0x68
+		::System::String* fixedValue; // 0x70
+		::System::Xml::Schema::SchemaAttDef* attDef; // 0x78
+		::System::Xml::XmlQualifiedName* refName; // 0x80
+		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x88
+		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x90
 		::System::Xml::Schema::XmlSchemaUse use; // 0x98
 		::System::Xml::Schema::XmlSchemaForm form; // 0x9C
 

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_GLOBALIZATION_UNICODE_TAILORINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18C4DA90)
+#define MONO_GLOBALIZATION_UNICODE_TAILORINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE37FF0)
 
 namespace Mono::Globalization::Unicode
 {

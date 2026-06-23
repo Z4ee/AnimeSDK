@@ -4,11 +4,11 @@
 
 namespace MoleMole { class MonoUICurveData; }
 
-#define MOLEMOLE_MONOUICURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAA170)
+#define MOLEMOLE_MONOUICURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12649020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUICurveConfig_TypeDefinitionIndex = 74643;
+	inline static constexpr unsigned int MonoUICurveConfig_TypeDefinitionIndex = 61230;
 
 	class MonoUICurveConfig : public ::UnityEngine::MonoBehaviour
 	{

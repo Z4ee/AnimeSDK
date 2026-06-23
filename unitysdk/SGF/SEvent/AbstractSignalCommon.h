@@ -4,27 +4,27 @@
 #include "unitysdk/SGF/SEvent/AbstractSignalCommon_SCustomDebugName.h"
 #include "unitysdk/System/Object.h"
 
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GETLISTENERCOUNT_OFFSET UNITYSDK_OFFSET(0x1C011940)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1C011980)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_HASLISTENER_OFFSET UNITYSDK_OFFSET(0x1C011930)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET__METHODS_OFFSET UNITYSDK_OFFSET(0x1C0119A0)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1C011990)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET__METHODS_OFFSET UNITYSDK_OFFSET(0x1C011A30)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x1C011A40)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GETLISTENERCOUNT_OFFSET UNITYSDK_OFFSET(0x1E1F1870)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1E1F18B0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_HASLISTENER_OFFSET UNITYSDK_OFFSET(0x1E1F1860)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET__METHODS_OFFSET UNITYSDK_OFFSET(0x1E1F18D0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1E1F18C0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET__METHODS_OFFSET UNITYSDK_OFFSET(0x1E1F1960)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F1970)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int AbstractSignalCommon_TypeDefinitionIndex = 8178;
+	inline static constexpr unsigned int AbstractSignalCommon_TypeDefinitionIndex = 8221;
 
 	class AbstractSignalCommon : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_EnableDetailDebugName_ForInvoke()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AbstractSignalCommon_TypeDefinitionIndex)->GetStaticField(0x12170);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AbstractSignalCommon_TypeDefinitionIndex)->GetStaticField(0x12FD0);
 		}
-		::Il2CppArray<::SGF::SEvent::AbstractSignalCommon_DelegateWrapper>* __methods; // 0x10
-		::SGF::SEvent::AbstractSignalCommon_SCustomDebugName _customDebugName; // 0x18
+		::SGF::SEvent::AbstractSignalCommon_SCustomDebugName _customDebugName; // 0x10
+		::Il2CppArray<::SGF::SEvent::AbstractSignalCommon_DelegateWrapper>* __methods; // 0x20
 		::System::Int32 _methodCount; // 0x28
 		::System::Int32 _capacity; // 0x2C
 

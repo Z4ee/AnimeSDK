@@ -11,31 +11,31 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x113E41A0)
-#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x113E3EF0)
-#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x113E42E0)
-#define CLASS_2_64B6F3CFBEE5CFC3__CTOR_OFFSET UNITYSDK_OFFSET(0x113E42D0)
+#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x108C4F40)
+#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x108C4C90)
+#define CLASS_2_64B6F3CFBEE5CFC3_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x108C5080)
+#define CLASS_2_64B6F3CFBEE5CFC3__CTOR_OFFSET UNITYSDK_OFFSET(0x108C5070)
 
-inline static constexpr unsigned int Class_2_64B6F3CFBEE5CFC3_TypeDefinitionIndex = 52190;
+inline static constexpr unsigned int Class_2_64B6F3CFBEE5CFC3_TypeDefinitionIndex = 60223;
 
 class Class_2_64B6F3CFBEE5CFC3 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x18
-	::UnityEngine::RectTransform* Field_2_5; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x28
-	::UnityEngine::GameObject* Field_2_2; // 0x30
-	::UnityEngine::GameObject* Field_2_6; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_9; // 0x48
-	::MonoUITableScrollV2* Field_2_7; // 0x50
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_11; // 0x58
-	::UnityEngine::GameObject* Field_2_1; // 0x60
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_3; // 0x68
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x70
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x78
+	::UnityEngine::RectTransform* Field_2_5; // 0x18
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_3; // 0x20
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralToggleWidgetController*>* Field_2_11; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x30
+	::UnityEngine::GameObject* Field_2_1; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_9; // 0x40
+	::UnityEngine::GameObject* Field_2_6; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x50
+	::UnityEngine::GameObject* Field_2_2; // 0x58
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x60
+	::Class_2_B4378B46E0020E85* Field_2_8; // 0x68
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x70
+	::MonoUITableScrollV2* Field_2_7; // 0x78
 
 	::System::Void _ctor()
 	{

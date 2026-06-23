@@ -6,7 +6,7 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 template <typename T> class MonoUITableScrollV2___c__704_1;
 
-inline static constexpr unsigned int MonoUITableScrollV2___c__704_1_TypeDefinitionIndex = 54072;
+inline static constexpr unsigned int MonoUITableScrollV2___c__704_1_TypeDefinitionIndex = 69970;
 
 template <typename T>
 class MonoUITableScrollV2___c__704_1 : public ::System::Object

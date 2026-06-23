@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1AD0EFA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_GETCAPTURERT_OFFSET UNITYSDK_OFFSET(0x1AD0F570)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x1AD0F360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD0F6D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0F610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1C40E0C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_GETCAPTURERT_OFFSET UNITYSDK_OFFSET(0x1C40E6A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x1C40E490)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C40E800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C40E740)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCapture_TypeDefinitionIndex = 30197;
+	inline static constexpr unsigned int NapCapture_TypeDefinitionIndex = 26743;
 
 	class NapCapture : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::NapCapture** StaticGet_instance()
 		{
-			return (::UnityEngine::Rendering::Universal::NapCapture**)Il2CppClass::FromTypeDefinitionIndex(NapCapture_TypeDefinitionIndex)->GetStaticField(0x24790);
+			return (::UnityEngine::Rendering::Universal::NapCapture**)Il2CppClass::FromTypeDefinitionIndex(NapCapture_TypeDefinitionIndex)->GetStaticField(0x22000);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::NapCapture_CaptureData>* captures; // 0x10
 

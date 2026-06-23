@@ -6,24 +6,24 @@ class Class_1_BCCD4DFEA016B7F9;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x12363B20)
-#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x12363B90)
-#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x12363C20)
+#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x13F196C0)
+#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x13F19730)
+#define MOLEMOLE_NAPPASSSPECOPTBYGPUMODELPOSTPROCESSORPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x13F197C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapPassSpecOptByGPUModelPostProcessorProfile_TypeDefinitionIndex = 50766;
+	inline static constexpr unsigned int NapPassSpecOptByGPUModelPostProcessorProfile_TypeDefinitionIndex = 75632;
 
 	class NapPassSpecOptByGPUModelPostProcessorProfile : public ::MoleMole::PerformanceSettingPostProcessProfileBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* GPUModelRegexList; // 0x10
-		::System::Boolean EnableRefactorLayout; // 0x18
-		::System::Boolean oneLightPerPassOpt; // 0x19
-		::System::Boolean SeparateAfterGbufferPass; // 0x1A
-		::System::Boolean ShadowAfterGBuffer; // 0x1B
-		::System::Boolean LightLoopAfterGbuffer; // 0x1C
-		::System::Single oneLightPerPassOptScreenRatioSqr; // 0x20
+		::System::Single oneLightPerPassOptScreenRatioSqr; // 0x18
+		::System::Boolean SeparateAfterGbufferPass; // 0x1C
+		::System::Boolean ShadowAfterGBuffer; // 0x1D
+		::System::Boolean oneLightPerPassOpt; // 0x1E
+		::System::Boolean EnableRefactorLayout; // 0x1F
+		::System::Boolean LightLoopAfterGbuffer; // 0x20
 
 		::System::Void _ctor()
 		{

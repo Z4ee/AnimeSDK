@@ -1,37 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/HoYoPass/HoYoPassSDK_ErrorCode.h"
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FD840)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__ONHOYOPASSTHIRDPARTYACCOUNTBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1A3FD850)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__ONHOYOPASSTHIRDPARTYACCOUNTBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1A3FD880)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3905F0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__OPENURLWITHLOGINSTATUS_B__1_OFFSET UNITYSDK_OFFSET(0x1C390860)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__OPENURLWITHLOGINSTATUS_G__OPENURLBYACTIONTYPE_0_OFFSET UNITYSDK_OFFSET(0x1C390600)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass38_0_TypeDefinitionIndex = 19172;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass38_0_TypeDefinitionIndex = 20071;
 
 	class LoginManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
-		::System::String* args; // 0x18
+		::System::String* originalUrl; // 0x10
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
+		::System::Int32 actionType; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnHoYoPassThirdpartyAccountBinding_b__0()
+		::System::Void _OpenUrlWithLoginStatus_g__OpenUrlByActionType_0(::System::String* openUrl)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__ONHOYOPASSTHIRDPARTYACCOUNTBINDING_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__OPENURLWITHLOGINSTATUS_G__OPENURLBYACTIONTYPE_0_OFFSET))(this, openUrl);
 		}
 
-		::System::Void _OnHoYoPassThirdpartyAccountBinding_b__1(::System::Int32 retcode)
+		::System::Void _OpenUrlWithLoginStatus_b__1(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret, ::System::String* crossTokenUrl)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__ONHOYOPASSTHIRDPARTYACCOUNTBINDING_B__1_OFFSET))(this, retcode);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS38_0__OPENURLWITHLOGINSTATUS_B__1_OFFSET))(this, ret, crossTokenUrl);
 		}
 	};
 }

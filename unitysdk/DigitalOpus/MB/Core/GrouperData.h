@@ -7,11 +7,11 @@ namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering; }
 namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering_ClusterNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DIGITALOPUS_MB_CORE_GROUPERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B663210)
+#define DIGITALOPUS_MB_CORE_GROUPERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA62000)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int GrouperData_TypeDefinitionIndex = 84992;
+	inline static constexpr unsigned int GrouperData_TypeDefinitionIndex = 90566;
 
 	class GrouperData : public ::System::Object
 	{

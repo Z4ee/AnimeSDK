@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TimerClock_EStateTag_TypeDefinitionIndex = 8214;
+	inline static constexpr unsigned int TimerClock_EStateTag_TypeDefinitionIndex = 8253;
 
 	enum class TimerClock_EStateTag : ::System::Int32
 	{

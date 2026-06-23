@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceScreenEffect_TypeDefinitionIndex = 45748;
+	inline static constexpr unsigned int ConfigGachaPerformanceScreenEffect_TypeDefinitionIndex = 58627;
 
 	struct alignas(8) ConfigGachaPerformanceScreenEffect
 	{

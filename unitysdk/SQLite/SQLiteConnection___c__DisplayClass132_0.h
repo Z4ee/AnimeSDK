@@ -4,20 +4,20 @@
 
 namespace SQLite { class TableMapping_Column; }
 
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2864D0)
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1B287920)
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__1_OFFSET UNITYSDK_OFFSET(0x1B287930)
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__2_OFFSET UNITYSDK_OFFSET(0x1B287960)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D642830)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1D643C80)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__1_OFFSET UNITYSDK_OFFSET(0x1D643C90)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS132_0__UPDATE_B__2_OFFSET UNITYSDK_OFFSET(0x1D643CC0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnection___c__DisplayClass132_0_TypeDefinitionIndex = 36764;
+	inline static constexpr unsigned int SQLiteConnection___c__DisplayClass132_0_TypeDefinitionIndex = 38374;
 
 	class SQLiteConnection___c__DisplayClass132_0 : public ::System::Object
 	{
 	public:
-		::SQLite::TableMapping_Column* pk; // 0x10
-		::System::Object* obj; // 0x18
+		::System::Object* obj; // 0x10
+		::SQLite::TableMapping_Column* pk; // 0x18
 
 		::System::Void _ctor()
 		{

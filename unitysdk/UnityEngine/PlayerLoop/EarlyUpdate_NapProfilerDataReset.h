@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_NapProfilerDataReset_TypeDefinitionIndex = 5533;
+	inline static constexpr unsigned int EarlyUpdate_NapProfilerDataReset_TypeDefinitionIndex = 5534;
 
 	struct alignas(1) EarlyUpdate_NapProfilerDataReset
 	{

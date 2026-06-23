@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostLight_TargetType_TypeDefinitionIndex = 30358;
+	inline static constexpr unsigned int PostLight_TargetType_TypeDefinitionIndex = 26929;
 
 	enum class PostLight_TargetType : ::System::Int32
 	{
 		All = 0,
-		Scene = 1,
 		Character = 2,
+		Scene = 1,
 	};
 }

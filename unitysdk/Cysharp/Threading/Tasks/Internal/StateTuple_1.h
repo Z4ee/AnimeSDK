@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int StateTuple_1_TypeDefinitionIndex = 28825;
+	inline static constexpr unsigned int StateTuple_1_TypeDefinitionIndex = 31481;
 
 	template <typename T1>
 	class StateTuple_1 : public ::System::Object

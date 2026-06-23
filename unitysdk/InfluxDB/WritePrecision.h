@@ -3,13 +3,13 @@
 
 namespace InfluxDB
 {
-	inline static constexpr unsigned int WritePrecision_TypeDefinitionIndex = 7831;
+	inline static constexpr unsigned int WritePrecision_TypeDefinitionIndex = 8255;
 
 	enum class WritePrecision : ::System::Int32
 	{
-		Ms = 1,
-		S = 2,
 		Us = 3,
+		S = 2,
+		Ms = 1,
 		Ns = 4,
 	};
 }

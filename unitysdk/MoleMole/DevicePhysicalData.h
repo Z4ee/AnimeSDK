@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_DEVICEPHYSICALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16B61E50)
+#define MOLEMOLE_DEVICEPHYSICALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E54FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DevicePhysicalData_TypeDefinitionIndex = 61550;
+	inline static constexpr unsigned int DevicePhysicalData_TypeDefinitionIndex = 46943;
 
 	class DevicePhysicalData : public ::System::Object
 	{

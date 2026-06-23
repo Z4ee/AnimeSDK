@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginDither_Enum_3_626104752F139FF0_TypeDefinitionIndex = 71270;
+	inline static constexpr unsigned int MonoEffectPluginDither_Enum_3_626104752F139FF0_TypeDefinitionIndex = 79534;
 
 	enum class MonoEffectPluginDither_Enum_3_626104752F139FF0 : ::System::Int32
 	{

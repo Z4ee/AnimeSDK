@@ -4,18 +4,18 @@
 
 class OpaqueSoftEdgeRenderer_ObjectInfo;
 
-#define OPAQUESOFTEDGERENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A9CD30)
-#define OPAQUESOFTEDGERENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9CD70)
-#define OPAQUESOFTEDGERENDERER___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x19A9CD80)
+#define OPAQUESOFTEDGERENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDA5400)
+#define OPAQUESOFTEDGERENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA5440)
+#define OPAQUESOFTEDGERENDERER___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BDA5450)
 
-inline static constexpr unsigned int OpaqueSoftEdgeRenderer___c_TypeDefinitionIndex = 29601;
+inline static constexpr unsigned int OpaqueSoftEdgeRenderer___c_TypeDefinitionIndex = 26523;
 
 class OpaqueSoftEdgeRenderer___c : public ::System::Object
 {
 public:
 	static ::OpaqueSoftEdgeRenderer___c** StaticGet___9()
 	{
-		return (::OpaqueSoftEdgeRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer___c_TypeDefinitionIndex)->GetStaticField(0x23B40);
+		return (::OpaqueSoftEdgeRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OpaqueSoftEdgeRenderer___c_TypeDefinitionIndex)->GetStaticField(0x21330);
 	}
 
 	static ::System::Void _cctor()

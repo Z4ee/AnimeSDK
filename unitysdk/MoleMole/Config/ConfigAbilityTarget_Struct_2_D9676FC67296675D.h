@@ -7,11 +7,11 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigAbilityTarget; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 
-#define MOLEMOLE_CONFIG_CONFIGABILITYTARGET_STRUCT_2_D9676FC67296675D_COMPARE_OFFSET UNITYSDK_OFFSET(0x7D5CF0)
+#define MOLEMOLE_CONFIG_CONFIGABILITYTARGET_STRUCT_2_D9676FC67296675D_COMPARE_OFFSET UNITYSDK_OFFSET(0x86CBF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAbilityTarget_Struct_2_D9676FC67296675D_TypeDefinitionIndex = 72636;
+	inline static constexpr unsigned int ConfigAbilityTarget_Struct_2_D9676FC67296675D_TypeDefinitionIndex = 50212;
 
 	struct alignas(8) ConfigAbilityTarget_Struct_2_D9676FC67296675D
 	{

@@ -4,7 +4,7 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int NapContactShadowBehaviour_Struct_2_AA4EE15A8D4DB005_3_TypeDefinitionIndex = 63721;
+	inline static constexpr unsigned int NapContactShadowBehaviour_Struct_2_AA4EE15A8D4DB005_3_TypeDefinitionIndex = 79760;
 
 	struct alignas(4) NapContactShadowBehaviour_Struct_2_AA4EE15A8D4DB005_3
 	{

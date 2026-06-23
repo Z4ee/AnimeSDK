@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/CodeDom/CodeObject.h"
 
-#define SYSTEM_CODEDOM_CODEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19201510)
+#define SYSTEM_CODEDOM_CODEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E75C0)
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeExpression_TypeDefinitionIndex = 4034;
+	inline static constexpr unsigned int CodeExpression_TypeDefinitionIndex = 4033;
 
 	class CodeExpression : public ::System::CodeDom::CodeObject
 	{

@@ -13,24 +13,24 @@ namespace UnityEngine::UI { class GridLayoutGroup; }
 namespace UnityEngine::UI { class VerticalLayoutGroup; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_A1B2038E1630367D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xDED9430)
-#define CLASS_2_A1B2038E1630367D_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0xDED92C0)
-#define CLASS_2_A1B2038E1630367D__CTOR_OFFSET UNITYSDK_OFFSET(0xDED9420)
+#define CLASS_2_A1B2038E1630367D_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1A844020)
+#define CLASS_2_A1B2038E1630367D_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x1A843EB0)
+#define CLASS_2_A1B2038E1630367D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A844010)
 
-inline static constexpr unsigned int Class_2_A1B2038E1630367D_TypeDefinitionIndex = 64284;
+inline static constexpr unsigned int Class_2_A1B2038E1630367D_TypeDefinitionIndex = 80808;
 
 class Class_2_A1B2038E1630367D : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_4; // 0x18
-	::UnityEngine::RectTransform* Field_2_3; // 0x20
-	::UnityEngine::UI::VerticalLayoutGroup* Field_2_6; // 0x28
-	::UnityEngine::Transform* Field_2_8; // 0x30
-	::MonoUITableScrollV2* Field_2_1; // 0x38
-	::UnityEngine::UI::GridLayoutGroup* Field_2_5; // 0x40
-	::UnityEngine::Animation* Field_2_0; // 0x48
-	::UnityEngine::UI::ContentSizeFitter* Field_2_7; // 0x50
-	::UnityEngine::RectTransform* Field_2_2; // 0x58
+	::UnityEngine::Animation* Field_2_0; // 0x18
+	::UnityEngine::Transform* Field_2_8; // 0x20
+	::MonoUITableScrollV2* Field_2_1; // 0x28
+	::UnityEngine::RectTransform* Field_2_3; // 0x30
+	::UnityEngine::UI::GridLayoutGroup* Field_2_5; // 0x38
+	::UnityEngine::UI::ContentSizeFitter* Field_2_7; // 0x40
+	::UnityEngine::UI::VerticalLayoutGroup* Field_2_6; // 0x48
+	::UnityEngine::RectTransform* Field_2_2; // 0x50
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_4; // 0x58
 
 	::System::Void _ctor()
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_53DE1BD33AC0B056.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_203;
+class Class_0_16E4307DCC419505_339;
 namespace System { class String; }
 template <typename T> class Class_1_2CC2ED4C948A74C7;
 
-inline static constexpr unsigned int Class_1_2CC2ED4C948A74C7_TypeDefinitionIndex = 40135;
+inline static constexpr unsigned int Class_1_2CC2ED4C948A74C7_TypeDefinitionIndex = 44717;
 
 template <typename TPriority>
 class Class_1_2CC2ED4C948A74C7 : public ::System::Object

@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ReferenceDoubleBuffer_1_TypeDefinitionIndex = 36039;
+	inline static constexpr unsigned int ReferenceDoubleBuffer_1_TypeDefinitionIndex = 37647;
 
 	template <typename T>
 	class ReferenceDoubleBuffer_1 : public ::System::Object

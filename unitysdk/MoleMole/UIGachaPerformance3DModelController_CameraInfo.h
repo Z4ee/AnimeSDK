@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPerformance3DModelController_CameraInfo_TypeDefinitionIndex = 70355;
+	inline static constexpr unsigned int UIGachaPerformance3DModelController_CameraInfo_TypeDefinitionIndex = 53650;
 
 	struct alignas(4) UIGachaPerformance3DModelController_CameraInfo
 	{

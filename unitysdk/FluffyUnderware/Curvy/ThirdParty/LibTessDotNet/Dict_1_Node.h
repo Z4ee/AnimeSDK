@@ -6,7 +6,7 @@ namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet { template <typename
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int Dict_1_Node_TypeDefinitionIndex = 25924;
+	inline static constexpr unsigned int Dict_1_Node_TypeDefinitionIndex = 28418;
 
 	template <typename TValue>
 	class Dict_1_Node : public ::System::Object

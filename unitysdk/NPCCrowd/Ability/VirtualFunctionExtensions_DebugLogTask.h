@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/DebugLogTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xCE58850)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xCE587C0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_LINK_OFFSET UNITYSDK_OFFSET(0xCE58750)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD5C49D0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD5C4940)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD5C48D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogTask_TypeDefinitionIndex = 80822;
+	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogTask_TypeDefinitionIndex = 49003;
 
 	class VirtualFunctionExtensions_DebugLogTask : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Link(::NPCCrowd::Ability::DebugLogTask& self, ::StateTreeCore::StateTreeLinker& linker)
+		static ::System::Boolean Link(::NPCCrowd::Ability::DebugLogTask& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::NPCCrowd::Ability::DebugLogTask&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_LINK_OFFSET))(self, linker);
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::DebugLogTask&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGTASK_LINK_OFFSET))(self, linker);
 		}
 
 		static ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::NPCCrowd::Ability::DebugLogTask& self)

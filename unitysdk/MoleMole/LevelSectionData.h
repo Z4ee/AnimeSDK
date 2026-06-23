@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVELSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18222BC0)
+#define MOLEMOLE_LEVELSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03B6B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelSectionData_TypeDefinitionIndex = 57100;
+	inline static constexpr unsigned int LevelSectionData_TypeDefinitionIndex = 74696;
 
 	class LevelSectionData : public ::System::Object
 	{

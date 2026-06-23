@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MUSICGAME_MUSICCALIBRATIONDATA_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15853360)
-#define MOLEMOLE_MUSICGAME_MUSICCALIBRATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15853370)
+#define MOLEMOLE_MUSICGAME_MUSICCALIBRATIONDATA_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x16423180)
+#define MOLEMOLE_MUSICGAME_MUSICCALIBRATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16423190)
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int MusicCalibrationData_TypeDefinitionIndex = 78359;
+	inline static constexpr unsigned int MusicCalibrationData_TypeDefinitionIndex = 45939;
 
 	class MusicCalibrationData : public ::System::Object
 	{

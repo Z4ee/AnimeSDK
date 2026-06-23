@@ -7,31 +7,31 @@ namespace UnrealTypes { class PropertyParamsBase; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1AD98620)
-#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD97F10)
+#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D1AB850)
+#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB0D0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex = 25183;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex = 27668;
 
 	class RegistrationInfo_ScriptStruct_FGameplayTag : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::NamePropertyParams** StaticGet_Property_tagName()
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
 		{
-			return (::UnrealTypes::NamePropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x1EB00);
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x22730);
 		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x1EB08);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x22738);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x1EB10);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x22740);
 		}
-		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		static ::UnrealTypes::NamePropertyParams** StaticGet_Property_tagName()
 		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x1EB18);
+			return (::UnrealTypes::NamePropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag_TypeDefinitionIndex)->GetStaticField(0x22748);
 		}
 
 		static ::System::Void _cctor()

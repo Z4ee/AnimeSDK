@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1523DE20)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1523DE60)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__25_3_OFFSET UNITYSDK_OFFSET(0x1523DE70)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x122B6FC0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x122B7000)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__25_3_OFFSET UNITYSDK_OFFSET(0x122B7010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex = 65896;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex = 53490;
 
 	class UISuibianTempleDeployBangbooPopWindowController_ViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Int32>** StaticGet___9__25_3()
-		{
-			return (::System::Func_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2F260);
-		}
 		static ::MoleMole::UISuibianTempleDeployBangbooPopWindowController_ViewModel___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleDeployBangbooPopWindowController_ViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2F268);
+			return (::MoleMole::UISuibianTempleDeployBangbooPopWindowController_ViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x31110);
+		}
+		static ::System::Func_1<::System::Int32>** StaticGet___9__25_3()
+		{
+			return (::System::Func_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x31118);
 		}
 
 		static ::System::Void _cctor()

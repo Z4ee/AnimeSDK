@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTValueClamping_TypeDefinitionIndex = 25880;
+	inline static constexpr unsigned int DTValueClamping_TypeDefinitionIndex = 28374;
 
 	enum class DTValueClamping : ::System::Int32
 	{

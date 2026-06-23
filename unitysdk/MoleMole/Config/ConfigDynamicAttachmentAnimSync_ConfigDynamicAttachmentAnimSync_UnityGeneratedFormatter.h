@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xED13C80)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xED13C90)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xED13FA0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xED141D0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xED14170)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10CFEC50)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10CFEC60)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10CFEF70)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CFF1A0)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHMENTANIMSYNC_CONFIGDYNAMICATTACHMENTANIMSYNC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10CFF140)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex = 68046;
+	inline static constexpr unsigned int ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex = 71683;
 
 	class ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigDynamicAttachmentAnimSync>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45790);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45798);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x464E0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicAttachmentAnimSync_ConfigDynamicAttachmentAnimSync_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x464E8);
 		}
 
 		::System::Void _ctor()

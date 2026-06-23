@@ -5,11 +5,11 @@
 class Class_1_6BD9E25D4C69114D;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NEOGOLDENMECHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B0A350)
+#define MOLEMOLE_NEOGOLDENMECHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160DECF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NeoGoldenMechaPageContext_TypeDefinitionIndex = 41078;
+	inline static constexpr unsigned int NeoGoldenMechaPageContext_TypeDefinitionIndex = 71327;
 
 	class NeoGoldenMechaPageContext : public ::MoleMole::UIControllerContextBase
 	{

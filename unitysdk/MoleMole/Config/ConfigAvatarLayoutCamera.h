@@ -6,11 +6,11 @@ namespace MoleMole::Cameras { class AvatarLayoutCameraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGAVATARLAYOUTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D1C230)
+#define MOLEMOLE_CONFIG_CONFIGAVATARLAYOUTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A060B40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAvatarLayoutCamera_TypeDefinitionIndex = 41686;
+	inline static constexpr unsigned int ConfigAvatarLayoutCamera_TypeDefinitionIndex = 87215;
 
 	class ConfigAvatarLayoutCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{

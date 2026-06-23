@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTAGECAMERASWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1427FA00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTAGECAMERASWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1427FD40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTAGECAMERASWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160FC50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTAGECAMERASWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1160FF90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStageCameraSwitch_TypeDefinitionIndex = 60133;
+	inline static constexpr unsigned int LDStageCameraSwitch_TypeDefinitionIndex = 53996;
 
 	class LDStageCameraSwitch : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Boolean, ::System::String*>
 	{

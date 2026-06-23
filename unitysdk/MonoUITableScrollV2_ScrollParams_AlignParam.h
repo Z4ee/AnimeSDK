@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11347D00)
-#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11347CF0)
-#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11347CE0)
-#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11347E70)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1384F950)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1384F930)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1384F920)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1384FAC0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_AlignParam_TypeDefinitionIndex = 54154;
+inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_AlignParam_TypeDefinitionIndex = 69910;
 
 class MonoUITableScrollV2_ScrollParams_AlignParam : public ::System::Object
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2_ScrollParams_SelectAlignType, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_OFFSET))(this, alignType, alignCustomRange, alignDataIndexOffset);
 	}
 
-	::System::Void _ctor_1()
+	::System::Void _ctor_1(::MonoUITableScrollV2_ScrollParams_SelectAlignType alignType)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2_ScrollParams_SelectAlignType))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLV2_SCROLLPARAMS_ALIGNPARAM__CTOR_1_OFFSET))(this, alignType);
 	}
 
 	::System::String* ToString()

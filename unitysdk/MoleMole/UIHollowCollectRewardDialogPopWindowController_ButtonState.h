@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_ButtonState_TypeDefinitionIndex = 57159;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_ButtonState_TypeDefinitionIndex = 77736;
 
 	enum class UIHollowCollectRewardDialogPopWindowController_ButtonState : ::System::Int32
 	{
-		Proceeding = 1,
-		Done = 2,
 		ClickToGet = 0,
+		Done = 2,
+		Proceeding = 1,
 	};
 }

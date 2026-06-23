@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AnonymousDeserializeFunc_1_TypeDefinitionIndex = 28118;
+	inline static constexpr unsigned int AnonymousDeserializeFunc_1_TypeDefinitionIndex = 30718;
 
 	template <typename T>
 	class AnonymousDeserializeFunc_1 : public ::System::MulticastDelegate

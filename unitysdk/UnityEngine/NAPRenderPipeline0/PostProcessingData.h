@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PostProcessingData_TypeDefinitionIndex = 5937;
+	inline static constexpr unsigned int PostProcessingData_TypeDefinitionIndex = 5947;
 
 	struct alignas(4) PostProcessingData
 	{

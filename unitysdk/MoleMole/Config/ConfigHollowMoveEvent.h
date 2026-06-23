@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB06670)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE96CA20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowMoveEvent_TypeDefinitionIndex = 48729;
+	inline static constexpr unsigned int ConfigHollowMoveEvent_TypeDefinitionIndex = 67865;
 
 	class ConfigHollowMoveEvent : public ::Foundation::MihoyoSerializedScriptableObject
 	{

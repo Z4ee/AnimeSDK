@@ -10,49 +10,49 @@ namespace NPCCrowd { class NPCModuleAvatarAssetsPacked; }
 namespace NPCCrowd::Accessories { class NPCAccessoryMapConfig; }
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF06FA60)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF06FAA0)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_0_OFFSET UNITYSDK_OFFSET(0xF06FAB0)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_1_OFFSET UNITYSDK_OFFSET(0xF06FC50)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_2_OFFSET UNITYSDK_OFFSET(0xF06FDF0)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_3_OFFSET UNITYSDK_OFFSET(0xF06FFF0)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_4_OFFSET UNITYSDK_OFFSET(0xF0724B0)
-#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_5_OFFSET UNITYSDK_OFFSET(0xF077810)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x117A7AA0)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x117A7AE0)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_0_OFFSET UNITYSDK_OFFSET(0x117A7AF0)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_1_OFFSET UNITYSDK_OFFSET(0x117A7C90)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_2_OFFSET UNITYSDK_OFFSET(0x117A7E30)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_3_OFFSET UNITYSDK_OFFSET(0x117A8030)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_4_OFFSET UNITYSDK_OFFSET(0x117AA4F0)
+#define NPCCROWD_NPCCROWDMODULEGLOBALCONFIGUTILS___C__LOADGLOBALCONFIG_B__11_5_OFFSET UNITYSDK_OFFSET(0x117AF850)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex = 67118;
+	inline static constexpr unsigned int NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex = 44387;
 
 	class NPCCrowdModuleGlobalConfigUtils___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::NPCCrowdModuleGlobalConfigUtils___c** StaticGet___9()
-		{
-			return (::NPCCrowd::NPCCrowdModuleGlobalConfigUtils___c**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A00);
-		}
-		static ::System::Action_1<::NPCAccesoryItemOverrideTable*>** StaticGet___9__11_1()
-		{
-			return (::System::Action_1<::NPCAccesoryItemOverrideTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A08);
-		}
-		static ::System::Action_1<::NPCCrowd::Accessories::NPCAccessoryMapConfig*>** StaticGet___9__11_2()
-		{
-			return (::System::Action_1<::NPCCrowd::Accessories::NPCAccessoryMapConfig*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A10);
-		}
-		static ::System::Action_1<::NPCPrefabPartOverrideTable*>** StaticGet___9__11_0()
-		{
-			return (::System::Action_1<::NPCPrefabPartOverrideTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A18);
-		}
-		static ::System::Action_1<::NPCCrowd::NPCModuleAvatarAssetsPacked*>** StaticGet___9__11_5()
-		{
-			return (::System::Action_1<::NPCCrowd::NPCModuleAvatarAssetsPacked*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A20);
-		}
 		static ::System::Action_1<::RandomNPCPrefabsLibrary*>** StaticGet___9__11_4()
 		{
-			return (::System::Action_1<::RandomNPCPrefabsLibrary*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A28);
+			return (::System::Action_1<::RandomNPCPrefabsLibrary*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38460);
 		}
 		static ::System::Action_1<::NPCPrefabTable*>** StaticGet___9__11_3()
 		{
-			return (::System::Action_1<::NPCPrefabTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x35A30);
+			return (::System::Action_1<::NPCPrefabTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38468);
+		}
+		static ::System::Action_1<::NPCCrowd::Accessories::NPCAccessoryMapConfig*>** StaticGet___9__11_2()
+		{
+			return (::System::Action_1<::NPCCrowd::Accessories::NPCAccessoryMapConfig*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38470);
+		}
+		static ::System::Action_1<::NPCPrefabPartOverrideTable*>** StaticGet___9__11_0()
+		{
+			return (::System::Action_1<::NPCPrefabPartOverrideTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38478);
+		}
+		static ::System::Action_1<::NPCCrowd::NPCModuleAvatarAssetsPacked*>** StaticGet___9__11_5()
+		{
+			return (::System::Action_1<::NPCCrowd::NPCModuleAvatarAssetsPacked*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38480);
+		}
+		static ::NPCCrowd::NPCCrowdModuleGlobalConfigUtils___c** StaticGet___9()
+		{
+			return (::NPCCrowd::NPCCrowdModuleGlobalConfigUtils___c**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38488);
+		}
+		static ::System::Action_1<::NPCAccesoryItemOverrideTable*>** StaticGet___9__11_1()
+		{
+			return (::System::Action_1<::NPCAccesoryItemOverrideTable*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleGlobalConfigUtils___c_TypeDefinitionIndex)->GetStaticField(0x38490);
 		}
 
 		static ::System::Void _cctor()

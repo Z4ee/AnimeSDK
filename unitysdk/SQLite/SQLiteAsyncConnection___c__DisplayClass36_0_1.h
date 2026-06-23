@@ -8,7 +8,7 @@ namespace SQLite { class SQLiteConnectionWithLock; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass36_0_1_TypeDefinitionIndex = 36821;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass36_0_1_TypeDefinitionIndex = 38431;
 
 	template <typename T>
 	class SQLiteAsyncConnection___c__DisplayClass36_0_1 : public ::System::Object

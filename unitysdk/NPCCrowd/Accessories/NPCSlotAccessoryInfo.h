@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ACCESSORIES_NPCSLOTACCESSORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11504C20)
+#define NPCCROWD_ACCESSORIES_NPCSLOTACCESSORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE017610)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCSlotAccessoryInfo_TypeDefinitionIndex = 78719;
+	inline static constexpr unsigned int NPCSlotAccessoryInfo_TypeDefinitionIndex = 74195;
 
 	class NPCSlotAccessoryInfo : public ::System::Object
 	{

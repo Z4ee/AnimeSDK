@@ -5,11 +5,11 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF81DF0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B4F90)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_0_TypeDefinitionIndex = 6970;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_0_TypeDefinitionIndex = 7101;
 
 	class DefaultContractResolver___c__DisplayClass38_0 : public ::System::Object
 	{

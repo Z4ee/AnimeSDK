@@ -5,7 +5,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_Utility_MeshAnalysisResult_TypeDefinitionIndex = 85096;
+	inline static constexpr unsigned int MB_Utility_MeshAnalysisResult_TypeDefinitionIndex = 90670;
 
 	struct alignas(4) MB_Utility_MeshAnalysisResult
 	{

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/MonoEntityModelModifier_ColliderInfo_Enum_3_F4CEA0D3A82A66A8.h"
+#include "unitysdk/MoleMole/MonoEntityModelModifier_ColliderInfo_Enum_3_F972BF442CE4ECDB.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO_METHOD_1_E789FF67ABF2058D_OFFSET UNITYSDK_OFFSET(0x17823410)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17823400)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO_METHOD_1_E789FF67ABF2058D_OFFSET UNITYSDK_OFFSET(0x18301850)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18301840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityModelModifier_ColliderInfo_TypeDefinitionIndex = 55090;
+	inline static constexpr unsigned int MonoEntityModelModifier_ColliderInfo_TypeDefinitionIndex = 77654;
 
 	class MonoEntityModelModifier_ColliderInfo : public ::System::Object
 	{
 	public:
-		::MoleMole::MonoEntityModelModifier_ColliderInfo_Enum_3_F4CEA0D3A82A66A8 Type; // 0x10
+		::MoleMole::MonoEntityModelModifier_ColliderInfo_Enum_3_F972BF442CE4ECDB Type; // 0x10
 		::System::String* Name; // 0x18
 
 		::System::Void _ctor()

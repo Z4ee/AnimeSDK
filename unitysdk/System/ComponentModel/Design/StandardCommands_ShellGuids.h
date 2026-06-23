@@ -3,28 +3,28 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS_SHELLGUIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A316310)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS_SHELLGUIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6C4000)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int StandardCommands_ShellGuids_TypeDefinitionIndex = 3095;
+	inline static constexpr unsigned int StandardCommands_ShellGuids_TypeDefinitionIndex = 3094;
 
 	class StandardCommands_ShellGuids : public ::System::Object
 	{
 	public:
-		static ::System::Guid* StaticGet_guidDsdCmdId()
+		static ::System::Guid* StaticGet_GUID_PropertyBrowserToolWindow()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x11F0);
 		}
-		static ::System::Guid* StaticGet_SID_SOleComponentUIManager()
+		static ::System::Guid* StaticGet_GUID_VSTASKCATEGORY_DATADESIGNER()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1200);
 		}
-		static ::System::Guid* StaticGet_GUID_VSTASKCATEGORY_DATADESIGNER()
+		static ::System::Guid* StaticGet_SID_SOleComponentUIManager()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1210);
 		}
-		static ::System::Guid* StaticGet_GUID_PropertyBrowserToolWindow()
+		static ::System::Guid* StaticGet_guidDsdCmdId()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1220);
 		}

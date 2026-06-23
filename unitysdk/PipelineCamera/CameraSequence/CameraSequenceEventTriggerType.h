@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEventTriggerType_TypeDefinitionIndex = 36217;
+	inline static constexpr unsigned int CameraSequenceEventTriggerType_TypeDefinitionIndex = 37825;
 
 	enum class CameraSequenceEventTriggerType : ::System::Int32
 	{

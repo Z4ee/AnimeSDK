@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_686;
+class Class_0_16E4307DCC419505_459;
 namespace MoleMole { class UISettingResourceManageListRowWidgetController; }
 
-#define MOLEMOLE_UISETTINGRESOURCEMANAGELISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1613C3D0)
-#define MOLEMOLE_UISETTINGRESOURCEMANAGELISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1613C3E0)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGELISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB3030)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGELISTROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x16DB3040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceManageListRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 69165;
+	inline static constexpr unsigned int UISettingResourceManageListRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 60947;
 
 	class UISettingResourceManageListRowWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISettingResourceManageListRowWidgetController* __4__this; // 0x10
-		::Class_0_16E4307DCC419505_686* tabData; // 0x18
+		::Class_0_16E4307DCC419505_459* tabData; // 0x18
 
 		::System::Void _ctor()
 		{

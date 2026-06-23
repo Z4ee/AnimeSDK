@@ -7,7 +7,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class LensFlareDataElementSRP; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_ComputeLocalSizeParamPack_TypeDefinitionIndex = 29792;
+	inline static constexpr unsigned int LensFlareCommonSRP_ComputeLocalSizeParamPack_TypeDefinitionIndex = 26642;
 
 	struct alignas(8) LensFlareCommonSRP_ComputeLocalSizeParamPack
 	{

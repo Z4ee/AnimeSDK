@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FBangbooMapInfoUIClosedEventArgs_TypeDefinitionIndex = 52056;
+	inline static constexpr unsigned int FBangbooMapInfoUIClosedEventArgs_TypeDefinitionIndex = 62364;
 
 	struct alignas(4) FBangbooMapInfoUIClosedEventArgs
 	{

@@ -4,22 +4,22 @@
 
 namespace Dest::Math { class Polynomial; }
 
-#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_BISECTION_OFFSET UNITYSDK_OFFSET(0x1B6AE4A0)
-#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_FIND_OFFSET UNITYSDK_OFFSET(0x1B6AE890)
-#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_GET_ROOTS_OFFSET UNITYSDK_OFFSET(0x1B6AE430)
-#define DEST_MATH_ROOTFINDER_POLYROOTFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AE440)
+#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_BISECTION_OFFSET UNITYSDK_OFFSET(0x1DAB1570)
+#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_FIND_OFFSET UNITYSDK_OFFSET(0x1DAB1960)
+#define DEST_MATH_ROOTFINDER_POLYROOTFINDER_GET_ROOTS_OFFSET UNITYSDK_OFFSET(0x1DAB1500)
+#define DEST_MATH_ROOTFINDER_POLYROOTFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB1510)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int RootFinder_PolyRootFinder_TypeDefinitionIndex = 33187;
+	inline static constexpr unsigned int RootFinder_PolyRootFinder_TypeDefinitionIndex = 34750;
 
 	class RootFinder_PolyRootFinder : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* _roots; // 0x10
-		::System::Int32 _count; // 0x18
-		::System::Single _epsilon; // 0x1C
-		::System::Int32 _maxRoot; // 0x20
+		::System::Single _epsilon; // 0x18
+		::System::Int32 _maxRoot; // 0x1C
+		::System::Int32 _count; // 0x20
 
 		::System::Void _ctor(::System::Single epsilon)
 		{

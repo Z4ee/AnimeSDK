@@ -3,12 +3,12 @@
 #include "unitysdk/NodeGraph/NodeGraphVariables.h"
 #include "unitysdk/NodeGraph/NodeGraphVariables_NodeGraphVariablesScope.h"
 
-#define NODEGRAPH_NODEGRAPHGLOBALVARIABLES_GET_SCOPE_OFFSET UNITYSDK_OFFSET(0xEA6BFE0)
-#define NODEGRAPH_NODEGRAPHGLOBALVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0xEA6BFF0)
+#define NODEGRAPH_NODEGRAPHGLOBALVARIABLES_GET_SCOPE_OFFSET UNITYSDK_OFFSET(0xFDFC440)
+#define NODEGRAPH_NODEGRAPHGLOBALVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0xFDFC450)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int NodeGraphGlobalVariables_TypeDefinitionIndex = 61060;
+	inline static constexpr unsigned int NodeGraphGlobalVariables_TypeDefinitionIndex = 44604;
 
 	class NodeGraphGlobalVariables : public ::NodeGraph::NodeGraphVariables
 	{

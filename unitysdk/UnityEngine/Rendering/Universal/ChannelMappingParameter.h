@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ChannelMapping.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD02EB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C400410)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChannelMappingParameter_TypeDefinitionIndex = 30164;
+	inline static constexpr unsigned int ChannelMappingParameter_TypeDefinitionIndex = 26777;
 
 	class ChannelMappingParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ChannelMapping>
 	{

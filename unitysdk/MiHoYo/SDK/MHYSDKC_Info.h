@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Info_TypeDefinitionIndex = 34963;
+	inline static constexpr unsigned int MHYSDKC_Info_TypeDefinitionIndex = 36526;
 
 	class MHYSDKC_Info : public ::System::Object
 	{
@@ -61,6 +61,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* CLEAR_DEFERRED_DEEPLINK; // 0x0
 		// static const ::System::String* SET_DEFERRED_DEEPLINK; // 0x0
 		// static const ::System::String* SET_GAME_VOLUME; // 0x0
+		// static const ::System::String* CHECK_PASTEBOARD_TEXT; // 0x0
+		// static const ::System::String* GET_PASTEBOARD_TEXT; // 0x0
+		// static const ::System::String* CLEAR_PASTEBOARD_TEXT; // 0x0
+		// static const ::System::String* IGNORE_CHECK_LAST_PASTEBOARD_TEXT; // 0x0
 		// static const ::System::String* GET_CLIENT_TYPE; // 0x0
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadLinkModule_Struct_2_BBD456EBC9087BC2_5_TypeDefinitionIndex = 52731;
+	inline static constexpr unsigned int MonoGamepadLinkModule_Struct_2_BBD456EBC9087BC2_5_TypeDefinitionIndex = 47360;
 
 	struct alignas(4) MonoGamepadLinkModule_Struct_2_BBD456EBC9087BC2_5
 	{

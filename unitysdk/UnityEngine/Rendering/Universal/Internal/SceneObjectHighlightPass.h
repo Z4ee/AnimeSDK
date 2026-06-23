@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering::Universal::Internal { class SceneToFindObjectInfo; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18FF1A10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FF2040)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF1900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AF5A430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF5AA60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENEOBJECTHIGHLIGHTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5A320)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int SceneObjectHighlightPass_TypeDefinitionIndex = 30539;
+	inline static constexpr unsigned int SceneObjectHighlightPass_TypeDefinitionIndex = 26260;
 
 	class SceneObjectHighlightPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::Internal::SceneToFindObjectInfo** StaticGet_SceneToFindObjectInfoCache()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::SceneToFindObjectInfo**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectHighlightPass_TypeDefinitionIndex)->GetStaticField(0x23030);
+			return (::UnityEngine::Rendering::Universal::Internal::SceneToFindObjectInfo**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectHighlightPass_TypeDefinitionIndex)->GetStaticField(0x20720);
 		}
-		::System::String* m_ProfilerTag; // 0xA8
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xA8
+		::System::String* m_ProfilerTag; // 0xB0
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt)
 		{

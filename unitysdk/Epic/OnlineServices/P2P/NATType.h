@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int NATType_TypeDefinitionIndex = 33940;
+	inline static constexpr unsigned int NATType_TypeDefinitionIndex = 35503;
 
 	enum class NATType : ::System::Int32
 	{

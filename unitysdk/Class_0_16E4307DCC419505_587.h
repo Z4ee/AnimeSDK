@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/Foundation/AssetPath.h"
 
-namespace System { class String; }
+class Class_1_6178B3CA1C4EB604;
+class Class_3_9F091E965E210217_3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_587_TypeDefinitionIndex = 80451;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_587_TypeDefinitionIndex = 70156;
 
 class Class_0_16E4307DCC419505_587
 {

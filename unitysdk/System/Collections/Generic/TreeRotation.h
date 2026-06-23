@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int TreeRotation_TypeDefinitionIndex = 3994;
+	inline static constexpr unsigned int TreeRotation_TypeDefinitionIndex = 3993;
 
 	enum class TreeRotation : ::System::Byte
 	{

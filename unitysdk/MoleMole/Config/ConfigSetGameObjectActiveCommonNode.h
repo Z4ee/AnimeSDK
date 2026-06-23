@@ -6,18 +6,18 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETGAMEOBJECTACTIVECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16B3FB10)
-#define MOLEMOLE_CONFIG_CONFIGSETGAMEOBJECTACTIVECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B3FB80)
+#define MOLEMOLE_CONFIG_CONFIGSETGAMEOBJECTACTIVECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x162BAE10)
+#define MOLEMOLE_CONFIG_CONFIGSETGAMEOBJECTACTIVECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162BAE80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetGameObjectActiveCommonNode_TypeDefinitionIndex = 75785;
+	inline static constexpr unsigned int ConfigSetGameObjectActiveCommonNode_TypeDefinitionIndex = 47757;
 
 	class ConfigSetGameObjectActiveCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::BoolUISpecialNum* IsActive; // 0x18
-		::MoleMole::Config::StringUISpecialNum* GameObjectKey; // 0x20
+		::MoleMole::Config::StringUISpecialNum* GameObjectKey; // 0x18
+		::MoleMole::Config::BoolUISpecialNum* IsActive; // 0x20
 
 		::System::Void _ctor()
 		{

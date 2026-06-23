@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPLAYERCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BA1D0)
+#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPLAYERCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD42100)
 
 namespace PipelineCamera::Demo::Pipeline
 {
-	inline static constexpr unsigned int DemoFollowPlayerController_TypeDefinitionIndex = 36158;
+	inline static constexpr unsigned int DemoFollowPlayerController_TypeDefinitionIndex = 37766;
 
 	class DemoFollowPlayerController : public ::System::Object
 	{

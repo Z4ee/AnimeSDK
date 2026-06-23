@@ -9,25 +9,25 @@ class Class_3_CF6254B260CF5CF4;
 class Class_3_F97B015544BE936B;
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_COMPAREHP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x159D9DA0)
-#define MOLEMOLE_COMPAREHP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x159D9FD0)
-#define MOLEMOLE_COMPAREHP__CTOR_OFFSET UNITYSDK_OFFSET(0x159DA340)
-#define MOLEMOLE_COMPAREHP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x159DA3D0)
-#define MOLEMOLE_COMPAREHP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x159DA460)
+#define MOLEMOLE_COMPAREHP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x127013F0)
+#define MOLEMOLE_COMPAREHP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12701620)
+#define MOLEMOLE_COMPAREHP__CTOR_OFFSET UNITYSDK_OFFSET(0x12701990)
+#define MOLEMOLE_COMPAREHP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12701A20)
+#define MOLEMOLE_COMPAREHP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12701AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompareHP_TypeDefinitionIndex = 56064;
+	inline static constexpr unsigned int CompareHP_TypeDefinitionIndex = 62417;
 
 	class CompareHP : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
+		::Class_3_F97B015544BE936B* dataComponent; // 0x50
 		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x58
-		::Class_3_F97B015544BE936B* dataComponent; // 0x60
-		::MoleMole::AICompareType CompareType; // 0x68
-		::MoleMole::AITargetType TargetType; // 0x6C
-		::System::Single TargetHPPercent; // 0x70
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::System::Single TargetHPPercent; // 0x68
+		::MoleMole::AICompareType CompareType; // 0x6C
+		::MoleMole::AITargetType TargetType; // 0x70
 
 		::System::Void _ctor()
 		{

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_688F44EEB4FF6017_TypeDefinitionIndex = 44137;
+inline static constexpr unsigned int Enum_3_688F44EEB4FF6017_TypeDefinitionIndex = 66844;
 
 enum class Enum_3_688F44EEB4FF6017 : ::System::Int32
 {
+	FrontLeft = 256,
 	TopLeft = 32,
-	None = 0,
-	FrontRight = 512,
-	BottomLeft = 2,
-	All = 4095,
-	BackRight = 2048,
+	BottomFront = 1,
+	BottomBack = 4,
 	ExceptBottom = 4080,
 	TopRight = 128,
-	TopFront = 16,
-	FrontLeft = 256,
 	TopBack = 64,
-	BackLeft = 1024,
+	FrontRight = 512,
+	BackRight = 2048,
 	BottomRight = 8,
-	BottomBack = 4,
-	BottomFront = 1,
+	BackLeft = 1024,
+	All = 4095,
+	BottomLeft = 2,
+	None = 0,
+	TopFront = 16,
 };

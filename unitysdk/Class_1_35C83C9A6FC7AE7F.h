@@ -4,9 +4,9 @@
 
 namespace MoleMole { class MainCityRewardPopShow; }
 
-#define CLASS_1_35C83C9A6FC7AE7F_METHOD_1_E02E812FB881C187_OFFSET UNITYSDK_OFFSET(0x121C3840)
+#define CLASS_1_35C83C9A6FC7AE7F_METHOD_1_E02E812FB881C187_OFFSET UNITYSDK_OFFSET(0x13E566F0)
 
-inline static constexpr unsigned int Class_1_35C83C9A6FC7AE7F_TypeDefinitionIndex = 77703;
+inline static constexpr unsigned int Class_1_35C83C9A6FC7AE7F_TypeDefinitionIndex = 62480;
 
 class Class_1_35C83C9A6FC7AE7F : public ::System::Object
 {

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_C3F0E3B5AB5977AE_40;
+class Class_3_C3F0E3B5AB5977AE_10;
 
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBA630)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__REFRESHRECOMMENDBASEPROPERTYSTR_B__0_OFFSET UNITYSDK_OFFSET(0x14DBA640)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157A4C90)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__REFRESHRECOMMENDBASEPROPERTYSTR_B__0_OFFSET UNITYSDK_OFFSET(0x157A4CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass77_0_TypeDefinitionIndex = 79270;
+	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass77_0_TypeDefinitionIndex = 69294;
 
 	class UIStrategyGuidePageController___c__DisplayClass77_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshRecommendBasePropertyStr_b__0(::Class_3_C3F0E3B5AB5977AE_40* p)
+		::System::Boolean _RefreshRecommendBasePropertyStr_b__0(::Class_3_C3F0E3B5AB5977AE_10* p)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_C3F0E3B5AB5977AE_40*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__REFRESHRECOMMENDBASEPROPERTYSTR_B__0_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_C3F0E3B5AB5977AE_10*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS77_0__REFRESHRECOMMENDBASEPROPERTYSTR_B__0_OFFSET))(this, p);
 		}
 	};
 }

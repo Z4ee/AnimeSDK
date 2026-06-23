@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::Adapter
 {
-	inline static constexpr unsigned int ManagedChunkList_1_TypeDefinitionIndex = 9136;
+	inline static constexpr unsigned int ManagedChunkList_1_TypeDefinitionIndex = 8403;
 
 	template <typename T>
 	class ManagedChunkList_1 : public ::System::Object

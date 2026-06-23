@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_EC9E7818B91C3AA0.h"
+#include "unitysdk/Enum_3_86D58C2A2996E647.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_87F0035AB3018CD9;
 namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_87F0035AB3018CD9_CLASS_1_85517C2CD910418D_METHOD_1_E2AB539F25FE7797_OFFSET UNITYSDK_OFFSET(0x178EE220)
-#define CLASS_1_87F0035AB3018CD9_CLASS_1_85517C2CD910418D__CTOR_OFFSET UNITYSDK_OFFSET(0x178EE210)
+#define CLASS_1_87F0035AB3018CD9_CLASS_1_85517C2CD910418D_METHOD_1_E2AB539F25FE7797_OFFSET UNITYSDK_OFFSET(0x14069990)
+#define CLASS_1_87F0035AB3018CD9_CLASS_1_85517C2CD910418D__CTOR_OFFSET UNITYSDK_OFFSET(0x14069980)
 
-inline static constexpr unsigned int Class_1_87F0035AB3018CD9_Class_1_85517C2CD910418D_TypeDefinitionIndex = 76068;
+inline static constexpr unsigned int Class_1_87F0035AB3018CD9_Class_1_85517C2CD910418D_TypeDefinitionIndex = 51573;
 
 class Class_1_87F0035AB3018CD9_Class_1_85517C2CD910418D : public ::System::Object
 {
 public:
 	::System::Action_1<::System::EventArgs*>* Field_1_1; // 0x10
 	::Class_1_87F0035AB3018CD9* Field_1_0; // 0x18
-	::Enum_3_EC9E7818B91C3AA0 Field_1_2; // 0x20
+	::Enum_3_86D58C2A2996E647 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

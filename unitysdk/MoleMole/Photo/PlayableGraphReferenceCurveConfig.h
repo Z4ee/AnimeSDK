@@ -20,21 +20,21 @@ namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x11DE63E0)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x11DE8030)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_1_OFFSET UNITYSDK_OFFSET(0x11DE8A80)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_2_OFFSET UNITYSDK_OFFSET(0x11DE8F20)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_OFFSET UNITYSDK_OFFSET(0x11DE85B0)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_A87ABB37A2265E8F_OFFSET UNITYSDK_OFFSET(0x11DE90A0)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_AF5D1137CF44E9F3_OFFSET UNITYSDK_OFFSET(0x11DE91C0)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_1_OFFSET UNITYSDK_OFFSET(0x11DE8BB0)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_OFFSET UNITYSDK_OFFSET(0x11DE8710)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_REQUEST_OFFSET UNITYSDK_OFFSET(0x11DE8040)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11DE85A0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x11649B40)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x1164B790)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_1_OFFSET UNITYSDK_OFFSET(0x1164C6D0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_2_OFFSET UNITYSDK_OFFSET(0x1164C850)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_OFFSET UNITYSDK_OFFSET(0x1164C080)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_A87ABB37A2265E8F_OFFSET UNITYSDK_OFFSET(0x1164C5B0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_AF5D1137CF44E9F3_OFFSET UNITYSDK_OFFSET(0x1164C1E0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_1_OFFSET UNITYSDK_OFFSET(0x1164C980)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_OFFSET UNITYSDK_OFFSET(0x1164BD10)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_REQUEST_OFFSET UNITYSDK_OFFSET(0x1164B7A0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1164BD00)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableGraphReferenceCurveConfig_TypeDefinitionIndex = 59211;
+	inline static constexpr unsigned int PlayableGraphReferenceCurveConfig_TypeDefinitionIndex = 72892;
 
 	class PlayableGraphReferenceCurveConfig : public ::System::Object
 	{
@@ -67,29 +67,19 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_REQUEST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void Method_1_4A12AA2BEAE67A2D(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
-		{
-			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_OFFSET))(a1, a2, a3, a4, a5);
-		}
-
 		::System::Boolean Method_1_E30C9EDC8C6E490C(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeMemoryBlob& a3)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeMemoryBlob&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void Method_1_4A12AA2BEAE67A2D_1(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
+		static ::System::Void Method_1_4A12AA2BEAE67A2D(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean Method_1_E30C9EDC8C6E490C_1(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeMemoryBlob& a3)
+		::System::Boolean Method_1_AF5D1137CF44E9F3(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeMemoryBlob& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeMemoryBlob&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_1_OFFSET))(this, a1, a2, a3);
-		}
-
-		static ::System::Void Method_1_4A12AA2BEAE67A2D_2(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
-		{
-			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_2_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeMemoryBlob&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_AF5D1137CF44E9F3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean Method_1_A87ABB37A2265E8F(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeVariableArray_1<::Struct_2_44BFEEFC722C6845>& a3)
@@ -97,9 +87,19 @@ namespace MoleMole::Photo
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeVariableArray_1<::Struct_2_44BFEEFC722C6845>&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_A87ABB37A2265E8F_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_AF5D1137CF44E9F3(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeMemoryBlob& a3)
+		static ::System::Void Method_1_4A12AA2BEAE67A2D_1(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeMemoryBlob&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_AF5D1137CF44E9F3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_1_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void Method_1_4A12AA2BEAE67A2D_2(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2, ::Foundation::NativeMemoryBlob a3, ::System::Int32& a4, ::Enum_3_2ACAE3B8E89364F1 a5)
+		{
+			return ((::System::Void(*)(::UnityEngine::Keyframe&, ::UnityEngine::Keyframe&, ::Foundation::NativeMemoryBlob, ::System::Int32&, ::Enum_3_2ACAE3B8E89364F1))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_4A12AA2BEAE67A2D_2_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		::System::Boolean Method_1_E30C9EDC8C6E490C_1(::Foundation::NativeMemory* a1, ::Foundation::NativeMemoryRequestHandle a2, ::Foundation::NativeMemoryBlob& a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::NativeMemory*, ::Foundation::NativeMemoryRequestHandle, ::Foundation::NativeMemoryBlob&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHREFERENCECURVECONFIG_METHOD_1_E30C9EDC8C6E490C_1_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

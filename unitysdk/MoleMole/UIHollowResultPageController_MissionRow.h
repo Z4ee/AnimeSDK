@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x15FABFA0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8CC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController_MissionRow_TypeDefinitionIndex = 80791;
+	inline static constexpr unsigned int UIHollowResultPageController_MissionRow_TypeDefinitionIndex = 57533;
 
 	class UIHollowResultPageController_MissionRow : public ::System::Object
 	{

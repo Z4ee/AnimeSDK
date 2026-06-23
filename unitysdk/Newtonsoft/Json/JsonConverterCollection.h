@@ -4,11 +4,11 @@
 
 namespace Newtonsoft::Json { class JsonConverter; }
 
-#define NEWTONSOFT_JSON_JSONCONVERTERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A2F30)
+#define NEWTONSOFT_JSON_JSONCONVERTERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DA6B0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverterCollection_TypeDefinitionIndex = 6863;
+	inline static constexpr unsigned int JsonConverterCollection_TypeDefinitionIndex = 6994;
 
 	class JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*>
 	{

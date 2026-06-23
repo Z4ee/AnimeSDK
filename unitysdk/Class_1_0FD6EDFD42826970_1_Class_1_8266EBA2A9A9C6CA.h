@@ -7,7 +7,7 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_0FD6EDFD42826970_1_Class_1_8266EBA2A9A9C6CA_TypeDefinitionIndex = 78292;
+inline static constexpr unsigned int Class_1_0FD6EDFD42826970_1_Class_1_8266EBA2A9A9C6CA_TypeDefinitionIndex = 58895;
 
 template <typename T>
 class Class_1_0FD6EDFD42826970_1_Class_1_8266EBA2A9A9C6CA : public ::System::Object

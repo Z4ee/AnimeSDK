@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__DefaultIfEmptyIterator_d__95_1_TypeDefinitionIndex = 4366;
+	inline static constexpr unsigned int Enumerable__DefaultIfEmptyIterator_d__95_1_TypeDefinitionIndex = 4365;
 
 	template <typename TSource>
 	class Enumerable__DefaultIfEmptyIterator_d__95_1 : public ::System::Object

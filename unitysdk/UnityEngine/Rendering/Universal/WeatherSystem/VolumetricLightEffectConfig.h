@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x196B8570)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196B86C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B824E90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B824FE0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int VolumetricLightEffectConfig_TypeDefinitionIndex = 30300;
+	inline static constexpr unsigned int VolumetricLightEffectConfig_TypeDefinitionIndex = 26383;
 
 	class VolumetricLightEffectConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::VolumetricLightEffectConfig*>
 	{

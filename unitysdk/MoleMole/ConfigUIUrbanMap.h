@@ -7,6 +7,7 @@
 class MonoSceneMap3DConfig_LiftPosInfo;
 namespace MoleMole { class MapLayerOrderInfo; }
 namespace MoleMole { class MapOverrideBounds; }
+namespace MoleMole { class RadarStateChangeImageConfig; }
 namespace MoleMole { class SerializableDecalAreaData; }
 namespace MoleMole { class UIThreeDMapConfig; }
 namespace MoleMole { class UrbanMapMeshLayerInfo; }
@@ -14,14 +15,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIURBANMAP_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0xFB18690)
-#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYERINFO_OFFSET UNITYSDK_OFFSET(0xFB181E0)
-#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYEROVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0xFB18050)
-#define MOLEMOLE_CONFIGUIURBANMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xFB18840)
+#define MOLEMOLE_CONFIGUIURBANMAP_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0xE986C20)
+#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYERINFO_OFFSET UNITYSDK_OFFSET(0xE986780)
+#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYEROVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0xE9865F0)
+#define MOLEMOLE_CONFIGUIURBANMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xE986DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIUrbanMap_TypeDefinitionIndex = 64992;
+	inline static constexpr unsigned int ConfigUIUrbanMap_TypeDefinitionIndex = 45657;
 
 	class ConfigUIUrbanMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -45,6 +46,7 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MonoSceneMap3DConfig_LiftPosInfo*>* LiftPosInfos; // 0xB0
 		::System::Collections::Generic::List_1<::MoleMole::MapLayerOrderInfo*>* LayerOrderInfos; // 0xB8
 		::System::Collections::Generic::List_1<::MoleMole::MapLayerOrderInfo*>* RadarLayerOrderInfos; // 0xC0
+		::System::Collections::Generic::List_1<::MoleMole::RadarStateChangeImageConfig*>* RadarStateChangeImageConfigs; // 0xC8
 
 		::System::Void _ctor()
 		{

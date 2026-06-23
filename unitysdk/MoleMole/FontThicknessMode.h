@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FontThicknessMode_TypeDefinitionIndex = 58973;
+	inline static constexpr unsigned int FontThicknessMode_TypeDefinitionIndex = 84630;
 
 	enum class FontThicknessMode : ::System::Int32
 	{
-		Recommend = 1,
 		Thin = 3,
-		None = 0,
+		Recommend = 1,
 		Thick = 2,
+		None = 0,
 	};
 }

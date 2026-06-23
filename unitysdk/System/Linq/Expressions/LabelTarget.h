@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C1C9540)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C1C9550)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C1C9560)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1C95B0)
-#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C9530)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E50A620)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E50A630)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50A640)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E50A690)
+#define SYSTEM_LINQ_EXPRESSIONS_LABELTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E50A610)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int LabelTarget_TypeDefinitionIndex = 4491;
+	inline static constexpr unsigned int LabelTarget_TypeDefinitionIndex = 4490;
 
 	class LabelTarget : public ::System::Object
 	{
 	public:
-		::System::Type* _Type_k__BackingField; // 0x10
-		::System::String* _Name_k__BackingField; // 0x18
+		::System::String* _Name_k__BackingField; // 0x10
+		::System::Type* _Type_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Type* type, ::System::String* name)
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16049890)
+#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBCB70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RandomGroupInfo_TypeDefinitionIndex = 76147;
+	inline static constexpr unsigned int RandomGroupInfo_TypeDefinitionIndex = 58846;
 
 	class RandomGroupInfo : public ::System::Object
 	{

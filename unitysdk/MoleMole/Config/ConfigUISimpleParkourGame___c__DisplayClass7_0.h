@@ -6,12 +6,12 @@ class Class_1_B9D6E7E76075C6E2_1;
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SerializableWaveConfig; }
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SimpleParkourGlobalConfig; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x159F8620)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159F8610)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x127224B0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x127224A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame___c__DisplayClass7_0_TypeDefinitionIndex = 43823;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame___c__DisplayClass7_0_TypeDefinitionIndex = 72944;
 
 	class ConfigUISimpleParkourGame___c__DisplayClass7_0 : public ::System::Object
 	{

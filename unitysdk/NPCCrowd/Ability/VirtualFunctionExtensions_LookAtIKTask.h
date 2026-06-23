@@ -3,30 +3,30 @@
 #include "unitysdk/NPCCrowd/Ability/LookAtIKTask.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xFB55490)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xFB55400)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xFB55390)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xFB55530)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xFB55600)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xEBCA970)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xEBCA8E0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xEBCA870)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xEBCAA10)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xEBCAAE0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_LookAtIKTask_TypeDefinitionIndex = 56775;
+	inline static constexpr unsigned int VirtualFunctionExtensions_LookAtIKTask_TypeDefinitionIndex = 42775;
 
 	class VirtualFunctionExtensions_LookAtIKTask : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Link(::NPCCrowd::Ability::LookAtIKTask& self, ::StateTreeCore::StateTreeLinker& linker)
+		static ::System::Boolean Link(::NPCCrowd::Ability::LookAtIKTask& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::NPCCrowd::Ability::LookAtIKTask&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET))(self, linker);
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::LookAtIKTask&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET))(self, linker);
 		}
 
 		static ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::NPCCrowd::Ability::LookAtIKTask& self)

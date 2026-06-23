@@ -1,0 +1,222 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_1_0D6706375CDAAE8C;
+class Class_2_3B1E761D184CCDAF;
+class Class_2_60F06717BB999E3F;
+class Class_3_809D1C94CBDD4811_7;
+class Class_3_C248956D95AFBB36_5;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIGeneralFilterItemRowWidgetController; }
+namespace MoleMole { class UIGeneralToggleWidgetController; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ADDTOPOOLM_OFFSET UNITYSDK_OFFSET(0x1227A010)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_APPLYFILTERUISTATE_OFFSET UNITYSDK_OFFSET(0x16ED2630)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_BUILDSUITSLOTPROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x16ED1260)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_FINDSLOTDATA_OFFSET UNITYSDK_OFFSET(0x1227A4C0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_GETRANDPROPERTYLEVELSUM_OFFSET UNITYSDK_OFFSET(0x16ED2920)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x16ED0990)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_INITUI_OFFSET UNITYSDK_OFFSET(0x16ED0BE0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ISEFFECTIVEMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x1227B9F0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ISSUBPROPERTYNOTMATCH_OFFSET UNITYSDK_OFFSET(0x1227A670)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONBASEPROPERTYDAMAGETOGGLECHANGED_OFFSET UNITYSDK_OFFSET(0x1227C010)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONBASEPROPERTYFILTERCLICK_OFFSET UNITYSDK_OFFSET(0x1227BC60)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16ED2520)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONOKBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1227C150)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRANDPROPERTY0FILTERCLICK_OFFSET UNITYSDK_OFFSET(0x1227BD30)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRANDPROPERTY1FILTERCLICK_OFFSET UNITYSDK_OFFSET(0x1227BEA0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRESETBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1227C0F0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONSUITBASEPROPERTYCOUNTTOGGLECHANGED_OFFSET UNITYSDK_OFFSET(0x1227C080)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16ED25B0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16ED09A0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16ED09F0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_PROCESSEQUIPNOPLATFORMDATA_OFFSET UNITYSDK_OFFSET(0x1227A0F0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_PROCESSEQUIPWITHPLATFORMDATA_OFFSET UNITYSDK_OFFSET(0x1227A270)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_REFRESHDISCARDRESULT_OFFSET UNITYSDK_OFFSET(0x16ED20A0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_REFRESHNUMTEXT_OFFSET UNITYSDK_OFFSET(0x1227BA90)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_RESCUEEFFECTIVEMAINPROPERTYEQUIPS_OFFSET UNITYSDK_OFFSET(0x1227A890)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1227C690)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1227C730)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1227C7C0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1227C7D0)
+#define MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1227C7E0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRecycleSmartSetDialogPopWindowController_TypeDefinitionIndex = 48758;
+
+	class UIRecycleSmartSetDialogPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::Class_2_60F06717BB999E3F* _view; // 0x318
+		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* _sourceItemList; // 0x320
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_3_809D1C94CBDD4811_7*>* _platformDataDict; // 0x328
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::Class_2_3B1E761D184CCDAF*>*>*>*>* _suitSlotPropertyMap; // 0x330
+		::System::Collections::Generic::List_1<::Class_2_3B1E761D184CCDAF*>* _discardPool; // 0x338
+		::MoleMole::UIGeneralFilterItemRowWidgetController* _basePropertyFilterCtrl; // 0x340
+		::MoleMole::UIGeneralFilterItemRowWidgetController* _randProperty0FilterCtrl; // 0x348
+		::MoleMole::UIGeneralFilterItemRowWidgetController* _randProperty1FilterCtrl; // 0x350
+		::MoleMole::UIGeneralToggleWidgetController* _basePropertyDamageToggleCtrl; // 0x358
+		::MoleMole::UIGeneralToggleWidgetController* _suitBasePropertyCountToggleCtrl; // 0x360
+		::System::Boolean _isBasePropertySelected; // 0x368
+		::System::Boolean _isRandProperty0Selected; // 0x369
+		::System::Boolean _isRandProperty1Selected; // 0x36A
+		::System::Boolean _isBasePropertyDamageProtect; // 0x36B
+		::System::Boolean _isSuitBasePropertyCountProtect; // 0x36C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void InitUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_INITUI_OFFSET))(this);
+		}
+
+		::System::Void ApplyFilterUIState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_APPLYFILTERUISTATE_OFFSET))(this);
+		}
+
+		::System::Void BuildSuitSlotPropertyMap()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_BUILDSUITSLOTPROPERTYMAP_OFFSET))(this);
+		}
+
+		static ::System::Int32 GetRandPropertyLevelSum(::Class_2_3B1E761D184CCDAF* equipData)
+		{
+			return ((::System::Int32(*)(::Class_2_3B1E761D184CCDAF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_GETRANDPROPERTYLEVELSUM_OFFSET))(equipData);
+		}
+
+		::System::Void RefreshDiscardResult()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_REFRESHDISCARDRESULT_OFFSET))(this);
+		}
+
+		::System::Void AddToPoolM(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>* poolM, ::Class_2_3B1E761D184CCDAF* equipData)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>*, ::Class_2_3B1E761D184CCDAF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ADDTOPOOLM_OFFSET))(this, poolM, equipData);
+		}
+
+		::System::Void ProcessEquipNoPlatformData(::Class_2_3B1E761D184CCDAF* equipData, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>* poolM)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_3B1E761D184CCDAF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_PROCESSEQUIPNOPLATFORMDATA_OFFSET))(this, equipData, poolM);
+		}
+
+		::System::Void ProcessEquipWithPlatformData(::Class_2_3B1E761D184CCDAF* equipData, ::Class_3_809D1C94CBDD4811_7* suitUseInfo, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>* poolM)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_3B1E761D184CCDAF*, ::Class_3_809D1C94CBDD4811_7*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_PROCESSEQUIPWITHPLATFORMDATA_OFFSET))(this, equipData, suitUseInfo, poolM);
+		}
+
+		::Class_3_C248956D95AFBB36_5* FindSlotData(::Class_3_809D1C94CBDD4811_7* suitUseInfo, ::System::Int32 slotIndex)
+		{
+			return ((::Class_3_C248956D95AFBB36_5*(*)(::PVOID, ::Class_3_809D1C94CBDD4811_7*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_FINDSLOTDATA_OFFSET))(this, suitUseInfo, slotIndex);
+		}
+
+		::System::Boolean IsSubPropertyNotMatch(::Class_2_3B1E761D184CCDAF* equipData, ::Class_3_809D1C94CBDD4811_7* suitUseInfo)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_3B1E761D184CCDAF*, ::Class_3_809D1C94CBDD4811_7*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ISSUBPROPERTYNOTMATCH_OFFSET))(this, equipData, suitUseInfo);
+		}
+
+		::System::Void RescueEffectiveMainPropertyEquips(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>* poolM)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_3B1E761D184CCDAF*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_RESCUEEFFECTIVEMAINPROPERTYEQUIPS_OFFSET))(this, poolM);
+		}
+
+		::System::Boolean IsEffectiveMainProperty(::Class_3_809D1C94CBDD4811_7* suitUseInfo, ::System::Int32 slotIndex, ::System::UInt32 basePropertyId)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_809D1C94CBDD4811_7*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ISEFFECTIVEMAINPROPERTY_OFFSET))(this, suitUseInfo, slotIndex, basePropertyId);
+		}
+
+		::System::Void RefreshNumText()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_REFRESHNUMTEXT_OFFSET))(this);
+		}
+
+		::System::Void OnBasePropertyFilterClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONBASEPROPERTYFILTERCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnRandProperty0FilterClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRANDPROPERTY0FILTERCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnRandProperty1FilterClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRANDPROPERTY1FILTERCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnBasePropertyDamageToggleChanged(::System::Boolean isOn, ::System::Boolean isInit)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONBASEPROPERTYDAMAGETOGGLECHANGED_OFFSET))(this, isOn, isInit);
+		}
+
+		::System::Void OnSuitBasePropertyCountToggleChanged(::System::Boolean isOn, ::System::Boolean isInit)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONSUITBASEPROPERTYCOUNTTOGGLECHANGED_OFFSET))(this, isOn, isInit);
+		}
+
+		::System::Void OnResetBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONRESETBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnOKBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER_ONOKBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLESMARTSETDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

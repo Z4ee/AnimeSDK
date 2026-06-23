@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A16D90)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__65_0_OFFSET UNITYSDK_OFFSET(0x15A16DE0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A16DD0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16798610)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__65_0_OFFSET UNITYSDK_OFFSET(0x16798660)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16798650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c_TypeDefinitionIndex = 41798;
+	inline static constexpr unsigned int UIGalgamePageController___c_TypeDefinitionIndex = 54889;
 
 	class UIGalgamePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIGalgamePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIGalgamePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x37D10);
-		}
 		static ::System::Action** StaticGet___9__65_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x37D18);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x3A210);
+		}
+		static ::MoleMole::UIGalgamePageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIGalgamePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x3A218);
 		}
 
 		static ::System::Void _cctor()

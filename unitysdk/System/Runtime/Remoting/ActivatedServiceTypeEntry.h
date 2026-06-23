@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18B9CFF0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18B9CED0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ADBF380)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDSERVICETYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBF260)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ActivatedServiceTypeEntry_TypeDefinitionIndex = 1240;
+	inline static constexpr unsigned int ActivatedServiceTypeEntry_TypeDefinitionIndex = 1239;
 
 	class ActivatedServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{

@@ -6,9 +6,9 @@ namespace MoleMole::Config { class ConfigCameraZooms; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_85A7C7D1D1F4E919__CTOR_OFFSET UNITYSDK_OFFSET(0x11C67AD0)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_85A7C7D1D1F4E919__CTOR_OFFSET UNITYSDK_OFFSET(0xF805490)
 
-inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_85A7C7D1D1F4E919_TypeDefinitionIndex = 60492;
+inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_85A7C7D1D1F4E919_TypeDefinitionIndex = 85491;
 
 class Class_1_6D3799F67B8415DA_Class_1_85A7C7D1D1F4E919 : public ::System::Object
 {

@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x181CABD0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x181CABE0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x181CADC0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181CAF60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181CAF20)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12B3CB00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12B3CB10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12B3CCF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B3CE90)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD_CONFIGHOLLOWOUTCHESSBOARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3CE50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowOutChessboard_ConfigHollowOutChessboard_UnityGeneratedFormatter_TypeDefinitionIndex = 69485;
+	inline static constexpr unsigned int ConfigHollowOutChessboard_ConfigHollowOutChessboard_UnityGeneratedFormatter_TypeDefinitionIndex = 59085;
 
 	class ConfigHollowOutChessboard_ConfigHollowOutChessboard_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHollowOutChessboard*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowChessboard_Flash*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowChessboard_Flash*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowOutChessboard_ConfigHollowOutChessboard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x486A0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowChessboard_Flash*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowOutChessboard_ConfigHollowOutChessboard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BCF0);
 		}
 
 		::System::Void _ctor()

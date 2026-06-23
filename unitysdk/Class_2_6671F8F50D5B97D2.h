@@ -10,25 +10,25 @@ namespace MoleMole { class UIControlCollection; }
 namespace MoleMole { class UIItemIconBtnSmallWidgetController; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_6671F8F50D5B97D2_METHOD_2_29352E75304CF2A0_OFFSET UNITYSDK_OFFSET(0x13F73800)
-#define CLASS_2_6671F8F50D5B97D2_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x13F735C0)
-#define CLASS_2_6671F8F50D5B97D2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13F73920)
-#define CLASS_2_6671F8F50D5B97D2__CTOR_OFFSET UNITYSDK_OFFSET(0x13F73910)
+#define CLASS_2_6671F8F50D5B97D2_METHOD_2_29352E75304CF2A0_OFFSET UNITYSDK_OFFSET(0x11D46420)
+#define CLASS_2_6671F8F50D5B97D2_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x11D461E0)
+#define CLASS_2_6671F8F50D5B97D2_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11D46540)
+#define CLASS_2_6671F8F50D5B97D2__CTOR_OFFSET UNITYSDK_OFFSET(0x11D46530)
 
-inline static constexpr unsigned int Class_2_6671F8F50D5B97D2_TypeDefinitionIndex = 70267;
+inline static constexpr unsigned int Class_2_6671F8F50D5B97D2_TypeDefinitionIndex = 63565;
 
 class Class_2_6671F8F50D5B97D2 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x18
-	::MoleMole::NotificationBadgeEx* Field_2_5; // 0x20
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityIconLiveBtnWidgetController*>* Field_2_4; // 0x20
 	::UnityEngine::RectTransform* Field_2_6; // 0x28
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x30
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivityIconLiveBtnWidgetController*>* Field_2_3; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivityIconLiveBtnWidgetController*>* Field_2_4; // 0x40
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIItemIconBtnSmallWidgetController*>* Field_2_2; // 0x48
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityIconLiveBtnWidgetController*>* Field_2_3; // 0x30
+	::MoleMole::NotificationBadgeEx* Field_2_5; // 0x38
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIItemIconBtnSmallWidgetController*>* Field_2_2; // 0x40
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x48
 
 	::System::Void _ctor()
 	{

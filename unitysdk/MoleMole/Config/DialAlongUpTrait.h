@@ -5,32 +5,32 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16AA0F00)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16AA0A00)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_0964D76C59C6E4FE_OFFSET UNITYSDK_OFFSET(0x16AA0F60)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x16AA0770)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x16AA1480)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET UNITYSDK_OFFSET(0x16AA1220)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x16AA1510)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET UNITYSDK_OFFSET(0x16AA0A80)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x16AA0760)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_C276913EC2E1D8E6_OFFSET UNITYSDK_OFFSET(0x16AA1520)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x16AA0860)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_E4B704195AACDF42_OFFSET UNITYSDK_OFFSET(0x16AA16C0)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x16AA08D0)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x16AA1300)
-#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA1470)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x158B9A00)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x158B9B60)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x158B99F0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x158BA2D0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x158B9C90)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x158BA790)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x158B9AF0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x158BA330)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x158B9D10)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x158BA870)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x158BA5F0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x158BA190)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x158BA9E0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x158BA9F0)
+#define MOLEMOLE_CONFIG_DIALALONGUPTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x158BAA00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DialAlongUpTrait_TypeDefinitionIndex = 63301;
+	inline static constexpr unsigned int DialAlongUpTrait_TypeDefinitionIndex = 61581;
 
 	class DialAlongUpTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -44,74 +44,74 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_39C75ED00C6629F7(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::DialAlongUpTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_39C75ED00C6629F7_OFFSET))(this, a1);
+			return ((::MoleMole::Config::DialAlongUpTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Void OnPostEntityReady(::MoleMole::EntityHandle a1)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_ONPOSTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		static ::MoleMole::Config::DialAlongUpTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Config::DialAlongUpTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::DialAlongUpTrait* Method_2_C276913EC2E1D8E6(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::MoleMole::Config::DialAlongUpTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_C276913EC2E1D8E6_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Boolean Method_2_0964D76C59C6E4FE(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entity)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_0964D76C59C6E4FE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entity);
 		}
 
-		::System::Boolean Method_2_7821D1D4DDDF7E01(::FlexBuffers::FlxMap a1)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		static ::MoleMole::Config::DialAlongUpTrait* Method_2_E4B704195AACDF42(::FlexBuffers::FlxValue a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::MoleMole::Config::DialAlongUpTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT_METHOD_2_E4B704195AACDF42_OFFSET))(a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DIALALONGUPTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

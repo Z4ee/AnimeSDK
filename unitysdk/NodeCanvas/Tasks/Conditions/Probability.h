@@ -5,13 +5,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A85EE90)
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A85EF30)
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A85EF90)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1CC4D9B0)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1CC4DA50)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4DAB0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int Probability_TypeDefinitionIndex = 26662;
+	inline static constexpr unsigned int Probability_TypeDefinitionIndex = 29877;
 
 	class Probability : public ::NodeCanvas::Framework::ConditionTask
 	{

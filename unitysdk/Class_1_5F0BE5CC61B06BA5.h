@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_5F0BE5CC61B06BA5_Class_1_3D7EB1EBD5149234;
 
-inline static constexpr unsigned int Class_1_5F0BE5CC61B06BA5_TypeDefinitionIndex = 70907;
+inline static constexpr unsigned int Class_1_5F0BE5CC61B06BA5_TypeDefinitionIndex = 63080;
 
 template <typename T>
 class Class_1_5F0BE5CC61B06BA5 : public ::System::Object

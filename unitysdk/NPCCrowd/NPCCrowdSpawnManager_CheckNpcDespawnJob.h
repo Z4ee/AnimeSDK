@@ -3,17 +3,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKNPCDESPAWNJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x72F9C0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKNPCDESPAWNJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6803E0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdSpawnManager_CheckNpcDespawnJob_TypeDefinitionIndex = 50412;
+	inline static constexpr unsigned int NPCCrowdSpawnManager_CheckNpcDespawnJob_TypeDefinitionIndex = 52254;
 
 	struct alignas(8) NPCCrowdSpawnManager_CheckNpcDespawnJob
 	{
 		::Unity::Collections::NativeArray_1<::System::UInt32> entityIDs; // 0x10
-		::System::Single deltaTime; // 0x20
-		::System::Single playerPosY; // 0x24
+		::Unity::Collections::NativeArray_1<::System::Int32> pathNodeIDs; // 0x20
+		::System::Single deltaTime; // 0x30
+		::System::Single playerPosY; // 0x34
 
 		::System::Void Execute(::System::Int32 index)
 		{

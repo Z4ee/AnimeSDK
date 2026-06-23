@@ -4,12 +4,12 @@
 
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWRANKLISTCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1821B450)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWRANKLISTCONFIG___C__DISPLAYCLASS3_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1821B460)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWRANKLISTCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A033280)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWRANKLISTCONFIG___C__DISPLAYCLASS3_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1A033290)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowRankListConfig___c__DisplayClass3_0_TypeDefinitionIndex = 57859;
+	inline static constexpr unsigned int MainCityChatShowRankListConfig___c__DisplayClass3_0_TypeDefinitionIndex = 69271;
 
 	class MainCityChatShowRankListConfig___c__DisplayClass3_0 : public ::System::Object
 	{

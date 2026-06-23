@@ -8,25 +8,25 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1BBDC620)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1BBDCEA0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1BBDCE90)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1BBDCEB0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_SAMEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1BBDC6D0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDC5A0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1DF30880)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1DF31100)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1DF310F0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1DF31110)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_SAMEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1DF30930)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF30800)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Block5_TypeDefinitionIndex = 4435;
+	inline static constexpr unsigned int Block5_TypeDefinitionIndex = 4434;
 
 	class Block5 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg2; // 0x10
-		::System::Object* _arg0; // 0x18
-		::System::Linq::Expressions::Expression* _arg3; // 0x20
-		::System::Linq::Expressions::Expression* _arg4; // 0x28
-		::System::Linq::Expressions::Expression* _arg1; // 0x30
+		::System::Linq::Expressions::Expression* _arg3; // 0x10
+		::System::Linq::Expressions::Expression* _arg2; // 0x18
+		::System::Linq::Expressions::Expression* _arg4; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
+		::System::Object* _arg0; // 0x30
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)
 		{

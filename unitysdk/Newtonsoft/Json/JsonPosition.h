@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1B6041E0)
-#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0x9856D0)
-#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B604450)
-#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1B603E60)
-#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0x9856E0)
-#define NEWTONSOFT_JSON_JSONPOSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B604800)
-#define NEWTONSOFT_JSON_JSONPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x985650)
+#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1D9CF5F0)
+#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0xA288B0)
+#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D9CF860)
+#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1D9CF270)
+#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0xA288C0)
+#define NEWTONSOFT_JSON_JSONPOSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9CFC10)
+#define NEWTONSOFT_JSON_JSONPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xA28830)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 6870;
+	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 7001;
 
 	struct alignas(8) JsonPosition
 	{
 		static ::Il2CppArray<::System::Char>** StaticGet_SpecialCharacters()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonPosition_TypeDefinitionIndex)->GetStaticField(0x5F90);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonPosition_TypeDefinitionIndex)->GetStaticField(0x6080);
 		}
 		::Newtonsoft::Json::JsonContainerType Type; // 0x10
 		::System::Int32 Position; // 0x14

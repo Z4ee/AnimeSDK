@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int FreezedDictionary_2_TypeDefinitionIndex = 25592;
+	inline static constexpr unsigned int FreezedDictionary_2_TypeDefinitionIndex = 28073;
 
 	template <typename TKey, typename TValue>
 	class FreezedDictionary_2 : public ::System::Object

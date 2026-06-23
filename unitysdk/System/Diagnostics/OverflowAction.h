@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int OverflowAction_TypeDefinitionIndex = 4094;
+	inline static constexpr unsigned int OverflowAction_TypeDefinitionIndex = 4093;
 
 	enum class OverflowAction : ::System::Int32
 	{

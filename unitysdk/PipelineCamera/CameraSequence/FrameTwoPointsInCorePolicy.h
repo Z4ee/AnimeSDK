@@ -4,11 +4,11 @@
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMETWOPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CDFE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMETWOPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD48880)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FrameTwoPointsInCorePolicy_TypeDefinitionIndex = 36302;
+	inline static constexpr unsigned int FrameTwoPointsInCorePolicy_TypeDefinitionIndex = 37910;
 
 	class FrameTwoPointsInCorePolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::PipelineCamera::WorldBasicCameraData, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
 	{

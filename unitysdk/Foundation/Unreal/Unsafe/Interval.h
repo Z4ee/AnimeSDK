@@ -3,25 +3,25 @@
 #include "unitysdk/Foundation/Unreal/Unsafe/IntervalBound.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1BE2D390)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1BE2D660)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BE2D410)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE2D8C0)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1E826CD0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E826FA0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E826D50)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E827200)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
 
 namespace Foundation::Unreal::Unsafe
 {
-	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8999;
+	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8625;
 
 	struct alignas(4) Interval
 	{
-		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_Empty()
-		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3E00);
-		}
 		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_All()
 		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3E10);
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C10);
+		}
+		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_Empty()
+		{
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C20);
 		}
 		::Foundation::Unreal::Unsafe::IntervalBound _lowerBound; // 0x10
 		::Foundation::Unreal::Unsafe::IntervalBound _upperBound; // 0x18

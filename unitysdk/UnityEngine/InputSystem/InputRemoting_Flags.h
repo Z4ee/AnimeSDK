@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_Flags_TypeDefinitionIndex = 28988;
+	inline static constexpr unsigned int InputRemoting_Flags_TypeDefinitionIndex = 31644;
 
 	enum class InputRemoting_Flags : ::System::Int32
 	{

@@ -3,15 +3,15 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int ENPCAbilityMovementAction_TypeDefinitionIndex = 76465;
+	inline static constexpr unsigned int ENPCAbilityMovementAction_TypeDefinitionIndex = 70337;
 
 	enum class ENPCAbilityMovementAction : ::System::Int32
 	{
-		Move = 1,
-		Stand = 0,
 		Freeze = 2,
-		Turn = 3,
-		Animate = 4,
 		MotionMove = 5,
+		Turn = 3,
+		Stand = 0,
+		Animate = 4,
+		Move = 1,
 	};
 }

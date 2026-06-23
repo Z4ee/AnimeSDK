@@ -10,24 +10,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_3A1EFEB22DB75051_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0xEAB4430)
-#define CLASS_2_3A1EFEB22DB75051_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0xEAB4610)
-#define CLASS_2_3A1EFEB22DB75051_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xEAB46E0)
-#define CLASS_2_3A1EFEB22DB75051__CTOR_OFFSET UNITYSDK_OFFSET(0xEAB46D0)
+#define CLASS_2_3A1EFEB22DB75051_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x13AA7C30)
+#define CLASS_2_3A1EFEB22DB75051_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x13AA7E10)
+#define CLASS_2_3A1EFEB22DB75051_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13AA7EE0)
+#define CLASS_2_3A1EFEB22DB75051__CTOR_OFFSET UNITYSDK_OFFSET(0x13AA7ED0)
 
-inline static constexpr unsigned int Class_2_3A1EFEB22DB75051_TypeDefinitionIndex = 59763;
+inline static constexpr unsigned int Class_2_3A1EFEB22DB75051_TypeDefinitionIndex = 55576;
 
 class Class_2_3A1EFEB22DB75051 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_4; // 0x18
-	::UnityEngine::GameObject* Field_2_2; // 0x20
-	::UnityEngine::RectTransform* Field_2_1; // 0x28
-	::MonoUITableScrollV2* Field_2_7; // 0x30
+	::UnityEngine::RectTransform* Field_2_1; // 0x18
+	::MonoUITableScrollV2* Field_2_7; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
+	::UnityEngine::GameObject* Field_2_4; // 0x30
 	::UnityEngine::GameObject* Field_2_6; // 0x38
-	::UnityEngine::UI::Text* Field_2_5; // 0x40
-	::UnityEngine::UI::Text* Field_2_3; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x50
+	::UnityEngine::UI::Text* Field_2_3; // 0x40
+	::UnityEngine::UI::Text* Field_2_5; // 0x48
+	::UnityEngine::GameObject* Field_2_2; // 0x50
 
 	::System::Void _ctor()
 	{

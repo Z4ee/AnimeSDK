@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_7C06B45C208A25D4_1.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x12689700)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_2_OFFSET UNITYSDK_OFFSET(0x12689750)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x126896B0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x12689690)
+
+namespace Code::Logic::UI::UGUIExtensions::GalGameMaterialModifier
+{
+	inline static constexpr unsigned int GalGameFogParams_TypeDefinitionIndex = 71002;
+
+	class GalGameFogParams : public ::System::Object
+	{
+	public:
+		::Enum_3_7C06B45C208A25D4_1 useFogType; // 0x10
+		::System::Single fogStartDistance; // 0x14
+		::System::Single fogEndDistance; // 0x18
+		::System::Single fogDensity; // 0x1C
+		::UnityEngine::Color fogColor; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean Method_1_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Boolean Method_1_391A84BCD9F51317_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_1_OFFSET))(this);
+		}
+
+		::System::Boolean Method_1_391A84BCD9F51317_2()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFOGPARAMS_METHOD_1_391A84BCD9F51317_2_OFFSET))(this);
+		}
+	};
+}

@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_3_FB041290FBA4AD2C_Struct_2_580E6E86165B5620_TypeDefinitionIndex = 25596;
+inline static constexpr unsigned int Class_3_FB041290FBA4AD2C_Struct_2_580E6E86165B5620_TypeDefinitionIndex = 28130;
 
 template <typename TVertex, typename TEdge>
 struct Class_3_FB041290FBA4AD2C_Struct_2_580E6E86165B5620

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILICONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x197D1310)
+#define MIHOYO_SDK_BILIBILICONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3176B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BilibiliConfigModel_TypeDefinitionIndex = 18760;
+	inline static constexpr unsigned int BilibiliConfigModel_TypeDefinitionIndex = 19655;
 
 	class BilibiliConfigModel : public ::System::Object
 	{

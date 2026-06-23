@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C75EB0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C75EF0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__REACTIVATEACCOUNT_B__6_0_OFFSET UNITYSDK_OFFSET(0x19C75F00)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB33F0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB3430)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__REACTIVATEACCOUNT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BBB3440)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX___c_TypeDefinitionIndex = 19659;
+	inline static constexpr unsigned int BindManagerCX___c_TypeDefinitionIndex = 20820;
 
 	class BindManagerCX___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::OS::BindManagerCX___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::OS::BindManagerCX___c**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCX___c_TypeDefinitionIndex)->GetStaticField(0xA5A0);
+			return (::MiHoYo::SDK::Console::OS::BindManagerCX___c**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCX___c_TypeDefinitionIndex)->GetStaticField(0xA8C0);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCX___c_TypeDefinitionIndex)->GetStaticField(0xA5A8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCX___c_TypeDefinitionIndex)->GetStaticField(0xA8C8);
 		}
 
 		static ::System::Void _cctor()

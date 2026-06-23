@@ -9,15 +9,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class IExposedPropertyTable; }
 
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15E5C860)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET UNITYSDK_OFFSET(0x15E5CF80)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x15E5CF40)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_F7662FE9CCCA35A7_OFFSET UNITYSDK_OFFSET(0x15E5CBD0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5CE90)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18717AF0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET UNITYSDK_OFFSET(0x187181C0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x18718340)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_F7662FE9CCCA35A7_OFFSET UNITYSDK_OFFSET(0x18717E60)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18718120)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int BatchActivationTrack_TypeDefinitionIndex = 43509;
+	inline static constexpr unsigned int BatchActivationTrack_TypeDefinitionIndex = 71323;
 
 	class BatchActivationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -36,6 +36,11 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
+		::System::Void Method_5_14014646206E49EF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET))(this);
+		}
+
 		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
@@ -44,11 +49,6 @@ namespace MoleMole::Timeline
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_5_F7662FE9CCCA35A7()
 		{
 			return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_F7662FE9CCCA35A7_OFFSET))(this);
-		}
-
-		::System::Void Method_5_14014646206E49EF()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET))(this);
 		}
 	};
 }

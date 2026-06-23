@@ -8,13 +8,13 @@ namespace RootMotion::FinalIK { class HitReactionVRIK_RotationOffset; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Collider; }
 
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_HIT_OFFSET UNITYSDK_OFFSET(0x1C347B00)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1C347850)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C347F10)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_HIT_OFFSET UNITYSDK_OFFSET(0x1E66C3B0)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1E66C100)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66C7C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReactionVRIK_TypeDefinitionIndex = 36702;
+	inline static constexpr unsigned int HitReactionVRIK_TypeDefinitionIndex = 38151;
 
 	class HitReactionVRIK : public ::RootMotion::FinalIK::OffsetModifierVRIK
 	{

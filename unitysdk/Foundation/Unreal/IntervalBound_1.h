@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int IntervalBound_1_TypeDefinitionIndex = 8799;
+	inline static constexpr unsigned int IntervalBound_1_TypeDefinitionIndex = 8540;
 
 	template <typename T>
 	struct IntervalBound_1

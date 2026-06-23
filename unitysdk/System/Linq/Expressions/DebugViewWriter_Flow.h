@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int DebugViewWriter_Flow_TypeDefinitionIndex = 4456;
+	inline static constexpr unsigned int DebugViewWriter_Flow_TypeDefinitionIndex = 4455;
 
 	enum class DebugViewWriter_Flow : ::System::Int32
 	{

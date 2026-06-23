@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBangkovBagPageController___c__DisplayClass31_1; }
 
-#define MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC9740)
-#define MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__REQUESTNESTEDGIFTPREVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x16EC9750)
+#define MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18692C30)
+#define MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__OPENMASKITEMINFO_B__1_OFFSET UNITYSDK_OFFSET(0x18692C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovBagPageController___c__DisplayClass31_2_TypeDefinitionIndex = 59524;
+	inline static constexpr unsigned int UIBangkovBagPageController___c__DisplayClass31_2_TypeDefinitionIndex = 40337;
 
 	class UIBangkovBagPageController___c__DisplayClass31_2 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestNestedGiftPreview_b__1()
+		::System::Void _OpenMaskItemInfo_b__1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__REQUESTNESTEDGIFTPREVIEW_B__1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVBAGPAGECONTROLLER___C__DISPLAYCLASS31_2__OPENMASKITEMINFO_B__1_OFFSET))(this);
 		}
 	};
 }

@@ -10,22 +10,22 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_73397F0F742B57DB_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1298A120)
-#define CLASS_2_73397F0F742B57DB_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x12989FE0)
-#define CLASS_2_73397F0F742B57DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1298A110)
+#define CLASS_2_73397F0F742B57DB_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x147EB1D0)
+#define CLASS_2_73397F0F742B57DB_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x147EB090)
+#define CLASS_2_73397F0F742B57DB__CTOR_OFFSET UNITYSDK_OFFSET(0x147EB1C0)
 
-inline static constexpr unsigned int Class_2_73397F0F742B57DB_TypeDefinitionIndex = 44412;
+inline static constexpr unsigned int Class_2_73397F0F742B57DB_TypeDefinitionIndex = 67446;
 
 class Class_2_73397F0F742B57DB : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x18
-	::UnityEngine::Transform* Field_2_3; // 0x20
-	::UnityEngine::RectTransform* Field_2_2; // 0x28
-	::UnityEngine::GameObject* Field_2_4; // 0x30
-	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x38
-	::UnityEngine::RectTransform* Field_2_1; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x48
+	::UnityEngine::RectTransform* Field_2_1; // 0x20
+	::UnityEngine::GameObject* Field_2_4; // 0x28
+	::UnityEngine::Transform* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x38
+	::UnityEngine::RectTransform* Field_2_2; // 0x40
+	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x48
 
 	::System::Void _ctor()
 	{

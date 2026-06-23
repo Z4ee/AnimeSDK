@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_6420BCE09A2E1435_OFFSET UNITYSDK_OFFSET(0x181EFFC0)
-#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x181EFFB0)
+#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_6420BCE09A2E1435_OFFSET UNITYSDK_OFFSET(0x1A00DD80)
+#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00DD70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigPointScoreCalculatePipe_TypeDefinitionIndex = 65998;
+	inline static constexpr unsigned int ConfigPointScoreCalculatePipe_TypeDefinitionIndex = 77348;
 
 	class ConfigPointScoreCalculatePipe : public ::System::Object
 	{

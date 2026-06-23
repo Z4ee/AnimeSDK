@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_MESHLETRENDERING_DISABLEPREZ_OFFSET UNITYSDK_OFFSET(0x1B4DC8F0)
-#define UNITYENGINE_RENDERING_MESHLETRENDERING_ENABLEPREZ_OFFSET UNITYSDK_OFFSET(0x1B4DC8E0)
+#define UNITYENGINE_RENDERING_MESHLETRENDERING_DISABLEPREZ_OFFSET UNITYSDK_OFFSET(0x1D856260)
+#define UNITYENGINE_RENDERING_MESHLETRENDERING_ENABLEPREZ_OFFSET UNITYSDK_OFFSET(0x1D856250)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MeshletRendering_TypeDefinitionIndex = 6141;
+	inline static constexpr unsigned int MeshletRendering_TypeDefinitionIndex = 6152;
 
 	struct alignas(1) MeshletRendering
 	{

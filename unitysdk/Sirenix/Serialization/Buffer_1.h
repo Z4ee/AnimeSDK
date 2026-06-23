@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 7362;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 7494;
 
 	template <typename T>
 	class Buffer_1 : public ::System::Object

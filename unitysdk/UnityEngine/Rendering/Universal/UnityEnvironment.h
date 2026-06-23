@@ -8,11 +8,11 @@
 namespace UnityEngine { class Cubemap; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNITYENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x192AFD00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNITYENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AACE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UnityEnvironment_TypeDefinitionIndex = 29920;
+	inline static constexpr unsigned int UnityEnvironment_TypeDefinitionIndex = 26370;
 
 	class UnityEnvironment : public ::System::Object
 	{

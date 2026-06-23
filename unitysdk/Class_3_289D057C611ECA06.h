@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/ViewObject/BaseViewObjectComponent_1.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+
+class Class_3_F66EF797857EB737;
+namespace System { class EventArgs; }
+
+#define CLASS_3_289D057C611ECA06_METHOD_3_0581090195E9C81F_OFFSET UNITYSDK_OFFSET(0x102E29E0)
+#define CLASS_3_289D057C611ECA06_METHOD_3_1EA0894A9616ED1B_OFFSET UNITYSDK_OFFSET(0x102E2E50)
+#define CLASS_3_289D057C611ECA06_METHOD_3_2798ACA205D0B4A6_OFFSET UNITYSDK_OFFSET(0x102E2EE0)
+#define CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x102E2EC0)
+#define CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_2_OFFSET UNITYSDK_OFFSET(0x102E2ED0)
+#define CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x102E2EB0)
+#define CLASS_3_289D057C611ECA06_METHOD_3_9122FC030BA948E4_OFFSET UNITYSDK_OFFSET(0x102E2F50)
+#define CLASS_3_289D057C611ECA06_METHOD_3_9246CF392538457E_OFFSET UNITYSDK_OFFSET(0x102E3070)
+#define CLASS_3_289D057C611ECA06_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x102E2C50)
+#define CLASS_3_289D057C611ECA06_ONENABLE_OFFSET UNITYSDK_OFFSET(0x102E2810)
+#define CLASS_3_289D057C611ECA06_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x102E2780)
+#define CLASS_3_289D057C611ECA06__CTOR_OFFSET UNITYSDK_OFFSET(0x102E2DC0)
+
+inline static constexpr unsigned int Class_3_289D057C611ECA06_TypeDefinitionIndex = 42932;
+
+class Class_3_289D057C611ECA06 : public ::Foundation::ViewObject::BaseViewObjectComponent_1<::Class_3_289D057C611ECA06*>
+{
+public:
+	::Class_3_F66EF797857EB737* Field_3_1; // 0x20
+	::MoleMole::EntityHandle Field_3_0; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnRecycle()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_ONRECYCLE_OFFSET))(this);
+	}
+
+	::System::Void OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_ONENABLE_OFFSET))(this);
+	}
+
+	::System::Void OnDisable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_ONDISABLE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_1EA0894A9616ED1B(::MoleMole::EntityHandle a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_1EA0894A9616ED1B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_832295EC279E5994()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_OFFSET))(this);
+	}
+
+	::System::Void Method_3_832295EC279E5994_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_832295EC279E5994_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_832295EC279E5994_2_OFFSET))(this);
+	}
+
+	::MoleMole::EntityHandle Method_3_2798ACA205D0B4A6()
+	{
+		return ((::MoleMole::EntityHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_2798ACA205D0B4A6_OFFSET))(this);
+	}
+
+	::System::Void Method_3_0581090195E9C81F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_0581090195E9C81F_OFFSET))(this);
+	}
+
+	::System::Void Method_3_9122FC030BA948E4(::System::EventArgs* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_9122FC030BA948E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_9246CF392538457E(::MoleMole::EntityHandle a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + CLASS_3_289D057C611ECA06_METHOD_3_9246CF392538457E_OFFSET))(this, a1);
+	}
+};

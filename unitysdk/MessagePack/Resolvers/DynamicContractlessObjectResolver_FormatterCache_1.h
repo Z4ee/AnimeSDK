@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicContractlessObjectResolver_FormatterCache_1_TypeDefinitionIndex = 26643;
+	inline static constexpr unsigned int DynamicContractlessObjectResolver_FormatterCache_1_TypeDefinitionIndex = 30645;
 
 	template <typename T>
 	class DynamicContractlessObjectResolver_FormatterCache_1 : public ::System::Object

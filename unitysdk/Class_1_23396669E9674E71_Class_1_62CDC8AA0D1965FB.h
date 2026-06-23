@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigEntityAttackEffectNames; }
 namespace System { class Action; }
 
-#define CLASS_1_23396669E9674E71_CLASS_1_62CDC8AA0D1965FB_METHOD_1_2BEA84041D022639_OFFSET UNITYSDK_OFFSET(0x16ADDA70)
-#define CLASS_1_23396669E9674E71_CLASS_1_62CDC8AA0D1965FB__CTOR_OFFSET UNITYSDK_OFFSET(0x16ADDA60)
+#define CLASS_1_23396669E9674E71_CLASS_1_62CDC8AA0D1965FB_METHOD_1_2BEA84041D022639_OFFSET UNITYSDK_OFFSET(0xD572700)
+#define CLASS_1_23396669E9674E71_CLASS_1_62CDC8AA0D1965FB__CTOR_OFFSET UNITYSDK_OFFSET(0xD572400)
 
-inline static constexpr unsigned int Class_1_23396669E9674E71_Class_1_62CDC8AA0D1965FB_TypeDefinitionIndex = 45716;
+inline static constexpr unsigned int Class_1_23396669E9674E71_Class_1_62CDC8AA0D1965FB_TypeDefinitionIndex = 79205;
 
 class Class_1_23396669E9674E71_Class_1_62CDC8AA0D1965FB : public ::System::Object
 {
 public:
-	::Foundation::AssetPath Field_1_1; // 0x10
-	::System::Action* Field_1_0; // 0x20
+	::System::Action* Field_1_0; // 0x10
+	::Foundation::AssetPath Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

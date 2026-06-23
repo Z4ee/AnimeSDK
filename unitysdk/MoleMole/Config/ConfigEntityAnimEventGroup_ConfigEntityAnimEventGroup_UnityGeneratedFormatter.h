@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB03370)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB03380)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB03560)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB03700)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB036C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE969720)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE969730)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE969910)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE969AB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENTGROUP_CONFIGENTITYANIMEVENTGROUP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE969A70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex = 66876;
+	inline static constexpr unsigned int ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex = 54773;
 
 	class ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigEntityAnimEventGroup*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x445A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AE80);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x445A8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEventGroup_ConfigEntityAnimEventGroup_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AE88);
 		}
 
 		::System::Void _ctor()

@@ -9,19 +9,19 @@ namespace System { template <typename T> class IObservable_1; }
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1B395670)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B395660)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1D75DA10)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D75DA00)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ForDeviceEventObservable_TypeDefinitionIndex = 29408;
+	inline static constexpr unsigned int ForDeviceEventObservable_TypeDefinitionIndex = 32064;
 
 	class ForDeviceEventObservable : public ::System::Object
 	{
 	public:
-		::UnityEngine::InputSystem::InputDevice* m_Device; // 0x10
+		::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source; // 0x10
 		::System::Type* m_DeviceType; // 0x18
-		::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source; // 0x20
+		::UnityEngine::InputSystem::InputDevice* m_Device; // 0x20
 
 		::System::Void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device)
 		{

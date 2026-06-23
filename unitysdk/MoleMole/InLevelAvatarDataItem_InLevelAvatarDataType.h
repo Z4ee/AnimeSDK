@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelAvatarDataItem_InLevelAvatarDataType_TypeDefinitionIndex = 47913;
+	inline static constexpr unsigned int InLevelAvatarDataItem_InLevelAvatarDataType_TypeDefinitionIndex = 58678;
 
 	enum class InLevelAvatarDataItem_InLevelAvatarDataType : ::System::Int32
 	{
-		PARTNER_AVATAR = 1,
 		MAIN_TEAM = 0,
+		PARTNER_AVATAR = 1,
 	};
 }

@@ -5,24 +5,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1BFE25A0)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x1BFE1FC0)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_INTEGRALINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BFE1E10)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE25D0)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1E355040)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x1E354A60)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL_INTEGRALINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E3548B0)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_HERMITEINTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E355070)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension_AnimationCurveDetail_HermiteInterval_TypeDefinitionIndex = 9115;
+	inline static constexpr unsigned int Extension_AnimationCurveDetail_HermiteInterval_TypeDefinitionIndex = 8793;
 
 	class Extension_AnimationCurveDetail_HermiteInterval : public ::System::Object
 	{
 	public:
-		::Foundation::Function::FixedPolynomial _evaluatePolynomial; // 0x10
-		::Foundation::Function::FixedPolynomial _timeTransform; // 0x34
-		::System::Single _integralZeroCache; // 0x58
-		::Foundation::Unreal::Interval_1<::System::Single> _timeInterval; // 0x5C
-		::Foundation::Function::FixedPolynomial _integralPolynomial; // 0x6C
-		::Foundation::Function::FixedPolynomial _derivativePolynomial; // 0x90
+		::Foundation::Function::FixedPolynomial _integralPolynomial; // 0x10
+		::Foundation::Unreal::Interval_1<::System::Single> _timeInterval; // 0x34
+		::Foundation::Function::FixedPolynomial _timeTransform; // 0x44
+		::Foundation::Function::FixedPolynomial _derivativePolynomial; // 0x68
+		::Foundation::Function::FixedPolynomial _evaluatePolynomial; // 0x8C
+		::System::Single _integralZeroCache; // 0xB0
 		::System::Single _integralOneCache; // 0xB4
 
 		::System::Void _ctor(::UnityEngine::Keyframe& lhs, ::UnityEngine::Keyframe& rhs, ::System::Boolean inclusiveRight)

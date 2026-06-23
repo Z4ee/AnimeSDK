@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B64F680)
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B64F6C0)
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1B64F6D0)
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_1_OFFSET UNITYSDK_OFFSET(0x1B64F740)
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_2_OFFSET UNITYSDK_OFFSET(0x1B64F780)
-#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_3_OFFSET UNITYSDK_OFFSET(0x1B64F7C0)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1BD30)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1BD70)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DA1BD80)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_1_OFFSET UNITYSDK_OFFSET(0x1DA1BDF0)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_2_OFFSET UNITYSDK_OFFSET(0x1DA1BE30)
+#define SIRENIX_SERIALIZATION_BINARYDATAWRITER___C___CCTOR_B__68_3_OFFSET UNITYSDK_OFFSET(0x1DA1BE70)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int BinaryDataWriter___c_TypeDefinitionIndex = 7288;
+	inline static constexpr unsigned int BinaryDataWriter___c_TypeDefinitionIndex = 7420;
 
 	class BinaryDataWriter___c : public ::System::Object
 	{
 	public:
 		static ::Sirenix::Serialization::BinaryDataWriter___c** StaticGet___9()
 		{
-			return (::Sirenix::Serialization::BinaryDataWriter___c**)Il2CppClass::FromTypeDefinitionIndex(BinaryDataWriter___c_TypeDefinitionIndex)->GetStaticField(0x6420);
+			return (::Sirenix::Serialization::BinaryDataWriter___c**)Il2CppClass::FromTypeDefinitionIndex(BinaryDataWriter___c_TypeDefinitionIndex)->GetStaticField(0x6510);
 		}
 
 		static ::System::Void _cctor()

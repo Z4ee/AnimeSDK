@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHandBookManualWidgetController; }
 namespace MoleMole { class UIHandBookManualWidgetController_TabItem; }
 
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169CA8E0)
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__DISPLAYCLASS19_0__INITTAB_B__1_OFFSET UNITYSDK_OFFSET(0x169CA8F0)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186D1810)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__DISPLAYCLASS19_0__INITTAB_B__1_OFFSET UNITYSDK_OFFSET(0x186D1820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookManualWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 70005;
+	inline static constexpr unsigned int UIHandBookManualWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 82137;
 
 	class UIHandBookManualWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{

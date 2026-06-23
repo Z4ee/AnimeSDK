@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int ConstructorHandling_TypeDefinitionIndex = 6847;
+	inline static constexpr unsigned int ConstructorHandling_TypeDefinitionIndex = 6978;
 
 	enum class ConstructorHandling : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTTOYROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1632F860)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTTOYROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C55840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCollectToyRowWidgetController_Data_TypeDefinitionIndex = 80811;
+	inline static constexpr unsigned int UIActivityHotPotCollectToyRowWidgetController_Data_TypeDefinitionIndex = 74864;
 
 	class UIActivityHotPotCollectToyRowWidgetController_Data : public ::System::Object
 	{

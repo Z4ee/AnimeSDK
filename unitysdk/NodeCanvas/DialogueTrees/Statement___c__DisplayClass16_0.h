@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace System { class String; }
 
-#define NODECANVAS_DIALOGUETREES_STATEMENT___C__DISPLAYCLASS16_0__BLACKBOARDREPLACE_B__0_OFFSET UNITYSDK_OFFSET(0x1A8593E0)
-#define NODECANVAS_DIALOGUETREES_STATEMENT___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8593D0)
+#define NODECANVAS_DIALOGUETREES_STATEMENT___C__DISPLAYCLASS16_0__BLACKBOARDREPLACE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC47F00)
+#define NODECANVAS_DIALOGUETREES_STATEMENT___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC47EF0)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int Statement___c__DisplayClass16_0_TypeDefinitionIndex = 27446;
+	inline static constexpr unsigned int Statement___c__DisplayClass16_0_TypeDefinitionIndex = 30523;
 
 	class Statement___c__DisplayClass16_0 : public ::System::Object
 	{

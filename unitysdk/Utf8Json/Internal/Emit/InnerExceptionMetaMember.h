@@ -7,30 +7,30 @@ namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection::Emit { class ILGenerator; }
 
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITLOADVALUE_OFFSET UNITYSDK_OFFSET(0x1C33C970)
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITSERIALIZEDIRECTLY_OFFSET UNITYSDK_OFFSET(0x1C33CA80)
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITSTOREVALUE_OFFSET UNITYSDK_OFFSET(0x1C33CA30)
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C33CBE0)
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C33C920)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITLOADVALUE_OFFSET UNITYSDK_OFFSET(0x1E686160)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITSERIALIZEDIRECTLY_OFFSET UNITYSDK_OFFSET(0x1E686270)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER_EMITSTOREVALUE_OFFSET UNITYSDK_OFFSET(0x1E686220)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6863D0)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E686110)
 
 namespace Utf8Json::Internal::Emit
 {
-	inline static constexpr unsigned int InnerExceptionMetaMember_TypeDefinitionIndex = 85681;
+	inline static constexpr unsigned int InnerExceptionMetaMember_TypeDefinitionIndex = 91255;
 
 	class InnerExceptionMetaMember : public ::Utf8Json::Internal::Emit::MetaMember
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_getInnerException()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember_TypeDefinitionIndex)->GetStaticField(0x4AB70);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember_TypeDefinitionIndex)->GetStaticField(0x4F2C0);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_nongenericSerialize()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember_TypeDefinitionIndex)->GetStaticField(0x4AB78);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember_TypeDefinitionIndex)->GetStaticField(0x4F2C8);
 		}
-		::Utf8Json::Internal::Emit::ArgumentField argValue; // 0x58
+		::Utf8Json::Internal::Emit::ArgumentField argResolver; // 0x58
 		::Utf8Json::Internal::Emit::ArgumentField argWriter; // 0x68
-		::Utf8Json::Internal::Emit::ArgumentField argResolver; // 0x78
+		::Utf8Json::Internal::Emit::ArgumentField argValue; // 0x78
 
 		::System::Void _ctor(::System::String* name)
 		{

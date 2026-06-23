@@ -7,7 +7,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorControllerManager_ArchetypeData_TypeDefinitionIndex = 65824;
+	inline static constexpr unsigned int AnimatorControllerManager_ArchetypeData_TypeDefinitionIndex = 71849;
 
 	struct alignas(8) AnimatorControllerManager_ArchetypeData
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightLayerEnum_TypeDefinitionIndex = 5845;
+	inline static constexpr unsigned int LightLayerEnum_TypeDefinitionIndex = 5851;
 
 	enum class LightLayerEnum : ::System::Int32
 	{

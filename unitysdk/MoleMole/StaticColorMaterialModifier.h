@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7F3F4476896DB547.h"
+#include "unitysdk/Enum_3_7F4644768973D415.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
@@ -9,14 +9,14 @@ namespace MoleMole { class MonoRenderHandler; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET UNITYSDK_OFFSET(0x7A3F50)
-#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x7A3F60)
-#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x7A3FB0)
-#define MOLEMOLE_STATICCOLORMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x7A3F20)
+#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET UNITYSDK_OFFSET(0x835750)
+#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x8357B0)
+#define MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x835760)
+#define MOLEMOLE_STATICCOLORMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x835720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticColorMaterialModifier_TypeDefinitionIndex = 73922;
+	inline static constexpr unsigned int StaticColorMaterialModifier_TypeDefinitionIndex = 66949;
 
 	struct alignas(8) StaticColorMaterialModifier
 	{
@@ -32,19 +32,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER__CTOR_OFFSET))(this, a1);
 		}
 
-		::Class_1_A0B58236B258B7B2* Method_2_3750F4A9FEA7F5EF(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::MonoRenderHandler* a2)
+		::Class_1_A0B58236B258B7B2* Method_2_3750F4A9FEA7F5EF(::Enum_3_7F4644768973D415 a1, ::MoleMole::MonoRenderHandler* a2)
 		{
-			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET))(this, a1, a2);
-		}
-
-		::System::Collections::Generic::List_1<::System::String*>* Method_2_C446CE6A5E1982BC()
-		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET))(this);
+			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F4644768973D415, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Method_2_DA1BF2C227DC3D86()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::String*>* Method_2_C446CE6A5E1982BC()
+		{
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICCOLORMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET))(this);
 		}
 	};
 }

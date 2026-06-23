@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int MoveDirection_TypeDefinitionIndex = 8546;
+	inline static constexpr unsigned int MoveDirection_TypeDefinitionIndex = 19055;
 
 	enum class MoveDirection : ::System::Int32
 	{

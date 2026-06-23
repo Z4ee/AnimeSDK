@@ -5,171 +5,171 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_VECTOR2INT_AABBOVERLAPWITHAREA_OFFSET UNITYSDK_OFFSET(0xEBD9F30)
-#define MOLEMOLE_VECTOR2INT_AABBOVERLAP_OFFSET UNITYSDK_OFFSET(0xEBD9EA0)
-#define MOLEMOLE_VECTOR2INT_CLAMP_OFFSET UNITYSDK_OFFSET(0x62C260)
-#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_1_OFFSET UNITYSDK_OFFSET(0xEBD9C00)
-#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_2_OFFSET UNITYSDK_OFFSET(0xEBD9C70)
-#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_OFFSET UNITYSDK_OFFSET(0xEBD9B90)
-#define MOLEMOLE_VECTOR2INT_DISTANCE_1_OFFSET UNITYSDK_OFFSET(0xEBD9A90)
-#define MOLEMOLE_VECTOR2INT_DISTANCE_2_OFFSET UNITYSDK_OFFSET(0xEBD9B10)
-#define MOLEMOLE_VECTOR2INT_DISTANCE_OFFSET UNITYSDK_OFFSET(0xEBD9A10)
-#define MOLEMOLE_VECTOR2INT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x62C070)
-#define MOLEMOLE_VECTOR2INT_EQUALS_OFFSET UNITYSDK_OFFSET(0x62C060)
-#define MOLEMOLE_VECTOR2INT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x62C0D0)
-#define MOLEMOLE_VECTOR2INT_GETHASHEDRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x62C120)
-#define MOLEMOLE_VECTOR2INT_GET_CARDINALSANDORDINALS_OFFSET UNITYSDK_OFFSET(0xEBD89E0)
-#define MOLEMOLE_VECTOR2INT_GET_CARDINALS_OFFSET UNITYSDK_OFFSET(0xEBD8660)
-#define MOLEMOLE_VECTOR2INT_GET_COMPONENTSUM_OFFSET UNITYSDK_OFFSET(0x62BC70)
-#define MOLEMOLE_VECTOR2INT_GET_MAJORAXIS_OFFSET UNITYSDK_OFFSET(0x62BC10)
-#define MOLEMOLE_VECTOR2INT_GET_ORDINALS_OFFSET UNITYSDK_OFFSET(0xEBD8820)
-#define MOLEMOLE_VECTOR2INT_GET_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x62BC20)
-#define MOLEMOLE_VECTOR2INT_GET_X_OFFSET UNITYSDK_OFFSET(0x2E87C0)
-#define MOLEMOLE_VECTOR2INT_GET_Y_OFFSET UNITYSDK_OFFSET(0x3A4E50)
-#define MOLEMOLE_VECTOR2INT_ISWITHIN_OFFSET UNITYSDK_OFFSET(0x62BFD0)
-#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_1_OFFSET UNITYSDK_OFFSET(0xEBD9930)
-#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_2_OFFSET UNITYSDK_OFFSET(0xEBD99A0)
-#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_OFFSET UNITYSDK_OFFSET(0xEBD98C0)
-#define MOLEMOLE_VECTOR2INT_MAX_OFFSET UNITYSDK_OFFSET(0xEBD9E30)
-#define MOLEMOLE_VECTOR2INT_MIN_OFFSET UNITYSDK_OFFSET(0xEBD9DC0)
-#define MOLEMOLE_VECTOR2INT_OP_ADDITION_1_OFFSET UNITYSDK_OFFSET(0xEBD9540)
-#define MOLEMOLE_VECTOR2INT_OP_ADDITION_2_OFFSET UNITYSDK_OFFSET(0xEBD95C0)
-#define MOLEMOLE_VECTOR2INT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0xEBD94C0)
-#define MOLEMOLE_VECTOR2INT_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0xEBD9760)
-#define MOLEMOLE_VECTOR2INT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xEBD9820)
-#define MOLEMOLE_VECTOR2INT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0xEBDA010)
-#define MOLEMOLE_VECTOR2INT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xEBD9870)
-#define MOLEMOLE_VECTOR2INT_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0xEBD9700)
-#define MOLEMOLE_VECTOR2INT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0xEBD96A0)
-#define MOLEMOLE_VECTOR2INT_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0xEBD9630)
-#define MOLEMOLE_VECTOR2INT_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0xEBD97C0)
-#define MOLEMOLE_VECTOR2INT_SCALE_OFFSET UNITYSDK_OFFSET(0xEBD9D50)
-#define MOLEMOLE_VECTOR2INT_TOCENTERVECTOR2_OFFSET UNITYSDK_OFFSET(0x62BDC0)
-#define MOLEMOLE_VECTOR2INT_TOCENTERVECTOR3_OFFSET UNITYSDK_OFFSET(0x62BF40)
-#define MOLEMOLE_VECTOR2INT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x62C050)
-#define MOLEMOLE_VECTOR2INT_TOVECTOR2INT_OFFSET UNITYSDK_OFFSET(0x62C330)
-#define MOLEMOLE_VECTOR2INT_TOVECTOR2_1_OFFSET UNITYSDK_OFFSET(0x62BD30)
-#define MOLEMOLE_VECTOR2INT_TOVECTOR2_OFFSET UNITYSDK_OFFSET(0x62BCD0)
-#define MOLEMOLE_VECTOR2INT_TOVECTOR3_1_OFFSET UNITYSDK_OFFSET(0x62BEB0)
-#define MOLEMOLE_VECTOR2INT_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x62BE30)
-#define MOLEMOLE_VECTOR2INT_WITHX_OFFSET UNITYSDK_OFFSET(0x62C1A0)
-#define MOLEMOLE_VECTOR2INT_WITHY_OFFSET UNITYSDK_OFFSET(0x62C200)
-#define MOLEMOLE_VECTOR2INT__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBDA0B0)
-#define MOLEMOLE_VECTOR2INT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E5940)
-#define MOLEMOLE_VECTOR2INT__CTOR_OFFSET UNITYSDK_OFFSET(0x293FB0)
-#define MOLEMOLE_VECTOR2INT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x62C380)
-#define MOLEMOLE_VECTOR2INT___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x62C3E0)
-#define MOLEMOLE_VECTOR2INT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x62C440)
+#define MOLEMOLE_VECTOR2INT_AABBOVERLAPWITHAREA_OFFSET UNITYSDK_OFFSET(0x108A4580)
+#define MOLEMOLE_VECTOR2INT_AABBOVERLAP_OFFSET UNITYSDK_OFFSET(0x108A44F0)
+#define MOLEMOLE_VECTOR2INT_CLAMP_OFFSET UNITYSDK_OFFSET(0x6CBD10)
+#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_1_OFFSET UNITYSDK_OFFSET(0x108A4250)
+#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_2_OFFSET UNITYSDK_OFFSET(0x108A42C0)
+#define MOLEMOLE_VECTOR2INT_DISTANCESQUARED_OFFSET UNITYSDK_OFFSET(0x108A41E0)
+#define MOLEMOLE_VECTOR2INT_DISTANCE_1_OFFSET UNITYSDK_OFFSET(0x108A40E0)
+#define MOLEMOLE_VECTOR2INT_DISTANCE_2_OFFSET UNITYSDK_OFFSET(0x108A4160)
+#define MOLEMOLE_VECTOR2INT_DISTANCE_OFFSET UNITYSDK_OFFSET(0x108A4060)
+#define MOLEMOLE_VECTOR2INT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6CBB20)
+#define MOLEMOLE_VECTOR2INT_EQUALS_OFFSET UNITYSDK_OFFSET(0x6CBB10)
+#define MOLEMOLE_VECTOR2INT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6CBB80)
+#define MOLEMOLE_VECTOR2INT_GETHASHEDRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x6CBBD0)
+#define MOLEMOLE_VECTOR2INT_GET_CARDINALSANDORDINALS_OFFSET UNITYSDK_OFFSET(0x108A3030)
+#define MOLEMOLE_VECTOR2INT_GET_CARDINALS_OFFSET UNITYSDK_OFFSET(0x108A2CB0)
+#define MOLEMOLE_VECTOR2INT_GET_COMPONENTSUM_OFFSET UNITYSDK_OFFSET(0x6CB720)
+#define MOLEMOLE_VECTOR2INT_GET_MAJORAXIS_OFFSET UNITYSDK_OFFSET(0x6CB6C0)
+#define MOLEMOLE_VECTOR2INT_GET_ORDINALS_OFFSET UNITYSDK_OFFSET(0x108A2E70)
+#define MOLEMOLE_VECTOR2INT_GET_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x6CB6D0)
+#define MOLEMOLE_VECTOR2INT_GET_X_OFFSET UNITYSDK_OFFSET(0x2B68B0)
+#define MOLEMOLE_VECTOR2INT_GET_Y_OFFSET UNITYSDK_OFFSET(0x3EA3D0)
+#define MOLEMOLE_VECTOR2INT_ISWITHIN_OFFSET UNITYSDK_OFFSET(0x6CBA80)
+#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_1_OFFSET UNITYSDK_OFFSET(0x108A3F80)
+#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_2_OFFSET UNITYSDK_OFFSET(0x108A3FF0)
+#define MOLEMOLE_VECTOR2INT_MANHATTANDISTANCE_OFFSET UNITYSDK_OFFSET(0x108A3F10)
+#define MOLEMOLE_VECTOR2INT_MAX_OFFSET UNITYSDK_OFFSET(0x108A4480)
+#define MOLEMOLE_VECTOR2INT_MIN_OFFSET UNITYSDK_OFFSET(0x108A4410)
+#define MOLEMOLE_VECTOR2INT_OP_ADDITION_1_OFFSET UNITYSDK_OFFSET(0x108A3B90)
+#define MOLEMOLE_VECTOR2INT_OP_ADDITION_2_OFFSET UNITYSDK_OFFSET(0x108A3C10)
+#define MOLEMOLE_VECTOR2INT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x108A3B10)
+#define MOLEMOLE_VECTOR2INT_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x108A3DB0)
+#define MOLEMOLE_VECTOR2INT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x108A3E70)
+#define MOLEMOLE_VECTOR2INT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x108A4660)
+#define MOLEMOLE_VECTOR2INT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x108A3EC0)
+#define MOLEMOLE_VECTOR2INT_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x108A3D50)
+#define MOLEMOLE_VECTOR2INT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x108A3CF0)
+#define MOLEMOLE_VECTOR2INT_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x108A3C80)
+#define MOLEMOLE_VECTOR2INT_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x108A3E10)
+#define MOLEMOLE_VECTOR2INT_SCALE_OFFSET UNITYSDK_OFFSET(0x108A43A0)
+#define MOLEMOLE_VECTOR2INT_TOCENTERVECTOR2_OFFSET UNITYSDK_OFFSET(0x6CB870)
+#define MOLEMOLE_VECTOR2INT_TOCENTERVECTOR3_OFFSET UNITYSDK_OFFSET(0x6CB9F0)
+#define MOLEMOLE_VECTOR2INT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6CBB00)
+#define MOLEMOLE_VECTOR2INT_TOVECTOR2INT_OFFSET UNITYSDK_OFFSET(0x6CBDE0)
+#define MOLEMOLE_VECTOR2INT_TOVECTOR2_1_OFFSET UNITYSDK_OFFSET(0x6CB7E0)
+#define MOLEMOLE_VECTOR2INT_TOVECTOR2_OFFSET UNITYSDK_OFFSET(0x6CB780)
+#define MOLEMOLE_VECTOR2INT_TOVECTOR3_1_OFFSET UNITYSDK_OFFSET(0x6CB960)
+#define MOLEMOLE_VECTOR2INT_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x6CB8E0)
+#define MOLEMOLE_VECTOR2INT_WITHX_OFFSET UNITYSDK_OFFSET(0x6CBC50)
+#define MOLEMOLE_VECTOR2INT_WITHY_OFFSET UNITYSDK_OFFSET(0x6CBCB0)
+#define MOLEMOLE_VECTOR2INT__CCTOR_OFFSET UNITYSDK_OFFSET(0x108A4700)
+#define MOLEMOLE_VECTOR2INT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define MOLEMOLE_VECTOR2INT__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
+#define MOLEMOLE_VECTOR2INT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6CBE30)
+#define MOLEMOLE_VECTOR2INT___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6CBE90)
+#define MOLEMOLE_VECTOR2INT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6CBEF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Vector2Int_TypeDefinitionIndex = 48135;
+	inline static constexpr unsigned int Vector2Int_TypeDefinitionIndex = 55417;
 
 	struct alignas(4) Vector2Int
 	{
+		static ::Il2CppArray<::MoleMole::Vector2Int>** StaticGet_m_cachedCardinals()
+		{
+			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x36670);
+		}
 		static ::Il2CppArray<::MoleMole::Vector2Int>** StaticGet_m_cachedOrdinals()
 		{
-			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x30570);
+			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x36678);
 		}
 		static ::Il2CppArray<::MoleMole::Vector2Int>** StaticGet_m_cachedCardinalsAndOrdinals()
 		{
-			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x30578);
-		}
-		static ::Il2CppArray<::MoleMole::Vector2Int>** StaticGet_m_cachedCardinals()
-		{
-			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x30580);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_northWest()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB50);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_right()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB58);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_up()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB60);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_northEast()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB68);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_east()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB70);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_minValueInt16()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB78);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_negOne()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB80);
+			return (::Il2CppArray<::MoleMole::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0x36680);
 		}
 		static ::MoleMole::Vector2Int* StaticGet_minValue()
 		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB88);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_down()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB90);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_upRight()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBB98);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_one()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBA0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_south()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBA8);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_zero()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBB0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_left()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBB8);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_southWest()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBC0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_downLeft()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBC8);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_west()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBD0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_southEast()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBD8);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_minValueInt32()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBE0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_downRight()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBE8);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_north()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBF0);
-		}
-		static ::MoleMole::Vector2Int* StaticGet_upLeft()
-		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBBF8);
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6C0);
 		}
 		static ::MoleMole::Vector2Int* StaticGet_maxValue()
 		{
-			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xBC00);
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6C8);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_upRight()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6D0);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_up()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6D8);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_right()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6E0);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_down()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6E8);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_left()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6F0);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_west()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD6F8);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_downLeft()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD700);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_upLeft()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD708);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_north()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD710);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_downRight()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD718);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_negOne()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD720);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_southEast()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD728);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_southWest()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD730);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_northWest()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD738);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_south()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD740);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_minValueInt16()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD748);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_one()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD750);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_zero()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD758);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_northEast()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD760);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_east()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD768);
+		}
+		static ::MoleMole::Vector2Int* StaticGet_minValueInt32()
+		{
+			return (::MoleMole::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Vector2Int_TypeDefinitionIndex)->GetStaticField(0xD770);
 		}
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14

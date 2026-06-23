@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIActivityHotPotRewardRowWidgetController_ActivityHotPotRewardRow_DataBind; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E88FA0)
+#define MOLEMOLE_UIACTIVITYHOTPOTREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18746C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotRewardRowWidgetController_Data_TypeDefinitionIndex = 60252;
+	inline static constexpr unsigned int UIActivityHotPotRewardRowWidgetController_Data_TypeDefinitionIndex = 53356;
 
 	class UIActivityHotPotRewardRowWidgetController_Data : public ::System::Object
 	{

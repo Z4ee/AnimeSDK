@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int Formatting_TypeDefinitionIndex = 6854;
+	inline static constexpr unsigned int Formatting_TypeDefinitionIndex = 6985;
 
 	enum class Formatting : ::System::Int32
 	{

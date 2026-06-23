@@ -8,46 +8,46 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Rendering::Universal::Internal { class Nap3DMapDecalEffect_DecalAreaData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATATOARRAY_OFFSET UNITYSDK_OFFSET(0x19F2F980)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_SETDECALEFFECTSOFF_OFFSET UNITYSDK_OFFSET(0x19F2FFF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_UPDATEDECALPARAMS_OFFSET UNITYSDK_OFFSET(0x19F302B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F30860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F30700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATATOARRAY_OFFSET UNITYSDK_OFFSET(0x1C14B7A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_SETDECALEFFECTSOFF_OFFSET UNITYSDK_OFFSET(0x1C14BE10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_UPDATEDECALPARAMS_OFFSET UNITYSDK_OFFSET(0x1C14C0D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14C680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14C520)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Nap3DMapDecalEffect_TypeDefinitionIndex = 30375;
+	inline static constexpr unsigned int Nap3DMapDecalEffect_TypeDefinitionIndex = 26992;
 
 	class Nap3DMapDecalEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_DecalStyleFillColors()
+		static ::System::Int32* StaticGet_DecalAreaParams0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7440);
 		}
 		static ::System::Int32* StaticGet_DecalAreaParams3()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7444);
+		}
+		static ::System::Int32* StaticGet_DecalStyleFillColors()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7448);
 		}
 		static ::System::Int32* StaticGet_DecalAreaParams2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76A8);
-		}
-		static ::System::Int32* StaticGet_DecalAreaCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76AC);
-		}
-		static ::System::Int32* StaticGet_DecalStyleLineColors()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x744C);
 		}
 		static ::System::Int32* StaticGet_DecalAreaParams1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7450);
 		}
-		static ::System::Int32* StaticGet_DecalAreaParams0()
+		static ::System::Int32* StaticGet_DecalStyleLineColors()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x76B8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7454);
+		}
+		static ::System::Int32* StaticGet_DecalAreaCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Nap3DMapDecalEffect_TypeDefinitionIndex)->GetStaticField(0x7458);
 		}
 		// static const ::System::String* DecalEffectKeyword; // 0x0
 		// static const ::System::Int32 k_MaxDataCount = 0x40; // 0x0

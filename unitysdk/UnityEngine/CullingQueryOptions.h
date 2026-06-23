@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CullingQueryOptions_TypeDefinitionIndex = 5144;
+	inline static constexpr unsigned int CullingQueryOptions_TypeDefinitionIndex = 5143;
 
 	enum class CullingQueryOptions : ::System::Int32
 	{

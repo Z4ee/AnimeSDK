@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioClipLoadType_TypeDefinitionIndex = 9619;
+	inline static constexpr unsigned int AudioClipLoadType_TypeDefinitionIndex = 18346;
 
 	enum class AudioClipLoadType : ::System::Int32
 	{

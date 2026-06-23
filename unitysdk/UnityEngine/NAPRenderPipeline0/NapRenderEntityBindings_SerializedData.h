@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapRenderEntityBindings_SerializedData_TypeDefinitionIndex = 6112;
+	inline static constexpr unsigned int NapRenderEntityBindings_SerializedData_TypeDefinitionIndex = 6123;
 
 	struct alignas(8) NapRenderEntityBindings_SerializedData
 	{

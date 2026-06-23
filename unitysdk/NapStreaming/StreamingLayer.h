@@ -3,25 +3,28 @@
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int StreamingLayer_TypeDefinitionIndex = 56248;
+	inline static constexpr unsigned int StreamingLayer_TypeDefinitionIndex = 41690;
 
 	enum class StreamingLayer : ::System::Int32
 	{
 		BIG = 1,
-		Value_9 = 9,
-		DECAL = 7,
-		GROUND = 6,
-		Value_4 = 4,
-		CODE_CONTROLL_1 = 10,
-		ENVIROMENT = 5,
-		SMALL = 3,
-		CODE_CONTROLL_3 = 12,
-		MAX = 16,
-		SMALLSHADOWPROXY = 14,
-		INSTANCE = 0,
-		CODE_CONTROLL_4 = 13,
-		MIDDLE = 2,
 		LOWMEMORY = 8,
+		EFFECT = 17,
+		MIDDLE = 2,
+		DECAL = 7,
+		Value_4 = 4,
+		CODE_CONTROLL_3 = 12,
+		CODE_CONTROLL_4 = 13,
+		GROUND = 6,
+		CODE_CONTROLL_1 = 10,
+		MAX = 18,
+		Value_9 = 9,
+		SMALLSHADOWPROXY = 14,
 		CODE_CONTROLL_2 = 11,
+		SMALL = 3,
+		OBJECTSWITCH = 15,
+		BRG = 16,
+		ENVIROMENT = 5,
+		INSTANCE = 0,
 	};
 }

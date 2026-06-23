@@ -12,28 +12,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1C0BE470)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_GETMATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1C0C0880)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_RECORDERFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1C0BE5A0)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_RECORDERFRAME_OFFSET UNITYSDK_OFFSET(0x1C0BE570)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_SETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C0BF610)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1C0BEEC0)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_UPDATEINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C0BF550)
-#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C0940)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1E3D9720)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_GETMATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1E3DBB20)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_RECORDERFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1E3D9850)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_RECORDERFRAME_OFFSET UNITYSDK_OFFSET(0x1E3D9820)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_SETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E3DA8C0)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1E3DA170)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER_UPDATEINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E3DA800)
+#define MOLEMOLE_TIMELINE_SOURCEFRAMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DBBE0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SourceFrameRecorder_TypeDefinitionIndex = 30644;
+	inline static constexpr unsigned int SourceFrameRecorder_TypeDefinitionIndex = 32190;
 
 	class SourceFrameRecorder : public ::System::Object
 	{
 	public:
 		// static const ::System::String* MaterialFrameKey; // 0x0
 		::System::Collections::Generic::List_1<::MoleMole::Timeline::TextureRecorderUnit*>* recorderUnitTs; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::Vector4RecorderUnit*>* recorderUnitV4s; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* propertyIDs; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::FloatRecorderUnit*>* recorderUnitFs; // 0x28
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::ColorRecorderUnit*>* recorderUnitCs; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* propertyIDs; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::FloatRecorderUnit*>* recorderUnitFs; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::ColorRecorderUnit*>* recorderUnitCs; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::Vector4RecorderUnit*>* recorderUnitV4s; // 0x30
 		::System::Double frameTime; // 0x38
 
 		::System::Void _ctor()

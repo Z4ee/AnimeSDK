@@ -9,21 +9,21 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_965BFD07B8672760_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x13D88520)
-#define CLASS_2_965BFD07B8672760_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13D885F0)
-#define CLASS_2_965BFD07B8672760_METHOD_2_CBC0149B5D954D19_OFFSET UNITYSDK_OFFSET(0x13D88380)
-#define CLASS_2_965BFD07B8672760__CTOR_OFFSET UNITYSDK_OFFSET(0x13D885E0)
+#define CLASS_2_965BFD07B8672760_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x13AADD20)
+#define CLASS_2_965BFD07B8672760_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13AADDF0)
+#define CLASS_2_965BFD07B8672760_METHOD_2_CBC0149B5D954D19_OFFSET UNITYSDK_OFFSET(0x13AADB80)
+#define CLASS_2_965BFD07B8672760__CTOR_OFFSET UNITYSDK_OFFSET(0x13AADDE0)
 
-inline static constexpr unsigned int Class_2_965BFD07B8672760_TypeDefinitionIndex = 52128;
+inline static constexpr unsigned int Class_2_965BFD07B8672760_TypeDefinitionIndex = 61635;
 
 class Class_2_965BFD07B8672760 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::MoleMole::UIGeneralButtonController* Field_2_3; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x30
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x28
+	::MoleMole::UIGeneralButtonController* Field_2_3; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x38
 
 	::System::Void _ctor()
 	{

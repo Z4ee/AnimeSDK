@@ -6,7 +6,7 @@ namespace System::ComponentModel::Design { class DesignerVerbCollection; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDesigner_TypeDefinitionIndex = 3065;
+	inline static constexpr unsigned int IDesigner_TypeDefinitionIndex = 3064;
 
 	class IDesigner
 	{

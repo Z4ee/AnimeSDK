@@ -11,7 +11,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomEvent_1_TypeDefinitionIndex = 27701;
+	inline static constexpr unsigned int CustomEvent_1_TypeDefinitionIndex = 30296;
 
 	template <typename T>
 	class CustomEvent_1 : public ::FlowCanvas::Nodes::RouterEventNode_1<::NodeCanvas::Framework::GraphOwner*>

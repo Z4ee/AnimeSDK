@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class RawImage; }
 
-#define MOLEMOLE_UIMAINPAGEBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147BCBF0)
+#define MOLEMOLE_UIMAINPAGEBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17149760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainPageBGContext_TypeDefinitionIndex = 60592;
+	inline static constexpr unsigned int UIMainPageBGContext_TypeDefinitionIndex = 46223;
 
 	class UIMainPageBGContext : public ::MoleMole::UIControllerContextBase
 	{

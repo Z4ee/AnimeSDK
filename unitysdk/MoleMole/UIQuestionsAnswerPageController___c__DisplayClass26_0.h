@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FC3A9C07FC781527_Enum_3_6E0E8267CDDC65CF.h"
+#include "unitysdk/Class_1_7D59F735ACB38970_Enum_3_6E0E8267CDDC65CF.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIQuestionsAnswerPageController; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154E11D0)
-#define MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__STARTGAMETASK_B__0_OFFSET UNITYSDK_OFFSET(0x154E11E0)
+#define MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178E36E0)
+#define MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__STARTGAMETASK_B__0_OFFSET UNITYSDK_OFFSET(0x178E36F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerPageController___c__DisplayClass26_0_TypeDefinitionIndex = 81712;
+	inline static constexpr unsigned int UIQuestionsAnswerPageController___c__DisplayClass26_0_TypeDefinitionIndex = 59275;
 
 	class UIQuestionsAnswerPageController___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _StartGameTask_b__0(::Class_1_FC3A9C07FC781527_Enum_3_6E0E8267CDDC65CF reason)
+		::System::Void _StartGameTask_b__0(::Class_1_7D59F735ACB38970_Enum_3_6E0E8267CDDC65CF reason)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FC3A9C07FC781527_Enum_3_6E0E8267CDDC65CF))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__STARTGAMETASK_B__0_OFFSET))(this, reason);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7D59F735ACB38970_Enum_3_6E0E8267CDDC65CF))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUESTIONSANSWERPAGECONTROLLER___C__DISPLAYCLASS26_0__STARTGAMETASK_B__0_OFFSET))(this, reason);
 		}
 	};
 }

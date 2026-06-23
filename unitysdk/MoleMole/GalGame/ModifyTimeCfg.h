@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_MODIFYTIMECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x17811A20)
+#define MOLEMOLE_GALGAME_MODIFYTIMECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x182E29E0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ModifyTimeCfg_TypeDefinitionIndex = 58749;
+	inline static constexpr unsigned int ModifyTimeCfg_TypeDefinitionIndex = 61398;
 
 	class ModifyTimeCfg : public ::System::Object
 	{

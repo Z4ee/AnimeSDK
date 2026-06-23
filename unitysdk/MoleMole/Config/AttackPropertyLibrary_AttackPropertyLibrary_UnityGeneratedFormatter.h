@@ -13,30 +13,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12D2FA10)
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12D2FA20)
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12D2FCC0)
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D2FEB0)
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12D2FE70)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12B2DCA0)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12B2DCB0)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12B2DF50)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B2E140)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY_ATTACKPROPERTYLIBRARY_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2E100)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex = 76849;
+	inline static constexpr unsigned int AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex = 60001;
 
 	class AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AttackPropertyLibrary*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AttackPropWrap*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AttackPropWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48660);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HitGroundWrap*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HitGroundWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48668);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HitGroundWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BC70);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AttackPropWrap*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AttackPropWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BC78);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ShakeWrap*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ShakeWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48670);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ShakeWrap*>*>**)Il2CppClass::FromTypeDefinitionIndex(AttackPropertyLibrary_AttackPropertyLibrary_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BC80);
 		}
 
 		::System::Void _ctor()

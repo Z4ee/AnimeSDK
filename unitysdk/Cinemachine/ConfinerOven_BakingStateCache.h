@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ConfinerOven_BakingStateCache_TypeDefinitionIndex = 32586;
+	inline static constexpr unsigned int ConfinerOven_BakingStateCache_TypeDefinitionIndex = 34137;
 
 	struct alignas(8) ConfinerOven_BakingStateCache
 	{

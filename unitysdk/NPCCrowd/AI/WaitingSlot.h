@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_AI_WAITINGSLOT_RESETDATA_OFFSET UNITYSDK_OFFSET(0xBDD2920)
-#define NPCCROWD_AI_WAITINGSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD2870)
+#define NPCCROWD_AI_WAITINGSLOT_RESETDATA_OFFSET UNITYSDK_OFFSET(0xD926700)
+#define NPCCROWD_AI_WAITINGSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xD926650)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WaitingSlot_TypeDefinitionIndex = 61244;
+	inline static constexpr unsigned int WaitingSlot_TypeDefinitionIndex = 64832;
 
 	class WaitingSlot : public ::System::Object
 	{

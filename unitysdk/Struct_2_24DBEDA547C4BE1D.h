@@ -5,7 +5,7 @@
 
 namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_Class_1_E5308BE9EEBA8B55; }
 
-inline static constexpr unsigned int Struct_2_24DBEDA547C4BE1D_TypeDefinitionIndex = 60561;
+inline static constexpr unsigned int Struct_2_24DBEDA547C4BE1D_TypeDefinitionIndex = 70046;
 
 struct alignas(8) Struct_2_24DBEDA547C4BE1D
 {

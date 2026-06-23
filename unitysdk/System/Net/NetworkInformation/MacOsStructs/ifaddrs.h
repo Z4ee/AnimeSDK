@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int ifaddrs_TypeDefinitionIndex = 3851;
+	inline static constexpr unsigned int ifaddrs_TypeDefinitionIndex = 3850;
 
 	struct alignas(8) ifaddrs
 	{

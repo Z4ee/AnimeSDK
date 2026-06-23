@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A865FEC42C70DCB5.h"
+#include "unitysdk/Enum_3_7AEF4D15E4700EEA.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_YOROZUYACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDB200)
+#define MOLEMOLE_YOROZUYACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x108A5840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int YorozuyaContext_TypeDefinitionIndex = 69434;
+	inline static constexpr unsigned int YorozuyaContext_TypeDefinitionIndex = 86284;
 
 	class YorozuyaContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_A865FEC42C70DCB5 showActivityType; // 0x28
-		::System::Boolean isAutoOpen; // 0x2C
-		::System::Int32 selectQuestID; // 0x30
+		::System::Int32 selectQuestID; // 0x28
+		::Enum_3_7AEF4D15E4700EEA showActivityType; // 0x2C
+		::System::Boolean isAutoOpen; // 0x30
 
 		::System::Void _ctor()
 		{

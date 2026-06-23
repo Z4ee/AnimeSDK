@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelResultPageConfig_DelayType_TypeDefinitionIndex = 80247;
+	inline static constexpr unsigned int MonoLevelResultPageConfig_DelayType_TypeDefinitionIndex = 60464;
 
 	enum class MonoLevelResultPageConfig_DelayType : ::System::Int32
 	{

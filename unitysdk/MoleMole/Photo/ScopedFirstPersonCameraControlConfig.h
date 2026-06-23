@@ -5,12 +5,12 @@
 namespace MoleMole::Cameras { class FirstPersonCameraConfig; }
 namespace MoleMole::Photo { class ScopedFirstPersonCameraMotionConfig; }
 
-#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERACONTROLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x11780210)
-#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERACONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11780230)
+#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERACONTROLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x173FAE80)
+#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERACONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173FAEA0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFirstPersonCameraControlConfig_TypeDefinitionIndex = 40711;
+	inline static constexpr unsigned int ScopedFirstPersonCameraControlConfig_TypeDefinitionIndex = 48971;
 
 	class ScopedFirstPersonCameraControlConfig : public ::System::Object
 	{

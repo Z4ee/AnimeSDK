@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_AnimEventByCharacterSize_TypeDefinitionIndex = 57131;
+	inline static constexpr unsigned int ConfigBuffMisc_AnimEventByCharacterSize_TypeDefinitionIndex = 69440;
 
 	struct alignas(8) ConfigBuffMisc_AnimEventByCharacterSize
 	{

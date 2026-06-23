@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ICache_TypeDefinitionIndex = 7497;
+	inline static constexpr unsigned int ICache_TypeDefinitionIndex = 7629;
 
 	class ICache
 	{

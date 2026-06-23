@@ -7,24 +7,24 @@
 namespace MoleMole::Timeline { class TextureSheet_TV_WallBehaviour; }
 namespace System { class Object; }
 
-#define CLASS_2_060FCD591203F5E0_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x14BB65D0)
-#define CLASS_2_060FCD591203F5E0_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x14BB65C0)
-#define CLASS_2_060FCD591203F5E0_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14BB5D90)
-#define CLASS_2_060FCD591203F5E0_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x14BB5E10)
-#define CLASS_2_060FCD591203F5E0__CTOR_OFFSET UNITYSDK_OFFSET(0x14BB65B0)
+#define CLASS_2_060FCD591203F5E0_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x113458C0)
+#define CLASS_2_060FCD591203F5E0_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x113458B0)
+#define CLASS_2_060FCD591203F5E0_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x11345080)
+#define CLASS_2_060FCD591203F5E0_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x11345100)
+#define CLASS_2_060FCD591203F5E0__CTOR_OFFSET UNITYSDK_OFFSET(0x113458A0)
 
-inline static constexpr unsigned int Class_2_060FCD591203F5E0_TypeDefinitionIndex = 40545;
+inline static constexpr unsigned int Class_2_060FCD591203F5E0_TypeDefinitionIndex = 74321;
 
 class Class_2_060FCD591203F5E0 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
 	static ::System::Boolean* StaticGet_Field_2_3()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_060FCD591203F5E0_TypeDefinitionIndex)->GetStaticField(0x121E0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_060FCD591203F5E0_TypeDefinitionIndex)->GetStaticField(0x13120);
 	}
 	::MoleMole::Timeline::TextureSheet_TV_WallBehaviour* Field_2_2; // 0x10
-	::System::Double Field_2_1; // 0x18
-	::System::Double Field_2_0; // 0x20
+	::System::Double Field_2_0; // 0x18
+	::System::Double Field_2_1; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_10FBE29674C6A612;
+class Class_1_634683455D6E175A;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_2_F31DCDFDEBE1730D_CLASS_1_2430CA4225DF98B9_METHOD_1_C694F297279B7DE4_OFFSET UNITYSDK_OFFSET(0x1437DE50)
-#define CLASS_2_F31DCDFDEBE1730D_CLASS_1_2430CA4225DF98B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1437DA00)
+#define CLASS_2_F31DCDFDEBE1730D_CLASS_1_2430CA4225DF98B9_METHOD_1_C694F297279B7DE4_OFFSET UNITYSDK_OFFSET(0x13446B00)
+#define CLASS_2_F31DCDFDEBE1730D_CLASS_1_2430CA4225DF98B9__CTOR_OFFSET UNITYSDK_OFFSET(0x13443190)
 
-inline static constexpr unsigned int Class_2_F31DCDFDEBE1730D_Class_1_2430CA4225DF98B9_TypeDefinitionIndex = 70768;
+inline static constexpr unsigned int Class_2_F31DCDFDEBE1730D_Class_1_2430CA4225DF98B9_TypeDefinitionIndex = 50582;
 
 class Class_2_F31DCDFDEBE1730D_Class_1_2430CA4225DF98B9 : public ::System::Object
 {
 public:
-	::Class_1_10FBE29674C6A612* Field_1_0; // 0x10
+	::Class_1_634683455D6E175A* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

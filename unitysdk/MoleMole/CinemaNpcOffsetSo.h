@@ -10,20 +10,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CINEMANPCOFFSETSO_GET_CAMERADICT_OFFSET UNITYSDK_OFFSET(0xECF90C0)
-#define MOLEMOLE_CINEMANPCOFFSETSO_GET_PERFORMERDICT_OFFSET UNITYSDK_OFFSET(0xECF90B0)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_2743A86F7ED02B57_OFFSET UNITYSDK_OFFSET(0xECF9850)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xECF91B0)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_8742561A34E04513_OFFSET UNITYSDK_OFFSET(0xECF9A70)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xECF9040)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_A58A5891DF8333A9_OFFSET UNITYSDK_OFFSET(0xECF9FC0)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_C52D573361C61419_OFFSET UNITYSDK_OFFSET(0xECF9CD0)
-#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_DDB7BEE00B17AB42_OFFSET UNITYSDK_OFFSET(0xECFA1D0)
-#define MOLEMOLE_CINEMANPCOFFSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xECF90D0)
+#define MOLEMOLE_CINEMANPCOFFSETSO_GET_CAMERADICT_OFFSET UNITYSDK_OFFSET(0x10CE4090)
+#define MOLEMOLE_CINEMANPCOFFSETSO_GET_PERFORMERDICT_OFFSET UNITYSDK_OFFSET(0x10CE4080)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_2743A86F7ED02B57_OFFSET UNITYSDK_OFFSET(0x10CE4F60)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0x10CE4180)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_8742561A34E04513_OFFSET UNITYSDK_OFFSET(0x10CE4820)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10CE4010)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_A58A5891DF8333A9_OFFSET UNITYSDK_OFFSET(0x10CE5180)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_C52D573361C61419_OFFSET UNITYSDK_OFFSET(0x10CE4A80)
+#define MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_DDB7BEE00B17AB42_OFFSET UNITYSDK_OFFSET(0x10CE4D70)
+#define MOLEMOLE_CINEMANPCOFFSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE40A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaNpcOffsetSo_TypeDefinitionIndex = 65514;
+	inline static constexpr unsigned int CinemaNpcOffsetSo_TypeDefinitionIndex = 60250;
 
 	class CinemaNpcOffsetSo : public ::UnityEngine::ScriptableObject
 	{
@@ -57,19 +57,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_6D93101E4CE10A96_OFFSET))(this);
 		}
 
-		::MoleMole::GameObjectPositionData* Method_3_2743A86F7ED02B57(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)
-		{
-			return ((::MoleMole::GameObjectPositionData*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_2743A86F7ED02B57_OFFSET))(this, a1, a2, a3);
-		}
-
 		::MoleMole::CameraPositionData* Method_3_8742561A34E04513(::System::Int32 a1, ::System::Int32 a2)
 		{
 			return ((::MoleMole::CameraPositionData*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_8742561A34E04513_OFFSET))(this, a1, a2);
-		}
-
-		::System::Collections::Generic::List_1<::MoleMole::GameObjectPositionData*>* Method_3_A58A5891DF8333A9(::System::Int32 a1, ::System::Int32 a2)
-		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::GameObjectPositionData*>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_A58A5891DF8333A9_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_3_DDB7BEE00B17AB42(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
@@ -77,9 +67,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_DDB7BEE00B17AB42_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
+		::MoleMole::GameObjectPositionData* Method_3_2743A86F7ED02B57(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)
+		{
+			return ((::MoleMole::GameObjectPositionData*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_2743A86F7ED02B57_OFFSET))(this, a1, a2, a3);
+		}
+
 		::MoleMole::PerformerPositionData* Method_3_C52D573361C61419(::System::Int32 a1)
 		{
 			return ((::MoleMole::PerformerPositionData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_C52D573361C61419_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::MoleMole::GameObjectPositionData*>* Method_3_A58A5891DF8333A9(::System::Int32 a1, ::System::Int32 a2)
+		{
+			return ((::System::Collections::Generic::List_1<::MoleMole::GameObjectPositionData*>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMANPCOFFSETSO_METHOD_3_A58A5891DF8333A9_OFFSET))(this, a1, a2);
 		}
 	};
 }

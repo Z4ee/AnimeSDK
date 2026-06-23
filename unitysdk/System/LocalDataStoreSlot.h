@@ -4,9 +4,9 @@
 
 namespace System { class LocalDataStoreMgr; }
 
-#define SYSTEM_LOCALDATASTORESLOT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1AC4F580)
-#define SYSTEM_LOCALDATASTORESLOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC4F600)
-#define SYSTEM_LOCALDATASTORESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4F570)
+#define SYSTEM_LOCALDATASTORESLOT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D05CEF0)
+#define SYSTEM_LOCALDATASTORESLOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D05CF70)
+#define SYSTEM_LOCALDATASTORESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D05CEE0)
 
 namespace System
 {
@@ -16,8 +16,8 @@ namespace System
 	{
 	public:
 		::System::LocalDataStoreMgr* m_mgr; // 0x10
-		::System::Int64 m_cookie; // 0x18
-		::System::Int32 m_slot; // 0x20
+		::System::Int32 m_slot; // 0x18
+		::System::Int64 m_cookie; // 0x20
 
 		::System::Void _ctor(::System::LocalDataStoreMgr* mgr, ::System::Int32 slot, ::System::Int64 cookie)
 		{

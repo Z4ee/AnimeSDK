@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Struct_2_821B2DFE9E04B137_Class_1_42A070AFA9061F6A_1;
+class Struct_2_821B2DFE9E04B137_Class_1_42A070AFA9061F6A;
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 
-#define STRUCT_2_821B2DFE9E04B137_CLASS_1_9138135CCA99684F_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x115A0080)
-#define STRUCT_2_821B2DFE9E04B137_CLASS_1_9138135CCA99684F__CTOR_OFFSET UNITYSDK_OFFSET(0x115A0070)
+#define STRUCT_2_821B2DFE9E04B137_CLASS_1_9138135CCA99684F_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x16C20180)
+#define STRUCT_2_821B2DFE9E04B137_CLASS_1_9138135CCA99684F__CTOR_OFFSET UNITYSDK_OFFSET(0x16C20170)
 
-inline static constexpr unsigned int Struct_2_821B2DFE9E04B137_Class_1_9138135CCA99684F_TypeDefinitionIndex = 76395;
+inline static constexpr unsigned int Struct_2_821B2DFE9E04B137_Class_1_9138135CCA99684F_TypeDefinitionIndex = 51536;
 
 class Struct_2_821B2DFE9E04B137_Class_1_9138135CCA99684F : public ::System::Object
 {
 public:
-	::Struct_2_821B2DFE9E04B137_Class_1_42A070AFA9061F6A_1* Field_1_1; // 0x10
-	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_0; // 0x18
+	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_0; // 0x10
+	::Struct_2_821B2DFE9E04B137_Class_1_42A070AFA9061F6A* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

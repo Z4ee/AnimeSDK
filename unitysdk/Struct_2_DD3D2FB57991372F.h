@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-inline static constexpr unsigned int Struct_2_DD3D2FB57991372F_TypeDefinitionIndex = 46973;
+inline static constexpr unsigned int Struct_2_DD3D2FB57991372F_TypeDefinitionIndex = 80223;
 
 template <typename T>
 struct Struct_2_DD3D2FB57991372F

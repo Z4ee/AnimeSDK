@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int WorldBasicCameraDataDeltaFlag_TypeDefinitionIndex = 35993;
+	inline static constexpr unsigned int WorldBasicCameraDataDeltaFlag_TypeDefinitionIndex = 37601;
 
 	enum class WorldBasicCameraDataDeltaFlag : ::System::Int32
 	{

@@ -9,11 +9,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCATALYSISBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x139A0620)
+#define MOLEMOLE_CONFIG_CONFIGCATALYSISBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x162A8810)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCatalysisBuff_TypeDefinitionIndex = 68744;
+	inline static constexpr unsigned int ConfigCatalysisBuff_TypeDefinitionIndex = 48567;
 
 	class ConfigCatalysisBuff : public ::System::Object
 	{

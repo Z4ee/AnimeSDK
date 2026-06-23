@@ -6,23 +6,23 @@
 class Class_3_B537A0AA78803363;
 class Class_3_DCB7F8B839F0C44B_4;
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_F91115D9A1F02F5F;
 
-#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_7A00E552FBB51A60_OFFSET UNITYSDK_OFFSET(0x12C9B730)
-#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12C9BBB0)
-#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x12C9B530)
-#define CLASS_3_EB4FDAA5F3AEBD56__CTOR_OFFSET UNITYSDK_OFFSET(0x12C9BA30)
+#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_7A00E552FBB51A60_OFFSET UNITYSDK_OFFSET(0x127B05A0)
+#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x127B0A20)
+#define CLASS_3_EB4FDAA5F3AEBD56_METHOD_3_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x127B03A0)
+#define CLASS_3_EB4FDAA5F3AEBD56__CTOR_OFFSET UNITYSDK_OFFSET(0x127B08A0)
 
-inline static constexpr unsigned int Class_3_EB4FDAA5F3AEBD56_TypeDefinitionIndex = 49370;
+inline static constexpr unsigned int Class_3_EB4FDAA5F3AEBD56_TypeDefinitionIndex = 46234;
 
 class Class_3_EB4FDAA5F3AEBD56 : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_3_2; // 0x18
-	::Class_3_B537A0AA78803363* Field_3_4; // 0x20
-	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::Single>*>* Field_3_3; // 0x28
-	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::Int32>*>* Field_3_1; // 0x30
-	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x38
+	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::Single>*>* Field_3_3; // 0x18
+	::Class_4_F91115D9A1F02F5F<::System::Single>* Field_3_2; // 0x20
+	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::Int32>*>* Field_3_1; // 0x28
+	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x30
+	::Class_3_B537A0AA78803363* Field_3_4; // 0x38
 
 	::System::Void _ctor()
 	{

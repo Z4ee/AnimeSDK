@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int DispositionTypeNames_TypeDefinitionIndex = 3613;
+	inline static constexpr unsigned int DispositionTypeNames_TypeDefinitionIndex = 3612;
 
 	class DispositionTypeNames : public ::System::Object
 	{

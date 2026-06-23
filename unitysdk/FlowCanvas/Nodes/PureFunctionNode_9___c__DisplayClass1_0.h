@@ -7,7 +7,7 @@ namespace FlowCanvas::Nodes { template <typename T1, typename T2, typename T3, t
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureFunctionNode_9___c__DisplayClass1_0_TypeDefinitionIndex = 26980;
+	inline static constexpr unsigned int PureFunctionNode_9___c__DisplayClass1_0_TypeDefinitionIndex = 30834;
 
 	template <typename TResult, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class PureFunctionNode_9___c__DisplayClass1_0 : public ::System::Object

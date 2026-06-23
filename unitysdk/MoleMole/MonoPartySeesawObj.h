@@ -5,28 +5,28 @@
 
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_MONOPARTYSEESAWOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x158455A0)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ_METHOD_8_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x15846270)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x15845620)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ_UPDATE_OFFSET UNITYSDK_OFFSET(0x158455E0)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ__CCTOR_OFFSET UNITYSDK_OFFSET(0x15846180)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x158460D0)
-#define MOLEMOLE_MONOPARTYSEESAWOBJ___BASE_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x158461E0)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x16412FA0)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ_METHOD_8_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x16413C70)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x16413020)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ_UPDATE_OFFSET UNITYSDK_OFFSET(0x16412FE0)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ__CCTOR_OFFSET UNITYSDK_OFFSET(0x16413B80)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x16413AD0)
+#define MOLEMOLE_MONOPARTYSEESAWOBJ___BASE_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x16413BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPartySeesawObj_TypeDefinitionIndex = 65606;
+	inline static constexpr unsigned int MonoPartySeesawObj_TypeDefinitionIndex = 56325;
 
 	class MonoPartySeesawObj : public ::MoleMole::MonoPartySceneObject
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_overlapBuffer()
 		{
-			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPartySeesawObj_TypeDefinitionIndex)->GetStaticField(0x495A0);
+			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPartySeesawObj_TypeDefinitionIndex)->GetStaticField(0x4CD90);
 		}
 		static ::UnityEngine::Vector3* StaticGet_Field_8_5()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(MonoPartySeesawObj_TypeDefinitionIndex)->GetStaticField(0x11B70);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(MonoPartySeesawObj_TypeDefinitionIndex)->GetStaticField(0x12690);
 		}
 		::System::Single maxAngle; // 0x30
 		::System::Single rotateAnglePerSec; // 0x34

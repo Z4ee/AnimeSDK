@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlIncludeAttribute_TypeDefinitionIndex = 1888;
+	inline static constexpr unsigned int XmlIncludeAttribute_TypeDefinitionIndex = 1887;
 
 	class XmlIncludeAttribute : public ::System::Attribute
 	{

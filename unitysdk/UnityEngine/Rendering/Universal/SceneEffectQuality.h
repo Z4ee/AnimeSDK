@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SceneEffectQuality_TypeDefinitionIndex = 29824;
+	inline static constexpr unsigned int SceneEffectQuality_TypeDefinitionIndex = 27081;
 
 	enum class SceneEffectQuality : ::System::Int32
 	{
-		Low = 0,
-		Middle = 1,
 		High = 2,
+		Middle = 1,
 		VeryHigh = 3,
+		Low = 0,
 	};
 }

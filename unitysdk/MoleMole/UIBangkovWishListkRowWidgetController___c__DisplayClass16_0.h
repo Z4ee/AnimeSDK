@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangkovWishListkRowWidgetController; }
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1680D2E0)
-#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x1680D2F0)
+#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17608030)
+#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x17608040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovWishListkRowWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 76391;
+	inline static constexpr unsigned int UIBangkovWishListkRowWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 86472;
 
 	class UIBangkovWishListkRowWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{

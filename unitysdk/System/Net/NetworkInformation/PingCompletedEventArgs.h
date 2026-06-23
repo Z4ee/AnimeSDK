@@ -6,13 +6,13 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::Net::NetworkInformation { class PingReply; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS_GET_REPLY_OFFSET UNITYSDK_OFFSET(0x1A257290)
-#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A2572A0)
-#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257210)
+#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS_GET_REPLY_OFFSET UNITYSDK_OFFSET(0x1C664F90)
+#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C664FA0)
+#define SYSTEM_NET_NETWORKINFORMATION_PINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C664F10)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int PingCompletedEventArgs_TypeDefinitionIndex = 3825;
+	inline static constexpr unsigned int PingCompletedEventArgs_TypeDefinitionIndex = 3824;
 
 	class PingCompletedEventArgs : public ::System::ComponentModel::AsyncCompletedEventArgs
 	{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_TEXTURERESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F6A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_TEXTURERESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A48B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessData_TextureResources_TypeDefinitionIndex = 29814;
+	inline static constexpr unsigned int PostProcessData_TextureResources_TypeDefinitionIndex = 26730;
 
 	class PostProcessData_TextureResources : public ::System::Object
 	{

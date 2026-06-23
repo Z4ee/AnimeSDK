@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModuleOutputSlot___c__16_1_TypeDefinitionIndex = 37330;
+	inline static constexpr unsigned int CGModuleOutputSlot___c__16_1_TypeDefinitionIndex = 39047;
 
 	template <typename T>
 	class CGModuleOutputSlot___c__16_1 : public ::System::Object

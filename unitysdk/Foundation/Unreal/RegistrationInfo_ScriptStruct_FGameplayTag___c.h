@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD98630)
-#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD98670)
-#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1AD98680)
+#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB860)
+#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB8A0)
+#define FOUNDATION_UNREAL_REGISTRATIONINFO_SCRIPTSTRUCT_FGAMEPLAYTAG___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D1AB8B0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FGameplayTag___c_TypeDefinitionIndex = 25184;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FGameplayTag___c_TypeDefinitionIndex = 27669;
 
 	class RegistrationInfo_ScriptStruct_FGameplayTag___c : public ::System::Object
 	{
 	public:
 		static ::Foundation::Unreal::RegistrationInfo_ScriptStruct_FGameplayTag___c** StaticGet___9()
 		{
-			return (::Foundation::Unreal::RegistrationInfo_ScriptStruct_FGameplayTag___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag___c_TypeDefinitionIndex)->GetStaticField(0x1EB20);
+			return (::Foundation::Unreal::RegistrationInfo_ScriptStruct_FGameplayTag___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FGameplayTag___c_TypeDefinitionIndex)->GetStaticField(0x22750);
 		}
 
 		static ::System::Void _cctor()

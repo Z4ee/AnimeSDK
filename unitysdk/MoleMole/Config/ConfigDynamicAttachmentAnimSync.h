@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAttachmentAnimSync_TypeDefinitionIndex = 68045;
+	inline static constexpr unsigned int ConfigDynamicAttachmentAnimSync_TypeDefinitionIndex = 71682;
 
 	struct alignas(8) ConfigDynamicAttachmentAnimSync
 	{

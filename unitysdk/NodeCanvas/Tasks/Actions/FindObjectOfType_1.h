@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindObjectOfType_1_TypeDefinitionIndex = 27672;
+	inline static constexpr unsigned int FindObjectOfType_1_TypeDefinitionIndex = 30369;
 
 	template <typename T>
 	class FindObjectOfType_1 : public ::NodeCanvas::Framework::ActionTask

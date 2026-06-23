@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcAudioSettings_TypeDefinitionIndex = 56637;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcAudioSettings_TypeDefinitionIndex = 67210;
 
 struct alignas(8) NPCAvatarMeshAssetsSO_FNpcAudioSettings
 {
@@ -14,4 +14,7 @@ struct alignas(8) NPCAvatarMeshAssetsSO_FNpcAudioSettings
 	::System::String* triggerEvent; // 0x20
 	::System::String* soundActionKey; // 0x28
 	::System::Boolean onlyTriggerByPathNPC; // 0x30
+	::System::String* dopplerRTPCName; // 0x38
+	::System::Single dopplerScale; // 0x40
+	::System::Single maxDopplerVelocity; // 0x44
 };

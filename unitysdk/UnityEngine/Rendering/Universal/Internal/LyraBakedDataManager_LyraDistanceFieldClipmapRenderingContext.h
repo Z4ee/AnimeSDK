@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/LyraBakedDataManager_LyraClipmapRenderingContext.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_LYRADISTANCEFIELDCLIPMAPRENDERINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB5DA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDDATAMANAGER_LYRADISTANCEFIELDCLIPMAPRENDERINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBE5E0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_LyraDistanceFieldClipmapRenderingContext_TypeDefinitionIndex = 30467;
+	inline static constexpr unsigned int LyraBakedDataManager_LyraDistanceFieldClipmapRenderingContext_TypeDefinitionIndex = 27334;
 
 	class LyraBakedDataManager_LyraDistanceFieldClipmapRenderingContext : public ::UnityEngine::Rendering::Universal::Internal::LyraBakedDataManager_LyraClipmapRenderingContext
 	{

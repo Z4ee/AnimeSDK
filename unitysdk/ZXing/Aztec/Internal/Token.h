@@ -4,22 +4,22 @@
 
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x188582A0)
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x18858200)
-#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x188584F0)
-#define ZXING_AZTEC_INTERNAL_TOKEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x18858500)
-#define ZXING_AZTEC_INTERNAL_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x18851860)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x1AB2DAE0)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x1AB2DA40)
+#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x1AB2DD30)
+#define ZXING_AZTEC_INTERNAL_TOKEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB2DD40)
+#define ZXING_AZTEC_INTERNAL_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB270A0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 8650;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 19148;
 
 	class Token : public ::System::Object
 	{
 	public:
 		static ::ZXing::Aztec::Internal::Token** StaticGet_EMPTY()
 		{
-			return (::ZXing::Aztec::Internal::Token**)Il2CppClass::FromTypeDefinitionIndex(Token_TypeDefinitionIndex)->GetStaticField(0x7900);
+			return (::ZXing::Aztec::Internal::Token**)Il2CppClass::FromTypeDefinitionIndex(Token_TypeDefinitionIndex)->GetStaticField(0x8B40);
 		}
 		::ZXing::Aztec::Internal::Token* previous; // 0x10
 

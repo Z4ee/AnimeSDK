@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_INTSECURITY_UNSAFEGETFULLPATH_OFFSET UNITYSDK_OFFSET(0x19A47E70)
+#define SYSTEM_COMPONENTMODEL_INTSECURITY_UNSAFEGETFULLPATH_OFFSET UNITYSDK_OFFSET(0x1BEB9880)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IntSecurity_TypeDefinitionIndex = 2921;
+	inline static constexpr unsigned int IntSecurity_TypeDefinitionIndex = 2920;
 
 	class IntSecurity : public ::System::Object
 	{

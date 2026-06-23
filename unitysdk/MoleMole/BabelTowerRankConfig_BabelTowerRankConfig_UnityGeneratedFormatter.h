@@ -11,26 +11,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12CFBB70)
-#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12CFBB80)
-#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12CFBD60)
-#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12CFBF00)
-#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12CFBEC0)
+#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12AF5700)
+#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12AF5710)
+#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12AF58F0)
+#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AF5A90)
+#define MOLEMOLE_BABELTOWERRANKCONFIG_BABELTOWERRANKCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF5A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 50215;
+	inline static constexpr unsigned int BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 75788;
 
 	class BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::BabelTowerRankConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x484F0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BB00);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x484F8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(BabelTowerRankConfig_BabelTowerRankConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4BB08);
 		}
 
 		::System::Void _ctor()

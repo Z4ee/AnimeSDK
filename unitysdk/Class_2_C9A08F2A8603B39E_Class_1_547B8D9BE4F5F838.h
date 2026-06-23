@@ -4,9 +4,9 @@
 
 namespace MoleMole { class UITwoDMapElement_UIController; }
 
-#define CLASS_2_C9A08F2A8603B39E_CLASS_1_547B8D9BE4F5F838__CTOR_OFFSET UNITYSDK_OFFSET(0x113B7900)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_547B8D9BE4F5F838__CTOR_OFFSET UNITYSDK_OFFSET(0x11DCDD50)
 
-inline static constexpr unsigned int Class_2_C9A08F2A8603B39E_Class_1_547B8D9BE4F5F838_TypeDefinitionIndex = 51657;
+inline static constexpr unsigned int Class_2_C9A08F2A8603B39E_Class_1_547B8D9BE4F5F838_TypeDefinitionIndex = 87072;
 
 class Class_2_C9A08F2A8603B39E_Class_1_547B8D9BE4F5F838 : public ::System::Object
 {

@@ -6,34 +6,34 @@ class Class_2_01B22E9930E7BB4D;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__BINDVIEWCALLBACKS_B__12_1_OFFSET UNITYSDK_OFFSET(0x14DBE140)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DBE010)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBE050)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__INITSUBWIDGETS_B__24_1_OFFSET UNITYSDK_OFFSET(0x14DBE1A0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__8_0_OFFSET UNITYSDK_OFFSET(0x14DBE060)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__BINDVIEWCALLBACKS_B__12_1_OFFSET UNITYSDK_OFFSET(0x157A87F0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A86C0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157A8700)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__INITSUBWIDGETS_B__24_1_OFFSET UNITYSDK_OFFSET(0x157A8850)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOOPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__8_0_OFFSET UNITYSDK_OFFSET(0x157A8710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex = 65893;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex = 53488;
 
 	class UISuibianTempleDeployBangbooPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B20);
-		}
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__24_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B28);
-		}
 		static ::MoleMole::UISuibianTempleDeployBangbooPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleDeployBangbooPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B30);
+			return (::MoleMole::UISuibianTempleDeployBangbooPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x349A0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__12_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B38);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x349A8);
+		}
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__24_1()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x349B0);
+		}
+		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleDeployBangbooPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x349B8);
 		}
 
 		static ::System::Void _cctor()

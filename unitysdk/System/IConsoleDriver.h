@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ConsoleColor.h"
 #include "unitysdk/System/ConsoleKeyInfo.h"
 
 namespace System

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIDYNAMICPREFABREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x14E9B480)
+#define MOLEMOLE_UIDYNAMICPREFABREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15267EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDynamicPrefabReference_TypeDefinitionIndex = 52465;
+	inline static constexpr unsigned int UIDynamicPrefabReference_TypeDefinitionIndex = 80306;
 
 	class UIDynamicPrefabReference : public ::UnityEngine::MonoBehaviour
 	{

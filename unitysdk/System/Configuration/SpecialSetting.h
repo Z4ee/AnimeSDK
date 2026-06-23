@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SpecialSetting_TypeDefinitionIndex = 4232;
+	inline static constexpr unsigned int SpecialSetting_TypeDefinitionIndex = 4231;
 
 	enum class SpecialSetting : ::System::Int32
 	{

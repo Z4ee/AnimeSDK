@@ -8,19 +8,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5E8108FF33261706_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x139571B0)
-#define CLASS_1_5E8108FF33261706_METHOD_1_2CF1AC02C21BACC4_OFFSET UNITYSDK_OFFSET(0x139574B0)
-#define CLASS_1_5E8108FF33261706_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x139573C0)
-#define CLASS_1_5E8108FF33261706__CTOR_OFFSET UNITYSDK_OFFSET(0x139571A0)
+#define CLASS_1_5E8108FF33261706_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x13530CB0)
+#define CLASS_1_5E8108FF33261706_METHOD_1_2CF1AC02C21BACC4_OFFSET UNITYSDK_OFFSET(0x13530FB0)
+#define CLASS_1_5E8108FF33261706_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x13530EC0)
+#define CLASS_1_5E8108FF33261706__CTOR_OFFSET UNITYSDK_OFFSET(0x13530CA0)
 
-inline static constexpr unsigned int Class_1_5E8108FF33261706_TypeDefinitionIndex = 67392;
+inline static constexpr unsigned int Class_1_5E8108FF33261706_TypeDefinitionIndex = 81184;
 
 class Class_1_5E8108FF33261706 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::MonoSurfConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::MonoSurfConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E8108FF33261706_TypeDefinitionIndex)->GetStaticField(0x37400);
+		return (::MoleMole::Config::MonoSurfConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E8108FF33261706_TypeDefinitionIndex)->GetStaticField(0x39570);
 	}
 
 	::System::Void _ctor()

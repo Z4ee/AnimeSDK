@@ -8,14 +8,14 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1BA170A0)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1BA17800)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_TRACINGLAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1BA171C0)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA175B0)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1DD5BD50)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1DD5C4B0)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_TRACINGLAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1DD5BE70)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5C260)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RealMeshRendererParams_TypeDefinitionIndex = 30664;
+	inline static constexpr unsigned int RealMeshRendererParams_TypeDefinitionIndex = 32210;
 
 	class RealMeshRendererParams : public ::System::Object
 	{
@@ -42,9 +42,9 @@ namespace MoleMole::Timeline
 			return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_TRACINGLAYERSELECT_OFFSET))(this);
 		}
 
-		::System::Void SetSkinnedMeshRenderer(::UnityEngine::Renderer* meshRenderer)
+		::System::Void SetSkinnedMeshRenderer(::UnityEngine::Renderer* meshRenderer, ::System::Boolean isAuthoredApply)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET))(this, meshRenderer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET))(this, meshRenderer, isAuthoredApply);
 		}
 	};
 }

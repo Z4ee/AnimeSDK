@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11B8E690)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__PLAYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x11B8E6A0)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BC6460)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__PLAYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17BC6470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 53820;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 45211;
 
 	class UITriDiceOracleDialogPopWindowController___c__DisplayClass44_0 : public ::System::Object
 	{

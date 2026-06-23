@@ -7,7 +7,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeQueue_1_TypeDefinitionIndex = 20163;
+	inline static constexpr unsigned int NativeQueue_1_TypeDefinitionIndex = 18466;
 
 	template <typename T>
 	struct NativeQueue_1

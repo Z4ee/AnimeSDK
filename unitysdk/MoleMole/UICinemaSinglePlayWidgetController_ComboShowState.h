@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController_ComboShowState_TypeDefinitionIndex = 66489;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController_ComboShowState_TypeDefinitionIndex = 71496;
 
 	enum class UICinemaSinglePlayWidgetController_ComboShowState : ::System::Int32
 	{

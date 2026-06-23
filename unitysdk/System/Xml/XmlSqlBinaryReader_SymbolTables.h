@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLSQLBINARYREADER_SYMBOLTABLES_INIT_OFFSET UNITYSDK_OFFSET(0x9A3120)
+#define SYSTEM_XML_XMLSQLBINARYREADER_SYMBOLTABLES_INIT_OFFSET UNITYSDK_OFFSET(0xA46440)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlSqlBinaryReader_SymbolTables_TypeDefinitionIndex = 1677;
+	inline static constexpr unsigned int XmlSqlBinaryReader_SymbolTables_TypeDefinitionIndex = 1676;
 
 	struct alignas(8) XmlSqlBinaryReader_SymbolTables
 	{

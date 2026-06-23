@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlSqlBinaryReader_ScanState_TypeDefinitionIndex = 1672;
+	inline static constexpr unsigned int XmlSqlBinaryReader_ScanState_TypeDefinitionIndex = 1671;
 
 	enum class XmlSqlBinaryReader_ScanState : ::System::Int32
 	{

@@ -7,11 +7,11 @@ namespace MoleMole::Comic { class ScreenSplitAnimAudioDataWrapper; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_PAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA84500)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_PAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD09950)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int PageData_TypeDefinitionIndex = 30918;
+	inline static constexpr unsigned int PageData_TypeDefinitionIndex = 32469;
 
 	class PageData : public ::System::Object
 	{

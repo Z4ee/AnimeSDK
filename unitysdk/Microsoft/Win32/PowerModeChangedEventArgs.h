@@ -3,12 +3,12 @@
 #include "unitysdk/Microsoft/Win32/PowerModes.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define MICROSOFT_WIN32_POWERMODECHANGEDEVENTARGS_GET_MODE_OFFSET UNITYSDK_OFFSET(0x18FA28B0)
-#define MICROSOFT_WIN32_POWERMODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18FA2870)
+#define MICROSOFT_WIN32_POWERMODECHANGEDEVENTARGS_GET_MODE_OFFSET UNITYSDK_OFFSET(0x1B1B0940)
+#define MICROSOFT_WIN32_POWERMODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0900)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int PowerModeChangedEventArgs_TypeDefinitionIndex = 4294;
+	inline static constexpr unsigned int PowerModeChangedEventArgs_TypeDefinitionIndex = 4293;
 
 	class PowerModeChangedEventArgs : public ::System::EventArgs
 	{

@@ -7,7 +7,7 @@ namespace ObservableCollections { template <typename T> class ObservableStack_1;
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableStack_1__GetEnumerator_d__27_TypeDefinitionIndex = 25648;
+	inline static constexpr unsigned int ObservableStack_1__GetEnumerator_d__27_TypeDefinitionIndex = 28160;
 
 	template <typename T>
 	class ObservableStack_1__GetEnumerator_d__27 : public ::System::Object

@@ -4,7 +4,7 @@
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int Offset_1_TypeDefinitionIndex = 8743;
+	inline static constexpr unsigned int Offset_1_TypeDefinitionIndex = 6729;
 
 	template <typename T>
 	struct Offset_1

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::X509::Extensions
 {
-	inline static constexpr unsigned int CRLDistributionPointsExtension_ReasonFlags_TypeDefinitionIndex = 2332;
+	inline static constexpr unsigned int CRLDistributionPointsExtension_ReasonFlags_TypeDefinitionIndex = 2331;
 
 	enum class CRLDistributionPointsExtension_ReasonFlags : ::System::Int32
 	{

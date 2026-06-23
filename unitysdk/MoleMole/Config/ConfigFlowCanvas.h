@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigFlowCanvasLevelData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x175356D0)
+#define MOLEMOLE_CONFIG_CONFIGFLOWCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x144DFAA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowCanvas_TypeDefinitionIndex = 38225;
+	inline static constexpr unsigned int ConfigFlowCanvas_TypeDefinitionIndex = 80472;
 
 	class ConfigFlowCanvas : public ::Foundation::MihoyoSerializedScriptableObject
 	{

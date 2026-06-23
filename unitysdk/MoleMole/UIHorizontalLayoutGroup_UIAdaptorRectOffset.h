@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class RectOffset; }
 
-#define MOLEMOLE_UIHORIZONTALLAYOUTGROUP_UIADAPTORRECTOFFSET_SET_OFFSET UNITYSDK_OFFSET(0x16388D10)
-#define MOLEMOLE_UIHORIZONTALLAYOUTGROUP_UIADAPTORRECTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x16388CC0)
+#define MOLEMOLE_UIHORIZONTALLAYOUTGROUP_UIADAPTORRECTOFFSET_SET_OFFSET UNITYSDK_OFFSET(0x17219650)
+#define MOLEMOLE_UIHORIZONTALLAYOUTGROUP_UIADAPTORRECTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x17219600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHorizontalLayoutGroup_UIAdaptorRectOffset_TypeDefinitionIndex = 47290;
+	inline static constexpr unsigned int UIHorizontalLayoutGroup_UIAdaptorRectOffset_TypeDefinitionIndex = 61679;
 
 	class UIHorizontalLayoutGroup_UIAdaptorRectOffset : public ::System::Object
 	{

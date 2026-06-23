@@ -4,22 +4,22 @@
 
 namespace DG::Tweening::Core { template <typename T> class DOGetter_1; }
 
-#define CLASS_1_49776B0E09344AA8___C_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x16686F40)
-#define CLASS_1_49776B0E09344AA8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16686EF0)
-#define CLASS_1_49776B0E09344AA8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16686F30)
+#define CLASS_1_49776B0E09344AA8___C_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x159E11D0)
+#define CLASS_1_49776B0E09344AA8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x159E1180)
+#define CLASS_1_49776B0E09344AA8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x159E11C0)
 
-inline static constexpr unsigned int Class_1_49776B0E09344AA8___c_TypeDefinitionIndex = 57729;
+inline static constexpr unsigned int Class_1_49776B0E09344AA8___c_TypeDefinitionIndex = 85454;
 
 class Class_1_49776B0E09344AA8___c : public ::System::Object
 {
 public:
-	static ::DG::Tweening::Core::DOGetter_1<::System::Single>** StaticGet___9__16_0()
-	{
-		return (::DG::Tweening::Core::DOGetter_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49776B0E09344AA8___c_TypeDefinitionIndex)->GetStaticField(0x45530);
-	}
 	static ::Class_1_49776B0E09344AA8___c** StaticGet___9()
 	{
-		return (::Class_1_49776B0E09344AA8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49776B0E09344AA8___c_TypeDefinitionIndex)->GetStaticField(0x45538);
+		return (::Class_1_49776B0E09344AA8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49776B0E09344AA8___c_TypeDefinitionIndex)->GetStaticField(0x2E8F0);
+	}
+	static ::DG::Tweening::Core::DOGetter_1<::System::Single>** StaticGet___9__16_0()
+	{
+		return (::DG::Tweening::Core::DOGetter_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49776B0E09344AA8___c_TypeDefinitionIndex)->GetStaticField(0x2E8F8);
 	}
 
 	static ::System::Void _cctor()

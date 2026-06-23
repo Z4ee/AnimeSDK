@@ -5,12 +5,12 @@
 class Class_2_3B1E761D184CCDAF;
 namespace MoleMole { class UIEquipDevelopPopWindowController; }
 
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149B8570)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_0__ONCLICKEQUIPLEVELBTN_B__0_OFFSET UNITYSDK_OFFSET(0x149B8580)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C20310)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_0__ONCLICKEQUIPLEVELBTN_B__0_OFFSET UNITYSDK_OFFSET(0x14C20320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass50_0_TypeDefinitionIndex = 44462;
+	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass50_0_TypeDefinitionIndex = 84133;
 
 	class UIEquipDevelopPopWindowController___c__DisplayClass50_0 : public ::System::Object
 	{

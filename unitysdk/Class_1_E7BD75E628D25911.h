@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/VOPerformSubSystem_VoTipInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E7BD75E628D25911_METHOD_1_A14382C8F4913383_OFFSET UNITYSDK_OFFSET(0x11D98EB0)
+#define CLASS_1_E7BD75E628D25911_METHOD_1_A14382C8F4913383_OFFSET UNITYSDK_OFFSET(0x10825990)
 
-inline static constexpr unsigned int Class_1_E7BD75E628D25911_TypeDefinitionIndex = 63683;
+inline static constexpr unsigned int Class_1_E7BD75E628D25911_TypeDefinitionIndex = 63161;
 
 class Class_1_E7BD75E628D25911 : public ::System::Object
 {

@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IsVolatile_TypeDefinitionIndex = 1405;
+	inline static constexpr unsigned int IsVolatile_TypeDefinitionIndex = 1404;
 
 	class IsVolatile : public ::System::Object
 	{

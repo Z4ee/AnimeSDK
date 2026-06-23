@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE_STATEGROUPWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E51860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE_STATEGROUPWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D45D80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetCurrentBGMState_StateGroupWrapper_TypeDefinitionIndex = 71417;
+	inline static constexpr unsigned int LD_GetCurrentBGMState_StateGroupWrapper_TypeDefinitionIndex = 45818;
 
 	class LD_GetCurrentBGMState_StateGroupWrapper : public ::System::Object
 	{

@@ -8,27 +8,27 @@ namespace MessagePack::Internal { class DynamicAssembly; }
 namespace System { class String; }
 namespace System { template <typename T> class Lazy_1; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4B1A60)
-#define MESSAGEPACK_RESOLVERS_DYNAMICOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B1C30)
+#define MESSAGEPACK_RESOLVERS_DYNAMICOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8031C0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8033A0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicObjectResolver_TypeDefinitionIndex = 27625;
+	inline static constexpr unsigned int DynamicObjectResolver_TypeDefinitionIndex = 29479;
 
 	class DynamicObjectResolver : public ::System::Object
 	{
 	public:
 		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
 		{
-			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x20050);
-		}
-		static ::MessagePack::Resolvers::DynamicObjectResolver** StaticGet_Instance()
-		{
-			return (::MessagePack::Resolvers::DynamicObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x20058);
+			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x23DE0);
 		}
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x20060);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x23DE8);
+		}
+		static ::MessagePack::Resolvers::DynamicObjectResolver** StaticGet_Instance()
+		{
+			return (::MessagePack::Resolvers::DynamicObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolver_TypeDefinitionIndex)->GetStaticField(0x23DF0);
 		}
 		// static const ::System::String* ModuleName; // 0x0
 

@@ -6,7 +6,7 @@ namespace FlowCanvas { class ValueHandlerObject; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int ValueOutput_1___c__DisplayClass1_0_TypeDefinitionIndex = 27092;
+	inline static constexpr unsigned int ValueOutput_1___c__DisplayClass1_0_TypeDefinitionIndex = 30571;
 
 	template <typename T>
 	class ValueOutput_1___c__DisplayClass1_0 : public ::System::Object

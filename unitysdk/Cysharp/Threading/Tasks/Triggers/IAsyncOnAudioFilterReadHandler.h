@@ -5,7 +5,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnAudioFilterReadHandler_TypeDefinitionIndex = 28680;
+	inline static constexpr unsigned int IAsyncOnAudioFilterReadHandler_TypeDefinitionIndex = 31336;
 
 	class IAsyncOnAudioFilterReadHandler
 	{

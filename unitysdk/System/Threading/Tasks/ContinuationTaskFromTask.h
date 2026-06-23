@@ -8,12 +8,12 @@
 namespace System { class Delegate; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK_INNERINVOKE_OFFSET UNITYSDK_OFFSET(0x193F0EC0)
-#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x193F09F0)
+#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK_INNERINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8C0960)
+#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0490)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ContinuationTaskFromTask_TypeDefinitionIndex = 921;
+	inline static constexpr unsigned int ContinuationTaskFromTask_TypeDefinitionIndex = 920;
 
 	class ContinuationTaskFromTask : public ::System::Threading::Tasks::Task
 	{

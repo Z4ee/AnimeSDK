@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x149A0970)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x149A09E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x17115920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x17115990)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_VehicleStart_TypeDefinitionIndex = 38525;
+	inline static constexpr unsigned int LD_VehicleStart_TypeDefinitionIndex = 67568;
 
 	class LD_VehicleStart : public ::FlowCanvas::Nodes::CallableActionNode_1<::MoleMole::Battle::Entity*>
 	{

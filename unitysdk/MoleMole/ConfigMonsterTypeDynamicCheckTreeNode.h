@@ -7,18 +7,18 @@ class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 namespace MoleMole::Config { class DynamicInt; }
 namespace MoleMole::Config { class DynamicString; }
 
-#define MOLEMOLE_CONFIGMONSTERTYPEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x15A06CA0)
-#define MOLEMOLE_CONFIGMONSTERTYPEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15A06DC0)
+#define MOLEMOLE_CONFIGMONSTERTYPEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x190D3790)
+#define MOLEMOLE_CONFIGMONSTERTYPEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x190D38B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMonsterTypeDynamicCheckTreeNode_TypeDefinitionIndex = 48159;
+	inline static constexpr unsigned int ConfigMonsterTypeDynamicCheckTreeNode_TypeDefinitionIndex = 69072;
 
 	class ConfigMonsterTypeDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{
 	public:
-		::MoleMole::Config::DynamicString* CompareType; // 0x10
-		::MoleMole::Config::DynamicString* SpecialName; // 0x18
+		::MoleMole::Config::DynamicString* SpecialName; // 0x10
+		::MoleMole::Config::DynamicString* CompareType; // 0x18
 		::MoleMole::Config::DynamicInt* CompareArg; // 0x20
 
 		::System::Void _ctor()

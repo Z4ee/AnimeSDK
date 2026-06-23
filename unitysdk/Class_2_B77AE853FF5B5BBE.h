@@ -8,18 +8,18 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_B77AE853FF5B5BBE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16535F30)
-#define CLASS_2_B77AE853FF5B5BBE_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x16535E50)
-#define CLASS_2_B77AE853FF5B5BBE__CTOR_OFFSET UNITYSDK_OFFSET(0x16535F20)
+#define CLASS_2_B77AE853FF5B5BBE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10739E50)
+#define CLASS_2_B77AE853FF5B5BBE_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10739D70)
+#define CLASS_2_B77AE853FF5B5BBE__CTOR_OFFSET UNITYSDK_OFFSET(0x10739E40)
 
-inline static constexpr unsigned int Class_2_B77AE853FF5B5BBE_TypeDefinitionIndex = 54493;
+inline static constexpr unsigned int Class_2_B77AE853FF5B5BBE_TypeDefinitionIndex = 45687;
 
 class Class_2_B77AE853FF5B5BBE : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_1; // 0x18
+	::UnityEngine::UI::HorizontalLayoutGroup* Field_2_2; // 0x18
 	::UnityEngine::UI::Text* Field_2_0; // 0x20
-	::UnityEngine::UI::HorizontalLayoutGroup* Field_2_2; // 0x28
+	::UnityEngine::RectTransform* Field_2_1; // 0x28
 
 	::System::Void _ctor()
 	{

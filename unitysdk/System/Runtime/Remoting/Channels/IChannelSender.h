@@ -7,7 +7,7 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IChannelSender_TypeDefinitionIndex = 1305;
+	inline static constexpr unsigned int IChannelSender_TypeDefinitionIndex = 1304;
 
 	class IChannelSender
 	{

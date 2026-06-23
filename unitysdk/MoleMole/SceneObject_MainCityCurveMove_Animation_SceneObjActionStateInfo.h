@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_SceneObjActionStateInfo_TypeDefinitionIndex = 47661;
+	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_SceneObjActionStateInfo_TypeDefinitionIndex = 49314;
 
 	struct alignas(8) SceneObject_MainCityCurveMove_Animation_SceneObjActionStateInfo
 	{

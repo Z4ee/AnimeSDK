@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FISHDAMAGECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10DFEF40)
+#define MOLEMOLE_FISHDAMAGECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B15E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishDamageCurve_TypeDefinitionIndex = 82368;
+	inline static constexpr unsigned int FishDamageCurve_TypeDefinitionIndex = 69802;
 
 	class FishDamageCurve : public ::System::Object
 	{

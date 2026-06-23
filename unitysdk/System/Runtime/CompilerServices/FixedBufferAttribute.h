@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_FIXEDBUFFERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC93630)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_FIXEDBUFFERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B4A10)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int FixedBufferAttribute_TypeDefinitionIndex = 1403;
+	inline static constexpr unsigned int FixedBufferAttribute_TypeDefinitionIndex = 1402;
 
 	class FixedBufferAttribute : public ::System::Attribute
 	{

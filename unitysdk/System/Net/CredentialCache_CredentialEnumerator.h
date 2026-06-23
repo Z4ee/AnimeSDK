@@ -6,22 +6,22 @@ namespace System::Collections { class Hashtable; }
 namespace System::Net { class CredentialCache; }
 namespace System::Net { class ICredentials; }
 
-#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1921E200)
-#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1921E2E0)
-#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1921E380)
-#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1921DFD0)
+#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4042F0)
+#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B4043D0)
+#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B404470)
+#define SYSTEM_NET_CREDENTIALCACHE_CREDENTIALENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4040C0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CredentialCache_CredentialEnumerator_TypeDefinitionIndex = 3267;
+	inline static constexpr unsigned int CredentialCache_CredentialEnumerator_TypeDefinitionIndex = 3266;
 
 	class CredentialCache_CredentialEnumerator : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Net::ICredentials*>* m_array; // 0x10
-		::System::Net::CredentialCache* m_cache; // 0x18
-		::System::Int32 m_version; // 0x20
-		::System::Int32 m_index; // 0x24
+		::System::Net::CredentialCache* m_cache; // 0x10
+		::Il2CppArray<::System::Net::ICredentials*>* m_array; // 0x18
+		::System::Int32 m_index; // 0x20
+		::System::Int32 m_version; // 0x24
 
 		::System::Void _ctor(::System::Net::CredentialCache* cache, ::System::Collections::Hashtable* table, ::System::Collections::Hashtable* hostTable, ::System::Int32 version)
 		{

@@ -7,7 +7,7 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ListPool
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ListPool_1___c_TypeDefinitionIndex = 5962;
+	inline static constexpr unsigned int ListPool_1___c_TypeDefinitionIndex = 5972;
 
 	template <typename T>
 	class ListPool_1___c : public ::System::Object

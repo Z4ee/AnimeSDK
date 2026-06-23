@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B08F350)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08F5C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D3E7CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E7F10)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int VolumetricFogConfig_TypeDefinitionIndex = 30299;
+	inline static constexpr unsigned int VolumetricFogConfig_TypeDefinitionIndex = 26694;
 
 	class VolumetricFogConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::VolumetricFogConfig*>
 	{

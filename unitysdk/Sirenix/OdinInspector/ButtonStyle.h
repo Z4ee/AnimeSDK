@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ButtonStyle_TypeDefinitionIndex = 7134;
+	inline static constexpr unsigned int ButtonStyle_TypeDefinitionIndex = 7265;
 
 	enum class ButtonStyle : ::System::Int32
 	{

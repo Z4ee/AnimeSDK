@@ -8,25 +8,25 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class UIBubbleTips; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16E4F6F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4FBB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16E4FC10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x16E4FE00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__UPDATETIP_OFFSET UNITYSDK_OFFSET(0x16E4F820)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10D43A20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D43EE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x10D43F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x10D44130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIPUPDATE__UPDATETIP_OFFSET UNITYSDK_OFFSET(0x10D43B50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTipUpdate_TypeDefinitionIndex = 46917;
+	inline static constexpr unsigned int LDShowTipUpdate_TypeDefinitionIndex = 74926;
 
 	class LDShowTipUpdate : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::String* _cacheString; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::UIBubbleTips*>* bubbleInput; // 0xB8
-		::System::String* _cacheStringParam; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* tipID; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::String*>* tipParam; // 0xD0
+		::System::String* _cacheStringParam; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* tipID; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::System::String* _cacheString; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* tipParam; // 0xC8
+		::FlowCanvas::ValueInput_1<::MoleMole::UIBubbleTips*>* bubbleInput; // 0xD0
 
 		::System::Void _ctor()
 		{

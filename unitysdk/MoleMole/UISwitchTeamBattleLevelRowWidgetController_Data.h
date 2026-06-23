@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISWITCHTEAMBATTLELEVELROWWIDGETCONTROLLER_DATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x10D4EEC0)
-#define MOLEMOLE_UISWITCHTEAMBATTLELEVELROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4EF50)
+#define MOLEMOLE_UISWITCHTEAMBATTLELEVELROWWIDGETCONTROLLER_DATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x148E3950)
+#define MOLEMOLE_UISWITCHTEAMBATTLELEVELROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x148E39E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISwitchTeamBattleLevelRowWidgetController_Data_TypeDefinitionIndex = 76736;
+	inline static constexpr unsigned int UISwitchTeamBattleLevelRowWidgetController_Data_TypeDefinitionIndex = 43440;
 
 	class UISwitchTeamBattleLevelRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::System::Int32 generalLevelId; // 0x10
-		::System::Int32 activityId; // 0x14
+		::System::Int32 activityId; // 0x10
+		::System::Int32 generalLevelId; // 0x14
 
 		::System::Void _ctor()
 		{

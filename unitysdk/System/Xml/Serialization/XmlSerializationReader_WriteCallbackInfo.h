@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml::Serialization { class XmlSerializationReadCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFFAD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D476470)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReader_WriteCallbackInfo_TypeDefinitionIndex = 1905;
+	inline static constexpr unsigned int XmlSerializationReader_WriteCallbackInfo_TypeDefinitionIndex = 1904;
 
 	class XmlSerializationReader_WriteCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationReadCallback* Callback; // 0x10
-		::System::Type* Type; // 0x18
-		::System::String* TypeName; // 0x20
-		::System::String* TypeNs; // 0x28
+		::System::Type* Type; // 0x10
+		::System::Xml::Serialization::XmlSerializationReadCallback* Callback; // 0x18
+		::System::String* TypeNs; // 0x20
+		::System::String* TypeName; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB4D950)
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB4D960)
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB4DB40)
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB4DCE0)
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4DCA0)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xEBC27F0)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xEBC2800)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xEBC29E0)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC2B80)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO_REACTIONCONFIGASSETSO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC2B40)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex = 48274;
+	inline static constexpr unsigned int ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex = 40116;
 
 	class ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::NPCCrowd::AI::ReactionConfigAssetSO*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::EventStimulusConfig>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::EventStimulusConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385C0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::ReactionConfig>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::ReactionConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385C8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::ReactionConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A970);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::EventStimulusConfig>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::EventStimulusConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(ReactionConfigAssetSO_ReactionConfigAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A978);
 		}
 
 		::System::Void _ctor()

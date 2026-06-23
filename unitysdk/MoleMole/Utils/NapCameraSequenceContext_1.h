@@ -7,7 +7,7 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceBlendSetting; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequenceContext_1_TypeDefinitionIndex = 38473;
+	inline static constexpr unsigned int NapCameraSequenceContext_1_TypeDefinitionIndex = 63155;
 
 	template <typename T>
 	class NapCameraSequenceContext_1 : public ::MoleMole::Utils::NapCameraSequenceContext

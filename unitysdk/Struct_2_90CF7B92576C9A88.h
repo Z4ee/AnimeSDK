@@ -3,7 +3,7 @@
 #include "unitysdk/Foundation/Unreal/FTransform3D.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_90CF7B92576C9A88_TypeDefinitionIndex = 50137;
+inline static constexpr unsigned int Struct_2_90CF7B92576C9A88_TypeDefinitionIndex = 53644;
 
 struct alignas(4) Struct_2_90CF7B92576C9A88
 {

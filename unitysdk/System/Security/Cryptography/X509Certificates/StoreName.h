@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int StoreName_TypeDefinitionIndex = 3171;
+	inline static constexpr unsigned int StoreName_TypeDefinitionIndex = 3170;
 
 	enum class StoreName : ::System::Int32
 	{

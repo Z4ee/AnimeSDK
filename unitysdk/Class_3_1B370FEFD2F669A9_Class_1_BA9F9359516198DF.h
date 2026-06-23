@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_E147DFD2A4EE8B0B.h"
+#include "unitysdk/Struct_2_174BD6D3EB04B2EE.h"
 #include "unitysdk/Struct_2_E33A8767CD3B76C6.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections { class IList; }
 
-#define CLASS_3_1B370FEFD2F669A9_CLASS_1_BA9F9359516198DF_METHOD_1_841F8C8179E5BE1C_OFFSET UNITYSDK_OFFSET(0xF5E3110)
-#define CLASS_3_1B370FEFD2F669A9_CLASS_1_BA9F9359516198DF__CTOR_OFFSET UNITYSDK_OFFSET(0xF5E3100)
+#define CLASS_3_1B370FEFD2F669A9_CLASS_1_BA9F9359516198DF_METHOD_1_841F8C8179E5BE1C_OFFSET UNITYSDK_OFFSET(0x14947F90)
+#define CLASS_3_1B370FEFD2F669A9_CLASS_1_BA9F9359516198DF__CTOR_OFFSET UNITYSDK_OFFSET(0x14947F80)
 
-inline static constexpr unsigned int Class_3_1B370FEFD2F669A9_Class_1_BA9F9359516198DF_TypeDefinitionIndex = 69537;
+inline static constexpr unsigned int Class_3_1B370FEFD2F669A9_Class_1_BA9F9359516198DF_TypeDefinitionIndex = 81880;
 
 class Class_3_1B370FEFD2F669A9_Class_1_BA9F9359516198DF : public ::System::Object
 {
 public:
-	::Struct_2_E147DFD2A4EE8B0B Field_1_12; // 0x10
+	::Struct_2_174BD6D3EB04B2EE Field_1_12; // 0x10
 	::System::Collections::IList* Field_1_11; // 0x28
-	::System::Int32 Field_1_0; // 0x30
-	::System::Int32 Field_1_3; // 0x34
+	::System::Int32 Field_1_4; // 0x30
+	::System::Int32 Field_1_10; // 0x34
 	::System::Int32 Field_1_8; // 0x38
-	::System::Int32 Field_1_10; // 0x3C
+	::System::Int32 Field_1_9; // 0x3C
 	::System::Int32 Field_1_2; // 0x40
-	::System::Boolean Field_1_6; // 0x44
-	::System::Int32 Field_1_9; // 0x48
-	::System::Int32 Field_1_1; // 0x4C
-	::System::Int32 Field_1_5; // 0x50
-	::System::Int32 Field_1_7; // 0x54
-	::System::Int32 Field_1_4; // 0x58
+	::System::Int32 Field_1_7; // 0x44
+	::System::Int32 Field_1_1; // 0x48
+	::System::Boolean Field_1_6; // 0x4C
+	::System::Int32 Field_1_3; // 0x50
+	::System::Int32 Field_1_5; // 0x54
+	::System::Int32 Field_1_0; // 0x58
 
 	::System::Void _ctor()
 	{

@@ -6,20 +6,20 @@ namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace CriWare { class CriFsWebInstaller; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BF33AE0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF337F0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF33680)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E24B450)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E24B160)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24AFF0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstallRequest_TypeDefinitionIndex = 32765;
+	inline static constexpr unsigned int CriFsWebInstallRequest_TypeDefinitionIndex = 34318;
 
 	class CriFsWebInstallRequest : public ::CriWare::CriFsInstallRequest
 	{
 	public:
 		::CriWare::CriFsWebInstaller* installer; // 0x50
-		::System::Boolean crc32_set; // 0x58
-		::System::UInt32 crc32; // 0x5C
+		::System::UInt32 crc32; // 0x58
+		::System::Boolean crc32_set; // 0x5C
 
 		::System::Void _ctor(::System::String* srcPath, ::System::String* dstPath, ::CriWare::CriFsRequest_DoneDelegate* doneDelegate)
 		{

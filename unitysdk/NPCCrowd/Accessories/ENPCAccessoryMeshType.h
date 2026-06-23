@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int ENPCAccessoryMeshType_TypeDefinitionIndex = 66362;
+	inline static constexpr unsigned int ENPCAccessoryMeshType_TypeDefinitionIndex = 74213;
 
 	enum class ENPCAccessoryMeshType : ::System::Int32
 	{
-		Static = 1,
-		None = 0,
 		Bone = 2,
+		None = 0,
+		Static = 1,
 	};
 }

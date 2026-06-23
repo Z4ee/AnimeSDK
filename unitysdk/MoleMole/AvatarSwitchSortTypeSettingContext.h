@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Battle/AvatarSwitchSortType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_AVATARSWITCHSORTTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x159BC1B0)
+#define MOLEMOLE_AVATARSWITCHSORTTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x126E2C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarSwitchSortTypeSettingContext_TypeDefinitionIndex = 42094;
+	inline static constexpr unsigned int AvatarSwitchSortTypeSettingContext_TypeDefinitionIndex = 80087;
 
 	class AvatarSwitchSortTypeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

@@ -3,22 +3,22 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ReferTargetCoordsOption_TypeDefinitionIndex = 45978;
+	inline static constexpr unsigned int ReferTargetCoordsOption_TypeDefinitionIndex = 79341;
 
 	enum class ReferTargetCoordsOption : ::System::Int32
 	{
-		LocalAvatar = 3,
-		EntityJoystic = 10,
-		Caster = 6,
 		Unknown = -1,
-		PlayerJoyStick = 9,
-		ReferTarget = 7,
 		AimTargetPoint = 11,
 		Relative = 2,
+		EntityJoystic = 10,
+		Target = 1,
+		PlayerJoyStick = 9,
 		Self = 0,
 		View = 8,
+		LocalAvatar = 3,
+		Caster = 6,
 		Buddy = 5,
-		Target = 1,
 		Camera = 4,
+		ReferTarget = 7,
 	};
 }

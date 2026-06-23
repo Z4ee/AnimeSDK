@@ -3,14 +3,14 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKJointAssignPolicy_TypeDefinitionIndex = 70504;
+	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKJointAssignPolicy_TypeDefinitionIndex = 57444;
 
 	enum class AnimationSubManager_TwoBonesIKJointAssignPolicy : ::System::Int32
 	{
 		RelativeToCenter = 3,
-		UseMiddleBone = 1,
-		ManuallySet = 4,
 		RelativeToEffector = 2,
+		ManuallySet = 4,
+		UseMiddleBone = 1,
 		DontCare = 0,
 	};
 }

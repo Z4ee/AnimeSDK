@@ -7,13 +7,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Dynamic::Utils { template <typename T1, typename T2> class CacheDict_2; }
 namespace System::Runtime::CompilerServices { class CallSiteBinder; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE_CREATE_OFFSET UNITYSDK_OFFSET(0x1BE37620)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE37BB0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE37610)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E171550)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E171AE0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E171540)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallSite_TypeDefinitionIndex = 4953;
+	inline static constexpr unsigned int CallSite_TypeDefinitionIndex = 4952;
 
 	class CallSite : public ::System::Object
 	{

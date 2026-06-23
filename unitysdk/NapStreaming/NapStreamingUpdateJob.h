@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NapStreaming/AdditionLockLevel.h"
 #include "unitysdk/NapStreaming/StreamingCommand.h"
 #include "unitysdk/NapStreaming/StreamingGridJobData.h"
 #include "unitysdk/NapStreaming/StreamingLayerJobData.h"
@@ -9,20 +10,20 @@
 #include "unitysdk/Unity/Collections/NativeList_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x50CB70)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_INLOADING_OFFSET UNITYSDK_OFFSET(0x50CAF0)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_ISUNLOAD_OFFSET UNITYSDK_OFFSET(0x50CAE0)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOHLOD_OFFSET UNITYSDK_OFFSET(0x50CB20)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOOBJECT_OFFSET UNITYSDK_OFFSET(0x50CB30)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOUNLOADBYVISIBLE_OFFSET UNITYSDK_OFFSET(0x50CB00)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOUNLOAD_OFFSET UNITYSDK_OFFSET(0x50CB10)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATEPOI_OFFSET UNITYSDK_OFFSET(0x50CB60)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATEPVS_OFFSET UNITYSDK_OFFSET(0x50CB50)
-#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATERELEASEFRAME_OFFSET UNITYSDK_OFFSET(0x50CB40)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5CCA50)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_INLOADING_OFFSET UNITYSDK_OFFSET(0x5CC9D0)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_ISUNLOAD_OFFSET UNITYSDK_OFFSET(0x5CC9C0)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOHLOD_OFFSET UNITYSDK_OFFSET(0x5CCA00)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOOBJECT_OFFSET UNITYSDK_OFFSET(0x5CCA10)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOUNLOADBYVISIBLE_OFFSET UNITYSDK_OFFSET(0x5CC9E0)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_SWITCHTOUNLOAD_OFFSET UNITYSDK_OFFSET(0x5CC9F0)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATEPOI_OFFSET UNITYSDK_OFFSET(0x5CCA40)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATEPVS_OFFSET UNITYSDK_OFFSET(0x5CCA30)
+#define NAPSTREAMING_NAPSTREAMINGUPDATEJOB_UPDATERELEASEFRAME_OFFSET UNITYSDK_OFFSET(0x5CCA20)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingUpdateJob_TypeDefinitionIndex = 61565;
+	inline static constexpr unsigned int NapStreamingUpdateJob_TypeDefinitionIndex = 60033;
 
 	struct alignas(8) NapStreamingUpdateJob
 	{
@@ -34,13 +35,14 @@ namespace NapStreaming
 		::Unity::Collections::NativeArray_1<::System::Boolean> pvsVisibleStates; // 0x30
 		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingLayerJobData> layerDatas; // 0x40
 		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingState> gridStates; // 0x50
-		::Unity::Collections::NativeArray_1<::System::Boolean> poiVisibleStates; // 0x60
-		::System::Int32 pvsStart; // 0x70
-		::System::Single coefficient; // 0x74
-		::System::Boolean isViewPort; // 0x78
-		::UnityEngine::Vector3 cameraPos; // 0x7C
-		::System::Single preloadDistance; // 0x88
-		::System::Int32 poiIndex; // 0x8C
+		::Unity::Collections::NativeArray_1<::NapStreaming::AdditionLockLevel> additionLockStates; // 0x60
+		::Unity::Collections::NativeArray_1<::System::Boolean> poiVisibleStates; // 0x70
+		::System::Int32 pvsStart; // 0x80
+		::System::Single coefficient; // 0x84
+		::System::Boolean isViewPort; // 0x88
+		::UnityEngine::Vector3 cameraPos; // 0x8C
+		::System::Single preloadDistance; // 0x98
+		::System::Int32 poiIndex; // 0x9C
 
 		::System::Boolean IsUnload(::NapStreaming::StreamingState state)
 		{

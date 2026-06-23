@@ -10,62 +10,62 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETAPPLYLUTTOSKYBOX_OFFSET UNITYSDK_OFFSET(0x17533560)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCHARACTEREXPOSURE_OFFSET UNITYSDK_OFFSET(0x17533760)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCOLORFILTER_OFFSET UNITYSDK_OFFSET(0x17533360)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCONTRAST_OFFSET UNITYSDK_OFFSET(0x175332E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETDESATURATE_OFFSET UNITYSDK_OFFSET(0x175334E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETFXEXPOSURE_OFFSET UNITYSDK_OFFSET(0x17533AC0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETFXLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x17533A50)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETHUESHIFT_OFFSET UNITYSDK_OFFSET(0x175333E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETPOSTEXPOSURE_OFFSET UNITYSDK_OFFSET(0x17533260)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSATURATION_OFFSET UNITYSDK_OFFSET(0x17533460)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSCENEEXPOSURE_OFFSET UNITYSDK_OFFSET(0x175336E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYBOXEXPOSURE_OFFSET UNITYSDK_OFFSET(0x175337E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYCONTRAST_OFFSET UNITYSDK_OFFSET(0x17533660)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYSATURATION_OFFSET UNITYSDK_OFFSET(0x175335E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETUSESCENEDESATURATEMASK_OFFSET UNITYSDK_OFFSET(0x175331F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GET_FXLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x17533860)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17533B40)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETAPPLYLUTTOSKYBOX_OFFSET UNITYSDK_OFFSET(0x144DD930)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCHARACTEREXPOSURE_OFFSET UNITYSDK_OFFSET(0x144DDB30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCOLORFILTER_OFFSET UNITYSDK_OFFSET(0x144DD730)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETCONTRAST_OFFSET UNITYSDK_OFFSET(0x144DD6B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETDESATURATE_OFFSET UNITYSDK_OFFSET(0x144DD8B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETFXEXPOSURE_OFFSET UNITYSDK_OFFSET(0x144DDE90)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETFXLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x144DDE20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETHUESHIFT_OFFSET UNITYSDK_OFFSET(0x144DD7B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETPOSTEXPOSURE_OFFSET UNITYSDK_OFFSET(0x144DD630)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSATURATION_OFFSET UNITYSDK_OFFSET(0x144DD830)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSCENEEXPOSURE_OFFSET UNITYSDK_OFFSET(0x144DDAB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYBOXEXPOSURE_OFFSET UNITYSDK_OFFSET(0x144DDBB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYCONTRAST_OFFSET UNITYSDK_OFFSET(0x144DDA30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETSKYSATURATION_OFFSET UNITYSDK_OFFSET(0x144DD9B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GETUSESCENEDESATURATEMASK_OFFSET UNITYSDK_OFFSET(0x144DD5C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT_GET_FXLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x144DDC30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x144DDF10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityColorAdjustment_TypeDefinitionIndex = 74250;
+	inline static constexpr unsigned int ConfigEntityColorAdjustment_TypeDefinitionIndex = 65477;
 
 	class ConfigEntityColorAdjustment : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::System::String* FXLutTexturePath; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* skySaturation; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* skyContrast; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* desaturate; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* skyContrast; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* desaturate; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* FXExposure; // 0x50
+		::System::String* FXLutTexturePath; // 0x58
 		::MoleMole::Config::ScreenEffectFloat* postExposure; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* characterExposure; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* skyboxExposure; // 0x70
-		::MoleMole::Config::ScreenEffectFloat* saturation; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* sceneExposure; // 0x80
-		::UnityEngine::Texture2D* _FXLutTexture; // 0x88
-		::MoleMole::Config::ScreenEffectFloat* FXExposure; // 0x90
-		::MoleMole::Config::ScreenEffectFloat* contrast; // 0x98
-		::MoleMole::Config::ScreenEffectFloat* hueShift; // 0xA0
-		::MoleMole::Config::ScreenEffectBool* applyLutToSkybox; // 0xA8
-		::MoleMole::Config::ScreenEffectFieldHandleType applyLutToSkyboxHandleType; // 0xB0
-		::MoleMole::Config::ScreenEffectFieldHandleType saturationHandleType; // 0xB4
-		::MoleMole::Config::ScreenEffectFieldHandleType skySaturationHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFloat* saturation; // 0x68
+		::UnityEngine::Texture2D* _FXLutTexture; // 0x70
+		::MoleMole::Config::ScreenEffectBool* applyLutToSkybox; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* hueShift; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* sceneExposure; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* skyboxExposure; // 0x90
+		::MoleMole::Config::ScreenEffectFloat* characterExposure; // 0x98
+		::MoleMole::Config::ScreenEffectFloat* skySaturation; // 0xA0
+		::MoleMole::Config::ScreenEffectFloat* contrast; // 0xA8
+		::MoleMole::Config::ScreenEffectFieldHandleType sceneExposureHandleType; // 0xB0
+		::MoleMole::Config::ScreenEffectFieldHandleType FXLutTextureHandleType; // 0xB4
+		::MoleMole::Config::ScreenEffectFieldHandleType colorFilterHandleType; // 0xB8
 		::MoleMole::Config::ScreenEffectFieldHandleType FXExposureHandleType; // 0xBC
-		::MoleMole::Config::ScreenEffectFieldHandleType characterExposureHandleType; // 0xC0
-		::MoleMole::Config::ScreenEffectFieldHandleType desaturateHandleType; // 0xC4
-		::MoleMole::Config::ScreenEffectFieldHandleType skyboxExposureHandleType; // 0xC8
-		::MoleMole::Config::ScreenEffectFieldHandleType FXLutTextureHandleType; // 0xCC
-		::MoleMole::Config::ScreenEffectFieldHandleType UseSceneDesaturateMaskHandleType; // 0xD0
-		::System::Boolean UseSceneDesaturateMask; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType hueShiftHandleType; // 0xC0
+		::MoleMole::Config::ScreenEffectFieldHandleType applyLutToSkyboxHandleType; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType desaturateHandleType; // 0xC8
+		::MoleMole::Config::ScreenEffectFieldHandleType characterExposureHandleType; // 0xCC
+		::MoleMole::Config::ScreenEffectFieldHandleType skyboxExposureHandleType; // 0xD0
+		::MoleMole::Config::ScreenEffectFieldHandleType skySaturationHandleType; // 0xD4
 		::UnityEngine::Color colorFilter; // 0xD8
-		::MoleMole::Config::ScreenEffectFieldHandleType postExposureHandleType; // 0xE8
-		::MoleMole::Config::ScreenEffectFieldHandleType colorFilterHandleType; // 0xEC
-		::MoleMole::Config::ScreenEffectFieldHandleType contrastHandleType; // 0xF0
-		::MoleMole::Config::ScreenEffectFieldHandleType skyContrastHandleType; // 0xF4
-		::MoleMole::Config::ScreenEffectFieldHandleType sceneExposureHandleType; // 0xF8
-		::MoleMole::Config::ScreenEffectFieldHandleType hueShiftHandleType; // 0xFC
+		::System::Boolean UseSceneDesaturateMask; // 0xE8
+		::MoleMole::Config::ScreenEffectFieldHandleType skyContrastHandleType; // 0xEC
+		::MoleMole::Config::ScreenEffectFieldHandleType UseSceneDesaturateMaskHandleType; // 0xF0
+		::MoleMole::Config::ScreenEffectFieldHandleType saturationHandleType; // 0xF4
+		::MoleMole::Config::ScreenEffectFieldHandleType postExposureHandleType; // 0xF8
+		::MoleMole::Config::ScreenEffectFieldHandleType contrastHandleType; // 0xFC
 
 		::System::Void _ctor()
 		{

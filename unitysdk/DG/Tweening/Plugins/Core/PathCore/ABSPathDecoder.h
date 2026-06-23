@@ -6,11 +6,11 @@
 
 namespace DG::Tweening::Plugins::Core::PathCore { class Path; }
 
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_ABSPATHDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C560B60)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_ABSPATHDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8909B0)
 
 namespace DG::Tweening::Plugins::Core::PathCore
 {
-	inline static constexpr unsigned int ABSPathDecoder_TypeDefinitionIndex = 25481;
+	inline static constexpr unsigned int ABSPathDecoder_TypeDefinitionIndex = 27972;
 
 	class ABSPathDecoder : public ::System::Object
 	{

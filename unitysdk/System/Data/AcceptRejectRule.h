@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int AcceptRejectRule_TypeDefinitionIndex = 36935;
+	inline static constexpr unsigned int AcceptRejectRule_TypeDefinitionIndex = 38552;
 
 	enum class AcceptRejectRule : ::System::Int32
 	{

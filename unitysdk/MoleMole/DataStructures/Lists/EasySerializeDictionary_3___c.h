@@ -7,7 +7,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace MoleMole::DataStructures::Lists
 {
-	inline static constexpr unsigned int EasySerializeDictionary_3___c_TypeDefinitionIndex = 25565;
+	inline static constexpr unsigned int EasySerializeDictionary_3___c_TypeDefinitionIndex = 28115;
 
 	template <typename TKey, typename TValue, typename TEntry>
 	class EasySerializeDictionary_3___c : public ::System::Object
@@ -17,7 +17,7 @@ namespace MoleMole::DataStructures::Lists
 		{
 			return (::MoleMole::DataStructures::Lists::EasySerializeDictionary_3___c<TKey, TValue, TEntry>**)Il2CppClass::FromTypeDefinitionIndex(EasySerializeDictionary_3___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Comparison_1<TEntry>** StaticGet___9__10_0()
+		static ::System::Comparison_1<TEntry>** StaticGet___9__14_0()
 		{
 			return (::System::Comparison_1<TEntry>**)Il2CppClass::FromTypeDefinitionIndex(EasySerializeDictionary_3___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}

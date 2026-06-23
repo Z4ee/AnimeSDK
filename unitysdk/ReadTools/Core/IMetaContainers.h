@@ -6,7 +6,7 @@ namespace BinaryTracingCore::Source::TracingTools { class LogMeta; }
 
 namespace ReadTools::Core
 {
-	inline static constexpr unsigned int IMetaContainers_TypeDefinitionIndex = 32419;
+	inline static constexpr unsigned int IMetaContainers_TypeDefinitionIndex = 33970;
 
 	class IMetaContainers
 	{

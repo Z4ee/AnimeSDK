@@ -1,28 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_BoneAdjustProcessor_Job.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_BoneAdjustProcessor_LegacyJob.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_BoneAdjustProcessor_ParallelJob.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xB53CAF0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xB53C970)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xB53C960)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xB53C950)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xB53C9D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB53D550)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xFF974B0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xFF97320)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xFF97310)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xFF97300)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xFF97380)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_BONEADJUSTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xFF98020)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_BoneAdjustProcessor_TypeDefinitionIndex = 70507;
+	inline static constexpr unsigned int AnimationSubManager_BoneAdjustProcessor_TypeDefinitionIndex = 57477;
 
 	class AnimationSubManager_BoneAdjustProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_BoneAdjustProcessor_Job>* _buffer; // 0x10
+		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_BoneAdjustProcessor_LegacyJob>* _buffer; // 0x10
+		::NPCCrowd::Animation::AnimationSubManager_BoneAdjustProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
 		{

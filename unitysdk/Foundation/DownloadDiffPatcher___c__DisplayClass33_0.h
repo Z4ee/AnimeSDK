@@ -5,12 +5,12 @@
 
 namespace Foundation { class DownloadDiffPatcher; }
 
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x132EF0B0)
-#define FOUNDATION_DOWNLOADDIFFPATCHER___C__DISPLAYCLASS33_0__DOCOLLECT_B__0_OFFSET UNITYSDK_OFFSET(0x132EF0C0)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1594FE30)
+#define FOUNDATION_DOWNLOADDIFFPATCHER___C__DISPLAYCLASS33_0__DOCOLLECT_B__0_OFFSET UNITYSDK_OFFSET(0x1594FE40)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DownloadDiffPatcher___c__DisplayClass33_0_TypeDefinitionIndex = 80178;
+	inline static constexpr unsigned int DownloadDiffPatcher___c__DisplayClass33_0_TypeDefinitionIndex = 63142;
 
 	class DownloadDiffPatcher___c__DisplayClass33_0 : public ::System::Object
 	{

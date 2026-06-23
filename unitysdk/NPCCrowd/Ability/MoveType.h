@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int MoveType_TypeDefinitionIndex = 52438;
+	inline static constexpr unsigned int MoveType_TypeDefinitionIndex = 71569;
 
 	enum class MoveType : ::System::Int32
 	{
-		Default = 0,
 		Navmesh = 1,
+		Default = 0,
 	};
 }

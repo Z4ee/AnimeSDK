@@ -9,13 +9,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class MinFloatParameter; }
 namespace UnityEngine::Rendering::Universal { class DepthOfFieldModeParameter; }
 namespace UnityEngine::Rendering::Universal { class DofDebugModeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19281100)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x19281260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x192812A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1B178C90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1B178DF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B178E30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DepthOfField_TypeDefinitionIndex = 30117;
+	inline static constexpr unsigned int DepthOfField_TypeDefinitionIndex = 26666;
 
 	class DepthOfField : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

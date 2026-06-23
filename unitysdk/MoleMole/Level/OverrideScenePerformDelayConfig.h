@@ -5,7 +5,7 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int OverrideScenePerformDelayConfig_TypeDefinitionIndex = 39754;
+	inline static constexpr unsigned int OverrideScenePerformDelayConfig_TypeDefinitionIndex = 79557;
 
 	struct alignas(4) OverrideScenePerformDelayConfig
 	{

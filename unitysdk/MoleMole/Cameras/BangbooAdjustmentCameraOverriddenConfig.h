@@ -4,7 +4,7 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int BangbooAdjustmentCameraOverriddenConfig_TypeDefinitionIndex = 74859;
+	inline static constexpr unsigned int BangbooAdjustmentCameraOverriddenConfig_TypeDefinitionIndex = 56537;
 
 	struct alignas(4) BangbooAdjustmentCameraOverriddenConfig
 	{

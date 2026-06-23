@@ -5,9 +5,9 @@
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_029003AFE5A42E47__CTOR_OFFSET UNITYSDK_OFFSET(0x744500)
+#define STRUCT_2_029003AFE5A42E47__CTOR_OFFSET UNITYSDK_OFFSET(0x6A6D70)
 
-inline static constexpr unsigned int Struct_2_029003AFE5A42E47_TypeDefinitionIndex = 48458;
+inline static constexpr unsigned int Struct_2_029003AFE5A42E47_TypeDefinitionIndex = 72565;
 
 struct alignas(4) Struct_2_029003AFE5A42E47
 {

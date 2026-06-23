@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PerObjectShadowConfig_TypeDefinitionIndex = 6108;
+	inline static constexpr unsigned int PerObjectShadowConfig_TypeDefinitionIndex = 6119;
 
 	struct alignas(4) PerObjectShadowConfig
 	{

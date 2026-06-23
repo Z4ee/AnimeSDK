@@ -8,10 +8,10 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_54B4370E13FE3F6F_METHOD_1_3C7183A92A3CA274_OFFSET UNITYSDK_OFFSET(0x16686AF0)
-#define CLASS_1_54B4370E13FE3F6F_METHOD_1_416C84A9800A1F1D_OFFSET UNITYSDK_OFFSET(0x16686960)
+#define CLASS_1_54B4370E13FE3F6F_METHOD_1_3C7183A92A3CA274_OFFSET UNITYSDK_OFFSET(0x1174FDD0)
+#define CLASS_1_54B4370E13FE3F6F_METHOD_1_416C84A9800A1F1D_OFFSET UNITYSDK_OFFSET(0x1174FC40)
 
-inline static constexpr unsigned int Class_1_54B4370E13FE3F6F_TypeDefinitionIndex = 61251;
+inline static constexpr unsigned int Class_1_54B4370E13FE3F6F_TypeDefinitionIndex = 65473;
 
 class Class_1_54B4370E13FE3F6F : public ::System::Object
 {

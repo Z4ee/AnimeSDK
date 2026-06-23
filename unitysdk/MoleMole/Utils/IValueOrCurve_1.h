@@ -3,7 +3,7 @@
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int IValueOrCurve_1_TypeDefinitionIndex = 73383;
+	inline static constexpr unsigned int IValueOrCurve_1_TypeDefinitionIndex = 75392;
 
 	template <typename T>
 	class IValueOrCurve_1

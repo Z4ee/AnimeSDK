@@ -6,39 +6,39 @@ class Class_1_7F489DAFAFC6BD02;
 namespace System { class Action; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD07D970)
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD07D9B0)
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__18_0_OFFSET UNITYSDK_OFFSET(0xD07DA00)
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__18_1_OFFSET UNITYSDK_OFFSET(0xD07DB10)
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONREWARDINFOBTNCLICK_B__14_0_OFFSET UNITYSDK_OFFSET(0xD07D9C0)
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONREWARDINFOBTNCLICK_B__14_1_OFFSET UNITYSDK_OFFSET(0xD07D9E0)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1159EAA0)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1159EAE0)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1159EB30)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__18_1_OFFSET UNITYSDK_OFFSET(0x1159EC40)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONREWARDINFOBTNCLICK_B__14_0_OFFSET UNITYSDK_OFFSET(0x1159EAF0)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER___C__ONREWARDINFOBTNCLICK_B__14_1_OFFSET UNITYSDK_OFFSET(0x1159EB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex = 68624;
+	inline static constexpr unsigned int UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex = 60320;
 
 	class UIYorozuyaAbyssS3PageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__18_1()
+		static ::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>** StaticGet___9__14_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x355E0);
-		}
-		static ::System::Action** StaticGet___9__18_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x355E8);
-		}
-		static ::MoleMole::UIYorozuyaAbyssS3PageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIYorozuyaAbyssS3PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x355F0);
+			return (::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x38000);
 		}
 		static ::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>** StaticGet___9__14_0()
 		{
-			return (::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x355F8);
+			return (::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x38008);
 		}
-		static ::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>** StaticGet___9__14_1()
+		static ::System::Action** StaticGet___9__18_0()
 		{
-			return (::System::Predicate_1<::Class_1_7F489DAFAFC6BD02*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x35600);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x38010);
+		}
+		static ::System::Action** StaticGet___9__18_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x38018);
+		}
+		static ::MoleMole::UIYorozuyaAbyssS3PageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIYorozuyaAbyssS3PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS3PageController___c_TypeDefinitionIndex)->GetStaticField(0x38020);
 		}
 
 		static ::System::Void _cctor()

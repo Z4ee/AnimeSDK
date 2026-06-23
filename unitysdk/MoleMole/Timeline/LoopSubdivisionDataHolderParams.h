@@ -5,19 +5,19 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_0EA9D7540291AC8F_OFFSET UNITYSDK_OFFSET(0x15B5E650)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_3A6DFE61FFB0BB49_OFFSET UNITYSDK_OFFSET(0x15B5E970)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15B5E860)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_BD7DED8FEE3D8D25_OFFSET UNITYSDK_OFFSET(0x15B5E530)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x15B5E920)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15B5E480)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CF9B395CF675FE18_OFFSET UNITYSDK_OFFSET(0x15B5EAE0)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_FA6F4268E75FDA93_OFFSET UNITYSDK_OFFSET(0x15B5E350)
-#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x15B5E310)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_0EA9D7540291AC8F_OFFSET UNITYSDK_OFFSET(0x17DF7540)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_3A6DFE61FFB0BB49_OFFSET UNITYSDK_OFFSET(0x17DF73D0)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x17DF77A0)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_BD7DED8FEE3D8D25_OFFSET UNITYSDK_OFFSET(0x17DF7C60)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x17DF7860)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17DF7750)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CF9B395CF675FE18_OFFSET UNITYSDK_OFFSET(0x17DF7A40)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_FA6F4268E75FDA93_OFFSET UNITYSDK_OFFSET(0x17DF7910)
+#define MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF7390)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LoopSubdivisionDataHolderParams_TypeDefinitionIndex = 57980;
+	inline static constexpr unsigned int LoopSubdivisionDataHolderParams_TypeDefinitionIndex = 77907;
 
 	class LoopSubdivisionDataHolderParams : public ::System::Object
 	{
@@ -56,24 +56,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS__CTOR_OFFSET))(this);
 		}
 
-		static ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Method_1_FA6F4268E75FDA93(::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a1, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a2)
+		::System::Void Method_1_3A6DFE61FFB0BB49(::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>* a1)
 		{
-			return ((::MoleMole::Timeline::LoopSubdivisionDataHolderParams*(*)(::MoleMole::Timeline::LoopSubdivisionDataHolderParams*, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_FA6F4268E75FDA93_OFFSET))(a1, a2);
-		}
-
-		static ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Method_1_BD7DED8FEE3D8D25(::System::Single a1, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a2)
-		{
-			return ((::MoleMole::Timeline::LoopSubdivisionDataHolderParams*(*)(::System::Single, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_BD7DED8FEE3D8D25_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_3A6DFE61FFB0BB49_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_1_CA373AA1C7054598()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_OFFSET))(this);
-		}
-
-		::System::Void Method_1_0EA9D7540291AC8F(::UnityEngine::SkinnedMeshRenderer* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_0EA9D7540291AC8F_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_1_4343F372F34C05BF()
@@ -86,14 +76,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
 		}
 
-		::System::Void Method_1_3A6DFE61FFB0BB49(::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>* a1)
+		static ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Method_1_FA6F4268E75FDA93(::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a1, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_3A6DFE61FFB0BB49_OFFSET))(this, a1);
+			return ((::MoleMole::Timeline::LoopSubdivisionDataHolderParams*(*)(::MoleMole::Timeline::LoopSubdivisionDataHolderParams*, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_FA6F4268E75FDA93_OFFSET))(a1, a2);
 		}
 
 		::System::Void Method_1_CF9B395CF675FE18(::UnityEngine::SkinnedMeshRenderer* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_CF9B395CF675FE18_OFFSET))(this, a1);
+		}
+
+		static ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* Method_1_BD7DED8FEE3D8D25(::System::Single a1, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams* a2)
+		{
+			return ((::MoleMole::Timeline::LoopSubdivisionDataHolderParams*(*)(::System::Single, ::MoleMole::Timeline::LoopSubdivisionDataHolderParams*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_BD7DED8FEE3D8D25_OFFSET))(a1, a2);
+		}
+
+		::System::Void Method_1_0EA9D7540291AC8F(::UnityEngine::SkinnedMeshRenderer* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LOOPSUBDIVISIONDATAHOLDERPARAMS_METHOD_1_0EA9D7540291AC8F_OFFSET))(this, a1);
 		}
 	};
 }

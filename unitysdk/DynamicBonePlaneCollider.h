@@ -3,11 +3,11 @@
 #include "unitysdk/DynamicBoneColliderBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DYNAMICBONEPLANECOLLIDER_COLLIDE_OFFSET UNITYSDK_OFFSET(0x1BE70490)
-#define DYNAMICBONEPLANECOLLIDER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1BE70480)
-#define DYNAMICBONEPLANECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE709C0)
+#define DYNAMICBONEPLANECOLLIDER_COLLIDE_OFFSET UNITYSDK_OFFSET(0x1E1B0B20)
+#define DYNAMICBONEPLANECOLLIDER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1E1B0B10)
+#define DYNAMICBONEPLANECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B1050)
 
-inline static constexpr unsigned int DynamicBonePlaneCollider_TypeDefinitionIndex = 33072;
+inline static constexpr unsigned int DynamicBonePlaneCollider_TypeDefinitionIndex = 34630;
 
 class DynamicBonePlaneCollider : public ::DynamicBoneColliderBase
 {

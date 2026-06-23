@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define FOLLOWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467C70)
+#define FOLLOWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5A90)
 
-inline static constexpr unsigned int FollowCamera_TypeDefinitionIndex = 85476;
+inline static constexpr unsigned int FollowCamera_TypeDefinitionIndex = 91060;
 
 class FollowCamera : public ::UnityEngine::MonoBehaviour
 {

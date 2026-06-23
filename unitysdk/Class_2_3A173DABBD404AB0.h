@@ -9,23 +9,23 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_3A173DABBD404AB0_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x133F6720)
-#define CLASS_2_3A173DABBD404AB0_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x133F65B0)
-#define CLASS_2_3A173DABBD404AB0__CTOR_OFFSET UNITYSDK_OFFSET(0x133F6710)
+#define CLASS_2_3A173DABBD404AB0_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12B81510)
+#define CLASS_2_3A173DABBD404AB0_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x12B813A0)
+#define CLASS_2_3A173DABBD404AB0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B81500)
 
-inline static constexpr unsigned int Class_2_3A173DABBD404AB0_TypeDefinitionIndex = 48234;
+inline static constexpr unsigned int Class_2_3A173DABBD404AB0_TypeDefinitionIndex = 55457;
 
 class Class_2_3A173DABBD404AB0 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x18
-	::UnityEngine::UI::Text* Field_2_4; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x28
-	::MonoUITableScrollV2* Field_2_0; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x38
-	::UnityEngine::Transform* Field_2_3; // 0x40
-	::MonoUITableScrollV2* Field_2_6; // 0x48
-	::UnityEngine::Transform* Field_2_2; // 0x50
+	::UnityEngine::UI::Text* Field_2_4; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x20
+	::MonoUITableScrollV2* Field_2_6; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
+	::MonoUITableScrollV2* Field_2_0; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x40
+	::UnityEngine::Transform* Field_2_2; // 0x48
+	::UnityEngine::Transform* Field_2_3; // 0x50
 	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x58
 
 	::System::Void _ctor()

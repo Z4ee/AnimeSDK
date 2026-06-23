@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class WPGraphSectionAssetSO_SectionPathData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_AI_WPGRAPHSECTIONASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4DFD0)
+#define NPCCROWD_AI_WPGRAPHSECTIONASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC2EB0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPGraphSectionAssetSO_TypeDefinitionIndex = 41542;
+	inline static constexpr unsigned int WPGraphSectionAssetSO_TypeDefinitionIndex = 50522;
 
 	class WPGraphSectionAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

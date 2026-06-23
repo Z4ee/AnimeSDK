@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_DA97A58F5C2AF439.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
 
-class Class_0_16E4307DCC419505_446;
+namespace MessagePack { class MessagePackSerializerOptions; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_445_TypeDefinitionIndex = 61531;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_445_TypeDefinitionIndex = 50052;
 
+template <typename T>
 class Class_0_16E4307DCC419505_445
 {
 public:

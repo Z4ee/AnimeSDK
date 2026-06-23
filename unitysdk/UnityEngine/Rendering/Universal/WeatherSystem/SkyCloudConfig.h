@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1ABA99D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA9C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF0C7B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0CC90)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 30302;
+	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 26428;
 
 	class SkyCloudConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyCloudConfig*>
 	{
@@ -36,6 +37,20 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Texture* lowCloudTexture; // 0x78
 		::UnityEngine::Texture* highCloudTexture; // 0x80
 		::UnityEngine::Texture* cloudDistortMap; // 0x88
+		::System::Boolean lowEarthEnabled; // 0x90
+		::UnityEngine::Texture* lowEarthTexture; // 0x98
+		::System::Single lowEarthAlpha; // 0xA0
+		::System::Single lowEarthUvScale; // 0xA4
+		::System::Single lowEarthPerspectiveTiling; // 0xA8
+		::System::Single lowEarthCurvature; // 0xAC
+		::System::Single lowEarthHorizonStart; // 0xB0
+		::System::Single lowEarthHorizonFade; // 0xB4
+		::UnityEngine::Color lowEarthTint; // 0xB8
+		::UnityEngine::Color lowEarthFogColor; // 0xC8
+		::System::Single lowEarthRimWidth; // 0xD8
+		::UnityEngine::Color lowEarthRimColor; // 0xDC
+		::System::Single lowEarthRimPower; // 0xEC
+		::UnityEngine::Vector2 lowEarthUvOffset; // 0xF0
 
 		::System::Void _ctor()
 		{

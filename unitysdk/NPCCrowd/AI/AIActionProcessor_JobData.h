@@ -11,12 +11,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_AI_AIACTIONPROCESSOR_JOBDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x572190)
-#define NPCCROWD_AI_AIACTIONPROCESSOR_JOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x572000)
+#define NPCCROWD_AI_AIACTIONPROCESSOR_JOBDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x5B0E10)
+#define NPCCROWD_AI_AIACTIONPROCESSOR_JOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x5B0C80)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionProcessor_JobData_TypeDefinitionIndex = 60756;
+	inline static constexpr unsigned int AIActionProcessor_JobData_TypeDefinitionIndex = 66681;
 
 	struct alignas(8) AIActionProcessor_JobData
 	{

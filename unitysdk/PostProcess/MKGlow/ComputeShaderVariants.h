@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS_GETVARIANTNUMBER_OFFSET UNITYSDK_OFFSET(0x1AB86520)
-#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB865F0)
+#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS_GETVARIANTNUMBER_OFFSET UNITYSDK_OFFSET(0x1CEE6EA0)
+#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE6F70)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int ComputeShaderVariants_TypeDefinitionIndex = 29648;
+	inline static constexpr unsigned int ComputeShaderVariants_TypeDefinitionIndex = 26686;
 
 	class ComputeShaderVariants : public ::System::Object
 	{

@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizedViewFilter_2_TypeDefinitionIndex = 25629;
+	inline static constexpr unsigned int SynchronizedViewFilter_2_TypeDefinitionIndex = 28184;
 
 	template <typename T, typename TView>
 	class SynchronizedViewFilter_2 : public ::System::Object

@@ -3,9 +3,9 @@
 #include "unitysdk/Foundation/ViewObject/GroupMemberIdentifier.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_3_60381F70E527D2E3_1_CLASS_1_B670C257C8E3D9E6__CTOR_OFFSET UNITYSDK_OFFSET(0x10C7F120)
+#define CLASS_3_60381F70E527D2E3_1_CLASS_1_B670C257C8E3D9E6__CTOR_OFFSET UNITYSDK_OFFSET(0x1305B4E0)
 
-inline static constexpr unsigned int Class_3_60381F70E527D2E3_1_Class_1_B670C257C8E3D9E6_TypeDefinitionIndex = 72204;
+inline static constexpr unsigned int Class_3_60381F70E527D2E3_1_Class_1_B670C257C8E3D9E6_TypeDefinitionIndex = 44041;
 
 class Class_3_60381F70E527D2E3_1_Class_1_B670C257C8E3D9E6 : public ::System::Object
 {

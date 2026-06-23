@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_1_E07C6A369F65C4C9_TypeDefinitionIndex = 26234;
+inline static constexpr unsigned int Class_1_E07C6A369F65C4C9_TypeDefinitionIndex = 28703;
 
 template <typename T>
 class Class_1_E07C6A369F65C4C9 : public ::System::Object

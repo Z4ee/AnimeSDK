@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UIElements/StyleValueType.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x2E87C0)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x2B68B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleValueHandle_TypeDefinitionIndex = 25102;
+	inline static constexpr unsigned int StyleValueHandle_TypeDefinitionIndex = 27605;
 
 	struct alignas(4) StyleValueHandle
 	{

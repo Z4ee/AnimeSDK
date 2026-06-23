@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationNodeDataReaderWriterConfig_TypeDefinitionIndex = 7298;
+	inline static constexpr unsigned int SerializationNodeDataReaderWriterConfig_TypeDefinitionIndex = 7430;
 
 	class SerializationNodeDataReaderWriterConfig : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TermData_TypeDefinitionIndex = 68667;
+	inline static constexpr unsigned int TermData_TypeDefinitionIndex = 71103;
 
 	struct alignas(8) TermData
 	{
@@ -18,5 +18,6 @@ namespace UnityEngine::UI::Extension
 		::System::String* suffixColor; // 0x30
 		::System::String* prompts; // 0x38
 		::System::String* source; // 0x40
+		::System::String* markColor; // 0x48
 	};
 }

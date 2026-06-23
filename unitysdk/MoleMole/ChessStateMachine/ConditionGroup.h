@@ -8,21 +8,21 @@ namespace MoleMole::ChessStateMachine { class GlobalParamsConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET UNITYSDK_OFFSET(0x141DA9E0)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x141DA970)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET UNITYSDK_OFFSET(0x141DAC90)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x141DAEB0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET UNITYSDK_OFFSET(0x13FF3B20)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x13FF3AB0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET UNITYSDK_OFFSET(0x13FF3DC0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF3FE0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ConditionGroup_TypeDefinitionIndex = 39389;
+	inline static constexpr unsigned int ConditionGroup_TypeDefinitionIndex = 76344;
 
 	class ConditionGroup : public ::System::Object
 	{
 	public:
-		::System::String* unitId; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::ChessStateMachine::ConditionData*>* ConditionList; // 0x18
-		::MoleMole::ChessStateMachine::GlobalParamsConfig* globalParams; // 0x20
+		::MoleMole::ChessStateMachine::GlobalParamsConfig* globalParams; // 0x10
+		::System::String* unitId; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::ChessStateMachine::ConditionData*>* ConditionList; // 0x20
 		::System::Boolean waitActionEnd; // 0x28
 
 		::System::Void _ctor()

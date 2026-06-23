@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionRebindingExtensions_RebindingOperation_Flags_TypeDefinitionIndex = 28894;
+	inline static constexpr unsigned int InputActionRebindingExtensions_RebindingOperation_Flags_TypeDefinitionIndex = 31550;
 
 	enum class InputActionRebindingExtensions_RebindingOperation_Flags : ::System::Int32
 	{

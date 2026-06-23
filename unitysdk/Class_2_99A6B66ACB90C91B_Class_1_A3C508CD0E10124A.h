@@ -8,9 +8,9 @@ class Class_1_25D6C7D8669CEB87;
 class Class_3_3B7CFC169AD8410C;
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define CLASS_2_99A6B66ACB90C91B_CLASS_1_A3C508CD0E10124A__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBE670)
+#define CLASS_2_99A6B66ACB90C91B_CLASS_1_A3C508CD0E10124A__CTOR_OFFSET UNITYSDK_OFFSET(0x150891F0)
 
-inline static constexpr unsigned int Class_2_99A6B66ACB90C91B_Class_1_A3C508CD0E10124A_TypeDefinitionIndex = 44479;
+inline static constexpr unsigned int Class_2_99A6B66ACB90C91B_Class_1_A3C508CD0E10124A_TypeDefinitionIndex = 50208;
 
 class Class_2_99A6B66ACB90C91B_Class_1_A3C508CD0E10124A : public ::System::Object
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ASPECTRATIOPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11A690)
+#define PIPELINECAMERA_CAMERASEQUENCE_ASPECTRATIOPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D560DD0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AspectRatioPolicy_TypeDefinitionIndex = 36304;
+	inline static constexpr unsigned int AspectRatioPolicy_TypeDefinitionIndex = 37912;
 
 	class AspectRatioPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::System::Single>
 	{

@@ -5,7 +5,7 @@
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
-	inline static constexpr unsigned int Win32_TOKEN_USER_TypeDefinitionIndex = 19326;
+	inline static constexpr unsigned int Win32_TOKEN_USER_TypeDefinitionIndex = 20242;
 
 	struct alignas(8) Win32_TOKEN_USER
 	{

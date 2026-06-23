@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_WINDSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD5E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_WINDSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDEA70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ZzzFluid_WindSource_TypeDefinitionIndex = 30276;
+	inline static constexpr unsigned int ZzzFluid_WindSource_TypeDefinitionIndex = 27166;
 
 	class ZzzFluid_WindSource : public ::System::Object
 	{

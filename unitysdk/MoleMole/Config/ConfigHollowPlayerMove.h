@@ -7,41 +7,41 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE_GET_AUTOCANCELLOCALFOLLOW_OFFSET UNITYSDK_OFFSET(0x1102BD50)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE_SET_AUTOCANCELLOCALFOLLOW_OFFSET UNITYSDK_OFFSET(0x1102BE30)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1102BF10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE_GET_AUTOCANCELLOCALFOLLOW_OFFSET UNITYSDK_OFFSET(0x18F36170)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE_SET_AUTOCANCELLOCALFOLLOW_OFFSET UNITYSDK_OFFSET(0x18F36250)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F36330)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowPlayerMove_TypeDefinitionIndex = 71708;
+	inline static constexpr unsigned int ConfigHollowPlayerMove_TypeDefinitionIndex = 42980;
 
 	class ConfigHollowPlayerMove : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::DirectionStringConfigGroup MoveFailTextureSheetKeyGroupNoMove; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* GlobalFindPathIntervalDic; // 0x30
-		::MoleMole::Config::DirectionStringConfigGroup MoveFailTextureSheetKeyGroup; // 0x38
-		::MoleMole::Config::DirectionStringConfigGroup MoveFailEffectKeyGroup; // 0x58
-		::System::String* MoveFailStrechKey; // 0x78
-		::System::Single pushBoxClickProtectedTime; // 0x80
-		::System::Int32 MoveFailNoMoveAudioId; // 0x84
-		::System::Single pushBoxClickProtectedTimeFirst; // 0x88
-		::System::Int32 MoveFailAudioId; // 0x8C
-		::UnityEngine::Vector4 CancelLocalFollowZone; // 0x90
-		::System::Single leavingAnimInterval; // 0xA0
-		::System::Single clickProtectedTimeFirst; // 0xA4
-		::System::Boolean AutoCancelLocalFollowMobileConsole; // 0xA8
-		::System::Boolean FinishNeedSync; // 0xA9
-		::System::Boolean MoveV2; // 0xAA
-		::System::Single clickProtectedTime; // 0xAC
-		::System::Boolean PlayerMoveUseCenterCamera; // 0xB0
-		::System::Boolean AllowPathTagGlobalConitinueMove; // 0xB1
-		::System::Boolean AllowUnstableGlobalConitinueMove; // 0xB2
-		::System::Boolean AutoCancelLocalFollowMobile; // 0xB3
-		::System::Boolean AutoCancelLocalFollowConsole; // 0xB4
-		::System::Boolean AutoCancelLocalFollowPC; // 0xB5
-		::System::Boolean MovePrePerformance; // 0xB6
-		::System::Boolean StepPathLenCheckToggle; // 0xB7
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* GlobalFindPathIntervalDic; // 0x10
+		::System::String* MoveFailStrechKey; // 0x18
+		::MoleMole::Config::DirectionStringConfigGroup MoveFailTextureSheetKeyGroup; // 0x20
+		::MoleMole::Config::DirectionStringConfigGroup MoveFailTextureSheetKeyGroupNoMove; // 0x40
+		::MoleMole::Config::DirectionStringConfigGroup MoveFailEffectKeyGroup; // 0x60
+		::UnityEngine::Vector4 CancelLocalFollowZone; // 0x80
+		::System::Boolean StepPathLenCheckToggle; // 0x90
+		::System::Boolean MovePrePerformance; // 0x91
+		::System::Boolean AllowUnstableGlobalConitinueMove; // 0x92
+		::System::Boolean AutoCancelLocalFollowMobile; // 0x93
+		::System::Int32 MoveFailNoMoveAudioId; // 0x94
+		::System::Single clickProtectedTime; // 0x98
+		::System::Single clickProtectedTimeFirst; // 0x9C
+		::System::Single pushBoxClickProtectedTime; // 0xA0
+		::System::Boolean FinishNeedSync; // 0xA4
+		::System::Boolean AutoCancelLocalFollowPC; // 0xA5
+		::System::Boolean AllowPathTagGlobalConitinueMove; // 0xA6
+		::System::Single leavingAnimInterval; // 0xA8
+		::System::Single pushBoxClickProtectedTimeFirst; // 0xAC
+		::System::Boolean AutoCancelLocalFollowMobileConsole; // 0xB0
+		::System::Boolean MoveV2; // 0xB1
+		::System::Boolean PlayerMoveUseCenterCamera; // 0xB2
+		::System::Boolean AutoCancelLocalFollowConsole; // 0xB3
+		::System::Int32 MoveFailAudioId; // 0xB4
 
 		::System::Void _ctor()
 		{

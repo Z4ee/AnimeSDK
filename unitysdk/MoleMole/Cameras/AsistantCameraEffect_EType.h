@@ -3,12 +3,12 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int AsistantCameraEffect_EType_TypeDefinitionIndex = 50781;
+	inline static constexpr unsigned int AsistantCameraEffect_EType_TypeDefinitionIndex = 46429;
 
 	enum class AsistantCameraEffect_EType : ::System::Int32
 	{
 		FLOAT = 1,
-		TEXTURE = 3,
 		INT = 2,
+		TEXTURE = 3,
 	};
 }

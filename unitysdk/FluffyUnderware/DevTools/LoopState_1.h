@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int LoopState_1_TypeDefinitionIndex = 25854;
+	inline static constexpr unsigned int LoopState_1_TypeDefinitionIndex = 28348;
 
 	template <typename T>
 	class LoopState_1 : public ::System::Object

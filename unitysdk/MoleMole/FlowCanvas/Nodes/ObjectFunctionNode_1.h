@@ -4,7 +4,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ObjectFunctionNode_1_TypeDefinitionIndex = 74331;
+	inline static constexpr unsigned int ObjectFunctionNode_1_TypeDefinitionIndex = 43386;
 
 	template <typename T>
 	class ObjectFunctionNode_1 : public ::FlowCanvas::Nodes::FlowControlNode

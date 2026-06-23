@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define POSTPROCESS_MKGLOW_MINMAXRANGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E5940)
-#define POSTPROCESS_MKGLOW_MINMAXRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x43F560)
+#define POSTPROCESS_MKGLOW_MINMAXRANGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define POSTPROCESS_MKGLOW_MINMAXRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x48A560)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int MinMaxRange_TypeDefinitionIndex = 29658;
+	inline static constexpr unsigned int MinMaxRange_TypeDefinitionIndex = 27383;
 
 	struct alignas(4) MinMaxRange
 	{

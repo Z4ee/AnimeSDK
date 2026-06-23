@@ -8,59 +8,59 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define SQLITE_SQLITECONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B286CC0)
-#define SQLITE_SQLITECONNECTION___C__CREATEINSERTCOMMAND_B__130_0_OFFSET UNITYSDK_OFFSET(0x1B286DE0)
-#define SQLITE_SQLITECONNECTION___C__CREATEINSERTCOMMAND_B__130_1_OFFSET UNITYSDK_OFFSET(0x1B286E30)
-#define SQLITE_SQLITECONNECTION___C__CREATETABLE_B__75_1_OFFSET UNITYSDK_OFFSET(0x1B286DC0)
-#define SQLITE_SQLITECONNECTION___C__CREATETABLE_B__75_2_OFFSET UNITYSDK_OFFSET(0x1B286DD0)
-#define SQLITE_SQLITECONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B286D00)
-#define SQLITE_SQLITECONNECTION___C__REKEY_B__61_0_OFFSET UNITYSDK_OFFSET(0x1B286D70)
-#define SQLITE_SQLITECONNECTION___C__SETKEY_B__59_0_OFFSET UNITYSDK_OFFSET(0x1B286D20)
-#define SQLITE_SQLITECONNECTION___C__UPDATE_B__132_3_OFFSET UNITYSDK_OFFSET(0x1B286E70)
-#define SQLITE_SQLITECONNECTION___C___CTOR_B__55_0_OFFSET UNITYSDK_OFFSET(0x1B286D10)
+#define SQLITE_SQLITECONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D643020)
+#define SQLITE_SQLITECONNECTION___C__CREATEINSERTCOMMAND_B__130_0_OFFSET UNITYSDK_OFFSET(0x1D643140)
+#define SQLITE_SQLITECONNECTION___C__CREATEINSERTCOMMAND_B__130_1_OFFSET UNITYSDK_OFFSET(0x1D643190)
+#define SQLITE_SQLITECONNECTION___C__CREATETABLE_B__75_1_OFFSET UNITYSDK_OFFSET(0x1D643120)
+#define SQLITE_SQLITECONNECTION___C__CREATETABLE_B__75_2_OFFSET UNITYSDK_OFFSET(0x1D643130)
+#define SQLITE_SQLITECONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D643060)
+#define SQLITE_SQLITECONNECTION___C__REKEY_B__61_0_OFFSET UNITYSDK_OFFSET(0x1D6430D0)
+#define SQLITE_SQLITECONNECTION___C__SETKEY_B__59_0_OFFSET UNITYSDK_OFFSET(0x1D643080)
+#define SQLITE_SQLITECONNECTION___C__UPDATE_B__132_3_OFFSET UNITYSDK_OFFSET(0x1D6431D0)
+#define SQLITE_SQLITECONNECTION___C___CTOR_B__55_0_OFFSET UNITYSDK_OFFSET(0x1D643070)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnection___c_TypeDefinitionIndex = 36760;
+	inline static constexpr unsigned int SQLiteConnection___c_TypeDefinitionIndex = 38370;
 
 	class SQLiteConnection___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Byte, ::System::String*>** StaticGet___9__59_0()
+		{
+			return (::System::Func_2<::System::Byte, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FB0);
+		}
 		static ::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::String*>** StaticGet___9__75_2()
 		{
-			return (::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27330);
-		}
-		static ::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::Int32>** StaticGet___9__75_1()
-		{
-			return (::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27338);
-		}
-		static ::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>** StaticGet___9__130_0()
-		{
-			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27340);
-		}
-		static ::System::Func_2<::System::Byte, ::System::String*>** StaticGet___9__61_0()
-		{
-			return (::System::Func_2<::System::Byte, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27348);
+			return (::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FB8);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet___9__55_0()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27350);
-		}
-		static ::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>** StaticGet___9__132_3()
-		{
-			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27358);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FC0);
 		}
 		static ::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>** StaticGet___9__130_1()
 		{
-			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27360);
+			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FC8);
+		}
+		static ::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>** StaticGet___9__132_3()
+		{
+			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FD0);
+		}
+		static ::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>** StaticGet___9__130_0()
+		{
+			return (::System::Func_2<::SQLite::TableMapping_Column*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FD8);
+		}
+		static ::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::Int32>** StaticGet___9__75_1()
+		{
+			return (::System::Func_2<::SQLite::SQLiteConnection_IndexedColumn, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FE0);
+		}
+		static ::System::Func_2<::System::Byte, ::System::String*>** StaticGet___9__61_0()
+		{
+			return (::System::Func_2<::System::Byte, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FE8);
 		}
 		static ::SQLite::SQLiteConnection___c** StaticGet___9()
 		{
-			return (::SQLite::SQLiteConnection___c**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27368);
-		}
-		static ::System::Func_2<::System::Byte, ::System::String*>** StaticGet___9__59_0()
-		{
-			return (::System::Func_2<::System::Byte, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x27370);
+			return (::SQLite::SQLiteConnection___c**)Il2CppClass::FromTypeDefinitionIndex(SQLiteConnection___c_TypeDefinitionIndex)->GetStaticField(0x28FF0);
 		}
 
 		static ::System::Void _cctor()

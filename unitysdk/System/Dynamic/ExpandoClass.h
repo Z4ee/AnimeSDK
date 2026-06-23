@@ -8,18 +8,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Dynamic { class ExpandoObject; }
 
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x1BDA4CD0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x1BDA5100)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1BDA5390)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1BDA5580)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x1BDA52F0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDA5600)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDA4CC0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA4CA0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x1E0ECC50)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x1E0ED080)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1E0ED310)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1E0ED500)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x1E0ED270)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0ED580)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0ECC40)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0ECC20)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 4993;
+	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 4992;
 
 	class ExpandoClass : public ::System::Object
 	{
@@ -28,8 +28,8 @@ namespace System::Dynamic
 		{
 			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0x3D60);
 		}
-		::Il2CppArray<::System::String*>* _keys; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x10
+		::Il2CppArray<::System::String*>* _keys; // 0x18
 		::System::Int32 _hashCode; // 0x20
 
 		::System::Void _ctor()

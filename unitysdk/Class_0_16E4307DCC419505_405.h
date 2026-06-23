@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_405_TypeDefinitionIndex = 81467;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_405_TypeDefinitionIndex = 62317;
 
 class Class_0_16E4307DCC419505_405
 {

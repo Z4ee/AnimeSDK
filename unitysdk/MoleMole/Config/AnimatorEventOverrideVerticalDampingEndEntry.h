@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDEVERTICALDAMPINGENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x13990B10)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDEVERTICALDAMPINGENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13990B90)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDEVERTICALDAMPINGENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x16297FC0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTOVERRIDEVERTICALDAMPINGENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16298040)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventOverrideVerticalDampingEndEntry_TypeDefinitionIndex = 72714;
+	inline static constexpr unsigned int AnimatorEventOverrideVerticalDampingEndEntry_TypeDefinitionIndex = 51872;
 
 	class AnimatorEventOverrideVerticalDampingEndEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

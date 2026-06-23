@@ -1,112 +1,194 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_9C33AF57B038AFD8.h"
-#include "unitysdk/Class_4_121B841D6D63A1D3_9_Struct_2_52AD02145F5FCE3A_8.h"
+#include "unitysdk/Class_3_9201EB3268983C13.h"
+#include "unitysdk/Class_4_121B841D6D63A1D3_9_Struct_2_52AD02145F5FCE3A_10.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/NapBloomQuality.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/BlendModes.h"
-#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/BloomResolution.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/HQBloomMode.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/PP_Quality.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 
-namespace MoleMole::Timeline { class MonsterIgnisFatuusBehaviour; }
+namespace MoleMole::Timeline { class NAPBloomBehaviour; }
 namespace System { class Object; }
 namespace UnityEngine { class Texture; }
-namespace UnityEngine::Rendering::Universal { class MonsterIgnisFatuus; }
+namespace UnityEngine::NAPRenderPipeline0 { class FlareProfile_NativeSRP; }
+namespace UnityEngine::Rendering::Universal { class NapBloom; }
 
-#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x13623A10)
-#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_3E23A2EE3F65066B_OFFSET UNITYSDK_OFFSET(0x1361DEE0)
-#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_71FCF7896B017C4C_OFFSET UNITYSDK_OFFSET(0x1361EA70)
-#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x13623A20)
-#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x13623A30)
-#define CLASS_4_121B841D6D63A1D3_9_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1361E5A0)
-#define CLASS_4_121B841D6D63A1D3_9_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x13621C70)
-#define CLASS_4_121B841D6D63A1D3_9__CTOR_OFFSET UNITYSDK_OFFSET(0x13623940)
+#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0xF58FA90)
+#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_659C19FB38867695_OFFSET UNITYSDK_OFFSET(0x187B9210)
+#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x187C2A40)
+#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_9D8CB5E47C1952BD_OFFSET UNITYSDK_OFFSET(0x187B7B00)
+#define CLASS_4_121B841D6D63A1D3_9_METHOD_4_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0xF58FA80)
+#define CLASS_4_121B841D6D63A1D3_9_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x187B87D0)
+#define CLASS_4_121B841D6D63A1D3_9_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x187BF0B0)
+#define CLASS_4_121B841D6D63A1D3_9__CTOR_OFFSET UNITYSDK_OFFSET(0x187C2860)
 
-inline static constexpr unsigned int Class_4_121B841D6D63A1D3_9_TypeDefinitionIndex = 49479;
+inline static constexpr unsigned int Class_4_121B841D6D63A1D3_9_TypeDefinitionIndex = 60115;
 
-class Class_4_121B841D6D63A1D3_9 : public ::Class_3_9C33AF57B038AFD8<::UnityEngine::Rendering::Universal::MonsterIgnisFatuus*, ::MoleMole::Timeline::MonsterIgnisFatuusBehaviour*>
+class Class_4_121B841D6D63A1D3_9 : public ::Class_3_9201EB3268983C13<::UnityEngine::Rendering::Universal::NapBloom*, ::MoleMole::Timeline::NAPBloomBehaviour*>
 {
 public:
-	::Class_4_121B841D6D63A1D3_9_Struct_2_52AD02145F5FCE3A_8 Field_4_0; // 0x38
-	::UnityEngine::Texture* Field_4_16; // 0x190
-	::UnityEngine::Texture* Field_4_44; // 0x198
-	::UnityEngine::Texture* Field_4_22; // 0x1A0
-	::UnityEngine::Texture* Field_4_38; // 0x1A8
-	::System::Single Field_4_54; // 0x1B0
-	::UnityEngine::Vector2 Field_4_20; // 0x1B4
-	::UnityEngine::Vector2 Field_4_40; // 0x1BC
-	::UnityEngine::Vector2 Field_4_48; // 0x1C4
-	::UnityEngine::Color Field_4_14; // 0x1CC
-	::UnityEngine::Vector2 Field_4_46; // 0x1DC
-	::System::Boolean Field_4_69; // 0x1E4
-	::System::Boolean Field_4_9; // 0x1E5
-	::System::Boolean Field_4_3; // 0x1E6
-	::System::Single Field_4_68; // 0x1E8
-	::System::Single Field_4_8; // 0x1EC
-	::System::Single Field_4_58; // 0x1F0
-	::System::Single Field_4_28; // 0x1F4
-	::System::Int32 Field_4_4; // 0x1F8
-	::System::Boolean Field_4_63; // 0x1FC
-	::System::Boolean Field_4_27; // 0x1FD
-	::System::Boolean Field_4_21; // 0x1FE
-	::System::Boolean Field_4_6; // 0x1FF
-	::UnityEngine::Rendering::Universal::BlendModes Field_4_10; // 0x200
-	::UnityEngine::Vector2 Field_4_18; // 0x204
-	::System::Single Field_4_64; // 0x20C
-	::System::Single Field_4_66; // 0x210
-	::System::Single Field_4_60; // 0x214
-	::System::Boolean Field_4_37; // 0x218
-	::System::Boolean Field_4_70; // 0x219
-	::System::Boolean Field_4_41; // 0x21A
-	::System::Boolean Field_4_53; // 0x21B
-	::System::Single Field_4_32; // 0x21C
-	::System::Single Field_4_52; // 0x220
-	::System::Boolean Field_4_59; // 0x224
-	::System::Boolean Field_4_11; // 0x225
-	::System::Boolean Field_4_61; // 0x226
-	::System::Boolean Field_4_39; // 0x227
-	::System::Single Field_4_62; // 0x228
-	::UnityEngine::Vector2 Field_4_42; // 0x22C
-	::UnityEngine::Color Field_4_36; // 0x234
-	::System::Single Field_4_50; // 0x244
-	::System::Single Field_4_56; // 0x248
-	::System::Boolean Field_4_47; // 0x24C
-	::System::Boolean Field_4_49; // 0x24D
-	::System::Boolean Field_4_55; // 0x24E
-	::System::Boolean Field_4_15; // 0x24F
-	::System::Boolean Field_4_7; // 0x250
-	::System::Boolean Field_4_5; // 0x251
-	::System::Boolean Field_4_25; // 0x252
-	::System::Boolean Field_4_45; // 0x253
-	::System::Boolean Field_4_13; // 0x254
-	::System::Boolean Field_4_65; // 0x255
-	::System::Boolean Field_4_23; // 0x256
-	::System::Boolean Field_4_12; // 0x257
-	::UnityEngine::Vector2 Field_4_26; // 0x258
-	::System::Boolean Field_4_43; // 0x260
-	::System::Boolean Field_4_29; // 0x261
-	::System::Boolean Field_4_57; // 0x262
-	::System::Boolean Field_4_51; // 0x263
-	::UnityEngine::Vector2 Field_4_24; // 0x264
-	::System::Boolean Field_4_1; // 0x26C
-	::System::Boolean Field_4_2; // 0x26D
-	::System::Boolean Field_4_31; // 0x26E
-	::System::Boolean Field_4_19; // 0x26F
-	::System::Boolean Field_4_17; // 0x270
-	::System::Boolean Field_4_33; // 0x271
-	::System::Boolean Field_4_35; // 0x272
-	::System::Boolean Field_4_67; // 0x273
-	::System::Single Field_4_34; // 0x274
-	::System::Single Field_4_30; // 0x278
+	::Class_4_121B841D6D63A1D3_9_Struct_2_52AD02145F5FCE3A_10 Field_4_0; // 0x38
+	::UnityEngine::Texture* Field_4_90; // 0x290
+	::UnityEngine::NAPRenderPipeline0::FlareProfile_NativeSRP* Field_4_112; // 0x298
+	::System::Single Field_4_26; // 0x2A0
+	::System::Single Field_4_72; // 0x2A4
+	::System::Single Field_4_66; // 0x2A8
+	::System::Single Field_4_16; // 0x2AC
+	::System::Single Field_4_106; // 0x2B0
+	::System::Single Field_4_92; // 0x2B4
+	::System::Boolean Field_4_105; // 0x2B8
+	::System::Boolean Field_4_62; // 0x2B9
+	::System::Boolean Field_4_91; // 0x2BA
+	::System::Boolean Field_4_81; // 0x2BB
+	::System::Boolean Field_4_51; // 0x2BC
+	::System::Boolean Field_4_133; // 0x2BD
+	::System::Boolean Field_4_37; // 0x2BE
+	::System::Boolean Field_4_111; // 0x2BF
+	::System::Single Field_4_100; // 0x2C0
+	::System::Single Field_4_14; // 0x2C4
+	::System::Single Field_4_44; // 0x2C8
+	::System::Single Field_4_52; // 0x2CC
+	::System::Single Field_4_46; // 0x2D0
+	::System::Single Field_4_68; // 0x2D4
+	::System::Boolean Field_4_109; // 0x2D8
+	::System::Boolean Field_4_141; // 0x2D9
+	::System::Boolean Field_4_148; // 0x2DA
+	::System::Boolean Field_4_45; // 0x2DB
+	::System::Single Field_4_12; // 0x2DC
+	::System::Boolean Field_4_125; // 0x2E0
+	::System::Boolean Field_4_23; // 0x2E1
+	::System::Boolean Field_4_96; // 0x2E2
+	::System::Boolean Field_4_29; // 0x2E3
+	::System::Int32 Field_4_82; // 0x2E4
+	::UnityEngine::Rendering::Universal::BloomResolution Field_4_56; // 0x2E8
+	::System::Single Field_4_20; // 0x2EC
+	::System::Single Field_4_104; // 0x2F0
+	::System::Single Field_4_18; // 0x2F4
+	::System::Single Field_4_144; // 0x2F8
+	::UnityEngine::Vector4 Field_4_74; // 0x2FC
+	::System::Single Field_4_132; // 0x30C
+	::System::Single Field_4_32; // 0x310
+	::System::Single Field_4_24; // 0x314
+	::System::Single Field_4_126; // 0x318
+	::System::Single Field_4_38; // 0x31C
+	::System::Boolean Field_4_131; // 0x320
+	::System::Boolean Field_4_119; // 0x321
+	::System::Boolean Field_4_87; // 0x322
+	::System::Boolean Field_4_53; // 0x323
+	::System::Single Field_4_40; // 0x324
+	::System::Boolean Field_4_25; // 0x328
+	::System::Boolean Field_4_19; // 0x329
+	::System::Boolean Field_4_127; // 0x32A
+	::System::Boolean Field_4_93; // 0x32B
+	::System::Boolean Field_4_33; // 0x32C
+	::System::Boolean Field_4_49; // 0x32D
+	::System::Boolean Field_4_43; // 0x32E
+	::System::Boolean Field_4_39; // 0x32F
+	::System::Single Field_4_142; // 0x330
+	::System::Single Field_4_70; // 0x334
+	::System::Single Field_4_122; // 0x338
+	::System::Boolean Field_4_64; // 0x33C
+	::System::Boolean Field_4_35; // 0x33D
+	::System::Boolean Field_4_13; // 0x33E
+	::System::Boolean Field_4_7; // 0x33F
+	::System::Single Field_4_98; // 0x340
+	::System::Int32 Field_4_110; // 0x344
+	::System::Single Field_4_80; // 0x348
+	::System::Single Field_4_102; // 0x34C
+	::System::Single Field_4_120; // 0x350
+	::System::Single Field_4_138; // 0x354
+	::System::Single Field_4_36; // 0x358
+	::System::Boolean Field_4_85; // 0x35C
+	::System::Boolean Field_4_107; // 0x35D
+	::System::Boolean Field_4_3; // 0x35E
+	::System::Boolean Field_4_129; // 0x35F
+	::System::Single Field_4_76; // 0x360
+	::System::Single Field_4_134; // 0x364
+	::System::Boolean Field_4_97; // 0x368
+	::System::Boolean Field_4_15; // 0x369
+	::System::Boolean Field_4_73; // 0x36A
+	::System::Boolean Field_4_61; // 0x36B
+	::UnityEngine::Rendering::Universal::HQBloomMode Field_4_2; // 0x36C
+	::UnityEngine::NAPRenderPipeline0::NapBloomQuality Field_4_84; // 0x370
+	::System::Single Field_4_118; // 0x374
+	::System::Single Field_4_136; // 0x378
+	::System::Single Field_4_116; // 0x37C
+	::System::Single Field_4_48; // 0x380
+	::System::Boolean Field_4_145; // 0x384
+	::System::Boolean Field_4_41; // 0x385
+	::System::Boolean Field_4_123; // 0x386
+	::System::Boolean Field_4_27; // 0x387
+	::System::Single Field_4_6; // 0x388
+	::System::Single Field_4_28; // 0x38C
+	::System::Single Field_4_30; // 0x390
+	::System::Single Field_4_140; // 0x394
+	::System::Single Field_4_108; // 0x398
+	::System::Single Field_4_130; // 0x39C
+	::System::Single Field_4_50; // 0x3A0
+	::System::Single Field_4_78; // 0x3A4
+	::System::Single Field_4_34; // 0x3A8
+	::System::Int32 Field_4_88; // 0x3AC
+	::UnityEngine::Rendering::Universal::PP_Quality Field_4_4; // 0x3B0
+	::System::Boolean Field_4_135; // 0x3B4
+	::System::Boolean Field_4_113; // 0x3B5
+	::System::Boolean Field_4_79; // 0x3B6
+	::System::Boolean Field_4_71; // 0x3B7
+	::System::Single Field_4_42; // 0x3B8
+	::System::Single Field_4_22; // 0x3BC
+	::System::Boolean Field_4_137; // 0x3C0
+	::System::Boolean Field_4_89; // 0x3C1
+	::System::Boolean Field_4_17; // 0x3C2
+	::System::Boolean Field_4_77; // 0x3C3
+	::System::Single Field_4_60; // 0x3C4
+	::System::Boolean Field_4_114; // 0x3C8
+	::System::Boolean Field_4_94; // 0x3C9
+	::System::Boolean Field_4_21; // 0x3CA
+	::System::Single Field_4_124; // 0x3CC
+	::System::Boolean Field_4_11; // 0x3D0
+	::System::Boolean Field_4_55; // 0x3D1
+	::System::Boolean Field_4_99; // 0x3D2
+	::System::Boolean Field_4_57; // 0x3D3
+	::UnityEngine::Vector4 Field_4_86; // 0x3D4
+	::UnityEngine::Color Field_4_54; // 0x3E4
+	::System::Single Field_4_128; // 0x3F4
+	::System::Single Field_4_10; // 0x3F8
+	::System::Boolean Field_4_69; // 0x3FC
+	::System::Boolean Field_4_58; // 0x3FD
+	::System::Boolean Field_4_5; // 0x3FE
+	::System::Boolean Field_4_83; // 0x3FF
+	::System::Single Field_4_8; // 0x400
+	::System::Boolean Field_4_147; // 0x404
+	::System::Boolean Field_4_121; // 0x405
+	::System::Boolean Field_4_101; // 0x406
+	::System::Boolean Field_4_117; // 0x407
+	::System::Boolean Field_4_115; // 0x408
+	::System::Boolean Field_4_59; // 0x409
+	::System::Boolean Field_4_63; // 0x40A
+	::System::Boolean Field_4_103; // 0x40B
+	::System::Boolean Field_4_1; // 0x40C
+	::System::Boolean Field_4_9; // 0x40D
+	::System::Boolean Field_4_31; // 0x40E
+	::System::Boolean Field_4_47; // 0x40F
+	::System::Single Field_4_146; // 0x410
+	::System::Boolean Field_4_95; // 0x414
+	::System::Boolean Field_4_65; // 0x415
+	::System::Boolean Field_4_67; // 0x416
+	::System::Boolean Field_4_139; // 0x417
+	::System::Boolean Field_4_143; // 0x418
+	::System::Boolean Field_4_75; // 0x419
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_4_3E23A2EE3F65066B()
+	::System::Void Method_4_9D8CB5E47C1952BD()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_3E23A2EE3F65066B_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_9D8CB5E47C1952BD_OFFSET))(this);
 	}
 
 	::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
@@ -119,23 +201,23 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
-	}
-
 	::System::Void Method_4_832295EC279E5994()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_832295EC279E5994_OFFSET))(this);
 	}
 
-	::System::Void Method_4_71FCF7896B017C4C(::System::Boolean a1)
+	::System::Void Method_4_659C19FB38867695(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_71FCF7896B017C4C_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_659C19FB38867695_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_4_E5E342154D4EA5F5(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_E5E342154D4EA5F5_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_4_121B841D6D63A1D3_9_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
 	}
 };

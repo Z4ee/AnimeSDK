@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int LicenseUsageMode_TypeDefinitionIndex = 2934;
+	inline static constexpr unsigned int LicenseUsageMode_TypeDefinitionIndex = 2933;
 
 	enum class LicenseUsageMode : ::System::Int32
 	{

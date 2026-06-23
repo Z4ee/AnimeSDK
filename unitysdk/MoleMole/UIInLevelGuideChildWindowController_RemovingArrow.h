@@ -6,12 +6,12 @@
 namespace MoleMole { class UIInLevelGuideItemChildWindowController; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIINLEVELGUIDECHILDWINDOWCONTROLLER_REMOVINGARROW_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x16406220)
-#define MOLEMOLE_UIINLEVELGUIDECHILDWINDOWCONTROLLER_REMOVINGARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x164062C0)
+#define MOLEMOLE_UIINLEVELGUIDECHILDWINDOWCONTROLLER_REMOVINGARROW_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x188BB2F0)
+#define MOLEMOLE_UIINLEVELGUIDECHILDWINDOWCONTROLLER_REMOVINGARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188BB390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelGuideChildWindowController_RemovingArrow_TypeDefinitionIndex = 50703;
+	inline static constexpr unsigned int UIInLevelGuideChildWindowController_RemovingArrow_TypeDefinitionIndex = 59271;
 
 	class UIInLevelGuideChildWindowController_RemovingArrow : public ::System::Object
 	{

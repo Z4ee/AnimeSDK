@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__BINDBTNS_B__86_5_OFFSET UNITYSDK_OFFSET(0x15212760)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15212710)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15212750)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__BINDBTNS_B__86_5_OFFSET UNITYSDK_OFFSET(0x1228B030)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1228AFE0)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1228B020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageController___c_TypeDefinitionIndex = 39219;
+	inline static constexpr unsigned int UIRoleSelectPageController___c_TypeDefinitionIndex = 76902;
 
 	class UIRoleSelectPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__86_5()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x35480);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x37E60);
 		}
 		static ::MoleMole::UIRoleSelectPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIRoleSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x35488);
+			return (::MoleMole::UIRoleSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x37E68);
 		}
 
 		static ::System::Void _cctor()

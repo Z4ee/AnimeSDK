@@ -5,34 +5,34 @@
 namespace DigitalOpus::MB::Core { class ShaderTextureProperty; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4E3630)
-#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_0_OFFSET UNITYSDK_OFFSET(0x1C4E3680)
-#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_1_OFFSET UNITYSDK_OFFSET(0x1C4E3720)
-#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_2_OFFSET UNITYSDK_OFFSET(0x1C4E37C0)
-#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E3670)
+#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E81A9C0)
+#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_0_OFFSET UNITYSDK_OFFSET(0x1E81AA10)
+#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_1_OFFSET UNITYSDK_OFFSET(0x1E81AAB0)
+#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__COLLECTPROPERTYNAMES_B__27_2_OFFSET UNITYSDK_OFFSET(0x1E81AB50)
+#define DIGITALOPUS_MB_CORE_MBVERSIONCONCRETE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81AA00)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MBVersionConcrete___c_TypeDefinitionIndex = 84990;
+	inline static constexpr unsigned int MBVersionConcrete___c_TypeDefinitionIndex = 90564;
 
 	class MBVersionConcrete___c : public ::System::Object
 	{
 	public:
-		static ::DigitalOpus::MB::Core::MBVersionConcrete___c** StaticGet___9()
-		{
-			return (::DigitalOpus::MB::Core::MBVersionConcrete___c**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x49CC0);
-		}
-		static ::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>** StaticGet___9__27_1()
-		{
-			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x49CC8);
-		}
 		static ::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>** StaticGet___9__27_0()
 		{
-			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x49CD0);
+			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x4E410);
+		}
+		static ::DigitalOpus::MB::Core::MBVersionConcrete___c** StaticGet___9()
+		{
+			return (::DigitalOpus::MB::Core::MBVersionConcrete___c**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x4E418);
 		}
 		static ::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>** StaticGet___9__27_2()
 		{
-			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x49CD8);
+			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x4E420);
+		}
+		static ::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>** StaticGet___9__27_1()
+		{
+			return (::System::Predicate_1<::DigitalOpus::MB::Core::ShaderTextureProperty*>**)Il2CppClass::FromTypeDefinitionIndex(MBVersionConcrete___c_TypeDefinitionIndex)->GetStaticField(0x4E428);
 		}
 
 		static ::System::Void _cctor()

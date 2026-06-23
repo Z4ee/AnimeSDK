@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine::UI { class VertexHelper; }
+
+namespace UnityEngine::UI::Extension
+{
+	inline static constexpr unsigned int IUITextMeshPrepender_TypeDefinitionIndex = 41645;
+
+	class IUITextMeshPrepender
+	{
+	public:
+	};
+}

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonBangbooBranchChildWindowController_UIStatus_TypeDefinitionIndex = 42530;
+	inline static constexpr unsigned int UIInLevelSkillButtonBangbooBranchChildWindowController_UIStatus_TypeDefinitionIndex = 59437;
 
 	enum class UIInLevelSkillButtonBangbooBranchChildWindowController_UIStatus : ::System::Int32
 	{

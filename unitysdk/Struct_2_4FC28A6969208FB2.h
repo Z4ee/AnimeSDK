@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_2_456958B23DC020CE;
+class Class_2_50E4CD88DC576FB2_1;
+class Class_2_96C3E8565AB916B7;
+
+#define STRUCT_2_4FC28A6969208FB2_METHOD_2_FCD99936600BFB9B_OFFSET UNITYSDK_OFFSET(0x10842770)
+
+inline static constexpr unsigned int Struct_2_4FC28A6969208FB2_TypeDefinitionIndex = 57274;
+
+struct alignas(8) Struct_2_4FC28A6969208FB2
+{
+	::Class_2_456958B23DC020CE* Field_2_0; // 0x10
+	::Class_2_50E4CD88DC576FB2_1* Field_2_1; // 0x18
+	::Class_2_96C3E8565AB916B7* Field_2_2; // 0x20
+
+	static ::Struct_2_4FC28A6969208FB2 Method_2_FCD99936600BFB9B(::Class_2_456958B23DC020CE* a1, ::Class_2_50E4CD88DC576FB2_1* a2, ::Class_2_96C3E8565AB916B7* a3)
+	{
+		return ((::Struct_2_4FC28A6969208FB2(*)(::Class_2_456958B23DC020CE*, ::Class_2_50E4CD88DC576FB2_1*, ::Class_2_96C3E8565AB916B7*))((::PBYTE)hIl2Cpp + STRUCT_2_4FC28A6969208FB2_METHOD_2_FCD99936600BFB9B_OFFSET))(a1, a2, a3);
+	}
+};

@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class MmtManager___c__DisplayClass13_1; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET UNITYSDK_OFFSET(0x19C7DE50)
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7DE40)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET UNITYSDK_OFFSET(0x1BBBC420)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBC410)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager___c__DisplayClass13_2_TypeDefinitionIndex = 18905;
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_2_TypeDefinitionIndex = 19801;
 
 	class MmtManager___c__DisplayClass13_2 : public ::System::Object
 	{

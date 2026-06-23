@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define PATHCREATION_UTILITY_MATHUTILITY_POSROTSCALE_SETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B6BE490)
-#define PATHCREATION_UTILITY_MATHUTILITY_POSROTSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6BE3D0)
+#define PATHCREATION_UTILITY_MATHUTILITY_POSROTSCALE_SETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1DAC14B0)
+#define PATHCREATION_UTILITY_MATHUTILITY_POSROTSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC13F0)
 
 namespace PathCreation::Utility
 {
-	inline static constexpr unsigned int MathUtility_PosRotScale_TypeDefinitionIndex = 35847;
+	inline static constexpr unsigned int MathUtility_PosRotScale_TypeDefinitionIndex = 37455;
 
 	class MathUtility_PosRotScale : public ::System::Object
 	{

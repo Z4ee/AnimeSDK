@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int OSX509Certificates_SecTrustResult_TypeDefinitionIndex = 3184;
+	inline static constexpr unsigned int OSX509Certificates_SecTrustResult_TypeDefinitionIndex = 3183;
 
 	enum class OSX509Certificates_SecTrustResult : ::System::Int32
 	{

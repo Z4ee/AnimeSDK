@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_DLSSMANAGER_GET_NUMFRAMESACTUALLYPRESENTED_OFFSET UNITYSDK_OFFSET(0x1B2EE160)
-#define UNITYENGINE_DLSSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2EE170)
+#define UNITYENGINE_DLSSMANAGER_GET_NUMFRAMESACTUALLYPRESENTED_OFFSET UNITYSDK_OFFSET(0x1D6A4010)
+#define UNITYENGINE_DLSSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A4020)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DLSSManager_TypeDefinitionIndex = 5185;
+	inline static constexpr unsigned int DLSSManager_TypeDefinitionIndex = 5184;
 
 	class DLSSManager : public ::System::Object
 	{

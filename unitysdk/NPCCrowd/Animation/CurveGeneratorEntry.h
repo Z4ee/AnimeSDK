@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CurveGeneratorEntry_TypeDefinitionIndex = 45014;
+	inline static constexpr unsigned int CurveGeneratorEntry_TypeDefinitionIndex = 81207;
 
 	enum class CurveGeneratorEntry : ::System::Int32
 	{

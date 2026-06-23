@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardCameraStretch_ParaInfo_TypeDefinitionIndex = 71042;
+	inline static constexpr unsigned int ChessboardCameraStretch_ParaInfo_TypeDefinitionIndex = 42560;
 
 	struct alignas(8) ChessboardCameraStretch_ParaInfo
 	{

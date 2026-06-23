@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas::Editor
 {
-	inline static constexpr unsigned int FCValueDropList_1_TypeDefinitionIndex = 27629;
+	inline static constexpr unsigned int FCValueDropList_1_TypeDefinitionIndex = 29398;
 
 	template <typename T>
 	class FCValueDropList_1 : public ::System::Object

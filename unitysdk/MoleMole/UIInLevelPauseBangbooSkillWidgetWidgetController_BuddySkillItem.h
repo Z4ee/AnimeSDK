@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_9FBDB47166F97B2B.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIINLEVELPAUSEBANGBOOSKILLWIDGETWIDGETCONTROLLER_BUDDYSKILLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x150DCD30)
+#define MOLEMOLE_UIINLEVELPAUSEBANGBOOSKILLWIDGETWIDGETCONTROLLER_BUDDYSKILLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D7D030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseBangbooSkillWidgetWidgetController_BuddySkillItem_TypeDefinitionIndex = 78047;
+	inline static constexpr unsigned int UIInLevelPauseBangbooSkillWidgetWidgetController_BuddySkillItem_TypeDefinitionIndex = 84683;
 
 	class UIInLevelPauseBangbooSkillWidgetWidgetController_BuddySkillItem : public ::System::Object
 	{

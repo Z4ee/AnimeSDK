@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define UNITYENGINE_UI_TOGGLEGROUP___C__ACTIVETOGGLES_B__13_0_OFFSET UNITYSDK_OFFSET(0x1BD6FC20)
-#define UNITYENGINE_UI_TOGGLEGROUP___C__ANYTOGGLESON_B__12_0_OFFSET UNITYSDK_OFFSET(0x1BD6FC00)
-#define UNITYENGINE_UI_TOGGLEGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FBB0)
-#define UNITYENGINE_UI_TOGGLEGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FBF0)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__ACTIVETOGGLES_B__13_0_OFFSET UNITYSDK_OFFSET(0x1E08FCD0)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__ANYTOGGLESON_B__12_0_OFFSET UNITYSDK_OFFSET(0x1E08FCB0)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E08FC60)
+#define UNITYENGINE_UI_TOGGLEGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E08FCA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ToggleGroup___c_TypeDefinitionIndex = 8469;
+	inline static constexpr unsigned int ToggleGroup___c_TypeDefinitionIndex = 18977;
 
 	class ToggleGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::UI::Toggle*>** StaticGet___9__12_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::UI::Toggle*>**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x75E0);
-		}
 		static ::UnityEngine::UI::ToggleGroup___c** StaticGet___9()
 		{
-			return (::UnityEngine::UI::ToggleGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x75E8);
+			return (::UnityEngine::UI::ToggleGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x8830);
 		}
 		static ::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x75F0);
+			return (::System::Func_2<::UnityEngine::UI::Toggle*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x8838);
+		}
+		static ::System::Predicate_1<::UnityEngine::UI::Toggle*>** StaticGet___9__12_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::UI::Toggle*>**)Il2CppClass::FromTypeDefinitionIndex(ToggleGroup___c_TypeDefinitionIndex)->GetStaticField(0x8840);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int PropagationFlags_TypeDefinitionIndex = 999;
+	inline static constexpr unsigned int PropagationFlags_TypeDefinitionIndex = 998;
 
 	enum class PropagationFlags : ::System::Int32
 	{

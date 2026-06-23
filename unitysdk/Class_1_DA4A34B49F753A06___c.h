@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 template <typename T1, typename T2> class Class_1_DA4A34B49F753A06___c;
 template <typename T1, typename T2> class Class_1_DD5009F722EC4683;
 
-inline static constexpr unsigned int Class_1_DA4A34B49F753A06___c_TypeDefinitionIndex = 25782;
+inline static constexpr unsigned int Class_1_DA4A34B49F753A06___c_TypeDefinitionIndex = 28238;
 
 template <typename TPriority, typename TValue>
 class Class_1_DA4A34B49F753A06___c : public ::System::Object

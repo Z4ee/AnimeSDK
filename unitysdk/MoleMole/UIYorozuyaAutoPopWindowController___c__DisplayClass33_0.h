@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIYorozuyaAutoPopWindowController; }
 
-#define MOLEMOLE_UIYOROZUYAAUTOPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF638E30)
-#define MOLEMOLE_UIYOROZUYAAUTOPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__ONQUICKOKBTNCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0xF638E40)
+#define MOLEMOLE_UIYOROZUYAAUTOPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x122D9C80)
+#define MOLEMOLE_UIYOROZUYAAUTOPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__ONQUICKOKBTNCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x122D9C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAutoPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 60692;
+	inline static constexpr unsigned int UIYorozuyaAutoPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 62786;
 
 	class UIYorozuyaAutoPopWindowController___c__DisplayClass33_0 : public ::System::Object
 	{

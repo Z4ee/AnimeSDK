@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int MemberSerialization_TypeDefinitionIndex = 6887;
+	inline static constexpr unsigned int MemberSerialization_TypeDefinitionIndex = 7018;
 
 	enum class MemberSerialization : ::System::Int32
 	{

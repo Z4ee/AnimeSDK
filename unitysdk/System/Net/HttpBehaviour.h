@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpBehaviour_TypeDefinitionIndex = 3321;
+	inline static constexpr unsigned int HttpBehaviour_TypeDefinitionIndex = 3320;
 
 	enum class HttpBehaviour : ::System::Byte
 	{

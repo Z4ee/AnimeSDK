@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E1E560)
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11E1E5A0)
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__INITTABGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0x11E1E5B0)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183BE780)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183BE7C0)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__INITTABGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0x183BE7D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex = 70847;
+	inline static constexpr unsigned int UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex = 58798;
 
 	class UIAbyssS2RoleChallengeListWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37B10);
-		}
 		static ::MoleMole::UIAbyssS2RoleChallengeListWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2RoleChallengeListWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37B18);
+			return (::MoleMole::UIAbyssS2RoleChallengeListWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39FB0);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RoleChallengeListWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39FB8);
 		}
 
 		static ::System::Void _cctor()

@@ -8,7 +8,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 
-class Class_0_16E4307DCC419505_306;
+class Class_0_16E4307DCC419505_297;
 namespace MoleMole { class MonoTriggerEventDispatcher; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Threading { class CancellationTokenSource; }
 namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_1_18834A43CDD11057_TypeDefinitionIndex = 77925;
+inline static constexpr unsigned int Class_1_18834A43CDD11057_TypeDefinitionIndex = 77522;
 
 template <typename TCustomAction>
 class Class_1_18834A43CDD11057 : public ::System::Object
@@ -32,5 +32,5 @@ public:
 	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_7; // 0x0
 	::System::Collections::Generic::HashSet_1<::MoleMole::MonoTriggerEventDispatcher*>* Field_1_8; // 0x0
 	::System::Boolean Field_1_9; // 0x0
-	::Class_0_16E4307DCC419505_306* Field_1_10; // 0x0
+	::Class_0_16E4307DCC419505_297* Field_1_10; // 0x0
 };

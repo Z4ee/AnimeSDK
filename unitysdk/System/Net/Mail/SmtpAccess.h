@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpAccess_TypeDefinitionIndex = 3593;
+	inline static constexpr unsigned int SmtpAccess_TypeDefinitionIndex = 3592;
 
 	enum class SmtpAccess : ::System::Int32
 	{

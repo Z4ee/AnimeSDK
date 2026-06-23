@@ -8,22 +8,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125CC080)
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125CC090)
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125CC270)
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125CC410)
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125CC3D0)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13020470)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13020480)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13020660)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13020800)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GALPLAYABLESEGMENT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x130207C0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayableSegment_GalPlayableSegment_UnityGeneratedFormatter_TypeDefinitionIndex = 76856;
+	inline static constexpr unsigned int GalPlayableSegment_GalPlayableSegment_UnityGeneratedFormatter_TypeDefinitionIndex = 40544;
 
 	class GalPlayableSegment_GalPlayableSegment_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::GalPlayableSegment*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalPlayableSegment_GalPlayableSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47950);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalPlayableSegment_GalPlayableSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49D70);
 		}
 
 		::System::Void _ctor()

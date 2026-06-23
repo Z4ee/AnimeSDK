@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int PropertyTabScope_TypeDefinitionIndex = 3022;
+	inline static constexpr unsigned int PropertyTabScope_TypeDefinitionIndex = 3021;
 
 	enum class PropertyTabScope : ::System::Int32
 	{

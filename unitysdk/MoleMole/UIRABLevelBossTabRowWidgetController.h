@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_0E83A6D339957085;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIRABLevelBossTabRowWidgetController_Data; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_GET_BOSSGROUPID_OFFSET UNITYSDK_OFFSET(0x14C7B7A0)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x14C7B450)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x14C7B4C0)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONITEMRESELECT_OFFSET UNITYSDK_OFFSET(0x14C7BD80)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x14C7BB90)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x14C7B560)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14C7B930)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x14C7B620)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C7BF60)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x14C7BF70)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONITEMRESELECT_OFFSET UNITYSDK_OFFSET(0x14C7C010)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x14C7C0A0)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x14C7C130)
+#define MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14C7C1D0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABLevelBossTabRowWidgetController_TypeDefinitionIndex = 82423;
+
+	class UIRABLevelBossTabRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_0E83A6D339957085* get__viewModel()
+		{
+			return ((::Class_2_0E83A6D339957085*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void RefreshView(::MoleMole::UIRABLevelBossTabRowWidgetController_Data* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIRABLevelBossTabRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this, data);
+		}
+
+		::System::Int32 get_BossGroupId()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_GET_BOSSGROUPID_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnItemSelect(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET))(this, isSelect);
+		}
+
+		::System::Void OnItemReselect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER_ONITEMRESELECT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnItemReselect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONITEMRESELECT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnItemSelect(::System::Boolean P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABLEVELBOSSTABROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

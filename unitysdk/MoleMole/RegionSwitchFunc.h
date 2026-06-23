@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE7520)
+#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x17385170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 71282;
+	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 79360;
 
 	class RegionSwitchFunc : public ::System::Object
 	{
@@ -59,7 +59,8 @@ namespace MoleMole
 		::System::Int32 Disable_Popup_Notification; // 0xBC
 		::System::Int32 Force_Verify_all_assets; // 0xC0
 		::System::Int32 Force_CleanExpire_next_boot; // 0xC4
-		::System::Int32 EnableWaterMark; // 0xC8
+		::System::Int32 Skip_PC_StreamingVerify; // 0xC8
+		::System::Int32 EnableWaterMark; // 0xCC
 		::System::String* mtrConfig; // 0xD0
 		::System::Int32 enableOperationLog; // 0xD8
 		::System::Int32 Turnoff_Push_notifications; // 0xDC
@@ -76,6 +77,7 @@ namespace MoleMole
 		::System::Int32 Disable_Report_RootSize; // 0x108
 		::System::Int32 Force_Console_AllLangAudio; // 0x10C
 		::System::Int32 Show_CloudGameEntrance; // 0x110
+		::System::Boolean CloseNetworkObjectPool; // 0x114
 
 		::System::Void _ctor()
 		{

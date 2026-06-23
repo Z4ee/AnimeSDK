@@ -5,29 +5,29 @@
 class Class_3_6D0592AEE1AF8169;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E38770)
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E387B0)
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__TRYJOINABPVP_B__14_0_OFFSET UNITYSDK_OFFSET(0x13E387C0)
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__TRYJOINABPVP_B__14_1_OFFSET UNITYSDK_OFFSET(0x13E38820)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B34E30)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B34E70)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__TRYJOINABPVP_B__14_0_OFFSET UNITYSDK_OFFSET(0x15B34E80)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__TRYJOINABPVP_B__14_1_OFFSET UNITYSDK_OFFSET(0x15B34EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePrepPageController___c_TypeDefinitionIndex = 52809;
+	inline static constexpr unsigned int UIAutoBattlePrepPageController___c_TypeDefinitionIndex = 58246;
 
 	class UIAutoBattlePrepPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_3_6D0592AEE1AF8169*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::Class_3_6D0592AEE1AF8169*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x48940);
-		}
-		static ::MoleMole::UIAutoBattlePrepPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAutoBattlePrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x48948);
+			return (::System::Action_1<::Class_3_6D0592AEE1AF8169*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x4BFA0);
 		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__14_1()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x48950);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x4BFA8);
+		}
+		static ::MoleMole::UIAutoBattlePrepPageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIAutoBattlePrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattlePrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x4BFB0);
 		}
 
 		static ::System::Void _cctor()

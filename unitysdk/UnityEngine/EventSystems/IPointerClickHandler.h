@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IPointerClickHandler_TypeDefinitionIndex = 8516;
+	inline static constexpr unsigned int IPointerClickHandler_TypeDefinitionIndex = 19025;
 
 	class IPointerClickHandler
 	{

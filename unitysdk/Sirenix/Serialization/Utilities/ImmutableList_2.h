@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ImmutableList_2_TypeDefinitionIndex = 7524;
+	inline static constexpr unsigned int ImmutableList_2_TypeDefinitionIndex = 7656;
 
 	template <typename TList, typename TElement>
 	class ImmutableList_2 : public ::System::Object

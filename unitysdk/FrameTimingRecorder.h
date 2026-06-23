@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FRAMETIMINGRECORDER_ENDPROFILING_OFFSET UNITYSDK_OFFSET(0x10591100)
-#define FRAMETIMINGRECORDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x10590DB0)
-#define FRAMETIMINGRECORDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x105915C0)
-#define FRAMETIMINGRECORDER_STARTPROFILING_OFFSET UNITYSDK_OFFSET(0x10590FE0)
-#define FRAMETIMINGRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x10591520)
-#define FRAMETIMINGRECORDER_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0x105911D0)
-#define FRAMETIMINGRECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x10591610)
+#define FRAMETIMINGRECORDER_ENDPROFILING_OFFSET UNITYSDK_OFFSET(0x12E6DC70)
+#define FRAMETIMINGRECORDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12E6D920)
+#define FRAMETIMINGRECORDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12E6E130)
+#define FRAMETIMINGRECORDER_STARTPROFILING_OFFSET UNITYSDK_OFFSET(0x12E6DB50)
+#define FRAMETIMINGRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12E6E090)
+#define FRAMETIMINGRECORDER_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0x12E6DD40)
+#define FRAMETIMINGRECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6E180)
 
-inline static constexpr unsigned int FrameTimingRecorder_TypeDefinitionIndex = 77546;
+inline static constexpr unsigned int FrameTimingRecorder_TypeDefinitionIndex = 45742;
 
 class FrameTimingRecorder : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::FrameTimingRecorder** StaticGet__instance()
 	{
-		return (::FrameTimingRecorder**)Il2CppClass::FromTypeDefinitionIndex(FrameTimingRecorder_TypeDefinitionIndex)->GetStaticField(0x48290);
+		return (::FrameTimingRecorder**)Il2CppClass::FromTypeDefinitionIndex(FrameTimingRecorder_TypeDefinitionIndex)->GetStaticField(0x4B830);
 	}
 	::System::String* _filePath; // 0x18
 	::System::Boolean _isRecording; // 0x20

@@ -6,24 +6,24 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_PROCESS_OFFSET UNITYSDK_OFFSET(0x16043890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16043720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x16043FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16044000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_PROCESS_OFFSET UNITYSDK_OFFSET(0x12BB6F60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BB6DF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB7690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x12BB76D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReplaceAvatarByOwnedAvatarTemplateID_TypeDefinitionIndex = 52837;
+	inline static constexpr unsigned int LDReplaceAvatarByOwnedAvatarTemplateID_TypeDefinitionIndex = 81209;
 
 	class LDReplaceAvatarByOwnedAvatarTemplateID : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xA8
 		::FlowCanvas::FlowOutput* flowOut; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xC0
 		::FlowCanvas::ValueInput_1<::System::Int32>* ReplaceAvatarTemplateId; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xD0
 
 		::System::Void _ctor()
 		{

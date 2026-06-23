@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GeometryType_TypeDefinitionIndex = 29946;
+	inline static constexpr unsigned int GeometryType_TypeDefinitionIndex = 27363;
 
 	enum class GeometryType : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacNetworkChange_SCNetworkReachabilityContext_TypeDefinitionIndex = 3804;
+	inline static constexpr unsigned int MacNetworkChange_SCNetworkReachabilityContext_TypeDefinitionIndex = 3803;
 
 	struct alignas(8) MacNetworkChange_SCNetworkReachabilityContext
 	{

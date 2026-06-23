@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NEWTONSOFT_JSON_JSONIGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A2F90)
+#define NEWTONSOFT_JSON_JSONIGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DA710)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonIgnoreAttribute_TypeDefinitionIndex = 6867;
+	inline static constexpr unsigned int JsonIgnoreAttribute_TypeDefinitionIndex = 6998;
 
 	class JsonIgnoreAttribute : public ::System::Attribute
 	{

@@ -5,12 +5,12 @@
 namespace System { class AsyncCallback; }
 namespace System::Net { class SimpleAsyncResult; }
 
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE8A40)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1AFE8A50)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45F4D0)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS9_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1D45F4E0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SimpleAsyncResult___c__DisplayClass9_0_TypeDefinitionIndex = 3559;
+	inline static constexpr unsigned int SimpleAsyncResult___c__DisplayClass9_0_TypeDefinitionIndex = 3558;
 
 	class SimpleAsyncResult___c__DisplayClass9_0 : public ::System::Object
 	{

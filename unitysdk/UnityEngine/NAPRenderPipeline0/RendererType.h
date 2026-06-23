@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RendererType_TypeDefinitionIndex = 5890;
+	inline static constexpr unsigned int RendererType_TypeDefinitionIndex = 5898;
 
 	enum class RendererType : ::System::Int32
 	{

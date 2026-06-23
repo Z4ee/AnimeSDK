@@ -3,7 +3,7 @@
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int XWeaponTrail_eAddForceType_TypeDefinitionIndex = 37680;
+	inline static constexpr unsigned int XWeaponTrail_eAddForceType_TypeDefinitionIndex = 39306;
 
 	enum class XWeaponTrail_eAddForceType : ::System::Int32
 	{

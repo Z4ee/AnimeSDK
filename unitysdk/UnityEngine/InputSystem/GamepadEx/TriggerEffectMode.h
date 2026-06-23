@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int TriggerEffectMode_TypeDefinitionIndex = 37447;
+	inline static constexpr unsigned int TriggerEffectMode_TypeDefinitionIndex = 39073;
 
 	enum class TriggerEffectMode : ::System::Int32
 	{

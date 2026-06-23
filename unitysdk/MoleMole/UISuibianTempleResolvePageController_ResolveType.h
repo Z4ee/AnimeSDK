@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleResolvePageController_ResolveType_TypeDefinitionIndex = 74098;
+	inline static constexpr unsigned int UISuibianTempleResolvePageController_ResolveType_TypeDefinitionIndex = 81366;
 
 	enum class UISuibianTempleResolvePageController_ResolveType : ::System::Int32
 	{
 		Product = 0,
-		Material = 1,
 		None = -1,
+		Material = 1,
 	};
 }

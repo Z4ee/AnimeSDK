@@ -3,12 +3,12 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int RenderDataAliveType_TypeDefinitionIndex = 58478;
+	inline static constexpr unsigned int RenderDataAliveType_TypeDefinitionIndex = 80777;
 
 	enum class RenderDataAliveType : ::System::Int32
 	{
-		Permanent = 1,
 		KillWhenNotExecuting = 2,
 		Unknown = 0,
+		Permanent = 1,
 	};
 }

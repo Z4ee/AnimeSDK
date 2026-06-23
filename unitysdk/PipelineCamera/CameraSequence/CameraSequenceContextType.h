@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCECONTEXTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CB770)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCECONTEXTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD46010)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceContextType_TypeDefinitionIndex = 36332;
+	inline static constexpr unsigned int CameraSequenceContextType_TypeDefinitionIndex = 37940;
 
 	class CameraSequenceContextType : public ::PipelineCamera::SubClassOf_1<::PipelineCamera::CameraSequence::CameraSequenceContext*>
 	{

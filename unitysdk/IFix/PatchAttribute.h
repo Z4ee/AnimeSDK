@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_PATCHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7AD5A0)
+#define IFIX_PATCHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD570)
 
 namespace IFix
 {
-	inline static constexpr unsigned int PatchAttribute_TypeDefinitionIndex = 6777;
+	inline static constexpr unsigned int PatchAttribute_TypeDefinitionIndex = 6908;
 
 	class PatchAttribute : public ::System::Attribute
 	{

@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigEntityUnderlyingAnimEvents; }
 namespace System { class Action; }
 
-#define CLASS_1_10FEEAE9D3BD65B7_CLASS_1_6D7F0AC03FD9BC4B_METHOD_1_0539D663D0AE3617_OFFSET UNITYSDK_OFFSET(0xDAD9110)
-#define CLASS_1_10FEEAE9D3BD65B7_CLASS_1_6D7F0AC03FD9BC4B__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD9100)
+#define CLASS_1_10FEEAE9D3BD65B7_CLASS_1_6D7F0AC03FD9BC4B_METHOD_1_0539D663D0AE3617_OFFSET UNITYSDK_OFFSET(0x11AD99B0)
+#define CLASS_1_10FEEAE9D3BD65B7_CLASS_1_6D7F0AC03FD9BC4B__CTOR_OFFSET UNITYSDK_OFFSET(0x11AD99A0)
 
-inline static constexpr unsigned int Class_1_10FEEAE9D3BD65B7_Class_1_6D7F0AC03FD9BC4B_TypeDefinitionIndex = 59099;
+inline static constexpr unsigned int Class_1_10FEEAE9D3BD65B7_Class_1_6D7F0AC03FD9BC4B_TypeDefinitionIndex = 54332;
 
 class Class_1_10FEEAE9D3BD65B7_Class_1_6D7F0AC03FD9BC4B : public ::System::Object
 {
 public:
-	::Foundation::AssetPath Field_1_1; // 0x10
-	::System::Action* Field_1_0; // 0x20
+	::System::Action* Field_1_0; // 0x10
+	::Foundation::AssetPath Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

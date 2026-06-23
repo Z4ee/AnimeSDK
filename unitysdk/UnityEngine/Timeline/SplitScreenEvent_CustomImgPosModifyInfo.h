@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_CUSTOMIMGPOSMODIFYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6F3F0)
+#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_CUSTOMIMGPOSMODIFYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB2A70)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SplitScreenEvent_CustomImgPosModifyInfo_TypeDefinitionIndex = 30782;
+	inline static constexpr unsigned int SplitScreenEvent_CustomImgPosModifyInfo_TypeDefinitionIndex = 32333;
 
 	class SplitScreenEvent_CustomImgPosModifyInfo : public ::System::Object
 	{

@@ -6,23 +6,23 @@
 namespace BehaviorDesigner::Runtime { class SharedInt; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C26E0D0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C26DD80)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C26E170)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C26E220)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C26E2B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5C4E10)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5C4AC0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C4EB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5C4F60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYSTRING_GETSUBSTRING___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5C4FF0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityString
 {
-	inline static constexpr unsigned int GetSubstring_TypeDefinitionIndex = 31920;
+	inline static constexpr unsigned int GetSubstring_TypeDefinitionIndex = 33471;
 
 	class GetSubstring : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedInt* length; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* targetString; // 0x60
-		::BehaviorDesigner::Runtime::SharedInt* startIndex; // 0x68
-		::BehaviorDesigner::Runtime::SharedString* storeResult; // 0x70
+		::BehaviorDesigner::Runtime::SharedInt* startIndex; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* storeResult; // 0x68
+		::BehaviorDesigner::Runtime::SharedString* targetString; // 0x70
 
 		::System::Void _ctor()
 		{

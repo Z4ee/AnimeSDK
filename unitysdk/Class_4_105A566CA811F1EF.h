@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_F3948D237059FA7A.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
+
+class Class_1_E4DCFD174698F990;
+class Class_3_B537A0AA78803363;
+namespace MoleMole::Battle { class Entity; }
+namespace MoleMole::Config { class HackObjectTrait; }
+template <typename T> class Class_4_F91115D9A1F02F5F;
+
+#define CLASS_4_105A566CA811F1EF_METHOD_4_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x163D8A70)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x163D9AD0)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_4BC9B7E3DD96878A_OFFSET UNITYSDK_OFFSET(0x163D9860)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_5251C007938786A9_OFFSET UNITYSDK_OFFSET(0x163D8BC0)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_9C36AFA140789703_OFFSET UNITYSDK_OFFSET(0x163D8920)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x163D97D0)
+#define CLASS_4_105A566CA811F1EF_METHOD_4_FF56359890FC1D86_OFFSET UNITYSDK_OFFSET(0x163D9050)
+#define CLASS_4_105A566CA811F1EF__CTOR_OFFSET UNITYSDK_OFFSET(0x163D9680)
+
+inline static constexpr unsigned int Class_4_105A566CA811F1EF_TypeDefinitionIndex = 43752;
+
+class Class_4_105A566CA811F1EF : public ::Class_3_F3948D237059FA7A
+{
+public:
+	::Class_3_B537A0AA78803363* Field_4_2; // 0x28
+	::Class_4_F91115D9A1F02F5F<::Foundation::ViewObject::ViewObjectHandle>* Field_4_0; // 0x30
+	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_1; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_9C36AFA140789703(::Class_1_E4DCFD174698F990* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_E4DCFD174698F990*))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_9C36AFA140789703_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_1290EA767C459179()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_1290EA767C459179_OFFSET))(this);
+	}
+
+	::System::Void Method_4_5251C007938786A9(::Struct_2_29439DBE2B63DCF3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_5251C007938786A9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_E9A575D18A0748D9(::Class_1_E4DCFD174698F990* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_E4DCFD174698F990*))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_FF56359890FC1D86(::Struct_2_29439DBE2B63DCF3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_FF56359890FC1D86_OFFSET))(this, a1);
+	}
+
+	static ::MoleMole::Config::HackObjectTrait* Method_4_4BC9B7E3DD96878A(::MoleMole::Battle::Entity* a1)
+	{
+		return ((::MoleMole::Config::HackObjectTrait*(*)(::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_4BC9B7E3DD96878A_OFFSET))(a1);
+	}
+
+	::System::Void Method_4_25DEA5C65A602671()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_105A566CA811F1EF_METHOD_4_25DEA5C65A602671_OFFSET))(this);
+	}
+};

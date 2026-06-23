@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ListExtension_TypeDefinitionIndex = 30022;
+	inline static constexpr unsigned int ListExtension_TypeDefinitionIndex = 26265;
 
 	class ListExtension : public ::System::Object
 	{

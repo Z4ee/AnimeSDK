@@ -4,7 +4,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStateDrivenCamera_HashPair_TypeDefinitionIndex = 32494;
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_HashPair_TypeDefinitionIndex = 34045;
 
 	struct alignas(4) CinemachineStateDrivenCamera_HashPair
 	{

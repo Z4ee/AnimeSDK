@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/LightingBehaviour_Struct_2_52AD02145F5FCE36.h"
+#include "unitysdk/MoleMole/Timeline/LightingBehaviour_Struct_2_52AD02145F5FCE36_33.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/OtherLightShadowResolution.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
@@ -10,26 +10,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class Lighting; }
 
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x12FB6F00)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x12FBBDC0)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x12FBBDB0)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET UNITYSDK_OFFSET(0x12FB7D80)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_9A5C744E6CF1666D_OFFSET UNITYSDK_OFFSET(0x12FB7610)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x12FBBDE0)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x12FBBDD0)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x12FB7A00)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x12FBAD60)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x12FBB1F0)
-#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12FBBC90)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x141ACDA0)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x141B1C70)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x141B1C60)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET UNITYSDK_OFFSET(0x141ADC20)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_9A5C744E6CF1666D_OFFSET UNITYSDK_OFFSET(0x141AD4B0)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x141B1C80)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x141B1C50)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x141AD8A0)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x141B0C00)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x141B1090)
+#define MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x141B1B30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LightingBehaviour_TypeDefinitionIndex = 38087;
+	inline static constexpr unsigned int LightingBehaviour_TypeDefinitionIndex = 76282;
 
 	class LightingBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::LightingBehaviour_Struct_2_52AD02145F5FCE36 _methodParm; // 0x18
+		::MoleMole::Timeline::LightingBehaviour_Struct_2_52AD02145F5FCE36_33 _methodParm; // 0x18
 		::System::Boolean enabled; // 0xD0
 		::System::Boolean active_cascade0ToNextBlendIntensity; // 0xD1
 		::System::Boolean use_cascade0ToNextBlendIntensity; // 0xD2
@@ -151,9 +151,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_8DC55F996A78F0A1()
+		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Rendering::Universal::Lighting* Method_4_9A5C744E6CF1666D(::System::Object* a1)
+		{
+			return ((::UnityEngine::Rendering::Universal::Lighting*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_9A5C744E6CF1666D_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
@@ -161,24 +166,19 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 
+		::System::Void Method_4_8DC55F996A78F0A1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET))(this);
+		}
+
 		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Rendering::Universal::Lighting* Method_4_9A5C744E6CF1666D(::System::Object* a1)
-		{
-			return ((::UnityEngine::Rendering::Universal::Lighting*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTINGBEHAVIOUR_METHOD_4_9A5C744E6CF1666D_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CAMERATYPEUTILITY_GETNAME_OFFSET UNITYSDK_OFFSET(0x190909F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CAMERATYPEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19090B20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CAMERATYPEUTILITY_GETNAME_OFFSET UNITYSDK_OFFSET(0x1AECD2E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CAMERATYPEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AECD410)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CameraTypeUtility_TypeDefinitionIndex = 30255;
+	inline static constexpr unsigned int CameraTypeUtility_TypeDefinitionIndex = 26353;
 
 	class CameraTypeUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_CameraTypeNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTypeUtility_TypeDefinitionIndex)->GetStaticField(0x24B70);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTypeUtility_TypeDefinitionIndex)->GetStaticField(0x22420);
 		}
 
 		static ::System::Void _cctor()

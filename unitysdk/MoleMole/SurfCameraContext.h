@@ -6,11 +6,11 @@
 
 namespace MoleMole::Config { class ConfigSurfVehicle; }
 
-#define MOLEMOLE_SURFCAMERACONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0x7AC4B0)
+#define MOLEMOLE_SURFCAMERACONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0x79BAD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SurfCameraContext_TypeDefinitionIndex = 56807;
+	inline static constexpr unsigned int SurfCameraContext_TypeDefinitionIndex = 76366;
 
 	struct alignas(4) SurfCameraContext
 	{

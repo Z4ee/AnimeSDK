@@ -5,9 +5,9 @@
 
 class Class_1_04057F2C2F6EB8E0;
 class Class_1_E85C6B6436A9E3DA;
-template <typename T> class Class_0_16E4307DCC41950C_11;
+template <typename T> class Class_0_16E4307DCC41950C_10;
 
-inline static constexpr unsigned int Class_1_D8A1286D2CE724F0_2_TypeDefinitionIndex = 26433;
+inline static constexpr unsigned int Class_1_D8A1286D2CE724F0_2_TypeDefinitionIndex = 28875;
 
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 class Class_1_D8A1286D2CE724F0_2 : public ::System::Object

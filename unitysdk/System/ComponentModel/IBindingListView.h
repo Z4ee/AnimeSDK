@@ -6,7 +6,7 @@ namespace System::ComponentModel { class ListSortDescriptionCollection; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IBindingListView_TypeDefinitionIndex = 2889;
+	inline static constexpr unsigned int IBindingListView_TypeDefinitionIndex = 2888;
 
 	class IBindingListView
 	{

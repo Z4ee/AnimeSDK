@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSAUTOINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2AC6B0)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSAUTOINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC64AD0)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsAutoInstance_TypeDefinitionIndex = 26478;
+	inline static constexpr unsigned int fsAutoInstance_TypeDefinitionIndex = 29464;
 
 	class fsAutoInstance : public ::System::Attribute
 	{

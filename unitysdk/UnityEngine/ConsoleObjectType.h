@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConsoleObjectType_TypeDefinitionIndex = 5153;
+	inline static constexpr unsigned int ConsoleObjectType_TypeDefinitionIndex = 5152;
 
 	enum class ConsoleObjectType : ::System::SByte
 	{

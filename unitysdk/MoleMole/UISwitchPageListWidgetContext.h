@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISWITCHPAGELISTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1379D880)
+#define MOLEMOLE_UISWITCHPAGELISTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16187970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISwitchPageListWidgetContext_TypeDefinitionIndex = 80447;
+	inline static constexpr unsigned int UISwitchPageListWidgetContext_TypeDefinitionIndex = 51317;
 
 	class UISwitchPageListWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

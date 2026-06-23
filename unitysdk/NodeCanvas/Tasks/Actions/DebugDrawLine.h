@@ -6,18 +6,18 @@
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_DEBUGDRAWLINE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B7EA2E0)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGDRAWLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EA420)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGDRAWLINE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB9BF10)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGDRAWLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9C050)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int DebugDrawLine_TypeDefinitionIndex = 27076;
+	inline static constexpr unsigned int DebugDrawLine_TypeDefinitionIndex = 30759;
 
 	class DebugDrawLine : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* from; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* to; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* to; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* from; // 0x68
 		::System::Single timeToShow; // 0x70
 		::UnityEngine::Color color; // 0x74
 

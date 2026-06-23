@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberBindingType_TypeDefinitionIndex = 4504;
+	inline static constexpr unsigned int MemberBindingType_TypeDefinitionIndex = 4503;
 
 	enum class MemberBindingType : ::System::Int32
 	{

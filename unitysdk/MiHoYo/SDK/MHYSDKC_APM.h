@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_APM_TypeDefinitionIndex = 34999;
+	inline static constexpr unsigned int MHYSDKC_APM_TypeDefinitionIndex = 36563;
 
 	class MHYSDKC_APM : public ::System::Object
 	{
@@ -21,6 +21,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* CRASH_DELETE_UNSENT_DUMP; // 0x0
 		// static const ::System::String* CRASH_ENABLE_PAGE_TRACKING; // 0x0
 		// static const ::System::String* CRASH_REPORT; // 0x0
+		// static const ::System::String* IS_LAST_LAUNCH_CRASHED; // 0x0
 		// static const ::System::String* GAMELOG_REPORT; // 0x0
 		// static const ::System::String* BLOCK_REPORT; // 0x0
 	};

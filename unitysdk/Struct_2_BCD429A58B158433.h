@@ -5,7 +5,7 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Struct_2_BCD429A58B158433_TypeDefinitionIndex = 49565;
+inline static constexpr unsigned int Struct_2_BCD429A58B158433_TypeDefinitionIndex = 74147;
 
 struct alignas(8) Struct_2_BCD429A58B158433
 {

@@ -23,155 +23,155 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_1_OFFSET UNITYSDK_OFFSET(0x1BA13E80)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_2_OFFSET UNITYSDK_OFFSET(0x1BA13570)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_3_OFFSET UNITYSDK_OFFSET(0x1BA140E0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_OFFSET UNITYSDK_OFFSET(0x1BA130F0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKFRAMEKEYTYPE_OFFSET UNITYSDK_OFFSET(0x1BA116F0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_1_OFFSET UNITYSDK_OFFSET(0x1BA10980)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_2_OFFSET UNITYSDK_OFFSET(0x1BA10C40)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_3_OFFSET UNITYSDK_OFFSET(0x1BA10EE0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_OFFSET UNITYSDK_OFFSET(0x1BA10870)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_FINDPROPERTYALTERS_OFFSET UNITYSDK_OFFSET(0x1BA11AA0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETCOLORRECORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1BA0EA00)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETDEFAULTRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1BA0AD60)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA07D20)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETREALATTRKEYNAME_OFFSET UNITYSDK_OFFSET(0x1BA160B0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETRECORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1BA0EB90)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETRECOVERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1BA0A540)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA0B870)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GETSUBATTRNAME_OFFSET UNITYSDK_OFFSET(0x1BA16230)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_COLORKEYLIST_OFFSET UNITYSDK_OFFSET(0x1BA10D60)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_FLOATKEYLIST_OFFSET UNITYSDK_OFFSET(0x1BA10AC0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1BA078D0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_SHADERNAME_OFFSET UNITYSDK_OFFSET(0x1BA15D20)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_TEXTKEYLIST_OFFSET UNITYSDK_OFFSET(0x1BA106F0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_GET__MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1BA078E0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_INITDATA_OFFSET UNITYSDK_OFFSET(0x1BA15E50)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_INITKEYSLIST_OFFSET UNITYSDK_OFFSET(0x1BA106E0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_LOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA09B00)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_POPREPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA076A0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDERALTER_OFFSET UNITYSDK_OFFSET(0x1BA11020)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDERINIT_OFFSET UNITYSDK_OFFSET(0x1BA08820)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDER_OFFSET UNITYSDK_OFFSET(0x1BA0ED20)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVERINIT_OFFSET UNITYSDK_OFFSET(0x1BA09F00)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVERINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA14A40)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVER_OFFSET UNITYSDK_OFFSET(0x1BA0C100)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_REFRESHINITKEYSLIST_OFFSET UNITYSDK_OFFSET(0x1BA160A0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BA09A70)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMESHRENDERER_1_OFFSET UNITYSDK_OFFSET(0x1BA07D10)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1BA09EE0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_REMOVEMATCAPPROPERTYADDITIONALMPB_OFFSET UNITYSDK_OFFSET(0x1BA0A0E0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_REVERTATTR_OFFSET UNITYSDK_OFFSET(0x1BA0A940)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDITEM_OFFSET UNITYSDK_OFFSET(0x1BA0E140)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x1BA0E720)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1BA0DC90)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_SETMATCAPPROPERTYADDITIONALMPB_OFFSET UNITYSDK_OFFSET(0x1BA0BAE0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_SOURCEMATERIALUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA16060)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_UNENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1BA0AF10)
-#define MOLEMOLE_TIMELINE_MATERIALINFO_UPDATEALTERKEYS_OFFSET UNITYSDK_OFFSET(0x1BA14820)
-#define MOLEMOLE_TIMELINE_MATERIALINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA162A0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BA096D0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA07960)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_1_OFFSET UNITYSDK_OFFSET(0x1DD58B80)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_2_OFFSET UNITYSDK_OFFSET(0x1DD58280)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_3_OFFSET UNITYSDK_OFFSET(0x1DD58DD0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_ADDCHANGKEY_OFFSET UNITYSDK_OFFSET(0x1DD57E00)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKFRAMEKEYTYPE_OFFSET UNITYSDK_OFFSET(0x1DD56400)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_1_OFFSET UNITYSDK_OFFSET(0x1DD55690)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_2_OFFSET UNITYSDK_OFFSET(0x1DD55950)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_3_OFFSET UNITYSDK_OFFSET(0x1DD55BF0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_CHECKINITVALUEISCHANGE_OFFSET UNITYSDK_OFFSET(0x1DD55580)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_FINDPROPERTYALTERS_OFFSET UNITYSDK_OFFSET(0x1DD567B0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETCOLORRECORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1DD53710)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETDEFAULTRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1DD4FA60)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD4CA40)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETREALATTRKEYNAME_OFFSET UNITYSDK_OFFSET(0x1DD5AD70)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETRECORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1DD538A0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETRECOVERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1DD4F240)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD50570)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GETSUBATTRNAME_OFFSET UNITYSDK_OFFSET(0x1DD5AEF0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_COLORKEYLIST_OFFSET UNITYSDK_OFFSET(0x1DD55A70)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_FLOATKEYLIST_OFFSET UNITYSDK_OFFSET(0x1DD557D0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1DD4C5F0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_SHADERNAME_OFFSET UNITYSDK_OFFSET(0x1DD5A9E0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET_TEXTKEYLIST_OFFSET UNITYSDK_OFFSET(0x1DD55400)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_GET__MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1DD4C600)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_INITDATA_OFFSET UNITYSDK_OFFSET(0x1DD5AB10)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_INITKEYSLIST_OFFSET UNITYSDK_OFFSET(0x1DD553F0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_LOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD4E810)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_POPREPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD4C3C0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDERALTER_OFFSET UNITYSDK_OFFSET(0x1DD55D30)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDERINIT_OFFSET UNITYSDK_OFFSET(0x1DD4D540)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECORDER_OFFSET UNITYSDK_OFFSET(0x1DD53A30)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVERINIT_OFFSET UNITYSDK_OFFSET(0x1DD4EC00)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVERINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD59710)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RECOVER_OFFSET UNITYSDK_OFFSET(0x1DD50E00)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_REFRESHINITKEYSLIST_OFFSET UNITYSDK_OFFSET(0x1DD5AD60)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DD4E780)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMESHRENDERER_1_OFFSET UNITYSDK_OFFSET(0x1DD4CA30)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_RELOADMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1DD4EBE0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_REMOVEMATCAPPROPERTYADDITIONALMPB_OFFSET UNITYSDK_OFFSET(0x1DD4EDE0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_REVERTATTR_OFFSET UNITYSDK_OFFSET(0x1DD4F640)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDITEM_OFFSET UNITYSDK_OFFSET(0x1DD52E40)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x1DD53420)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_SETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1DD52990)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_SETMATCAPPROPERTYADDITIONALMPB_OFFSET UNITYSDK_OFFSET(0x1DD507E0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_SOURCEMATERIALUPDATE_OFFSET UNITYSDK_OFFSET(0x1DD5AD20)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_UNENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1DD4FC10)
+#define MOLEMOLE_TIMELINE_MATERIALINFO_UPDATEALTERKEYS_OFFSET UNITYSDK_OFFSET(0x1DD59500)
+#define MOLEMOLE_TIMELINE_MATERIALINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD5AF60)
+#define MOLEMOLE_TIMELINE_MATERIALINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD4E3E0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4C680)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialInfo_TypeDefinitionIndex = 30631;
+	inline static constexpr unsigned int MaterialInfo_TypeDefinitionIndex = 32177;
 
 	class MaterialInfo : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_SpShaderPassList()
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_SkipFloatKeys()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E60);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_skipPropertyKeys()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E68);
-		}
-		static ::Il2CppArray<::System::Object*>** StaticGet_parameters5()
-		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E70);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_addInstanceMaterialPathMethod()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E78);
-		}
-		static ::Il2CppArray<::System::Object*>** StaticGet_parameters2()
-		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E80);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_properties()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E88);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268D0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_floatKeysCacheDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E90);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268D8);
 		}
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_MatCapPropertyList()
+		static ::System::Reflection::MethodInfo** StaticGet_addInstanceMaterialPathMethod()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24E98);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_avatar_shader_pass()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EA0);
-		}
-		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::String*, ::System::String*, ::System::Boolean>>** StaticGet_SHADER_PASSS()
-		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::String*, ::System::String*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EA8);
-		}
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_AVATAR_SCRIPT_KEYWORDS()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EB0);
-		}
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_PreZKeyWordList()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EB8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_removeMatcapPropertyAdditionalMPB()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EC0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_avatar_keywords_enable()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EC8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_setMatcapPropertyAdditionalMPBMethod()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24ED0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_textKeysCacheDic()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24ED8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268E0);
 		}
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_AoParamPropertyList()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EE0);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268E8);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_colorKeysCacheDic()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_avatar_shader_pass()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EE8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268F0);
 		}
-		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::Il2CppArray<::System::String*>*, ::System::String*, ::System::Boolean>>** StaticGet_ENABLED_KEYWORDS()
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_AVATAR_SCRIPT_KEYWORDS()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::Il2CppArray<::System::String*>*, ::System::String*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EF0);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x268F8);
 		}
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_SkipFloatKeys()
+		static ::Il2CppArray<::System::Object*>** StaticGet_parameters2()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24EF8);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26900);
+		}
+		static ::Il2CppArray<::System::Object*>** StaticGet_parameters5()
+		{
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26908);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_colorSubKey()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x24F00);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26910);
 		}
-		static ::System::Int32* StaticGet_Glitch()
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::Il2CppArray<::System::String*>*, ::System::String*, ::System::Boolean>>** StaticGet_ENABLED_KEYWORDS()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x7A60);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::Il2CppArray<::System::String*>*, ::System::String*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26918);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_textKeysCacheDic()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26920);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_skipPropertyKeys()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26928);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_setMatcapPropertyAdditionalMPBMethod()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26930);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_removeMatcapPropertyAdditionalMPB()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26938);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_colorKeysCacheDic()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26940);
+		}
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::String*, ::System::String*, ::System::Boolean>>** StaticGet_SHADER_PASSS()
+		{
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::String*, ::System::String*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26948);
+		}
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_SpShaderPassList()
+		{
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26950);
+		}
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_MatCapPropertyList()
+		{
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26958);
+		}
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_properties()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26960);
+		}
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_PreZKeyWordList()
+		{
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26968);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_avatar_keywords_enable()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x26970);
 		}
 		static ::System::Int32* StaticGet_Outline()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x7A64);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x7F10);
+		}
+		static ::System::Int32* StaticGet_Glitch()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo_TypeDefinitionIndex)->GetStaticField(0x7F14);
 		}
 		// static const ::System::Int32 RenderType_Hair = 0x2; // 0x0
 		// static const ::System::Int32 RenderType_EyeBrows = 0x1; // 0x0

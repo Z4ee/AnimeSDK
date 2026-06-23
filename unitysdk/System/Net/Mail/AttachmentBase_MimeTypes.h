@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES_GETMIMETYPE_OFFSET UNITYSDK_OFFSET(0x19AF9A20)
-#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AF3E20)
-#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF9B00)
+#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES_GETMIMETYPE_OFFSET UNITYSDK_OFFSET(0x1C026ED0)
+#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0212D0)
+#define SYSTEM_NET_MAIL_ATTACHMENTBASE_MIMETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C026FB0)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int AttachmentBase_MimeTypes_TypeDefinitionIndex = 3583;
+	inline static constexpr unsigned int AttachmentBase_MimeTypes_TypeDefinitionIndex = 3582;
 
 	class AttachmentBase_MimeTypes : public ::System::Object
 	{

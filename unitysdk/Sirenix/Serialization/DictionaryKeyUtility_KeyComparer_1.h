@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DictionaryKeyUtility_KeyComparer_1_TypeDefinitionIndex = 7430;
+	inline static constexpr unsigned int DictionaryKeyUtility_KeyComparer_1_TypeDefinitionIndex = 7562;
 
 	template <typename T>
 	class DictionaryKeyUtility_KeyComparer_1 : public ::System::Object

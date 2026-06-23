@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangkovPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16366420)
-#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSELECTBANGBOOCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x16366430)
+#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C91290)
+#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSELECTBANGBOOCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x18C912A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovPageController___c__DisplayClass12_0_TypeDefinitionIndex = 54300;
+	inline static constexpr unsigned int UIBangkovPageController___c__DisplayClass12_0_TypeDefinitionIndex = 46997;
 
 	class UIBangkovPageController___c__DisplayClass12_0 : public ::System::Object
 	{

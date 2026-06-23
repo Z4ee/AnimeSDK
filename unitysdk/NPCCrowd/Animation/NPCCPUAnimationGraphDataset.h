@@ -14,6 +14,7 @@ class NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings;
 class NPCAvatarMeshAssetsSO_FMonoItemStateSettings;
 namespace NPCCrowd::Animation { class BlendShapeNameData; }
 namespace NPCCrowd::Animation { class ExposeBoneInfo; }
+namespace NPCCrowd::Animation { class NPCBlendShapeMaskAsset; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationClipInfo; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationLookAtIKInfo; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationSlotInfo; }
@@ -26,22 +27,25 @@ namespace UnityEngine { class Avatar; }
 namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine { class GameObject; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETAVATARMASK_OFFSET UNITYSDK_OFFSET(0xEC8BEA0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0xEC8C530)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0xEC8B850)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_IANIMATIONLIB_GETANIMATIONS_OFFSET UNITYSDK_OFFSET(0xEC8C6A0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETAVATAR_OFFSET UNITYSDK_OFFSET(0xEC8CB60)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETGENDER_OFFSET UNITYSDK_OFFSET(0xEC8CBB0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETSIZE_OFFSET UNITYSDK_OFFSET(0xEC8CBF0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_ISANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0xEC8C930)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_RESOLVE_OFFSET UNITYSDK_OFFSET(0xEC8C7D0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_REFRESHANIMDATA_OFFSET UNITYSDK_OFFSET(0xEC8BF30)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xEC8BC60)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET__CTOR_OFFSET UNITYSDK_OFFSET(0xEC8CC30)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETAVATARMASK_OFFSET UNITYSDK_OFFSET(0x102BA470)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0x102BABA0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEMASKTYPEBYLAYER_OFFSET UNITYSDK_OFFSET(0x102BA510)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEMASK_OFFSET UNITYSDK_OFFSET(0x102BA560)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x102B9CD0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GET_BLENDSHAPEMASKTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x102BA500)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_IANIMATIONLIB_GETANIMATIONS_OFFSET UNITYSDK_OFFSET(0x102BAD00)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETAVATAR_OFFSET UNITYSDK_OFFSET(0x102BB2C0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETGENDER_OFFSET UNITYSDK_OFFSET(0x102BB310)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_GETSIZE_OFFSET UNITYSDK_OFFSET(0x102BB350)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_ISANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0x102BB090)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_NPCCROWD_ANIMATION_ICPUANIMATIONLIB_RESOLVE_OFFSET UNITYSDK_OFFSET(0x102BAE30)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_REFRESHANIMDATA_OFFSET UNITYSDK_OFFSET(0x102BA600)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x102BA0E0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET__CTOR_OFFSET UNITYSDK_OFFSET(0x102BB390)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationGraphDataset_TypeDefinitionIndex = 39151;
+	inline static constexpr unsigned int NPCCPUAnimationGraphDataset_TypeDefinitionIndex = 84292;
 
 	class NPCCPUAnimationGraphDataset : public ::UnityEngine::ScriptableObject
 	{
@@ -56,23 +60,28 @@ namespace NPCCrowd::Animation
 		::UnityEngine::AvatarMask* maskType2; // 0x68
 		::UnityEngine::AvatarMask* maskType3; // 0x70
 		::UnityEngine::AvatarMask* maskType4; // 0x78
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*>* otherSlotInfos; // 0x80
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::ExposeBoneInfo*>* beardRelatedBoneInfos; // 0x88
-		::System::Int32 fallbackAnimationID; // 0x90
-		::System::Boolean allowNoAnimation; // 0x94
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*>* animationInfos; // 0x98
-		::NPCCrowd::Animation::NPCCPUAnimationClipInfo* facialAnimationInfo; // 0xA0
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::BlendShapeData>* blendShapeAttributes; // 0xA8
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::BlendShapeNameData*>* blendshapeNames; // 0xB0
-		::System::Collections::Generic::List_1<::Foundation::AssetPath>* montageAssets; // 0xB8
-		::System::Boolean bIsInited; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCPUAnimationClipInfo*>* animationDict; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*>* slotInfosDict; // 0xD0
-		::NPCCrowd::Animation::NPCCPUAnimationLookAtIKInfo* lookAtIK; // 0xD8
-		::NPCCrowd::Animation::NPCTurningParameters* turningConfig; // 0xE0
-		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoFeaturePointSettings*>* featurePoints; // 0xE8
-		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings*>* interactionPoints; // 0xF0
-		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoItemStateSettings*>* photoItemStates; // 0xF8
+		::NPCCrowd::Animation::NPCBlendShapeMaskAsset* blendShapeMaskType1; // 0x80
+		::NPCCrowd::Animation::NPCBlendShapeMaskAsset* blendShapeMaskType2; // 0x88
+		::NPCCrowd::Animation::NPCBlendShapeMaskAsset* blendShapeMaskType3; // 0x90
+		::NPCCrowd::Animation::NPCBlendShapeMaskAsset* blendShapeMaskType4; // 0x98
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*>* otherSlotInfos; // 0xA0
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::ExposeBoneInfo*>* beardRelatedBoneInfos; // 0xA8
+		::System::Int32 fallbackAnimationID; // 0xB0
+		::System::Boolean allowNoAnimation; // 0xB4
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*>* animationInfos; // 0xB8
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCPUAnimationClipInfo*>* facialAnimationInfoList; // 0xC0
+		::NPCCrowd::Animation::NPCCPUAnimationClipInfo* facialAnimationInfo; // 0xC8
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::BlendShapeData>* blendShapeAttributes; // 0xD0
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::BlendShapeNameData*>* blendshapeNames; // 0xD8
+		::System::Collections::Generic::List_1<::Foundation::AssetPath>* montageAssets; // 0xE0
+		::System::Boolean bIsInited; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCPUAnimationClipInfo*>* animationDict; // 0xF0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*>* slotInfosDict; // 0xF8
+		::NPCCrowd::Animation::NPCCPUAnimationLookAtIKInfo* lookAtIK; // 0x100
+		::NPCCrowd::Animation::NPCTurningParameters* turningConfig; // 0x108
+		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoFeaturePointSettings*>* featurePoints; // 0x110
+		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings*>* interactionPoints; // 0x118
+		::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FMonoItemStateSettings*>* photoItemStates; // 0x120
 
 		::System::Void _ctor()
 		{
@@ -92,6 +101,21 @@ namespace NPCCrowd::Animation
 		::UnityEngine::AvatarMask* GetAvatarMask(::NPCCrowd::Animation::ENPCAnimationAvatarMaskType type)
 		{
 			return ((::UnityEngine::AvatarMask*(*)(::PVOID, ::NPCCrowd::Animation::ENPCAnimationAvatarMaskType))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETAVATARMASK_OFFSET))(this, type);
+		}
+
+		static ::System::Int32 get_BlendShapeMaskTypeCount()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GET_BLENDSHAPEMASKTYPECOUNT_OFFSET))();
+		}
+
+		static ::NPCCrowd::Animation::ENPCAnimationAvatarMaskType GetBlendShapeMaskTypeByLayer(::System::Int32 layer)
+		{
+			return ((::NPCCrowd::Animation::ENPCAnimationAvatarMaskType(*)(::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEMASKTYPEBYLAYER_OFFSET))(layer);
+		}
+
+		::NPCCrowd::Animation::NPCBlendShapeMaskAsset* GetBlendShapeMask(::NPCCrowd::Animation::ENPCAnimationAvatarMaskType type)
+		{
+			return ((::NPCCrowd::Animation::NPCBlendShapeMaskAsset*(*)(::PVOID, ::NPCCrowd::Animation::ENPCAnimationAvatarMaskType))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCPUANIMATIONGRAPHDATASET_GETBLENDSHAPEMASK_OFFSET))(this, type);
 		}
 
 		::System::Void RefreshAnimData()

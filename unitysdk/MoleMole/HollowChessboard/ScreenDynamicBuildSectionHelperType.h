@@ -3,11 +3,11 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ScreenDynamicBuildSectionHelperType_TypeDefinitionIndex = 79059;
+	inline static constexpr unsigned int ScreenDynamicBuildSectionHelperType_TypeDefinitionIndex = 70223;
 
 	enum class ScreenDynamicBuildSectionHelperType : ::System::UInt32
 	{
-		UvStackAnimationNext = 0x2,
 		UvStackAnimationPre = 0x1,
+		UvStackAnimationNext = 0x2,
 	};
 }

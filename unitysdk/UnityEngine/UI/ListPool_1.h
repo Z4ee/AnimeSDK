@@ -7,7 +7,7 @@ namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ListPool_1_TypeDefinitionIndex = 8470;
+	inline static constexpr unsigned int ListPool_1_TypeDefinitionIndex = 18978;
 
 	template <typename T>
 	class ListPool_1 : public ::System::Object

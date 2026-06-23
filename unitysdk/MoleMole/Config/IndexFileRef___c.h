@@ -6,24 +6,24 @@ class Class_1_A6E47B602565A201;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define MOLEMOLE_CONFIG_INDEXFILEREF___C_METHOD_1_2AEDEA561DD24574_OFFSET UNITYSDK_OFFSET(0x11CB6E50)
-#define MOLEMOLE_CONFIG_INDEXFILEREF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CB6E00)
-#define MOLEMOLE_CONFIG_INDEXFILEREF___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB6E40)
+#define MOLEMOLE_CONFIG_INDEXFILEREF___C_METHOD_1_2AEDEA561DD24574_OFFSET UNITYSDK_OFFSET(0x192AC010)
+#define MOLEMOLE_CONFIG_INDEXFILEREF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192ABFC0)
+#define MOLEMOLE_CONFIG_INDEXFILEREF___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192AC000)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IndexFileRef___c_TypeDefinitionIndex = 77574;
+	inline static constexpr unsigned int IndexFileRef___c_TypeDefinitionIndex = 81452;
 
 	class IndexFileRef___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::IndexFileRef___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::IndexFileRef___c**)Il2CppClass::FromTypeDefinitionIndex(IndexFileRef___c_TypeDefinitionIndex)->GetStaticField(0x3E800);
+			return (::MoleMole::Config::IndexFileRef___c**)Il2CppClass::FromTypeDefinitionIndex(IndexFileRef___c_TypeDefinitionIndex)->GetStaticField(0x40DC0);
 		}
 		static ::System::Converter_2<::Class_1_A6E47B602565A201*, ::System::String*>** StaticGet___9__0_0()
 		{
-			return (::System::Converter_2<::Class_1_A6E47B602565A201*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IndexFileRef___c_TypeDefinitionIndex)->GetStaticField(0x3E808);
+			return (::System::Converter_2<::Class_1_A6E47B602565A201*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IndexFileRef___c_TypeDefinitionIndex)->GetStaticField(0x40DC8);
 		}
 
 		static ::System::Void _cctor()

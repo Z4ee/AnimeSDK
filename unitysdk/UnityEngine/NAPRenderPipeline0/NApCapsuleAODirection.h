@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NApCapsuleAODirection_TypeDefinitionIndex = 5945;
+	inline static constexpr unsigned int NApCapsuleAODirection_TypeDefinitionIndex = 5955;
 
 	enum class NApCapsuleAODirection : ::System::Int32
 	{

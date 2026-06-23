@@ -5,11 +5,11 @@
 namespace UnityEngine { class AudioClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RBDDESTRUCTION_VISUALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83F90)
+#define RBDDESTRUCTION_VISUALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC172B0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int VisualEffectConfig_TypeDefinitionIndex = 29703;
+	inline static constexpr unsigned int VisualEffectConfig_TypeDefinitionIndex = 26392;
 
 	class VisualEffectConfig : public ::System::Object
 	{

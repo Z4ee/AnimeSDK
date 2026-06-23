@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOANIMATIONPLUGINANIMSTATESYNC_SYNCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16058C10)
+#define MOLEMOLE_MONOANIMATIONPLUGINANIMSTATESYNC_SYNCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BCE410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAnimationPluginAnimStateSync_SyncConfig_TypeDefinitionIndex = 75931;
+	inline static constexpr unsigned int MonoAnimationPluginAnimStateSync_SyncConfig_TypeDefinitionIndex = 56223;
 
 	class MonoAnimationPluginAnimStateSync_SyncConfig : public ::System::Object
 	{

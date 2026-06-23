@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_525;
+class Class_2_208CC9941471731A_383;
 
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER_RIDUBOOLEVELABILITYTEMPLATEEXTANDLEVELID__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6AF10)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER_RIDUBOOLEVELABILITYTEMPLATEEXTANDLEVELID__CTOR_OFFSET UNITYSDK_OFFSET(0x15C12B10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooSelectLevelPageController_RiduBooLevelAbilityTemplateExtAndLevelID_TypeDefinitionIndex = 68332;
+	inline static constexpr unsigned int UIRidusGotBooSelectLevelPageController_RiduBooLevelAbilityTemplateExtAndLevelID_TypeDefinitionIndex = 39592;
 
 	class UIRidusGotBooSelectLevelPageController_RiduBooLevelAbilityTemplateExtAndLevelID : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_525* Cfg; // 0x10
+		::Class_2_208CC9941471731A_383* Cfg; // 0x10
 		::System::Int32 LevelID; // 0x18
 
 		::System::Void _ctor()

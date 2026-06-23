@@ -5,11 +5,11 @@
 class Class_1_1710A4EE34865C78;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1646C700)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A652D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTaskDetailWidgetController_Context_TypeDefinitionIndex = 38956;
+	inline static constexpr unsigned int UIBangkovTaskDetailWidgetController_Context_TypeDefinitionIndex = 86150;
 
 	class UIBangkovTaskDetailWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

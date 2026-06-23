@@ -16,85 +16,85 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A69E750)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1A6A0DF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1A6A0BF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1A69E410)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_SETUP_OFFSET UNITYSDK_OFFSET(0x1A69E3B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6A0E80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A69E030)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1A6A11C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B88F200)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1B891890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1B891690)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1B88EEC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE_SETUP_OFFSET UNITYSDK_OFFSET(0x1B88EE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B891920)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88EAE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COPYCOLORPASS_NOTNATIVE___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1B891C60)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int CopyColorPass_NotNative_TypeDefinitionIndex = 30485;
+	inline static constexpr unsigned int CopyColorPass_NotNative_TypeDefinitionIndex = 26942;
 
 	class CopyColorPass_NotNative : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPong()
+		static ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>** StaticGet_glassFilterBuffers()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24530);
-		}
-		static ::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>** StaticGet_glassFilterLoadActions()
-		{
-			return (::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24538);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_blurryTextureStrings()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24540);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPing()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24548);
+			return (::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D70);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24550);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D78);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPing()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D80);
+		}
+		static ::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>** StaticGet_glassFilterLoadActions()
+		{
+			return (::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D88);
 		}
 		static ::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>** StaticGet_glassFilterStoreActions()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24558);
+			return (::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D90);
 		}
-		static ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>** StaticGet_glassFilterBuffers()
+		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPong()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x24560);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21D98);
 		}
-		static ::System::Int32* StaticGet__GlassBlurCoCTexture()
+		static ::Il2CppArray<::System::String*>** StaticGet_blurryTextureStrings()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E30);
-		}
-		static ::System::Boolean* StaticGet_s_TempMipBufferExist()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E34);
-		}
-		static ::System::UInt32* StaticGet_RTLifetime_TempGlassBlurCoCTexture()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E38);
-		}
-		static ::System::Int32* StaticGet__FinalGlassBlurTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E3C);
-		}
-		static ::System::UInt32* StaticGet_RTLifetime_BlurRT2_0()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E40);
-		}
-		static ::System::UInt32* StaticGet_RTLifetime_TempGlassBlurTexture()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E44);
-		}
-		static ::System::Int32* StaticGet__GlassBlurTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E48);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x21DA0);
 		}
 		static ::System::Int32* StaticGet__TempGlassBlurTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E4C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B50);
+		}
+		static ::System::Int32* StaticGet__FinalGlassBlurTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B54);
 		}
 		static ::System::UInt32* StaticGet_RTLifetime_BlurRT1_0()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6E50);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B58);
+		}
+		static ::System::UInt32* StaticGet_RTLifetime_TempGlassBlurTexture()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B5C);
+		}
+		static ::System::Int32* StaticGet__GlassBlurTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B60);
+		}
+		static ::System::UInt32* StaticGet_RTLifetime_TempGlassBlurCoCTexture()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B64);
+		}
+		static ::System::Boolean* StaticGet_s_TempMipBufferExist()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B68);
+		}
+		static ::System::Int32* StaticGet__GlassBlurCoCTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B6C);
+		}
+		static ::System::UInt32* StaticGet_RTLifetime_BlurRT2_0()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_NotNative_TypeDefinitionIndex)->GetStaticField(0x6B70);
 		}
 		// static const ::System::String* k_ProfilerTag; // 0x0
 		::System::Boolean m_NeedExtraDownSampleForFrostedGlass; // 0xA8

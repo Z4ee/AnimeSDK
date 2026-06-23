@@ -12,30 +12,30 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_847BE8FDF454E853_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x1786D080)
-#define CLASS_2_847BE8FDF454E853_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1786D4E0)
-#define CLASS_2_847BE8FDF454E853_METHOD_2_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0x1786D340)
-#define CLASS_2_847BE8FDF454E853__CTOR_OFFSET UNITYSDK_OFFSET(0x1786D4D0)
+#define CLASS_2_847BE8FDF454E853_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xB7D19F0)
+#define CLASS_2_847BE8FDF454E853_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xB7D1E50)
+#define CLASS_2_847BE8FDF454E853_METHOD_2_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0xB7D1CB0)
+#define CLASS_2_847BE8FDF454E853__CTOR_OFFSET UNITYSDK_OFFSET(0xB7D1E40)
 
-inline static constexpr unsigned int Class_2_847BE8FDF454E853_TypeDefinitionIndex = 55320;
+inline static constexpr unsigned int Class_2_847BE8FDF454E853_TypeDefinitionIndex = 50832;
 
 class Class_2_847BE8FDF454E853 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_5; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x20
-	::UnityEngine::RectTransform* Field_2_6; // 0x28
-	::MoleMole::MonoInputKey* Field_2_10; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x38
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* Field_2_1; // 0x40
-	::Class_2_CA67A9CEB871FFD3* Field_2_9; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x50
-	::MoleMole::MonoInputKey* Field_2_11; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x68
-	::UnityEngine::Animation* Field_2_0; // 0x70
+	::MoleMole::MonoInputKey* Field_2_10; // 0x18
+	::Class_2_CA67A9CEB871FFD3* Field_2_9; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_8; // 0x28
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* Field_2_1; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
+	::MoleMole::MonoInputKey* Field_2_11; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x58
+	::UnityEngine::RectTransform* Field_2_6; // 0x60
+	::UnityEngine::Animation* Field_2_0; // 0x68
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_5; // 0x70
 
 	::System::Void _ctor()
 	{

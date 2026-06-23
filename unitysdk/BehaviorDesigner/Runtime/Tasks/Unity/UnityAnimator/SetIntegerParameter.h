@@ -11,33 +11,33 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0D2E60)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0x1C0D2830)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0D29C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x1C0D2DD0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D2EF0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0D2F80)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1C0D3010)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0D30A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E6040)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E3E5A10)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E5BA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x1E3E5FB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E60D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E6160)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E3E61F0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETINTEGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E6280)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityAnimator
 {
-	inline static constexpr unsigned int SetIntegerParameter_TypeDefinitionIndex = 32272;
+	inline static constexpr unsigned int SetIntegerParameter_TypeDefinitionIndex = 33823;
 
 	class SetIntegerParameter : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		static ::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Int32>** StaticGet_OnSetInteger()
 		{
-			return (::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SetIntegerParameter_TypeDefinitionIndex)->GetStaticField(0x25B30);
+			return (::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SetIntegerParameter_TypeDefinitionIndex)->GetStaticField(0x275A0);
 		}
-		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x58
-		::UnityEngine::Animator* animator; // 0x60
-		::UnityEngine::GameObject* prevGameObject; // 0x68
-		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x70
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x78
-		::System::Boolean setOnce; // 0x80
-		::System::Int32 hashID; // 0x84
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x58
+		::UnityEngine::GameObject* prevGameObject; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x68
+		::UnityEngine::Animator* animator; // 0x70
+		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x78
+		::System::Int32 hashID; // 0x80
+		::System::Boolean setOnce; // 0x84
 
 		::System::Void _ctor()
 		{

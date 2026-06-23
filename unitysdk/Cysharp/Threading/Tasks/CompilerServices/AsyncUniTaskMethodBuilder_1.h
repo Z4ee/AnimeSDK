@@ -8,7 +8,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int AsyncUniTaskMethodBuilder_1_TypeDefinitionIndex = 28834;
+	inline static constexpr unsigned int AsyncUniTaskMethodBuilder_1_TypeDefinitionIndex = 31490;
 
 	template <typename T>
 	struct AsyncUniTaskMethodBuilder_1

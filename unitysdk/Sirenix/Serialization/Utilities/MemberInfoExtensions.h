@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Reflection { class ICustomAttributeProvider; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1C47DAA0)
+#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1E7BBA60)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int MemberInfoExtensions_TypeDefinitionIndex = 7486;
+	inline static constexpr unsigned int MemberInfoExtensions_TypeDefinitionIndex = 7618;
 
 	class MemberInfoExtensions : public ::System::Object
 	{

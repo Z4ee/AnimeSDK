@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDSetInLevelStateGroup_StateGroupEnum.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUP_STATEGROUPKEYVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x10E0EF50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUP_STATEGROUPKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E0EFE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUP_STATEGROUPKEYVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x18B25F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUP_STATEGROUPKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B26020)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetInLevelStateGroup_StateGroupKeyValue_TypeDefinitionIndex = 82147;
+	inline static constexpr unsigned int LDSetInLevelStateGroup_StateGroupKeyValue_TypeDefinitionIndex = 47959;
 
 	class LDSetInLevelStateGroup_StateGroupKeyValue : public ::System::Object
 	{

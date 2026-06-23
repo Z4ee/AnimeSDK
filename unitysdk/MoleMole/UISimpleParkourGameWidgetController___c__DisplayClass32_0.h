@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UISimpleParkourGameWidgetController; }
 
-#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D701D0)
-#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS32_0__TRYSWITCHTRACK_B__0_OFFSET UNITYSDK_OFFSET(0x14D701E0)
+#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152B8980)
+#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS32_0__TRYSWITCHTRACK_B__0_OFFSET UNITYSDK_OFFSET(0x152B8990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISimpleParkourGameWidgetController___c__DisplayClass32_0_TypeDefinitionIndex = 61725;
+	inline static constexpr unsigned int UISimpleParkourGameWidgetController___c__DisplayClass32_0_TypeDefinitionIndex = 83830;
 
 	class UISimpleParkourGameWidgetController___c__DisplayClass32_0 : public ::System::Object
 	{

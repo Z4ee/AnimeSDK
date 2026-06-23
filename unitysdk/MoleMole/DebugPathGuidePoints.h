@@ -6,23 +6,23 @@
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::Extension { class PathGuide; }
 
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x11CC1DC0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x11CC1840)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x11CC2100)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CC2160)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC2150)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x11CC2270)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x192B79A0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x192B7420)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x192B7CE0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x192B7DA0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x192B7D90)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x192B7EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 60602;
+	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 63658;
 
 	class DebugPathGuidePoints : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_8_2()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x3E920);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x40EE0);
 		}
 		::UnityEngine::UI::Extension::PathGuide* PathGuideComponent; // 0xF8
 		::UnityEngine::UI::Extension::PathGuide* Field_8_1; // 0x100

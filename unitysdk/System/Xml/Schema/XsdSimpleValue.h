@@ -4,11 +4,11 @@
 
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F0860)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC48D30)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 1983;
+	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 1982;
 
 	class XsdSimpleValue : public ::System::Object
 	{

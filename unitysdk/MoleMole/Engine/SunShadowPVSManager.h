@@ -9,40 +9,40 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_DIR2XY_OFFSET UNITYSDK_OFFSET(0x16B755D0)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_GETBAKEDINDEX_OFFSET UNITYSDK_OFFSET(0x16B761D0)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_GETBAKEDPVSHANDLE_OFFSET UNITYSDK_OFFSET(0x16B76260)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16B763A0)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x16B75540)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x16B75D40)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_SETUPSUNSHADOWPVSCULLPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16B75810)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x16B76350)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_XY2DIR_OFFSET UNITYSDK_OFFSET(0x16B756D0)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B76500)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B764A0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_DIR2XY_OFFSET UNITYSDK_OFFSET(0x17E65640)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_GETBAKEDINDEX_OFFSET UNITYSDK_OFFSET(0x17E66240)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_GETBAKEDPVSHANDLE_OFFSET UNITYSDK_OFFSET(0x17E662D0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17E66410)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x17E655B0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x17E65DB0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_SETUPSUNSHADOWPVSCULLPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17E65880)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x17E663C0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER_XY2DIR_OFFSET UNITYSDK_OFFSET(0x17E65740)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E66570)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E66510)
 
 namespace MoleMole::Engine
 {
-	inline static constexpr unsigned int SunShadowPVSManager_TypeDefinitionIndex = 80101;
+	inline static constexpr unsigned int SunShadowPVSManager_TypeDefinitionIndex = 40797;
 
 	class SunShadowPVSManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_DataState()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0x379F0);
-		}
 		static ::MoleMole::Engine::SunShadowPVSManager** StaticGet_Instance()
 		{
-			return (::MoleMole::Engine::SunShadowPVSManager**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0x379F8);
+			return (::MoleMole::Engine::SunShadowPVSManager**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0x39EB0);
 		}
-		static ::System::Boolean* StaticGet_HitState()
+		static ::System::String** StaticGet_DataState()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0xDDF0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0x39EB8);
 		}
 		static ::System::Boolean* StaticGet_LogAction()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0xDDF1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0xE410);
+		}
+		static ::System::Boolean* StaticGet_HitState()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSManager_TypeDefinitionIndex)->GetStaticField(0xE411);
 		}
 		// static const ::System::String* Field_5_12; // 0x0
 		// static const ::System::String* Field_5_13; // 0x0

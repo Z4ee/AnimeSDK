@@ -3,12 +3,12 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySpline_ControlPointsSynchronizer_SynchronizationRequest_TypeDefinitionIndex = 37215;
+	inline static constexpr unsigned int CurvySpline_ControlPointsSynchronizer_SynchronizationRequest_TypeDefinitionIndex = 38849;
 
 	enum class CurvySpline_ControlPointsSynchronizer_SynchronizationRequest : ::System::Int32
 	{
-		None = 0,
-		SplineToHierarchy = 1,
 		HierarchyToSpline = 2,
+		SplineToHierarchy = 1,
+		None = 0,
 	};
 }

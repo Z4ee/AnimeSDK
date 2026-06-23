@@ -8,12 +8,12 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CONFFILELOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C27A650)
-#define CONFFILELOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C27A680)
-#define CONFFILELOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C27A110)
-#define CONFFILELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27A100)
+#define CONFFILELOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D78F790)
+#define CONFFILELOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D78F7C0)
+#define CONFFILELOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D78F250)
+#define CONFFILELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78F230)
 
-inline static constexpr unsigned int ConfFileLoader_TypeDefinitionIndex = 26205;
+inline static constexpr unsigned int ConfFileLoader_TypeDefinitionIndex = 28654;
 
 class ConfFileLoader : public ::System::MulticastDelegate
 {

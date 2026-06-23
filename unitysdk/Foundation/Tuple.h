@@ -13,7 +13,7 @@ namespace Foundation { template <typename T1, typename T2, typename T3, typename
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Tuple_TypeDefinitionIndex = 8086;
+	inline static constexpr unsigned int Tuple_TypeDefinitionIndex = 8393;
 
 	class Tuple : public ::System::Object
 	{

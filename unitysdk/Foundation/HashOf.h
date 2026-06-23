@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define FOUNDATION_HASHOF_GET_OFFSET UNITYSDK_OFFSET(0x1AB73000)
+#define FOUNDATION_HASHOF_GET_OFFSET UNITYSDK_OFFSET(0x1CFFE000)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int HashOf_TypeDefinitionIndex = 8990;
+	inline static constexpr unsigned int HashOf_TypeDefinitionIndex = 8451;
 
 	class HashOf : public ::System::Object
 	{

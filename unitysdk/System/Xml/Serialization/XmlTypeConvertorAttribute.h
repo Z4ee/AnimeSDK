@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeConvertorAttribute_TypeDefinitionIndex = 1869;
+	inline static constexpr unsigned int XmlTypeConvertorAttribute_TypeDefinitionIndex = 1868;
 
 	class XmlTypeConvertorAttribute : public ::System::Attribute
 	{

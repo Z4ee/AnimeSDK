@@ -5,11 +5,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_EXTENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE6C70)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSION_EXTENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E304C50)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 4428;
+	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 4427;
 
 	class Expression_ExtensionInfo : public ::System::Object
 	{

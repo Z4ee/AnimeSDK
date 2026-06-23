@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF84FB40)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF84FB80)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF84FB90)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8ABFA0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE8ABFE0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWISMOVINGCONDITIONINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE8ABFF0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c_TypeDefinitionIndex = 55330;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c_TypeDefinitionIndex = 78021;
 
 	class RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x424D0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowIsMovingConditionInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x45610);
 		}
 
 		static ::System::Void _cctor()

@@ -8,7 +8,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int WeatherConfigDrawSkyParams_TypeDefinitionIndex = 5931;
+	inline static constexpr unsigned int WeatherConfigDrawSkyParams_TypeDefinitionIndex = 5941;
 
 	struct alignas(8) WeatherConfigDrawSkyParams
 	{

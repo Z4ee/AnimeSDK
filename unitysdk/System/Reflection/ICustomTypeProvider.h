@@ -5,7 +5,7 @@ namespace System { class Type; }
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ICustomTypeProvider_TypeDefinitionIndex = 4110;
+	inline static constexpr unsigned int ICustomTypeProvider_TypeDefinitionIndex = 4109;
 
 	class ICustomTypeProvider
 	{

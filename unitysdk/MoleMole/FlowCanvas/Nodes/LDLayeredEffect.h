@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16040E40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16041050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB4510)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB4720)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLayeredEffect_TypeDefinitionIndex = 50565;
+	inline static constexpr unsigned int LDLayeredEffect_TypeDefinitionIndex = 58555;
 
 	class LDLayeredEffect : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Boolean, ::MoleMole::Battle::Entity*, ::Il2CppArray<::System::Int32>*, ::System::Boolean, ::System::String*>
 	{

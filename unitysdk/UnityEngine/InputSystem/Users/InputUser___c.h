@@ -6,29 +6,29 @@
 namespace System { class Action; }
 namespace UnityEngine::InputSystem::Utilities { template <typename T> class SavedStructState_1_TypedRestore; }
 
-#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A059EB0)
-#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A059EF0)
-#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__SAVEANDRESETSTATE_B__86_0_OFFSET UNITYSDK_OFFSET(0x1A059F00)
-#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__SAVEANDRESETSTATE_B__86_1_OFFSET UNITYSDK_OFFSET(0x1A059F20)
+#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C382380)
+#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3823C0)
+#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__SAVEANDRESETSTATE_B__86_0_OFFSET UNITYSDK_OFFSET(0x1C3823D0)
+#define UNITYENGINE_INPUTSYSTEM_USERS_INPUTUSER___C__SAVEANDRESETSTATE_B__86_1_OFFSET UNITYSDK_OFFSET(0x1C3823F0)
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser___c_TypeDefinitionIndex = 29101;
+	inline static constexpr unsigned int InputUser___c_TypeDefinitionIndex = 31757;
 
 	class InputUser___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::Users::InputUser___c** StaticGet___9()
+		static ::UnityEngine::InputSystem::Utilities::SavedStructState_1_TypedRestore<::UnityEngine::InputSystem::Users::InputUser_GlobalState>** StaticGet___9__86_0()
 		{
-			return (::UnityEngine::InputSystem::Users::InputUser___c**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x223E0);
+			return (::UnityEngine::InputSystem::Utilities::SavedStructState_1_TypedRestore<::UnityEngine::InputSystem::Users::InputUser_GlobalState>**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x26170);
 		}
 		static ::System::Action** StaticGet___9__86_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x223E8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x26178);
 		}
-		static ::UnityEngine::InputSystem::Utilities::SavedStructState_1_TypedRestore<::UnityEngine::InputSystem::Users::InputUser_GlobalState>** StaticGet___9__86_0()
+		static ::UnityEngine::InputSystem::Users::InputUser___c** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::Utilities::SavedStructState_1_TypedRestore<::UnityEngine::InputSystem::Users::InputUser_GlobalState>**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x223F0);
+			return (::UnityEngine::InputSystem::Users::InputUser___c**)Il2CppClass::FromTypeDefinitionIndex(InputUser___c_TypeDefinitionIndex)->GetStaticField(0x26180);
 		}
 
 		static ::System::Void _cctor()

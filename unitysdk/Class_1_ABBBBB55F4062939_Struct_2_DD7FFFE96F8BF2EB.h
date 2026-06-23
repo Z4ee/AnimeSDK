@@ -5,16 +5,16 @@
 
 class Class_1_0698DCBDF48031C1;
 
-inline static constexpr unsigned int Class_1_ABBBBB55F4062939_Struct_2_DD7FFFE96F8BF2EB_TypeDefinitionIndex = 43333;
+inline static constexpr unsigned int Class_1_ABBBBB55F4062939_Struct_2_DD7FFFE96F8BF2EB_TypeDefinitionIndex = 44184;
 
 struct alignas(8) Class_1_ABBBBB55F4062939_Struct_2_DD7FFFE96F8BF2EB
 {
 	::Class_1_0698DCBDF48031C1* Field_2_7; // 0x10
-	::System::Single Field_2_6; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
-	::UnityEngine::Vector3 Field_2_1; // 0x20
-	::System::Single Field_2_5; // 0x2C
-	::UnityEngine::Vector3 Field_2_0; // 0x30
-	::System::Int32 Field_2_2; // 0x3C
-	::System::Single Field_2_4; // 0x40
+	::System::Int32 Field_2_3; // 0x18
+	::UnityEngine::Vector3 Field_2_1; // 0x1C
+	::System::Single Field_2_5; // 0x28
+	::UnityEngine::Vector3 Field_2_0; // 0x2C
+	::System::Single Field_2_6; // 0x38
+	::System::Single Field_2_4; // 0x3C
+	::System::Int32 Field_2_2; // 0x40
 };

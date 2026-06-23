@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Security::Authentication::ExtendedProtection { class ChannelBinding; }
 namespace System::Security::Authentication::ExtendedProtection { class TokenBinding; }
 
-#define SYSTEM_NET_TRANSPORTCONTEXT_GETTLSTOKENBINDINGS_OFFSET UNITYSDK_OFFSET(0x19226B50)
-#define SYSTEM_NET_TRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19226BA0)
+#define SYSTEM_NET_TRANSPORTCONTEXT_GETTLSTOKENBINDINGS_OFFSET UNITYSDK_OFFSET(0x1B40CC70)
+#define SYSTEM_NET_TRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40CCC0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 3334;
+	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 3333;
 
 	class TransportContext : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeListUnsafeUtility_TypeDefinitionIndex = 20165;
+	inline static constexpr unsigned int NativeListUnsafeUtility_TypeDefinitionIndex = 18468;
 
 	class NativeListUnsafeUtility : public ::System::Object
 	{

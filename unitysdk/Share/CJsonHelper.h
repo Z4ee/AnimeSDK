@@ -5,20 +5,20 @@
 namespace Share { class IJsonHelper; }
 namespace System { class String; }
 
-#define SHARE_CJSONHELPER_GET_IMPL_OFFSET UNITYSDK_OFFSET(0x17FD82E0)
-#define SHARE_CJSONHELPER_SET_IMPL_OFFSET UNITYSDK_OFFSET(0x17FD82F0)
-#define SHARE_CJSONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FD8300)
+#define SHARE_CJSONHELPER_GET_IMPL_OFFSET UNITYSDK_OFFSET(0x1D6542A0)
+#define SHARE_CJSONHELPER_SET_IMPL_OFFSET UNITYSDK_OFFSET(0x1D6542B0)
+#define SHARE_CJSONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6542C0)
 
 namespace Share
 {
-	inline static constexpr unsigned int CJsonHelper_TypeDefinitionIndex = 14018;
+	inline static constexpr unsigned int CJsonHelper_TypeDefinitionIndex = 16740;
 
 	class CJsonHelper : public ::System::Object
 	{
 	public:
 		static ::Share::IJsonHelper** StaticGet__Impl_k__BackingField()
 		{
-			return (::Share::IJsonHelper**)Il2CppClass::FromTypeDefinitionIndex(CJsonHelper_TypeDefinitionIndex)->GetStaticField(0x8E90);
+			return (::Share::IJsonHelper**)Il2CppClass::FromTypeDefinitionIndex(CJsonHelper_TypeDefinitionIndex)->GetStaticField(0x7810);
 		}
 
 		::System::Void _ctor()

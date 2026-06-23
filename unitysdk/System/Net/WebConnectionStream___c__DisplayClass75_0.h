@@ -5,12 +5,12 @@
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebConnectionStream; }
 
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A25FA30)
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A25FA40)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C66D730)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C66D740)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnectionStream___c__DisplayClass75_0_TypeDefinitionIndex = 3572;
+	inline static constexpr unsigned int WebConnectionStream___c__DisplayClass75_0_TypeDefinitionIndex = 3571;
 
 	class WebConnectionStream___c__DisplayClass75_0 : public ::System::Object
 	{

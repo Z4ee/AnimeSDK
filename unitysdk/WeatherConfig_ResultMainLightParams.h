@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { class LensFlareDataSRP; }
 namespace UnityEngine::Rendering::Universal { class LensFlareConfig; }
 namespace UnityEngine::Rendering::Universal { class LightShaftConfig; }
 
-inline static constexpr unsigned int WeatherConfig_ResultMainLightParams_TypeDefinitionIndex = 29523;
+inline static constexpr unsigned int WeatherConfig_ResultMainLightParams_TypeDefinitionIndex = 27056;
 
 struct alignas(8) WeatherConfig_ResultMainLightParams
 {

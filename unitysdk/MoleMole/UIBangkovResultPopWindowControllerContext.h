@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC4520)
+#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x176D6570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovResultPopWindowControllerContext_TypeDefinitionIndex = 38998;
+	inline static constexpr unsigned int UIBangkovResultPopWindowControllerContext_TypeDefinitionIndex = 44168;
 
 	class UIBangkovResultPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

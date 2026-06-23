@@ -6,7 +6,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Ray3Polygon3Intr_TypeDefinitionIndex = 33156;
+	inline static constexpr unsigned int Ray3Polygon3Intr_TypeDefinitionIndex = 34719;
 
 	struct alignas(4) Ray3Polygon3Intr
 	{

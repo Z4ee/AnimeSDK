@@ -5,32 +5,32 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1887AF50)
-#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1887AE60)
-#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1887AD80)
+#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB504E0)
+#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB503F0)
+#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB50310)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 8646;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 19144;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x7AE0);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x7AE8);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x7AF0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D20);
 		}
 		static ::System::String** StaticGet_ALPHABET_STRING()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x7AF8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D28);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D30);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D38);
 		}
 		::System::Text::StringBuilder* decodeRowResult; // 0x10
 		::Il2CppArray<::System::Int32>* counters; // 0x18

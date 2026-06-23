@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_Scheduler_NodeLink_TypeDefinitionIndex = 8863;
+	inline static constexpr unsigned int TickSequencer_1_Scheduler_NodeLink_TypeDefinitionIndex = 8596;
 
 	template <typename TTickingGroup>
 	struct TickSequencer_1_Scheduler_NodeLink

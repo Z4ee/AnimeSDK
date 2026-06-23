@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINPLOTRANKDIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4F8E0)
+#define MOLEMOLE_UIMAINPLOTRANKDIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x174D7C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainPlotRankDialogPopWindowController_PanelData_TypeDefinitionIndex = 66176;
+	inline static constexpr unsigned int UIMainPlotRankDialogPopWindowController_PanelData_TypeDefinitionIndex = 47721;
 
 	class UIMainPlotRankDialogPopWindowController_PanelData : public ::MoleMole::UIControllerContextBase
 	{

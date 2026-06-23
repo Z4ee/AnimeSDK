@@ -5,12 +5,12 @@
 namespace MoleMole { class AbyssS2_GenRouteMapConfig; }
 namespace MoleMole { class AbyssS2_IMapGenerator; }
 
-#define MOLEMOLE_ABYSSS2_MAPGENERATORFACTORY_CREATEGENERATOR_OFFSET UNITYSDK_OFFSET(0x110029A0)
-#define MOLEMOLE_ABYSSS2_MAPGENERATORFACTORY_TEST_OFFSET UNITYSDK_OFFSET(0x11002960)
+#define MOLEMOLE_ABYSSS2_MAPGENERATORFACTORY_CREATEGENERATOR_OFFSET UNITYSDK_OFFSET(0x13EB99D0)
+#define MOLEMOLE_ABYSSS2_MAPGENERATORFACTORY_TEST_OFFSET UNITYSDK_OFFSET(0x13EB9990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_MapGeneratorFactory_TypeDefinitionIndex = 82327;
+	inline static constexpr unsigned int AbyssS2_MapGeneratorFactory_TypeDefinitionIndex = 85696;
 
 	class AbyssS2_MapGeneratorFactory : public ::System::Object
 	{

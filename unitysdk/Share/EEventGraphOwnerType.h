@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EEventGraphOwnerType_TypeDefinitionIndex = 17070;
+	inline static constexpr unsigned int EEventGraphOwnerType_TypeDefinitionIndex = 8833;
 
 	enum class EEventGraphOwnerType : ::System::Int16
 	{
-		Scene = 0,
 		Hollow = 3,
-		Section = 1,
 		SceneUnit = 2,
+		Scene = 0,
+		Section = 1,
 	};
 }

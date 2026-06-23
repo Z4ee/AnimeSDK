@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_E87F1D15F1D4AC72.h"
+
+class Class_2_A9A857AD270B9CE1;
+class Class_2_FDFE69FE7B72463B;
+namespace MoleMole { class MonoHackProgressItem; }
+namespace MoleMole { class UIControlCollection; }
+
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_0C88AB06D46E777A_OFFSET UNITYSDK_OFFSET(0x11D10320)
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_0D1AC79BF88F61DB_OFFSET UNITYSDK_OFFSET(0x11D104F0)
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_25314FAB730654AC_OFFSET UNITYSDK_OFFSET(0x11D10510)
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_43A46E5F9FAC62B8_OFFSET UNITYSDK_OFFSET(0x11D10500)
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_58BA0C8308C8127F_OFFSET UNITYSDK_OFFSET(0x11D10520)
+#define CLASS_3_801B15DF09EADEEE_METHOD_3_F542621131A5D653_OFFSET UNITYSDK_OFFSET(0x11D10240)
+#define CLASS_3_801B15DF09EADEEE__CTOR_OFFSET UNITYSDK_OFFSET(0x11D10460)
+
+inline static constexpr unsigned int Class_3_801B15DF09EADEEE_TypeDefinitionIndex = 53173;
+
+class Class_3_801B15DF09EADEEE : public ::Class_2_E87F1D15F1D4AC72
+{
+public:
+	::MoleMole::MonoHackProgressItem* Field_3_0; // 0x28
+	::Class_2_FDFE69FE7B72463B* Field_3_1; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_F542621131A5D653(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_F542621131A5D653_OFFSET))(this, a1, a2);
+	}
+
+	::MoleMole::MonoHackProgressItem* Method_3_0D1AC79BF88F61DB()
+	{
+		return ((::MoleMole::MonoHackProgressItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_0D1AC79BF88F61DB_OFFSET))(this);
+	}
+
+	::Class_2_FDFE69FE7B72463B* Method_3_43A46E5F9FAC62B8()
+	{
+		return ((::Class_2_FDFE69FE7B72463B*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_43A46E5F9FAC62B8_OFFSET))(this);
+	}
+
+	::System::Void Method_3_25314FAB730654AC(::MoleMole::MonoHackProgressItem* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoHackProgressItem*))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_25314FAB730654AC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_58BA0C8308C8127F(::Class_2_FDFE69FE7B72463B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_FDFE69FE7B72463B*))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_58BA0C8308C8127F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_0C88AB06D46E777A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_801B15DF09EADEEE_METHOD_3_0C88AB06D46E777A_OFFSET))(this);
+	}
+};

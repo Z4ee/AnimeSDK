@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Wwise_SwitchGroup_Atkweapon_TypeDefinitionIndex = 42403;
+	inline static constexpr unsigned int Wwise_SwitchGroup_Atkweapon_TypeDefinitionIndex = 71066;
 
 	enum class Wwise_SwitchGroup_Atkweapon : ::System::Int32
 	{

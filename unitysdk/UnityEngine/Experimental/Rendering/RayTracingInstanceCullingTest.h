@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingInstanceCullingTest_TypeDefinitionIndex = 6312;
+	inline static constexpr unsigned int RayTracingInstanceCullingTest_TypeDefinitionIndex = 6338;
 
 	struct alignas(4) RayTracingInstanceCullingTest
 	{

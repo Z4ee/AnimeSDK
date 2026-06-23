@@ -5,9 +5,9 @@
 class RandomNPCPrefabsLibItem;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RANDOMNPCPREFABSLIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBB110)
+#define RANDOMNPCPREFABSLIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A7450)
 
-inline static constexpr unsigned int RandomNPCPrefabsLibrary_TypeDefinitionIndex = 66678;
+inline static constexpr unsigned int RandomNPCPrefabsLibrary_TypeDefinitionIndex = 84363;
 
 class RandomNPCPrefabsLibrary : public ::System::Object
 {

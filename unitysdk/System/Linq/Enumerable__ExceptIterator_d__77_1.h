@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T> class Set_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__ExceptIterator_d__77_1_TypeDefinitionIndex = 4364;
+	inline static constexpr unsigned int Enumerable__ExceptIterator_d__77_1_TypeDefinitionIndex = 4363;
 
 	template <typename TSource>
 	class Enumerable__ExceptIterator_d__77_1 : public ::System::Object

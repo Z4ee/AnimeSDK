@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IUniTaskSource_1_TypeDefinitionIndex = 28535;
+	inline static constexpr unsigned int IUniTaskSource_1_TypeDefinitionIndex = 31190;
 
 	template <typename T>
 	class IUniTaskSource_1

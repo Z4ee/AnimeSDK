@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_MeshVertexChannelFlags_TypeDefinitionIndex = 85031;
+	inline static constexpr unsigned int MB_MeshVertexChannelFlags_TypeDefinitionIndex = 90605;
 
 	enum class MB_MeshVertexChannelFlags : ::System::Int32
 	{

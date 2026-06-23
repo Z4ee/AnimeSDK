@@ -19,12 +19,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIGUICOMMON_GAMESTART_GET_CURVEDATAINFO_OFFSET UNITYSDK_OFFSET(0x18F39110)
-#define MOLEMOLE_CONFIGUICOMMON_GAMESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x18F39360)
+#define MOLEMOLE_CONFIGUICOMMON_GAMESTART_GET_CURVEDATAINFO_OFFSET UNITYSDK_OFFSET(0x1B21D2B0)
+#define MOLEMOLE_CONFIGUICOMMON_GAMESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21D4F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_GameStart_TypeDefinitionIndex = 82704;
+	inline static constexpr unsigned int ConfigUICommon_GameStart_TypeDefinitionIndex = 49717;
 
 	class ConfigUICommon_GameStart : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -46,8 +46,10 @@ namespace MoleMole
 		::MoleMole::ConfigDownloader* DownloaderConfig; // 0xC8
 		::Foundation::ConfigDiffPatcher* DiffPatcherConfig; // 0xD0
 		::Foundation::Assets_ConfigHashSetTrim* HashSetTrimConfig; // 0xD8
-		::UnityEngine::Vector2 DamageTextScreenSpaceRangeMin; // 0xE0
-		::UnityEngine::Vector2 DamageTextScreenSpaceRangeMax; // 0xE8
+		::System::Int32 xboxPCHandheldMinPixelHeight; // 0xE0
+		::System::Int32 xboxPCHandheldMaxPixelHeight; // 0xE4
+		::UnityEngine::Vector2 DamageTextScreenSpaceRangeMin; // 0xE8
+		::UnityEngine::Vector2 DamageTextScreenSpaceRangeMax; // 0xF0
 
 		::System::Void _ctor()
 		{

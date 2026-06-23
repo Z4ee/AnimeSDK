@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int YogaEdge_TypeDefinitionIndex = 24930;
+	inline static constexpr unsigned int YogaEdge_TypeDefinitionIndex = 27433;
 
 	enum class YogaEdge : ::System::Int32
 	{

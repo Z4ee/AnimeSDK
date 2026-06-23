@@ -6,18 +6,18 @@
 class Class_1_663AFC2250EC21C9;
 class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 
-#define MOLEMOLE_CONFIGPHOTOFRAMEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x18F38FF0)
-#define MOLEMOLE_CONFIGPHOTOFRAMEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F39090)
+#define MOLEMOLE_CONFIGPHOTOFRAMEDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B21D1B0)
+#define MOLEMOLE_CONFIGPHOTOFRAMEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21D230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigPhotoFrameDynamicCheckTreeNode_TypeDefinitionIndex = 61050;
+	inline static constexpr unsigned int ConfigPhotoFrameDynamicCheckTreeNode_TypeDefinitionIndex = 83361;
 
 	class ConfigPhotoFrameDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{
 	public:
-		::System::Int32 CompareArg; // 0x10
-		::MoleMole::Config::ValueCompareType CompareType; // 0x14
+		::MoleMole::Config::ValueCompareType CompareType; // 0x10
+		::System::Int32 CompareArg; // 0x14
 
 		::System::Void _ctor()
 		{

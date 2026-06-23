@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightOptimizeConfig_LightGroundDiscardType_TypeDefinitionIndex = 30019;
+	inline static constexpr unsigned int LightOptimizeConfig_LightGroundDiscardType_TypeDefinitionIndex = 26974;
 
 	enum class LightOptimizeConfig_LightGroundDiscardType : ::System::Int32
 	{

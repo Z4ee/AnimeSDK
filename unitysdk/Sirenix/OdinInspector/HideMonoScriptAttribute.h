@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_HIDEMONOSCRIPTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01FF50)
+#define SIRENIX_ODININSPECTOR_HIDEMONOSCRIPTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329260)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideMonoScriptAttribute_TypeDefinitionIndex = 7182;
+	inline static constexpr unsigned int HideMonoScriptAttribute_TypeDefinitionIndex = 7313;
 
 	class HideMonoScriptAttribute : public ::System::Attribute
 	{

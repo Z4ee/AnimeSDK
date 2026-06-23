@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NamespaceList_ListType_TypeDefinitionIndex = 2071;
+	inline static constexpr unsigned int NamespaceList_ListType_TypeDefinitionIndex = 2070;
 
 	enum class NamespaceList_ListType : ::System::Int32
 	{

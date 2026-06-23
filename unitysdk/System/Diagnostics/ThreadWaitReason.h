@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ThreadWaitReason_TypeDefinitionIndex = 2804;
+	inline static constexpr unsigned int ThreadWaitReason_TypeDefinitionIndex = 2803;
 
 	enum class ThreadWaitReason : ::System::Int32
 	{

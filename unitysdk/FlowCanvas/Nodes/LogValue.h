@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define FLOWCANVAS_NODES_LOGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F6230)
-#define FLOWCANVAS_NODES_LOGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F6240)
+#define FLOWCANVAS_NODES_LOGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D389020)
+#define FLOWCANVAS_NODES_LOGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D389030)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LogValue_TypeDefinitionIndex = 27788;
+	inline static constexpr unsigned int LogValue_TypeDefinitionIndex = 29921;
 
 	class LogValue : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Object*>
 	{

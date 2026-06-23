@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ModifiableContactPair_TypeDefinitionIndex = 7663;
+	inline static constexpr unsigned int ModifiableContactPair_TypeDefinitionIndex = 7709;
 
 	struct alignas(8) ModifiableContactPair
 	{

@@ -5,7 +5,7 @@ namespace Spine { class AnimationState; }
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int IAnimationStateComponent_TypeDefinitionIndex = 37872;
+	inline static constexpr unsigned int IAnimationStateComponent_TypeDefinitionIndex = 39500;
 
 	class IAnimationStateComponent
 	{

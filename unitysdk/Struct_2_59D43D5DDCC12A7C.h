@@ -6,7 +6,7 @@
 class Class_2_DF2C726EEEEC912D;
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Struct_2_59D43D5DDCC12A7C_TypeDefinitionIndex = 40619;
+inline static constexpr unsigned int Struct_2_59D43D5DDCC12A7C_TypeDefinitionIndex = 86670;
 
 struct alignas(8) Struct_2_59D43D5DDCC12A7C
 {

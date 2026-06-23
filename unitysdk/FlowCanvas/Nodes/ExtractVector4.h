@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define FLOWCANVAS_NODES_EXTRACTVECTOR4_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B0EB630)
-#define FLOWCANVAS_NODES_EXTRACTVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EB660)
+#define FLOWCANVAS_NODES_EXTRACTVECTOR4_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D531E50)
+#define FLOWCANVAS_NODES_EXTRACTVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D531E80)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractVector4_TypeDefinitionIndex = 27486;
+	inline static constexpr unsigned int ExtractVector4_TypeDefinitionIndex = 30102;
 
 	class ExtractVector4 : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Vector4, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

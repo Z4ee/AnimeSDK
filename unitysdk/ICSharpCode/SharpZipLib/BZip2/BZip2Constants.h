@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_BZIP2_BZIP2CONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C45C3A0)
-#define ICSHARPCODE_SHARPZIPLIB_BZIP2_BZIP2CONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C45C390)
+#define ICSHARPCODE_SHARPZIPLIB_BZIP2_BZIP2CONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E79A160)
+#define ICSHARPCODE_SHARPZIPLIB_BZIP2_BZIP2CONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E79A150)
 
 namespace ICSharpCode::SharpZipLib::BZip2
 {
-	inline static constexpr unsigned int BZip2Constants_TypeDefinitionIndex = 6634;
+	inline static constexpr unsigned int BZip2Constants_TypeDefinitionIndex = 6765;
 
 	class BZip2Constants : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_RandomNumbers()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BZip2Constants_TypeDefinitionIndex)->GetStaticField(0x5B60);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BZip2Constants_TypeDefinitionIndex)->GetStaticField(0x5C50);
 		}
 		// static const ::System::Int32 BaseBlockSize = 0x186A0; // 0x0
 		// static const ::System::Int32 MaximumAlphaSize = 0x102; // 0x0

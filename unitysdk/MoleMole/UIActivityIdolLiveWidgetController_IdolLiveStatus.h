@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityIdolLiveWidgetController_IdolLiveStatus_TypeDefinitionIndex = 73148;
+	inline static constexpr unsigned int UIActivityIdolLiveWidgetController_IdolLiveStatus_TypeDefinitionIndex = 61290;
 
 	enum class UIActivityIdolLiveWidgetController_IdolLiveStatus : ::System::Int32
 	{
-		CountDown = 1,
-		Finish = 3,
-		None = 0,
 		Live = 2,
+		CountDown = 1,
+		None = 0,
+		Finish = 3,
 	};
 }

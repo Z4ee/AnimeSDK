@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TaskRuntime_TypeDefinitionIndex = 58778;
+	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TaskRuntime_TypeDefinitionIndex = 46424;
 
 	struct alignas(8) NPCCrowdDistanceProcessor_TaskRuntime
 	{

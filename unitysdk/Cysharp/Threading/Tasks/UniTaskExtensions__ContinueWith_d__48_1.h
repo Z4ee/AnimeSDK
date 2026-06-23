@@ -12,7 +12,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__48_1_TypeDefinitionIndex = 28644;
+	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__48_1_TypeDefinitionIndex = 31300;
 
 	template <typename T>
 	struct UniTaskExtensions__ContinueWith_d__48_1

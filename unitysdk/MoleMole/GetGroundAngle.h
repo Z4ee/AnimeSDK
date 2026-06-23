@@ -10,24 +10,24 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_GETGROUNDANGLE_FILTERRAYCASTBYDISTANCEANDTAG_OFFSET UNITYSDK_OFFSET(0x10BC38F0)
-#define MOLEMOLE_GETGROUNDANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10BC2AE0)
-#define MOLEMOLE_GETGROUNDANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10BC2D50)
-#define MOLEMOLE_GETGROUNDANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC3E30)
-#define MOLEMOLE_GETGROUNDANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10BC3ED0)
-#define MOLEMOLE_GETGROUNDANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10BC3F60)
+#define MOLEMOLE_GETGROUNDANGLE_FILTERRAYCASTBYDISTANCEANDTAG_OFFSET UNITYSDK_OFFSET(0x151320C0)
+#define MOLEMOLE_GETGROUNDANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x151312B0)
+#define MOLEMOLE_GETGROUNDANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15131520)
+#define MOLEMOLE_GETGROUNDANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15132600)
+#define MOLEMOLE_GETGROUNDANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x151326A0)
+#define MOLEMOLE_GETGROUNDANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15132730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetGroundAngle_TypeDefinitionIndex = 61167;
+	inline static constexpr unsigned int GetGroundAngle_TypeDefinitionIndex = 68080;
 
 	class GetGroundAngle : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* StartPosition; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x68
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::BehaviorDesigner::Runtime::SharedString* StartPosition; // 0x70
 		::System::Single DEFAULT_RAYCAST_LENGTH; // 0x78
 
 		::System::Void _ctor()

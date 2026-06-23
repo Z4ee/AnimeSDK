@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x123183B0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x123183C0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x123185A0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12318740)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12318700)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D63F80)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D63F90)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D64170)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D64310)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_CONFIGVIEWOBJECTMISC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D642D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex = 63147;
+	inline static constexpr unsigned int ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex = 46261;
 
 	class ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigViewObjectMisc*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C450);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::GuidePoint_AutoGenStrategy>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::GuidePoint_AutoGenStrategy>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C458);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::GuidePoint_AutoGenStrategy>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E9D0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_ConfigViewObjectMisc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E9D8);
 		}
 
 		::System::Void _ctor()

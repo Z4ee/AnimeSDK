@@ -5,14 +5,14 @@
 
 namespace System::Collections { class IEnumerator; }
 
-#define FLOWCANVAS_NODES_TWEENFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A8479B0)
-#define FLOWCANVAS_NODES_TWEENFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8479D0)
-#define FLOWCANVAS_NODES_TWEENFLOAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A8479C0)
-#define FLOWCANVAS_NODES_TWEENFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A847A60)
+#define FLOWCANVAS_NODES_TWEENFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CC364E0)
+#define FLOWCANVAS_NODES_TWEENFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC36500)
+#define FLOWCANVAS_NODES_TWEENFLOAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CC364F0)
+#define FLOWCANVAS_NODES_TWEENFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC36590)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenFloat_TypeDefinitionIndex = 27537;
+	inline static constexpr unsigned int TweenFloat_TypeDefinitionIndex = 30333;
 
 	class TweenFloat : public ::FlowCanvas::Nodes::LatentActionNode_4<::System::Single, ::System::Single, ::System::Single, ::ParadoxNotion::Animation::EaseType>
 	{

@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Container/NativeHashSet_2.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
+#include "unitysdk/NPCCrowd/AI/PathGraphConfig_RoadGraphType.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementActionHandle.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementStyleSpeedParameters.h"
@@ -16,6 +18,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+class Class_3_CCAF4B6A77932E66;
 class Class_3_F2DAD7F45F518868;
 namespace NPCCrowd { class NPCIDGeneratorInt; }
 namespace NPCCrowd::AI { class PathGraphConfigComponentSet; }
@@ -27,90 +30,115 @@ namespace NPCCrowd::AI { class PathGraphSplineNodeRuntime_BlockState; }
 namespace NPCCrowd::Ability { class NPCAbility; }
 namespace NPCCrowd::Ability { class NPCAbilityParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xCE548B0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCE4F590)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXITINTERACTSPLINE_OFFSET UNITYSDK_OFFSET(0xCE54230)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETEXITSPLINEPOINTINDEX_OFFSET UNITYSDK_OFFSET(0xCE53890)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETFORWARD_OFFSET UNITYSDK_OFFSET(0xCE4F490)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xCE55C00)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTCONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xCE4E7D0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTLANE_OFFSET UNITYSDK_OFFSET(0xCE4E0E0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTPOINTINPATH_OFFSET UNITYSDK_OFFSET(0xCE4C760)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTPOINT_OFFSET UNITYSDK_OFFSET(0xCE4DDE0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHFOLLOWAIMPOS_OFFSET UNITYSDK_OFFSET(0xCE4F1B0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHNEARESTDATA_OFFSET UNITYSDK_OFFSET(0xCE4EAA0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTSCOUNTINCLUDELANE_OFFSET UNITYSDK_OFFSET(0xCE4D5B0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTSINCLUDELANE_OFFSET UNITYSDK_OFFSET(0xCE4D7E0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTS_1_OFFSET UNITYSDK_OFFSET(0xCE4D380)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTS_OFFSET UNITYSDK_OFFSET(0xCE4D0F0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xCE4F400)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPREVABILITY_OFFSET UNITYSDK_OFFSET(0xCE55A30)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETREFPOINTRATIO_OFFSET UNITYSDK_OFFSET(0xCE4EBF0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSPLINEMERGETARGETPOS_OFFSET UNITYSDK_OFFSET(0xCE4EED0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0xCE4B470)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTROTATION_OFFSET UNITYSDK_OFFSET(0xCE4B780)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTSPLINEPOINTINDEX_OFFSET UNITYSDK_OFFSET(0xCE4BCC0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_HANDLENODECHANGED_OFFSET UNITYSDK_OFFSET(0xCE49E90)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITDEFAULTDATA_OFFSET UNITYSDK_OFFSET(0xCE4BF30)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITPATHPROCESSOR_OFFSET UNITYSDK_OFFSET(0xCE4A000)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPASSEDAIM_OFFSET UNITYSDK_OFFSET(0xCE4BBF0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPATHFOLLOWMOVING_OFFSET UNITYSDK_OFFSET(0xCE49B90)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0xCE49C20)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ONDESTROYPROCESSOR_OFFSET UNITYSDK_OFFSET(0xCE49CA0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET UNITYSDK_OFFSET(0xCE506F0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_PREPARESTAIRSPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xCE518A0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETINTERACTSPLINE_OFFSET UNITYSDK_OFFSET(0xCE53CC0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETPATHFOLLOWFINDRESULT_OFFSET UNITYSDK_OFFSET(0xCE4C470)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_STARTSLOPESPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xCE51A50)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_STARTSTAIRSPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xCE505B0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TELEPORTPATHFOLLOWPOINT_OFFSET UNITYSDK_OFFSET(0xCE4CBF0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYEXITSPLINENODE_OFFSET UNITYSDK_OFFSET(0xCE51460)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYFADEOUTMOVE_OFFSET UNITYSDK_OFFSET(0xCE53A30)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xCE54AF0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATECOMMONBLOCK_OFFSET UNITYSDK_OFFSET(0xCE54C70)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEEXITINTERACTTARGET_OFFSET UNITYSDK_OFFSET(0xCE56C20)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEFIRSTABILITYINNODE_OFFSET UNITYSDK_OFFSET(0xCE55D00)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEFOLLOWPREV_OFFSET UNITYSDK_OFFSET(0xCE55FD0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEINTERACTTARGET_OFFSET UNITYSDK_OFFSET(0xCE566C0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATENEXTLANE_OFFSET UNITYSDK_OFFSET(0xCE53370)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEPATHFOLLOWAIM_OFFSET UNITYSDK_OFFSET(0xCE50CC0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xCE50A30)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPEEDCONTROL_OFFSET UNITYSDK_OFFSET(0xCE55060)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPLINENODECONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xCE51AE0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPLINENODE_OFFSET UNITYSDK_OFFSET(0xCE520F0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEWAITINGBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xCE562D0)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE57080)
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCE57070)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_APPLYPATHSPEEDOVERRIDE_OFFSET UNITYSDK_OFFSET(0xD5B5300)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xD5BF900)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD5B9520)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXITINTERACTSPLINE_OFFSET UNITYSDK_OFFSET(0xD5BF270)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETCURPATHGRAPHTYPE_OFFSET UNITYSDK_OFFSET(0xD5B9390)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETEXITSPLINEPOINTINDEX_OFFSET UNITYSDK_OFFSET(0xD5BE8B0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETFORWARD_OFFSET UNITYSDK_OFFSET(0xD5B9110)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xD5C1BD0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTCONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xD5B8400)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTLANE_OFFSET UNITYSDK_OFFSET(0xD5B7D00)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTPOINTINPATH_OFFSET UNITYSDK_OFFSET(0xD5B6100)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETNEARESTPOINT_OFFSET UNITYSDK_OFFSET(0xD5B7A00)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHFOLLOWAIMPOS_OFFSET UNITYSDK_OFFSET(0xD5B8E10)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHNEARESTDATA_OFFSET UNITYSDK_OFFSET(0xD5B86E0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTSCOUNTINCLUDELANE_OFFSET UNITYSDK_OFFSET(0xD5B71B0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTSINCLUDELANE_OFFSET UNITYSDK_OFFSET(0xD5B73E0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTS_1_OFFSET UNITYSDK_OFFSET(0xD5B6F80)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHPOINTS_OFFSET UNITYSDK_OFFSET(0xD5B6CF0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xD5B9080)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPREVABILITY_OFFSET UNITYSDK_OFFSET(0xD5C1540)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETREFPOINTRATIO_OFFSET UNITYSDK_OFFSET(0xD5B8830)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSPLINEMERGETARGETPOS_OFFSET UNITYSDK_OFFSET(0xD5B8B10)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0xD5B4830)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTROTATION_OFFSET UNITYSDK_OFFSET(0xD5B4B50)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTSPLINEPOINTINDEX_OFFSET UNITYSDK_OFFSET(0xD5B5090)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_HANDLENODECHANGED_OFFSET UNITYSDK_OFFSET(0xD5B2F10)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITDEFAULTDATA_OFFSET UNITYSDK_OFFSET(0xD5B5900)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITPATHPROCESSOR_OFFSET UNITYSDK_OFFSET(0xD5B30A0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPASSEDAIM_OFFSET UNITYSDK_OFFSET(0xD5B4FC0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPATHFOLLOWMOVING_OFFSET UNITYSDK_OFFSET(0xD5B2C10)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0xD5B2CA0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_NEEDFORCENOPITCH_OFFSET UNITYSDK_OFFSET(0xD5B92D0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_ONDESTROYPROCESSOR_OFFSET UNITYSDK_OFFSET(0xD5B2D20)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET UNITYSDK_OFFSET(0xD5BACC0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_PREPARESTAIRSPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xD5BC290)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETINTERACTSPLINE_OFFSET UNITYSDK_OFFSET(0xD5BECE0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETPATHFOLLOWFINDRESULT_OFFSET UNITYSDK_OFFSET(0xD5B5CD0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETTAGSTATE_OFFSET UNITYSDK_OFFSET(0xD5C19B0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_STARTSLOPESPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xD5B5710)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_STARTSTAIRSPEEDBLEND_OFFSET UNITYSDK_OFFSET(0xD5BAB80)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SYNCSPEEDCONTROLTAGS_OFFSET UNITYSDK_OFFSET(0xD5C1710)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TELEPORTPATHFOLLOWPOINT_OFFSET UNITYSDK_OFFSET(0xD5B65A0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYEXITSPLINENODE_OFFSET UNITYSDK_OFFSET(0xD5BBE50)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYFADEOUTMOVE_OFFSET UNITYSDK_OFFSET(0xD5BEA50)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYGETSLOPESPEEDSCALE_OFFSET UNITYSDK_OFFSET(0xD5B57B0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYREFRESHSLOPESPEEDATSPAWNTICK_OFFSET UNITYSDK_OFFSET(0xD5B5430)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xD5BFB40)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATECOMMONBLOCK_OFFSET UNITYSDK_OFFSET(0xD5BFDB0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEEXITINTERACTTARGET_OFFSET UNITYSDK_OFFSET(0xD5C2CC0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEFIRSTABILITYINNODE_OFFSET UNITYSDK_OFFSET(0xD5C1CD0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEFOLLOWPREV_OFFSET UNITYSDK_OFFSET(0xD5C2070)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEINTERACTTARGET_OFFSET UNITYSDK_OFFSET(0xD5C2760)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATENEXTLANE_OFFSET UNITYSDK_OFFSET(0xD5BE390)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEPATHFOLLOWAIM_OFFSET UNITYSDK_OFFSET(0xD5BB670)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xD5BB0B0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPEEDCONTROL_OFFSET UNITYSDK_OFFSET(0xD5C01A0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPLINENODECONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xD5BC440)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPLINENODE_OFFSET UNITYSDK_OFFSET(0xD5BCE80)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATEWAITINGBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xD5C2370)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5C3120)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD5C3110)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_TypeDefinitionIndex = 57251;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_TypeDefinitionIndex = 67697;
 
 	class NPCAbilityPathFollowProcessor : public ::System::Object
 	{
 	public:
-		static ::System::Single* StaticGet_SpeedScale()
+		static ::System::String** StaticGet_PathBlockedStopTagString()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE130);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0x3AF80);
 		}
-		static ::System::Single* StaticGet_FOLLOW_SCALE()
+		static ::System::String** StaticGet_PathFollowStopTagString()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE134);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0x3AF88);
 		}
-		static ::System::Single* StaticGet__upAxisInterpolationFactor()
+		static ::System::String** StaticGet_PathFollowStartTagString()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE138);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0x3AF90);
+		}
+		static ::System::String** StaticGet_PathFollowDecelerateTagString()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0x3AF98);
 		}
 		static ::System::Single* StaticGet_SlopeSpeedScale()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE13C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE800);
+		}
+		static ::System::Single* StaticGet__upAxisInterpolationFactor()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE804);
 		}
 		static ::System::Single* StaticGet_StairPrepareDistance()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE140);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE808);
 		}
+		static ::System::Single* StaticGet_SpeedScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE80C);
+		}
+		static ::System::Single* StaticGet_FOLLOW_SCALE()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityPathFollowProcessor_TypeDefinitionIndex)->GetStaticField(0xE810);
+		}
+		// static const ::System::Single SpeedTagEpsilon; // 0x0
 
 		::System::Void _ctor()
 		{
@@ -142,6 +170,16 @@ namespace NPCCrowd::Ability
 			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::Boolean, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::NPCCrowd::Ability::NPCAbilityParameters*, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::FNPCAbilityMovementStyleSpeedParameters, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITPATHPROCESSOR_OFFSET))(this, pathResult, teleportToStartPosition, laneIndex, laneInnerOffset, runtime, parameters, idx, endFadeOutTime, moveParams, randDesiredSpeed, pathID);
 		}
 
+		static ::System::Boolean TryRefreshSlopeSpeedAtSpawnTick(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYREFRESHSLOPESPEEDATSPAWNTICK_OFFSET))(pathFollow);
+		}
+
+		static ::System::Boolean TryGetSlopeSpeedScale(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::System::Single& speedScale)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::System::Single&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYGETSLOPESPEEDSCALE_OFFSET))(pathFollow, speedScale);
+		}
+
 		::System::Void InitDefaultData(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::NPCCrowd::Ability::NPCAbilityParameters* parameters, ::System::Int32 idx, ::System::Single endFadeOutTime, ::NPCCrowd::Ability::FNPCAbilityMovementStyleSpeedParameters moveParams, ::System::Single randDesiredSpeed)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::NPCCrowd::Ability::NPCAbilityParameters*, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::FNPCAbilityMovementStyleSpeedParameters, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_INITDEFAULTDATA_OFFSET))(this, runtime, parameters, idx, endFadeOutTime, moveParams, randDesiredSpeed);
@@ -155,6 +193,11 @@ namespace NPCCrowd::Ability
 		static ::UnityEngine::Vector3 GetStartPosition(::UnityEngine::Vector3 originalPosition, ::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::NPCCrowd::AI::PathGraphSplineControlPointLocatorComponent* initialLocator)
 		{
 			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32, ::System::Single, ::NPCCrowd::AI::PathGraphSplineControlPointLocatorComponent*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSTARTPOSITION_OFFSET))(originalPosition, splineNodeRuntime, components, isForward, laneIndex, laneInnerOffset, initialLocator);
+		}
+
+		static ::System::Void ApplyPathSpeedOverride(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::NPCCrowd::AI::PathGraphSplineNodeRuntime* nodeRuntime)
+		{
+			return ((::System::Void(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::AI::PathGraphSplineNodeRuntime*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_APPLYPATHSPEEDOVERRIDE_OFFSET))(pathFollow, nodeRuntime);
 		}
 
 		static ::UnityEngine::Quaternion GetStartRotation(::UnityEngine::Quaternion originalRotation, ::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::NPCCrowd::AI::PathGraphSplineControlPointLocatorComponent* initialLocator)
@@ -227,14 +270,14 @@ namespace NPCCrowd::Ability
 			return ((::System::Single(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETREFPOINTRATIO_OFFSET))(splineNodeRuntime, components, isForward, pointIndex);
 		}
 
-		static ::UnityEngine::Vector3 GetSplineMergeTargetPos(::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::System::Int32 pointIndex, ::System::Int32 laneIndex, ::System::Single laneInnerOffset)
+		static ::UnityEngine::Vector3 GetSplineMergeTargetPos(::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::System::Int32 pointIndex, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::Int32 laneInnerOffset2DIdx)
 		{
-			return ((::UnityEngine::Vector3(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSPLINEMERGETARGETPOS_OFFSET))(splineNodeRuntime, components, isForward, pointIndex, laneIndex, laneInnerOffset);
+			return ((::UnityEngine::Vector3(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETSPLINEMERGETARGETPOS_OFFSET))(splineNodeRuntime, components, isForward, pointIndex, laneIndex, laneInnerOffset, laneInnerOffset2DIdx);
 		}
 
-		static ::UnityEngine::Vector3 GetPathFollowAimPos(::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::System::Int32 pointIndex, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::Single refPosRatio, ::UnityEngine::Vector3 refPos)
+		static ::UnityEngine::Vector3 GetPathFollowAimPos(::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward, ::System::Int32 pointIndex, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::Int32 laneInnerOffset2DIdx, ::System::Single refPosRatio, ::UnityEngine::Vector3 refPos)
 		{
-			return ((::UnityEngine::Vector3(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHFOLLOWAIMPOS_OFFSET))(splineNodeRuntime, components, isForward, pointIndex, laneIndex, laneInnerOffset, refPosRatio, refPos);
+			return ((::UnityEngine::Vector3(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETPATHFOLLOWAIMPOS_OFFSET))(splineNodeRuntime, components, isForward, pointIndex, laneIndex, laneInnerOffset, laneInnerOffset2DIdx, refPosRatio, refPos);
 		}
 
 		static ::UnityEngine::Vector3 GetPosition(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::System::Single t)
@@ -245,6 +288,11 @@ namespace NPCCrowd::Ability
 		static ::UnityEngine::Vector3 GetForward(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::System::Single t)
 		{
 			return ((::UnityEngine::Vector3(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETFORWARD_OFFSET))(pathFollow, t);
+		}
+
+		static ::System::Boolean NeedForceNoPitch(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_NEEDFORCENOPITCH_OFFSET))(pathFollow);
 		}
 
 		static ::System::Void Execute(::System::Int32 idx, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2>& runtime_pathFollow, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment>& runtime_moveTarget, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform, ::Unity::Collections::NativeArray_1<::System::UInt32> EntityIds, ::System::Single deltaTime)
@@ -302,9 +350,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::Ability::FTransformFragment, ::NPCCrowd::AI::PathGraphConfigComponentSet*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_TRYEXITSPLINENODE_OFFSET))(pathFollow, transform, components);
 		}
 
-		static ::System::Void SetInteractSpline(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::NPCCrowd::Ability::FTransformFragment transform, ::UnityEngine::Vector3 aimPos, ::UnityEngine::Vector3 aimForward)
+		static ::System::Void SetInteractSpline(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::NPCCrowd::Ability::FTransformFragment transform, ::UnityEngine::Vector3 aimPos, ::UnityEngine::Vector3 aimForward, ::System::Boolean ignoreStop)
 		{
-			return ((::System::Void(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::Ability::FTransformFragment, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETINTERACTSPLINE_OFFSET))(pathFollow, transform, aimPos, aimForward);
+			return ((::System::Void(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::Ability::FTransformFragment, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETINTERACTSPLINE_OFFSET))(pathFollow, transform, aimPos, aimForward, ignoreStop);
 		}
 
 		static ::System::Void ExitInteractSpline(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::NPCCrowd::AI::PathGraphSplineNodeRuntime* nodeRuntime, ::NPCCrowd::Ability::FTransformFragment trans)
@@ -320,6 +368,11 @@ namespace NPCCrowd::Ability
 		static ::System::Int32 GetExitSplinePointIndex(::NPCCrowd::AI::PathGraphSplineNodeRuntime* splineNodeRuntime, ::NPCCrowd::AI::PathGraphConfigComponentSet* components, ::System::Boolean isForward)
 		{
 			return ((::System::Int32(*)(::NPCCrowd::AI::PathGraphSplineNodeRuntime*, ::NPCCrowd::AI::PathGraphConfigComponentSet*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETEXITSPLINEPOINTINDEX_OFFSET))(splineNodeRuntime, components, isForward);
+		}
+
+		static ::NPCCrowd::AI::PathGraphConfig_RoadGraphType GetCurPathGraphType(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2 pathFollow)
+		{
+			return ((::NPCCrowd::AI::PathGraphConfig_RoadGraphType(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_GETCURPATHGRAPHTYPE_OFFSET))(pathFollow);
 		}
 
 		::Unity::Jobs::JobHandle Execute_1(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::System::Single deltaTime, ::Unity::Jobs::JobHandle dependsOn)
@@ -340,6 +393,16 @@ namespace NPCCrowd::Ability
 		static ::System::Void UpdateSpeedControl(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::System::UInt32 entityID, ::NPCCrowd::Ability::NPCAbilityFollowBehavioursDefine followDefine, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> entityMap, ::System::Single deltaTime)
 		{
 			return ((::System::Void(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::System::UInt32, ::NPCCrowd::Ability::NPCAbilityFollowBehavioursDefine, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_UPDATESPEEDCONTROL_OFFSET))(pathFollow, entityID, followDefine, entityMap, deltaTime);
+		}
+
+		static ::System::Void SyncSpeedControlTags(::System::UInt32 entityID, ::System::Boolean wasMoving, ::System::Single previousDesiredSpeed, ::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2& pathFollow, ::Foundation::Unreal::FGameplayTag startTag, ::Foundation::Unreal::FGameplayTag decelerateTag, ::Foundation::Unreal::FGameplayTag stopTag)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::System::Boolean, ::System::Single, ::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SYNCSPEEDCONTROLTAGS_OFFSET))(entityID, wasMoving, previousDesiredSpeed, pathFollow, startTag, decelerateTag, stopTag);
+		}
+
+		static ::System::Void SetTagState(::Class_3_CCAF4B6A77932E66* tagComponent, ::Foundation::Unreal::FGameplayTag tag, ::System::Boolean enabled)
+		{
+			return ((::System::Void(*)(::Class_3_CCAF4B6A77932E66*, ::Foundation::Unreal::FGameplayTag, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_SETTAGSTATE_OFFSET))(tagComponent, tag, enabled);
 		}
 
 		static ::NPCCrowd::Ability::NPCEntityNativeData GetNativeData(::System::UInt32 entityId, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> entityMap)

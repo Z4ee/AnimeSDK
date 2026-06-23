@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int InputTracking_TrackingStateEventType_TypeDefinitionIndex = 25149;
+	inline static constexpr unsigned int InputTracking_TrackingStateEventType_TypeDefinitionIndex = 27634;
 
 	enum class InputTracking_TrackingStateEventType : ::System::Int32
 	{

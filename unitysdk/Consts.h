@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Consts_TypeDefinitionIndex = 2259;
+inline static constexpr unsigned int Consts_TypeDefinitionIndex = 2258;
 
 class Consts : public ::System::Object
 {

@@ -14,7 +14,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int WriteDeferredDictionary_2_TypeDefinitionIndex = 7907;
+	inline static constexpr unsigned int WriteDeferredDictionary_2_TypeDefinitionIndex = 8386;
 
 	template <typename TKey, typename TValue>
 	class WriteDeferredDictionary_2 : public ::System::Object

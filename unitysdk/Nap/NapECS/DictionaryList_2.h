@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int DictionaryList_2_TypeDefinitionIndex = 35718;
+	inline static constexpr unsigned int DictionaryList_2_TypeDefinitionIndex = 37347;
 
 	template <typename TKey, typename TValue>
 	class DictionaryList_2 : public ::System::Object

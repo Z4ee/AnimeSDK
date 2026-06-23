@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION_SET_LANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B8EE850)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8EE950)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8EE940)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION_SET_LANGUAGE_OFFSET UNITYSDK_OFFSET(0x1DC46CF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC46DF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC46DE0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaDocumentation_TypeDefinitionIndex = 2139;
+	inline static constexpr unsigned int XmlSchemaDocumentation_TypeDefinitionIndex = 2138;
 
 	class XmlSchemaDocumentation : public ::System::Xml::Schema::XmlSchemaObject
 	{

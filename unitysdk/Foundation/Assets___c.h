@@ -12,39 +12,39 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FOUNDATION_ASSETS___C__BEFOREASSETBUNDLEINDEX_CLEAR_B__241_0_OFFSET UNITYSDK_OFFSET(0x1BE565E0)
-#define FOUNDATION_ASSETS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE564D0)
-#define FOUNDATION_ASSETS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE56510)
-#define FOUNDATION_ASSETS___C__DUMPASSETLOG_ONRESTART_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BE56520)
-#define FOUNDATION_ASSETS___C__DUMPASSETSLOADING_B__197_0_OFFSET UNITYSDK_OFFSET(0x1BE565A0)
-#define FOUNDATION_ASSETS___C__DUMPASSETSLOADING_B__197_1_OFFSET UNITYSDK_OFFSET(0x1BE565C0)
+#define FOUNDATION_ASSETS___C__BEFOREASSETBUNDLEINDEX_CLEAR_B__241_0_OFFSET UNITYSDK_OFFSET(0x1E1A4EB0)
+#define FOUNDATION_ASSETS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1A4DA0)
+#define FOUNDATION_ASSETS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A4DE0)
+#define FOUNDATION_ASSETS___C__DUMPASSETLOG_ONRESTART_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E1A4DF0)
+#define FOUNDATION_ASSETS___C__DUMPASSETSLOADING_B__197_0_OFFSET UNITYSDK_OFFSET(0x1E1A4E70)
+#define FOUNDATION_ASSETS___C__DUMPASSETSLOADING_B__197_1_OFFSET UNITYSDK_OFFSET(0x1E1A4E90)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Assets___c_TypeDefinitionIndex = 8328;
+	inline static constexpr unsigned int Assets___c_TypeDefinitionIndex = 7817;
 
 	class Assets___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::AssetLoadCacheKey, ::Foundation::AssetRequestBase*>, ::Foundation::AssetRequestStatus>** StaticGet___9__197_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::AssetLoadCacheKey, ::Foundation::AssetRequestBase*>, ::Foundation::AssetRequestStatus>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7150);
-		}
-		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__241_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7158);
-		}
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__2_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7160);
-		}
-		static ::Foundation::Assets___c** StaticGet___9()
-		{
-			return (::Foundation::Assets___c**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7168);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::AssetLoadCacheKey, ::Foundation::AssetRequestBase*>, ::Foundation::AssetRequestStatus>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x73E0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::BundleID, ::Foundation::BundleRequest*>, ::Foundation::AssetRequestStatus>** StaticGet___9__197_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::BundleID, ::Foundation::BundleRequest*>, ::Foundation::AssetRequestStatus>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7170);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Foundation::BundleID, ::Foundation::BundleRequest*>, ::Foundation::AssetRequestStatus>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x73E8);
+		}
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__2_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x73F0);
+		}
+		static ::Foundation::Assets___c** StaticGet___9()
+		{
+			return (::Foundation::Assets___c**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x73F8);
+		}
+		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__241_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Assets___c_TypeDefinitionIndex)->GetStaticField(0x7400);
 		}
 
 		static ::System::Void _cctor()

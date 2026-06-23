@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1242FCA0)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1242FCB0)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1242FE90)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12430030)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1242FFF0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1AA64DD0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1AA64DE0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1AA64FC0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA65160)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_CONFIGUIGACHAPORTRAIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA65120)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex = 48130;
+	inline static constexpr unsigned int ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex = 81666;
 
 	class ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigUIGachaPortrait*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIGachaConfigContainer*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIGachaConfigContainer*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x402B0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIPortraitItem*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIPortraitItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x402B8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIPortraitItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42C90);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIGachaConfigContainer*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigUIGachaConfigContainer*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIGachaPortrait_ConfigUIGachaPortrait_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42C98);
 		}
 
 		::System::Void _ctor()

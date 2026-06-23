@@ -7,21 +7,21 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class MultiToggle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A295250)
-#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A295260)
-#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A295300)
-#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A295380)
-#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1A295400)
+#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41C00)
+#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BC41C10)
+#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1BC41CB0)
+#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1BC41D30)
+#define FLOWCANVAS_NODES_MULTITOGGLE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1BC41DB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MultiToggle___c__DisplayClass7_0_TypeDefinitionIndex = 27420;
+	inline static constexpr unsigned int MultiToggle___c__DisplayClass7_0_TypeDefinitionIndex = 29506;
 
 	class MultiToggle___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x10
-		::FlowCanvas::Nodes::MultiToggle* __4__this; // 0x18
+		::FlowCanvas::Nodes::MultiToggle* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x18
 
 		::System::Void _ctor()
 		{

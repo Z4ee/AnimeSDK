@@ -7,16 +7,16 @@ class Class_2_E621E51D351EB960;
 class Class_3_E665773526DA81A8;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_2_E621E51D351EB960_CLASS_1_69C64BD80F90C5B2_COMPARE_OFFSET UNITYSDK_OFFSET(0x12ABD790)
-#define CLASS_2_E621E51D351EB960_CLASS_1_69C64BD80F90C5B2__CTOR_OFFSET UNITYSDK_OFFSET(0x12ABD3D0)
+#define CLASS_2_E621E51D351EB960_CLASS_1_69C64BD80F90C5B2_COMPARE_OFFSET UNITYSDK_OFFSET(0x15C68330)
+#define CLASS_2_E621E51D351EB960_CLASS_1_69C64BD80F90C5B2__CTOR_OFFSET UNITYSDK_OFFSET(0x15C67F80)
 
-inline static constexpr unsigned int Class_2_E621E51D351EB960_Class_1_69C64BD80F90C5B2_TypeDefinitionIndex = 54278;
+inline static constexpr unsigned int Class_2_E621E51D351EB960_Class_1_69C64BD80F90C5B2_TypeDefinitionIndex = 84983;
 
 class Class_2_E621E51D351EB960_Class_1_69C64BD80F90C5B2 : public ::System::Object
 {
 public:
-	::Class_2_E621E51D351EB960* Field_1_0; // 0x10
-	::System::Collections::Generic::IList_1<::Class_3_E665773526DA81A8*>* Field_1_2; // 0x18
+	::System::Collections::Generic::IList_1<::Class_3_E665773526DA81A8*>* Field_1_2; // 0x10
+	::Class_2_E621E51D351EB960* Field_1_0; // 0x18
 	::System::Boolean Field_1_1; // 0x20
 
 	::System::Void _ctor(::System::Boolean a1)

@@ -6,7 +6,7 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1_TypeDefinitionIndex = 6932;
+	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1_TypeDefinitionIndex = 7063;
 
 	template <typename T>
 	class LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1 : public ::System::Object

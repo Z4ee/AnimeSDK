@@ -6,11 +6,11 @@ namespace MoleMole { class ConfigChessEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGCHESSENTITYMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAF9F0)
+#define MOLEMOLE_CONFIGCHESSENTITYMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x158CB410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigChessEntityMap_TypeDefinitionIndex = 72427;
+	inline static constexpr unsigned int ConfigChessEntityMap_TypeDefinitionIndex = 74111;
 
 	class ConfigChessEntityMap : public ::MoleMole::SerializedScriptableObjectBase
 	{

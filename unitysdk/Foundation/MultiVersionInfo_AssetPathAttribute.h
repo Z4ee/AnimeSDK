@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/MultiVer.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FOUNDATION_MULTIVERSIONINFO_ASSETPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00F0C0)
+#define FOUNDATION_MULTIVERSIONINFO_ASSETPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1ED570)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionInfo_AssetPathAttribute_TypeDefinitionIndex = 7760;
+	inline static constexpr unsigned int MultiVersionInfo_AssetPathAttribute_TypeDefinitionIndex = 7823;
 
 	class MultiVersionInfo_AssetPathAttribute : public ::System::Attribute
 	{

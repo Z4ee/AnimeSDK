@@ -4,7 +4,7 @@
 
 namespace MoleMole { class MonoSpawnPoint; }
 
-inline static constexpr unsigned int Class_1_92716080D9218E0F_Struct_2_C66AA39BF19D4087_TypeDefinitionIndex = 76867;
+inline static constexpr unsigned int Class_1_92716080D9218E0F_Struct_2_C66AA39BF19D4087_TypeDefinitionIndex = 59202;
 
 struct alignas(8) Class_1_92716080D9218E0F_Struct_2_C66AA39BF19D4087
 {

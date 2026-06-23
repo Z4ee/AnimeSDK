@@ -8,7 +8,7 @@ class Class_1_4BD7B665C4CA18EA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_4_1CD00A39E320831D_Struct_2_48479FC62C9C3B13_TypeDefinitionIndex = 57815;
+inline static constexpr unsigned int Class_4_1CD00A39E320831D_Struct_2_48479FC62C9C3B13_TypeDefinitionIndex = 56799;
 
 struct alignas(8) Class_4_1CD00A39E320831D_Struct_2_48479FC62C9C3B13
 {

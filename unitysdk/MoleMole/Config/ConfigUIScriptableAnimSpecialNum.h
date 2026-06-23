@@ -6,11 +6,11 @@ namespace MoleMole::Config { class UISpecialNumGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMSPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x181D6930)
+#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMSPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF32E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIScriptableAnimSpecialNum_TypeDefinitionIndex = 44358;
+	inline static constexpr unsigned int ConfigUIScriptableAnimSpecialNum_TypeDefinitionIndex = 48012;
 
 	class ConfigUIScriptableAnimSpecialNum : public ::Foundation::MihoyoSerializedScriptableObject
 	{

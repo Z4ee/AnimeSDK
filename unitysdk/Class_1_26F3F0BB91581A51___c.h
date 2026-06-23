@@ -6,27 +6,27 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_26F3F0BB91581A51___C_METHOD_1_D8299432719B3C68_1_OFFSET UNITYSDK_OFFSET(0x12C28610)
-#define CLASS_1_26F3F0BB91581A51___C_METHOD_1_D8299432719B3C68_OFFSET UNITYSDK_OFFSET(0x12C285B0)
-#define CLASS_1_26F3F0BB91581A51___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C28560)
-#define CLASS_1_26F3F0BB91581A51___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12C285A0)
+#define CLASS_1_26F3F0BB91581A51___C_METHOD_1_D8299432719B3C68_1_OFFSET UNITYSDK_OFFSET(0x10146990)
+#define CLASS_1_26F3F0BB91581A51___C_METHOD_1_D8299432719B3C68_OFFSET UNITYSDK_OFFSET(0x10146930)
+#define CLASS_1_26F3F0BB91581A51___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x101468E0)
+#define CLASS_1_26F3F0BB91581A51___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10146920)
 
-inline static constexpr unsigned int Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex = 41297;
+inline static constexpr unsigned int Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex = 61076;
 
 class Class_1_26F3F0BB91581A51___c : public ::System::Object
 {
 public:
-	static ::Class_1_26F3F0BB91581A51___c** StaticGet___9()
+	static ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>** StaticGet___9__1_0()
 	{
-		return (::Class_1_26F3F0BB91581A51___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x41310);
+		return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x3D970);
 	}
 	static ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x41318);
+		return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x3D978);
 	}
-	static ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>** StaticGet___9__1_0()
+	static ::Class_1_26F3F0BB91581A51___c** StaticGet___9()
 	{
-		return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x41320);
+		return (::Class_1_26F3F0BB91581A51___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_26F3F0BB91581A51___c_TypeDefinitionIndex)->GetStaticField(0x3D980);
 	}
 
 	static ::System::Void _cctor()

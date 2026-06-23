@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceCollectionInstance_StepResult_TypeDefinitionIndex = 36196;
+	inline static constexpr unsigned int CameraSequenceCollectionInstance_StepResult_TypeDefinitionIndex = 37804;
 
 	enum class CameraSequenceCollectionInstance_StepResult : ::System::Int32
 	{

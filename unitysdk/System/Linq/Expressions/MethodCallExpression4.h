@@ -9,24 +9,24 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C06DF20)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C06E690)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1C06DFD0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1C06E6A0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C06DFE0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06DEA0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E38AE90)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E38B600)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E38AF40)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E38B610)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E38AF50)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38AE10)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MethodCallExpression4_TypeDefinitionIndex = 4520;
+	inline static constexpr unsigned int MethodCallExpression4_TypeDefinitionIndex = 4519;
 
 	class MethodCallExpression4 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg3; // 0x18
-		::System::Linq::Expressions::Expression* _arg1; // 0x20
-		::System::Linq::Expressions::Expression* _arg2; // 0x28
-		::System::Object* _arg0; // 0x30
+		::System::Linq::Expressions::Expression* _arg1; // 0x18
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Object* _arg0; // 0x28
+		::System::Linq::Expressions::Expression* _arg3; // 0x30
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3)
 		{

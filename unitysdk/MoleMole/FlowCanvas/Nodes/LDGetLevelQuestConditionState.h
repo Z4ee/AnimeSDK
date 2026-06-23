@@ -8,24 +8,24 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x1427B460)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1427B300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1427B500)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1427B540)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1427B600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x1160B6D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1160B570)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1160B770)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1160B7B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1160B870)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetLevelQuestConditionState_TypeDefinitionIndex = 55012;
+	inline static constexpr unsigned int LDGetLevelQuestConditionState_TypeDefinitionIndex = 73479;
 
 	class LDGetLevelQuestConditionState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* input; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isFail; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
 		::FlowCanvas::ValueOutput_1<::System::Int32>* value; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isFail; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xC8
 
 		::System::Void _ctor()
 		{

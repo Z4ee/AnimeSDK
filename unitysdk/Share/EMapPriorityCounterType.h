@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMapPriorityCounterType_TypeDefinitionIndex = 11868;
+	inline static constexpr unsigned int EMapPriorityCounterType_TypeDefinitionIndex = 15013;
 
 	enum class EMapPriorityCounterType : ::System::Int16
 	{

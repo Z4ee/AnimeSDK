@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E7FD40)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E7FD80)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x12E7FD90)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C27DC0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C27E00)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x15C27E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex = 76585;
+	inline static constexpr unsigned int UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex = 66932;
 
 	class UISuibianBusinessTopPanelWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__2_0()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47BB0);
-		}
 		static ::MoleMole::UISuibianBusinessTopPanelWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianBusinessTopPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47BB8);
+			return (::MoleMole::UISuibianBusinessTopPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4A0A0);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__2_0()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4A0A8);
 		}
 
 		static ::System::Void _cctor()

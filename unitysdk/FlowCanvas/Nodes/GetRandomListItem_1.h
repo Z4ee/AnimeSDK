@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetRandomListItem_1_TypeDefinitionIndex = 27001;
+	inline static constexpr unsigned int GetRandomListItem_1_TypeDefinitionIndex = 29249;
 
 	template <typename T>
 	class GetRandomListItem_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, ::System::Collections::Generic::IList_1<T>*>

@@ -21,12 +21,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ScriptableObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER_GET__PLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x1396EFA0)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1396F050)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER_GET__PLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x162778D0)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16277980)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int MonoCGTimelineReferenceManager_TypeDefinitionIndex = 66494;
+	inline static constexpr unsigned int MonoCGTimelineReferenceManager_TypeDefinitionIndex = 61103;
 
 	class MonoCGTimelineReferenceManager : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

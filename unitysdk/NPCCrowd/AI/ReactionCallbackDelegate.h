@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCD24680)
-#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCD24710)
-#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD24340)
-#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD24330)
+#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD407FF0)
+#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD408080)
+#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD407CB0)
+#define NPCCROWD_AI_REACTIONCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xD407C90)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionCallbackDelegate_TypeDefinitionIndex = 59975;
+	inline static constexpr unsigned int ReactionCallbackDelegate_TypeDefinitionIndex = 40827;
 
 	class ReactionCallbackDelegate : public ::System::MulticastDelegate
 	{
@@ -23,14 +23,14 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NPCCROWD_AI_REACTIONCALLBACKDELEGATE__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::System::UInt32 handlerID, ::System::UInt32 reactionID)
+		::System::Void Invoke(::System::Int32 handlerID, ::System::UInt32 reactionID)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_REACTIONCALLBACKDELEGATE_INVOKE_OFFSET))(this, handlerID, reactionID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_REACTIONCALLBACKDELEGATE_INVOKE_OFFSET))(this, handlerID, reactionID);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 handlerID, ::System::UInt32 reactionID, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 handlerID, ::System::UInt32 reactionID, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_REACTIONCALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, handlerID, reactionID, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_REACTIONCALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, handlerID, reactionID, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

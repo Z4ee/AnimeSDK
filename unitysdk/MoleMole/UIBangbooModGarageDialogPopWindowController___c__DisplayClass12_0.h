@@ -6,19 +6,19 @@ class Class_1_9631DA8CB6F86BD4;
 namespace MoleMole { class UIBangbooModGarageDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E5EB90)
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x14E5EBA0)
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__1_OFFSET UNITYSDK_OFFSET(0x14E5EC40)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15228CE0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x15228CF0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__1_OFFSET UNITYSDK_OFFSET(0x15228D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 44332;
+	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 66624;
 
 	class UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangbooModGarageDialogPopWindowController* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIBangbooModGarageDialogPopWindowController* __4__this; // 0x18
 		::System::UInt32 goodsId; // 0x20
 
 		::System::Void _ctor()

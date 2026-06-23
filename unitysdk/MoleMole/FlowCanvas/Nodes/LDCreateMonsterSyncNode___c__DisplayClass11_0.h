@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDCreateMonsterSyncNode; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEMONSTERSYNCNODE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D356D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEMONSTERSYNCNODE___C__DISPLAYCLASS11_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x16D356E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEMONSTERSYNCNODE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12609F60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEMONSTERSYNCNODE___C__DISPLAYCLASS11_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x12609F70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateMonsterSyncNode___c__DisplayClass11_0_TypeDefinitionIndex = 79846;
+	inline static constexpr unsigned int LDCreateMonsterSyncNode___c__DisplayClass11_0_TypeDefinitionIndex = 83965;
 
 	class LDCreateMonsterSyncNode___c__DisplayClass11_0 : public ::System::Object
 	{

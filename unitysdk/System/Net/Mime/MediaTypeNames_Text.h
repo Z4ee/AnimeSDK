@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int MediaTypeNames_Text_TypeDefinitionIndex = 3638;
+	inline static constexpr unsigned int MediaTypeNames_Text_TypeDefinitionIndex = 3637;
 
 	class MediaTypeNames_Text : public ::System::Object
 	{

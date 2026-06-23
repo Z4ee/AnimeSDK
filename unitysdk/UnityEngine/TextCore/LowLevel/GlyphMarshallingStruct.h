@@ -6,7 +6,7 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 30955;
+	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 32506;
 
 	struct alignas(4) GlyphMarshallingStruct
 	{

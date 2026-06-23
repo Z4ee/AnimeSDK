@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int InputDeviceCharacteristics_TypeDefinitionIndex = 25155;
+	inline static constexpr unsigned int InputDeviceCharacteristics_TypeDefinitionIndex = 27640;
 
 	enum class InputDeviceCharacteristics : ::System::UInt32
 	{

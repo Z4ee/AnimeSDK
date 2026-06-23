@@ -7,13 +7,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A845A00)
-#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A845C20)
-#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A845C30)
+#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1CC344F0)
+#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC34710)
+#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC34720)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InputCustomAxisEvent_TypeDefinitionIndex = 27522;
+	inline static constexpr unsigned int InputCustomAxisEvent_TypeDefinitionIndex = 29717;
 
 	class InputCustomAxisEvent : public ::FlowCanvas::Nodes::EventNode
 	{

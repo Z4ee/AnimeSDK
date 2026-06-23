@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ICursorManager_TypeDefinitionIndex = 24936;
+	inline static constexpr unsigned int ICursorManager_TypeDefinitionIndex = 27439;
 
 	class ICursorManager
 	{

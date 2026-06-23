@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_TQ__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB8E930)
-#define ROOTMOTION_TQ__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB8E920)
+#define ROOTMOTION_TQ__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DEF7B50)
+#define ROOTMOTION_TQ__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF7B40)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int TQ_TypeDefinitionIndex = 36513;
+	inline static constexpr unsigned int TQ_TypeDefinitionIndex = 38134;
 
 	class TQ : public ::System::Object
 	{

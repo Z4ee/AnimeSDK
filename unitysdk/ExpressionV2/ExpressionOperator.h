@@ -6,39 +6,39 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_DOLLAR_OFFSET UNITYSDK_OFFSET(0x13DC2700)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_EVALOP_OFFSET UNITYSDK_OFFSET(0x13DC2850)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_GETPRECEDENCE_OFFSET UNITYSDK_OFFSET(0x13DC2020)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISDOUBLECHAROPERATOR_OFFSET UNITYSDK_OFFSET(0x13DC2390)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISSINGLECHAROPERATOR_OFFSET UNITYSDK_OFFSET(0x13DC2260)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISUNARYOPERATOR_OFFSET UNITYSDK_OFFSET(0x13DC20D0)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_NEG_OFFSET UNITYSDK_OFFSET(0x13DC24C0)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR_SHARP_OFFSET UNITYSDK_OFFSET(0x13DC25B0)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DC2E80)
-#define EXPRESSIONV2_EXPRESSIONOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13DC2E70)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_DOLLAR_OFFSET UNITYSDK_OFFSET(0x1226FB80)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_EVALOP_OFFSET UNITYSDK_OFFSET(0x1226FCD0)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_GETPRECEDENCE_OFFSET UNITYSDK_OFFSET(0x1226F4A0)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISDOUBLECHAROPERATOR_OFFSET UNITYSDK_OFFSET(0x1226F810)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISSINGLECHAROPERATOR_OFFSET UNITYSDK_OFFSET(0x1226F6E0)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_ISUNARYOPERATOR_OFFSET UNITYSDK_OFFSET(0x1226F550)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_NEG_OFFSET UNITYSDK_OFFSET(0x1226F940)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR_SHARP_OFFSET UNITYSDK_OFFSET(0x1226FA30)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x12270300)
+#define EXPRESSIONV2_EXPRESSIONOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x122702F0)
 
 namespace ExpressionV2
 {
-	inline static constexpr unsigned int ExpressionOperator_TypeDefinitionIndex = 77616;
+	inline static constexpr unsigned int ExpressionOperator_TypeDefinitionIndex = 79170;
 
 	class ExpressionOperator : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Int32>** StaticGet_s_opPrecedenceMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x43F00);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x48E00);
 		}
 		static ::Il2CppArray<::System::UInt16>** StaticGet_s_doubleCharOperator()
 		{
-			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x43F08);
+			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x48E08);
 		}
 		static ::System::String** StaticGet_s_unaryOperatorStr()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x43F10);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x48E10);
 		}
 		static ::Il2CppArray<::System::UInt16>** StaticGet_s_singleCharOperator()
 		{
-			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x43F18);
+			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(ExpressionOperator_TypeDefinitionIndex)->GetStaticField(0x48E18);
 		}
 
 		::System::Void _ctor()

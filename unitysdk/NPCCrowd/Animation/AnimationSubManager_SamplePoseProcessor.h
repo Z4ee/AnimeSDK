@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_SamplePoseProcessor_Job.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_SamplePoseProcessor_LegacyJob.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_SamplePoseProcessor_ParallelJob.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
@@ -10,22 +11,23 @@ namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace NPCCrowd::Animation { class AnimationSubManager_AvatarArchetypeData; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0xD0D3A90)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xD0D2FC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xD0D2E10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xD0D2E00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xD0D2DF0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xD0D2E70)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D3EC0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0x11793E50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x11793200)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x11793040)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x11793030)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x11793020)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x117930A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11794280)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_SamplePoseProcessor_TypeDefinitionIndex = 70510;
+	inline static constexpr unsigned int AnimationSubManager_SamplePoseProcessor_TypeDefinitionIndex = 57387;
 
 	class AnimationSubManager_SamplePoseProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_Job>* _buffer; // 0x10
+		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_LegacyJob>* _buffer; // 0x10
+		::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -57,9 +59,9 @@ namespace NPCCrowd::Animation
 			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager*, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_DISPATCH_OFFSET))(this, manager, dependsOn);
 		}
 
-		::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_Job> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar)
+		::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_LegacyJob> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar)
 		{
-			return ((::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_Job>(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_CREATEJOB_OFFSET))(this, avatar);
+			return ((::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SamplePoseProcessor_LegacyJob>(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEPOSEPROCESSOR_CREATEJOB_OFFSET))(this, avatar);
 		}
 	};
 }

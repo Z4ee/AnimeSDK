@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_CONFIGURATION_SETTINGSDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A3189E0)
-#define SYSTEM_CONFIGURATION_SETTINGSDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3189D0)
+#define SYSTEM_CONFIGURATION_SETTINGSDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C6C66E0)
+#define SYSTEM_CONFIGURATION_SETTINGSDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C66D0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsDescriptionAttribute_TypeDefinitionIndex = 4221;
+	inline static constexpr unsigned int SettingsDescriptionAttribute_TypeDefinitionIndex = 4220;
 
 	class SettingsDescriptionAttribute : public ::System::Attribute
 	{

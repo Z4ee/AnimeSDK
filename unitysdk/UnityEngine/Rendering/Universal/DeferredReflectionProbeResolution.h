@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DeferredReflectionProbeResolution_TypeDefinitionIndex = 29839;
+	inline static constexpr unsigned int DeferredReflectionProbeResolution_TypeDefinitionIndex = 26452;
 
 	enum class DeferredReflectionProbeResolution : ::System::Int32
 	{

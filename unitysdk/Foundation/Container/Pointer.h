@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_POINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
+#define FOUNDATION_CONTAINER_POINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int Pointer_TypeDefinitionIndex = 9065;
+	inline static constexpr unsigned int Pointer_TypeDefinitionIndex = 8441;
 
 	struct alignas(8) Pointer
 	{

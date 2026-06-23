@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int TimeBasedAlphaGenerator_1_TypeDefinitionIndex = 36068;
+	inline static constexpr unsigned int TimeBasedAlphaGenerator_1_TypeDefinitionIndex = 37676;
 
 	template <typename T>
 	class TimeBasedAlphaGenerator_1 : public ::PipelineCamera::TimeBasedAlphaGenerator

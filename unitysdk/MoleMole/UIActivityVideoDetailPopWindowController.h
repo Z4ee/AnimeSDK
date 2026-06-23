@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_1_E9529ED64113E4E9;
+class Class_2_3ABF2AE3B5D4280F;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace System { class String; }
+
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x18A4A770)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18A4AA40)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18A4AAD0)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18A4A780)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x18A4A8A0)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_PLAYVIDEOFROMSTART_OFFSET UNITYSDK_OFFSET(0x18A4AB40)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4AD40)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18A4AD50)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18A4ADE0)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18A4ADF0)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x18A4AE00)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIActivityVideoDetailPopWindowController_TypeDefinitionIndex = 69397;
+
+	class UIActivityVideoDetailPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::Class_2_3ABF2AE3B5D4280F* _view; // 0x318
+		::Class_1_E9529ED64113E4E9* _playerHelper; // 0x320
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void PlayVideoFromStart(::System::String* videoPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER_PLAYVIDEOFROMSTART_OFFSET))(this, videoPath);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class CoopVFXConfig; }
 
-#define MOLEMOLE_CONFIG_COOPVFXQUALITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x123187C0)
+#define MOLEMOLE_CONFIG_COOPVFXQUALITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D64450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CoopVFXQualityConfig_TypeDefinitionIndex = 73949;
+	inline static constexpr unsigned int CoopVFXQualityConfig_TypeDefinitionIndex = 59879;
 
 	class CoopVFXQualityConfig : public ::System::Object
 	{

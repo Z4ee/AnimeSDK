@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSelectVoicePackDialogPopWindowController_VoicePackData_TypeDefinitionIndex = 81196;
+	inline static constexpr unsigned int UIGeneralSelectVoicePackDialogPopWindowController_VoicePackData_TypeDefinitionIndex = 69097;
 
 	struct alignas(8) UIGeneralSelectVoicePackDialogPopWindowController_VoicePackData
 	{

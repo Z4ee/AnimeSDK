@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int StartIPOptions_TypeDefinitionIndex = 3724;
+	inline static constexpr unsigned int StartIPOptions_TypeDefinitionIndex = 3723;
 
 	enum class StartIPOptions : ::System::Int32
 	{

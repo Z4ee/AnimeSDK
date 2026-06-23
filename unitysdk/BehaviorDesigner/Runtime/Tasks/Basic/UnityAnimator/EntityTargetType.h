@@ -3,13 +3,13 @@
 
 namespace BehaviorDesigner::Runtime::Tasks::Basic::UnityAnimator
 {
-	inline static constexpr unsigned int EntityTargetType_TypeDefinitionIndex = 62111;
+	inline static constexpr unsigned int EntityTargetType_TypeDefinitionIndex = 59448;
 
 	enum class EntityTargetType : ::System::Int32
 	{
-		LocalAvatar = 2,
-		Self = 0,
 		LockTarget = 1,
+		Self = 0,
 		Custom = 3,
+		LocalAvatar = 2,
 	};
 }

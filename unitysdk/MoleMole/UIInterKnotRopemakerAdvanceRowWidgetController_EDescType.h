@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotRopemakerAdvanceRowWidgetController_EDescType_TypeDefinitionIndex = 81486;
+	inline static constexpr unsigned int UIInterKnotRopemakerAdvanceRowWidgetController_EDescType_TypeDefinitionIndex = 52379;
 
 	enum class UIInterKnotRopemakerAdvanceRowWidgetController_EDescType : ::System::Int32
 	{

@@ -3,32 +3,35 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UI/Extension/FontEngineUtils_FaceInfoCache.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_FaceInfo.h"
+#include "unitysdk/UnityEngine/UI/Extension/NAP_LineInfo.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Font; }
 
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTEINTERNALSIZE_OFFSET UNITYSDK_OFFSET(0x18EBCE60)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTEPURELINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x18EBCED0)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETASCENTLINE_OFFSET UNITYSDK_OFFSET(0x18EBCB30)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETDESCENTLINE_OFFSET UNITYSDK_OFFSET(0x18EBCBD0)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETFACEINFOCACHE_OFFSET UNITYSDK_OFFSET(0x18EBC240)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETFACEINFO_OFFSET UNITYSDK_OFFSET(0x18EBCA70)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETLINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x18EBCDB0)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETUNDERLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x18EBCC70)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETUNDERLINETHICKNESS_OFFSET UNITYSDK_OFFSET(0x18EBCD10)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_SCALEDASCENT_OFFSET UNITYSDK_OFFSET(0x18EBD070)
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EBD2C0)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_CLEARFACEINFOCACHE_OFFSET UNITYSDK_OFFSET(0x1B5AA580)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTECHARASCDESC_OFFSET UNITYSDK_OFFSET(0x1B5AAA80)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTEINTERNALSIZE_OFFSET UNITYSDK_OFFSET(0x1B5AAB90)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTEPURELINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B5AAC00)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETASCENTLINE_OFFSET UNITYSDK_OFFSET(0x1B5AA750)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETDESCENTLINE_OFFSET UNITYSDK_OFFSET(0x1B5AA7F0)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETFACEINFOCACHE_OFFSET UNITYSDK_OFFSET(0x1B5A9D50)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETFACEINFO_OFFSET UNITYSDK_OFFSET(0x1B5AA690)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETLINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B5AA9D0)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETUNDERLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B5AA890)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETUNDERLINETHICKNESS_OFFSET UNITYSDK_OFFSET(0x1B5AA930)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_SCALEDASCENT_OFFSET UNITYSDK_OFFSET(0x1B5AADA0)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5A9C30)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int FontEngineUtils_TypeDefinitionIndex = 77988;
+	inline static constexpr unsigned int FontEngineUtils_TypeDefinitionIndex = 48867;
 
 	class FontEngineUtils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::Extension::FontEngineUtils_FaceInfoCache>** StaticGet_s_faceInfoCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::Extension::FontEngineUtils_FaceInfoCache>**)Il2CppClass::FromTypeDefinitionIndex(FontEngineUtils_TypeDefinitionIndex)->GetStaticField(0x49780);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::Extension::FontEngineUtils_FaceInfoCache>**)Il2CppClass::FromTypeDefinitionIndex(FontEngineUtils_TypeDefinitionIndex)->GetStaticField(0x4D060);
 		}
 		// static const ::System::Int32 kSamplingSize = 0x64; // 0x0
 
@@ -40,6 +43,11 @@ namespace UnityEngine::UI::Extension
 		static ::UnityEngine::UI::Extension::FontEngineUtils_FaceInfoCache GetFaceInfoCache(::UnityEngine::Font* f)
 		{
 			return ((::UnityEngine::UI::Extension::FontEngineUtils_FaceInfoCache(*)(::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETFACEINFOCACHE_OFFSET))(f);
+		}
+
+		static ::System::Void ClearFaceInfoCache()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_CLEARFACEINFOCACHE_OFFSET))();
 		}
 
 		static ::UnityEngine::UI::Extension::NAP_FaceInfo GetFaceInfo(::UnityEngine::Font* f, ::System::Int32 fontSize)
@@ -70,6 +78,11 @@ namespace UnityEngine::UI::Extension
 		static ::System::Single GetLineHeight(::UnityEngine::Font* f, ::System::Int32 fontSize)
 		{
 			return ((::System::Single(*)(::UnityEngine::Font*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_GETLINEHEIGHT_OFFSET))(f, fontSize);
+		}
+
+		static ::System::Void ComputeCharAscDesc(::UnityEngine::UI::Extension::NAP_FaceInfo& faceInfo, ::System::Single charPointSize, ::System::Single baseFontSize, ::UnityEngine::UI::Extension::NAP_LineInfo& lineInfo, ::System::Single& ascender, ::System::Single& descender)
+		{
+			return ((::System::Void(*)(::UnityEngine::UI::Extension::NAP_FaceInfo&, ::System::Single, ::System::Single, ::UnityEngine::UI::Extension::NAP_LineInfo&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_COMPUTECHARASCDESC_OFFSET))(faceInfo, charPointSize, baseFontSize, lineInfo, ascender, descender);
 		}
 
 		static ::System::Int32 ComputeInternalSize(::UnityEngine::Font* f, ::System::Int32 fontSize, ::System::Single ppu)

@@ -6,23 +6,23 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID_PROCESS_OFFSET UNITYSDK_OFFSET(0x16D45030)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D44EC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0x16D45410)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16D45450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID_PROCESS_OFFSET UNITYSDK_OFFSET(0x126199B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12619840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0x12619D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_REPLACEAVATARBYROBOTID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x12619DD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_Avatar_ReplaceAvatarByRobotID_TypeDefinitionIndex = 73403;
+	inline static constexpr unsigned int LD_Avatar_ReplaceAvatarByRobotID_TypeDefinitionIndex = 64768;
 
 	class LD_Avatar_ReplaceAvatarByRobotID : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* flowOut; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* RobotID; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Int32>* RobotID; // 0xC0
+		::FlowCanvas::FlowOutput* flowOut; // 0xC8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xD0
 
 		::System::Void _ctor()

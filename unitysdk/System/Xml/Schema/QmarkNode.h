@@ -4,13 +4,13 @@
 
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_QMARKNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1BAC8F30)
-#define SYSTEM_XML_SCHEMA_QMARKNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1BAC8F60)
-#define SYSTEM_XML_SCHEMA_QMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC8F70)
+#define SYSTEM_XML_SCHEMA_QMARKNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1DE431C0)
+#define SYSTEM_XML_SCHEMA_QMARKNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1DE431F0)
+#define SYSTEM_XML_SCHEMA_QMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE43200)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int QmarkNode_TypeDefinitionIndex = 1972;
+	inline static constexpr unsigned int QmarkNode_TypeDefinitionIndex = 1971;
 
 	class QmarkNode : public ::System::Xml::Schema::InteriorNode
 	{

@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int Serializer_1_TypeDefinitionIndex = 7419;
+	inline static constexpr unsigned int Serializer_1_TypeDefinitionIndex = 7551;
 
 	template <typename T>
 	class Serializer_1 : public ::Sirenix::Serialization::Serializer

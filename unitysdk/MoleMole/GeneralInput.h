@@ -7,12 +7,12 @@ namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 
-#define MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET UNITYSDK_OFFSET(0x138368A0)
-#define MOLEMOLE_GENERALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x13836970)
+#define MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET UNITYSDK_OFFSET(0x16CAEA20)
+#define MOLEMOLE_GENERALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAEAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralInput_TypeDefinitionIndex = 47331;
+	inline static constexpr unsigned int GeneralInput_TypeDefinitionIndex = 44394;
 
 	class GeneralInput : public ::UnityEngine::MonoBehaviour
 	{

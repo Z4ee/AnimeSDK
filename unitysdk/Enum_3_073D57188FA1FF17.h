@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_073D57188FA1FF17_TypeDefinitionIndex = 62793;
+inline static constexpr unsigned int Enum_3_073D57188FA1FF17_TypeDefinitionIndex = 67240;
 
 enum class Enum_3_073D57188FA1FF17 : ::System::Int32
 {
-	LevelStartSecondHalf = 2,
+	LevelStartFirstHalf = 1,
 	ResultFail = 11,
-	ResultPerfect = 10,
-	Death = 8,
-	EnterLevel = 12,
-	Miss = 7,
+	ResultNormal = 9,
 	RankS = 4,
 	None = 0,
-	LevelStartFirstHalf = 1,
+	Death = 8,
+	Miss = 7,
+	FeverBegin = 6,
+	EnterLevel = 12,
+	LevelStartSecondHalf = 2,
 	RankSS = 5,
 	RankBOrA = 3,
-	FeverBegin = 6,
-	ResultNormal = 9,
+	ResultPerfect = 10,
 };

@@ -3,7 +3,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int TypeDescriptorPermissionFlags_TypeDefinitionIndex = 3143;
+	inline static constexpr unsigned int TypeDescriptorPermissionFlags_TypeDefinitionIndex = 3142;
 
 	enum class TypeDescriptorPermissionFlags : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int TokenImpersonationLevel_TypeDefinitionIndex = 1024;
+	inline static constexpr unsigned int TokenImpersonationLevel_TypeDefinitionIndex = 1023;
 
 	enum class TokenImpersonationLevel : ::System::Int32
 	{

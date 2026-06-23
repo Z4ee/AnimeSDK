@@ -8,20 +8,20 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class SwitchString; }
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_SWITCHSTRING___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4596A0)
-#define FLOWCANVAS_NODES_SWITCHSTRING___C__DISPLAYCLASS1_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B4596B0)
+#define FLOWCANVAS_NODES_SWITCHSTRING___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EFB0)
+#define FLOWCANVAS_NODES_SWITCHSTRING___C__DISPLAYCLASS1_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D81EFC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchString___c__DisplayClass1_0_TypeDefinitionIndex = 26597;
+	inline static constexpr unsigned int SwitchString___c__DisplayClass1_0_TypeDefinitionIndex = 29547;
 
 	class SwitchString___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::SwitchString* __4__this; // 0x10
-		::FlowCanvas::ValueInput_1<::System::String*>* selector; // 0x18
-		::FlowCanvas::FlowOutput* defaultCase; // 0x20
-		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0x28
+		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0x10
+		::FlowCanvas::FlowOutput* defaultCase; // 0x18
+		::FlowCanvas::ValueInput_1<::System::String*>* selector; // 0x20
+		::FlowCanvas::Nodes::SwitchString* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

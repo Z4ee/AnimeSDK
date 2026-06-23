@@ -1,0 +1,219 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class Class_1_48D56DACBE4271BC;
+class Class_2_1A39E1B51756BF41;
+class Class_2_208CC9941471731A_594;
+class Class_2_55645CC31E430C8E;
+class Class_2_79AE422BA06F6D26_204;
+class Class_2_8CE3622A05CA8724;
+namespace MoleMole { class UIControlReference; }
+namespace System { class Object; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_BINDSLOTDATA_OFFSET UNITYSDK_OFFSET(0x15F28AB0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_CANTRIGGERULTI_OFFSET UNITYSDK_OFFSET(0x15F29C20)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_GET_ISBATTLE_OFFSET UNITYSDK_OFFSET(0x15F28190)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_GET_SLOTDATA_OFFSET UNITYSDK_OFFSET(0x15F28180)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_HANDLEULTISTARTUPBEGIN_OFFSET UNITYSDK_OFFSET(0x15F28750)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONCLICKITEM_OFFSET UNITYSDK_OFFSET(0x15F29B50)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15F28540)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONSCROLLITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x15F288D0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x15F289E0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15F285D0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15F282D0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHINFOFOCUS_OFFSET UNITYSDK_OFFSET(0x15F29620)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHRABBANGBOOCARD_OFFSET UNITYSDK_OFFSET(0x15F29D90)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHULTIREADYSTATE_OFFSET UNITYSDK_OFFSET(0x15F299B0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETSCROLLREUSESTATE_OFFSET UNITYSDK_OFFSET(0x15F28940)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETSTATUSSTATE_OFFSET UNITYSDK_OFFSET(0x15F29820)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETVIEWSTATE_OFFSET UNITYSDK_OFFSET(0x15F294E0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETDRAGGING_OFFSET UNITYSDK_OFFSET(0x15F29130)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETEMPTY_OFFSET UNITYSDK_OFFSET(0x15F28E80)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETINFOFOCUS_OFFSET UNITYSDK_OFFSET(0x15F29310)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_TOGGLEHINT_OFFSET UNITYSDK_OFFSET(0x15F28F60)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_0_OFFSET UNITYSDK_OFFSET(0x15F2ADD0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_1_OFFSET UNITYSDK_OFFSET(0x15F2B290)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_2_OFFSET UNITYSDK_OFFSET(0x15F2B390)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2ADC0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONCLICKITEM_OFFSET UNITYSDK_OFFSET(0x15F2BBA0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15F2BBB0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONSCROLLITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x15F2BC40)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x15F2BCD0)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15F2BD70)
+#define MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15F2BE00)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABInLevelSlotItemWidgetController_TypeDefinitionIndex = 85090;
+
+	class UIRABInLevelSlotItemWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_79AE422BA06F6D26_204* _view; // 0x2F0
+		::Class_2_8CE3622A05CA8724* _slotData; // 0x2F8
+		::Class_1_48D56DACBE4271BC* _syncHelper; // 0x300
+		::Class_1_48D56DACBE4271BC* _syncHelper_HP; // 0x308
+		::Class_1_48D56DACBE4271BC* _syncHelper_MP; // 0x310
+		::System::Boolean isCurDragging; // 0x318
+		::System::Boolean _wasUltiReady; // 0x319
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_8CE3622A05CA8724* get_SlotData()
+		{
+			return ((::Class_2_8CE3622A05CA8724*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_GET_SLOTDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsBattle()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_GET_ISBATTLE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void HandleUltiStartupBegin(::System::UInt32 localCasterEntityId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_HANDLEULTISTARTUPBEGIN_OFFSET))(this, localCasterEntityId);
+		}
+
+		::System::Void OnScrollItemRecycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONSCROLLITEMRECYCLE_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void ToggleHint(::System::Boolean isShow)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_TOGGLEHINT_OFFSET))(this, isShow);
+		}
+
+		::System::Void SetDragging(::System::Boolean isDragging, ::System::Boolean hasBinded)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETDRAGGING_OFFSET))(this, isDragging, hasBinded);
+		}
+
+		::System::Void SetInfoFocus(::System::Boolean isShow)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETINFOFOCUS_OFFSET))(this, isShow);
+		}
+
+		::System::Void SetEmpty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_SETEMPTY_OFFSET))(this);
+		}
+
+		::System::Void BindSlotData(::Class_2_8CE3622A05CA8724* slotData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_8CE3622A05CA8724*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_BINDSLOTDATA_OFFSET))(this, slotData);
+		}
+
+		::System::Void ResetScrollReuseState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETSCROLLREUSESTATE_OFFSET))(this);
+		}
+
+		::System::Void ResetViewState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETVIEWSTATE_OFFSET))(this);
+		}
+
+		::System::Void ResetStatusState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_RESETSTATUSSTATE_OFFSET))(this);
+		}
+
+		::System::Void RefreshUltiReadyState(::System::Boolean isReady)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHULTIREADYSTATE_OFFSET))(this, isReady);
+		}
+
+		::System::Void RefreshInfoFocus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHINFOFOCUS_OFFSET))(this);
+		}
+
+		::System::Void OnClickItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_ONCLICKITEM_OFFSET))(this);
+		}
+
+		::System::Boolean CanTriggerUlti()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_CANTRIGGERULTI_OFFSET))(this);
+		}
+
+		static ::System::ValueTuple_2<::Class_2_55645CC31E430C8E*, ::Class_2_208CC9941471731A_594*> RefreshRABBangBooCard(::System::Int32 characterID, ::UnityEngine::Transform* starRoot, ::UnityEngine::Transform* qualityRoot, ::UnityEngine::Transform* emptyRoot, ::UnityEngine::Transform* normalRoot, ::Class_2_1A39E1B51756BF41* bangbooImg, ::Class_2_1A39E1B51756BF41* attributeIcon, ::Class_2_1A39E1B51756BF41* careerIcon, ::UnityEngine::UI::Extension::UILocalizationText* nameText, ::UnityEngine::UI::Extension::UILocalizationText* costText, ::UnityEngine::UI::Extension::UILocalizationText* attributeText, ::UnityEngine::UI::Extension::UILocalizationText* careerText, ::Class_2_1A39E1B51756BF41* attrBg, ::Class_2_1A39E1B51756BF41* careerBg)
+		{
+			return ((::System::ValueTuple_2<::Class_2_55645CC31E430C8E*, ::Class_2_208CC9941471731A_594*>(*)(::System::Int32, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*, ::UnityEngine::UI::Extension::UILocalizationText*, ::UnityEngine::UI::Extension::UILocalizationText*, ::UnityEngine::UI::Extension::UILocalizationText*, ::UnityEngine::UI::Extension::UILocalizationText*, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER_REFRESHRABBANGBOOCARD_OFFSET))(characterID, starRoot, qualityRoot, emptyRoot, normalRoot, bangbooImg, attributeIcon, careerIcon, nameText, costText, attributeText, careerText, attrBg, careerBg);
+		}
+
+		::System::Void _BindSlotData_b__26_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_0_OFFSET))(this);
+		}
+
+		::System::Void _BindSlotData_b__26_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_1_OFFSET))(this);
+		}
+
+		::System::Void _BindSlotData_b__26_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER__BINDSLOTDATA_B__26_2_OFFSET))(this);
+		}
+
+		::System::Void __base_OnClickItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONCLICKITEM_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemRecycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONSCROLLITEMRECYCLE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABINLEVELSLOTITEMWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

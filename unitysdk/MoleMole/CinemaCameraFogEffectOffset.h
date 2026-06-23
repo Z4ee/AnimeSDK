@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaCameraFogEffectOffset_TypeDefinitionIndex = 82351;
+	inline static constexpr unsigned int CinemaCameraFogEffectOffset_TypeDefinitionIndex = 78513;
 
 	struct alignas(4) CinemaCameraFogEffectOffset
 	{

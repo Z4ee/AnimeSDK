@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ContainerTypeTraits_ICollectionType_TypeDefinitionIndex = 8209;
+	inline static constexpr unsigned int ContainerTypeTraits_ICollectionType_TypeDefinitionIndex = 8129;
 
 	enum class ContainerTypeTraits_ICollectionType : ::System::Int32
 	{

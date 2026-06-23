@@ -6,7 +6,7 @@ namespace Foundation::Geometry { template <typename T> class IBezierControlPoint
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int SmoothBezierSurface_1_TypeDefinitionIndex = 9196;
+	inline static constexpr unsigned int SmoothBezierSurface_1_TypeDefinitionIndex = 8449;
 
 	template <typename T>
 	class SmoothBezierSurface_1 : public ::Foundation::Geometry::DefaultSurfaceDimension

@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FinalBasicCameraDataChannel_TypeDefinitionIndex = 36288;
+	inline static constexpr unsigned int FinalBasicCameraDataChannel_TypeDefinitionIndex = 37896;
 
 	enum class FinalBasicCameraDataChannel : ::System::Int32
 	{

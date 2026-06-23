@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EDecalHideType_TypeDefinitionIndex = 30417;
+	inline static constexpr unsigned int EDecalHideType_TypeDefinitionIndex = 27359;
 
 	enum class EDecalHideType : ::System::Int32
 	{

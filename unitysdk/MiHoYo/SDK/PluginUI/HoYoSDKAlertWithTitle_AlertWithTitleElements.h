@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAlertWithTitle_AlertWithTitleElements_TypeDefinitionIndex = 35511;
+	inline static constexpr unsigned int HoYoSDKAlertWithTitle_AlertWithTitleElements_TypeDefinitionIndex = 37112;
 
 	class HoYoSDKAlertWithTitle_AlertWithTitleElements : public ::System::Object
 	{

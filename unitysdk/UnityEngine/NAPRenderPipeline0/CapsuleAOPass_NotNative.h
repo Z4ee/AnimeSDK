@@ -13,32 +13,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AD00C60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1AD018F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_SETCOMPUTEPARAMS_OFFSET UNITYSDK_OFFSET(0x1AD01350)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_SETUP_OFFSET UNITYSDK_OFFSET(0x1AD008A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD00800)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1AD01990)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C3FE1C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C3FEE50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_SETCOMPUTEPARAMS_OFFSET UNITYSDK_OFFSET(0x1C3FE8B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE_SETUP_OFFSET UNITYSDK_OFFSET(0x1C3FDE00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FDD60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NOTNATIVE___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C3FEEF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CapsuleAOPass_NotNative_TypeDefinitionIndex = 29767;
+	inline static constexpr unsigned int CapsuleAOPass_NotNative_TypeDefinitionIndex = 27281;
 
 	class CapsuleAOPass_NotNative : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		::System::String* _profilerTag; // 0xA8
 		::UnityEngine::ComputeShader* compute; // 0xB0
-		::System::Int32 kernel; // 0xB8
-		::UnityEngine::RenderTextureDescriptor desc; // 0xBC
-		::System::Int32 height; // 0xF4
-		::System::Single ShadowSharpness; // 0xF8
-		::UnityEngine::Rendering::RenderTargetIdentifier targetHandle; // 0x100
-		::System::Single LuminanceBlend; // 0x128
-		::System::Single AmbientIntensity; // 0x12C
-		::System::Int32 width; // 0x130
-		::System::Single ShadowIntensity; // 0x134
-		::System::Single rtScale; // 0x138
+		::UnityEngine::Rendering::RenderTargetIdentifier targetHandle; // 0xB8
+		::System::Single rtScale; // 0xE0
+		::System::Int32 height; // 0xE4
+		::System::Single ShadowIntensity; // 0xE8
+		::System::Single ShadowSharpness; // 0xEC
+		::System::Single LuminanceBlend; // 0xF0
+		::System::Int32 width; // 0xF4
+		::System::Int32 kernel; // 0xF8
+		::UnityEngine::RenderTextureDescriptor desc; // 0xFC
+		::System::Single AmbientIntensity; // 0x134
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::ComputeShader* compute)
 		{

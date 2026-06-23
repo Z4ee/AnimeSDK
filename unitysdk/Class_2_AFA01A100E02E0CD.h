@@ -13,31 +13,31 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UIImgText; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_6630F8877346891C;
+template <typename T> class Class_3_026083D0A4F08738;
 
-#define CLASS_2_AFA01A100E02E0CD_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x133B0C70)
-#define CLASS_2_AFA01A100E02E0CD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x133B0D00)
-#define CLASS_2_AFA01A100E02E0CD_METHOD_2_D575395A632A2293_OFFSET UNITYSDK_OFFSET(0x133B0A10)
-#define CLASS_2_AFA01A100E02E0CD__CTOR_OFFSET UNITYSDK_OFFSET(0x133B0CF0)
+#define CLASS_2_AFA01A100E02E0CD_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x14E8FAE0)
+#define CLASS_2_AFA01A100E02E0CD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14E8FB70)
+#define CLASS_2_AFA01A100E02E0CD_METHOD_2_D575395A632A2293_OFFSET UNITYSDK_OFFSET(0x14E8F880)
+#define CLASS_2_AFA01A100E02E0CD__CTOR_OFFSET UNITYSDK_OFFSET(0x14E8FB60)
 
-inline static constexpr unsigned int Class_2_AFA01A100E02E0CD_TypeDefinitionIndex = 43278;
+inline static constexpr unsigned int Class_2_AFA01A100E02E0CD_TypeDefinitionIndex = 49634;
 
 class Class_2_AFA01A100E02E0CD : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::UnityEngine::UI::Extension::UIImgText* Field_2_12; // 0x20
-	::Class_3_6630F8877346891C<::MoleMole::UIItemIconBtnWidgetController*>* Field_2_8; // 0x28
-	::UnityEngine::Transform* Field_2_0; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x38
-	::MonoUITableScrollV2* Field_2_5; // 0x40
-	::UnityEngine::Transform* Field_2_1; // 0x48
-	::UnityEngine::UI::Extension::UIImgText* Field_2_11; // 0x50
-	::MoleMole::UIGeneralButtonController* Field_2_6; // 0x58
-	::MoleMole::NotificationBadgeEx* Field_2_9; // 0x60
-	::MoleMole::MonoGamepadModule* Field_2_4; // 0x68
-	::UnityEngine::RectTransform* Field_2_7; // 0x70
-	::UnityEngine::RectTransform* Field_2_10; // 0x78
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x20
+	::UnityEngine::RectTransform* Field_2_10; // 0x28
+	::MoleMole::UIGeneralButtonController* Field_2_6; // 0x30
+	::MoleMole::MonoGamepadModule* Field_2_4; // 0x38
+	::UnityEngine::Transform* Field_2_1; // 0x40
+	::UnityEngine::Transform* Field_2_0; // 0x48
+	::Class_3_026083D0A4F08738<::MoleMole::UIItemIconBtnWidgetController*>* Field_2_8; // 0x50
+	::MonoUITableScrollV2* Field_2_5; // 0x58
+	::UnityEngine::UI::Extension::UIImgText* Field_2_11; // 0x60
+	::UnityEngine::RectTransform* Field_2_7; // 0x68
+	::UnityEngine::UI::Extension::UIImgText* Field_2_12; // 0x70
+	::MoleMole::NotificationBadgeEx* Field_2_9; // 0x78
 
 	::System::Void _ctor()
 	{

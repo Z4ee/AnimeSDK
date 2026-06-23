@@ -1,0 +1,104 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
+#include "unitysdk/Enum_3_B4F9C1A2827CAB53.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_1_9532C712260DD3D3;
+class Class_2_8BC624F49F4338DF;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIItemIconBtnSmallWidgetController; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T> class Func_1; }
+
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ADDITEMICONBTNSMALLWIDGET_OFFSET UNITYSDK_OFFSET(0x17A4BEE0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_GETGENERALBUTTONTEXTKEY_OFFSET UNITYSDK_OFFSET(0x17A4CBD0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17A4BCC0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONGETREWARDBUTTON_OFFSET UNITYSDK_OFFSET(0x17A4CCB0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17A4C0F0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17A4C060)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17A4C000)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET UNITYSDK_OFFSET(0x17A4C1F0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4D0C0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17A4D0D0)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17A4D160)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17A4D200)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17A4D290)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangbooMicroWebRewardRowWidgetController_TypeDefinitionIndex = 62808;
+
+	class UIBangbooMicroWebRewardRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_8BC624F49F4338DF* _view; // 0x2F0
+		::Class_1_9532C712260DD3D3* _data; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::MoleMole::UIItemIconBtnSmallWidgetController* AddItemIconBtnSmallWidget(::Enum_3_7A4252233BCEB3A9 ctrl, ::System::Func_1<::MoleMole::UIControlReference*>* arg)
+		{
+			return ((::MoleMole::UIItemIconBtnSmallWidgetController*(*)(::PVOID, ::Enum_3_7A4252233BCEB3A9, ::System::Func_1<::MoleMole::UIControlReference*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ADDITEMICONBTNSMALLWIDGET_OFFSET))(this, ctrl, arg);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void RefreshPanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET))(this);
+		}
+
+		static ::System::String* GetGeneralButtonTextKey(::Enum_3_B4F9C1A2827CAB53 state)
+		{
+			return ((::System::String*(*)(::Enum_3_B4F9C1A2827CAB53))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_GETGENERALBUTTONTEXTKEY_OFFSET))(state);
+		}
+
+		::System::Void OnGetRewardButton()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER_ONGETREWARDBUTTON_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

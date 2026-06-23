@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBASERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A073B10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBASERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0DE490)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelBaseResult_TypeDefinitionIndex = 19370;
+	inline static constexpr unsigned int HoYoChannelBaseResult_TypeDefinitionIndex = 20331;
 
 	class HoYoChannelBaseResult : public ::System::Object
 	{
@@ -16,6 +16,7 @@ namespace MiHoYo::SDK::PC::OS
 		::System::Int32 result; // 0x10
 		::System::String* message; // 0x18
 		::System::String* channel; // 0x20
+		::System::Int32 third_error_code; // 0x28
 
 		::System::Void _ctor()
 		{

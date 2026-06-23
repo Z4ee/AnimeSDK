@@ -12,7 +12,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FixedArrayExtension_TypeDefinitionIndex = 9005;
+	inline static constexpr unsigned int FixedArrayExtension_TypeDefinitionIndex = 8652;
 
 	class FixedArrayExtension : public ::System::Object
 	{

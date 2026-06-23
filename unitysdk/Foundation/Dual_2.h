@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Dual_2_TypeDefinitionIndex = 8946;
+	inline static constexpr unsigned int Dual_2_TypeDefinitionIndex = 8410;
 
 	template <typename T, typename TPolicy>
 	struct Dual_2

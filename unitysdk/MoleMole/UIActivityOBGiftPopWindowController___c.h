@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16334720)
-#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16334760)
-#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__ONCLICKTAKEREWARD_B__14_0_OFFSET UNITYSDK_OFFSET(0x16334770)
+#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C5A900)
+#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5A940)
+#define MOLEMOLE_UIACTIVITYOBGIFTPOPWINDOWCONTROLLER___C__ONCLICKTAKEREWARD_B__14_0_OFFSET UNITYSDK_OFFSET(0x18C5A950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex = 76500;
+	inline static constexpr unsigned int UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex = 40833;
 
 	class UIActivityOBGiftPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__14_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34D50);
-		}
 		static ::MoleMole::UIActivityOBGiftPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityOBGiftPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34D58);
+			return (::MoleMole::UIActivityOBGiftPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37810);
+		}
+		static ::System::Action** StaticGet___9__14_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityOBGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37818);
 		}
 
 		static ::System::Void _cctor()

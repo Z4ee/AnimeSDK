@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuddyBehaviourType_TypeDefinitionIndex = 82847;
+	inline static constexpr unsigned int BuddyBehaviourType_TypeDefinitionIndex = 73679;
 
 	enum class BuddyBehaviourType : ::System::Int32
 	{
-		Free = 1,
-		Interactive = 3,
 		Guide = 2,
+		Interactive = 3,
+		Free = 1,
 		Resurrection = 4,
 	};
 }

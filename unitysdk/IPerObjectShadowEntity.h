@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LODGroup; }
 
-inline static constexpr unsigned int IPerObjectShadowEntity_TypeDefinitionIndex = 29618;
+inline static constexpr unsigned int IPerObjectShadowEntity_TypeDefinitionIndex = 26858;
 
 class IPerObjectShadowEntity
 {

@@ -4,12 +4,12 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET UNITYSDK_OFFSET(0x1A7C93F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C93E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET UNITYSDK_OFFSET(0x1CB29900)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB298F0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int MessageEnd_TypeDefinitionIndex = 1199;
+	inline static constexpr unsigned int MessageEnd_TypeDefinitionIndex = 1198;
 
 	class MessageEnd : public ::System::Object
 	{

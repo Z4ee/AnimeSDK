@@ -7,23 +7,23 @@ namespace MoleMole { class UITape3DModelController; }
 namespace MoleMole { class UITapesGroup3DModelController___c__DisplayClass39_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E412D0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x12E41410)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x12E416A0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x12E41870)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12C7C9E0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x12C7CB20)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x12C7CDB0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x12C7CF80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 46591;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 72713;
 
 	class UITapesGroup3DModelController___c__DisplayClass39_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
-		::System::Action* __9__3; // 0x18
-		::MoleMole::UITape3DModelController* initCenterTape; // 0x20
-		::MoleMole::UITapesGroup3DModelController___c__DisplayClass39_0* CS___8__locals1; // 0x28
-		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x30
+		::MoleMole::UITape3DModelController* initCenterTape; // 0x10
+		::System::Action* __9__4; // 0x18
+		::System::Action* __9__3; // 0x20
+		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x28
+		::MoleMole::UITapesGroup3DModelController___c__DisplayClass39_0* CS___8__locals1; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -15,7 +15,7 @@ namespace UnityEngine { class Animator; }
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int NapPlayableBehaviourConfig_1_TypeDefinitionIndex = 81492;
+	inline static constexpr unsigned int NapPlayableBehaviourConfig_1_TypeDefinitionIndex = 50138;
 
 	template <typename T>
 	class NapPlayableBehaviourConfig_1 : public ::System::Object

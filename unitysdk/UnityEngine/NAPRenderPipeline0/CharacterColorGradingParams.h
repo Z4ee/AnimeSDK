@@ -8,7 +8,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CharacterColorGradingParams_TypeDefinitionIndex = 5957;
+	inline static constexpr unsigned int CharacterColorGradingParams_TypeDefinitionIndex = 5967;
 
 	struct alignas(8) CharacterColorGradingParams
 	{

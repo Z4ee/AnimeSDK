@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int GenericUriParserOptions_TypeDefinitionIndex = 2661;
+	inline static constexpr unsigned int GenericUriParserOptions_TypeDefinitionIndex = 2660;
 
 	enum class GenericUriParserOptions : ::System::Int32
 	{

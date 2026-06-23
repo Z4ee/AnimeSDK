@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_XML_SERIALIZATION_SERIALIZATIONSOURCE_BASEEQUALS_OFFSET UNITYSDK_OFFSET(0x198926A0)
-#define SYSTEM_XML_SERIALIZATION_SERIALIZATIONSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19892690)
+#define SYSTEM_XML_SERIALIZATION_SERIALIZATIONSOURCE_BASEEQUALS_OFFSET UNITYSDK_OFFSET(0x1BCFFD80)
+#define SYSTEM_XML_SERIALIZATION_SERIALIZATIONSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFFD70)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int SerializationSource_TypeDefinitionIndex = 1867;
+	inline static constexpr unsigned int SerializationSource_TypeDefinitionIndex = 1866;
 
 	class SerializationSource : public ::System::Object
 	{

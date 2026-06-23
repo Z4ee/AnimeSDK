@@ -5,11 +5,11 @@
 #include "unitysdk/Enum_3_AB41911705372F0A.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_CURVYSPLINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C23E20)
+#define MOLEMOLE_PROJECT_CONFIG_CURVYSPLINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE42F0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int CurvySplineData_TypeDefinitionIndex = 10161;
+	inline static constexpr unsigned int CurvySplineData_TypeDefinitionIndex = 13193;
 
 	class CurvySplineData : public ::System::Object
 	{

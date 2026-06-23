@@ -5,7 +5,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_Struct_2_0EC312E2EAA81402_TypeDefinitionIndex = 81687;
+inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_Struct_2_0EC312E2EAA81402_TypeDefinitionIndex = 47873;
 
 template <typename T>
 struct Struct_2_996A8643ED0D59AD_Struct_2_0EC312E2EAA81402

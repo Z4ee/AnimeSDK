@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18FAA250)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18FAA2B0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x18FAA240)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18FAA2C0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18FAA380)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FAA4A0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18FAA230)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAA1B0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B1B8350)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1B83B0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x1B1B8340)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B1B83C0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B1B8480)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1B85A0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1B8330)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B82B0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int InheritanceAttribute_TypeDefinitionIndex = 3017;
+	inline static constexpr unsigned int InheritanceAttribute_TypeDefinitionIndex = 3016;
 
 	class InheritanceAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Inherited()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2B90);
 		}
@@ -30,7 +30,7 @@ namespace System::ComponentModel
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2B98);
 		}
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Default()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Inherited()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2BA0);
 		}

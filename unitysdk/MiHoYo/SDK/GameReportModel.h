@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class UploadContent; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_GAMEREPORTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3487A0)
+#define MIHOYO_SDK_GAMEREPORTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C56AA80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GameReportModel_TypeDefinitionIndex = 18739;
+	inline static constexpr unsigned int GameReportModel_TypeDefinitionIndex = 19634;
 
 	class GameReportModel : public ::System::Object
 	{

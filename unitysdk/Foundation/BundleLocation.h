@@ -3,12 +3,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BundleLocation_TypeDefinitionIndex = 7869;
+	inline static constexpr unsigned int BundleLocation_TypeDefinitionIndex = 8212;
 
 	enum class BundleLocation : ::System::Byte
 	{
+		Persistent = 0x0,
 		NotExists = 0x2,
 		InBuild = 0x1,
-		Persistent = 0x0,
 	};
 }

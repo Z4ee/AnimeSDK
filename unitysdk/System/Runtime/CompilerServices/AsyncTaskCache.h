@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1954D4D0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1954D5E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1B9301A0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9302B0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncTaskCache_TypeDefinitionIndex = 1379;
+	inline static constexpr unsigned int AsyncTaskCache_TypeDefinitionIndex = 1378;
 
 	class AsyncTaskCache : public ::System::Object
 	{

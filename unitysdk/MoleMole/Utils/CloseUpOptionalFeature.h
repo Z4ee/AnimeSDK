@@ -3,7 +3,7 @@
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int CloseUpOptionalFeature_TypeDefinitionIndex = 54533;
+	inline static constexpr unsigned int CloseUpOptionalFeature_TypeDefinitionIndex = 85445;
 
 	enum class CloseUpOptionalFeature : ::System::Int32
 	{

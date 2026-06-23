@@ -5,9 +5,9 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_2_0244180E10798511_STRUCT_2_37958527F6A3CE6D_EQUALS_OFFSET UNITYSDK_OFFSET(0x658020)
+#define CLASS_2_0244180E10798511_STRUCT_2_37958527F6A3CE6D_EQUALS_OFFSET UNITYSDK_OFFSET(0x80CC20)
 
-inline static constexpr unsigned int Class_2_0244180E10798511_Struct_2_37958527F6A3CE6D_TypeDefinitionIndex = 58103;
+inline static constexpr unsigned int Class_2_0244180E10798511_Struct_2_37958527F6A3CE6D_TypeDefinitionIndex = 43991;
 
 struct alignas(8) Class_2_0244180E10798511_Struct_2_37958527F6A3CE6D
 {

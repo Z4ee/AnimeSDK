@@ -6,7 +6,7 @@ namespace UnityEngine::UI::Extension { template <typename T> class Range_1; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int Range_1_TypeDefinitionIndex = 42277;
+	inline static constexpr unsigned int Range_1_TypeDefinitionIndex = 76990;
 
 	template <typename T>
 	class Range_1 : public ::System::Object

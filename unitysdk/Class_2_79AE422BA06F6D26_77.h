@@ -5,41 +5,37 @@
 class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
 class Class_2_B4378B46E0020E85;
+class UIControllerExtensionData;
 namespace MoleMole { class UIControlCollection; }
-namespace UnityEngine { class RectTransform; }
-namespace UnityEngine { class Transform; }
+namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xE4CBB70)
-#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xE4CC060)
-#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0xE4CBEF0)
-#define CLASS_2_79AE422BA06F6D26_77__CTOR_OFFSET UNITYSDK_OFFSET(0xE4CC050)
+#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x1879EAD0)
+#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x1879E7B0)
+#define CLASS_2_79AE422BA06F6D26_77_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1879ECC0)
+#define CLASS_2_79AE422BA06F6D26_77__CTOR_OFFSET UNITYSDK_OFFSET(0x1879ECB0)
 
-inline static constexpr unsigned int Class_2_79AE422BA06F6D26_77_TypeDefinitionIndex = 64732;
+inline static constexpr unsigned int Class_2_79AE422BA06F6D26_77_TypeDefinitionIndex = 46454;
 
 class Class_2_79AE422BA06F6D26_77 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x18
-	::UnityEngine::RectTransform* Field_2_18; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_10; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_14; // 0x40
-	::UnityEngine::RectTransform* Field_2_11; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_13; // 0x50
-	::UnityEngine::RectTransform* Field_2_12; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_15; // 0x60
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x68
-	::Class_2_1A39E1B51756BF41* Field_2_19; // 0x70
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x78
-	::UnityEngine::RectTransform* Field_2_0; // 0x80
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x88
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x90
-	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x98
-	::Class_2_1A39E1B51756BF41* Field_2_17; // 0xA0
-	::Class_2_1A39E1B51756BF41* Field_2_7; // 0xA8
-	::UnityEngine::Transform* Field_2_16; // 0xB0
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x20
+	::UIControllerExtensionData* Field_2_10; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_9; // 0x30
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x38
+	::UnityEngine::GameObject* Field_2_1; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_12; // 0x48
+	::Class_2_1A39E1B51756BF41* Field_2_8; // 0x50
+	::UnityEngine::GameObject* Field_2_5; // 0x58
+	::Class_2_B4378B46E0020E85* Field_2_14; // 0x60
+	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x68
+	::Class_2_1A39E1B51756BF41* Field_2_11; // 0x70
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x78
+	::Class_2_B4378B46E0020E85* Field_2_13; // 0x80
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_15; // 0x88
+	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x90
 
 	::System::Void _ctor()
 	{
@@ -51,9 +47,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_79AE422BA06F6D26_77_METHOD_2_78C5AA85812E15F5_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_DE52BD42C4B0B772()
+	::System::Void Method_2_739DB9F245C7FAD0()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_79AE422BA06F6D26_77_METHOD_2_DE52BD42C4B0B772_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_79AE422BA06F6D26_77_METHOD_2_739DB9F245C7FAD0_OFFSET))(this);
 	}
 
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)

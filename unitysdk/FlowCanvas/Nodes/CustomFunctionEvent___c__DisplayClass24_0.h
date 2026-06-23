@@ -6,19 +6,19 @@
 namespace FlowCanvas { class FlowHandler; }
 namespace FlowCanvas::Nodes { class CustomFunctionEvent; }
 
-#define FLOWCANVAS_NODES_CUSTOMFUNCTIONEVENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F4F70)
-#define FLOWCANVAS_NODES_CUSTOMFUNCTIONEVENT___C__DISPLAYCLASS24_0__INVOKEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A8F4F80)
+#define FLOWCANVAS_NODES_CUSTOMFUNCTIONEVENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D387EC0)
+#define FLOWCANVAS_NODES_CUSTOMFUNCTIONEVENT___C__DISPLAYCLASS24_0__INVOKEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D387ED0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomFunctionEvent___c__DisplayClass24_0_TypeDefinitionIndex = 26678;
+	inline static constexpr unsigned int CustomFunctionEvent___c__DisplayClass24_0_TypeDefinitionIndex = 30211;
 
 	class CustomFunctionEvent___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow f; // 0x10
-		::FlowCanvas::FlowHandler* flowCallback; // 0x38
-		::FlowCanvas::Nodes::CustomFunctionEvent* __4__this; // 0x40
+		::FlowCanvas::Nodes::CustomFunctionEvent* __4__this; // 0x10
+		::FlowCanvas::Flow f; // 0x18
+		::FlowCanvas::FlowHandler* flowCallback; // 0x40
 
 		::System::Void _ctor()
 		{

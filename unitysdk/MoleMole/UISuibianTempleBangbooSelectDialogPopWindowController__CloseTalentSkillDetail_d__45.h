@@ -7,18 +7,18 @@
 namespace MoleMole { class UISuibianTempleBangbooSelectDialogPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER__CLOSETALENTSKILLDETAIL_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x793260)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER__CLOSETALENTSKILLDETAIL_D__45_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER__CLOSETALENTSKILLDETAIL_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F7190)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER__CLOSETALENTSKILLDETAIL_D__45_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController__CloseTalentSkillDetail_d__45_TypeDefinitionIndex = 49982;
+	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController__CloseTalentSkillDetail_d__45_TypeDefinitionIndex = 76450;
 
 	struct alignas(8) UISuibianTempleBangbooSelectDialogPopWindowController__CloseTalentSkillDetail_d__45
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x18
-		::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController* __4__this; // 0x28
+		::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x20
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

@@ -12,74 +12,74 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E62D90)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_GETMODIFIEDMATERIALPOST_OFFSET UNITYSDK_OFFSET(0x15E63880)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x15E63640)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15E62A50)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x15E63840)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONCANVASGROUPCHANGED_OFFSET UNITYSDK_OFFSET(0x15E632C0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x15E63350)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E633E0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15E63230)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x15E63110)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x15E631A0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E63BC0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E63B50)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E63E70)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15E63F00)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONCANVASGROUPCHANGED_OFFSET UNITYSDK_OFFSET(0x15E63F90)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x15E64020)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E640B0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15E64140)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x15E641D0)
-#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x15E64260)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_AWAKE_OFFSET UNITYSDK_OFFSET(0x1871FEA0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_GETMODIFIEDMATERIALPOST_OFFSET UNITYSDK_OFFSET(0x18720990)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x18720750)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1871FB60)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x18720950)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONCANVASGROUPCHANGED_OFFSET UNITYSDK_OFFSET(0x187203D0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x18720460)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187204F0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18720340)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x18720220)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x187202B0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN__CCTOR_OFFSET UNITYSDK_OFFSET(0x18720CD0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x18720C60)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x18720F80)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x18721010)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONCANVASGROUPCHANGED_OFFSET UNITYSDK_OFFSET(0x187210A0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x18721130)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187211C0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18721250)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x187212E0)
+#define MOLEMOLE_UGUIEXTENSIONS_UIPATTERN___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x18721370)
 
 namespace MoleMole::UGUIExtensions
 {
-	inline static constexpr unsigned int UIPattern_TypeDefinitionIndex = 78925;
+	inline static constexpr unsigned int UIPattern_TypeDefinitionIndex = 77038;
 
 	class UIPattern : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		static ::UnityEngine::UI::SharedUnityObjectResource_1<::UnityEngine::Material*>* StaticGet_Field_6_12()
-		{
-			return (::UnityEngine::UI::SharedUnityObjectResource_1<::UnityEngine::Material*>*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x41DB0);
-		}
 		static ::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>** StaticGet_Field_6_7()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x41DE8);
+			return (::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x44F20);
+		}
+		static ::UnityEngine::UI::SharedUnityObjectResource_1<::UnityEngine::Material*>* StaticGet_Field_6_12()
+		{
+			return (::UnityEngine::UI::SharedUnityObjectResource_1<::UnityEngine::Material*>*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x44F28);
 		}
 		static ::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>** StaticGet_Field_6_9()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x41DF0);
-		}
-		static ::System::Int32* StaticGet_Field_6_17()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFEF0);
-		}
-		static ::System::Int32* StaticGet_Field_6_16()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFEF4);
-		}
-		static ::System::Int32* StaticGet_Field_6_21()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFEF8);
+			return (::System::Collections::Generic::IEnumerable_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x44F60);
 		}
 		static ::System::Int32* StaticGet_Field_6_22()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFEFC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B00);
 		}
 		static ::System::Int32* StaticGet_Field_6_19()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFF00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B04);
 		}
-		static ::System::Int32* StaticGet_Field_6_20()
+		static ::System::Int32* StaticGet_Field_6_17()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFF04);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B08);
 		}
 		static ::System::Int32* StaticGet_Field_6_18()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0xFF08);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B0C);
+		}
+		static ::System::Int32* StaticGet_Field_6_16()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B10);
+		}
+		static ::System::Int32* StaticGet_Field_6_21()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B14);
+		}
+		static ::System::Int32* StaticGet_Field_6_20()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPattern_TypeDefinitionIndex)->GetStaticField(0x10B18);
 		}
 		// static const ::System::String* Field_6_11; // 0x0
 		// static const ::System::String* Field_6_23; // 0x0

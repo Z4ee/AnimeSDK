@@ -14,7 +14,7 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ICustomTypeDescriptor_TypeDefinitionIndex = 2895;
+	inline static constexpr unsigned int ICustomTypeDescriptor_TypeDefinitionIndex = 2894;
 
 	class ICustomTypeDescriptor
 	{

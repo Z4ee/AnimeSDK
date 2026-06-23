@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPBatch
 {
-	inline static constexpr unsigned int MaterialBatchThreadItem_TypeDefinitionIndex = 6119;
+	inline static constexpr unsigned int MaterialBatchThreadItem_TypeDefinitionIndex = 6130;
 
 	struct alignas(8) MaterialBatchThreadItem
 	{

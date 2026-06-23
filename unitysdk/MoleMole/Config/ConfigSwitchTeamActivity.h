@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSWITCHTEAMACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1424E740)
+#define MOLEMOLE_CONFIG_CONFIGSWITCHTEAMACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0CD10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSwitchTeamActivity_TypeDefinitionIndex = 39865;
+	inline static constexpr unsigned int ConfigSwitchTeamActivity_TypeDefinitionIndex = 86849;
 
 	class ConfigSwitchTeamActivity : public ::Foundation::MihoyoSerializedScriptableObject
 	{

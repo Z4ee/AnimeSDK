@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162DE4F0)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18243750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LayerConfig_TypeDefinitionIndex = 54414;
+	inline static constexpr unsigned int UIHadalZone_LayerConfig_TypeDefinitionIndex = 42870;
 
 	class UIHadalZone_LayerConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int SemaphoreRights_TypeDefinitionIndex = 3141;
+	inline static constexpr unsigned int SemaphoreRights_TypeDefinitionIndex = 3140;
 
 	enum class SemaphoreRights : ::System::Int32
 	{

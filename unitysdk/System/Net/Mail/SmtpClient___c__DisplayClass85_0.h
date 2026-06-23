@@ -7,19 +7,19 @@ namespace System::Net::Mail { class SendCompletedEventHandler; }
 namespace System::Net::Mail { class SmtpClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1EC390)
-#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS85_0__SENDMAILASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B1EC3A0)
+#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D3E70)
+#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS85_0__SENDMAILASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D5D3E80)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient___c__DisplayClass85_0_TypeDefinitionIndex = 3599;
+	inline static constexpr unsigned int SmtpClient___c__DisplayClass85_0_TypeDefinitionIndex = 3598;
 
 	class SmtpClient___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* tcs; // 0x10
+		::System::Net::Mail::SendCompletedEventHandler* handler; // 0x10
 		::System::Net::Mail::SmtpClient* __4__this; // 0x18
-		::System::Net::Mail::SendCompletedEventHandler* handler; // 0x20
+		::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* tcs; // 0x20
 
 		::System::Void _ctor()
 		{

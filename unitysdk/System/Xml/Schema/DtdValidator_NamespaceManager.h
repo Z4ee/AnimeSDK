@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_NAMESPACEMANAGER_LOOKUPNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1ACC0540)
-#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_NAMESPACEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC0550)
+#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_NAMESPACEMANAGER_LOOKUPNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1D0C3270)
+#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_NAMESPACEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C3280)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int DtdValidator_NamespaceManager_TypeDefinitionIndex = 2052;
+	inline static constexpr unsigned int DtdValidator_NamespaceManager_TypeDefinitionIndex = 2051;
 
 	class DtdValidator_NamespaceManager : public ::System::Xml::XmlNamespaceManager
 	{

@@ -5,23 +5,23 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XftWeapon { class XWeaponTrail; }
 
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_ADDCOM_OFFSET UNITYSDK_OFFSET(0x1B17D230)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_GETINNERLOOPBATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x1B1805A0)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B17D140)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_POSTSIMULATIONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B1805E0)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_REMOVECOM_OFFSET UNITYSDK_OFFSET(0x1B17D380)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B180520)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_ADDCOM_OFFSET UNITYSDK_OFFSET(0x1D57DC10)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_GETINNERLOOPBATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x1D580F80)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D57DB20)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_POSTSIMULATIONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D580FC0)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_REMOVECOM_OFFSET UNITYSDK_OFFSET(0x1D57DD60)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D580F00)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int XWeaponTrailJobMgr_TypeDefinitionIndex = 37685;
+	inline static constexpr unsigned int XWeaponTrailJobMgr_TypeDefinitionIndex = 39311;
 
 	class XWeaponTrailJobMgr : public ::System::Object
 	{
 	public:
 		static ::XftWeapon::XWeaponTrailJobMgr** StaticGet_m_pInstance()
 		{
-			return (::XftWeapon::XWeaponTrailJobMgr**)Il2CppClass::FromTypeDefinitionIndex(XWeaponTrailJobMgr_TypeDefinitionIndex)->GetStaticField(0x29210);
+			return (::XftWeapon::XWeaponTrailJobMgr**)Il2CppClass::FromTypeDefinitionIndex(XWeaponTrailJobMgr_TypeDefinitionIndex)->GetStaticField(0x2AED0);
 		}
 		::System::Collections::Generic::List_1<::XftWeapon::XWeaponTrail*>* m_arrComs; // 0x10
 

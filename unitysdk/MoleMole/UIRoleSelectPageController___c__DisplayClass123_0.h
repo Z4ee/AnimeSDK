@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRoleInfoPageContext; }
 namespace MoleMole { class UIRoleSelectPageController; }
 
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16139650)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS123_0__JUMPROLEINFOPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16139660)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB0240)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS123_0__JUMPROLEINFOPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16DB0250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass123_0_TypeDefinitionIndex = 39207;
+	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass123_0_TypeDefinitionIndex = 76897;
 
 	class UIRoleSelectPageController___c__DisplayClass123_0 : public ::System::Object
 	{

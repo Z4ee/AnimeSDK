@@ -13,25 +13,25 @@ namespace System::Data { class DataRow; }
 namespace System::Data { class DataRowView; }
 namespace System::Data { class IFilter; }
 
-#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1B74A390)
-#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1B74A380)
-#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1B749F30)
-#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B74A070)
-#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1B74A510)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B749E10)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B749CD0)
+#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1DB3C0A0)
+#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1DB3C090)
+#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1DB3BC40)
+#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB3BD80)
+#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1DB3C220)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB3BB20)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3B9E0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 37054;
+	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 38671;
 
 	class RelatedView : public ::System::Data::DataView
 	{
 	public:
-		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xC0
-		::System::Data::DataKey _childKey; // 0xD0
-		::System::Data::DataRowView* _parentRowView; // 0xD8
-		::Il2CppArray<::System::Object*>* _filterValues; // 0xE0
+		::Il2CppArray<::System::Object*>* _filterValues; // 0xC0
+		::System::Data::DataRowView* _parentRowView; // 0xC8
+		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xD0
+		::System::Data::DataKey _childKey; // 0xE0
 
 		::System::Void _ctor(::Il2CppArray<::System::Data::DataColumn*>* columns, ::Il2CppArray<::System::Object*>* values)
 		{

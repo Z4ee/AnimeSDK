@@ -17,7 +17,7 @@ namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BindingList_1_TypeDefinitionIndex = 2825;
+	inline static constexpr unsigned int BindingList_1_TypeDefinitionIndex = 2824;
 
 	template <typename T>
 	class BindingList_1 : public ::System::Collections::ObjectModel::Collection_1<T>

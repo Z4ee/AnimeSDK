@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ActivityBaseRecord.h"
 
-#define MOLEMOLE_ACTIVITYINTRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x11002A90)
-#define MOLEMOLE_ACTIVITYINTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x11002AA0)
+#define MOLEMOLE_ACTIVITYINTRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x13EBABF0)
+#define MOLEMOLE_ACTIVITYINTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBAC00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityIntRecord_TypeDefinitionIndex = 73019;
+	inline static constexpr unsigned int ActivityIntRecord_TypeDefinitionIndex = 55033;
 
 	class ActivityIntRecord : public ::MoleMole::ActivityBaseRecord
 	{

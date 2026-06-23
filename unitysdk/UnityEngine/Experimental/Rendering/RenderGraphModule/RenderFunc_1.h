@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderFunc_1_TypeDefinitionIndex = 9508;
+	inline static constexpr unsigned int RenderFunc_1_TypeDefinitionIndex = 18238;
 
 	template <typename PassData>
 	class RenderFunc_1 : public ::System::MulticastDelegate

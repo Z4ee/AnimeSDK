@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGDocument_ElemHandler; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_HANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BDFE0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_HANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6144C0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_Handlers_TypeDefinitionIndex = 28467;
+	inline static constexpr unsigned int SVGDocument_Handlers_TypeDefinitionIndex = 31122;
 
 	class SVGDocument_Handlers : public ::System::Collections::Generic::Dictionary_2<::System::String*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ElemHandler*>
 	{

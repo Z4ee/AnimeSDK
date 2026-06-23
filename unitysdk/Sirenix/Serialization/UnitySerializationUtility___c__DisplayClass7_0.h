@@ -5,12 +5,12 @@
 namespace Sirenix::Serialization { class ISerializationPolicy; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47D5B0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY___C__DISPLAYCLASS7_0__GETODINWILLSERIALIZEMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1C47D5C0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BB570)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY___C__DISPLAYCLASS7_0__GETODINWILLSERIALIZEMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1E7BB580)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int UnitySerializationUtility___c__DisplayClass7_0_TypeDefinitionIndex = 7469;
+	inline static constexpr unsigned int UnitySerializationUtility___c__DisplayClass7_0_TypeDefinitionIndex = 7601;
 
 	class UnitySerializationUtility___c__DisplayClass7_0 : public ::System::Object
 	{

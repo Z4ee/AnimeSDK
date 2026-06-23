@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9.h"
+#include "unitysdk/Enum_3_4E71123A51165BD1.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_2_6668C230FBA4650E;
+namespace UnityEngine { class SpriteRenderer; }
+
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_BUILDLAYOUT_OFFSET UNITYSDK_OFFSET(0x1E2959F0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E295AD0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_INITDATA_OFFSET UNITYSDK_OFFSET(0x1E295400)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x1E295350)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_METHOD_5_64F3965CE4C4DB47_OFFSET UNITYSDK_OFFSET(0x1E295B20)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_METHOD_5_C1B4AF03419A40C6_OFFSET UNITYSDK_OFFSET(0x1E2955D0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_RELEASE_OFFSET UNITYSDK_OFFSET(0x1E2953A0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETNUMFORTIPSTYPE_OFFSET UNITYSDK_OFFSET(0x1E2954A0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETNUM_OFFSET UNITYSDK_OFFSET(0x1E295550)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETSORTINGORDER_OFFSET UNITYSDK_OFFSET(0x1E295D30)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETSTYLE_OFFSET UNITYSDK_OFFSET(0x1E295440)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E295D80)
+
+namespace MoleMole::Arcade::BallPit
+{
+	inline static constexpr unsigned int BallPitNumTipsBehaviour_TypeDefinitionIndex = 89284;
+
+	class BallPitNumTipsBehaviour : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Il2CppArray<::UnityEngine::SpriteRenderer*>* numObjs; // 0x18
+		::System::Int32 Field_5_1; // 0x20
+		::System::Int32 Field_5_2; // 0x24
+		::Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9 Field_5_3; // 0x28
+		::Class_2_6668C230FBA4650E* Field_5_4; // 0x30
+		::System::Int32 Field_5_5; // 0x38
+		::System::Single deltaWidth; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour* Init(::Class_2_6668C230FBA4650E* a1)
+		{
+			return ((::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour*(*)(::PVOID, ::Class_2_6668C230FBA4650E*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_INIT_OFFSET))(this, a1);
+		}
+
+		::System::Void Release()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_RELEASE_OFFSET))(this);
+		}
+
+		::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour* InitData()
+		{
+			return ((::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_INITDATA_OFFSET))(this);
+		}
+
+		::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour* SetStyle(::System::Int32 a1, ::Enum_3_4E71123A51165BD1 a2)
+		{
+			return ((::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour*(*)(::PVOID, ::System::Int32, ::Enum_3_4E71123A51165BD1))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETSTYLE_OFFSET))(this, a1, a2);
+		}
+
+		::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour* SetNumForTipsType(::Enum_3_4E71123A51165BD1 a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour*(*)(::PVOID, ::Enum_3_4E71123A51165BD1, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETNUMFORTIPSTYPE_OFFSET))(this, a1, a2);
+		}
+
+		::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour* SetNum(::Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9 a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Arcade::BallPit::BallPitNumTipsBehaviour*(*)(::PVOID, ::Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETNUM_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void BuildLayout()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_BUILDLAYOUT_OFFSET))(this);
+		}
+
+		::System::Void Flush()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_FLUSH_OFFSET))(this);
+		}
+
+		::System::Void SetSortingOrder(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_SETSORTINGORDER_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_64F3965CE4C4DB47()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_METHOD_5_64F3965CE4C4DB47_OFFSET))(this);
+		}
+
+		::System::Void Method_5_C1B4AF03419A40C6(::Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9 a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_6668C230FBA4650E_Enum_3_52F763159C84AEE9, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITNUMTIPSBEHAVIOUR_METHOD_5_C1B4AF03419A40C6_OFFSET))(this, a1, a2);
+		}
+	};
+}

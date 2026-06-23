@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS56_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15199560)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS56_2__REFRESHGACHAVIEW_B__12_OFFSET UNITYSDK_OFFSET(0x15199960)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS56_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17636CD0)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS56_2__REFRESHGACHAVIEW_B__12_OFFSET UNITYSDK_OFFSET(0x176370E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass56_2_TypeDefinitionIndex = 45780;
+	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass56_2_TypeDefinitionIndex = 64980;
 
 	class UIGachaPageController___c__DisplayClass56_2 : public ::System::Object
 	{

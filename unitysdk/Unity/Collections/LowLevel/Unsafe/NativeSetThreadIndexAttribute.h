@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVESETTHREADINDEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B2B0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVESETTHREADINDEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF55920)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeSetThreadIndexAttribute_TypeDefinitionIndex = 5103;
+	inline static constexpr unsigned int NativeSetThreadIndexAttribute_TypeDefinitionIndex = 5102;
 
 	class NativeSetThreadIndexAttribute : public ::System::Attribute
 	{

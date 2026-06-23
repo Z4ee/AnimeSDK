@@ -5,11 +5,11 @@
 
 class Class_1_4865323EE33E9248;
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_MISSIONACTIVITYTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13008030)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_MISSIONACTIVITYTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB58B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_MissionActivityTipData_TypeDefinitionIndex = 55032;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_MissionActivityTipData_TypeDefinitionIndex = 69631;
 
 	class UIMissionTipsContainerWidgetController_MissionActivityTipData : public ::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData
 	{

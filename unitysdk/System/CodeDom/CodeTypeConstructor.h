@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/CodeDom/CodeMemberMethod.h"
 
-#define SYSTEM_CODEDOM_CODETYPECONSTRUCTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F37C0)
+#define SYSTEM_CODEDOM_CODETYPECONSTRUCTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C486E20)
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeTypeConstructor_TypeDefinitionIndex = 4283;
+	inline static constexpr unsigned int CodeTypeConstructor_TypeDefinitionIndex = 4282;
 
 	class CodeTypeConstructor : public ::System::CodeDom::CodeMemberMethod
 	{

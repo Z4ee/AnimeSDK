@@ -2,16 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+#define FOUNDATION_CONTAINER_HIERARCHICALHASHGRID2DDEBUGOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C984840)
+
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int HierarchicalHashGrid2DDebugOptions_TypeDefinitionIndex = 8953;
+	inline static constexpr unsigned int HierarchicalHashGrid2DDebugOptions_TypeDefinitionIndex = 8772;
 
 	class HierarchicalHashGrid2DDebugOptions : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_EnableFixInvalidParentPointerCheck()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HierarchicalHashGrid2DDebugOptions_TypeDefinitionIndex)->GetStaticField(0x12120);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HierarchicalHashGrid2DDebugOptions_TypeDefinitionIndex)->GetStaticField(0x3DB0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_CONTAINER_HIERARCHICALHASHGRID2DDEBUGOPTIONS__CCTOR_OFFSET))();
 		}
 	};
 }

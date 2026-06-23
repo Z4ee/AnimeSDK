@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDFariyTipCountDown; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFARIYTIPCOUNTDOWN___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1498E6A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFARIYTIPCOUNTDOWN___C__DISPLAYCLASS5_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1498E6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFARIYTIPCOUNTDOWN___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17103700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFARIYTIPCOUNTDOWN___C__DISPLAYCLASS5_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x17103710)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDFariyTipCountDown___c__DisplayClass5_0_TypeDefinitionIndex = 64837;
+	inline static constexpr unsigned int LDFariyTipCountDown___c__DisplayClass5_0_TypeDefinitionIndex = 49516;
 
 	class LDFariyTipCountDown___c__DisplayClass5_0 : public ::System::Object
 	{

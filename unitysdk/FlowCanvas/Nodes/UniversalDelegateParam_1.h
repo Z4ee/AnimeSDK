@@ -13,7 +13,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int UniversalDelegateParam_1_TypeDefinitionIndex = 27891;
+	inline static constexpr unsigned int UniversalDelegateParam_1_TypeDefinitionIndex = 30426;
 
 	template <typename T>
 	class UniversalDelegateParam_1 : public ::FlowCanvas::Nodes::UniversalDelegateParam

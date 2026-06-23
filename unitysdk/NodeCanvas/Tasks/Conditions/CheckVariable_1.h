@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckVariable_1_TypeDefinitionIndex = 26819;
+	inline static constexpr unsigned int CheckVariable_1_TypeDefinitionIndex = 30841;
 
 	template <typename T>
 	class CheckVariable_1 : public ::NodeCanvas::Framework::ConditionTask

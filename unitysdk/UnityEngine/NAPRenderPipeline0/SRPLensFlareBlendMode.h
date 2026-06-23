@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SRPLensFlareBlendMode_TypeDefinitionIndex = 24691;
+	inline static constexpr unsigned int SRPLensFlareBlendMode_TypeDefinitionIndex = 18476;
 
 	enum class SRPLensFlareBlendMode : ::System::Int32
 	{

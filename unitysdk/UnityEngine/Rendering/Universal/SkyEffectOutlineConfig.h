@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SKYEFFECTOUTLINECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x19F35D00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SKYEFFECTOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F35E90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SKYEFFECTOUTLINECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C151BC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SKYEFFECTOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C151D50)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SkyEffectOutlineConfig_TypeDefinitionIndex = 29962;
+	inline static constexpr unsigned int SkyEffectOutlineConfig_TypeDefinitionIndex = 26312;
 
 	class SkyEffectOutlineConfig : public ::System::Object
 	{

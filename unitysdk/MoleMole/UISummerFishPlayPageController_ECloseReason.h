@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishPlayPageController_ECloseReason_TypeDefinitionIndex = 62371;
+	inline static constexpr unsigned int UISummerFishPlayPageController_ECloseReason_TypeDefinitionIndex = 71923;
 
 	enum class UISummerFishPlayPageController_ECloseReason : ::System::Int32
 	{
-		AutoFishBack = 3,
-		AutoFishEnd = 4,
 		Timeout = 2,
+		AutoFishEnd = 4,
 		ManualClose = 0,
 		FinishFish = 1,
+		AutoFishBack = 3,
 	};
 }

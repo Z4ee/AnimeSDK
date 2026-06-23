@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIFriendChatSpecialWidgetController_ShareIconData; }
 
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1579CD90)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS30_0__PROCESSGACHADATA_B__0_OFFSET UNITYSDK_OFFSET(0x1579CDA0)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17715A40)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS30_0__PROCESSGACHADATA_B__0_OFFSET UNITYSDK_OFFSET(0x17715A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass30_0_TypeDefinitionIndex = 68398;
+	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass30_0_TypeDefinitionIndex = 84089;
 
 	class UIFriendChatSpecialWidgetController___c__DisplayClass30_0 : public ::System::Object
 	{

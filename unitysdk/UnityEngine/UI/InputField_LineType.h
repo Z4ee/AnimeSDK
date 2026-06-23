@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_LineType_TypeDefinitionIndex = 8376;
+	inline static constexpr unsigned int InputField_LineType_TypeDefinitionIndex = 18884;
 
 	enum class InputField_LineType : ::System::Int32
 	{

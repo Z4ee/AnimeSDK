@@ -5,13 +5,13 @@
 namespace System { class Uri; }
 namespace System::Net { class WebProxy; }
 
-#define SYSTEM_NET_PROXYSCRIPTCHAIN_ABORT_OFFSET UNITYSDK_OFFSET(0x1A7EF090)
-#define SYSTEM_NET_PROXYSCRIPTCHAIN_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1A7EEFE0)
-#define SYSTEM_NET_PROXYSCRIPTCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7EEF40)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN_ABORT_OFFSET UNITYSDK_OFFSET(0x1CB02C00)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1CB02B50)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB02AB0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ProxyScriptChain_TypeDefinitionIndex = 3388;
+	inline static constexpr unsigned int ProxyScriptChain_TypeDefinitionIndex = 3387;
 
 	class ProxyScriptChain : public ::System::Net::ProxyChain
 	{

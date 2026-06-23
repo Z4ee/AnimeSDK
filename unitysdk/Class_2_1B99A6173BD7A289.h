@@ -9,25 +9,25 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UIImgEventTrigger; }
 namespace UnityEngine::UI::Extension { class UISlider; }
 
-#define CLASS_2_1B99A6173BD7A289_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x13086A10)
-#define CLASS_2_1B99A6173BD7A289_METHOD_2_8BCB3191E6BEE7CB_OFFSET UNITYSDK_OFFSET(0x13086C40)
-#define CLASS_2_1B99A6173BD7A289_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13086DA0)
-#define CLASS_2_1B99A6173BD7A289__CTOR_OFFSET UNITYSDK_OFFSET(0x13086D90)
+#define CLASS_2_1B99A6173BD7A289_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x162DEA50)
+#define CLASS_2_1B99A6173BD7A289_METHOD_2_8BCB3191E6BEE7CB_OFFSET UNITYSDK_OFFSET(0x162DEC70)
+#define CLASS_2_1B99A6173BD7A289_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x162DEDD0)
+#define CLASS_2_1B99A6173BD7A289__CTOR_OFFSET UNITYSDK_OFFSET(0x162DEDC0)
 
-inline static constexpr unsigned int Class_2_1B99A6173BD7A289_TypeDefinitionIndex = 45577;
+inline static constexpr unsigned int Class_2_1B99A6173BD7A289_TypeDefinitionIndex = 83584;
 
 class Class_2_1B99A6173BD7A289 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_0; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x18
+	::UnityEngine::UI::Extension::UIImgEventTrigger* Field_2_5; // 0x20
 	::UnityEngine::UI::Extension::UISlider* Field_2_8; // 0x28
-	::UnityEngine::UI::Extension::UISlider* Field_2_4; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x38
-	::UnityEngine::UI::Extension::UIImgEventTrigger* Field_2_5; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x30
+	::UnityEngine::RectTransform* Field_2_0; // 0x38
+	::UnityEngine::UI::Extension::UISlider* Field_2_4; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x48
 	::Class_2_B4378B46E0020E85* Field_2_1; // 0x50
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x58
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x58
 
 	::System::Void _ctor()
 	{

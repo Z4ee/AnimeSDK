@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B9D00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C505E10)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int AsymmetricSignatureFormatter_TypeDefinitionIndex = 1043;
+	inline static constexpr unsigned int AsymmetricSignatureFormatter_TypeDefinitionIndex = 1042;
 
 	class AsymmetricSignatureFormatter : public ::System::Object
 	{

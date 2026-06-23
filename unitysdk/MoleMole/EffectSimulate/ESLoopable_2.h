@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESLoopable_2_TypeDefinitionIndex = 78767;
+	inline static constexpr unsigned int ESLoopable_2_TypeDefinitionIndex = 46557;
 
 	template <typename EvaluateCurveType, typename ValType>
 	class ESLoopable_2 : public ::MoleMole::EffectSimulate::ESLoopable

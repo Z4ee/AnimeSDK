@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int DeliveryNotificationOptions_TypeDefinitionIndex = 3585;
+	inline static constexpr unsigned int DeliveryNotificationOptions_TypeDefinitionIndex = 3584;
 
 	enum class DeliveryNotificationOptions : ::System::Int32
 	{

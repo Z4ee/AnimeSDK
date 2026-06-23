@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BtnScaleType_TypeDefinitionIndex = 43035;
+inline static constexpr unsigned int BtnScaleType_TypeDefinitionIndex = 45245;
 
 enum class BtnScaleType : ::System::Int32
 {

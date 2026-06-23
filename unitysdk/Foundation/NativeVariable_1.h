@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeVariable_1_TypeDefinitionIndex = 9103;
+	inline static constexpr unsigned int NativeVariable_1_TypeDefinitionIndex = 8730;
 
 	template <typename T>
 	struct NativeVariable_1

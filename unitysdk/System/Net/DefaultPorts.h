@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DefaultPorts_TypeDefinitionIndex = 3326;
+	inline static constexpr unsigned int DefaultPorts_TypeDefinitionIndex = 3325;
 
 	enum class DefaultPorts : ::System::Int32
 	{

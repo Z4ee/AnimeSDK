@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class TickFunction_1___c; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickFunction_1___c_TypeDefinitionIndex = 9191;
+	inline static constexpr unsigned int TickFunction_1___c_TypeDefinitionIndex = 8438;
 
 	template <typename TTickingGroup>
 	class TickFunction_1___c : public ::System::Object

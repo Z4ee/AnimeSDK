@@ -11,52 +11,56 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETDYNAMICDROPCONFIG_OFFSET UNITYSDK_OFFSET(0xFB0CD60)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETGUIDEPOINTSTRATEGY_OFFSET UNITYSDK_OFFSET(0xFB0C720)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETPROJECTILEDROPCONFIG_OFFSET UNITYSDK_OFFSET(0xFB0CE00)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0xFB0CCF0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_GRIDSIZE_OFFSET UNITYSDK_OFFSET(0xFB0CC60)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ISDELAYCREATEENTITYENABLED_OFFSET UNITYSDK_OFFSET(0xFB0CB60)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ISENTITYGRIDDISABLED_OFFSET UNITYSDK_OFFSET(0xFB0CBE0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_HASVALIDPLATFORMCONFIG_OFFSET UNITYSDK_OFFSET(0xFB0C8F0)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB0CF20)
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0CEC0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETDYNAMICDROPCONFIG_OFFSET UNITYSDK_OFFSET(0xE97B0E0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETGUIDEPOINTSTRATEGY_OFFSET UNITYSDK_OFFSET(0xE97AA10)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GETPROJECTILEDROPCONFIG_OFFSET UNITYSDK_OFFSET(0xE97B180)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0xE97AFE0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ENTITYCREATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE97B050)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_GRIDSIZE_OFFSET UNITYSDK_OFFSET(0xE97AF50)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ISDELAYCREATEENTITYENABLED_OFFSET UNITYSDK_OFFSET(0xE97AE70)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ISENTITYGRIDDISABLED_OFFSET UNITYSDK_OFFSET(0xE97AEE0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_HASVALIDPLATFORMCONFIG_OFFSET UNITYSDK_OFFSET(0xE97ABE0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC__CCTOR_OFFSET UNITYSDK_OFFSET(0xE97B2C0)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC__CTOR_OFFSET UNITYSDK_OFFSET(0xE97B240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_TypeDefinitionIndex = 63146;
+	inline static constexpr unsigned int ConfigViewObjectMisc_TypeDefinitionIndex = 46260;
 
 	class ConfigViewObjectMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::Config::GuidePoint_AutoGenStrategy* StaticGet_DefaultGuidePointAutoGenStrategy()
 		{
-			return (::MoleMole::Config::GuidePoint_AutoGenStrategy*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0x3D4E0);
+			return (::MoleMole::Config::GuidePoint_AutoGenStrategy*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0x3DBC0);
 		}
 		static ::MoleMole::Config::ConfigViewObjectMisc_ProjectileDrop* StaticGet_DefaultProjectileDropConfig()
 		{
-			return (::MoleMole::Config::ConfigViewObjectMisc_ProjectileDrop*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0x3D528);
-		}
-		static ::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop* StaticGet_DefaultDynamicDropConfig()
-		{
-			return (::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0xEF80);
+			return (::MoleMole::Config::ConfigViewObjectMisc_ProjectileDrop*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0x3DC08);
 		}
 		static ::MoleMole::Config::ConfigViewObjectMisc_EntityCreate* StaticGet_debugCreate()
 		{
-			return (::MoleMole::Config::ConfigViewObjectMisc_EntityCreate*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0xEF88);
+			return (::MoleMole::Config::ConfigViewObjectMisc_EntityCreate*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0x3DC28);
+		}
+		static ::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop* StaticGet_DefaultDynamicDropConfig()
+		{
+			return (::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop*)Il2CppClass::FromTypeDefinitionIndex(ConfigViewObjectMisc_TypeDefinitionIndex)->GetStaticField(0xF120);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::GuidePoint_AutoGenStrategy>* GuidePoint_AutoGenStategies; // 0x58
 		::System::Int32 obstacleCost; // 0x60
-		::MoleMole::Config::ConfigViewObjectMisc_EntityCreate defaultEntityCreate; // 0x64
-		::System::Single inactivateObservationTime; // 0x70
-		::System::Single activateObservationTime; // 0x74
-		::System::Single visibleCosHalfAngleThreshold; // 0x78
-		::System::Single bypassVisibleSqrDistanceThreshold; // 0x7C
-		::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop dynamicDropConfig; // 0x80
-		::MoleMole::Config::ConfigViewObjectMisc_ProjectileDrop projectileDropConfig; // 0x88
-		::System::Collections::Generic::List_1<::System::String*>* MonsterNotCountingTag; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* voEventString; // 0xB0
-		::Foundation::AssetPath MPNavigationPointPrefabPath; // 0xB8
+		::MoleMole::Config::ConfigViewObjectMisc_EntityCreate defaultEntityCreate; // 0x68
+		::System::Single inactivateObservationTime; // 0x88
+		::System::Single activateObservationTime; // 0x8C
+		::System::Single visibleCosHalfAngleThreshold; // 0x90
+		::System::Single bypassVisibleSqrDistanceThreshold; // 0x94
+		::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop dynamicDropConfig; // 0x98
+		::MoleMole::Config::ConfigViewObjectMisc_ProjectileDrop projectileDropConfig; // 0xA0
+		::System::Collections::Generic::List_1<::System::String*>* MonsterNotCountingTag; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* voEventString; // 0xC8
+		::Foundation::AssetPath MPNavigationPointPrefabPath; // 0xD0
+		::System::Single moveSyncSamplePositionInterval; // 0xE0
+		::System::Single moveSyncSamplePositionMaxDistance; // 0xE4
+		::System::Single moveSyncHorizontalMaxOffset; // 0xE8
 
 		::System::Void _ctor()
 		{
@@ -96,6 +100,11 @@ namespace MoleMole::Config
 		::System::Single Get_CreateInterval()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_CREATEINTERVAL_OFFSET))(this);
+		}
+
+		::MoleMole::Config::ConfigViewObjectMisc_EntityCreate Get_EntityCreationConfig()
+		{
+			return ((::MoleMole::Config::ConfigViewObjectMisc_EntityCreate(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_GET_ENTITYCREATIONCONFIG_OFFSET))(this);
 		}
 
 		::MoleMole::Config::ConfigViewObjectMisc_DynamicDrop GetDynamicDropConfig()

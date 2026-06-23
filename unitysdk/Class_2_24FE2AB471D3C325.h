@@ -3,9 +3,9 @@
 #include "unitysdk/Enum_3_765BE772598E3A58.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define CLASS_2_24FE2AB471D3C325__CTOR_OFFSET UNITYSDK_OFFSET(0x1239A130)
+#define CLASS_2_24FE2AB471D3C325__CTOR_OFFSET UNITYSDK_OFFSET(0x154A1370)
 
-inline static constexpr unsigned int Class_2_24FE2AB471D3C325_TypeDefinitionIndex = 45066;
+inline static constexpr unsigned int Class_2_24FE2AB471D3C325_TypeDefinitionIndex = 48118;
 
 class Class_2_24FE2AB471D3C325 : public ::System::EventArgs
 {

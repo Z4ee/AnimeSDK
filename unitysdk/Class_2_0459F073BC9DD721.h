@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_677CEA8C88AC78AB.h"
+#include "unitysdk/Class_1_8377BAB19A574A40.h"
 #include "unitysdk/MoleMole/Config/CameraDelayMoveMode.h"
 
-#define CLASS_2_0459F073BC9DD721_METHOD_2_08A500CCFA7B1882_OFFSET UNITYSDK_OFFSET(0x10C7CBD0)
-#define CLASS_2_0459F073BC9DD721_METHOD_2_96F6E9EA89A38FD1_OFFSET UNITYSDK_OFFSET(0x10C7CAC0)
-#define CLASS_2_0459F073BC9DD721__CTOR_OFFSET UNITYSDK_OFFSET(0x10C7CB60)
+#define CLASS_2_0459F073BC9DD721_METHOD_2_08A500CCFA7B1882_OFFSET UNITYSDK_OFFSET(0x141369D0)
+#define CLASS_2_0459F073BC9DD721_METHOD_2_96F6E9EA89A38FD1_OFFSET UNITYSDK_OFFSET(0x141368C0)
+#define CLASS_2_0459F073BC9DD721__CTOR_OFFSET UNITYSDK_OFFSET(0x14136960)
 
-inline static constexpr unsigned int Class_2_0459F073BC9DD721_TypeDefinitionIndex = 77206;
+inline static constexpr unsigned int Class_2_0459F073BC9DD721_TypeDefinitionIndex = 83227;
 
-class Class_2_0459F073BC9DD721 : public ::Class_1_677CEA8C88AC78AB
+class Class_2_0459F073BC9DD721 : public ::Class_1_8377BAB19A574A40
 {
 public:
-	::System::Int32 Field_2_3; // 0x80
-	::MoleMole::Config::CameraDelayMoveMode Field_2_0; // 0x84
-	::System::Boolean Field_2_2; // 0x88
-	::System::Single Field_2_1; // 0x8C
+	::System::Boolean Field_2_2; // 0x80
+	::System::Int32 Field_2_3; // 0x84
+	::System::Single Field_2_1; // 0x88
+	::MoleMole::Config::CameraDelayMoveMode Field_2_0; // 0x8C
 
 	::System::Void _ctor()
 	{

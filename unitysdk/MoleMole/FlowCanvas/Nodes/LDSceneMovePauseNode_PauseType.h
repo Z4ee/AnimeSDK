@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSceneMovePauseNode_PauseType_TypeDefinitionIndex = 43490;
+	inline static constexpr unsigned int LDSceneMovePauseNode_PauseType_TypeDefinitionIndex = 63987;
 
 	enum class LDSceneMovePauseNode_PauseType : ::System::Int32
 	{

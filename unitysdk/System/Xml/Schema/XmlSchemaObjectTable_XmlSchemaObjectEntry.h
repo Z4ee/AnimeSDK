@@ -5,11 +5,11 @@
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XMLSCHEMAOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XMLSCHEMAOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaObjectTable_XmlSchemaObjectEntry_TypeDefinitionIndex = 2176;
+	inline static constexpr unsigned int XmlSchemaObjectTable_XmlSchemaObjectEntry_TypeDefinitionIndex = 2175;
 
 	struct alignas(8) XmlSchemaObjectTable_XmlSchemaObjectEntry
 	{

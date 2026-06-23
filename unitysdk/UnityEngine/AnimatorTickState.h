@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorTickState_TypeDefinitionIndex = 6536;
+	inline static constexpr unsigned int AnimatorTickState_TypeDefinitionIndex = 6618;
 
 	enum class AnimatorTickState : ::System::Int32
 	{

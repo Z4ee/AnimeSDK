@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CapsuleDirection2D_TypeDefinitionIndex = 7622;
+	inline static constexpr unsigned int CapsuleDirection2D_TypeDefinitionIndex = 18373;
 
 	enum class CapsuleDirection2D : ::System::Int32
 	{

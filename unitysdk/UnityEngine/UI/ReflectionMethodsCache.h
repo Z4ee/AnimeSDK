@@ -9,19 +9,19 @@ namespace UnityEngine::UI { class ReflectionMethodsCache_Raycast2DCallback; }
 namespace UnityEngine::UI { class ReflectionMethodsCache_Raycast3DCallback; }
 namespace UnityEngine::UI { class ReflectionMethodsCache_RaycastAllCallback; }
 
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GET_SINGLETON_OFFSET UNITYSDK_OFFSET(0x1BC72030)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC70C60)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GET_SINGLETON_OFFSET UNITYSDK_OFFSET(0x1DFB5980)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB45B0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ReflectionMethodsCache_TypeDefinitionIndex = 8473;
+	inline static constexpr unsigned int ReflectionMethodsCache_TypeDefinitionIndex = 18981;
 
 	class ReflectionMethodsCache : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::ReflectionMethodsCache** StaticGet_s_ReflectionMethodsCache()
 		{
-			return (::UnityEngine::UI::ReflectionMethodsCache**)Il2CppClass::FromTypeDefinitionIndex(ReflectionMethodsCache_TypeDefinitionIndex)->GetStaticField(0x77B0);
+			return (::UnityEngine::UI::ReflectionMethodsCache**)Il2CppClass::FromTypeDefinitionIndex(ReflectionMethodsCache_TypeDefinitionIndex)->GetStaticField(0x8A00);
 		}
 		::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* raycast3D; // 0x10
 		::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* raycast3DAll; // 0x18

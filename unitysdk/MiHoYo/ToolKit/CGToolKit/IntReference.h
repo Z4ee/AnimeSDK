@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_INTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xDB83F10)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_INTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x106AA610)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int IntReference_TypeDefinitionIndex = 63887;
+	inline static constexpr unsigned int IntReference_TypeDefinitionIndex = 80581;
 
 	class IntReference : public ::System::Object
 	{

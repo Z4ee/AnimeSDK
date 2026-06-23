@@ -11,30 +11,30 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1B3C43D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B3C4350)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_FINALBLIT_OFFSET UNITYSDK_OFFSET(0x1B3C4BC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_INTERNAL_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1B3C46A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3C5050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1D72F540)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D72F4C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_FINALBLIT_OFFSET UNITYSDK_OFFSET(0x1D72FD30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_INTERNAL_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1D72F810)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7301C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OpaquePostProcessPass_TypeDefinitionIndex = 5819;
+	inline static constexpr unsigned int OpaquePostProcessPass_TypeDefinitionIndex = 5825;
 
 	class OpaquePostProcessPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::RenderTexture*>** StaticGet_s_TempRTs()
-		{
-			return (::Il2CppArray<::UnityEngine::RenderTexture*>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5620);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_k_ProfilerSample()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5628);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5650);
+		}
+		static ::Il2CppArray<::UnityEngine::RenderTexture*>** StaticGet_s_TempRTs()
+		{
+			return (::Il2CppArray<::UnityEngine::RenderTexture*>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5658);
 		}
 		static ::UnityEngine::Matrix4x4* StaticGet_identityMatrix()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x2DD0);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x2E00);
 		}
 		::UnityEngine::Rendering::RenderTargetIdentifier m_Color; // 0xA8
 		::UnityEngine::Rendering::RenderTargetIdentifier m_Depth; // 0xD0

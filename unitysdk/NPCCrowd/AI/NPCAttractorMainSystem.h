@@ -12,50 +12,50 @@ namespace NPCCrowd::AI { class IAttractorProcessor; }
 namespace Nap::NapECS { class EcsFilter; }
 namespace Nap::NapECS { class EcsWorld; }
 
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xFB4C1B0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xFB4C850)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCH_OFFSET UNITYSDK_OFFSET(0xFB4CCB0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0xFB4CC40)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xFB4BED0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFB4CBD0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xFB4C200)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0xFB4BF50)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xFB4C080)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_WAIT_OFFSET UNITYSDK_OFFSET(0xFB4C150)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB4CDE0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4BDE0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xFB4CE00)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFB4CE90)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xFB4CF20)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0xFB4CFB0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xFB4D040)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xEBC1040)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xEBC16F0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCH_OFFSET UNITYSDK_OFFSET(0xEBC1B50)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0xEBC1AE0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xEBC0D60)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEBC1090)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xEBC1A70)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0xEBC0DE0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xEBC0F10)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_WAIT_OFFSET UNITYSDK_OFFSET(0xEBC0FE0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC1C80)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC0C70)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xEBC1CA0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEBC1D30)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xEBC1DC0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0xEBC1E50)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xEBC1EE0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCAttractorMainSystem_TypeDefinitionIndex = 60780;
+	inline static constexpr unsigned int NPCAttractorMainSystem_TypeDefinitionIndex = 84837;
 
 	class NPCAttractorMainSystem : public ::Class_2_40CD888D5D4FCB5B
 	{
 	public:
 		static ::NPCCrowd::AI::NPCAttractorMainSystem** StaticGet__self()
 		{
-			return (::NPCCrowd::AI::NPCAttractorMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0x38590);
+			return (::NPCCrowd::AI::NPCAttractorMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0x3A940);
 		}
 		static ::System::Int32* StaticGet_MaxAttractorNum()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE040);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE690);
 		}
 		static ::System::Boolean* StaticGet_PauseAttractorFlag()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE044);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE694);
 		}
-		::NPCCrowd::AI::AttractorManager* attractorManager; // 0x20
-		::Nap::NapECS::EcsFilter* filter; // 0x28
-		::Nap::NapECS::EcsWorld* ecsWorld; // 0x30
-		::NPCCrowd::AI::AttractorBaseProcessor* baseProcessor; // 0x38
-		::NPCCrowd::AI::AttractorRuntimeData* runtimeData; // 0x40
-		::NPCCrowd::AI::AttractorConflictQueryProcessor* conflictQueryProcessor; // 0x48
-		::NPCCrowd::AI::AttractorQueryEntityProcessor* queryProcessor; // 0x50
+		::NPCCrowd::AI::AttractorBaseProcessor* baseProcessor; // 0x20
+		::NPCCrowd::AI::AttractorConflictQueryProcessor* conflictQueryProcessor; // 0x28
+		::NPCCrowd::AI::AttractorQueryEntityProcessor* queryProcessor; // 0x30
+		::Nap::NapECS::EcsWorld* ecsWorld; // 0x38
+		::NPCCrowd::AI::AttractorManager* attractorManager; // 0x40
+		::NPCCrowd::AI::AttractorRuntimeData* runtimeData; // 0x48
+		::Nap::NapECS::EcsFilter* filter; // 0x50
 		::Unity::Jobs::JobHandle _jobHandle; // 0x58
 		::System::Boolean conflictQuerying; // 0x68
 
@@ -89,9 +89,9 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_CREATEFILTERS_OFFSET))(this, world);
 		}
 
-		::System::Void PostLateUpdate()
+		::System::Void LateUpdate()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_POSTLATEUPDATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_LATEUPDATE_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -124,14 +124,14 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_CREATEFILTERS_OFFSET))(this, P0);
 		}
 
+		::System::Void __base_LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_LATEUPDATE_OFFSET))(this);
+		}
+
 		::System::Void __base_OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_ONDESTROY_OFFSET))(this);
-		}
-
-		::System::Void __base_PostLateUpdate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_POSTLATEUPDATE_OFFSET))(this);
 		}
 
 		::System::Void __base_Start()

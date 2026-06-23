@@ -10,22 +10,22 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A904130)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A904270)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A904680)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D396F40)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D397080)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D397490)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckMousePick2D_TypeDefinitionIndex = 26581;
+	inline static constexpr unsigned int CheckMousePick2D_TypeDefinitionIndex = 30790;
 
 	class CheckMousePick2D : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGoAs; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePosAs; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePosAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGoAs; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x70
-		::ParadoxNotion::ButtonKeys buttonKey; // 0x78
-		::UnityEngine::RaycastHit2D hit; // 0x7C
+		::UnityEngine::RaycastHit2D hit; // 0x78
+		::ParadoxNotion::ButtonKeys buttonKey; // 0x9C
 		::UnityEngine::LayerMask mask; // 0xA0
 		::System::Int32 buttonID; // 0xA4
 

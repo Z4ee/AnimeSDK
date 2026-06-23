@@ -9,19 +9,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD327D0)
-#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1BD327E0)
+#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE315C0)
+#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DE315D0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetPoolEditorMode___c__DisplayClass6_0_TypeDefinitionIndex = 7887;
+	inline static constexpr unsigned int AssetPoolEditorMode___c__DisplayClass6_0_TypeDefinitionIndex = 8107;
 
 	class AssetPoolEditorMode___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::Foundation::AssetPath assetPath; // 0x10
-		::System::Action_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* completed; // 0x20
-		::UnityEngine::Transform* parent; // 0x28
+		::System::Action_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* completed; // 0x10
+		::UnityEngine::Transform* parent; // 0x18
+		::Foundation::AssetPath assetPath; // 0x20
 		::System::Boolean activeState; // 0x30
 
 		::System::Void _ctor()

@@ -5,7 +5,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int CurveFrame_TypeDefinitionIndex = 33232;
+	inline static constexpr unsigned int CurveFrame_TypeDefinitionIndex = 34795;
 
 	struct alignas(4) CurveFrame
 	{

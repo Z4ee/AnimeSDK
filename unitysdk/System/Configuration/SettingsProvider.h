@@ -7,11 +7,11 @@ namespace System::Configuration { class SettingsContext; }
 namespace System::Configuration { class SettingsPropertyCollection; }
 namespace System::Configuration { class SettingsPropertyValueCollection; }
 
-#define SYSTEM_CONFIGURATION_SETTINGSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1921B410)
+#define SYSTEM_CONFIGURATION_SETTINGSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4014E0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsProvider_TypeDefinitionIndex = 4076;
+	inline static constexpr unsigned int SettingsProvider_TypeDefinitionIndex = 4075;
 
 	class SettingsProvider : public ::System::Configuration::Provider::ProviderBase
 	{

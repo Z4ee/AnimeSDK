@@ -5,23 +5,23 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIHANDBOOKANTIQUEITEMROWWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x151D6530)
+#define MOLEMOLE_UIHANDBOOKANTIQUEITEMROWWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x171FFB90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookAntiqueItemRowWidgetController_PanelData_TypeDefinitionIndex = 42734;
+	inline static constexpr unsigned int UIHandBookAntiqueItemRowWidgetController_PanelData_TypeDefinitionIndex = 76647;
 
 	class UIHandBookAntiqueItemRowWidgetController_PanelData : public ::System::Object
 	{
 	public:
 		::System::String* TargetTxt; // 0x10
 		::System::String* Title; // 0x18
-		::Share::ENotificationBadgeType RedSignType; // 0x20
+		::System::Int32 GotoAccessId; // 0x20
 		::System::Int32 TotalCount; // 0x24
-		::System::Boolean IsRate; // 0x28
-		::System::Int32 LockTipsId; // 0x2C
-		::System::Int32 GotoAccessId; // 0x30
-		::System::Int32 CurrentCount; // 0x34
+		::Share::ENotificationBadgeType RedSignType; // 0x28
+		::System::Boolean IsRate; // 0x2C
+		::System::Int32 CurrentCount; // 0x30
+		::System::Int32 LockTipsId; // 0x34
 
 		::System::Void _ctor()
 		{

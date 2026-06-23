@@ -14,64 +14,64 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_RESERVEDOBJECTPOOL_AUTORELEASEPOOL_OFFSET UNITYSDK_OFFSET(0x1407DCA0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1407CB90)
-#define FOUNDATION_RESERVEDOBJECTPOOL_GET_ISALLOWMEMORYLEAK_OFFSET UNITYSDK_OFFSET(0x1407C590)
-#define FOUNDATION_RESERVEDOBJECTPOOL_GET_ISALLOWSSELFDESTROY_OFFSET UNITYSDK_OFFSET(0x1407C4D0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_GET_POOLUID_OFFSET UNITYSDK_OFFSET(0x1407C650)
-#define FOUNDATION_RESERVEDOBJECTPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x1407C940)
-#define FOUNDATION_RESERVEDOBJECTPOOL_INSTANTIATEWITHPARAM_OFFSET UNITYSDK_OFFSET(0x1407D980)
-#define FOUNDATION_RESERVEDOBJECTPOOL_ONNULLOBJECT_OFFSET UNITYSDK_OFFSET(0x1407E3C0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_ONUNTRACKHANDLE_OFFSET UNITYSDK_OFFSET(0x1407CFA0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_POP_OFFSET UNITYSDK_OFFSET(0x1407D420)
-#define FOUNDATION_RESERVEDOBJECTPOOL_PUSH_OFFSET UNITYSDK_OFFSET(0x1407DEC0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_RELEASEONE_OFFSET UNITYSDK_OFFSET(0x1407D1C0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1407DFE0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_SET_ISALLOWMEMORYLEAK_OFFSET UNITYSDK_OFFSET(0x1407C5F0)
-#define FOUNDATION_RESERVEDOBJECTPOOL_SET_ISALLOWSSELFDESTROY_OFFSET UNITYSDK_OFFSET(0x1407C530)
-#define FOUNDATION_RESERVEDOBJECTPOOL__AUTORELEASEPOOL_B__33_0_OFFSET UNITYSDK_OFFSET(0x1407E710)
-#define FOUNDATION_RESERVEDOBJECTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1407E5E0)
-#define FOUNDATION_RESERVEDOBJECTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1407C660)
+#define FOUNDATION_RESERVEDOBJECTPOOL_AUTORELEASEPOOL_OFFSET UNITYSDK_OFFSET(0x159526B0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_FINALIZE_OFFSET UNITYSDK_OFFSET(0x159515C0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_GET_ISALLOWMEMORYLEAK_OFFSET UNITYSDK_OFFSET(0x15950FB0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_GET_ISALLOWSSELFDESTROY_OFFSET UNITYSDK_OFFSET(0x15950EF0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_GET_POOLUID_OFFSET UNITYSDK_OFFSET(0x15951070)
+#define FOUNDATION_RESERVEDOBJECTPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x15951360)
+#define FOUNDATION_RESERVEDOBJECTPOOL_INSTANTIATEWITHPARAM_OFFSET UNITYSDK_OFFSET(0x15952390)
+#define FOUNDATION_RESERVEDOBJECTPOOL_ONNULLOBJECT_OFFSET UNITYSDK_OFFSET(0x15952DD0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_ONUNTRACKHANDLE_OFFSET UNITYSDK_OFFSET(0x159519C0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_POP_OFFSET UNITYSDK_OFFSET(0x15951E40)
+#define FOUNDATION_RESERVEDOBJECTPOOL_PUSH_OFFSET UNITYSDK_OFFSET(0x159528D0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_RELEASEONE_OFFSET UNITYSDK_OFFSET(0x15951BE0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x159529F0)
+#define FOUNDATION_RESERVEDOBJECTPOOL_SET_ISALLOWMEMORYLEAK_OFFSET UNITYSDK_OFFSET(0x15951010)
+#define FOUNDATION_RESERVEDOBJECTPOOL_SET_ISALLOWSSELFDESTROY_OFFSET UNITYSDK_OFFSET(0x15950F50)
+#define FOUNDATION_RESERVEDOBJECTPOOL__AUTORELEASEPOOL_B__33_0_OFFSET UNITYSDK_OFFSET(0x15953120)
+#define FOUNDATION_RESERVEDOBJECTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15952FF0)
+#define FOUNDATION_RESERVEDOBJECTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x15951080)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReservedObjectPool_TypeDefinitionIndex = 60094;
+	inline static constexpr unsigned int ReservedObjectPool_TypeDefinitionIndex = 62276;
 
 	class ReservedObjectPool : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Foundation::ReservedObjectPool*>** StaticGet_Pools()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Foundation::ReservedObjectPool*>**)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0x397F0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_ReservedPools()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0x397F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0x3B6C0);
 		}
-		static ::System::UInt32* StaticGet_gUid()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Foundation::ReservedObjectPool*>** StaticGet_Pools()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE240);
-		}
-		static ::System::Boolean* StaticGet__IsAllowMemoryLeak_k__BackingField()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE244);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Foundation::ReservedObjectPool*>**)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0x3B6C8);
 		}
 		static ::System::Boolean* StaticGet__IsAllowsSelfDestroy_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE245);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE9C0);
 		}
-		::System::Action_1<::Foundation::ReservedObjectPool*>* releaseCallback; // 0x10
-		::Struct_2_49ABC235CB23B56F autoReleaseTimer; // 0x18
+		static ::System::Boolean* StaticGet__IsAllowMemoryLeak_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE9C1);
+		}
+		static ::System::UInt32* StaticGet_gUid()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ReservedObjectPool_TypeDefinitionIndex)->GetStaticField(0xE9C4);
+		}
+		::System::String* assetPath; // 0x10
+		::System::Action_1<::Foundation::ReservedObjectPool*>* releaseCallback; // 0x18
+		::System::Collections::Generic::List_1<::Foundation::ReservedObjectPool_ReservedObjectPoolData*>* pool; // 0x20
 		::System::Collections::Generic::HashSet_1<::Foundation::ReservedObjectPool_ReservedObjectPoolData*>* spawned; // 0x28
-		::System::String* assetPath; // 0x30
-		::System::Collections::Generic::List_1<::Foundation::ReservedObjectPool_ReservedObjectPoolData*>* pool; // 0x38
-		::Struct_2_49ABC235CB23B56F preloadTimer; // 0x40
-		::Foundation::AssetRequestHandle preloadHandle; // 0x50
-		::System::Single preLoadInterval; // 0x70
-		::System::Int32 capacity; // 0x74
+		::Struct_2_49ABC235CB23B56F autoReleaseTimer; // 0x30
+		::Foundation::AssetRequestHandle preloadHandle; // 0x40
+		::Struct_2_49ABC235CB23B56F preloadTimer; // 0x60
+		::System::Int32 spwanedCount; // 0x70
+		::System::Single preLoadInterval; // 0x74
 		::System::UInt32 poolUid; // 0x78
-		::System::Single autoReleaseTime; // 0x7C
-		::System::Int32 spwanedCount; // 0x80
+		::System::Int32 capacity; // 0x7C
+		::System::Single autoReleaseTime; // 0x80
 		::System::Int32 preloadCount; // 0x84
 
 		::System::Void _ctor(::System::String* assetPath, ::System::Int32 capacity, ::System::Int32 preloadCount, ::System::Single autoReleaseTime, ::System::Action_1<::Foundation::ReservedObjectPool*>* poolReleaseCallback)

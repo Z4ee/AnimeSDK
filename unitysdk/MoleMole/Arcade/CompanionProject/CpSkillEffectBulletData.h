@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Arcade/CompanionProject/CpSkillEffectData.h"
 
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPSKILLEFFECTBULLETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B549C10)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPSKILLEFFECTBULLETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFDBE90)
 
 namespace MoleMole::Arcade::CompanionProject
 {
-	inline static constexpr unsigned int CpSkillEffectBulletData_TypeDefinitionIndex = 83502;
+	inline static constexpr unsigned int CpSkillEffectBulletData_TypeDefinitionIndex = 89028;
 
 	class CpSkillEffectBulletData : public ::MoleMole::Arcade::CompanionProject::CpSkillEffectData
 	{

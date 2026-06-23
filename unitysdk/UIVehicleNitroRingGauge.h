@@ -7,11 +7,11 @@ class ShaderAniHelp;
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define UIVEHICLENITRORINGGAUGE_SETPERCENTAGE_OFFSET UNITYSDK_OFFSET(0x18CC9A20)
-#define UIVEHICLENITRORINGGAUGE_UPDATEDISPLAY_OFFSET UNITYSDK_OFFSET(0x18CC95A0)
-#define UIVEHICLENITRORINGGAUGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC9B40)
+#define UIVEHICLENITRORINGGAUGE_SETPERCENTAGE_OFFSET UNITYSDK_OFFSET(0x16833D90)
+#define UIVEHICLENITRORINGGAUGE_UPDATEDISPLAY_OFFSET UNITYSDK_OFFSET(0x16833910)
+#define UIVEHICLENITRORINGGAUGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16833EB0)
 
-inline static constexpr unsigned int UIVehicleNitroRingGauge_TypeDefinitionIndex = 76810;
+inline static constexpr unsigned int UIVehicleNitroRingGauge_TypeDefinitionIndex = 78744;
 
 class UIVehicleNitroRingGauge : public ::UnityEngine::MonoBehaviour
 {

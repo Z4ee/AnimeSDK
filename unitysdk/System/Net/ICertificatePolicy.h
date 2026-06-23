@@ -7,7 +7,7 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ICertificatePolicy_TypeDefinitionIndex = 3284;
+	inline static constexpr unsigned int ICertificatePolicy_TypeDefinitionIndex = 3283;
 
 	class ICertificatePolicy
 	{

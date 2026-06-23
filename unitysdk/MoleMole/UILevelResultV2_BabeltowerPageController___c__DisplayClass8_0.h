@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B86BF0)
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS8_0__NEEDSHOWCHEATING_B__0_OFFSET UNITYSDK_OFFSET(0x14B86C00)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C31320)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS8_0__NEEDSHOWCHEATING_B__0_OFFSET UNITYSDK_OFFSET(0x14C31330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass8_0_TypeDefinitionIndex = 42751;
+	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass8_0_TypeDefinitionIndex = 87388;
 
 	class UILevelResultV2_BabeltowerPageController___c__DisplayClass8_0 : public ::System::Object
 	{

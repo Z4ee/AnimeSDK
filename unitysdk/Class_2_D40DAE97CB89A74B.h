@@ -11,30 +11,30 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_D40DAE97CB89A74B_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x16C392F0)
-#define CLASS_2_D40DAE97CB89A74B_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x16C39030)
-#define CLASS_2_D40DAE97CB89A74B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16C393F0)
-#define CLASS_2_D40DAE97CB89A74B__CTOR_OFFSET UNITYSDK_OFFSET(0x16C393E0)
+#define CLASS_2_D40DAE97CB89A74B_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xF89C5E0)
+#define CLASS_2_D40DAE97CB89A74B_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xF89C320)
+#define CLASS_2_D40DAE97CB89A74B_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF89C6E0)
+#define CLASS_2_D40DAE97CB89A74B__CTOR_OFFSET UNITYSDK_OFFSET(0xF89C6D0)
 
-inline static constexpr unsigned int Class_2_D40DAE97CB89A74B_TypeDefinitionIndex = 58990;
+inline static constexpr unsigned int Class_2_D40DAE97CB89A74B_TypeDefinitionIndex = 65701;
 
 class Class_2_D40DAE97CB89A74B : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_4; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_9; // 0x28
-	::UnityEngine::GameObject* Field_2_1; // 0x30
-	::UnityEngine::GameObject* Field_2_8; // 0x38
-	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x40
-	::UnityEngine::CanvasGroup* Field_2_13; // 0x48
-	::UnityEngine::GameObject* Field_2_3; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x58
-	::MoleMole::NotificationBadgeEx* Field_2_12; // 0x60
-	::UnityEngine::GameObject* Field_2_2; // 0x68
-	::UnityEngine::GameObject* Field_2_0; // 0x70
-	::Class_2_1A39E1B51756BF41* Field_2_11; // 0x78
-	::UnityEngine::GameObject* Field_2_6; // 0x80
+	::UnityEngine::GameObject* Field_2_3; // 0x18
+	::UnityEngine::GameObject* Field_2_4; // 0x20
+	::UnityEngine::GameObject* Field_2_1; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_11; // 0x30
+	::UnityEngine::CanvasGroup* Field_2_13; // 0x38
+	::UnityEngine::GameObject* Field_2_6; // 0x40
+	::UnityEngine::GameObject* Field_2_2; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_9; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x58
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x60
+	::UnityEngine::GameObject* Field_2_0; // 0x68
+	::MoleMole::NotificationBadgeEx* Field_2_12; // 0x70
+	::UnityEngine::GameObject* Field_2_8; // 0x78
+	::Class_2_1A39E1B51756BF41* Field_2_10; // 0x80
 
 	::System::Void _ctor()
 	{

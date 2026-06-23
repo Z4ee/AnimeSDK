@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define COLORWHEELGROUPATTRIBUTE_CONVERTTOFORMATTEDSTRING_OFFSET UNITYSDK_OFFSET(0x19B6CF70)
-#define COLORWHEELGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6D2E0)
+#define COLORWHEELGROUPATTRIBUTE_CONVERTTOFORMATTEDSTRING_OFFSET UNITYSDK_OFFSET(0x1BBFEE90)
+#define COLORWHEELGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFF200)
 
-inline static constexpr unsigned int ColorWheelGroupAttribute_TypeDefinitionIndex = 29528;
+inline static constexpr unsigned int ColorWheelGroupAttribute_TypeDefinitionIndex = 26484;
 
 class ColorWheelGroupAttribute : public ::UnityEngine::PropertyAttribute
 {
 public:
-	::System::String* middleLabel; // 0x10
-	::System::String* rightLabel; // 0x18
+	::System::String* leftLabel; // 0x10
+	::System::String* rightFieldName; // 0x18
 	::System::String* leftFieldName; // 0x20
-	::System::String* middleFieldName; // 0x28
-	::System::String* rightFieldName; // 0x30
-	::System::String* leftLabel; // 0x38
+	::System::String* middleLabel; // 0x28
+	::System::String* rightLabel; // 0x30
+	::System::String* middleFieldName; // 0x38
 	::System::Boolean isShadowMiddletonHighlight; // 0x40
 
 	::System::Void _ctor(::System::String* leftFieldName, ::System::String* middleFieldName, ::System::String* rightFieldName, ::System::Boolean isShadowMiddletonHighlight)

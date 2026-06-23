@@ -6,19 +6,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA_CLASS_1_DBFF5AD1EC04D1A1_METHOD_1_2BF1F5B3DD45F04A_OFFSET UNITYSDK_OFFSET(0xFE988D0)
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA_CLASS_1_DBFF5AD1EC04D1A1__CTOR_OFFSET UNITYSDK_OFFSET(0xFE988C0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA_CLASS_1_DBFF5AD1EC04D1A1_METHOD_1_2BF1F5B3DD45F04A_OFFSET UNITYSDK_OFFSET(0x106ADFC0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA_CLASS_1_DBFF5AD1EC04D1A1__CTOR_OFFSET UNITYSDK_OFFSET(0x106ADFB0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapVirtualPipelineCamera_Class_1_DBFF5AD1EC04D1A1_TypeDefinitionIndex = 56152;
+	inline static constexpr unsigned int NapVirtualPipelineCamera_Class_1_DBFF5AD1EC04D1A1_TypeDefinitionIndex = 72368;
 
 	class NapVirtualPipelineCamera_Class_1_DBFF5AD1EC04D1A1 : public ::System::Object
 	{
 	public:
-		::System::String* Field_1_0; // 0x10
+		::Il2CppArray<::System::String*>* Field_1_2; // 0x10
 		::Il2CppArray<::System::String*>* Field_1_1; // 0x18
-		::Il2CppArray<::System::String*>* Field_1_2; // 0x20
+		::System::String* Field_1_0; // 0x20
 		::UnityEngine::LayerMask Field_1_3; // 0x28
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessagePopWindowController_TabIndex_TypeDefinitionIndex = 65135;
+	inline static constexpr unsigned int UIPrivateMessagePopWindowController_TabIndex_TypeDefinitionIndex = 79492;
 
 	enum class UIPrivateMessagePopWindowController_TabIndex : ::System::Int32
 	{

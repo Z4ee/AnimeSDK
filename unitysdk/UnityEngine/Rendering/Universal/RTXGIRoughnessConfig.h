@@ -5,12 +5,12 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1B36E680)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36E810)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1D4E6610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E67A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXGIRoughnessConfig_TypeDefinitionIndex = 29979;
+	inline static constexpr unsigned int RTXGIRoughnessConfig_TypeDefinitionIndex = 26281;
 
 	class RTXGIRoughnessConfig : public ::System::Object
 	{

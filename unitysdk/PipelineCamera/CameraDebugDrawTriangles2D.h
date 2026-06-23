@@ -11,24 +11,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLESTRIP_OFFSET UNITYSDK_OFFSET(0x1B1199F0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1B119910)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B119B30)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1B119C10)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1B119700)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11A5D0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET UNITYSDK_OFFSET(0x1B11A160)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET UNITYSDK_OFFSET(0x1B119DA0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLESTRIP_OFFSET UNITYSDK_OFFSET(0x1D560130)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1D560050)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D560270)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1D560350)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1D55FE40)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D560D10)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET UNITYSDK_OFFSET(0x1D5608A0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET UNITYSDK_OFFSET(0x1D5604E0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawTriangles2D_TypeDefinitionIndex = 36009;
+	inline static constexpr unsigned int CameraDebugDrawTriangles2D_TypeDefinitionIndex = 37617;
 
 	class CameraDebugDrawTriangles2D : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _additionalPoints; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*>>* _items; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*>>* _items; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _additionalPoints; // 0x18
 
 		::System::Void _ctor()
 		{

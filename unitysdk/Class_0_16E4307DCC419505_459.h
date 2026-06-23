@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_52A902145F5BE51A_3.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_2_A413755ABC47F29F;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_459_TypeDefinitionIndex = 77418;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_459_TypeDefinitionIndex = 50804;
 
 class Class_0_16E4307DCC419505_459
 {

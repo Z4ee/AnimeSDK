@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EPlayerState_TypeDefinitionIndex = 18131;
+	inline static constexpr unsigned int EPlayerState_TypeDefinitionIndex = 9970;
 
 	enum class EPlayerState : ::System::Int16
 	{
 		Alive = 0,
-		EnumCount = 2,
 		Death = 1,
+		EnumCount = 2,
 	};
 }

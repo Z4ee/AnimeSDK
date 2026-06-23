@@ -5,29 +5,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5169C0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C516A00)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_EVERYTHING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C516A10)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_STRICT_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C516AA0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E84A780)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E84A7C0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_EVERYTHING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E84A7D0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_STRICT_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E84A860)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationPolicies___c_TypeDefinitionIndex = 7401;
+	inline static constexpr unsigned int SerializationPolicies___c_TypeDefinitionIndex = 7533;
 
 	class SerializationPolicies___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__10_0()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B0);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x64A0);
 		}
 		static ::Sirenix::Serialization::SerializationPolicies___c** StaticGet___9()
 		{
-			return (::Sirenix::Serialization::SerializationPolicies___c**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B8);
+			return (::Sirenix::Serialization::SerializationPolicies___c**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x64A8);
 		}
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__6_0()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63C0);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x64B0);
 		}
 
 		static ::System::Void _cctor()

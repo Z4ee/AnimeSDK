@@ -8,21 +8,21 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_04E253897FA11EFE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x136857A0)
-#define CLASS_2_04E253897FA11EFE_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x13685670)
-#define CLASS_2_04E253897FA11EFE__CTOR_OFFSET UNITYSDK_OFFSET(0x13685790)
+#define CLASS_2_04E253897FA11EFE_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x114BEA80)
+#define CLASS_2_04E253897FA11EFE_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x114BE950)
+#define CLASS_2_04E253897FA11EFE__CTOR_OFFSET UNITYSDK_OFFSET(0x114BEA70)
 
-inline static constexpr unsigned int Class_2_04E253897FA11EFE_TypeDefinitionIndex = 41237;
+inline static constexpr unsigned int Class_2_04E253897FA11EFE_TypeDefinitionIndex = 63560;
 
 class Class_2_04E253897FA11EFE : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_2; // 0x18
-	::UnityEngine::RectTransform* Field_2_5; // 0x20
-	::UnityEngine::RectTransform* Field_2_3; // 0x28
+	::UnityEngine::GameObject* Field_2_0; // 0x18
+	::UnityEngine::RectTransform* Field_2_2; // 0x20
+	::UnityEngine::RectTransform* Field_2_4; // 0x28
 	::UnityEngine::CanvasGroup* Field_2_1; // 0x30
-	::UnityEngine::GameObject* Field_2_0; // 0x38
-	::UnityEngine::RectTransform* Field_2_4; // 0x40
+	::UnityEngine::RectTransform* Field_2_3; // 0x38
+	::UnityEngine::RectTransform* Field_2_5; // 0x40
 
 	::System::Void _ctor()
 	{

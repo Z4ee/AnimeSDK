@@ -9,23 +9,23 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define CLASS_2_882B08B1385FC044_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x14631420)
-#define CLASS_2_882B08B1385FC044_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x14631610)
-#define CLASS_2_882B08B1385FC044_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x146316C0)
-#define CLASS_2_882B08B1385FC044__CTOR_OFFSET UNITYSDK_OFFSET(0x146316B0)
+#define CLASS_2_882B08B1385FC044_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x143FA630)
+#define CLASS_2_882B08B1385FC044_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x143FA820)
+#define CLASS_2_882B08B1385FC044_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x143FA8D0)
+#define CLASS_2_882B08B1385FC044__CTOR_OFFSET UNITYSDK_OFFSET(0x143FA8C0)
 
-inline static constexpr unsigned int Class_2_882B08B1385FC044_TypeDefinitionIndex = 43162;
+inline static constexpr unsigned int Class_2_882B08B1385FC044_TypeDefinitionIndex = 42791;
 
 class Class_2_882B08B1385FC044 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x20
-	::UnityEngine::RectTransform* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
-	::UnityEngine::RectTransform* Field_2_5; // 0x40
-	::UnityEngine::RectTransform* Field_2_7; // 0x48
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x18
+	::UnityEngine::RectTransform* Field_2_7; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x28
+	::UnityEngine::RectTransform* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x40
+	::UnityEngine::RectTransform* Field_2_5; // 0x48
 	::UnityEngine::UI::Extension::UITabButton* Field_2_0; // 0x50
 
 	::System::Void _ctor()

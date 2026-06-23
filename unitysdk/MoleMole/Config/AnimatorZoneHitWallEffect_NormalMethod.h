@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneHitWallEffect_NormalMethod_TypeDefinitionIndex = 78241;
+	inline static constexpr unsigned int AnimatorZoneHitWallEffect_NormalMethod_TypeDefinitionIndex = 71468;
 
 	enum class AnimatorZoneHitWallEffect_NormalMethod : ::System::Int32
 	{

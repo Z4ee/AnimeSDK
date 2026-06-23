@@ -3,12 +3,12 @@
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int CurveTransformTween_TransformMode_TypeDefinitionIndex = 27904;
+	inline static constexpr unsigned int CurveTransformTween_TransformMode_TypeDefinitionIndex = 29579;
 
 	enum class CurveTransformTween_TransformMode : ::System::Int32
 	{
-		Scale = 2,
-		Rotation = 1,
 		Position = 0,
+		Rotation = 1,
+		Scale = 2,
 	};
 }

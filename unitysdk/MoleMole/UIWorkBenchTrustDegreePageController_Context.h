@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DE27B0)
+#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE85F960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController_Context_TypeDefinitionIndex = 39298;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController_Context_TypeDefinitionIndex = 50977;
 
 	class UIWorkBenchTrustDegreePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,7 +5,7 @@ namespace FlatBuffers { class ByteBuffer; }
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int IFlatbufferObject_TypeDefinitionIndex = 8742;
+	inline static constexpr unsigned int IFlatbufferObject_TypeDefinitionIndex = 6728;
 
 	class IFlatbufferObject
 	{

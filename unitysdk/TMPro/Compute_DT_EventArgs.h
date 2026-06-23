@@ -4,19 +4,19 @@
 #include "unitysdk/TMPro/Compute_DistanceTransform_EventTypes.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ADC5920)
-#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADC5910)
+#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1F2220)
+#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F2210)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Compute_DT_EventArgs_TypeDefinitionIndex = 37609;
+	inline static constexpr unsigned int Compute_DT_EventArgs_TypeDefinitionIndex = 39235;
 
 	class Compute_DT_EventArgs : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Color>* Colors; // 0x10
-		::System::Single ProgressPercentage; // 0x18
-		::TMPro::Compute_DistanceTransform_EventTypes EventType; // 0x1C
+		::TMPro::Compute_DistanceTransform_EventTypes EventType; // 0x18
+		::System::Single ProgressPercentage; // 0x1C
 
 		::System::Void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::System::Single progress)
 		{

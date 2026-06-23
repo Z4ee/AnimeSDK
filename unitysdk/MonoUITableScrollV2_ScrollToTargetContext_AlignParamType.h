@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_ScrollToTargetContext_AlignParamType_TypeDefinitionIndex = 54147;
+inline static constexpr unsigned int MonoUITableScrollV2_ScrollToTargetContext_AlignParamType_TypeDefinitionIndex = 69997;
 
 enum class MonoUITableScrollV2_ScrollToTargetContext_AlignParamType : ::System::Int32
 {

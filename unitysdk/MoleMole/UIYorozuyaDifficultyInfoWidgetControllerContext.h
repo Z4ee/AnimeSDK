@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIYorozuyaDifficultyInfoWidgetControllerContext_NestType.h"
 
-#define MOLEMOLE_UIYOROZUYADIFFICULTYINFOWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF8094C0)
+#define MOLEMOLE_UIYOROZUYADIFFICULTYINFOWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE86A4C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultyInfoWidgetControllerContext_TypeDefinitionIndex = 49838;
+	inline static constexpr unsigned int UIYorozuyaDifficultyInfoWidgetControllerContext_TypeDefinitionIndex = 44908;
 
 	class UIYorozuyaDifficultyInfoWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

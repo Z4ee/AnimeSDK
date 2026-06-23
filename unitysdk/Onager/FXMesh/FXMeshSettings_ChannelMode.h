@@ -3,7 +3,7 @@
 
 namespace Onager::FXMesh
 {
-	inline static constexpr unsigned int FXMeshSettings_ChannelMode_TypeDefinitionIndex = 36445;
+	inline static constexpr unsigned int FXMeshSettings_ChannelMode_TypeDefinitionIndex = 38053;
 
 	enum class FXMeshSettings_ChannelMode : ::System::Int32
 	{

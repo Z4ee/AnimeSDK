@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_SKINANIMATIONMAPCONFIG_ADDCOLLECT_OFFSET UNITYSDK_OFFSET(0x12FAFDF0)
-#define MOLEMOLE_SKINANIMATIONMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAFD60)
+#define MOLEMOLE_SKINANIMATIONMAPCONFIG_ADDCOLLECT_OFFSET UNITYSDK_OFFSET(0x141A5280)
+#define MOLEMOLE_SKINANIMATIONMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x141A51F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkinAnimationMapConfig_TypeDefinitionIndex = 69599;
+	inline static constexpr unsigned int SkinAnimationMapConfig_TypeDefinitionIndex = 81952;
 
 	class SkinAnimationMapConfig : public ::System::Object
 	{

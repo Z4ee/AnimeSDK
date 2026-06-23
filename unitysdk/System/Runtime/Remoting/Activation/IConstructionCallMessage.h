@@ -9,7 +9,7 @@ namespace System::Runtime::Remoting::Activation { class IActivator; }
 
 namespace System::Runtime::Remoting::Activation
 {
-	inline static constexpr unsigned int IConstructionCallMessage_TypeDefinitionIndex = 1315;
+	inline static constexpr unsigned int IConstructionCallMessage_TypeDefinitionIndex = 1314;
 
 	class IConstructionCallMessage
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_ATTACHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1605A890)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_ATTACHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD0440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectSelfAttachPoint_AttachInfo_TypeDefinitionIndex = 73887;
+	inline static constexpr unsigned int MonoEffectSelfAttachPoint_AttachInfo_TypeDefinitionIndex = 84744;
 
 	class MonoEffectSelfAttachPoint_AttachInfo : public ::System::Object
 	{

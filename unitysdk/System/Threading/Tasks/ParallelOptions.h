@@ -5,9 +5,9 @@
 
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS_GET_EFFECTIVEMAXCONCURRENCYLEVEL_OFFSET UNITYSDK_OFFSET(0x193F11D0)
-#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS_GET_EFFECTIVETASKSCHEDULER_OFFSET UNITYSDK_OFFSET(0x193F1060)
-#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x193F0FD0)
+#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS_GET_EFFECTIVEMAXCONCURRENCYLEVEL_OFFSET UNITYSDK_OFFSET(0x1B8C0C70)
+#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS_GET_EFFECTIVETASKSCHEDULER_OFFSET UNITYSDK_OFFSET(0x1B8C0B00)
+#define SYSTEM_THREADING_TASKS_PARALLELOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C0A70)
 
 namespace System::Threading::Tasks
 {
@@ -16,8 +16,8 @@ namespace System::Threading::Tasks
 	class ParallelOptions : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::TaskScheduler* m_scheduler; // 0x10
-		::System::Threading::CancellationToken m_cancellationToken; // 0x18
+		::System::Threading::CancellationToken m_cancellationToken; // 0x10
+		::System::Threading::Tasks::TaskScheduler* m_scheduler; // 0x18
 		::System::Int32 m_maxDegreeOfParallelism; // 0x20
 
 		::System::Void _ctor()

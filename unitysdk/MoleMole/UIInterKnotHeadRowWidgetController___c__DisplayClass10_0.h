@@ -4,12 +4,12 @@
 
 class MonoUITableScrollV2;
 
-#define MOLEMOLE_UIINTERKNOTHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14826400)
-#define MOLEMOLE_UIINTERKNOTHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14826410)
+#define MOLEMOLE_UIINTERKNOTHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16925740)
+#define MOLEMOLE_UIINTERKNOTHEADROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x16925750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotHeadRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 44266;
+	inline static constexpr unsigned int UIInterKnotHeadRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 81014;
 
 	class UIInterKnotHeadRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -6,29 +6,29 @@
 class NapRenderEntity;
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B9E900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9E940)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__UPDATELIGHTDATA_B__93_8_OFFSET UNITYSDK_OFFSET(0x19B9E990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__UPDATEPERFRAME_B__88_0_OFFSET UNITYSDK_OFFSET(0x19B9E950)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC32F60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC32FA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__UPDATELIGHTDATA_B__93_8_OFFSET UNITYSDK_OFFSET(0x1BC32FF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER___C__UPDATEPERFRAME_B__88_0_OFFSET UNITYSDK_OFFSET(0x1BC32FB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityManager___c_TypeDefinitionIndex = 30078;
+	inline static constexpr unsigned int NapRenderEntityManager___c_TypeDefinitionIndex = 26250;
 
 	class NapRenderEntityManager___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::Universal::NapRenderEntityManager___c**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x23240);
-		}
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Single>>** StaticGet___9__93_8()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x23248);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x20950);
 		}
 		static ::System::Comparison_1<::NapRenderEntity*>** StaticGet___9__88_0()
 		{
-			return (::System::Comparison_1<::NapRenderEntity*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x23250);
+			return (::System::Comparison_1<::NapRenderEntity*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x20958);
+		}
+		static ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::Universal::NapRenderEntityManager___c**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager___c_TypeDefinitionIndex)->GetStaticField(0x20960);
 		}
 
 		static ::System::Void _cctor()

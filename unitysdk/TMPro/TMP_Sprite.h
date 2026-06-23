@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define TMPRO_TMP_SPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F70C90)
+#define TMPRO_TMP_SPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3157F0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Sprite_TypeDefinitionIndex = 37564;
+	inline static constexpr unsigned int TMP_Sprite_TypeDefinitionIndex = 39190;
 
 	class TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy
 	{

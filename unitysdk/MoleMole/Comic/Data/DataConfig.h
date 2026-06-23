@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Comic::Data
 {
-	inline static constexpr unsigned int DataConfig_TypeDefinitionIndex = 30606;
+	inline static constexpr unsigned int DataConfig_TypeDefinitionIndex = 32152;
 
 	class DataConfig : public ::System::Object
 	{

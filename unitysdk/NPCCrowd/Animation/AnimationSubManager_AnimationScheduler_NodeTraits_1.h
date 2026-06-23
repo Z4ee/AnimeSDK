@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_NodeTraits_1_TypeDefinitionIndex = 70422;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_NodeTraits_1_TypeDefinitionIndex = 57458;
 
 	template <typename T>
 	class AnimationSubManager_AnimationScheduler_NodeTraits_1 : public ::System::Object

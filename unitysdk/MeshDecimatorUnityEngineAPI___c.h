@@ -13,57 +13,57 @@
 
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define MESHDECIMATORUNITYENGINEAPI___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x103425C0)
-#define MESHDECIMATORUNITYENGINEAPI___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10342600)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_0_OFFSET UNITYSDK_OFFSET(0x10342610)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_1_OFFSET UNITYSDK_OFFSET(0x10342690)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_2_OFFSET UNITYSDK_OFFSET(0x103426F0)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_3_OFFSET UNITYSDK_OFFSET(0x10342750)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_4_OFFSET UNITYSDK_OFFSET(0x103427B0)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_5_OFFSET UNITYSDK_OFFSET(0x10342810)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_6_OFFSET UNITYSDK_OFFSET(0x10342820)
-#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_7_OFFSET UNITYSDK_OFFSET(0x10342840)
+#define MESHDECIMATORUNITYENGINEAPI___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11A678A0)
+#define MESHDECIMATORUNITYENGINEAPI___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11A678E0)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_0_OFFSET UNITYSDK_OFFSET(0x11A678F0)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_1_OFFSET UNITYSDK_OFFSET(0x11A67970)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_2_OFFSET UNITYSDK_OFFSET(0x11A679D0)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_3_OFFSET UNITYSDK_OFFSET(0x11A67A30)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_4_OFFSET UNITYSDK_OFFSET(0x11A67A90)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_5_OFFSET UNITYSDK_OFFSET(0x11A67AF0)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_6_OFFSET UNITYSDK_OFFSET(0x11A67B00)
+#define MESHDECIMATORUNITYENGINEAPI___C__MESH2DECMESH_B__0_7_OFFSET UNITYSDK_OFFSET(0x11A67B20)
 
-inline static constexpr unsigned int MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex = 85906;
+inline static constexpr unsigned int MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex = 91435;
 
 class MeshDecimatorUnityEngineAPI___c : public ::System::Object
 {
 public:
 	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_4()
 	{
-		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC30);
-	}
-	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_3()
-	{
-		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC38);
+		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F320);
 	}
 	static ::System::Converter_2<::UnityEngine::Color, ::MeshDecimator::Math::Vector4>** StaticGet___9__0_5()
 	{
-		return (::System::Converter_2<::UnityEngine::Color, ::MeshDecimator::Math::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC40);
-	}
-	static ::MeshDecimatorUnityEngineAPI___c** StaticGet___9()
-	{
-		return (::MeshDecimatorUnityEngineAPI___c**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC48);
-	}
-	static ::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3>** StaticGet___9__0_7()
-	{
-		return (::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC50);
-	}
-	static ::System::Converter_2<::UnityEngine::BoneWeight, ::MeshDecimator::BoneWeight>** StaticGet___9__0_6()
-	{
-		return (::System::Converter_2<::UnityEngine::BoneWeight, ::MeshDecimator::BoneWeight>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC58);
-	}
-	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_1()
-	{
-		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC60);
+		return (::System::Converter_2<::UnityEngine::Color, ::MeshDecimator::Math::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F328);
 	}
 	static ::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3d>** StaticGet___9__0_0()
 	{
-		return (::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3d>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC68);
+		return (::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3d>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F330);
+	}
+	static ::MeshDecimatorUnityEngineAPI___c** StaticGet___9()
+	{
+		return (::MeshDecimatorUnityEngineAPI___c**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F338);
+	}
+	static ::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3>** StaticGet___9__0_7()
+	{
+		return (::System::Converter_2<::UnityEngine::Vector3, ::MeshDecimator::Math::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F340);
+	}
+	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_3()
+	{
+		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F348);
+	}
+	static ::System::Converter_2<::UnityEngine::BoneWeight, ::MeshDecimator::BoneWeight>** StaticGet___9__0_6()
+	{
+		return (::System::Converter_2<::UnityEngine::BoneWeight, ::MeshDecimator::BoneWeight>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F350);
 	}
 	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_2()
 	{
-		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4AC70);
+		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F358);
+	}
+	static ::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>** StaticGet___9__0_1()
+	{
+		return (::System::Converter_2<::UnityEngine::Vector2, ::MeshDecimator::Math::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshDecimatorUnityEngineAPI___c_TypeDefinitionIndex)->GetStaticField(0x4F360);
 	}
 
 	static ::System::Void _cctor()

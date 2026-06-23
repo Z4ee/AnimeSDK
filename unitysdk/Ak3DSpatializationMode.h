@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Ak3DSpatializationMode_TypeDefinitionIndex = 31387;
+inline static constexpr unsigned int Ak3DSpatializationMode_TypeDefinitionIndex = 32938;
 
 enum class Ak3DSpatializationMode : ::System::Int32
 {

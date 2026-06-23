@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify_TypeDefinitionIndex = 72275;
+	inline static constexpr unsigned int UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify_TypeDefinitionIndex = 57235;
 
 	struct alignas(4) UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify
 	{

@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14834280)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x148342C0)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__ISDISPATCHFREQUENTATTEMPTS_B__80_0_OFFSET UNITYSDK_OFFSET(0x14834390)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__ONSETLANGUAGEVOICE_B__51_0_OFFSET UNITYSDK_OFFSET(0x148342D0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169338D0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16933910)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__ISDISPATCHFREQUENTATTEMPTS_B__80_0_OFFSET UNITYSDK_OFFSET(0x169339E0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__ONSETLANGUAGEVOICE_B__51_0_OFFSET UNITYSDK_OFFSET(0x16933920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c_TypeDefinitionIndex = 76797;
+	inline static constexpr unsigned int UILoginPageController___c_TypeDefinitionIndex = 50117;
 
 	class UILoginPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__51_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x49640);
-		}
 		static ::MoleMole::UILoginPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UILoginPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x49648);
+			return (::MoleMole::UILoginPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x4CE60);
+		}
+		static ::System::Action** StaticGet___9__51_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x4CE68);
 		}
 		static ::System::Action** StaticGet___9__80_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x49650);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILoginPageController___c_TypeDefinitionIndex)->GetStaticField(0x4CE70);
 		}
 
 		static ::System::Void _cctor()

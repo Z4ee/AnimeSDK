@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AuthProcess_TypeDefinitionIndex = 19847;
+	inline static constexpr unsigned int AuthProcess_TypeDefinitionIndex = 21010;
 
 	enum class AuthProcess : ::System::Int32
 	{

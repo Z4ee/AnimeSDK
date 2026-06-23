@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeConditionBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x11B19BB0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11B19CC0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x11B19C50)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x11B19D20)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x11B191B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xF9A6C40)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF9A6D60)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xF9A6CF0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xF9A6DC0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xF9A6220)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_PathFollowBlockedCondition_TypeDefinitionIndex = 75272;
+	inline static constexpr unsigned int VirtualProxy_PathFollowBlockedCondition_TypeDefinitionIndex = 41796;
 
-	class VirtualProxy_PathFollowBlockedCondition : public ::StateTreeCore::VirtualProxy_StateTreeConditionBase
+	class VirtualProxy_PathFollowBlockedCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{
 	public:
 		::System::Void _ctor()
@@ -34,9 +34,9 @@ namespace NPCCrowd::Ability
 			return ((::UnrealTypes::DataValidationResult(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeDataView))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_COMPILE_OFFSET))(this, self, instanceDataView);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

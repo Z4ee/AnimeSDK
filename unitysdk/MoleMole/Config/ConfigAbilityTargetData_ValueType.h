@@ -3,20 +3,20 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAbilityTargetData_ValueType_TypeDefinitionIndex = 39977;
+	inline static constexpr unsigned int ConfigAbilityTargetData_ValueType_TypeDefinitionIndex = 43338;
 
 	enum class ConfigAbilityTargetData_ValueType : ::System::Int32
 	{
-		SummonerAbilityTarget = 8,
-		SummonByTagAbilityTarget = 3,
-		EntityTypeAbilityTarget = 5,
-		TelerportSelectionTarget = 10,
-		Null = 0,
-		MultiTargettingAbilityTarget = 7,
 		EntityTypeGroupAbilityTarget = 6,
-		RangeEnemyAbilityTarget = 1,
-		TimelineAbilityTarget = 9,
-		CommonAbilityTarget = 4,
+		EntityTypeAbilityTarget = 5,
 		RangeRandomEnemyAbilityTarget = 2,
+		SummonerAbilityTarget = 8,
+		RangeEnemyAbilityTarget = 1,
+		SummonByTagAbilityTarget = 3,
+		TimelineAbilityTarget = 9,
+		MultiTargettingAbilityTarget = 7,
+		CommonAbilityTarget = 4,
+		Null = 0,
+		TelerportSelectionTarget = 10,
 	};
 }

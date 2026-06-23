@@ -3,18 +3,18 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderPathID_TypeDefinitionIndex = 30227;
+	inline static constexpr unsigned int ShaderPathID_TypeDefinitionIndex = 26882;
 
 	enum class ShaderPathID : ::System::Int32
 	{
+		Count = 8,
 		Lit = 0,
+		ParticlesLit = 4,
 		SimpleLit = 1,
 		Unlit = 2,
-		TerrainLit = 3,
-		ParticlesLit = 4,
 		ParticlesSimpleLit = 5,
-		ParticlesUnlit = 6,
 		BakedLit = 7,
-		Count = 8,
+		ParticlesUnlit = 6,
+		TerrainLit = 3,
 	};
 }

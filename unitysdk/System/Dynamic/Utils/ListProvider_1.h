@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int ListProvider_1_TypeDefinitionIndex = 5018;
+	inline static constexpr unsigned int ListProvider_1_TypeDefinitionIndex = 5017;
 
 	template <typename T>
 	class ListProvider_1 : public ::System::Object

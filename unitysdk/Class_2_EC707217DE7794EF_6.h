@@ -4,27 +4,25 @@
 
 class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
-class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_EC707217DE7794EF_6_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0xF3CE050)
-#define CLASS_2_EC707217DE7794EF_6_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0xF3CE240)
-#define CLASS_2_EC707217DE7794EF_6_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF3CE350)
-#define CLASS_2_EC707217DE7794EF_6__CTOR_OFFSET UNITYSDK_OFFSET(0xF3CE340)
+#define CLASS_2_EC707217DE7794EF_6_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x11702410)
+#define CLASS_2_EC707217DE7794EF_6_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x117025C0)
+#define CLASS_2_EC707217DE7794EF_6_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x117026D0)
+#define CLASS_2_EC707217DE7794EF_6__CTOR_OFFSET UNITYSDK_OFFSET(0x117026C0)
 
-inline static constexpr unsigned int Class_2_EC707217DE7794EF_6_TypeDefinitionIndex = 47972;
+inline static constexpr unsigned int Class_2_EC707217DE7794EF_6_TypeDefinitionIndex = 70450;
 
 class Class_2_EC707217DE7794EF_6 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_0; // 0x18
-	::UnityEngine::RectTransform* Field_2_2; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x38
-	::UnityEngine::RectTransform* Field_2_3; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x18
+	::UnityEngine::RectTransform* Field_2_1; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x30
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x38
 
 	::System::Void _ctor()
 	{

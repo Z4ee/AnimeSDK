@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_D1CD39CD57D4F499.h"
+#include "unitysdk/Class_2_A78FC80A78B3367C.h"
 #include "unitysdk/Enum_3_4D23D4D1211777E9.h"
 
-namespace NodeGraph::MainCity { class InteractiveNavigateContainer; }
+class Class_1_E3DC1E0D82B1C1F3;
 
-#define CLASS_3_EA9D34AB5444C05B_4_METHOD_3_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0xFDC1A60)
-#define CLASS_3_EA9D34AB5444C05B_4_METHOD_3_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0xFDC1A50)
-#define CLASS_3_EA9D34AB5444C05B_4__CTOR_OFFSET UNITYSDK_OFFSET(0xFDC1D40)
+#define CLASS_3_EA9D34AB5444C05B_4_METHOD_3_45AA2F5085C2C40D_OFFSET UNITYSDK_OFFSET(0x145B77E0)
+#define CLASS_3_EA9D34AB5444C05B_4_METHOD_3_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x145B77D0)
+#define CLASS_3_EA9D34AB5444C05B_4__CTOR_OFFSET UNITYSDK_OFFSET(0x145B7B60)
 
-inline static constexpr unsigned int Class_3_EA9D34AB5444C05B_4_TypeDefinitionIndex = 57607;
+inline static constexpr unsigned int Class_3_EA9D34AB5444C05B_4_TypeDefinitionIndex = 72816;
 
-class Class_3_EA9D34AB5444C05B_4 : public ::Class_2_D1CD39CD57D4F499<::NodeGraph::MainCity::InteractiveNavigateContainer*>
+class Class_3_EA9D34AB5444C05B_4 : public ::Class_2_A78FC80A78B3367C<::Class_1_E3DC1E0D82B1C1F3*>
 {
 public:
 	::System::Void _ctor()
@@ -24,8 +24,8 @@ public:
 		return ((::Enum_3_4D23D4D1211777E9(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_4_METHOD_3_A96DCA30C6927810_OFFSET))(this);
 	}
 
-	::System::Void Method_3_39FD7185C859CEAD()
+	::System::Void Method_3_45AA2F5085C2C40D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_4_METHOD_3_39FD7185C859CEAD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_4_METHOD_3_45AA2F5085C2C40D_OFFSET))(this);
 	}
 };

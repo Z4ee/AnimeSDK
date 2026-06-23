@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DictionaryDisplayOptions_TypeDefinitionIndex = 7257;
+	inline static constexpr unsigned int DictionaryDisplayOptions_TypeDefinitionIndex = 7388;
 
 	enum class DictionaryDisplayOptions : ::System::Int32
 	{

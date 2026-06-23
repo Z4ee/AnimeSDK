@@ -9,24 +9,24 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class Object; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BA6DF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10BA6C70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA6FF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x10BA7030)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x10BA7060)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15115300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15115180)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15115500)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x15115540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x15115570)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDObjectNullCheckNode_TypeDefinitionIndex = 51500;
+	inline static constexpr unsigned int LDObjectNullCheckNode_TypeDefinitionIndex = 45607;
 
 	class LDObjectNullCheckNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::System::Boolean>* resultOutput; // 0xA8
-		::FlowCanvas::FlowOutput* falseOutput; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Object*>* valueInput; // 0xA8
+		::FlowCanvas::ValueOutput_1<::System::Boolean>* resultOutput; // 0xB0
 		::FlowCanvas::FlowOutput* output; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Object*>* valueInput; // 0xC0
-		::FlowCanvas::FlowOutput* trueOutput; // 0xC8
+		::FlowCanvas::FlowOutput* trueOutput; // 0xC0
+		::FlowCanvas::FlowOutput* falseOutput; // 0xC8
 		::FlowCanvas::FlowInput* input; // 0xD0
 		::System::Boolean result; // 0xD8
 

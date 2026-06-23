@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBF9100)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFBF9140)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xFBF9150)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFFAA840)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFFAA880)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xFFAA890)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_MoveToTask___c_TypeDefinitionIndex = 41007;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_MoveToTask___c_TypeDefinitionIndex = 54564;
 
 	class RegistrationInfo_ScriptStruct_MoveToTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_MoveToTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_MoveToTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_MoveToTask___c_TypeDefinitionIndex)->GetStaticField(0x3F400);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_MoveToTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_MoveToTask___c_TypeDefinitionIndex)->GetStaticField(0x41A60);
 		}
 
 		static ::System::Void _cctor()

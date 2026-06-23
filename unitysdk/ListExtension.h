@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int ListExtension_TypeDefinitionIndex = 29634;
+inline static constexpr unsigned int ListExtension_TypeDefinitionIndex = 27073;
 
 class ListExtension : public ::System::Object
 {

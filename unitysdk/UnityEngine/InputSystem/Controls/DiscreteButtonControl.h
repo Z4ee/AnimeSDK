@@ -3,22 +3,22 @@
 #include "unitysdk/UnityEngine/InputSystem/Controls/ButtonControl.h"
 #include "unitysdk/UnityEngine/InputSystem/Controls/DiscreteButtonControl_WriteMode.h"
 
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1BA66870)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1BA66970)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1BA66A10)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA66AE0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1DDE5490)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1DDE5590)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1DDE5630)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_DISCRETEBUTTONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE5700)
 
 namespace UnityEngine::InputSystem::Controls
 {
-	inline static constexpr unsigned int DiscreteButtonControl_TypeDefinitionIndex = 29354;
+	inline static constexpr unsigned int DiscreteButtonControl_TypeDefinitionIndex = 32010;
 
 	class DiscreteButtonControl : public ::UnityEngine::InputSystem::Controls::ButtonControl
 	{
 	public:
-		::System::Int32 nullValue; // 0x120
-		::System::Int32 maxValue; // 0x124
+		::System::Int32 maxValue; // 0x120
+		::System::Int32 minValue; // 0x124
 		::System::Int32 wrapAtValue; // 0x128
-		::System::Int32 minValue; // 0x12C
+		::System::Int32 nullValue; // 0x12C
 		::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode writeMode; // 0x130
 
 		::System::Void _ctor()

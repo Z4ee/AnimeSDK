@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TurnBattleUnitQueryKey_TypeDefinitionIndex = 43620;
+	inline static constexpr unsigned int TurnBattleUnitQueryKey_TypeDefinitionIndex = 75302;
 
 	enum class TurnBattleUnitQueryKey : ::System::Int32
 	{
 		FastestSortableUnit = 1,
-		All = 0,
 		SlowestSortableUnit = 2,
+		All = 0,
 	};
 }

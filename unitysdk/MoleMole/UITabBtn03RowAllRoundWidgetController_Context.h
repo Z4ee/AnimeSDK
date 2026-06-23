@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UITABBTN03ROWALLROUNDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x126A1D60)
+#define MOLEMOLE_UITABBTN03ROWALLROUNDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DEA600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITabBtn03RowAllRoundWidgetController_Context_TypeDefinitionIndex = 82750;
+	inline static constexpr unsigned int UITabBtn03RowAllRoundWidgetController_Context_TypeDefinitionIndex = 46041;
 
 	class UITabBtn03RowAllRoundWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

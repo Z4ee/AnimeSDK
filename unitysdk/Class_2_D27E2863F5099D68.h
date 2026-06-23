@@ -11,22 +11,22 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_D27E2863F5099D68_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10FD00A0)
-#define CLASS_2_D27E2863F5099D68_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10FCFF60)
-#define CLASS_2_D27E2863F5099D68__CTOR_OFFSET UNITYSDK_OFFSET(0x10FD0090)
+#define CLASS_2_D27E2863F5099D68_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15632B00)
+#define CLASS_2_D27E2863F5099D68_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x156329C0)
+#define CLASS_2_D27E2863F5099D68__CTOR_OFFSET UNITYSDK_OFFSET(0x15632AF0)
 
-inline static constexpr unsigned int Class_2_D27E2863F5099D68_TypeDefinitionIndex = 68564;
+inline static constexpr unsigned int Class_2_D27E2863F5099D68_TypeDefinitionIndex = 87031;
 
 class Class_2_D27E2863F5099D68 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Transform* Field_2_1; // 0x18
-	::UnityEngine::GameObject* Field_2_0; // 0x20
-	::MoleMole::MonoInputKey* Field_2_5; // 0x28
-	::MoleMole::UIGeneralButtonController* Field_2_2; // 0x30
-	::MonoUITableScrollV2* Field_2_3; // 0x38
-	::MoleMole::MonoGamepadModule* Field_2_6; // 0x40
-	::MoleMole::MonoGamepadModule* Field_2_4; // 0x48
+	::MonoUITableScrollV2* Field_2_3; // 0x18
+	::MoleMole::MonoInputKey* Field_2_5; // 0x20
+	::MoleMole::UIGeneralButtonController* Field_2_2; // 0x28
+	::MoleMole::MonoGamepadModule* Field_2_6; // 0x30
+	::MoleMole::MonoGamepadModule* Field_2_4; // 0x38
+	::UnityEngine::GameObject* Field_2_0; // 0x40
+	::UnityEngine::Transform* Field_2_1; // 0x48
 
 	::System::Void _ctor()
 	{

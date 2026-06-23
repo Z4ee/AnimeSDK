@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CipherMode_TypeDefinitionIndex = 1044;
+	inline static constexpr unsigned int CipherMode_TypeDefinitionIndex = 1043;
 
 	enum class CipherMode : ::System::Int32
 	{

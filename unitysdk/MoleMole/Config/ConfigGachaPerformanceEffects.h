@@ -10,11 +10,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x181C9F10)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3BE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceEffects_TypeDefinitionIndex = 82620;
+	inline static constexpr unsigned int ConfigGachaPerformanceEffects_TypeDefinitionIndex = 53925;
 
 	class ConfigGachaPerformanceEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

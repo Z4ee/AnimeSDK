@@ -10,22 +10,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xF97D940)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0xF97D930)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_RUN_OFFSET UNITYSDK_OFFSET(0xF97D7B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF97D9E0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xF97DA40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x110A2940)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x110A2930)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE_RUN_OFFSET UNITYSDK_OFFSET(0x110A27A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x110A29E0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_ROTATE___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x110A2A40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_Rotate_TypeDefinitionIndex = 43423;
+	inline static constexpr unsigned int ConfigHollowChessboard_Rotate_TypeDefinitionIndex = 64387;
 
 	class ConfigHollowChessboard_Rotate : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
-		::UnityEngine::AnimationCurve* zRotationCurve; // 0x20
+		::UnityEngine::AnimationCurve* xRotationCurve; // 0x20
 		::UnityEngine::AnimationCurve* yRotationCurve; // 0x28
-		::UnityEngine::AnimationCurve* xRotationCurve; // 0x30
+		::UnityEngine::AnimationCurve* zRotationCurve; // 0x30
 		::System::Single time; // 0x38
 
 		::System::Void _ctor()

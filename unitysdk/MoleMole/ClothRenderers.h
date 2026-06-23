@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class Renderer; }
+namespace System { class String; }
 
-#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF34C0)
+#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0xE9584D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 44184;
+	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 47157;
 
 	class ClothRenderers : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Renderer*>* Renderers; // 0x10
+		::Il2CppArray<::System::String*>* Renderers; // 0x10
 
 		::System::Void _ctor()
 		{

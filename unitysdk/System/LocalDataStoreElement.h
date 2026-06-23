@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LOCALDATASTOREELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19540DC0)
+#define SYSTEM_LOCALDATASTOREELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B923A70)
 
 namespace System
 {

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_1_OFFSET UNITYSDK_OFFSET(0x1921EF00)
-#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_OFFSET UNITYSDK_OFFSET(0x1921EEF0)
+#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_1_OFFSET UNITYSDK_OFFSET(0x1B405000)
+#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_OFFSET UNITYSDK_OFFSET(0x1B404FF0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpStatusDescription_TypeDefinitionIndex = 3257;
+	inline static constexpr unsigned int HttpStatusDescription_TypeDefinitionIndex = 3256;
 
 	class HttpStatusDescription : public ::System::Object
 	{

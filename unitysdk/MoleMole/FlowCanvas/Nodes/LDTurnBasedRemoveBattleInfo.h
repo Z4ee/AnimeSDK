@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDREMOVEBATTLEINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D42530)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDREMOVEBATTLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D42690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDREMOVEBATTLEINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x12616E20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDREMOVEBATTLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12616FE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedRemoveBattleInfo_TypeDefinitionIndex = 45578;
+	inline static constexpr unsigned int LDTurnBasedRemoveBattleInfo_TypeDefinitionIndex = 83905;
 
 	class LDTurnBasedRemoveBattleInfo : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Int32, ::MoleMole::Battle::Entity*>
 	{

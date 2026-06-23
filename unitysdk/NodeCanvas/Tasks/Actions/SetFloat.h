@@ -6,21 +6,21 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A85D7A0)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A85DAC0)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A85DBE0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1CC4C2C0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC4C5E0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4C700)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetFloat_TypeDefinitionIndex = 27286;
+	inline static constexpr unsigned int SetFloat_TypeDefinitionIndex = 30284;
 
 	class SetFloat : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueA; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueB; // 0x68
-		::ParadoxNotion::OperationMethod Operation; // 0x70
-		::System::Boolean perSecond; // 0x74
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueB; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueA; // 0x68
+		::System::Boolean perSecond; // 0x70
+		::ParadoxNotion::OperationMethod Operation; // 0x74
 
 		::System::Void _ctor()
 		{

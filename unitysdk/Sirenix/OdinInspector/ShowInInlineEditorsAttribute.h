@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_SHOWININLINEEDITORSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021210)
+#define SIRENIX_ODININSPECTOR_SHOWININLINEEDITORSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A510)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ShowInInlineEditorsAttribute_TypeDefinitionIndex = 7224;
+	inline static constexpr unsigned int ShowInInlineEditorsAttribute_TypeDefinitionIndex = 7355;
 
 	class ShowInInlineEditorsAttribute : public ::System::Attribute
 	{

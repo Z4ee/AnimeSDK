@@ -1,35 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_83665B095F1535B5_2.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/DepthOfFieldMode.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/DofDebugMode.h"
+#include "unitysdk/Class_1_84CF6BFB7CE697B4.h"
 
-#define CLASS_2_A48F3719AA1CF200_34__CTOR_OFFSET UNITYSDK_OFFSET(0x14D0E500)
+#define CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_1_OFFSET UNITYSDK_OFFSET(0x15C97410)
+#define CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_2_OFFSET UNITYSDK_OFFSET(0x15C97480)
+#define CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_3_OFFSET UNITYSDK_OFFSET(0x15C97530)
+#define CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x15C973B0)
+#define CLASS_2_A48F3719AA1CF200_34__CTOR_OFFSET UNITYSDK_OFFSET(0x15C97470)
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_34_TypeDefinitionIndex = 81657;
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_34_TypeDefinitionIndex = 75717;
 
-class Class_2_A48F3719AA1CF200_34 : public ::Class_1_83665B095F1535B5_2
+class Class_2_A48F3719AA1CF200_34 : public ::Class_1_84CF6BFB7CE697B4
 {
 public:
-	::System::Single Field_2_7; // 0x18
-	::UnityEngine::Rendering::Universal::DofDebugMode Field_2_15; // 0x1C
-	::System::Boolean Field_2_13; // 0x20
-	::System::Boolean Field_2_6; // 0x21
-	::System::Boolean Field_2_14; // 0x22
-	::System::Boolean Field_2_10; // 0x23
-	::System::Boolean Field_2_4; // 0x24
-	::System::Single Field_2_1; // 0x28
-	::System::Int32 Field_2_9; // 0x2C
-	::System::Single Field_2_5; // 0x30
-	::System::Single Field_2_11; // 0x34
-	::System::Single Field_2_8; // 0x38
-	::System::Single Field_2_3; // 0x3C
-	::System::Single Field_2_12; // 0x40
-	::UnityEngine::Rendering::Universal::DepthOfFieldMode Field_2_0; // 0x44
-	::System::Single Field_2_2; // 0x48
-
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_34__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_F026F9F94BAA5E1F()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_F026F9F94BAA5E1F_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_1_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_F026F9F94BAA5E1F_2()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_2_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_F026F9F94BAA5E1F_3()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_34_METHOD_2_F026F9F94BAA5E1F_3_OFFSET))(this);
 	}
 };

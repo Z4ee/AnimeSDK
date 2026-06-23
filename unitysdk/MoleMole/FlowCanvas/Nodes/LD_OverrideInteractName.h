@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BB8EE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB90D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x151273A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15127590)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_OverrideInteractName_TypeDefinitionIndex = 65999;
+	inline static constexpr unsigned int LD_OverrideInteractName_TypeDefinitionIndex = 84141;
 
 	class LD_OverrideInteractName : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::String*>
 	{

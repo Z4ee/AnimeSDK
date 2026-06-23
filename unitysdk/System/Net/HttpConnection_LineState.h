@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpConnection_LineState_TypeDefinitionIndex = 3522;
+	inline static constexpr unsigned int HttpConnection_LineState_TypeDefinitionIndex = 3521;
 
 	enum class HttpConnection_LineState : ::System::Int32
 	{

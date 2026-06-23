@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FGroupAbilityEventArgs_TypeDefinitionIndex = 53075;
+	inline static constexpr unsigned int FGroupAbilityEventArgs_TypeDefinitionIndex = 44971;
 
 	struct alignas(8) FGroupAbilityEventArgs
 	{

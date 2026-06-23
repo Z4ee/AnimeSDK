@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TransportType_TypeDefinitionIndex = 3336;
+	inline static constexpr unsigned int TransportType_TypeDefinitionIndex = 3335;
 
 	enum class TransportType : ::System::Int32
 	{

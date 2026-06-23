@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeTransitionType_TypeDefinitionIndex = 28406;
+	inline static constexpr unsigned int StateTreeTransitionType_TypeDefinitionIndex = 31061;
 
 	enum class StateTreeTransitionType : ::System::Byte
 	{

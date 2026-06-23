@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int ConnectionEstablishedType_TypeDefinitionIndex = 33929;
+	inline static constexpr unsigned int ConnectionEstablishedType_TypeDefinitionIndex = 35492;
 
 	enum class ConnectionEstablishedType : ::System::Int32
 	{

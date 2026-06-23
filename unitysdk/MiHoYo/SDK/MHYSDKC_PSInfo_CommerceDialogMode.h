@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PSInfo_CommerceDialogMode_TypeDefinitionIndex = 35050;
+	inline static constexpr unsigned int MHYSDKC_PSInfo_CommerceDialogMode_TypeDefinitionIndex = 36614;
 
 	class MHYSDKC_PSInfo_CommerceDialogMode : public ::System::Object
 	{

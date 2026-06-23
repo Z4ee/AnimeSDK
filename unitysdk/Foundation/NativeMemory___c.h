@@ -4,21 +4,21 @@
 #include "unitysdk/Foundation/NativeMemoryRequest.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_NATIVEMEMORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE5600)
-#define FOUNDATION_NATIVEMEMORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE5640)
-#define FOUNDATION_NATIVEMEMORY___C___CCTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1BFE5650)
-#define FOUNDATION_NATIVEMEMORY___C___CCTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0x1BFE5670)
+#define FOUNDATION_NATIVEMEMORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E358090)
+#define FOUNDATION_NATIVEMEMORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3580D0)
+#define FOUNDATION_NATIVEMEMORY___C___CCTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1E3580E0)
+#define FOUNDATION_NATIVEMEMORY___C___CCTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0x1E358100)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemory___c_TypeDefinitionIndex = 9107;
+	inline static constexpr unsigned int NativeMemory___c_TypeDefinitionIndex = 8590;
 
 	class NativeMemory___c : public ::System::Object
 	{
 	public:
 		static ::Foundation::NativeMemory___c** StaticGet___9()
 		{
-			return (::Foundation::NativeMemory___c**)Il2CppClass::FromTypeDefinitionIndex(NativeMemory___c_TypeDefinitionIndex)->GetStaticField(0x7F40);
+			return (::Foundation::NativeMemory___c**)Il2CppClass::FromTypeDefinitionIndex(NativeMemory___c_TypeDefinitionIndex)->GetStaticField(0x75A0);
 		}
 
 		static ::System::Void _cctor()

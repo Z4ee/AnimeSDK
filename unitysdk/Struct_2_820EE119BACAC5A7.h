@@ -5,7 +5,7 @@
 class Class_2_208CC9941471731A_131;
 class Class_3_1699D6295DC3F818_1;
 
-inline static constexpr unsigned int Struct_2_820EE119BACAC5A7_TypeDefinitionIndex = 76727;
+inline static constexpr unsigned int Struct_2_820EE119BACAC5A7_TypeDefinitionIndex = 41104;
 
 struct alignas(8) Struct_2_820EE119BACAC5A7
 {

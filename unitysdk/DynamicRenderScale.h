@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define DYNAMICRENDERSCALE_GET_OPENDYNAMICSCALE_OFFSET UNITYSDK_OFFSET(0x13571DC0)
-#define DYNAMICRENDERSCALE_SETDYNAMICRENDERSCALEPARAMS_OFFSET UNITYSDK_OFFSET(0x13571E80)
-#define DYNAMICRENDERSCALE_SET_OPENDYNAMICSCALE_OFFSET UNITYSDK_OFFSET(0x13571E20)
-#define DYNAMICRENDERSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0x13571F60)
-#define DYNAMICRENDERSCALE__CCTOR_OFFSET UNITYSDK_OFFSET(0x13571FF0)
-#define DYNAMICRENDERSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x13571FA0)
+#define DYNAMICRENDERSCALE_GET_OPENDYNAMICSCALE_OFFSET UNITYSDK_OFFSET(0x147EB350)
+#define DYNAMICRENDERSCALE_SETDYNAMICRENDERSCALEPARAMS_OFFSET UNITYSDK_OFFSET(0x147EB410)
+#define DYNAMICRENDERSCALE_SET_OPENDYNAMICSCALE_OFFSET UNITYSDK_OFFSET(0x147EB3B0)
+#define DYNAMICRENDERSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0x147EB4F0)
+#define DYNAMICRENDERSCALE__CCTOR_OFFSET UNITYSDK_OFFSET(0x147EB580)
+#define DYNAMICRENDERSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x147EB530)
 
-inline static constexpr unsigned int DynamicRenderScale_TypeDefinitionIndex = 45579;
+inline static constexpr unsigned int DynamicRenderScale_TypeDefinitionIndex = 63614;
 
 class DynamicRenderScale : public ::UnityEngine::MonoBehaviour
 {
 public:
+	static ::System::Single* StaticGet_currentScale()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x11310);
+	}
 	static ::System::Single* StaticGet__globalScaleMax()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x10ED0);
-	}
-	static ::System::Single* StaticGet__globalScaleMin()
-	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x10ED4);
-	}
-	static ::System::Boolean* StaticGet_forceCloseDynamicScale()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x10ED8);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x11314);
 	}
 	static ::System::Boolean* StaticGet__openDynamicScale()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x10ED9);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x11318);
 	}
-	static ::System::Single* StaticGet_currentScale()
+	static ::System::Boolean* StaticGet_forceCloseDynamicScale()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x10EDC);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x11319);
+	}
+	static ::System::Single* StaticGet__globalScaleMin()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicRenderScale_TypeDefinitionIndex)->GetStaticField(0x1131C);
 	}
 	::System::Int32 calcCount; // 0x18
 	::System::Single deltaStep; // 0x1C

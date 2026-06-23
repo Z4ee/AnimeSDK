@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int EnumFlags_TypeDefinitionIndex = 25216;
+	inline static constexpr unsigned int EnumFlags_TypeDefinitionIndex = 27706;
 
 	enum class EnumFlags : ::System::Byte
 	{

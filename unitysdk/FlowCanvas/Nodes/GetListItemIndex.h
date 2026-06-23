@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System::Collections { class IList; }
 
-#define FLOWCANVAS_NODES_GETLISTITEMINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B457D00)
-#define FLOWCANVAS_NODES_GETLISTITEMINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B457DE0)
+#define FLOWCANVAS_NODES_GETLISTITEMINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D81D5E0)
+#define FLOWCANVAS_NODES_GETLISTITEMINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81D6C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetListItemIndex_TypeDefinitionIndex = 26727;
+	inline static constexpr unsigned int GetListItemIndex_TypeDefinitionIndex = 30365;
 
 	class GetListItemIndex : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Collections::IList*, ::System::Object*>
 	{

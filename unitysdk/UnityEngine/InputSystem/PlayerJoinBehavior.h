@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerJoinBehavior_TypeDefinitionIndex = 29053;
+	inline static constexpr unsigned int PlayerJoinBehavior_TypeDefinitionIndex = 31709;
 
 	enum class PlayerJoinBehavior : ::System::Int32
 	{

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Share
 {
-	inline static constexpr unsigned int IJsonHelper_TypeDefinitionIndex = 10023;
+	inline static constexpr unsigned int IJsonHelper_TypeDefinitionIndex = 13896;
 
 	class IJsonHelper
 	{

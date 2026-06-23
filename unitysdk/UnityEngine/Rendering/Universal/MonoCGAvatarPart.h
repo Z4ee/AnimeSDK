@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MONOCGAVATARPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1A309230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MONOCGAVATARPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1C44D080)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MonoCGAvatarPart_TypeDefinitionIndex = 30065;
+	inline static constexpr unsigned int MonoCGAvatarPart_TypeDefinitionIndex = 26328;
 
 	class MonoCGAvatarPart : public ::UnityEngine::MonoBehaviour
 	{

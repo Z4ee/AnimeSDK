@@ -3,7 +3,7 @@
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int MimeMultiPartType_TypeDefinitionIndex = 3623;
+	inline static constexpr unsigned int MimeMultiPartType_TypeDefinitionIndex = 3622;
 
 	enum class MimeMultiPartType : ::System::Int32
 	{

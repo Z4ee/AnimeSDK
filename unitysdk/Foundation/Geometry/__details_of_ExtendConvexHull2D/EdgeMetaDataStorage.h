@@ -6,7 +6,7 @@
 
 namespace Foundation::Geometry::__details_of_ExtendConvexHull2D
 {
-	inline static constexpr unsigned int EdgeMetaDataStorage_TypeDefinitionIndex = 9104;
+	inline static constexpr unsigned int EdgeMetaDataStorage_TypeDefinitionIndex = 8691;
 
 	struct alignas(8) EdgeMetaDataStorage
 	{

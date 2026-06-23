@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_CF55BB5B57F80F0B_TypeDefinitionIndex = 72243;
+inline static constexpr unsigned int Struct_2_CF55BB5B57F80F0B_TypeDefinitionIndex = 77350;
 
 struct alignas(4) Struct_2_CF55BB5B57F80F0B
 {

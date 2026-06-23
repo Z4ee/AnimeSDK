@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class TickSequencer_1_UnitComparer;
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_UnitComparer_TypeDefinitionIndex = 8858;
+	inline static constexpr unsigned int TickSequencer_1_UnitComparer_TypeDefinitionIndex = 8600;
 
 	template <typename TTickingGroup>
 	class TickSequencer_1_UnitComparer : public ::System::Object

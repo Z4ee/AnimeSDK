@@ -6,15 +6,15 @@ namespace MoleMole::Config { class ConfigHitDatas; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_82D825AD3611631A_CLASS_1_9FE62D04427454D0__CTOR_OFFSET UNITYSDK_OFFSET(0xD48B7B0)
+#define CLASS_1_82D825AD3611631A_CLASS_1_9FE62D04427454D0__CTOR_OFFSET UNITYSDK_OFFSET(0x188E6970)
 
-inline static constexpr unsigned int Class_1_82D825AD3611631A_Class_1_9FE62D04427454D0_TypeDefinitionIndex = 66870;
+inline static constexpr unsigned int Class_1_82D825AD3611631A_Class_1_9FE62D04427454D0_TypeDefinitionIndex = 52842;
 
 class Class_1_82D825AD3611631A_Class_1_9FE62D04427454D0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHitDatas*>* Field_1_0; // 0x10
-	::System::Action* Field_1_2; // 0x18
+	::System::Action* Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHitDatas*>* Field_1_0; // 0x18
 	::System::Int32 Field_1_1; // 0x20
 
 	::System::Void _ctor()

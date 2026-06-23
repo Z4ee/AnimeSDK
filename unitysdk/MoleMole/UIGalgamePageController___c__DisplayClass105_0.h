@@ -8,27 +8,27 @@ namespace MoleMole::GalGame { class AudioEventItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146595B0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__0_OFFSET UNITYSDK_OFFSET(0x146595C0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x14659610)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0x14659670)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0x146599B0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__4_OFFSET UNITYSDK_OFFSET(0x146595F0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DCCA10)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__0_OFFSET UNITYSDK_OFFSET(0x19DF0070)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x19DF00C0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0x19DF0120)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0x19DF0460)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS105_0__PLAYPICTURESTORYNODE_B__4_OFFSET UNITYSDK_OFFSET(0x19DF00A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass105_0_TypeDefinitionIndex = 41821;
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass105_0_TypeDefinitionIndex = 54879;
 
 	class UIGalgamePageController___c__DisplayClass105_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGalgamePageController* __4__this; // 0x10
-		::Class_2_A98F487E59440D0B* textPlayNode; // 0x18
-		::System::String* avatarName; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>* triggerAfterVOAudioList; // 0x28
-		::System::Boolean hasSound; // 0x30
+		::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>* triggerAfterVOAudioList; // 0x10
+		::System::String* avatarName; // 0x18
+		::Class_2_A98F487E59440D0B* textPlayNode; // 0x20
+		::MoleMole::UIGalgamePageController* __4__this; // 0x28
+		::System::Boolean hasVoice; // 0x30
 		::System::Boolean hasOneShotSound; // 0x31
-		::System::Boolean hasVoice; // 0x32
+		::System::Boolean hasSound; // 0x32
 
 		::System::Void _ctor()
 		{

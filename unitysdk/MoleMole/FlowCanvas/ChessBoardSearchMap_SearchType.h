@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardSearchMap_SearchType_TypeDefinitionIndex = 81363;
+	inline static constexpr unsigned int ChessBoardSearchMap_SearchType_TypeDefinitionIndex = 85066;
 
 	enum class ChessBoardSearchMap_SearchType : ::System::Int32
 	{
-		Bound = 2,
-		Index = 0,
 		Position = 1,
+		Index = 0,
+		Bound = 2,
 	};
 }

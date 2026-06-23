@@ -5,9 +5,9 @@
 class MonoUISubItemParamDict_SubItemParamPair;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUISUBITEMPARAMDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x11345550)
+#define MONOUISUBITEMPARAMDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1384D1A0)
 
-inline static constexpr unsigned int MonoUISubItemParamDict_TypeDefinitionIndex = 73312;
+inline static constexpr unsigned int MonoUISubItemParamDict_TypeDefinitionIndex = 53820;
 
 class MonoUISubItemParamDict : public ::UnityEngine::MonoBehaviour
 {

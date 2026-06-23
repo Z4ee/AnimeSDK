@@ -7,33 +7,33 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11CA50C0)
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11CA3BE0)
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x11CA5120)
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x11CA3C60)
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA5AA0)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19297280)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19295DA0)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192972E0)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x19295E20)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19297C60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBlackCurtain_TypeDefinitionIndex = 66342;
+	inline static constexpr unsigned int ConfigBlackCurtain_TypeDefinitionIndex = 83212;
 
 	class ConfigBlackCurtain : public ::System::Object
 	{
 	public:
 		::System::String* ExcludeTargets; // 0x10
-		::System::Boolean DisableStageLight; // 0x18
-		::System::Boolean EnableAvatar; // 0x19
-		::System::Boolean SuspendCurMatPropertyModifiers; // 0x1A
-		::System::Boolean EnableMonster; // 0x1B
-		::System::Boolean EnableBuddy; // 0x1C
-		::System::Boolean EnableCaster; // 0x1D
-		::System::Boolean DisableStageCollider; // 0x1E
-		::System::Boolean DisableQTE; // 0x1F
-		::System::Boolean DisableReceiveShadows; // 0x20
-		::System::Boolean DisableShadowColorFadeByZ; // 0x21
-		::System::Boolean EnableStageEffect; // 0x22
-		::System::Boolean EnableStageMesh; // 0x23
-		::System::Boolean EnableLocalAvatar; // 0x24
+		::System::Boolean EnableBuddy; // 0x18
+		::System::Boolean DisableStageLight; // 0x19
+		::System::Boolean DisableQTE; // 0x1A
+		::System::Boolean EnableCaster; // 0x1B
+		::System::Boolean DisableReceiveShadows; // 0x1C
+		::System::Boolean EnableLocalAvatar; // 0x1D
+		::System::Boolean EnableMonster; // 0x1E
+		::System::Boolean DisableShadowColorFadeByZ; // 0x1F
+		::System::Boolean SuspendCurMatPropertyModifiers; // 0x20
+		::System::Boolean EnableStageMesh; // 0x21
+		::System::Boolean DisableStageCollider; // 0x22
+		::System::Boolean EnableAvatar; // 0x23
+		::System::Boolean EnableStageEffect; // 0x24
 
 		::System::Void _ctor()
 		{

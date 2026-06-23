@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UriScheme_TypeDefinitionIndex = 3261;
+	inline static constexpr unsigned int UriScheme_TypeDefinitionIndex = 3260;
 
 	class UriScheme : public ::System::Object
 	{

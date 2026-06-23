@@ -3,16 +3,16 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ENodeVisible_TypeDefinitionIndex = 13261;
+	inline static constexpr unsigned int ENodeVisible_TypeDefinitionIndex = 9260;
 
 	enum class ENodeVisible : ::System::Int16
 	{
-		All = 0,
 		Visible = 1,
-		TemporaryVisibleAtAround = 4,
-		Blocked = 5,
-		VisibleAtGridAround = 2,
+		All = 0,
 		EnumCount = 6,
+		VisibleAtGridAround = 2,
+		TemporaryVisibleAtAround = 4,
 		VisibleByTriggerEvent = 3,
+		Blocked = 5,
 	};
 }

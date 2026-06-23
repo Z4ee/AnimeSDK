@@ -6,21 +6,21 @@
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization { class SerializationEventHandler; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1A0B6ED0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_RAISEONSERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1A0B6F70)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x1A0B6D10)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B6BF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_ADDONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1C502FF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_RAISEONSERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1C503090)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x1C502E30)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONOBJECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C502D10)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationObjectManager_TypeDefinitionIndex = 1173;
+	inline static constexpr unsigned int SerializationObjectManager_TypeDefinitionIndex = 1172;
 
 	class SerializationObjectManager : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x10
-		::System::Collections::Hashtable* m_objectSeenTable; // 0x20
-		::System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler; // 0x28
+		::System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler; // 0x10
+		::System::Collections::Hashtable* m_objectSeenTable; // 0x18
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x20
 
 		::System::Void _ctor(::System::Runtime::Serialization::StreamingContext context)
 		{

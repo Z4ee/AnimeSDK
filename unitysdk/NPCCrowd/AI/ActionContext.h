@@ -7,15 +7,17 @@
 
 namespace NPCCrowd::AI { class IAIActionConfig; }
 
-#define NPCCROWD_AI_ACTIONCONTEXT_SETFORCEEXIT_OFFSET UNITYSDK_OFFSET(0x6B1F50)
-#define NPCCROWD_AI_ACTIONCONTEXT_SETJOBDATA_OFFSET UNITYSDK_OFFSET(0x6B1FF0)
-#define NPCCROWD_AI_ACTIONCONTEXT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x6B1FA0)
-#define NPCCROWD_AI_ACTIONCONTEXT_SETTIMECONTROL_OFFSET UNITYSDK_OFFSET(0x6B2090)
-#define NPCCROWD_AI_ACTIONCONTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x6B20E0)
+#define NPCCROWD_AI_ACTIONCONTEXT_REQUESTSLEEP_OFFSET UNITYSDK_OFFSET(0x6C5B10)
+#define NPCCROWD_AI_ACTIONCONTEXT_SETFORCEEXIT_OFFSET UNITYSDK_OFFSET(0x6C5AC0)
+#define NPCCROWD_AI_ACTIONCONTEXT_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x6C5A70)
+#define NPCCROWD_AI_ACTIONCONTEXT_SETJOBDATA_OFFSET UNITYSDK_OFFSET(0x6C5B70)
+#define NPCCROWD_AI_ACTIONCONTEXT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x6C5B20)
+#define NPCCROWD_AI_ACTIONCONTEXT_SETTIMECONTROL_OFFSET UNITYSDK_OFFSET(0x6C5C10)
+#define NPCCROWD_AI_ACTIONCONTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x6C5C60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ActionContext_TypeDefinitionIndex = 54185;
+	inline static constexpr unsigned int ActionContext_TypeDefinitionIndex = 69714;
 
 	struct alignas(8) ActionContext
 	{
@@ -27,10 +29,21 @@ namespace NPCCrowd::AI
 		::NPCCrowd::AI::NPCAIActionState state; // 0xC8
 		::System::Boolean forceExit; // 0xCC
 		::NPCCrowd::AI::TimeControl timeControl; // 0xD0
+		::System::Int32 handler; // 0xD8
+
+		::System::Void SetHandler(::System::Int32 handler)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ACTIONCONTEXT_SETHANDLER_OFFSET))(this, handler);
+		}
 
 		::System::Void SetForceExit(::System::Boolean forceExit)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ACTIONCONTEXT_SETFORCEEXIT_OFFSET))(this, forceExit);
+		}
+
+		::System::Void RequestSleep()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ACTIONCONTEXT_REQUESTSLEEP_OFFSET))(this);
 		}
 
 		::System::Void SetState(::NPCCrowd::AI::NPCAIActionState state)

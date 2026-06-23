@@ -6,19 +6,19 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCURVECTRLLOCALPOSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x186ADBC0)
-#define MOLEMOLE_CONFIG_CONFIGCURVECTRLLOCALPOSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x186ADC30)
+#define MOLEMOLE_CONFIG_CONFIGCURVECTRLLOCALPOSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x106CAE10)
+#define MOLEMOLE_CONFIG_CONFIGCURVECTRLLOCALPOSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x106CAE80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCurveCtrlLocalPosNode_TypeDefinitionIndex = 38364;
+	inline static constexpr unsigned int ConfigCurveCtrlLocalPosNode_TypeDefinitionIndex = 82328;
 
 	class ConfigCurveCtrlLocalPosNode : public ::MoleMole::Config::ConfigCurveCtrlBaseNode
 	{
 	public:
 		::System::String* TargetTrans; // 0x48
-		::MoleMole::Config::ConfigCurveCtrlLocalPosNode_PosType PosT; // 0x50
-		::System::Boolean UseParentCoordinate; // 0x54
+		::System::Boolean UseParentCoordinate; // 0x50
+		::MoleMole::Config::ConfigCurveCtrlLocalPosNode_PosType PosT; // 0x54
 
 		::System::Void _ctor()
 		{

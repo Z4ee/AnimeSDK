@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D29A20)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D29A30)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D29C10)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D29DB0)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D29D70)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A070160)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1A070170)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1A070350)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0704F0)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITWALL_CONFIGSPECIALEFFECTHITWALL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0704B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex = 42458;
+	inline static constexpr unsigned int ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex = 75197;
 
 	class ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSpecialEffectHitWall*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CharacterDamageDecalType>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CharacterDamageDecalType>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x477C0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CharacterDamageDecalType>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49BC0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DamageDecalData>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DamageDecalData>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x477C8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DamageDecalData>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSpecialEffectHitWall_ConfigSpecialEffectHitWall_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49BC8);
 		}
 
 		::System::Void _ctor()

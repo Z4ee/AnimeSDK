@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define NEWBEHAVIOURSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0xF85F9C0)
+#define NEWBEHAVIOURSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x11F8CFF0)
 
-inline static constexpr unsigned int NewBehaviourScript_TypeDefinitionIndex = 55552;
+inline static constexpr unsigned int NewBehaviourScript_TypeDefinitionIndex = 42302;
 
 class NewBehaviourScript : public ::UnityEngine::MonoBehaviour
 {

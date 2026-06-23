@@ -6,18 +6,18 @@ namespace Foundation { class EffectPool_AssetInfo; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B46C560)
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS32_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B46C570)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F60A0)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS32_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D8F60B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EffectPool___c__DisplayClass32_0_TypeDefinitionIndex = 8170;
+	inline static constexpr unsigned int EffectPool___c__DisplayClass32_0_TypeDefinitionIndex = 7966;
 
 	class EffectPool___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::Foundation::EffectPool_AssetInfo* assetInfo; // 0x10
-		::System::Action_1<::UnityEngine::Object*>* callback; // 0x18
+		::System::Action_1<::UnityEngine::Object*>* callback; // 0x10
+		::Foundation::EffectPool_AssetInfo* assetInfo; // 0x18
 
 		::System::Void _ctor()
 		{

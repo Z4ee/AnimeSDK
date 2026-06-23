@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11DF8D00)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11DF8D10)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11DF8EF0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DF9090)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11DF9050)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18398DB0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18398DC0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18398FA0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18399140)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_PATTERNPAIR_PATTERNPAIR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18399100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_PatternPair_PatternPair_UnityGeneratedFormatter_TypeDefinitionIndex = 73512;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_PatternPair_PatternPair_UnityGeneratedFormatter_TypeDefinitionIndex = 74619;
 
 	class SkillCharacterScriptConfig_PatternPair_PatternPair_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SkillCharacterScriptConfig_PatternPair*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_PatternPair_PatternPair_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45C40);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_PatternPair_PatternPair_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x469F0);
 		}
 
 		::System::Void _ctor()

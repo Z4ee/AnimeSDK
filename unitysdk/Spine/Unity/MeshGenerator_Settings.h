@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SPINE_UNITY_MESHGENERATOR_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x18B3CD70)
+#define SPINE_UNITY_MESHGENERATOR_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1AD19B60)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGenerator_Settings_TypeDefinitionIndex = 37879;
+	inline static constexpr unsigned int MeshGenerator_Settings_TypeDefinitionIndex = 39507;
 
 	struct alignas(4) MeshGenerator_Settings
 	{

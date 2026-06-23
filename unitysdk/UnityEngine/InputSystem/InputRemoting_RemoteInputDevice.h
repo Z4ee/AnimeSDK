@@ -5,7 +5,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_RemoteInputDevice_TypeDefinitionIndex = 28990;
+	inline static constexpr unsigned int InputRemoting_RemoteInputDevice_TypeDefinitionIndex = 31646;
 
 	struct alignas(8) InputRemoting_RemoteInputDevice
 	{

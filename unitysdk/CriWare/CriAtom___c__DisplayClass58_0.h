@@ -5,12 +5,12 @@
 namespace CriWare { class CriAtom; }
 namespace CriWare { class CriAtomCueSheet; }
 
-#define CRIWARE_CRIATOM___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C54B070)
-#define CRIWARE_CRIATOM___C__DISPLAYCLASS58_0__MARGECUESHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1C54B080)
+#define CRIWARE_CRIATOM___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E87B820)
+#define CRIWARE_CRIATOM___C__DISPLAYCLASS58_0__MARGECUESHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1E87B830)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtom___c__DisplayClass58_0_TypeDefinitionIndex = 32688;
+	inline static constexpr unsigned int CriAtom___c__DisplayClass58_0_TypeDefinitionIndex = 34241;
 
 	class CriAtom___c__DisplayClass58_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CredentialUse_TypeDefinitionIndex = 3304;
+	inline static constexpr unsigned int CredentialUse_TypeDefinitionIndex = 3303;
 
 	enum class CredentialUse : ::System::Int32
 	{

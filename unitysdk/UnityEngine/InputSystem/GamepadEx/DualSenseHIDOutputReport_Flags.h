@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int DualSenseHIDOutputReport_Flags_TypeDefinitionIndex = 37444;
+	inline static constexpr unsigned int DualSenseHIDOutputReport_Flags_TypeDefinitionIndex = 39070;
 
 	enum class DualSenseHIDOutputReport_Flags : ::System::Int32
 	{

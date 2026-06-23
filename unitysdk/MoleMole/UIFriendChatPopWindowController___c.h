@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1679B600)
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1679B640)
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__62_1_OFFSET UNITYSDK_OFFSET(0x1679B650)
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__62_2_OFFSET UNITYSDK_OFFSET(0x1679B880)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187EA730)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187EA770)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__63_1_OFFSET UNITYSDK_OFFSET(0x187EA780)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__63_2_OFFSET UNITYSDK_OFFSET(0x187EA9B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatPopWindowController___c_TypeDefinitionIndex = 58711;
+	inline static constexpr unsigned int UIFriendChatPopWindowController___c_TypeDefinitionIndex = 81241;
 
 	class UIFriendChatPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__62_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32740);
-		}
-		static ::System::Action** StaticGet___9__62_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32748);
-		}
 		static ::MoleMole::UIFriendChatPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIFriendChatPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32750);
+			return (::MoleMole::UIFriendChatPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x345E0);
+		}
+		static ::System::Action** StaticGet___9__63_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x345E8);
+		}
+		static ::System::Action** StaticGet___9__63_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIFriendChatPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x345F0);
 		}
 
 		static ::System::Void _cctor()
@@ -39,14 +39,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnInitFriendPanel_b__62_1()
+		::System::Void _OnInitFriendPanel_b__63_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__62_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__63_1_OFFSET))(this);
 		}
 
-		::System::Void _OnInitFriendPanel_b__62_2()
+		::System::Void _OnInitFriendPanel_b__63_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__62_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__ONINITFRIENDPANEL_B__63_2_OFFSET))(this);
 		}
 	};
 }

@@ -10,41 +10,41 @@ namespace DigitalOpus::MB::Core { class TextureBlenderMaterialPropertyCacheHelpe
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1BB005E0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BB01DE0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1BB00FB0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BB00700)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1BB00EB0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BB01550)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB02980)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__MAPFLOATTOMATERIALTYPE_OFFSET UNITYSDK_OFFSET(0x1BB00670)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__MAPMATERIALTYPETOFLOAT_OFFSET UNITYSDK_OFFSET(0x1BB006E0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1DE89CC0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1DE8B490)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1DE8A670)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1DE89DE0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1DE8A580)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DE8AC10)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8C030)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__MAPFLOATTOMATERIALTYPE_OFFSET UNITYSDK_OFFSET(0x1DE89D50)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERHDRPLIT__MAPMATERIALTYPETOFLOAT_OFFSET UNITYSDK_OFFSET(0x1DE89DC0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderHDRPLit_TypeDefinitionIndex = 85003;
+	inline static constexpr unsigned int TextureBlenderHDRPLit_TypeDefinitionIndex = 90577;
 
 	class TextureBlenderHDRPLit : public ::System::Object
 	{
 	public:
 		::DigitalOpus::MB::Core::TextureBlenderMaterialPropertyCacheHelper* sourceMaterialPropertyCache; // 0x10
-		::System::Single m_notGeneratingAtlasDefaultMetallic; // 0x18
-		::UnityEngine::Color m_tintColor; // 0x1C
-		::UnityEngine::Color m_specularColor; // 0x2C
-		::System::Single m_notGeneratingAtlasDefaultSmoothness; // 0x3C
-		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x40
-		::UnityEngine::Color m_emissiveColor; // 0x50
-		::UnityEngine::Color m_notGeneratingAtlasDefaultEmissiveColor; // 0x60
-		::UnityEngine::Color m_generatingTintedAtlaSpecular; // 0x70
-		::System::Boolean m_hasSpecMap; // 0x80
-		::System::Boolean m_hasMaskMap; // 0x81
-		::System::Single m_metallic; // 0x84
-		::DigitalOpus::MB::Core::TextureBlenderHDRPLit_MaterialType m_materialType; // 0x88
-		::System::Single m_smoothness; // 0x8C
-		::DigitalOpus::MB::Core::TextureBlenderHDRPLit_Prop propertyToDo; // 0x90
-		::UnityEngine::Color m_generatingTintedAtlaColor; // 0x94
-		::UnityEngine::Color m_generatingTintedAtlaEmission; // 0xA4
-		::UnityEngine::Color m_notGeneratingAtlasDefaultSpecular; // 0xB4
+		::System::Single m_notGeneratingAtlasDefaultSmoothness; // 0x18
+		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x1C
+		::UnityEngine::Color m_generatingTintedAtlaColor; // 0x2C
+		::UnityEngine::Color m_notGeneratingAtlasDefaultEmissiveColor; // 0x3C
+		::UnityEngine::Color m_generatingTintedAtlaSpecular; // 0x4C
+		::UnityEngine::Color m_specularColor; // 0x5C
+		::System::Single m_metallic; // 0x6C
+		::System::Single m_notGeneratingAtlasDefaultMetallic; // 0x70
+		::System::Boolean m_hasMaskMap; // 0x74
+		::System::Boolean m_hasSpecMap; // 0x75
+		::UnityEngine::Color m_generatingTintedAtlaEmission; // 0x78
+		::UnityEngine::Color m_notGeneratingAtlasDefaultSpecular; // 0x88
+		::DigitalOpus::MB::Core::TextureBlenderHDRPLit_MaterialType m_materialType; // 0x98
+		::UnityEngine::Color m_emissiveColor; // 0x9C
+		::UnityEngine::Color m_tintColor; // 0xAC
+		::System::Single m_smoothness; // 0xBC
+		::DigitalOpus::MB::Core::TextureBlenderHDRPLit_Prop propertyToDo; // 0xC0
 
 		::System::Void _ctor()
 		{

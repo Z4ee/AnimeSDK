@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Rendering/RenderBufferLoadAction.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferStoreAction.h"
 
-#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x969120)
+#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0xA09490)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderTargetSetup_TypeDefinitionIndex = 5190;
+	inline static constexpr unsigned int RenderTargetSetup_TypeDefinitionIndex = 5189;
 
 	struct alignas(8) RenderTargetSetup
 	{

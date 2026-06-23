@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE56A70)
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS33_0__WARMUPINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1BE56A80)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A5340)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS33_0__WARMUPINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1E1A5350)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EffectPool___c__DisplayClass33_0_TypeDefinitionIndex = 8169;
+	inline static constexpr unsigned int EffectPool___c__DisplayClass33_0_TypeDefinitionIndex = 7964;
 
 	class EffectPool___c__DisplayClass33_0 : public ::System::Object
 	{

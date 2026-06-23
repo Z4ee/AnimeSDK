@@ -3,20 +3,20 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class DragableRectController_Class_3_50D343C44D28BEFB_7; }
-namespace MoleMole { class DragableRectController_Class_3_50D343C44D28BEFB_8; }
+namespace MoleMole { class DragableRectController_Class_3_50D343C44D28BEFB_2; }
+namespace MoleMole { class DragableRectController_Class_3_50D343C44D28BEFB_3; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x153E1970)
-#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x153E1AE0)
-#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x153E1E30)
-#define MOLEMOLE_DRAGABLERECTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x153E1F90)
-#define MOLEMOLE_DRAGABLERECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x153E22F0)
+#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x161B08C0)
+#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x161B0A30)
+#define MOLEMOLE_DRAGABLERECTCONTROLLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x161B0D80)
+#define MOLEMOLE_DRAGABLERECTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x161B0ED0)
+#define MOLEMOLE_DRAGABLERECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x161B1230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DragableRectController_TypeDefinitionIndex = 76039;
+	inline static constexpr unsigned int DragableRectController_TypeDefinitionIndex = 40918;
 
 	class DragableRectController : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,8 +27,8 @@ namespace MoleMole
 		::UnityEngine::RectTransform* Target; // 0x28
 		::System::Single Offset; // 0x30
 		::System::Single AutoMoveSpeed; // 0x34
-		::MoleMole::DragableRectController_Class_3_50D343C44D28BEFB_8* OnDragToTarget; // 0x38
-		::MoleMole::DragableRectController_Class_3_50D343C44D28BEFB_7* OnDragToTargetCheck; // 0x40
+		::MoleMole::DragableRectController_Class_3_50D343C44D28BEFB_2* OnDragToTarget; // 0x38
+		::MoleMole::DragableRectController_Class_3_50D343C44D28BEFB_3* OnDragToTargetCheck; // 0x40
 		::UnityEngine::Vector3 Field_5_8; // 0x48
 		::System::Boolean Field_5_9; // 0x54
 		::System::Boolean Field_5_10; // 0x55

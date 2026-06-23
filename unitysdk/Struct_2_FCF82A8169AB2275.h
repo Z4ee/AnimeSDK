@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_FCF82A8169AB2275_METHOD_2_BF972395CC722BF9_OFFSET UNITYSDK_OFFSET(0x726680)
-#define STRUCT_2_FCF82A8169AB2275_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x726780)
+#define STRUCT_2_FCF82A8169AB2275_METHOD_2_BF972395CC722BF9_OFFSET UNITYSDK_OFFSET(0x7942F0)
+#define STRUCT_2_FCF82A8169AB2275_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x794270)
 
-inline static constexpr unsigned int Struct_2_FCF82A8169AB2275_TypeDefinitionIndex = 72227;
+inline static constexpr unsigned int Struct_2_FCF82A8169AB2275_TypeDefinitionIndex = 41666;
 
 struct alignas(4) Struct_2_FCF82A8169AB2275
 {
@@ -19,13 +19,13 @@ struct alignas(4) Struct_2_FCF82A8169AB2275
 	::UnityEngine::Vector3 Field_2_6; // 0x30
 	::System::Boolean Field_2_7; // 0x3C
 
-	::UnityEngine::Vector3 Method_2_BF972395CC722BF9()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FCF82A8169AB2275_METHOD_2_BF972395CC722BF9_OFFSET))(this);
-	}
-
 	::System::Void Method_2_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FCF82A8169AB2275_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_2_BF972395CC722BF9()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FCF82A8169AB2275_METHOD_2_BF972395CC722BF9_OFFSET))(this);
 	}
 };

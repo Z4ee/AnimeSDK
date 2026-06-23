@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define INTEGERRECTANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x822E30)
-#define INTEGERRECTANGLE_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x4B6AA0)
-#define INTEGERRECTANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x822E00)
+#define INTEGERRECTANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8BF810)
+#define INTEGERRECTANGLE_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x591800)
+#define INTEGERRECTANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF7E0)
 
-inline static constexpr unsigned int IntegerRectangle_TypeDefinitionIndex = 29631;
+inline static constexpr unsigned int IntegerRectangle_TypeDefinitionIndex = 27381;
 
 struct alignas(4) IntegerRectangle
 {

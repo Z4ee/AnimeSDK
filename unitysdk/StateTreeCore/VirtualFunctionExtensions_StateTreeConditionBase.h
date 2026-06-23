@@ -4,11 +4,11 @@
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/System/Object.h"
 
-#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1BEF5310)
+#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1E1DC940)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeConditionBase_TypeDefinitionIndex = 28268;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeConditionBase_TypeDefinitionIndex = 30918;
 
 	class VirtualFunctionExtensions_StateTreeConditionBase : public ::System::Object
 	{

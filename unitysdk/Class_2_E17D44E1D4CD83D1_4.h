@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_1A39E1B51756BF41;
 class Class_2_A9A857AD270B9CE1;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x16C21860)
-#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_A52A279C28A2006E_OFFSET UNITYSDK_OFFSET(0x16C216D0)
-#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x16C21950)
-#define CLASS_2_E17D44E1D4CD83D1_4__CTOR_OFFSET UNITYSDK_OFFSET(0x16C21940)
+#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x16759F80)
+#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_A52A279C28A2006E_OFFSET UNITYSDK_OFFSET(0x16759DF0)
+#define CLASS_2_E17D44E1D4CD83D1_4_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1675A070)
+#define CLASS_2_E17D44E1D4CD83D1_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1675A060)
 
-inline static constexpr unsigned int Class_2_E17D44E1D4CD83D1_4_TypeDefinitionIndex = 51339;
+inline static constexpr unsigned int Class_2_E17D44E1D4CD83D1_4_TypeDefinitionIndex = 78258;
 
 class Class_2_E17D44E1D4CD83D1_4 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x28
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x30
 
 	::System::Void _ctor()
 	{

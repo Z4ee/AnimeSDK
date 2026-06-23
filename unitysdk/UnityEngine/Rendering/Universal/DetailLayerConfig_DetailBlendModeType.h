@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DetailLayerConfig_DetailBlendModeType_TypeDefinitionIndex = 29973;
+	inline static constexpr unsigned int DetailLayerConfig_DetailBlendModeType_TypeDefinitionIndex = 27300;
 
 	enum class DetailLayerConfig_DetailBlendModeType : ::System::Int32
 	{

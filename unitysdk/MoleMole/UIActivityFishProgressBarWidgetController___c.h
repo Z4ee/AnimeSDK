@@ -4,29 +4,29 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EBEC50)
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBEC90)
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__REFRESHPROGRESSPOINTVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x15EBECA0)
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__REFRESHPROGRESSPOINTVIEW_B__9_1_OFFSET UNITYSDK_OFFSET(0x15EBED10)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A34890)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A348D0)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__REFRESHPROGRESSPOINTVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x17A348E0)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__REFRESHPROGRESSPOINTVIEW_B__9_1_OFFSET UNITYSDK_OFFSET(0x17A34950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex = 52137;
+	inline static constexpr unsigned int UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex = 85258;
 
 	class UIActivityFishProgressBarWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityFishProgressBarWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIActivityFishProgressBarWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ECC0);
-		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__9_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ECC8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x412C0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__9_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ECD0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x412C8);
+		}
+		static ::MoleMole::UIActivityFishProgressBarWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIActivityFishProgressBarWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishProgressBarWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x412D0);
 		}
 
 		static ::System::Void _cctor()

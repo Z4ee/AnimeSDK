@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHMUTEBESELECTEDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xECFBCE0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHMUTEBESELECTEDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xECFBD60)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHMUTEBESELECTEDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x10CE6CB0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHMUTEBESELECTEDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE6D30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventPushMuteBeSelectedEntry_TypeDefinitionIndex = 42283;
+	inline static constexpr unsigned int AnimatorEventPushMuteBeSelectedEntry_TypeDefinitionIndex = 74194;
 
 	class AnimatorEventPushMuteBeSelectedEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

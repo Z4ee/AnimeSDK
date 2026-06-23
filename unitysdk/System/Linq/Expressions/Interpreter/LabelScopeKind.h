@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LabelScopeKind_TypeDefinitionIndex = 4712;
+	inline static constexpr unsigned int LabelScopeKind_TypeDefinitionIndex = 4711;
 
 	enum class LabelScopeKind : ::System::Int32
 	{

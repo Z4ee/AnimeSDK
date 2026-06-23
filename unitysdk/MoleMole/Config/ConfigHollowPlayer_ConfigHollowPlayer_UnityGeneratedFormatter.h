@@ -11,30 +11,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1424BD70)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1424BD80)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1424C050)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1424C280)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1424C240)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10D0A050)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10D0A060)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10D0A330)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D0A560)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER_CONFIGHOLLOWPLAYER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0A520)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex = 77210;
+	inline static constexpr unsigned int ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex = 49961;
 
 	class ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHollowPlayer*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowPlayerMove*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowPlayerMove*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x457E0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowPlayerMove*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46530);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAutoMoveMode>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAutoMoveMode>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x457E8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigAutoMoveMode>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46538);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigMedalGuide>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigMedalGuide>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x457F0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigMedalGuide>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowPlayer_ConfigHollowPlayer_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46540);
 		}
 
 		::System::Void _ctor()

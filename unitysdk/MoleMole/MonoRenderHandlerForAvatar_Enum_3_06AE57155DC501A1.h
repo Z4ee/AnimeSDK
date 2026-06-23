@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRenderHandlerForAvatar_Enum_3_06AE57155DC501A1_TypeDefinitionIndex = 79427;
+	inline static constexpr unsigned int MonoRenderHandlerForAvatar_Enum_3_06AE57155DC501A1_TypeDefinitionIndex = 51395;
 
 	enum class MonoRenderHandlerForAvatar_Enum_3_06AE57155DC501A1 : ::System::UInt32
 	{

@@ -9,7 +9,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceRuntimeDataProviderField_1_TypeDefinitionIndex = 36249;
+	inline static constexpr unsigned int CameraSequenceRuntimeDataProviderField_1_TypeDefinitionIndex = 37857;
 
 	template <typename T>
 	class CameraSequenceRuntimeDataProviderField_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ZipEntry_Known_TypeDefinitionIndex = 6718;
+	inline static constexpr unsigned int ZipEntry_Known_TypeDefinitionIndex = 6849;
 
 	enum class ZipEntry_Known : ::System::Byte
 	{

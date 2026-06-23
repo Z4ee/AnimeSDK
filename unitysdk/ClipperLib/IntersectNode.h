@@ -5,11 +5,11 @@
 
 namespace ClipperLib { class TEdge; }
 
-#define CLIPPERLIB_INTERSECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB65F70)
+#define CLIPPERLIB_INTERSECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF0EF0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int IntersectNode_TypeDefinitionIndex = 31230;
+	inline static constexpr unsigned int IntersectNode_TypeDefinitionIndex = 32781;
 
 	class IntersectNode : public ::System::Object
 	{

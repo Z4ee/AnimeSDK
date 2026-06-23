@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IDragReceiver_TypeDefinitionIndex = 62016;
+	inline static constexpr unsigned int IDragReceiver_TypeDefinitionIndex = 46449;
 
 	class IDragReceiver
 	{

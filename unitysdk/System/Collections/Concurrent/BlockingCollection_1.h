@@ -17,7 +17,7 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int BlockingCollection_1_TypeDefinitionIndex = 4004;
+	inline static constexpr unsigned int BlockingCollection_1_TypeDefinitionIndex = 4003;
 
 	template <typename T>
 	class BlockingCollection_1 : public ::System::Object

@@ -9,7 +9,7 @@ namespace MoleMole { class UIControlCollection; }
 template <typename T> class Class_3_E2828CA0AAE5C975;
 template <typename T> class Class_3_E2828CA0AAE5C975_Class_1_9F72B5CB92F32002;
 
-inline static constexpr unsigned int Class_3_E2828CA0AAE5C975_TypeDefinitionIndex = 42555;
+inline static constexpr unsigned int Class_3_E2828CA0AAE5C975_TypeDefinitionIndex = 74073;
 
 template <typename T>
 class Class_3_E2828CA0AAE5C975 : public ::Class_2_FFECEF59D1CD666C

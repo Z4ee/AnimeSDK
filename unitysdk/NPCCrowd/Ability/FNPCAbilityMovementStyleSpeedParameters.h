@@ -3,9 +3,12 @@
 #include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace NPCCrowd::Ability { class NPCStateMachineRandomIntInitConfig; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 58805;
+	inline static constexpr unsigned int FNPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 61780;
 
 	struct alignas(8) FNPCAbilityMovementStyleSpeedParameters
 	{
@@ -17,5 +20,6 @@ namespace NPCCrowd::Ability
 		::System::Single StartDistance; // 0x24
 		::Foundation::Unreal::FGameplayTagContainer movementTags; // 0x28
 		::System::Int32 StateMachineInstanceIndex; // 0x98
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCStateMachineRandomIntInitConfig*>* StateMachineRandomIntInitConfigs; // 0xA0
 	};
 }

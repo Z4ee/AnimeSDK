@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MAPCHANGELAYERSWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC7170)
+#define MOLEMOLE_MAPCHANGELAYERSWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x151359C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MapChangeLayerSwitchConfig_TypeDefinitionIndex = 64598;
+	inline static constexpr unsigned int MapChangeLayerSwitchConfig_TypeDefinitionIndex = 80367;
 
 	class MapChangeLayerSwitchConfig : public ::System::Object
 	{

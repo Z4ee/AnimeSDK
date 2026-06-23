@@ -5,24 +5,29 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AB6E60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB6EA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__ONREALENABLE_B__33_0_OFFSET UNITYSDK_OFFSET(0x19AB6EB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDBF6A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBF6E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__ONREALENABLE_B__38_0_OFFSET UNITYSDK_OFFSET(0x1BDBF6F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__UPDATE_B__42_0_OFFSET UNITYSDK_OFFSET(0x1BDBF710)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int OutlineObjectRenderer___c_TypeDefinitionIndex = 30390;
+	inline static constexpr unsigned int OutlineObjectRenderer___c_TypeDefinitionIndex = 27022;
 
 	class OutlineObjectRenderer___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OutlineObjectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x23D00);
+			return (::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OutlineObjectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x214F0);
 		}
-		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__33_0()
+		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__42_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(OutlineObjectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x23D08);
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(OutlineObjectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x214F8);
+		}
+		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__38_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(OutlineObjectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x21500);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +40,14 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnRealEnable_b__33_0(::UnityEngine::Renderer* r)
+		::System::Boolean _OnRealEnable_b__38_0(::UnityEngine::Renderer* r)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__ONREALENABLE_B__33_0_OFFSET))(this, r);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__ONREALENABLE_B__38_0_OFFSET))(this, r);
+		}
+
+		::System::Boolean _Update_b__42_0(::UnityEngine::Renderer* r)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINEOBJECTRENDERER___C__UPDATE_B__42_0_OFFSET))(this, r);
 		}
 	};
 }

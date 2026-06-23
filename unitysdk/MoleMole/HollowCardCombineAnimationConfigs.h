@@ -6,11 +6,11 @@ namespace MoleMole { class HollowCardCombineAnimationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x170D7460)
+#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19130CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowCardCombineAnimationConfigs_TypeDefinitionIndex = 42992;
+	inline static constexpr unsigned int HollowCardCombineAnimationConfigs_TypeDefinitionIndex = 60414;
 
 	class HollowCardCombineAnimationConfigs : public ::System::Object
 	{

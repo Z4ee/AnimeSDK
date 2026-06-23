@@ -5,24 +5,24 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_LDMONOHELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0x117594F0)
-#define MOLEMOLE_LDMONOHELPER_CONFIRMINUPDATE_OFFSET UNITYSDK_OFFSET(0x117598C0)
-#define MOLEMOLE_LDMONOHELPER_GET_ISINLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x117594E0)
-#define MOLEMOLE_LDMONOHELPER_INIT_OFFSET UNITYSDK_OFFSET(0x117596A0)
-#define MOLEMOLE_LDMONOHELPER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x11759660)
-#define MOLEMOLE_LDMONOHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0x11759540)
-#define MOLEMOLE_LDMONOHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11759A90)
+#define MOLEMOLE_LDMONOHELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1582A580)
+#define MOLEMOLE_LDMONOHELPER_CONFIRMINUPDATE_OFFSET UNITYSDK_OFFSET(0x1582A950)
+#define MOLEMOLE_LDMONOHELPER_GET_ISINLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1582A570)
+#define MOLEMOLE_LDMONOHELPER_INIT_OFFSET UNITYSDK_OFFSET(0x1582A730)
+#define MOLEMOLE_LDMONOHELPER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1582A6F0)
+#define MOLEMOLE_LDMONOHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1582A5D0)
+#define MOLEMOLE_LDMONOHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1582AB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LDMonoHelper_TypeDefinitionIndex = 42427;
+	inline static constexpr unsigned int LDMonoHelper_TypeDefinitionIndex = 50102;
 
 	class LDMonoHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MoleMole::LDMonoHelper** StaticGet_lazyInstance()
 		{
-			return (::MoleMole::LDMonoHelper**)Il2CppClass::FromTypeDefinitionIndex(LDMonoHelper_TypeDefinitionIndex)->GetStaticField(0x3A500);
+			return (::MoleMole::LDMonoHelper**)Il2CppClass::FromTypeDefinitionIndex(LDMonoHelper_TypeDefinitionIndex)->GetStaticField(0x3C490);
 		}
 		::System::Boolean IsInUpdate; // 0x18
 		::System::Collections::Generic::List_1<::System::Action*>* Field_5_2; // 0x20

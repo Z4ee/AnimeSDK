@@ -6,7 +6,7 @@ namespace UnityEngine::InputSystem { class InputControl; }
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IInputStateChangeMonitor_TypeDefinitionIndex = 29286;
+	inline static constexpr unsigned int IInputStateChangeMonitor_TypeDefinitionIndex = 31942;
 
 	class IInputStateChangeMonitor
 	{

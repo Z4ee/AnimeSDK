@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentMetaInfo_TypeDefinitionIndex = 35728;
+	inline static constexpr unsigned int EcsComponentMetaInfo_TypeDefinitionIndex = 37337;
 
 	struct alignas(8) EcsComponentMetaInfo
 	{

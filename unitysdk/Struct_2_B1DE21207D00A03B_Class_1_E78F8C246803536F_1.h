@@ -3,9 +3,9 @@
 #include "unitysdk/Struct_2_DD3D2FB57991372F.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_0_16E4307DCC41950C_15;
+template <typename T> class Class_0_16E4307DCC41950C_19;
 
-inline static constexpr unsigned int Struct_2_B1DE21207D00A03B_Class_1_E78F8C246803536F_1_TypeDefinitionIndex = 39583;
+inline static constexpr unsigned int Struct_2_B1DE21207D00A03B_Class_1_E78F8C246803536F_1_TypeDefinitionIndex = 54361;
 
 template <typename TSeg, typename TConstraint>
 class Struct_2_B1DE21207D00A03B_Class_1_E78F8C246803536F_1 : public ::System::Object

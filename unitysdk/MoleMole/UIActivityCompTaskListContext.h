@@ -4,11 +4,11 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define MOLEMOLE_UIACTIVITYCOMPTASKLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3FD20)
+#define MOLEMOLE_UIACTIVITYCOMPTASKLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186516B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCompTaskListContext_TypeDefinitionIndex = 67650;
+	inline static constexpr unsigned int UIActivityCompTaskListContext_TypeDefinitionIndex = 45356;
 
 	class UIActivityCompTaskListContext : public ::MoleMole::UIControllerContextBase
 	{

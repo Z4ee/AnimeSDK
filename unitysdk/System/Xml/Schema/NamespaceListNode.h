@@ -10,21 +10,21 @@ namespace System::Xml::Schema { class NamespaceList; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1B2A0160)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1B29FC70)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1B29FC40)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1B2A01B0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B29FC30)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1D655FA0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1D655AB0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GETRESOLVEDSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1D655A80)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1D655FF0)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D655A70)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NamespaceListNode_TypeDefinitionIndex = 1966;
+	inline static constexpr unsigned int NamespaceListNode_TypeDefinitionIndex = 1965;
 
 	class NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:
-		::System::Object* particle; // 0x10
-		::System::Xml::Schema::NamespaceList* namespaceList; // 0x18
+		::System::Xml::Schema::NamespaceList* namespaceList; // 0x10
+		::System::Object* particle; // 0x18
 
 		::System::Void _ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle)
 		{

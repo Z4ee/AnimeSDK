@@ -4,27 +4,27 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET UNITYSDK_OFFSET(0x9C18F0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_OFFSET UNITYSDK_OFFSET(0x9C18A0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISROOT_OFFSET UNITYSDK_OFFSET(0x868AB0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISVALID_OFFSET UNITYSDK_OFFSET(0x996B80)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1C0A3AE0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C0A3AD0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0A3AF0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET UNITYSDK_OFFSET(0x7C9690)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_OFFSET UNITYSDK_OFFSET(0x7C9640)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISROOT_OFFSET UNITYSDK_OFFSET(0x7C9620)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISVALID_OFFSET UNITYSDK_OFFSET(0x7C9630)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1400CEB0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1400CEA0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1400CEC0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNodeIndex_TypeDefinitionIndex = 9203;
+	inline static constexpr unsigned int FGameplayTagNodeIndex_TypeDefinitionIndex = 16947;
 
 	struct alignas(2) FGameplayTagNodeIndex
 	{
 		static ::Foundation::Unreal::FGameplayTagNodeIndex* StaticGet_Invalid()
 		{
-			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3D30);
+			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DD0);
 		}
 		static ::Foundation::Unreal::FGameplayTagNodeIndex* StaticGet_Root()
 		{
-			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3D32);
+			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DD2);
 		}
 		::System::UInt16 Index; // 0x10
 

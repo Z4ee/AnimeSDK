@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_CONFIGURATION_CONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55C990)
+#define SYSTEM_CONFIGURATION_CONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88C2B0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int Configuration_TypeDefinitionIndex = 2510;
+	inline static constexpr unsigned int Configuration_TypeDefinitionIndex = 2509;
 
 	class Configuration : public ::System::Object
 	{

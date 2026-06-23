@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System::Collections::Specialized { class ListDictionary; }
 
-#define SYSTEM_NET_KNOWNHTTPVERB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A1093D0)
-#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x1A109410)
-#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1090F0)
-#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1090D0)
+#define SYSTEM_NET_KNOWNHTTPVERB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C49CA40)
+#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x1C49CA80)
+#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C49C760)
+#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49C740)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int KnownHttpVerb_TypeDefinitionIndex = 3323;
+	inline static constexpr unsigned int KnownHttpVerb_TypeDefinitionIndex = 3322;
 
 	class KnownHttpVerb : public ::System::Object
 	{
@@ -25,7 +25,7 @@ namespace System::Net
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2978);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
+		static ::System::Net::KnownHttpVerb** StaticGet_Post()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2980);
 		}
@@ -33,15 +33,15 @@ namespace System::Net
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2988);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Get()
+		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2990);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Post()
+		static ::System::Net::KnownHttpVerb** StaticGet_Head()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2998);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		static ::System::Net::KnownHttpVerb** StaticGet_Get()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x29A0);
 		}

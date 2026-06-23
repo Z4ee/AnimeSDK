@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_GETINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1C004660)
-#define SYSTEM_DYNAMIC_GETINDEXBINDER_FALLBACKGETINDEX_OFFSET UNITYSDK_OFFSET(0x1C004730)
+#define SYSTEM_DYNAMIC_GETINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1E322AF0)
+#define SYSTEM_DYNAMIC_GETINDEXBINDER_FALLBACKGETINDEX_OFFSET UNITYSDK_OFFSET(0x1E322BC0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int GetIndexBinder_TypeDefinitionIndex = 5003;
+	inline static constexpr unsigned int GetIndexBinder_TypeDefinitionIndex = 5002;
 
 	class GetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

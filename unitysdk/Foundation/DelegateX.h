@@ -25,13 +25,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define FOUNDATION_DELEGATEX_CALLSAFELY_OFFSET UNITYSDK_OFFSET(0x1BAE5580)
-#define FOUNDATION_DELEGATEX_INVOKESAFELY_1_OFFSET UNITYSDK_OFFSET(0x1BAE5400)
-#define FOUNDATION_DELEGATEX_INVOKESAFELY_OFFSET UNITYSDK_OFFSET(0x1BAE5240)
+#define FOUNDATION_DELEGATEX_CALLSAFELY_OFFSET UNITYSDK_OFFSET(0x1DDAA070)
+#define FOUNDATION_DELEGATEX_INVOKESAFELY_1_OFFSET UNITYSDK_OFFSET(0x1DDA9EF0)
+#define FOUNDATION_DELEGATEX_INVOKESAFELY_OFFSET UNITYSDK_OFFSET(0x1DDA9D30)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DelegateX_TypeDefinitionIndex = 7779;
+	inline static constexpr unsigned int DelegateX_TypeDefinitionIndex = 7873;
 
 	class DelegateX : public ::System::Object
 	{

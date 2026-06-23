@@ -5,7 +5,7 @@ namespace ICSharpCode::SharpZipLib::Zip { class ITaggedData; }
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ITaggedDataFactory_TypeDefinitionIndex = 6727;
+	inline static constexpr unsigned int ITaggedDataFactory_TypeDefinitionIndex = 6858;
 
 	class ITaggedDataFactory
 	{

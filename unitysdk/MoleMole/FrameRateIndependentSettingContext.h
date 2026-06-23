@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x16B8A770)
-#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8AAE0)
-#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x16B8AB00)
+#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x17E7A7F0)
+#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7AB70)
+#define MOLEMOLE_FRAMERATEINDEPENDENTSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x17E7AB90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FrameRateIndependentSettingContext_TypeDefinitionIndex = 74558;
+	inline static constexpr unsigned int FrameRateIndependentSettingContext_TypeDefinitionIndex = 82448;
 
 	class FrameRateIndependentSettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
-		::System::String* QualityKey; // 0x28
-		::System::Collections::Generic::List_1<::System::String*>* ShowOnUIQualityKeyList; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* ShowOnUIQualityKeyList; // 0x28
+		::System::String* QualityKey; // 0x30
 		::System::Int32 FrameRate; // 0x38
 
 		::System::Void _ctor()

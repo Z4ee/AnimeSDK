@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_08FFAF9759A4ED46_1;
+class Class_2_08FFAF9759A4ED46_2;
 namespace MoleMole { class UISettingResourceDownloadDialogPopWindowController; }
 
-#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x148019C0)
-#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHTABS_B__0_OFFSET UNITYSDK_OFFSET(0x148019D0)
+#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13817230)
+#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHTABS_B__0_OFFSET UNITYSDK_OFFSET(0x13817240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 72681;
+	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 49869;
 
 	class UISettingResourceDownloadDialogPopWindowController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISettingResourceDownloadDialogPopWindowController* __4__this; // 0x10
-		::Class_2_08FFAF9759A4ED46_1* picker; // 0x18
+		::Class_2_08FFAF9759A4ED46_2* picker; // 0x10
+		::MoleMole::UISettingResourceDownloadDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

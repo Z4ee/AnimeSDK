@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraFlushContext_TypeDefinitionIndex = 35949;
+	inline static constexpr unsigned int ICameraFlushContext_TypeDefinitionIndex = 37557;
 
 	class ICameraFlushContext
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7807B2B04302CD7B_6;
+class Class_1_7807B2B04302CD7B_18;
 namespace MoleMole { class UIBangBooUAVLevelPageController___c__DisplayClass34_0; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC2BD0)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_1__REFRESHLEVELLIST_B__1_OFFSET UNITYSDK_OFFSET(0x16EC2BE0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1868AC80)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_1__REFRESHLEVELLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1868AC90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass34_1_TypeDefinitionIndex = 41734;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass34_1_TypeDefinitionIndex = 61522;
 
 	class UIBangBooUAVLevelPageController___c__DisplayClass34_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangBooUAVLevelPageController___c__DisplayClass34_0* CS___8__locals1; // 0x10
-		::Class_1_7807B2B04302CD7B_6* data; // 0x18
+		::Class_1_7807B2B04302CD7B_18* data; // 0x10
+		::MoleMole::UIBangBooUAVLevelPageController___c__DisplayClass34_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

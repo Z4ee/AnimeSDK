@@ -8,7 +8,7 @@ namespace UnityEngine::InputSystem { template <typename T> class InputManager___
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputManager___c__60_1_TypeDefinitionIndex = 29032;
+	inline static constexpr unsigned int InputManager___c__60_1_TypeDefinitionIndex = 31688;
 
 	template <typename TDevice>
 	class InputManager___c__60_1 : public ::System::Object

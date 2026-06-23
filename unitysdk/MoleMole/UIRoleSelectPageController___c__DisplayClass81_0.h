@@ -5,19 +5,19 @@
 namespace MoleMole { class UIRoleSelectPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D68BE0)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__ONSELECTCAMPIDLE_B__0_OFFSET UNITYSDK_OFFSET(0x14D68BF0)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__ONSELECTCAMPIDLE_B__1_OFFSET UNITYSDK_OFFSET(0x14D68D10)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152B1140)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__ONSELECTCAMPIDLE_B__0_OFFSET UNITYSDK_OFFSET(0x152B1150)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS81_0__ONSELECTCAMPIDLE_B__1_OFFSET UNITYSDK_OFFSET(0x152B1270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass81_0_TypeDefinitionIndex = 39205;
+	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass81_0_TypeDefinitionIndex = 76904;
 
 	class UIRoleSelectPageController___c__DisplayClass81_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::UIRoleSelectPageController* __4__this; // 0x18
+		::MoleMole::UIRoleSelectPageController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::Int32 nodeID; // 0x20
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_LASERELEMENTSCALEADJUSTMENT_LASERLENGTHLINEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x125D2C40)
+#define MOLEMOLE_LASERELEMENTSCALEADJUSTMENT_LASERLENGTHLINEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x13027140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LaserElementScaleAdjustment_LaserLengthLinear_TypeDefinitionIndex = 78954;
+	inline static constexpr unsigned int LaserElementScaleAdjustment_LaserLengthLinear_TypeDefinitionIndex = 86188;
 
 	class LaserElementScaleAdjustment_LaserLengthLinear : public ::System::Object
 	{

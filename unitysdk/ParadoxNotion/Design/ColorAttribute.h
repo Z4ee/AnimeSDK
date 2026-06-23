@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_DESIGN_COLORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A215440)
+#define PARADOXNOTION_DESIGN_COLORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C641430)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int ColorAttribute_TypeDefinitionIndex = 27935;
+	inline static constexpr unsigned int ColorAttribute_TypeDefinitionIndex = 30276;
 
 	class ColorAttribute : public ::System::Attribute
 	{

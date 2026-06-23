@@ -6,13 +6,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CGRUNTIMEREFERENCE_GET_ISPART_OFFSET UNITYSDK_OFFSET(0xF95CB10)
-#define MOLEMOLE_CGRUNTIMEREFERENCE_METHOD_1_F15275F95BD5524F_OFFSET UNITYSDK_OFFSET(0xF95CC00)
-#define MOLEMOLE_CGRUNTIMEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xF95CBB0)
+#define MOLEMOLE_CGRUNTIMEREFERENCE_GET_ISPART_OFFSET UNITYSDK_OFFSET(0x1107F540)
+#define MOLEMOLE_CGRUNTIMEREFERENCE_METHOD_1_CDBBBEDA8FAD14D1_OFFSET UNITYSDK_OFFSET(0x1107F630)
+#define MOLEMOLE_CGRUNTIMEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1107F5E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CGRuntimeReference_TypeDefinitionIndex = 66768;
+	inline static constexpr unsigned int CGRuntimeReference_TypeDefinitionIndex = 74136;
 
 	class CGRuntimeReference : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CGRUNTIMEREFERENCE_GET_ISPART_OFFSET))(this);
 		}
 
-		::TimelineBindingType Method_1_F15275F95BD5524F()
+		::TimelineBindingType Method_1_CDBBBEDA8FAD14D1()
 		{
-			return ((::TimelineBindingType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CGRUNTIMEREFERENCE_METHOD_1_F15275F95BD5524F_OFFSET))(this);
+			return ((::TimelineBindingType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CGRUNTIMEREFERENCE_METHOD_1_CDBBBEDA8FAD14D1_OFFSET))(this);
 		}
 	};
 }

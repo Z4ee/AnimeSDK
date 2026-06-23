@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_SUMMEREVENTGETNEWEQUIPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1585EDF0)
-#define MOLEMOLE_SUMMEREVENTGETNEWEQUIPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1585EDB0)
+#define MOLEMOLE_SUMMEREVENTGETNEWEQUIPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1642EEA0)
+#define MOLEMOLE_SUMMEREVENTGETNEWEQUIPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1642EE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventGetNewEquipShow_TypeDefinitionIndex = 58475;
+	inline static constexpr unsigned int SummerEventGetNewEquipShow_TypeDefinitionIndex = 82440;
 
 	class SummerEventGetNewEquipShow : public ::MoleMole::DisplayMessageBase
 	{

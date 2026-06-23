@@ -5,11 +5,11 @@
 #include "unitysdk/System/Net/NetworkInformation/PrefixOrigin.h"
 #include "unitysdk/System/Net/NetworkInformation/SuffixOrigin.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MULTICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA9D8B0)
+#define SYSTEM_NET_NETWORKINFORMATION_MULTICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CECF030)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MulticastIPAddressInformation_TypeDefinitionIndex = 3722;
+	inline static constexpr unsigned int MulticastIPAddressInformation_TypeDefinitionIndex = 3721;
 
 	class MulticastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation
 	{

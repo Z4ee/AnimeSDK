@@ -10,9 +10,9 @@ class ModifyMaterialProperty_ModifyHDRColorPropertyValue;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class ModifyMaterialProperty_ModifyPropertyValue_1;
 
-#define MODIFYMATERIALPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x141CE7E0)
+#define MODIFYMATERIALPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x13FE76A0)
 
-inline static constexpr unsigned int ModifyMaterialProperty_TypeDefinitionIndex = 46672;
+inline static constexpr unsigned int ModifyMaterialProperty_TypeDefinitionIndex = 61236;
 
 class ModifyMaterialProperty : public ::System::Object
 {

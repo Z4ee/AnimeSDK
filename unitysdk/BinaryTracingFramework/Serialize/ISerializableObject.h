@@ -6,7 +6,7 @@ namespace BinaryTracingFramework::Serialize { class BaseArchive; }
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int ISerializableObject_TypeDefinitionIndex = 32423;
+	inline static constexpr unsigned int ISerializableObject_TypeDefinitionIndex = 33974;
 
 	class ISerializableObject
 	{

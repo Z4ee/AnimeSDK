@@ -8,52 +8,52 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 
-#define GRADIENTLERPUTILS_COMPRESSLIST_OFFSET UNITYSDK_OFFSET(0x1A2DFAD0)
-#define GRADIENTLERPUTILS_LERPINTERNALNEW_OFFSET UNITYSDK_OFFSET(0x1A2DFDC0)
-#define GRADIENTLERPUTILS_LERPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A2DEFB0)
-#define GRADIENTLERPUTILS_LERP_OFFSET UNITYSDK_OFFSET(0x1A2E0680)
-#define GRADIENTLERPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2E07C0)
+#define GRADIENTLERPUTILS_COMPRESSLIST_OFFSET UNITYSDK_OFFSET(0x1C4229C0)
+#define GRADIENTLERPUTILS_LERPINTERNALNEW_OFFSET UNITYSDK_OFFSET(0x1C422CB0)
+#define GRADIENTLERPUTILS_LERPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C421EA0)
+#define GRADIENTLERPUTILS_LERP_OFFSET UNITYSDK_OFFSET(0x1C423570)
+#define GRADIENTLERPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4236B0)
 
-inline static constexpr unsigned int GradientLerpUtils_TypeDefinitionIndex = 29460;
+inline static constexpr unsigned int GradientLerpUtils_TypeDefinitionIndex = 26750;
 
 class GradientLerpUtils : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::System::Single>** StaticGet_s_DefaultFloatComparison()
-	{
-		return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x24840);
-	}
 	static ::System::Collections::Generic::List_1<::System::Single>** StaticGet_keysList()
 	{
-		return (::System::Collections::Generic::List_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x24848);
+		return (::System::Collections::Generic::List_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x220E0);
 	}
-	static ::UnityEngine::GradientColorKey* StaticGet_colorKeyCache()
+	static ::System::Comparison_1<::System::Single>** StaticGet_s_DefaultFloatComparison()
 	{
-		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7480);
-	}
-	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKeyCache()
-	{
-		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7494);
-	}
-	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKey0()
-	{
-		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x749C);
+		return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x220E8);
 	}
 	static ::System::Boolean* StaticGet_CompareNewAPI()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x74A4);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x71F0);
+	}
+	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKey0()
+	{
+		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x71F4);
+	}
+	static ::UnityEngine::GradientColorKey* StaticGet_colorKeyCache()
+	{
+		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x71FC);
 	}
 	static ::UnityEngine::GradientColorKey* StaticGet_colorKey1()
 	{
-		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x74A8);
-	}
-	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKey1()
-	{
-		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x74BC);
+		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7210);
 	}
 	static ::UnityEngine::GradientColorKey* StaticGet_colorKey0()
 	{
-		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x74C4);
+		return (::UnityEngine::GradientColorKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7224);
+	}
+	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKey1()
+	{
+		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7238);
+	}
+	static ::UnityEngine::GradientAlphaKey* StaticGet_alphaKeyCache()
+	{
+		return (::UnityEngine::GradientAlphaKey*)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils_TypeDefinitionIndex)->GetStaticField(0x7240);
 	}
 
 	static ::System::Void _cctor()

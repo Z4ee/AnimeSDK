@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::HttpDns { class HoYoSDKHttpWebResponse; }
 namespace System::IO { class Stream; }
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB57D0)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__DOHTTPREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x19FB57E0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC5D10)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__DOHTTPREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1BFC5D20)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass4_0_TypeDefinitionIndex = 35469;
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass4_0_TypeDefinitionIndex = 37068;
 
 	class HoYoSDKHttpWebResponse___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::IO::Stream* responseHeaderStream; // 0x10
-		::MiHoYo::SDK::HttpDns::HoYoSDKHttpWebResponse* __4__this; // 0x18
+		::MiHoYo::SDK::HttpDns::HoYoSDKHttpWebResponse* __4__this; // 0x10
+		::System::IO::Stream* responseHeaderStream; // 0x18
 
 		::System::Void _ctor()
 		{

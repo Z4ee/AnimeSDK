@@ -10,34 +10,34 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x149A44D0)
-#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x149A44E0)
-#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x149A4980)
-#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x149A4C80)
-#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x149A4C40)
+#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17119490)
+#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x171194A0)
+#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17119940)
+#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17119C40)
+#define MOLEMOLE_GALGAME_LOOKIKCFG_LOOKIKCFG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17119C00)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex = 41011;
+	inline static constexpr unsigned int LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex = 45925;
 
 	class LookIKCfg_LookIKCfg_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::LookIKCfg*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46920);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatIKType>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatIKType>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46928);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatIKType>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48510);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46930);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48518);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48520);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46938);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LookIKCfg_LookIKCfg_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48528);
 		}
 
 		::System::Void _ctor()

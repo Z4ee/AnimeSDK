@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHadalZone_LayerItemRowV2WidgetController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157B41E0)
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0___UNLOCLAYERCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x157B41F0)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169D7CD0)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0___UNLOCLAYERCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x169D7CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0_TypeDefinitionIndex = 54486;
+	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0_TypeDefinitionIndex = 68196;
 
 	class UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHadalZone_LayerItemRowV2WidgetController* __4__this; // 0x10
-		::UnityEngine::GameObject* lockStObject; // 0x18
+		::UnityEngine::GameObject* lockStObject; // 0x10
+		::MoleMole::UIHadalZone_LayerItemRowV2WidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x195958A0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x195958F0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x195958E0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B978230)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B978280)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B978270)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex = 29000;
+	inline static constexpr unsigned int InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex = 31656;
 
 	class InputRemoting_NewDeviceMsg___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c** StaticGet___9()
-		{
-			return (::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x22460);
-		}
 		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x22468);
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x261F0);
+		}
+		static ::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c** StaticGet___9()
+		{
+			return (::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x261F8);
 		}
 
 		static ::System::Void _cctor()

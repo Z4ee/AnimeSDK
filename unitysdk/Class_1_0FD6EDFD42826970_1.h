@@ -8,9 +8,9 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define CLASS_1_0FD6EDFD42826970_1_METHOD_1_03B1BF2F2F8589FD_OFFSET UNITYSDK_OFFSET(0x10CA4C30)
+#define CLASS_1_0FD6EDFD42826970_1_METHOD_1_03B1BF2F2F8589FD_OFFSET UNITYSDK_OFFSET(0x144350A0)
 
-inline static constexpr unsigned int Class_1_0FD6EDFD42826970_1_TypeDefinitionIndex = 78291;
+inline static constexpr unsigned int Class_1_0FD6EDFD42826970_1_TypeDefinitionIndex = 58894;
 
 class Class_1_0FD6EDFD42826970_1 : public ::System::Object
 {

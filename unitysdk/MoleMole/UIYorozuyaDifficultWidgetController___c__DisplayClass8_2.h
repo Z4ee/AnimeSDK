@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIYorozuyaDifficultWidgetController; }
 
-#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__DISPLAYCLASS8_2__CTOR_OFFSET UNITYSDK_OFFSET(0xE85C970)
-#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__DISPLAYCLASS8_2__ONUIOPEN_B__2_OFFSET UNITYSDK_OFFSET(0xE85C980)
+#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__DISPLAYCLASS8_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11BE5260)
+#define MOLEMOLE_UIYOROZUYADIFFICULTWIDGETCONTROLLER___C__DISPLAYCLASS8_2__ONUIOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x11BE5270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController___c__DisplayClass8_2_TypeDefinitionIndex = 72878;
+	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController___c__DisplayClass8_2_TypeDefinitionIndex = 51047;
 
 	class UIYorozuyaDifficultWidgetController___c__DisplayClass8_2 : public ::System::Object
 	{

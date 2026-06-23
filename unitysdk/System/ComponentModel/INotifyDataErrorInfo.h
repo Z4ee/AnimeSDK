@@ -8,7 +8,7 @@ namespace System::ComponentModel { class DataErrorsChangedEventArgs; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int INotifyDataErrorInfo_TypeDefinitionIndex = 2903;
+	inline static constexpr unsigned int INotifyDataErrorInfo_TypeDefinitionIndex = 2902;
 
 	class INotifyDataErrorInfo
 	{

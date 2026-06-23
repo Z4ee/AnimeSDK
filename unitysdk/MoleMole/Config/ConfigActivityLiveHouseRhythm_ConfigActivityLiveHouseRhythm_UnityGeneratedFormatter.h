@@ -14,26 +14,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16A81D60)
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16A81D70)
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16A81F50)
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A820F0)
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A820B0)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x15898530)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15898540)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15898720)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x158988C0)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSERHYTHM_CONFIGACTIVITYLIVEHOUSERHYTHM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15898880)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex = 51945;
+	inline static constexpr unsigned int ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex = 68821;
 
 	class ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigActivityLiveHouseRhythm*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseSpineEmojiType, ::MoleMole::MusicGame::FLiveHouseSpineEmojiData>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseSpineEmojiType, ::MoleMole::MusicGame::FLiveHouseSpineEmojiData>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E50);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseSpineEmojiType, ::MoleMole::MusicGame::FLiveHouseSpineEmojiData>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33D50);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseTrackHeadEmojiType, ::System::Collections::Generic::List_1<::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData>*>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseTrackHeadEmojiType, ::System::Collections::Generic::List_1<::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E58);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::MoleMole::MusicGame::ELiveHouseTrackHeadEmojiType, ::System::Collections::Generic::List_1<::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigActivityLiveHouseRhythm_ConfigActivityLiveHouseRhythm_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33D58);
 		}
 
 		::System::Void _ctor()

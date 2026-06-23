@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/InputAction_CallbackContext.h"
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BCC5500)
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_OFFSET UNITYSDK_OFFSET(0x1BCC5450)
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5520)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1E01C7B0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_OFFSET UNITYSDK_OFFSET(0x1E01C700)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E01C7D0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputValue_TypeDefinitionIndex = 29044;
+	inline static constexpr unsigned int InputValue_TypeDefinitionIndex = 31700;
 
 	class InputValue : public ::System::Object
 	{

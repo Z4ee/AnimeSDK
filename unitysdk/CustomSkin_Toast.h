@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PluginUI/MiHoYoSDKUIContainer.h"
 
-#define CUSTOMSKIN_TOAST_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11709FF0)
-#define CUSTOMSKIN_TOAST_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1170A310)
-#define CUSTOMSKIN_TOAST_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1170A1B0)
-#define CUSTOMSKIN_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1170A120)
+#define CUSTOMSKIN_TOAST_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12219B10)
+#define CUSTOMSKIN_TOAST_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x12219E30)
+#define CUSTOMSKIN_TOAST_ONSHOW_OFFSET UNITYSDK_OFFSET(0x12219CD0)
+#define CUSTOMSKIN_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x12219C40)
 
-inline static constexpr unsigned int CustomSkin_Toast_TypeDefinitionIndex = 62379;
+inline static constexpr unsigned int CustomSkin_Toast_TypeDefinitionIndex = 63859;
 
 class CustomSkin_Toast : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_Toast** StaticGet__instance()
 	{
-		return (::CustomSkin_Toast**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Toast_TypeDefinitionIndex)->GetStaticField(0x43E30);
+		return (::CustomSkin_Toast**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Toast_TypeDefinitionIndex)->GetStaticField(0x4A890);
 	}
 
 	::System::Void _ctor()

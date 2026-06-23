@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class Material; }
 
-inline static constexpr unsigned int Class_1_E4F1098F508CC7DC_Struct_2_152B9570D8DA6D4C_TypeDefinitionIndex = 47127;
+inline static constexpr unsigned int Class_1_E4F1098F508CC7DC_Struct_2_152B9570D8DA6D4C_TypeDefinitionIndex = 83930;
 
 struct alignas(8) Class_1_E4F1098F508CC7DC_Struct_2_152B9570D8DA6D4C
 {

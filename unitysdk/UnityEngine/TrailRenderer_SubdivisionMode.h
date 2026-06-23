@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TrailRenderer_SubdivisionMode_TypeDefinitionIndex = 5195;
+	inline static constexpr unsigned int TrailRenderer_SubdivisionMode_TypeDefinitionIndex = 5194;
 
 	enum class TrailRenderer_SubdivisionMode : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRECYCLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xEB91540)
+#define MOLEMOLE_UIRECYCLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F30150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleDialogContext_TypeDefinitionIndex = 80135;
+	inline static constexpr unsigned int UIRecycleDialogContext_TypeDefinitionIndex = 72857;
 
 	class UIRecycleDialogContext : public ::MoleMole::UIControllerContextBase
 	{

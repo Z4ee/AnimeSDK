@@ -7,23 +7,23 @@ namespace System { class Type; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C008B20)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C008B10)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1C008BD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1C008BE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C008A80)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E326FB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E326FA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E327060)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E327070)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E326F10)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InvocationExpression4_TypeDefinitionIndex = 4488;
+	inline static constexpr unsigned int InvocationExpression4_TypeDefinitionIndex = 4487;
 
 	class InvocationExpression4 : public ::System::Linq::Expressions::InvocationExpression
 	{
 	public:
-		::System::Object* _arg0; // 0x20
-		::System::Linq::Expressions::Expression* _arg1; // 0x28
-		::System::Linq::Expressions::Expression* _arg2; // 0x30
-		::System::Linq::Expressions::Expression* _arg3; // 0x38
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Object* _arg0; // 0x28
+		::System::Linq::Expressions::Expression* _arg3; // 0x30
+		::System::Linq::Expressions::Expression* _arg1; // 0x38
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3)
 		{

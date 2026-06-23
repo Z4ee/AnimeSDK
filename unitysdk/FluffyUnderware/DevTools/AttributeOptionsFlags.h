@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int AttributeOptionsFlags_TypeDefinitionIndex = 25858;
+	inline static constexpr unsigned int AttributeOptionsFlags_TypeDefinitionIndex = 28352;
 
 	enum class AttributeOptionsFlags : ::System::Int32
 	{

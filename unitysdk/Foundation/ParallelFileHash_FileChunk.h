@@ -4,11 +4,11 @@
 
 namespace Foundation { class ParallelFileHash_Task; }
 
-#define FOUNDATION_PARALLELFILEHASH_FILECHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x76DD70)
+#define FOUNDATION_PARALLELFILEHASH_FILECHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x871300)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelFileHash_FileChunk_TypeDefinitionIndex = 58905;
+	inline static constexpr unsigned int ParallelFileHash_FileChunk_TypeDefinitionIndex = 74583;
 
 	struct alignas(8) ParallelFileHash_FileChunk
 	{

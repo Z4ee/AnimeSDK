@@ -1,0 +1,251 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_2_5BBE3E96570FCF6A;
+class Class_2_B4378B46E0020E85;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole::Config { class ConfigSoundWave; }
+namespace MoleMole::Config { class ConfigSoundWaveKey; }
+namespace System { class EventArgs; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class CanvasGroup; }
+
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_GET_UICAMERA_OFFSET UNITYSDK_OFFSET(0x16D74D70)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x16D74D60)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_INITLINEEFFECT_OFFSET UNITYSDK_OFFSET(0x16D75040)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16D760A0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONCLOSEBTN_OFFSET UNITYSDK_OFFSET(0x16D76C90)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16D755F0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGBUTTON_OFFSET UNITYSDK_OFFSET(0x16D77DF0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGFINISH_OFFSET UNITYSDK_OFFSET(0x16D786D0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGNEXT_OFFSET UNITYSDK_OFFSET(0x16D77820)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONFADEINCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16D789C0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONONEAVESDROPFORCECLOSE_OFFSET UNITYSDK_OFFSET(0x16D78970)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x16D75760)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16D75E70)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16D74E10)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16D74EA0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_PLAYLINEEFFECT_OFFSET UNITYSDK_OFFSET(0x16D75230)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_REVEALBTNITEM_OFFSET UNITYSDK_OFFSET(0x16D78290)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_REVEALCONTENTITEM_OFFSET UNITYSDK_OFFSET(0x16D77A50)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_SETCONTENTITEMSVISIBLE_OFFSET UNITYSDK_OFFSET(0x16D75CD0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_SETDATA_OFFSET UNITYSDK_OFFSET(0x16D77080)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_STARTLINEEFFECT_OFFSET UNITYSDK_OFFSET(0x16D78A30)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_STOPLINEEFFECT_OFFSET UNITYSDK_OFFSET(0x16D75EE0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_UPDATELINE_OFFSET UNITYSDK_OFFSET(0x16D763D0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_UPDATESOUNDWAVE_OFFSET UNITYSDK_OFFSET(0x16D76100)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D78A90)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_1_OFFSET UNITYSDK_OFFSET(0x16D78AF0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_2_OFFSET UNITYSDK_OFFSET(0x16D78B00)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_3_OFFSET UNITYSDK_OFFSET(0x16D78B70)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16D78BE0)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x16D78C70)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16D78C80)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16D78C90)
+#define MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16D78CA0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIInLevelEavesdropChildWindowController_TypeDefinitionIndex = 61972;
+
+	class UIInLevelEavesdropChildWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Int32 MAX_CONTENT_COUNT = 0x3; // 0x0
+		// static const ::System::String* ANIM_FADE_IN; // 0x0
+		// static const ::System::String* ANIM_FADE_IN_02; // 0x0
+		// static const ::System::String* ANIM_BTN_FADE_IN; // 0x0
+		::Class_2_5BBE3E96570FCF6A* _view; // 0x318
+		::Il2CppArray<::System::String*>* labels; // 0x320
+		::System::Boolean _isCompleted; // 0x328
+		::System::Int32 _scanID; // 0x32C
+		::System::Int32 _realLabelNum; // 0x330
+		::UnityEngine::CanvasGroup* _selfCanvasGroup; // 0x338
+		::System::Boolean _origIgnoreParentGroups; // 0x340
+		::System::Boolean _origBlocksRaycasts; // 0x341
+		::System::Boolean _origInteractable; // 0x342
+		::Class_2_B4378B46E0020E85* _cachedLongPressBtn; // 0x348
+		::System::Boolean _hasNPC; // 0x350
+		::UnityEngine::Vector3 _npcWorldPos; // 0x354
+		::System::String* _voicePath; // 0x360
+		::Il2CppArray<::MoleMole::Config::ConfigSoundWaveKey*>* _soundWaveArr; // 0x368
+		::System::Single _maxSoundLen; // 0x370
+		::MoleMole::Config::ConfigSoundWave* _configSoundWave; // 0x378
+		::System::Single _lastLineEffectRefreshTime; // 0x380
+		::System::Single _playPosMs; // 0x384
+		::System::Boolean _isLineEffectActive; // 0x388
+		::System::Boolean _isCloseBtnShown; // 0x389
+		::System::String* voicePath; // 0x390
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::UnityEngine::Camera* get_uiCamera()
+		{
+			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_GET_UICAMERA_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnCloseBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONCLOSEBTN_OFFSET))(this);
+		}
+
+		::System::Void SetData(::System::Int32 scanID, ::System::Object* posVec)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_SETDATA_OFFSET))(this, scanID, posVec);
+		}
+
+		::System::Void OnEavesdropOnGoingNext(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGNEXT_OFFSET))(this, args);
+		}
+
+		::System::Void OnEavesdropOnGoingButton(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGBUTTON_OFFSET))(this, args);
+		}
+
+		::System::Void OnEavesdropOnGoingFinish(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONEAVESDROPONGOINGFINISH_OFFSET))(this, args);
+		}
+
+		::System::Void OnOnEavesdropForceClose(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONONEAVESDROPFORCECLOSE_OFFSET))(this, args);
+		}
+
+		::System::Void RevealContentItem(::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_REVEALCONTENTITEM_OFFSET))(this, index);
+		}
+
+		::System::Void RevealBtnItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_REVEALBTNITEM_OFFSET))(this);
+		}
+
+		::System::Void SetContentItemsVisible(::System::Boolean visible)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_SETCONTENTITEMSVISIBLE_OFFSET))(this, visible);
+		}
+
+		::System::Void UpdateLine()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_UPDATELINE_OFFSET))(this);
+		}
+
+		::System::Void InitLineEffect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_INITLINEEFFECT_OFFSET))(this);
+		}
+
+		::System::Void PlayLineEffect(::System::String* voicePath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_PLAYLINEEFFECT_OFFSET))(this, voicePath);
+		}
+
+		::System::Void StopLineEffect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_STOPLINEEFFECT_OFFSET))(this);
+		}
+
+		::System::Void UpdateSoundWave()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_UPDATESOUNDWAVE_OFFSET))(this);
+		}
+
+		::System::Void OnFadeInComplete()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_ONFADEINCOMPLETE_OFFSET))(this);
+		}
+
+		::System::Void StartLineEffect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER_STARTLINEEFFECT_OFFSET))(this);
+		}
+
+		::System::Void _OnShow_b__32_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_1_OFFSET))(this);
+		}
+
+		::System::Void _OnShow_b__32_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_2_OFFSET))(this);
+		}
+
+		::System::Void _OnShow_b__32_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER__ONSHOW_B__32_3_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELEAVESDROPCHILDWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

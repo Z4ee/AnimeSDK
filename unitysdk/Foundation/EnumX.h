@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define FOUNDATION_ENUMX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B05F670)
+#define FOUNDATION_ENUMX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E53C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EnumX_TypeDefinitionIndex = 8148;
+	inline static constexpr unsigned int EnumX_TypeDefinitionIndex = 7909;
 
 	class EnumX : public ::System::Object
 	{

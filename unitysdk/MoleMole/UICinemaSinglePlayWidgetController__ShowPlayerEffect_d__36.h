@@ -8,12 +8,12 @@
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWPLAYEREFFECT_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7ADE10)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWPLAYEREFFECT_D__36_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWPLAYEREFFECT_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E8E0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWPLAYEREFFECT_D__36_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__ShowPlayerEffect_d__36_TypeDefinitionIndex = 66483;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__ShowPlayerEffect_d__36_TypeDefinitionIndex = 71495;
 
 	struct alignas(8) UICinemaSinglePlayWidgetController__ShowPlayerEffect_d__36
 	{

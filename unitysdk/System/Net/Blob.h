@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Blob_TypeDefinitionIndex = 3328;
+	inline static constexpr unsigned int Blob_TypeDefinitionIndex = 3327;
 
 	struct alignas(4) Blob
 	{

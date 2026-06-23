@@ -6,11 +6,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class TextItalicAdobeStyle; }
 
-#define MOLEMOLE_UICPROLESELECTPROPSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C322D10)
+#define MOLEMOLE_UICPROLESELECTPROPSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D780FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectPropScript_TypeDefinitionIndex = 85202;
+	inline static constexpr unsigned int UICpRoleSelectPropScript_TypeDefinitionIndex = 90862;
 
 	class UICpRoleSelectPropScript : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/AnimatorZoneChangeColliderSize_ColliderType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_ANIMATORZONECHANGECOLLIDERSIZE_COLLIDERTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x746F30)
-#define MOLEMOLE_CONFIG_ANIMATORZONECHANGECOLLIDERSIZE_COLLIDERTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x746F90)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHANGECOLLIDERSIZE_COLLIDERTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8342E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHANGECOLLIDERSIZE_COLLIDERTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x834340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneChangeColliderSize_ColliderTypeCompare_TypeDefinitionIndex = 73945;
+	inline static constexpr unsigned int AnimatorZoneChangeColliderSize_ColliderTypeCompare_TypeDefinitionIndex = 80603;
 
 	struct alignas(1) AnimatorZoneChangeColliderSize_ColliderTypeCompare
 	{

@@ -6,12 +6,12 @@ namespace MoleMole { class UICoopLevelUnlockRowWidgetController_Context; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOOPLEVELLOCKDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x15EDE590)
-#define MOLEMOLE_UICOOPLEVELLOCKDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDE790)
+#define MOLEMOLE_UICOOPLEVELLOCKDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x17A5C8E0)
+#define MOLEMOLE_UICOOPLEVELLOCKDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5CAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopLevelLockDialogPopWindowController_Context_TypeDefinitionIndex = 49388;
+	inline static constexpr unsigned int UICoopLevelLockDialogPopWindowController_Context_TypeDefinitionIndex = 62919;
 
 	class UICoopLevelLockDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

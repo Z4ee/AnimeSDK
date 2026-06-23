@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements::UIR::Implementation
 {
-	inline static constexpr unsigned int ClipMethod_TypeDefinitionIndex = 25116;
+	inline static constexpr unsigned int ClipMethod_TypeDefinitionIndex = 27619;
 
 	enum class ClipMethod : ::System::Int32
 	{

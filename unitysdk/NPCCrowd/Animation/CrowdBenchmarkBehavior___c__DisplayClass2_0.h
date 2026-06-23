@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKBEHAVIOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFC0FD30)
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKBEHAVIOR___C__DISPLAYCLASS2_0__GETALLCROWDUNITTESTCASES_B__0_OFFSET UNITYSDK_OFFSET(0xFC12210)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKBEHAVIOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFFC4D80)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKBEHAVIOR___C__DISPLAYCLASS2_0__GETALLCROWDUNITTESTCASES_B__0_OFFSET UNITYSDK_OFFSET(0xFFC7E70)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdBenchmarkBehavior___c__DisplayClass2_0_TypeDefinitionIndex = 79794;
+	inline static constexpr unsigned int CrowdBenchmarkBehavior___c__DisplayClass2_0_TypeDefinitionIndex = 55455;
 
 	class CrowdBenchmarkBehavior___c__DisplayClass2_0 : public ::System::Object
 	{

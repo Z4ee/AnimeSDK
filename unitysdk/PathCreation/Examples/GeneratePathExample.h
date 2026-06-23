@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x1B6B8570)
-#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B86E0)
+#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x1DABB5F0)
+#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB760)
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int GeneratePathExample_TypeDefinitionIndex = 35850;
+	inline static constexpr unsigned int GeneratePathExample_TypeDefinitionIndex = 37458;
 
 	class GeneratePathExample : public ::UnityEngine::MonoBehaviour
 	{

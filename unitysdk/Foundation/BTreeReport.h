@@ -6,33 +6,33 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FOUNDATION_BTREEREPORT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B715380)
-#define FOUNDATION_BTREEREPORT_RECORD_OFFSET UNITYSDK_OFFSET(0x1B7155E0)
-#define FOUNDATION_BTREEREPORT_RESET_OFFSET UNITYSDK_OFFSET(0x1B715820)
-#define FOUNDATION_BTREEREPORT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B715660)
-#define FOUNDATION_BTREEREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7154E0)
+#define FOUNDATION_BTREEREPORT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DA307B0)
+#define FOUNDATION_BTREEREPORT_RECORD_OFFSET UNITYSDK_OFFSET(0x1DA30A10)
+#define FOUNDATION_BTREEREPORT_RESET_OFFSET UNITYSDK_OFFSET(0x1DA30C50)
+#define FOUNDATION_BTREEREPORT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DA30A90)
+#define FOUNDATION_BTREEREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA30910)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BTreeReport_TypeDefinitionIndex = 8252;
+	inline static constexpr unsigned int BTreeReport_TypeDefinitionIndex = 8162;
 
 	class BTreeReport : public ::System::Object
 	{
 	public:
 		static ::Foundation::BTreeReport** StaticGet__instance()
 		{
-			return (::Foundation::BTreeReport**)Il2CppClass::FromTypeDefinitionIndex(BTreeReport_TypeDefinitionIndex)->GetStaticField(0x7360);
+			return (::Foundation::BTreeReport**)Il2CppClass::FromTypeDefinitionIndex(BTreeReport_TypeDefinitionIndex)->GetStaticField(0x72B0);
 		}
 		// static const ::System::Int32 MAX_SIZE = 0x78; // 0x0
 		// static const ::System::Int32 X_OFFSET = 0x5; // 0x0
 		// static const ::System::Int32 Y_SCALE = 0x3; // 0x0
 		// static const ::System::Int32 TAIL_INDEX = 0x77; // 0x0
-		::System::Action* OnUpdate; // 0x10
-		::Il2CppArray<::UnityEngine::Vector3>* TimeQueue; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* TimeQueue; // 0x10
+		::System::Action* OnUpdate; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>* BTreeMap; // 0x20
 		::System::Single TotalBTreeTime; // 0x28
-		::System::Int32 curQueueIndex; // 0x2C
-		::System::Single MaxTotalBTreeTime; // 0x30
+		::System::Single MaxTotalBTreeTime; // 0x2C
+		::System::Int32 curQueueIndex; // 0x30
 
 		::System::Void _ctor()
 		{

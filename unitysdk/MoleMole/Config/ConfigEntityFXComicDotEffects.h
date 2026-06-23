@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityFXComicDotEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOMICDOTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0xF97C990)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOMICDOTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x110A1980)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFXComicDotEffects_TypeDefinitionIndex = 73950;
+	inline static constexpr unsigned int ConfigEntityFXComicDotEffects_TypeDefinitionIndex = 59979;
 
 	class ConfigEntityFXComicDotEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

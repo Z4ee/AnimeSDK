@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX__DoWhileX_d__6_1_TypeDefinitionIndex = 7987;
+	inline static constexpr unsigned int LINQX__DoWhileX_d__6_1_TypeDefinitionIndex = 8096;
 
 	template <typename T>
 	class LINQX__DoWhileX_d__6_1 : public ::System::Object

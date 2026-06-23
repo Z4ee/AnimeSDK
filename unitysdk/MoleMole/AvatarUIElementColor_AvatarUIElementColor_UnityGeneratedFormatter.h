@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFAE2B30)
-#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFAE2B40)
-#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFAE2D20)
-#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFAE2ED0)
-#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE2E90)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE946CA0)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE946CB0)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE946E90)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE947040)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR_AVATARUIELEMENTCOLOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE947000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex = 64557;
+	inline static constexpr unsigned int AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex = 64287;
 
 	class AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::AvatarUIElementColor*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44440);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AD10);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44448);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(AvatarUIElementColor_AvatarUIElementColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AD18);
 		}
 
 		::System::Void _ctor()

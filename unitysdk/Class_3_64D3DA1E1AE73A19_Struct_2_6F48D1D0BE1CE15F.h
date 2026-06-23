@@ -5,7 +5,7 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowEntityMoveComponent_MoveCmd.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_3_64D3DA1E1AE73A19_Struct_2_6F48D1D0BE1CE15F_TypeDefinitionIndex = 57419;
+inline static constexpr unsigned int Class_3_64D3DA1E1AE73A19_Struct_2_6F48D1D0BE1CE15F_TypeDefinitionIndex = 46025;
 
 struct alignas(8) Class_3_64D3DA1E1AE73A19_Struct_2_6F48D1D0BE1CE15F
 {

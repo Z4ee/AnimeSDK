@@ -1,15 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_801EC18359FE40A3.h"
+#include "unitysdk/Enum_3_B14F8B04216FFB95.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_43BD383C98B4C0C5_23;
-class Class_1_F91ACF27C085FD90;
+class Class_1_43BD383C98B4C0C5_49;
+class Class_1_53842913455A8556;
 namespace MoleMole { class InteractTraitData; }
 namespace MoleMole::Config { class ConfigInteractInfo; }
 namespace System { class Object; }
@@ -17,33 +19,33 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11CABDC0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11CAB730)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_EXCLUSIVEINTERACT_OFFSET UNITYSDK_OFFSET(0x11CAC2B0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_INTERACTPRIORITY_OFFSET UNITYSDK_OFFSET(0x11CAC310)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_ISONCEONLY_OFFSET UNITYSDK_OFFSET(0x11CAC250)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_0A3C11864695AF2A_OFFSET UNITYSDK_OFFSET(0x11CACD10)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_0CB3D614A4DB34A1_OFFSET UNITYSDK_OFFSET(0x11CAB7B0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x11CAB4F0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x11CAD130)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_3662512A444949A2_OFFSET UNITYSDK_OFFSET(0x11CACB90)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_51DEC44B986280C0_OFFSET UNITYSDK_OFFSET(0x11CAC650)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_5C90773220FA8136_OFFSET UNITYSDK_OFFSET(0x11CAB480)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x11CAD120)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_7BA8DD80C3AB9B17_OFFSET UNITYSDK_OFFSET(0x11CAC370)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_A85035B914D72E06_OFFSET UNITYSDK_OFFSET(0x11CAD300)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_C249FAD6F0D8AC50_OFFSET UNITYSDK_OFFSET(0x11CAD070)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x11CAB5E0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_E26438ED46F1AEB7_OFFSET UNITYSDK_OFFSET(0x11CAC810)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_E61D008B9DEA7DA2_OFFSET UNITYSDK_OFFSET(0x11CAD1C0)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_F5A18F208C6EB219_OFFSET UNITYSDK_OFFSET(0x11CAC900)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_FDFE9AC64A706A16_OFFSET UNITYSDK_OFFSET(0x11CABE20)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x11CAB650)
-#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x11CAC790)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_CLONEDATA_OFFSET UNITYSDK_OFFSET(0x192A03C0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1929E1A0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_DOLOADDATA_OFFSET UNITYSDK_OFFSET(0x192A0780)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1929E300)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1929E120)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1929F660)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1929E4D0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1929FFA0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1929E290)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_EXCLUSIVEINTERACT_OFFSET UNITYSDK_OFFSET(0x1929FEE0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_INTERACTPRIORITY_OFFSET UNITYSDK_OFFSET(0x1929FF40)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_ISONCEONLY_OFFSET UNITYSDK_OFFSET(0x1929FE80)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1929F6C0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1929E550)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADDATA_OFFSET UNITYSDK_OFFSET(0x192A0280)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0x192A0A50)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADRESOURCE_OFFSET UNITYSDK_OFFSET(0x192A0CD0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1929FCE0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1929F520)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_TRYLOADRESOURCEFROMCACHE_OFFSET UNITYSDK_OFFSET(0x192A0BE0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x192A0D80)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x192A0E00)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x192A0E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInteractTrait_TypeDefinitionIndex = 57355;
+	inline static constexpr unsigned int ConfigInteractTrait_TypeDefinitionIndex = 43586;
 
 	class ConfigInteractTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -52,42 +54,69 @@ namespace MoleMole::Config
 		::Foundation::AssetPath ConfigDataPath; // 0x20
 		::System::Int32 CoopInteractMaxCount; // 0x30
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigInteractInfo*>* InteractGroup; // 0x38
-		::Class_1_43BD383C98B4C0C5_23* _mainInteractRunData; // 0x40
-		::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_23*>* _otherInteractRunDataList; // 0x48
+		::System::Boolean PlayerRotate; // 0x40
+		::Enum_3_B14F8B04216FFB95 NpcRotateMode; // 0x44
+		::Enum_3_801EC18359FE40A3 SwitchAvatarMode; // 0x48
+		::System::Int32 TargetAgent; // 0x4C
+		::System::Int32 SwitchToSkin; // 0x50
+		::System::Int32 UnlockId; // 0x54
+		::System::String* Hint; // 0x58
+		::Class_1_43BD383C98B4C0C5_49* _mainInteractRunData; // 0x60
+		::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_49*>* _otherInteractRunDataList; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_5C90773220FA8136(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_5C90773220FA8136_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
+		}
+
+		static ::MoleMole::Config::ConfigInteractTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
+		{
+			return ((::MoleMole::Config::ConfigInteractTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_PARSEFROMFLX_OFFSET))(node);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+		}
+
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+		}
+
+		static ::MoleMole::Config::ConfigInteractTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		{
+			return ((::MoleMole::Config::ConfigInteractTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean get_IsOnceOnly()
@@ -105,69 +134,49 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GET_INTERACTPRIORITY_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_7BA8DD80C3AB9B17(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_7BA8DD80C3AB9B17_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		static ::System::Boolean Method_2_E26438ED46F1AEB7(::Foundation::AssetPath a1, ::Foundation::AssetRequestHandle& a2, ::MoleMole::InteractTraitData*& a3)
+		static ::Class_1_43BD383C98B4C0C5_49* CloneData(::MoleMole::InteractTraitData*& interactTraitData, ::System::String*& interactName)
 		{
-			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&, ::MoleMole::InteractTraitData*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_E26438ED46F1AEB7_OFFSET))(a1, a2, a3);
+			return ((::Class_1_43BD383C98B4C0C5_49*(*)(::MoleMole::InteractTraitData*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_CLONEDATA_OFFSET))(interactTraitData, interactName);
 		}
 
-		::System::Void Method_2_51DEC44B986280C0()
+		::System::Void LoadData()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_51DEC44B986280C0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADDATA_OFFSET))(this);
 		}
 
-		static ::Class_1_43BD383C98B4C0C5_23* Method_2_F5A18F208C6EB219(::System::String*& a1, ::Foundation::AssetPath& a2, ::System::Action_1<::MoleMole::InteractTraitData*>* a3)
+		::System::Void LoadGroupDataList(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigInteractInfo*>*& interactGroup, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_49*>*& traitDataList)
 		{
-			return ((::Class_1_43BD383C98B4C0C5_23*(*)(::System::String*&, ::Foundation::AssetPath&, ::System::Action_1<::MoleMole::InteractTraitData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_F5A18F208C6EB219_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigInteractInfo*>*&, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_49*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADGROUPDATALIST_OFFSET))(this, interactGroup, traitDataList);
 		}
 
-		static ::MoleMole::InteractTraitData* Method_2_C249FAD6F0D8AC50(::Foundation::AssetPath a1, ::Foundation::AssetRequestHandle& a2)
+		::Class_1_43BD383C98B4C0C5_49* DoLoadData(::System::String*& key, ::Foundation::AssetPath& assetPath, ::System::Action_1<::MoleMole::InteractTraitData*>* onLoadSuccess)
 		{
-			return ((::MoleMole::InteractTraitData*(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_C249FAD6F0D8AC50_OFFSET))(a1, a2);
+			return ((::Class_1_43BD383C98B4C0C5_49*(*)(::PVOID, ::System::String*&, ::Foundation::AssetPath&, ::System::Action_1<::MoleMole::InteractTraitData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_DOLOADDATA_OFFSET))(this, key, assetPath, onLoadSuccess);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		static ::System::Boolean TryLoadResourceFromCache(::Foundation::AssetPath filePath, ::Foundation::AssetRequestHandle& handle, ::MoleMole::InteractTraitData*& interactTraitData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&, ::MoleMole::InteractTraitData*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_TRYLOADRESOURCEFROMCACHE_OFFSET))(filePath, handle, interactTraitData);
 		}
 
-		static ::Class_1_43BD383C98B4C0C5_23* Method_2_0A3C11864695AF2A(::MoleMole::InteractTraitData*& a1, ::System::String*& a2)
+		static ::MoleMole::InteractTraitData* LoadResource(::Foundation::AssetPath filePath, ::Foundation::AssetRequestHandle& handle)
 		{
-			return ((::Class_1_43BD383C98B4C0C5_23*(*)(::MoleMole::InteractTraitData*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_0A3C11864695AF2A_OFFSET))(a1, a2);
+			return ((::MoleMole::InteractTraitData*(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_LOADRESOURCE_OFFSET))(filePath, handle);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean Method_2_FDFE9AC64A706A16(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_FDFE9AC64A706A16_OFFSET))(this, a1, a2);
-		}
-
-		static ::System::Void Method_2_3662512A444949A2(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigInteractInfo*>*& a1, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_23*>*& a2)
-		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigInteractInfo*>*&, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_23*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_3662512A444949A2_OFFSET))(a1, a2);
-		}
-
-		static ::MoleMole::Config::ConfigInteractTrait* Method_2_E61D008B9DEA7DA2(::FlexBuffers::FlxValue a1)
-		{
-			return ((::MoleMole::Config::ConfigInteractTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_E61D008B9DEA7DA2_OFFSET))(a1);
-		}
-
-		::System::Boolean Method_2_0CB3D614A4DB34A1(::FlexBuffers::FlxMap a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_0CB3D614A4DB34A1_OFFSET))(this, a1);
-		}
-
-		static ::MoleMole::Config::ConfigInteractTrait* Method_2_A85035B914D72E06(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-		{
-			return ((::MoleMole::Config::ConfigInteractTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT_METHOD_2_A85035B914D72E06_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGINTERACTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

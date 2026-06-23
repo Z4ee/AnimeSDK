@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TabLayouting_TypeDefinitionIndex = 7233;
+	inline static constexpr unsigned int TabLayouting_TypeDefinitionIndex = 7364;
 
 	enum class TabLayouting : ::System::Int32
 	{

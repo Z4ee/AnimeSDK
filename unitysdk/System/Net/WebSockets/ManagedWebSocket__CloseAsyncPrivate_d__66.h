@@ -12,22 +12,22 @@ namespace System::Net::WebSockets { class ManagedWebSocket; }
 namespace System::Net::WebSockets { class WebSocketReceiveResult; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEASYNCPRIVATE_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A9480)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEASYNCPRIVATE_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x8A9490)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEASYNCPRIVATE_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x952800)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEASYNCPRIVATE_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x61A480)
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int ManagedWebSocket__CloseAsyncPrivate_d__66_TypeDefinitionIndex = 3883;
+	inline static constexpr unsigned int ManagedWebSocket__CloseAsyncPrivate_d__66_TypeDefinitionIndex = 3882;
 
 	struct alignas(8) ManagedWebSocket__CloseAsyncPrivate_d__66
 	{
-		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x10
-		::Il2CppArray<::System::Byte>* _closeBuffer_5__1; // 0x18
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x28
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x10
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x20
 		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebSockets::WebSocketReceiveResult*> __u__2; // 0x38
-		::System::String* statusDescription; // 0x48
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x50
+		::Il2CppArray<::System::Byte>* _closeBuffer_5__1; // 0x48
+		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x50
+		::System::Threading::CancellationToken cancellationToken; // 0x58
+		::System::String* statusDescription; // 0x60
 		::System::Net::WebSockets::WebSocketCloseStatus closeStatus; // 0x68
 		::System::Int32 __1__state; // 0x6C
 

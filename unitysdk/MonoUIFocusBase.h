@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOUIFOCUSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x126D0130)
+#define MONOUIFOCUSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x116C0640)
 
-inline static constexpr unsigned int MonoUIFocusBase_TypeDefinitionIndex = 82921;
+inline static constexpr unsigned int MonoUIFocusBase_TypeDefinitionIndex = 74639;
 
 class MonoUIFocusBase : public ::UnityEngine::MonoBehaviour
 {

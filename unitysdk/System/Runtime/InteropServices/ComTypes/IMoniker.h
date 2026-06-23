@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int IMoniker_TypeDefinitionIndex = 1442;
+	inline static constexpr unsigned int IMoniker_TypeDefinitionIndex = 1441;
 
 	class IMoniker
 	{

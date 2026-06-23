@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianStartRow02WidgetController; }
 
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1267EB90)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHICON_B__0_OFFSET UNITYSDK_OFFSET(0x1267EBA0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC6830)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHICON_B__0_OFFSET UNITYSDK_OFFSET(0x16DC6840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 51193;
+	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 76121;
 
 	class UISuibianBusinessTopPanelV2WidgetController___c__DisplayClass13_0 : public ::System::Object
 	{

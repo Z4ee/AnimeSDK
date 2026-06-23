@@ -5,13 +5,13 @@
 namespace System { class Exception; }
 namespace System { class Object; }
 
-#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x19F06060)
-#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F06080)
-#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F05FE0)
+#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1C2FFD00)
+#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C2FFD20)
+#define SYSTEM_NET_UPLOADVALUESCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FFC80)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UploadValuesCompletedEventArgs_TypeDefinitionIndex = 3473;
+	inline static constexpr unsigned int UploadValuesCompletedEventArgs_TypeDefinitionIndex = 3472;
 
 	class UploadValuesCompletedEventArgs : public ::System::ComponentModel::AsyncCompletedEventArgs
 	{

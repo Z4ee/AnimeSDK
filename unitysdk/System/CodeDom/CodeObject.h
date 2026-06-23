@@ -4,12 +4,12 @@
 
 namespace System::Collections { class IDictionary; }
 
-#define SYSTEM_CODEDOM_CODEOBJECT_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x19ADB600)
-#define SYSTEM_CODEDOM_CODEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADB5C0)
+#define SYSTEM_CODEDOM_CODEOBJECT_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1C008AC0)
+#define SYSTEM_CODEDOM_CODEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C008A80)
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeObject_TypeDefinitionIndex = 4035;
+	inline static constexpr unsigned int CodeObject_TypeDefinitionIndex = 4034;
 
 	class CodeObject : public ::System::Object
 	{

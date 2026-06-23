@@ -5,12 +5,12 @@
 class Class_2_FDFE69FE7B72463B;
 namespace MoleMole { class UIBangbooGroupPhotoRowWidgetController; }
 
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED0A20)
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYANIMACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x15ED0A30)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4BAE0)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYANIMACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x17A4BAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 71644;
+	inline static constexpr unsigned int UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 69336;
 
 	class UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

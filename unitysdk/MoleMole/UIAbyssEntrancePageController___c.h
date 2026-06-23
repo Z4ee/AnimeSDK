@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1586EDF0)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1586EE30)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__GOTOMAINCITY_B__84_0_OFFSET UNITYSDK_OFFSET(0x1586F060)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__SHOWENDTIMETIP_B__45_0_OFFSET UNITYSDK_OFFSET(0x1586EE40)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1643D300)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1643D340)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__GOTOMAINCITY_B__84_0_OFFSET UNITYSDK_OFFSET(0x1643D570)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__SHOWENDTIMETIP_B__45_0_OFFSET UNITYSDK_OFFSET(0x1643D350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssEntrancePageController___c_TypeDefinitionIndex = 64975;
+	inline static constexpr unsigned int UIAbyssEntrancePageController___c_TypeDefinitionIndex = 79323;
 
 	class UIAbyssEntrancePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIAbyssEntrancePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAbyssEntrancePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x41E40);
-		}
 		static ::System::Action** StaticGet___9__84_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x41E48);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x44FB0);
+		}
+		static ::MoleMole::UIAbyssEntrancePageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIAbyssEntrancePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x44FB8);
 		}
 		static ::System::Action** StaticGet___9__45_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x41E50);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssEntrancePageController___c_TypeDefinitionIndex)->GetStaticField(0x44FC0);
 		}
 
 		static ::System::Void _cctor()

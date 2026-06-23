@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection_TypeDefinitionIndex = 25526;
+	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection_TypeDefinitionIndex = 28021;
 
 	template <typename T>
 	class CloneCollection_1_EnumerableCollection : public ::System::Object

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF68C50)
-#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF68C90)
-#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C___CCTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BF68CA0)
-#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C___CCTOR_B__9_1_OFFSET UNITYSDK_OFFSET(0x1BF68D40)
+#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A4F40)
+#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A4F80)
+#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C___CCTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1E2A4F90)
+#define CINEMACHINE_UTILITY_UNITYQUATERNIONEXTENSIONS___C___CCTOR_B__9_1_OFFSET UNITYSDK_OFFSET(0x1E2A5030)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int UnityQuaternionExtensions___c_TypeDefinitionIndex = 32652;
+	inline static constexpr unsigned int UnityQuaternionExtensions___c_TypeDefinitionIndex = 34203;
 
 	class UnityQuaternionExtensions___c : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::Utility::UnityQuaternionExtensions___c** StaticGet___9()
 		{
-			return (::Cinemachine::Utility::UnityQuaternionExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(UnityQuaternionExtensions___c_TypeDefinitionIndex)->GetStaticField(0x25D80);
+			return (::Cinemachine::Utility::UnityQuaternionExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(UnityQuaternionExtensions___c_TypeDefinitionIndex)->GetStaticField(0x277F0);
 		}
 
 		static ::System::Void _cctor()

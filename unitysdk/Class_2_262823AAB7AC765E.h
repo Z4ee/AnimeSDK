@@ -9,23 +9,23 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UIImgText; }
 
-#define CLASS_2_262823AAB7AC765E_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x14BD9CE0)
-#define CLASS_2_262823AAB7AC765E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14BD9D90)
-#define CLASS_2_262823AAB7AC765E_METHOD_2_E2771629F876FF04_OFFSET UNITYSDK_OFFSET(0x14BD9B10)
-#define CLASS_2_262823AAB7AC765E__CTOR_OFFSET UNITYSDK_OFFSET(0x14BD9D80)
+#define CLASS_2_262823AAB7AC765E_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x15399680)
+#define CLASS_2_262823AAB7AC765E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15399730)
+#define CLASS_2_262823AAB7AC765E_METHOD_2_E2771629F876FF04_OFFSET UNITYSDK_OFFSET(0x153994B0)
+#define CLASS_2_262823AAB7AC765E__CTOR_OFFSET UNITYSDK_OFFSET(0x15399720)
 
-inline static constexpr unsigned int Class_2_262823AAB7AC765E_TypeDefinitionIndex = 48817;
+inline static constexpr unsigned int Class_2_262823AAB7AC765E_TypeDefinitionIndex = 86649;
 
 class Class_2_262823AAB7AC765E : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_0; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x20
-	::UnityEngine::UI::Text* Field_2_3; // 0x28
-	::MonoUITableScrollV2* Field_2_1; // 0x30
-	::MonoUITableScrollV2* Field_2_5; // 0x38
-	::UnityEngine::UI::Extension::UIImgText* Field_2_2; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x48
+	::UnityEngine::UI::Extension::UIImgText* Field_2_2; // 0x18
+	::MonoUITableScrollV2* Field_2_0; // 0x20
+	::MonoUITableScrollV2* Field_2_1; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x38
+	::MonoUITableScrollV2* Field_2_5; // 0x40
+	::UnityEngine::UI::Text* Field_2_3; // 0x48
 
 	::System::Void _ctor()
 	{

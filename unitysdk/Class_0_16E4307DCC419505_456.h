@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F213AC3D3FBF57B9.h"
+#include "unitysdk/MoleMole/Config/BaseProperty.h"
 
-class Class_0_16E4307DCC419505_343;
-class Class_0_16E4307DCC419505_429;
-class Class_0_16E4307DCC419505_454;
-class Class_0_16E4307DCC419505_455;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_456_TypeDefinitionIndex = 80747;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_456_TypeDefinitionIndex = 50710;
 
 class Class_0_16E4307DCC419505_456
 {

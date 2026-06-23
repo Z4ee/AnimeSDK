@@ -3,7 +3,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_x509verify_result_TypeDefinitionIndex = 2534;
+	inline static constexpr unsigned int UnityTls_unitytls_x509verify_result_TypeDefinitionIndex = 2533;
 
 	enum class UnityTls_unitytls_x509verify_result : ::System::UInt32
 	{

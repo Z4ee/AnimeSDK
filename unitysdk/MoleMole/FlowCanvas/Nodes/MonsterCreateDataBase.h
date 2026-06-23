@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE_HIDEMONSTERID_OFFSET UNITYSDK_OFFSET(0x16E55570)
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E55520)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE_HIDEMONSTERID_OFFSET UNITYSDK_OFFSET(0x10D49ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D49E80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateDataBase_TypeDefinitionIndex = 66572;
+	inline static constexpr unsigned int MonsterCreateDataBase_TypeDefinitionIndex = 42896;
 
 	class MonsterCreateDataBase : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_7F4F3EA24347D9DD__CTOR_OFFSET UNITYSDK_OFFSET(0x9AF6C0)
+#define STRUCT_2_7F4F3EA24347D9DD__CTOR_OFFSET UNITYSDK_OFFSET(0xA512C0)
 
-inline static constexpr unsigned int Struct_2_7F4F3EA24347D9DD_TypeDefinitionIndex = 26255;
+inline static constexpr unsigned int Struct_2_7F4F3EA24347D9DD_TypeDefinitionIndex = 29034;
 
 struct alignas(8) Struct_2_7F4F3EA24347D9DD
 {

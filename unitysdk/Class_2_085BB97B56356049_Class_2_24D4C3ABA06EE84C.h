@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
 namespace MoleMole { class UserLocalDataItem; }
-template <typename T> class Class_0_16E4307DCC41950C_13;
+template <typename T> class Class_0_16E4307DCC419505_165;
 
-#define CLASS_2_085BB97B56356049_CLASS_2_24D4C3ABA06EE84C_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x16B21020)
-#define CLASS_2_085BB97B56356049_CLASS_2_24D4C3ABA06EE84C__CTOR_OFFSET UNITYSDK_OFFSET(0x16B210A0)
+#define CLASS_2_085BB97B56356049_CLASS_2_24D4C3ABA06EE84C_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xB7986F0)
+#define CLASS_2_085BB97B56356049_CLASS_2_24D4C3ABA06EE84C__CTOR_OFFSET UNITYSDK_OFFSET(0xB798770)
 
-inline static constexpr unsigned int Class_2_085BB97B56356049_Class_2_24D4C3ABA06EE84C_TypeDefinitionIndex = 63376;
+inline static constexpr unsigned int Class_2_085BB97B56356049_Class_2_24D4C3ABA06EE84C_TypeDefinitionIndex = 79589;
 
-class Class_2_085BB97B56356049_Class_2_24D4C3ABA06EE84C : public ::Class_1_F4299CC27263318B
+class Class_2_085BB97B56356049_Class_2_24D4C3ABA06EE84C : public ::Class_1_C331A5DC726F030A
 {
 public:
-	::Class_0_16E4307DCC41950C_13<::MoleMole::UserLocalDataItem*>* Field_2_0; // 0x70
+	::Class_0_16E4307DCC419505_165<::MoleMole::UserLocalDataItem*>* Field_2_0; // 0x60
 
 	::System::Void _ctor()
 	{

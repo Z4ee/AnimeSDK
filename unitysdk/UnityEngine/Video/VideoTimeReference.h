@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoTimeReference_TypeDefinitionIndex = 25136;
+	inline static constexpr unsigned int VideoTimeReference_TypeDefinitionIndex = 19080;
 
 	enum class VideoTimeReference : ::System::Int32
 	{

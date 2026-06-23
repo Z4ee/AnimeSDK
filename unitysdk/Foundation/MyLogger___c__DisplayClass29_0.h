@@ -5,12 +5,12 @@
 namespace Foundation { class MyLogger; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAC890)
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS29_0__DRAWSKELETON_B__0_OFFSET UNITYSDK_OFFSET(0x19DAC8A0)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE7C70)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS29_0__DRAWSKELETON_B__0_OFFSET UNITYSDK_OFFSET(0x1BFE7C80)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger___c__DisplayClass29_0_TypeDefinitionIndex = 8119;
+	inline static constexpr unsigned int MyLogger___c__DisplayClass29_0_TypeDefinitionIndex = 7926;
 
 	class MyLogger___c__DisplayClass29_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace FlowCanvas { class FlowNode; }
 
-#define FLOWCANVAS_NODES_CALLABLEACTIONNODE_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B457370)
-#define FLOWCANVAS_NODES_CALLABLEACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B457440)
+#define FLOWCANVAS_NODES_CALLABLEACTIONNODE_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D81CC40)
+#define FLOWCANVAS_NODES_CALLABLEACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81CD10)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CallableActionNode_TypeDefinitionIndex = 26868;
+	inline static constexpr unsigned int CallableActionNode_TypeDefinitionIndex = 30009;
 
 	class CallableActionNode : public ::FlowCanvas::Nodes::CallableActionNodeBase
 	{

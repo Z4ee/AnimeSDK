@@ -4,7 +4,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int ComputeShaderVariants_KeywordValues_TypeDefinitionIndex = 29649;
+	inline static constexpr unsigned int ComputeShaderVariants_KeywordValues_TypeDefinitionIndex = 26688;
 
 	class ComputeShaderVariants_KeywordValues : public ::System::Object
 	{

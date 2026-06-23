@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Process_StreamReadMode_TypeDefinitionIndex = 2780;
+	inline static constexpr unsigned int Process_StreamReadMode_TypeDefinitionIndex = 2779;
 
 	enum class Process_StreamReadMode : ::System::Int32
 	{

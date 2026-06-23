@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int NotifyFilters_TypeDefinitionIndex = 3231;
+	inline static constexpr unsigned int NotifyFilters_TypeDefinitionIndex = 3230;
 
 	enum class NotifyFilters : ::System::Int32
 	{

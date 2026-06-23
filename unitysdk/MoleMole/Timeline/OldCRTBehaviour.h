@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/OldCRTBehaviour_Struct_2_4D9DAE3E910E138B_1.h"
+#include "unitysdk/MoleMole/Timeline/OldCRTBehaviour_Struct_2_4D9DAE3E910E138B.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -10,26 +10,26 @@ namespace System { class String; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class OldCRT; }
 
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x167BBF30)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x167BD280)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x167BD260)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_7EF65E486B2877FD_OFFSET UNITYSDK_OFFSET(0x167BC150)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x167BD270)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x167BD250)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_BC76C3D43591A39D_OFFSET UNITYSDK_OFFSET(0x167BC5F0)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x167BC540)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x167BCD60)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x167BCF30)
-#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x167BD210)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x173A3610)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x173A4930)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x173A4960)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_7EF65E486B2877FD_OFFSET UNITYSDK_OFFSET(0x173A3830)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x173A4950)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x173A4940)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_BC76C3D43591A39D_OFFSET UNITYSDK_OFFSET(0x173A3CD0)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x173A3C20)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x173A4440)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x173A4610)
+#define MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x173A48F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int OldCRTBehaviour_TypeDefinitionIndex = 68146;
+	inline static constexpr unsigned int OldCRTBehaviour_TypeDefinitionIndex = 43326;
 
 	class OldCRTBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::OldCRTBehaviour_Struct_2_4D9DAE3E910E138B_1 _methodParm; // 0x18
+		::MoleMole::Timeline::OldCRTBehaviour_Struct_2_4D9DAE3E910E138B _methodParm; // 0x18
 		::System::Boolean enabled; // 0x48
 		::System::Boolean active_pattern; // 0x49
 		::System::Boolean use_pattern; // 0x4A
@@ -70,19 +70,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::Universal::OldCRT* Method_4_7EF65E486B2877FD(::System::Object* a1)
@@ -90,14 +80,24 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Rendering::Universal::OldCRT*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_7EF65E486B2877FD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_4_BC76C3D43591A39D()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_BC76C3D43591A39D_OFFSET))(this);
+		}
+
+		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 	};
 }

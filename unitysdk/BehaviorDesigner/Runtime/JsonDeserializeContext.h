@@ -7,13 +7,13 @@ namespace BehaviorDesigner::Runtime { class IVariableSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1BEB2540)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1BEB2550)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB2560)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1E1F7B70)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1E1F7B80)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F7B90)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int JsonDeserializeContext_TypeDefinitionIndex = 31705;
+	inline static constexpr unsigned int JsonDeserializeContext_TypeDefinitionIndex = 33256;
 
 	class JsonDeserializeContext : public ::System::Object
 	{

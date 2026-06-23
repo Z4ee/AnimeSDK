@@ -6,9 +6,9 @@ class DynamicBoneConfigV2;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DYNAMICBONECONFIGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6FE10)
+#define DYNAMICBONECONFIGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B04A0)
 
-inline static constexpr unsigned int DynamicBoneConfigMap_TypeDefinitionIndex = 33065;
+inline static constexpr unsigned int DynamicBoneConfigMap_TypeDefinitionIndex = 34623;
 
 class DynamicBoneConfigMap : public ::Foundation::MihoyoSerializedScriptableObject
 {

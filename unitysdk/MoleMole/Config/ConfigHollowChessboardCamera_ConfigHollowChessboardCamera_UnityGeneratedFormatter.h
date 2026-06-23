@@ -26,74 +26,74 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x183BFC50)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x183BFC60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x183C0700)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183C0D40)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x183C0D00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A34A680)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1A34A690)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1A34B130)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A34B770)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_CONFIGHOLLOWCHESSBOARDCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34B730)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 61999;
+	inline static constexpr unsigned int ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 39838;
 
 	class ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigHollowChessboardCamera*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraInit*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraInit*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433C0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowCameraPieceAudioVolumeRank>*>** StaticGet_CachedSerializer13()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowCameraPieceAudioVolumeRank>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433C8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraLight*>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraLight*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433D0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraSafeZone>*>** StaticGet_CachedSerializer11()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraSafeZone>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433D8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraDrag*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraDrag*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433E0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraFollow*>*>** StaticGet_CachedSerializer12()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraFollow*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433E8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraTranslation*>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraTranslation*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433F0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraBounce*>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraBounce*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x433F8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraMoveToCenter*>*>** StaticGet_CachedSerializer10()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraMoveToCenter*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43400);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigCameraNoise*>** StaticGet_CachedSerializer8()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigCameraNoise*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43408);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43410);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraEasing*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraEasing*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43418);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraEasing*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D600);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraShake*>*>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraShake*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43420);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraShake*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D608);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraDrag*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraDrag*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D610);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraInit*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraInit*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D618);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D620);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraLight*>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraLight*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D628);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::MoleMole::Config::ConfigHollowCameraStretchV2*>*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::MoleMole::Config::ConfigHollowCameraStretchV2*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43428);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::EUILayoutPlatform, ::MoleMole::Config::ConfigHollowCameraStretchV2*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D630);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraMoveToCenter*>*>** StaticGet_CachedSerializer10()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraMoveToCenter*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D638);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraTranslation*>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraTranslation*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D640);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraBounce*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraBounce*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D648);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraFollow*>*>** StaticGet_CachedSerializer12()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraFollow*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D650);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigCameraNoise*>** StaticGet_CachedSerializer8()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigCameraNoise*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D658);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraSafeZone>*>** StaticGet_CachedSerializer11()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraSafeZone>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D660);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowCameraPieceAudioVolumeRank>*>** StaticGet_CachedSerializer13()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowCameraPieceAudioVolumeRank>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboardCamera_ConfigHollowChessboardCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D668);
 		}
 
 		::System::Void _ctor()

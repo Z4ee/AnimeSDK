@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEDETAILSCARDDETAILINFODETAILTEXTWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x126C5FB0)
+#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEDETAILSCARDDETAILINFODETAILTEXTWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E0E6F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkbenchTrustDegreeDetailsCardDetailInfoDetailTextWidgetController_Data_TypeDefinitionIndex = 64079;
+	inline static constexpr unsigned int UIWorkbenchTrustDegreeDetailsCardDetailInfoDetailTextWidgetController_Data_TypeDefinitionIndex = 49940;
 
 	class UIWorkbenchTrustDegreeDetailsCardDetailInfoDetailTextWidgetController_Data : public ::System::Object
 	{

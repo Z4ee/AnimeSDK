@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDForeachNext_1_TypeDefinitionIndex = 77708;
+	inline static constexpr unsigned int LDForeachNext_1_TypeDefinitionIndex = 41656;
 
 	template <typename T>
 	class LDForeachNext_1 : public ::FlowCanvas::Nodes::FlowControlNode

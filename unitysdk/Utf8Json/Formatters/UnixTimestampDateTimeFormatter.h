@@ -7,21 +7,21 @@
 
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3C3D20)
-#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3C3BE0)
-#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3DE0)
-#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3DD0)
+#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7083F0)
+#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7082B0)
+#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7084B0)
+#define UTF8JSON_FORMATTERS_UNIXTIMESTAMPDATETIMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7084A0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int UnixTimestampDateTimeFormatter_TypeDefinitionIndex = 85729;
+	inline static constexpr unsigned int UnixTimestampDateTimeFormatter_TypeDefinitionIndex = 91303;
 
 	class UnixTimestampDateTimeFormatter : public ::System::Object
 	{
 	public:
 		static ::System::DateTime* StaticGet_UnixEpoch()
 		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(UnixTimestampDateTimeFormatter_TypeDefinitionIndex)->GetStaticField(0x12010);
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(UnixTimestampDateTimeFormatter_TypeDefinitionIndex)->GetStaticField(0x12E80);
 		}
 
 		::System::Void _ctor()

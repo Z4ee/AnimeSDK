@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialError_TypeDefinitionIndex = 4158;
+	inline static constexpr unsigned int SerialError_TypeDefinitionIndex = 4157;
 
 	enum class SerialError : ::System::Int32
 	{

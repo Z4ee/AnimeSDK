@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xFAC88E0)
-#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC88F0)
+#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x106F6F50)
+#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x106F6F60)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCMontageDataFragment_StructOpsTypeTraits_TypeDefinitionIndex = 64043;
+	inline static constexpr unsigned int FNPCMontageDataFragment_StructOpsTypeTraits_TypeDefinitionIndex = 56344;
 
 	class FNPCMontageDataFragment_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

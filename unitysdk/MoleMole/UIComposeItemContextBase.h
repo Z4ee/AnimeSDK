@@ -4,21 +4,21 @@
 
 class Class_1_402812A65CC3A690;
 
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x163772B0)
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16377390)
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x163773A0)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x166B26D0)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x166B27B0)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x166B2810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComposeItemContextBase_TypeDefinitionIndex = 58566;
+	inline static constexpr unsigned int UIComposeItemContextBase_TypeDefinitionIndex = 77377;
 
 	class UIComposeItemContextBase : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_1_402812A65CC3A690* selectItem; // 0x28
-		::System::Int32 selectTab; // 0x30
-		::System::Int32 filterIndex; // 0x34
-		::System::Int32 setCount; // 0x38
+		::System::Int32 filterIndex; // 0x30
+		::System::Int32 setCount; // 0x34
+		::System::Int32 selectTab; // 0x38
 
 		::System::Void _ctor()
 		{

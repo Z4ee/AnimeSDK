@@ -6,12 +6,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATESCREENUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x14278770)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATESCREENUI__CTOR_OFFSET UNITYSDK_OFFSET(0x14278AD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATESCREENUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x116089D0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATESCREENUI__CTOR_OFFSET UNITYSDK_OFFSET(0x11608D30)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameUpdateScreenUI_TypeDefinitionIndex = 41239;
+	inline static constexpr unsigned int HackerGameUpdateScreenUI_TypeDefinitionIndex = 57480;
 
 	class HackerGameUpdateScreenUI : public ::FlowCanvas::Nodes::CallableActionNode_4<::MoleMole::ChessEntity*, ::ProtoScript::ChessUIControlType, ::ProtoScript::ChessUIIconType, ::System::Int32>
 	{

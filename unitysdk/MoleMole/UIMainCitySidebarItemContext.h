@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIMAINCITYSIDEBARITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13FC8B80)
+#define MOLEMOLE_UIMAINCITYSIDEBARITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152F1A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySidebarItemContext_TypeDefinitionIndex = 81636;
+	inline static constexpr unsigned int UIMainCitySidebarItemContext_TypeDefinitionIndex = 44544;
 
 	class UIMainCitySidebarItemContext : public ::MoleMole::UIControllerContextBase
 	{

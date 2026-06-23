@@ -7,12 +7,12 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine::Experimental::Rendering { class RayTracingShader; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B2F3D50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F3D60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D6A9DB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9DC0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RayTracingResources_TypeDefinitionIndex = 6026;
+	inline static constexpr unsigned int RayTracingResources_TypeDefinitionIndex = 6037;
 
 	class RayTracingResources : public ::System::Object
 	{
@@ -23,9 +23,10 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Experimental::Rendering::RayTracingShader* RTXGI; // 0x28
 		::UnityEngine::ComputeShader* RTXGICS; // 0x30
 		::UnityEngine::Shader* RTXGIPS; // 0x38
-		::UnityEngine::TextAsset* rankingTile; // 0x40
-		::UnityEngine::TextAsset* sobol_256spp_256d; // 0x48
-		::UnityEngine::TextAsset* scramblingTile; // 0x50
+		::UnityEngine::Experimental::Rendering::RayTracingShader* RTXDebugBVH; // 0x40
+		::UnityEngine::TextAsset* rankingTile; // 0x48
+		::UnityEngine::TextAsset* sobol_256spp_256d; // 0x50
+		::UnityEngine::TextAsset* scramblingTile; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x19B00D70)
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B00F70)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1C02E230)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C02E430)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebExceptionMapping_TypeDefinitionIndex = 3340;
+	inline static constexpr unsigned int WebExceptionMapping_TypeDefinitionIndex = 3339;
 
 	class WebExceptionMapping : public ::System::Object
 	{

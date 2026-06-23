@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMainStoryPageController___c__DisplayClass88_2; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1483F500)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_3__GOTOSUBITEM_B__2_OFFSET UNITYSDK_OFFSET(0x1483F680)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1693ED10)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_3__GOTOSUBITEM_B__2_OFFSET UNITYSDK_OFFSET(0x1693EE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_3_TypeDefinitionIndex = 56270;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_3_TypeDefinitionIndex = 76822;
 
 	class UIMainStoryPageController___c__DisplayClass88_3 : public ::System::Object
 	{

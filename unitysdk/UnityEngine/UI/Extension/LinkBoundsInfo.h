@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int LinkBoundsInfo_TypeDefinitionIndex = 61263;
+	inline static constexpr unsigned int LinkBoundsInfo_TypeDefinitionIndex = 59337;
 
 	struct alignas(8) LinkBoundsInfo
 	{

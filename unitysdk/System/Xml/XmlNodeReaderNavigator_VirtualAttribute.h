@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLNODEREADERNAVIGATOR_VIRTUALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
+#define SYSTEM_XML_XMLNODEREADERNAVIGATOR_VIRTUALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNodeReaderNavigator_VirtualAttribute_TypeDefinitionIndex = 1783;
+	inline static constexpr unsigned int XmlNodeReaderNavigator_VirtualAttribute_TypeDefinitionIndex = 1782;
 
 	struct alignas(8) XmlNodeReaderNavigator_VirtualAttribute
 	{

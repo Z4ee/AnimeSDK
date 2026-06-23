@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISUIBIANTEMPLEUPGRADEDIALOGPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE461210)
-#define MOLEMOLE_UISUIBIANTEMPLEUPGRADEDIALOGPAGECONTROLLER___C__DISPLAYCLASS28_0__SHOWITEMREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xE461FC0)
+#define MOLEMOLE_UISUIBIANTEMPLEUPGRADEDIALOGPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152D4290)
+#define MOLEMOLE_UISUIBIANTEMPLEUPGRADEDIALOGPAGECONTROLLER___C__DISPLAYCLASS28_0__SHOWITEMREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x152D5030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleUpgradeDialogPageController___c__DisplayClass28_0_TypeDefinitionIndex = 44345;
+	inline static constexpr unsigned int UISuibianTempleUpgradeDialogPageController___c__DisplayClass28_0_TypeDefinitionIndex = 45996;
 
 	class UISuibianTempleUpgradeDialogPageController___c__DisplayClass28_0 : public ::System::Object
 	{

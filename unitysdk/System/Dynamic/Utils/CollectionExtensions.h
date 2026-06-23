@@ -8,7 +8,7 @@ namespace System::Runtime::CompilerServices { template <typename T> class TrueRe
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 5013;
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 5012;
 
 	class CollectionExtensions : public ::System::Object
 	{

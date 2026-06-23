@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonToken_TypeDefinitionIndex = 6883;
+	inline static constexpr unsigned int JsonToken_TypeDefinitionIndex = 7014;
 
 	enum class JsonToken : ::System::Int32
 	{

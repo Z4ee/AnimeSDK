@@ -4,8 +4,8 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_GUIHOOK_INVOKE_ONHOOKGUISETCHANGED_OFFSET UNITYSDK_OFFSET(0x1B3C07B0)
-#define UNITYENGINE_GUIHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C0810)
+#define UNITYENGINE_GUIHOOK_INVOKE_ONHOOKGUISETCHANGED_OFFSET UNITYSDK_OFFSET(0x1D72B7F0)
+#define UNITYENGINE_GUIHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D72B850)
 
 namespace UnityEngine
 {
@@ -16,7 +16,7 @@ namespace UnityEngine
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet_onHookSetChanged()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GUIHook_TypeDefinitionIndex)->GetStaticField(0x55A0);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GUIHook_TypeDefinitionIndex)->GetStaticField(0x55D0);
 		}
 
 		::System::Void _ctor()

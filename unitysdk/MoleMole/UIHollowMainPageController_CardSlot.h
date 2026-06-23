@@ -8,23 +8,23 @@ namespace MoleMole { class UIHollowMainPageController; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_REFRESHMUTE_OFFSET UNITYSDK_OFFSET(0x15FAA480)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETCARD_OFFSET UNITYSDK_OFFSET(0x15FAA360)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETEMPTY_OFFSET UNITYSDK_OFFSET(0x15FAA2E0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETSCALE_OFFSET UNITYSDK_OFFSET(0x15FAA3F0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FAA130)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_REFRESHMUTE_OFFSET UNITYSDK_OFFSET(0x16F8B1B0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETCARD_OFFSET UNITYSDK_OFFSET(0x16F8B090)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETEMPTY_OFFSET UNITYSDK_OFFSET(0x16F8B010)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT_SETSCALE_OFFSET UNITYSDK_OFFSET(0x16F8B120)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_CARDSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8AE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController_CardSlot_TypeDefinitionIndex = 44948;
+	inline static constexpr unsigned int UIHollowMainPageController_CardSlot_TypeDefinitionIndex = 78294;
 
 	class UIHollowMainPageController_CardSlot : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Image* cardImg; // 0x10
+		::MoleMole::UIHollowMainPageController* page; // 0x10
 		::UnityEngine::RectTransform* transform; // 0x18
-		::MoleMole::UIHollowMainPageController* page; // 0x20
-		::MoleMole::UIHollowCardItemBtnWidgetController* ctrl; // 0x28
+		::MoleMole::UIHollowCardItemBtnWidgetController* ctrl; // 0x20
+		::UnityEngine::UI::Image* cardImg; // 0x28
 		::System::Int32 itemid; // 0x30
 
 		::System::Void _ctor(::System::Int32 itemid, ::UnityEngine::RectTransform* transform, ::MoleMole::UIHollowMainPageController* page)

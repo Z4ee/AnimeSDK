@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IConfirmDialog_TypeDefinitionIndex = 19309;
+	inline static constexpr unsigned int IConfirmDialog_TypeDefinitionIndex = 20225;
 
 	class IConfirmDialog
 	{

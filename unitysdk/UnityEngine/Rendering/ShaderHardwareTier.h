@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShaderHardwareTier_TypeDefinitionIndex = 6142;
+	inline static constexpr unsigned int ShaderHardwareTier_TypeDefinitionIndex = 6153;
 
 	enum class ShaderHardwareTier : ::System::Int32
 	{

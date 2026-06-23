@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9980B0)
+#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA39470)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriter_TagInfo_TypeDefinitionIndex = 1733;
+	inline static constexpr unsigned int XmlTextWriter_TagInfo_TypeDefinitionIndex = 1732;
 
 	struct alignas(8) XmlTextWriter_TagInfo
 	{

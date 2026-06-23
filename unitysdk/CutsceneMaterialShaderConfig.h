@@ -5,9 +5,9 @@
 class CutsceneMaterialShaderConfig_ShaderPropertyConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CUTSCENEMATERIALSHADERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3855D0)
+#define CUTSCENEMATERIALSHADERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C9950)
 
-inline static constexpr unsigned int CutsceneMaterialShaderConfig_TypeDefinitionIndex = 30569;
+inline static constexpr unsigned int CutsceneMaterialShaderConfig_TypeDefinitionIndex = 32115;
 
 class CutsceneMaterialShaderConfig : public ::UnityEngine::ScriptableObject
 {

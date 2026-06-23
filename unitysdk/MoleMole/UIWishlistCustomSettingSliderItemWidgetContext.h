@@ -5,20 +5,20 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLIDERITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF635A40)
+#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLIDERITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122D6800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomSettingSliderItemWidgetContext_TypeDefinitionIndex = 68726;
+	inline static constexpr unsigned int UIWishlistCustomSettingSliderItemWidgetContext_TypeDefinitionIndex = 56382;
 
 	class UIWishlistCustomSettingSliderItemWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::UInt32>* OnSliderValueChanged; // 0x28
-		::Foundation::AssetPath IconPath; // 0x30
-		::System::UInt32 MaxValue; // 0x40
+		::Foundation::AssetPath IconPath; // 0x28
+		::System::Action_1<::System::UInt32>* OnSliderValueChanged; // 0x38
+		::System::UInt32 MinValue; // 0x40
 		::System::UInt32 InitValue; // 0x44
-		::System::UInt32 MinValue; // 0x48
+		::System::UInt32 MaxValue; // 0x48
 
 		::System::Void _ctor()
 		{

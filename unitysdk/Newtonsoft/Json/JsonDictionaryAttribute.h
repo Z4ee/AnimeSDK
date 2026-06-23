@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4A2F80)
-#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A2F70)
+#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7DA700)
+#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DA6F0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonDictionaryAttribute_TypeDefinitionIndex = 6864;
+	inline static constexpr unsigned int JsonDictionaryAttribute_TypeDefinitionIndex = 6995;
 
 	class JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{

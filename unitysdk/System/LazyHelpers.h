@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3A9190)
+#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6FB800)
 
 namespace System
 {

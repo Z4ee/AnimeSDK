@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Vehicle/VehicleCollider_Enum_3_7308758C8F0641E3.h"
 #include "unitysdk/MoleMole/Vehicle/VehicleCollider_Enum_3_B92C1798682AC0E0.h"
-#include "unitysdk/MoleMole/Vehicle/VehicleCollider_Enum_3_C728DAA8FC0695B9.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x12EAF9B0)
-#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x12EAF110)
-#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x12EAF5B0)
-#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAFB90)
+#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_GETRADIUS_OFFSET UNITYSDK_OFFSET(0xC93A1F0)
+#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xC939950)
+#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xC939DF0)
+#define MOLEMOLE_VEHICLE_VEHICLECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC93A3D0)
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleCollider_TypeDefinitionIndex = 48854;
+	inline static constexpr unsigned int VehicleCollider_TypeDefinitionIndex = 43912;
 
 	class VehicleCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::MoleMole::Vehicle::VehicleCollider_Enum_3_C728DAA8FC0695B9 ColliderType; // 0x18
+		::MoleMole::Vehicle::VehicleCollider_Enum_3_7308758C8F0641E3 ColliderType; // 0x18
 		::MoleMole::Vehicle::VehicleCollider_Enum_3_B92C1798682AC0E0 MaterialType; // 0x1C
 		::System::String* HitSound; // 0x20
 		::System::Boolean OverrideMaxSpeed; // 0x28

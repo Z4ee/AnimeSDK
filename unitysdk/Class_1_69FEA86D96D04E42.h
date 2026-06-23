@@ -4,7 +4,7 @@
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/Struct_2_229502A94E9EB7E7.h"
 #include "unitysdk/Struct_2_51A0658002A5A70C.h"
-#include "unitysdk/Struct_2_6D21F49E205965F8.h"
+#include "unitysdk/Struct_2_9D56CD120C0D8F54.h"
 #include "unitysdk/Struct_2_B04487F8B1A141C9.h"
 #include "unitysdk/Struct_2_CC86B677214AB654.h"
 #include "unitysdk/System/Object.h"
@@ -12,19 +12,19 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class ListFormatter_1; }
 
-#define CLASS_1_69FEA86D96D04E42_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13D90E70)
-#define CLASS_1_69FEA86D96D04E42_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13D90D20)
-#define CLASS_1_69FEA86D96D04E42__CTOR_OFFSET UNITYSDK_OFFSET(0x13D91090)
+#define CLASS_1_69FEA86D96D04E42_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x135098E0)
+#define CLASS_1_69FEA86D96D04E42_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13509790)
+#define CLASS_1_69FEA86D96D04E42__CTOR_OFFSET UNITYSDK_OFFSET(0x13509B00)
 
-inline static constexpr unsigned int Class_1_69FEA86D96D04E42_TypeDefinitionIndex = 57365;
+inline static constexpr unsigned int Class_1_69FEA86D96D04E42_TypeDefinitionIndex = 84738;
 
 class Class_1_69FEA86D96D04E42 : public ::System::Object
 {
 public:
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_B04487F8B1A141C9>* Field_1_0; // 0x10
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_51A0658002A5A70C>* Field_1_1; // 0x18
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_6D21F49E205965F8>* Field_1_2; // 0x20
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_229502A94E9EB7E7>* Field_1_3; // 0x28
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_229502A94E9EB7E7>* Field_1_3; // 0x10
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_9D56CD120C0D8F54>* Field_1_2; // 0x18
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_B04487F8B1A141C9>* Field_1_0; // 0x20
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_51A0658002A5A70C>* Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{

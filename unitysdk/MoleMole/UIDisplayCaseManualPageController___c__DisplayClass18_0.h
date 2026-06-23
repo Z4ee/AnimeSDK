@@ -6,18 +6,18 @@
 namespace MoleMole { class UIDisplayCaseManualPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157DF850)
-#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__ONRTBUILT_B__0_OFFSET UNITYSDK_OFFSET(0x157DF860)
+#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166C0F20)
+#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__ONRTBUILT_B__0_OFFSET UNITYSDK_OFFSET(0x166C0F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCaseManualPageController___c__DisplayClass18_0_TypeDefinitionIndex = 52825;
+	inline static constexpr unsigned int UIDisplayCaseManualPageController___c__DisplayClass18_0_TypeDefinitionIndex = 61472;
 
 	class UIDisplayCaseManualPageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* go; // 0x10
-		::MoleMole::UIDisplayCaseManualPageController* __4__this; // 0x18
+		::MoleMole::UIDisplayCaseManualPageController* __4__this; // 0x10
+		::UnityEngine::GameObject* go; // 0x18
 
 		::System::Void _ctor()
 		{

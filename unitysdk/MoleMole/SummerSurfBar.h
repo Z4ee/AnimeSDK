@@ -9,29 +9,29 @@ namespace MoleMole { class UIControllerContextBase; }
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x1703F940)
-#define MOLEMOLE_SUMMERSURFBAR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1703FBD0)
-#define MOLEMOLE_SUMMERSURFBAR_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1703F950)
-#define MOLEMOLE_SUMMERSURFBAR_SETPERCENT_OFFSET UNITYSDK_OFFSET(0x1703FB00)
-#define MOLEMOLE_SUMMERSURFBAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x17040110)
-#define MOLEMOLE_SUMMERSURFBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x17040100)
-#define MOLEMOLE_SUMMERSURFBAR___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x17040150)
+#define MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x18CFEEB0)
+#define MOLEMOLE_SUMMERSURFBAR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18CFF140)
+#define MOLEMOLE_SUMMERSURFBAR_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x18CFEEC0)
+#define MOLEMOLE_SUMMERSURFBAR_SETPERCENT_OFFSET UNITYSDK_OFFSET(0x18CFF070)
+#define MOLEMOLE_SUMMERSURFBAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CFF680)
+#define MOLEMOLE_SUMMERSURFBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFF670)
+#define MOLEMOLE_SUMMERSURFBAR___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x18CFF6C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerSurfBar_TypeDefinitionIndex = 80287;
+	inline static constexpr unsigned int SummerSurfBar_TypeDefinitionIndex = 40250;
 
 	class SummerSurfBar : public ::MoleMole::UIWindowController
 	{
 	public:
 		static ::System::Int32* StaticGet_WaveHeight()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SummerSurfBar_TypeDefinitionIndex)->GetStaticField(0xD010);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SummerSurfBar_TypeDefinitionIndex)->GetStaticField(0xDBF0);
 		}
-		::UnityEngine::Vector2 _lastPosition; // 0x310
-		::UnityEngine::CanvasGroup* _canvasGroup; // 0x318
-		::System::UInt32 _entity; // 0x320
-		::System::Single _value; // 0x324
+		::UnityEngine::Vector2 _lastPosition; // 0x318
+		::UnityEngine::CanvasGroup* _canvasGroup; // 0x320
+		::System::UInt32 _entity; // 0x328
+		::System::Single _value; // 0x32C
 
 		::System::Void _ctor()
 		{

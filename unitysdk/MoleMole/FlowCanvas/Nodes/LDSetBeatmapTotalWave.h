@@ -6,19 +6,19 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E0E950)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE_START_OFFSET UNITYSDK_OFFSET(0x10E0EA40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E0ECE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18B25990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE_START_OFFSET UNITYSDK_OFFSET(0x18B25A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPTOTALWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B25D20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetBeatmapTotalWave_TypeDefinitionIndex = 38605;
+	inline static constexpr unsigned int LDSetBeatmapTotalWave_TypeDefinitionIndex = 49678;
 
 	class LDSetBeatmapTotalWave : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* _totalWave; // 0xA8
-		::FlowCanvas::FlowOutput* _out; // 0xB0
+		::FlowCanvas::FlowOutput* _out; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _totalWave; // 0xB0
 
 		::System::Void _ctor()
 		{

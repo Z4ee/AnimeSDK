@@ -7,29 +7,29 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4678B0)
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4678F0)
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B467900)
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1B467940)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D82D1A0)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D82D1E0)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1D82D1F0)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDMETHODINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1D82D230)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int SerializedMethodInfo___c_TypeDefinitionIndex = 28197;
+	inline static constexpr unsigned int SerializedMethodInfo___c_TypeDefinitionIndex = 29473;
 
 	class SerializedMethodInfo___c : public ::System::Object
 	{
 	public:
 		static ::ParadoxNotion::Serialization::SerializedMethodInfo___c** StaticGet___9()
 		{
-			return (::ParadoxNotion::Serialization::SerializedMethodInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x202F0);
+			return (::ParadoxNotion::Serialization::SerializedMethodInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x24050);
 		}
 		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x202F8);
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x24058);
 		}
 		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__14_1()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x20300);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedMethodInfo___c_TypeDefinitionIndex)->GetStaticField(0x24060);
 		}
 
 		static ::System::Void _cctor()

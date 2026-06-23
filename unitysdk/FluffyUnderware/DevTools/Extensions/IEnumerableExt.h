@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int IEnumerableExt_TypeDefinitionIndex = 25915;
+	inline static constexpr unsigned int IEnumerableExt_TypeDefinitionIndex = 28409;
 
 	class IEnumerableExt : public ::System::Object
 	{

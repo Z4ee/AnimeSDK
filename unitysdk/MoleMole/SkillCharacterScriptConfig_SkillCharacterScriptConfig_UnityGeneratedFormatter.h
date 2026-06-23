@@ -23,82 +23,82 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125F0800)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125F0810)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125F1B50)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125F2630)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125F25F0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13047190)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x130471A0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x130484E0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13048FC0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_SKILLCHARACTERSCRIPTCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13048F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 73513;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 74615;
 
 	class SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SkillCharacterScriptConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>** StaticGet_CachedSerializer13()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventProtection>*>** StaticGet_CachedSerializer15()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A10);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventProtection>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E30);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::QTECameraBaseInfo*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::QTECameraBaseInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A18);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventProtection>*>** StaticGet_CachedSerializer15()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventProtection>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A20);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventGroup*>*>** StaticGet_CachedSerializer14()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A28);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigPosRot*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigPosRot*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A30);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntitySkill*>*>** StaticGet_CachedSerializer8()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntitySkill*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A38);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::QTECameraInfo*>*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::QTECameraInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A40);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>** StaticGet_CachedSerializer12()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A48);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A50);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigCounterstroke*>*>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigCounterstroke*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A58);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::QTECameraBaseInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E38);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SkillCharacterScriptConfig_ListPatternPair*>*>** StaticGet_CachedSerializer10()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SkillCharacterScriptConfig_ListPatternPair*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A60);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SkillCharacterScriptConfig_ListPatternPair*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E40);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::DitherConfig*>** StaticGet_CachedSerializer4()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::QTECameraInfo*>*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::DitherConfig*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A68);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::QTECameraInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E48);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigPosRot*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigPosRot*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A70);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigPosRot*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E50);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventGroup*>*>** StaticGet_CachedSerializer14()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAnimEventGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E58);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::AnimatorBlendData*>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AnimatorBlendData*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A78);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AnimatorBlendData*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E60);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E68);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigPosRot*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigPosRot*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E70);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::DitherConfig*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::DitherConfig*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E78);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>** StaticGet_CachedSerializer13()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E80);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntitySkill*>*>** StaticGet_CachedSerializer8()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntitySkill*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E88);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>** StaticGet_CachedSerializer12()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E90);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*>** StaticGet_CachedSerializer11()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A80);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49E98);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::AnimatorBlendData*>*>** StaticGet_CachedSerializer6()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::AnimatorBlendData*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47A88);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::AnimatorBlendData*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49EA0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigCounterstroke*>*>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigCounterstroke*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_SkillCharacterScriptConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49EA8);
 		}
 
 		::System::Void _ctor()

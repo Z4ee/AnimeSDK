@@ -5,7 +5,7 @@ namespace System::Collections { class IDictionary; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDesignerFilter_TypeDefinitionIndex = 3067;
+	inline static constexpr unsigned int IDesignerFilter_TypeDefinitionIndex = 3066;
 
 	class IDesignerFilter
 	{

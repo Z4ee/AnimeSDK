@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55B950)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88B660)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModuleProperties_TypeDefinitionIndex = 37332;
+	inline static constexpr unsigned int CGModuleProperties_TypeDefinitionIndex = 38936;
 
 	class CGModuleProperties : public ::System::Object
 	{

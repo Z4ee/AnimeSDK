@@ -3,7 +3,7 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphPackingMode_TypeDefinitionIndex = 30952;
+	inline static constexpr unsigned int GlyphPackingMode_TypeDefinitionIndex = 32503;
 
 	enum class GlyphPackingMode : ::System::Int32
 	{

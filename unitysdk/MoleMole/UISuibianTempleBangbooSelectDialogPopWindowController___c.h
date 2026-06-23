@@ -7,34 +7,34 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D7ADD0)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CHECKBUDDY_B__14_0_OFFSET UNITYSDK_OFFSET(0x14D7AEF0)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D7AE10)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__ONCREATEVIEW_B__13_2_OFFSET UNITYSDK_OFFSET(0x14D7AE20)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__17_0_OFFSET UNITYSDK_OFFSET(0x14D7AF00)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152C34E0)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CHECKBUDDY_B__14_0_OFFSET UNITYSDK_OFFSET(0x152C3600)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152C3520)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__ONCREATEVIEW_B__13_2_OFFSET UNITYSDK_OFFSET(0x152C3530)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__17_0_OFFSET UNITYSDK_OFFSET(0x152C3610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex = 49986;
+	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex = 76457;
 
 	class UISuibianTempleBangbooSelectDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__14_0()
+		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__17_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x380E0);
-		}
-		static ::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x380E8);
+			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A5F0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_2()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x380F0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A5F8);
 		}
-		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__17_0()
+		static ::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x380F8);
+			return (::MoleMole::UISuibianTempleBangbooSelectDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A600);
+		}
+		static ::System::Action** StaticGet___9__14_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBangbooSelectDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A608);
 		}
 
 		static ::System::Void _cctor()

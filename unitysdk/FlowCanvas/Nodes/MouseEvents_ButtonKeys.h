@@ -3,7 +3,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MouseEvents_ButtonKeys_TypeDefinitionIndex = 27786;
+	inline static constexpr unsigned int MouseEvents_ButtonKeys_TypeDefinitionIndex = 30154;
 
 	enum class MouseEvents_ButtonKeys : ::System::Int32
 	{

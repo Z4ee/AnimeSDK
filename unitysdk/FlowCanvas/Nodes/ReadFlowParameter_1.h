@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReadFlowParameter_1_TypeDefinitionIndex = 26992;
+	inline static constexpr unsigned int ReadFlowParameter_1_TypeDefinitionIndex = 30466;
 
 	template <typename T>
 	class ReadFlowParameter_1 : public ::FlowCanvas::Nodes::FlowControlNode

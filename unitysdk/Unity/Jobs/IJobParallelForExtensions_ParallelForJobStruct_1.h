@@ -4,7 +4,7 @@
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForExtensions_ParallelForJobStruct_1_TypeDefinitionIndex = 5059;
+	inline static constexpr unsigned int IJobParallelForExtensions_ParallelForJobStruct_1_TypeDefinitionIndex = 5058;
 
 	template <typename T>
 	struct IJobParallelForExtensions_ParallelForJobStruct_1

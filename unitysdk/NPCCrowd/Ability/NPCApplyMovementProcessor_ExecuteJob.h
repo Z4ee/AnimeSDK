@@ -7,11 +7,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x697000)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x624A60)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCApplyMovementProcessor_ExecuteJob_TypeDefinitionIndex = 61111;
+	inline static constexpr unsigned int NPCApplyMovementProcessor_ExecuteJob_TypeDefinitionIndex = 60041;
 
 	struct alignas(8) NPCApplyMovementProcessor_ExecuteJob
 	{

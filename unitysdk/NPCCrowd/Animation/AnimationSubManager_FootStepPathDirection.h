@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_FootStepPathDirection_TypeDefinitionIndex = 70486;
+	inline static constexpr unsigned int AnimationSubManager_FootStepPathDirection_TypeDefinitionIndex = 57443;
 
 	enum class AnimationSubManager_FootStepPathDirection : ::System::Int32
 	{

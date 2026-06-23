@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GraphicsFormatWrap_TypeDefinitionIndex = 30267;
+	inline static constexpr unsigned int GraphicsFormatWrap_TypeDefinitionIndex = 26656;
 
 	struct alignas(4) GraphicsFormatWrap
 	{

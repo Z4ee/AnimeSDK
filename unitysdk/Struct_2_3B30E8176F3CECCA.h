@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-inline static constexpr unsigned int Struct_2_3B30E8176F3CECCA_TypeDefinitionIndex = 53588;
+inline static constexpr unsigned int Struct_2_3B30E8176F3CECCA_TypeDefinitionIndex = 50932;
 
 struct alignas(8) Struct_2_3B30E8176F3CECCA
 {

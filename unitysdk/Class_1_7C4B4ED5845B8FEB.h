@@ -7,35 +7,35 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_046C2BFE6915DB71_OFFSET UNITYSDK_OFFSET(0x1539ADB0)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_24B39354D1FCD13B_OFFSET UNITYSDK_OFFSET(0x1539AB40)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_41FED1C4DBF0FD89_OFFSET UNITYSDK_OFFSET(0x1539B030)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_797B0DC3D00A8877_OFFSET UNITYSDK_OFFSET(0x1539AD70)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_898DE7C4B7C8DC88_OFFSET UNITYSDK_OFFSET(0x1539AEF0)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_94D9B96A3216A93F_OFFSET UNITYSDK_OFFSET(0x1539AC30)
-#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_CB741CCB6B42AFF1_OFFSET UNITYSDK_OFFSET(0x1539B180)
-#define CLASS_1_7C4B4ED5845B8FEB__CCTOR_OFFSET UNITYSDK_OFFSET(0x15399A00)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_046C2BFE6915DB71_OFFSET UNITYSDK_OFFSET(0x151F5BE0)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_24B39354D1FCD13B_OFFSET UNITYSDK_OFFSET(0x151F6130)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_41FED1C4DBF0FD89_OFFSET UNITYSDK_OFFSET(0x151F5D60)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_797B0DC3D00A8877_OFFSET UNITYSDK_OFFSET(0x151F5D20)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_898DE7C4B7C8DC88_OFFSET UNITYSDK_OFFSET(0x151F5AA0)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_94D9B96A3216A93F_OFFSET UNITYSDK_OFFSET(0x151F6220)
+#define CLASS_1_7C4B4ED5845B8FEB_METHOD_1_CB741CCB6B42AFF1_OFFSET UNITYSDK_OFFSET(0x151F5EB0)
+#define CLASS_1_7C4B4ED5845B8FEB__CCTOR_OFFSET UNITYSDK_OFFSET(0x151F4990)
 
-inline static constexpr unsigned int Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex = 52140;
+inline static constexpr unsigned int Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex = 61911;
 
 class Class_1_7C4B4ED5845B8FEB : public ::System::Object
 {
 public:
+	static ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InputType, ::System::String*>** StaticGet_Field_1_53()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InputType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x49290);
+	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_Field_1_50()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x2B950);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Enum_3_D2DB98B2EB62E318>** StaticGet_Field_1_52()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Enum_3_D2DB98B2EB62E318>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x2B958);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x49298);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::InputType>** StaticGet_Field_1_51()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::InputType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x2B960);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::InputType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x492A0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InputType, ::System::String*>** StaticGet_Field_1_53()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Enum_3_D2DB98B2EB62E318>** StaticGet_Field_1_52()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::InputType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x2B968);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Enum_3_D2DB98B2EB62E318>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7C4B4ED5845B8FEB_TypeDefinitionIndex)->GetStaticField(0x492A8);
 	}
 	// static const ::System::Int32 Field_1_0 = 0xFFFFFFFF; // 0x0
 	// static const ::System::Int32 Field_1_1 = 0x0; // 0x0
@@ -93,19 +93,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB__CCTOR_OFFSET))();
 	}
 
-	static ::System::Boolean Method_1_24B39354D1FCD13B(::System::String* a1)
+	static ::Enum_3_D2DB98B2EB62E318 Method_1_898DE7C4B7C8DC88(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_24B39354D1FCD13B_OFFSET))(a1);
-	}
-
-	static ::MoleMole::Config::InputType Method_1_94D9B96A3216A93F(::System::String* a1)
-	{
-		return ((::MoleMole::Config::InputType(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_94D9B96A3216A93F_OFFSET))(a1);
-	}
-
-	static ::System::Boolean Method_1_797B0DC3D00A8877(::System::Int32 a1)
-	{
-		return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_797B0DC3D00A8877_OFFSET))(a1);
+		return ((::Enum_3_D2DB98B2EB62E318(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_898DE7C4B7C8DC88_OFFSET))(a1);
 	}
 
 	static ::System::Int32 Method_1_046C2BFE6915DB71(::System::String* a1)
@@ -113,9 +103,9 @@ public:
 		return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_046C2BFE6915DB71_OFFSET))(a1);
 	}
 
-	static ::Enum_3_D2DB98B2EB62E318 Method_1_898DE7C4B7C8DC88(::System::String* a1)
+	static ::System::Boolean Method_1_797B0DC3D00A8877(::System::Int32 a1)
 	{
-		return ((::Enum_3_D2DB98B2EB62E318(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_898DE7C4B7C8DC88_OFFSET))(a1);
+		return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_797B0DC3D00A8877_OFFSET))(a1);
 	}
 
 	static ::System::Int32 Method_1_41FED1C4DBF0FD89(::MoleMole::Config::InputType a1)
@@ -126,5 +116,15 @@ public:
 	static ::System::Void Method_1_CB741CCB6B42AFF1()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_CB741CCB6B42AFF1_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_24B39354D1FCD13B(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_24B39354D1FCD13B_OFFSET))(a1);
+	}
+
+	static ::MoleMole::Config::InputType Method_1_94D9B96A3216A93F(::System::String* a1)
+	{
+		return ((::MoleMole::Config::InputType(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7C4B4ED5845B8FEB_METHOD_1_94D9B96A3216A93F_OFFSET))(a1);
 	}
 };

@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Optional_1_Delegate_RetSelfNoParam_TypeDefinitionIndex = 36083;
+	inline static constexpr unsigned int Optional_1_Delegate_RetSelfNoParam_TypeDefinitionIndex = 37691;
 
 	template <typename T>
 	class Optional_1_Delegate_RetSelfNoParam : public ::System::MulticastDelegate

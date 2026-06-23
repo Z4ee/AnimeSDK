@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIRoleInfoDataContext; }
+namespace System { class Action; }
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1376DF00)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__DOJUMPTODETAILPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1376DF10)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161573C0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__DOTRIGGEREQUIPREPLACE_B__0_OFFSET UNITYSDK_OFFSET(0x161573D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass125_0_TypeDefinitionIndex = 48538;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass125_0_TypeDefinitionIndex = 68208;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass125_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRoleInfoDataContext* context; // 0x10
+		::System::Action* replaceAction; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _DoJumpToDetailPage_b__0()
+		::System::Void _DoTriggerEquipReplace_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__DOJUMPTODETAILPAGE_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS125_0__DOTRIGGEREQUIPREPLACE_B__0_OFFSET))(this);
 		}
 	};
 }

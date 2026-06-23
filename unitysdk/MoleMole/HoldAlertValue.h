@@ -3,28 +3,28 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_4_FFDCB461A077D183;
+class Class_4_C2BA23F5AA27FA67;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_HOLDALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x125CED80)
-#define MOLEMOLE_HOLDALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x125CEB80)
-#define MOLEMOLE_HOLDALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125CECD0)
-#define MOLEMOLE_HOLDALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x125CEDD0)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x125CEE60)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x125CEEF0)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125CEF80)
+#define MOLEMOLE_HOLDALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13023240)
+#define MOLEMOLE_HOLDALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13023050)
+#define MOLEMOLE_HOLDALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13023190)
+#define MOLEMOLE_HOLDALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13023290)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13023320)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x130233B0)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13023440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HoldAlertValue_TypeDefinitionIndex = 47434;
+	inline static constexpr unsigned int HoldAlertValue_TypeDefinitionIndex = 60084;
 
 	class HoldAlertValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::Class_4_FFDCB461A077D183* _enterBattleComponent; // 0x60
-		::BehaviorDesigner::Runtime::SharedBool* IsHold; // 0x68
+		::BehaviorDesigner::Runtime::SharedBool* IsHold; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::Class_4_C2BA23F5AA27FA67* _enterBattleComponent; // 0x68
 
 		::System::Void _ctor()
 		{

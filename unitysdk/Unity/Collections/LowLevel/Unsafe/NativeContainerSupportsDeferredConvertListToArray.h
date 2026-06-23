@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERSUPPORTSDEFERREDCONVERTLISTTOARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1B2A0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERSUPPORTSDEFERREDCONVERTLISTTOARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF55910)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerSupportsDeferredConvertListToArray_TypeDefinitionIndex = 5102;
+	inline static constexpr unsigned int NativeContainerSupportsDeferredConvertListToArray_TypeDefinitionIndex = 5101;
 
 	class NativeContainerSupportsDeferredConvertListToArray : public ::System::Attribute
 	{

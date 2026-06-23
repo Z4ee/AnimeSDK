@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MUSICGAMESCORETESTCASE_TEST_OFFSET UNITYSDK_OFFSET(0xF810D50)
-#define MUSICGAMESCORETESTCASE__CTOR_OFFSET UNITYSDK_OFFSET(0xF810E50)
+#define MUSICGAMESCORETESTCASE_TEST_OFFSET UNITYSDK_OFFSET(0xE871D80)
+#define MUSICGAMESCORETESTCASE__CTOR_OFFSET UNITYSDK_OFFSET(0xE871E80)
 
-inline static constexpr unsigned int MusicGameScoreTestCase_TypeDefinitionIndex = 70108;
+inline static constexpr unsigned int MusicGameScoreTestCase_TypeDefinitionIndex = 45914;
 
 class MusicGameScoreTestCase : public ::UnityEngine::MonoBehaviour
 {

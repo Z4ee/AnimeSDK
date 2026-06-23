@@ -3,7 +3,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Effect_ShaderRenderPass_TypeDefinitionIndex = 29652;
+	inline static constexpr unsigned int Effect_ShaderRenderPass_TypeDefinitionIndex = 26627;
 
 	enum class Effect_ShaderRenderPass : ::System::Int32
 	{

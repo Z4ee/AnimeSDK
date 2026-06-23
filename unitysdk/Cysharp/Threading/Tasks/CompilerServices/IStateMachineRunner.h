@@ -5,7 +5,7 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int IStateMachineRunner_TypeDefinitionIndex = 28836;
+	inline static constexpr unsigned int IStateMachineRunner_TypeDefinitionIndex = 31492;
 
 	class IStateMachineRunner
 	{

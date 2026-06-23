@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGINLEVELSCOREUIRATINGICONPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB8A0)
+#define MOLEMOLE_CONFIG_CONFIGINLEVELSCOREUIRATINGICONPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD5480)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInLevelScoreUIRatingIconPrefab_TypeDefinitionIndex = 56175;
+	inline static constexpr unsigned int ConfigInLevelScoreUIRatingIconPrefab_TypeDefinitionIndex = 39611;
 
 	class ConfigInLevelScoreUIRatingIconPrefab : public ::System::Object
 	{

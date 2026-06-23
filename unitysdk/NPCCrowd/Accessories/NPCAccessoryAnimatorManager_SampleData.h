@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_SAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3ABAA0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_SAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x40C5B0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimatorManager_SampleData_TypeDefinitionIndex = 75926;
+	inline static constexpr unsigned int NPCAccessoryAnimatorManager_SampleData_TypeDefinitionIndex = 86450;
 
 	struct alignas(4) NPCAccessoryAnimatorManager_SampleData
 	{

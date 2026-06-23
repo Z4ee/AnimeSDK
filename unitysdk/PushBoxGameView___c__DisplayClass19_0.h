@@ -6,10 +6,10 @@
 
 class PushBoxGameView;
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150A4230)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__GENCHESSBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x150A4240)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADA650)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__GENCHESSBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x1AADA660)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass19_0_TypeDefinitionIndex = 64658;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass19_0_TypeDefinitionIndex = 42720;
 
 class PushBoxGameView___c__DisplayClass19_0 : public ::System::Object
 {

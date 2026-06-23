@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Nap/NapECS/EcsWorldTimeline.h"
 
-#define NAP_NAPECS_SCALEDECSWORLDTIMELINE_CREATE_OFFSET UNITYSDK_OFFSET(0x192EBC40)
-#define NAP_NAPECS_SCALEDECSWORLDTIMELINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192EBE60)
-#define NAP_NAPECS_SCALEDECSWORLDTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x192ECF60)
+#define NAP_NAPECS_SCALEDECSWORLDTIMELINE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B30AB50)
+#define NAP_NAPECS_SCALEDECSWORLDTIMELINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B30AD50)
+#define NAP_NAPECS_SCALEDECSWORLDTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B30BE30)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ScaledEcsWorldTimeline_TypeDefinitionIndex = 35711;
+	inline static constexpr unsigned int ScaledEcsWorldTimeline_TypeDefinitionIndex = 37365;
 
 	class ScaledEcsWorldTimeline : public ::Nap::NapECS::EcsWorldTimeline
 	{

@@ -9,62 +9,62 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1B11C040)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1B11C0B0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXPITCH_OFFSET UNITYSDK_OFFSET(0x1B11C2C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXROLL_OFFSET UNITYSDK_OFFSET(0x1B11C580)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXYAW_OFFSET UNITYSDK_OFFSET(0x1B11C420)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINPITCH_OFFSET UNITYSDK_OFFSET(0x1B11C210)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINROLL_OFFSET UNITYSDK_OFFSET(0x1B11C4D0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINYAW_OFFSET UNITYSDK_OFFSET(0x1B11C370)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_RELATIVECLAMPSPACE_OFFSET UNITYSDK_OFFSET(0x1B11C630)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_RELATIVEROTATION_OFFSET UNITYSDK_OFFSET(0x1B11C6E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1B11C810)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B11C8B0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1B11C7C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1B11C8A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1B11C860)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B11DA00)
-#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11D990)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1D562780)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1D5627F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXPITCH_OFFSET UNITYSDK_OFFSET(0x1D562A00)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXROLL_OFFSET UNITYSDK_OFFSET(0x1D562CC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MAXYAW_OFFSET UNITYSDK_OFFSET(0x1D562B60)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINPITCH_OFFSET UNITYSDK_OFFSET(0x1D562950)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINROLL_OFFSET UNITYSDK_OFFSET(0x1D562C10)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_MINYAW_OFFSET UNITYSDK_OFFSET(0x1D562AB0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_RELATIVECLAMPSPACE_OFFSET UNITYSDK_OFFSET(0x1D562D70)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_FETCH_RELATIVEROTATION_OFFSET UNITYSDK_OFFSET(0x1D562E20)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1D562F50)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D562FF0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1D562F00)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1D562FE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1D562FA0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D564140)
+#define PIPELINECAMERA_CAMERASEQUENCE_CLAMPCAMERAEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5640D0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ClampCameraEuler_TypeDefinitionIndex = 36359;
+	inline static constexpr unsigned int ClampCameraEuler_TypeDefinitionIndex = 37967;
 
 	class ClampCameraEuler : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minRoll()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85A0);
-		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_relativeRotation()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85A8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A60);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxRoll()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minRoll()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85B0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minPitch()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85B8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxPitch()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A68);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minYaw()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85C8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A70);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_relativeClampSpace()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A78);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxPitch()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A80);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxYaw()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x85D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A88);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxRoll()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A90);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minPitch()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ClampCameraEuler_TypeDefinitionIndex)->GetStaticField(0x8A98);
 		}
 		::PipelineCamera::EulerRotationChannel channel; // 0x18
 		::System::Single minPitch; // 0x1C

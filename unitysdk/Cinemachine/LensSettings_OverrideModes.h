@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int LensSettings_OverrideModes_TypeDefinitionIndex = 32589;
+	inline static constexpr unsigned int LensSettings_OverrideModes_TypeDefinitionIndex = 34140;
 
 	enum class LensSettings_OverrideModes : ::System::Int32
 	{

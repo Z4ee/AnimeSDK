@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ScanType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCANTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF7FD660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCANTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF7A70F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanTypeParameter_TypeDefinitionIndex = 29883;
+	inline static constexpr unsigned int ScanTypeParameter_TypeDefinitionIndex = 26333;
 
 	class ScanTypeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ScanType>
 	{

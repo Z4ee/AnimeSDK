@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x178072F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17807410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x182D8220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x182D8340)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMuteMonsterHUDCurve_TypeDefinitionIndex = 47939;
+	inline static constexpr unsigned int LDMuteMonsterHUDCurve_TypeDefinitionIndex = 67245;
 
 	class LDMuteMonsterHUDCurve : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::Boolean>
 	{

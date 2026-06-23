@@ -3,7 +3,7 @@
 
 namespace Utf8Json::Internal::DoubleConversion
 {
-	inline static constexpr unsigned int DoubleToStringConverter_DtoaMode_TypeDefinitionIndex = 85689;
+	inline static constexpr unsigned int DoubleToStringConverter_DtoaMode_TypeDefinitionIndex = 91263;
 
 	enum class DoubleToStringConverter_DtoaMode : ::System::Int32
 	{

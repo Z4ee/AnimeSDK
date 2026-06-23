@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_E925F85B12317F3D.h"
+
+#define CLASS_2_E1406C3AA53DF0AD_METHOD_2_219F1A94B63A8139_OFFSET UNITYSDK_OFFSET(0x14605970)
+#define CLASS_2_E1406C3AA53DF0AD_METHOD_2_3A6603D1FA6170FE_OFFSET UNITYSDK_OFFSET(0x14605800)
+#define CLASS_2_E1406C3AA53DF0AD_METHOD_2_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x14605960)
+#define CLASS_2_E1406C3AA53DF0AD_METHOD_2_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x14605900)
+#define CLASS_2_E1406C3AA53DF0AD_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x146057F0)
+#define CLASS_2_E1406C3AA53DF0AD__CTOR_OFFSET UNITYSDK_OFFSET(0x146057B0)
+
+inline static constexpr unsigned int Class_2_E1406C3AA53DF0AD_TypeDefinitionIndex = 42933;
+
+class Class_2_E1406C3AA53DF0AD : public ::Class_1_E925F85B12317F3D
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_3A6603D1FA6170FE(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD_METHOD_2_3A6603D1FA6170FE_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_E876C8B6D3B840A6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD_METHOD_2_E876C8B6D3B840A6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7744894CEC41BF06()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD_METHOD_2_7744894CEC41BF06_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_219F1A94B63A8139(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E1406C3AA53DF0AD_METHOD_2_219F1A94B63A8139_OFFSET))(this, a1, a2);
+	}
+};

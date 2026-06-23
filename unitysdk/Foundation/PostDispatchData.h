@@ -6,11 +6,11 @@ namespace Foundation { class DesignDataPart; }
 namespace Foundation { class GameResPart; }
 namespace Foundation { class SilenceDataPart; }
 
-#define FOUNDATION_POSTDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAD9F0)
+#define FOUNDATION_POSTDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8DD0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PostDispatchData_TypeDefinitionIndex = 7960;
+	inline static constexpr unsigned int PostDispatchData_TypeDefinitionIndex = 8280;
 
 	class PostDispatchData : public ::System::Object
 	{

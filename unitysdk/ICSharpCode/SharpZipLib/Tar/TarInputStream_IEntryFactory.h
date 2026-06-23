@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace ICSharpCode::SharpZipLib::Tar
 {
-	inline static constexpr unsigned int TarInputStream_IEntryFactory_TypeDefinitionIndex = 6688;
+	inline static constexpr unsigned int TarInputStream_IEntryFactory_TypeDefinitionIndex = 6819;
 
 	class TarInputStream_IEntryFactory
 	{

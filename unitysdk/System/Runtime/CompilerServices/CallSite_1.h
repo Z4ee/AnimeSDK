@@ -6,7 +6,7 @@ namespace System::Runtime::CompilerServices { template <typename T> class CallSi
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallSite_1_TypeDefinitionIndex = 4954;
+	inline static constexpr unsigned int CallSite_1_TypeDefinitionIndex = 4953;
 
 	template <typename T>
 	class CallSite_1 : public ::System::Runtime::CompilerServices::CallSite

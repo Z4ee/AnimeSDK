@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CAMERAMODULEUPDOWNDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDB87200)
+#define MOLEMOLE_CAMERAMODULEUPDOWNDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x106AD020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleUpDownData_TypeDefinitionIndex = 68797;
+	inline static constexpr unsigned int CameraModuleUpDownData_TypeDefinitionIndex = 56781;
 
 	class CameraModuleUpDownData : public ::System::Object
 	{

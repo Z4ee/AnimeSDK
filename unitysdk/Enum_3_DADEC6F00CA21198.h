@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_DADEC6F00CA21198_TypeDefinitionIndex = 55376;
+inline static constexpr unsigned int Enum_3_DADEC6F00CA21198_TypeDefinitionIndex = 74571;
 
 enum class Enum_3_DADEC6F00CA21198 : ::System::Int32
 {
-	FeverAppear = 999,
-	Super = 2,
+	ClearAll = 5,
 	MultiClick = 1,
-	Bad = 3,
+	Super = 2,
+	FeverAppear = 999,
 	Fever = 4,
 	Normal = 0,
-	ClearAll = 5,
+	Bad = 3,
 };

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_SafeArea_TypeDefinitionIndex = 35056;
+	inline static constexpr unsigned int MHYSDKC_SafeArea_TypeDefinitionIndex = 36620;
 
 	class MHYSDKC_SafeArea : public ::System::Object
 	{

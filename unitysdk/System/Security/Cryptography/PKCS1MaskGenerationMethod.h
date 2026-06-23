@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS1MASKGENERATIONMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x193E3290)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS1MASKGENERATIONMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B2D50)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int PKCS1MaskGenerationMethod_TypeDefinitionIndex = 1077;
+	inline static constexpr unsigned int PKCS1MaskGenerationMethod_TypeDefinitionIndex = 1076;
 
 	class PKCS1MaskGenerationMethod : public ::System::Security::Cryptography::MaskGenerationMethod
 	{

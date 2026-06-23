@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class CanvasGroup; }
 
-#define UNITYENGINE_CANVASGROUPEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0x1B15D0B0)
-#define UNITYENGINE_CANVASGROUPEXTENSIONS_SAFESETBLOCKRAYCAST_OFFSET UNITYSDK_OFFSET(0x1B15D380)
+#define UNITYENGINE_CANVASGROUPEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0x1CB76530)
+#define UNITYENGINE_CANVASGROUPEXTENSIONS_SAFESETBLOCKRAYCAST_OFFSET UNITYSDK_OFFSET(0x1CB76800)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CanvasGroupExtensions_TypeDefinitionIndex = 38055;
+	inline static constexpr unsigned int CanvasGroupExtensions_TypeDefinitionIndex = 49849;
 
 	class CanvasGroupExtensions : public ::System::Object
 	{

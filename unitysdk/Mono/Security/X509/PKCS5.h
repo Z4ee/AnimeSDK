@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_PKCS5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19D430)
+#define MONO_SECURITY_X509_PKCS5__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DAE30)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int PKCS5_TypeDefinitionIndex = 2287;
+	inline static constexpr unsigned int PKCS5_TypeDefinitionIndex = 2286;
 
 	class PKCS5 : public ::System::Object
 	{

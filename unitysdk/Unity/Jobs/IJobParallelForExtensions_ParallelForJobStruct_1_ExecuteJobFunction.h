@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction_TypeDefinitionIndex = 5060;
+	inline static constexpr unsigned int IJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction_TypeDefinitionIndex = 5059;
 
 	template <typename T>
 	class IJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction : public ::System::MulticastDelegate

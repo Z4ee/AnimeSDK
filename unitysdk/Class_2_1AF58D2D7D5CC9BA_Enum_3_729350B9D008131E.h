@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_1AF58D2D7D5CC9BA_Enum_3_729350B9D008131E_TypeDefinitionIndex = 79527;
+inline static constexpr unsigned int Class_2_1AF58D2D7D5CC9BA_Enum_3_729350B9D008131E_TypeDefinitionIndex = 41008;
 
 enum class Class_2_1AF58D2D7D5CC9BA_Enum_3_729350B9D008131E : ::System::Int32
 {
-	Treasure = 6,
-	FreedomExplore = 11,
-	CollectItem = 8,
-	LocalAvatar = 1,
 	SubMainQuest = 4,
 	SideQuest = 3,
-	MainQuest = 2,
-	SubSideQuest = 5,
+	Treasure = 6,
+	LocalAvatar = 1,
 	TreasureFinish = 7,
 	Unknow = 0,
-	CollectItemFinish = 9,
+	MainQuest = 2,
 	WeeklyTask = 10,
+	CollectItemFinish = 9,
+	CollectItem = 8,
+	FreedomExplore = 11,
+	SubSideQuest = 5,
 };

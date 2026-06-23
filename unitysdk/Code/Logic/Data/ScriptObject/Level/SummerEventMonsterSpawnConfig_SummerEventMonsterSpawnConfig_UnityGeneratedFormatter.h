@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14BF9B30)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14BF9B40)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1009F340)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1009F4E0)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1009F4A0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16741100)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16741110)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x167412F0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16741490)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_SUMMEREVENTMONSTERSPAWNCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16741450)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 80766;
+	inline static constexpr unsigned int SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 85813;
 
 	class SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::Code::Logic::Data::ScriptObject::Level::SummerEventMonsterSpawnConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::Pattern*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::Pattern*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D970);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::Pattern*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3FEE0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::BeatMap*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::BeatMap*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D978);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::Level::BeatMap*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventMonsterSpawnConfig_SummerEventMonsterSpawnConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3FEE8);
 		}
 
 		::System::Void _ctor()

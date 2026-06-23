@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_UTF8JSONDYNAMICOBJECTRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5230C0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_UTF8JSONDYNAMICOBJECTRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8569B0)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_Utf8JsonDynamicObjectResolverException_TypeDefinitionIndex = 85577;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_Utf8JsonDynamicObjectResolverException_TypeDefinitionIndex = 91151;
 
 	class DynamicObjectTypeBuilder_Utf8JsonDynamicObjectResolverException : public ::System::Exception
 	{

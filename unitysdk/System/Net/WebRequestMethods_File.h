@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestMethods_File_TypeDefinitionIndex = 3359;
+	inline static constexpr unsigned int WebRequestMethods_File_TypeDefinitionIndex = 3358;
 
 	class WebRequestMethods_File : public ::System::Object
 	{

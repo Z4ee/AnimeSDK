@@ -11,20 +11,20 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_2_DEF0E57684940023_METHOD_2_1DFC139DDDA052D2_OFFSET UNITYSDK_OFFSET(0x1B5E5AA0)
-#define CLASS_2_DEF0E57684940023_METHOD_2_1F4F7952600B2FDA_OFFSET UNITYSDK_OFFSET(0x1B5E5A30)
-#define CLASS_2_DEF0E57684940023_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x1B5E59C0)
-#define CLASS_2_DEF0E57684940023__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5E57D0)
+#define CLASS_2_DEF0E57684940023_METHOD_2_1DFC139DDDA052D2_OFFSET UNITYSDK_OFFSET(0x1E546830)
+#define CLASS_2_DEF0E57684940023_METHOD_2_1F4F7952600B2FDA_OFFSET UNITYSDK_OFFSET(0x1E5467C0)
+#define CLASS_2_DEF0E57684940023_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x1E546750)
+#define CLASS_2_DEF0E57684940023__CTOR_OFFSET UNITYSDK_OFFSET(0x1E546560)
 
-inline static constexpr unsigned int Class_2_DEF0E57684940023_TypeDefinitionIndex = 9259;
+inline static constexpr unsigned int Class_2_DEF0E57684940023_TypeDefinitionIndex = 18531;
 
 class Class_2_DEF0E57684940023 : public ::Class_1_13586CBADB3B91B7
 {
 public:
 	::Class_2_F21834FAEFB228CB* Field_2_1; // 0x28
-	::Class_3_CC58CB58CA7EE5CF* Field_2_0; // 0x30
-	::System::Type* Field_2_3; // 0x38
-	::System::Collections::Generic::IList_1<::Class_2_7B173A84028F0757*>* Field_2_2; // 0x40
+	::System::Collections::Generic::IList_1<::Class_2_7B173A84028F0757*>* Field_2_2; // 0x30
+	::Class_3_CC58CB58CA7EE5CF* Field_2_0; // 0x38
+	::System::Type* Field_2_3; // 0x40
 
 	::System::Void _ctor(::Class_3_CC58CB58CA7EE5CF* a1, ::Class_1_B353AD2F4C8AD4F8* a2, ::Class_2_F21834FAEFB228CB* a3, ::System::Int32 a4, ::System::Type* a5)
 	{

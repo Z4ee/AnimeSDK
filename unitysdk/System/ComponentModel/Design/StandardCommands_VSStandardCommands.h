@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int StandardCommands_VSStandardCommands_TypeDefinitionIndex = 3094;
+	inline static constexpr unsigned int StandardCommands_VSStandardCommands_TypeDefinitionIndex = 3093;
 
 	class StandardCommands_VSStandardCommands : public ::System::Object
 	{

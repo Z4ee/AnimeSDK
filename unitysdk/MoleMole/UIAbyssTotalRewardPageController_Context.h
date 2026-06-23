@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSTOTALREWARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3BDB0)
+#define MOLEMOLE_UIABYSSTOTALREWARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1864D5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssTotalRewardPageController_Context_TypeDefinitionIndex = 81515;
+	inline static constexpr unsigned int UIAbyssTotalRewardPageController_Context_TypeDefinitionIndex = 84751;
 
 	class UIAbyssTotalRewardPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

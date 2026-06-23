@@ -6,7 +6,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_1_TypeDefinitionIndex = 25794;
+	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_1_TypeDefinitionIndex = 28088;
 
 	template <typename T>
 	struct NotifyCollectionChangedEventArgs_1

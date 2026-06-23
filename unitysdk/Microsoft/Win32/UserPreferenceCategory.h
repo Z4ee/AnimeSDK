@@ -3,7 +3,7 @@
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int UserPreferenceCategory_TypeDefinitionIndex = 4310;
+	inline static constexpr unsigned int UserPreferenceCategory_TypeDefinitionIndex = 4309;
 
 	enum class UserPreferenceCategory : ::System::Int32
 	{

@@ -8,22 +8,22 @@ class Class_3_CB5FEA0F6B413476;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKBUDDYFIGHTMODE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1751E4C0)
-#define MOLEMOLE_CHECKBUDDYFIGHTMODE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1751E680)
-#define MOLEMOLE_CHECKBUDDYFIGHTMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1751E6E0)
-#define MOLEMOLE_CHECKBUDDYFIGHTMODE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1751E770)
-#define MOLEMOLE_CHECKBUDDYFIGHTMODE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1751E800)
+#define MOLEMOLE_CHECKBUDDYFIGHTMODE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x144C7ED0)
+#define MOLEMOLE_CHECKBUDDYFIGHTMODE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144C8090)
+#define MOLEMOLE_CHECKBUDDYFIGHTMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x144C80F0)
+#define MOLEMOLE_CHECKBUDDYFIGHTMODE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x144C8180)
+#define MOLEMOLE_CHECKBUDDYFIGHTMODE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144C8210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckBuddyFightMode_TypeDefinitionIndex = 51323;
+	inline static constexpr unsigned int CheckBuddyFightMode_TypeDefinitionIndex = 65565;
 
 	class CheckBuddyFightMode : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::MoleMole::Battle::Entity* _ownerEntity; // 0x50
-		::Class_3_CB5FEA0F6B413476* _buddyFightModeComponent; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::Class_3_CB5FEA0F6B413476* _buddyFightModeComponent; // 0x60
 		::MoleMole::Config::BuddyFightModeType TargetFightMode; // 0x68
 
 		::System::Void _ctor()

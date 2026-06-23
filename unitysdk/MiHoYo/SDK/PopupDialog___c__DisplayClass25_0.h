@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class PopupDialog; }
 namespace MiHoYo::SDK { class PopupDialog_OnSelectedDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_POPUPDIALOG___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A51C830)
-#define MIHOYO_SDK_POPUPDIALOG___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A51C840)
+#define MIHOYO_SDK_POPUPDIALOG___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE616D0)
+#define MIHOYO_SDK_POPUPDIALOG___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BE616E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopupDialog___c__DisplayClass25_0_TypeDefinitionIndex = 18877;
+	inline static constexpr unsigned int PopupDialog___c__DisplayClass25_0_TypeDefinitionIndex = 19773;
 
 	class PopupDialog___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::String* content; // 0x10
+		::MiHoYo::SDK::PopupDialog_OnSelectedDelegate* callback; // 0x10
 		::System::String* bottomButtonTitle; // 0x18
-		::MiHoYo::SDK::PopupDialog_OnSelectedDelegate* callback; // 0x20
+		::System::String* content; // 0x20
 		::System::String* topButtonTitle; // 0x28
 		::System::Boolean isShowBottom; // 0x30
 

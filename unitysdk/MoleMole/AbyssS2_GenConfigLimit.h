@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_GenConfigLimit_TypeDefinitionIndex = 82328;
+	inline static constexpr unsigned int AbyssS2_GenConfigLimit_TypeDefinitionIndex = 85683;
 
 	struct alignas(4) AbyssS2_GenConfigLimit
 	{

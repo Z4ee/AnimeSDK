@@ -4,21 +4,21 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19BAD4A0)
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19BAD520)
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_GET_RECOMMENDEDASCONFIGURABLE_OFFSET UNITYSDK_OFFSET(0x19BAD490)
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19BAD530)
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BAD540)
-#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAD480)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0703E0)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C070460)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_GET_RECOMMENDEDASCONFIGURABLE_OFFSET UNITYSDK_OFFSET(0x1C0703D0)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C070470)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C070480)
+#define SYSTEM_COMPONENTMODEL_RECOMMENDEDASCONFIGURABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0703C0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int RecommendedAsConfigurableAttribute_TypeDefinitionIndex = 2968;
+	inline static constexpr unsigned int RecommendedAsConfigurableAttribute_TypeDefinitionIndex = 2967;
 
 	class RecommendedAsConfigurableAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::RecommendedAsConfigurableAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::RecommendedAsConfigurableAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::RecommendedAsConfigurableAttribute**)Il2CppClass::FromTypeDefinitionIndex(RecommendedAsConfigurableAttribute_TypeDefinitionIndex)->GetStaticField(0x39D0);
 		}
@@ -26,7 +26,7 @@ namespace System::ComponentModel
 		{
 			return (::System::ComponentModel::RecommendedAsConfigurableAttribute**)Il2CppClass::FromTypeDefinitionIndex(RecommendedAsConfigurableAttribute_TypeDefinitionIndex)->GetStaticField(0x39D8);
 		}
-		static ::System::ComponentModel::RecommendedAsConfigurableAttribute** StaticGet_No()
+		static ::System::ComponentModel::RecommendedAsConfigurableAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::RecommendedAsConfigurableAttribute**)Il2CppClass::FromTypeDefinitionIndex(RecommendedAsConfigurableAttribute_TypeDefinitionIndex)->GetStaticField(0x39E0);
 		}

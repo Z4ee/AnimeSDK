@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x661410)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISMULTIPLE_OFFSET UNITYSDK_OFFSET(0x68E180)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x68E120)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x68E1E0)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4F3420)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x6DBDC0)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISMULTIPLE_OFFSET UNITYSDK_OFFSET(0x6DBC90)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x6DBC30)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x6DBCF0)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_STATEMACHINESTATEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A02270)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int StateMachineStateIdentifier_TypeDefinitionIndex = 53886;
+	inline static constexpr unsigned int StateMachineStateIdentifier_TypeDefinitionIndex = 83973;
 
 	struct alignas(4) StateMachineStateIdentifier
 	{
 		static ::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier* StaticGet_Null()
 		{
-			return (::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier*)Il2CppClass::FromTypeDefinitionIndex(StateMachineStateIdentifier_TypeDefinitionIndex)->GetStaticField(0xFB50);
+			return (::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier*)Il2CppClass::FromTypeDefinitionIndex(StateMachineStateIdentifier_TypeDefinitionIndex)->GetStaticField(0x104D0);
 		}
 		static ::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier* StaticGet_Multiple()
 		{
-			return (::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier*)Il2CppClass::FromTypeDefinitionIndex(StateMachineStateIdentifier_TypeDefinitionIndex)->GetStaticField(0xFB54);
+			return (::NPCCrowd::Animation::CPUStateMachine::StateMachineStateIdentifier*)Il2CppClass::FromTypeDefinitionIndex(StateMachineStateIdentifier_TypeDefinitionIndex)->GetStaticField(0x104D4);
 		}
 		::System::Int32 stateIndex; // 0x10
 

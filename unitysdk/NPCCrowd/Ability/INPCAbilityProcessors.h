@@ -6,7 +6,7 @@ namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int INPCAbilityProcessors_TypeDefinitionIndex = 38858;
+	inline static constexpr unsigned int INPCAbilityProcessors_TypeDefinitionIndex = 80733;
 
 	class INPCAbilityProcessors
 	{

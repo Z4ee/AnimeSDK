@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_CINEMACHINESTATEDRIVENCAMERA_PARENTHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x293FB0)
+#define CINEMACHINE_CINEMACHINESTATEDRIVENCAMERA_PARENTHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStateDrivenCamera_ParentHash_TypeDefinitionIndex = 32493;
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_ParentHash_TypeDefinitionIndex = 34044;
 
 	struct alignas(4) CinemachineStateDrivenCamera_ParentHash
 	{

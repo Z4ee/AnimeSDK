@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_4385C14088733CE3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x118DB840)
+#define CLASS_1_4385C14088733CE3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A827770)
 
-inline static constexpr unsigned int Class_1_4385C14088733CE3_2_TypeDefinitionIndex = 68757;
+inline static constexpr unsigned int Class_1_4385C14088733CE3_2_TypeDefinitionIndex = 55871;
 
 class Class_1_4385C14088733CE3_2 : public ::System::Object
 {

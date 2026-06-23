@@ -5,12 +5,12 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLNULLVALUEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195C1DC0)
-#define SYSTEM_DATA_SQLTYPES_SQLNULLVALUEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x195C1CF0)
+#define SYSTEM_DATA_SQLTYPES_SQLNULLVALUEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B9A4730)
+#define SYSTEM_DATA_SQLTYPES_SQLNULLVALUEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A4660)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlNullValueException_TypeDefinitionIndex = 37112;
+	inline static constexpr unsigned int SqlNullValueException_TypeDefinitionIndex = 38729;
 
 	class SqlNullValueException : public ::System::Data::SqlTypes::SqlTypeException
 	{

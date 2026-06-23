@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ThreadPriorityLevel_TypeDefinitionIndex = 2802;
+	inline static constexpr unsigned int ThreadPriorityLevel_TypeDefinitionIndex = 2801;
 
 	enum class ThreadPriorityLevel : ::System::Int32
 	{

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapRendererFlags_TypeDefinitionIndex = 29593;
+inline static constexpr unsigned int NapRendererFlags_TypeDefinitionIndex = 27199;
 
 enum class NapRendererFlags : ::System::UInt32
 {
-	SupportNapCB = 0x1,
-	SupportPerObjectShadow = 0x2,
+	HasShadowProxyMaterial = 0x8000,
+	IsAlive = 0x1000,
 	PerRendererSetterIllegal = 0x4,
+	SupportPartIDs = 0x10000,
+	IsHairShadow = 0x40,
+	IsVisible = 0x800,
+	HasUiMaterial = 0x80,
 	IsInstancing = 0x8,
 	SkipClearMpb = 0x10,
-	IsAvatarParticle = 0x20,
-	IsHairShadow = 0x40,
-	HasUiMaterial = 0x80,
-	PropertyModeMaterial = 0x100,
-	DisableCascadeShadow = 0x200,
-	IsVisible = 0x800,
-	IsAlive = 0x1000,
-	SkipRenderingLayerMaskCollection = 0x2000,
 	IsVisibleInCurrentCam = 0x4000,
-	HasShadowProxyMaterial = 0x8000,
-	SupportPartIDs = 0x10000,
+	SupportPerObjectShadow = 0x2,
+	IsAvatarParticle = 0x20,
+	PropertyModeMaterial = 0x100,
+	SkipRenderingLayerMaskCollection = 0x2000,
+	SupportNapCB = 0x1,
+	DisableCascadeShadow = 0x200,
 };

@@ -5,9 +5,9 @@
 namespace MoleMole { class UIBangkovItemInfoWidgetController_Context; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_61933880828D8052_CLASS_1_B2F66269C73AA59D__CTOR_OFFSET UNITYSDK_OFFSET(0x11AEF220)
+#define CLASS_1_61933880828D8052_CLASS_1_B2F66269C73AA59D__CTOR_OFFSET UNITYSDK_OFFSET(0x13D8CE40)
 
-inline static constexpr unsigned int Class_1_61933880828D8052_Class_1_B2F66269C73AA59D_TypeDefinitionIndex = 62685;
+inline static constexpr unsigned int Class_1_61933880828D8052_Class_1_B2F66269C73AA59D_TypeDefinitionIndex = 44538;
 
 class Class_1_61933880828D8052_Class_1_B2F66269C73AA59D : public ::System::Object
 {

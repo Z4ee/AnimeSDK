@@ -10,27 +10,27 @@ namespace MoleMole { class UIControlCollection; }
 namespace MoleMole { class UIGeneralItemBtnWidgetController; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-template <typename T> class Class_3_30A064D7BE47C07D;
+template <typename T> class Class_3_6F805C3FA3D1D41D;
 
-#define CLASS_2_8A3CFA0B02434172_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x10FA2B80)
-#define CLASS_2_8A3CFA0B02434172_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10FA2C50)
-#define CLASS_2_8A3CFA0B02434172_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x10FA2920)
-#define CLASS_2_8A3CFA0B02434172__CTOR_OFFSET UNITYSDK_OFFSET(0x10FA2C40)
+#define CLASS_2_8A3CFA0B02434172_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x15168CA0)
+#define CLASS_2_8A3CFA0B02434172_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15168D70)
+#define CLASS_2_8A3CFA0B02434172_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x15168A40)
+#define CLASS_2_8A3CFA0B02434172__CTOR_OFFSET UNITYSDK_OFFSET(0x15168D60)
 
-inline static constexpr unsigned int Class_2_8A3CFA0B02434172_TypeDefinitionIndex = 41720;
+inline static constexpr unsigned int Class_2_8A3CFA0B02434172_TypeDefinitionIndex = 71090;
 
 class Class_2_8A3CFA0B02434172 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x20
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralItemBtnWidgetController*>* Field_2_5; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x30
-	::UnityEngine::RectTransform* Field_2_1; // 0x38
-	::MonoUITableScrollV2* Field_2_4; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x50
-	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x58
+	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x18
+	::MonoUITableScrollV2* Field_2_4; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
+	::UnityEngine::RectTransform* Field_2_1; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x48
+	::Class_3_6F805C3FA3D1D41D<::MoleMole::UIGeneralItemBtnWidgetController*>* Field_2_5; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x58
 
 	::System::Void _ctor()
 	{

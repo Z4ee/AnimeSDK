@@ -7,54 +7,54 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15576440)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15576480)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITANDPLAYVIDEO_B__19_1_OFFSET UNITYSDK_OFFSET(0x155769E0)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITVIEW_B__11_1_OFFSET UNITYSDK_OFFSET(0x15576490)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITVIEW_B__11_4_OFFSET UNITYSDK_OFFSET(0x155765C0)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_1_OFFSET UNITYSDK_OFFSET(0x155766E0)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_2_OFFSET UNITYSDK_OFFSET(0x15576800)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_3_OFFSET UNITYSDK_OFFSET(0x155768E0)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_4_OFFSET UNITYSDK_OFFSET(0x155769C0)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x178B45C0)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x178B4600)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITANDPLAYVIDEO_B__19_1_OFFSET UNITYSDK_OFFSET(0x178B4B60)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITVIEW_B__11_1_OFFSET UNITYSDK_OFFSET(0x178B4610)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__INITVIEW_B__11_4_OFFSET UNITYSDK_OFFSET(0x178B4740)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_1_OFFSET UNITYSDK_OFFSET(0x178B4860)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_2_OFFSET UNITYSDK_OFFSET(0x178B4980)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_3_OFFSET UNITYSDK_OFFSET(0x178B4A60)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__REFRESHVIEW_B__14_4_OFFSET UNITYSDK_OFFSET(0x178B4B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeMainPageController___c_TypeDefinitionIndex = 39373;
+	inline static constexpr unsigned int UIMiniscapeMainPageController___c_TypeDefinitionIndex = 42264;
 
 	class UIMiniscapeMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__14_4()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0B0);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_1()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0B8);
-		}
-		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__19_1()
-		{
-			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0C0);
-		}
-		static ::System::Action** StaticGet___9__11_4()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0C8);
-		}
 		static ::System::Action** StaticGet___9__14_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0D0);
-		}
-		static ::System::Action** StaticGet___9__14_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F40);
 		}
 		static ::MoleMole::UIMiniscapeMainPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMiniscapeMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0E0);
+			return (::MoleMole::UIMiniscapeMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F48);
+		}
+		static ::System::Action** StaticGet___9__11_4()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F50);
 		}
 		static ::System::Action** StaticGet___9__14_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2F0E8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F58);
+		}
+		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__19_1()
+		{
+			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F60);
+		}
+		static ::System::Action** StaticGet___9__14_4()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F68);
+		}
+		static ::System::Action** StaticGet___9__14_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F70);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_1()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F78);
 		}
 
 		static ::System::Void _cctor()

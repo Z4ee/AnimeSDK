@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOMAINCITYNPCMOVEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1235E230)
+#define MOLEMOLE_MONOMAINCITYNPCMOVEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13F13990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMainCityNpcMoveInspector_TypeDefinitionIndex = 74213;
+	inline static constexpr unsigned int MonoMainCityNpcMoveInspector_TypeDefinitionIndex = 84821;
 
 	class MonoMainCityNpcMoveInspector : public ::UnityEngine::MonoBehaviour
 	{

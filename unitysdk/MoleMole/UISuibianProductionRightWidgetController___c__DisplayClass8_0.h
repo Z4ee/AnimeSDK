@@ -5,18 +5,18 @@
 class Class_2_A5B92B06961D21AB;
 namespace MoleMole { class UISuibianProductionRightWidgetController; }
 
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11B6EB40)
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x11B6EB50)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA5F80)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x17BA5F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 62883;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 72760;
 
 	class UISuibianProductionRightWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianProductionRightWidgetController* __4__this; // 0x10
-		::Class_2_A5B92B06961D21AB* benchData; // 0x18
+		::Class_2_A5B92B06961D21AB* benchData; // 0x10
+		::MoleMole::UISuibianProductionRightWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

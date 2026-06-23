@@ -6,11 +6,11 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIEQUIPDETAILSTORYDETAILTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED7070)
+#define MOLEMOLE_UIEQUIPDETAILSTORYDETAILTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175D07F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDetailStoryDetailTipsContext_TypeDefinitionIndex = 39495;
+	inline static constexpr unsigned int UIEquipDetailStoryDetailTipsContext_TypeDefinitionIndex = 65499;
 
 	class UIEquipDetailStoryDetailTipsContext : public ::MoleMole::UIControllerContextBase
 	{

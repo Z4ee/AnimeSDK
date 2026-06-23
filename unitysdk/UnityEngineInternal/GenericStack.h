@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Stack.h"
 
-#define UNITYENGINEINTERNAL_GENERICSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0CA710)
+#define UNITYENGINEINTERNAL_GENERICSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5005E0)
 
 namespace UnityEngineInternal
 {
-	inline static constexpr unsigned int GenericStack_TypeDefinitionIndex = 5046;
+	inline static constexpr unsigned int GenericStack_TypeDefinitionIndex = 5045;
 
 	class GenericStack : public ::System::Collections::Stack
 	{

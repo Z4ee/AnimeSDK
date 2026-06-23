@@ -5,25 +5,25 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_NET_CREDENTIALKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B1EA870)
-#define SYSTEM_NET_CREDENTIALKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1EA790)
-#define SYSTEM_NET_CREDENTIALKEY_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1B1EA4B0)
-#define SYSTEM_NET_CREDENTIALKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1B1EA410)
-#define SYSTEM_NET_CREDENTIALKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B1EA910)
-#define SYSTEM_NET_CREDENTIALKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1EA3C0)
+#define SYSTEM_NET_CREDENTIALKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D5D2350)
+#define SYSTEM_NET_CREDENTIALKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D5D2270)
+#define SYSTEM_NET_CREDENTIALKEY_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1D5D1F90)
+#define SYSTEM_NET_CREDENTIALKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1D5D1EF0)
+#define SYSTEM_NET_CREDENTIALKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D5D23F0)
+#define SYSTEM_NET_CREDENTIALKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D1EA0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CredentialKey_TypeDefinitionIndex = 3270;
+	inline static constexpr unsigned int CredentialKey_TypeDefinitionIndex = 3269;
 
 	class CredentialKey : public ::System::Object
 	{
 	public:
-		::System::String* AuthenticationType; // 0x10
-		::System::Uri* UriPrefix; // 0x18
-		::System::Int32 m_HashCode; // 0x20
+		::System::Uri* UriPrefix; // 0x10
+		::System::String* AuthenticationType; // 0x18
+		::System::Boolean m_ComputedHashCode; // 0x20
 		::System::Int32 UriPrefixLength; // 0x24
-		::System::Boolean m_ComputedHashCode; // 0x28
+		::System::Int32 m_HashCode; // 0x28
 
 		::System::Void _ctor(::System::Uri* uriPrefix, ::System::String* authenticationType)
 		{

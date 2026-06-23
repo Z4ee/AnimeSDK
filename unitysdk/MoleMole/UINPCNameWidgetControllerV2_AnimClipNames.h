@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINPCNameWidgetControllerV2_AnimClipNames_TypeDefinitionIndex = 63051;
+	inline static constexpr unsigned int UINPCNameWidgetControllerV2_AnimClipNames_TypeDefinitionIndex = 43125;
 
 	class UINPCNameWidgetControllerV2_AnimClipNames : public ::System::Object
 	{

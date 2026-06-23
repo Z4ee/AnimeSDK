@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_X509STORES_NAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B53A0)
+#define MONO_SECURITY_X509_X509STORES_NAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FCE50)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X509Stores_Names_TypeDefinitionIndex = 2308;
+	inline static constexpr unsigned int X509Stores_Names_TypeDefinitionIndex = 2307;
 
 	class X509Stores_Names : public ::System::Object
 	{

@@ -10,11 +10,11 @@ namespace MoleMole { class MatKeyWordFaderByIndex; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_GET_FULLYCACHED_OFFSET UNITYSDK_OFFSET(0x7D1680)
+#define MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_GET_FULLYCACHED_OFFSET UNITYSDK_OFFSET(0x8194A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectRuntimeDataCache_TypeDefinitionIndex = 52045;
+	inline static constexpr unsigned int MonoEffectRuntimeDataCache_TypeDefinitionIndex = 79421;
 
 	struct alignas(8) MonoEffectRuntimeDataCache
 	{

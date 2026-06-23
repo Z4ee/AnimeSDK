@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EAnimatorType_TypeDefinitionIndex = 16101;
+	inline static constexpr unsigned int EAnimatorType_TypeDefinitionIndex = 12170;
 
 	enum class EAnimatorType : ::System::Int16
 	{
-		Float = 3,
-		Bool = 1,
 		Int = 0,
+		Float = 3,
 		Trigger = 2,
+		Bool = 1,
 	};
 }

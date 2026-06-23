@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int FreezedList_1_TypeDefinitionIndex = 25695;
+	inline static constexpr unsigned int FreezedList_1_TypeDefinitionIndex = 28300;
 
 	template <typename T>
 	class FreezedList_1 : public ::System::Object

@@ -9,11 +9,11 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0B610)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricCloudConfig_TypeDefinitionIndex = 29971;
+	inline static constexpr unsigned int VolumetricCloudConfig_TypeDefinitionIndex = 26887;
 
 	class VolumetricCloudConfig : public ::System::Object
 	{

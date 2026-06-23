@@ -4,12 +4,12 @@
 
 namespace System::Reflection { class PropertyInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES___C__DISPLAYCLASS5_0__CREATEWEAKINSTANCEPROPERTYGETTER_B__0_OFFSET UNITYSDK_OFFSET(0x1C502520)
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C502510)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES___C__DISPLAYCLASS5_0__CREATEWEAKINSTANCEPROPERTYGETTER_B__0_OFFSET UNITYSDK_OFFSET(0x1E8351D0)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8351C0)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int EmitUtilities___c__DisplayClass5_0_TypeDefinitionIndex = 7512;
+	inline static constexpr unsigned int EmitUtilities___c__DisplayClass5_0_TypeDefinitionIndex = 7644;
 
 	class EmitUtilities___c__DisplayClass5_0 : public ::System::Object
 	{

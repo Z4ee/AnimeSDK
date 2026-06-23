@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/AttributeTargets.h"
 
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1A972EC0)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET UNITYSDK_OFFSET(0x1A972ED0)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A972EE0)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A972EB0)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1CD82820)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET UNITYSDK_OFFSET(0x1CD82830)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD82840)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD82810)
 
 namespace System
 {
@@ -19,8 +19,8 @@ namespace System
 		{
 			return (::System::AttributeUsageAttribute**)Il2CppClass::FromTypeDefinitionIndex(AttributeUsageAttribute_TypeDefinitionIndex)->GetStaticField(0x1310);
 		}
-		::System::Boolean m_inherited; // 0x10
-		::System::Boolean m_allowMultiple; // 0x11
+		::System::Boolean m_allowMultiple; // 0x10
+		::System::Boolean m_inherited; // 0x11
 		::System::AttributeTargets m_attributeTarget; // 0x14
 
 		::System::Void _ctor(::System::AttributeTargets validOn)

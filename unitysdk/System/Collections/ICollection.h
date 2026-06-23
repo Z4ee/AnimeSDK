@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int ICollection_TypeDefinitionIndex = 1466;
+	inline static constexpr unsigned int ICollection_TypeDefinitionIndex = 1465;
 
 	class ICollection
 	{

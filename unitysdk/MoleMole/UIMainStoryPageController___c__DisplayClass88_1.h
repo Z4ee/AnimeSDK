@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIMainStoryPageController___c__DisplayClass88_0; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1483F170)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1693E970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_1_TypeDefinitionIndex = 56273;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_1_TypeDefinitionIndex = 76832;
 
 	class UIMainStoryPageController___c__DisplayClass88_1 : public ::System::Object
 	{

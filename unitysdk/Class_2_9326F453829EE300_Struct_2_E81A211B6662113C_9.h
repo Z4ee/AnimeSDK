@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_2_9326F453829EE300_Struct_2_E81A211B6662113C_9_TypeDefinitionIndex = 85436;
+inline static constexpr unsigned int Class_2_9326F453829EE300_Struct_2_E81A211B6662113C_9_TypeDefinitionIndex = 90965;
 
 struct alignas(4) Class_2_9326F453829EE300_Struct_2_E81A211B6662113C_9
 {

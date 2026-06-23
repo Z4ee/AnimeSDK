@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71EC4C1B01D4407F.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+#include "unitysdk/Struct_2_F213AC3D3FBF57B9_1.h"
 
-class Class_1_C9DFE5EE7107C629_1;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_237;
+class Class_0_16E4307DCC419505_238;
+class Class_0_16E4307DCC419505_239;
+class Class_0_16E4307DCC419505_240;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_236_TypeDefinitionIndex = 45854;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_236_TypeDefinitionIndex = 41568;
 
 class Class_0_16E4307DCC419505_236
 {

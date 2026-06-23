@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int SearchFilterOptions_TypeDefinitionIndex = 7267;
+	inline static constexpr unsigned int SearchFilterOptions_TypeDefinitionIndex = 7398;
 
 	enum class SearchFilterOptions : ::System::Int32
 	{

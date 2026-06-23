@@ -5,9 +5,9 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define STRUCT_2_A47ACAABA9AAFE92_CLASS_1_DCC59BCEA1E48F85__CCTOR_OFFSET UNITYSDK_OFFSET(0x11F5E010)
+#define STRUCT_2_A47ACAABA9AAFE92_CLASS_1_DCC59BCEA1E48F85__CCTOR_OFFSET UNITYSDK_OFFSET(0x12EAB020)
 
-inline static constexpr unsigned int Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85_TypeDefinitionIndex = 53275;
+inline static constexpr unsigned int Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85_TypeDefinitionIndex = 62680;
 
 class Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85 : public ::System::Object
 {

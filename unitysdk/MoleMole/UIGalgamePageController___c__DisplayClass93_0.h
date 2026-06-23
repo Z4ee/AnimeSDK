@@ -7,22 +7,22 @@ namespace MoleMole { class UIGalgamePageController_AvatarDisplaySetting; }
 namespace MoleMole::GalGame { class GalPlaySubStoryNode; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15807500)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__0_OFFSET UNITYSDK_OFFSET(0x15807910)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x15807510)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0x15807790)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166E8EC0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__0_OFFSET UNITYSDK_OFFSET(0x166E92D0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x166E8ED0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_0__PLAYSUBSTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0x166E9150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass93_0_TypeDefinitionIndex = 41777;
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass93_0_TypeDefinitionIndex = 54912;
 
 	class UIGalgamePageController___c__DisplayClass93_0 : public ::System::Object
 	{
 	public:
 		::System::String* facialKey; // 0x10
-		::System::String* poseKey; // 0x18
-		::MoleMole::GalGame::GalPlaySubStoryNode* galConfigNode; // 0x20
-		::MoleMole::UIGalgamePageController* __4__this; // 0x28
+		::MoleMole::GalGame::GalPlaySubStoryNode* galConfigNode; // 0x18
+		::MoleMole::UIGalgamePageController* __4__this; // 0x20
+		::System::String* poseKey; // 0x28
 		::MoleMole::UIGalgamePageController_AvatarDisplaySetting* avatarSetting; // 0x30
 		::System::Int32 locationKey; // 0x38
 

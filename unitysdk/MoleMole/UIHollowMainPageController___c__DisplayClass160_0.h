@@ -6,22 +6,22 @@ class Class_1_B3706231660ADCDD_2;
 class Class_2_F5737224A0253470;
 namespace MoleMole { class UIHollowMainPageController; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163FA650)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__ONPUNISHOVERLOAD_G__AFTERPERFORM_1_OFFSET UNITYSDK_OFFSET(0x163FA720)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__ONPUNISHOVERLOAD_G__BEFOREPERFORM_0_OFFSET UNITYSDK_OFFSET(0x163FA660)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18884FC0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__ONPUNISHOVERLOAD_G__AFTERPERFORM_1_OFFSET UNITYSDK_OFFSET(0x188AF3F0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS160_0__ONPUNISHOVERLOAD_G__BEFOREPERFORM_0_OFFSET UNITYSDK_OFFSET(0x18885220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass160_0_TypeDefinitionIndex = 44932;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass160_0_TypeDefinitionIndex = 78287;
 
 	class UIHollowMainPageController___c__DisplayClass160_0 : public ::System::Object
 	{
 	public:
-		::Class_2_F5737224A0253470* hollowModel; // 0x10
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x10
+		::Class_2_F5737224A0253470* hollowModel; // 0x18
 		::Class_1_B3706231660ADCDD_2* data; // 0x20
-		::System::Boolean maxState; // 0x28
-		::System::Int32 curseCount; // 0x2C
+		::System::Int32 curseCount; // 0x28
+		::System::Boolean maxState; // 0x2C
 
 		::System::Void _ctor()
 		{

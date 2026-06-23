@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MDB_SupplyAnimType_TypeDefinitionIndex = 37662;
+	inline static constexpr unsigned int MDB_SupplyAnimType_TypeDefinitionIndex = 39288;
 
 	enum class MDB_SupplyAnimType : ::System::Int32
 	{

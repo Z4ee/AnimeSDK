@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATNPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13834F50)
+#define MOLEMOLE_GALGAME_MAINCITYCHATNPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAD0D0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatNPCActionBase_TypeDefinitionIndex = 50167;
+	inline static constexpr unsigned int MainCityChatNPCActionBase_TypeDefinitionIndex = 65886;
 
 	class MainCityChatNPCActionBase : public ::MoleMole::GalGame::MainCityChatActionBase
 	{

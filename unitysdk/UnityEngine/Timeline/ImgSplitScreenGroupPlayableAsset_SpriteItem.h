@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_SubSpriteItem; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4483F0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E757D10)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SpriteItem_TypeDefinitionIndex = 30798;
+	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SpriteItem_TypeDefinitionIndex = 32349;
 
 	class ImgSplitScreenGroupPlayableAsset_SpriteItem : public ::System::Object
 	{

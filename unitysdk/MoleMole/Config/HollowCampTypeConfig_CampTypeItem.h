@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/HollowEntityConfig_TeamRelationship.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_HOLLOWCAMPTYPECONFIG_CAMPTYPEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x123192E0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMPTYPECONFIG_CAMPTYPEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6A6A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCampTypeConfig_CampTypeItem_TypeDefinitionIndex = 64369;
+	inline static constexpr unsigned int HollowCampTypeConfig_CampTypeItem_TypeDefinitionIndex = 62568;
 
 	class HollowCampTypeConfig_CampTypeItem : public ::System::Object
 	{

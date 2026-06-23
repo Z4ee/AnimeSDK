@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int TransmitFileOptions_TypeDefinitionIndex = 3675;
+	inline static constexpr unsigned int TransmitFileOptions_TypeDefinitionIndex = 3674;
 
 	enum class TransmitFileOptions : ::System::Int32
 	{

@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityCausticsEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x12307310)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x17D51F30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCausticsEffects_TypeDefinitionIndex = 59251;
+	inline static constexpr unsigned int ConfigEntityCausticsEffects_TypeDefinitionIndex = 48016;
 
 	class ConfigEntityCausticsEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ConfigEntityAttackProperty; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYUNDERLYINGANIMEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0xFB041B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYUNDERLYINGANIMEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0xE96A560)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityUnderlyingAnimEvents_TypeDefinitionIndex = 46450;
+	inline static constexpr unsigned int ConfigEntityUnderlyingAnimEvents_TypeDefinitionIndex = 55243;
 
 	class ConfigEntityUnderlyingAnimEvents : public ::Foundation::MihoyoSerializedScriptableObject
 	{

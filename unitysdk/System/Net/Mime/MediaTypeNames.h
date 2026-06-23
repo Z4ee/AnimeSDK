@@ -4,7 +4,7 @@
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int MediaTypeNames_TypeDefinitionIndex = 3637;
+	inline static constexpr unsigned int MediaTypeNames_TypeDefinitionIndex = 3636;
 
 	class MediaTypeNames : public ::System::Object
 	{

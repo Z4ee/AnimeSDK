@@ -6,7 +6,7 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ITextElement_TypeDefinitionIndex = 37575;
+	inline static constexpr unsigned int ITextElement_TypeDefinitionIndex = 39201;
 
 	class ITextElement
 	{

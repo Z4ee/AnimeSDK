@@ -6,7 +6,7 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int Class_1_6BD20D88FC4AB46A_Class_3_B6136C2F127116DF_6_TypeDefinitionIndex = 33025;
+inline static constexpr unsigned int Class_1_6BD20D88FC4AB46A_Class_3_B6136C2F127116DF_6_TypeDefinitionIndex = 34603;
 
 template <typename T>
 class Class_1_6BD20D88FC4AB46A_Class_3_B6136C2F127116DF_6 : public ::System::MulticastDelegate

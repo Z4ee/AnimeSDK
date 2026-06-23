@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_C17BCF092B758D23_OFFSET UNITYSDK_OFFSET(0x125ED320)
-#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x125ED250)
+#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_C17BCF092B758D23_OFFSET UNITYSDK_OFFSET(0x13043C50)
+#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x13043B80)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int BaseSceneDynamicObjectLayer_TypeDefinitionIndex = 41149;
+	inline static constexpr unsigned int BaseSceneDynamicObjectLayer_TypeDefinitionIndex = 87122;
 
 	class BaseSceneDynamicObjectLayer : public ::MoleMole::SceneMark::DefaultDynamicObjectLayer
 	{

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass1_0_2_TypeDefinitionIndex = 6394;
+	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass1_0_2_TypeDefinitionIndex = 6439;
 
 	template <typename T, typename TResult>
 	class DelegateExtensions___c__DisplayClass1_0_2 : public ::System::Object

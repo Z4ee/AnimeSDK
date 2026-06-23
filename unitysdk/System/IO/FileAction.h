@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileAction_TypeDefinitionIndex = 3222;
+	inline static constexpr unsigned int FileAction_TypeDefinitionIndex = 3221;
 
 	enum class FileAction : ::System::Int32
 	{

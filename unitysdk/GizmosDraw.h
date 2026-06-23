@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GIZMOSDRAW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACFA5B0)
-#define GIZMOSDRAW_SELECTPARENT_OFFSET UNITYSDK_OFFSET(0x1ACFA570)
-#define GIZMOSDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACFA680)
+#define GIZMOSDRAW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3EBC40)
+#define GIZMOSDRAW_SELECTPARENT_OFFSET UNITYSDK_OFFSET(0x1C3EBC00)
+#define GIZMOSDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EBD10)
 
-inline static constexpr unsigned int GizmosDraw_TypeDefinitionIndex = 29539;
+inline static constexpr unsigned int GizmosDraw_TypeDefinitionIndex = 26725;
 
 class GizmosDraw : public ::UnityEngine::MonoBehaviour
 {

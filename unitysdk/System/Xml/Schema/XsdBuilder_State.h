@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdBuilder_State_TypeDefinitionIndex = 2221;
+	inline static constexpr unsigned int XsdBuilder_State_TypeDefinitionIndex = 2220;
 
 	enum class XsdBuilder_State : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLNAMESPACEDECLARATIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD75BD0)
+#define SYSTEM_XML_SERIALIZATION_XMLNAMESPACEDECLARATIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D188C60)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlNamespaceDeclarationsAttribute_TypeDefinitionIndex = 1894;
+	inline static constexpr unsigned int XmlNamespaceDeclarationsAttribute_TypeDefinitionIndex = 1893;
 
 	class XmlNamespaceDeclarationsAttribute : public ::System::Attribute
 	{

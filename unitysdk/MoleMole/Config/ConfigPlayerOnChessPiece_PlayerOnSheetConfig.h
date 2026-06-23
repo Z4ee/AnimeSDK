@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayerOnChessPiece_PlayerOnSheetConfig_TypeDefinitionIndex = 81261;
+	inline static constexpr unsigned int ConfigPlayerOnChessPiece_PlayerOnSheetConfig_TypeDefinitionIndex = 51286;
 
 	struct alignas(8) ConfigPlayerOnChessPiece_PlayerOnSheetConfig
 	{

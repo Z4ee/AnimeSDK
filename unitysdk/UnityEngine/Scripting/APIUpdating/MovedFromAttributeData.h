@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0x96F970)
+#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0xA111B0)
 
 namespace UnityEngine::Scripting::APIUpdating
 {
-	inline static constexpr unsigned int MovedFromAttributeData_TypeDefinitionIndex = 5509;
+	inline static constexpr unsigned int MovedFromAttributeData_TypeDefinitionIndex = 5510;
 
 	struct alignas(8) MovedFromAttributeData
 	{

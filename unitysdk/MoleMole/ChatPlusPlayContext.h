@@ -5,11 +5,11 @@
 class Class_1_D65512A83CF70AB7;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CHATPLUSPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1751DC30)
+#define MOLEMOLE_CHATPLUSPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x144C7600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChatPlusPlayContext_TypeDefinitionIndex = 76160;
+	inline static constexpr unsigned int ChatPlusPlayContext_TypeDefinitionIndex = 75906;
 
 	class ChatPlusPlayContext : public ::MoleMole::UIMainCityChatPlayContext
 	{

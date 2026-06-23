@@ -11,23 +11,23 @@ namespace UnityEngine::UI::Extension { class UIDynamicNumberLabel; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_06C2877021BC3D18_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x11D9D100)
-#define CLASS_2_06C2877021BC3D18_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x11D9D300)
-#define CLASS_2_06C2877021BC3D18_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11D9D3D0)
-#define CLASS_2_06C2877021BC3D18__CTOR_OFFSET UNITYSDK_OFFSET(0x11D9D3C0)
+#define CLASS_2_06C2877021BC3D18_METHOD_2_2D8360ADEC831C05_OFFSET UNITYSDK_OFFSET(0x15906130)
+#define CLASS_2_06C2877021BC3D18_METHOD_2_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0x15906330)
+#define CLASS_2_06C2877021BC3D18_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15906400)
+#define CLASS_2_06C2877021BC3D18__CTOR_OFFSET UNITYSDK_OFFSET(0x159063F0)
 
-inline static constexpr unsigned int Class_2_06C2877021BC3D18_TypeDefinitionIndex = 49508;
+inline static constexpr unsigned int Class_2_06C2877021BC3D18_TypeDefinitionIndex = 56679;
 
 class Class_2_06C2877021BC3D18 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_0; // 0x18
-	::Class_2_FDFE69FE7B72463B* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_5; // 0x28
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_4; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_1; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_3; // 0x48
+	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_5; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_1; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_3; // 0x30
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_4; // 0x38
+	::Class_2_FDFE69FE7B72463B* Field_2_2; // 0x40
+	::MonoUITableScrollV2* Field_2_0; // 0x48
 
 	::System::Void _ctor()
 	{

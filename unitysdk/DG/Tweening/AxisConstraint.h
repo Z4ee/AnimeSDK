@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int AxisConstraint_TypeDefinitionIndex = 25339;
+	inline static constexpr unsigned int AxisConstraint_TypeDefinitionIndex = 27830;
 
 	enum class AxisConstraint : ::System::Int32
 	{

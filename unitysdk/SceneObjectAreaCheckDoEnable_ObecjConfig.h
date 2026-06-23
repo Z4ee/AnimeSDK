@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define SCENEOBJECTAREACHECKDOENABLE_OBECJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E291D0)
+#define SCENEOBJECTAREACHECKDOENABLE_OBECJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF4DAD0)
 
-inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_ObecjConfig_TypeDefinitionIndex = 74952;
+inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_ObecjConfig_TypeDefinitionIndex = 78071;
 
 class SceneObjectAreaCheckDoEnable_ObecjConfig : public ::System::Object
 {
 public:
 	::System::String* path; // 0x10
-	::System::Boolean EnterIsEnable; // 0x18
-	::System::Boolean ExitIsEnable; // 0x19
+	::System::Boolean ExitIsEnable; // 0x18
+	::System::Boolean EnterIsEnable; // 0x19
 
 	::System::Void _ctor()
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUISOUND_TRANSFERSOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186CB670)
+#define MOLEMOLE_CONFIGUISOUND_TRANSFERSOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE5120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_TransferSoundConfig_TypeDefinitionIndex = 75886;
+	inline static constexpr unsigned int ConfigUISound_TransferSoundConfig_TypeDefinitionIndex = 41780;
 
 	class ConfigUISound_TransferSoundConfig : public ::System::Object
 	{

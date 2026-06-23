@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightDataCullChange_TypeDefinitionIndex = 30013;
+	inline static constexpr unsigned int LightDataCullChange_TypeDefinitionIndex = 26450;
 
 	struct alignas(4) LightDataCullChange
 	{

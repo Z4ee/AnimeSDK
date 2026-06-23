@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
-#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xEC76700)
-#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xEC768E0)
+#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10296DA0)
+#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10296F80)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorBaseProcessor_TypeDefinitionIndex = 45273;
+	inline static constexpr unsigned int AttractorBaseProcessor_TypeDefinitionIndex = 54268;
 
 	class AttractorBaseProcessor : public ::System::Object
 	{

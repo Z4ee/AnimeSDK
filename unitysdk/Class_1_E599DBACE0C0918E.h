@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/Level/BangbooPlayType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E599DBACE0C0918E_METHOD_1_FF5956ECDB3CFB6A_OFFSET UNITYSDK_OFFSET(0xDE9CA10)
+#define CLASS_1_E599DBACE0C0918E_METHOD_1_FF5956ECDB3CFB6A_OFFSET UNITYSDK_OFFSET(0x19544E10)
 
-inline static constexpr unsigned int Class_1_E599DBACE0C0918E_TypeDefinitionIndex = 38379;
+inline static constexpr unsigned int Class_1_E599DBACE0C0918E_TypeDefinitionIndex = 51696;
 
 class Class_1_E599DBACE0C0918E : public ::System::Object
 {

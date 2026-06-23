@@ -4,12 +4,12 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINMAP_READ_OFFSET UNITYSDK_OFFSET(0x19550850)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19550840)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINMAP_READ_OFFSET UNITYSDK_OFFSET(0x1B933520)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B933510)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryCrossAppDomainMap_TypeDefinitionIndex = 1191;
+	inline static constexpr unsigned int BinaryCrossAppDomainMap_TypeDefinitionIndex = 1190;
 
 	class BinaryCrossAppDomainMap : public ::System::Object
 	{

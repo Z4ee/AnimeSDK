@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AnimatorCullingMode.h"
 
-inline static constexpr unsigned int Struct_2_4A663F55BC7468E2_TypeDefinitionIndex = 61788;
+inline static constexpr unsigned int Struct_2_4A663F55BC7468E2_TypeDefinitionIndex = 46001;
 
 struct alignas(4) Struct_2_4A663F55BC7468E2
 {

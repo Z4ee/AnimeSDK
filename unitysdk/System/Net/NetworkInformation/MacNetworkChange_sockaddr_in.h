@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACNETWORKCHANGE_SOCKADDR_IN_CREATE_OFFSET UNITYSDK_OFFSET(0x1921FF80)
+#define SYSTEM_NET_NETWORKINFORMATION_MACNETWORKCHANGE_SOCKADDR_IN_CREATE_OFFSET UNITYSDK_OFFSET(0x1B406080)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacNetworkChange_sockaddr_in_TypeDefinitionIndex = 3803;
+	inline static constexpr unsigned int MacNetworkChange_sockaddr_in_TypeDefinitionIndex = 3802;
 
 	struct alignas(1) MacNetworkChange_sockaddr_in
 	{

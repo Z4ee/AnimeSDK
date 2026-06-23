@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANACONFIG_VITAH264PLAYBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF347F0)
+#define CRIWARE_CRIMANACONFIG_VITAH264PLAYBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24C160)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaConfig_VitaH264PlaybackConfig_TypeDefinitionIndex = 32814;
+	inline static constexpr unsigned int CriManaConfig_VitaH264PlaybackConfig_TypeDefinitionIndex = 34367;
 
 	class CriManaConfig_VitaH264PlaybackConfig : public ::System::Object
 	{

@@ -10,22 +10,22 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PLAYEFFECT_D__44_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75A5C0)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PLAYEFFECT_D__44_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PLAYEFFECT_D__44_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79C8C0)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__PLAYEFFECT_D__44_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__PlayEffect_d__44_TypeDefinitionIndex = 53828;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__PlayEffect_d__44_TypeDefinitionIndex = 45203;
 
 	struct alignas(8) UITriDiceOracleDialogPopWindowController__PlayEffect_d__44
 	{
-		::MoleMole::UITriDiceOracleDialogPopWindowController___c__DisplayClass44_0* __8__1; // 0x10
-		::System::String* name; // 0x18
-		::System::String* dummy; // 0x20
-		::MoleMole::UITriDiceOracleDialogPopWindowController* __4__this; // 0x28
-		::MoleMole::Battle::Entity* entity; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::Battle::Entity*> __t__builder; // 0x48
+		::MoleMole::UITriDiceOracleDialogPopWindowController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::Battle::Entity*> __t__builder; // 0x18
+		::System::String* name; // 0x30
+		::MoleMole::UITriDiceOracleDialogPopWindowController___c__DisplayClass44_0* __8__1; // 0x38
+		::System::String* dummy; // 0x40
+		::MoleMole::Battle::Entity* entity; // 0x48
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x50
 		::System::Int32 __1__state; // 0x60
 
 		::System::Void MoveNext()

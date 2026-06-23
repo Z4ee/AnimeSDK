@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int PathPlacer_PropData_TypeDefinitionIndex = 35856;
+	inline static constexpr unsigned int PathPlacer_PropData_TypeDefinitionIndex = 37464;
 
 	struct alignas(8) PathPlacer_PropData
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTHPCHALLENGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14999BB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTHPCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14999E90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTHPCHALLENGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1710EBF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTHPCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1710EED0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStartHpChallenge_TypeDefinitionIndex = 71962;
+	inline static constexpr unsigned int LDStartHpChallenge_TypeDefinitionIndex = 66170;
 
 	class LDStartHpChallenge : public ::FlowCanvas::Nodes::CallableActionNode_3<::System::Int32, ::MoleMole::Battle::Entity*, ::System::Boolean>
 	{

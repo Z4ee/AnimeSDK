@@ -5,7 +5,7 @@
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int OneOrMore_2_Enumerator_TypeDefinitionIndex = 29420;
+	inline static constexpr unsigned int OneOrMore_2_Enumerator_TypeDefinitionIndex = 32076;
 
 	template <typename TValue, typename TList>
 	class OneOrMore_2_Enumerator : public ::System::Object

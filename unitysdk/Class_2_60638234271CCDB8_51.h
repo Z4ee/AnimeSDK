@@ -2,84 +2,72 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
+class Class_2_134E5210FBBAC6E5;
 class Class_2_1A39E1B51756BF41;
-class Class_2_79AE422BA06F6D26_8;
 class Class_2_A9A857AD270B9CE1;
 class Class_2_B4378B46E0020E85;
 class Class_2_FDFE69FE7B72463B;
-class MonoUITableScrollV2;
-namespace MoleMole { class MonoGamepadCustomList; }
-namespace MoleMole { class NotificationBadgeEx; }
+namespace MoleMole { class MonoShootingWave; }
+namespace MoleMole { class MonoSummerEventShootWeaponUIItem; }
+namespace MoleMole { class MonoSummerEventStartTip; }
+namespace MoleMole { class MonoSurfScore; }
 namespace MoleMole { class UIControlCollection; }
-namespace MoleMole { class UIGeneralBottomRewardInfoWidgetController; }
-namespace MoleMole { class UIYorozuyaS2DifficultyInfoWidgetController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
-namespace UnityEngine::UI::Extension { class UIDynamicNumberLabel; }
 namespace UnityEngine::UI::Extension { class UIImgEventTrigger; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
-namespace UnityEngine::UI::Extension { class UITimeWidget; }
-template <typename T> class Class_2_0D31A1661D004892;
-template <typename T> class Class_3_30A064D7BE47C07D;
 
-#define CLASS_2_60638234271CCDB8_51_METHOD_2_045F1AAB54606068_OFFSET UNITYSDK_OFFSET(0x13B27B80)
-#define CLASS_2_60638234271CCDB8_51_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13B27E90)
-#define CLASS_2_60638234271CCDB8_51_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x13B27410)
-#define CLASS_2_60638234271CCDB8_51__CTOR_OFFSET UNITYSDK_OFFSET(0x13B27E80)
+#define CLASS_2_60638234271CCDB8_51_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11763620)
+#define CLASS_2_60638234271CCDB8_51_METHOD_2_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x117634B0)
+#define CLASS_2_60638234271CCDB8_51_METHOD_2_E117CAE09780A0EE_OFFSET UNITYSDK_OFFSET(0x11762EA0)
+#define CLASS_2_60638234271CCDB8_51__CTOR_OFFSET UNITYSDK_OFFSET(0x11763610)
 
-inline static constexpr unsigned int Class_2_60638234271CCDB8_51_TypeDefinitionIndex = 77901;
+inline static constexpr unsigned int Class_2_60638234271CCDB8_51_TypeDefinitionIndex = 47782;
 
 class Class_2_60638234271CCDB8_51 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_38; // 0x18
-	::UnityEngine::GameObject* Field_2_10; // 0x20
-	::UnityEngine::RectTransform* Field_2_21; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_40; // 0x30
-	::Class_2_1A39E1B51756BF41* Field_2_22; // 0x38
-	::UnityEngine::GameObject* Field_2_29; // 0x40
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x48
-	::UnityEngine::UI::Extension::UIDynamicNumberLabel* Field_2_30; // 0x50
-	::UnityEngine::Transform* Field_2_15; // 0x58
-	::Class_2_B4378B46E0020E85* Field_2_12; // 0x60
-	::Class_2_B4378B46E0020E85* Field_2_11; // 0x68
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x70
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_31; // 0x78
-	::Class_2_1A39E1B51756BF41* Field_2_32; // 0x80
-	::UnityEngine::RectTransform* Field_2_44; // 0x88
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_41; // 0x90
-	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x98
-	::UnityEngine::GameObject* Field_2_9; // 0xA0
-	::MoleMole::MonoGamepadCustomList* Field_2_20; // 0xA8
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_42; // 0xB0
-	::Class_2_B4378B46E0020E85* Field_2_14; // 0xB8
-	::Class_2_FDFE69FE7B72463B* Field_2_23; // 0xC0
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIYorozuyaS2DifficultyInfoWidgetController*>* Field_2_35; // 0xC8
-	::UnityEngine::Transform* Field_2_2; // 0xD0
-	::Class_2_B4378B46E0020E85* Field_2_43; // 0xD8
-	::UnityEngine::Transform* Field_2_16; // 0xE0
-	::UnityEngine::GameObject* Field_2_3; // 0xE8
-	::UnityEngine::RectTransform* Field_2_36; // 0xF0
-	::UnityEngine::GameObject* Field_2_13; // 0xF8
-	::MoleMole::NotificationBadgeEx* Field_2_46; // 0x100
-	::UnityEngine::UI::Extension::UIImgEventTrigger* Field_2_1; // 0x108
-	::UnityEngine::RectTransform* Field_2_24; // 0x110
-	::UnityEngine::Transform* Field_2_19; // 0x118
-	::UnityEngine::GameObject* Field_2_45; // 0x120
-	::Class_2_B4378B46E0020E85* Field_2_27; // 0x128
-	::MonoUITableScrollV2* Field_2_37; // 0x130
-	::Class_2_B4378B46E0020E85* Field_2_17; // 0x138
-	::Class_2_B4378B46E0020E85* Field_2_26; // 0x140
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_18; // 0x148
-	::UnityEngine::GameObject* Field_2_39; // 0x150
-	::Class_2_B4378B46E0020E85* Field_2_33; // 0x158
-	::Class_2_FDFE69FE7B72463B* Field_2_7; // 0x160
-	::Class_2_1A39E1B51756BF41* Field_2_8; // 0x168
-	::Class_2_0D31A1661D004892<::Class_2_79AE422BA06F6D26_8*>* Field_2_34; // 0x170
-	::Class_3_30A064D7BE47C07D<::MoleMole::UIGeneralBottomRewardInfoWidgetController*>* Field_2_25; // 0x178
-	::UnityEngine::Transform* Field_2_4; // 0x180
-	::UnityEngine::GameObject* Field_2_28; // 0x188
+	::Class_2_FDFE69FE7B72463B* Field_2_9; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_22; // 0x20
+	::MoleMole::MonoSummerEventShootWeaponUIItem* Field_2_16; // 0x28
+	::UnityEngine::RectTransform* Field_2_4; // 0x30
+	::UnityEngine::RectTransform* Field_2_14; // 0x38
+	::Class_2_1A39E1B51756BF41* Field_2_29; // 0x40
+	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x48
+	::UnityEngine::GameObject* Field_2_18; // 0x50
+	::UnityEngine::Transform* Field_2_19; // 0x58
+	::MoleMole::MonoSurfScore* Field_2_32; // 0x60
+	::UnityEngine::RectTransform* Field_2_36; // 0x68
+	::Class_2_1A39E1B51756BF41* Field_2_38; // 0x70
+	::UnityEngine::Transform* Field_2_33; // 0x78
+	::UnityEngine::GameObject* Field_2_25; // 0x80
+	::UnityEngine::GameObject* Field_2_26; // 0x88
+	::UnityEngine::UI::Extension::UIImgEventTrigger* Field_2_13; // 0x90
+	::UnityEngine::Transform* Field_2_1; // 0x98
+	::UnityEngine::Transform* Field_2_12; // 0xA0
+	::Class_2_FDFE69FE7B72463B* Field_2_30; // 0xA8
+	::UnityEngine::Transform* Field_2_11; // 0xB0
+	::Class_2_1A39E1B51756BF41* Field_2_15; // 0xB8
+	::UnityEngine::GameObject* Field_2_28; // 0xC0
+	::UnityEngine::RectTransform* Field_2_20; // 0xC8
+	::UnityEngine::GameObject* Field_2_39; // 0xD0
+	::UnityEngine::RectTransform* Field_2_24; // 0xD8
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0xE0
+	::MoleMole::MonoSummerEventStartTip* Field_2_3; // 0xE8
+	::Class_2_1A39E1B51756BF41* Field_2_8; // 0xF0
+	::Class_2_134E5210FBBAC6E5* Field_2_34; // 0xF8
+	::MoleMole::MonoShootingWave* Field_2_35; // 0x100
+	::Class_2_FDFE69FE7B72463B* Field_2_37; // 0x108
+	::Class_2_FDFE69FE7B72463B* Field_2_23; // 0x110
+	::UnityEngine::RectTransform* Field_2_6; // 0x118
+	::UnityEngine::GameObject* Field_2_10; // 0x120
+	::UnityEngine::RectTransform* Field_2_21; // 0x128
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x130
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x138
+	::Class_2_B4378B46E0020E85* Field_2_31; // 0x140
+	::MoleMole::MonoSummerEventShootWeaponUIItem* Field_2_17; // 0x148
+	::UnityEngine::GameObject* Field_2_27; // 0x150
 
 	::System::Void _ctor()
 	{
@@ -91,13 +79,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_60638234271CCDB8_51_METHOD_2_E117CAE09780A0EE_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_045F1AAB54606068()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60638234271CCDB8_51_METHOD_2_045F1AAB54606068_OFFSET))(this);
-	}
-
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_60638234271CCDB8_51_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_DE52BD42C4B0B772()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60638234271CCDB8_51_METHOD_2_DE52BD42C4B0B772_OFFSET))(this);
 	}
 };

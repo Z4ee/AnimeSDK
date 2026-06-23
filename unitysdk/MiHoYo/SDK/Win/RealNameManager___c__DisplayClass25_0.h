@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19D4C0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS25_0__GETPHONEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1A19D4D0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAABFE0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS25_0__GETPHONEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BAABFF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass25_0_TypeDefinitionIndex = 19936;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass25_0_TypeDefinitionIndex = 21102;
 
 	class RealNameManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::System::String* mobile; // 0x10
 		::System::String* actionType; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x20
-		::System::String* actionTicket; // 0x28
+		::System::String* actionTicket; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x28
 		::System::String* url; // 0x30
 
 		::System::Void _ctor()

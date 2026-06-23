@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define HOLLOWCARDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x110D4550)
+#define HOLLOWCARDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1685D810)
 
-inline static constexpr unsigned int HollowCardParam_TypeDefinitionIndex = 63212;
+inline static constexpr unsigned int HollowCardParam_TypeDefinitionIndex = 76995;
 
 class HollowCardParam : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {

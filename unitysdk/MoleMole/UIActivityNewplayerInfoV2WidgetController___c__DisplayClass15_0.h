@@ -5,18 +5,18 @@
 class Class_1_1D6B384C0B7DC7C3;
 namespace MoleMole { class UIActivityNewplayerInfoV2WidgetController; }
 
-#define MOLEMOLE_UIACTIVITYNEWPLAYERINFOV2WIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1676A660)
-#define MOLEMOLE_UIACTIVITYNEWPLAYERINFOV2WIDGETCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKTASK_B__0_OFFSET UNITYSDK_OFFSET(0x1676A670)
+#define MOLEMOLE_UIACTIVITYNEWPLAYERINFOV2WIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F50D0)
+#define MOLEMOLE_UIACTIVITYNEWPLAYERINFOV2WIDGETCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKTASK_B__0_OFFSET UNITYSDK_OFFSET(0x1A1F50E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityNewplayerInfoV2WidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 65471;
+	inline static constexpr unsigned int UIActivityNewplayerInfoV2WidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 40856;
 
 	class UIActivityNewplayerInfoV2WidgetController___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::Class_1_1D6B384C0B7DC7C3* missionTask; // 0x10
-		::MoleMole::UIActivityNewplayerInfoV2WidgetController* __4__this; // 0x18
+		::MoleMole::UIActivityNewplayerInfoV2WidgetController* __4__this; // 0x10
+		::Class_1_1D6B384C0B7DC7C3* missionTask; // 0x18
 
 		::System::Void _ctor()
 		{

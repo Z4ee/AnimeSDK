@@ -4,11 +4,11 @@
 
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A32C1D0)
+#define SYSTEM_NET_NETWORKINFORMATION_IPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D9EF0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPAddressInformation_TypeDefinitionIndex = 3708;
+	inline static constexpr unsigned int IPAddressInformation_TypeDefinitionIndex = 3707;
 
 	class IPAddressInformation : public ::System::Object
 	{

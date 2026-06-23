@@ -7,12 +7,12 @@ namespace System::Net::Security { class LocalCertificateSelectionCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A566A80)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS1_0__PUBLICTOMONO_B__0_OFFSET UNITYSDK_OFFSET(0x1A566A90)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C885D10)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS1_0__PUBLICTOMONO_B__0_OFFSET UNITYSDK_OFFSET(0x1C885D20)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass1_0_TypeDefinitionIndex = 2636;
+	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass1_0_TypeDefinitionIndex = 2635;
 
 	class CallbackHelpers___c__DisplayClass1_0 : public ::System::Object
 	{

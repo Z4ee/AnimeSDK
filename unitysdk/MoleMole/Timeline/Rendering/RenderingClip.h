@@ -7,12 +7,12 @@
 namespace MoleMole::Timeline::Rendering { class RenderingBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1237CD30)
-#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1237CF00)
+#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13F32280)
+#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13F32440)
 
 namespace MoleMole::Timeline::Rendering
 {
-	inline static constexpr unsigned int RenderingClip_TypeDefinitionIndex = 57978;
+	inline static constexpr unsigned int RenderingClip_TypeDefinitionIndex = 78447;
 
 	class RenderingClip : public ::UnityEngine::Playables::PlayableAsset
 	{

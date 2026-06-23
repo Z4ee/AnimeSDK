@@ -8,22 +8,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_DESERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1C3F3720)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1C3F3710)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_SERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1C3F4230)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3F46B0)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F4650)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_DESERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1E7351D0)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1E7351C0)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_SERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1E735CE0)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E736160)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E736100)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ArrayListFormatter_TypeDefinitionIndex = 7313;
+	inline static constexpr unsigned int ArrayListFormatter_TypeDefinitionIndex = 7445;
 
 	class ArrayListFormatter : public ::Sirenix::Serialization::BaseFormatter_1<::System::Collections::ArrayList*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Object*>** StaticGet_ObjectSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ArrayListFormatter_TypeDefinitionIndex)->GetStaticField(0x6280);
+			return (::Sirenix::Serialization::Serializer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ArrayListFormatter_TypeDefinitionIndex)->GetStaticField(0x6370);
 		}
 
 		::System::Void _ctor()

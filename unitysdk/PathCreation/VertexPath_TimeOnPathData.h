@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PATHCREATION_VERTEXPATH_TIMEONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x70CB60)
+#define PATHCREATION_VERTEXPATH_TIMEONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x86DBB0)
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int VertexPath_TimeOnPathData_TypeDefinitionIndex = 35844;
+	inline static constexpr unsigned int VertexPath_TimeOnPathData_TypeDefinitionIndex = 37452;
 
 	struct alignas(4) VertexPath_TimeOnPathData
 	{

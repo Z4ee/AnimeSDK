@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_TAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D72F0)
+#define FLUFFYUNDERWARE_DEVTOOLS_TAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69F620)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 25863;
+	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 28357;
 
 	class TagAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

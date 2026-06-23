@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__BINDVIEWCALLBACKS_B__11_0_OFFSET UNITYSDK_OFFSET(0x127411C0)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12741170)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x127411B0)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__BINDVIEWCALLBACKS_B__11_0_OFFSET UNITYSDK_OFFSET(0x156B9060)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156B9010)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYDEVELOPEPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156B9050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex = 74165;
+	inline static constexpr unsigned int UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex = 66214;
 
 	class UISuibianTempleBuddyDevelopePopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x38100);
-		}
 		static ::MoleMole::UISuibianTempleBuddyDevelopePopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleBuddyDevelopePopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x38108);
+			return (::MoleMole::UISuibianTempleBuddyDevelopePopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A610);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyDevelopePopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A618);
 		}
 
 		static ::System::Void _cctor()

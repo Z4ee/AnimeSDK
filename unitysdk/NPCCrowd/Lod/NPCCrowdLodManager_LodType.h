@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodManager_LodType_TypeDefinitionIndex = 55000;
+	inline static constexpr unsigned int NPCCrowdLodManager_LodType_TypeDefinitionIndex = 44646;
 
 	enum class NPCCrowdLodManager_LodType : ::System::Int32
 	{

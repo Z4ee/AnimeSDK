@@ -3,7 +3,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeArrayOptions_TypeDefinitionIndex = 5088;
+	inline static constexpr unsigned int NativeArrayOptions_TypeDefinitionIndex = 5087;
 
 	enum class NativeArrayOptions : ::System::Int32
 	{

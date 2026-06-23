@@ -7,13 +7,13 @@
 namespace MoleMole { class Mono2dMapData_IconInfoGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONO2DMAPDATA_GETICONSCALE_OFFSET UNITYSDK_OFFSET(0x12F9AEA0)
-#define MOLEMOLE_MONO2DMAPDATA_GETPOS_OFFSET UNITYSDK_OFFSET(0x12F9ABA0)
-#define MOLEMOLE_MONO2DMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12F9B1B0)
+#define MOLEMOLE_MONO2DMAPDATA_GETICONSCALE_OFFSET UNITYSDK_OFFSET(0x1418DDA0)
+#define MOLEMOLE_MONO2DMAPDATA_GETPOS_OFFSET UNITYSDK_OFFSET(0x1418DAA0)
+#define MOLEMOLE_MONO2DMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1418E0B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Mono2dMapData_TypeDefinitionIndex = 55544;
+	inline static constexpr unsigned int Mono2dMapData_TypeDefinitionIndex = 67190;
 
 	class Mono2dMapData : public ::UnityEngine::MonoBehaviour
 	{

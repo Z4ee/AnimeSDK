@@ -4,11 +4,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIRECTROLECARDWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1301CE60)
+#define MOLEMOLE_UIRECTROLECARDWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11B9C8B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRectRoleCardWidgetController_Data_TypeDefinitionIndex = 78221;
+	inline static constexpr unsigned int UIRectRoleCardWidgetController_Data_TypeDefinitionIndex = 64648;
 
 	class UIRectRoleCardWidgetController_Data : public ::System::Object
 	{

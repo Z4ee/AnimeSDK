@@ -6,20 +6,20 @@ namespace MoleMole { class UIGalgamePageController___c__DisplayClass93_0; }
 namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15807930)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__PLAYSUBSTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0x15807940)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__PLAYSUBSTORYNODE_B__4_OFFSET UNITYSDK_OFFSET(0x15807C40)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__CTOR_OFFSET UNITYSDK_OFFSET(0x166E92F0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__PLAYSUBSTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0x166E9300)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS93_1__PLAYSUBSTORYNODE_B__4_OFFSET UNITYSDK_OFFSET(0x166E9880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass93_1_TypeDefinitionIndex = 41774;
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass93_1_TypeDefinitionIndex = 54881;
 
 	class UIGalgamePageController___c__DisplayClass93_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
+		::MoleMole::UIGalgamePageController___c__DisplayClass93_0* CS___8__locals1; // 0x10
 		::UnityEngine::Animation* stageAnim; // 0x18
-		::MoleMole::UIGalgamePageController___c__DisplayClass93_0* CS___8__locals1; // 0x20
+		::System::Action* __9__4; // 0x20
 		::System::Int32 realIndex; // 0x28
 
 		::System::Void _ctor()

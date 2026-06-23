@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIICONMOUNT_TRYGETMOUNTCONFIG_1_OFFSET UNITYSDK_OFFSET(0x16ABA370)
-#define MOLEMOLE_CONFIGUIICONMOUNT_TRYGETMOUNTCONFIG_OFFSET UNITYSDK_OFFSET(0x16ABA250)
-#define MOLEMOLE_CONFIGUIICONMOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABA5A0)
+#define MOLEMOLE_CONFIGUIICONMOUNT_TRYGETMOUNTCONFIG_1_OFFSET UNITYSDK_OFFSET(0x158D5C20)
+#define MOLEMOLE_CONFIGUIICONMOUNT_TRYGETMOUNTCONFIG_OFFSET UNITYSDK_OFFSET(0x158D5B00)
+#define MOLEMOLE_CONFIGUIICONMOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x158D5E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIIconMount_TypeDefinitionIndex = 54315;
+	inline static constexpr unsigned int ConfigUIIconMount_TypeDefinitionIndex = 83213;
 
 	class ConfigUIIconMount : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -5,11 +5,11 @@
 namespace MoleMole { class AnimatorRandomInt; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ANIMATORRANDOMINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE2270)
+#define MOLEMOLE_ANIMATORRANDOMINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE945050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimatorRandomIntConfig_TypeDefinitionIndex = 69755;
+	inline static constexpr unsigned int AnimatorRandomIntConfig_TypeDefinitionIndex = 57935;
 
 	class AnimatorRandomIntConfig : public ::System::Object
 	{

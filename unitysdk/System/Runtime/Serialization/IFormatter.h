@@ -6,7 +6,7 @@ namespace System::IO { class Stream; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IFormatter_TypeDefinitionIndex = 1141;
+	inline static constexpr unsigned int IFormatter_TypeDefinitionIndex = 1140;
 
 	class IFormatter
 	{

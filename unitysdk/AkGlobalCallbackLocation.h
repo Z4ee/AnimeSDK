@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkGlobalCallbackLocation_TypeDefinitionIndex = 31418;
+inline static constexpr unsigned int AkGlobalCallbackLocation_TypeDefinitionIndex = 32969;
 
 enum class AkGlobalCallbackLocation : ::System::Int32
 {

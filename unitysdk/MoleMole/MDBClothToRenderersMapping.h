@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_2.h"
+#include "unitysdk/MoleMole/MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_BD9D7FEFB6D77718;
+class Class_1_CEF60A3B121164E2;
 namespace MoleMole { class ClothToRenderersDataDic; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MdbComponent; }
 
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET UNITYSDK_OFFSET(0x16E5D3E0)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHE_OFFSET UNITYSDK_OFFSET(0x16E5CB70)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_GET_MDBCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16E5C9B0)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5D8E0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET UNITYSDK_OFFSET(0x10D51BA0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHE_OFFSET UNITYSDK_OFFSET(0x10D51180)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_GET_MDBCOMPONENT_OFFSET UNITYSDK_OFFSET(0x10D50FC0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x10D520B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MDBClothToRenderersMapping_TypeDefinitionIndex = 80068;
+	inline static constexpr unsigned int MDBClothToRenderersMapping_TypeDefinitionIndex = 49736;
 
 	class MDBClothToRenderersMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::MdbComponent* Field_5_0; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_BD9D7FEFB6D77718*>* MdbClothIndexToRenderersState; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* RendererInstanceIDToClothIndices; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_CEF60A3B121164E2*>* MdbClothIndexToRenderersState; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* RendererNameToClothIndices; // 0x28
 		::MoleMole::ClothToRenderersDataDic* Data; // 0x30
 
 		::System::Void _ctor()
@@ -42,9 +43,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_2>* CacheVisibilityChangeAndCalculate(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Collections::Generic::List_1<::MoleMole::MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_1>* CacheVisibilityChangeAndCalculate(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_2>*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::MoleMole::MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_1>*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

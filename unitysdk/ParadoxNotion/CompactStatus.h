@@ -3,7 +3,7 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int CompactStatus_TypeDefinitionIndex = 26639;
+	inline static constexpr unsigned int CompactStatus_TypeDefinitionIndex = 29376;
 
 	enum class CompactStatus : ::System::Int32
 	{

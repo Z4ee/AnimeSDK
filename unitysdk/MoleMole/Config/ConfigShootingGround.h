@@ -16,11 +16,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x12313460)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x17D5E0D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGround_TypeDefinitionIndex = 40288;
+	inline static constexpr unsigned int ConfigShootingGround_TypeDefinitionIndex = 74012;
 
 	class ConfigShootingGround : public ::System::Object
 	{

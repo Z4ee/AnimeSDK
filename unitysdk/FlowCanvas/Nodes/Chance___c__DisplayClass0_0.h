@@ -6,21 +6,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define FLOWCANVAS_NODES_CHANCE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AB6A0)
-#define FLOWCANVAS_NODES_CHANCE___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B0AB6B0)
+#define FLOWCANVAS_NODES_CHANCE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51C810)
+#define FLOWCANVAS_NODES_CHANCE___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D51C820)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Chance___c__DisplayClass0_0_TypeDefinitionIndex = 27589;
+	inline static constexpr unsigned int Chance___c__DisplayClass0_0_TypeDefinitionIndex = 30164;
 
 	class Chance___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* success; // 0x10
-		::FlowCanvas::ValueInput_1<::System::Single>* min; // 0x18
-		::FlowCanvas::ValueInput_1<::System::Single>* chance; // 0x20
-		::FlowCanvas::FlowOutput* failure; // 0x28
-		::FlowCanvas::ValueInput_1<::System::Single>* max; // 0x30
+		::FlowCanvas::ValueInput_1<::System::Single>* chance; // 0x10
+		::FlowCanvas::ValueInput_1<::System::Single>* max; // 0x18
+		::FlowCanvas::FlowOutput* success; // 0x20
+		::FlowCanvas::ValueInput_1<::System::Single>* min; // 0x28
+		::FlowCanvas::FlowOutput* failure; // 0x30
 
 		::System::Void _ctor()
 		{

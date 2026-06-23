@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ByteArrayStringHashTable_1_TypeDefinitionIndex = 85659;
+	inline static constexpr unsigned int ByteArrayStringHashTable_1_TypeDefinitionIndex = 91233;
 
 	template <typename T>
 	class ByteArrayStringHashTable_1 : public ::System::Object

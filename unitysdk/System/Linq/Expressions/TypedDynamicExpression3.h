@@ -6,12 +6,12 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Runtime::CompilerServices { class CallSiteBinder; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSION3_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BF3EE20)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSION3__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3ED90)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSION3_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E25F2C0)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDDYNAMICEXPRESSION3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E25F230)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypedDynamicExpression3_TypeDefinitionIndex = 4466;
+	inline static constexpr unsigned int TypedDynamicExpression3_TypeDefinitionIndex = 4465;
 
 	class TypedDynamicExpression3 : public ::System::Linq::Expressions::DynamicExpression3
 	{

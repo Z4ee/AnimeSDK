@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassProxy_GroupBaseData_TypeDefinitionIndex = 30243;
+	inline static constexpr unsigned int GPUGrassProxy_GroupBaseData_TypeDefinitionIndex = 26557;
 
 	struct alignas(4) GPUGrassProxy_GroupBaseData
 	{

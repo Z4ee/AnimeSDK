@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x2E85F0)
+#define NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x2B66C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NavigationObstacleItem_TypeDefinitionIndex = 41421;
+	inline static constexpr unsigned int NavigationObstacleItem_TypeDefinitionIndex = 66743;
 
 	struct alignas(4) NavigationObstacleItem
 	{

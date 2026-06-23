@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_F5486EF13585A6C7.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_COLLISIONSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1881B650)
+#define MOLEMOLE_PROJECT_CONFIG_COLLISIONSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x185673D0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int CollisionShapeData_TypeDefinitionIndex = 16689;
+	inline static constexpr unsigned int CollisionShapeData_TypeDefinitionIndex = 13291;
 
 	class CollisionShapeData : public ::System::Object
 	{

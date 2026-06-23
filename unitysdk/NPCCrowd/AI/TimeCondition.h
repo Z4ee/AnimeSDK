@@ -6,11 +6,11 @@
 #include "unitysdk/System/DayOfWeek.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_TIMECONDITION_CHECKCONDITION_OFFSET UNITYSDK_OFFSET(0x693360)
+#define NPCCROWD_AI_TIMECONDITION_CHECKCONDITION_OFFSET UNITYSDK_OFFSET(0x695FF0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int TimeCondition_TypeDefinitionIndex = 69632;
+	inline static constexpr unsigned int TimeCondition_TypeDefinitionIndex = 60623;
 
 	struct alignas(4) TimeCondition
 	{

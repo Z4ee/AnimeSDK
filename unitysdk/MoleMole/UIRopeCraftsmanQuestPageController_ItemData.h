@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_ISLOCK_OFFSET UNITYSDK_OFFSET(0x14007140)
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_ISOPEN_OFFSET UNITYSDK_OFFSET(0x14007370)
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_SHOWLOCKGENERALTIPS_OFFSET UNITYSDK_OFFSET(0x140075A0)
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14007620)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_ISLOCK_OFFSET UNITYSDK_OFFSET(0x15338E90)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_ISOPEN_OFFSET UNITYSDK_OFFSET(0x153390C0)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA_SHOWLOCKGENERALTIPS_OFFSET UNITYSDK_OFFSET(0x153392F0)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_ITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15339370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRopeCraftsmanQuestPageController_ItemData_TypeDefinitionIndex = 66887;
+	inline static constexpr unsigned int UIRopeCraftsmanQuestPageController_ItemData_TypeDefinitionIndex = 56431;
 
 	class UIRopeCraftsmanQuestPageController_ItemData : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* FinishDesc; // 0x18
-		::System::String* TaskDes; // 0x20
-		::System::Int32 TableId; // 0x28
-		::System::Int32 QuestID; // 0x2C
+		::System::String* TaskDes; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* FinishDesc; // 0x20
+		::System::Int32 QuestID; // 0x28
+		::System::Int32 TableId; // 0x2C
 		::System::Int32 GeneralLevelID; // 0x30
 
 		::System::Void _ctor()

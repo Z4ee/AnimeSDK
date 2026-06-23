@@ -5,7 +5,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2112;
+	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2111;
 
 	struct alignas(8) XmlAtomicValue_Union
 	{

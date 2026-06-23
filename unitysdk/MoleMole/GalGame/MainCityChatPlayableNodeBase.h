@@ -3,15 +3,15 @@
 #include "unitysdk/MoleMole/GalGame/MainCityChatPlayableNodeType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_328B10E9F3553A0D;
+class Class_1_2D5DADE6FF36AA79;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYABLENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13834E20)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYABLENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CACFA0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayableNodeBase_TypeDefinitionIndex = 75365;
+	inline static constexpr unsigned int MainCityChatPlayableNodeBase_TypeDefinitionIndex = 65679;
 
 	class MainCityChatPlayableNodeBase : public ::System::Object
 	{

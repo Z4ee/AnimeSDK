@@ -7,12 +7,12 @@
 namespace MoleMole { class UISuibianTempleBuddyAddPointPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7856B0)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E8C0)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11_TypeDefinitionIndex = 47370;
+	inline static constexpr unsigned int UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11_TypeDefinitionIndex = 87258;
 
 	struct alignas(8) UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11
 	{

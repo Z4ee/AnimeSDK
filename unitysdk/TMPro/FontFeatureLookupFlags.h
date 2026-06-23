@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontFeatureLookupFlags_TypeDefinitionIndex = 37520;
+	inline static constexpr unsigned int FontFeatureLookupFlags_TypeDefinitionIndex = 39146;
 
 	enum class FontFeatureLookupFlags : ::System::Int32
 	{

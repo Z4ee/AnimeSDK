@@ -7,11 +7,11 @@ namespace MoleMole::Config { class CharacterAimModeConstant; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHARACTERAIMMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x159E5FE0)
+#define MOLEMOLE_CONFIG_CONFIGCHARACTERAIMMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1270F380)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCharacterAimMode_TypeDefinitionIndex = 50725;
+	inline static constexpr unsigned int ConfigCharacterAimMode_TypeDefinitionIndex = 52982;
 
 	class ConfigCharacterAimMode : public ::Foundation::MihoyoSerializedScriptableObject
 	{

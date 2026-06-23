@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/HollowChessboard/CellDiffusionConfigParas.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15428AB0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x161F54E0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int CellDiffusionConfig_TypeDefinitionIndex = 59944;
+	inline static constexpr unsigned int CellDiffusionConfig_TypeDefinitionIndex = 62362;
 
 	class CellDiffusionConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

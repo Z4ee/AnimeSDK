@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int TObjectHandle_1_TypeDefinitionIndex = 25269;
+	inline static constexpr unsigned int TObjectHandle_1_TypeDefinitionIndex = 27759;
 
 	template <typename T>
 	struct TObjectHandle_1

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A402530)
+#define MIHOYO_SDK_PSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C397060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSConfig_TypeDefinitionIndex = 18772;
+	inline static constexpr unsigned int PSConfig_TypeDefinitionIndex = 19668;
 
 	class PSConfig : public ::System::Object
 	{

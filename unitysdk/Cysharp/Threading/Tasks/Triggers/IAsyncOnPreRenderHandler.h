@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnPreRenderHandler_TypeDefinitionIndex = 28744;
+	inline static constexpr unsigned int IAsyncOnPreRenderHandler_TypeDefinitionIndex = 31400;
 
 	class IAsyncOnPreRenderHandler
 	{

@@ -5,27 +5,27 @@
 #include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/CharacterSimplifyMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1AD03760)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1AD03470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1AD03150)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_START_OFFSET UNITYSDK_OFFSET(0x1AD02F50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_STOP_OFFSET UNITYSDK_OFFSET(0x1AD03280)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD03820)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1C400CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1C4009D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1C4006B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_START_OFFSET UNITYSDK_OFFSET(0x1C4004B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE_STOP_OFFSET UNITYSDK_OFFSET(0x1C4007E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERRENDERINGSIMPLIFYSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C400D80)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterRenderingSimplifyState_TypeDefinitionIndex = 30062;
+	inline static constexpr unsigned int CharacterRenderingSimplifyState_TypeDefinitionIndex = 27162;
 
 	class CharacterRenderingSimplifyState : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>>** StaticGet_transitionConfig()
 		{
-			return (::Il2CppArray<::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRenderingSimplifyState_TypeDefinitionIndex)->GetStaticField(0x24750);
+			return (::Il2CppArray<::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRenderingSimplifyState_TypeDefinitionIndex)->GetStaticField(0x21FC0);
 		}
 		static ::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>** StaticGet_state()
 		{
-			return (::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRenderingSimplifyState_TypeDefinitionIndex)->GetStaticField(0x24758);
+			return (::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRenderingSimplifyState_TypeDefinitionIndex)->GetStaticField(0x21FC8);
 		}
 
 		static ::System::Void _cctor()

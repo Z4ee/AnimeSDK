@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleMono_AnimLayerInfo_TypeDefinitionIndex = 55772;
+	inline static constexpr unsigned int VehicleMono_AnimLayerInfo_TypeDefinitionIndex = 63215;
 
 	struct alignas(8) VehicleMono_AnimLayerInfo
 	{

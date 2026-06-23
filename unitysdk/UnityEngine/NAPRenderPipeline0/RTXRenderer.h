@@ -14,22 +14,22 @@ namespace UnityEngine::NAPRenderPipeline0 { class RayTracingResources; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_GET_RTXRESOURCES_OFFSET UNITYSDK_OFFSET(0x1AE728F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETACCSTRUCTURE_1_OFFSET UNITYSDK_OFFSET(0x1AE727E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETACCSTRUCTURE_OFFSET UNITYSDK_OFFSET(0x1AE726E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETCAMERAPARAMS_OFFSET UNITYSDK_OFFSET(0x1AE71E50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_UPDATEACCSTRUCTURE_OFFSET UNITYSDK_OFFSET(0x1AE72670)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE72910)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE72900)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_GET_RTXRESOURCES_OFFSET UNITYSDK_OFFSET(0x1D2A37B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETACCSTRUCTURE_1_OFFSET UNITYSDK_OFFSET(0x1D2A36A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETACCSTRUCTURE_OFFSET UNITYSDK_OFFSET(0x1D2A35A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_SETCAMERAPARAMS_OFFSET UNITYSDK_OFFSET(0x1D2A2D10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER_UPDATEACCSTRUCTURE_OFFSET UNITYSDK_OFFSET(0x1D2A3530)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2A37D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A37C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXRenderer_TypeDefinitionIndex = 5783;
+	inline static constexpr unsigned int RTXRenderer_TypeDefinitionIndex = 5787;
 
 	class RTXRenderer : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_RTVisivilityPass()
+		static ::System::String** StaticGet_RTXMetaPass()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4B90);
 		}
@@ -41,23 +41,19 @@ namespace UnityEngine::NAPRenderPipeline0
 		{
 			return (::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest>**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4BA0);
 		}
+		static ::System::String** StaticGet_RTVisivilityPass()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4BA8);
+		}
 		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingConfig* StaticGet_cullingConfig()
 		{
-			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingConfig*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4BA8);
+			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingConfig*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4BB0);
 		}
-		static ::System::String** StaticGet_RTXMetaPass()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x4C80);
-		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_ShO_CT()
-		{
-			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x2270);
-		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_SSS_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_PT_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x2280);
 		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_GI_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_Refl_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x2290);
 		}
@@ -65,21 +61,25 @@ namespace UnityEngine::NAPRenderPipeline0
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22A0);
 		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_Refl_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_SSS_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22B0);
 		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_RR_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_AO_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22C0);
 		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_PT_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_GI_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22D0);
 		}
-		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_AO_CT()
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_ShO_CT()
 		{
 			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22E0);
+		}
+		static ::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest* StaticGet_RR_CT()
+		{
+			return (::UnityEngine::Experimental::Rendering::RayTracingInstanceCullingTest*)Il2CppClass::FromTypeDefinitionIndex(RTXRenderer_TypeDefinitionIndex)->GetStaticField(0x22F0);
 		}
 
 		::System::Void _ctor()

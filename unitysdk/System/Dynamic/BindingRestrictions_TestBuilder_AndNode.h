@@ -6,7 +6,7 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int BindingRestrictions_TestBuilder_AndNode_TypeDefinitionIndex = 4969;
+	inline static constexpr unsigned int BindingRestrictions_TestBuilder_AndNode_TypeDefinitionIndex = 4968;
 
 	struct alignas(8) BindingRestrictions_TestBuilder_AndNode
 	{

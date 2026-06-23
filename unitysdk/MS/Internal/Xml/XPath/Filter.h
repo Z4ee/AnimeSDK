@@ -4,19 +4,19 @@
 #include "unitysdk/MS/Internal/Xml/XPath/AstNode_AstType.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_FILTER_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1B991D20)
-#define MS_INTERNAL_XML_XPATH_FILTER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B991D10)
-#define MS_INTERNAL_XML_XPATH_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B991D00)
+#define MS_INTERNAL_XML_XPATH_FILTER_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1DD19C00)
+#define MS_INTERNAL_XML_XPATH_FILTER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DD19BF0)
+#define MS_INTERNAL_XML_XPATH_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD19BE0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 1642;
+	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 1641;
 
 	class Filter : public ::MS::Internal::Xml::XPath::AstNode
 	{
 	public:
-		::MS::Internal::Xml::XPath::AstNode* input; // 0x10
-		::MS::Internal::Xml::XPath::AstNode* condition; // 0x18
+		::MS::Internal::Xml::XPath::AstNode* condition; // 0x10
+		::MS::Internal::Xml::XPath::AstNode* input; // 0x18
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::AstNode* input, ::MS::Internal::Xml::XPath::AstNode* condition)
 		{

@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x141D50E0)
-#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x141D50F0)
-#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x141D5390)
-#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x141D5580)
-#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x141D5540)
+#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13FEE060)
+#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13FEE070)
+#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13FEE310)
+#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FEE500)
+#define MOLEMOLE_BATTLE_ANIMATORPARAMCONTROL_ANIMATORPARAMCONTROL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FEE4C0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex = 54245;
+	inline static constexpr unsigned int AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex = 49019;
 
 	class AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::AnimatorParamControl*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x430B0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x430B8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D300);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorParamControl_AnimatorParamControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4D308);
 		}
 
 		::System::Void _ctor()

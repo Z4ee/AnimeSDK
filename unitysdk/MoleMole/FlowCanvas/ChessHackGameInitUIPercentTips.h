@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKGAMEINITUIPERCENTTIPS_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A36F10)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKGAMEINITUIPERCENTTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x18A37060)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKGAMEINITUIPERCENTTIPS_INVOKE_OFFSET UNITYSDK_OFFSET(0x16C9B9B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKGAMEINITUIPERCENTTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9BB00)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHackGameInitUIPercentTips_TypeDefinitionIndex = 65348;
+	inline static constexpr unsigned int ChessHackGameInitUIPercentTips_TypeDefinitionIndex = 60834;
 
 	class ChessHackGameInitUIPercentTips : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Collections::Generic::List_1<::System::Single>*>
 	{

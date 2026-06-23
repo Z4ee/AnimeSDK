@@ -7,19 +7,19 @@ namespace MoleMole::Config { class ConfigDynamicValue; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCALLGRAPHEVENTWITHPARAMSENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x159DA750)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCALLGRAPHEVENTWITHPARAMSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x159DA7D0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCALLGRAPHEVENTWITHPARAMSENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12702E10)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCALLGRAPHEVENTWITHPARAMSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12702E90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCallGraphEventWithParamsEntry_TypeDefinitionIndex = 56316;
+	inline static constexpr unsigned int AnimatorEventCallGraphEventWithParamsEntry_TypeDefinitionIndex = 50445;
 
 	class AnimatorEventCallGraphEventWithParamsEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
 		::System::String* AbilityName; // 0x58
-		::System::String* EventName; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicValue*>* Params; // 0x68
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicValue*>* Params; // 0x60
+		::System::String* EventName; // 0x68
 
 		::System::Void _ctor()
 		{

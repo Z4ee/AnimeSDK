@@ -5,11 +5,11 @@
 namespace System { class Type; }
 namespace System::ComponentModel { class TypeDescriptionProvider; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_TYPEDESCRIPTIONPROVIDERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAC2D0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_TYPEDESCRIPTIONPROVIDERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06F210)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int TypeDescriptionProviderService_TypeDefinitionIndex = 3030;
+	inline static constexpr unsigned int TypeDescriptionProviderService_TypeDefinitionIndex = 3029;
 
 	class TypeDescriptionProviderService : public ::System::Object
 	{

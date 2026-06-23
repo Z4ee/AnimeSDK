@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 
-#define SYSTEM_COMPONENTMODEL_COMPONENTEDITOR_EDITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A23F090)
-#define SYSTEM_COMPONENTMODEL_COMPONENTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23F0B0)
+#define SYSTEM_COMPONENTMODEL_COMPONENTEDITOR_EDITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C64CDA0)
+#define SYSTEM_COMPONENTMODEL_COMPONENTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C64CDC0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ComponentEditor_TypeDefinitionIndex = 2821;
+	inline static constexpr unsigned int ComponentEditor_TypeDefinitionIndex = 2820;
 
 	class ComponentEditor : public ::System::Object
 	{

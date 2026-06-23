@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontStyles_TypeDefinitionIndex = 37585;
+	inline static constexpr unsigned int FontStyles_TypeDefinitionIndex = 39211;
 
 	enum class FontStyles : ::System::Int32
 	{

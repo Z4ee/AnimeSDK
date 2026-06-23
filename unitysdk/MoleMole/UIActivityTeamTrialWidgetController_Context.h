@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x158A1BE0)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183EC0B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialWidgetController_Context_TypeDefinitionIndex = 58463;
+	inline static constexpr unsigned int UIActivityTeamTrialWidgetController_Context_TypeDefinitionIndex = 44295;
 
 	class UIActivityTeamTrialWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 7940;
+	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 7870;
 
 	template <typename T>
 	class Singleton_1 : public ::System::Object

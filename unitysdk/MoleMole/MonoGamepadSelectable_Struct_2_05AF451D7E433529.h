@@ -6,7 +6,7 @@ namespace MoleMole { class MonoGamepadSelectable; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadSelectable_Struct_2_05AF451D7E433529_TypeDefinitionIndex = 74913;
+	inline static constexpr unsigned int MonoGamepadSelectable_Struct_2_05AF451D7E433529_TypeDefinitionIndex = 78751;
 
 	struct alignas(8) MonoGamepadSelectable_Struct_2_05AF451D7E433529
 	{

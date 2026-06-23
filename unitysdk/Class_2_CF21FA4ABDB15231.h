@@ -9,25 +9,25 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_CF21FA4ABDB15231_METHOD_2_63BBC99244640EE0_OFFSET UNITYSDK_OFFSET(0x113E4EF0)
-#define CLASS_2_CF21FA4ABDB15231_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x113E50F0)
-#define CLASS_2_CF21FA4ABDB15231_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x113E51E0)
-#define CLASS_2_CF21FA4ABDB15231__CTOR_OFFSET UNITYSDK_OFFSET(0x113E51D0)
+#define CLASS_2_CF21FA4ABDB15231_METHOD_2_63BBC99244640EE0_OFFSET UNITYSDK_OFFSET(0x179C7F60)
+#define CLASS_2_CF21FA4ABDB15231_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x179C8160)
+#define CLASS_2_CF21FA4ABDB15231_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x179C8250)
+#define CLASS_2_CF21FA4ABDB15231__CTOR_OFFSET UNITYSDK_OFFSET(0x179C8240)
 
-inline static constexpr unsigned int Class_2_CF21FA4ABDB15231_TypeDefinitionIndex = 76466;
+inline static constexpr unsigned int Class_2_CF21FA4ABDB15231_TypeDefinitionIndex = 57289;
 
 class Class_2_CF21FA4ABDB15231 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::Animation* Field_2_1; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x20
-	::UnityEngine::GameObject* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x30
-	::UnityEngine::GameObject* Field_2_4; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x40
-	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x48
+	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x18
+	::UnityEngine::GameObject* Field_2_3; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_7; // 0x28
+	::UnityEngine::Animation* Field_2_1; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x38
+	::UnityEngine::GameObject* Field_2_2; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x48
 	::UnityEngine::GameObject* Field_2_5; // 0x50
-	::UnityEngine::GameObject* Field_2_2; // 0x58
+	::UnityEngine::GameObject* Field_2_4; // 0x58
 
 	::System::Void _ctor()
 	{

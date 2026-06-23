@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SCEPADTRIGGEREFFECTMULTIPLEPOSITIONFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define SCEPADTRIGGEREFFECTMULTIPLEPOSITIONFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
 
-inline static constexpr unsigned int ScePadTriggerEffectMultiplePositionFeedbackParam_TypeDefinitionIndex = 78149;
+inline static constexpr unsigned int ScePadTriggerEffectMultiplePositionFeedbackParam_TypeDefinitionIndex = 68048;
 
 struct alignas(8) ScePadTriggerEffectMultiplePositionFeedbackParam
 {

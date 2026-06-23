@@ -6,12 +6,12 @@
 
 namespace System::IO { class Stream; }
 
-#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_READ_OFFSET UNITYSDK_OFFSET(0x19859AB0)
-#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_WRITE_OFFSET UNITYSDK_OFFSET(0x19859D50)
+#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_READ_OFFSET UNITYSDK_OFFSET(0x1BCC7A10)
+#define MESSAGEPACK_STREAMPOLYFILLEXTENSIONS_WRITE_OFFSET UNITYSDK_OFFSET(0x1BCC7CB0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int StreamPolyfillExtensions_TypeDefinitionIndex = 26981;
+	inline static constexpr unsigned int StreamPolyfillExtensions_TypeDefinitionIndex = 29975;
 
 	class StreamPolyfillExtensions : public ::System::Object
 	{

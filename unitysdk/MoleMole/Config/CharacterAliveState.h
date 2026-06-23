@@ -3,16 +3,16 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAliveState_TypeDefinitionIndex = 60818;
+	inline static constexpr unsigned int CharacterAliveState_TypeDefinitionIndex = 82320;
 
 	enum class CharacterAliveState : ::System::Int32
 	{
-		DeadForHit = 1,
-		Unknown = -1,
-		Dying = 4,
-		ExecuteCore = 2,
+		Dead = 3,
 		MPDying = 5,
 		Alive = 0,
-		Dead = 3,
+		Dying = 4,
+		DeadForHit = 1,
+		Unknown = -1,
+		ExecuteCore = 2,
 	};
 }

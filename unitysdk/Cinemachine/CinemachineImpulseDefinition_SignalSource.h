@@ -6,20 +6,20 @@
 
 namespace Cinemachine { class CinemachineImpulseDefinition; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x1C353F20)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x1C353EE0)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C353E70)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x1E6968F0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x1E6968B0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_SIGNALSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E696840)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseDefinition_SignalSource_TypeDefinitionIndex = 32626;
+	inline static constexpr unsigned int CinemachineImpulseDefinition_SignalSource_TypeDefinitionIndex = 34177;
 
 	class CinemachineImpulseDefinition_SignalSource : public ::System::Object
 	{
 	public:
 		::Cinemachine::CinemachineImpulseDefinition* m_Def; // 0x10
-		::System::Single m_StartTimeOffset; // 0x18
-		::UnityEngine::Vector3 m_Velocity; // 0x1C
+		::UnityEngine::Vector3 m_Velocity; // 0x18
+		::System::Single m_StartTimeOffset; // 0x24
 
 		::System::Void _ctor(::Cinemachine::CinemachineImpulseDefinition* def, ::UnityEngine::Vector3 velocity)
 		{

@@ -8,12 +8,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class Draw3DUIPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AAD6CE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD6C60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CF32B90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF32B10)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int Draw3DUIPass_NativeImpl_TypeDefinitionIndex = 5733;
+	inline static constexpr unsigned int Draw3DUIPass_NativeImpl_TypeDefinitionIndex = 5735;
 
 	class Draw3DUIPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

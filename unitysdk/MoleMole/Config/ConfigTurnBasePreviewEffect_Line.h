@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigTurnBasePreviewEffect.h"
 
-#define MOLEMOLE_CONFIG_CONFIGTURNBASEPREVIEWEFFECT_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x183CF210)
+#define MOLEMOLE_CONFIG_CONFIGTURNBASEPREVIEWEFFECT_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35BE50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTurnBasePreviewEffect_Line_TypeDefinitionIndex = 78027;
+	inline static constexpr unsigned int ConfigTurnBasePreviewEffect_Line_TypeDefinitionIndex = 48195;
 
 	class ConfigTurnBasePreviewEffect_Line : public ::MoleMole::Config::ConfigTurnBasePreviewEffect
 	{

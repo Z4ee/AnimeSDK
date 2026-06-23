@@ -5,25 +5,25 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16875520)
-#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16875560)
-#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__ONCLICKOKBTN_G__EXITNORMALBATTLE_16_0_OFFSET UNITYSDK_OFFSET(0x168755A0)
-#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__SETREWARD_B__14_0_OFFSET UNITYSDK_OFFSET(0x16875570)
+#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1845D3A0)
+#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1845D3E0)
+#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__ONCLICKOKBTN_G__EXITNORMALBATTLE_16_0_OFFSET UNITYSDK_OFFSET(0x1845D420)
+#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER___C__SETREWARD_B__14_0_OFFSET UNITYSDK_OFFSET(0x1845D3F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex = 43746;
+	inline static constexpr unsigned int UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex = 50195;
 
 	class UIGrandMarcelSettlementDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__14_0()
-		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3AAA0);
-		}
 		static ::MoleMole::UIGrandMarcelSettlementDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGrandMarcelSettlementDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3AAA8);
+			return (::MoleMole::UIGrandMarcelSettlementDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CA10);
+		}
+		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__14_0()
+		{
+			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelSettlementDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CA18);
 		}
 
 		static ::System::Void _cctor()

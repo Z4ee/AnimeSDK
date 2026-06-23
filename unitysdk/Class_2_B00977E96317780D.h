@@ -4,7 +4,7 @@
 
 class Class_1_EEA0111A28582B57;
 class Class_2_1B1C05BC0A38A2D5;
-class Class_2_5E2FBACADDB625B7_6;
+class Class_2_5E2FBACADDB625B7_19;
 namespace MoleMole { class UIActivityCompRowTaskListWidgetController; }
 namespace MoleMole { class UIActivityCompTaskList2WidgetController; }
 namespace MoleMole { class UIActivityGuideInfoWidgetController; }
@@ -12,30 +12,30 @@ namespace MoleMole { class UIBaseController; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole { class UIGeneralConsoleExistNormalBtnWidgetController; }
 
-#define CLASS_2_B00977E96317780D_METHOD_2_4CD8461FEFD0CC16_OFFSET UNITYSDK_OFFSET(0x1419E000)
-#define CLASS_2_B00977E96317780D_METHOD_2_6916CB2AB9451DD7_OFFSET UNITYSDK_OFFSET(0x1419D750)
-#define CLASS_2_B00977E96317780D_METHOD_2_759E8C34D479D28F_OFFSET UNITYSDK_OFFSET(0x1419CE00)
-#define CLASS_2_B00977E96317780D_METHOD_2_B2A9E476CE8053F4_OFFSET UNITYSDK_OFFSET(0x1419DAA0)
-#define CLASS_2_B00977E96317780D_METHOD_2_B692A9A7BCC55AC4_OFFSET UNITYSDK_OFFSET(0x1419CD00)
-#define CLASS_2_B00977E96317780D_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x1419CF80)
-#define CLASS_2_B00977E96317780D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1419D340)
-#define CLASS_2_B00977E96317780D_METHOD_2_CEA32FF190776922_OFFSET UNITYSDK_OFFSET(0x1419D390)
-#define CLASS_2_B00977E96317780D_METHOD_2_EEED34E9AAC26D51_OFFSET UNITYSDK_OFFSET(0x1419DB30)
-#define CLASS_2_B00977E96317780D__CTOR_OFFSET UNITYSDK_OFFSET(0x1419D380)
+#define CLASS_2_B00977E96317780D_METHOD_2_4CD8461FEFD0CC16_OFFSET UNITYSDK_OFFSET(0xD964DC0)
+#define CLASS_2_B00977E96317780D_METHOD_2_67D41ACFEF39E84E_OFFSET UNITYSDK_OFFSET(0xD964850)
+#define CLASS_2_B00977E96317780D_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xD964D00)
+#define CLASS_2_B00977E96317780D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD964C40)
+#define CLASS_2_B00977E96317780D_METHOD_2_99053D1AE5A59190_OFFSET UNITYSDK_OFFSET(0xD964410)
+#define CLASS_2_B00977E96317780D_METHOD_2_B2A9E476CE8053F4_OFFSET UNITYSDK_OFFSET(0xD964E60)
+#define CLASS_2_B00977E96317780D_METHOD_2_B692A9A7BCC55AC4_OFFSET UNITYSDK_OFFSET(0xD9641B0)
+#define CLASS_2_B00977E96317780D_METHOD_2_CC88866CD45A60B2_OFFSET UNITYSDK_OFFSET(0xD9642B0)
+#define CLASS_2_B00977E96317780D_METHOD_2_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0xD964BF0)
+#define CLASS_2_B00977E96317780D__CTOR_OFFSET UNITYSDK_OFFSET(0xD964BE0)
 
-inline static constexpr unsigned int Class_2_B00977E96317780D_TypeDefinitionIndex = 43016;
+inline static constexpr unsigned int Class_2_B00977E96317780D_TypeDefinitionIndex = 69497;
 
 class Class_2_B00977E96317780D : public ::Class_1_C9FCD193B2E091DD
 {
 public:
-	::MoleMole::UIActivityCompTaskList2WidgetController* Field_2_2; // 0x30
-	::MoleMole::UIActivityGuideInfoWidgetController* Field_2_0; // 0x38
-	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_5; // 0x40
-	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_6; // 0x48
-	::MoleMole::UIGeneralConsoleExistNormalBtnWidgetController* Field_2_7; // 0x50
-	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_4; // 0x58
-	::Class_2_1B1C05BC0A38A2D5* Field_2_1; // 0x60
-	::Class_2_5E2FBACADDB625B7_6* Field_2_3; // 0x68
+	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_5; // 0x30
+	::MoleMole::UIActivityCompTaskList2WidgetController* Field_2_2; // 0x38
+	::Class_2_1B1C05BC0A38A2D5* Field_2_1; // 0x40
+	::MoleMole::UIActivityGuideInfoWidgetController* Field_2_0; // 0x48
+	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_4; // 0x50
+	::MoleMole::UIGeneralConsoleExistNormalBtnWidgetController* Field_2_7; // 0x58
+	::Class_2_5E2FBACADDB625B7_19* Field_2_3; // 0x60
+	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_2_6; // 0x68
 
 	::System::Void _ctor()
 	{
@@ -47,34 +47,29 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBaseController*, ::Class_1_EEA0111A28582B57*, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_B692A9A7BCC55AC4_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_759E8C34D479D28F(::MoleMole::UIControllerContextBase* a1)
+	::System::Void Method_2_CC88866CD45A60B2(::MoleMole::UIControllerContextBase* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_759E8C34D479D28F_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_CC88866CD45A60B2_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_CEA32FF190776922()
+	::System::Void Method_2_CFE6FB160FFF5938()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_CEA32FF190776922_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_CFE6FB160FFF5938_OFFSET))(this);
 	}
 
-	::System::Void Method_2_6916CB2AB9451DD7()
+	::System::Void Method_2_67D41ACFEF39E84E()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_6916CB2AB9451DD7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_67D41ACFEF39E84E_OFFSET))(this);
 	}
 
-	::System::Void Method_2_B2A9E476CE8053F4(::MoleMole::UIControllerContextBase* a1)
+	::System::Void Method_2_99053D1AE5A59190()
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_B2A9E476CE8053F4_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_99053D1AE5A59190_OFFSET))(this);
 	}
 
-	::System::Void Method_2_C638E91FC0D3A13A()
+	::System::Void Method_2_9681042564541CD6()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_C638E91FC0D3A13A_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_9681042564541CD6_OFFSET))(this);
 	}
 
 	::System::Void Method_2_4CD8461FEFD0CC16(::MoleMole::UIBaseController* a1, ::Class_1_EEA0111A28582B57* a2, ::MoleMole::UIControllerContextBase* a3)
@@ -82,8 +77,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBaseController*, ::Class_1_EEA0111A28582B57*, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_4CD8461FEFD0CC16_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_EEED34E9AAC26D51()
+	::System::Void Method_2_9681042564541CD6_1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_EEED34E9AAC26D51_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_9681042564541CD6_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B2A9E476CE8053F4(::MoleMole::UIControllerContextBase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_B00977E96317780D_METHOD_2_B2A9E476CE8053F4_OFFSET))(this, a1);
 	}
 };

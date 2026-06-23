@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA6195AD8326024E.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_13.h"
+#include "unitysdk/Struct_2_52A902145F5BE51A.h"
 
-namespace System { template <typename T> class Action_1; }
+inline static constexpr unsigned int Class_2_534AF681CC2BD5F4_1_TypeDefinitionIndex = 29013;
 
-inline static constexpr unsigned int Class_2_534AF681CC2BD5F4_1_TypeDefinitionIndex = 65945;
-
-template <typename T1>
-class Class_2_534AF681CC2BD5F4_1 : public ::Class_1_CA6195AD8326024E<::System::Action_1<T1>*>
+template <typename TParam>
+class Class_2_534AF681CC2BD5F4_1 : public ::Class_1_43BD383C98B4C0C5_13
 {
 public:
 };

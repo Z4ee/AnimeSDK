@@ -5,24 +5,24 @@
 namespace MoleMole::CaseTest { class SkillDef; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x122DF0A0)
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x122DF0E0)
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__GETALLSKILLSETTING_B__8_0_OFFSET UNITYSDK_OFFSET(0x122DF0F0)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D26FC0)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D27000)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG___C__GETALLSKILLSETTING_B__8_0_OFFSET UNITYSDK_OFFSET(0x17D27010)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int MonsterReplayConfig___c_TypeDefinitionIndex = 45043;
+	inline static constexpr unsigned int MonsterReplayConfig___c_TypeDefinitionIndex = 40814;
 
 	class MonsterReplayConfig___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::CaseTest::MonsterReplayConfig___c** StaticGet___9()
-		{
-			return (::MoleMole::CaseTest::MonsterReplayConfig___c**)Il2CppClass::FromTypeDefinitionIndex(MonsterReplayConfig___c_TypeDefinitionIndex)->GetStaticField(0x2DE90);
-		}
 		static ::System::Comparison_1<::MoleMole::CaseTest::SkillDef*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::MoleMole::CaseTest::SkillDef*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterReplayConfig___c_TypeDefinitionIndex)->GetStaticField(0x2DE98);
+			return (::System::Comparison_1<::MoleMole::CaseTest::SkillDef*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterReplayConfig___c_TypeDefinitionIndex)->GetStaticField(0x30200);
+		}
+		static ::MoleMole::CaseTest::MonsterReplayConfig___c** StaticGet___9()
+		{
+			return (::MoleMole::CaseTest::MonsterReplayConfig___c**)Il2CppClass::FromTypeDefinitionIndex(MonsterReplayConfig___c_TypeDefinitionIndex)->GetStaticField(0x30208);
 		}
 
 		static ::System::Void _cctor()

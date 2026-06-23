@@ -4,12 +4,12 @@
 #include "unitysdk/System/UriParser.h"
 #include "unitysdk/System/UriSyntaxFlags.h"
 
-#define SYSTEM_GENERICURIPARSER_MAPGENERICPARSEROPTIONS_OFFSET UNITYSDK_OFFSET(0x1A323360)
-#define SYSTEM_GENERICURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A323220)
+#define SYSTEM_GENERICURIPARSER_MAPGENERICPARSEROPTIONS_OFFSET UNITYSDK_OFFSET(0x1C6D1080)
+#define SYSTEM_GENERICURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D0F40)
 
 namespace System
 {
-	inline static constexpr unsigned int GenericUriParser_TypeDefinitionIndex = 2662;
+	inline static constexpr unsigned int GenericUriParser_TypeDefinitionIndex = 2661;
 
 	class GenericUriParser : public ::System::UriParser
 	{

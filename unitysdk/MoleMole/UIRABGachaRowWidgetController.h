@@ -1,0 +1,221 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_2_79AE422BA06F6D26_154;
+class Class_3_E542FA6AD8EA44A5_3;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIRABGachaItemRowWidgetController_Data; }
+namespace System { class EventArgs; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_BINDNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x11B95490)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_GETMAXRARITYFROMRESULT_OFFSET UNITYSDK_OFFSET(0x11B95D90)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONBANNERINFOBTNBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11B94E70)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11B954D0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONGACHAITEMROWCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x11B967F0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONINFOBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11B94FF0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONMULTIPLEPULLSBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11B95560)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPOOLDATACHANGEHANDLE_OFFSET UNITYSDK_OFFSET(0x11B94700)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSCLEARNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x11B96310)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x11B95A70)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSSHOWREWARD_OFFSET UNITYSDK_OFFSET(0x11B95F90)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11B950E0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONTRACKQUESTUPDATE_OFFSET UNITYSDK_OFFSET(0x11B94020)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11B97710)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11B93C40)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x11B95070)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHCOSTVIEW_OFFSET UNITYSDK_OFFSET(0x11B96C40)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHTOKENS_OFFSET UNITYSDK_OFFSET(0x11B96350)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHTRACKQUEST_OFFSET UNITYSDK_OFFSET(0x11B94070)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHVIEWONSELECT_OFFSET UNITYSDK_OFFSET(0x11B94C40)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REMOVEGACHAITEMREDDOT_OFFSET UNITYSDK_OFFSET(0x11B96AC0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_SETSELECTPOOLROW_OFFSET UNITYSDK_OFFSET(0x11B94BB0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_SHOWPOOLDATA_OFFSET UNITYSDK_OFFSET(0x11B94830)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_TRYTRIGGERMANUFACTURENEWBIE_OFFSET UNITYSDK_OFFSET(0x11B95280)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11B97790)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__ONGACHAITEMROWCLICKHANDLE_B__25_0_OFFSET UNITYSDK_OFFSET(0x11B97870)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__ONPOOLDATACHANGEHANDLE_B__7_0_OFFSET UNITYSDK_OFFSET(0x11B97850)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11B97890)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11B97920)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11B979C0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11B97A50)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x11B97AE0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRABGachaRowWidgetController_TypeDefinitionIndex = 57123;
+
+	class UIRABGachaRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_79AE422BA06F6D26_154* _view; // 0x2F0
+		::System::Int32 _selectPoolId; // 0x2F8
+		::System::Int32 _maxPullCount; // 0x2FC
+		::System::Collections::Generic::List_1<::MoleMole::UIRABGachaItemRowWidgetController_Data*>* _poolDataList; // 0x300
+		::System::Int32 costItemId; // 0x308
+		::System::Int32 _pullCount; // 0x30C
+		::System::Collections::Generic::List_1<::System::Int32>* _itemIdList; // 0x310
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnTrackQuestUpdate(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONTRACKQUESTUPDATE_OFFSET))(this, obj);
+		}
+
+		::System::Void RefreshTrackQuest()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHTRACKQUEST_OFFSET))(this);
+		}
+
+		::System::Void OnPoolDataChangeHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPOOLDATACHANGEHANDLE_OFFSET))(this, obj);
+		}
+
+		::System::Void OnBannerInfoBtnBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONBANNERINFOBTNBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnInfoBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONINFOBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void BindNotifications()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_BINDNOTIFICATIONS_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnMultiplePullsBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONMULTIPLEPULLSBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnPullSuccessHandle(::Class_3_E542FA6AD8EA44A5_3* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_E542FA6AD8EA44A5_3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSHANDLE_OFFSET))(this, rsp);
+		}
+
+		::System::Int32 GetMaxRarityFromResult(::Class_3_E542FA6AD8EA44A5_3* rsp)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Class_3_E542FA6AD8EA44A5_3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_GETMAXRARITYFROMRESULT_OFFSET))(this, rsp);
+		}
+
+		::System::Void OnPullSuccessShowReward(::Class_3_E542FA6AD8EA44A5_3* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_E542FA6AD8EA44A5_3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSSHOWREWARD_OFFSET))(this, rsp);
+		}
+
+		::System::Void OnPullSuccessClearNotification()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONPULLSUCCESSCLEARNOTIFICATION_OFFSET))(this);
+		}
+
+		::System::Void RefreshTokens()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHTOKENS_OFFSET))(this);
+		}
+
+		::System::Void ShowPoolData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_SHOWPOOLDATA_OFFSET))(this);
+		}
+
+		::System::Void SetSelectPoolRow(::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_SETSELECTPOOLROW_OFFSET))(this, index);
+		}
+
+		::System::Void OnGachaItemRowClickHandle(::MoleMole::UIRABGachaItemRowWidgetController_Data* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIRABGachaItemRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONGACHAITEMROWCLICKHANDLE_OFFSET))(this, data);
+		}
+
+		::System::Void RemoveGachaItemRedDot(::System::Int32 poolID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REMOVEGACHAITEMREDDOT_OFFSET))(this, poolID);
+		}
+
+		::System::Void RefreshViewOnSelect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHVIEWONSELECT_OFFSET))(this);
+		}
+
+		::System::Void RefreshCostView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_REFRESHCOSTVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void TryTriggerManufactureNewbie()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER_TRYTRIGGERMANUFACTURENEWBIE_OFFSET))(this);
+		}
+
+		::System::Boolean _OnPoolDataChangeHandle_b__7_0(::MoleMole::UIRABGachaItemRowWidgetController_Data* data)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIRABGachaItemRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__ONPOOLDATACHANGEHANDLE_B__7_0_OFFSET))(this, data);
+		}
+
+		::System::Boolean _OnGachaItemRowClickHandle_b__25_0(::MoleMole::UIRABGachaItemRowWidgetController_Data* item)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIRABGachaItemRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER__ONGACHAITEMROWCLICKHANDLE_B__25_0_OFFSET))(this, item);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

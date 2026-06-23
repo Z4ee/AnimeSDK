@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 7488;
+	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 7620;
 
 	enum class Operator : ::System::Int32
 	{

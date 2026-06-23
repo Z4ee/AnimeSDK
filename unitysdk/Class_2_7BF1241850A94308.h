@@ -10,24 +10,24 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_7BF1241850A94308_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xF5BB100)
-#define CLASS_2_7BF1241850A94308_METHOD_2_8AE01EFA7526266A_OFFSET UNITYSDK_OFFSET(0xF5BAEE0)
-#define CLASS_2_7BF1241850A94308_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF5BB200)
-#define CLASS_2_7BF1241850A94308__CTOR_OFFSET UNITYSDK_OFFSET(0xF5BB1F0)
+#define CLASS_2_7BF1241850A94308_METHOD_2_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x127BFEF0)
+#define CLASS_2_7BF1241850A94308_METHOD_2_8AE01EFA7526266A_OFFSET UNITYSDK_OFFSET(0x127BFCD0)
+#define CLASS_2_7BF1241850A94308_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x127BFFF0)
+#define CLASS_2_7BF1241850A94308__CTOR_OFFSET UNITYSDK_OFFSET(0x127BFFE0)
 
-inline static constexpr unsigned int Class_2_7BF1241850A94308_TypeDefinitionIndex = 74703;
+inline static constexpr unsigned int Class_2_7BF1241850A94308_TypeDefinitionIndex = 57523;
 
 class Class_2_7BF1241850A94308 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x20
-	::UnityEngine::Transform* Field_2_4; // 0x28
+	::UnityEngine::Transform* Field_2_3; // 0x18
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_6; // 0x28
 	::UnityEngine::RectTransform* Field_2_7; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x40
+	::UnityEngine::Transform* Field_2_4; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x40
 	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x48
-	::UnityEngine::Transform* Field_2_3; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_5; // 0x50
 
 	::System::Void _ctor()
 	{

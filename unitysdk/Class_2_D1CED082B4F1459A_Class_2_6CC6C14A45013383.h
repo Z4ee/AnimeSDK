@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
-template <typename T> class Class_0_16E4307DCC41950C_13;
+template <typename T> class Class_0_16E4307DCC419505_165;
 
-#define CLASS_2_D1CED082B4F1459A_CLASS_2_6CC6C14A45013383_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xEC58490)
-#define CLASS_2_D1CED082B4F1459A_CLASS_2_6CC6C14A45013383__CTOR_OFFSET UNITYSDK_OFFSET(0xEC58540)
+#define CLASS_2_D1CED082B4F1459A_CLASS_2_6CC6C14A45013383_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1687F730)
+#define CLASS_2_D1CED082B4F1459A_CLASS_2_6CC6C14A45013383__CTOR_OFFSET UNITYSDK_OFFSET(0x1687F7E0)
 
-inline static constexpr unsigned int Class_2_D1CED082B4F1459A_Class_2_6CC6C14A45013383_TypeDefinitionIndex = 59469;
+inline static constexpr unsigned int Class_2_D1CED082B4F1459A_Class_2_6CC6C14A45013383_TypeDefinitionIndex = 69669;
 
-class Class_2_D1CED082B4F1459A_Class_2_6CC6C14A45013383 : public ::Class_1_F4299CC27263318B
+class Class_2_D1CED082B4F1459A_Class_2_6CC6C14A45013383 : public ::Class_1_C331A5DC726F030A
 {
 public:
-	::Class_0_16E4307DCC41950C_13<::System::Int32>* Field_2_1; // 0x70
-	::Class_0_16E4307DCC41950C_13<::System::Int32>* Field_2_0; // 0x78
-	::Class_0_16E4307DCC41950C_13<::System::Boolean>* Field_2_2; // 0x80
+	::Class_0_16E4307DCC419505_165<::System::Boolean>* Field_2_2; // 0x60
+	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_0; // 0x68
+	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_1; // 0x70
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int IDynamicExpression_TypeDefinitionIndex = 4479;
+	inline static constexpr unsigned int IDynamicExpression_TypeDefinitionIndex = 4478;
 
 	class IDynamicExpression
 	{

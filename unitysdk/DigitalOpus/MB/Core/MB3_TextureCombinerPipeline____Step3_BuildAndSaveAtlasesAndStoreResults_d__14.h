@@ -15,34 +15,34 @@ namespace System::Diagnostics { class Stopwatch; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class Texture2D; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C034AB0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C035920)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C035980)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C035930)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C034AA0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14__CTOR_OFFSET UNITYSDK_OFFSET(0x1C034A90)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E358BA0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E359A10)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E359A70)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E359A20)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E358B90)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE____STEP3_BUILDANDSAVEATLASESANDSTORERESULTS_D__14__CTOR_OFFSET UNITYSDK_OFFSET(0x1E358B80)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPipeline____Step3_BuildAndSaveAtlasesAndStoreResults_d__14_TypeDefinitionIndex = 85176;
+	inline static constexpr unsigned int MB3_TextureCombinerPipeline____Step3_BuildAndSaveAtlasesAndStoreResults_d__14_TypeDefinitionIndex = 90750;
 
 	class MB3_TextureCombinerPipeline____Step3_BuildAndSaveAtlasesAndStoreResults_d__14 : public ::System::Object
 	{
 	public:
-		::System::Text::StringBuilder* report; // 0x10
-		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline* __4__this; // 0x18
-		::MB_AtlasesAndRects* resultAtlasesAndRects; // 0x20
-		::DigitalOpus::MB::Core::MB_ITextureCombinerPacker* packer; // 0x28
-		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x30
-		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x38
-		::System::Diagnostics::Stopwatch* _sw_5__2; // 0x40
-		::Il2CppArray<::UnityEngine::Texture2D*>* _atlases_5__3; // 0x48
-		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x50
-		::DigitalOpus::MB::Core::AtlasPackingResult* atlasPackingResult; // 0x58
-		::System::Object* __2__current; // 0x60
-		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x68
-		::System::Int32 __1__state; // 0x70
-		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x74
+		::Il2CppArray<::UnityEngine::Texture2D*>* _atlases_5__3; // 0x10
+		::DigitalOpus::MB::Core::MB_ITextureCombinerPacker* packer; // 0x18
+		::System::Text::StringBuilder* report; // 0x20
+		::System::Diagnostics::Stopwatch* _sw_5__2; // 0x28
+		::DigitalOpus::MB::Core::AtlasPackingResult* atlasPackingResult; // 0x30
+		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x38
+		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x40
+		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline* __4__this; // 0x48
+		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x50
+		::System::Object* __2__current; // 0x58
+		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x60
+		::MB_AtlasesAndRects* resultAtlasesAndRects; // 0x68
+		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x70
+		::System::Int32 __1__state; // 0x74
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

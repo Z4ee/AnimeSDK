@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_CONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E10D0)
+#define UNITYENGINE_TIMELINE_CONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D44E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int Constants_TypeDefinitionIndex = 30802;
+	inline static constexpr unsigned int Constants_TypeDefinitionIndex = 32353;
 
 	class Constants : public ::System::Object
 	{

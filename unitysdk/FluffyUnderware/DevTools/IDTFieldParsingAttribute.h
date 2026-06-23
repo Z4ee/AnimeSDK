@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int IDTFieldParsingAttribute_TypeDefinitionIndex = 25814;
+	inline static constexpr unsigned int IDTFieldParsingAttribute_TypeDefinitionIndex = 28308;
 
 	class IDTFieldParsingAttribute
 	{

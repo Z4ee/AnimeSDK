@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERRUPTINPUTENABLEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x125AFD70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERRUPTINPUTENABLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x125AFE70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERRUPTINPUTENABLEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x13003B00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERRUPTINPUTENABLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13003C00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDInterruptInputEnableAction_TypeDefinitionIndex = 39088;
+	inline static constexpr unsigned int LDInterruptInputEnableAction_TypeDefinitionIndex = 75887;
 
 	class LDInterruptInputEnableAction : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

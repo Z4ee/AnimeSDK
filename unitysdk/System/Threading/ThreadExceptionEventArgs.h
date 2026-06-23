@@ -4,12 +4,12 @@
 
 namespace System { class Exception; }
 
-#define SYSTEM_THREADING_THREADEXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A58F130)
-#define SYSTEM_THREADING_THREADEXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A58F0D0)
+#define SYSTEM_THREADING_THREADEXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C8AE3E0)
+#define SYSTEM_THREADING_THREADEXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AE380)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadExceptionEventArgs_TypeDefinitionIndex = 2712;
+	inline static constexpr unsigned int ThreadExceptionEventArgs_TypeDefinitionIndex = 2711;
 
 	class ThreadExceptionEventArgs : public ::System::EventArgs
 	{

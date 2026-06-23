@@ -7,22 +7,22 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_BINDLIGHT_OFFSET UNITYSDK_OFFSET(0x18FF2430)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_UPDATEMATRIXWITHHLAFLAMBERTPOW_OFFSET UNITYSDK_OFFSET(0x18FF30F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_UPDATEMATRIXWITHLIGHTOCCLUSION_OFFSET UNITYSDK_OFFSET(0x18FF2480)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FF32C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF3260)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_BINDLIGHT_OFFSET UNITYSDK_OFFSET(0x1AF5E0D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_UPDATEMATRIXWITHHLAFLAMBERTPOW_OFFSET UNITYSDK_OFFSET(0x1AF5ED90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK_UPDATEMATRIXWITHLIGHTOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1AF5E120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF5EF60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOCCLUSIONMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5EF00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightOcclusionMask_TypeDefinitionIndex = 29855;
+	inline static constexpr unsigned int LightOcclusionMask_TypeDefinitionIndex = 26477;
 
 	class LightOcclusionMask : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_s_TargetOccluder()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(LightOcclusionMask_TypeDefinitionIndex)->GetStaticField(0x23040);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(LightOcclusionMask_TypeDefinitionIndex)->GetStaticField(0x20750);
 		}
 		::UnityEngine::Vector3 m_PreviewSize; // 0x18
 		::UnityEngine::Light* light; // 0x28

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_CAMERAROTATETOGGLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x141D7C50)
+#define MOLEMOLE_CAMERAROTATETOGGLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF0DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraRotateToggleSettingContext_TypeDefinitionIndex = 51504;
+	inline static constexpr unsigned int CameraRotateToggleSettingContext_TypeDefinitionIndex = 57676;
 
 	class CameraRotateToggleSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

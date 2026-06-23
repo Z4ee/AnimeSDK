@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MDBEDITOR_MDBGENERICPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1033F9B0)
+#define MDBEDITOR_MDBGENERICPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64CA0)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbGenericPanel_TypeDefinitionIndex = 85961;
+	inline static constexpr unsigned int MdbGenericPanel_TypeDefinitionIndex = 91441;
 
 	class MdbGenericPanel : public ::UnityEngine::MonoBehaviour
 	{

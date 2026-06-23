@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpWriteMode_TypeDefinitionIndex = 3319;
+	inline static constexpr unsigned int HttpWriteMode_TypeDefinitionIndex = 3318;
 
 	enum class HttpWriteMode : ::System::Int32
 	{

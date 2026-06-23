@@ -3,7 +3,7 @@
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityZone_TypeDefinitionIndex = 949;
+	inline static constexpr unsigned int SecurityZone_TypeDefinitionIndex = 948;
 
 	enum class SecurityZone : ::System::Int32
 	{

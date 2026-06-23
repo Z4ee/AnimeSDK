@@ -3,7 +3,7 @@
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentBag_1_Operation_TypeDefinitionIndex = 4002;
+	inline static constexpr unsigned int ConcurrentBag_1_Operation_TypeDefinitionIndex = 4001;
 
 	enum class ConcurrentBag_1_Operation : ::System::Int32
 	{

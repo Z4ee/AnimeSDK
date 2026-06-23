@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A210800)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A210860)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2108F0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1C63C7D0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1C63C830)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C63C8C0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckInt_TypeDefinitionIndex = 27807;
+	inline static constexpr unsigned int CheckInt_TypeDefinitionIndex = 29442;
 
 	class CheckInt : public ::NodeCanvas::Framework::ConditionTask
 	{

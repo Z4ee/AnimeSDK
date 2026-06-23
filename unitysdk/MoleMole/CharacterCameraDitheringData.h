@@ -5,17 +5,17 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERCAMERADITHERINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C897F0)
+#define MOLEMOLE_CHARACTERCAMERADITHERINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x134796B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterCameraDitheringData_TypeDefinitionIndex = 38387;
+	inline static constexpr unsigned int CharacterCameraDitheringData_TypeDefinitionIndex = 68160;
 
 	struct alignas(8) CharacterCameraDitheringData
 	{
 		static ::MoleMole::CharacterCameraDitheringData* StaticGet_Default()
 		{
-			return (::MoleMole::CharacterCameraDitheringData*)Il2CppClass::FromTypeDefinitionIndex(CharacterCameraDitheringData_TypeDefinitionIndex)->GetStaticField(0x36E50);
+			return (::MoleMole::CharacterCameraDitheringData*)Il2CppClass::FromTypeDefinitionIndex(CharacterCameraDitheringData_TypeDefinitionIndex)->GetStaticField(0x40B30);
 		}
 		::System::Single fadeInTime; // 0x10
 		::System::Single fadeOutTime; // 0x14

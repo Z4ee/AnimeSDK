@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/QuickGraph/Algorithm/AlgorithmBase_1.h"
 
-class Class_0_16E4307DCC419505_32;
+class Class_0_16E4307DCC419505_45;
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 
-inline static constexpr unsigned int Class_2_91CA132C22E737F0_TypeDefinitionIndex = 25733;
+inline static constexpr unsigned int Class_2_91CA132C22E737F0_TypeDefinitionIndex = 28264;
 
 template <typename TVertex, typename TGraph>
 class Class_2_91CA132C22E737F0 : public ::MoleMole::QuickGraph::Algorithm::AlgorithmBase_1<TGraph>

@@ -7,17 +7,17 @@ namespace Mono::Xml { class MiniParser_IReader; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MONO_XML_MINIPARSER_FATALERR_OFFSET UNITYSDK_OFFSET(0x1C3B5550)
-#define MONO_XML_MINIPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1C3B5740)
-#define MONO_XML_MINIPARSER_RESET_OFFSET UNITYSDK_OFFSET(0x1C3B5440)
-#define MONO_XML_MINIPARSER_STREQUALS_OFFSET UNITYSDK_OFFSET(0x1C3B5450)
-#define MONO_XML_MINIPARSER_XLAT_OFFSET UNITYSDK_OFFSET(0x1C3B55B0)
-#define MONO_XML_MINIPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3B8030)
-#define MONO_XML_MINIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B53F0)
+#define MONO_XML_MINIPARSER_FATALERR_OFFSET UNITYSDK_OFFSET(0x1E6FD000)
+#define MONO_XML_MINIPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1E6FD1F0)
+#define MONO_XML_MINIPARSER_RESET_OFFSET UNITYSDK_OFFSET(0x1E6FCEF0)
+#define MONO_XML_MINIPARSER_STREQUALS_OFFSET UNITYSDK_OFFSET(0x1E6FCF00)
+#define MONO_XML_MINIPARSER_XLAT_OFFSET UNITYSDK_OFFSET(0x1E6FD060)
+#define MONO_XML_MINIPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6FFAE0)
+#define MONO_XML_MINIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FCEA0)
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_TypeDefinitionIndex = 2261;
+	inline static constexpr unsigned int MiniParser_TypeDefinitionIndex = 2260;
 
 	class MiniParser : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Mono::Xml
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0xF80);
 		}
 		::Il2CppArray<::System::Int32>* twoCharBuff; // 0x10
-		::System::Boolean splitCData; // 0x18
-		::System::Int32 col; // 0x1C
-		::System::Int32 line; // 0x20
+		::System::Int32 col; // 0x18
+		::System::Int32 line; // 0x1C
+		::System::Boolean splitCData; // 0x20
 
 		::System::Void _ctor()
 		{

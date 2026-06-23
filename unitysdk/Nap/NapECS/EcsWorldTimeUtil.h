@@ -5,11 +5,11 @@
 namespace Nap::NapECS { class EcsWorld; }
 namespace Nap::NapECS { class EcsWorldTimeCenter; }
 
-#define NAP_NAPECS_ECSWORLDTIMEUTIL_GETECSWORLDTIMECENTER_OFFSET UNITYSDK_OFFSET(0x192EC650)
+#define NAP_NAPECS_ECSWORLDTIMEUTIL_GETECSWORLDTIMECENTER_OFFSET UNITYSDK_OFFSET(0x1B30B520)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorldTimeUtil_TypeDefinitionIndex = 35675;
+	inline static constexpr unsigned int EcsWorldTimeUtil_TypeDefinitionIndex = 37377;
 
 	class EcsWorldTimeUtil : public ::System::Object
 	{

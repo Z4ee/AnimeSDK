@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JEnumerable_1_TypeDefinitionIndex = 7041;
+	inline static constexpr unsigned int JEnumerable_1_TypeDefinitionIndex = 7172;
 
 	template <typename T>
 	struct JEnumerable_1

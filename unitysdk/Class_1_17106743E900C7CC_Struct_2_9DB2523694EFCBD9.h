@@ -4,7 +4,7 @@
 #include "unitysdk/MoleMole/UIInLevelMonsterHudWidgetChildWindowController_HudFlag.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_17106743E900C7CC_Struct_2_9DB2523694EFCBD9_TypeDefinitionIndex = 50715;
+inline static constexpr unsigned int Class_1_17106743E900C7CC_Struct_2_9DB2523694EFCBD9_TypeDefinitionIndex = 46335;
 
 struct alignas(4) Class_1_17106743E900C7CC_Struct_2_9DB2523694EFCBD9
 {

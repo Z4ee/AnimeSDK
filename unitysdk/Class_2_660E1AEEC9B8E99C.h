@@ -10,30 +10,30 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x1B20B0D0)
-#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x1B20AE50)
-#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1B20B1C0)
-#define CLASS_2_660E1AEEC9B8E99C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B20B1B0)
+#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_77EA5BCD93BD96AE_OFFSET UNITYSDK_OFFSET(0x1B856490)
+#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_7879E8D5956B4E2C_OFFSET UNITYSDK_OFFSET(0x1B856210)
+#define CLASS_2_660E1AEEC9B8E99C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1B856590)
+#define CLASS_2_660E1AEEC9B8E99C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B856580)
 
-inline static constexpr unsigned int Class_2_660E1AEEC9B8E99C_TypeDefinitionIndex = 85326;
+inline static constexpr unsigned int Class_2_660E1AEEC9B8E99C_TypeDefinitionIndex = 90877;
 
 class Class_2_660E1AEEC9B8E99C : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_1; // 0x18
-	::UnityEngine::GameObject* Field_2_13; // 0x20
-	::MonoUITableScrollV2* Field_2_3; // 0x28
-	::UnityEngine::GameObject* Field_2_10; // 0x30
-	::UnityEngine::Animation* Field_2_0; // 0x38
-	::UnityEngine::GameObject* Field_2_8; // 0x40
-	::UnityEngine::GameObject* Field_2_7; // 0x48
-	::UnityEngine::GameObject* Field_2_6; // 0x50
-	::MonoUITableScrollV2* Field_2_2; // 0x58
-	::Class_2_B4378B46E0020E85* Field_2_12; // 0x60
-	::UnityEngine::GameObject* Field_2_5; // 0x68
-	::UnityEngine::GameObject* Field_2_9; // 0x70
-	::Class_2_B4378B46E0020E85* Field_2_11; // 0x78
-	::MonoUITableScrollV2* Field_2_4; // 0x80
+	::UnityEngine::GameObject* Field_2_10; // 0x18
+	::UnityEngine::GameObject* Field_2_6; // 0x20
+	::UnityEngine::GameObject* Field_2_5; // 0x28
+	::UnityEngine::GameObject* Field_2_9; // 0x30
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_1; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_11; // 0x40
+	::UnityEngine::GameObject* Field_2_8; // 0x48
+	::UnityEngine::GameObject* Field_2_7; // 0x50
+	::UnityEngine::GameObject* Field_2_13; // 0x58
+	::UnityEngine::Animation* Field_2_0; // 0x60
+	::MonoUITableScrollV2* Field_2_2; // 0x68
+	::MonoUITableScrollV2* Field_2_3; // 0x70
+	::MonoUITableScrollV2* Field_2_4; // 0x78
+	::Class_2_B4378B46E0020E85* Field_2_12; // 0x80
 
 	::System::Void _ctor()
 	{
@@ -45,13 +45,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_660E1AEEC9B8E99C_METHOD_2_7879E8D5956B4E2C_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_660E1AEEC9B8E99C_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_2_77EA5BCD93BD96AE()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_660E1AEEC9B8E99C_METHOD_2_77EA5BCD93BD96AE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_660E1AEEC9B8E99C_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

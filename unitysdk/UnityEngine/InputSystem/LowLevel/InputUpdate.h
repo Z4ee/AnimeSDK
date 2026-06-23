@@ -5,31 +5,31 @@
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputUpdate_SerializedState.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputUpdate_UpdateStepCount.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_GETUPDATETYPEFORPLAYER_OFFSET UNITYSDK_OFFSET(0x1A040BA0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ISPLAYERUPDATE_OFFSET UNITYSDK_OFFSET(0x1A04CD90)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ONBEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1A04B270)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A04CD20)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_RESTORE_OFFSET UNITYSDK_OFFSET(0x1A04A6E0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_SAVE_OFFSET UNITYSDK_OFFSET(0x1A04FE00)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_GETUPDATETYPEFORPLAYER_OFFSET UNITYSDK_OFFSET(0x1C369030)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ISPLAYERUPDATE_OFFSET UNITYSDK_OFFSET(0x1C375280)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ONBEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1C373760)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C375210)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_RESTORE_OFFSET UNITYSDK_OFFSET(0x1C372BD0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATE_SAVE_OFFSET UNITYSDK_OFFSET(0x1C3782E0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputUpdate_TypeDefinitionIndex = 29278;
+	inline static constexpr unsigned int InputUpdate_TypeDefinitionIndex = 31934;
 
 	class InputUpdate : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount* StaticGet_s_PlayerUpdateStepCount()
+		{
+			return (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x7CE0);
+		}
 		static ::UnityEngine::InputSystem::LowLevel::InputUpdateType* StaticGet_s_LatestUpdateType()
 		{
-			return (::UnityEngine::InputSystem::LowLevel::InputUpdateType*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x4C20);
+			return (::UnityEngine::InputSystem::LowLevel::InputUpdateType*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x7CE8);
 		}
 		static ::System::UInt32* StaticGet_s_UpdateStepCount()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x4C24);
-		}
-		static ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount* StaticGet_s_PlayerUpdateStepCount()
-		{
-			return (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x4C28);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(InputUpdate_TypeDefinitionIndex)->GetStaticField(0x7CEC);
 		}
 
 		static ::System::Void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type)

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialAvatarShaderUtil_BlendMode_TypeDefinitionIndex = 30618;
+	inline static constexpr unsigned int MaterialAvatarShaderUtil_BlendMode_TypeDefinitionIndex = 32164;
 
 	enum class MaterialAvatarShaderUtil_BlendMode : ::System::Int32
 	{

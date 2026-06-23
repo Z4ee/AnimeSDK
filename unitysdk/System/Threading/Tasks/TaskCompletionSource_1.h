@@ -9,7 +9,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskCompletionSource_1_TypeDefinitionIndex = 920;
+	inline static constexpr unsigned int TaskCompletionSource_1_TypeDefinitionIndex = 919;
 
 	template <typename TResult>
 	class TaskCompletionSource_1 : public ::System::Object

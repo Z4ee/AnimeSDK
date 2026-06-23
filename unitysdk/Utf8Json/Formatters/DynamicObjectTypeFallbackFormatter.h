@@ -9,13 +9,13 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json::Formatters { class DynamicObjectTypeFallbackFormatter_SerializeMethod; }
 namespace Utf8Json::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
 
-#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C479AC0)
-#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C479370)
-#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C479300)
+#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B7A80)
+#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B7330)
+#define UTF8JSON_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B72C0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 85746;
+	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 91320;
 
 	class DynamicObjectTypeFallbackFormatter : public ::System::Object
 	{

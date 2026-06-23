@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaSingleBeatMapConfig_BeatMap_BeatItem_TypeDefinitionIndex = 63137;
+	inline static constexpr unsigned int CinemaSingleBeatMapConfig_BeatMap_BeatItem_TypeDefinitionIndex = 46380;
 
 	struct alignas(4) CinemaSingleBeatMapConfig_BeatMap_BeatItem
 	{

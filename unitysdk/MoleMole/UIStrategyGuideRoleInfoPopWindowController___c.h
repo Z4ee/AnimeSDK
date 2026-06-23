@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DBA670)
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBA6B0)
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__ONSKILLBTNCLICK_B__21_0_OFFSET UNITYSDK_OFFSET(0x14DBA6C0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A4CD0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157A4D10)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__ONSKILLBTNCLICK_B__21_0_OFFSET UNITYSDK_OFFSET(0x157A4D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex = 77516;
+	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex = 64273;
 
 	class UIStrategyGuideRoleInfoPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__21_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45E30);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46D60);
 		}
 		static ::MoleMole::UIStrategyGuideRoleInfoPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIStrategyGuideRoleInfoPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45E38);
+			return (::MoleMole::UIStrategyGuideRoleInfoPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuideRoleInfoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46D68);
 		}
 
 		static ::System::Void _cctor()

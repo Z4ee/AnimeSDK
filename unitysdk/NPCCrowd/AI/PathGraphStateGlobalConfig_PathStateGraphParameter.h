@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphStateGlobalConfig_PathStateGraphParameter_TypeDefinitionIndex = 45576;
+	inline static constexpr unsigned int PathGraphStateGlobalConfig_PathStateGraphParameter_TypeDefinitionIndex = 81012;
 
 	struct alignas(4) PathGraphStateGlobalConfig_PathStateGraphParameter
 	{

@@ -4,11 +4,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15630980)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x181CF200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenPageControllerContext_TypeDefinitionIndex = 71405;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenPageControllerContext_TypeDefinitionIndex = 66452;
 
 	class UIAvatarSpecialAwakenPageControllerContext : public ::MoleMole::UIControllerContextBase
 	{

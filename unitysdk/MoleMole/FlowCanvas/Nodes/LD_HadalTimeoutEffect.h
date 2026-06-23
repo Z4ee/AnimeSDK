@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALTIMEOUTEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x18217CF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALTIMEOUTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18217DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALTIMEOUTEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A02F820)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALTIMEOUTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02F8F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_HadalTimeoutEffect_TypeDefinitionIndex = 79008;
+	inline static constexpr unsigned int LD_HadalTimeoutEffect_TypeDefinitionIndex = 82864;
 
 	class LD_HadalTimeoutEffect : public ::FlowCanvas::Nodes::CallableActionNode
 	{

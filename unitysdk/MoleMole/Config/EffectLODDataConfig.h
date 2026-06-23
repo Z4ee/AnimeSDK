@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class EffectLODDataConfig_LODConfigItem; }
 
-#define MOLEMOLE_CONFIG_EFFECTLODDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17541630)
+#define MOLEMOLE_CONFIG_EFFECTLODDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x144EBE30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectLODDataConfig_TypeDefinitionIndex = 42603;
+	inline static constexpr unsigned int EffectLODDataConfig_TypeDefinitionIndex = 39863;
 
 	class EffectLODDataConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

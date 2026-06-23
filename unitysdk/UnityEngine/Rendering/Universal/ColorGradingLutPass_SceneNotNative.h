@@ -17,56 +17,56 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF7ED900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GENERATECOLORGRADINGLUTFORSCENE_OFFSET UNITYSDK_OFFSET(0xF7EE8C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GETLERPEDTEXTURE_OFFSET UNITYSDK_OFFSET(0xF7ED260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0xF7ED1F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GET_S_LIFTGAMMAGAINSETTINGSTRENGTH_OFFSET UNITYSDK_OFFSET(0xF7ED8F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7EF9A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xF7ED7F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF796510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GENERATECOLORGRADINGLUTFORSCENE_OFFSET UNITYSDK_OFFSET(0xF7974F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GETLERPEDTEXTURE_OFFSET UNITYSDK_OFFSET(0xF795E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0xF795E00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE_GET_S_LIFTGAMMAGAINSETTINGSTRENGTH_OFFSET UNITYSDK_OFFSET(0xF796500)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7985D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORGRADINGLUTPASS_SCENENOTNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xF796400)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex = 30190;
+	inline static constexpr unsigned int ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex = 26482;
 
 	class ColorGradingLutPass_SceneNotNative : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Int32* StaticGet__LogLutTex()
+		static ::System::Int32* StaticGet__PreLogLutTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7770);
-		}
-		static ::System::Int32* StaticGet__LogLutTex_Params()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7774);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7510);
 		}
 		static ::System::Int32* StaticGet__LerpAlpha()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7778);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7514);
 		}
-		static ::System::Int32* StaticGet__PreLogLutTex()
+		static ::System::Int32* StaticGet__LogLutTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x777C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x7518);
+		}
+		static ::System::Int32* StaticGet__LogLutTex_Params()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingLutPass_SceneNotNative_TypeDefinitionIndex)->GetStaticField(0x751C);
 		}
 		// static const ::System::String* TonemapLogLut; // 0x0
 		// static const ::System::String* DynamicLogLut; // 0x0
-		::UnityEngine::Texture2D* resultHueVsHue; // 0xA8
-		::WeatherConfig* preLeft; // 0xB0
-		::UnityEngine::Texture2D* resultMaster; // 0xB8
-		::UnityEngine::Texture2D* resultSatVsSat; // 0xC0
-		::UnityEngine::Texture2D* resultBlue; // 0xC8
-		::UnityEngine::Texture2D* resultRed; // 0xD0
-		::WeatherConfig* preRight; // 0xD8
-		::System::String* k_ProfilerTag; // 0xE0
-		::UnityEngine::Texture2D* resultLumVsSat; // 0xE8
+		::System::String* k_ProfilerTag; // 0xA8
+		::UnityEngine::Texture2D* resultBlue; // 0xB0
+		::UnityEngine::Texture2D* resultRed; // 0xB8
+		::UnityEngine::Texture2D* resultLumVsSat; // 0xC0
+		::WeatherConfig* preRight; // 0xC8
+		::UnityEngine::Texture2D* resultMaster; // 0xD0
+		::WeatherConfig* preLeft; // 0xD8
+		::UnityEngine::Texture2D* resultGreen; // 0xE0
+		::UnityEngine::Texture2D* resultSatVsSat; // 0xE8
 		::UnityEngine::Texture2D* resultHueVsSat; // 0xF0
-		::UnityEngine::Texture2D* resultGreen; // 0xF8
-		::UnityEngine::Experimental::Rendering::GraphicsFormat m_HdrLutFormat; // 0x100
-		::UnityEngine::Experimental::Rendering::GraphicsFormat m_GraphicsFormat; // 0x104
-		::System::Single preLerpValue; // 0x108
-		::System::Int32 m_LutWidth; // 0x10C
-		::System::Int32 m_LutHeight; // 0x110
-		::UnityEngine::Experimental::Rendering::GraphicsFormat m_LdrLutFormat; // 0x114
+		::UnityEngine::Texture2D* resultHueVsHue; // 0xF8
+		::UnityEngine::Experimental::Rendering::GraphicsFormat m_LdrLutFormat; // 0x100
+		::System::Int32 m_LutHeight; // 0x104
+		::UnityEngine::Experimental::Rendering::GraphicsFormat m_GraphicsFormat; // 0x108
+		::UnityEngine::Experimental::Rendering::GraphicsFormat m_HdrLutFormat; // 0x10C
+		::System::Int32 m_LutWidth; // 0x110
+		::System::Single preLerpValue; // 0x114
 
 		::System::Void _ctor(::System::String* profileTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig)
 		{

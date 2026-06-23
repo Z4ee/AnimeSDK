@@ -5,12 +5,12 @@
 namespace System::Net { class IPAddress; }
 namespace System::Net::NetworkInformation { class NetworkInterface; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1AFE7640)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFE77D0)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1D45E0C0)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45E250)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int NetworkInterfaceFactory_TypeDefinitionIndex = 3809;
+	inline static constexpr unsigned int NetworkInterfaceFactory_TypeDefinitionIndex = 3808;
 
 	class NetworkInterfaceFactory : public ::System::Object
 	{

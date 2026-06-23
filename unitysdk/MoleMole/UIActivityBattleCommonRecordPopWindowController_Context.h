@@ -4,17 +4,17 @@
 
 namespace MoleMole { class UIActivityBattleCommonRecordPopWindowController_RecordData; }
 
-#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152CB330)
+#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3E2B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_Context_TypeDefinitionIndex = 72807;
+	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_Context_TypeDefinitionIndex = 65931;
 
 	class UIActivityBattleCommonRecordPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordData* lastRecordData; // 0x28
-		::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordData* bestRecordData; // 0x30
+		::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordData* bestRecordData; // 0x28
+		::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordData* lastRecordData; // 0x30
 
 		::System::Void _ctor()
 		{

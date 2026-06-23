@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int GarbageCollector_Mode_TypeDefinitionIndex = 5507;
+	inline static constexpr unsigned int GarbageCollector_Mode_TypeDefinitionIndex = 5508;
 
 	enum class GarbageCollector_Mode : ::System::Int32
 	{

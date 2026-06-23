@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_AE02BC8285203464_17;
-template <typename T> class Class_1_DD0DD411D84DAED3;
+class Class_3_4666E61F66433B1E_2;
+template <typename T> class Class_1_8CC15846339E7FB0;
 
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157F16D0)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS12_0__REFRESHBANGBOOOPTIONALNAME_B__0_OFFSET UNITYSDK_OFFSET(0x157F16E0)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166D3080)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS12_0__REFRESHBANGBOOOPTIONALNAME_B__0_OFFSET UNITYSDK_OFFSET(0x166D3090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass12_0_TypeDefinitionIndex = 45787;
+	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass12_0_TypeDefinitionIndex = 64997;
 
 	class UIGachaPageController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::Class_1_DD0DD411D84DAED3<::System::UInt32>* optionalUpItemList; // 0x10
-		::Class_3_AE02BC8285203464_17* gacha; // 0x18
-		::System::Int32 itemID; // 0x20
-		::System::UInt32 optionalUpItemID; // 0x24
+		::Class_3_4666E61F66433B1E_2* gacha; // 0x10
+		::Class_1_8CC15846339E7FB0<::System::UInt32>* optionalUpItemList; // 0x18
+		::System::UInt32 optionalUpItemID; // 0x20
+		::System::Int32 itemID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -8,16 +8,17 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace MoleMole::Config { class DevicePerformanceConfig; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1230BA60)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1230BA50)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1230BAB0)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x17D566A0)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x17D56690)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17D566F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 58034;
+	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 74785;
 
 	class ConfigGraphicSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{
@@ -29,6 +30,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::System::Single>* HDRUIPaperWhiteLevelConfigList; // 0x80
 		::System::Collections::Generic::Dictionary_2<::MoleMole::GraphicSettingProfileType, ::System::Single>* graphicsTypeScoreRatioDict; // 0x88
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* pcResolutionSupportList; // 0x90
+		::System::Collections::Generic::List_1<::System::String*>* RTXMidResolutionGPUWhitelistRegex; // 0x98
 
 		::System::Void _ctor()
 		{

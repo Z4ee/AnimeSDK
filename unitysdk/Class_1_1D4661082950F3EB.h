@@ -3,9 +3,9 @@
 #include "unitysdk/MoleMole/ELocalPlayType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1D4661082950F3EB_METHOD_1_2C79CE8457598A8C_OFFSET UNITYSDK_OFFSET(0xE87E0B0)
+#define CLASS_1_1D4661082950F3EB_METHOD_1_2C79CE8457598A8C_OFFSET UNITYSDK_OFFSET(0xF8EF9C0)
 
-inline static constexpr unsigned int Class_1_1D4661082950F3EB_TypeDefinitionIndex = 48896;
+inline static constexpr unsigned int Class_1_1D4661082950F3EB_TypeDefinitionIndex = 85316;
 
 class Class_1_1D4661082950F3EB : public ::System::Object
 {

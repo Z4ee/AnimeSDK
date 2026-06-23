@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackPattern_HitAttackeeDirectionType_TypeDefinitionIndex = 71088;
+	inline static constexpr unsigned int ConfigEntityAttackPattern_HitAttackeeDirectionType_TypeDefinitionIndex = 49860;
 
 	enum class ConfigEntityAttackPattern_HitAttackeeDirectionType : ::System::Byte
 	{
-		AttackerForwardDir = 0x0,
+		AttackerToAttackeeDir = 0x3,
 		PatternToAttackeeDir = 0x1,
 		PatternForwardDir = 0x2,
-		AttackerToAttackeeDir = 0x3,
+		AttackerForwardDir = 0x0,
 	};
 }

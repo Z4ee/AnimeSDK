@@ -3,7 +3,7 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int PieceColorModifyRequest_ColorModifyRequestType_TypeDefinitionIndex = 82283;
+	inline static constexpr unsigned int PieceColorModifyRequest_ColorModifyRequestType_TypeDefinitionIndex = 63176;
 
 	enum class PieceColorModifyRequest_ColorModifyRequestType : ::System::Int32
 	{

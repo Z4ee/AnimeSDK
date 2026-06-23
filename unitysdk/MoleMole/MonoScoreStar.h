@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOSCORESTAR_SETSTARTLIGHT_OFFSET UNITYSDK_OFFSET(0x1605E5F0)
-#define MOLEMOLE_MONOSCORESTAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1605E690)
+#define MOLEMOLE_MONOSCORESTAR_SETSTARTLIGHT_OFFSET UNITYSDK_OFFSET(0x12BD3710)
+#define MOLEMOLE_MONOSCORESTAR__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD37B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoScoreStar_TypeDefinitionIndex = 45459;
+	inline static constexpr unsigned int MonoScoreStar_TypeDefinitionIndex = 85616;
 
 	class MonoScoreStar : public ::UnityEngine::MonoBehaviour
 	{

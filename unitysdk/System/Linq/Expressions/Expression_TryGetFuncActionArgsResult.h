@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_TryGetFuncActionArgsResult_TypeDefinitionIndex = 4429;
+	inline static constexpr unsigned int Expression_TryGetFuncActionArgsResult_TypeDefinitionIndex = 4428;
 
 	enum class Expression_TryGetFuncActionArgsResult : ::System::Int32
 	{

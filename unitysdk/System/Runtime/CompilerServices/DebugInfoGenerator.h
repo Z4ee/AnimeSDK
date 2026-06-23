@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DEBUGINFOGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F14E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DEBUGINFOGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7943C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DebugInfoGenerator_TypeDefinitionIndex = 4958;
+	inline static constexpr unsigned int DebugInfoGenerator_TypeDefinitionIndex = 4957;
 
 	class DebugInfoGenerator : public ::System::Object
 	{

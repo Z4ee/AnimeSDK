@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ILoaderNode_1_TypeDefinitionIndex = 8081;
+	inline static constexpr unsigned int ILoaderNode_1_TypeDefinitionIndex = 8077;
 
 	template <typename T>
 	class ILoaderNode_1

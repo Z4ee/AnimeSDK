@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_GalUIState_TypeDefinitionIndex = 41772;
+	inline static constexpr unsigned int UIGalgamePageController_GalUIState_TypeDefinitionIndex = 54871;
 
 	enum class UIGalgamePageController_GalUIState : ::System::Int32
 	{

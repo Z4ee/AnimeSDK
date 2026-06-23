@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIREALTIMEQTEBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15200830)
+#define MOLEMOLE_UIREALTIMEQTEBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECCB40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRealtimeQTEButtonContext_TypeDefinitionIndex = 54807;
+	inline static constexpr unsigned int UIRealtimeQTEButtonContext_TypeDefinitionIndex = 48214;
 
 	class UIRealtimeQTEButtonContext : public ::MoleMole::UIControllerContextBase
 	{

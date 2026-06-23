@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicEnumAsStringResolver_FormatterCache_1_TypeDefinitionIndex = 28020;
+	inline static constexpr unsigned int DynamicEnumAsStringResolver_FormatterCache_1_TypeDefinitionIndex = 29919;
 
 	template <typename T>
 	class DynamicEnumAsStringResolver_FormatterCache_1 : public ::System::Object

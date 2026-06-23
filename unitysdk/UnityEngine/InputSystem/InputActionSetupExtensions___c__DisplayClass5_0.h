@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/InputBinding.h"
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B354090)
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS___C__DISPLAYCLASS5_0__REMOVEACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1B3540A0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D741D80)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS___C__DISPLAYCLASS5_0__REMOVEACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1D741D90)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionSetupExtensions___c__DisplayClass5_0_TypeDefinitionIndex = 28904;
+	inline static constexpr unsigned int InputActionSetupExtensions___c__DisplayClass5_0_TypeDefinitionIndex = 31560;
 
 	class InputActionSetupExtensions___c__DisplayClass5_0 : public ::System::Object
 	{

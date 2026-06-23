@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemGradientMode_TypeDefinitionIndex = 24901;
+	inline static constexpr unsigned int ParticleSystemGradientMode_TypeDefinitionIndex = 18805;
 
 	enum class ParticleSystemGradientMode : ::System::Int32
 	{

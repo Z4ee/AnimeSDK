@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x199ADA00)
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x199ADA40)
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C___CTOR_B__31_0_OFFSET UNITYSDK_OFFSET(0x199ADA50)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF7DD30)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7DD70)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C___CTOR_B__31_0_OFFSET UNITYSDK_OFFSET(0x1BF7DD80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager___c_TypeDefinitionIndex = 18833;
+	inline static constexpr unsigned int ServerRegionManager___c_TypeDefinitionIndex = 19729;
 
 	class ServerRegionManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::ServerRegionManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::ServerRegionManager___c**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager___c_TypeDefinitionIndex)->GetStaticField(0xB130);
-		}
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__31_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager___c_TypeDefinitionIndex)->GetStaticField(0xB138);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager___c_TypeDefinitionIndex)->GetStaticField(0xB500);
+		}
+		static ::MiHoYo::SDK::ServerRegionManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::ServerRegionManager___c**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager___c_TypeDefinitionIndex)->GetStaticField(0xB508);
 		}
 
 		static ::System::Void _cctor()

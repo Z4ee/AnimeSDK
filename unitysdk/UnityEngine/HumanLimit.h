@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HumanLimit_TypeDefinitionIndex = 6555;
+	inline static constexpr unsigned int HumanLimit_TypeDefinitionIndex = 6637;
 
 	struct alignas(4) HumanLimit
 	{

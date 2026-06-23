@@ -3,12 +3,12 @@
 #include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/IO/Ports/SerialPinChange.h"
 
-#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19EE9DA0)
-#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE9D60)
+#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2E39E0)
+#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E39A0)
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialPinChangedEventArgs_TypeDefinitionIndex = 4162;
+	inline static constexpr unsigned int SerialPinChangedEventArgs_TypeDefinitionIndex = 4161;
 
 	class SerialPinChangedEventArgs : public ::System::EventArgs
 	{

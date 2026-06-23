@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageAligmentPref_TypeDefinitionIndex = 42618;
+	inline static constexpr unsigned int LanguageAligmentPref_TypeDefinitionIndex = 42760;
 
 	enum class LanguageAligmentPref : ::System::Int32
 	{
 		Right = 2,
-		Left = 1,
 		None = 0,
+		Left = 1,
 	};
 }

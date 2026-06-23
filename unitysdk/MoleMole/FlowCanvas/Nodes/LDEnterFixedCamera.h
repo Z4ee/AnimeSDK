@@ -5,12 +5,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERFIXEDCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x18208530)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERFIXEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18208750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERFIXEDCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0200A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERFIXEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0202C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterFixedCamera_TypeDefinitionIndex = 47854;
+	inline static constexpr unsigned int LDEnterFixedCamera_TypeDefinitionIndex = 40614;
 
 	class LDEnterFixedCamera : public ::FlowCanvas::Nodes::CallableActionNode_5<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::MoleMole::Cameras::CameraTrackBlending*, ::MoleMole::Cameras::CameraTrackBlending*>
 	{

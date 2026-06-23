@@ -5,11 +5,11 @@
 namespace MoleMole { class UIVirtualCameraConfigs; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUISTORECAMERA_KEYVALUEINFO_VIRCAMMULTISTORES__CTOR_OFFSET UNITYSDK_OFFSET(0x149584B0)
+#define MOLEMOLE_CONFIGUISTORECAMERA_KEYVALUEINFO_VIRCAMMULTISTORES__CTOR_OFFSET UNITYSDK_OFFSET(0x170D5270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIStoreCamera_KeyValueInfo_VirCamMultiStores_TypeDefinitionIndex = 60005;
+	inline static constexpr unsigned int ConfigUIStoreCamera_KeyValueInfo_VirCamMultiStores_TypeDefinitionIndex = 79100;
 
 	class ConfigUIStoreCamera_KeyValueInfo_VirCamMultiStores : public ::System::Object
 	{

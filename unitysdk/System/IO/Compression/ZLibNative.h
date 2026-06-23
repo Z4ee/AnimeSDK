@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_IO_COMPRESSION_ZLIBNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB1A70)
+#define SYSTEM_IO_COMPRESSION_ZLIBNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0749B0)
 
 namespace System::IO::Compression
 {
-	inline static constexpr unsigned int ZLibNative_TypeDefinitionIndex = 3250;
+	inline static constexpr unsigned int ZLibNative_TypeDefinitionIndex = 3249;
 
 	class ZLibNative : public ::System::Object
 	{

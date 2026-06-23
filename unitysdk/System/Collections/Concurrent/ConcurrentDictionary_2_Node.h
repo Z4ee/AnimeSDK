@@ -6,7 +6,7 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentDictionary_2_Node_TypeDefinitionIndex = 1503;
+	inline static constexpr unsigned int ConcurrentDictionary_2_Node_TypeDefinitionIndex = 1502;
 
 	template <typename TKey, typename TValue>
 	class ConcurrentDictionary_2_Node : public ::System::Object

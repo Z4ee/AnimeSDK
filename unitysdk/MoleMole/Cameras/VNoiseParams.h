@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CAMERAS_VNOISEPARAMS_METHOD_2_45872D1C931761E1_OFFSET UNITYSDK_OFFSET(0x7D63C0)
-#define MOLEMOLE_CAMERAS_VNOISEPARAMS_METHOD_2_623160C745FC10C0_OFFSET UNITYSDK_OFFSET(0x7D6300)
+#define MOLEMOLE_CAMERAS_VNOISEPARAMS_METHOD_2_45872D1C931761E1_OFFSET UNITYSDK_OFFSET(0x7D5670)
+#define MOLEMOLE_CAMERAS_VNOISEPARAMS_METHOD_2_623160C745FC10C0_OFFSET UNITYSDK_OFFSET(0x7D55B0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VNoiseParams_TypeDefinitionIndex = 78030;
+	inline static constexpr unsigned int VNoiseParams_TypeDefinitionIndex = 48716;
 
 	struct alignas(4) VNoiseParams
 	{

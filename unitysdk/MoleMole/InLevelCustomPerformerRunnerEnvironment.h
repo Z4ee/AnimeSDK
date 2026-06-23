@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelCustomPerformerRunnerEnvironment_TypeDefinitionIndex = 81440;
+	inline static constexpr unsigned int InLevelCustomPerformerRunnerEnvironment_TypeDefinitionIndex = 81757;
 
 	struct alignas(8) InLevelCustomPerformerRunnerEnvironment
 	{

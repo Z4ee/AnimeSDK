@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_MP_PageController_OnlinePlayerUseInfo_TypeDefinitionIndex = 49557;
+	inline static constexpr unsigned int UILevelResultV2_MP_PageController_OnlinePlayerUseInfo_TypeDefinitionIndex = 78337;
 
 	struct alignas(8) UILevelResultV2_MP_PageController_OnlinePlayerUseInfo
 	{

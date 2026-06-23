@@ -8,7 +8,7 @@ namespace System::Collections { class ICollection; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ISelectionService_TypeDefinitionIndex = 3081;
+	inline static constexpr unsigned int ISelectionService_TypeDefinitionIndex = 3080;
 
 	class ISelectionService
 	{

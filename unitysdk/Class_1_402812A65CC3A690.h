@@ -5,16 +5,16 @@
 
 class Class_1_0D6706375CDAAE8C;
 
-#define CLASS_1_402812A65CC3A690__CTOR_OFFSET UNITYSDK_OFFSET(0x123ED600)
+#define CLASS_1_402812A65CC3A690__CTOR_OFFSET UNITYSDK_OFFSET(0x11FBFE90)
 
-inline static constexpr unsigned int Class_1_402812A65CC3A690_TypeDefinitionIndex = 66167;
+inline static constexpr unsigned int Class_1_402812A65CC3A690_TypeDefinitionIndex = 69872;
 
 class Class_1_402812A65CC3A690 : public ::System::Object
 {
 public:
-	::Share::EItemType Field_1_1; // 0x10
-	::System::Int32 Field_1_2; // 0x14
-	::System::UInt64 Field_1_0; // 0x18
+	::System::UInt64 Field_1_0; // 0x10
+	::Share::EItemType Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
 
 	::System::Void _ctor(::Class_1_0D6706375CDAAE8C* a1)
 	{

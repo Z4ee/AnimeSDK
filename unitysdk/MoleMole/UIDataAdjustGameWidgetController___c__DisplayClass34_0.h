@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIDataAdjustGameWidgetController; }
 
-#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15304410)
-#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS34_0__ONWIN_B__0_OFFSET UNITYSDK_OFFSET(0x15304420)
+#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7CEB0)
+#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS34_0__ONWIN_B__0_OFFSET UNITYSDK_OFFSET(0x15E7CEC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataAdjustGameWidgetController___c__DisplayClass34_0_TypeDefinitionIndex = 43707;
+	inline static constexpr unsigned int UIDataAdjustGameWidgetController___c__DisplayClass34_0_TypeDefinitionIndex = 71162;
 
 	class UIDataAdjustGameWidgetController___c__DisplayClass34_0 : public ::System::Object
 	{

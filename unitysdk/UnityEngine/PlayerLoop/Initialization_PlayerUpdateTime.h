@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Initialization_PlayerUpdateTime_TypeDefinitionIndex = 5523;
+	inline static constexpr unsigned int Initialization_PlayerUpdateTime_TypeDefinitionIndex = 5524;
 
 	struct alignas(1) Initialization_PlayerUpdateTime
 	{

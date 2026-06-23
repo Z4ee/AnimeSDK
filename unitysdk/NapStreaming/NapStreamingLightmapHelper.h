@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11D993B0)
-#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11D995A0)
+#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11374180)
+#define NAPSTREAMING_NAPSTREAMINGLIGHTMAPHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11374370)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingLightmapHelper_TypeDefinitionIndex = 41462;
+	inline static constexpr unsigned int NapStreamingLightmapHelper_TypeDefinitionIndex = 44225;
 
 	class NapStreamingLightmapHelper : public ::UnityEngine::MonoBehaviour
 	{

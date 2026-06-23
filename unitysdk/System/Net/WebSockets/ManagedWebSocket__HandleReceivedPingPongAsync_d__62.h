@@ -9,19 +9,19 @@
 namespace System::Net::WebSockets { class ManagedWebSocket; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__HANDLERECEIVEDPINGPONGASYNC_D__62_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A5E20)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__HANDLERECEIVEDPINGPONGASYNC_D__62_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5C4D00)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__HANDLERECEIVEDPINGPONGASYNC_D__62_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x938F40)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__HANDLERECEIVEDPINGPONGASYNC_D__62_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3891F0)
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int ManagedWebSocket__HandleReceivedPingPongAsync_d__62_TypeDefinitionIndex = 3881;
+	inline static constexpr unsigned int ManagedWebSocket__HandleReceivedPingPongAsync_d__62_TypeDefinitionIndex = 3880;
 
 	struct alignas(8) ManagedWebSocket__HandleReceivedPingPongAsync_d__62
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x18
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x20
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x28
+		::System::Threading::CancellationToken cancellationToken; // 0x30
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x38
 		::System::Int32 __1__state; // 0x48
 		::System::Net::WebSockets::ManagedWebSocket_MessageHeader header; // 0x50
 

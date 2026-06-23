@@ -5,11 +5,11 @@
 namespace MoleMole { class DevicePhysicalData; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUIADAPT_DEVICEPHYSICALDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB9D10)
+#define MOLEMOLE_CONFIGUIADAPT_DEVICEPHYSICALDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x158D55C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAdapt_DevicePhysicalDataDicEntry_TypeDefinitionIndex = 75586;
+	inline static constexpr unsigned int ConfigUIAdapt_DevicePhysicalDataDicEntry_TypeDefinitionIndex = 87326;
 
 	class ConfigUIAdapt_DevicePhysicalDataDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::System::String*, ::MoleMole::DevicePhysicalData*>
 	{

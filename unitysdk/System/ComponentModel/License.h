@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_LICENSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA955F0)
+#define SYSTEM_COMPONENTMODEL_LICENSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC6D10)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int License_TypeDefinitionIndex = 2926;
+	inline static constexpr unsigned int License_TypeDefinitionIndex = 2925;
 
 	class License : public ::System::Object
 	{

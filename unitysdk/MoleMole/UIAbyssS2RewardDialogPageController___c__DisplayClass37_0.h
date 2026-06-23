@@ -6,12 +6,12 @@ namespace MoleMole { class UIAbyssS2RewardDialogPageController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED79E0)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS37_0__PLAYANIMCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x13ED79F0)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17317900)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS37_0__PLAYANIMCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x17317910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass37_0_TypeDefinitionIndex = 49899;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass37_0_TypeDefinitionIndex = 66545;
 
 	class UIAbyssS2RewardDialogPageController___c__DisplayClass37_0 : public ::System::Object
 	{
@@ -21,8 +21,8 @@ namespace MoleMole
 		::UnityEngine::AnimationCurve* curve; // 0x20
 		::System::Single end; // 0x28
 		::System::Single start; // 0x2C
-		::System::Single index; // 0x30
-		::System::Single animTime; // 0x34
+		::System::Single animTime; // 0x30
+		::System::Single index; // 0x34
 
 		::System::Void _ctor()
 		{

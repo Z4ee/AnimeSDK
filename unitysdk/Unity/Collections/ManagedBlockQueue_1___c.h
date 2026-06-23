@@ -7,7 +7,7 @@ namespace Unity::Collections { template <typename T> class ManagedBlockQueue_1__
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int ManagedBlockQueue_1___c_TypeDefinitionIndex = 20154;
+	inline static constexpr unsigned int ManagedBlockQueue_1___c_TypeDefinitionIndex = 18457;
 
 	template <typename T>
 	class ManagedBlockQueue_1___c : public ::System::Object

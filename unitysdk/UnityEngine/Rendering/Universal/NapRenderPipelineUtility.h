@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderPipelineUtility_TypeDefinitionIndex = 30099;
+	inline static constexpr unsigned int NapRenderPipelineUtility_TypeDefinitionIndex = 27068;
 
 	class NapRenderPipelineUtility : public ::System::Object
 	{

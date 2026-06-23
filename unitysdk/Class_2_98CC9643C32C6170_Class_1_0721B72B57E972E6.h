@@ -6,9 +6,9 @@ class Class_2_98CC9643C32C6170_Class_1_32BCD41779DEEDDF;
 namespace MoleMole { class GlobalDispatchData; }
 namespace System { class Exception; }
 
-#define CLASS_2_98CC9643C32C6170_CLASS_1_0721B72B57E972E6__CTOR_OFFSET UNITYSDK_OFFSET(0x15374ED0)
+#define CLASS_2_98CC9643C32C6170_CLASS_1_0721B72B57E972E6__CTOR_OFFSET UNITYSDK_OFFSET(0x12FBDA70)
 
-inline static constexpr unsigned int Class_2_98CC9643C32C6170_Class_1_0721B72B57E972E6_TypeDefinitionIndex = 66458;
+inline static constexpr unsigned int Class_2_98CC9643C32C6170_Class_1_0721B72B57E972E6_TypeDefinitionIndex = 82072;
 
 class Class_2_98CC9643C32C6170_Class_1_0721B72B57E972E6 : public ::System::Object
 {

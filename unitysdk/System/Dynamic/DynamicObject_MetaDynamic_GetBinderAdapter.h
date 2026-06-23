@@ -5,12 +5,12 @@
 namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class InvokeMemberBinder; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC_GETBINDERADAPTER_FALLBACKGETMEMBER_OFFSET UNITYSDK_OFFSET(0x1BF36EB0)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC_GETBINDERADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF36E80)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC_GETBINDERADAPTER_FALLBACKGETMEMBER_OFFSET UNITYSDK_OFFSET(0x1E257350)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC_GETBINDERADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E257320)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DynamicObject_MetaDynamic_GetBinderAdapter_TypeDefinitionIndex = 4983;
+	inline static constexpr unsigned int DynamicObject_MetaDynamic_GetBinderAdapter_TypeDefinitionIndex = 4982;
 
 	class DynamicObject_MetaDynamic_GetBinderAdapter : public ::System::Dynamic::GetMemberBinder
 	{

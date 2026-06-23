@@ -5,7 +5,7 @@
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int sockaddr_in6_TypeDefinitionIndex = 3855;
+	inline static constexpr unsigned int sockaddr_in6_TypeDefinitionIndex = 3854;
 
 	struct alignas(8) sockaddr_in6
 	{

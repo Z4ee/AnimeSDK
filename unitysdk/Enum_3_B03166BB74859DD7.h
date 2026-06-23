@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_B03166BB74859DD7_TypeDefinitionIndex = 14880;
+inline static constexpr unsigned int Enum_3_B03166BB74859DD7_TypeDefinitionIndex = 17023;
 
 enum class Enum_3_B03166BB74859DD7 : ::System::Int32
 {
+	Main = 1,
+	Partner = 4,
 	None = 0,
 	Personal = 6,
-	Activity = 3,
-	Weekly = 5,
-	Partner = 4,
 	Branch = 2,
-	Main = 1,
+	Weekly = 5,
+	Activity = 3,
 };

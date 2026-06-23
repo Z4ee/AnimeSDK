@@ -12,32 +12,32 @@ namespace MoleMole::Config { class ConfigMovementStateControl; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x139A4140)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x139A2E70)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x139A41A0)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x139A2EF0)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x139A4600)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x162AD390)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x162AC0C0)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x162AD3F0)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x162AC140)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x162AD850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHitData_TypeDefinitionIndex = 59449;
+	inline static constexpr unsigned int ConfigHitData_TypeDefinitionIndex = 56895;
 
 	class ConfigHitData : public ::System::Object
 	{
 	public:
 		::System::String* CustomCurveKey; // 0x10
-		::MoleMole::Config::ConfigMovementStateControl* MovementControl; // 0x18
-		::UnityEngine::AnimationCurve* CurveX; // 0x20
-		::System::String* AttackeeCenterAttachPoint; // 0x28
-		::System::String* AttackerCenterAttachPoint; // 0x30
-		::UnityEngine::AnimationCurve* CurveY; // 0x38
-		::UnityEngine::AnimationCurve* CurveZ; // 0x40
-		::MoleMole::Config::DissipationMode DissipationMode; // 0x48
-		::MoleMole::Config::RetreatDecayDistanceType DistanceType; // 0x4C
-		::UnityEngine::Vector3 Velocity; // 0x50
+		::UnityEngine::AnimationCurve* CurveZ; // 0x18
+		::System::String* AttackerCenterAttachPoint; // 0x20
+		::UnityEngine::AnimationCurve* CurveY; // 0x28
+		::MoleMole::Config::ConfigMovementStateControl* MovementControl; // 0x30
+		::UnityEngine::AnimationCurve* CurveX; // 0x38
+		::System::String* AttackeeCenterAttachPoint; // 0x40
+		::UnityEngine::Vector3 Velocity; // 0x48
+		::System::Single DissipationDistance; // 0x54
+		::MoleMole::Config::DissipationMode DissipationMode; // 0x58
 		::System::Single Duration; // 0x5C
 		::System::Single ImpactRadius; // 0x60
-		::System::Single DissipationDistance; // 0x64
+		::MoleMole::Config::RetreatDecayDistanceType DistanceType; // 0x64
 
 		::System::Void _ctor()
 		{

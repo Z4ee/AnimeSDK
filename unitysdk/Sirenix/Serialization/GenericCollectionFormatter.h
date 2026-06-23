@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SIRENIX_SERIALIZATION_GENERICCOLLECTIONFORMATTER_CANFORMAT_OFFSET UNITYSDK_OFFSET(0x1B101C50)
+#define SIRENIX_SERIALIZATION_GENERICCOLLECTIONFORMATTER_CANFORMAT_OFFSET UNITYSDK_OFFSET(0x1D548480)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int GenericCollectionFormatter_TypeDefinitionIndex = 7330;
+	inline static constexpr unsigned int GenericCollectionFormatter_TypeDefinitionIndex = 7462;
 
 	class GenericCollectionFormatter : public ::System::Object
 	{

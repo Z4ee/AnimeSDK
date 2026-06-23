@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BulletDamageDecalType_TypeDefinitionIndex = 72927;
+	inline static constexpr unsigned int BulletDamageDecalType_TypeDefinitionIndex = 81512;
 
 	enum class BulletDamageDecalType : ::System::Int32
 	{

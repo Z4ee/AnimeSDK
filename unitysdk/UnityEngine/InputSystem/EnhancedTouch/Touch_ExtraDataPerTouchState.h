@@ -5,7 +5,7 @@
 
 namespace UnityEngine::InputSystem::EnhancedTouch
 {
-	inline static constexpr unsigned int Touch_ExtraDataPerTouchState_TypeDefinitionIndex = 29157;
+	inline static constexpr unsigned int Touch_ExtraDataPerTouchState_TypeDefinitionIndex = 31813;
 
 	struct alignas(4) Touch_ExtraDataPerTouchState
 	{

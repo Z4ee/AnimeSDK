@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int MonoMaterialPropertyBlockResolver_RendererData_TypeDefinitionIndex = 61547;
+inline static constexpr unsigned int MonoMaterialPropertyBlockResolver_RendererData_TypeDefinitionIndex = 50447;
 
 struct alignas(8) MonoMaterialPropertyBlockResolver_RendererData
 {

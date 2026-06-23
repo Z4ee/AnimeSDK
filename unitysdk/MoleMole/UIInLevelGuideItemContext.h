@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ItemStyle; }
 
-#define MOLEMOLE_UIINLEVELGUIDEITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D7AA90)
+#define MOLEMOLE_UIINLEVELGUIDEITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169FE2A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelGuideItemContext_TypeDefinitionIndex = 40201;
+	inline static constexpr unsigned int UIInLevelGuideItemContext_TypeDefinitionIndex = 53548;
 
 	class UIInLevelGuideItemContext : public ::MoleMole::UIControllerContextBase
 	{

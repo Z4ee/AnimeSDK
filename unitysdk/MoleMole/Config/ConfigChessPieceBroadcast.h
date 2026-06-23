@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEBROADCAST_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xED13760)
-#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEBROADCAST__CTOR_OFFSET UNITYSDK_OFFSET(0xED13820)
+#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEBROADCAST_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x10CFE720)
+#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEBROADCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x10CFE7E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessPieceBroadcast_TypeDefinitionIndex = 50936;
+	inline static constexpr unsigned int ConfigChessPieceBroadcast_TypeDefinitionIndex = 70114;
 
 	class ConfigChessPieceBroadcast : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

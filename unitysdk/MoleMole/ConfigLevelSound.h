@@ -9,11 +9,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGLEVELSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x186C59B0)
+#define MOLEMOLE_CONFIGLEVELSOUND_ONPORTALOBSTRUCTIONPERMETERUPDATED_OFFSET UNITYSDK_OFFSET(0x18ADFCC0)
+#define MOLEMOLE_CONFIGLEVELSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADFE80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_TypeDefinitionIndex = 81122;
+	inline static constexpr unsigned int ConfigLevelSound_TypeDefinitionIndex = 62779;
 
 	class ConfigLevelSound : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -22,10 +23,16 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigLevelSound_WwiseWeatherConfig>* bigSceneWeatherStateMap; // 0x60
 		::System::Collections::Generic::HashSet_1<::System::Int32>* monstersNeedSetUnControl; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigLevelSound_ListenerConfig>* listenerConfigModes; // 0x70
+		::System::Single portalObstructionPerMeter; // 0x78
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGLEVELSOUND__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnPortalObstructionPerMeterUpdated()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGLEVELSOUND_ONPORTALOBSTRUCTIONPERMETERUPDATED_OFFSET))(this);
 		}
 	};
 }

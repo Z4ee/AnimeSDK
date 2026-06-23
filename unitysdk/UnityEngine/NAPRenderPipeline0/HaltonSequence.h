@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_HALTONSEQUENCE_GET_OFFSET UNITYSDK_OFFSET(0x1B2F0150)
+#define UNITYENGINE_NAPRENDERPIPELINE0_HALTONSEQUENCE_GET_OFFSET UNITYSDK_OFFSET(0x1D6A61B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int HaltonSequence_TypeDefinitionIndex = 5969;
+	inline static constexpr unsigned int HaltonSequence_TypeDefinitionIndex = 5979;
 
 	class HaltonSequence : public ::System::Object
 	{

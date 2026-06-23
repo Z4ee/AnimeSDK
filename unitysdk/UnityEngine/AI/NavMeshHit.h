@@ -3,13 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_AI_NAVMESHHIT_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x7D0AF0)
-#define UNITYENGINE_AI_NAVMESHHIT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x3FFA00)
-#define UNITYENGINE_AI_NAVMESHHIT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x2E2760)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x674F40)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x3E5840)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x388220)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshHit_TypeDefinitionIndex = 24802;
+	inline static constexpr unsigned int NavMeshHit_TypeDefinitionIndex = 27395;
 
 	struct alignas(4) NavMeshHit
 	{

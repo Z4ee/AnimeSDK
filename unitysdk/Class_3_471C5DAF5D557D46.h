@@ -10,25 +10,25 @@ class Class_3_DCB7F8B839F0C44B_4;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_F91115D9A1F02F5F;
 
-#define CLASS_3_471C5DAF5D557D46_METHOD_3_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x159B0470)
-#define CLASS_3_471C5DAF5D557D46_METHOD_3_7680878B5D79126A_OFFSET UNITYSDK_OFFSET(0x159B0BC0)
-#define CLASS_3_471C5DAF5D557D46_METHOD_3_C43DD7AFEEA2B827_OFFSET UNITYSDK_OFFSET(0x159B06D0)
-#define CLASS_3_471C5DAF5D557D46_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x159B0EE0)
-#define CLASS_3_471C5DAF5D557D46__CTOR_OFFSET UNITYSDK_OFFSET(0x159B0D20)
+#define CLASS_3_471C5DAF5D557D46_METHOD_3_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x1140F3B0)
+#define CLASS_3_471C5DAF5D557D46_METHOD_3_7680878B5D79126A_OFFSET UNITYSDK_OFFSET(0x1140FB00)
+#define CLASS_3_471C5DAF5D557D46_METHOD_3_C43DD7AFEEA2B827_OFFSET UNITYSDK_OFFSET(0x1140F610)
+#define CLASS_3_471C5DAF5D557D46_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1140FE20)
+#define CLASS_3_471C5DAF5D557D46__CTOR_OFFSET UNITYSDK_OFFSET(0x1140FC60)
 
-inline static constexpr unsigned int Class_3_471C5DAF5D557D46_TypeDefinitionIndex = 72057;
+inline static constexpr unsigned int Class_3_471C5DAF5D557D46_TypeDefinitionIndex = 47779;
 
 class Class_3_471C5DAF5D557D46 : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_3_4; // 0x18
-	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_3_1; // 0x20
-	::Class_3_B537A0AA78803363* Field_3_5; // 0x28
-	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_3_3; // 0x30
-	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x38
-	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::MoleMole::EntityHandle>*>* Field_3_2; // 0x40
+	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x18
+	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_3_3; // 0x20
+	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_3_4; // 0x28
+	::Class_3_B537A0AA78803363* Field_3_5; // 0x30
+	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_3_1; // 0x38
+	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::MoleMole::EntityHandle>*>* Field_3_2; // 0x40
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_NapLODCalculateLevels_TypeDefinitionIndex = 5617;
+	inline static constexpr unsigned int PostLateUpdate_NapLODCalculateLevels_TypeDefinitionIndex = 5619;
 
 	struct alignas(1) PostLateUpdate_NapLODCalculateLevels
 	{

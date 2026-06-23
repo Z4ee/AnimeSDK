@@ -6,9 +6,9 @@
 namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { template <typename T> class ICameraSequenceCollection_1; }
 
-#define STRUCT_2_2CEE35A1FF4AE199__CTOR_OFFSET UNITYSDK_OFFSET(0x71A170)
+#define STRUCT_2_2CEE35A1FF4AE199__CTOR_OFFSET UNITYSDK_OFFSET(0x790540)
 
-inline static constexpr unsigned int Struct_2_2CEE35A1FF4AE199_TypeDefinitionIndex = 39031;
+inline static constexpr unsigned int Struct_2_2CEE35A1FF4AE199_TypeDefinitionIndex = 43748;
 
 struct alignas(8) Struct_2_2CEE35A1FF4AE199
 {

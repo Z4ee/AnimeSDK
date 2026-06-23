@@ -6,11 +6,11 @@
 namespace NPCCrowd::AI { class PathGraphSplineControlPointLocatorComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHRUNTIME_PATHFINDINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC7040)
+#define NPCCROWD_AI_PATHGRAPHRUNTIME_PATHFINDINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x106F5680)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphRuntime_PathFindingResult_TypeDefinitionIndex = 41890;
+	inline static constexpr unsigned int PathGraphRuntime_PathFindingResult_TypeDefinitionIndex = 45974;
 
 	class PathGraphRuntime_PathFindingResult : public ::System::Object
 	{

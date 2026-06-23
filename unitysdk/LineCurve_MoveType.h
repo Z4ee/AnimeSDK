@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LineCurve_MoveType_TypeDefinitionIndex = 33089;
+inline static constexpr unsigned int LineCurve_MoveType_TypeDefinitionIndex = 34652;
 
 enum class LineCurve_MoveType : ::System::Int32
 {

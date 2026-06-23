@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowEventPoolType_TypeDefinitionIndex = 15326;
+	inline static constexpr unsigned int EHollowEventPoolType_TypeDefinitionIndex = 11591;
 
 	enum class EHollowEventPoolType : ::System::Int16
 	{
-		Manual = 1,
 		Random = 0,
+		Manual = 1,
 	};
 }

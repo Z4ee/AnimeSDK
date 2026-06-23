@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int HResults_TypeDefinitionIndex = 2659;
+	inline static constexpr unsigned int HResults_TypeDefinitionIndex = 2658;
 
 	class HResults : public ::System::Object
 	{

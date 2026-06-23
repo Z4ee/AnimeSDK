@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1517E3D0)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1761B7A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleElitePageContext_TypeDefinitionIndex = 38157;
+	inline static constexpr unsigned int UIDoubleElitePageContext_TypeDefinitionIndex = 78637;
 
 	class UIDoubleElitePageContext : public ::MoleMole::UIControllerContextBase
 	{

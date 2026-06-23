@@ -3,11 +3,11 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CountDownUIOperation_TypeDefinitionIndex = 51258;
+	inline static constexpr unsigned int CountDownUIOperation_TypeDefinitionIndex = 40120;
 
 	enum class CountDownUIOperation : ::System::Int32
 	{
-		RED_LIGHT_BG = 0,
 		GRAY = 1,
+		RED_LIGHT_BG = 0,
 	};
 }

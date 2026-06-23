@@ -3,28 +3,28 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_4_FFDCB461A077D183;
+class Class_4_C2BA23F5AA27FA67;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_WRITEALERTVALUETO_ONRESET_OFFSET UNITYSDK_OFFSET(0xEBDAF70)
-#define MOLEMOLE_WRITEALERTVALUETO_ONSTART_OFFSET UNITYSDK_OFFSET(0xEBDADB0)
-#define MOLEMOLE_WRITEALERTVALUETO_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xEBDAF00)
-#define MOLEMOLE_WRITEALERTVALUETO__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDAFC0)
-#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0xEBDB050)
-#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0xEBDB0E0)
-#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xEBDB170)
+#define MOLEMOLE_WRITEALERTVALUETO_ONRESET_OFFSET UNITYSDK_OFFSET(0x108A55B0)
+#define MOLEMOLE_WRITEALERTVALUETO_ONSTART_OFFSET UNITYSDK_OFFSET(0x108A5400)
+#define MOLEMOLE_WRITEALERTVALUETO_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x108A5540)
+#define MOLEMOLE_WRITEALERTVALUETO__CTOR_OFFSET UNITYSDK_OFFSET(0x108A5600)
+#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x108A5690)
+#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x108A5720)
+#define MOLEMOLE_WRITEALERTVALUETO___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x108A57B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int WriteAlertValueTo_TypeDefinitionIndex = 69242;
+	inline static constexpr unsigned int WriteAlertValueTo_TypeDefinitionIndex = 79699;
 
 	class WriteAlertValueTo : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* TargetSharedValue; // 0x58
+		::Class_4_C2BA23F5AA27FA67* _enterBattleComponent; // 0x58
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::Class_4_FFDCB461A077D183* _enterBattleComponent; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* TargetSharedValue; // 0x68
 
 		::System::Void _ctor()
 		{

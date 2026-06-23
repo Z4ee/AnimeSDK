@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UIFILLANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2C2B0)
+#define UIFILLANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11EB1ED0)
 
-inline static constexpr unsigned int UIFillAnimConfig_TypeDefinitionIndex = 45126;
+inline static constexpr unsigned int UIFillAnimConfig_TypeDefinitionIndex = 86656;
 
 class UIFillAnimConfig : public ::UnityEngine::MonoBehaviour
 {

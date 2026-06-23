@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class WwiseSwitchBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17E22CA0)
-#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x17E22C90)
-#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17E22E80)
+#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19193810)
+#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19193800)
+#define MOLEMOLE_TIMELINE_WWISESWITCHCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x191939F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int WwiseSwitchClip_TypeDefinitionIndex = 74211;
+	inline static constexpr unsigned int WwiseSwitchClip_TypeDefinitionIndex = 71478;
 
 	class WwiseSwitchClip : public ::UnityEngine::Playables::PlayableAsset
 	{

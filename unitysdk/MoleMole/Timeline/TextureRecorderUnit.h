@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_TIMELINE_TEXTURERECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C447FE0)
+#define MOLEMOLE_TIMELINE_TEXTURERECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E757900)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextureRecorderUnit_TypeDefinitionIndex = 30637;
+	inline static constexpr unsigned int TextureRecorderUnit_TypeDefinitionIndex = 32183;
 
 	class TextureRecorderUnit : public ::MoleMole::Timeline::RecorderUnit
 	{

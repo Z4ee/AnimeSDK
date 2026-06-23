@@ -10,28 +10,28 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Security::Cryptography { class CryptoStream; }
 namespace System::Threading { class SemaphoreSlim; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOSTREAM__WRITEASYNCINTERNAL_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8E58E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOSTREAM__WRITEASYNCINTERNAL_D__37_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x777AB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOSTREAM__WRITEASYNCINTERNAL_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x986ED0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOSTREAM__WRITEASYNCINTERNAL_D__37_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x67A600)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CryptoStream__WriteAsyncInternal_d__37_TypeDefinitionIndex = 1055;
+	inline static constexpr unsigned int CryptoStream__WriteAsyncInternal_d__37_TypeDefinitionIndex = 1054;
 
 	struct alignas(8) CryptoStream__WriteAsyncInternal_d__37
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x18
-		::System::Threading::SemaphoreSlim* _sem_5__4; // 0x28
-		::Il2CppArray<::System::Byte>* buffer; // 0x30
-		::System::Security::Cryptography::CryptoStream* __4__this; // 0x38
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x40
-		::System::Int32 _currentInputIndex_5__2; // 0x58
-		::System::Int32 offset; // 0x5C
-		::System::Int32 __1__state; // 0x60
-		::System::Int32 _numWholeBlocksInBytes_5__3; // 0x64
-		::System::Int32 count; // 0x68
-		::System::Security::Cryptography::CryptoStream_HopToThreadPoolAwaitable __u__1; // 0x6C
-		::System::Int32 _bytesToWrite_5__1; // 0x70
+		::System::Security::Cryptography::CryptoStream* __4__this; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x18
+		::Il2CppArray<::System::Byte>* buffer; // 0x20
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x28
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x38
+		::System::Threading::SemaphoreSlim* _sem_5__4; // 0x50
+		::System::Int32 offset; // 0x58
+		::System::Int32 _bytesToWrite_5__1; // 0x5C
+		::System::Int32 _numWholeBlocksInBytes_5__3; // 0x60
+		::System::Int32 count; // 0x64
+		::System::Int32 _currentInputIndex_5__2; // 0x68
+		::System::Int32 __1__state; // 0x6C
+		::System::Security::Cryptography::CryptoStream_HopToThreadPoolAwaitable __u__1; // 0x70
 
 		::System::Void MoveNext()
 		{

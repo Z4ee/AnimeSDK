@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__BACKTOMAIN_B__10_0_OFFSET UNITYSDK_OFFSET(0x14DA6E00)
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DA6DB0)
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA6DF0)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__BACKTOMAIN_B__10_0_OFFSET UNITYSDK_OFFSET(0x157911E0)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15791190)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157911D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRamenStoreWidgetController___c_TypeDefinitionIndex = 46371;
+	inline static constexpr unsigned int UIRamenStoreWidgetController___c_TypeDefinitionIndex = 47809;
 
 	class UIRamenStoreWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__10_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRamenStoreWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44A10);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRamenStoreWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46D10);
 		}
 		static ::MoleMole::UIRamenStoreWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIRamenStoreWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRamenStoreWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44A18);
+			return (::MoleMole::UIRamenStoreWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRamenStoreWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46D18);
 		}
 
 		static ::System::Void _cctor()

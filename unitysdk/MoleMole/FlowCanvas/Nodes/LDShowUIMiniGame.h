@@ -7,27 +7,27 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E0EFF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME_SHOWMAINCITYGAME_OFFSET UNITYSDK_OFFSET(0x10E0F1C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x10E0FB50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x10E0FB90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x10E0FBA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18B26030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME_SHOWMAINCITYGAME_OFFSET UNITYSDK_OFFSET(0x18B26200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18B26BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x18B26C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWUIMINIGAME__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x18B26C30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowUIMiniGame_TypeDefinitionIndex = 79790;
+	inline static constexpr unsigned int LDShowUIMiniGame_TypeDefinitionIndex = 69854;
 
 	class LDShowUIMiniGame : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _pauseLevelTimer; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _lightNpc; // 0xB0
-		::FlowCanvas::FlowOutput* _flowOnFinish; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _gameIDInput; // 0xC0
+		::FlowCanvas::FlowOutput* _flowOnFinish; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _pauseLevelTimer; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _gameIDInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _lightNpc; // 0xC0
 		::FlowCanvas::FlowOutput* _flowOutput; // 0xC8
-		::System::Boolean _levelTimerPausedByThis; // 0xD0
-		::System::Boolean _isPlayerSucceeded; // 0xD1
-		::System::Int32 _rank; // 0xD4
+		::System::Int32 _rank; // 0xD0
+		::System::Boolean _levelTimerPausedByThis; // 0xD4
+		::System::Boolean _isPlayerSucceeded; // 0xD5
 
 		::System::Void _ctor()
 		{

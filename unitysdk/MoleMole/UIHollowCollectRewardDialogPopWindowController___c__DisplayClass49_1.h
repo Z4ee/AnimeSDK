@@ -5,12 +5,12 @@
 namespace MoleMole { class NotificationBadge; }
 namespace MoleMole { class UIHollowCollectRewardDialogPopWindowController___c__DisplayClass49_0; }
 
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x155DA770)
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x155DA780)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17811030)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x17811040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass49_1_TypeDefinitionIndex = 57156;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass49_1_TypeDefinitionIndex = 77735;
 
 	class UIHollowCollectRewardDialogPopWindowController___c__DisplayClass49_1 : public ::System::Object
 	{

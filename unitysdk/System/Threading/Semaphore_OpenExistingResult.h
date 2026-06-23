@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int Semaphore_OpenExistingResult_TypeDefinitionIndex = 2711;
+	inline static constexpr unsigned int Semaphore_OpenExistingResult_TypeDefinitionIndex = 2710;
 
 	enum class Semaphore_OpenExistingResult : ::System::Int32
 	{

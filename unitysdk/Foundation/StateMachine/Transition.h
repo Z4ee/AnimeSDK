@@ -4,19 +4,19 @@
 #include "unitysdk/Foundation/StateMachine/StateId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_STATEMACHINE_TRANSITION_CHECK_OFFSET UNITYSDK_OFFSET(0x9B5670)
-#define FOUNDATION_STATEMACHINE_TRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE2C300)
-#define FOUNDATION_STATEMACHINE_TRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9B5650)
+#define FOUNDATION_STATEMACHINE_TRANSITION_CHECK_OFFSET UNITYSDK_OFFSET(0xA80180)
+#define FOUNDATION_STATEMACHINE_TRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E826A20)
+#define FOUNDATION_STATEMACHINE_TRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xA80160)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int Transition_TypeDefinitionIndex = 9099;
+	inline static constexpr unsigned int Transition_TypeDefinitionIndex = 8603;
 
 	struct alignas(8) Transition
 	{
 		static ::Foundation::StateMachine::Transition* StaticGet_Invalid()
 		{
-			return (::Foundation::StateMachine::Transition*)Il2CppClass::FromTypeDefinitionIndex(Transition_TypeDefinitionIndex)->GetStaticField(0x3DC0);
+			return (::Foundation::StateMachine::Transition*)Il2CppClass::FromTypeDefinitionIndex(Transition_TypeDefinitionIndex)->GetStaticField(0x3BD0);
 		}
 		::Foundation::BitSet256 _condition; // 0x10
 		::Foundation::StateMachine::StateId _destination; // 0x30

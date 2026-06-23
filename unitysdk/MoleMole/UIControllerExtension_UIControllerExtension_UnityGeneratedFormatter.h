@@ -12,34 +12,34 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14E90170)
-#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14E90180)
-#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x14E906E0)
-#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E90A40)
-#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E90A00)
+#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1525C620)
+#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1525C630)
+#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1525CB90)
+#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1525CEF0)
+#define MOLEMOLE_UICONTROLLEREXTENSION_UICONTROLLEREXTENSION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1525CEB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex = 60031;
+	inline static constexpr unsigned int UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex = 57253;
 
 	class UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::UIControllerExtension*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41F60);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41F68);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41F70);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x450D0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41F78);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionIntending*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x450D8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x450E0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(UIControllerExtension_UIControllerExtension_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x450E8);
 		}
 
 		::System::Void _ctor()

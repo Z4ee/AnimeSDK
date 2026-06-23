@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTACTIONREQUIREDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D0B20)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTACTIONREQUIREDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC527B0)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int AddNotifyClientActionRequiredOptions_TypeDefinitionIndex = 34644;
+	inline static constexpr unsigned int AddNotifyClientActionRequiredOptions_TypeDefinitionIndex = 36207;
 
 	class AddNotifyClientActionRequiredOptions : public ::System::Object
 	{

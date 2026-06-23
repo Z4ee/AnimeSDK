@@ -7,12 +7,12 @@ namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayCla
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_1__BUILDDESERIALIZE_B__4_OFFSET UNITYSDK_OFFSET(0x1AFC8680)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC8670)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_1__BUILDDESERIALIZE_B__4_OFFSET UNITYSDK_OFFSET(0x1D408620)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D408610)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_1_TypeDefinitionIndex = 26707;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_1_TypeDefinitionIndex = 29295;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass9_1 : public ::System::Object
 	{

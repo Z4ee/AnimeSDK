@@ -8,49 +8,49 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157DF940)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157DF980)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DOSETSTARUPCONSUME_B__49_0_OFFSET UNITYSDK_OFFSET(0x157DFBC0)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__GETREALADDEDVALUE_B__46_0_OFFSET UNITYSDK_OFFSET(0x157DFBA0)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__GETREALADDEDVALUE_B__46_1_OFFSET UNITYSDK_OFFSET(0x157DFBB0)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__INITVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x157DF990)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__INITVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x157DFB90)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__SHOWBACKITEMLISTDIALOG_B__52_0_OFFSET UNITYSDK_OFFSET(0x157DFBD0)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166C1010)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166C1050)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DOSETSTARUPCONSUME_B__49_0_OFFSET UNITYSDK_OFFSET(0x166C1270)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__GETREALADDEDVALUE_B__46_0_OFFSET UNITYSDK_OFFSET(0x166C1250)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__GETREALADDEDVALUE_B__46_1_OFFSET UNITYSDK_OFFSET(0x166C1260)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__INITVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x166C1060)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__INITVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x166C1240)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__SHOWBACKITEMLISTDIALOG_B__52_0_OFFSET UNITYSDK_OFFSET(0x166C1280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c_TypeDefinitionIndex = 44463;
+	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c_TypeDefinitionIndex = 84131;
 
 	class UIEquipDevelopPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIEquipDevelopPopWindowController___c** StaticGet___9()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__18_1()
 		{
-			return (::MoleMole::UIEquipDevelopPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FA0);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__18_0()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FA8);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>** StaticGet___9__49_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FB0);
-		}
-		static ::System::Action** StaticGet___9__52_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FB8);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37980);
 		}
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FC0);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__18_1()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FC8);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37988);
 		}
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__46_1()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34FD0);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37990);
+		}
+		static ::MoleMole::UIEquipDevelopPopWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIEquipDevelopPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37998);
+		}
+		static ::System::Action** StaticGet___9__52_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x379A0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>** StaticGet___9__49_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x379A8);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__18_0()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIEquipDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x379B0);
 		}
 
 		static ::System::Void _cctor()

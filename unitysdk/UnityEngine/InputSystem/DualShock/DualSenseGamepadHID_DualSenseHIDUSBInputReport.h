@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDUSBINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0x9BFE10)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDUSBINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0xA61E40)
 
 namespace UnityEngine::InputSystem::DualShock
 {
-	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDUSBInputReport_TypeDefinitionIndex = 29165;
+	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDUSBInputReport_TypeDefinitionIndex = 31821;
 
 	struct alignas(1) DualSenseGamepadHID_DualSenseHIDUSBInputReport
 	{

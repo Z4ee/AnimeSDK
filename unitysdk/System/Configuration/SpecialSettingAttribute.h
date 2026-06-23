@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Configuration/SpecialSetting.h"
 
-#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE_GET_SPECIALSETTING_OFFSET UNITYSDK_OFFSET(0x19EE9180)
-#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE9170)
+#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE_GET_SPECIALSETTING_OFFSET UNITYSDK_OFFSET(0x1C2E2DB0)
+#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E2DA0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SpecialSettingAttribute_TypeDefinitionIndex = 4233;
+	inline static constexpr unsigned int SpecialSettingAttribute_TypeDefinitionIndex = 4232;
 
 	class SpecialSettingAttribute : public ::System::Attribute
 	{

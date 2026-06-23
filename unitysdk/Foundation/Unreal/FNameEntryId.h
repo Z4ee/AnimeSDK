@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FNAMEENTRYID_FROMUNSTABLEINT_OFFSET UNITYSDK_OFFSET(0x1C0A3B30)
-#define FOUNDATION_UNREAL_FNAMEENTRYID_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1C0A3B40)
-#define FOUNDATION_UNREAL_FNAMEENTRYID_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9C1920)
-#define FOUNDATION_UNREAL_FNAMEENTRYID_TOUNSTABLEINT_OFFSET UNITYSDK_OFFSET(0x2E87C0)
-#define FOUNDATION_UNREAL_FNAMEENTRYID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0A3BB0)
-#define FOUNDATION_UNREAL_FNAMEENTRYID__CTOR_OFFSET UNITYSDK_OFFSET(0x2E85F0)
+#define FOUNDATION_UNREAL_FNAMEENTRYID_FROMUNSTABLEINT_OFFSET UNITYSDK_OFFSET(0x1E823110)
+#define FOUNDATION_UNREAL_FNAMEENTRYID_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1E823120)
+#define FOUNDATION_UNREAL_FNAMEENTRYID_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA7F820)
+#define FOUNDATION_UNREAL_FNAMEENTRYID_TOUNSTABLEINT_OFFSET UNITYSDK_OFFSET(0x2B68B0)
+#define FOUNDATION_UNREAL_FNAMEENTRYID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E823190)
+#define FOUNDATION_UNREAL_FNAMEENTRYID__CTOR_OFFSET UNITYSDK_OFFSET(0x2B66C0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntryId_TypeDefinitionIndex = 9027;
+	inline static constexpr unsigned int FNameEntryId_TypeDefinitionIndex = 8491;
 
 	struct alignas(4) FNameEntryId
 	{
 		static ::Foundation::Unreal::FNameEntryId* StaticGet_Invalid()
 		{
-			return (::Foundation::Unreal::FNameEntryId*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryId_TypeDefinitionIndex)->GetStaticField(0x3D10);
+			return (::Foundation::Unreal::FNameEntryId*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryId_TypeDefinitionIndex)->GetStaticField(0x3B40);
 		}
 		static ::Foundation::Unreal::FNameEntryId* StaticGet_None()
 		{
-			return (::Foundation::Unreal::FNameEntryId*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryId_TypeDefinitionIndex)->GetStaticField(0x3D14);
+			return (::Foundation::Unreal::FNameEntryId*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryId_TypeDefinitionIndex)->GetStaticField(0x3B44);
 		}
 		::System::UInt32 _value; // 0x10
 

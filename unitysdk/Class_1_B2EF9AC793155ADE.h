@@ -4,9 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_B2EF9AC793155ADE__CTOR_OFFSET UNITYSDK_OFFSET(0x15905270)
+#define CLASS_1_B2EF9AC793155ADE__CTOR_OFFSET UNITYSDK_OFFSET(0x1010B3D0)
 
-inline static constexpr unsigned int Class_1_B2EF9AC793155ADE_TypeDefinitionIndex = 71454;
+inline static constexpr unsigned int Class_1_B2EF9AC793155ADE_TypeDefinitionIndex = 75209;
 
 class Class_1_B2EF9AC793155ADE : public ::System::Object
 {

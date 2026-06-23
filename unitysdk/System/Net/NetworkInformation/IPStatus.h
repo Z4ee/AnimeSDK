@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPStatus_TypeDefinitionIndex = 3717;
+	inline static constexpr unsigned int IPStatus_TypeDefinitionIndex = 3716;
 
 	enum class IPStatus : ::System::Int32
 	{

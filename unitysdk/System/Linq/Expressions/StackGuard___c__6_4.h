@@ -7,7 +7,7 @@ namespace System::Linq::Expressions { template <typename T1, typename T2, typena
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int StackGuard___c__6_4_TypeDefinitionIndex = 4540;
+	inline static constexpr unsigned int StackGuard___c__6_4_TypeDefinitionIndex = 4539;
 
 	template <typename T1, typename T2, typename T3, typename R>
 	class StackGuard___c__6_4 : public ::System::Object

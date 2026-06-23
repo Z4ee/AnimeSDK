@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ONEWAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AAF70)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ONEWAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F7050)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int OneWayAttribute_TypeDefinitionIndex = 1363;
+	inline static constexpr unsigned int OneWayAttribute_TypeDefinitionIndex = 1362;
 
 	class OneWayAttribute : public ::System::Attribute
 	{

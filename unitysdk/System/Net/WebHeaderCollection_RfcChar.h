@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebHeaderCollection_RfcChar_TypeDefinitionIndex = 3344;
+	inline static constexpr unsigned int WebHeaderCollection_RfcChar_TypeDefinitionIndex = 3343;
 
 	enum class WebHeaderCollection_RfcChar : ::System::Byte
 	{

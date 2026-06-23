@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RenderFeatureFlag_TypeDefinitionIndex = 5852;
+	inline static constexpr unsigned int RenderFeatureFlag_TypeDefinitionIndex = 5859;
 
 	enum class RenderFeatureFlag : ::System::Int32
 	{

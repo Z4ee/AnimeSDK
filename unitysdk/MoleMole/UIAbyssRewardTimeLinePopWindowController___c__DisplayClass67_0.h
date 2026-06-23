@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAbyssRewardTimeLinePopWindowController; }
 
-#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152C7900)
-#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS67_0__SETSELECTREWARDITEM_B__0_OFFSET UNITYSDK_OFFSET(0x152C7910)
+#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3A890)
+#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS67_0__SETSELECTREWARDITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15E3A8A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowController___c__DisplayClass67_0_TypeDefinitionIndex = 80376;
+	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowController___c__DisplayClass67_0_TypeDefinitionIndex = 82465;
 
 	class UIAbyssRewardTimeLinePopWindowController___c__DisplayClass67_0 : public ::System::Object
 	{

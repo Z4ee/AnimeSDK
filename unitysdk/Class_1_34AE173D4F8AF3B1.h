@@ -5,16 +5,16 @@
 
 namespace MoleMole { class UIGeneralTipsWidgetController; }
 
-#define CLASS_1_34AE173D4F8AF3B1__CTOR_OFFSET UNITYSDK_OFFSET(0x161B0BF0)
+#define CLASS_1_34AE173D4F8AF3B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1337C9E0)
 
-inline static constexpr unsigned int Class_1_34AE173D4F8AF3B1_TypeDefinitionIndex = 75218;
+inline static constexpr unsigned int Class_1_34AE173D4F8AF3B1_TypeDefinitionIndex = 59996;
 
 class Class_1_34AE173D4F8AF3B1 : public ::System::Object
 {
 public:
 	::MoleMole::UIGeneralTipsWidgetController* Field_1_0; // 0x10
-	::UnityEngine::Vector2 Field_1_2; // 0x18
-	::UnityEngine::Vector2 Field_1_1; // 0x20
+	::UnityEngine::Vector2 Field_1_1; // 0x18
+	::UnityEngine::Vector2 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

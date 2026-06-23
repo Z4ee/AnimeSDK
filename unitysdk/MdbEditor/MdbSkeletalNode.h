@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MDBEDITOR_MDBSKELETALNODE_GET_BONENAME_OFFSET UNITYSDK_OFFSET(0x1033FAE0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_CURRTRANS_OFFSET UNITYSDK_OFFSET(0x1033FAB0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_ISENDPOINT_OFFSET UNITYSDK_OFFSET(0x1033FAF0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_ISSKINBONE_OFFSET UNITYSDK_OFFSET(0x1033FB00)
-#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x1033FAD0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTTRANS_OFFSET UNITYSDK_OFFSET(0x1033FAC0)
-#define MDBEDITOR_MDBSKELETALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1033FA80)
+#define MDBEDITOR_MDBSKELETALNODE_GET_BONENAME_OFFSET UNITYSDK_OFFSET(0x11A64DD0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_CURRTRANS_OFFSET UNITYSDK_OFFSET(0x11A64DA0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_ISENDPOINT_OFFSET UNITYSDK_OFFSET(0x11A64DE0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_ISSKINBONE_OFFSET UNITYSDK_OFFSET(0x11A64DF0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x11A64DC0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTTRANS_OFFSET UNITYSDK_OFFSET(0x11A64DB0)
+#define MDBEDITOR_MDBSKELETALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64D70)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbSkeletalNode_TypeDefinitionIndex = 85915;
+	inline static constexpr unsigned int MdbSkeletalNode_TypeDefinitionIndex = 91437;
 
 	class MdbSkeletalNode : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _currTrans; // 0x10
-		::System::String* _boneName; // 0x18
-		::UnityEngine::Transform* _parentTrans; // 0x20
+		::UnityEngine::Transform* _parentTrans; // 0x18
+		::System::String* _boneName; // 0x20
 		::System::Int32 _parentIndex; // 0x28
-		::System::Boolean _isEndPoint; // 0x2C
-		::System::Boolean _isSkinBone; // 0x2D
+		::System::Boolean _isSkinBone; // 0x2C
+		::System::Boolean _isEndPoint; // 0x2D
 
 		::System::Void _ctor(::UnityEngine::Transform* currTrans, ::UnityEngine::Transform* parentTrans, ::System::Int32 parentIndex, ::System::String* boneName, ::System::Boolean endPoint, ::System::Boolean skinPoint)
 		{

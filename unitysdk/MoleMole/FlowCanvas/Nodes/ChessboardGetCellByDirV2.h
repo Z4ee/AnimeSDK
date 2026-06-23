@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/Share/GridDir.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCELLBYDIRV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x14988D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCELLBYDIRV2__CTOR_OFFSET UNITYSDK_OFFSET(0x14988FB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCELLBYDIRV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x170FDDA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCELLBYDIRV2__CTOR_OFFSET UNITYSDK_OFFSET(0x170FE040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardGetCellByDirV2_TypeDefinitionIndex = 68004;
+	inline static constexpr unsigned int ChessboardGetCellByDirV2_TypeDefinitionIndex = 87562;
 
 	class ChessboardGetCellByDirV2 : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_4<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell, ::Share::GridDir, ::System::Int32>
 	{

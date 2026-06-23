@@ -7,19 +7,19 @@ namespace MiHoYo::SDK::Win { class PayManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C92960)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__REQUESTPRICETIERV2_B__0_OFFSET UNITYSDK_OFFSET(0x19C92970)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__REQUESTPRICETIERV2_B__1_OFFSET UNITYSDK_OFFSET(0x19C93200)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD7200)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__REQUESTPRICETIERV2_B__0_OFFSET UNITYSDK_OFFSET(0x1BBD7210)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__REQUESTPRICETIERV2_B__1_OFFSET UNITYSDK_OFFSET(0x1BBD7AA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager___c__DisplayClass20_0_TypeDefinitionIndex = 20044;
+	inline static constexpr unsigned int PayManager___c__DisplayClass20_0_TypeDefinitionIndex = 21217;
 
 	class PayManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x18
 		::MiHoYo::SDK::Win::PayManager* __4__this; // 0x20
 		::System::String* currency; // 0x28
 

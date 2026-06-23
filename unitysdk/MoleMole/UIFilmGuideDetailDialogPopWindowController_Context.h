@@ -4,11 +4,11 @@
 
 class Class_2_38D525ECF7D5C15E_Class_1_0B392030174BA59A;
 
-#define MOLEMOLE_UIFILMGUIDEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157E6F10)
+#define MOLEMOLE_UIFILMGUIDEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166C8670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFilmGuideDetailDialogPopWindowController_Context_TypeDefinitionIndex = 69212;
+	inline static constexpr unsigned int UIFilmGuideDetailDialogPopWindowController_Context_TypeDefinitionIndex = 49512;
 
 	class UIFilmGuideDetailDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

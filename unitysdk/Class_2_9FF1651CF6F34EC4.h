@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_328B10E9F3553A0D.h"
+#include "unitysdk/Class_1_2D5DADE6FF36AA79.h"
 
 class Class_1_B4B6517768F4059F;
 namespace MoleMole::GalGame { class MainCityChatBranchNode; }
 namespace MoleMole::GalGame { class MainCityChatPlayableNodeBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9FF1651CF6F34EC4_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0xD096BE0)
-#define CLASS_2_9FF1651CF6F34EC4_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xD096CA0)
-#define CLASS_2_9FF1651CF6F34EC4__CTOR_OFFSET UNITYSDK_OFFSET(0xD096B60)
+#define CLASS_2_9FF1651CF6F34EC4_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x153B9740)
+#define CLASS_2_9FF1651CF6F34EC4_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x153B9800)
+#define CLASS_2_9FF1651CF6F34EC4__CTOR_OFFSET UNITYSDK_OFFSET(0x153B96C0)
 
-inline static constexpr unsigned int Class_2_9FF1651CF6F34EC4_TypeDefinitionIndex = 78543;
+inline static constexpr unsigned int Class_2_9FF1651CF6F34EC4_TypeDefinitionIndex = 61509;
 
-class Class_2_9FF1651CF6F34EC4 : public ::Class_1_328B10E9F3553A0D
+class Class_2_9FF1651CF6F34EC4 : public ::Class_1_2D5DADE6FF36AA79
 {
 public:
 	::MoleMole::GalGame::MainCityChatBranchNode* Field_2_0; // 0x40

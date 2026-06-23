@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/UIAdaptData_Enum_3_6B1E252B0D6C7258.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIADAPTDATA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x158990C0)
-#define MOLEMOLE_UIADAPTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x158990B0)
+#define MOLEMOLE_UIADAPTDATA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x175945C0)
+#define MOLEMOLE_UIADAPTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x175945B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAdaptData_TypeDefinitionIndex = 71235;
+	inline static constexpr unsigned int UIAdaptData_TypeDefinitionIndex = 87649;
 
 	class UIAdaptData : public ::System::Object
 	{

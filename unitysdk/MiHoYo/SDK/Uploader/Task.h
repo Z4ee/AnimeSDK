@@ -5,22 +5,22 @@
 namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_TASK_BUFFERTASK_OFFSET UNITYSDK_OFFSET(0x1AD97830)
-#define MIHOYO_SDK_UPLOADER_TASK_FILETASK_OFFSET UNITYSDK_OFFSET(0x1AD976C0)
-#define MIHOYO_SDK_UPLOADER_TASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD979D0)
-#define MIHOYO_SDK_UPLOADER_TASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD97810)
+#define MIHOYO_SDK_UPLOADER_TASK_BUFFERTASK_OFFSET UNITYSDK_OFFSET(0x1D1AA9E0)
+#define MIHOYO_SDK_UPLOADER_TASK_FILETASK_OFFSET UNITYSDK_OFFSET(0x1D1AA870)
+#define MIHOYO_SDK_UPLOADER_TASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1AAB80)
+#define MIHOYO_SDK_UPLOADER_TASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AA9C0)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int Task_TypeDefinitionIndex = 35434;
+	inline static constexpr unsigned int Task_TypeDefinitionIndex = 37033;
 
 	class Task : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Uploader::UploadCallbackAction* callback; // 0x10
-		::System::String* m_strFilePath; // 0x18
-		::System::String* key; // 0x20
-		::Il2CppArray<::System::Byte>* m_buffer; // 0x28
+		::System::String* m_strFilePath; // 0x10
+		::System::String* key; // 0x18
+		::Il2CppArray<::System::Byte>* m_buffer; // 0x20
+		::MiHoYo::SDK::Uploader::UploadCallbackAction* callback; // 0x28
 		::System::Int32 m_nTaskID; // 0x30
 
 		::System::Void _ctor(::System::Int32 nTaskID, ::System::String* key, ::System::String* strFilePath, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)

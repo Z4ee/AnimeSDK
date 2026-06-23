@@ -7,7 +7,7 @@ namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingBuffPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 48305;
+	inline static constexpr unsigned int UIBabeltowerFightingBuffPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 77047;
 
 	struct alignas(8) UIBabeltowerFightingBuffPopWindowController___c__DisplayClass9_0
 	{

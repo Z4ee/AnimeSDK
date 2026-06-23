@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_EventName_TypeDefinitionIndex = 19754;
+	inline static constexpr unsigned int PluginUIConstants_EventName_TypeDefinitionIndex = 20917;
 
 	class PluginUIConstants_EventName : public ::System::Object
 	{

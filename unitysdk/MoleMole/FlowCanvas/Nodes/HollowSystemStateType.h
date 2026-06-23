@@ -3,11 +3,11 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowSystemStateType_TypeDefinitionIndex = 47148;
+	inline static constexpr unsigned int HollowSystemStateType_TypeDefinitionIndex = 83504;
 
 	enum class HollowSystemStateType : ::System::Int32
 	{
-		Revert = 1,
 		Close = 0,
+		Revert = 1,
 	};
 }

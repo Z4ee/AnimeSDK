@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IUniversalAdditionalCameraData_TypeDefinitionIndex = 5899;
+	inline static constexpr unsigned int IUniversalAdditionalCameraData_TypeDefinitionIndex = 5908;
 
 	class IUniversalAdditionalCameraData
 	{

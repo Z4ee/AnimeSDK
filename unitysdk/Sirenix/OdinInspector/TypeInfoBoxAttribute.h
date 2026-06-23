@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TYPEINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C022630)
+#define SIRENIX_ODININSPECTOR_TYPEINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32B940)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TypeInfoBoxAttribute_TypeDefinitionIndex = 7246;
+	inline static constexpr unsigned int TypeInfoBoxAttribute_TypeDefinitionIndex = 7377;
 
 	class TypeInfoBoxAttribute : public ::System::Attribute
 	{

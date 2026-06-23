@@ -1,0 +1,142 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+
+class Class_2_E87F1D15F1D4AC72;
+class Class_3_77C9F6D5544C51B8;
+namespace MoleMole { class UIMusicGameGeneralCalibrationNoteWidgetController; }
+namespace MoleMole { class UIMusicGameGeneralCalibrationNoteWidgetController_Context; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+
+#define CLASS_2_A0A443BF51719402_METHOD_2_0F8D56315002EF81_OFFSET UNITYSDK_OFFSET(0x1085BD70)
+#define CLASS_2_A0A443BF51719402_METHOD_2_209BB39912E0650B_OFFSET UNITYSDK_OFFSET(0x1085B2C0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_247E275D294D0C53_OFFSET UNITYSDK_OFFSET(0x1085AEF0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_25DEA5C65A602671_1_OFFSET UNITYSDK_OFFSET(0x1085B030)
+#define CLASS_2_A0A443BF51719402_METHOD_2_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x1085AF00)
+#define CLASS_2_A0A443BF51719402_METHOD_2_27FF22CB0FF2C0E3_OFFSET UNITYSDK_OFFSET(0x1085AAA0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1085AD40)
+#define CLASS_2_A0A443BF51719402_METHOD_2_63E68953AEE1D8C8_OFFSET UNITYSDK_OFFSET(0x1085B020)
+#define CLASS_2_A0A443BF51719402_METHOD_2_64501B5CB67A94C3_OFFSET UNITYSDK_OFFSET(0x1085B6A0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_69FAD2F9E8A43CC3_OFFSET UNITYSDK_OFFSET(0x1085B450)
+#define CLASS_2_A0A443BF51719402_METHOD_2_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x1085B1E0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_978DEB991218B150_OFFSET UNITYSDK_OFFSET(0x1085BD80)
+#define CLASS_2_A0A443BF51719402_METHOD_2_B85284C26C2584B4_OFFSET UNITYSDK_OFFSET(0x1085AE50)
+#define CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1085AE60)
+#define CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1085B150)
+#define CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1085ADC0)
+#define CLASS_2_A0A443BF51719402_METHOD_2_ECCE9D36084CF88D_OFFSET UNITYSDK_OFFSET(0x1085BB50)
+#define CLASS_2_A0A443BF51719402_METHOD_2_FBCEE7AA80F560A8_OFFSET UNITYSDK_OFFSET(0x1085B460)
+#define CLASS_2_A0A443BF51719402__CTOR_OFFSET UNITYSDK_OFFSET(0x1085AE00)
+
+inline static constexpr unsigned int Class_2_A0A443BF51719402_TypeDefinitionIndex = 58468;
+
+class Class_2_A0A443BF51719402 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::UnityEngine::RectTransform* Field_2_0; // 0x50
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController_Context*>* Field_2_6; // 0x58
+	::UnityEngine::RectTransform* Field_2_3; // 0x60
+	::UnityEngine::Transform* Field_2_1; // 0x68
+	::Class_0_16E4307DCC419505_165<::System::Single>* Field_2_5; // 0x70
+	::UnityEngine::Transform* Field_2_2; // 0x78
+	::Class_0_16E4307DCC419505_165<::System::Boolean>* Field_2_4; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_27FF22CB0FF2C0E3(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_27FF22CB0FF2C0E3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_165<::System::Single>* Method_2_B85284C26C2584B4()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_B85284C26C2584B4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController_Context*>* Method_2_247E275D294D0C53()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_247E275D294D0C53_OFFSET))(this);
+	}
+
+	::System::Void Method_2_25DEA5C65A602671()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_25DEA5C65A602671_OFFSET))(this);
+	}
+
+	::System::Void Method_2_63E68953AEE1D8C8(::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_63E68953AEE1D8C8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_25DEA5C65A602671_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_25DEA5C65A602671_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_70589F89E4D22649()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_70589F89E4D22649_OFFSET))(this);
+	}
+
+	::System::Void Method_2_209BB39912E0650B(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_209BB39912E0650B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_69FAD2F9E8A43CC3(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_69FAD2F9E8A43CC3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_FBCEE7AA80F560A8(::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIMusicGameGeneralCalibrationNoteWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_FBCEE7AA80F560A8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_64501B5CB67A94C3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_64501B5CB67A94C3_OFFSET))(this);
+	}
+
+	::System::Void Method_2_ECCE9D36084CF88D(::Class_3_77C9F6D5544C51B8* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_77C9F6D5544C51B8*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_ECCE9D36084CF88D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_0F8D56315002EF81(::Class_0_16E4307DCC419505_165<::System::Single>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_0F8D56315002EF81_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_2_978DEB991218B150()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A0A443BF51719402_METHOD_2_978DEB991218B150_OFFSET))(this);
+	}
+};

@@ -4,11 +4,11 @@
 
 class Class_1_96232DA6A41AD866;
 
-#define MOLEMOLE_UIANNOUNCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1561E180)
+#define MOLEMOLE_UIANNOUNCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x181BC6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAnnounceContext_TypeDefinitionIndex = 72083;
+	inline static constexpr unsigned int UIAnnounceContext_TypeDefinitionIndex = 60255;
 
 	class UIAnnounceContext : public ::MoleMole::UIControllerContextBase
 	{

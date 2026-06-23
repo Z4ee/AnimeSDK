@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_FETCHANIMATORPARM_OFFSET UNITYSDK_OFFSET(0xF979BE0)
-#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF979CC0)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM_FETCHANIMATORPARM_OFFSET UNITYSDK_OFFSET(0x1109EBD0)
+#define MOLEMOLE_CONFIG_CONFIGAUDIOFETCHANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1109ECB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_TypeDefinitionIndex = 43231;
+	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_TypeDefinitionIndex = 72150;
 
 	class ConfigAudioFetchAnimatorParam : public ::System::Object
 	{

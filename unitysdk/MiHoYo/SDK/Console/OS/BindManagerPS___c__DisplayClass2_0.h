@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERPS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19991CC0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERPS___C__DISPLAYCLASS2_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x19991CD0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERPS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5ED70)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERPS___C__DISPLAYCLASS2_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BF5ED80)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerPS___c__DisplayClass2_0_TypeDefinitionIndex = 19654;
+	inline static constexpr unsigned int BindManagerPS___c__DisplayClass2_0_TypeDefinitionIndex = 20815;
 
 	class BindManagerPS___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* clientID; // 0x18
+		::System::String* clientID; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

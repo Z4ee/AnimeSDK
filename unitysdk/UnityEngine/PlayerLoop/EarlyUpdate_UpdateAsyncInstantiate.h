@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateAsyncInstantiate_TypeDefinitionIndex = 5547;
+	inline static constexpr unsigned int EarlyUpdate_UpdateAsyncInstantiate_TypeDefinitionIndex = 5549;
 
 	struct alignas(1) EarlyUpdate_UpdateAsyncInstantiate
 	{

@@ -6,12 +6,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x14281120)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x142812C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x11611380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11611510)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetInteractionGameplayTagByEntity_TypeDefinitionIndex = 63773;
+	inline static constexpr unsigned int LD_AbyssS2_GetInteractionGameplayTagByEntity_TypeDefinitionIndex = 61506;
 
 	class LD_AbyssS2_GetInteractionGameplayTagByEntity : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Collections::Generic::List_1<::System::String*>*, ::MoleMole::Battle::Entity*, ::System::Int32>
 	{

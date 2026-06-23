@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting { class Identity; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IInternalMessage_TypeDefinitionIndex = 1348;
+	inline static constexpr unsigned int IInternalMessage_TypeDefinitionIndex = 1347;
 
 	class IInternalMessage
 	{

@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWLEVELEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1102BC40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWLEVELEND__CTOR_OFFSET UNITYSDK_OFFSET(0x18F36060)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowLevelEnd_TypeDefinitionIndex = 62387;
+	inline static constexpr unsigned int ConfigHollowLevelEnd_TypeDefinitionIndex = 51988;
 
 	class ConfigHollowLevelEnd : public ::System::Object
 	{
 	public:
-		::System::String* onExitBattleGlitchKey; // 0x10
-		::System::String* onTriggerBattleGlitchKey; // 0x18
-		::System::String* cameraStretchKey; // 0x20
-		::System::String* cameraZoomKey; // 0x28
-		::System::String* onEnterBattleGlitchKey; // 0x30
-		::System::String* timeSlowKey; // 0x38
-		::System::String* cameraShakeKey; // 0x40
+		::System::String* onTriggerBattleGlitchKey; // 0x10
+		::System::String* cameraZoomKey; // 0x18
+		::System::String* onEnterBattleGlitchKey; // 0x20
+		::System::String* cameraStretchKey; // 0x28
+		::System::String* cameraShakeKey; // 0x30
+		::System::String* onExitBattleGlitchKey; // 0x38
+		::System::String* timeSlowKey; // 0x40
 		::System::Single delayTimeSeconds; // 0x48
 
 		::System::Void _ctor()

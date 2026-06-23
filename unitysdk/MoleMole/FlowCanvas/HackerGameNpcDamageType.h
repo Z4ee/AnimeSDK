@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcDamageType_TypeDefinitionIndex = 46426;
+	inline static constexpr unsigned int HackerGameNpcDamageType_TypeDefinitionIndex = 46841;
 
 	enum class HackerGameNpcDamageType : ::System::Int32
 	{
-		DamageWhenEscape = 2,
-		None = 0,
 		Damage = 1,
+		None = 0,
+		DamageWhenEscape = 2,
 	};
 }

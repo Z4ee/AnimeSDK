@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x164881E0)
-#define MOLEMOLE_UIDEFENCELARGETVSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16487FB0)
+#define MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x167759F0)
+#define MOLEMOLE_UIDEFENCELARGETVSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x167757C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDefenceLargeTVSetting_TypeDefinitionIndex = 42955;
+	inline static constexpr unsigned int UIDefenceLargeTVSetting_TypeDefinitionIndex = 53927;
 
 	class UIDefenceLargeTVSetting : public ::UnityEngine::MonoBehaviour
 	{

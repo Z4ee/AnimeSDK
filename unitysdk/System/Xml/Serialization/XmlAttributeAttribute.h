@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1B5993D0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_GET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1B599390)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1B5993B0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B599380)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B599370)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1D93CA80)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_GET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1D93CA40)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1D93CA60)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D93CA30)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93CA20)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAttributeAttribute_TypeDefinitionIndex = 1879;
+	inline static constexpr unsigned int XmlAttributeAttribute_TypeDefinitionIndex = 1878;
 
 	class XmlAttributeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* dataType; // 0x18
-		::System::String* ns; // 0x20
-		::System::String* attributeName; // 0x28
+		::System::String* attributeName; // 0x10
+		::System::String* ns; // 0x18
+		::System::String* dataType; // 0x20
+		::System::Type* type; // 0x28
 		::System::Xml::Schema::XmlSchemaForm form; // 0x30
 
 		::System::Void _ctor()

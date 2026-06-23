@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadCustomList_Struct_2_050CB677143DAD21_TypeDefinitionIndex = 71141;
+	inline static constexpr unsigned int MonoGamepadCustomList_Struct_2_050CB677143DAD21_TypeDefinitionIndex = 39653;
 
 	struct alignas(8) MonoGamepadCustomList_Struct_2_050CB677143DAD21
 	{

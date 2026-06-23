@@ -6,7 +6,7 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int IDynamicMetaObjectProvider_TypeDefinitionIndex = 5005;
+	inline static constexpr unsigned int IDynamicMetaObjectProvider_TypeDefinitionIndex = 5004;
 
 	class IDynamicMetaObjectProvider
 	{

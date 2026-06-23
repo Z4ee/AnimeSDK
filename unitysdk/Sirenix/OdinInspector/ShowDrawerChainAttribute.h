@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_SHOWDRAWERCHAINATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020FB0)
+#define SIRENIX_ODININSPECTOR_SHOWDRAWERCHAINATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A2B0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ShowDrawerChainAttribute_TypeDefinitionIndex = 7220;
+	inline static constexpr unsigned int ShowDrawerChainAttribute_TypeDefinitionIndex = 7351;
 
 	class ShowDrawerChainAttribute : public ::System::Attribute
 	{

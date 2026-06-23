@@ -4,12 +4,12 @@
 
 namespace System::Threading { class ReaderWriterLockSlim; }
 
-#define FOUNDATION_READSLIMLOCKSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9AA5D0)
-#define FOUNDATION_READSLIMLOCKSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA580)
+#define FOUNDATION_READSLIMLOCKSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA61990)
+#define FOUNDATION_READSLIMLOCKSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0xA61940)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReadSlimLockScope_TypeDefinitionIndex = 7784;
+	inline static constexpr unsigned int ReadSlimLockScope_TypeDefinitionIndex = 7773;
 
 	struct alignas(8) ReadSlimLockScope
 	{

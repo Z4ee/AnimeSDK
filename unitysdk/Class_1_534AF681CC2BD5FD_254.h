@@ -1,8 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_254_TypeDefinitionIndex = 65031;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_254_TypeDefinitionIndex = 39932;
 
 class Class_1_534AF681CC2BD5FD_254 : public ::System::Object
 {

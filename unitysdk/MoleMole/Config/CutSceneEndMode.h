@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CutSceneEndMode_TypeDefinitionIndex = 69759;
+	inline static constexpr unsigned int CutSceneEndMode_TypeDefinitionIndex = 54180;
 
 	enum class CutSceneEndMode : ::System::Byte
 	{
-		Destory = 0x1,
 		PlayFinished = 0x0,
+		Destory = 0x1,
 	};
 }

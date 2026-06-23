@@ -10,26 +10,26 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_6E5587B8754E00C9_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x10583390)
-#define CLASS_2_6E5587B8754E00C9_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x105835F0)
-#define CLASS_2_6E5587B8754E00C9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x105836A0)
-#define CLASS_2_6E5587B8754E00C9__CTOR_OFFSET UNITYSDK_OFFSET(0x10583690)
+#define CLASS_2_6E5587B8754E00C9_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x19E21480)
+#define CLASS_2_6E5587B8754E00C9_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x19E216E0)
+#define CLASS_2_6E5587B8754E00C9_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x19E21790)
+#define CLASS_2_6E5587B8754E00C9__CTOR_OFFSET UNITYSDK_OFFSET(0x19E21780)
 
-inline static constexpr unsigned int Class_2_6E5587B8754E00C9_TypeDefinitionIndex = 48518;
+inline static constexpr unsigned int Class_2_6E5587B8754E00C9_TypeDefinitionIndex = 42527;
 
 class Class_2_6E5587B8754E00C9 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x20
-	::UnityEngine::UI::Button* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x38
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x40
-	::UnityEngine::GameObject* Field_2_10; // 0x48
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_8; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x30
+	::UnityEngine::GameObject* Field_2_9; // 0x38
+	::UnityEngine::GameObject* Field_2_10; // 0x40
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x48
 	::Class_2_134E5210FBBAC6E5* Field_2_2; // 0x50
-	::UnityEngine::GameObject* Field_2_9; // 0x58
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x58
+	::UnityEngine::UI::Button* Field_2_3; // 0x60
 	::UnityEngine::UI::Button* Field_2_4; // 0x68
 
 	::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System::Xml { class XmlTextEncoder; }
 
-#define SYSTEM_XML_XMLTEXTWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x1AB2B650)
+#define SYSTEM_XML_XMLTEXTWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x1CFC5D70)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriterBase64Encoder_TypeDefinitionIndex = 1664;
+	inline static constexpr unsigned int XmlTextWriterBase64Encoder_TypeDefinitionIndex = 1663;
 
 	class XmlTextWriterBase64Encoder : public ::System::Xml::Base64Encoder
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int ScreenMaskUVType_TypeDefinitionIndex = 63834;
+	inline static constexpr unsigned int ScreenMaskUVType_TypeDefinitionIndex = 70222;
 
 	enum class ScreenMaskUVType : ::System::Byte
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions__FilterCast_d__28_1_TypeDefinitionIndex = 6424;
+	inline static constexpr unsigned int LinqExtensions__FilterCast_d__28_1_TypeDefinitionIndex = 6469;
 
 	template <typename T>
 	class LinqExtensions__FilterCast_d__28_1 : public ::System::Object

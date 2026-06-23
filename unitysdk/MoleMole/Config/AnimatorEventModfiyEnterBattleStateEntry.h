@@ -6,12 +6,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODFIYENTERBATTLESTATEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x17435780)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODFIYENTERBATTLESTATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17435800)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODFIYENTERBATTLESTATEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x170317A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODFIYENTERBATTLESTATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17031820)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventModfiyEnterBattleStateEntry_TypeDefinitionIndex = 57300;
+	inline static constexpr unsigned int AnimatorEventModfiyEnterBattleStateEntry_TypeDefinitionIndex = 77697;
 
 	class AnimatorEventModfiyEnterBattleStateEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

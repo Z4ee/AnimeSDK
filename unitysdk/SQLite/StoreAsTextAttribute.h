@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SQLITE_STOREASTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2886F0)
+#define SQLITE_STOREASTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D644A50)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int StoreAsTextAttribute_TypeDefinitionIndex = 36781;
+	inline static constexpr unsigned int StoreAsTextAttribute_TypeDefinitionIndex = 38391;
 
 	class StoreAsTextAttribute : public ::System::Attribute
 	{

@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYOEMOTION_STOPSHAPEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197A0AF0)
-#define MIHOYOEMOTION_STOPSHAPEDATA___C__CLEAR_B__3_0_OFFSET UNITYSDK_OFFSET(0x197A0B40)
-#define MIHOYOEMOTION_STOPSHAPEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197A0B30)
+#define MIHOYOEMOTION_STOPSHAPEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB0D730)
+#define MIHOYOEMOTION_STOPSHAPEDATA___C__CLEAR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1BB0D780)
+#define MIHOYOEMOTION_STOPSHAPEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0D770)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int StopShapeData___c_TypeDefinitionIndex = 37775;
+	inline static constexpr unsigned int StopShapeData___c_TypeDefinitionIndex = 39350;
 
 	class StopShapeData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::miHoYoEmotion::BlendShapeData>** StaticGet___9__3_0()
-		{
-			return (::System::Comparison_1<::miHoYoEmotion::BlendShapeData>**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData___c_TypeDefinitionIndex)->GetStaticField(0x29310);
-		}
 		static ::miHoYoEmotion::StopShapeData___c** StaticGet___9()
 		{
-			return (::miHoYoEmotion::StopShapeData___c**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData___c_TypeDefinitionIndex)->GetStaticField(0x29318);
+			return (::miHoYoEmotion::StopShapeData___c**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData___c_TypeDefinitionIndex)->GetStaticField(0x2AFD0);
+		}
+		static ::System::Comparison_1<::miHoYoEmotion::BlendShapeData>** StaticGet___9__3_0()
+		{
+			return (::System::Comparison_1<::miHoYoEmotion::BlendShapeData>**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData___c_TypeDefinitionIndex)->GetStaticField(0x2AFD8);
 		}
 
 		static ::System::Void _cctor()

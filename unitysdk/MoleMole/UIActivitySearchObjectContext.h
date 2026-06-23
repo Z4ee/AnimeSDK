@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYSEARCHOBJECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16337530)
+#define MOLEMOLE_UIACTIVITYSEARCHOBJECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5D680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySearchObjectContext_TypeDefinitionIndex = 42675;
+	inline static constexpr unsigned int UIActivitySearchObjectContext_TypeDefinitionIndex = 80118;
 
 	class UIActivitySearchObjectContext : public ::MoleMole::UIControllerContextBase
 	{

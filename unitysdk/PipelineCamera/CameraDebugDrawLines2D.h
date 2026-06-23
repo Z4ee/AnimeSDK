@@ -11,24 +11,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ADDLINESTRIP_OFFSET UNITYSDK_OFFSET(0x1A4C96B0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ADDLINE_OFFSET UNITYSDK_OFFSET(0x1A4C95F0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A4C97D0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1A4C98B0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1A4C93E0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4CA1D0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__DRAW_G__DRAWLINESTRIPS_8_1_OFFSET UNITYSDK_OFFSET(0x1A4C9DC0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__DRAW_G__DRAWLINES_8_0_OFFSET UNITYSDK_OFFSET(0x1A4C9A40)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ADDLINESTRIP_OFFSET UNITYSDK_OFFSET(0x1C840A70)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ADDLINE_OFFSET UNITYSDK_OFFSET(0x1C8409B0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C840B90)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1C840C70)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1C8407A0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C841590)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__DRAW_G__DRAWLINESTRIPS_8_1_OFFSET UNITYSDK_OFFSET(0x1C841180)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES2D__DRAW_G__DRAWLINES_8_0_OFFSET UNITYSDK_OFFSET(0x1C840E00)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawLines2D_TypeDefinitionIndex = 36006;
+	inline static constexpr unsigned int CameraDebugDrawLines2D_TypeDefinitionIndex = 37614;
 
 	class CameraDebugDrawLines2D : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _stripPoints; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawLines2D_Line>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawLines2D_LineStrip>*>>* _items; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawLines2D_Line>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawLines2D_LineStrip>*>>* _items; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _stripPoints; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,23 +6,23 @@
 class Class_3_B537A0AA78803363;
 class Class_3_DCB7F8B839F0C44B_4;
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_F91115D9A1F02F5F;
 
-#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_7A00E552FBB51A60_OFFSET UNITYSDK_OFFSET(0x16A705F0)
-#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16A70A70)
-#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x16A703F0)
-#define CLASS_3_EB4FDAA5F3AEBD56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A708F0)
+#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_7A00E552FBB51A60_OFFSET UNITYSDK_OFFSET(0x1224A770)
+#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1224ABF0)
+#define CLASS_3_EB4FDAA5F3AEBD56_1_METHOD_3_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x1224A570)
+#define CLASS_3_EB4FDAA5F3AEBD56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1224AA70)
 
-inline static constexpr unsigned int Class_3_EB4FDAA5F3AEBD56_1_TypeDefinitionIndex = 76545;
+inline static constexpr unsigned int Class_3_EB4FDAA5F3AEBD56_1_TypeDefinitionIndex = 84290;
 
 class Class_3_EB4FDAA5F3AEBD56_1 : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::Int32>*>* Field_3_1; // 0x18
-	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_3_2; // 0x20
-	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::Single>*>* Field_3_3; // 0x28
-	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x30
-	::Class_3_B537A0AA78803363* Field_3_4; // 0x38
+	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x18
+	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::Int32>*>* Field_3_1; // 0x20
+	::Class_4_F91115D9A1F02F5F<::System::Single>* Field_3_2; // 0x28
+	::Class_3_B537A0AA78803363* Field_3_4; // 0x30
+	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::Single>*>* Field_3_3; // 0x38
 
 	::System::Void _ctor()
 	{

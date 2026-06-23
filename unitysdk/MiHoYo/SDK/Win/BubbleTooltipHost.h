@@ -5,13 +5,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1A35AC00)
-#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1A35AC30)
-#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35AC60)
+#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1C581CA0)
+#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1C581CD0)
+#define MIHOYO_SDK_WIN_BUBBLETOOLTIPHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C581D00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BubbleTooltipHost_TypeDefinitionIndex = 20120;
+	inline static constexpr unsigned int BubbleTooltipHost_TypeDefinitionIndex = 21293;
 
 	class BubbleTooltipHost : public ::UnityEngine::MonoBehaviour
 	{

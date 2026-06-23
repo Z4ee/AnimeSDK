@@ -2,53 +2,55 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/UnityEngine/UI/Extension/UIImgTextIconUtils_EIconType.h"
 #include "unitysdk/UnityEngine/UI/Extension/UITextTagReplacer_Matched.h"
 
-class Class_1_95E491FD617A3F68;
+class Class_1_D79D852F682C7303;
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine::UI::Extension { class IImgIconLoader; }
 
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_BUILDICONQUAD_OFFSET UNITYSDK_OFFSET(0x1A1607B0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENTOKENMATCHER_OFFSET UNITYSDK_OFFSET(0x1A160940)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETACTIONICONQUAD_OFFSET UNITYSDK_OFFSET(0x1A1610B0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETICONMAPQUAD_OFFSET UNITYSDK_OFFSET(0x1A160F50)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETQUAD_OFFSET UNITYSDK_OFFSET(0x1A160E10)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_READFLOAT_OFFSET UNITYSDK_OFFSET(0x1A1617D0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_READNAME_OFFSET UNITYSDK_OFFSET(0x1A161690)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_REPLACEICONTAG_OFFSET UNITYSDK_OFFSET(0x1A160A00)
-#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A161890)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_BUILDICONQUAD_OFFSET UNITYSDK_OFFSET(0x1A0F0DD0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENTOKENMATCHER_OFFSET UNITYSDK_OFFSET(0x1A0F0F70)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETACTIONICONQUAD_OFFSET UNITYSDK_OFFSET(0x1A0F16E0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETICONMAPQUAD_OFFSET UNITYSDK_OFFSET(0x1A0F1580)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETPREFIX_OFFSET UNITYSDK_OFFSET(0x1A0F0CC0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETQUAD_OFFSET UNITYSDK_OFFSET(0x1A0F1440)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_READFLOAT_OFFSET UNITYSDK_OFFSET(0x1A0F1E00)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_READNAME_OFFSET UNITYSDK_OFFSET(0x1A0F1CC0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_REPLACEICONTAG_OFFSET UNITYSDK_OFFSET(0x1A0F1030)
+#define UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1EC0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgTextIconUtils_TypeDefinitionIndex = 44981;
+	inline static constexpr unsigned int UIImgTextIconUtils_TypeDefinitionIndex = 52332;
 
 	class UIImgTextIconUtils : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::Extension::IImgIconLoader** StaticGet__curLoader()
-		{
-			return (::UnityEngine::UI::Extension::IImgIconLoader**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3D630);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet__Prefix()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3D638);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3FB80);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet__Word()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3D640);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3FB88);
 		}
-		static ::Class_1_95E491FD617A3F68** StaticGet__quadMatchers()
+		static ::Class_1_D79D852F682C7303** StaticGet__quadMatchers()
 		{
-			return (::Class_1_95E491FD617A3F68**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3D648);
+			return (::Class_1_D79D852F682C7303**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3FB90);
 		}
-		static ::System::Boolean* StaticGet__curImgBestFit()
+		static ::UnityEngine::UI::Extension::IImgIconLoader** StaticGet__curLoader()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0xEFB0);
+			return (::UnityEngine::UI::Extension::IImgIconLoader**)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0x3FB98);
 		}
 		static ::System::Int32* StaticGet__curStandFontSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0xEFB4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0xF5D0);
+		}
+		static ::System::Boolean* StaticGet__curImgBestFit()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIImgTextIconUtils_TypeDefinitionIndex)->GetStaticField(0xF5D4);
 		}
 		// static const ::System::String* OVERRIDE_HEIGHT_KEY; // 0x0
 
@@ -57,14 +59,19 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS__CCTOR_OFFSET))();
 		}
 
+		static ::System::String* GetPrefix(::UnityEngine::UI::Extension::UIImgTextIconUtils_EIconType type)
+		{
+			return ((::System::String*(*)(::UnityEngine::UI::Extension::UIImgTextIconUtils_EIconType))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GETPREFIX_OFFSET))(type);
+		}
+
 		static ::System::String* BuildIconQuad(::System::String* inStr, ::UnityEngine::UI::Extension::IImgIconLoader* iconLoader, ::System::Boolean imgBestFit, ::System::Int32 standFontSize)
 		{
 			return ((::System::String*(*)(::System::String*, ::UnityEngine::UI::Extension::IImgIconLoader*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_BUILDICONQUAD_OFFSET))(inStr, iconLoader, imgBestFit, standFontSize);
 		}
 
-		static ::Class_1_95E491FD617A3F68* GenTokenMatcher()
+		static ::Class_1_D79D852F682C7303* GenTokenMatcher()
 		{
-			return ((::Class_1_95E491FD617A3F68*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENTOKENMATCHER_OFFSET))();
+			return ((::Class_1_D79D852F682C7303*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UIIMGTEXTICONUTILS_GENTOKENMATCHER_OFFSET))();
 		}
 
 		static ::System::Void ReplaceIconTag(::System::String* rawStr, ::UnityEngine::UI::Extension::UITextTagReplacer_Matched matched, ::System::Text::StringBuilder* sb)

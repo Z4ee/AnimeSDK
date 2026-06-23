@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1231A990)
+#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6BD50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 66300;
+	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 71985;
 
 	class ItemDropEffectSetting : public ::System::Object
 	{

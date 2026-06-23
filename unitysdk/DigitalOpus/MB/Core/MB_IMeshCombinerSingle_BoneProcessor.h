@@ -13,7 +13,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_IMeshCombinerSingle_BoneProcessor_TypeDefinitionIndex = 85092;
+	inline static constexpr unsigned int MB_IMeshCombinerSingle_BoneProcessor_TypeDefinitionIndex = 90666;
 
 	class MB_IMeshCombinerSingle_BoneProcessor
 	{

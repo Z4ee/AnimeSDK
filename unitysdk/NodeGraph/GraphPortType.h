@@ -3,7 +3,7 @@
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphPortType_TypeDefinitionIndex = 39057;
+	inline static constexpr unsigned int GraphPortType_TypeDefinitionIndex = 52739;
 
 	enum class GraphPortType : ::System::Int32
 	{

@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
-class Class_0_16E4307DCC419505_103;
-template <typename T> class Class_0_16E4307DCC419505_97;
+class Class_0_16E4307DCC419505_139;
+template <typename T> class Class_0_16E4307DCC419505_163;
 
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x155171F0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x155171E0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__ONCREATEPROPERTY_B__4_1_OFFSET UNITYSDK_OFFSET(0x15517650)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x103ECF80)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x103ECF70)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__ONCREATEPROPERTY_B__4_1_OFFSET UNITYSDK_OFFSET(0x103ED3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSellWidgetController_ViewModel_TypeDefinitionIndex = 81142;
+	inline static constexpr unsigned int UISuibianTempleSellWidgetController_ViewModel_TypeDefinitionIndex = 69131;
 
-	class UISuibianTempleSellWidgetController_ViewModel : public ::Class_1_F4299CC27263318B
+	class UISuibianTempleSellWidgetController_ViewModel : public ::Class_1_C331A5DC726F030A
 	{
 	public:
-		::Class_0_16E4307DCC419505_97<::System::UInt32>* buddyUid; // 0x70
-		::Class_0_16E4307DCC419505_97<::System::Int32>* buddyShowEnergy; // 0x78
-		::Class_0_16E4307DCC419505_97<::System::Int32>* smallChangeGainLimit; // 0x80
+		::Class_0_16E4307DCC419505_163<::System::Int32>* smallChangeGainLimit; // 0x60
+		::Class_0_16E4307DCC419505_163<::System::Int32>* buddyShowEnergy; // 0x68
+		::Class_0_16E4307DCC419505_163<::System::UInt32>* buddyUid; // 0x70
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_103* autoDisposePool)
+		::System::Void _ctor(::Class_0_16E4307DCC419505_139* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_103*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_139*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
 		::System::Void OnCreateProperty()

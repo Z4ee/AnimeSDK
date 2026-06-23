@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F4299CC27263318B.h"
+#include "unitysdk/Class_1_C331A5DC726F030A.h"
 
-template <typename T> class Class_0_16E4307DCC419505_97;
+template <typename T> class Class_0_16E4307DCC419505_163;
 
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1378ACB0)
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1378B070)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x161746B0)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16174A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleMainPageController_UIState_TypeDefinitionIndex = 75990;
+	inline static constexpr unsigned int UISuibianTempleMainPageController_UIState_TypeDefinitionIndex = 49057;
 
-	class UISuibianTempleMainPageController_UIState : public ::Class_1_F4299CC27263318B
+	class UISuibianTempleMainPageController_UIState : public ::Class_1_C331A5DC726F030A
 	{
 	public:
-		::Class_0_16E4307DCC419505_97<::System::Int32>* SimulationValue; // 0x70
+		::Class_0_16E4307DCC419505_163<::System::Int32>* SimulationValue; // 0x60
 
 		::System::Void _ctor()
 		{

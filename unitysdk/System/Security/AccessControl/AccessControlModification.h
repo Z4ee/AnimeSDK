@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AccessControlModification_TypeDefinitionIndex = 962;
+	inline static constexpr unsigned int AccessControlModification_TypeDefinitionIndex = 961;
 
 	enum class AccessControlModification : ::System::Int32
 	{

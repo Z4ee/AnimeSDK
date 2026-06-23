@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TransparentMatQuality_TypeDefinitionIndex = 5885;
+	inline static constexpr unsigned int TransparentMatQuality_TypeDefinitionIndex = 5893;
 
 	enum class TransparentMatQuality : ::System::Int32
 	{

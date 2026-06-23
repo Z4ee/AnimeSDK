@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class Class_2_FE2F3D050D2D6861;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIHandBookBangbooMicroWebItemRowWidgetController_PanelData; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONCLICKTRACK_OFFSET UNITYSDK_OFFSET(0x16AB13E0)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16AB0CB0)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x16AB0E60)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16AB0DE0)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET UNITYSDK_OFFSET(0x16AB0F20)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_SHOWITEMICON_OFFSET UNITYSDK_OFFSET(0x16AB1220)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB1440)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16AB1450)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x16AB14E0)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16AB1580)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIHandBookBangbooMicroWebItemRowWidgetController_TypeDefinitionIndex = 77487;
+
+	class UIHandBookBangbooMicroWebItemRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::Class_2_FE2F3D050D2D6861* _view; // 0x2F0
+		::MoleMole::UIHandBookBangbooMicroWebItemRowWidgetController_PanelData* _data; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void RefreshPanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_REFRESHPANEL_OFFSET))(this);
+		}
+
+		::System::Void ShowItemIcon()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_SHOWITEMICON_OFFSET))(this);
+		}
+
+		::System::Void OnClickTrack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_ONCLICKTRACK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+	};
+}

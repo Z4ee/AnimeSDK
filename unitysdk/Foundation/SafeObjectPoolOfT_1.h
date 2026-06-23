@@ -9,7 +9,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SafeObjectPoolOfT_1_TypeDefinitionIndex = 8048;
+	inline static constexpr unsigned int SafeObjectPoolOfT_1_TypeDefinitionIndex = 7911;
 
 	template <typename T>
 	class SafeObjectPoolOfT_1 : public ::System::Object

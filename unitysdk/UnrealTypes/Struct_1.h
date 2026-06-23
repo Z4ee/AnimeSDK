@@ -10,7 +10,7 @@ namespace UnrealTypes { template <typename T> class IStruct_1; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Struct_1_TypeDefinitionIndex = 25215;
+	inline static constexpr unsigned int Struct_1_TypeDefinitionIndex = 27705;
 
 	template <typename T>
 	class Struct_1 : public ::System::Object

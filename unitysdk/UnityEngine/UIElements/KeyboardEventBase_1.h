@@ -8,7 +8,7 @@ namespace UnityEngine { class Event; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int KeyboardEventBase_1_TypeDefinitionIndex = 25023;
+	inline static constexpr unsigned int KeyboardEventBase_1_TypeDefinitionIndex = 27526;
 
 	template <typename T>
 	class KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

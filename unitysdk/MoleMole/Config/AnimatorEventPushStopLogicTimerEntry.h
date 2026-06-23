@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHSTOPLOGICTIMERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x11C8EBF0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHSTOPLOGICTIMERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11C8EC70)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHSTOPLOGICTIMERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x192801A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPUSHSTOPLOGICTIMERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19280220)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventPushStopLogicTimerEntry_TypeDefinitionIndex = 64989;
+	inline static constexpr unsigned int AnimatorEventPushStopLogicTimerEntry_TypeDefinitionIndex = 78974;
 
 	class AnimatorEventPushStopLogicTimerEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

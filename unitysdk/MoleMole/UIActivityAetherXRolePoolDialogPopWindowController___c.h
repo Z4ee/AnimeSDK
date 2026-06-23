@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F250F0)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12F25130)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__GETNEWBIECHOOSEAVATAR_B__12_1_OFFSET UNITYSDK_OFFSET(0x12F25150)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__GETNEWBIECHOOSEAVATAR_B__12_3_OFFSET UNITYSDK_OFFSET(0x12F25140)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BEFF30)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12BEFF70)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__GETNEWBIECHOOSEAVATAR_B__12_1_OFFSET UNITYSDK_OFFSET(0x12BEFF90)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__GETNEWBIECHOOSEAVATAR_B__12_3_OFFSET UNITYSDK_OFFSET(0x12BEFF80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex = 75006;
+	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex = 61603;
 
 	class UIActivityAetherXRolePoolDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__12_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C920);
-		}
 		static ::System::Action** StaticGet___9__12_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C928);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EF10);
 		}
 		static ::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C930);
+			return (::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EF18);
+		}
+		static ::System::Action** StaticGet___9__12_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityAetherXRolePoolDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EF20);
 		}
 
 		static ::System::Void _cctor()

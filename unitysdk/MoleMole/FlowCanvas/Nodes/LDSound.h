@@ -11,27 +11,27 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_BEGIN_OFFSET UNITYSDK_OFFSET(0x15417CD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_GETORCREATEAUDIOEMITTER_OFFSET UNITYSDK_OFFSET(0x15417F30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15417B70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x15419100)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x15419140)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_BEGIN_OFFSET UNITYSDK_OFFSET(0x161E30E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_GETORCREATEAUDIOEMITTER_OFFSET UNITYSDK_OFFSET(0x161E3340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x161E2F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x161E4510)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSOUND__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x161E4550)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSound_TypeDefinitionIndex = 52133;
+	inline static constexpr unsigned int LDSound_TypeDefinitionIndex = 62810;
 
 	class LDSound : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* targetKey; // 0xA8
-		::System::String* sound; // 0xB0
-		::FlowCanvas::FlowInput* input; // 0xB8
-		::FlowCanvas::FlowOutput* finishOutput; // 0xC0
-		::System::String* soundAction; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::String*>* targetAnchor; // 0xD0
-		::FlowCanvas::FlowOutput* output; // 0xD8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* targetEntity; // 0xE0
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* targetAnchor; // 0xB0
+		::System::String* soundAction; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::FlowOutput* finishOutput; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::String*>* targetKey; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* targetEntity; // 0xD8
+		::System::String* sound; // 0xE0
 		::MoleMole::FlowCanvas::Nodes::LDSound_TargetType targetType; // 0xE8
 
 		::System::Void _ctor()

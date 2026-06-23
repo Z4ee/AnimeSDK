@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMMENTINFOGOODSROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x158D4640)
+#define MOLEMOLE_UICOMMENTINFOGOODSROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x172DE610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICommentInfoGoodsRowWidgetContext_TypeDefinitionIndex = 63830;
+	inline static constexpr unsigned int UICommentInfoGoodsRowWidgetContext_TypeDefinitionIndex = 52838;
 
 	class UICommentInfoGoodsRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

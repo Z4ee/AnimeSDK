@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ECameraRenderPassMask_TypeDefinitionIndex = 5847;
+	inline static constexpr unsigned int ECameraRenderPassMask_TypeDefinitionIndex = 5853;
 
 	enum class ECameraRenderPassMask : ::System::UInt32
 	{

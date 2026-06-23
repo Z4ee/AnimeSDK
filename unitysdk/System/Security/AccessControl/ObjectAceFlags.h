@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int ObjectAceFlags_TypeDefinitionIndex = 996;
+	inline static constexpr unsigned int ObjectAceFlags_TypeDefinitionIndex = 995;
 
 	enum class ObjectAceFlags : ::System::Int32
 	{

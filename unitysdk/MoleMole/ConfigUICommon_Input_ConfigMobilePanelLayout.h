@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEPANELLAYOUT_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0xFB17BE0)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEPANELLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB17C70)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEPANELLAYOUT_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0xE9860F0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEPANELLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xE986180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobilePanelLayout_TypeDefinitionIndex = 52104;
+	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobilePanelLayout_TypeDefinitionIndex = 61657;
 
 	class ConfigUICommon_Input_ConfigMobilePanelLayout : public ::System::Object
 	{

@@ -7,9 +7,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define GIZMOSAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1123BEB0)
+#define GIZMOSAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x187AE560)
 
-inline static constexpr unsigned int GizmosArea_TypeDefinitionIndex = 56221;
+inline static constexpr unsigned int GizmosArea_TypeDefinitionIndex = 46970;
 
 class GizmosArea : public ::UnityEngine::MonoBehaviour
 {

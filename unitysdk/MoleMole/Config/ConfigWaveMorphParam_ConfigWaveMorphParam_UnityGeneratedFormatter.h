@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB0D040)
-#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB0D050)
-#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB0D3B0)
-#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB0D600)
-#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0D5C0)
+#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE97B3E0)
+#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE97B3F0)
+#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE97B750)
+#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE97B9A0)
+#define MOLEMOLE_CONFIG_CONFIGWAVEMORPHPARAM_CONFIGWAVEMORPHPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE97B960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex = 55597;
+	inline static constexpr unsigned int ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex = 51150;
 
 	class ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigWaveMorphParam*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44680);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44688);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AF60);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigWaveMorphParam_ConfigWaveMorphParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4AF68);
 		}
 
 		::System::Void _ctor()

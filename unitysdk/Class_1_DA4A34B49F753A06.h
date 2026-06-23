@@ -15,7 +15,7 @@ template <typename T1, typename T2> class Class_1_7DAA2A08443E4E4B;
 template <typename T1, typename T2> class Class_1_DA4A34B49F753A06;
 template <typename T1, typename T2> class Class_1_DD5009F722EC4683;
 
-inline static constexpr unsigned int Class_1_DA4A34B49F753A06_TypeDefinitionIndex = 25777;
+inline static constexpr unsigned int Class_1_DA4A34B49F753A06_TypeDefinitionIndex = 28236;
 
 template <typename TPriority, typename TValue>
 class Class_1_DA4A34B49F753A06 : public ::System::Object

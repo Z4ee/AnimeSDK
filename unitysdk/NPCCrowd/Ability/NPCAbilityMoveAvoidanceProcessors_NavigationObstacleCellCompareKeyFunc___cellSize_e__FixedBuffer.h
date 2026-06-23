@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc___cellSize_e__FixedBuffer_TypeDefinitionIndex = 41977;
+	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc___cellSize_e__FixedBuffer_TypeDefinitionIndex = 40062;
 
 	struct alignas(4) NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc___cellSize_e__FixedBuffer
 	{

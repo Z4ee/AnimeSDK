@@ -7,36 +7,36 @@
 namespace MoleMole::Config { class ScreenEffectFloat; }
 namespace MoleMole::Config { class ScreenEffectVector4; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTSEND_OFFSET UNITYSDK_OFFSET(0x141F0570)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTSSTART_OFFSET UNITYSDK_OFFSET(0x141F04F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTS_OFFSET UNITYSDK_OFFSET(0x141F0350)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETMIDTONES_OFFSET UNITYSDK_OFFSET(0x141F02B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWSEND_OFFSET UNITYSDK_OFFSET(0x141F0470)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWSSTART_OFFSET UNITYSDK_OFFSET(0x141F03F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWS_OFFSET UNITYSDK_OFFSET(0x141F0210)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x141F05F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTSEND_OFFSET UNITYSDK_OFFSET(0x1A344B80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTSSTART_OFFSET UNITYSDK_OFFSET(0x1A344B00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETHIGHLIGHTS_OFFSET UNITYSDK_OFFSET(0x1A344960)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETMIDTONES_OFFSET UNITYSDK_OFFSET(0x1A3448C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWSEND_OFFSET UNITYSDK_OFFSET(0x1A344A80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWSSTART_OFFSET UNITYSDK_OFFSET(0x1A344A00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT_GETSHADOWS_OFFSET UNITYSDK_OFFSET(0x1A344820)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A344C00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityShadowsMidtonesHighlightsEffect_TypeDefinitionIndex = 73454;
+	inline static constexpr unsigned int ConfigEntityShadowsMidtonesHighlightsEffect_TypeDefinitionIndex = 39707;
 
 	class ConfigEntityShadowsMidtonesHighlightsEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector4* highlights; // 0x40
-		::MoleMole::Config::ScreenEffectVector4* shadows; // 0x48
-		::MoleMole::Config::ScreenEffectVector4* midtones; // 0x50
+		::MoleMole::Config::ScreenEffectVector4* midtones; // 0x40
+		::MoleMole::Config::ScreenEffectVector4* highlights; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* shadowsStart; // 0x50
 		::MoleMole::Config::ScreenEffectFloat* shadowsEnd; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* shadowsStart; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* highlightsEnd; // 0x60
 		::MoleMole::Config::ScreenEffectFloat* highlightsStart; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* highlightsEnd; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType highlightsStartHandleType; // 0x78
-		::MoleMole::Config::ScreenEffectFieldHandleType highlightsEndHandleType; // 0x7C
-		::MoleMole::Config::ScreenEffectFieldHandleType shadowsHandleType; // 0x80
-		::MoleMole::Config::ScreenEffectFieldHandleType shadowsStartHandleType; // 0x84
-		::MoleMole::Config::ScreenEffectFieldHandleType highlightsHandleType; // 0x88
-		::MoleMole::Config::ScreenEffectFieldHandleType midtonesHandleType; // 0x8C
-		::MoleMole::Config::ScreenEffectFieldHandleType shadowsEndHandleType; // 0x90
+		::MoleMole::Config::ScreenEffectVector4* shadows; // 0x70
+		::MoleMole::Config::ScreenEffectFieldHandleType shadowsHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType midtonesHandleType; // 0x7C
+		::MoleMole::Config::ScreenEffectFieldHandleType highlightsHandleType; // 0x80
+		::MoleMole::Config::ScreenEffectFieldHandleType highlightsStartHandleType; // 0x84
+		::MoleMole::Config::ScreenEffectFieldHandleType shadowsEndHandleType; // 0x88
+		::MoleMole::Config::ScreenEffectFieldHandleType shadowsStartHandleType; // 0x8C
+		::MoleMole::Config::ScreenEffectFieldHandleType highlightsEndHandleType; // 0x90
 
 		::System::Void _ctor()
 		{

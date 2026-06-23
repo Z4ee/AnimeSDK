@@ -7,18 +7,18 @@ class Class_1_1FCBF6F207BFD09E;
 class Class_1_22EF90524645AFD7;
 class Class_1_9CFA2C562F612E08_Class_1_D3EB61F136290F79;
 
-#define CLASS_1_9CFA2C562F612E08_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x12C19D70)
-#define CLASS_1_9CFA2C562F612E08__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C19E10)
-#define CLASS_1_9CFA2C562F612E08__CTOR_OFFSET UNITYSDK_OFFSET(0x12C19E00)
+#define CLASS_1_9CFA2C562F612E08_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1077EFE0)
+#define CLASS_1_9CFA2C562F612E08__CCTOR_OFFSET UNITYSDK_OFFSET(0x1077F080)
+#define CLASS_1_9CFA2C562F612E08__CTOR_OFFSET UNITYSDK_OFFSET(0x1077F070)
 
-inline static constexpr unsigned int Class_1_9CFA2C562F612E08_TypeDefinitionIndex = 66425;
+inline static constexpr unsigned int Class_1_9CFA2C562F612E08_TypeDefinitionIndex = 59874;
 
 class Class_1_9CFA2C562F612E08 : public ::System::Object
 {
 public:
 	static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_Field_1_0()
 	{
-		return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CFA2C562F612E08_TypeDefinitionIndex)->GetStaticField(0xF970);
+		return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CFA2C562F612E08_TypeDefinitionIndex)->GetStaticField(0x11F40);
 	}
 	::Class_1_9CFA2C562F612E08_Class_1_D3EB61F136290F79* Field_1_1; // 0x10
 

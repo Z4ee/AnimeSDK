@@ -5,12 +5,12 @@
 namespace MoleMole { class UIUrbanMapNavigationPageController___c__DisplayClass33_0; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1552B9E0)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x1552B9F0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10401970)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x10401980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c__DisplayClass33_1_TypeDefinitionIndex = 81595;
+	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c__DisplayClass33_1_TypeDefinitionIndex = 67404;
 
 	class UIUrbanMapNavigationPageController___c__DisplayClass33_1 : public ::System::Object
 	{

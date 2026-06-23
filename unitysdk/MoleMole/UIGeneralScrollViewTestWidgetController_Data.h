@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_UIGENERALSCROLLVIEWTESTWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x168728B0)
+#define MOLEMOLE_UIGENERALSCROLLVIEWTESTWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1845A620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralScrollViewTestWidgetController_Data_TypeDefinitionIndex = 41286;
+	inline static constexpr unsigned int UIGeneralScrollViewTestWidgetController_Data_TypeDefinitionIndex = 81096;
 
 	class UIGeneralScrollViewTestWidgetController_Data : public ::System::Object
 	{

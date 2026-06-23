@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ETextFontBrushOption_TypeDefinitionIndex = 61696;
+	inline static constexpr unsigned int ETextFontBrushOption_TypeDefinitionIndex = 80535;
 
 	enum class ETextFontBrushOption : ::System::Int32
 	{

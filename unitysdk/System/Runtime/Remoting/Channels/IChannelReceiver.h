@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IChannelReceiver_TypeDefinitionIndex = 1304;
+	inline static constexpr unsigned int IChannelReceiver_TypeDefinitionIndex = 1303;
 
 	class IChannelReceiver
 	{

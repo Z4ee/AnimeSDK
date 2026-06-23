@@ -6,22 +6,22 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR_PROCESSS_OFFSET UNITYSDK_OFFSET(0x125A3C80)
-#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x125A44F0)
-#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR___BASE_PROCESSS_OFFSET UNITYSDK_OFFSET(0x125A4500)
+#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR_PROCESSS_OFFSET UNITYSDK_OFFSET(0x12FF74E0)
+#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12FF7D50)
+#define MOLEMOLE_ENTITYPOSITIONWITHMAINCAMERAROTATIONCALCULATOR___BASE_PROCESSS_OFFSET UNITYSDK_OFFSET(0x12FF7D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EntityPositionWithMainCameraRotationCalculator_TypeDefinitionIndex = 68148;
+	inline static constexpr unsigned int EntityPositionWithMainCameraRotationCalculator_TypeDefinitionIndex = 43019;
 
 	class EntityPositionWithMainCameraRotationCalculator : public ::MoleMole::TimelineTransformCalculatorBase
 	{
 	public:
 		::System::String* EntityTag; // 0x10
-		::System::Boolean BreakRotation; // 0x18
-		::System::Boolean ApplyRoll; // 0x19
-		::System::Boolean ApplyYaw; // 0x1A
-		::System::Boolean ApplyPitch; // 0x1B
+		::System::Boolean ApplyYaw; // 0x18
+		::System::Boolean ApplyPitch; // 0x19
+		::System::Boolean ApplyRoll; // 0x1A
+		::System::Boolean BreakRotation; // 0x1B
 
 		::System::Void _ctor()
 		{

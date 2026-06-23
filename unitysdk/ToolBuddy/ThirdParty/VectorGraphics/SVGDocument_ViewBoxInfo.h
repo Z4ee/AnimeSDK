@@ -7,7 +7,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_ViewBoxInfo_TypeDefinitionIndex = 28464;
+	inline static constexpr unsigned int SVGDocument_ViewBoxInfo_TypeDefinitionIndex = 31119;
 
 	struct alignas(4) SVGDocument_ViewBoxInfo
 	{

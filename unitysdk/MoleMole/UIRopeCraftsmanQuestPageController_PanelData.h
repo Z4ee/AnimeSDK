@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRopeCraftsmanQuestPageController_ItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_PANELDATA_GETITEMDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x161398B0)
-#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16139930)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_PANELDATA_GETITEMDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x16DB0490)
+#define MOLEMOLE_UIROPECRAFTSMANQUESTPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB0510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRopeCraftsmanQuestPageController_PanelData_TypeDefinitionIndex = 66888;
+	inline static constexpr unsigned int UIRopeCraftsmanQuestPageController_PanelData_TypeDefinitionIndex = 56432;
 
 	class UIRopeCraftsmanQuestPageController_PanelData : public ::MoleMole::UIControllerContextBase
 	{

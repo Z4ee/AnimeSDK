@@ -7,7 +7,7 @@ namespace System::Data { class DataColumn; }
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataError_ColumnError_TypeDefinitionIndex = 36956;
+	inline static constexpr unsigned int DataError_ColumnError_TypeDefinitionIndex = 38573;
 
 	struct alignas(8) DataError_ColumnError
 	{

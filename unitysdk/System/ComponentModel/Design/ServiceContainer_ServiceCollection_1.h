@@ -7,7 +7,7 @@ namespace System::ComponentModel::Design { template <typename T> class ServiceCo
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ServiceContainer_ServiceCollection_1_TypeDefinitionIndex = 3091;
+	inline static constexpr unsigned int ServiceContainer_ServiceCollection_1_TypeDefinitionIndex = 3090;
 
 	template <typename T>
 	class ServiceContainer_ServiceCollection_1 : public ::System::Collections::Generic::Dictionary_2<::System::Type*, T>

@@ -4,12 +4,12 @@
 #include "unitysdk/Foundation/TickTime.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_TICKSERVICEHELPER_GETTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1BCA1A80)
-#define FOUNDATION_TICKSERVICEHELPER_PASS_OFFSET UNITYSDK_OFFSET(0x1BCA1A90)
+#define FOUNDATION_TICKSERVICEHELPER_GETTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1E05B020)
+#define FOUNDATION_TICKSERVICEHELPER_PASS_OFFSET UNITYSDK_OFFSET(0x1E05B030)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickServiceHelper_TypeDefinitionIndex = 9195;
+	inline static constexpr unsigned int TickServiceHelper_TypeDefinitionIndex = 8535;
 
 	class TickServiceHelper : public ::System::Object
 	{

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIUrbanMapRightTastListWidget02WidgetController_2.h"
 
-class Class_3_468AACA7FBAA98D9;
+class Class_3_504204980127F6AA;
 namespace MoleMole { class UIUrbanMapRightStreetInfoContext_Collect; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTSTREETINFOCONTROLLER_COLLECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1341ABE0)
+#define MOLEMOLE_UIURBANMAPRIGHTSTREETINFOCONTROLLER_COLLECT__CTOR_OFFSET UNITYSDK_OFFSET(0x139A0960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightStreetInfoController_Collect_TypeDefinitionIndex = 47224;
+	inline static constexpr unsigned int UIUrbanMapRightStreetInfoController_Collect_TypeDefinitionIndex = 62017;
 
-	class UIUrbanMapRightStreetInfoController_Collect : public ::MoleMole::UIUrbanMapRightTastListWidget02WidgetController_2<::Class_3_468AACA7FBAA98D9*, ::MoleMole::UIUrbanMapRightStreetInfoContext_Collect*>
+	class UIUrbanMapRightStreetInfoController_Collect : public ::MoleMole::UIUrbanMapRightTastListWidget02WidgetController_2<::Class_3_504204980127F6AA*, ::MoleMole::UIUrbanMapRightStreetInfoContext_Collect*>
 	{
 	public:
 		::System::Void _ctor()

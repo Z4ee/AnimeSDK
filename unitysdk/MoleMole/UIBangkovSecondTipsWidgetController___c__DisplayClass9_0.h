@@ -6,18 +6,18 @@
 namespace MoleMole { class UIBangkovSecondTipsWidgetController; }
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVSECONDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EBD680)
-#define MOLEMOLE_UIBANGKOVSECONDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14EBD690)
+#define MOLEMOLE_UIBANGKOVSECONDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175B67C0)
+#define MOLEMOLE_UIBANGKOVSECONDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x175B67D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovSecondTipsWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 76349;
+	inline static constexpr unsigned int UIBangkovSecondTipsWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 42608;
 
 	class UIBangkovSecondTipsWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangkovTipsDialogPopWindowController_ItemInfo itemInfo; // 0x10
-		::MoleMole::UIBangkovSecondTipsWidgetController* __4__this; // 0x20
+		::MoleMole::UIBangkovSecondTipsWidgetController* __4__this; // 0x10
+		::MoleMole::UIBangkovTipsDialogPopWindowController_ItemInfo itemInfo; // 0x18
 
 		::System::Void _ctor()
 		{

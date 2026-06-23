@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_COLOREXT_TOHTML_OFFSET UNITYSDK_OFFSET(0x1B2D02D0)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_COLOREXT_TOHTML_OFFSET UNITYSDK_OFFSET(0x1D698610)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int ColorExt_TypeDefinitionIndex = 25911;
+	inline static constexpr unsigned int ColorExt_TypeDefinitionIndex = 28405;
 
 	class ColorExt : public ::System::Object
 	{

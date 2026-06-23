@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define FLOWCANVAS_NODES_EXTRACTCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4575B0)
-#define FLOWCANVAS_NODES_EXTRACTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4575E0)
+#define FLOWCANVAS_NODES_EXTRACTCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D81CE80)
+#define FLOWCANVAS_NODES_EXTRACTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81CEB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractColor_TypeDefinitionIndex = 27810;
+	inline static constexpr unsigned int ExtractColor_TypeDefinitionIndex = 29403;
 
 	class ExtractColor : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Color, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

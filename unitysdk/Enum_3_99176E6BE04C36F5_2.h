@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_99176E6BE04C36F5_2_TypeDefinitionIndex = 65571;
+inline static constexpr unsigned int Enum_3_99176E6BE04C36F5_2_TypeDefinitionIndex = 58585;
 
 enum class Enum_3_99176E6BE04C36F5_2 : ::System::Int32
 {

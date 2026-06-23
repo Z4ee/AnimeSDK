@@ -5,12 +5,12 @@
 namespace System { class EventHandler; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_NET_CLOSABLESTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A7E39B0)
-#define SYSTEM_NET_CLOSABLESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E3990)
+#define SYSTEM_NET_CLOSABLESTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CAF74F0)
+#define SYSTEM_NET_CLOSABLESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF74D0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ClosableStream_TypeDefinitionIndex = 3437;
+	inline static constexpr unsigned int ClosableStream_TypeDefinitionIndex = 3436;
 
 	class ClosableStream : public ::System::Net::DelegatedStream
 	{

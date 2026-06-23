@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int PositionDampingAxis_TypeDefinitionIndex = 36041;
+	inline static constexpr unsigned int PositionDampingAxis_TypeDefinitionIndex = 37649;
 
 	enum class PositionDampingAxis : ::System::Int32
 	{

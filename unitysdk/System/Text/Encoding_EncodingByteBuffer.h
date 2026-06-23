@@ -6,15 +6,15 @@ namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Text { class EncoderNLS; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1A3B73D0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x1A3B74B0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x1A3B7650)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1A3B7230)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1A3B76E0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x1A3B7740)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1A3B7690)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1A3B7310)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B6FC0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1C709A30)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x1C709B10)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x1C709CB0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1C709890)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1C709D40)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x1C709DA0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1C709CF0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1C709970)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C709620)
 
 namespace System::Text
 {
@@ -23,16 +23,16 @@ namespace System::Text
 	class Encoding_EncodingByteBuffer : public ::System::Object
 	{
 	public:
-		::System::Text::EncoderNLS* encoder; // 0x10
-		::System::Text::EncoderFallbackBuffer* fallbackBuffer; // 0x18
-		::System::Text::Encoding* enc; // 0x20
-		::System::Char* chars; // 0x28
-		::System::Int32 byteCountResult; // 0x30
-		::System::Byte* byteStart; // 0x38
-		::System::Char* charEnd; // 0x40
-		::System::Byte* byteEnd; // 0x48
-		::System::Char* charStart; // 0x50
-		::System::Byte* bytes; // 0x58
+		::System::Text::Encoding* enc; // 0x10
+		::System::Text::EncoderNLS* encoder; // 0x18
+		::System::Text::EncoderFallbackBuffer* fallbackBuffer; // 0x20
+		::System::Char* charEnd; // 0x28
+		::System::Byte* byteEnd; // 0x30
+		::System::Char* chars; // 0x38
+		::System::Byte* byteStart; // 0x40
+		::System::Byte* bytes; // 0x48
+		::System::Int32 byteCountResult; // 0x50
+		::System::Char* charStart; // 0x58
 
 		::System::Void _ctor(::System::Text::Encoding* inEncoding, ::System::Text::EncoderNLS* inEncoder, ::System::Byte* inByteStart, ::System::Int32 inByteCount, ::System::Char* inCharStart, ::System::Int32 inCharCount)
 		{

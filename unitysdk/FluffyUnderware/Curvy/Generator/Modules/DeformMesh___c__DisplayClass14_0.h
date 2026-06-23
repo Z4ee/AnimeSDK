@@ -9,25 +9,25 @@ namespace FluffyUnderware::Curvy::Generator { class CGVMesh; }
 namespace FluffyUnderware::Curvy::Generator::Modules { class ScaleParameters; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C31E080)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__DISPLAYCLASS14_0__DEFORMMESHES_B__0_OFFSET UNITYSDK_OFFSET(0x1C31E090)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E530710)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__DISPLAYCLASS14_0__DEFORMMESHES_B__0_OFFSET UNITYSDK_OFFSET(0x1E530720)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int DeformMesh___c__DisplayClass14_0_TypeDefinitionIndex = 37413;
+	inline static constexpr unsigned int DeformMesh___c__DisplayClass14_0_TypeDefinitionIndex = 38830;
 
 	class DeformMesh___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::FluffyUnderware::Curvy::Generator::CGVMesh*>* inputMeshes; // 0x10
-		::FluffyUnderware::Curvy::Generator::Modules::ScaleParameters* scaleParameters; // 0x18
-		::Il2CppArray<::FluffyUnderware::Curvy::Generator::CGVMesh*>* outputMeshes; // 0x20
-		::ToolBuddy::Pooling::Collections::SubArray_1<::FluffyUnderware::Curvy::Generator::CGSpot> outputSpots; // 0x28
-		::FluffyUnderware::Curvy::Generator::CGPath* path; // 0x38
-		::System::Single smallestVertexDistance; // 0x40
-		::System::Boolean stretchToEnd; // 0x44
-		::System::Boolean isCurveEvaluationNeeded; // 0x45
-		::System::Single stretchingAdditionalDistanceRatio; // 0x48
+		::Il2CppArray<::FluffyUnderware::Curvy::Generator::CGVMesh*>* outputMeshes; // 0x10
+		::System::Collections::Generic::List_1<::FluffyUnderware::Curvy::Generator::CGVMesh*>* inputMeshes; // 0x18
+		::FluffyUnderware::Curvy::Generator::Modules::ScaleParameters* scaleParameters; // 0x20
+		::FluffyUnderware::Curvy::Generator::CGPath* path; // 0x28
+		::ToolBuddy::Pooling::Collections::SubArray_1<::FluffyUnderware::Curvy::Generator::CGSpot> outputSpots; // 0x30
+		::System::Boolean stretchToEnd; // 0x40
+		::System::Boolean isCurveEvaluationNeeded; // 0x41
+		::System::Single stretchingAdditionalDistanceRatio; // 0x44
+		::System::Single smallestVertexDistance; // 0x48
 
 		::System::Void _ctor()
 		{

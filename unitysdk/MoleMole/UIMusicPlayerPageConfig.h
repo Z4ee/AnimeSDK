@@ -7,11 +7,11 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UIMUSICPLAYERPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14849C80)
+#define MOLEMOLE_UIMUSICPLAYERPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16948ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicPlayerPageConfig_TypeDefinitionIndex = 81845;
+	inline static constexpr unsigned int UIMusicPlayerPageConfig_TypeDefinitionIndex = 40667;
 
 	class UIMusicPlayerPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

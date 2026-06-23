@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOBASEPERPSTAGE_START_OFFSET UNITYSDK_OFFSET(0x10BCD620)
-#define MOLEMOLE_MONOBASEPERPSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCD660)
+#define MOLEMOLE_MONOBASEPERPSTAGE_START_OFFSET UNITYSDK_OFFSET(0x1513AE10)
+#define MOLEMOLE_MONOBASEPERPSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1513AE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBasePerpStage_TypeDefinitionIndex = 75677;
+	inline static constexpr unsigned int MonoBasePerpStage_TypeDefinitionIndex = 50130;
 
 	class MonoBasePerpStage : public ::UnityEngine::MonoBehaviour
 	{

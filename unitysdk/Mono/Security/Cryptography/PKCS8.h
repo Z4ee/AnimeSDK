@@ -3,12 +3,12 @@
 #include "unitysdk/Mono/Security/Cryptography/PKCS8_KeyInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS8_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1B777B60)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS8__CTOR_OFFSET UNITYSDK_OFFSET(0x1B777B50)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS8_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1DB62810)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS8__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB62800)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int PKCS8_TypeDefinitionIndex = 2463;
+	inline static constexpr unsigned int PKCS8_TypeDefinitionIndex = 2462;
 
 	class PKCS8 : public ::System::Object
 	{

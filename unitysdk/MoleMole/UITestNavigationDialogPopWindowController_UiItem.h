@@ -6,12 +6,12 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class UIText; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 
-#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM_INIT_OFFSET UNITYSDK_OFFSET(0x10D4F700)
-#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4F8A0)
+#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM_INIT_OFFSET UNITYSDK_OFFSET(0x148E41D0)
+#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x148E4370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITestNavigationDialogPopWindowController_UiItem_TypeDefinitionIndex = 78403;
+	inline static constexpr unsigned int UITestNavigationDialogPopWindowController_UiItem_TypeDefinitionIndex = 59867;
 
 	class UITestNavigationDialogPopWindowController_UiItem : public ::System::Object
 	{

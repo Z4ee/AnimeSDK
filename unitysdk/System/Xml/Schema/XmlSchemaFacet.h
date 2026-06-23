@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_ISFIXED_OFFSET UNITYSDK_OFFSET(0x1BACC330)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BACC3C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_ISFIXED_OFFSET UNITYSDK_OFFSET(0x1DE465A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE46630)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaFacet_TypeDefinitionIndex = 2144;
+	inline static constexpr unsigned int XmlSchemaFacet_TypeDefinitionIndex = 2143;
 
 	class XmlSchemaFacet : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{

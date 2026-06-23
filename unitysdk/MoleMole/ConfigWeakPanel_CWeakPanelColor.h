@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_CONFIGWEAKPANEL_CWEAKPANELCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B56900)
+#define MOLEMOLE_CONFIGWEAKPANEL_CWEAKPANELCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E49A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigWeakPanel_CWeakPanelColor_TypeDefinitionIndex = 40111;
+	inline static constexpr unsigned int ConfigWeakPanel_CWeakPanelColor_TypeDefinitionIndex = 59620;
 
 	class ConfigWeakPanel_CWeakPanelColor : public ::System::Object
 	{

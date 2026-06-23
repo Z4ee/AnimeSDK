@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SCENEOBJECTAREACHECKPLAYANI__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4ED70)
+#define SCENEOBJECTAREACHECKPLAYANI__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC18770)
 
-inline static constexpr unsigned int SceneObjectAreaCheckPlayAni_TypeDefinitionIndex = 52425;
+inline static constexpr unsigned int SceneObjectAreaCheckPlayAni_TypeDefinitionIndex = 80451;
 
 class SceneObjectAreaCheckPlayAni : public ::System::Object
 {
@@ -16,8 +16,8 @@ public:
 	::System::String* BackEnterAnimatorTrigger; // 0x18
 	::System::Boolean DefaultIsOpen; // 0x20
 	::System::Boolean IsOpenCheck; // 0x21
-	::FowardDir FixedFowardDir; // 0x24
-	::System::Single OpenCD; // 0x28
+	::System::Single OpenCD; // 0x24
+	::FowardDir FixedFowardDir; // 0x28
 
 	::System::Void _ctor()
 	{

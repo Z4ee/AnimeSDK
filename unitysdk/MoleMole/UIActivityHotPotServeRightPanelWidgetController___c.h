@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EBF060)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBF0A0)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__ONMENUBTNCLICK_B__23_0_OFFSET UNITYSDK_OFFSET(0x15EBF110)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__SETNUMBER_B__10_2_OFFSET UNITYSDK_OFFSET(0x15EBF0B0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A34C90)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A34CD0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__ONMENUBTNCLICK_B__23_0_OFFSET UNITYSDK_OFFSET(0x17A34D40)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__SETNUMBER_B__10_2_OFFSET UNITYSDK_OFFSET(0x17A34CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex = 57875;
+	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex = 50204;
 
 	class UIActivityHotPotServeRightPanelWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__10_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x437B0);
-		}
 		static ::MoleMole::UIActivityHotPotServeRightPanelWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityHotPotServeRightPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x437B8);
+			return (::MoleMole::UIActivityHotPotServeRightPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48700);
 		}
 		static ::System::Action** StaticGet___9__23_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x437C0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48708);
+		}
+		static ::System::Action** StaticGet___9__10_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotServeRightPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48710);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace PipelineCamera { class TimeBasedAlphaGenerator; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define STRUCT_2_89669EF743AD9ACD_METHOD_2_4B2801D2080295DD_OFFSET UNITYSDK_OFFSET(0x12A26170)
-#define STRUCT_2_89669EF743AD9ACD_METHOD_2_965ED8AB2FD8CF1F_OFFSET UNITYSDK_OFFSET(0x753830)
-#define STRUCT_2_89669EF743AD9ACD_METHOD_2_FE921119461BFEE8_OFFSET UNITYSDK_OFFSET(0x12A25D10)
-#define STRUCT_2_89669EF743AD9ACD__CTOR_OFFSET UNITYSDK_OFFSET(0x753770)
+#define STRUCT_2_89669EF743AD9ACD_METHOD_2_4B2801D2080295DD_OFFSET UNITYSDK_OFFSET(0x19E29CB0)
+#define STRUCT_2_89669EF743AD9ACD_METHOD_2_965ED8AB2FD8CF1F_OFFSET UNITYSDK_OFFSET(0x86F130)
+#define STRUCT_2_89669EF743AD9ACD_METHOD_2_FE921119461BFEE8_OFFSET UNITYSDK_OFFSET(0x19E29B40)
+#define STRUCT_2_89669EF743AD9ACD__CTOR_OFFSET UNITYSDK_OFFSET(0x86F070)
 
-inline static constexpr unsigned int Struct_2_89669EF743AD9ACD_TypeDefinitionIndex = 61376;
+inline static constexpr unsigned int Struct_2_89669EF743AD9ACD_TypeDefinitionIndex = 55183;
 
 struct alignas(8) Struct_2_89669EF743AD9ACD
 {
@@ -35,16 +35,16 @@ struct alignas(8) Struct_2_89669EF743AD9ACD
 	*/
 
 	/*
-	::System::Nullable_1<::Struct_2_89669EF743AD9ACD> Method_2_965ED8AB2FD8CF1F(::System::Single a1, ::MoleMole::Cameras::CameraTrackSetting*& a2, ::MoleMole::Cameras::CameraTrackSetting*& a3)
+	static ::System::String* Method_2_4B2801D2080295DD(::MoleMole::CameraOrbit& a1)
 	{
-		return ((::System::Nullable_1<::Struct_2_89669EF743AD9ACD>(*)(::PVOID, ::System::Single, ::MoleMole::Cameras::CameraTrackSetting*&, ::MoleMole::Cameras::CameraTrackSetting*&))((::PBYTE)hIl2Cpp + STRUCT_2_89669EF743AD9ACD_METHOD_2_965ED8AB2FD8CF1F_OFFSET))(this, a1, a2, a3);
+		return ((::System::String*(*)(::MoleMole::CameraOrbit&))((::PBYTE)hIl2Cpp + STRUCT_2_89669EF743AD9ACD_METHOD_2_4B2801D2080295DD_OFFSET))(a1);
 	}
 	*/
 
 	/*
-	static ::System::String* Method_2_4B2801D2080295DD(::MoleMole::CameraOrbit& a1)
+	::System::Nullable_1<::Struct_2_89669EF743AD9ACD> Method_2_965ED8AB2FD8CF1F(::System::Single a1, ::MoleMole::Cameras::CameraTrackSetting*& a2, ::MoleMole::Cameras::CameraTrackSetting*& a3)
 	{
-		return ((::System::String*(*)(::MoleMole::CameraOrbit&))((::PBYTE)hIl2Cpp + STRUCT_2_89669EF743AD9ACD_METHOD_2_4B2801D2080295DD_OFFSET))(a1);
+		return ((::System::Nullable_1<::Struct_2_89669EF743AD9ACD>(*)(::PVOID, ::System::Single, ::MoleMole::Cameras::CameraTrackSetting*&, ::MoleMole::Cameras::CameraTrackSetting*&))((::PBYTE)hIl2Cpp + STRUCT_2_89669EF743AD9ACD_METHOD_2_965ED8AB2FD8CF1F_OFFSET))(this, a1, a2, a3);
 	}
 	*/
 };

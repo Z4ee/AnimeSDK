@@ -8,7 +8,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FSRContext_TypeDefinitionIndex = 6139;
+	inline static constexpr unsigned int FSRContext_TypeDefinitionIndex = 6150;
 
 	struct alignas(8) FSRContext
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCHECKPOINTACTIVEDCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x18208820)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCHECKPOINTACTIVEDCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x182089E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCHECKPOINTACTIVEDCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A020390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCHECKPOINTACTIVEDCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A020550)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetCheckPointActivedCount_TypeDefinitionIndex = 45667;
+	inline static constexpr unsigned int LDGetCheckPointActivedCount_TypeDefinitionIndex = 81274;
 
 	class LDGetCheckPointActivedCount : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
 	{

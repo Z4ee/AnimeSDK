@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_625_TypeDefinitionIndex = 62493;
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class GameObject; }
 
-template <typename T>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_625_TypeDefinitionIndex = 63440;
+
 class Class_0_16E4307DCC419505_625
 {
 public:

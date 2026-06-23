@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E80260)
+#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B80460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryGachaPreviewPageContext_TypeDefinitionIndex = 77982;
+	inline static constexpr unsigned int UIDepositoryGachaPreviewPageContext_TypeDefinitionIndex = 67494;
 
 	class UIDepositoryGachaPreviewPageContext : public ::MoleMole::UIControllerContextBase
 	{

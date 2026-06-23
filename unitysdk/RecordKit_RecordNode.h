@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define RECORDKIT_RECORDNODE_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1BBF6D30)
-#define RECORDKIT_RECORDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF6D20)
+#define RECORDKIT_RECORDNODE_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1E373C00)
+#define RECORDKIT_RECORDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E373BF0)
 
-inline static constexpr unsigned int RecordKit_RecordNode_TypeDefinitionIndex = 8085;
+inline static constexpr unsigned int RecordKit_RecordNode_TypeDefinitionIndex = 8262;
 
 class RecordKit_RecordNode : public ::System::Object
 {

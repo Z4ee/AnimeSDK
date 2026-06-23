@@ -5,11 +5,11 @@
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x124150C0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA48460)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_TypeDefinitionIndex = 55118;
+	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_TypeDefinitionIndex = 76332;
 
 	class CameraRotationBasedOnEntityPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Quaternion, ::System::UInt32, ::Nap::NapECS::EcsWorld*>
 	{

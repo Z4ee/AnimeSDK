@@ -6,12 +6,12 @@
 namespace MoleMole::Photo { class ScopedFrontCameraControlAnimationConfig; }
 namespace MoleMole::Photo { class ScopedFrontCameraControlMotionConfig; }
 
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x11DE9590)
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11DE95F0)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1164CCF0)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1164CD50)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlConfig_TypeDefinitionIndex = 73604;
+	inline static constexpr unsigned int ScopedFrontCameraControlConfig_TypeDefinitionIndex = 41312;
 
 	class ScopedFrontCameraControlConfig : public ::System::Object
 	{

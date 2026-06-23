@@ -7,7 +7,7 @@ namespace System { class Uri; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IWebProxyScript_TypeDefinitionIndex = 3543;
+	inline static constexpr unsigned int IWebProxyScript_TypeDefinitionIndex = 3542;
 
 	class IWebProxyScript
 	{

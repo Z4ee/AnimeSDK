@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_328B10E9F3553A0D.h"
+#include "unitysdk/Class_1_2D5DADE6FF36AA79.h"
 
 class Class_1_B4B6517768F4059F;
 namespace MoleMole::GalGame { class ChatChangeEffectStateNode; }
 namespace MoleMole::GalGame { class MainCityChatPlayableNodeBase; }
 
-#define CLASS_2_6656CC4CFA6EC40A_METHOD_2_697CEBDDAD44641A_OFFSET UNITYSDK_OFFSET(0xFF3A290)
-#define CLASS_2_6656CC4CFA6EC40A_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xFF3A690)
-#define CLASS_2_6656CC4CFA6EC40A__CTOR_OFFSET UNITYSDK_OFFSET(0xFF3A210)
+#define CLASS_2_6656CC4CFA6EC40A_METHOD_2_697CEBDDAD44641A_OFFSET UNITYSDK_OFFSET(0x14501390)
+#define CLASS_2_6656CC4CFA6EC40A_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x14501790)
+#define CLASS_2_6656CC4CFA6EC40A__CTOR_OFFSET UNITYSDK_OFFSET(0x14501310)
 
-inline static constexpr unsigned int Class_2_6656CC4CFA6EC40A_TypeDefinitionIndex = 76693;
+inline static constexpr unsigned int Class_2_6656CC4CFA6EC40A_TypeDefinitionIndex = 55041;
 
-class Class_2_6656CC4CFA6EC40A : public ::Class_1_328B10E9F3553A0D
+class Class_2_6656CC4CFA6EC40A : public ::Class_1_2D5DADE6FF36AA79
 {
 public:
 	::MoleMole::GalGame::ChatChangeEffectStateNode* Field_2_0; // 0x40

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIVHSSTOREPROMOTERSELECTPOPWINDOWCONTROLLER_PROMOTERSELECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15530E00)
+#define MOLEMOLE_UIVHSSTOREPROMOTERSELECTPOPWINDOWCONTROLLER_PROMOTERSELECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10406DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStorePromoterSelectPopWindowController_PromoterSelectData_TypeDefinitionIndex = 50991;
+	inline static constexpr unsigned int UIVHSStorePromoterSelectPopWindowController_PromoterSelectData_TypeDefinitionIndex = 51592;
 
 	class UIVHSStorePromoterSelectPopWindowController_PromoterSelectData : public ::System::Object
 	{

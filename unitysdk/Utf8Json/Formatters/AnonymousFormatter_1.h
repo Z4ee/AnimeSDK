@@ -10,7 +10,7 @@ namespace Utf8Json { template <typename T> class JsonSerializeAction_1; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int AnonymousFormatter_1_TypeDefinitionIndex = 85702;
+	inline static constexpr unsigned int AnonymousFormatter_1_TypeDefinitionIndex = 91276;
 
 	template <typename T>
 	class AnonymousFormatter_1 : public ::System::Object

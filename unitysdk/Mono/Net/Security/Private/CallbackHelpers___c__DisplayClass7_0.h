@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A567290)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS7_0__MONOTOINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x1A5672A0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C886520)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS7_0__MONOTOINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x1C886530)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass7_0_TypeDefinitionIndex = 2642;
+	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass7_0_TypeDefinitionIndex = 2641;
 
 	class CallbackHelpers___c__DisplayClass7_0 : public ::System::Object
 	{

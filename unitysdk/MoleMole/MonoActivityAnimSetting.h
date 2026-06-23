@@ -6,11 +6,11 @@ namespace MoleMole { class ActivityAnimSetSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOACTIVITYANIMSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12356810)
+#define MOLEMOLE_MONOACTIVITYANIMSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x13F0CC60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoActivityAnimSetting_TypeDefinitionIndex = 71173;
+	inline static constexpr unsigned int MonoActivityAnimSetting_TypeDefinitionIndex = 86843;
 
 	class MonoActivityAnimSetting : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

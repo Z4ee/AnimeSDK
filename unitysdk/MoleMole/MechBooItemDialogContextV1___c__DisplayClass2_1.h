@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16055570)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_1__GETPARTBUILDLIST_B__2_OFFSET UNITYSDK_OFFSET(0x16055580)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12BCA9F0)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_1__GETPARTBUILDLIST_B__2_OFFSET UNITYSDK_OFFSET(0x12BCAA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MechBooItemDialogContextV1___c__DisplayClass2_1_TypeDefinitionIndex = 52507;
+	inline static constexpr unsigned int MechBooItemDialogContextV1___c__DisplayClass2_1_TypeDefinitionIndex = 76049;
 
 	class MechBooItemDialogContextV1___c__DisplayClass2_1 : public ::System::Object
 	{

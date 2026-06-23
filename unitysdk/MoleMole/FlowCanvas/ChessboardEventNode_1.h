@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/RouterEventNode_1.h"
 
-class Class_5_AF65C3A968E836D2;
+class Class_5_FCAF801AC482D3B5;
 namespace FlowCanvas { class FlowOutput; }
 namespace NodeCanvas::Framework { class GraphOwner; }
 namespace ParadoxNotion { class IEventData; }
@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardEventNode_1_TypeDefinitionIndex = 48010;
+	inline static constexpr unsigned int ChessboardEventNode_1_TypeDefinitionIndex = 50680;
 
 	template <typename T>
 	class ChessboardEventNode_1 : public ::FlowCanvas::Nodes::RouterEventNode_1<::NodeCanvas::Framework::GraphOwner*>

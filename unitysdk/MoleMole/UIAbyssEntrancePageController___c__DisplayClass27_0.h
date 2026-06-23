@@ -5,12 +5,12 @@
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace System { class EventArgs; }
 
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD0690)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS27_0__DOTRIGGERNEWBIE_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0x15BD06A0)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C7710)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS27_0__DOTRIGGERNEWBIE_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0x1A1C7720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass27_0_TypeDefinitionIndex = 64963;
+	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass27_0_TypeDefinitionIndex = 79314;
 
 	class UIAbyssEntrancePageController___c__DisplayClass27_0 : public ::System::Object
 	{

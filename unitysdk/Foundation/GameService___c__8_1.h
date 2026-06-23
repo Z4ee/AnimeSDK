@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int GameService___c__8_1_TypeDefinitionIndex = 9024;
+	inline static constexpr unsigned int GameService___c__8_1_TypeDefinitionIndex = 8784;
 
 	template <typename T>
 	class GameService___c__8_1 : public ::System::Object

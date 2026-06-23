@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONWEIGHTS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xFAC9B00)
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONWEIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC9AF0)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONWEIGHTS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x106F84A0)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONWEIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x106F8490)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySmoothOrientationWeights_TypeDefinitionIndex = 60642;
+	inline static constexpr unsigned int NPCAbilitySmoothOrientationWeights_TypeDefinitionIndex = 81179;
 
 	class NPCAbilitySmoothOrientationWeights : public ::System::Object
 	{

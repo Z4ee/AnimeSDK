@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBANGKOVSHOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14EBD720)
+#define MOLEMOLE_UIBANGKOVSHOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175B6860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovShopContext_TypeDefinitionIndex = 65109;
+	inline static constexpr unsigned int UIBangkovShopContext_TypeDefinitionIndex = 86171;
 
 	class UIBangkovShopContext : public ::MoleMole::UIControllerContextBase
 	{
@@ -14,10 +14,10 @@ namespace MoleMole
 		// static const ::System::Int32 BASE_TAB = 0x0; // 0x0
 		// static const ::System::Int32 LIMIT_TAB = 0x1; // 0x0
 		// static const ::System::Int32 SPECIAL_ITEM_TAB = 0x2; // 0x0
-		::System::Boolean HideAllTabHint; // 0x28
-		::System::Int32 Index; // 0x2C
-		::System::Int32 DefaultShopTabID; // 0x30
-		::System::Int32 ShopID; // 0x34
+		::System::Int32 Index; // 0x28
+		::System::Int32 ShopID; // 0x2C
+		::System::Boolean HideAllTabHint; // 0x30
+		::System::Int32 DefaultShopTabID; // 0x34
 
 		::System::Void _ctor()
 		{

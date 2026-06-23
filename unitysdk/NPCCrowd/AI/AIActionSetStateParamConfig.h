@@ -5,12 +5,12 @@
 #include "unitysdk/NPCCrowd/Accessories/NPCUnionAnimatorManager_NPCAnimationStateParams.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONSETSTATEPARAMCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x717BD0)
-#define NPCCROWD_AI_AIACTIONSETSTATEPARAMCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x717C20)
+#define NPCCROWD_AI_AIACTIONSETSTATEPARAMCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x512180)
+#define NPCCROWD_AI_AIACTIONSETSTATEPARAMCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x5EBE90)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionSetStateParamConfig_TypeDefinitionIndex = 50168;
+	inline static constexpr unsigned int AIActionSetStateParamConfig_TypeDefinitionIndex = 63174;
 
 	struct alignas(8) AIActionSetStateParamConfig
 	{

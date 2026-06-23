@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UILineupSelectPageController___c__DisplayClass131_0; }
 
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15DBA080)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_1__ONTOGGLEUPGRADEBTN_B__1_OFFSET UNITYSDK_OFFSET(0x15DBA090)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF5930)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_1__ONTOGGLEUPGRADEBTN_B__1_OFFSET UNITYSDK_OFFSET(0x15EF5940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass131_1_TypeDefinitionIndex = 56017;
+	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass131_1_TypeDefinitionIndex = 79047;
 
 	class UILineupSelectPageController___c__DisplayClass131_1 : public ::System::Object
 	{

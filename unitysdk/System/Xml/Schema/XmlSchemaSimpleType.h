@@ -5,12 +5,12 @@
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleTypeContent; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_CLONE_OFFSET UNITYSDK_OFFSET(0x19891FB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19891F30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_CLONE_OFFSET UNITYSDK_OFFSET(0x1BCFF690)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFF610)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleType_TypeDefinitionIndex = 2189;
+	inline static constexpr unsigned int XmlSchemaSimpleType_TypeDefinitionIndex = 2188;
 
 	class XmlSchemaSimpleType : public ::System::Xml::Schema::XmlSchemaType
 	{

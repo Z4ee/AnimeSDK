@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 85720;
+	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 91294;
 
 	template <typename TKey, typename TElement>
 	class Grouping_2 : public ::System::Object

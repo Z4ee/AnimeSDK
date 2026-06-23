@@ -12,7 +12,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 27197;
+	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 30043;
 
 	template <typename T>
 	class Variable_1 : public ::NodeCanvas::Framework::Variable

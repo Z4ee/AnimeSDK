@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class ScriptableRenderPass; }
 
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x19151190)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191511D0)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x1B0C0AA0)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C0AE0)
 
 namespace UnityEngine::Rendering::Unversal
 {
-	inline static constexpr unsigned int SRPHelperExecuteContext_TypeDefinitionIndex = 29800;
+	inline static constexpr unsigned int SRPHelperExecuteContext_TypeDefinitionIndex = 26407;
 
 	class SRPHelperExecuteContext : public ::System::Object
 	{

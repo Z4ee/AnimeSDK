@@ -12,34 +12,34 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x149A3D50)
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x149A3D60)
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x149A4160)
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x149A4400)
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x149A43C0)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17118D10)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17118D20)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17119120)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x171193C0)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE_GALCONDITIONNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17119380)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex = 57584;
+	inline static constexpr unsigned int GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex = 46222;
 
 	class GalConditionNode_GalConditionNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::GalConditionNode*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x484F0);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46900);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x484F8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46908);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48500);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::BranchItem*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::BranchItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46910);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46918);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::BranchItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(GalConditionNode_GalConditionNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48508);
 		}
 
 		::System::Void _ctor()

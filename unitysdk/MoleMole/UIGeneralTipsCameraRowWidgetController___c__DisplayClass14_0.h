@@ -9,31 +9,31 @@ namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 namespace MoleMole { class UIGeneralTipsCameraRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155BA480)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x155BA490)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x155BA8D0)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__2_OFFSET UNITYSDK_OFFSET(0x155BA5A0)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x155BA830)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__4_OFFSET UNITYSDK_OFFSET(0x155BA840)
-#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__5_OFFSET UNITYSDK_OFFSET(0x155BA850)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177ED210)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x177ED220)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x177ED670)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__2_OFFSET UNITYSDK_OFFSET(0x177ED330)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x177ED5D0)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__4_OFFSET UNITYSDK_OFFSET(0x177ED5E0)
+#define MOLEMOLE_UIGENERALTIPSCAMERAROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOANIMATION_B__5_OFFSET UNITYSDK_OFFSET(0x177ED5F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsCameraRowWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 80198;
+	inline static constexpr unsigned int UIGeneralTipsCameraRowWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 43708;
 
 	class UIGeneralTipsCameraRowWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__3; // 0x10
+		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__4; // 0x10
 		::System::Action* __9__2; // 0x18
-		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__4; // 0x20
-		::MoleMole::UIGeneralTipsCameraRowWidgetController* __4__this; // 0x28
-		::DG::Tweening::TweenCallback* __9__5; // 0x30
-		::System::Action* action; // 0x38
-		::System::Single targetWidth; // 0x40
-		::UnityEngine::Vector2 finalSize; // 0x44
-		::System::Single length; // 0x4C
-		::System::Single currentWidth; // 0x50
+		::MoleMole::UIGeneralTipsCameraRowWidgetController* __4__this; // 0x20
+		::DG::Tweening::TweenCallback* __9__5; // 0x28
+		::System::Action* action; // 0x30
+		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__3; // 0x38
+		::System::Single length; // 0x40
+		::System::Single currentWidth; // 0x44
+		::UnityEngine::Vector2 finalSize; // 0x48
+		::System::Single targetWidth; // 0x50
 
 		::System::Void _ctor()
 		{

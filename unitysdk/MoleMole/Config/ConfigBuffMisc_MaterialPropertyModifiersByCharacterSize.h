@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_MaterialPropertyModifiersByCharacterSize_TypeDefinitionIndex = 57132;
+	inline static constexpr unsigned int ConfigBuffMisc_MaterialPropertyModifiersByCharacterSize_TypeDefinitionIndex = 69434;
 
 	struct alignas(8) ConfigBuffMisc_MaterialPropertyModifiersByCharacterSize
 	{

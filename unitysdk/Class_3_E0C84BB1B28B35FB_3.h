@@ -4,11 +4,11 @@
 
 namespace MoleMole { class SystemSettingEntryBase; }
 
-#define CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_AE7ACA9431B8342C_OFFSET UNITYSDK_OFFSET(0x143B70A0)
-#define CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_B1978A17BDE3E154_OFFSET UNITYSDK_OFFSET(0x143B6EA0)
-#define CLASS_3_E0C84BB1B28B35FB_3__CTOR_OFFSET UNITYSDK_OFFSET(0x143B6DF0)
+#define CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_AE7ACA9431B8342C_OFFSET UNITYSDK_OFFSET(0x13C9D0D0)
+#define CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_CEE72EAC18ECC163_OFFSET UNITYSDK_OFFSET(0x13C9D060)
+#define CLASS_3_E0C84BB1B28B35FB_3__CTOR_OFFSET UNITYSDK_OFFSET(0x13C9CFB0)
 
-inline static constexpr unsigned int Class_3_E0C84BB1B28B35FB_3_TypeDefinitionIndex = 51737;
+inline static constexpr unsigned int Class_3_E0C84BB1B28B35FB_3_TypeDefinitionIndex = 54469;
 
 class Class_3_E0C84BB1B28B35FB_3 : public ::Class_2_5B9C6A6280E9B7AE
 {
@@ -18,9 +18,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::SystemSettingEntryBase*))((::PBYTE)hIl2Cpp + CLASS_3_E0C84BB1B28B35FB_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_3_B1978A17BDE3E154(::System::Int32 a1, ::System::Boolean a2)
+	::System::Void Method_3_CEE72EAC18ECC163(::System::Int32 a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_B1978A17BDE3E154_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_E0C84BB1B28B35FB_3_METHOD_3_CEE72EAC18ECC163_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_3_AE7ACA9431B8342C(::System::Int32 a1, ::System::Boolean a2)

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAnimationPluginMirror_MirrorAnim_TypeDefinitionIndex = 49043;
+	inline static constexpr unsigned int MonoAnimationPluginMirror_MirrorAnim_TypeDefinitionIndex = 49491;
 
 	struct alignas(8) MonoAnimationPluginMirror_MirrorAnim
 	{

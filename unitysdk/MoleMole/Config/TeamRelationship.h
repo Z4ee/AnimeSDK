@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TeamRelationship_TypeDefinitionIndex = 47631;
+	inline static constexpr unsigned int TeamRelationship_TypeDefinitionIndex = 41557;
 
 	enum class TeamRelationship : ::System::Int32
 	{
-		Neutral = 2,
-		Allied = 0,
 		Enemy = 1,
+		Allied = 0,
+		Neutral = 2,
 	};
 }

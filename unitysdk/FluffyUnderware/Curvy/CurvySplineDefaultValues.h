@@ -6,7 +6,7 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineDefaultValues_TypeDefinitionIndex = 37225;
+	inline static constexpr unsigned int CurvySplineDefaultValues_TypeDefinitionIndex = 38950;
 
 	class CurvySplineDefaultValues : public ::System::Object
 	{
@@ -21,5 +21,6 @@ namespace FluffyUnderware::Curvy
 		// static const ::System::Boolean CheckTransform; // 0x0
 		// static const ::System::Int32 BSplineDegree = 0x2; // 0x0
 		// static const ::System::Boolean IsBSplineClamped; // 0x0
+		// static const ::System::Boolean AllowTickLod; // 0x0
 	};
 }

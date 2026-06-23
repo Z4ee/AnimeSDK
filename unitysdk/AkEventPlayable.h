@@ -11,11 +11,11 @@ namespace AK::Wwise { class Event; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C536500)
-#define AKEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1C5364F0)
-#define AKEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C536C30)
+#define AKEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E8688C0)
+#define AKEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1E8688B0)
+#define AKEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E868FE0)
 
-inline static constexpr unsigned int AkEventPlayable_TypeDefinitionIndex = 31596;
+inline static constexpr unsigned int AkEventPlayable_TypeDefinitionIndex = 33147;
 
 class AkEventPlayable : public ::UnityEngine::Playables::PlayableAsset
 {

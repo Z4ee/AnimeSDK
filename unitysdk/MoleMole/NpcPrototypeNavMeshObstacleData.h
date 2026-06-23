@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_NPCPROTOTYPENAVMESHOBSTACLEDATA_METHOD_1_025C10A50003DFAB_OFFSET UNITYSDK_OFFSET(0x15BA7890)
-#define MOLEMOLE_NPCPROTOTYPENAVMESHOBSTACLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7880)
+#define MOLEMOLE_NPCPROTOTYPENAVMESHOBSTACLEDATA_METHOD_1_025C10A50003DFAB_OFFSET UNITYSDK_OFFSET(0x10D76B00)
+#define MOLEMOLE_NPCPROTOTYPENAVMESHOBSTACLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D76AF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NpcPrototypeNavMeshObstacleData_TypeDefinitionIndex = 72609;
+	inline static constexpr unsigned int NpcPrototypeNavMeshObstacleData_TypeDefinitionIndex = 47409;
 
 	class NpcPrototypeNavMeshObstacleData : public ::System::Object
 	{

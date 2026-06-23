@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PropertyType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_F68C1397F46993E4;
+class Class_3_8069852B6FA1A544_5;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_E99B8D5E9F4AA845_GETPROPERTYFINALVALUE_OFFSET UNITYSDK_OFFSET(0x115CE7C0)
+#define CLASS_1_E99B8D5E9F4AA845_GET_ADVANCE_OFFSET UNITYSDK_OFFSET(0x115CE7B0)
+#define CLASS_1_E99B8D5E9F4AA845_GET_ID_OFFSET UNITYSDK_OFFSET(0x115CE770)
+#define CLASS_1_E99B8D5E9F4AA845_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x115CE790)
+#define CLASS_1_E99B8D5E9F4AA845_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x115CE760)
+#define CLASS_1_E99B8D5E9F4AA845_GET_STAR_OFFSET UNITYSDK_OFFSET(0x115CE7A0)
+#define CLASS_1_E99B8D5E9F4AA845_METHOD_1_43A46E5F9FAC62B8_OFFSET UNITYSDK_OFFSET(0x115CE920)
+#define CLASS_1_E99B8D5E9F4AA845_METHOD_1_58BA0C8308C8127F_OFFSET UNITYSDK_OFFSET(0x115CE910)
+#define CLASS_1_E99B8D5E9F4AA845__CTOR_OFFSET UNITYSDK_OFFSET(0x115CE900)
+
+inline static constexpr unsigned int Class_1_E99B8D5E9F4AA845_TypeDefinitionIndex = 73681;
+
+class Class_1_E99B8D5E9F4AA845 : public ::System::Object
+{
+public:
+	::Class_2_F68C1397F46993E4* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
+	::System::Int32 Field_1_3; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845__CTOR_OFFSET))(this);
+	}
+
+	::PropertyType get_PropertyType()
+	{
+		return ((::PropertyType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GET_PROPERTYTYPE_OFFSET))(this);
+	}
+
+	::System::Int32 get_ID()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GET_ID_OFFSET))(this);
+	}
+
+	::System::Int32 get_Level()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GET_LEVEL_OFFSET))(this);
+	}
+
+	::System::Int32 get_Star()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GET_STAR_OFFSET))(this);
+	}
+
+	::System::Int32 get_Advance()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GET_ADVANCE_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* GetPropertyFinalValue(::Class_3_8069852B6FA1A544_5* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>*(*)(::PVOID, ::Class_3_8069852B6FA1A544_5*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_GETPROPERTYFINALVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+	}
+
+	::System::Void Method_1_58BA0C8308C8127F(::Class_2_F68C1397F46993E4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_F68C1397F46993E4*))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_METHOD_1_58BA0C8308C8127F_OFFSET))(this, a1);
+	}
+
+	::Class_2_F68C1397F46993E4* Method_1_43A46E5F9FAC62B8()
+	{
+		return ((::Class_2_F68C1397F46993E4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E99B8D5E9F4AA845_METHOD_1_43A46E5F9FAC62B8_OFFSET))(this);
+	}
+};

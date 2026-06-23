@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4A097505A5A1A069.h"
+#include "unitysdk/Enum_3_24F60EA0D4DCCDF0.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1_METHOD_1_EFC710EBABFCE318_OFFSET UNITYSDK_OFFSET(0x13989770)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13989760)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1_METHOD_1_EFC710EBABFCE318_OFFSET UNITYSDK_OFFSET(0x126FD960)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1__CTOR_OFFSET UNITYSDK_OFFSET(0x126FD950)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1_TypeDefinitionIndex = 58297;
+	inline static constexpr unsigned int ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1_TypeDefinitionIndex = 81854;
 
 	class ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1 : public ::System::Object
 	{
 	public:
-		::Enum_3_4A097505A5A1A069 Field_1_0; // 0x10
-		::UnityEngine::LayerMask Field_1_1; // 0x14
-		::System::Single Field_1_3; // 0x18
-		::System::Single Field_1_4; // 0x1C
-		::System::Single Field_1_2; // 0x20
+		::System::Single Field_1_3; // 0x10
+		::System::Single Field_1_4; // 0x14
+		::Enum_3_24F60EA0D4DCCDF0 Field_1_0; // 0x18
+		::System::Single Field_1_2; // 0x1C
+		::UnityEngine::LayerMask Field_1_1; // 0x20
 
 		::System::Void _ctor()
 		{

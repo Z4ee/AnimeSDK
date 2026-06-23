@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CONFIGTMPKEYFRAMEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x133E8270)
+#define CONFIGTMPKEYFRAMEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19007670)
 
-inline static constexpr unsigned int ConfigTMPKeyFrameBase_TypeDefinitionIndex = 66094;
+inline static constexpr unsigned int ConfigTMPKeyFrameBase_TypeDefinitionIndex = 50992;
 
 class ConfigTMPKeyFrameBase : public ::System::Object
 {

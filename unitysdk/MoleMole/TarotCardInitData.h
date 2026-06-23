@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_TAROTCARDINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB6E00)
+#define MOLEMOLE_TAROTCARDINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AAC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TarotCardInitData_TypeDefinitionIndex = 40855;
+	inline static constexpr unsigned int TarotCardInitData_TypeDefinitionIndex = 68616;
 
 	class TarotCardInitData : public ::System::Object
 	{

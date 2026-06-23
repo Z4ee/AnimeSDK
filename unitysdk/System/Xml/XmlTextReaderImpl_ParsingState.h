@@ -10,13 +10,13 @@ namespace System::Text { class Decoder; }
 namespace System::Text { class Encoding; }
 namespace System::Xml { class IDtdEntityInfo; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0x930810)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x930870)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINEPOS_OFFSET UNITYSDK_OFFSET(0x9308B0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0x9D3460)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x9D34C0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINEPOS_OFFSET UNITYSDK_OFFSET(0x9D3500)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_ParsingState_TypeDefinitionIndex = 1723;
+	inline static constexpr unsigned int XmlTextReaderImpl_ParsingState_TypeDefinitionIndex = 1722;
 
 	struct alignas(8) XmlTextReaderImpl_ParsingState
 	{

@@ -1,13 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_16DF3093C699EE67_Enum_3_519712B147F700A9.h"
-#include "unitysdk/Class_2_16DF3093C699EE67_Struct_2_98FDBD441D3BBBB9.h"
+#include "unitysdk/Enum_3_5B0E661D5C8F7102.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_745325AFD7021EFB_TypeDefinitionIndex = 62971;
+class Class_2_208CC9941471731A_111;
+
+inline static constexpr unsigned int Struct_2_745325AFD7021EFB_TypeDefinitionIndex = 56300;
 
 struct alignas(8) Struct_2_745325AFD7021EFB
 {
-	::Class_2_16DF3093C699EE67_Enum_3_519712B147F700A9 Field_2_0; // 0x10
-	::Class_2_16DF3093C699EE67_Struct_2_98FDBD441D3BBBB9 Field_2_1; // 0x18
+	::Enum_3_5B0E661D5C8F7102 Field_2_0; // 0x10
+	::Class_2_208CC9941471731A_111* Field_2_1; // 0x18
+	::Class_2_208CC9941471731A_111* Field_2_2; // 0x20
 };

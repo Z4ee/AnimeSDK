@@ -8,24 +8,24 @@ namespace System::ComponentModel { class Container; }
 namespace System::ComponentModel { class IComponent; }
 namespace System::ComponentModel { class IContainer; }
 
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GETSERVICE_OFFSET UNITYSDK_OFFSET(0x192024C0)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x192024A0)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_CONTAINER_OFFSET UNITYSDK_OFFSET(0x192024B0)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_DESIGNMODE_OFFSET UNITYSDK_OFFSET(0x19202530)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19202540)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x19202550)
-#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE__CTOR_OFFSET UNITYSDK_OFFSET(0x19202490)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GETSERVICE_OFFSET UNITYSDK_OFFSET(0x1B3E8570)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1B3E8550)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_CONTAINER_OFFSET UNITYSDK_OFFSET(0x1B3E8560)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_DESIGNMODE_OFFSET UNITYSDK_OFFSET(0x1B3E85E0)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B3E85F0)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B3E8600)
+#define SYSTEM_COMPONENTMODEL_CONTAINER_SITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E8540)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int Container_Site_TypeDefinitionIndex = 2844;
+	inline static constexpr unsigned int Container_Site_TypeDefinitionIndex = 2843;
 
 	class Container_Site : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::ComponentModel::IComponent* component; // 0x18
-		::System::ComponentModel::Container* container; // 0x20
+		::System::ComponentModel::IComponent* component; // 0x10
+		::System::ComponentModel::Container* container; // 0x18
+		::System::String* name; // 0x20
 
 		::System::Void _ctor(::System::ComponentModel::IComponent* component, ::System::ComponentModel::Container* container, ::System::String* name)
 		{

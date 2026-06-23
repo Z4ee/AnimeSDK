@@ -9,19 +9,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_17EA6EF35D9128D1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10095030)
-#define CLASS_2_17EA6EF35D9128D1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x10094F30)
-#define CLASS_2_17EA6EF35D9128D1__CTOR_OFFSET UNITYSDK_OFFSET(0x10095020)
+#define CLASS_2_17EA6EF35D9128D1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x15C886F0)
+#define CLASS_2_17EA6EF35D9128D1_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x15C885F0)
+#define CLASS_2_17EA6EF35D9128D1__CTOR_OFFSET UNITYSDK_OFFSET(0x15C886E0)
 
-inline static constexpr unsigned int Class_2_17EA6EF35D9128D1_TypeDefinitionIndex = 69704;
+inline static constexpr unsigned int Class_2_17EA6EF35D9128D1_TypeDefinitionIndex = 42636;
 
 class Class_2_17EA6EF35D9128D1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_2; // 0x18
-	::UnityEngine::GameObject* Field_2_3; // 0x20
-	::MonoUITableScrollV2* Field_2_0; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x30
+	::MonoUITableScrollV2* Field_2_0; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
+	::UnityEngine::GameObject* Field_2_3; // 0x28
+	::UnityEngine::RectTransform* Field_2_2; // 0x30
 
 	::System::Void _ctor()
 	{

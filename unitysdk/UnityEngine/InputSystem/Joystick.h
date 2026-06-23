@@ -8,46 +8,46 @@ namespace UnityEngine::InputSystem::Controls { class ButtonControl; }
 namespace UnityEngine::InputSystem::Controls { class StickControl; }
 namespace UnityEngine::InputSystem::Controls { class Vector2Control; }
 
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1B9F2DF0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_ALL_OFFSET UNITYSDK_OFFSET(0x1B9F2DC0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9F2DA0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_HATSWITCH_OFFSET UNITYSDK_OFFSET(0x1B9F2D80)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_STICK_OFFSET UNITYSDK_OFFSET(0x1B9F2D40)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1B9F2D20)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_TWIST_OFFSET UNITYSDK_OFFSET(0x1B9F2D60)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_MAKECURRENT_OFFSET UNITYSDK_OFFSET(0x1B9F2EA0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_ONADDED_OFFSET UNITYSDK_OFFSET(0x1B9F2EB0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_ONREMOVED_OFFSET UNITYSDK_OFFSET(0x1B9F2F10)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9F2DB0)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_HATSWITCH_OFFSET UNITYSDK_OFFSET(0x1B9F2D90)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_STICK_OFFSET UNITYSDK_OFFSET(0x1B9F2D50)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1B9F2D30)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_TWIST_OFFSET UNITYSDK_OFFSET(0x1B9F2D70)
-#define UNITYENGINE_INPUTSYSTEM_JOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F3070)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1DD80760)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_ALL_OFFSET UNITYSDK_OFFSET(0x1DD80730)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD80710)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_HATSWITCH_OFFSET UNITYSDK_OFFSET(0x1DD806F0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_STICK_OFFSET UNITYSDK_OFFSET(0x1DD806B0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1DD80690)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_GET_TWIST_OFFSET UNITYSDK_OFFSET(0x1DD806D0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_MAKECURRENT_OFFSET UNITYSDK_OFFSET(0x1DD80810)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_ONADDED_OFFSET UNITYSDK_OFFSET(0x1DD80820)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_ONREMOVED_OFFSET UNITYSDK_OFFSET(0x1DD80880)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD80720)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_HATSWITCH_OFFSET UNITYSDK_OFFSET(0x1DD80700)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_STICK_OFFSET UNITYSDK_OFFSET(0x1DD806C0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1DD806A0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK_SET_TWIST_OFFSET UNITYSDK_OFFSET(0x1DD806E0)
+#define UNITYENGINE_INPUTSYSTEM_JOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD809E0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int Joystick_TypeDefinitionIndex = 28975;
+	inline static constexpr unsigned int Joystick_TypeDefinitionIndex = 31631;
 
 	class Joystick : public ::UnityEngine::InputSystem::InputDevice
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::InputSystem::Joystick*>** StaticGet_s_Joysticks()
-		{
-			return (::Il2CppArray<::UnityEngine::InputSystem::Joystick*>**)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x21EB0);
-		}
 		static ::UnityEngine::InputSystem::Joystick** StaticGet__current_k__BackingField()
 		{
-			return (::UnityEngine::InputSystem::Joystick**)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x21EB8);
+			return (::UnityEngine::InputSystem::Joystick**)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x25C40);
+		}
+		static ::Il2CppArray<::UnityEngine::InputSystem::Joystick*>** StaticGet_s_Joysticks()
+		{
+			return (::Il2CppArray<::UnityEngine::InputSystem::Joystick*>**)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x25C48);
 		}
 		static ::System::Int32* StaticGet_s_JoystickCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x4B90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Joystick_TypeDefinitionIndex)->GetStaticField(0x7C50);
 		}
 		::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField; // 0x158
 		::UnityEngine::InputSystem::Controls::Vector2Control* _hatswitch_k__BackingField; // 0x160
-		::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField; // 0x168
-		::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField; // 0x170
+		::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField; // 0x168
+		::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField; // 0x170
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_MOVEAWAY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B4A5E60)
-#define NODECANVAS_TASKS_ACTIONS_MOVEAWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A6200)
+#define NODECANVAS_TASKS_ACTIONS_MOVEAWAY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D846140)
+#define NODECANVAS_TASKS_ACTIONS_MOVEAWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8464E0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MoveAway_TypeDefinitionIndex = 26603;
+	inline static constexpr unsigned int MoveAway_TypeDefinitionIndex = 30627;
 
 	class MoveAway : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYBLINDBOXREPORTITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F288F0)
+#define MOLEMOLE_UIACTIVITYBLINDBOXREPORTITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF37A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBlindBoxReportItemWidgetController_Context_TypeDefinitionIndex = 67550;
+	inline static constexpr unsigned int UIActivityBlindBoxReportItemWidgetController_Context_TypeDefinitionIndex = 77829;
 
 	class UIActivityBlindBoxReportItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

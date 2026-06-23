@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILinearTransition_RampBlendMode_TypeDefinitionIndex = 39928;
+	inline static constexpr unsigned int UILinearTransition_RampBlendMode_TypeDefinitionIndex = 58923;
 
 	enum class UILinearTransition_RampBlendMode : ::System::Int32
 	{

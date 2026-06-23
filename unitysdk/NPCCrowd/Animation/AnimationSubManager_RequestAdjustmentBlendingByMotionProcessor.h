@@ -2,27 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_Job.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_LegacyJob.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_ParallelJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xF8530B0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xF852EA0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xF852E90)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xF852E80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xF852F00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xF8535A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xE8B85A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xE8B8380)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xE8B8370)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xE8B8360)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xE8B83E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_REQUESTADJUSTMENTBLENDINGBYMOTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8B50)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_TypeDefinitionIndex = 70523;
+	inline static constexpr unsigned int AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_TypeDefinitionIndex = 57409;
 
 	class AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_Job>* _buffer; // 0x10
+		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_LegacyJob>* _buffer; // 0x10
+		::NPCCrowd::Animation::AnimationSubManager_RequestAdjustmentBlendingByMotionProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
 		{

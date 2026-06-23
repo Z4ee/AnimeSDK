@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWCURVE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xED18AE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xED18AF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWCURVE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x10D04590)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D045A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlowCurve_TypeDefinitionIndex = 57109;
+	inline static constexpr unsigned int ConfigEntityTimeSlowCurve_TypeDefinitionIndex = 52262;
 
 	class ConfigEntityTimeSlowCurve : public ::MoleMole::Config::ConfigEntityTimeSlowBase
 	{

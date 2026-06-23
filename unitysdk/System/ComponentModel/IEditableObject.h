@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IEditableObject_TypeDefinitionIndex = 2897;
+	inline static constexpr unsigned int IEditableObject_TypeDefinitionIndex = 2896;
 
 	class IEditableObject
 	{

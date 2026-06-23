@@ -5,24 +5,24 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define NODECANVAS_TASKS_ACTIONS_WANDER_DOWANDER_OFFSET UNITYSDK_OFFSET(0x1B32FA70)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B32F9F0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1B32FEF0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1B32FF00)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B32FDB0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3300A0)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_DOWANDER_OFFSET UNITYSDK_OFFSET(0x1D6E87A0)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D6E8720)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1D6E8C20)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1D6E8C30)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D6E8AE0)
+#define NODECANVAS_TASKS_ACTIONS_WANDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E8DD0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int Wander_TypeDefinitionIndex = 27798;
+	inline static constexpr unsigned int Wander_TypeDefinitionIndex = 29628;
 
 	class Wander : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::AI::NavMeshAgent*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minWanderDistance; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* keepDistance; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxWanderDistance; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxWanderDistance; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minWanderDistance; // 0x78
 		::System::Boolean repeat; // 0x80
 
 		::System::Void _ctor()

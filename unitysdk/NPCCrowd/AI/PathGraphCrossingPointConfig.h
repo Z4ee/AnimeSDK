@@ -7,11 +7,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHCROSSINGPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE46180)
+#define NPCCROWD_AI_PATHGRAPHCROSSINGPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD5AC130)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphCrossingPointConfig_TypeDefinitionIndex = 69846;
+	inline static constexpr unsigned int PathGraphCrossingPointConfig_TypeDefinitionIndex = 55720;
 
 	class PathGraphCrossingPointConfig : public ::NPCCrowd::AI::PathGraphFeaturePointConfig
 	{

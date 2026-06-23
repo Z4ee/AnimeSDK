@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoadingTransferPopWindowController_PlayType_TypeDefinitionIndex = 77868;
+	inline static constexpr unsigned int UILoadingTransferPopWindowController_PlayType_TypeDefinitionIndex = 67538;
 
 	enum class UILoadingTransferPopWindowController_PlayType : ::System::Int32
 	{
-		Normal = 1,
-		None = 0,
 		Multiple = 2,
+		None = 0,
+		Normal = 1,
 	};
 }

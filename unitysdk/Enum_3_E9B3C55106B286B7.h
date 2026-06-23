@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_E9B3C55106B286B7_TypeDefinitionIndex = 52633;
+inline static constexpr unsigned int Enum_3_E9B3C55106B286B7_TypeDefinitionIndex = 73687;
 
 enum class Enum_3_E9B3C55106B286B7 : ::System::Int32
 {
-	OnLost = 2,
 	OnlyTrigger = 0,
+	OnLost = 2,
 	Always = 1,
 };

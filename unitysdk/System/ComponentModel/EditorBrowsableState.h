@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EditorBrowsableState_TypeDefinitionIndex = 2876;
+	inline static constexpr unsigned int EditorBrowsableState_TypeDefinitionIndex = 2875;
 
 	enum class EditorBrowsableState : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_DELETEINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1B8D88D0)
-#define SYSTEM_DYNAMIC_DELETEINDEXBINDER_FALLBACKDELETEINDEX_OFFSET UNITYSDK_OFFSET(0x1B8D89A0)
+#define SYSTEM_DYNAMIC_DELETEINDEXBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1DC4D550)
+#define SYSTEM_DYNAMIC_DELETEINDEXBINDER_FALLBACKDELETEINDEX_OFFSET UNITYSDK_OFFSET(0x1DC4D620)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DeleteIndexBinder_TypeDefinitionIndex = 4976;
+	inline static constexpr unsigned int DeleteIndexBinder_TypeDefinitionIndex = 4975;
 
 	class DeleteIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

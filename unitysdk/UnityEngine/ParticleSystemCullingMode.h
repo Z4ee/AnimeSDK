@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemCullingMode_TypeDefinitionIndex = 24908;
+	inline static constexpr unsigned int ParticleSystemCullingMode_TypeDefinitionIndex = 18812;
 
 	enum class ParticleSystemCullingMode : ::System::Int32
 	{

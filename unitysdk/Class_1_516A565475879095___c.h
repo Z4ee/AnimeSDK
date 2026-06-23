@@ -7,7 +7,7 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 template <typename T1, typename T2> class Class_1_516A565475879095___c;
 
-inline static constexpr unsigned int Class_1_516A565475879095___c_TypeDefinitionIndex = 9393;
+inline static constexpr unsigned int Class_1_516A565475879095___c_TypeDefinitionIndex = 18566;
 
 template <typename TKey, typename TValue>
 class Class_1_516A565475879095___c : public ::System::Object

@@ -8,19 +8,19 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_38082A0AFC8105A8_METHOD_2_21D544786F2D43F4_OFFSET UNITYSDK_OFFSET(0x119900C0)
-#define CLASS_2_38082A0AFC8105A8_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x11990230)
-#define CLASS_2_38082A0AFC8105A8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11990300)
-#define CLASS_2_38082A0AFC8105A8__CTOR_OFFSET UNITYSDK_OFFSET(0x119902F0)
+#define CLASS_2_38082A0AFC8105A8_METHOD_2_21D544786F2D43F4_OFFSET UNITYSDK_OFFSET(0x144724E0)
+#define CLASS_2_38082A0AFC8105A8_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x14472650)
+#define CLASS_2_38082A0AFC8105A8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14472720)
+#define CLASS_2_38082A0AFC8105A8__CTOR_OFFSET UNITYSDK_OFFSET(0x14472710)
 
-inline static constexpr unsigned int Class_2_38082A0AFC8105A8_TypeDefinitionIndex = 55273;
+inline static constexpr unsigned int Class_2_38082A0AFC8105A8_TypeDefinitionIndex = 41737;
 
 class Class_2_38082A0AFC8105A8 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x20
-	::UnityEngine::Animation* Field_2_2; // 0x28
+	::UnityEngine::Animation* Field_2_2; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x28
 
 	::System::Void _ctor()
 	{

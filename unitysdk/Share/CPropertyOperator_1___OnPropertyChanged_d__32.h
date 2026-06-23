@@ -9,7 +9,7 @@ template <typename T> class Class_0_16E4307DCC41950C;
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyOperator_1___OnPropertyChanged_d__32_TypeDefinitionIndex = 15563;
+	inline static constexpr unsigned int CPropertyOperator_1___OnPropertyChanged_d__32_TypeDefinitionIndex = 10804;
 
 	template <typename T>
 	struct CPropertyOperator_1___OnPropertyChanged_d__32

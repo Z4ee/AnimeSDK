@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IXmlNamespaceResolver_TypeDefinitionIndex = 1796;
+	inline static constexpr unsigned int IXmlNamespaceResolver_TypeDefinitionIndex = 1795;
 
 	class IXmlNamespaceResolver
 	{

@@ -4,25 +4,25 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0F8460)
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0F84C0)
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_GET_ALLOWMERGE_OFFSET UNITYSDK_OFFSET(0x1A0F8450)
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A0F84D0)
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F8590)
-#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F8440)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C48BAD0)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C48BB30)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_GET_ALLOWMERGE_OFFSET UNITYSDK_OFFSET(0x1C48BAC0)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C48BB40)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C48BC00)
+#define SYSTEM_COMPONENTMODEL_MERGABLEPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48BAB0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int MergablePropertyAttribute_TypeDefinitionIndex = 2951;
+	inline static constexpr unsigned int MergablePropertyAttribute_TypeDefinitionIndex = 2950;
 
 	class MergablePropertyAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::MergablePropertyAttribute** StaticGet_Default()
+		static ::System::ComponentModel::MergablePropertyAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::MergablePropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(MergablePropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x2900);
 		}
-		static ::System::ComponentModel::MergablePropertyAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::MergablePropertyAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::MergablePropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(MergablePropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x2908);
 		}

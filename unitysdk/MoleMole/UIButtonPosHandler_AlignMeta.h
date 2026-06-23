@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIButtonPosHandler_AlignMeta_TypeDefinitionIndex = 70128;
+	inline static constexpr unsigned int UIButtonPosHandler_AlignMeta_TypeDefinitionIndex = 71415;
 
 	struct alignas(8) UIButtonPosHandler_AlignMeta
 	{

@@ -7,21 +7,21 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Specialized { class StringCollection; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19202050)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19202150)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19202230)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19202310)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19201F70)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B3E8100)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B3E8200)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B3E82E0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3E83C0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_STRINGENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E8020)
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int StringEnumerator_TypeDefinitionIndex = 3932;
+	inline static constexpr unsigned int StringEnumerator_TypeDefinitionIndex = 3931;
 
 	class StringEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::IEnumerable* temp; // 0x10
-		::System::Collections::IEnumerator* baseEnumerator; // 0x18
+		::System::Collections::IEnumerator* baseEnumerator; // 0x10
+		::System::Collections::IEnumerable* temp; // 0x18
 
 		::System::Void _ctor(::System::Collections::Specialized::StringCollection* mappings)
 		{

@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel::Design { class IDesignerHost; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_DESIGNEREVENTARGS_GET_DESIGNER_OFFSET UNITYSDK_OFFSET(0x1A23F140)
-#define SYSTEM_COMPONENTMODEL_DESIGN_DESIGNEREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23F0E0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_DESIGNEREVENTARGS_GET_DESIGNER_OFFSET UNITYSDK_OFFSET(0x1C64CE50)
+#define SYSTEM_COMPONENTMODEL_DESIGN_DESIGNEREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C64CDF0)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int DesignerEventArgs_TypeDefinitionIndex = 3057;
+	inline static constexpr unsigned int DesignerEventArgs_TypeDefinitionIndex = 3056;
 
 	class DesignerEventArgs : public ::System::EventArgs
 	{

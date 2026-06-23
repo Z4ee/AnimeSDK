@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class ChangeAvatarShowObj; }
 
-#define MOLEMOLE_CHANGEAVATARSHOWOBJ___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF0010)
-#define MOLEMOLE_CHANGEAVATARSHOWOBJ___C__DISPLAYCLASS11_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0xFAF0020)
+#define MOLEMOLE_CHANGEAVATARSHOWOBJ___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE955020)
+#define MOLEMOLE_CHANGEAVATARSHOWOBJ___C__DISPLAYCLASS11_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0xE955030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChangeAvatarShowObj___c__DisplayClass11_0_TypeDefinitionIndex = 82087;
+	inline static constexpr unsigned int ChangeAvatarShowObj___c__DisplayClass11_0_TypeDefinitionIndex = 77663;
 
 	class ChangeAvatarShowObj___c__DisplayClass11_0 : public ::System::Object
 	{

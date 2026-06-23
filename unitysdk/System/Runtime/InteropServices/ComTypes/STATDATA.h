@@ -8,7 +8,7 @@ namespace System::Runtime::InteropServices::ComTypes { class IAdviseSink; }
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int STATDATA_TypeDefinitionIndex = 3134;
+	inline static constexpr unsigned int STATDATA_TypeDefinitionIndex = 3133;
 
 	struct alignas(8) STATDATA
 	{

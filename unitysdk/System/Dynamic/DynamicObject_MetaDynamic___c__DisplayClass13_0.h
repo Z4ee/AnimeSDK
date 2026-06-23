@@ -6,12 +6,12 @@ namespace System::Dynamic { class DeleteIndexBinder; }
 namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS13_0__BINDDELETEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1C002530)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C002520)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS13_0__BINDDELETEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1E3209C0)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3209B0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass13_0_TypeDefinitionIndex = 4992;
+	inline static constexpr unsigned int DynamicObject_MetaDynamic___c__DisplayClass13_0_TypeDefinitionIndex = 4991;
 
 	class DynamicObject_MetaDynamic___c__DisplayClass13_0 : public ::System::Object
 	{

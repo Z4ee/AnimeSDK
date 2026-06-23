@@ -20,38 +20,38 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterGenPass; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_DRAWFUROBJECTS_OFFSET UNITYSDK_OFFSET(0x1A6A3020)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_DRAWINTERIOR_OFFSET UNITYSDK_OFFSET(0x1A6A2E90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A6A22C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1A6A1E10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A1E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_DRAWFUROBJECTS_OFFSET UNITYSDK_OFFSET(0x1B893B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_DRAWINTERIOR_OFFSET UNITYSDK_OFFSET(0x1B893970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B892D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1B8928A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOPAQUEAFTERDEFERREDSHADINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B892900)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DrawOpaqueAfterDeferredShadingPass_TypeDefinitionIndex = 30482;
+	inline static constexpr unsigned int DrawOpaqueAfterDeferredShadingPass_TypeDefinitionIndex = 27088;
 
 	class DrawOpaqueAfterDeferredShadingPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		::System::String* m_ProfilerTag; // 0xA8
-		::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB8
-		::UnityEngine::Matrix4x4 m_DamageTextProjMatrix; // 0xC0
-		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForAll; // 0x100
-		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForAllBlackCanvas; // 0x11C
-		::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock; // 0x138
-		::UnityEngine::Rendering::FilteringSettings m_OpaqueFilteringSettingsForNoneBlackCanvas; // 0x1A4
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorAttachment; // 0x1C0
-		::UnityEngine::Rendering::FilteringSettings m_OpaqueFilteringSettingsForBlackCanvas; // 0x1C4
-		::System::Int32 m_lastScreenWidth; // 0x1E0
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveDepthAttachment; // 0x1E4
-		::System::Boolean m_isInitDamageTextProjMatrix; // 0x1E8
-		::System::Boolean m_WaterTessOn; // 0x1E9
-		::System::Boolean m_UIBlurRendered; // 0x1EA
-		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForWater; // 0x1EC
-		::System::Int32 m_lastScreenHeight; // 0x208
-		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForTop; // 0x20C
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveColorAttachment; // 0x228
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB0
+		::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0xB8
+		::UnityEngine::Rendering::FilteringSettings m_OpaqueFilteringSettingsForBlackCanvas; // 0xC0
+		::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock; // 0xDC
+		::System::Int32 m_lastScreenWidth; // 0x148
+		::UnityEngine::Rendering::FilteringSettings m_OpaqueFilteringSettingsForNoneBlackCanvas; // 0x14C
+		::UnityEngine::Matrix4x4 m_DamageTextProjMatrix; // 0x168
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveDepthAttachment; // 0x1A8
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorAttachment; // 0x1AC
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveColorAttachment; // 0x1B0
+		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForTop; // 0x1B4
+		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForWater; // 0x1D0
+		::System::Int32 m_lastScreenHeight; // 0x1EC
+		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForAllBlackCanvas; // 0x1F0
+		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForAll; // 0x20C
+		::System::Boolean m_isInitDamageTextProjMatrix; // 0x228
+		::System::Boolean m_WaterTessOn; // 0x229
+		::System::Boolean m_UIBlurRendered; // 0x22A
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, ::System::Int32 stencilReference, ::UnityEngine::Rendering::Universal::Internal::WaterGenPass* waterGenPass)
 		{

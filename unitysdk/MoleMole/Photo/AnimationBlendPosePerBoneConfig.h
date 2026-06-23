@@ -8,7 +8,7 @@
 #include "unitysdk/Struct_2_ACD0EF80A5330786.h"
 #include "unitysdk/Struct_2_D0A3658446FCD9A2.h"
 #include "unitysdk/Struct_2_F0CFA50094D8FF32.h"
-#include "unitysdk/Struct_2_F780BA94AF5E7E37_1.h"
+#include "unitysdk/Struct_2_F780BA94AF5E7E37.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 #include "unitysdk/System/Span_1.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
@@ -19,15 +19,15 @@ namespace MoleMole::Photo { class BlendPosePerBonePoseSetting; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0x12365980)
-#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x12366800)
-#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_INITIALIZEWEIGHT_OFFSET UNITYSDK_OFFSET(0x12366B20)
-#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x12366810)
-#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x123672A0)
+#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0x13F1B520)
+#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x13F1C3A0)
+#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_INITIALIZEWEIGHT_OFFSET UNITYSDK_OFFSET(0x13F1C6C0)
+#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x13F1C3B0)
+#define MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F1CE40)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationBlendPosePerBoneConfig_TypeDefinitionIndex = 55563;
+	inline static constexpr unsigned int AnimationBlendPosePerBoneConfig_TypeDefinitionIndex = 40509;
 
 	class AnimationBlendPosePerBoneConfig : public ::MoleMole::Photo::NapAnimationJobConfig_1<::Struct_2_996A8643ED0D59AD>
 	{
@@ -55,9 +55,9 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_REQUESTMEMORY_OFFSET))(this, animator, skeleton, builder, output);
 		}
 
-		::System::Void InitializeWeight(::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1> boneWeights, ::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> poseWeights, ::Struct_2_F0CFA50094D8FF32 skeleton, ::UnityEngine::Animator* animator)
+		::System::Void InitializeWeight(::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37> boneWeights, ::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> poseWeights, ::Struct_2_F0CFA50094D8FF32 skeleton, ::UnityEngine::Animator* animator)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1>, ::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>, ::Struct_2_F0CFA50094D8FF32, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_INITIALIZEWEIGHT_OFFSET))(this, boneWeights, poseWeights, skeleton, animator);
+			return ((::System::Void(*)(::PVOID, ::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37>, ::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>, ::Struct_2_F0CFA50094D8FF32, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONBLENDPOSEPERBONECONFIG_INITIALIZEWEIGHT_OFFSET))(this, boneWeights, poseWeights, skeleton, animator);
 		}
 	};
 }

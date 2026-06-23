@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ANCHORWITHSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
+#define MOLEMOLE_FLOWCANVAS_NODES_ANCHORWITHSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AnchorWithStyle_TypeDefinitionIndex = 64449;
+	inline static constexpr unsigned int AnchorWithStyle_TypeDefinitionIndex = 46571;
 
 	struct alignas(8) AnchorWithStyle
 	{

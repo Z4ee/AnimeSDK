@@ -6,7 +6,7 @@ class Class_2_E621E51D351EB960;
 class Class_3_E665773526DA81A8;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_1_CCF1EE51718C9497_TypeDefinitionIndex = 42462;
+inline static constexpr unsigned int Class_1_CCF1EE51718C9497_TypeDefinitionIndex = 58292;
 
 template <typename T>
 class Class_1_CCF1EE51718C9497 : public ::System::Object

@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int FTransformConfig_TypeDefinitionIndex = 43511;
+	inline static constexpr unsigned int FTransformConfig_TypeDefinitionIndex = 54941;
 
 	struct alignas(4) FTransformConfig
 	{

@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E55770)
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16E55780)
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16E55AD0)
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E55D20)
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E55CE0)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10D4A0D0)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10D4A0E0)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10D4A430)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D4A680)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM_AUDIOEVENTITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4A640)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex = 77672;
+	inline static constexpr unsigned int AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex = 50098;
 
 	class AudioEventItem_AudioEventItem_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::AudioEventItem*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32300);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32308);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34200);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AudioEventItem_AudioEventItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34208);
 		}
 
 		::System::Void _ctor()

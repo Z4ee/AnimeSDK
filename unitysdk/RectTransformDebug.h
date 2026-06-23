@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RECTTRANSFORMDEBUG_AWAKE_OFFSET UNITYSDK_OFFSET(0x18E28F20)
-#define RECTTRANSFORMDEBUG_UPDATE_OFFSET UNITYSDK_OFFSET(0x18E28FF0)
-#define RECTTRANSFORMDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E29180)
+#define RECTTRANSFORMDEBUG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF4D820)
+#define RECTTRANSFORMDEBUG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF4D8F0)
+#define RECTTRANSFORMDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF4DA80)
 
-inline static constexpr unsigned int RectTransformDebug_TypeDefinitionIndex = 78270;
+inline static constexpr unsigned int RectTransformDebug_TypeDefinitionIndex = 42504;
 
 class RectTransformDebug : public ::UnityEngine::MonoBehaviour
 {

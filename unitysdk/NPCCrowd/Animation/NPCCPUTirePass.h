@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_NPCCPUTIREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x11D962D0)
+#define NPCCROWD_ANIMATION_NPCCPUTIREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x11371D80)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUTirePass_TypeDefinitionIndex = 48814;
+	inline static constexpr unsigned int NPCCPUTirePass_TypeDefinitionIndex = 78954;
 
 	class NPCCPUTirePass : public ::System::Object
 	{

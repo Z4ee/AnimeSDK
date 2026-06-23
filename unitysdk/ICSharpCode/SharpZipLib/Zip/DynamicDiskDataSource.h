@@ -6,12 +6,12 @@ namespace ICSharpCode::SharpZipLib::Zip { class ZipEntry; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_DYNAMICDISKDATASOURCE_GETSOURCE_OFFSET UNITYSDK_OFFSET(0x1B2C6200)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_DYNAMICDISKDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C61F0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_DYNAMICDISKDATASOURCE_GETSOURCE_OFFSET UNITYSDK_OFFSET(0x1D68E530)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_DYNAMICDISKDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68E520)
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int DynamicDiskDataSource_TypeDefinitionIndex = 6748;
+	inline static constexpr unsigned int DynamicDiskDataSource_TypeDefinitionIndex = 6879;
 
 	class DynamicDiskDataSource : public ::System::Object
 	{

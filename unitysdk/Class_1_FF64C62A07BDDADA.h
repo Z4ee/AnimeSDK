@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_9578BAF75946B792.h"
+#include "unitysdk/Enum_3_77652EF508EFB9A3.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FF64C62A07BDDADA_METHOD_1_289F28027FF47717_OFFSET UNITYSDK_OFFSET(0x100E8330)
-#define CLASS_1_FF64C62A07BDDADA__CTOR_OFFSET UNITYSDK_OFFSET(0x100E8100)
+#define CLASS_1_FF64C62A07BDDADA_METHOD_1_289F28027FF47717_OFFSET UNITYSDK_OFFSET(0x1106E6B0)
+#define CLASS_1_FF64C62A07BDDADA__CTOR_OFFSET UNITYSDK_OFFSET(0x1106E480)
 
-inline static constexpr unsigned int Class_1_FF64C62A07BDDADA_TypeDefinitionIndex = 62032;
+inline static constexpr unsigned int Class_1_FF64C62A07BDDADA_TypeDefinitionIndex = 58785;
 
 class Class_1_FF64C62A07BDDADA : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Enum_3_9578BAF75946B792>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Enum_3_77652EF508EFB9A3>* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -5,11 +5,11 @@
 
 class Class_1_2DDAC2F6C97EB8AD;
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET UNITYSDK_OFFSET(0x75B480)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET UNITYSDK_OFFSET(0x7CF160)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int EndShape_Circle_TypeDefinitionIndex = 66826;
+	inline static constexpr unsigned int EndShape_Circle_TypeDefinitionIndex = 41499;
 
 	struct alignas(4) EndShape_Circle
 	{

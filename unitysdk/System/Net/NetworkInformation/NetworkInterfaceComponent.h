@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int NetworkInterfaceComponent_TypeDefinitionIndex = 3733;
+	inline static constexpr unsigned int NetworkInterfaceComponent_TypeDefinitionIndex = 3732;
 
 	enum class NetworkInterfaceComponent : ::System::Int32
 	{

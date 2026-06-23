@@ -11,53 +11,53 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::UI { class StencilMaterial_MatEntry; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1BD6EC60)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1BD6EB90)
-#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1BD6F6E0)
-#define UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FA30)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1E08ED10)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1E08EC40)
+#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1E08F790)
+#define UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E08FAE0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 8462;
+	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 18970;
 
 	class StencilMaterial : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::Boolean>** StaticGet_chacedSkipCheckResult()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x75D0);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x8820);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>** StaticGet_m_List()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x75D8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x8828);
 		}
 		static ::System::Int32* StaticGet__UseUIAlphaClip()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B20);
-		}
-		static ::System::Int32* StaticGet__StencilComp()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B24);
-		}
-		static ::System::Int32* StaticGet__Stencil()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B28);
-		}
-		static ::System::Int32* StaticGet__StencilReadMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B2C);
-		}
-		static ::System::Int32* StaticGet__StencilOp()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43A0);
 		}
 		static ::System::Int32* StaticGet__ColorMask()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B34);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43A4);
+		}
+		static ::System::Int32* StaticGet__Stencil()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43A8);
+		}
+		static ::System::Int32* StaticGet__StencilOp()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43AC);
+		}
+		static ::System::Int32* StaticGet__StencilComp()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43B0);
+		}
+		static ::System::Int32* StaticGet__StencilReadMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43B4);
 		}
 		static ::System::Int32* StaticGet__StencilWriteMask()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x3B38);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x43B8);
 		}
 
 		static ::System::Void _cctor()

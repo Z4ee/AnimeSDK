@@ -3,12 +3,12 @@
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_IKUTIL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x125CFE90)
-#define MOLEMOLE_IKUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x125D0030)
+#define MOLEMOLE_IKUTIL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13024390)
+#define MOLEMOLE_IKUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x13024530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int IKUtil_TypeDefinitionIndex = 77265;
+	inline static constexpr unsigned int IKUtil_TypeDefinitionIndex = 77814;
 
 	class IKUtil : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

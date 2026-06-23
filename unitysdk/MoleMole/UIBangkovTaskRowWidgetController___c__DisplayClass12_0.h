@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangkovTaskRowWidgetController; }
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED0C30)
-#define MOLEMOLE_UIBANGKOVTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__REFRESHQUESTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x15ED0C40)
+#define MOLEMOLE_UIBANGKOVTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A50590)
+#define MOLEMOLE_UIBANGKOVTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__REFRESHQUESTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x17A505A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTaskRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 54894;
+	inline static constexpr unsigned int UIBangkovTaskRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 60300;
 
 	class UIBangkovTaskRowWidgetController___c__DisplayClass12_0 : public ::System::Object
 	{

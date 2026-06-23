@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17820600)
-#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17820610)
-#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x178207F0)
-#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17820990)
-#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17820950)
+#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x182FE520)
+#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x182FE530)
+#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x182FE710)
+#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182FE8B0)
+#define MOLEMOLE_MONOACTIVITYBGSETTING_MONOACTIVITYBGSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x182FE870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 70401;
+	inline static constexpr unsigned int MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 67760;
 
 	class MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoActivityBGSetting*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGAnimationSequence*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGAnimationSequence*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x447D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGAnimationSequence*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4B070);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGSpineSequence*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGSpineSequence*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x447D8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::ActivitBGSpineSequence*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoActivityBGSetting_MonoActivityBGSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4B078);
 		}
 
 		::System::Void _ctor()

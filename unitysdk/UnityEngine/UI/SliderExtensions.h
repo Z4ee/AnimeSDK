@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class Slider; }
 
-#define UNITYENGINE_UI_SLIDEREXTENSIONS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x1A165C90)
-#define UNITYENGINE_UI_SLIDEREXTENSIONS_SAFESETVALUE_OFFSET UNITYSDK_OFFSET(0x1A165F60)
+#define UNITYENGINE_UI_SLIDEREXTENSIONS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x1A0F62C0)
+#define UNITYENGINE_UI_SLIDEREXTENSIONS_SAFESETVALUE_OFFSET UNITYSDK_OFFSET(0x1A0F6590)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SliderExtensions_TypeDefinitionIndex = 64604;
+	inline static constexpr unsigned int SliderExtensions_TypeDefinitionIndex = 45923;
 
 	class SliderExtensions : public ::System::Object
 	{

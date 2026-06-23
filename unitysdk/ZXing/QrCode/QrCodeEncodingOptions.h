@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ZXING_QRCODE_QRCODEENCODINGOPTIONS_SET_CHARACTERSET_OFFSET UNITYSDK_OFFSET(0x1889F970)
-#define ZXING_QRCODE_QRCODEENCODINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1889FBA0)
+#define ZXING_QRCODE_QRCODEENCODINGOPTIONS_SET_CHARACTERSET_OFFSET UNITYSDK_OFFSET(0x1AB74F20)
+#define ZXING_QRCODE_QRCODEENCODINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB75150)
 
 namespace ZXing::QrCode
 {
-	inline static constexpr unsigned int QrCodeEncodingOptions_TypeDefinitionIndex = 8644;
+	inline static constexpr unsigned int QrCodeEncodingOptions_TypeDefinitionIndex = 19142;
 
 	class QrCodeEncodingOptions : public ::ZXing::Common::EncodingOptions
 	{

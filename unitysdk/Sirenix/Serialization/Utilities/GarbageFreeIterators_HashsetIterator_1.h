@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int GarbageFreeIterators_HashsetIterator_1_TypeDefinitionIndex = 7481;
+	inline static constexpr unsigned int GarbageFreeIterators_HashsetIterator_1_TypeDefinitionIndex = 7613;
 
 	template <typename T>
 	struct GarbageFreeIterators_HashsetIterator_1

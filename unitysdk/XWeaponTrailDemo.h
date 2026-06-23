@@ -5,11 +5,11 @@
 namespace UnityEngine { class Animation; }
 namespace XftWeapon { class XWeaponTrail; }
 
-#define XWEAPONTRAILDEMO_ONGUI_OFFSET UNITYSDK_OFFSET(0x1B16B4B0)
-#define XWEAPONTRAILDEMO_START_OFFSET UNITYSDK_OFFSET(0x1B16ADE0)
-#define XWEAPONTRAILDEMO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B16BD70)
+#define XWEAPONTRAILDEMO_ONGUI_OFFSET UNITYSDK_OFFSET(0x1D56BEC0)
+#define XWEAPONTRAILDEMO_START_OFFSET UNITYSDK_OFFSET(0x1D56B7F0)
+#define XWEAPONTRAILDEMO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56C780)
 
-inline static constexpr unsigned int XWeaponTrailDemo_TypeDefinitionIndex = 37671;
+inline static constexpr unsigned int XWeaponTrailDemo_TypeDefinitionIndex = 39297;
 
 class XWeaponTrailDemo : public ::UnityEngine::MonoBehaviour
 {

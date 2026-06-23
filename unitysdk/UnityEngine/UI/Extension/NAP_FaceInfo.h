@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_EXTENSION_NAP_FACEINFO_GET_LINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x81C8D0)
+#define UNITYENGINE_UI_EXTENSION_NAP_FACEINFO_GET_LINEHEIGHT_OFFSET UNITYSDK_OFFSET(0x9AEAE0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_FaceInfo_TypeDefinitionIndex = 72404;
+	inline static constexpr unsigned int NAP_FaceInfo_TypeDefinitionIndex = 70782;
 
 	struct alignas(4) NAP_FaceInfo
 	{

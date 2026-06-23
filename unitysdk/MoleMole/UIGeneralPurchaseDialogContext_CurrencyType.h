@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPurchaseDialogContext_CurrencyType_TypeDefinitionIndex = 62837;
+	inline static constexpr unsigned int UIGeneralPurchaseDialogContext_CurrencyType_TypeDefinitionIndex = 76153;
 
 	enum class UIGeneralPurchaseDialogContext_CurrencyType : ::System::Int32
 	{
-		Game = 0,
 		RMB = 1,
+		Game = 0,
 	};
 }

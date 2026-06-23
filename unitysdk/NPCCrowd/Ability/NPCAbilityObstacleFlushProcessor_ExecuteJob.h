@@ -12,11 +12,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x573220)
+#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5B2120)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityObstacleFlushProcessor_ExecuteJob_TypeDefinitionIndex = 43750;
+	inline static constexpr unsigned int NPCAbilityObstacleFlushProcessor_ExecuteJob_TypeDefinitionIndex = 43402;
 
 	struct alignas(8) NPCAbilityObstacleFlushProcessor_ExecuteJob
 	{

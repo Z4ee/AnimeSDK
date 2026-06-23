@@ -11,7 +11,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ContinuationTaskFromResultTask_1_TypeDefinitionIndex = 922;
+	inline static constexpr unsigned int ContinuationTaskFromResultTask_1_TypeDefinitionIndex = 921;
 
 	template <typename TAntecedentResult>
 	class ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task

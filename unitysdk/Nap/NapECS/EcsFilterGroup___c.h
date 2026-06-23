@@ -5,24 +5,24 @@
 namespace Nap::NapECS { class EcsComponent; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define NAP_NAPECS_ECSFILTERGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192D8F10)
-#define NAP_NAPECS_ECSFILTERGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192D8F50)
-#define NAP_NAPECS_ECSFILTERGROUP___C__REFRESH_B__14_0_OFFSET UNITYSDK_OFFSET(0x192D8F60)
+#define NAP_NAPECS_ECSFILTERGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F7D00)
+#define NAP_NAPECS_ECSFILTERGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F7D40)
+#define NAP_NAPECS_ECSFILTERGROUP___C__REFRESH_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B2F7D50)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsFilterGroup___c_TypeDefinitionIndex = 35669;
+	inline static constexpr unsigned int EcsFilterGroup___c_TypeDefinitionIndex = 37367;
 
 	class EcsFilterGroup___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__14_0()
 		{
-			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup___c_TypeDefinitionIndex)->GetStaticField(0x26E20);
+			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup___c_TypeDefinitionIndex)->GetStaticField(0x28AA0);
 		}
 		static ::Nap::NapECS::EcsFilterGroup___c** StaticGet___9()
 		{
-			return (::Nap::NapECS::EcsFilterGroup___c**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup___c_TypeDefinitionIndex)->GetStaticField(0x26E28);
+			return (::Nap::NapECS::EcsFilterGroup___c**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup___c_TypeDefinitionIndex)->GetStaticField(0x28AA8);
 		}
 
 		static ::System::Void _cctor()

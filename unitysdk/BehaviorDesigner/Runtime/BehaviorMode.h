@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorMode_TypeDefinitionIndex = 31688;
+	inline static constexpr unsigned int BehaviorMode_TypeDefinitionIndex = 33239;
 
 	enum class BehaviorMode : ::System::Int32
 	{

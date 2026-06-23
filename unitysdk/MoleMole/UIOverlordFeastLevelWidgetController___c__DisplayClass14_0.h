@@ -5,21 +5,21 @@
 namespace MoleMole { class UIOverlordFeastLevelWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E072F0)
-#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOPLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x12E07610)
+#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C6A5A0)
+#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_0__DOPLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x14C6A8C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 81867;
+	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 48862;
 
 	class UIOverlordFeastLevelWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIOverlordFeastLevelWidgetController* __4__this; // 0x10
 		::System::Action* onFinish; // 0x18
-		::System::Single prvProgress; // 0x20
+		::System::Single duration; // 0x20
 		::System::Single curProgress; // 0x24
-		::System::Single duration; // 0x28
+		::System::Single prvProgress; // 0x28
 
 		::System::Void _ctor()
 		{

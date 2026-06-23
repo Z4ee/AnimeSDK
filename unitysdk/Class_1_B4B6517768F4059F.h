@@ -3,10 +3,10 @@
 #include "unitysdk/MoleMole/GalGame/ChatSetAvatarVisible.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B4B6517768F4059F_METHOD_1_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0x11C160F0)
-#define CLASS_1_B4B6517768F4059F__CTOR_OFFSET UNITYSDK_OFFSET(0x11C160E0)
+#define CLASS_1_B4B6517768F4059F_METHOD_1_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0x15639EF0)
+#define CLASS_1_B4B6517768F4059F__CTOR_OFFSET UNITYSDK_OFFSET(0x15639EE0)
 
-inline static constexpr unsigned int Class_1_B4B6517768F4059F_TypeDefinitionIndex = 80872;
+inline static constexpr unsigned int Class_1_B4B6517768F4059F_TypeDefinitionIndex = 45517;
 
 class Class_1_B4B6517768F4059F : public ::System::Object
 {

@@ -3,13 +3,13 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 36620;
+	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 38279;
 
 	enum class FullBodyBipedChain : ::System::Int32
 	{
+		LeftLeg = 2,
 		LeftArm = 0,
 		RightArm = 1,
-		LeftLeg = 2,
 		RightLeg = 3,
 	};
 }

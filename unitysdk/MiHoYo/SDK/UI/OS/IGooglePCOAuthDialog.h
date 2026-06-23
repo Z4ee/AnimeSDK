@@ -6,7 +6,7 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IGooglePCOAuthDialog_TypeDefinitionIndex = 19318;
+	inline static constexpr unsigned int IGooglePCOAuthDialog_TypeDefinitionIndex = 20234;
 
 	class IGooglePCOAuthDialog
 	{

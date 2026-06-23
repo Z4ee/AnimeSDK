@@ -3,7 +3,7 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int IHollowEntitySection_TypeDefinitionIndex = 43921;
+	inline static constexpr unsigned int IHollowEntitySection_TypeDefinitionIndex = 83918;
 
 	class IHollowEntitySection
 	{

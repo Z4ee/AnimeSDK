@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_MYLOGGERSWITCHER_SERIALIZESTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE57220)
+#define FOUNDATION_MYLOGGERSWITCHER_SERIALIZESTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A5AF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLoggerSwitcher_SerializeStruct_TypeDefinitionIndex = 7820;
+	inline static constexpr unsigned int MyLoggerSwitcher_SerializeStruct_TypeDefinitionIndex = 8242;
 
 	class MyLoggerSwitcher_SerializeStruct : public ::System::Object
 	{

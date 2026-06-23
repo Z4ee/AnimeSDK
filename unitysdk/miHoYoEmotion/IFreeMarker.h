@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int IFreeMarker_TypeDefinitionIndex = 37734;
+	inline static constexpr unsigned int IFreeMarker_TypeDefinitionIndex = 39340;
 
 	class IFreeMarker
 	{

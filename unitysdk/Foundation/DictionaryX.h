@@ -11,11 +11,11 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_DICTIONARYX_PUSHTOLIST_OFFSET UNITYSDK_OFFSET(0x19DA2FA0)
+#define FOUNDATION_DICTIONARYX_PUSHTOLIST_OFFSET UNITYSDK_OFFSET(0x1BFDE280)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DictionaryX_TypeDefinitionIndex = 7945;
+	inline static constexpr unsigned int DictionaryX_TypeDefinitionIndex = 8156;
 
 	class DictionaryX : public ::System::Object
 	{

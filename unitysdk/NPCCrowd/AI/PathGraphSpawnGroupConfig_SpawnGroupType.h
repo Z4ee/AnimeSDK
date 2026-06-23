@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnGroupConfig_SpawnGroupType_TypeDefinitionIndex = 58994;
+	inline static constexpr unsigned int PathGraphSpawnGroupConfig_SpawnGroupType_TypeDefinitionIndex = 78348;
 
 	enum class PathGraphSpawnGroupConfig_SpawnGroupType : ::System::Int32
 	{
-		GuidePointPath = 1,
 		None = 0,
+		GuidePointPath = 1,
 		CrossingBatchSpawn = 2,
 	};
 }

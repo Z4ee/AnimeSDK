@@ -9,11 +9,11 @@ namespace System { template <typename T> class IProgress_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x1C37E8A0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x1E6BF8A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_TypeDefinitionIndex = 28651;
+	inline static constexpr unsigned int UnityAsyncExtensions_TypeDefinitionIndex = 31307;
 
 	class UnityAsyncExtensions : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIREALTIMEQTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1301B6D0)
+#define MOLEMOLE_UIREALTIMEQTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B9B0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRealtimeQTEContext_TypeDefinitionIndex = 39539;
+	inline static constexpr unsigned int UIRealtimeQTEContext_TypeDefinitionIndex = 45027;
 
 	class UIRealtimeQTEContext : public ::MoleMole::UIControllerContextBase
 	{

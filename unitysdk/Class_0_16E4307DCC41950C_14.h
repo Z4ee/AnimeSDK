@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/Struct_2_D57A57246A9544D0.h"
 
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+inline static constexpr unsigned int Class_0_16E4307DCC41950C_14_TypeDefinitionIndex = 49995;
 
-inline static constexpr unsigned int Class_0_16E4307DCC41950C_14_TypeDefinitionIndex = 33054;
-
-template <typename T>
+template <typename TPose, typename TIntrinsics, typename TOuterCtx>
 class Class_0_16E4307DCC41950C_14
 {
 public:

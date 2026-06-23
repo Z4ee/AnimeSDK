@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1BBF3480)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1BBF3490)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1BBF3670)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF3810)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF37D0)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1E372780)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1E372790)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1E372970)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E372B10)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG_MULTIVERSIONDIFFCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E372AD0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 7970;
+	inline static constexpr unsigned int MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 7739;
 
 	class MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::Foundation::MultiVersionDiffConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionInfo*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x7310);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionErrorRef*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionErrorRef*>*>**)Il2CppClass::FromTypeDefinitionIndex(MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x7318);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionErrorRef*>*>**)Il2CppClass::FromTypeDefinitionIndex(MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x7490);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionInfo*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::Foundation::MultiVersionInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(MultiVersionDiffConfig_MultiVersionDiffConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x7498);
 		}
 
 		::System::Void _ctor()

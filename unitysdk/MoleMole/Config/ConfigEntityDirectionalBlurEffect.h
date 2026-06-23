@@ -8,30 +8,30 @@
 
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETDIRECTION_OFFSET UNITYSDK_OFFSET(0x186B5230)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x186B5060)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x186B51B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x186B5140)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETSAMPLEDISTANCEMODE_OFFSET UNITYSDK_OFFSET(0x186B50D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x186B52A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETDIRECTION_OFFSET UNITYSDK_OFFSET(0x106D2F60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x106D2D90)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x106D2EE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x106D2E70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT_GETSAMPLEDISTANCEMODE_OFFSET UNITYSDK_OFFSET(0x106D2E00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x106D2FD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityDirectionalBlurEffect_TypeDefinitionIndex = 48466;
+	inline static constexpr unsigned int ConfigEntityDirectionalBlurEffect_TypeDefinitionIndex = 51539;
 
 	class ConfigEntityDirectionalBlurEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
 		::MoleMole::Config::ScreenEffectFloat* radius; // 0x40
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x48
-		::UnityEngine::Vector2 direction; // 0x4C
+		::UnityEngine::Vector2 direction; // 0x48
+		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0x50
 		::System::Int32 sampleCount; // 0x54
-		::MoleMole::Config::ScreenEffectFieldHandleType directionHandleType; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0x5C
+		::UnityEngine::Rendering::Universal::SampleDistanceMode sampleDistanceMode; // 0x58
+		::UnityEngine::Rendering::Universal::DownSampleLevel downSample; // 0x5C
 		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0x60
-		::UnityEngine::Rendering::Universal::DownSampleLevel downSample; // 0x64
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleDistanceModeHandleType; // 0x68
-		::UnityEngine::Rendering::Universal::SampleDistanceMode sampleDistanceMode; // 0x6C
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x64
+		::MoleMole::Config::ScreenEffectFieldHandleType directionHandleType; // 0x68
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleDistanceModeHandleType; // 0x6C
 
 		::System::Void _ctor()
 		{

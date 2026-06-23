@@ -9,9 +9,9 @@ namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskComplet
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_944E370CE399E537_METHOD_1_473C67C87378873A_OFFSET UNITYSDK_OFFSET(0x141CC1D0)
+#define CLASS_1_944E370CE399E537_METHOD_1_473C67C87378873A_OFFSET UNITYSDK_OFFSET(0x113B0140)
 
-inline static constexpr unsigned int Class_1_944E370CE399E537_TypeDefinitionIndex = 60448;
+inline static constexpr unsigned int Class_1_944E370CE399E537_TypeDefinitionIndex = 54478;
 
 class Class_1_944E370CE399E537 : public ::System::Object
 {

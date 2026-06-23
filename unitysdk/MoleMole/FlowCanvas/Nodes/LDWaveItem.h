@@ -15,31 +15,31 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_CREATEITEMCO_OFFSET UNITYSDK_OFFSET(0x1499ACB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_GETCREATERESULTS_OFFSET UNITYSDK_OFFSET(0x1499AD30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1499A910)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_SPAWNITEM_OFFSET UNITYSDK_OFFSET(0x1499ADE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_STARTCREATE_OFFSET UNITYSDK_OFFSET(0x1499AB30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1499B340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_CREATEITEMCO_OFFSET UNITYSDK_OFFSET(0x1710FCF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_GETCREATERESULTS_OFFSET UNITYSDK_OFFSET(0x1710FD70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1710F950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_SPAWNITEM_OFFSET UNITYSDK_OFFSET(0x1710FE20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM_STARTCREATE_OFFSET UNITYSDK_OFFSET(0x1710FB70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17110380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveItem_TypeDefinitionIndex = 42901;
+	inline static constexpr unsigned int LDWaveItem_TypeDefinitionIndex = 51425;
 
 	class LDWaveItem : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::FlowOutput* finishOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* itemIdInput; // 0xB8
-		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::Class_2_208CC9941471731A_131*, ::System::Int32>>* itemList; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Single>* defaultIntervalInput; // 0xC8
-		::UnityEngine::Coroutine* createCo; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::CreateItemData*>*>* createList; // 0xD8
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::UInt32>*>* itemIdListOutput; // 0xE0
-		::System::Collections::Generic::List_1<::System::UInt32>* createIdList; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* itemIdInput; // 0xB0
+		::System::Collections::Generic::List_1<::System::UInt32>* createIdList; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::CreateItemData*>*>* createList; // 0xC0
+		::UnityEngine::Coroutine* createCo; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Single>* defaultIntervalInput; // 0xD0
+		::FlowCanvas::FlowOutput* finishOutput; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* defaultActiveInput; // 0xE0
+		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::Class_2_208CC9941471731A_131*, ::System::Int32>>* itemList; // 0xE8
 		::FlowCanvas::ValueInput_1<::System::Int32>* overridePickTypeInput; // 0xF0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* defaultActiveInput; // 0xF8
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::UInt32>*>* itemIdListOutput; // 0xF8
 		::System::Boolean runInCo; // 0x100
 
 		::System::Void _ctor()

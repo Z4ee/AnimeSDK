@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderURPLit_WorkflowMode_TypeDefinitionIndex = 85018;
+	inline static constexpr unsigned int TextureBlenderURPLit_WorkflowMode_TypeDefinitionIndex = 90592;
 
 	enum class TextureBlenderURPLit_WorkflowMode : ::System::Int32
 	{

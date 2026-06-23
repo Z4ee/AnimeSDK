@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_196;
+class Class_1_6A3A26AD0CB7F995;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_470_TypeDefinitionIndex = 62877;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_470_TypeDefinitionIndex = 72724;
 
 class Class_0_16E4307DCC419505_470
 {

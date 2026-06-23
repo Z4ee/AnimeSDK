@@ -6,11 +6,11 @@
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define FOUNDATION_ANIMATIONCLIPX_DRAWSAMPLEANIMATION_OFFSET UNITYSDK_OFFSET(0x1B714B00)
+#define FOUNDATION_ANIMATIONCLIPX_DRAWSAMPLEANIMATION_OFFSET UNITYSDK_OFFSET(0x1DA2FF30)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AnimationClipX_TypeDefinitionIndex = 7977;
+	inline static constexpr unsigned int AnimationClipX_TypeDefinitionIndex = 7971;
 
 	class AnimationClipX : public ::System::Object
 	{

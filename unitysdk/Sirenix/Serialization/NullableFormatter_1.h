@@ -9,7 +9,7 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int NullableFormatter_1_TypeDefinitionIndex = 7347;
+	inline static constexpr unsigned int NullableFormatter_1_TypeDefinitionIndex = 7479;
 
 	template <typename T>
 	class NullableFormatter_1 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::Nullable_1<T>>

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_ECardClampType_TypeDefinitionIndex = 41823;
+	inline static constexpr unsigned int UIGalgamePageController_ECardClampType_TypeDefinitionIndex = 54897;
 
 	enum class UIGalgamePageController_ECardClampType : ::System::Int32
 	{

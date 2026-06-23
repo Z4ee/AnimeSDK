@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define COLORWHEELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1907C8A0)
+#define COLORWHEELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB5700)
 
-inline static constexpr unsigned int ColorWheelAttribute_TypeDefinitionIndex = 29527;
+inline static constexpr unsigned int ColorWheelAttribute_TypeDefinitionIndex = 26412;
 
 class ColorWheelAttribute : public ::UnityEngine::PropertyAttribute
 {

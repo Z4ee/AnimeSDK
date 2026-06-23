@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MESSAGEPACK_NIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x48CD40)
-#define MESSAGEPACK_NIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x949200)
-#define MESSAGEPACK_NIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x304470)
-#define MESSAGEPACK_NIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x949250)
-#define MESSAGEPACK_NIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF27CE0)
+#define MESSAGEPACK_NIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x4BFE90)
+#define MESSAGEPACK_NIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x9EB670)
+#define MESSAGEPACK_NIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x332AB0)
+#define MESSAGEPACK_NIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9EB6C0)
+#define MESSAGEPACK_NIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D34E170)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Nil_TypeDefinitionIndex = 26872;
+	inline static constexpr unsigned int Nil_TypeDefinitionIndex = 30632;
 
 	struct alignas(1) Nil
 	{
 		static ::MessagePack::Nil* StaticGet_Default()
 		{
-			return (::MessagePack::Nil*)Il2CppClass::FromTypeDefinitionIndex(Nil_TypeDefinitionIndex)->GetStaticField(0x49E0);
+			return (::MessagePack::Nil*)Il2CppClass::FromTypeDefinitionIndex(Nil_TypeDefinitionIndex)->GetStaticField(0x7AB0);
 		}
 
 		static ::System::Void _cctor()

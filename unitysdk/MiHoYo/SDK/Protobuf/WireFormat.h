@@ -3,12 +3,12 @@
 #include "unitysdk/MiHoYo/SDK/Protobuf/WireFormat_WireType.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PROTOBUF_WIREFORMAT_GETTAGFIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1BF96CD0)
-#define MIHOYO_SDK_PROTOBUF_WIREFORMAT_GETTAGWIRETYPE_OFFSET UNITYSDK_OFFSET(0x1BF96CC0)
+#define MIHOYO_SDK_PROTOBUF_WIREFORMAT_GETTAGFIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1E2C9EC0)
+#define MIHOYO_SDK_PROTOBUF_WIREFORMAT_GETTAGWIRETYPE_OFFSET UNITYSDK_OFFSET(0x1E2C9EB0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 25977;
+	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 28471;
 
 	class WireFormat : public ::System::Object
 	{

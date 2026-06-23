@@ -4,13 +4,13 @@
 
 namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 
-#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF44660)
-#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__TO_B__0_OFFSET UNITYSDK_OFFSET(0x1BF44670)
-#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__TO_B__1_OFFSET UNITYSDK_OFFSET(0x1BF44680)
+#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E26BF90)
+#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__TO_B__0_OFFSET UNITYSDK_OFFSET(0x1E26BFA0)
+#define DG_TWEENING_DOTWEEN___C__DISPLAYCLASS52_0__TO_B__1_OFFSET UNITYSDK_OFFSET(0x1E26BFB0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTween___c__DisplayClass52_0_TypeDefinitionIndex = 25345;
+	inline static constexpr unsigned int DOTween___c__DisplayClass52_0_TypeDefinitionIndex = 27836;
 
 	class DOTween___c__DisplayClass52_0 : public ::System::Object
 	{

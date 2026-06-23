@@ -12,13 +12,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline::Comic { class MainInfoPlayableAsset_DialogueTextStruct; }
 
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BC68EC0)
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1BC68F70)
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC68F80)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DFAC550)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1DFAC600)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFAC610)
 
 namespace UnityEngine::Timeline::Comic
 {
-	inline static constexpr unsigned int MainInfoPlayableAsset_TypeDefinitionIndex = 30907;
+	inline static constexpr unsigned int MainInfoPlayableAsset_TypeDefinitionIndex = 32458;
 
 	class MainInfoPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

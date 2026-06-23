@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraUpdateProbePass_ProbeClipmapEntry_TypeDefinitionIndex = 30513;
+	inline static constexpr unsigned int LyraUpdateProbePass_ProbeClipmapEntry_TypeDefinitionIndex = 26445;
 
 	struct alignas(4) LyraUpdateProbePass_ProbeClipmapEntry
 	{

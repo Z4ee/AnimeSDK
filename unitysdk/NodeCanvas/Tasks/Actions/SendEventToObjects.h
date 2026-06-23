@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B463FE0)
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B464050)
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4643F0)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D8298E0)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D829950)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENTTOOBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D829CF0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendEventToObjects_TypeDefinitionIndex = 27088;
+	inline static constexpr unsigned int SendEventToObjects_TypeDefinitionIndex = 29566;
 
 	class SendEventToObjects : public ::NodeCanvas::Framework::ActionTask
 	{

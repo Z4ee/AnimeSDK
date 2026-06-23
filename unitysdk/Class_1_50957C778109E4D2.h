@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_50957C778109E4D2_METHOD_1_B7937F375B231980_OFFSET UNITYSDK_OFFSET(0xB4E5070)
-#define CLASS_1_50957C778109E4D2_METHOD_1_DFCBD1685FB122E4_OFFSET UNITYSDK_OFFSET(0xB4E5590)
-#define CLASS_1_50957C778109E4D2__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E5020)
+#define CLASS_1_50957C778109E4D2_METHOD_1_B7937F375B231980_OFFSET UNITYSDK_OFFSET(0x114B9A10)
+#define CLASS_1_50957C778109E4D2_METHOD_1_DFCBD1685FB122E4_OFFSET UNITYSDK_OFFSET(0x114B9F30)
+#define CLASS_1_50957C778109E4D2__CTOR_OFFSET UNITYSDK_OFFSET(0x114B99C0)
 
-inline static constexpr unsigned int Class_1_50957C778109E4D2_TypeDefinitionIndex = 43324;
+inline static constexpr unsigned int Class_1_50957C778109E4D2_TypeDefinitionIndex = 67020;
 
 class Class_1_50957C778109E4D2 : public ::System::Object
 {
@@ -25,13 +25,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector2, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_1_50957C778109E4D2__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_DFCBD1685FB122E4(::UnityEngine::Transform* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_50957C778109E4D2_METHOD_1_DFCBD1685FB122E4_OFFSET))(this, a1);
-	}
-
 	static ::Struct_2_A3F7BC7FD0AC1E07 Method_1_B7937F375B231980(::System::String* a1, ::UnityEngine::Vector2 a2)
 	{
 		return ((::Struct_2_A3F7BC7FD0AC1E07(*)(::System::String*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_50957C778109E4D2_METHOD_1_B7937F375B231980_OFFSET))(a1, a2);
+	}
+
+	::System::Void Method_1_DFCBD1685FB122E4(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_50957C778109E4D2_METHOD_1_DFCBD1685FB122E4_OFFSET))(this, a1);
 	}
 };

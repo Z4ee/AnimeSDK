@@ -5,58 +5,58 @@
 namespace System { class String; }
 namespace ZXing::QrCode::Internal { class Version; }
 
-#define ZXING_QRCODE_INTERNAL_MODE_GETCHARACTERCOUNTBITS_OFFSET UNITYSDK_OFFSET(0x1888CBD0)
-#define ZXING_QRCODE_INTERNAL_MODE_GET_BITS_OFFSET UNITYSDK_OFFSET(0x18894DD0)
-#define ZXING_QRCODE_INTERNAL_MODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18894DE0)
-#define ZXING_QRCODE_INTERNAL_MODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18894DF0)
-#define ZXING_QRCODE_INTERNAL_MODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18894DC0)
+#define ZXING_QRCODE_INTERNAL_MODE_GETCHARACTERCOUNTBITS_OFFSET UNITYSDK_OFFSET(0x1AB62180)
+#define ZXING_QRCODE_INTERNAL_MODE_GET_BITS_OFFSET UNITYSDK_OFFSET(0x1AB6A380)
+#define ZXING_QRCODE_INTERNAL_MODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AB6A390)
+#define ZXING_QRCODE_INTERNAL_MODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB6A3A0)
+#define ZXING_QRCODE_INTERNAL_MODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB6A370)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Mode_TypeDefinitionIndex = 8673;
+	inline static constexpr unsigned int Mode_TypeDefinitionIndex = 19171;
 
 	class Mode : public ::System::Object
 	{
 	public:
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_ECI()
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_BYTE()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7BF0);
-		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_ALPHANUMERIC()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7BF8);
-		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_NUMERIC()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C00);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E30);
 		}
 		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_SECOND_POSITION()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C08);
-		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_KANJI()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C10);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E38);
 		}
 		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_FIRST_POSITION()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C18);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E40);
 		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_STRUCTURED_APPEND()
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_ECI()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C20);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E48);
 		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_BYTE()
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_ALPHANUMERIC()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C28);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E50);
 		}
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_HANZI()
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_KANJI()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C30);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E58);
 		}
 		static ::ZXing::QrCode::Internal::Mode** StaticGet_TERMINATOR()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x7C38);
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E60);
+		}
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_NUMERIC()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E68);
+		}
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_STRUCTURED_APPEND()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E70);
+		}
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_HANZI()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)Il2CppClass::FromTypeDefinitionIndex(Mode_TypeDefinitionIndex)->GetStaticField(0x8E78);
 		}
 		::Il2CppArray<::System::Int32>* characterCountBitsForVersions; // 0x10
 		::System::String* name; // 0x18

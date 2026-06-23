@@ -5,7 +5,7 @@
 namespace MoleMole::Project::Config { class AbyssS2SceneTemplateExt; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_2_E621E51D351EB960_1_Struct_2_0313EBE05DC81997_TypeDefinitionIndex = 69733;
+inline static constexpr unsigned int Class_2_E621E51D351EB960_1_Struct_2_0313EBE05DC81997_TypeDefinitionIndex = 56132;
 
 struct alignas(8) Class_2_E621E51D351EB960_1_Struct_2_0313EBE05DC81997
 {

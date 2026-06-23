@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDSSPLITELINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA79170)
+#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDSSPLITELINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDACA0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int TaskFieldsSpliteLineAttribute_TypeDefinitionIndex = 31660;
+	inline static constexpr unsigned int TaskFieldsSpliteLineAttribute_TypeDefinitionIndex = 33211;
 
 	class TaskFieldsSpliteLineAttribute : public ::System::Attribute
 	{

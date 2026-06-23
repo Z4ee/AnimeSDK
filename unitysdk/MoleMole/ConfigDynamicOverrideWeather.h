@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGDYNAMICOVERRIDEWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x159FE760)
+#define MOLEMOLE_CONFIGDYNAMICOVERRIDEWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1272C500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigDynamicOverrideWeather_TypeDefinitionIndex = 75200;
+	inline static constexpr unsigned int ConfigDynamicOverrideWeather_TypeDefinitionIndex = 76941;
 
 	class ConfigDynamicOverrideWeather : public ::Foundation::MihoyoSerializedScriptableObject
 	{

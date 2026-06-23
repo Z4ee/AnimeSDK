@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int IPlayableAsset_TypeDefinitionIndex = 6260;
+	inline static constexpr unsigned int IPlayableAsset_TypeDefinitionIndex = 6286;
 
 	class IPlayableAsset
 	{

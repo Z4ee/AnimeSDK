@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIGDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA5740)
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIGDATA___C__DISPLAYCLASS2_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x16AA5750)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIGDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158BF530)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIGDATA___C__DISPLAYCLASS2_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x158BF540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIScriptConfigData___c__DisplayClass2_0_TypeDefinitionIndex = 61750;
+	inline static constexpr unsigned int LevelGlobalAIScriptConfigData___c__DisplayClass2_0_TypeDefinitionIndex = 54603;
 
 	class LevelGlobalAIScriptConfigData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* finishCallback; // 0x10
+		::System::String* dataName; // 0x10
 		::System::Action_1<::System::Single>* moveOneStepCallback; // 0x18
-		::System::String* dataName; // 0x20
+		::System::Action_1<::System::String*>* finishCallback; // 0x20
 		::System::Single progressSpan; // 0x28
 
 		::System::Void _ctor()

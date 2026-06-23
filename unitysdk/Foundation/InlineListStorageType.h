@@ -3,11 +3,11 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InlineListStorageType_TypeDefinitionIndex = 9160;
+	inline static constexpr unsigned int InlineListStorageType_TypeDefinitionIndex = 8675;
 
 	enum class InlineListStorageType : ::System::Int32
 	{
-		Secondary = 1,
 		Inline = 0,
+		Secondary = 1,
 	};
 }

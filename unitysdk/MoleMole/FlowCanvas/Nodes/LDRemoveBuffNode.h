@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUFFNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x149974D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUFFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14997670)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUFFNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1710C540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUFFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1710C6E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRemoveBuffNode_TypeDefinitionIndex = 77726;
+	inline static constexpr unsigned int LDRemoveBuffNode_TypeDefinitionIndex = 64285;
 
 	class LDRemoveBuffNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Int32, ::System::Int32>
 	{

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ListExt_TypeDefinitionIndex = 8216;
+	inline static constexpr unsigned int ListExt_TypeDefinitionIndex = 8078;
 
 	class ListExt : public ::System::Object
 	{

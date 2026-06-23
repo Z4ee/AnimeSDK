@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class SplitScreenEvent_CustomImgPosModifyInfo; }
 
-#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_GETEDITORSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1C449720)
-#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C449760)
+#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_GETEDITORSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1E759040)
+#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E759080)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SplitScreenEvent_TypeDefinitionIndex = 30781;
+	inline static constexpr unsigned int SplitScreenEvent_TypeDefinitionIndex = 32332;
 
 	class SplitScreenEvent : public ::UnityEngine::Timeline::KeyEventBase
 	{

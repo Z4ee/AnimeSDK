@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPersonalRowWidgetController_State_TypeDefinitionIndex = 56854;
+	inline static constexpr unsigned int UIMainStoryPersonalRowWidgetController_State_TypeDefinitionIndex = 45676;
 
 	enum class UIMainStoryPersonalRowWidgetController_State : ::System::Int32
 	{
-		Ready = 2,
-		Invalid = 0,
-		Complete = 4,
 		Locked = 1,
+		Invalid = 0,
+		Ready = 2,
 		Afk = 3,
+		Complete = 4,
 	};
 }

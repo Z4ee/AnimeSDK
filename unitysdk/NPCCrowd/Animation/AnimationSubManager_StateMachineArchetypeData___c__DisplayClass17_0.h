@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerParameterInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD253D80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA___C__DISPLAYCLASS17_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD253D90)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA68DC00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEARCHETYPEDATA___C__DISPLAYCLASS17_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xA68DC10)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeData___c__DisplayClass17_0_TypeDefinitionIndex = 70489;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeData___c__DisplayClass17_0_TypeDefinitionIndex = 57385;
 
 	class AnimationSubManager_StateMachineArchetypeData___c__DisplayClass17_0 : public ::System::Object
 	{

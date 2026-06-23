@@ -11,6 +11,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ENapGIQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NAPShaderQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SSAOQuality.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/SSDOQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/TAAQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/TransparentMatQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumetricFogQuality.h"
@@ -19,17 +20,18 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/GpuGrassShadowType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightLodQuality.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/RTXAOQuality.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/VolumetricCloudV2Quality.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace MoleMole { class PerformanceSettingProfile; }
 
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET UNITYSDK_OFFSET(0xDB8D5B0)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET UNITYSDK_OFFSET(0xDB8E0E0)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D0F0)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET UNITYSDK_OFFSET(0x106B3060)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET UNITYSDK_OFFSET(0x106B3C50)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x106B3C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 40996;
+	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 84326;
 
 	class CommandLinePerformanceSetting : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::PerformanceSettingProfile*, ::MoleMole::CommandLinePerformanceSetting*>
 	{
@@ -86,78 +88,81 @@ namespace MoleMole
 		::System::Nullable_1<::System::Boolean> LightLoopAfterGbuffer; // 0x172
 		::System::Nullable_1<::System::Boolean> napSubpassOpt; // 0x174
 		::System::Nullable_1<::System::Boolean> napSubpassOptMore; // 0x176
-		::System::Nullable_1<::System::Boolean> oneLightPerPassOpt; // 0x178
-		::System::Nullable_1<::System::Single> oneLightPerPassOptScreenRatioSqr; // 0x17C
-		::System::Nullable_1<::System::Boolean> SeparateAfterGbufferPass; // 0x184
-		::System::Nullable_1<::System::Boolean> ShadowAfterGBuffer; // 0x186
-		::System::Nullable_1<::System::Boolean> DisableGbufferCB; // 0x188
-		::System::Nullable_1<::System::Boolean> LightLoopOpt; // 0x18A
-		::System::Nullable_1<::System::Boolean> LightLoopInitOpt; // 0x18C
-		::System::Nullable_1<::System::Int32> LightLoopThreadNum; // 0x190
-		::System::Nullable_1<::System::Int32> LightLoopLog2ClusterNum; // 0x198
-		::System::Nullable_1<::System::Single> LightLoopLogBase; // 0x1A0
-		::System::Nullable_1<::System::Boolean> napDeferredOpt; // 0x1A8
-		::System::Nullable_1<::System::Boolean> SampleIBLOpt; // 0x1AA
-		::System::Nullable_1<::System::Boolean> EnableRefactorLayout; // 0x1AC
-		::System::Nullable_1<::System::Boolean> GbufferPreZOpt; // 0x1AE
-		::System::Nullable_1<::System::Boolean> PLSEnable; // 0x1B0
-		::System::Nullable_1<::System::UInt32> PLSAtlasResolution; // 0x1B4
-		::System::Nullable_1<::System::Single> PLSDynamicUpdateDistance; // 0x1BC
-		::System::Nullable_1<::System::Single> PLSLocalLightCastShadowDistance; // 0x1C4
-		::System::Nullable_1<::System::Single> PLSNoSkipDistance; // 0x1CC
-		::System::Nullable_1<::System::UInt32> PLSSkipUpdateFrames; // 0x1D4
-		::System::Nullable_1<::System::UInt32> PLSMaxShadowedLightCount; // 0x1DC
-		::System::Nullable_1<::System::UInt32> PLSMaxDynamicUpdatesPerFrame; // 0x1E4
-		::System::Nullable_1<::System::UInt32> PLSMaxStaticUpdatesPerFrame; // 0x1EC
-		::System::Nullable_1<::MoleMole::FrameRateInterpolateType> FrameRateInterpolate; // 0x1F4
-		::System::Nullable_1<::System::Boolean> LodGroupDisableCulled; // 0x1FC
-		::System::Nullable_1<::System::Single> SceneEtherEffectObjectFadeDistance; // 0x200
-		::System::Nullable_1<::System::Boolean> EnableLoopSubdivision; // 0x208
-		::System::Nullable_1<::System::Boolean> EnableAdaptiveStrategies; // 0x20A
-		::System::Nullable_1<::System::Single> FrontFaceCullingBias; // 0x20C
-		::System::Nullable_1<::System::Single> FrontFaceCullingToleranceBias; // 0x214
-		::System::Nullable_1<::System::Single> ScreenLengthCullingBias; // 0x21C
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::LightLodQuality> LightLodQuality; // 0x224
-		::System::Nullable_1<::System::Single> LightFadeLodBias; // 0x22C
-		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::ENapGIQuality> NapGIQuality; // 0x234
-		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::VolumetricFogQuality> VolumetricCloudQuality; // 0x23C
-		::System::Nullable_1<::System::Single> RainDropCountScale; // 0x244
-		::System::Nullable_1<::System::Int32> RTXGIQualityPreset; // 0x24C
-		::System::Nullable_1<::System::Single> RTXGIResolutionScale; // 0x254
-		::System::Nullable_1<::System::Single> RTXGIRayBudget; // 0x25C
-		::System::Nullable_1<::System::Boolean> EnableForwardGBuffer; // 0x264
-		::System::Nullable_1<::System::Int32> RTXGIHighQualityShader; // 0x268
-		::System::Nullable_1<::System::Int32> RTXGIQualityPresetPFScene; // 0x270
-		::System::Nullable_1<::System::Single> RTXGIResolutionScalePFScene; // 0x278
-		::System::Nullable_1<::System::Single> RTXGIRayBudgetPFScene; // 0x280
-		::System::Nullable_1<::System::Boolean> EnableForwardGBufferPFScene; // 0x288
-		::System::Nullable_1<::System::Int32> RTXGIHighQualityShaderPFScene; // 0x28C
-		::System::Nullable_1<::System::Boolean> WaterGen; // 0x294
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterGenQuality> WaterGenQuality; // 0x298
-		::System::Nullable_1<::System::Boolean> WaterGenPFScene; // 0x2A0
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterGenQuality> WaterGenQualityPFScene; // 0x2A4
-		::System::Nullable_1<::System::Boolean> WaterGenBeforeGbuffer; // 0x2AC
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterInteractQuality> WaterInteractionQuality; // 0x2B0
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterInteractQuality> WaterInteractionQualityPFScene; // 0x2B8
-		::System::Nullable_1<::MoleMole::InLevelNPCCrowdLevel> InLevelNPCCrowd; // 0x2C0
-		::System::Nullable_1<::MoleMole::NapAnisotropicSamplingType> AnisotropicSamplingType; // 0x2C8
-		::System::Nullable_1<::System::Int32> MaxAnisotropicSamplingLevel; // 0x2D0
-		::System::Nullable_1<::System::Boolean> disableDecalHeightMap; // 0x2D8
-		::System::Nullable_1<::System::Boolean> useBakedDecal; // 0x2DA
-		::System::Nullable_1<::System::Single> decalFadeDistanceBias; // 0x2DC
-		::System::Nullable_1<::System::Boolean> forceUseBakedDecalForSpecialScene; // 0x2E4
-		::System::Nullable_1<::System::Boolean> useFPTLLightCulling; // 0x2E6
-		::System::Nullable_1<::System::Boolean> disableParallaxMapForDecal; // 0x2E8
-		::System::Nullable_1<::System::Single> SceneFurLayerCountScale; // 0x2EC
+		::System::Nullable_1<::System::Int32> cpuQualityLevel; // 0x178
+		::System::Nullable_1<::System::Boolean> oneLightPerPassOpt; // 0x180
+		::System::Nullable_1<::System::Single> oneLightPerPassOptScreenRatioSqr; // 0x184
+		::System::Nullable_1<::System::Boolean> SeparateAfterGbufferPass; // 0x18C
+		::System::Nullable_1<::System::Boolean> ShadowAfterGBuffer; // 0x18E
+		::System::Nullable_1<::System::Boolean> DisableGbufferCB; // 0x190
+		::System::Nullable_1<::System::Boolean> LightLoopOpt; // 0x192
+		::System::Nullable_1<::System::Boolean> LightLoopInitOpt; // 0x194
+		::System::Nullable_1<::System::Int32> LightLoopThreadNum; // 0x198
+		::System::Nullable_1<::System::Int32> LightLoopLog2ClusterNum; // 0x1A0
+		::System::Nullable_1<::System::Single> LightLoopLogBase; // 0x1A8
+		::System::Nullable_1<::System::Boolean> napDeferredOpt; // 0x1B0
+		::System::Nullable_1<::System::Boolean> SampleIBLOpt; // 0x1B2
+		::System::Nullable_1<::System::Boolean> EnableRefactorLayout; // 0x1B4
+		::System::Nullable_1<::System::Boolean> GbufferPreZOpt; // 0x1B6
+		::System::Nullable_1<::System::Boolean> PLSEnable; // 0x1B8
+		::System::Nullable_1<::System::UInt32> PLSAtlasResolution; // 0x1BC
+		::System::Nullable_1<::System::Single> PLSDynamicUpdateDistance; // 0x1C4
+		::System::Nullable_1<::System::Single> PLSLocalLightCastShadowDistance; // 0x1CC
+		::System::Nullable_1<::System::Single> PLSNoSkipDistance; // 0x1D4
+		::System::Nullable_1<::System::UInt32> PLSSkipUpdateFrames; // 0x1DC
+		::System::Nullable_1<::System::UInt32> PLSMaxShadowedLightCount; // 0x1E4
+		::System::Nullable_1<::System::UInt32> PLSMaxDynamicUpdatesPerFrame; // 0x1EC
+		::System::Nullable_1<::System::UInt32> PLSMaxStaticUpdatesPerFrame; // 0x1F4
+		::System::Nullable_1<::MoleMole::FrameRateInterpolateType> FrameRateInterpolate; // 0x1FC
+		::System::Nullable_1<::System::Boolean> LodGroupDisableCulled; // 0x204
+		::System::Nullable_1<::System::Single> SceneEtherEffectObjectFadeDistance; // 0x208
+		::System::Nullable_1<::System::Boolean> EnableLoopSubdivision; // 0x210
+		::System::Nullable_1<::System::Boolean> EnableAdaptiveStrategies; // 0x212
+		::System::Nullable_1<::System::Single> FrontFaceCullingBias; // 0x214
+		::System::Nullable_1<::System::Single> FrontFaceCullingToleranceBias; // 0x21C
+		::System::Nullable_1<::System::Single> ScreenLengthCullingBias; // 0x224
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::LightLodQuality> LightLodQuality; // 0x22C
+		::System::Nullable_1<::System::Single> LightFadeLodBias; // 0x234
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::ENapGIQuality> NapGIQuality; // 0x23C
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::VolumetricFogQuality> VolumetricCloudQuality; // 0x244
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::VolumetricCloudV2Quality> VolumetricCloudV2Quality; // 0x24C
+		::System::Nullable_1<::System::Single> RainDropCountScale; // 0x254
+		::System::Nullable_1<::System::Int32> RTXGIQualityPreset; // 0x25C
+		::System::Nullable_1<::System::Single> RTXGIResolutionScale; // 0x264
+		::System::Nullable_1<::System::Single> RTXGIRayBudget; // 0x26C
+		::System::Nullable_1<::System::Boolean> EnableForwardGBuffer; // 0x274
+		::System::Nullable_1<::System::Int32> RTXGIQualityPresetPFScene; // 0x278
+		::System::Nullable_1<::System::Single> RTXGIResolutionScalePFScene; // 0x280
+		::System::Nullable_1<::System::Single> RTXGIRayBudgetPFScene; // 0x288
+		::System::Nullable_1<::System::Boolean> EnableForwardGBufferPFScene; // 0x290
+		::System::Nullable_1<::System::Boolean> WaterGen; // 0x292
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterGenQuality> WaterGenQuality; // 0x294
+		::System::Nullable_1<::System::Boolean> WaterGenPFScene; // 0x29C
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterGenQuality> WaterGenQualityPFScene; // 0x2A0
+		::System::Nullable_1<::System::Boolean> WaterGenBeforeGbuffer; // 0x2A8
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterInteractQuality> WaterInteractionQuality; // 0x2AC
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::EWaterInteractQuality> WaterInteractionQualityPFScene; // 0x2B4
+		::System::Nullable_1<::MoleMole::InLevelNPCCrowdLevel> InLevelNPCCrowd; // 0x2BC
+		::System::Nullable_1<::MoleMole::NapAnisotropicSamplingType> AnisotropicSamplingType; // 0x2C4
+		::System::Nullable_1<::System::Int32> MaxAnisotropicSamplingLevel; // 0x2CC
+		::System::Nullable_1<::System::Boolean> disableDecalHeightMap; // 0x2D4
+		::System::Nullable_1<::System::Boolean> useBakedDecal; // 0x2D6
+		::System::Nullable_1<::System::Single> decalFadeDistanceBias; // 0x2D8
+		::System::Nullable_1<::System::Boolean> forceUseBakedDecalForSpecialScene; // 0x2E0
+		::System::Nullable_1<::System::Boolean> useFPTLLightCulling; // 0x2E2
+		::System::Nullable_1<::System::Boolean> disableParallaxMapForDecal; // 0x2E4
+		::System::Nullable_1<::System::Single> SceneFurLayerCountScale; // 0x2E8
+		::System::Nullable_1<::System::Boolean> enableSceneV2RainRipple; // 0x2F0
 		::System::Nullable_1<::System::Int32> SceneMaxFurLayer; // 0x2F4
 		::System::Nullable_1<::System::Int32> gpuGrassMeshLodBias; // 0x2FC
 		::System::Nullable_1<::System::Single> gpuGrassDistanceCullingBias; // 0x304
 		::System::Nullable_1<::UnityEngine::Rendering::Universal::GpuGrassShadowType> gpuGrassShadowType; // 0x30C
-		::System::Nullable_1<::System::Boolean> needExtraDownSampleForFrostedGlass; // 0x314
-		::System::Nullable_1<::System::Boolean> enableParticleLightCountOptimize; // 0x316
-		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_EntityCreate> Vo_EntityCreate; // 0x318
-		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSAOQuality> ssaoMaxQuality; // 0x328
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::RTXAOQuality> rtxAOQuality; // 0x330
+		::System::Nullable_1<::System::Boolean> enableInteractiveLeaves; // 0x314
+		::System::Nullable_1<::System::Boolean> needExtraDownSampleForFrostedGlass; // 0x316
+		::System::Nullable_1<::System::Boolean> enableParticleLightCountOptimize; // 0x318
+		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_EntityCreate> Vo_EntityCreate; // 0x320
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSAOQuality> ssaoMaxQuality; // 0x348
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::RTXAOQuality> rtxAOQuality; // 0x350
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSDOQuality> ssdoQuality; // 0x358
 
 		::System::Void _ctor()
 		{

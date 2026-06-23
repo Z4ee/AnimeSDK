@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_0BC937355C326A37_OFFSET UNITYSDK_OFFSET(0x1817D6F0)
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_5715BE153D24F100_OFFSET UNITYSDK_OFFSET(0x1817E330)
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_6215A8999654A40E_OFFSET UNITYSDK_OFFSET(0x1817E2E0)
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_959545BFD49B48E1_OFFSET UNITYSDK_OFFSET(0x1817D4B0)
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_B28EA912AECCA006_OFFSET UNITYSDK_OFFSET(0x1817E170)
-#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_CE10274E26837E7C_OFFSET UNITYSDK_OFFSET(0x7E1F30)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_0BC937355C326A37_OFFSET UNITYSDK_OFFSET(0x15CD0BF0)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_5715BE153D24F100_OFFSET UNITYSDK_OFFSET(0x15CD0B80)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_6215A8999654A40E_OFFSET UNITYSDK_OFFSET(0x15CD0BA0)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_959545BFD49B48E1_OFFSET UNITYSDK_OFFSET(0x15CCFEE0)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_B28EA912AECCA006_OFFSET UNITYSDK_OFFSET(0x15CD0A10)
+#define STRUCT_2_CD98FADAE8C4CACF_METHOD_2_CE10274E26837E7C_OFFSET UNITYSDK_OFFSET(0x80BEA0)
 
-inline static constexpr unsigned int Struct_2_CD98FADAE8C4CACF_TypeDefinitionIndex = 48711;
+inline static constexpr unsigned int Struct_2_CD98FADAE8C4CACF_TypeDefinitionIndex = 58406;
 
 struct alignas(8) Struct_2_CD98FADAE8C4CACF
 {
@@ -33,11 +33,6 @@ struct alignas(8) Struct_2_CD98FADAE8C4CACF
 		return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_959545BFD49B48E1_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
-	static ::System::Single Method_2_0BC937355C326A37(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
-	{
-		return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_0BC937355C326A37_OFFSET))(a1, a2, a3, a4);
-	}
-
 	/*
 	::PipelineCamera::WorldBasicCameraData Method_2_CE10274E26837E7C()
 	{
@@ -50,13 +45,18 @@ struct alignas(8) Struct_2_CD98FADAE8C4CACF
 		return ((::UnityEngine::Vector3(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_B28EA912AECCA006_OFFSET))(a1, a2);
 	}
 
+	static ::System::Single Method_2_5715BE153D24F100(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::AnimationCurve* a3)
+	{
+		return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_5715BE153D24F100_OFFSET))(a1, a2, a3);
+	}
+
 	static ::UnityEngine::Vector3 Method_2_6215A8999654A40E(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{
 		return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_6215A8999654A40E_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Single Method_2_5715BE153D24F100(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::AnimationCurve* a3)
+	static ::System::Single Method_2_0BC937355C326A37(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 	{
-		return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_5715BE153D24F100_OFFSET))(a1, a2, a3);
+		return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CD98FADAE8C4CACF_METHOD_2_0BC937355C326A37_OFFSET))(a1, a2, a3, a4);
 	}
 };

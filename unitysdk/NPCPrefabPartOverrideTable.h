@@ -5,9 +5,9 @@
 class NPCCrowdMaterialOverrideParamsInfo;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCPREFABPARTOVERRIDETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x112C9290)
+#define NPCPREFABPARTOVERRIDETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D957E0)
 
-inline static constexpr unsigned int NPCPrefabPartOverrideTable_TypeDefinitionIndex = 81354;
+inline static constexpr unsigned int NPCPrefabPartOverrideTable_TypeDefinitionIndex = 81034;
 
 class NPCPrefabPartOverrideTable : public ::System::Object
 {

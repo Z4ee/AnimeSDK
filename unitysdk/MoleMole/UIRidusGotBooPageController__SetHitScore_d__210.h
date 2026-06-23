@@ -7,20 +7,20 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__SETHITSCORE_D__210_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x778FD0)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__SETHITSCORE_D__210_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__SETHITSCORE_D__210_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F7580)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__SETHITSCORE_D__210_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__SetHitScore_d__210_TypeDefinitionIndex = 75516;
+	inline static constexpr unsigned int UIRidusGotBooPageController__SetHitScore_d__210_TypeDefinitionIndex = 40700;
 
 	struct alignas(8) UIRidusGotBooPageController__SetHitScore_d__210
 	{
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::System::Boolean showState; // 0x30
-		::System::Int32 __1__state; // 0x34
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x28
+		::System::Int32 __1__state; // 0x30
+		::System::Boolean showState; // 0x34
 		::System::Int32 score; // 0x38
 
 		::System::Void MoveNext()

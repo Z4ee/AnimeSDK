@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDPlayParallelTimeline; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYPARALLELTIMELINE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3D1E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYPARALLELTIMELINE___C__DISPLAYCLASS10_0__PLAYTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x18A3D1F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYPARALLELTIMELINE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA1C60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYPARALLELTIMELINE___C__DISPLAYCLASS10_0__PLAYTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x16CA1C70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayParallelTimeline___c__DisplayClass10_0_TypeDefinitionIndex = 42474;
+	inline static constexpr unsigned int LDPlayParallelTimeline___c__DisplayClass10_0_TypeDefinitionIndex = 62587;
 
 	class LDPlayParallelTimeline___c__DisplayClass10_0 : public ::System::Object
 	{

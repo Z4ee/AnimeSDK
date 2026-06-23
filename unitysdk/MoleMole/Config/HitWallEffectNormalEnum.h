@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitWallEffectNormalEnum_TypeDefinitionIndex = 42915;
+	inline static constexpr unsigned int HitWallEffectNormalEnum_TypeDefinitionIndex = 46599;
 
 	enum class HitWallEffectNormalEnum : ::System::Int32
 	{
-		BulletOrRayForward = 1,
 		ReverseHitNormal = 0,
+		BulletOrRayForward = 1,
 	};
 }

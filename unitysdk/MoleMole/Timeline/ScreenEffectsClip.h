@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class ScreenEffectsBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1237D1D0)
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1237D1C0)
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1237D3B0)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13F32710)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x13F32700)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13F328F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ScreenEffectsClip_TypeDefinitionIndex = 54203;
+	inline static constexpr unsigned int ScreenEffectsClip_TypeDefinitionIndex = 86230;
 
 	class ScreenEffectsClip : public ::UnityEngine::Playables::PlayableAsset
 	{

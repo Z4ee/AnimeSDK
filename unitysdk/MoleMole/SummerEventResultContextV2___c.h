@@ -7,24 +7,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EB77E0)
-#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB7820)
-#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__GET_ROWDATALIST_B__10_0_OFFSET UNITYSDK_OFFSET(0x13EB7830)
+#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12656830)
+#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12656870)
+#define MOLEMOLE_SUMMEREVENTRESULTCONTEXTV2___C__GET_ROWDATALIST_B__10_0_OFFSET UNITYSDK_OFFSET(0x12656880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventResultContextV2___c_TypeDefinitionIndex = 40602;
+	inline static constexpr unsigned int SummerEventResultContextV2___c_TypeDefinitionIndex = 86169;
 
 	class SummerEventResultContextV2___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::SummerEventResultContextV2___c** StaticGet___9()
-		{
-			return (::MoleMole::SummerEventResultContextV2___c**)Il2CppClass::FromTypeDefinitionIndex(SummerEventResultContextV2___c_TypeDefinitionIndex)->GetStaticField(0x2E910);
-		}
 		static ::System::Func_2<::System::ValueTuple_2<::System::String*, ::System::String*>, ::MoleMole::UIHollowResultInfoRowNewWidgetController_RowData>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::String*, ::System::String*>, ::MoleMole::UIHollowResultInfoRowNewWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventResultContextV2___c_TypeDefinitionIndex)->GetStaticField(0x2E918);
+			return (::System::Func_2<::System::ValueTuple_2<::System::String*, ::System::String*>, ::MoleMole::UIHollowResultInfoRowNewWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventResultContextV2___c_TypeDefinitionIndex)->GetStaticField(0x308A0);
+		}
+		static ::MoleMole::SummerEventResultContextV2___c** StaticGet___9()
+		{
+			return (::MoleMole::SummerEventResultContextV2___c**)Il2CppClass::FromTypeDefinitionIndex(SummerEventResultContextV2___c_TypeDefinitionIndex)->GetStaticField(0x308A8);
 		}
 
 		static ::System::Void _cctor()

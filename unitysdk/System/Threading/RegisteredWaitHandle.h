@@ -8,11 +8,11 @@ namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 namespace System::Threading { class WaitOrTimerCallback; }
 
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AC5BAD0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AC5BC70)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x1AC5B0A0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC5BDB0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5B000)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D069480)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D069620)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x1D068A50)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D069760)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0689B0)
 
 namespace System::Threading
 {
@@ -21,15 +21,15 @@ namespace System::Threading
 	class RegisteredWaitHandle : public ::System::MarshalByRefObject
 	{
 	public:
-		::System::Threading::WaitHandle* _finalEvent; // 0x18
-		::System::Threading::WaitOrTimerCallback* _callback; // 0x20
-		::System::Object* _state; // 0x28
-		::System::Threading::WaitHandle* _waitObject; // 0x30
-		::System::Threading::ManualResetEvent* _cancelEvent; // 0x38
-		::System::TimeSpan _timeout; // 0x40
-		::System::Int32 _callsInProcess; // 0x48
-		::System::Boolean _unregistered; // 0x4C
-		::System::Boolean _executeOnlyOnce; // 0x4D
+		::System::Object* _state; // 0x18
+		::System::Threading::ManualResetEvent* _cancelEvent; // 0x20
+		::System::Threading::WaitOrTimerCallback* _callback; // 0x28
+		::System::Threading::WaitHandle* _finalEvent; // 0x30
+		::System::Threading::WaitHandle* _waitObject; // 0x38
+		::System::Boolean _executeOnlyOnce; // 0x40
+		::System::Boolean _unregistered; // 0x41
+		::System::Int32 _callsInProcess; // 0x44
+		::System::TimeSpan _timeout; // 0x48
 
 		::System::Void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, ::System::Boolean executeOnlyOnce)
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_DESIGN_FIELDDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A906D50)
+#define PARADOXNOTION_DESIGN_FIELDDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D399B80)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int FieldDropDownAttribute_TypeDefinitionIndex = 27106;
+	inline static constexpr unsigned int FieldDropDownAttribute_TypeDefinitionIndex = 30464;
 
 	class FieldDropDownAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

@@ -8,7 +8,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int EnumFormatter_1___c__DisplayClass4_0_TypeDefinitionIndex = 85752;
+	inline static constexpr unsigned int EnumFormatter_1___c__DisplayClass4_0_TypeDefinitionIndex = 91326;
 
 	template <typename T>
 	class EnumFormatter_1___c__DisplayClass4_0 : public ::System::Object

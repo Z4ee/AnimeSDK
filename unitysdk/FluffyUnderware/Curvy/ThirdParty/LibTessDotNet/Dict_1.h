@@ -7,7 +7,7 @@ namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet { template <typename
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 25923;
+	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 28417;
 
 	template <typename TValue>
 	class Dict_1 : public ::System::Object

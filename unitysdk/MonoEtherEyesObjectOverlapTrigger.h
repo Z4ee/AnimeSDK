@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define MONOETHEREYESOBJECTOVERLAPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x10A24200)
+#define MONOETHEREYESOBJECTOVERLAPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA75D0)
 
-inline static constexpr unsigned int MonoEtherEyesObjectOverlapTrigger_TypeDefinitionIndex = 54473;
+inline static constexpr unsigned int MonoEtherEyesObjectOverlapTrigger_TypeDefinitionIndex = 61891;
 
 class MonoEtherEyesObjectOverlapTrigger : public ::UnityEngine::MonoBehaviour
 {

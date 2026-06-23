@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCOREBYTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x18207A50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCOREBYTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x18207CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCOREBYTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A01F5C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCOREBYTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01F860)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCoinBrushingAddLevelScoreByTag_TypeDefinitionIndex = 42434;
+	inline static constexpr unsigned int LDCoinBrushingAddLevelScoreByTag_TypeDefinitionIndex = 59784;
 
 	class LDCoinBrushingAddLevelScoreByTag : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

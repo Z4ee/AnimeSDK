@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BaseMoveType_TypeDefinitionIndex = 48991;
+	inline static constexpr unsigned int BaseMoveType_TypeDefinitionIndex = 82509;
 
 	enum class BaseMoveType : ::System::Int32
 	{
-		Away = 1,
-		Follow = 0,
 		Aside = 2,
 		Around = 3,
+		Away = 1,
+		Follow = 0,
 	};
 }

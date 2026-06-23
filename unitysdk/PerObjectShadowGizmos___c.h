@@ -6,27 +6,27 @@
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PEROBJECTSHADOWGIZMOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2F11F0)
-#define PEROBJECTSHADOWGIZMOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F1230)
-#define PEROBJECTSHADOWGIZMOS___C__DRAWGIZMOS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A2F1240)
-#define PEROBJECTSHADOWGIZMOS___C__DRAWGIZMOS_B__10_1_OFFSET UNITYSDK_OFFSET(0x1A2F1270)
+#define PEROBJECTSHADOWGIZMOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C434A80)
+#define PEROBJECTSHADOWGIZMOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C434AC0)
+#define PEROBJECTSHADOWGIZMOS___C__DRAWGIZMOS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C434AD0)
+#define PEROBJECTSHADOWGIZMOS___C__DRAWGIZMOS_B__10_1_OFFSET UNITYSDK_OFFSET(0x1C434B00)
 
-inline static constexpr unsigned int PerObjectShadowGizmos___c_TypeDefinitionIndex = 29628;
+inline static constexpr unsigned int PerObjectShadowGizmos___c_TypeDefinitionIndex = 26934;
 
 class PerObjectShadowGizmos___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>** StaticGet___9__10_1()
 	{
-		return (::System::Func_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x23370);
-	}
-	static ::PerObjectShadowGizmos___c** StaticGet___9()
-	{
-		return (::PerObjectShadowGizmos___c**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x23378);
+		return (::System::Func_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x20AA0);
 	}
 	static ::System::Func_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>** StaticGet___9__10_0()
 	{
-		return (::System::Func_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x23380);
+		return (::System::Func_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x20AA8);
+	}
+	static ::PerObjectShadowGizmos___c** StaticGet___9()
+	{
+		return (::PerObjectShadowGizmos___c**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos___c_TypeDefinitionIndex)->GetStaticField(0x20AB0);
 	}
 
 	static ::System::Void _cctor()

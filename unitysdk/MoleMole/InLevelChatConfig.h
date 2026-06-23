@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_INLEVELCHATCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F93230)
+#define MOLEMOLE_INLEVELCHATCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x14185C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelChatConfig_TypeDefinitionIndex = 38114;
+	inline static constexpr unsigned int InLevelChatConfig_TypeDefinitionIndex = 62725;
 
 	struct alignas(4) InLevelChatConfig
 	{
 		static ::MoleMole::InLevelChatConfig* StaticGet_Fallback()
 		{
-			return (::MoleMole::InLevelChatConfig*)Il2CppClass::FromTypeDefinitionIndex(InLevelChatConfig_TypeDefinitionIndex)->GetStaticField(0xD6F0);
+			return (::MoleMole::InLevelChatConfig*)Il2CppClass::FromTypeDefinitionIndex(InLevelChatConfig_TypeDefinitionIndex)->GetStaticField(0x112A0);
 		}
 		::UnityEngine::Vector3 ChatEntityOffset; // 0x10
 

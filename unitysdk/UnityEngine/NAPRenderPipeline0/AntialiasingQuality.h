@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int AntialiasingQuality_TypeDefinitionIndex = 5864;
+	inline static constexpr unsigned int AntialiasingQuality_TypeDefinitionIndex = 5871;
 
 	enum class AntialiasingQuality : ::System::Int32
 	{

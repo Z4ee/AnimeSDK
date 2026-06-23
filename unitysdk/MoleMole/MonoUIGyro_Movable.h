@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOUIGYRO_MOVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x13866400)
+#define MOLEMOLE_MONOUIGYRO_MOVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDDBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIGyro_Movable_TypeDefinitionIndex = 64178;
+	inline static constexpr unsigned int MonoUIGyro_Movable_TypeDefinitionIndex = 68993;
 
 	class MonoUIGyro_Movable : public ::System::Object
 	{

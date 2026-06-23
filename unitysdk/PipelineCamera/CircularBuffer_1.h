@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 36030;
+	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 37638;
 
 	template <typename T>
 	class CircularBuffer_1 : public ::System::Object

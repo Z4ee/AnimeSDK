@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_CONDITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x61E6F0)
+#define NPCCROWD_LOD_CONDITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x68F500)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int ConditionData_TypeDefinitionIndex = 74708;
+	inline static constexpr unsigned int ConditionData_TypeDefinitionIndex = 83273;
 
 	struct alignas(8) ConditionData
 	{

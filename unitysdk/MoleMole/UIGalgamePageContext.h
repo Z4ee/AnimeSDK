@@ -7,27 +7,29 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFA310)
+#define MOLEMOLE_UIGALGAMEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB7880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageContext_TypeDefinitionIndex = 51748;
+	inline static constexpr unsigned int UIGalgamePageContext_TypeDefinitionIndex = 77295;
 
 	class UIGalgamePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* FadeOutParam; // 0x28
-		::System::String* IntroKey; // 0x30
-		::System::Collections::Generic::List_1<::System::String*>* ExitSoundActionList; // 0x38
-		::System::Action* executeWhenFadeOutStartAction; // 0x40
-		::System::String* TitleKey; // 0x48
-		::System::Action* startOutsideFadeOutAction; // 0x50
-		::System::String* UIPlayMode; // 0x58
-		::System::String* FadeInParam; // 0x60
-		::Enum_3_97716B758EE03609 SwitchSceneOnStart; // 0x68
-		::System::Int32 PerformId; // 0x6C
-		::System::Boolean overrideFadeOutByOuside; // 0x70
-		::System::Boolean useProtectTime; // 0x71
+		::System::Action* executeWhenFadeOutStartAction; // 0x28
+		::System::String* UIPlayMode; // 0x30
+		::System::String* TitleKey; // 0x38
+		::System::String* FadeInParam; // 0x40
+		::System::Action* startOutsideFadeOutAction; // 0x48
+		::System::String* FadeOutParam; // 0x50
+		::System::String* IntroKey; // 0x58
+		::System::Collections::Generic::List_1<::System::String*>* ExitSoundActionList; // 0x60
+		::System::Int32 PerformId; // 0x68
+		::System::Boolean UseWhiteMaskFadeIn; // 0x6C
+		::System::Boolean UseWhiteMaskFadeOut; // 0x6D
+		::System::Boolean useProtectTime; // 0x6E
+		::System::Boolean overrideFadeOutByOuside; // 0x6F
+		::Enum_3_97716B758EE03609 SwitchSceneOnStart; // 0x70
 
 		::System::Void _ctor()
 		{

@@ -5,23 +5,23 @@
 
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA261A0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA25FB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA26200)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA26290)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA26320)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDB6CC0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDB6AD0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB6D20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDB6DB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDB6E40)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::Math
 {
-	inline static constexpr unsigned int Lerp_TypeDefinitionIndex = 32118;
+	inline static constexpr unsigned int Lerp_TypeDefinitionIndex = 33669;
 
 	class Lerp : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* fromValue; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* lerpAmount; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x68
-		::BehaviorDesigner::Runtime::SharedFloat* toValue; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* lerpAmount; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* toValue; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* fromValue; // 0x70
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls::Handshake
 {
-	inline static constexpr unsigned int ClientCertificateType_TypeDefinitionIndex = 2391;
+	inline static constexpr unsigned int ClientCertificateType_TypeDefinitionIndex = 2390;
 
 	enum class ClientCertificateType : ::System::Int32
 	{

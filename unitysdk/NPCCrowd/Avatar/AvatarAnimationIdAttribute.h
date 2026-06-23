@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define NPCCROWD_AVATAR_AVATARANIMATIONIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xFB57F00)
+#define NPCCROWD_AVATAR_AVATARANIMATIONIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDBEB0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int AvatarAnimationIdAttribute_TypeDefinitionIndex = 65054;
+	inline static constexpr unsigned int AvatarAnimationIdAttribute_TypeDefinitionIndex = 41137;
 
 	class AvatarAnimationIdAttribute : public ::UnityEngine::PropertyAttribute
 	{

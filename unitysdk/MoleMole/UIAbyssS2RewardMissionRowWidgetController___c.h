@@ -6,34 +6,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F24F70)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12F24FB0)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__INITREWARD_B__10_0_OFFSET UNITYSDK_OFFSET(0x12F25000)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__ONTAKEREWARDERRORHANDLE_B__7_0_OFFSET UNITYSDK_OFFSET(0x12F24FC0)
-#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__ONTAKEREWARDERRORHANDLE_B__7_1_OFFSET UNITYSDK_OFFSET(0x12F24FF0)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BEFCD0)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12BEFD10)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__INITREWARD_B__10_0_OFFSET UNITYSDK_OFFSET(0x12BEFE30)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__ONTAKEREWARDERRORHANDLE_B__7_0_OFFSET UNITYSDK_OFFSET(0x12BEFD20)
+#define MOLEMOLE_UIABYSSS2REWARDMISSIONROWWIDGETCONTROLLER___C__ONTAKEREWARDERRORHANDLE_B__7_1_OFFSET UNITYSDK_OFFSET(0x12BEFE20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex = 53969;
+	inline static constexpr unsigned int UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex = 52142;
 
 	class UIAbyssS2RewardMissionRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__7_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32520);
-		}
 		static ::MoleMole::UIAbyssS2RewardMissionRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2RewardMissionRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32528);
+			return (::MoleMole::UIAbyssS2RewardMissionRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x343D0);
 		}
 		static ::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32530);
+			return (::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x343D8);
 		}
 		static ::System::Action** StaticGet___9__7_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32538);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x343E0);
+		}
+		static ::System::Action** StaticGet___9__7_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RewardMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x343E8);
 		}
 
 		static ::System::Void _cctor()

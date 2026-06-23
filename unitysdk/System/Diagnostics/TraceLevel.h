@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int TraceLevel_TypeDefinitionIndex = 2770;
+	inline static constexpr unsigned int TraceLevel_TypeDefinitionIndex = 2769;
 
 	enum class TraceLevel : ::System::Int32
 	{

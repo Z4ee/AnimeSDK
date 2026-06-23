@@ -7,18 +7,18 @@ namespace System::Net { class UploadDataCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA5730)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__UPLOADDATATASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1AAA5740)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6EF0)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__UPLOADDATATASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1CED6F00)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebClient___c__DisplayClass237_0_TypeDefinitionIndex = 3454;
+	inline static constexpr unsigned int WebClient___c__DisplayClass237_0_TypeDefinitionIndex = 3453;
 
 	class WebClient___c__DisplayClass237_0 : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::TaskCompletionSource_1<::Il2CppArray<::System::Byte>*>* tcs; // 0x10
-		::System::Net::WebClient* __4__this; // 0x18
+		::System::Net::WebClient* __4__this; // 0x10
+		::System::Threading::Tasks::TaskCompletionSource_1<::Il2CppArray<::System::Byte>*>* tcs; // 0x18
 		::System::Net::UploadDataCompletedEventHandler* handler; // 0x20
 
 		::System::Void _ctor()

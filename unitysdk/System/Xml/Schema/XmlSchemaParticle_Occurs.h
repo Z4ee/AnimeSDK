@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaParticle_Occurs_TypeDefinitionIndex = 2181;
+	inline static constexpr unsigned int XmlSchemaParticle_Occurs_TypeDefinitionIndex = 2180;
 
 	enum class XmlSchemaParticle_Occurs : ::System::Int32
 	{

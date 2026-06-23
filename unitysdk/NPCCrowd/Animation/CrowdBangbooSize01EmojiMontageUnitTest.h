@@ -1,0 +1,270 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ENPCAvatarSize.h"
+#include "unitysdk/NPCCrowd/Ability/EMontageEndBehavior.h"
+#include "unitysdk/NPCCrowd/Ability/EMontagePriorityLayer.h"
+#include "unitysdk/NPCCrowd/Animation/CrowdUnitTestBase.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_FINDANYBANGBOOTAG_OFFSET UNITYSDK_OFFSET(0xA68F9D0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_FINDBANGBOOTAGBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68F790)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETBANGBOOSIZENUMBER_OFFSET UNITYSDK_OFFSET(0xA68FBB0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETBANGBOOSIZESUFFIX_OFFSET UNITYSDK_OFFSET(0xA68F1C0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETCPUANIMATIONDATAASSETPATH_OFFSET UNITYSDK_OFFSET(0xA68ECB0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0xA68F380)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTANIMATIONIDBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68E310)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTCPUANIMATIONDATAASSETPATHBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68EE10)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTGENERATEDMONTAGEFOLDERBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68EFF0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTMONTAGESTARTIDBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68E0A0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTTEMPLATEMONTAGEASSETPATHBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68E9F0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETEMOJIINDEXBYSPAWNINDEX_OFFSET UNITYSDK_OFFSET(0xA68DD00)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETEMOJIKEYBYSPAWNINDEX_OFFSET UNITYSDK_OFFSET(0xA68F280)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFALLBACKBANGBOOSIZE_OFFSET UNITYSDK_OFFSET(0xA68DDF0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFIXEDANIMATIONID_1_OFFSET UNITYSDK_OFFSET(0xA68E1F0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFIXEDANIMATIONID_OFFSET UNITYSDK_OFFSET(0xA68E1A0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETGENERATEDMONTAGEASSETNAME_OFFSET UNITYSDK_OFFSET(0xA68F070)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETGENERATEDMONTAGEFOLDER_OFFSET UNITYSDK_OFFSET(0xA68EE90)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETMONTAGEIDBYSPAWNINDEX_1_OFFSET UNITYSDK_OFFSET(0xA68DEA0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETMONTAGEIDBYSPAWNINDEX_OFFSET UNITYSDK_OFFSET(0xA68DD50)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETRESOLVEDMONTAGESTARTID_OFFSET UNITYSDK_OFFSET(0xA68DF00)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETTEMPLATEMONTAGEASSETPATH_OFFSET UNITYSDK_OFFSET(0xA68E920)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETVALIDATEDEMOJICOUNT_OFFSET UNITYSDK_OFFSET(0xA68DCA0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0xA68DC60)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISANIMATIONIDMATCHSIZE_OFFSET UNITYSDK_OFFSET(0xA68E360)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISMONTAGEIDMATCHSIZE_OFFSET UNITYSDK_OFFSET(0xA68E0F0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISVALIDBANGBOOSIZE_OFFSET UNITYSDK_OFFSET(0xA68FB70)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_NORMALIZEBANGBOOSIZE_OFFSET UNITYSDK_OFFSET(0xA68E020)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_REPLACEBANGBOOSIZETOKEN_OFFSET UNITYSDK_OFFSET(0xA68FC60)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVEBANGBOOSIZEBYCONFIG_OFFSET UNITYSDK_OFFSET(0xA68E410)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVEBANGBOOTAGID_OFFSET UNITYSDK_OFFSET(0xA68E470)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVERESOURCEPATHBYSIZE_OFFSET UNITYSDK_OFFSET(0xA68EB30)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_TRYPARSEBANGBOOSIZEBYPREFABID_OFFSET UNITYSDK_OFFSET(0xA68F5D0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_TRYPARSEBANGBOOSIZETOKEN_OFFSET UNITYSDK_OFFSET(0xA68FDA0)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST__CTOR_OFFSET UNITYSDK_OFFSET(0xA68FF40)
+#define NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST___BASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0xA68FFD0)
+
+namespace NPCCrowd::Animation
+{
+	inline static constexpr unsigned int CrowdBangbooSize01EmojiMontageUnitTest_TypeDefinitionIndex = 58739;
+
+	class CrowdBangbooSize01EmojiMontageUnitTest : public ::NPCCrowd::Animation::CrowdUnitTestBase
+	{
+	public:
+		// static const ::System::Int32 MaxEmojiCount = 0x24; // 0x0
+		// static const ::System::String* EmojiKeyPrefix; // 0x0
+		// static const ::System::String* SizePrefix; // 0x0
+		// static const ::System::String* BangbooMontageRoot; // 0x0
+		// static const ::System::String* BangbooCPUAnimationDataRoot; // 0x0
+		// static const ::System::Int32 BaseBangbooAnimationId = 0x59682F01; // 0x0
+		// static const ::System::Int32 BaseBangbooMontageStartId = 0x5968F638; // 0x0
+		// static const ::System::Int32 BangbooIdSizeStride = 0x186A0; // 0x0
+		// static const ::System::String* DefaultTemplateMontageAssetPathSize01; // 0x0
+		// static const ::System::String* DefaultTemplateMontageAssetPathSize02; // 0x0
+		// static const ::System::String* DefaultCPUAnimationDataAssetPathSize01; // 0x0
+		// static const ::System::String* DefaultCPUAnimationDataAssetPathSize02; // 0x0
+		// static const ::System::String* DefaultGeneratedMontageFolderSize01; // 0x0
+		// static const ::System::String* DefaultGeneratedMontageFolderSize02; // 0x0
+		// static const ::System::Int32 DefaultMontageStartIdSize01 = 0x596A7CD8; // 0x0
+		// static const ::System::Int32 DefaultMontageStartIdSize02 = 0x596C0378; // 0x0
+		// static const ::System::Int32 DefaultFixedAnimationIdSize01 = 0x5969B5A1; // 0x0
+		// static const ::System::Int32 DefaultFixedAnimationIdSize02 = 0x596B3C41; // 0x0
+		// static const ::System::String* DefaultTemplateMontageAssetPath; // 0x0
+		// static const ::System::String* DefaultCPUAnimationDataAssetPath; // 0x0
+		// static const ::System::String* DefaultGeneratedMontageFolder; // 0x0
+		::System::Int32 bangbooTestId; // 0x10
+		::ENPCAvatarSize defaultBangbooSize; // 0x14
+		::System::Int32 montageStartId; // 0x18
+		::System::Int32 emojiStartIndex; // 0x1C
+		::System::Int32 emojiCount; // 0x20
+		::System::Int32 fixedAnimationId; // 0x24
+		::NPCCrowd::Ability::EMontagePriorityLayer montageLayer; // 0x28
+		::NPCCrowd::Ability::EMontageEndBehavior montageEndBehavior; // 0x2C
+		::System::Single montageSpeed; // 0x30
+		::System::String* templateMontageAssetPath; // 0x38
+		::System::String* cpuAnimationDataAssetPath; // 0x40
+		::System::String* generatedMontageFolder; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_UnitTestCaseName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GET_UNITTESTCASENAME_OFFSET))(this);
+		}
+
+		::System::Int32 GetValidatedEmojiCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETVALIDATEDEMOJICOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 GetEmojiIndexBySpawnIndex(::System::Int32 spawnIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETEMOJIINDEXBYSPAWNINDEX_OFFSET))(this, spawnIndex);
+		}
+
+		::System::Int32 GetMontageIdBySpawnIndex(::System::Int32 spawnIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETMONTAGEIDBYSPAWNINDEX_OFFSET))(this, spawnIndex);
+		}
+
+		::System::Int32 GetMontageIdBySpawnIndex_1(::System::Int32 spawnIndex, ::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETMONTAGEIDBYSPAWNINDEX_1_OFFSET))(this, spawnIndex, resolvedSize);
+		}
+
+		::System::Int32 GetResolvedMontageStartId(::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::Int32(*)(::PVOID, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETRESOLVEDMONTAGESTARTID_OFFSET))(this, resolvedSize);
+		}
+
+		::System::Int32 GetFixedAnimationId()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFIXEDANIMATIONID_OFFSET))(this);
+		}
+
+		::System::Int32 GetFixedAnimationId_1(::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::Int32(*)(::PVOID, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFIXEDANIMATIONID_1_OFFSET))(this, resolvedSize);
+		}
+
+		::ENPCAvatarSize GetFallbackBangbooSize()
+		{
+			return ((::ENPCAvatarSize(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETFALLBACKBANGBOOSIZE_OFFSET))(this);
+		}
+
+		::ENPCAvatarSize ResolveBangbooSizeByConfig()
+		{
+			return ((::ENPCAvatarSize(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVEBANGBOOSIZEBYCONFIG_OFFSET))(this);
+		}
+
+		::System::String* GetTemplateMontageAssetPath(::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::String*(*)(::PVOID, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETTEMPLATEMONTAGEASSETPATH_OFFSET))(this, resolvedSize);
+		}
+
+		::System::String* GetCPUAnimationDataAssetPath(::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::String*(*)(::PVOID, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETCPUANIMATIONDATAASSETPATH_OFFSET))(this, resolvedSize);
+		}
+
+		::System::String* GetGeneratedMontageFolder(::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::String*(*)(::PVOID, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETGENERATEDMONTAGEFOLDER_OFFSET))(this, resolvedSize);
+		}
+
+		::System::String* GetGeneratedMontageAssetName(::System::Int32 emojiIndex, ::ENPCAvatarSize resolvedSize)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETGENERATEDMONTAGEASSETNAME_OFFSET))(this, emojiIndex, resolvedSize);
+		}
+
+		::System::String* GetEmojiKeyBySpawnIndex(::System::Int32 spawnIndex)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETEMOJIKEYBYSPAWNINDEX_OFFSET))(this, spawnIndex);
+		}
+
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* GetCrowdNpcTestCases()
+		{
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETCROWDNPCTESTCASES_OFFSET))(this);
+		}
+
+		::System::UInt32 ResolveBangbooTagId(::ENPCAvatarSize& resolvedSize)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::ENPCAvatarSize&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVEBANGBOOTAGID_OFFSET))(this, resolvedSize);
+		}
+
+		static ::System::UInt32 FindBangbooTagBySize(::ENPCAvatarSize targetSize, ::ENPCAvatarSize& resolvedSize)
+		{
+			return ((::System::UInt32(*)(::ENPCAvatarSize, ::ENPCAvatarSize&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_FINDBANGBOOTAGBYSIZE_OFFSET))(targetSize, resolvedSize);
+		}
+
+		static ::System::UInt32 FindAnyBangbooTag(::ENPCAvatarSize& resolvedSize)
+		{
+			return ((::System::UInt32(*)(::ENPCAvatarSize&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_FINDANYBANGBOOTAG_OFFSET))(resolvedSize);
+		}
+
+		static ::System::Boolean TryParseBangbooSizeByPrefabId(::System::Int32 prefabId, ::ENPCAvatarSize& size)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::ENPCAvatarSize&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_TRYPARSEBANGBOOSIZEBYPREFABID_OFFSET))(prefabId, size);
+		}
+
+		static ::ENPCAvatarSize NormalizeBangbooSize(::ENPCAvatarSize size)
+		{
+			return ((::ENPCAvatarSize(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_NORMALIZEBANGBOOSIZE_OFFSET))(size);
+		}
+
+		static ::System::Boolean IsValidBangbooSize(::ENPCAvatarSize size)
+		{
+			return ((::System::Boolean(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISVALIDBANGBOOSIZE_OFFSET))(size);
+		}
+
+		static ::System::Int32 GetBangbooSizeNumber(::ENPCAvatarSize size)
+		{
+			return ((::System::Int32(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETBANGBOOSIZENUMBER_OFFSET))(size);
+		}
+
+		static ::System::Int32 GetDefaultMontageStartIdBySize(::ENPCAvatarSize size)
+		{
+			return ((::System::Int32(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTMONTAGESTARTIDBYSIZE_OFFSET))(size);
+		}
+
+		static ::System::Int32 GetDefaultAnimationIdBySize(::ENPCAvatarSize size)
+		{
+			return ((::System::Int32(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTANIMATIONIDBYSIZE_OFFSET))(size);
+		}
+
+		static ::System::Boolean IsAnimationIdMatchSize(::System::Int32 animationId, ::ENPCAvatarSize size)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISANIMATIONIDMATCHSIZE_OFFSET))(animationId, size);
+		}
+
+		static ::System::Boolean IsMontageIdMatchSize(::System::Int32 montageId, ::ENPCAvatarSize size)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_ISMONTAGEIDMATCHSIZE_OFFSET))(montageId, size);
+		}
+
+		static ::System::String* ResolveResourcePathBySize(::System::String* configuredPath, ::System::String* defaultPath, ::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_RESOLVERESOURCEPATHBYSIZE_OFFSET))(configuredPath, defaultPath, size);
+		}
+
+		static ::System::String* ReplaceBangbooSizeToken(::System::String* path, ::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::System::String*, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_REPLACEBANGBOOSIZETOKEN_OFFSET))(path, size);
+		}
+
+		static ::System::Boolean TryParseBangbooSizeToken(::System::String* path, ::ENPCAvatarSize& size)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::ENPCAvatarSize&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_TRYPARSEBANGBOOSIZETOKEN_OFFSET))(path, size);
+		}
+
+		static ::System::String* GetDefaultTemplateMontageAssetPathBySize(::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTTEMPLATEMONTAGEASSETPATHBYSIZE_OFFSET))(size);
+		}
+
+		static ::System::String* GetDefaultCPUAnimationDataAssetPathBySize(::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTCPUANIMATIONDATAASSETPATHBYSIZE_OFFSET))(size);
+		}
+
+		static ::System::String* GetDefaultGeneratedMontageFolderBySize(::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETDEFAULTGENERATEDMONTAGEFOLDERBYSIZE_OFFSET))(size);
+		}
+
+		static ::System::String* GetBangbooSizeSuffix(::ENPCAvatarSize size)
+		{
+			return ((::System::String*(*)(::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST_GETBANGBOOSIZESUFFIX_OFFSET))(size);
+		}
+
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* __base_GetCrowdNpcTestCases()
+		{
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBANGBOOSIZE01EMOJIMONTAGEUNITTEST___BASE_GETCROWDNPCTESTCASES_OFFSET))(this);
+		}
+	};
+}

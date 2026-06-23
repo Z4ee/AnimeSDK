@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SCENEVIEWCAMERASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C22F3B0)
+#define SCENEVIEWCAMERASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E57AB20)
 
-inline static constexpr unsigned int SceneViewCameraSync_TypeDefinitionIndex = 36437;
+inline static constexpr unsigned int SceneViewCameraSync_TypeDefinitionIndex = 38045;
 
 class SceneViewCameraSync : public ::UnityEngine::MonoBehaviour
 {

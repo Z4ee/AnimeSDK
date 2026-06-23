@@ -4,7 +4,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 36542;
+	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 38243;
 
 	template <typename T>
 	class Singleton_1 : public ::UnityEngine::MonoBehaviour

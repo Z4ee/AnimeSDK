@@ -5,7 +5,7 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_1_5CAB5D67A51B976E_1_TypeDefinitionIndex = 50418;
+inline static constexpr unsigned int Class_1_5CAB5D67A51B976E_1_TypeDefinitionIndex = 86366;
 
 template <typename T>
 class Class_1_5CAB5D67A51B976E_1 : public ::System::Object

@@ -13,6 +13,7 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_FootStepSetting.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_LookAtIKSetting.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_TwoBonesIKSetting.h"
+#include "unitysdk/NPCCrowd/Animation/ENPCAnimationAvatarMaskType.h"
 #include "unitysdk/NPCCrowd/Chunk/ChunkView2D_1.h"
 #include "unitysdk/NPCCrowd/Chunk/ChunkView_1.h"
 #include "unitysdk/NPCCrowd/Chunk/ReadOnlyChunkView2D_1.h"
@@ -32,94 +33,107 @@ namespace NPCCrowd::Animation { class NPCAnimationLib_AvatarAnimatorCache; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationGraphDataset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Avatar; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDMASKLIST_OFFSET UNITYSDK_OFFSET(0xFC06B20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_CLEARCOLLECTDATA_OFFSET UNITYSDK_OFFSET(0xFC07510)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_COLLECT_OFFSET UNITYSDK_OFFSET(0xFC07660)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFC07BC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBLENDSHAPECURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFC03E80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBONEADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFC01D10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBONEINDEX_OFFSET UNITYSDK_OFFSET(0xFC02F90)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATECURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFC03510)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEFOOTSTEPSETTING_OFFSET UNITYSDK_OFFSET(0xFC01390)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATELOOKATIKSETTING_OFFSET UNITYSDK_OFFSET(0xFC044E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEMOTONRATIOCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFC03290)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEPELVISADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFC01270)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATETWOBONEIKSETTING_OFFSET UNITYSDK_OFFSET(0xFC00C80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETBLENDSHAPECURVEINDICES_OFFSET UNITYSDK_OFFSET(0xFC07400)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0xFC07380)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFC073C0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_BONEADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFC01350)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_BONEPARENTS_OFFSET UNITYSDK_OFFSET(0xFC01380)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_FOOTSTEPSETTING_OFFSET UNITYSDK_OFFSET(0xFC01330)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_ISCHUNKVALID_OFFSET UNITYSDK_OFFSET(0xFC07B60)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xFC07980)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_LEFTFOOTIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFC00EE0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_LEFTHANDIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFC00B30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_PELVISADJUSTCONFIG_OFFSET UNITYSDK_OFFSET(0xFC01180)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_RIGHTFOOTIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFC01030)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_RIGHTHANDIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFC00D80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_POSTCOLLECT_OFFSET UNITYSDK_OFFSET(0xFC07700)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_REBUILDCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFC07280)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFC04D50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDBLENDSHAPEMASKDATA_OFFSET UNITYSDK_OFFSET(0xFFB9120)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDBLENDSHAPENAMETOINDICES_OFFSET UNITYSDK_OFFSET(0xFFB93C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDMASKLIST_OFFSET UNITYSDK_OFFSET(0xFFB8890)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_CLEARCOLLECTDATA_OFFSET UNITYSDK_OFFSET(0xFFB9F50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_COLLECT_OFFSET UNITYSDK_OFFSET(0xFFBA0A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFBA600)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_FILLBLENDSHAPEMASKSLICE_OFFSET UNITYSDK_OFFSET(0xFFB97E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBLENDSHAPECURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB5BC0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBONEADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFFB3A50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEBONEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB4CD0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATECURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB5250)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEFOOTSTEPSETTING_OFFSET UNITYSDK_OFFSET(0xFFB30D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATELOOKATIKSETTING_OFFSET UNITYSDK_OFFSET(0xFFB6250)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEMOTONRATIOCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB4FD0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATEPELVISADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFFB2FA0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GENERATETWOBONEIKSETTING_OFFSET UNITYSDK_OFFSET(0xFFB29B0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETBLENDSHAPECURVEINDICES_OFFSET UNITYSDK_OFFSET(0xFFB9E40)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB9DC0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GETCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB9E00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_BONEADJUSTSETTING_OFFSET UNITYSDK_OFFSET(0xFFB3090)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_BONEPARENTS_OFFSET UNITYSDK_OFFSET(0xFFB30C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_CHUNKCOUNT_OFFSET UNITYSDK_OFFSET(0xFFB2800)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_FOOTSTEPSETTING_OFFSET UNITYSDK_OFFSET(0xFFB3060)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_ISCHUNKVALID_OFFSET UNITYSDK_OFFSET(0xFFBA5A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xFFBA3C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_LEFTFOOTIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFFB2C10)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_LEFTHANDIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFFB2860)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_PELVISADJUSTCONFIG_OFFSET UNITYSDK_OFFSET(0xFFB2EB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_RIGHTFOOTIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFFB2D60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_RIGHTHANDIKCONFIG_OFFSET UNITYSDK_OFFSET(0xFFB2AB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_POSTCOLLECT_OFFSET UNITYSDK_OFFSET(0xFFBA140)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_REBUILDCURVEINDEX_OFFSET UNITYSDK_OFFSET(0xFFB9000)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFFB6AC0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AvatarArchetypeData_TypeDefinitionIndex = 70464;
+	inline static constexpr unsigned int AnimationSubManager_AvatarArchetypeData_TypeDefinitionIndex = 57344;
 
 	class AnimationSubManager_AvatarArchetypeData : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 ChunkSizeBit = 0x4; // 0x0
-		::Il2CppArray<::System::Int32>* _curveIndices; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::Int32>*>* _blendShapeCurveIndices; // 0x18
-		::Il2CppArray<::Foundation::Container::NativeVector_1<::System::IntPtr>>* _chunkData; // 0x20
-		::UnityEngine::Avatar* _avatar; // 0x28
-		::Il2CppArray<::System::Int32>* _boneIndices; // 0x30
-		::NPCCrowd::Animation::AnimationSubManager_FootStepSetting _footStepSetting; // 0x38
-		::Foundation::Container::NativeVector_1<::System::Int32> _boneDimensions; // 0xE8
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _drivenBoneScaleDelta; // 0xF8
-		::Unity::Collections::NativeArray_1<::System::Int32> _triangleIndices; // 0x108
-		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> _coordRot; // 0x118
-		::Unity::Collections::NativeArray_1<::System::Int32> _exteriorEdges; // 0x128
-		::System::Int32 BlendShapeCount; // 0x138
-		::ENPCAvatarGender Gender; // 0x13C
-		::NPCCrowd::Animation::AnimationSubManager_BoneAdjustSetting _boneAdjustSetting; // 0x140
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment> _leftFootSegments; // 0x220
-		::Unity::Collections::NativeArray_1<::Foundation::BitSet256> LayerMaskList; // 0x230
-		::Unity::Collections::NativeArray_1<::Struct_2_6402D4A3EAB8BDC8> _drivenBone; // 0x240
-		::Unity::Collections::NativeArray_1<::Struct_2_4D1ACF3BA3E010AE> _lookAtEyes; // 0x250
-		::Foundation::Container::NativeVector_1<::System::Int32> _count; // 0x260
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _dirVec; // 0x270
-		::Unity::Collections::NativeArray_1<::System::Int32> _rightFootSegmentOffset; // 0x280
-		::Foundation::Container::NativeVector_1<::System::Int32> _boneAdjustDrivenBoneDimensions; // 0x290
-		::Unity::Collections::NativeArray_1<::System::Int32> _skeleton; // 0x2A0
-		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> _drivenBoneRotDelta; // 0x2B0
-		::Unity::Collections::NativeArray_1<::System::Int32> _targetPoseCount; // 0x2C0
-		::Unity::Collections::NativeArray_1<::Struct_2_85121BFD79A0E193> _lookAtSpines; // 0x2D0
-		::Unity::Collections::NativeArray_1<::System::Int32> _leftFootSegmentOffset; // 0x2E0
-		::Unity::Collections::NativeArray_1<::Struct_2_6402D4A3EAB8BDC8> _masterBone; // 0x2F0
-		::Unity::Collections::NativeArray_1<::System::Int32> _animIdArray; // 0x300
-		::ENPCAvatarSize Size; // 0x310
-		::System::Single _maxStretchRatio; // 0x314
-		::Foundation::Container::NativeVector_1<::System::Int32> _boneAdjustMasterBoneDimensions; // 0x318
-		::NPCCrowd::Animation::AnimationSubManager_LookAtIKSetting LookAtIKConfig; // 0x328
-		::System::Int64 VisibleCount; // 0x380
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _masterForwardBoneBindPos; // 0x388
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _drivenBonePosDelta; // 0x398
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment> _rightFootSegments; // 0x3A8
-		::System::Int32 AvatarId; // 0x3B8
-		::System::Int32 BoneAdjustMaxDrivenBoneCount; // 0x3BC
-		::System::Int32 BoneAdjustMasterBoneCount; // 0x3C0
-		::System::Single _startStretchRatio; // 0x3C4
-		::System::Int32 BoneCount; // 0x3C8
-		::Unity::Collections::NativeArray_1<::System::Int32> _drivenBoneCount; // 0x3D0
-		::Foundation::Container::NativeVector_1<::System::Int32> _blendShapeDimensions; // 0x3E0
+		::UnityEngine::Avatar* _avatar; // 0x10
+		::Il2CppArray<::Foundation::Container::NativeVector_1<::System::IntPtr>>* _chunkData; // 0x18
+		::Il2CppArray<::System::Int32>* _curveIndices; // 0x20
+		::Il2CppArray<::System::Int32>* _boneIndices; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::Int32>*>* _blendShapeCurveIndices; // 0x30
+		::NPCCrowd::Animation::AnimationSubManager_LookAtIKSetting LookAtIKConfig; // 0x38
+		::Unity::Collections::NativeArray_1<::System::Int32> _animIdArray; // 0x90
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _dirVec; // 0xA0
+		::Foundation::Container::NativeVector_1<::System::Int32> _count; // 0xB0
+		::Unity::Collections::NativeArray_1<::System::Int32> _exteriorEdges; // 0xC0
+		::Foundation::Container::NativeVector_1<::System::Int32> _blendShapeDimensions; // 0xD0
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _masterForwardBoneBindPos; // 0xE0
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _drivenBonePosDelta; // 0xF0
+		::Unity::Collections::NativeArray_1<::System::Int32> _triangleIndices; // 0x100
+		::System::Int32 BoneAdjustMasterBoneCount; // 0x110
+		::System::Int32 BoneAdjustMaxDrivenBoneCount; // 0x114
+		::Unity::Collections::NativeArray_1<::System::Int32> _targetPoseCount; // 0x118
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment> _rightFootSegments; // 0x128
+		::Unity::Collections::NativeArray_1<::Struct_2_85121BFD79A0E193> _lookAtSpines; // 0x138
+		::Foundation::Container::NativeVector_1<::System::Int32> _boneDimensions; // 0x148
+		::System::Int32 AvatarId; // 0x158
+		::ENPCAvatarSize Size; // 0x15C
+		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> _drivenBoneRotDelta; // 0x160
+		::Unity::Collections::NativeArray_1<::Struct_2_6402D4A3EAB8BDC8> _masterBone; // 0x170
+		::Unity::Collections::NativeArray_1<::Struct_2_4D1ACF3BA3E010AE> _lookAtEyes; // 0x180
+		::System::Int64 VisibleCount; // 0x190
+		::Unity::Collections::NativeArray_1<::Foundation::BitSet256> LayerMaskList; // 0x198
+		::Unity::Collections::NativeArray_1<::System::Int32> _leftFootSegmentOffset; // 0x1A8
+		::System::Int32 BlendShapeCount; // 0x1B8
+		::System::Boolean HasStateMachineArchetype; // 0x1BC
+		::Unity::Collections::NativeArray_1<::System::Byte> BlendShapeMaskValues; // 0x1C0
+		::ENPCAvatarGender Gender; // 0x1D0
+		::System::Single _startStretchRatio; // 0x1D4
+		::Unity::Collections::NativeArray_1<::System::Byte> BlendShapeMaskFullFlags; // 0x1D8
+		::Unity::Collections::NativeArray_1<::System::Int32> _drivenBoneCount; // 0x1E8
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment> _leftFootSegments; // 0x1F8
+		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> _coordRot; // 0x208
+		::Foundation::Container::NativeVector_1<::System::Int32> _boneAdjustDrivenBoneDimensions; // 0x218
+		::NPCCrowd::Animation::AnimationSubManager_BoneAdjustSetting _boneAdjustSetting; // 0x228
+		::System::Single _maxStretchRatio; // 0x308
+		::System::Int32 BoneCount; // 0x30C
+		::Unity::Collections::NativeArray_1<::Struct_2_6402D4A3EAB8BDC8> _drivenBone; // 0x310
+		::NPCCrowd::Animation::AnimationSubManager_FootStepSetting _footStepSetting; // 0x320
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> _drivenBoneScaleDelta; // 0x3D0
+		::Foundation::Container::NativeVector_1<::System::Int32> _boneAdjustMasterBoneDimensions; // 0x3E0
+		::Unity::Collections::NativeArray_1<::System::Int32> _rightFootSegmentOffset; // 0x3F0
+		::Unity::Collections::NativeArray_1<::System::Int32> _skeleton; // 0x400
 
 		::System::Void _ctor(::UnityEngine::Avatar* avatar, ::NPCCrowd::Animation::AnimationControllerInstanceConfig* config, ::ENPCAvatarGender gender, ::ENPCAvatarSize size)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Avatar*, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::ENPCAvatarGender, ::ENPCAvatarSize))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA__CTOR_OFFSET))(this, avatar, config, gender, size);
+		}
+
+		::System::Int32 get_ChunkCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_GET_CHUNKCOUNT_OFFSET))(this);
 		}
 
 		::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKSetting get_LeftHandIKConfig()
@@ -215,6 +229,21 @@ namespace NPCCrowd::Animation
 		static ::Unity::Collections::NativeArray_1<::Foundation::BitSet256> BuildMaskList(::NPCCrowd::Animation::AnimationControllerInstanceConfig* config, ::NPCCrowd::Animation::NPCAnimationLib_AvatarAnimatorCache* cache)
 		{
 			return ((::Unity::Collections::NativeArray_1<::Foundation::BitSet256>(*)(::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::NPCCrowd::Animation::NPCAnimationLib_AvatarAnimatorCache*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDMASKLIST_OFFSET))(config, cache);
+		}
+
+		::System::Void BuildBlendShapeMaskData(::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* dataset)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDBLENDSHAPEMASKDATA_OFFSET))(this, dataset);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* BuildBlendShapeNameToIndices(::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* dataset)
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>*(*)(::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_BUILDBLENDSHAPENAMETOINDICES_OFFSET))(dataset);
+		}
+
+		static ::System::Boolean FillBlendShapeMaskSlice(::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* dataset, ::NPCCrowd::Animation::ENPCAnimationAvatarMaskType maskType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* nameToIndices, ::Unity::Collections::NativeArray_1<::System::Byte> maskValues, ::System::Int32 offset, ::System::Int32 blendShapeCount)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*, ::NPCCrowd::Animation::ENPCAnimationAvatarMaskType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>*, ::Unity::Collections::NativeArray_1<::System::Byte>, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_AVATARARCHETYPEDATA_FILLBLENDSHAPEMASKSLICE_OFFSET))(dataset, maskType, nameToIndices, maskValues, offset, blendShapeCount);
 		}
 
 		::System::Int32 GetBoneIndex(::NPCCrowd::Animation::AnimationSubManager_AvatarSkeletonBoneIndex boneIndex)

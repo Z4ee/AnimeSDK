@@ -9,7 +9,7 @@
 namespace System { class String; }
 namespace UnityEngine { class PhysicMaterial; }
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider_TypeDefinitionIndex = 56644;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider_TypeDefinitionIndex = 67208;
 
 struct alignas(8) NPCAvatarMeshAssetsSO_FNPCAvatarCapsuleCollider
 {

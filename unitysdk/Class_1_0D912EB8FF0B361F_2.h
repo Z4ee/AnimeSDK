@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_1_0D912EB8FF0B361F_2_TypeDefinitionIndex = 25677;
+inline static constexpr unsigned int Class_1_0D912EB8FF0B361F_2_TypeDefinitionIndex = 28276;
 
 template <typename T>
 class Class_1_0D912EB8FF0B361F_2 : public ::System::Object

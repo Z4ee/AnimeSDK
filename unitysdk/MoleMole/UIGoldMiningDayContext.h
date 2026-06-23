@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_9196D09A7539E4F5.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGOLDMININGDAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169C64A0)
+#define MOLEMOLE_UIGOLDMININGDAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186C8DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayContext_TypeDefinitionIndex = 73942;
+	inline static constexpr unsigned int UIGoldMiningDayContext_TypeDefinitionIndex = 84142;
 
 	class UIGoldMiningDayContext : public ::MoleMole::UIControllerContextBase
 	{

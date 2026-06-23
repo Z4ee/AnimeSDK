@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostDialogPopContext_EOpenMode_TypeDefinitionIndex = 38726;
+	inline static constexpr unsigned int UIInterKnotPostDialogPopContext_EOpenMode_TypeDefinitionIndex = 77084;
 
 	enum class UIInterKnotPostDialogPopContext_EOpenMode : ::System::Int32
 	{

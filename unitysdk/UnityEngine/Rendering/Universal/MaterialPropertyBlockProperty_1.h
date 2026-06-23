@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MaterialPropertyBlockProperty_1_TypeDefinitionIndex = 29856;
+	inline static constexpr unsigned int MaterialPropertyBlockProperty_1_TypeDefinitionIndex = 26495;
 
 	template <typename T>
 	class MaterialPropertyBlockProperty_1 : public ::System::Object

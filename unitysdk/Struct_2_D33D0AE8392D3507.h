@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/ViewObject/GroupMemberIdentifier.h"
-#include "unitysdk/Struct_2_2C5A03A90BB5E900_Enum_3_523767271D6B9F26.h"
+#include "unitysdk/Struct_2_A78060E28BD2CBDD_Enum_3_AE03BCBCA4B6F27A.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_D33D0AE8392D3507_EQUALS_OFFSET UNITYSDK_OFFSET(0x717AB0)
-#define STRUCT_2_D33D0AE8392D3507_METHOD_2_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x717B00)
-#define STRUCT_2_D33D0AE8392D3507_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x717AF0)
+#define STRUCT_2_D33D0AE8392D3507_EQUALS_OFFSET UNITYSDK_OFFSET(0x7C0E50)
+#define STRUCT_2_D33D0AE8392D3507_METHOD_2_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x7C0E90)
+#define STRUCT_2_D33D0AE8392D3507_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x675770)
 
-inline static constexpr unsigned int Struct_2_D33D0AE8392D3507_TypeDefinitionIndex = 76457;
+inline static constexpr unsigned int Struct_2_D33D0AE8392D3507_TypeDefinitionIndex = 76982;
 
 struct alignas(8) Struct_2_D33D0AE8392D3507
 {
@@ -17,7 +17,7 @@ struct alignas(8) Struct_2_D33D0AE8392D3507
 	::System::UInt64 Field_2_1; // 0x18
 	::System::Int32 Field_2_2; // 0x20
 	::Foundation::ViewObject::GroupMemberIdentifier Field_2_3; // 0x24
-	::Struct_2_2C5A03A90BB5E900_Enum_3_523767271D6B9F26 Field_2_4; // 0x2C
+	::Struct_2_A78060E28BD2CBDD_Enum_3_AE03BCBCA4B6F27A Field_2_4; // 0x2C
 	::System::Int32 Field_2_5; // 0x30
 	::System::Int32 Field_2_6; // 0x34
 	::UnityEngine::Vector3 Field_2_7; // 0x38
@@ -27,13 +27,13 @@ struct alignas(8) Struct_2_D33D0AE8392D3507
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_D33D0AE8392D3507))((::PBYTE)hIl2Cpp + STRUCT_2_D33D0AE8392D3507_EQUALS_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_F0088C88851A7DFB()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D33D0AE8392D3507_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
-	}
-
 	::UnityEngine::Vector3 Method_2_7DFB4B9C80198D98()
 	{
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D33D0AE8392D3507_METHOD_2_7DFB4B9C80198D98_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D33D0AE8392D3507_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
 	}
 };

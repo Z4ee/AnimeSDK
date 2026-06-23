@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIInterKnotPostRowWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15553280)
+#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18294980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 41373;
+	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 58610;
 
 	class UIInterKnotPostRowWidgetController___c__DisplayClass27_0 : public ::System::Object
 	{

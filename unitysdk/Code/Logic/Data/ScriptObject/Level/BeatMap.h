@@ -5,11 +5,11 @@
 namespace Code::Logic::Data::ScriptObject::Level { class Layer; }
 namespace Code::Logic::Data::ScriptObject::Level { class PatternTimeline; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_BEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16B18310)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_BEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x15583A70)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int BeatMap_TypeDefinitionIndex = 53077;
+	inline static constexpr unsigned int BeatMap_TypeDefinitionIndex = 46279;
 
 	class BeatMap : public ::System::Object
 	{

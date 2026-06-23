@@ -7,7 +7,7 @@ namespace System::ComponentModel { class IContainer; }
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int INameCreationService_TypeDefinitionIndex = 3109;
+	inline static constexpr unsigned int INameCreationService_TypeDefinitionIndex = 3108;
 
 	class INameCreationService
 	{

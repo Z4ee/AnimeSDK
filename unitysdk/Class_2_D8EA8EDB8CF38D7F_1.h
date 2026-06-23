@@ -8,26 +8,26 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x1295DBD0)
-#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_B04B0693FD45DBCD_OFFSET UNITYSDK_OFFSET(0x1295D9A0)
-#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1295DD10)
-#define CLASS_2_D8EA8EDB8CF38D7F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1295DD00)
+#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0xFBC3D20)
+#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_B04B0693FD45DBCD_OFFSET UNITYSDK_OFFSET(0xFBC3AF0)
+#define CLASS_2_D8EA8EDB8CF38D7F_1_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xFBC3E60)
+#define CLASS_2_D8EA8EDB8CF38D7F_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFBC3E50)
 
-inline static constexpr unsigned int Class_2_D8EA8EDB8CF38D7F_1_TypeDefinitionIndex = 67928;
+inline static constexpr unsigned int Class_2_D8EA8EDB8CF38D7F_1_TypeDefinitionIndex = 77693;
 
 class Class_2_D8EA8EDB8CF38D7F_1 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_9; // 0x18
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x20
-	::UnityEngine::Transform* Field_2_6; // 0x28
-	::UnityEngine::RectTransform* Field_2_0; // 0x30
+	::UnityEngine::RectTransform* Field_2_7; // 0x18
+	::UnityEngine::RectTransform* Field_2_0; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x28
+	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x30
 	::UnityEngine::RectTransform* Field_2_8; // 0x38
-	::UnityEngine::RectTransform* Field_2_7; // 0x40
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x48
-	::UnityEngine::RectTransform* Field_2_5; // 0x50
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x58
-	::Class_2_1A39E1B51756BF41* Field_2_2; // 0x60
+	::UnityEngine::Transform* Field_2_6; // 0x40
+	::UnityEngine::RectTransform* Field_2_5; // 0x48
+	::UnityEngine::RectTransform* Field_2_9; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x58
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x60
 
 	::System::Void _ctor()
 	{

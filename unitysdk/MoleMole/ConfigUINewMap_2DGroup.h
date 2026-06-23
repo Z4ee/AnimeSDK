@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUINEWMAP_2DGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x153E14D0)
+#define MOLEMOLE_CONFIGUINEWMAP_2DGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x161B0420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUINewMap_2DGroup_TypeDefinitionIndex = 57958;
+	inline static constexpr unsigned int ConfigUINewMap_2DGroup_TypeDefinitionIndex = 40200;
 
 	class ConfigUINewMap_2DGroup : public ::System::Object
 	{

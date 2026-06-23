@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/StructFlags.h"
 
-#define UNREALTYPES_STRUCTFLAGSEXTENSIONS_HASANYFLAGS_OFFSET UNITYSDK_OFFSET(0x1ADA8010)
+#define UNREALTYPES_STRUCTFLAGSEXTENSIONS_HASANYFLAGS_OFFSET UNITYSDK_OFFSET(0x1D1BB5D0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int StructFlagsExtensions_TypeDefinitionIndex = 25223;
+	inline static constexpr unsigned int StructFlagsExtensions_TypeDefinitionIndex = 27713;
 
 	class StructFlagsExtensions : public ::System::Object
 	{

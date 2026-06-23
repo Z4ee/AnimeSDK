@@ -4,12 +4,12 @@
 
 namespace Dest::Math { class OdeFunction; }
 
-#define DEST_MATH_ODEEULER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB1A2C0)
-#define DEST_MATH_ODEEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB1A260)
+#define DEST_MATH_ODEEULER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DEA1440)
+#define DEST_MATH_ODEEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA13E0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int OdeEuler_TypeDefinitionIndex = 33194;
+	inline static constexpr unsigned int OdeEuler_TypeDefinitionIndex = 34757;
 
 	class OdeEuler : public ::Dest::Math::OdeSolver
 	{

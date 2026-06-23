@@ -2,9 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_32__CTOR_OFFSET UNITYSDK_OFFSET(0x188A7640)
+class Class_1_7AC8164CC7B8672E;
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_32_TypeDefinitionIndex = 74068;
+#define CLASS_1_43BD383C98B4C0C5_32_SPAWN_OFFSET UNITYSDK_OFFSET(0x14546CB0)
+#define CLASS_1_43BD383C98B4C0C5_32__CTOR_OFFSET UNITYSDK_OFFSET(0x14546D30)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_32_TypeDefinitionIndex = 80497;
 
 class Class_1_43BD383C98B4C0C5_32 : public ::System::Object
 {
@@ -12,5 +15,10 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_32__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_7AC8164CC7B8672E* Spawn()
+	{
+		return ((::Class_1_7AC8164CC7B8672E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_32_SPAWN_OFFSET))(this);
 	}
 };

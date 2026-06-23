@@ -8,23 +8,23 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class Assembly; }
 
-#define NAP_NAPECS_ECSSYSTEMMETA_HASFLAG_OFFSET UNITYSDK_OFFSET(0x192DA9B0)
-#define NAP_NAPECS_ECSSYSTEMMETA_INITSYSTEMMETA_OFFSET UNITYSDK_OFFSET(0x192E33F0)
-#define NAP_NAPECS_ECSSYSTEMMETA_SETFLAG_OFFSET UNITYSDK_OFFSET(0x192E1F00)
-#define NAP_NAPECS_ECSSYSTEMMETA_SETSYSTEMMETAFLAG_OFFSET UNITYSDK_OFFSET(0x192E1F60)
-#define NAP_NAPECS_ECSSYSTEMMETA__CCTOR_OFFSET UNITYSDK_OFFSET(0x192E3AE0)
-#define NAP_NAPECS_ECSSYSTEMMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x192E3AD0)
+#define NAP_NAPECS_ECSSYSTEMMETA_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1B2F9790)
+#define NAP_NAPECS_ECSSYSTEMMETA_INITSYSTEMMETA_OFFSET UNITYSDK_OFFSET(0x1B3021B0)
+#define NAP_NAPECS_ECSSYSTEMMETA_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1B300CB0)
+#define NAP_NAPECS_ECSSYSTEMMETA_SETSYSTEMMETAFLAG_OFFSET UNITYSDK_OFFSET(0x1B300D10)
+#define NAP_NAPECS_ECSSYSTEMMETA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3028A0)
+#define NAP_NAPECS_ECSSYSTEMMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B302890)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsSystemMeta_TypeDefinitionIndex = 35746;
+	inline static constexpr unsigned int EcsSystemMeta_TypeDefinitionIndex = 37294;
 
 	class EcsSystemMeta : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Nap::NapECS::EcsSystemMeta*>** StaticGet_MetaIndex()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Nap::NapECS::EcsSystemMeta*>**)Il2CppClass::FromTypeDefinitionIndex(EcsSystemMeta_TypeDefinitionIndex)->GetStaticField(0x26E30);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Nap::NapECS::EcsSystemMeta*>**)Il2CppClass::FromTypeDefinitionIndex(EcsSystemMeta_TypeDefinitionIndex)->GetStaticField(0x28AB0);
 		}
 		::System::Type* SystemType; // 0x10
 		::System::UInt32 Phase; // 0x18

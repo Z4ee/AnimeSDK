@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IntegratedSubsystem_1_TypeDefinitionIndex = 9654;
+	inline static constexpr unsigned int IntegratedSubsystem_1_TypeDefinitionIndex = 18840;
 
 	template <typename TSubsystemDescriptor>
 	class IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem

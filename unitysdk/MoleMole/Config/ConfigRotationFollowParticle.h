@@ -8,22 +8,22 @@ class Class_3_248DACE3BB3053DD;
 class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE_PROCESS_OFFSET UNITYSDK_OFFSET(0x17539AA0)
-#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE_SETUP_OFFSET UNITYSDK_OFFSET(0x17539A00)
-#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17539C90)
-#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17539C70)
-#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE___BASE_SETUP_OFFSET UNITYSDK_OFFSET(0x17539CF0)
+#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE_PROCESS_OFFSET UNITYSDK_OFFSET(0x144E3E80)
+#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE_SETUP_OFFSET UNITYSDK_OFFSET(0x144E3DE0)
+#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x144E4070)
+#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x144E4050)
+#define MOLEMOLE_CONFIG_CONFIGROTATIONFOLLOWPARTICLE___BASE_SETUP_OFFSET UNITYSDK_OFFSET(0x144E40D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigRotationFollowParticle_TypeDefinitionIndex = 46493;
+	inline static constexpr unsigned int ConfigRotationFollowParticle_TypeDefinitionIndex = 70401;
 
 	class ConfigRotationFollowParticle : public ::MoleMole::Config::ConfigRotation
 	{
 	public:
 		static ::MoleMole::Config::ConfigRotationFollowParticle** StaticGet_StaticRotationFollowParticle()
 		{
-			return (::MoleMole::Config::ConfigRotationFollowParticle**)Il2CppClass::FromTypeDefinitionIndex(ConfigRotationFollowParticle_TypeDefinitionIndex)->GetStaticField(0x3A2B0);
+			return (::MoleMole::Config::ConfigRotationFollowParticle**)Il2CppClass::FromTypeDefinitionIndex(ConfigRotationFollowParticle_TypeDefinitionIndex)->GetStaticField(0x3C260);
 		}
 
 		::System::Void _ctor()

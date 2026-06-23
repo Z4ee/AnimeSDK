@@ -5,26 +5,26 @@
 namespace System::Net { class BufferOffsetSize; }
 namespace System::Net { class ScatterGatherBuffers_MemoryChunk; }
 
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_ALLOCATEMEMORYCHUNK_OFFSET UNITYSDK_OFFSET(0x1A7EF180)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_GETBUFFERS_OFFSET UNITYSDK_OFFSET(0x1A7EF220)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1A7EF3D0)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1A7EF3F0)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_WRITE_OFFSET UNITYSDK_OFFSET(0x1A7EF400)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7EF0C0)
-#define SYSTEM_NET_SCATTERGATHERBUFFERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7EF0B0)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_ALLOCATEMEMORYCHUNK_OFFSET UNITYSDK_OFFSET(0x1CB02CF0)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_GETBUFFERS_OFFSET UNITYSDK_OFFSET(0x1CB02D90)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1CB02F40)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1CB02F60)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_WRITE_OFFSET UNITYSDK_OFFSET(0x1CB02F70)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB02C30)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB02C20)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ScatterGatherBuffers_TypeDefinitionIndex = 3391;
+	inline static constexpr unsigned int ScatterGatherBuffers_TypeDefinitionIndex = 3390;
 
 	class ScatterGatherBuffers : public ::System::Object
 	{
 	public:
-		::System::Net::ScatterGatherBuffers_MemoryChunk* currentChunk; // 0x10
-		::System::Net::ScatterGatherBuffers_MemoryChunk* headChunk; // 0x18
-		::System::Int32 chunkCount; // 0x20
-		::System::Int32 totalLength; // 0x24
-		::System::Int32 nextChunkLength; // 0x28
+		::System::Net::ScatterGatherBuffers_MemoryChunk* headChunk; // 0x10
+		::System::Net::ScatterGatherBuffers_MemoryChunk* currentChunk; // 0x18
+		::System::Int32 totalLength; // 0x20
+		::System::Int32 nextChunkLength; // 0x24
+		::System::Int32 chunkCount; // 0x28
 
 		::System::Void _ctor()
 		{

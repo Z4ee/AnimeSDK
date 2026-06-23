@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeTaskBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD23EE30)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xD23EEA0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD23EDD0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD23ED60)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD23EF10)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD23EFE0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xA678A20)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xA678A90)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xA6789C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_LINK_OFFSET UNITYSDK_OFFSET(0xA678950)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xA678B00)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA678BD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_UIBubblePerformTask_TypeDefinitionIndex = 47382;
+	inline static constexpr unsigned int VirtualProxy_UIBubblePerformTask_TypeDefinitionIndex = 41815;
 
-	class VirtualProxy_UIBubblePerformTask : public ::StateTreeCore::VirtualProxy_StateTreeTaskBase
+	class VirtualProxy_UIBubblePerformTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{
 	public:
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_UIBUBBLEPERFORMTASK_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

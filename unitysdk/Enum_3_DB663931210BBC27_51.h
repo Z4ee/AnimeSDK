@@ -1,0 +1,12 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Enum_3_DB663931210BBC27_51_TypeDefinitionIndex = 59662;
+
+enum class Enum_3_DB663931210BBC27_51 : ::System::Int32
+{
+	Value_3 = 3,
+	Value_4 = 4,
+	Value_2 = 2,
+	Value_1 = 1,
+};

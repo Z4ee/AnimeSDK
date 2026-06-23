@@ -8,7 +8,7 @@ namespace System::CodeDom::Compiler { class CompilerResults; }
 
 namespace System::CodeDom::Compiler
 {
-	inline static constexpr unsigned int ICodeCompiler_TypeDefinitionIndex = 4031;
+	inline static constexpr unsigned int ICodeCompiler_TypeDefinitionIndex = 4030;
 
 	class ICodeCompiler
 	{

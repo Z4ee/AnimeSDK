@@ -4,13 +4,13 @@
 
 namespace System::Web::Util { class HttpEncoder; }
 
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1923C4E0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1923C520)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1923C530)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4225B0)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4225F0)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B422600)
 
 namespace System::Web::Util
 {
-	inline static constexpr unsigned int HttpEncoder___c_TypeDefinitionIndex = 3122;
+	inline static constexpr unsigned int HttpEncoder___c_TypeDefinitionIndex = 3121;
 
 	class HttpEncoder___c : public ::System::Object
 	{

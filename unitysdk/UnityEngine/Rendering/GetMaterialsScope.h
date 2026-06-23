@@ -7,24 +7,24 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8CCA00)
-#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x228FE0)
-#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2F2D00)
-#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CC9F0)
+#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95E520)
+#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x246290)
+#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C436590)
+#define UNITYENGINE_RENDERING_GETMATERIALSSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x95E510)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GetMaterialsScope_TypeDefinitionIndex = 29781;
+	inline static constexpr unsigned int GetMaterialsScope_TypeDefinitionIndex = 26677;
 
 	struct alignas(8) GetMaterialsScope
 	{
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_m_samplerGetMaterialConstructor()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GetMaterialsScope_TypeDefinitionIndex)->GetStaticField(0x24900);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GetMaterialsScope_TypeDefinitionIndex)->GetStaticField(0x221B0);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_m_samplerGetMaterialDispose()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GetMaterialsScope_TypeDefinitionIndex)->GetStaticField(0x24908);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GetMaterialsScope_TypeDefinitionIndex)->GetStaticField(0x221B8);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _materials_k__BackingField; // 0x10
 		::System::Boolean m_getShared; // 0x18

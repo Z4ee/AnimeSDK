@@ -3,14 +3,16 @@
 #include "unitysdk/MoleMole/Config/ConfigTargetSelector.h"
 
 namespace MoleMole::Battle { class Entity; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR_METHOD_2_1418E9B6808528A4_OFFSET UNITYSDK_OFFSET(0x1869D480)
-#define MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D580)
+#define MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR_METHOD_2_1418E9B6808528A4_OFFSET UNITYSDK_OFFSET(0x106B9180)
+#define MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x106B9280)
+#define MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x106B92C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AllInterestEntitySelector_TypeDefinitionIndex = 61612;
+	inline static constexpr unsigned int AllInterestEntitySelector_TypeDefinitionIndex = 61442;
 
 	class AllInterestEntitySelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -23,6 +25,11 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_1418E9B6808528A4(::MoleMole::Battle::Entity* a1)
 		{
 			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR_METHOD_2_1418E9B6808528A4_OFFSET))(this, a1);
+		}
+
+		::System::String* Method_2_DA1BF2C227DC3D86()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ALLINTERESTENTITYSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
 		}
 	};
 }

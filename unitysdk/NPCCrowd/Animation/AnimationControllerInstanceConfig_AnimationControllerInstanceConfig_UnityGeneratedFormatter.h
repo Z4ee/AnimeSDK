@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB53C2F0)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB53C300)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB53C5A0)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB53C7A0)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB53C760)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFF96CA0)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFF96CB0)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFF96F50)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF97150)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ANIMATIONCONTROLLERINSTANCECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFF97110)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 59439;
+	inline static constexpr unsigned int AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 72038;
 
 	class AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::NPCCrowd::Animation::AnimationControllerInstanceConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3AFA0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::NPCCrowd::Animation::ICPUAnimationLib*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::NPCCrowd::Animation::ICPUAnimationLib*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3AFA8);
+			return (::Sirenix::Serialization::Serializer_1<::NPCCrowd::Animation::ICPUAnimationLib*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D0D0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationControllerInstanceConfig_AnimationControllerInstanceConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D0D8);
 		}
 
 		::System::Void _ctor()

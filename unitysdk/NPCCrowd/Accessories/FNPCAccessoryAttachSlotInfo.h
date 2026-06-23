@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int FNPCAccessoryAttachSlotInfo_TypeDefinitionIndex = 56059;
+	inline static constexpr unsigned int FNPCAccessoryAttachSlotInfo_TypeDefinitionIndex = 62976;
 
 	struct alignas(8) FNPCAccessoryAttachSlotInfo
 	{
@@ -18,6 +18,7 @@ namespace NPCCrowd::Accessories
 		::System::Boolean OverrideDefaultSlotOffset; // 0x20
 		::UnityEngine::Vector3 OffsetPosition; // 0x24
 		::UnityEngine::Quaternion OffsetRotation; // 0x30
-		::Il2CppArray<::System::Int32>* AnimIDList; // 0x40
+		::UnityEngine::Vector3 OffsetScale; // 0x40
+		::Il2CppArray<::System::Int32>* AnimIDList; // 0x50
 	};
 }

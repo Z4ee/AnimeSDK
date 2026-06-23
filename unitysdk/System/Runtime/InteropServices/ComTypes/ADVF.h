@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int ADVF_TypeDefinitionIndex = 3126;
+	inline static constexpr unsigned int ADVF_TypeDefinitionIndex = 3125;
 
 	enum class ADVF : ::System::Int32
 	{

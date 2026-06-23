@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_SERIALIZATION_AOTGENERATED_PREVENTCODESTRIPPINGVIAREFERENCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x8145BF0)
+#define SIRENIX_SERIALIZATION_AOTGENERATED_PREVENTCODESTRIPPINGVIAREFERENCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x85120E0)
 
 namespace Sirenix::Serialization::AOTGenerated
 {
-	inline static constexpr unsigned int PreventCodeStrippingViaReferences_TypeDefinitionIndex = 85473;
+	inline static constexpr unsigned int PreventCodeStrippingViaReferences_TypeDefinitionIndex = 91047;
 
 	class PreventCodeStrippingViaReferences : public ::System::Object
 	{

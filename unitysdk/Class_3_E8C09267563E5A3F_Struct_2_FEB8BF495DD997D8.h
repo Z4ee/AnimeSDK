@@ -5,7 +5,7 @@
 class Class_4_3F1E6598B55A097B;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 
-inline static constexpr unsigned int Class_3_E8C09267563E5A3F_Struct_2_FEB8BF495DD997D8_TypeDefinitionIndex = 74641;
+inline static constexpr unsigned int Class_3_E8C09267563E5A3F_Struct_2_FEB8BF495DD997D8_TypeDefinitionIndex = 81223;
 
 struct alignas(8) Class_3_E8C09267563E5A3F_Struct_2_FEB8BF495DD997D8
 {

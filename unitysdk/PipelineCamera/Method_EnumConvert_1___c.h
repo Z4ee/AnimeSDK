@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Method_EnumConvert_1___c_TypeDefinitionIndex = 35884;
+	inline static constexpr unsigned int Method_EnumConvert_1___c_TypeDefinitionIndex = 37492;
 
 	template <typename TEnum>
 	class Method_EnumConvert_1___c : public ::System::Object

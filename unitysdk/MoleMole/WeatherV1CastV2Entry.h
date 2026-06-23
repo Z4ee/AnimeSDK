@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_WEATHERV1CASTV2ENTRY_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x7052D0)
+#define MOLEMOLE_WEATHERV1CASTV2ENTRY_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x86D530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int WeatherV1CastV2Entry_TypeDefinitionIndex = 65739;
+	inline static constexpr unsigned int WeatherV1CastV2Entry_TypeDefinitionIndex = 41678;
 
 	struct alignas(8) WeatherV1CastV2Entry
 	{

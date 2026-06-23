@@ -5,12 +5,12 @@
 namespace MoleMole { class ConfigActivePropsBuddySetting; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGBUDDYUISETTING_GETACTIVEPROPSBUDDYSETTING_OFFSET UNITYSDK_OFFSET(0x16B48280)
-#define MOLEMOLE_CONFIGBUDDYUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16B48450)
+#define MOLEMOLE_CONFIGBUDDYUISETTING_GETACTIVEPROPSBUDDYSETTING_OFFSET UNITYSDK_OFFSET(0x17E3B830)
+#define MOLEMOLE_CONFIGBUDDYUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3BA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBuddyUISetting_TypeDefinitionIndex = 71043;
+	inline static constexpr unsigned int ConfigBuddyUISetting_TypeDefinitionIndex = 78606;
 
 	class ConfigBuddyUISetting : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xBDDC9B0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDDC7F0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD931F70)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0xD931DB0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex = 58687;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex = 55135;
 
 	class RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2 : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x44C40);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x4B350);
 		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x44C48);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2_TypeDefinitionIndex)->GetStaticField(0x4B358);
 		}
 
 		static ::System::Void _cctor()

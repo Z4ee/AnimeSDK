@@ -2,27 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_StateMachineProcessor_Job.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_StateMachineProcessor_LegacyJob.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_StateMachineProcessor_ParallelJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xCD47D50)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xCD47C20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xCD47C10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xCD47C00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xCD47C80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCD48C00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xD434A90)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xD434940)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xD434930)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xD434920)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xD4349A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD435B70)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_TypeDefinitionIndex = 70448;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_TypeDefinitionIndex = 57429;
 
 	class AnimationSubManager_StateMachineProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_StateMachineProcessor_Job>* _buffer; // 0x10
+		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_StateMachineProcessor_LegacyJob>* _buffer; // 0x10
+		::NPCCrowd::Animation::AnimationSubManager_StateMachineProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
 		{

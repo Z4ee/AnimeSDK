@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChallengeQuestType_TypeDefinitionIndex = 50360;
+	inline static constexpr unsigned int ChallengeQuestType_TypeDefinitionIndex = 72965;
 
 	enum class ChallengeQuestType : ::System::Int32
 	{
-		BuffChallenge = 2,
 		TimeLimitChallenge = 1,
+		BuffChallenge = 2,
 		NormallChallenge = 0,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication::ExtendedProtection
 {
-	inline static constexpr unsigned int ChannelBindingKind_TypeDefinitionIndex = 3155;
+	inline static constexpr unsigned int ChannelBindingKind_TypeDefinitionIndex = 3154;
 
 	enum class ChannelBindingKind : ::System::Int32
 	{

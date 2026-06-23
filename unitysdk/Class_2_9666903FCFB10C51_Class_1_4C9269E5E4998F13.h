@@ -6,9 +6,9 @@ class Class_2_1A39E1B51756BF41;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_9666903FCFB10C51_CLASS_1_4C9269E5E4998F13__CTOR_OFFSET UNITYSDK_OFFSET(0x113AF9A0)
+#define CLASS_2_9666903FCFB10C51_CLASS_1_4C9269E5E4998F13__CTOR_OFFSET UNITYSDK_OFFSET(0x1A16A3A0)
 
-inline static constexpr unsigned int Class_2_9666903FCFB10C51_Class_1_4C9269E5E4998F13_TypeDefinitionIndex = 52857;
+inline static constexpr unsigned int Class_2_9666903FCFB10C51_Class_1_4C9269E5E4998F13_TypeDefinitionIndex = 48887;
 
 class Class_2_9666903FCFB10C51_Class_1_4C9269E5E4998F13 : public ::System::Object
 {

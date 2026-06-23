@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DataObjectMethodType_TypeDefinitionIndex = 2854;
+	inline static constexpr unsigned int DataObjectMethodType_TypeDefinitionIndex = 2853;
 
 	enum class DataObjectMethodType : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/ChessboardRhythmMoveInputHandler_JudgeResult.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATEJUDGERESULT_INVOKE_OFFSET UNITYSDK_OFFSET(0x15401D90)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATEJUDGERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x15401EC0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATEJUDGERESULT_INVOKE_OFFSET UNITYSDK_OFFSET(0x161CD1F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_RHYTHMMOVEUPDATEJUDGERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x161CD320)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_RhythmMoveUpdateJudgeResult_TypeDefinitionIndex = 50809;
+	inline static constexpr unsigned int ChessBoard_RhythmMoveUpdateJudgeResult_TypeDefinitionIndex = 73927;
 
 	class ChessBoard_RhythmMoveUpdateJudgeResult : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::MoleMole::FlowCanvas::Nodes::ChessboardRhythmMoveInputHandler_JudgeResult>
 	{

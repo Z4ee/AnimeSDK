@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class Transform; }
+#define CLASS_1_43BD383C98B4C0C5_60_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x7171900)
+#define CLASS_1_43BD383C98B4C0C5_60_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x71718C0)
+#define CLASS_1_43BD383C98B4C0C5_60__CTOR_OFFSET UNITYSDK_OFFSET(0x7171940)
 
-#define CLASS_1_43BD383C98B4C0C5_60__CTOR_OFFSET UNITYSDK_OFFSET(0x1208E300)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_60_TypeDefinitionIndex = 60934;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_60_TypeDefinitionIndex = 68314;
 
 class Class_1_43BD383C98B4C0C5_60 : public ::System::Object
 {
@@ -14,5 +14,15 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_60__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_60_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_60_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
 	}
 };

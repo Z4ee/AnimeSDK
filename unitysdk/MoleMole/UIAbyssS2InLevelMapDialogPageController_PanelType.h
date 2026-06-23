@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2InLevelMapDialogPageController_PanelType_TypeDefinitionIndex = 45598;
+	inline static constexpr unsigned int UIAbyssS2InLevelMapDialogPageController_PanelType_TypeDefinitionIndex = 62271;
 
 	enum class UIAbyssS2InLevelMapDialogPageController_PanelType : ::System::Int32
 	{

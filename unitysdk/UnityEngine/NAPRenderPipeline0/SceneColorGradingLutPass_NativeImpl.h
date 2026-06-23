@@ -8,12 +8,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class SceneColorGradingLutPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCENECOLORGRADINGLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B741B00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCENECOLORGRADINGLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B741A80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCENECOLORGRADINGLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DA961D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCENECOLORGRADINGLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA96150)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SceneColorGradingLutPass_NativeImpl_TypeDefinitionIndex = 5720;
+	inline static constexpr unsigned int SceneColorGradingLutPass_NativeImpl_TypeDefinitionIndex = 5722;
 
 	class SceneColorGradingLutPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

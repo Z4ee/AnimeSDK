@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWCANVASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8E790)
+#define MOLEMOLE_CONFIG_CONFIGFLOWCANVASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x158A7360)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowCanvasData_TypeDefinitionIndex = 53164;
+	inline static constexpr unsigned int ConfigFlowCanvasData_TypeDefinitionIndex = 55821;
 
 	class ConfigFlowCanvasData : public ::System::Object
 	{

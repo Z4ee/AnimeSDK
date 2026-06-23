@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int JudgeMethod_TypeDefinitionIndex = 38885;
+	inline static constexpr unsigned int JudgeMethod_TypeDefinitionIndex = 49360;
 
 	enum class JudgeMethod : ::System::Int32
 	{

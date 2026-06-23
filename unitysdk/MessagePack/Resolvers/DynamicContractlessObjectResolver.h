@@ -7,23 +7,23 @@ namespace MessagePack::Internal { class DynamicAssembly; }
 namespace System { class String; }
 namespace System { template <typename T> class Lazy_1; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19859360)
-#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19859350)
+#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCC72C0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC72B0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicContractlessObjectResolver_TypeDefinitionIndex = 26641;
+	inline static constexpr unsigned int DynamicContractlessObjectResolver_TypeDefinitionIndex = 30644;
 
 	class DynamicContractlessObjectResolver : public ::System::Object
 	{
 	public:
-		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
-		{
-			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x206B0);
-		}
 		static ::MessagePack::Resolvers::DynamicContractlessObjectResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::DynamicContractlessObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x206B8);
+			return (::MessagePack::Resolvers::DynamicContractlessObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x241A0);
+		}
+		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
+		{
+			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x241A8);
 		}
 		// static const ::System::String* ModuleName; // 0x0
 

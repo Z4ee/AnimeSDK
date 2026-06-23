@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelDynamicCheckTree_Template_TypeDefinitionIndex = 76801;
+	inline static constexpr unsigned int LevelDynamicCheckTree_Template_TypeDefinitionIndex = 51019;
 
 	enum class LevelDynamicCheckTree_Template : ::System::Int32
 	{

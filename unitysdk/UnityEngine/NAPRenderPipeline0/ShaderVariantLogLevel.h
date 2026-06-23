@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShaderVariantLogLevel_TypeDefinitionIndex = 5882;
+	inline static constexpr unsigned int ShaderVariantLogLevel_TypeDefinitionIndex = 5889;
 
 	enum class ShaderVariantLogLevel : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/Foundation/Variable_2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_FBEHAVIORBLENDERTIME_GETALPHA_OFFSET UNITYSDK_OFFSET(0x9BCF80)
-#define FOUNDATION_FBEHAVIORBLENDERTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x9BCF40)
+#define FOUNDATION_FBEHAVIORBLENDERTIME_GETALPHA_OFFSET UNITYSDK_OFFSET(0xA60F10)
+#define FOUNDATION_FBEHAVIORBLENDERTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA60ED0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FBehaviorBlenderTime_TypeDefinitionIndex = 8796;
+	inline static constexpr unsigned int FBehaviorBlenderTime_TypeDefinitionIndex = 8705;
 
 	struct alignas(8) FBehaviorBlenderTime
 	{

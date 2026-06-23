@@ -5,12 +5,12 @@
 class Class_1_BD2BE7927F889C7B;
 namespace MoleMole { class UIFashionStoreMainPageController; }
 
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16980120)
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS15_0__ONCLICKBUYBTN_B__0_OFFSET UNITYSDK_OFFSET(0x16980130)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F170C0)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS15_0__ONCLICKBUYBTN_B__0_OFFSET UNITYSDK_OFFSET(0x16F170D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass15_0_TypeDefinitionIndex = 62344;
+	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass15_0_TypeDefinitionIndex = 62607;
 
 	class UIFashionStoreMainPageController___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Cameras { class BangbooAdjustmentCameraConfig; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x18208340)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18208510)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A01FEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A020080)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera_TypeDefinitionIndex = 60681;
+	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera_TypeDefinitionIndex = 70468;
 
 	class LDEnterBangbooAdjustmentCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Boolean, ::MoleMole::Cameras::BangbooAdjustmentCameraConfig*>
 	{

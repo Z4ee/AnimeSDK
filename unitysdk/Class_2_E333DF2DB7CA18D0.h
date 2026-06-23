@@ -7,10 +7,10 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E333DF2DB7CA18D0_METHOD_2_13A24B87A78C90C7_OFFSET UNITYSDK_OFFSET(0x169E9AB0)
-#define CLASS_2_E333DF2DB7CA18D0__CTOR_OFFSET UNITYSDK_OFFSET(0x169E98A0)
+#define CLASS_2_E333DF2DB7CA18D0_METHOD_2_13A24B87A78C90C7_OFFSET UNITYSDK_OFFSET(0x12681DD0)
+#define CLASS_2_E333DF2DB7CA18D0__CTOR_OFFSET UNITYSDK_OFFSET(0x12681BC0)
 
-inline static constexpr unsigned int Class_2_E333DF2DB7CA18D0_TypeDefinitionIndex = 57892;
+inline static constexpr unsigned int Class_2_E333DF2DB7CA18D0_TypeDefinitionIndex = 75014;
 
 class Class_2_E333DF2DB7CA18D0 : public ::Class_1_3002EE73D986F5EA
 {

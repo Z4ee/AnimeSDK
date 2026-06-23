@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET UNITYSDK_OFFSET(0x1605BAB0)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x1605B480)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_D3700E59FA9F1C7C_OFFSET UNITYSDK_OFFSET(0x1605C200)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_SETCHANGEDIRTY_OFFSET UNITYSDK_OFFSET(0x1605B880)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_START_OFFSET UNITYSDK_OFFSET(0x1605B430)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1605BA20)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1605B8D0)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET UNITYSDK_OFFSET(0x12BD0C70)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x12BD04E0)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_D3700E59FA9F1C7C_OFFSET UNITYSDK_OFFSET(0x12BD0B10)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_SETCHANGEDIRTY_OFFSET UNITYSDK_OFFSET(0x12BD08E0)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_START_OFFSET UNITYSDK_OFFSET(0x12BD0490)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BD0A80)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD0930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGeneralKeyPanelSort_TypeDefinitionIndex = 47872;
+	inline static constexpr unsigned int MonoGeneralKeyPanelSort_TypeDefinitionIndex = 67005;
 
 	class MonoGeneralKeyPanelSort : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>**)Il2CppClass::FromTypeDefinitionIndex(MonoGeneralKeyPanelSort_TypeDefinitionIndex)->GetStaticField(0x3C8A0);
+			return (::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>**)Il2CppClass::FromTypeDefinitionIndex(MonoGeneralKeyPanelSort_TypeDefinitionIndex)->GetStaticField(0x3EE80);
 		}
 		::System::Collections::Generic::List_1<::MoleMole::UIGeneralKeyPanelWidgetController*>* Field_5_1; // 0x18
 		::System::Collections::Generic::Dictionary_2<::MoleMole::UIGeneralKeyPanelWidgetController*, ::UnityEngine::Transform*>* Field_5_2; // 0x20
@@ -55,14 +55,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_B877181B6123B7F6_OFFSET))(this);
 		}
 
-		static ::System::Int32 Method_5_3E8B8757B7A354CC(::MoleMole::InputLogicEventType a1)
-		{
-			return ((::System::Int32(*)(::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET))(a1);
-		}
-
 		::System::Int32 Method_5_D3700E59FA9F1C7C(::MoleMole::UIGeneralKeyPanelWidgetController* a1, ::MoleMole::UIGeneralKeyPanelWidgetController* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIGeneralKeyPanelWidgetController*, ::MoleMole::UIGeneralKeyPanelWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_D3700E59FA9F1C7C_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Int32 Method_5_3E8B8757B7A354CC(::MoleMole::InputLogicEventType a1)
+		{
+			return ((::System::Int32(*)(::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET))(a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InLevelMissionTipSourceType_TypeDefinitionIndex = 78971;
+	inline static constexpr unsigned int InLevelMissionTipSourceType_TypeDefinitionIndex = 75371;
 
 	enum class InLevelMissionTipSourceType : ::System::Int32
 	{

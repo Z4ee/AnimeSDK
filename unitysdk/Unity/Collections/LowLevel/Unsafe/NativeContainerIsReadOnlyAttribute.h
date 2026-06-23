@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERISREADONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D25E0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERISREADONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D84BD50)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerIsReadOnlyAttribute_TypeDefinitionIndex = 5098;
+	inline static constexpr unsigned int NativeContainerIsReadOnlyAttribute_TypeDefinitionIndex = 5097;
 
 	class NativeContainerIsReadOnlyAttribute : public ::System::Attribute
 	{

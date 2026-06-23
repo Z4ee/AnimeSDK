@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MS/Internal/Xml/XPath/Axis.h"
 
-#define SYSTEM_XML_SCHEMA_DOUBLELINKAXIS_CONVERTTREE_OFFSET UNITYSDK_OFFSET(0x1B8E94B0)
-#define SYSTEM_XML_SCHEMA_DOUBLELINKAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E9450)
+#define SYSTEM_XML_SCHEMA_DOUBLELINKAXIS_CONVERTTREE_OFFSET UNITYSDK_OFFSET(0x1DC41940)
+#define SYSTEM_XML_SCHEMA_DOUBLELINKAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC418E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int DoubleLinkAxis_TypeDefinitionIndex = 1943;
+	inline static constexpr unsigned int DoubleLinkAxis_TypeDefinitionIndex = 1942;
 
 	class DoubleLinkAxis : public ::MS::Internal::Xml::XPath::Axis
 	{

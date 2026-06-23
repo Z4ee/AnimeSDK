@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SafeObjectHandle_1_TypeDefinitionIndex = 8193;
+	inline static constexpr unsigned int SafeObjectHandle_1_TypeDefinitionIndex = 8218;
 
 	template <typename T>
 	struct SafeObjectHandle_1

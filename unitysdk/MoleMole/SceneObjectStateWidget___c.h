@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x15E55580)
-#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x15E55570)
-#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E55520)
-#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E55560)
+#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x1870D5B0)
+#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1870D5A0)
+#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1870D550)
+#define MOLEMOLE_SCENEOBJECTSTATEWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1870D590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneObjectStateWidget___c_TypeDefinitionIndex = 67985;
+	inline static constexpr unsigned int SceneObjectStateWidget___c_TypeDefinitionIndex = 74523;
 
 	class SceneObjectStateWidget___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::SceneObjectStateWidget___c** StaticGet___9()
-		{
-			return (::MoleMole::SceneObjectStateWidget___c**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x37A70);
-		}
 		static ::System::Action** StaticGet___9__43_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x37A78);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x44EC0);
 		}
 		static ::System::Action** StaticGet___9__43_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x37A80);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x44EC8);
+		}
+		static ::MoleMole::SceneObjectStateWidget___c** StaticGet___9()
+		{
+			return (::MoleMole::SceneObjectStateWidget___c**)Il2CppClass::FromTypeDefinitionIndex(SceneObjectStateWidget___c_TypeDefinitionIndex)->GetStaticField(0x44ED0);
 		}
 
 		static ::System::Void _cctor()

@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_D2E6C54B2C4CE5D1.h"
 
-namespace MoleMole { class UIItemOptionWidgetControllerBase; }
+inline static constexpr unsigned int Class_0_16E4307DCC419505_436_TypeDefinitionIndex = 49739;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_436_TypeDefinitionIndex = 50290;
-
-template <typename T>
 class Class_0_16E4307DCC419505_436
 {
 public:

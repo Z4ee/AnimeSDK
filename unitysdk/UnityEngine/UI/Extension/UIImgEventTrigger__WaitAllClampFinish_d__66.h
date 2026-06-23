@@ -8,19 +8,19 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI::Extension { class UIImgEventTrigger; }
 
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER__WAITALLCLAMPFINISH_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A6400)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER__WAITALLCLAMPFINISH_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER__WAITALLCLAMPFINISH_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9702F0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER__WAITALLCLAMPFINISH_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgEventTrigger__WaitAllClampFinish_d__66_TypeDefinitionIndex = 81055;
+	inline static constexpr unsigned int UIImgEventTrigger__WaitAllClampFinish_d__66_TypeDefinitionIndex = 65764;
 
 	struct alignas(8) UIImgEventTrigger__WaitAllClampFinish_d__66
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::System::Threading::CancellationToken token; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
-		::UnityEngine::UI::Extension::UIImgEventTrigger* __4__this; // 0x38
+		::System::Threading::CancellationToken token; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::UnityEngine::UI::Extension::UIImgEventTrigger* __4__this; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

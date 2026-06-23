@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace HexagonalLib
 {
-	inline static constexpr unsigned int HexagonalGrid__GetNeighborsRing_d__50_1_TypeDefinitionIndex = 26309;
+	inline static constexpr unsigned int HexagonalGrid__GetNeighborsRing_d__50_1_TypeDefinitionIndex = 28872;
 
 	template <typename T>
 	class HexagonalGrid__GetNeighborsRing_d__50_1 : public ::System::Object

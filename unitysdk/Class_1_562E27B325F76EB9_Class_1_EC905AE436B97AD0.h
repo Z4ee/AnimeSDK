@@ -4,9 +4,9 @@
 
 namespace MoleMole { class ChessboardTextureSheetTagsData; }
 
-#define CLASS_1_562E27B325F76EB9_CLASS_1_EC905AE436B97AD0__CTOR_OFFSET UNITYSDK_OFFSET(0xF299FE0)
+#define CLASS_1_562E27B325F76EB9_CLASS_1_EC905AE436B97AD0__CTOR_OFFSET UNITYSDK_OFFSET(0xE7E8D20)
 
-inline static constexpr unsigned int Class_1_562E27B325F76EB9_Class_1_EC905AE436B97AD0_TypeDefinitionIndex = 53590;
+inline static constexpr unsigned int Class_1_562E27B325F76EB9_Class_1_EC905AE436B97AD0_TypeDefinitionIndex = 48168;
 
 class Class_1_562E27B325F76EB9_Class_1_EC905AE436B97AD0 : public ::System::Object
 {

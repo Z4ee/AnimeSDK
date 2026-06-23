@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int UpdateMode_TypeDefinitionIndex = 37863;
+	inline static constexpr unsigned int UpdateMode_TypeDefinitionIndex = 39491;
 
 	enum class UpdateMode : ::System::Int32
 	{

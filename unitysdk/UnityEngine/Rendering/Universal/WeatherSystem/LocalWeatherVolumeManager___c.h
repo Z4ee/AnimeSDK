@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherVolumeContext; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FFEE80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFEEC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__TRYGETLOCALWEATHERVOLUME_B__1_0_OFFSET UNITYSDK_OFFSET(0x18FFEED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF6AB30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6AB70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER___C__TRYGETLOCALWEATHERVOLUME_B__1_0_OFFSET UNITYSDK_OFFSET(0x1AF6AB80)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LocalWeatherVolumeManager___c_TypeDefinitionIndex = 30283;
+	inline static constexpr unsigned int LocalWeatherVolumeManager___c_TypeDefinitionIndex = 27213;
 
 	class LocalWeatherVolumeManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeContext*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeContext*>**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x23290);
-		}
 		static ::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeManager___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeManager___c**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x23298);
+			return (::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeManager___c**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x209A0);
+		}
+		static ::System::Comparison_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeContext*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolumeContext*>**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x209A8);
 		}
 
 		static ::System::Void _cctor()

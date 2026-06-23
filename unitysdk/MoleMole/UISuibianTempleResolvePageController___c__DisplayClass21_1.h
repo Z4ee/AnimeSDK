@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UISuibianTempleResolvePageController___c__DisplayClass21_0; }
 
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE45A450)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS21_1__REFRESHPRODUCTORMATERIALTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xE45A460)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0x152CD3A0)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS21_1__REFRESHPRODUCTORMATERIALTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x152CD3B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleResolvePageController___c__DisplayClass21_1_TypeDefinitionIndex = 74102;
+	inline static constexpr unsigned int UISuibianTempleResolvePageController___c__DisplayClass21_1_TypeDefinitionIndex = 81363;
 
 	class UISuibianTempleResolvePageController___c__DisplayClass21_1 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianTempleResolvePageController___c__DisplayClass21_0* CS___8__locals1; // 0x10
-		::System::Boolean locked; // 0x18
-		::System::Int32 i; // 0x1C
+		::System::Int32 i; // 0x18
+		::System::Boolean locked; // 0x1C
 
 		::System::Void _ctor()
 		{

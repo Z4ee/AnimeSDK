@@ -17,106 +17,106 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_MYLOGGER_DODRAWARROW_OFFSET UNITYSDK_OFFSET(0x1B46E810)
-#define FOUNDATION_MYLOGGER_DRAWARROW_1_OFFSET UNITYSDK_OFFSET(0x1B46E960)
-#define FOUNDATION_MYLOGGER_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1B46E730)
-#define FOUNDATION_MYLOGGER_DRAWBONE_OFFSET UNITYSDK_OFFSET(0x1B46D4F0)
-#define FOUNDATION_MYLOGGER_DRAWBOUNDS_OFFSET UNITYSDK_OFFSET(0x1B46EAB0)
-#define FOUNDATION_MYLOGGER_DRAWCAPSULE_OFFSET UNITYSDK_OFFSET(0x1B46D2F0)
-#define FOUNDATION_MYLOGGER_DRAWCONE_OFFSET UNITYSDK_OFFSET(0x1B46DCA0)
-#define FOUNDATION_MYLOGGER_DRAWCUBE_OFFSET UNITYSDK_OFFSET(0x1B46CEB0)
-#define FOUNDATION_MYLOGGER_DRAWCUBOID_OFFSET UNITYSDK_OFFSET(0x1B46DEA0)
-#define FOUNDATION_MYLOGGER_DRAWCYLINDER_OFFSET UNITYSDK_OFFSET(0x1B46D8A0)
-#define FOUNDATION_MYLOGGER_DRAWELLIPSOID_OFFSET UNITYSDK_OFFSET(0x1B46E080)
-#define FOUNDATION_MYLOGGER_DRAWGIZMOPOSITION_OFFSET UNITYSDK_OFFSET(0x1B46EF50)
-#define FOUNDATION_MYLOGGER_DRAWGIZMOROTATE_OFFSET UNITYSDK_OFFSET(0x1B46F0A0)
-#define FOUNDATION_MYLOGGER_DRAWGIZMOSCALE_OFFSET UNITYSDK_OFFSET(0x1B46F1F0)
-#define FOUNDATION_MYLOGGER_DRAWGUIFUNCTION_OFFSET UNITYSDK_OFFSET(0x1B46ED90)
-#define FOUNDATION_MYLOGGER_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1B46E3E0)
-#define FOUNDATION_MYLOGGER_DRAWLINE_2_OFFSET UNITYSDK_OFFSET(0x1B46E5A0)
-#define FOUNDATION_MYLOGGER_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1B46E280)
-#define FOUNDATION_MYLOGGER_DRAWPOINT_OFFSET UNITYSDK_OFFSET(0x1B46EC10)
-#define FOUNDATION_MYLOGGER_DRAWPYRAMIDR_OFFSET UNITYSDK_OFFSET(0x1B46DAA0)
-#define FOUNDATION_MYLOGGER_DRAWSKELETON_OFFSET UNITYSDK_OFFSET(0x1B46F340)
-#define FOUNDATION_MYLOGGER_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1B46D120)
-#define FOUNDATION_MYLOGGER_DRAWSQUARE_1_OFFSET UNITYSDK_OFFSET(0x1B46D760)
-#define FOUNDATION_MYLOGGER_DRAWSQUARE_2_OFFSET UNITYSDK_OFFSET(0x1B46D7E0)
-#define FOUNDATION_MYLOGGER_DRAWSQUARE_OFFSET UNITYSDK_OFFSET(0x1B46D6F0)
-#define FOUNDATION_MYLOGGER_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1B46FE00)
-#define FOUNDATION_MYLOGGER_GET_TOLOGGABLESTRING_OFFSET UNITYSDK_OFFSET(0x1B46FF30)
-#define FOUNDATION_MYLOGGER_GET_WATCHVARS_OFFSET UNITYSDK_OFFSET(0x1B46FE90)
-#define FOUNDATION_MYLOGGER_LOGDEBUG_OFFSET UNITYSDK_OFFSET(0x1B470300)
-#define FOUNDATION_MYLOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1B4704E0)
-#define FOUNDATION_MYLOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B470690)
-#define FOUNDATION_MYLOGGER_LOGFATAL_OFFSET UNITYSDK_OFFSET(0x1B4705D0)
-#define FOUNDATION_MYLOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1B46FF50)
-#define FOUNDATION_MYLOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1B4703F0)
-#define FOUNDATION_MYLOGGER_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1B46FF40)
-#define FOUNDATION_MYLOGGER_WATCHASSERT_OFFSET UNITYSDK_OFFSET(0x1B470A60)
-#define FOUNDATION_MYLOGGER_WATCHBYFILTER_OFFSET UNITYSDK_OFFSET(0x1B470D70)
-#define FOUNDATION_MYLOGGER_WATCH_OFFSET UNITYSDK_OFFSET(0x1B4707C0)
-#define FOUNDATION_MYLOGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B471250)
-#define FOUNDATION_MYLOGGER__CONCAT__OFFSET UNITYSDK_OFFSET(0x1B470040)
-#define FOUNDATION_MYLOGGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B46FF00)
-#define FOUNDATION_MYLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B46FEF0)
-#define FOUNDATION_MYLOGGER__DRAWTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1B46F450)
-#define FOUNDATION_MYLOGGER__ISDRAWENABLE_OFFSET UNITYSDK_OFFSET(0x1B46D080)
-#define FOUNDATION_MYLOGGER__RECURSION_OFFSET UNITYSDK_OFFSET(0x1B46F5C0)
+#define FOUNDATION_MYLOGGER_DODRAWARROW_OFFSET UNITYSDK_OFFSET(0x1D8F8350)
+#define FOUNDATION_MYLOGGER_DRAWARROW_1_OFFSET UNITYSDK_OFFSET(0x1D8F84A0)
+#define FOUNDATION_MYLOGGER_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1D8F8270)
+#define FOUNDATION_MYLOGGER_DRAWBONE_OFFSET UNITYSDK_OFFSET(0x1D8F7030)
+#define FOUNDATION_MYLOGGER_DRAWBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D8F85F0)
+#define FOUNDATION_MYLOGGER_DRAWCAPSULE_OFFSET UNITYSDK_OFFSET(0x1D8F6E30)
+#define FOUNDATION_MYLOGGER_DRAWCONE_OFFSET UNITYSDK_OFFSET(0x1D8F77E0)
+#define FOUNDATION_MYLOGGER_DRAWCUBE_OFFSET UNITYSDK_OFFSET(0x1D8F69F0)
+#define FOUNDATION_MYLOGGER_DRAWCUBOID_OFFSET UNITYSDK_OFFSET(0x1D8F79E0)
+#define FOUNDATION_MYLOGGER_DRAWCYLINDER_OFFSET UNITYSDK_OFFSET(0x1D8F73E0)
+#define FOUNDATION_MYLOGGER_DRAWELLIPSOID_OFFSET UNITYSDK_OFFSET(0x1D8F7BC0)
+#define FOUNDATION_MYLOGGER_DRAWGIZMOPOSITION_OFFSET UNITYSDK_OFFSET(0x1D8F8A90)
+#define FOUNDATION_MYLOGGER_DRAWGIZMOROTATE_OFFSET UNITYSDK_OFFSET(0x1D8F8BE0)
+#define FOUNDATION_MYLOGGER_DRAWGIZMOSCALE_OFFSET UNITYSDK_OFFSET(0x1D8F8D30)
+#define FOUNDATION_MYLOGGER_DRAWGUIFUNCTION_OFFSET UNITYSDK_OFFSET(0x1D8F88D0)
+#define FOUNDATION_MYLOGGER_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1D8F7F20)
+#define FOUNDATION_MYLOGGER_DRAWLINE_2_OFFSET UNITYSDK_OFFSET(0x1D8F80E0)
+#define FOUNDATION_MYLOGGER_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1D8F7DC0)
+#define FOUNDATION_MYLOGGER_DRAWPOINT_OFFSET UNITYSDK_OFFSET(0x1D8F8750)
+#define FOUNDATION_MYLOGGER_DRAWPYRAMIDR_OFFSET UNITYSDK_OFFSET(0x1D8F75E0)
+#define FOUNDATION_MYLOGGER_DRAWSKELETON_OFFSET UNITYSDK_OFFSET(0x1D8F8E80)
+#define FOUNDATION_MYLOGGER_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1D8F6C60)
+#define FOUNDATION_MYLOGGER_DRAWSQUARE_1_OFFSET UNITYSDK_OFFSET(0x1D8F72A0)
+#define FOUNDATION_MYLOGGER_DRAWSQUARE_2_OFFSET UNITYSDK_OFFSET(0x1D8F7320)
+#define FOUNDATION_MYLOGGER_DRAWSQUARE_OFFSET UNITYSDK_OFFSET(0x1D8F7230)
+#define FOUNDATION_MYLOGGER_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1D8F9940)
+#define FOUNDATION_MYLOGGER_GET_TOLOGGABLESTRING_OFFSET UNITYSDK_OFFSET(0x1D8F9A70)
+#define FOUNDATION_MYLOGGER_GET_WATCHVARS_OFFSET UNITYSDK_OFFSET(0x1D8F99D0)
+#define FOUNDATION_MYLOGGER_LOGDEBUG_OFFSET UNITYSDK_OFFSET(0x1D8F9E40)
+#define FOUNDATION_MYLOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1D8FA020)
+#define FOUNDATION_MYLOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1D8FA1D0)
+#define FOUNDATION_MYLOGGER_LOGFATAL_OFFSET UNITYSDK_OFFSET(0x1D8FA110)
+#define FOUNDATION_MYLOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1D8F9A90)
+#define FOUNDATION_MYLOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1D8F9F30)
+#define FOUNDATION_MYLOGGER_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x1D8F9A80)
+#define FOUNDATION_MYLOGGER_WATCHASSERT_OFFSET UNITYSDK_OFFSET(0x1D8FA5A0)
+#define FOUNDATION_MYLOGGER_WATCHBYFILTER_OFFSET UNITYSDK_OFFSET(0x1D8FA8B0)
+#define FOUNDATION_MYLOGGER_WATCH_OFFSET UNITYSDK_OFFSET(0x1D8FA300)
+#define FOUNDATION_MYLOGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8FAD90)
+#define FOUNDATION_MYLOGGER__CONCAT__OFFSET UNITYSDK_OFFSET(0x1D8F9B80)
+#define FOUNDATION_MYLOGGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8F9A40)
+#define FOUNDATION_MYLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F9A30)
+#define FOUNDATION_MYLOGGER__DRAWTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1D8F8F90)
+#define FOUNDATION_MYLOGGER__ISDRAWENABLE_OFFSET UNITYSDK_OFFSET(0x1D8F6BC0)
+#define FOUNDATION_MYLOGGER__RECURSION_OFFSET UNITYSDK_OFFSET(0x1D8F9100)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger_TypeDefinitionIndex = 8109;
+	inline static constexpr unsigned int MyLogger_TypeDefinitionIndex = 7914;
 
 	class MyLogger : public ::System::Object
 	{
 	public:
-		static ::Foundation::TwoDimensionalTable_3<::System::String*, ::System::String*, ::Foundation::MyLogger_ValueType>** StaticGet__WatchVars_k__BackingField()
-		{
-			return (::Foundation::TwoDimensionalTable_3<::System::String*, ::System::String*, ::Foundation::MyLogger_ValueType>**)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x66D0);
-		}
 		static ::Foundation::MyLogger** StaticGet_Log()
 		{
-			return (::Foundation::MyLogger**)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x66D8);
+			return (::Foundation::MyLogger**)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x6700);
 		}
-		static ::UnityEngine::Color* StaticGet_BoneColor()
+		static ::Foundation::TwoDimensionalTable_3<::System::String*, ::System::String*, ::Foundation::MyLogger_ValueType>** StaticGet__WatchVars_k__BackingField()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3360);
-		}
-		static ::System::Boolean* StaticGet_IsWatchEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3370);
-		}
-		static ::System::Boolean* StaticGet_IsInfoEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3371);
-		}
-		static ::System::Boolean* StaticGet_IsErrorEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3372);
-		}
-		static ::System::Boolean* StaticGet_IsDrawEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3373);
-		}
-		static ::System::Boolean* StaticGet_IsFatalEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3374);
-		}
-		static ::System::Boolean* StaticGet_IsDebugEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3375);
-		}
-		static ::System::Boolean* StaticGet_IsWarningEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3376);
-		}
-		static ::System::Single* StaticGet_BoneSize()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3378);
+			return (::Foundation::TwoDimensionalTable_3<::System::String*, ::System::String*, ::Foundation::MyLogger_ValueType>**)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x6708);
 		}
 		static ::UnityEngine::Color* StaticGet_JointColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x337C);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3380);
+		}
+		static ::System::Single* StaticGet_BoneSize()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3390);
+		}
+		static ::UnityEngine::Color* StaticGet_BoneColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x3394);
+		}
+		static ::System::Boolean* StaticGet_IsDrawEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A4);
+		}
+		static ::System::Boolean* StaticGet_IsWarningEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A5);
+		}
+		static ::System::Boolean* StaticGet_IsErrorEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A6);
+		}
+		static ::System::Boolean* StaticGet_IsFatalEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A7);
+		}
+		static ::System::Boolean* StaticGet_IsWatchEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A8);
+		}
+		static ::System::Boolean* StaticGet_IsDebugEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33A9);
+		}
+		static ::System::Boolean* StaticGet_IsInfoEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MyLogger_TypeDefinitionIndex)->GetStaticField(0x33AA);
 		}
 		::System::String* _loggableString; // 0x10
 		::System::Nullable_1<::UnityEngine::Color> _colorTitle; // 0x18

@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETDISPLAYNAME_1_OFFSET UNITYSDK_OFFSET(0x1B51F8B0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1B51F820)
-#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1B51F790)
+#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETDISPLAYNAME_1_OFFSET UNITYSDK_OFFSET(0x1D8DBE40)
+#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1D8DBDB0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTINTERACTION_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1D8DBD20)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputInteraction_TypeDefinitionIndex = 28869;
+	inline static constexpr unsigned int InputInteraction_TypeDefinitionIndex = 31525;
 
 	class InputInteraction : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::InputSystem::Utilities::TypeTable* StaticGet_s_Interactions()
 		{
-			return (::UnityEngine::InputSystem::Utilities::TypeTable*)Il2CppClass::FromTypeDefinitionIndex(InputInteraction_TypeDefinitionIndex)->GetStaticField(0x22450);
+			return (::UnityEngine::InputSystem::Utilities::TypeTable*)Il2CppClass::FromTypeDefinitionIndex(InputInteraction_TypeDefinitionIndex)->GetStaticField(0x261E0);
 		}
 
 		static ::System::Type* GetValueType(::System::Type* interactionType)

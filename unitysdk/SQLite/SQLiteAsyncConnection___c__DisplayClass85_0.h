@@ -7,18 +7,18 @@ namespace SQLite { class TableMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27BB00)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__QUERYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B281A70)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D637E60)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__QUERYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D63DDD0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass85_0_TypeDefinitionIndex = 36865;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass85_0_TypeDefinitionIndex = 38475;
 
 	class SQLiteAsyncConnection___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:
-		::System::String* query; // 0x10
-		::SQLite::TableMapping* map; // 0x18
+		::SQLite::TableMapping* map; // 0x10
+		::System::String* query; // 0x18
 		::Il2CppArray<::System::Object*>* args; // 0x20
 
 		::System::Void _ctor()

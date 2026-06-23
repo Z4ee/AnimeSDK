@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DurationButtonType_TypeDefinitionIndex = 44230;
+	inline static constexpr unsigned int DurationButtonType_TypeDefinitionIndex = 62591;
 
 	enum class DurationButtonType : ::System::Int32
 	{

@@ -6,36 +6,36 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_NET_VALIDATIONHELPER_EXCEPTIONMESSAGE_OFFSET UNITYSDK_OFFSET(0x19BBBD00)
-#define SYSTEM_NET_VALIDATIONHELPER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x19BBBEF0)
-#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x19BBC000)
-#define SYSTEM_NET_VALIDATIONHELPER_ISINVALIDHTTPSTRING_OFFSET UNITYSDK_OFFSET(0x19BBBF80)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKEEMPTYARRAYNULL_OFFSET UNITYSDK_OFFSET(0x19BBBCD0)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x19BBBCF0)
-#define SYSTEM_NET_VALIDATIONHELPER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19BBBDA0)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATERANGE_OFFSET UNITYSDK_OFFSET(0x19BBC020)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATESEGMENT_OFFSET UNITYSDK_OFFSET(0x19BBC030)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x19BBC010)
-#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BBC0E0)
+#define SYSTEM_NET_VALIDATIONHELPER_EXCEPTIONMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C07ECB0)
+#define SYSTEM_NET_VALIDATIONHELPER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x1C07EEA0)
+#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1C07EFB0)
+#define SYSTEM_NET_VALIDATIONHELPER_ISINVALIDHTTPSTRING_OFFSET UNITYSDK_OFFSET(0x1C07EF30)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKEEMPTYARRAYNULL_OFFSET UNITYSDK_OFFSET(0x1C07EC80)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1C07ECA0)
+#define SYSTEM_NET_VALIDATIONHELPER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C07ED50)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATERANGE_OFFSET UNITYSDK_OFFSET(0x1C07EFD0)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATESEGMENT_OFFSET UNITYSDK_OFFSET(0x1C07EFE0)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1C07EFC0)
+#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C07F090)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 3297;
+	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 3296;
 
 	class ValidationHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A70);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A78);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A70);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A80);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A78);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A80);
 		}
 
 		static ::System::Void _cctor()

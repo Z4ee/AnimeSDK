@@ -5,7 +5,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICoreCameraData_TypeDefinitionIndex = 35955;
+	inline static constexpr unsigned int ICoreCameraData_TypeDefinitionIndex = 37563;
 
 	class ICoreCameraData
 	{

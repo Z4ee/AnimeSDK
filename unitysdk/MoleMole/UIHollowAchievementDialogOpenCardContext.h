@@ -5,11 +5,11 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15CB4700)
+#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18815110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowAchievementDialogOpenCardContext_TypeDefinitionIndex = 39663;
+	inline static constexpr unsigned int UIHollowAchievementDialogOpenCardContext_TypeDefinitionIndex = 40582;
 
 	class UIHollowAchievementDialogOpenCardContext : public ::MoleMole::UIControllerContextBase
 	{

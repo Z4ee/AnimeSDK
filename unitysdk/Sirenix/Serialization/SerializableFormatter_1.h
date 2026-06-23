@@ -11,7 +11,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializableFormatter_1_TypeDefinitionIndex = 7353;
+	inline static constexpr unsigned int SerializableFormatter_1_TypeDefinitionIndex = 7485;
 
 	template <typename T>
 	class SerializableFormatter_1 : public ::Sirenix::Serialization::BaseFormatter_1<T>

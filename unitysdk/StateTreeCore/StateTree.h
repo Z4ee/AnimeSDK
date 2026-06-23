@@ -11,54 +11,57 @@
 #include "unitysdk/UnrealTypes/FInstancedPropertyBag.h"
 #include "unitysdk/UnrealTypes/FInstancedStructContainer.h"
 #include "unitysdk/UnrealTypes/NativeStructList_1.h"
+#include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeSchema; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_STATETREE_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9CD690)
-#define STATETREECORE_STATETREE_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x9CD650)
-#define STATETREECORE_STATETREE_CREATE_OFFSET UNITYSDK_OFFSET(0x1C2A5E70)
-#define STATETREECORE_STATETREE_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x9CD630)
-#define STATETREECORE_STATETREE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9CD7D0)
-#define STATETREECORE_STATETREE_GET_ISREADYTORUN_OFFSET UNITYSDK_OFFSET(0x9CD580)
-#define STATETREECORE_STATETREE_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x9CD5D0)
-#define STATETREECORE_STATETREE_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x9CD920)
-#define STATETREECORE_STATETREE_LINK_OFFSET UNITYSDK_OFFSET(0x9CD5A0)
-#define STATETREECORE_STATETREE_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x9CD6A0)
-#define STATETREECORE_STATETREE_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x9CD670)
-#define STATETREECORE_STATETREE_PATCHBINDINGS_OFFSET UNITYSDK_OFFSET(0x9CD5B0)
-#define STATETREECORE_STATETREE_RESETLINKED_OFFSET UNITYSDK_OFFSET(0x9CD5C0)
-#define STATETREECORE_STATETREE_RESET_OFFSET UNITYSDK_OFFSET(0x9CD6B0)
-#define STATETREECORE_STATETREE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREE__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9CD690)
-#define STATETREECORE_STATETREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7A20)
+#define STATETREECORE_STATETREE_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xA6BF50)
+#define STATETREECORE_STATETREE_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xA6BF10)
+#define STATETREECORE_STATETREE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E595740)
+#define STATETREECORE_STATETREE_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xA6BEF0)
+#define STATETREECORE_STATETREE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA6BF80)
+#define STATETREECORE_STATETREE_GET_ISREADYTORUN_OFFSET UNITYSDK_OFFSET(0xA6BE40)
+#define STATETREECORE_STATETREE_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xA6BE90)
+#define STATETREECORE_STATETREE_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xA6C0D0)
+#define STATETREECORE_STATETREE_LINK_OFFSET UNITYSDK_OFFSET(0xA6BE60)
+#define STATETREECORE_STATETREE_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xA6BF60)
+#define STATETREECORE_STATETREE_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xA6BF30)
+#define STATETREECORE_STATETREE_PATCHBINDINGS_OFFSET UNITYSDK_OFFSET(0xA6BE70)
+#define STATETREECORE_STATETREE_RESETLINKED_OFFSET UNITYSDK_OFFSET(0xA6BE80)
+#define STATETREECORE_STATETREE_RESET_OFFSET UNITYSDK_OFFSET(0xA6BF70)
+#define STATETREECORE_STATETREE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREE__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xA6BF50)
+#define STATETREECORE_STATETREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E597390)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTree_TypeDefinitionIndex = 28262;
+	inline static constexpr unsigned int StateTree_TypeDefinitionIndex = 30912;
 
 	struct alignas(8) StateTree
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTree_TypeDefinitionIndex)->GetStaticField(0x21150);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTree_TypeDefinitionIndex)->GetStaticField(0x24EA0);
 		}
 		// static const ::System::UInt32 PersistentTypeHash = 0x5A811666; // 0x0
 		::Foundation::Unreal::FName Name; // 0x10
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeState> States; // 0x18
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeTransition> Transitions; // 0x30
-		::UnrealTypes::FInstancedStructContainer Nodes; // 0x48
-		::StateTreeCore::StateTreeInstanceData DefaultInstanceData; // 0x60
-		::StateTreeCore::StateTreeInstanceData SharedInstanceData; // 0x120
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ContextDataDescs; // 0x1E0
-		::StateTreeCore::StateTreePropertyBindings PropertyBindings; // 0x1F8
-		::UnrealTypes::FInstancedPropertyBag Parameters; // 0x2A8
-		::System::UInt16 NumContextData; // 0x2C0
-		::System::UInt16 NumGlobalInstanceData; // 0x2C2
-		::System::UInt16 GlobalTasksBegin; // 0x2C4
-		::System::UInt16 GlobalTasksNum; // 0x2C6
-		::System::Boolean HasGlobalTransitionTasks; // 0x2C8
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ExternalDataDescs; // 0x2D0
-		::System::Boolean _isLinked; // 0x2E8
+		::UnrealTypes::TObjectHandle_1<::StateTreeCore::StateTreeSchema*> Schema; // 0x18
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeState> States; // 0x20
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeTransition> Transitions; // 0x38
+		::UnrealTypes::FInstancedStructContainer Nodes; // 0x50
+		::StateTreeCore::StateTreeInstanceData DefaultInstanceData; // 0x68
+		::StateTreeCore::StateTreeInstanceData SharedInstanceData; // 0x128
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ContextDataDescs; // 0x1E8
+		::StateTreeCore::StateTreePropertyBindings PropertyBindings; // 0x200
+		::UnrealTypes::FInstancedPropertyBag Parameters; // 0x2B0
+		::System::UInt16 NumContextData; // 0x2C8
+		::System::UInt16 NumGlobalInstanceData; // 0x2CA
+		::System::UInt16 GlobalTasksBegin; // 0x2CC
+		::System::UInt16 GlobalTasksNum; // 0x2CE
+		::System::Boolean HasGlobalTransitionTasks; // 0x2D0
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ExternalDataDescs; // 0x2D8
+		::System::Boolean _isLinked; // 0x2F0
 
 		static ::System::Void _cctor()
 		{

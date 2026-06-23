@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlSpace_TypeDefinitionIndex = 1712;
+	inline static constexpr unsigned int XmlSpace_TypeDefinitionIndex = 1711;
 
 	enum class XmlSpace : ::System::Int32
 	{

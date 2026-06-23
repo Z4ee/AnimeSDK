@@ -9,25 +9,25 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_845E62653C83FC8E_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x133DCD90)
-#define CLASS_2_845E62653C83FC8E_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x133DCF90)
-#define CLASS_2_845E62653C83FC8E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x133DD060)
-#define CLASS_2_845E62653C83FC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x133DD050)
+#define CLASS_2_845E62653C83FC8E_METHOD_2_30765AFAABE3B930_OFFSET UNITYSDK_OFFSET(0x19E22520)
+#define CLASS_2_845E62653C83FC8E_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x19E22720)
+#define CLASS_2_845E62653C83FC8E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x19E227F0)
+#define CLASS_2_845E62653C83FC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x19E227E0)
 
-inline static constexpr unsigned int Class_2_845E62653C83FC8E_TypeDefinitionIndex = 59131;
+inline static constexpr unsigned int Class_2_845E62653C83FC8E_TypeDefinitionIndex = 64370;
 
 class Class_2_845E62653C83FC8E : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x18
-	::UnityEngine::UI::Text* Field_2_1; // 0x20
-	::MonoUITableScrollV2* Field_2_7; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_8; // 0x30
-	::UnityEngine::UI::Text* Field_2_2; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x20
+	::MonoUITableScrollV2* Field_2_0; // 0x28
+	::UnityEngine::UI::Text* Field_2_2; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_8; // 0x38
 	::UnityEngine::UI::Text* Field_2_3; // 0x40
-	::MonoUITableScrollV2* Field_2_0; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x50
-	::UnityEngine::UI::Text* Field_2_6; // 0x58
+	::UnityEngine::UI::Text* Field_2_6; // 0x48
+	::UnityEngine::UI::Text* Field_2_1; // 0x50
+	::MonoUITableScrollV2* Field_2_7; // 0x58
 
 	::System::Void _ctor()
 	{

@@ -5,19 +5,19 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C522C70)
-#define UTF8JSON_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C522C60)
+#define UTF8JSON_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E856560)
+#define UTF8JSON_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E856550)
 
 namespace Utf8Json::Resolvers
 {
-	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 85528;
+	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 91102;
 
 	class AttributeFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
 		{
-			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(AttributeFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x4A4B0);
+			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(AttributeFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x4EC00);
 		}
 
 		::System::Void _ctor()

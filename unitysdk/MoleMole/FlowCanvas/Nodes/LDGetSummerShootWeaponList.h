@@ -6,19 +6,19 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST_GETWEAPONLIST_OFFSET UNITYSDK_OFFSET(0x18417200)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18417150)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18417310)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST_GETWEAPONLIST_OFFSET UNITYSDK_OFFSET(0x1A3985D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A398520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSUMMERSHOOTWEAPONLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3986E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetSummerShootWeaponList_TypeDefinitionIndex = 76117;
+	inline static constexpr unsigned int LDGetSummerShootWeaponList_TypeDefinitionIndex = 51451;
 
 	class LDGetSummerShootWeaponList : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* weaponListOutput; // 0xA8
-		::System::Collections::Generic::List_1<::System::String*>* list; // 0xB0
+		::System::Collections::Generic::List_1<::System::String*>* list; // 0xA8
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* weaponListOutput; // 0xB0
 
 		::System::Void _ctor()
 		{

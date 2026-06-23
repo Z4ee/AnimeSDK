@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_MERGEDRESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1BDA4950)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_MERGEDRESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA48E0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_MERGEDRESTRICTION_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E0EC8E0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_MERGEDRESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0EC870)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int BindingRestrictions_MergedRestriction_TypeDefinitionIndex = 4970;
+	inline static constexpr unsigned int BindingRestrictions_MergedRestriction_TypeDefinitionIndex = 4969;
 
 	class BindingRestrictions_MergedRestriction : public ::System::Dynamic::BindingRestrictions
 	{

@@ -9,26 +9,26 @@ namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x190CFCE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x190CFD20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x190CFD30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CCTOR_B__34_1_OFFSET UNITYSDK_OFFSET(0x190CFD80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x190CFE90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF12630)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF12670)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x1AF12680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CCTOR_B__34_1_OFFSET UNITYSDK_OFFSET(0x1AF126D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___C___CTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1AF127E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipeline___c_TypeDefinitionIndex = 30266;
+	inline static constexpr unsigned int UniversalRenderPipeline___c_TypeDefinitionIndex = 27237;
 
 	class UniversalRenderPipeline___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Camera*>** StaticGet___9__35_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline___c_TypeDefinitionIndex)->GetStaticField(0x23ED0);
-		}
 		static ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline___c_TypeDefinitionIndex)->GetStaticField(0x23ED8);
+			return (::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline___c_TypeDefinitionIndex)->GetStaticField(0x216C0);
+		}
+		static ::System::Comparison_1<::UnityEngine::Camera*>** StaticGet___9__35_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline___c_TypeDefinitionIndex)->GetStaticField(0x216C8);
 		}
 
 		static ::System::Void _cctor()

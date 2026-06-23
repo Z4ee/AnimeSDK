@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_5396005F9A53A130_3_TypeDefinitionIndex = 85383;
+	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_5396005F9A53A130_3_TypeDefinitionIndex = 90992;
 
 	struct alignas(8) UISnakeEndingAnimScript_Struct_2_5396005F9A53A130_3
 	{

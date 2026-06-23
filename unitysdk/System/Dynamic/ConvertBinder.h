@@ -4,12 +4,12 @@
 
 namespace System::Dynamic { class DynamicMetaObject; }
 
-#define SYSTEM_DYNAMIC_CONVERTBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1BBD6010)
-#define SYSTEM_DYNAMIC_CONVERTBINDER_FALLBACKCONVERT_OFFSET UNITYSDK_OFFSET(0x1BBD5FF0)
+#define SYSTEM_DYNAMIC_CONVERTBINDER_BIND_OFFSET UNITYSDK_OFFSET(0x1DF2A260)
+#define SYSTEM_DYNAMIC_CONVERTBINDER_FALLBACKCONVERT_OFFSET UNITYSDK_OFFSET(0x1DF2A240)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ConvertBinder_TypeDefinitionIndex = 4974;
+	inline static constexpr unsigned int ConvertBinder_TypeDefinitionIndex = 4973;
 
 	class ConvertBinder : public ::System::Dynamic::DynamicMetaObjectBinder
 	{

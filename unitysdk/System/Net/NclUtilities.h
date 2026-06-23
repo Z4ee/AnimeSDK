@@ -9,37 +9,37 @@ namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 namespace System::Threading { class ContextCallback; }
 
-#define SYSTEM_NET_NCLUTILITIES_DEMANDCALLBACK_OFFSET UNITYSDK_OFFSET(0x19EF2720)
-#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x19EF2D60)
-#define SYSTEM_NET_NCLUTILITIES_GET_CONTEXTRELATIVEDEMANDCALLBACK_OFFSET UNITYSDK_OFFSET(0x19EF2680)
-#define SYSTEM_NET_NCLUTILITIES_GET_HASSHUTDOWNSTARTED_OFFSET UNITYSDK_OFFSET(0x19EF25B0)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x19EF2D80)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x19EF2910)
-#define SYSTEM_NET_NCLUTILITIES_GUESSWHETHERHOSTISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x19EF2730)
-#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x19EF2880)
-#define SYSTEM_NET_NCLUTILITIES_ISCLIENTFAULT_OFFSET UNITYSDK_OFFSET(0x19EF2660)
-#define SYSTEM_NET_NCLUTILITIES_ISCREDENTIALFAILURE_OFFSET UNITYSDK_OFFSET(0x19EF2640)
-#define SYSTEM_NET_NCLUTILITIES_ISFATAL_OFFSET UNITYSDK_OFFSET(0x19EF27F0)
-#define SYSTEM_NET_NCLUTILITIES_ISTHREADPOOLLOW_OFFSET UNITYSDK_OFFSET(0x19EF2570)
+#define SYSTEM_NET_NCLUTILITIES_DEMANDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C2EC390)
+#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x1C2EC9C0)
+#define SYSTEM_NET_NCLUTILITIES_GET_CONTEXTRELATIVEDEMANDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C2EC2F0)
+#define SYSTEM_NET_NCLUTILITIES_GET_HASSHUTDOWNSTARTED_OFFSET UNITYSDK_OFFSET(0x1C2EC220)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x1C2EC9E0)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x1C2EC580)
+#define SYSTEM_NET_NCLUTILITIES_GUESSWHETHERHOSTISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1C2EC3A0)
+#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x1C2EC4F0)
+#define SYSTEM_NET_NCLUTILITIES_ISCLIENTFAULT_OFFSET UNITYSDK_OFFSET(0x1C2EC2D0)
+#define SYSTEM_NET_NCLUTILITIES_ISCREDENTIALFAILURE_OFFSET UNITYSDK_OFFSET(0x1C2EC2B0)
+#define SYSTEM_NET_NCLUTILITIES_ISFATAL_OFFSET UNITYSDK_OFFSET(0x1C2EC460)
+#define SYSTEM_NET_NCLUTILITIES_ISTHREADPOOLLOW_OFFSET UNITYSDK_OFFSET(0x1C2EC1E0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int NclUtilities_TypeDefinitionIndex = 3294;
+	inline static constexpr unsigned int NclUtilities_TypeDefinitionIndex = 3293;
 
 	class NclUtilities : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::Net::IPAddress*>** StaticGet__LocalAddresses()
+		{
+			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33C0);
+		}
 		static ::System::Threading::ContextCallback** StaticGet_s_ContextRelativeDemandCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33C0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33C8);
 		}
 		static ::System::Object** StaticGet__LocalAddressesLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33C8);
-		}
-		static ::Il2CppArray<::System::Net::IPAddress*>** StaticGet__LocalAddresses()
-		{
-			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33D0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x33D0);
 		}
 		static ::System::String** StaticGet__LocalDomainName()
 		{

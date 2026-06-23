@@ -10,26 +10,26 @@ namespace MoleMole { class MonoGamepadModule; }
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_736D160283864BFA_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x10D9C900)
-#define CLASS_2_736D160283864BFA_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x10D9CB50)
-#define CLASS_2_736D160283864BFA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x10D9CC90)
-#define CLASS_2_736D160283864BFA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D9CC80)
+#define CLASS_2_736D160283864BFA_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x160B9400)
+#define CLASS_2_736D160283864BFA_METHOD_2_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x160B9650)
+#define CLASS_2_736D160283864BFA_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x160B9790)
+#define CLASS_2_736D160283864BFA__CTOR_OFFSET UNITYSDK_OFFSET(0x160B9780)
 
-inline static constexpr unsigned int Class_2_736D160283864BFA_TypeDefinitionIndex = 38603;
+inline static constexpr unsigned int Class_2_736D160283864BFA_TypeDefinitionIndex = 76140;
 
 class Class_2_736D160283864BFA : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MonoUITableScrollV2* Field_2_0; // 0x18
-	::MonoUITableScrollV2* Field_2_1; // 0x20
-	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_2; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x40
-	::MoleMole::MonoGamepadModule* Field_2_8; // 0x48
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x50
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x58
-	::MoleMole::MonoGamepadModule* Field_2_9; // 0x60
+	::MoleMole::MonoGamepadModule* Field_2_8; // 0x18
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x20
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x38
+	::MonoUITableScrollV2* Field_2_0; // 0x40
+	::MoleMole::MonoGamepadModule* Field_2_9; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x50
+	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x58
+	::MonoUITableScrollV2* Field_2_1; // 0x60
 
 	::System::Void _ctor()
 	{
@@ -41,13 +41,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_736D160283864BFA_METHOD_2_78C5AA85812E15F5_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_AAD864A9DF964170()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_736D160283864BFA_METHOD_2_AAD864A9DF964170_OFFSET))(this);
-	}
-
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_736D160283864BFA_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_AAD864A9DF964170()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_736D160283864BFA_METHOD_2_AAD864A9DF964170_OFFSET))(this);
 	}
 };

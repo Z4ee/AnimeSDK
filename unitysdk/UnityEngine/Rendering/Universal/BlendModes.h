@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BlendModes_TypeDefinitionIndex = 30159;
+	inline static constexpr unsigned int BlendModes_TypeDefinitionIndex = 26857;
 
 	enum class BlendModes : ::System::Int32
 	{
-		AlphaBlended = 0,
-		Add = 1,
 		Multiply = 2,
+		Add = 1,
 		Overlay = 3,
+		AlphaBlended = 0,
 	};
 }

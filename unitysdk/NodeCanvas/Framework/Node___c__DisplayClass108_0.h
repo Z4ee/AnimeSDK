@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework { class Connection; }
 namespace NodeCanvas::Framework { class Node; }
 
-#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__ARENODESCONNECTED_B__0_OFFSET UNITYSDK_OFFSET(0x1B7E9900)
-#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__ARENODESCONNECTED_B__1_OFFSET UNITYSDK_OFFSET(0x1B7E9920)
-#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E98F0)
+#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__ARENODESCONNECTED_B__0_OFFSET UNITYSDK_OFFSET(0x1DB9B530)
+#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__ARENODESCONNECTED_B__1_OFFSET UNITYSDK_OFFSET(0x1DB9B550)
+#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9B520)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Node___c__DisplayClass108_0_TypeDefinitionIndex = 28013;
+	inline static constexpr unsigned int Node___c__DisplayClass108_0_TypeDefinitionIndex = 29346;
 
 	class Node___c__DisplayClass108_0 : public ::System::Object
 	{
 	public:
-		::NodeCanvas::Framework::Node* b; // 0x10
-		::NodeCanvas::Framework::Node* a; // 0x18
+		::NodeCanvas::Framework::Node* a; // 0x10
+		::NodeCanvas::Framework::Node* b; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -11,26 +11,26 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0xDEB2CA0)
-#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0xDEB2A80)
-#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xDEB2DB0)
-#define CLASS_2_F30EAD1AE66BEBE5__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB2DA0)
+#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x126A7270)
+#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0x126A7050)
+#define CLASS_2_F30EAD1AE66BEBE5_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x126A7380)
+#define CLASS_2_F30EAD1AE66BEBE5__CTOR_OFFSET UNITYSDK_OFFSET(0x126A7370)
 
-inline static constexpr unsigned int Class_2_F30EAD1AE66BEBE5_TypeDefinitionIndex = 44185;
+inline static constexpr unsigned int Class_2_F30EAD1AE66BEBE5_TypeDefinitionIndex = 48920;
 
 class Class_2_F30EAD1AE66BEBE5 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MoleMole::MonoInputKey* Field_2_2; // 0x18
-	::Class_2_B4378B46E0020E85* Field_2_0; // 0x20
-	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x28
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x38
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x40
-	::MoleMole::NotificationBadge* Field_2_8; // 0x48
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x50
-	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_7; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x30
+	::Class_2_B4378B46E0020E85* Field_2_0; // 0x38
+	::MoleMole::MonoInputKey* Field_2_2; // 0x40
+	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x48
+	::MoleMole::NotificationBadge* Field_2_8; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x58
+	::UnityEngine::UI::Extension::UITimeWidget* Field_2_1; // 0x60
 
 	::System::Void _ctor()
 	{

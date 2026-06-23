@@ -9,7 +9,7 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicA
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PostCullRenderingData_TypeDefinitionIndex = 5942;
+	inline static constexpr unsigned int PostCullRenderingData_TypeDefinitionIndex = 5952;
 
 	struct alignas(8) PostCullRenderingData
 	{

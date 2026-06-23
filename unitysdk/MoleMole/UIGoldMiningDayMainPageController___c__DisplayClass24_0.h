@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGoldMiningDayMainPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F961A0)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DISPLAYCLASS24_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x15F961B0)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F77540)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DISPLAYCLASS24_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x16F77550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayMainPageController___c__DisplayClass24_0_TypeDefinitionIndex = 45840;
+	inline static constexpr unsigned int UIGoldMiningDayMainPageController___c__DisplayClass24_0_TypeDefinitionIndex = 76878;
 
 	class UIGoldMiningDayMainPageController___c__DisplayClass24_0 : public ::System::Object
 	{

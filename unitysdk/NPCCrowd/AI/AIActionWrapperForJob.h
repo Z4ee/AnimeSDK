@@ -5,11 +5,11 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionWrapperForJob_TypeDefinitionIndex = 79900;
+	inline static constexpr unsigned int AIActionWrapperForJob_TypeDefinitionIndex = 40113;
 
 	struct alignas(8) AIActionWrapperForJob
 	{
 		::NPCCrowd::AI::ActionContext context; // 0x10
-		::System::Boolean disableTick; // 0xD8
+		::System::Boolean disableTick; // 0xE0
 	};
 }

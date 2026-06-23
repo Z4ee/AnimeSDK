@@ -5,9 +5,9 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_C201344E2C41EF87_METHOD_2_71E25A039EF7FB83_OFFSET UNITYSDK_OFFSET(0x11AEC970)
+#define STRUCT_2_C201344E2C41EF87_METHOD_2_71E25A039EF7FB83_OFFSET UNITYSDK_OFFSET(0x15929320)
 
-inline static constexpr unsigned int Struct_2_C201344E2C41EF87_TypeDefinitionIndex = 44249;
+inline static constexpr unsigned int Struct_2_C201344E2C41EF87_TypeDefinitionIndex = 51963;
 
 struct alignas(4) Struct_2_C201344E2C41EF87
 {

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAutoBattlePVPPageController; }
 
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EFA790)
-#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__DISPLAYCLASS49_0__SETFRIENDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x13EFA7A0)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1733C340)
+#define MOLEMOLE_UIAUTOBATTLEPVPPAGECONTROLLER___C__DISPLAYCLASS49_0__SETFRIENDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1733C350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePVPPageController___c__DisplayClass49_0_TypeDefinitionIndex = 44540;
+	inline static constexpr unsigned int UIAutoBattlePVPPageController___c__DisplayClass49_0_TypeDefinitionIndex = 51730;
 
 	class UIAutoBattlePVPPageController___c__DisplayClass49_0 : public ::System::Object
 	{

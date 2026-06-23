@@ -11,26 +11,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x15E5B540)
-#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15E5B550)
-#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15E5B7F0)
-#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E5B9F0)
-#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5B9B0)
+#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18715680)
+#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18715690)
+#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18715930)
+#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18715B30)
+#define MOLEMOLE_SLIDINGCONFIG_SLIDINGCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18715AF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 60261;
+	inline static constexpr unsigned int SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 42547;
 
 	class SlidingConfig_SlidingConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SlidingConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>**)Il2CppClass::FromTypeDefinitionIndex(SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41D90);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41D98);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44EF0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>**)Il2CppClass::FromTypeDefinitionIndex(SlidingConfig_SlidingConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44EF8);
 		}
 
 		::System::Void _ctor()

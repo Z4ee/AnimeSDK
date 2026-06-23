@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5384B0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5384F0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1C538500)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8610B0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8610F0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E861100)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTree___c_TypeDefinitionIndex = 28265;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTree___c_TypeDefinitionIndex = 30915;
 
 	class RegistrationInfo_ScriptStruct_StateTree___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTree___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTree___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTree___c_TypeDefinitionIndex)->GetStaticField(0x21440);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTree___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTree___c_TypeDefinitionIndex)->GetStaticField(0x251C0);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +30,9 @@ namespace StateTreeCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__22_0()
+		::UnrealTypes::ICppStructOps* __cctor_b__23_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C___CCTOR_B__22_0_OFFSET))(this);
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREE___C___CCTOR_B__23_0_OFFSET))(this);
 		}
 	};
 }

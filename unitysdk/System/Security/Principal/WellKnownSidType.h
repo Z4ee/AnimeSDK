@@ -3,7 +3,7 @@
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int WellKnownSidType_TypeDefinitionIndex = 1026;
+	inline static constexpr unsigned int WellKnownSidType_TypeDefinitionIndex = 1025;
 
 	enum class WellKnownSidType : ::System::Int32
 	{

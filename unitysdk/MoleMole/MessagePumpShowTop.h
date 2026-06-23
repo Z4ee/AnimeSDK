@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DisplayMessageBase.h"
+#include "unitysdk/MoleMole/TunnelPartDisplayMessageBase.h"
 
-#define MOLEMOLE_MESSAGEPUMPSHOWTOP_GET_ISPENETRATE_OFFSET UNITYSDK_OFFSET(0x125D4400)
-#define MOLEMOLE_MESSAGEPUMPSHOWTOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x125D4410)
-#define MOLEMOLE_MESSAGEPUMPSHOWTOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x125D4430)
-#define MOLEMOLE_MESSAGEPUMPSHOWTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x125D4420)
+#define MOLEMOLE_MESSAGEPUMPSHOWTOP_GET_ISPENETRATE_OFFSET UNITYSDK_OFFSET(0x13028900)
+#define MOLEMOLE_MESSAGEPUMPSHOWTOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13028910)
+#define MOLEMOLE_MESSAGEPUMPSHOWTOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13028930)
+#define MOLEMOLE_MESSAGEPUMPSHOWTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x13028920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MessagePumpShowTop_TypeDefinitionIndex = 43717;
+	inline static constexpr unsigned int MessagePumpShowTop_TypeDefinitionIndex = 82602;
 
-	class MessagePumpShowTop : public ::MoleMole::DisplayMessageBase
+	class MessagePumpShowTop : public ::MoleMole::TunnelPartDisplayMessageBase
 	{
 	public:
 		::System::Void _ctor()

@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController_ActionType_TypeDefinitionIndex = 63638;
+	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController_ActionType_TypeDefinitionIndex = 76920;
 
 	enum class UIMonsterFantasyEventPrepPageController_ActionType : ::System::Int32
 	{
-		SkinReward = 8,
+		TimeReward = 9,
+		Alice = 4,
+		Reward = 6,
 		Shot = 1,
 		MainTask = 7,
-		Alice = 4,
-		Aquarium = 2,
-		Yuzuha = 5,
-		Reward = 6,
 		Surf = 3,
-		TimeReward = 9,
+		Yuzuha = 5,
+		Aquarium = 2,
+		SkinReward = 8,
 	};
 }

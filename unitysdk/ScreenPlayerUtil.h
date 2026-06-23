@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SCREENPLAYERUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x17924350)
+#define SCREENPLAYERUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x143B6140)
 
-inline static constexpr unsigned int ScreenPlayerUtil_TypeDefinitionIndex = 81622;
+inline static constexpr unsigned int ScreenPlayerUtil_TypeDefinitionIndex = 54983;
 
 class ScreenPlayerUtil : public ::System::Object
 {

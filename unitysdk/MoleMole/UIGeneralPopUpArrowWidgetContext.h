@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIGeneralPopUpArrowWidgetController_ArrowPosition.h"
 
-#define MOLEMOLE_UIGENERALPOPUPARROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157A9A10)
+#define MOLEMOLE_UIGENERALPOPUPARROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169CC990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPopUpArrowWidgetContext_TypeDefinitionIndex = 61356;
+	inline static constexpr unsigned int UIGeneralPopUpArrowWidgetContext_TypeDefinitionIndex = 72627;
 
 	class UIGeneralPopUpArrowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

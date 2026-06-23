@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LoaderNodeBase_1_TypeDefinitionIndex = 8224;
+	inline static constexpr unsigned int LoaderNodeBase_1_TypeDefinitionIndex = 7899;
 
 	template <typename T>
 	class LoaderNodeBase_1 : public ::System::Object

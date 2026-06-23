@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_PS5RESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAF870)
+#define MOLEMOLE_PS5RESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1264EE20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PS5ResolutionSettingContext_TypeDefinitionIndex = 81291;
+	inline static constexpr unsigned int PS5ResolutionSettingContext_TypeDefinitionIndex = 80876;
 
 	class PS5ResolutionSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

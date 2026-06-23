@@ -7,7 +7,7 @@ namespace System::ComponentModel { class InheritanceAttribute; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IInheritanceService_TypeDefinitionIndex = 3076;
+	inline static constexpr unsigned int IInheritanceService_TypeDefinitionIndex = 3075;
 
 	class IInheritanceService
 	{

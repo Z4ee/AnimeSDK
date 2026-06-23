@@ -7,28 +7,28 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x159F9EF0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x159F9CE0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x159F9C30)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x159F9AC0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x159FA420)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_4C37AC1B5153AFB1_OFFSET UNITYSDK_OFFSET(0x159FA240)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_8FECAA4C9B7CDAEE_OFFSET UNITYSDK_OFFSET(0x159F9DD0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_969A80C882053A6C_OFFSET UNITYSDK_OFFSET(0x159F9D70)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x159F9AB0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_BD0A2A29C23120CC_OFFSET UNITYSDK_OFFSET(0x159FA0E0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x159F9BC0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x159F9CB0)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x159F9F70)
-#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x159FA0D0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x12724CF0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x12724580)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x12724570)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x12724900)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x127246F0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x12724BD0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x12724680)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x12724990)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x12724770)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x12724D70)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x127249F0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x127247A0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x12724ED0)
+#define MOLEMOLE_CONFIG_MARCELLAYERTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x12724EE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MarcelLayerTrait_TypeDefinitionIndex = 60958;
+	inline static constexpr unsigned int MarcelLayerTrait_TypeDefinitionIndex = 75202;
 
 	class MarcelLayerTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -38,69 +38,69 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_8FECAA4C9B7CDAEE(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::MarcelLayerTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_8FECAA4C9B7CDAEE_OFFSET))(this, a1);
+			return ((::MoleMole::Config::MarcelLayerTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& a1)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Void OnPostEntityReady(::MoleMole::EntityHandle a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_ONPOSTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::MarcelLayerTrait* Method_2_BD0A2A29C23120CC(::FlexBuffers::FlxValue a1)
+		static ::MoleMole::Config::MarcelLayerTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::MarcelLayerTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_BD0A2A29C23120CC_OFFSET))(a1);
+			return ((::MoleMole::Config::MarcelLayerTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_969A80C882053A6C(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_969A80C882053A6C_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		static ::MoleMole::Config::MarcelLayerTrait* Method_2_4C37AC1B5153AFB1(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
-			return ((::MoleMole::Config::MarcelLayerTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_4C37AC1B5153AFB1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entity)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entity);
 		}
 
-		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MARCELLAYERTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

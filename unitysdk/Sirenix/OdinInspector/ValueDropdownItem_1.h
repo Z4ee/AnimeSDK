@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ValueDropdownItem_1_TypeDefinitionIndex = 7252;
+	inline static constexpr unsigned int ValueDropdownItem_1_TypeDefinitionIndex = 7383;
 
 	template <typename T>
 	struct ValueDropdownItem_1

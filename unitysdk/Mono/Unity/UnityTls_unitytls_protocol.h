@@ -3,7 +3,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_protocol_TypeDefinitionIndex = 2540;
+	inline static constexpr unsigned int UnityTls_unitytls_protocol_TypeDefinitionIndex = 2539;
 
 	enum class UnityTls_unitytls_protocol : ::System::UInt32
 	{

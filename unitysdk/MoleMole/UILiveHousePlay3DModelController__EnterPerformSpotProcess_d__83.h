@@ -6,12 +6,12 @@
 namespace MoleMole { class UILiveHousePlay3DModelController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER__ENTERPERFORMSPOTPROCESS_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x78CB70)
-#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER__ENTERPERFORMSPOTPROCESS_D__83_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6069D0)
+#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER__ENTERPERFORMSPOTPROCESS_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82C7E0)
+#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER__ENTERPERFORMSPOTPROCESS_D__83_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILiveHousePlay3DModelController__EnterPerformSpotProcess_d__83_TypeDefinitionIndex = 49958;
+	inline static constexpr unsigned int UILiveHousePlay3DModelController__EnterPerformSpotProcess_d__83_TypeDefinitionIndex = 74328;
 
 	struct alignas(8) UILiveHousePlay3DModelController__EnterPerformSpotProcess_d__83
 	{

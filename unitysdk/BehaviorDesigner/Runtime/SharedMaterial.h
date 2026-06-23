@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDMATERIAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C1B6360)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B6420)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDMATERIAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4FADB0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FAE70)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedMaterial_TypeDefinitionIndex = 31735;
+	inline static constexpr unsigned int SharedMaterial_TypeDefinitionIndex = 33286;
 
 	class SharedMaterial : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Material*>
 	{

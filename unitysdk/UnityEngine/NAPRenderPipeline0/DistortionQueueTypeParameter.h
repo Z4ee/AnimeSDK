@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/DistortionQueueType.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONQUEUETYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B491E90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONQUEUETYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AEEE0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DistortionQueueTypeParameter_TypeDefinitionIndex = 6091;
+	inline static constexpr unsigned int DistortionQueueTypeParameter_TypeDefinitionIndex = 6102;
 
 	class DistortionQueueTypeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::NAPRenderPipeline0::DistortionQueueType>
 	{

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_AD0D352DA5D06C47_TypeDefinitionIndex = 68043;
+inline static constexpr unsigned int Enum_3_AD0D352DA5D06C47_TypeDefinitionIndex = 51387;
 
 enum class Enum_3_AD0D352DA5D06C47 : ::System::Int32
 {
-	BlackSmith = 7,
-	MainCity = 14,
-	Comic = 13,
-	Ambient = 15,
-	Default = 0,
 	Battle = 9,
-	Video = 2,
 	Deposit = 6,
-	Character = 5,
-	MainPage = 3,
-	BattleTip = 16,
 	GalGame = 12,
-	HollowQuest = 1,
-	Hollow = 8,
-	Knot = 4,
+	Ambient = 15,
+	MainPage = 3,
+	BlackSmith = 7,
+	Video = 2,
 	CG = 11,
+	HollowQuest = 1,
+	Comic = 13,
+	Hollow = 8,
+	BattleTip = 16,
+	MainCity = 14,
+	Character = 5,
+	Default = 0,
+	Knot = 4,
 };

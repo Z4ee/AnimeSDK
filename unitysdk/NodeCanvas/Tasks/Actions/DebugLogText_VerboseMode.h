@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int DebugLogText_VerboseMode_TypeDefinitionIndex = 27529;
+	inline static constexpr unsigned int DebugLogText_VerboseMode_TypeDefinitionIndex = 30299;
 
 	enum class DebugLogText_VerboseMode : ::System::Int32
 	{

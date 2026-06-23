@@ -4,12 +4,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DISTORTION_ISACTIVEV2_OFFSET UNITYSDK_OFFSET(0x19B8C800)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8C8D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DISTORTION_ISACTIVEV2_OFFSET UNITYSDK_OFFSET(0x1BC1FB60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1FC30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Distortion_TypeDefinitionIndex = 30121;
+	inline static constexpr unsigned int Distortion_TypeDefinitionIndex = 26818;
 
 	class Distortion : public ::UnityEngine::NAPRenderPipeline0::Distortion_NativeSRP
 	{

@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_ThirdPartyObjectType_TypeDefinitionIndex = 31675;
+	inline static constexpr unsigned int BehaviorManager_ThirdPartyObjectType_TypeDefinitionIndex = 33226;
 
 	enum class BehaviorManager_ThirdPartyObjectType : ::System::Int32
 	{

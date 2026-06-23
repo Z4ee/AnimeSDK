@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPrepareFullScreenVideoNode_FullScreenVideoPlayItem_TypeDefinitionIndex = 73135;
+	inline static constexpr unsigned int ConfigPrepareFullScreenVideoNode_FullScreenVideoPlayItem_TypeDefinitionIndex = 41403;
 
 	struct alignas(8) ConfigPrepareFullScreenVideoNode_FullScreenVideoPlayItem
 	{

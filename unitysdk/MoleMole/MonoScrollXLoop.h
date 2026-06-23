@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOSCROLLXLOOP_AWAKE_OFFSET UNITYSDK_OFFSET(0x125E6190)
-#define MOLEMOLE_MONOSCROLLXLOOP_UPDATE_OFFSET UNITYSDK_OFFSET(0x125E61E0)
-#define MOLEMOLE_MONOSCROLLXLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x125E6300)
+#define MOLEMOLE_MONOSCROLLXLOOP_AWAKE_OFFSET UNITYSDK_OFFSET(0x130399E0)
+#define MOLEMOLE_MONOSCROLLXLOOP_UPDATE_OFFSET UNITYSDK_OFFSET(0x13039A30)
+#define MOLEMOLE_MONOSCROLLXLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x13039B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoScrollXLoop_TypeDefinitionIndex = 82822;
+	inline static constexpr unsigned int MonoScrollXLoop_TypeDefinitionIndex = 54445;
 
 	class MonoScrollXLoop : public ::UnityEngine::MonoBehaviour
 	{

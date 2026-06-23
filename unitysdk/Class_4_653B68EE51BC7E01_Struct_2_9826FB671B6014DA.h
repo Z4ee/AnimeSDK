@@ -4,7 +4,7 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_4_653B68EE51BC7E01_Struct_2_9826FB671B6014DA_TypeDefinitionIndex = 53597;
+inline static constexpr unsigned int Class_4_653B68EE51BC7E01_Struct_2_9826FB671B6014DA_TypeDefinitionIndex = 53514;
 
 struct alignas(4) Class_4_653B68EE51BC7E01_Struct_2_9826FB671B6014DA
 {

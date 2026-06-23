@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_UIMODELBGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15101920)
+#define MOLEMOLE_UIMODELBGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA2630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIModelBgSetting_TypeDefinitionIndex = 59541;
+	inline static constexpr unsigned int UIModelBgSetting_TypeDefinitionIndex = 46687;
 
 	class UIModelBgSetting : public ::System::Object
 	{
 	public:
-		::System::Single ModelScale; // 0x10
-		::UnityEngine::Vector3 ModelPos; // 0x14
-		::UnityEngine::Vector3 ModelRot; // 0x20
+		::UnityEngine::Vector3 ModelPos; // 0x10
+		::UnityEngine::Vector3 ModelRot; // 0x1C
+		::System::Single ModelScale; // 0x28
 
 		::System::Void _ctor()
 		{

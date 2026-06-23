@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_INTERNAL_BYTEARRAYCOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C38B500)
-#define UTF8JSON_INTERNAL_BYTEARRAYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C38B470)
+#define UTF8JSON_INTERNAL_BYTEARRAYCOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E6CF830)
+#define UTF8JSON_INTERNAL_BYTEARRAYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E6CF7A0)
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ByteArrayComparer_TypeDefinitionIndex = 85658;
+	inline static constexpr unsigned int ByteArrayComparer_TypeDefinitionIndex = 91232;
 
 	class ByteArrayComparer : public ::System::Object
 	{

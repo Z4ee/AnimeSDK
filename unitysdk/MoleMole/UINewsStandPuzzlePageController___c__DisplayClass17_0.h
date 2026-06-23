@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UINEWSSTANDPUZZLEPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15588CC0)
-#define MOLEMOLE_UINEWSSTANDPUZZLEPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUICLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x15588CD0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178C6A60)
+#define MOLEMOLE_UINEWSSTANDPUZZLEPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUICLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x178C6A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzlePageController___c__DisplayClass17_0_TypeDefinitionIndex = 48672;
+	inline static constexpr unsigned int UINewsStandPuzzlePageController___c__DisplayClass17_0_TypeDefinitionIndex = 51402;
 
 	class UINewsStandPuzzlePageController___c__DisplayClass17_0 : public ::System::Object
 	{

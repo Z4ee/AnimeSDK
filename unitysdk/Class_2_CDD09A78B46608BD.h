@@ -9,20 +9,20 @@ namespace MoleMole::Config { class UIAchievementAnimConfig; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_CDD09A78B46608BD_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x165FA610)
-#define CLASS_2_CDD09A78B46608BD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x165FA760)
-#define CLASS_2_CDD09A78B46608BD__CTOR_OFFSET UNITYSDK_OFFSET(0x165FA750)
+#define CLASS_2_CDD09A78B46608BD_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x13E16860)
+#define CLASS_2_CDD09A78B46608BD_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x13E169B0)
+#define CLASS_2_CDD09A78B46608BD__CTOR_OFFSET UNITYSDK_OFFSET(0x13E169A0)
 
-inline static constexpr unsigned int Class_2_CDD09A78B46608BD_TypeDefinitionIndex = 47459;
+inline static constexpr unsigned int Class_2_CDD09A78B46608BD_TypeDefinitionIndex = 66677;
 
 class Class_2_CDD09A78B46608BD : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::RectTransform* Field_2_3; // 0x18
-	::MoleMole::Config::UIAchievementAnimConfig* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x28
+	::MoleMole::Config::UIAchievementAnimConfig* Field_2_2; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x20
+	::UnityEngine::RectTransform* Field_2_4; // 0x28
 	::Class_2_FDFE69FE7B72463B* Field_2_0; // 0x30
-	::UnityEngine::RectTransform* Field_2_4; // 0x38
+	::UnityEngine::RectTransform* Field_2_3; // 0x38
 
 	::System::Void _ctor()
 	{

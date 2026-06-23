@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESHAKECAM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1424B610)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESHAKECAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1424B680)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESHAKECAM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x10D098F0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESHAKECAM__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceShakeCam_TypeDefinitionIndex = 70641;
+	inline static constexpr unsigned int ConfigGachaPerformanceShakeCam_TypeDefinitionIndex = 85916;
 
 	class ConfigGachaPerformanceShakeCam : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

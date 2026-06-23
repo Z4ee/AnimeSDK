@@ -6,9 +6,9 @@ namespace MoleMole::FlowCanvas::Nodes { class SummerEventBeatMap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C16B966F3428AAC0_METHOD_1_C4D7045F8DEA7600_OFFSET UNITYSDK_OFFSET(0xFD743B0)
+#define CLASS_1_C16B966F3428AAC0_METHOD_1_C4D7045F8DEA7600_OFFSET UNITYSDK_OFFSET(0xFE0FA90)
 
-inline static constexpr unsigned int Class_1_C16B966F3428AAC0_TypeDefinitionIndex = 40390;
+inline static constexpr unsigned int Class_1_C16B966F3428AAC0_TypeDefinitionIndex = 73151;
 
 class Class_1_C16B966F3428AAC0 : public ::System::Object
 {

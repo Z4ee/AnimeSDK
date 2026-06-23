@@ -8,13 +8,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19ADD0E0)
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19ADD0F0)
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADD0D0)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C00A5B0)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C00A5C0)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00A5A0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2878;
+	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2877;
 
 	class EventDescriptor : public ::System::ComponentModel::MemberDescriptor
 	{

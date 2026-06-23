@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NAPAdditionalProbeData_TypeDefinitionIndex = 5149;
+	inline static constexpr unsigned int NAPAdditionalProbeData_TypeDefinitionIndex = 5148;
 
 	struct alignas(4) NAPAdditionalProbeData
 	{

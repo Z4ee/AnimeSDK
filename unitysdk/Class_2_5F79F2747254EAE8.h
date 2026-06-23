@@ -12,26 +12,26 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_5F79F2747254EAE8_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x140A8240)
-#define CLASS_2_5F79F2747254EAE8_METHOD_2_8AE01EFA7526266A_OFFSET UNITYSDK_OFFSET(0x140A8030)
-#define CLASS_2_5F79F2747254EAE8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x140A82D0)
-#define CLASS_2_5F79F2747254EAE8__CTOR_OFFSET UNITYSDK_OFFSET(0x140A82C0)
+#define CLASS_2_5F79F2747254EAE8_METHOD_2_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0x1A841B10)
+#define CLASS_2_5F79F2747254EAE8_METHOD_2_8AE01EFA7526266A_OFFSET UNITYSDK_OFFSET(0x1A841900)
+#define CLASS_2_5F79F2747254EAE8_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1A841BA0)
+#define CLASS_2_5F79F2747254EAE8__CTOR_OFFSET UNITYSDK_OFFSET(0x1A841B90)
 
-inline static constexpr unsigned int Class_2_5F79F2747254EAE8_TypeDefinitionIndex = 80596;
+inline static constexpr unsigned int Class_2_5F79F2747254EAE8_TypeDefinitionIndex = 58557;
 
 class Class_2_5F79F2747254EAE8 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_1; // 0x18
-	::MoleMole::MonoGamepadTabButtonGroup* Field_2_6; // 0x20
+	::UnityEngine::GameObject* Field_2_9; // 0x18
+	::UnityEngine::UI::Text* Field_2_3; // 0x20
 	::UnityEngine::RectTransform* Field_2_7; // 0x28
-	::Class_2_B4378B46E0020E85* Field_2_5; // 0x30
-	::UnityEngine::GameObject* Field_2_8; // 0x38
-	::UnityEngine::UI::Text* Field_2_3; // 0x40
-	::UnityEngine::RectTransform* Field_2_0; // 0x48
+	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_1; // 0x30
+	::UnityEngine::UI::Text* Field_2_2; // 0x38
+	::UnityEngine::GameObject* Field_2_8; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x48
 	::MonoUITableScrollV2* Field_2_4; // 0x50
-	::UnityEngine::UI::Text* Field_2_2; // 0x58
-	::UnityEngine::GameObject* Field_2_9; // 0x60
+	::MoleMole::MonoGamepadTabButtonGroup* Field_2_6; // 0x58
+	::UnityEngine::RectTransform* Field_2_0; // 0x60
 
 	::System::Void _ctor()
 	{

@@ -13,41 +13,41 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATEREADER_OFFSET UNITYSDK_OFFSET(0x1BB7C770)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATESQLREADERDELEGATE_OFFSET UNITYSDK_OFFSET(0x1BB7CD40)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATESQLXMLREADER_OFFSET UNITYSDK_OFFSET(0x1BB7CBA0)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1BB7D1C0)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_GET_CREATESQLREADERMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1BB7C9D0)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1BB7C9C0)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_SETNULL_OFFSET UNITYSDK_OFFSET(0x1BB7C750)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x1BB7CE00)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x1BB7CE10)
-#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x1BB7D070)
-#define SYSTEM_DATA_SQLTYPES_SQLXML__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB7D240)
-#define SYSTEM_DATA_SQLTYPES_SQLXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7C730)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATEREADER_OFFSET UNITYSDK_OFFSET(0x1DEE59A0)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATESQLREADERDELEGATE_OFFSET UNITYSDK_OFFSET(0x1DEE5F70)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_CREATESQLXMLREADER_OFFSET UNITYSDK_OFFSET(0x1DEE5DD0)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1DEE63F0)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_GET_CREATESQLREADERMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1DEE5C00)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1DEE5BF0)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_SETNULL_OFFSET UNITYSDK_OFFSET(0x1DEE5980)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x1DEE6030)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x1DEE6040)
+#define SYSTEM_DATA_SQLTYPES_SQLXML_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x1DEE62A0)
+#define SYSTEM_DATA_SQLTYPES_SQLXML__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEE6470)
+#define SYSTEM_DATA_SQLTYPES_SQLXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE5960)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlXml_TypeDefinitionIndex = 37115;
+	inline static constexpr unsigned int SqlXml_TypeDefinitionIndex = 38732;
 
 	class SqlXml : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_s_createSqlReaderMethodInfo()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x27600);
-		}
 		static ::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>** StaticGet_s_sqlReaderDelegate()
 		{
-			return (::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x27608);
+			return (::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x292A0);
 		}
 		static ::System::Xml::XmlReaderSettings** StaticGet_s_defaultXmlReaderSettingsCloseInput()
 		{
-			return (::System::Xml::XmlReaderSettings**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x27610);
+			return (::System::Xml::XmlReaderSettings**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x292A8);
 		}
 		static ::System::Xml::XmlReaderSettings** StaticGet_s_defaultXmlReaderSettings()
 		{
-			return (::System::Xml::XmlReaderSettings**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x27618);
+			return (::System::Xml::XmlReaderSettings**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x292B0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_createSqlReaderMethodInfo()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(SqlXml_TypeDefinitionIndex)->GetStaticField(0x292B8);
 		}
 		::System::Reflection::MethodInfo* _createSqlReaderMethodInfo; // 0x10
 		::System::Boolean _fNotNull; // 0x18

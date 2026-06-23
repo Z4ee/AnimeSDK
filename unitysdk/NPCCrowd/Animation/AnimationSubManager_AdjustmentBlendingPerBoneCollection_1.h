@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingPerBoneCollection_1_TypeDefinitionIndex = 70493;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingPerBoneCollection_1_TypeDefinitionIndex = 57414;
 
 	template <typename T>
 	struct AnimationSubManager_AdjustmentBlendingPerBoneCollection_1

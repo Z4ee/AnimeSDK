@@ -11,8 +11,8 @@ namespace System::Threading::Tasks
 	struct alignas(8) IndexRange
 	{
 		::System::Threading::Tasks::Shared_1<::System::Int64>* m_nSharedCurrentIndexOffset; // 0x10
-		::System::Int64 m_nFromInclusive; // 0x18
-		::System::Int64 m_nToExclusive; // 0x20
-		::System::Int32 m_bRangeFinished; // 0x28
+		::System::Int32 m_bRangeFinished; // 0x18
+		::System::Int64 m_nFromInclusive; // 0x20
+		::System::Int64 m_nToExclusive; // 0x28
 	};
 }

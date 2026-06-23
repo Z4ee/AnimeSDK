@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/MaterialPropertyBlockProperty_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF3520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5F1C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MaterialPropertyBlockPropertyFloat_TypeDefinitionIndex = 29857;
+	inline static constexpr unsigned int MaterialPropertyBlockPropertyFloat_TypeDefinitionIndex = 27156;
 
 	class MaterialPropertyBlockPropertyFloat : public ::UnityEngine::Rendering::Universal::MaterialPropertyBlockProperty_1<::System::Single>
 	{

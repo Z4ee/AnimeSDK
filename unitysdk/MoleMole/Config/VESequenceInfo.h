@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_VESEQUENCEINFO_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0x17D308F0)
-#define MOLEMOLE_CONFIG_VESEQUENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17D30970)
+#define MOLEMOLE_CONFIG_VESEQUENCEINFO_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0x1A0771B0)
+#define MOLEMOLE_CONFIG_VESEQUENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A077230)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int VESequenceInfo_TypeDefinitionIndex = 40694;
+	inline static constexpr unsigned int VESequenceInfo_TypeDefinitionIndex = 42343;
 
 	class VESequenceInfo : public ::System::Object
 	{

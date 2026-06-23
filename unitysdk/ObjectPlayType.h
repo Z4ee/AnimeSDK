@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ObjectPlayType_TypeDefinitionIndex = 80030;
+inline static constexpr unsigned int ObjectPlayType_TypeDefinitionIndex = 86116;
 
 enum class ObjectPlayType : ::System::Int32
 {
-	None = 0,
 	Effect = 3,
-	Light = 4,
 	FrameTexture = 1,
+	None = 0,
 	Video = 2,
+	Light = 4,
 };

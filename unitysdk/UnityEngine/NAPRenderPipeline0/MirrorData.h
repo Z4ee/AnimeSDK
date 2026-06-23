@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MirrorData_TypeDefinitionIndex = 5943;
+	inline static constexpr unsigned int MirrorData_TypeDefinitionIndex = 5953;
 
 	struct alignas(4) MirrorData
 	{

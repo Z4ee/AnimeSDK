@@ -11,39 +11,39 @@
 namespace MoleMole { class ConfigPointScoreCalculatePipe; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0xDB86DB0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0xDB86F80)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0xDB86530)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0xDB861F0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0xDB85F60)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xDB86120)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0xDB866B0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0xDB86030)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0xDB86930)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB870A0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDB86FC0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0x106ACB30)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0x106ACD00)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0x106AC2B0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0x106ABF70)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0x106ABCE0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x106ABEA0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0x106AC430)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0x106ABDB0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0x106AC6B0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x106ACE20)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x106ACD40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 63909;
+	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 73505;
 
 	class BattleMapSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::BattleMapSubsystem*>
 	{
 	public:
-		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
+		static ::System::Boolean* StaticGet_EnableRandomByScore()
 		{
-			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDCB0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E0);
 		}
 		static ::System::Boolean* StaticGet_EnableBattleMapSystem()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDCB3);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E1);
 		}
-		static ::System::Boolean* StaticGet_EnableRandomByScore()
+		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDCB4);
+			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E2);
 		}
-		::System::Collections::Generic::Dictionary_2<::MoleMole::EntityHandle, ::Struct_2_889E5B2995035C6D>* _battleMapEntityInfos; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::MoleMole::BattleMapSubsystem_BattleCellInfo>* _battleCellMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::MoleMole::BattleMapSubsystem_BattleCellInfo>* _battleCellMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::MoleMole::EntityHandle, ::Struct_2_889E5B2995035C6D>* _battleMapEntityInfos; // 0x18
 
 		::System::Void _ctor()
 		{

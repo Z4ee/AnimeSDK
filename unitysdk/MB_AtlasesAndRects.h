@@ -7,9 +7,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define MB_ATLASESANDRECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C04BD80)
+#define MB_ATLASESANDRECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E36FE80)
 
-inline static constexpr unsigned int MB_AtlasesAndRects_TypeDefinitionIndex = 84944;
+inline static constexpr unsigned int MB_AtlasesAndRects_TypeDefinitionIndex = 90518;
 
 class MB_AtlasesAndRects : public ::System::Object
 {

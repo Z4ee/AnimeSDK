@@ -9,18 +9,18 @@ namespace NodeGraph { class IGraphPort; }
 namespace NodeGraph { class NodeGraphBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHNODEMACRORUNTIME_GETPORT_OFFSET UNITYSDK_OFFSET(0xBDFBC50)
-#define NODEGRAPH_GRAPHNODEMACRORUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xBDFBC40)
+#define NODEGRAPH_GRAPHNODEMACRORUNTIME_GETPORT_OFFSET UNITYSDK_OFFSET(0xD959440)
+#define NODEGRAPH_GRAPHNODEMACRORUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xD959430)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeMacroRuntime_TypeDefinitionIndex = 47421;
+	inline static constexpr unsigned int GraphNodeMacroRuntime_TypeDefinitionIndex = 58546;
 
 	class GraphNodeMacroRuntime : public ::NodeGraph::IGraphNode
 	{
 	public:
-		::NodeGraph::GraphNodeMacroOutput* _output; // 0x30
-		::NodeGraph::GraphNodeMacroInput* _input; // 0x38
+		::NodeGraph::GraphNodeMacroInput* _input; // 0x30
+		::NodeGraph::GraphNodeMacroOutput* _output; // 0x38
 
 		::System::Void _ctor(::NodeGraph::NodeGraphBase* nodeGraphBase)
 		{

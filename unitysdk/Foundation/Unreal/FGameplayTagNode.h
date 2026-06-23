@@ -7,18 +7,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1BE2C5A0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE2C980)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x15513080)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15513460)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNode_TypeDefinitionIndex = 8901;
+	inline static constexpr unsigned int FGameplayTagNode_TypeDefinitionIndex = 10900;
 
 	struct alignas(8) FGameplayTagNode
 	{
 		static ::Foundation::Unreal::FGameplayTagNode* StaticGet_Root()
 		{
-			return (::Foundation::Unreal::FGameplayTagNode*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNode_TypeDefinitionIndex)->GetStaticField(0x7E20);
+			return (::Foundation::Unreal::FGameplayTagNode*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNode_TypeDefinitionIndex)->GetStaticField(0x7960);
 		}
 		::Foundation::Unreal::FName Tag; // 0x10
 		::Foundation::Unreal::FGameplayTagContainer CompleteTagWithParents; // 0x18

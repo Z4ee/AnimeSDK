@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0x9C2E80)
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0x9C2E10)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0xA647F0)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0xA64780)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 32512;
+	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 34063;
 
 	struct alignas(4) CinemachineComposer_FovCache
 	{

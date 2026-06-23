@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_SCENEMAP3DVISUALCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x186C3C20)
-#define MOLEMOLE_CONFIG_SCENEMAP3DVISUALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186C3C60)
+#define MOLEMOLE_CONFIG_SCENEMAP3DVISUALCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18ADDCC0)
+#define MOLEMOLE_CONFIG_SCENEMAP3DVISUALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADDD00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneMap3DVisualConfig_TypeDefinitionIndex = 47445;
+	inline static constexpr unsigned int SceneMap3DVisualConfig_TypeDefinitionIndex = 56643;
 
 	class SceneMap3DVisualConfig : public ::UnityEngine::ScriptableObject
 	{

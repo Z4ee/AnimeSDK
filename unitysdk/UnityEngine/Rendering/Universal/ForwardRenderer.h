@@ -21,6 +21,9 @@ class DrawSkyCloudPass;
 class OceanEdgeFoamPass;
 class VolumetricCloudBlitPass;
 class VolumetricCloudPass;
+class VolumetricCloudV2CombinePass;
+class VolumetricCloudV2ReconstructionPass;
+class VolumetricCloudV2RenderPass;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Camera; }
@@ -38,6 +41,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class DrawOffScreenTransparentObject
 namespace UnityEngine::NAPRenderPipeline0 { class DrawOpaqueObjectsPass_NativeImpl; }
 namespace UnityEngine::NAPRenderPipeline0 { class DrawOverlayPass; }
 namespace UnityEngine::NAPRenderPipeline0 { class DrawOverlayPass_NativeImpl; }
+namespace UnityEngine::NAPRenderPipeline0 { class DrawPartialBlurMaskPass_NativeImpl; }
 namespace UnityEngine::NAPRenderPipeline0 { class DrawSkyboxPass_NativeImpl; }
 namespace UnityEngine::NAPRenderPipeline0 { class FinalBlitPass_NativeImpl; }
 namespace UnityEngine::NAPRenderPipeline0 { class FrameEstimateInfoPass_NativeImpl; }
@@ -98,9 +102,11 @@ namespace UnityEngine::Rendering::Universal { class ForwardRendererData; }
 namespace UnityEngine::Rendering::Universal { class MKGlarePass; }
 namespace UnityEngine::Rendering::Universal { class NapCapturePass; }
 namespace UnityEngine::Rendering::Universal { class NapRenderContext_CurrentFrameRenderConfigs; }
+namespace UnityEngine::Rendering::Universal { class OffDLSSFrameGenPass; }
 namespace UnityEngine::Rendering::Universal { class OffFSR3FrameGenPass; }
 namespace UnityEngine::Rendering::Universal { class OffScreenUISettingPass; }
 namespace UnityEngine::Rendering::Universal { class OpaquePostProcessSecond; }
+namespace UnityEngine::Rendering::Universal { class RTXAODebugBlitPass; }
 namespace UnityEngine::Rendering::Universal { class RTXAOPass; }
 namespace UnityEngine::Rendering::Universal { class SplineOutlinePass; }
 namespace UnityEngine::Rendering::Universal { class StaticEnvironment; }
@@ -125,123 +131,126 @@ namespace UnityEngine::Rendering::Universal::Internal { class LyraDebugPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class LyraUpdateClipmapPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class LyraUpdateProbePass; }
 namespace UnityEngine::Rendering::Universal::Internal { class PostProcessPass; }
+namespace UnityEngine::Rendering::Universal::Internal { class ReactiveMaskDitherPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class ReactiveMaskPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class SceneObjectHighlightPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterGenPass; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterInteractionPass; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_BINDNATIVERENDERPIPELINECALLBACK_OFFSET UNITYSDK_OFFSET(0x19091360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_CREATECAMERARENDERTARGET_OFFSET UNITYSDK_OFFSET(0x190A7C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190A8910)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ENSURECONSOLEVARIABLESINITIALIZED_OFFSET UNITYSDK_OFFSET(0x19092DF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_FINISHRENDERINGPERCAMERA_OFFSET UNITYSDK_OFFSET(0x190A9540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_FINISHRENDERING_OFFSET UNITYSDK_OFFSET(0x190A9600)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETJITTEREDPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x190A97F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETOPAQUESORTCRITERIA_OFFSET UNITYSDK_OFFSET(0x190930F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_INITIALIZECAMERAVIEWCONSTANTS_OFFSET UNITYSDK_OFFSET(0x190A6270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERDEFERREDJUSTDIRECTLIGHTPASS_OFFSET UNITYSDK_OFFSET(0x19092600)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERDRAWFORWARDGBUFFERPASS_OFFSET UNITYSDK_OFFSET(0x190924E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERFIRSTDEFERREDSHADINGPASS_OFFSET UNITYSDK_OFFSET(0x19092720)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERHALFRESOFFSCREENTRANSPARENTDRAW_OFFSET UNITYSDK_OFFSET(0x190916E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONBEFOREBEGINRENDERPASSINDEFERREDPASS_OFFSET UNITYSDK_OFFSET(0x19092690)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONBEFOREHALFRESOFFSCREENTRANSPARENTDRAW_OFFSET UNITYSDK_OFFSET(0x19091670)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONDEFERREDSHADINGPASSAFTERDRAWOPAQUEOBJECTS_OFFSET UNITYSDK_OFFSET(0x19092470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERDECAL_OFFSET UNITYSDK_OFFSET(0x190917B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERDEPTHCOPY_OFFSET UNITYSDK_OFFSET(0x190920D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERHIZTEST_OFFSET UNITYSDK_OFFSET(0x19092360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTEROPAQUE_OFFSET UNITYSDK_OFFSET(0x19091B20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONINNERRENDERSHADOWSLICE_OFFSET UNITYSDK_OFFSET(0x19092960)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_REGISTERSTATICENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x190A8D40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_REQUIRESINTERMEDIATECOLORTEXTURE_OFFSET UNITYSDK_OFFSET(0x190A7840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x190A8F80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUPLIGHTS_OFFSET UNITYSDK_OFFSET(0x190A8F00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUP_OFFSET UNITYSDK_OFFSET(0x19099BE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETWITHOUTUIBLURRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x190A6180)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x190A9CA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19093130)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190A9D10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_FINISHRENDERING_OFFSET UNITYSDK_OFFSET(0x190A9DA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x190A9E30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_SETUPLIGHTS_OFFSET UNITYSDK_OFFSET(0x190A9ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_BINDNATIVERENDERPIPELINECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AECDC40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_CREATECAMERARENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1AEE5CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AEE6A00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_DRAWGPUCROWDGBUFFER_OFFSET UNITYSDK_OFFSET(0x1AECEF30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ENSURECONSOLEVARIABLESINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1AED0340)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_FINISHRENDERINGPERCAMERA_OFFSET UNITYSDK_OFFSET(0x1AEE77B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_FINISHRENDERING_OFFSET UNITYSDK_OFFSET(0x1AEE7870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETETHEREYEINTERACTABLEPASSEVENT_OFFSET UNITYSDK_OFFSET(0x1AED0680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETJITTEREDPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1AEE7A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETOPAQUESORTCRITERIA_OFFSET UNITYSDK_OFFSET(0x1AED0640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_INITIALIZECAMERAVIEWCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1AEE4350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERDEFERREDJUSTDIRECTLIGHTPASS_OFFSET UNITYSDK_OFFSET(0x1AECF7E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERDRAWFORWARDGBUFFERPASS_OFFSET UNITYSDK_OFFSET(0x1AECF6C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERFIRSTDEFERREDSHADINGPASS_OFFSET UNITYSDK_OFFSET(0x1AECF900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONAFTERHALFRESOFFSCREENTRANSPARENTDRAW_OFFSET UNITYSDK_OFFSET(0x1AECDFF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONBEFOREBEGINRENDERPASSINDEFERREDPASS_OFFSET UNITYSDK_OFFSET(0x1AECF870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONBEFOREHALFRESOFFSCREENTRANSPARENTDRAW_OFFSET UNITYSDK_OFFSET(0x1AECDF80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONDEFERREDSHADINGPASSAFTERDRAWOPAQUEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1AECF650)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERDECAL_OFFSET UNITYSDK_OFFSET(0x1AECE0C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERDEPTHCOPY_OFFSET UNITYSDK_OFFSET(0x1AECF2B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTERHIZTEST_OFFSET UNITYSDK_OFFSET(0x1AECF540)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTEROPAQUE_OFFSET UNITYSDK_OFFSET(0x1AECE660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONINNERRENDERSHADOWSLICE_OFFSET UNITYSDK_OFFSET(0x1AECFB40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_REGISTERSTATICENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1AEE6E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_REQUIRESINTERMEDIATECOLORTEXTURE_OFFSET UNITYSDK_OFFSET(0x1AEE5900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1AEE70B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUPLIGHTS_OFFSET UNITYSDK_OFFSET(0x1AEE7030)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETUP_OFFSET UNITYSDK_OFFSET(0x1AED7750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_SETWITHOUTUIBLURRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1AEE4260)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEE7F10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AED0790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AEE7F80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_FINISHRENDERING_OFFSET UNITYSDK_OFFSET(0x1AEE8010)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1AEE80A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER___BASE_SETUPLIGHTS_OFFSET UNITYSDK_OFFSET(0x1AEE8140)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRenderer_TypeDefinitionIndex = 29993;
+	inline static constexpr unsigned int ForwardRenderer_TypeDefinitionIndex = 26514;
 
 	class ForwardRenderer : public ::UnityEngine::Rendering::Universal::ScriptableRenderer
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSkyLut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23420);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_EnableRTXGI()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23428);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeVolumetricFog()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23430);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeGenerateLightShaft()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23438);
-		}
-		static ::Il2CppArray<::System::Single>** StaticGet_k_ScreenCullingRatioTmp()
-		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23440);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSSSR()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23448);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativePerObjectShadow()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23450);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeAmplifyOcclusion()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23458);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSceneColorGradingLut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23460);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeReflection()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23468);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B50);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeNAPCapsuleAO()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x23470);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B58);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::MaterialDebugMode* StaticGet_m_DebugFeature()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeAmplifyOcclusion()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::MaterialDebugMode*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A50);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B60);
 		}
-		static ::System::Int32* StaticGet_s_PassHideFlag()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSSSR()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A54);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B68);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSceneColorGradingLut()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B70);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeGenerateLightShaft()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B78);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeSkyLut()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B80);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeVolumetricFog()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B88);
+		}
+		static ::Il2CppArray<::System::Single>** StaticGet_k_ScreenCullingRatioTmp()
+		{
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B90);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_EnableRTXGI()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20B98);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_UseNativeReflection()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x20BA0);
 		}
 		static ::System::Int32* StaticGet_s_DefaultTAAPhaseCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A58);
-		}
-		static ::System::Boolean* StaticGet_UseNativeCopyColor()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A5C);
-		}
-		static ::System::Boolean* StaticGet_s_EnableShadowCullSimplification()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A5D);
-		}
-		static ::System::Boolean* StaticGet_s_ConsoleVariablesInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A5E);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5520);
 		}
 		static ::System::Boolean* StaticGet_overrideScreenRatioCulling()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5A5F);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5524);
+		}
+		static ::System::Boolean* StaticGet_s_EnableShadowCullSimplification()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5525);
+		}
+		static ::System::Boolean* StaticGet_s_ConsoleVariablesInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5526);
+		}
+		static ::System::Boolean* StaticGet_UseNativeCopyColor()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5527);
+		}
+		static ::System::Int32* StaticGet_s_PassHideFlag()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x5528);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::MaterialDebugMode* StaticGet_m_DebugFeature()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::MaterialDebugMode*)Il2CppClass::FromTypeDefinitionIndex(ForwardRenderer_TypeDefinitionIndex)->GetStaticField(0x552C);
 		}
 		// static const ::System::Int32 k_DepthStencilBufferBits = 0x18; // 0x0
 		// static const ::System::String* k_CreateCameraTextures; // 0x0
@@ -266,6 +275,7 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::String* kProfileTagOutlineEffectPass; // 0x0
 		// static const ::System::String* kProfileTagAmplifyOcclusionPass; // 0x0
 		// static const ::System::String* kProfileTagRTXAOPass; // 0x0
+		// static const ::System::String* kProfileTagRTXAODebugBlitPass; // 0x0
 		// static const ::System::String* kProfileTagVolumetricCloudBlitPass; // 0x0
 		// static const ::System::String* kProfileTagVolumetricCloudBlitPassAfterColorGrading; // 0x0
 		// static const ::System::String* kProfileTagDrawSkyCloudPass; // 0x0
@@ -292,6 +302,7 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::String* kProfileTagRenderHalfResOffScreenTransparentForwardPassWithoutDelay; // 0x0
 		// static const ::System::String* kProfileTagRenderFullResOffScreenTransparentForwardPass; // 0x0
 		// static const ::System::String* kProfileTagReactiveMaskPass; // 0x0
+		// static const ::System::String* kProfileTagReactiveMaskDitherPass; // 0x0
 		// static const ::System::String* kProfileTagSceneObjectHighlightPass; // 0x0
 		// static const ::System::String* kProfileTagEtherEyeInteractablePass; // 0x0
 		// static const ::System::String* kProfileTagRenderObjectCallbackPass; // 0x0
@@ -324,6 +335,9 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::String* kProfileTagOpaquePostProcessPass; // 0x0
 		// static const ::System::String* kProfileTagVolumetricFogPass; // 0x0
 		// static const ::System::String* kProfileTagVolumetricCloudPass; // 0x0
+		// static const ::System::String* kProfileTagVolumetricCloudV2RenderPass; // 0x0
+		// static const ::System::String* kProfileTagVolumetricCloudV2ReconstructionPass; // 0x0
+		// static const ::System::String* kProfileTagVolumetricCloudV2CombinePass; // 0x0
 		// static const ::System::String* kProfileTagOceanEdgeFoamPass; // 0x0
 		// static const ::System::String* kProfileTagRenderIntoDBufferPass; // 0x0
 		// static const ::System::String* kProfileTagPreprocessPassReset; // 0x0
@@ -351,134 +365,143 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::String* kProfileTagTransparentMaskPass; // 0x0
 		// static const ::System::String* kProfileTagBlendUIColorPass; // 0x0
 		// static const ::System::String* kProfileTagOffFSR3FrameGenPass; // 0x0
+		// static const ::System::String* kProfileTagOffDLSSFrameGenPass; // 0x0
 		// static const ::System::String* kProfileTagBrightSpotsFlarePass; // 0x0
-		::DrawAfterSkyboxPass* m_DrawAfterSkyboxPass; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::OffscreenParticleUpdatePass* m_OffscreenParticleUpdatePass; // 0xB8
-		::UnityEngine::NAPRenderPipeline0::PerObjectShadowPass* m_PerObjectShadowPass; // 0xC0
-		::UnityEngine::NAPRenderPipeline0::VolumetricFogPass* m_VolumetricFogPass; // 0xC8
-		::UnityEngine::NAPRenderPipeline0::PreProcessPass* m_PreProcessPassResetAfterShadowCaster; // 0xD0
-		::UnityEngine::Rendering::Universal::RTXAOPass* m_RTXAOPass; // 0xD8
-		::VolumetricCloudPass* m_VolumetricCloudPass; // 0xE0
-		::UnityEngine::Rendering::Universal::Internal::EtherEyeInteractablePass* m_EtherEyeInteractablePass; // 0xE8
-		::UnityEngine::NAPRenderPipeline0::FxFogMaskPass_NativeImpl* m_FxFogMaskPass_Native; // 0xF0
-		::UnityEngine::Rendering::Universal::Internal::LyraUpdateProbePass* m_LyraUpdateProbePass; // 0xF8
-		::UnityEngine::Rendering::Universal::Internal::GPUGrassUpdatePass* m_GpuGrassUpdatePass; // 0x100
-		::UnityEngine::Rendering::Universal::Internal::SceneObjectHighlightPass* m_SceneObjectHighlightPass; // 0x108
-		::UnityEngine::NAPRenderPipeline0::Draw3DUIPass_NativeImpl* m_Draw3DUIPass_Native; // 0x110
-		::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass* m_ScreenSpaceShadowResolvePass; // 0x118
-		::UnityEngine::NAPRenderPipeline0::NapSecondaryBloomPass_NativeImpl* m_NapSecondaryBloomPass_Native; // 0x120
-		::UnityEngine::Rendering::Universal::Internal::ForwardLights* m_ForwardLights; // 0x128
-		::UnityEngine::NAPRenderPipeline0::SSRPass_NativeImpl* m_SsrPass_Native; // 0x130
-		::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0x138
-		::UnityEngine::NAPRenderPipeline0::TBLLightDataPass* m_TblLightDataPass; // 0x140
-		::UnityEngine::NAPRenderPipeline0::DrawSkyboxPass_NativeImpl* m_DrawSkyboxPass_Native; // 0x148
-		::UnityEngine::Rendering::Universal::Internal::LyraUpdateClipmapPass* m_LyraUpdateClipmapPass; // 0x150
-		::VolumetricCloudBlitPass* m_VolumetricCloudBlitPass; // 0x158
-		::UnityEngine::NAPRenderPipeline0::ColorGradingLutPass* m_ColorGradingLutPass; // 0x160
-		::UnityEngine::Rendering::Universal::Internal::LyraDebugPass* m_LyraDebugPass; // 0x168
-		::UnityEngine::NAPRenderPipeline0::SkyLutPass_NativeImpl* m_SkyLutPass_Native; // 0x170
-		::UnityEngine::NAPRenderPipeline0::ScreenSpacePlanarReflectionsPass* m_SSPRPass; // 0x178
-		::UnityEngine::Rendering::Universal::OffScreenUISettingPass* m_OffScreenUISettingPass; // 0x180
-		::UnityEngine::NAPRenderPipeline0::GaussianBlurPass_NativeImpl* m_GaussianBlurPass_Native; // 0x188
-		::UnityEngine::NAPRenderPipeline0::RTXBuildAccelerationStructurePass* m_RTXBuildAccelerationStructurePass; // 0x190
-		::UnityEngine::NAPRenderPipeline0::FinalBlitPass_NativeImpl* m_FinalBlitPass_Native; // 0x198
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_SceneColorGradingLutPass_Native; // 0x1A0
-		::UnityEngine::NAPRenderPipeline0::SunShadowCachePass* m_SunShadowCachePass; // 0x1A8
-		::UnityEngine::Rendering::Universal::ExtraMotionVectorPass* m_ExtraMotionVectorPass; // 0x1B0
-		::UnityEngine::Rendering::Universal::Internal::LyraApplyPass* m_LyraApplyPass; // 0x1B8
-		::UnityEngine::Rendering::Universal::OffFSR3FrameGenPass* m_OffFSR3FrameGenPass; // 0x1C0
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_PreProcessPassResetAfterShadowCaster_Native; // 0x1C8
-		::UnityEngine::NAPRenderPipeline0::PresentFrozenTexturePass* m_PresentFrozenTexturePass; // 0x1D0
-		::UnityEngine::Rendering::Universal::AmplifyOcclusionPass_NotNative* m_AmplifyOcclusionPass; // 0x1D8
-		::UnityEngine::NAPRenderPipeline0::SkyLutPass* m_SkyLutPass; // 0x1E0
-		::UnityEngine::NAPRenderPipeline0::DrawOverlayPass_NativeImpl* m_DrawOverlayPass_Native; // 0x1E8
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_BeginInitPass_Native; // 0x1F0
-		::UnityEngine::NAPRenderPipeline0::FrameEstimateUIInfoPass_NativeImpl* m_FrameEstimateUIInfoPass_Native; // 0x1F8
-		::UnityEngine::NAPRenderPipeline0::ReflectionPass_NativeImpl* m_MirrorReflectionPass_Native; // 0x200
-		::UnityEngine::NAPRenderPipeline0::InvokeOnRenderObjectCallbackPass* m_OnRenderObjectCallbackPass; // 0x208
-		::UnityEngine::NAPRenderPipeline0::TransparentSettingsPass_NativeImpl* m_TransparentSettingsPass_Native; // 0x210
-		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass* m_WaterInteractionPass; // 0x218
-		::UnityEngine::Rendering::Universal::Internal::LyraAfterDeferredShading* m_LyraAfterDeferredShadingPass; // 0x220
-		::UnityEngine::NAPRenderPipeline0::SSRPass* m_SsrPass; // 0x228
-		::UnityEngine::Rendering::Universal::Internal::DrawOutlineObjectsPass* m_DrawOutlineObjectsPass; // 0x230
-		::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs* curConfigs; // 0x238
-		::UnityEngine::NAPRenderPipeline0::GenerateLightShaftPass_NativeImpl* m_GenerateLightShaftPass_Native; // 0x240
-		::UnityEngine::Rendering::Universal::Internal::GpuBoidUpdatePass* m_GpuBoidUpdatePass; // 0x248
-		::UnityEngine::Rendering::Universal::SplineOutlinePass* m_SpineOutlinePass; // 0x250
-		::UnityEngine::NAPRenderPipeline0::PreProcessPass* m_PreProcessPassReset; // 0x258
-		::UnityEngine::NAPRenderPipeline0::DeferredShadingPass_NativeImpl* m_DeferredShadingPass_Native; // 0x260
-		::UnityEngine::NAPRenderPipeline0::PresentFrozenTexturePass_NativeImpl* m_PresentFrozenTexturePass_Native; // 0x268
-		::UnityEngine::Rendering::Universal::Internal::PostProcessPass* m_PostProcessPass; // 0x270
-		::UnityEngine::Rendering::Universal::Internal::PostProcessPass* m_FinalPostProcessPass; // 0x278
-		::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass_NativeImpl* m_ScreenSpaceShadowResolvePass_Native; // 0x280
-		::CharacterRampTexPass* m_CharacterRampTexPass; // 0x288
-		::UnityEngine::Rendering::Universal::FluidSimPass* m_FluidSimPass; // 0x290
-		::UnityEngine::Rendering::Universal::Internal::DrawFootPrintPass* m_DrawFootPrintPass; // 0x298
-		::UnityEngine::Rendering::Universal::Internal::DrawFullResOffScreenTransparentObjectsPass* m_FullResOffScreenTransparentObjectsPass; // 0x2A0
-		::UnityEngine::NAPRenderPipeline0::DistortionPass_NativeImpl* m_DistortionPass_Native; // 0x2A8
-		::UnityEngine::NAPRenderPipeline0::SSGIPass* m_SSGIPass; // 0x2B0
-		::UnityEngine::Rendering::Universal::Internal::DrawOpaqueAfterDeferredShadingPass* m_DrawOpaqueAfterDeferredShadingPass; // 0x2B8
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_PreProcessPassReset_Native; // 0x2C0
-		::UnityEngine::Rendering::Universal::BrightSpotsFlarePass* m_BrightSpotsFlarePass; // 0x2C8
-		::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass* m_PunctualLightShadowCasterPass; // 0x2D0
-		::UnityEngine::Rendering::Universal::CharacterGhostPass* m_CharacterGhostPass; // 0x2D8
-		::UnityEngine::NAPRenderPipeline0::GBufferPass_NativeImpl* m_GBufferPass_Native; // 0x2E0
-		::OceanEdgeFoamPass* m_OceanEdgeFoamPass; // 0x2E8
-		::UnityEngine::NAPRenderPipeline0::MainLightShadowCasterPass_NativeImpl* m_MainLightShadowCasterpass_Native; // 0x2F0
-		::UnityEngine::NAPRenderPipeline0::CapsuleAOPass_NativeImpl* m_CapsuleAOPass_Native; // 0x2F8
-		::UnityEngine::NAPRenderPipeline0::ReflectionPass* m_MirrorReflectionPass; // 0x300
-		::UnityEngine::NAPRenderPipeline0::LensFlareOcclusionPass* m_LensFlareOcclusionPass; // 0x308
-		::UnityEngine::Rendering::Universal::Internal::ReactiveMaskPass* m_ReactiveMaskPass; // 0x310
-		::UnityEngine::NAPRenderPipeline0::AmplifyOcclusionPass_NativeImpl* m_AmplifyOcclusionPass_Native; // 0x318
-		::UnityEngine::Rendering::Universal::BlendUIColorPass* m_BlendUIColorPass; // 0x320
-		::UnityEngine::NAPRenderPipeline0::DrawOpaqueObjectsPass_NativeImpl* m_RenderOpaqueForwardPass_Native; // 0x328
-		::UnityEngine::Rendering::Universal::CapturePass* m_CapturePass; // 0x330
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_ColorGradingLutPass_Native; // 0x338
-		::UnityEngine::NAPRenderPipeline0::FrameEstimateInfoPass_NativeImpl* m_FrameEstimateInfoPass_Native; // 0x340
-		::UnityEngine::NAPRenderPipeline0::DrawOffScreenTransparentObjectsPass_NativeImpl* m_RenderOffScreenTransparentObjectsPass_Native; // 0x348
-		::UnityEngine::Rendering::Universal::Internal::EntityPreparePass* m_EntityPreparePass; // 0x350
-		::UnityEngine::NAPRenderPipeline0::Draw3DUIPass* m_Draw3DUIPass; // 0x358
-		::UnityEngine::NAPRenderPipeline0::OpaquePostProcessPass_NativeImpl* m_OpaquePostProcessPass_Native; // 0x360
-		::UnityEngine::NAPRenderPipeline0::GenerateLightShaftPass* m_GenerateLightShaftPass; // 0x368
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* RenderPassEventConfig; // 0x370
-		::UnityEngine::Rendering::Universal::CharacterIgnisFatuusPass* m_CharacterIgnisFatuusPass; // 0x378
-		::UnityEngine::Rendering::Universal::Internal::DrawTransparentObjectsPass* m_RenderTransparentForwardPass; // 0x380
-		::UnityEngine::NAPRenderPipeline0::VolumetricFogPass_NativeImpl* m_VolumetricFogPass_Native; // 0x388
-		::UnityEngine::Rendering::Universal::NapCapturePass* m_NapCapturePass; // 0x390
-		::UnityEngine::NAPRenderPipeline0::TBLLightDataPass_NativeImpl* m_TblLightDataPass_Native; // 0x398
-		::UnityEngine::Rendering::Universal::Internal::FrameEstimateInfoPass_Managed* m_FrameEstimateInfoPass_Managed; // 0x3A0
-		::UnityEngine::NAPRenderPipeline0::DrawOverlayPass* m_DrawOverlayPass; // 0x3A8
-		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond* m_OpaquePostProcessSecond; // 0x3B0
-		::UnityEngine::NAPRenderPipeline0::TBLLightDataAfterGbufferPass_NativeImpl* m_TBLLightDataAfterGbufferPass_Native; // 0x3B8
-		::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass_NativeImpl* m_PunctualLightShadowCasterPass_Native; // 0x3C0
-		::UnityEngine::Rendering::Universal::MKGlarePass* m_MKGlarePass; // 0x3C8
-		::UnityEngine::Rendering::Universal::Internal::DamageDecalLUTPass* m_DamageDecalLUTPass; // 0x3D0
-		::UnityEngine::Rendering::Universal::Internal::CopyColorPass_NotNative* m_CopyColorPass; // 0x3D8
-		::DrawSkyCloudPass* m_DrawSkyCloudPass; // 0x3E0
-		::UnityEngine::NAPRenderPipeline0::TransparentSettingsPass* m_TransparentSettingsPass; // 0x3E8
-		::UnityEngine::NAPRenderPipeline::CopyCharacterColorPass* m_CopyCharacterColorPass; // 0x3F0
-		::UnityEngine::Rendering::Universal::ColorGradingLutPass_SceneNotNative* m_SceneColorGradingLutPass; // 0x3F8
-		::UnityEngine::NAPRenderPipeline0::LateGbufferPass_NativeImpl* m_LateGbufferPass_Native; // 0x400
-		::UnityEngine::NAPRenderPipeline0::PerObjectShadowPass_NativeImpl* m_PerObjectShadowPass_Native; // 0x408
-		::UnityEngine::Rendering::Universal::TransparentMaskPass* m_TransparentMaskPass; // 0x410
-		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_CharColorGradingLutPass_Native; // 0x418
-		::UnityEngine::NAPRenderPipeline0::NapSecondaryBloomPass* m_NapSecondaryBloomPass; // 0x420
-		::UnityEngine::NAPRenderPipeline0::CopyColorPass_NativeImpl* m_CopyColorPass_Native; // 0x428
-		::UnityEngine::NAPRenderPipeline0::FxFogMaskPass* m_FxFogMaskPass; // 0x430
-		::UnityEngine::Vector4 m_NapAvatarPosVector; // 0x438
-		::System::Boolean m_UseFullResAttachment; // 0x448
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveCameraDepthAttachment; // 0x44C
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraFullResDepthAttachment; // 0x450
-		::System::Single m_SSPRHeight; // 0x454
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorAttachment; // 0x458
-		::System::Int32 RenderPassEventHizDepthPyramidBias; // 0x45C
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraFullResColorAttachment; // 0x460
-		::System::Int32 RenderPassEventColorGradLutBias; // 0x464
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveCameraColorAttachment; // 0x468
-		::System::Int32 RenderPassEventShadowAfterGbufferBias; // 0x46C
-		::System::Int32 RenderPassEventLightLoopEnityPrepareBias; // 0x470
+		::UnityEngine::Rendering::Universal::OffFSR3FrameGenPass* m_OffFSR3FrameGenPass; // 0xB0
+		::OceanEdgeFoamPass* m_OceanEdgeFoamPass; // 0xB8
+		::UnityEngine::NAPRenderPipeline0::SSRPass_NativeImpl* m_SsrPass_Native; // 0xC0
+		::UnityEngine::Rendering::Universal::RTXAODebugBlitPass* m_RTXAODebugBlitPass; // 0xC8
+		::UnityEngine::NAPRenderPipeline0::VolumetricFogPass_NativeImpl* m_VolumetricFogPass_Native; // 0xD0
+		::UnityEngine::Rendering::Universal::Internal::GPUGrassUpdatePass* m_GpuGrassUpdatePass; // 0xD8
+		::UnityEngine::Rendering::Universal::Internal::DamageDecalLUTPass* m_DamageDecalLUTPass; // 0xE0
+		::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass* m_PunctualLightShadowCasterPass; // 0xE8
+		::UnityEngine::NAPRenderPipeline0::DrawOffScreenTransparentObjectsPass_NativeImpl* m_RenderOffScreenTransparentObjectsPass_Native; // 0xF0
+		::UnityEngine::NAPRenderPipeline0::LensFlareOcclusionPass* m_LensFlareOcclusionPass; // 0xF8
+		::UnityEngine::NAPRenderPipeline0::PreProcessPass* m_PreProcessPassReset; // 0x100
+		::UnityEngine::NAPRenderPipeline0::RTXBuildAccelerationStructurePass* m_RTXBuildAccelerationStructurePass; // 0x108
+		::UnityEngine::Rendering::Universal::Internal::LyraUpdateProbePass* m_LyraUpdateProbePass; // 0x110
+		::UnityEngine::NAPRenderPipeline0::PresentFrozenTexturePass_NativeImpl* m_PresentFrozenTexturePass_Native; // 0x118
+		::UnityEngine::NAPRenderPipeline0::NapSecondaryBloomPass* m_NapSecondaryBloomPass; // 0x120
+		::UnityEngine::NAPRenderPipeline0::GenerateLightShaftPass* m_GenerateLightShaftPass; // 0x128
+		::UnityEngine::NAPRenderPipeline0::DrawSkyboxPass_NativeImpl* m_DrawSkyboxPass_Native; // 0x130
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_PreProcessPassReset_Native; // 0x138
+		::UnityEngine::Rendering::Universal::Internal::DrawFootPrintPass* m_DrawFootPrintPass; // 0x140
+		::UnityEngine::NAPRenderPipeline0::VolumetricFogPass* m_VolumetricFogPass; // 0x148
+		::UnityEngine::Rendering::Universal::CharacterIgnisFatuusPass* m_CharacterIgnisFatuusPass; // 0x150
+		::UnityEngine::NAPRenderPipeline0::TransparentSettingsPass* m_TransparentSettingsPass; // 0x158
+		::UnityEngine::Rendering::Universal::Internal::DrawOpaqueAfterDeferredShadingPass* m_DrawOpaqueAfterDeferredShadingPass; // 0x160
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* RenderPassEventConfig; // 0x168
+		::UnityEngine::NAPRenderPipeline0::SunShadowCachePass* m_SunShadowCachePass; // 0x170
+		::UnityEngine::NAPRenderPipeline0::PerObjectShadowPass* m_PerObjectShadowPass; // 0x178
+		::UnityEngine::NAPRenderPipeline0::OpaquePostProcessPass_NativeImpl* m_OpaquePostProcessPass_Native; // 0x180
+		::UnityEngine::NAPRenderPipeline0::ScreenSpacePlanarReflectionsPass* m_SSPRPass; // 0x188
+		::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass_NativeImpl* m_PunctualLightShadowCasterPass_Native; // 0x190
+		::UnityEngine::NAPRenderPipeline0::TransparentSettingsPass_NativeImpl* m_TransparentSettingsPass_Native; // 0x198
+		::UnityEngine::Rendering::Universal::Internal::LyraAfterDeferredShading* m_LyraAfterDeferredShadingPass; // 0x1A0
+		::UnityEngine::Rendering::Universal::Internal::ReactiveMaskDitherPass* m_ReactiveMaskDitherPass; // 0x1A8
+		::UnityEngine::NAPRenderPipeline0::FrameEstimateUIInfoPass_NativeImpl* m_FrameEstimateUIInfoPass_Native; // 0x1B0
+		::UnityEngine::NAPRenderPipeline0::TBLLightDataPass* m_TblLightDataPass; // 0x1B8
+		::UnityEngine::Rendering::Universal::Internal::PostProcessPass* m_FinalPostProcessPass; // 0x1C0
+		::UnityEngine::NAPRenderPipeline0::SkyLutPass_NativeImpl* m_SkyLutPass_Native; // 0x1C8
+		::UnityEngine::NAPRenderPipeline0::PerObjectShadowPass_NativeImpl* m_PerObjectShadowPass_Native; // 0x1D0
+		::UnityEngine::NAPRenderPipeline0::DrawPartialBlurMaskPass_NativeImpl* m_DrawPartialBlurMaskPass_Native; // 0x1D8
+		::UnityEngine::Rendering::Universal::Internal::LyraApplyPass* m_LyraApplyPass; // 0x1E0
+		::UnityEngine::Rendering::Universal::BlendUIColorPass* m_BlendUIColorPass; // 0x1E8
+		::UnityEngine::Rendering::Universal::CapturePass* m_CapturePass; // 0x1F0
+		::VolumetricCloudPass* m_VolumetricCloudPass; // 0x1F8
+		::UnityEngine::NAPRenderPipeline0::Draw3DUIPass* m_Draw3DUIPass; // 0x200
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_CharColorGradingLutPass_Native; // 0x208
+		::UnityEngine::Rendering::Universal::OffDLSSFrameGenPass* m_OffDLSSFrameGenPass; // 0x210
+		::UnityEngine::NAPRenderPipeline0::GenerateLightShaftPass_NativeImpl* m_GenerateLightShaftPass_Native; // 0x218
+		::UnityEngine::NAPRenderPipeline0::PresentFrozenTexturePass* m_PresentFrozenTexturePass; // 0x220
+		::UnityEngine::Rendering::Universal::AmplifyOcclusionPass_NotNative* m_AmplifyOcclusionPass; // 0x228
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_PreProcessPassResetAfterShadowCaster_Native; // 0x230
+		::UnityEngine::NAPRenderPipeline0::ColorGradingLutPass* m_ColorGradingLutPass; // 0x238
+		::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0x240
+		::UnityEngine::NAPRenderPipeline0::InvokeOnRenderObjectCallbackPass* m_OnRenderObjectCallbackPass; // 0x248
+		::DrawAfterSkyboxPass* m_DrawAfterSkyboxPass; // 0x250
+		::UnityEngine::Rendering::Universal::Internal::GpuBoidUpdatePass* m_GpuBoidUpdatePass; // 0x258
+		::UnityEngine::Rendering::Universal::FluidSimPass* m_FluidSimPass; // 0x260
+		::UnityEngine::Rendering::Universal::MKGlarePass* m_MKGlarePass; // 0x268
+		::UnityEngine::NAPRenderPipeline0::FxFogMaskPass* m_FxFogMaskPass; // 0x270
+		::UnityEngine::Rendering::Universal::Internal::CopyColorPass_NotNative* m_CopyColorPass; // 0x278
+		::UnityEngine::NAPRenderPipeline0::ReflectionPass_NativeImpl* m_MirrorReflectionPass_Native; // 0x280
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_BeginInitPass_Native; // 0x288
+		::UnityEngine::Rendering::Universal::ColorGradingLutPass_SceneNotNative* m_SceneColorGradingLutPass; // 0x290
+		::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass* m_ScreenSpaceShadowResolvePass; // 0x298
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_SceneColorGradingLutPass_Native; // 0x2A0
+		::UnityEngine::NAPRenderPipeline0::ReflectionPass* m_MirrorReflectionPass; // 0x2A8
+		::UnityEngine::NAPRenderPipeline0::FinalBlitPass_NativeImpl* m_FinalBlitPass_Native; // 0x2B0
+		::UnityEngine::Rendering::Universal::BrightSpotsFlarePass* m_BrightSpotsFlarePass; // 0x2B8
+		::UnityEngine::NAPRenderPipeline::CopyCharacterColorPass* m_CopyCharacterColorPass; // 0x2C0
+		::UnityEngine::NAPRenderPipeline0::OffscreenParticleUpdatePass* m_OffscreenParticleUpdatePass; // 0x2C8
+		::UnityEngine::Rendering::Universal::Internal::ForwardLights* m_ForwardLights; // 0x2D0
+		::UnityEngine::Rendering::Universal::TransparentMaskPass* m_TransparentMaskPass; // 0x2D8
+		::UnityEngine::Rendering::Universal::Internal::SceneObjectHighlightPass* m_SceneObjectHighlightPass; // 0x2E0
+		::UnityEngine::NAPRenderPipeline0::SkyLutPass* m_SkyLutPass; // 0x2E8
+		::UnityEngine::Rendering::Universal::OpaquePostProcessSecond* m_OpaquePostProcessSecond; // 0x2F0
+		::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass* m_ColorGradingLutPass_Native; // 0x2F8
+		::UnityEngine::NAPRenderPipeline0::DrawOverlayPass* m_DrawOverlayPass; // 0x300
+		::UnityEngine::Rendering::Universal::NapRenderContext_CurrentFrameRenderConfigs* curConfigs; // 0x308
+		::UnityEngine::NAPRenderPipeline0::FxFogMaskPass_NativeImpl* m_FxFogMaskPass_Native; // 0x310
+		::VolumetricCloudV2CombinePass* m_VolumetricCloudV2CombinePass; // 0x318
+		::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass_NativeImpl* m_ScreenSpaceShadowResolvePass_Native; // 0x320
+		::UnityEngine::Rendering::Universal::Internal::LyraDebugPass* m_LyraDebugPass; // 0x328
+		::UnityEngine::Rendering::Universal::Internal::ReactiveMaskPass* m_ReactiveMaskPass; // 0x330
+		::UnityEngine::Rendering::Universal::Internal::EtherEyeInteractablePass* m_EtherEyeInteractablePass; // 0x338
+		::UnityEngine::NAPRenderPipeline0::DeferredShadingPass_NativeImpl* m_DeferredShadingPass_Native; // 0x340
+		::UnityEngine::Rendering::Universal::ExtraMotionVectorPass* m_ExtraMotionVectorPass; // 0x348
+		::UnityEngine::NAPRenderPipeline0::CapsuleAOPass_NativeImpl* m_CapsuleAOPass_Native; // 0x350
+		::UnityEngine::NAPRenderPipeline0::DistortionPass_NativeImpl* m_DistortionPass_Native; // 0x358
+		::DrawSkyCloudPass* m_DrawSkyCloudPass; // 0x360
+		::UnityEngine::Rendering::Universal::CharacterGhostPass* m_CharacterGhostPass; // 0x368
+		::UnityEngine::NAPRenderPipeline0::CopyColorPass_NativeImpl* m_CopyColorPass_Native; // 0x370
+		::UnityEngine::Rendering::Universal::Internal::DrawOutlineObjectsPass* m_DrawOutlineObjectsPass; // 0x378
+		::UnityEngine::Rendering::Universal::Internal::DrawFullResOffScreenTransparentObjectsPass* m_FullResOffScreenTransparentObjectsPass; // 0x380
+		::UnityEngine::NAPRenderPipeline0::DrawOpaqueObjectsPass_NativeImpl* m_RenderOpaqueForwardPass_Native; // 0x388
+		::UnityEngine::NAPRenderPipeline0::FrameEstimateInfoPass_NativeImpl* m_FrameEstimateInfoPass_Native; // 0x390
+		::UnityEngine::Rendering::Universal::SplineOutlinePass* m_SpineOutlinePass; // 0x398
+		::UnityEngine::NAPRenderPipeline0::MainLightShadowCasterPass_NativeImpl* m_MainLightShadowCasterpass_Native; // 0x3A0
+		::UnityEngine::NAPRenderPipeline0::SSRPass* m_SsrPass; // 0x3A8
+		::CharacterRampTexPass* m_CharacterRampTexPass; // 0x3B0
+		::UnityEngine::Rendering::Universal::Internal::WaterInteractionPass* m_WaterInteractionPass; // 0x3B8
+		::UnityEngine::NAPRenderPipeline0::NapSecondaryBloomPass_NativeImpl* m_NapSecondaryBloomPass_Native; // 0x3C0
+		::UnityEngine::Rendering::Universal::Internal::DrawTransparentObjectsPass* m_RenderTransparentForwardPass; // 0x3C8
+		::UnityEngine::Rendering::Universal::Internal::LyraUpdateClipmapPass* m_LyraUpdateClipmapPass; // 0x3D0
+		::UnityEngine::Rendering::Universal::Internal::FrameEstimateInfoPass_Managed* m_FrameEstimateInfoPass_Managed; // 0x3D8
+		::UnityEngine::NAPRenderPipeline0::GBufferPass_NativeImpl* m_GBufferPass_Native; // 0x3E0
+		::UnityEngine::NAPRenderPipeline0::AmplifyOcclusionPass_NativeImpl* m_AmplifyOcclusionPass_Native; // 0x3E8
+		::UnityEngine::NAPRenderPipeline0::Draw3DUIPass_NativeImpl* m_Draw3DUIPass_Native; // 0x3F0
+		::UnityEngine::NAPRenderPipeline0::PreProcessPass* m_PreProcessPassResetAfterShadowCaster; // 0x3F8
+		::VolumetricCloudV2RenderPass* m_VolumetricCloudV2RenderPass; // 0x400
+		::UnityEngine::NAPRenderPipeline0::GaussianBlurPass_NativeImpl* m_GaussianBlurPass_Native; // 0x408
+		::UnityEngine::NAPRenderPipeline0::TBLLightDataAfterGbufferPass_NativeImpl* m_TBLLightDataAfterGbufferPass_Native; // 0x410
+		::UnityEngine::Rendering::Universal::RTXAOPass* m_RTXAOPass; // 0x418
+		::VolumetricCloudBlitPass* m_VolumetricCloudBlitPass; // 0x420
+		::UnityEngine::NAPRenderPipeline0::DrawOverlayPass_NativeImpl* m_DrawOverlayPass_Native; // 0x428
+		::VolumetricCloudV2ReconstructionPass* m_VolumetricCloudV2ReconstructionPass; // 0x430
+		::UnityEngine::Rendering::Universal::Internal::PostProcessPass* m_PostProcessPass; // 0x438
+		::UnityEngine::Rendering::Universal::OffScreenUISettingPass* m_OffScreenUISettingPass; // 0x440
+		::UnityEngine::NAPRenderPipeline0::TBLLightDataPass_NativeImpl* m_TblLightDataPass_Native; // 0x448
+		::UnityEngine::Rendering::Universal::NapCapturePass* m_NapCapturePass; // 0x450
+		::UnityEngine::NAPRenderPipeline0::LateGbufferPass_NativeImpl* m_LateGbufferPass_Native; // 0x458
+		::UnityEngine::NAPRenderPipeline0::SSGIPass* m_SSGIPass; // 0x460
+		::UnityEngine::Rendering::Universal::Internal::EntityPreparePass* m_EntityPreparePass; // 0x468
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveCameraColorAttachment; // 0x470
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_AfterPostProcessColor; // 0x474
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraDepthAttachment; // 0x478
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveCameraDepthAttachment; // 0x478
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraColorAttachment; // 0x47C
+		::System::Int32 RenderPassEventShadowAfterGbufferBias; // 0x480
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_PartialBlurMaskTexture; // 0x484
+		::System::Boolean m_UseFullResAttachment; // 0x488
+		::System::Single m_SSPRHeight; // 0x48C
+		::System::Int32 RenderPassEventLightLoopEnityPrepareBias; // 0x490
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraFullResDepthAttachment; // 0x494
+		::System::Int32 RenderPassEventColorGradLutBias; // 0x498
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraFullResColorAttachment; // 0x49C
+		::UnityEngine::Vector4 m_NapAvatarPosVector; // 0x4A0
+		::System::Int32 RenderPassEventHizDepthPyramidBias; // 0x4B0
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_CameraDepthAttachment; // 0x4B4
 
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::ForwardRendererData* data)
 		{
@@ -513,6 +536,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void OnGBufferPassAfterOpaque(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData, ::UnityEngine::Rendering::CommandBuffer* cmd)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ScriptableRenderContext&, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_ONGBUFFERPASSAFTEROPAQUE_OFFSET))(this, context, renderingData, postCullRenderingData, cmd);
+		}
+
+		::System::Void DrawGpuCrowdGBuffer(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData, ::UnityEngine::Rendering::CommandBuffer* cmd)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ScriptableRenderContext&, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_DRAWGPUCROWDGBUFFER_OFFSET))(this, context, renderingData, postCullRenderingData, cmd);
 		}
 
 		::System::Void OnGBufferPassAfterDepthCopy(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData, ::UnityEngine::Rendering::CommandBuffer* cmd)
@@ -563,6 +591,11 @@ namespace UnityEngine::Rendering::Universal
 		static ::UnityEngine::Rendering::SortingCriteria GetOpaqueSortCriteria()
 		{
 			return ((::UnityEngine::Rendering::SortingCriteria(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETOPAQUESORTCRITERIA_OFFSET))();
+		}
+
+		::UnityEngine::NAPRenderPipeline0::RenderPassEvent GetEtherEyeInteractablePassEvent()
+		{
+			return ((::UnityEngine::NAPRenderPipeline0::RenderPassEvent(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_GETETHEREYEINTERACTABLEPASSEVENT_OFFSET))(this);
 		}
 
 		::System::Void Setup(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* globalSettings)

@@ -3,7 +3,7 @@
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int ProtectionLevel_TypeDefinitionIndex = 3694;
+	inline static constexpr unsigned int ProtectionLevel_TypeDefinitionIndex = 3693;
 
 	enum class ProtectionLevel : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int MonoDeviceNumberPlate_RandomPool_TypeDefinitionIndex = 73275;
+	inline static constexpr unsigned int MonoDeviceNumberPlate_RandomPool_TypeDefinitionIndex = 78877;
 
 	struct alignas(8) MonoDeviceNumberPlate_RandomPool
 	{

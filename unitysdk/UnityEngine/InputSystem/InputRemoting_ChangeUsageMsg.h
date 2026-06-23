@@ -6,12 +6,12 @@
 namespace UnityEngine::InputSystem { class InputDevice; }
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1B3F6120)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B3F62B0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1D79E7C0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1D79E950)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg_TypeDefinitionIndex = 29002;
+	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg_TypeDefinitionIndex = 31658;
 
 	class InputRemoting_ChangeUsageMsg : public ::System::Object
 	{

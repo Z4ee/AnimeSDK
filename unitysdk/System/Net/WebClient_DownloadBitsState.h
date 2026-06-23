@@ -11,31 +11,31 @@ namespace System::Net { class WebClient_ProgressData; }
 namespace System::Net { class WebRequest; }
 namespace System::Net { class WebResponse; }
 
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x18FC7600)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_GET_ASYNC_OFFSET UNITYSDK_OFFSET(0x18FC7070)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_RETRIEVEBYTES_OFFSET UNITYSDK_OFFSET(0x18FC7330)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_SETRESPONSE_OFFSET UNITYSDK_OFFSET(0x18FC7080)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC7040)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B1D5730)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_GET_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B1D51A0)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_RETRIEVEBYTES_OFFSET UNITYSDK_OFFSET(0x1B1D5460)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_SETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1B1D51B0)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D5170)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebClient_DownloadBitsState_TypeDefinitionIndex = 3444;
+	inline static constexpr unsigned int WebClient_DownloadBitsState_TypeDefinitionIndex = 3443;
 
 	class WebClient_DownloadBitsState : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 Offset = 0x0; // 0x0
-		::System::Net::CompletionDelegate* CompletionDelegate; // 0x10
-		::System::Net::WebClient* WebClient; // 0x18
-		::System::Net::ScatterGatherBuffers* SgBuffers; // 0x20
-		::System::ComponentModel::AsyncOperation* AsyncOp; // 0x28
-		::System::IO::Stream* WriteStream; // 0x30
+		::System::Net::WebRequest* Request; // 0x10
+		::System::ComponentModel::AsyncOperation* AsyncOp; // 0x18
+		::System::Net::CompletionDelegate* CompletionDelegate; // 0x20
+		::System::IO::Stream* WriteStream; // 0x28
+		::System::IO::Stream* ReadStream; // 0x30
 		::System::Net::WebClient_ProgressData* Progress; // 0x38
-		::System::IO::Stream* ReadStream; // 0x40
-		::System::Net::WebRequest* Request; // 0x48
-		::Il2CppArray<::System::Byte>* InnerBuffer; // 0x50
-		::System::Int64 ContentLength; // 0x58
-		::System::Int64 Length; // 0x60
+		::System::Net::ScatterGatherBuffers* SgBuffers; // 0x40
+		::Il2CppArray<::System::Byte>* InnerBuffer; // 0x48
+		::System::Net::WebClient* WebClient; // 0x50
+		::System::Int64 Length; // 0x58
+		::System::Int64 ContentLength; // 0x60
 
 		::System::Void _ctor(::System::Net::WebRequest* request, ::System::IO::Stream* writeStream, ::System::Net::CompletionDelegate* completionDelegate, ::System::ComponentModel::AsyncOperation* asyncOp, ::System::Net::WebClient_ProgressData* progress, ::System::Net::WebClient* webClient)
 		{

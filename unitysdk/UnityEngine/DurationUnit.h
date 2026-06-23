@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DurationUnit_TypeDefinitionIndex = 6537;
+	inline static constexpr unsigned int DurationUnit_TypeDefinitionIndex = 6619;
 
 	enum class DurationUnit : ::System::Int32
 	{

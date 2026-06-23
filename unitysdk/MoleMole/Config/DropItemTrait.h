@@ -6,34 +6,34 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_175;
 class Class_1_236FD73ABC492E3F;
-class Class_1_F91ACF27C085FD90;
+class Class_1_53842913455A8556;
 class Class_2_F3CFF1AFF7EE7DCD;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_BUILDENTITY_OFFSET UNITYSDK_OFFSET(0x181D7770)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x181D7230)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x181D6E80)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET UNITYSDK_OFFSET(0x181D6C20)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_1FAC9B543EF43496_OFFSET UNITYSDK_OFFSET(0x181D7290)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x181D7FC0)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET UNITYSDK_OFFSET(0x181D8050)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_68A9BA81122CADE8_OFFSET UNITYSDK_OFFSET(0x181D7E20)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET UNITYSDK_OFFSET(0x181D6F00)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x181D6C10)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_BCB413A8765F7D64_OFFSET UNITYSDK_OFFSET(0x181D7CE0)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x181D6D10)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_EC28FD7AA4FC3328_OFFSET UNITYSDK_OFFSET(0x181D7600)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET UNITYSDK_OFFSET(0x181D6D80)
-#define MOLEMOLE_CONFIG_DROPITEMTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x181D7CD0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_BUILDENTITY_OFFSET UNITYSDK_OFFSET(0x19FF4520)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x19FF36F0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF3850)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF36E0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FF3E40)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19FF3950)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19FF43B0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x19FF37E0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FF3EA0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x19FF39D0)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FF4210)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x19FF3D00)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF4A80)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF4A90)
+#define MOLEMOLE_CONFIG_DROPITEMTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19FF4AA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DropItemTrait_TypeDefinitionIndex = 67233;
+	inline static constexpr unsigned int DropItemTrait_TypeDefinitionIndex = 44919;
 
 	class DropItemTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -46,74 +46,74 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_FOREACHREFTYPEMEMBER_OFFSET))(this, callback);
 		}
 
-		::MoleMole::Config::ConfigViewObjectTraitBase* Method_2_1D2F15E1636AC595()
+		::MoleMole::Config::ConfigViewObjectTraitBase* Clone()
 		{
-			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_1D2F15E1636AC595_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigViewObjectTraitBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_CLONE_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C444D4C8B9D548AF()
+		::System::Int32 GetHashNum()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FECAFAD3316F017B(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_FECAFAD3316F017B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean InternalFromFlx(::FlexBuffers::FlxMap node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean Method_2_EC28FD7AA4FC3328(::Class_1_F91ACF27C085FD90* a1)
+		static ::MoleMole::Config::DropItemTrait* ParseFromFlx(::FlexBuffers::FlxValue node)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_EC28FD7AA4FC3328_OFFSET))(this, a1);
+			return ((::MoleMole::Config::DropItemTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::MoleMole::EntityHandle BuildEntity(::Foundation::ViewObject::ViewObjectHandle a1, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>* a2)
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::EntityHandle(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_BUILDENTITY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::DropItemTrait* Method_2_BCB413A8765F7D64(::FlexBuffers::FlxValue a1)
+		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::DropItemTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_BCB413A8765F7D64_OFFSET))(a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::DropItemTrait* Method_2_68A9BA81122CADE8(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		static ::MoleMole::Config::DropItemTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::DropItemTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_68A9BA81122CADE8_OFFSET))(a1, a2);
+			return ((::MoleMole::Config::DropItemTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean Method_2_2A6B87C525933554(::Class_1_F91ACF27C085FD90* a1)
+		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F91ACF27C085FD90*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void Method_2_6454FD4488DDAD17(::Class_0_16E4307DCC419505_131* a1, ::System::String* a2)
+		::MoleMole::EntityHandle BuildEntity(::Foundation::ViewObject::ViewObjectHandle handle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>* extraComponents)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_131*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_6454FD4488DDAD17_OFFSET))(this, a1, a2);
+			return ((::MoleMole::EntityHandle(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::System::Collections::Generic::List_1<::Class_2_F3CFF1AFF7EE7DCD*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_BUILDENTITY_OFFSET))(this, handle, extraComponents);
 		}
 
-		::System::Boolean Method_2_1FAC9B543EF43496(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_1FAC9B543EF43496_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean Method_2_7821D1D4DDDF7E01(::FlexBuffers::FlxMap a1)
+		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT_METHOD_2_7821D1D4DDDF7E01_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DROPITEMTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

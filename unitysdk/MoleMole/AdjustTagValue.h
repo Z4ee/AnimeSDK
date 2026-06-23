@@ -9,26 +9,26 @@ class Class_3_F97B015544BE936B;
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_ADJUSTTAGVALUE_CALCTAGVALUE_OFFSET UNITYSDK_OFFSET(0x123F6800)
-#define MOLEMOLE_ADJUSTTAGVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x123F6390)
-#define MOLEMOLE_ADJUSTTAGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x123F69B0)
-#define MOLEMOLE_ADJUSTTAGVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x123F6A40)
+#define MOLEMOLE_ADJUSTTAGVALUE_CALCTAGVALUE_OFFSET UNITYSDK_OFFSET(0x12C48C00)
+#define MOLEMOLE_ADJUSTTAGVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C487A0)
+#define MOLEMOLE_ADJUSTTAGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C48DD0)
+#define MOLEMOLE_ADJUSTTAGVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C48E60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdjustTagValue_TypeDefinitionIndex = 45815;
+	inline static constexpr unsigned int AdjustTagValue_TypeDefinitionIndex = 69746;
 
 	class AdjustTagValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* TagNameA; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::System::String* TagNameB; // 0x68
-		::System::String* AdjustTagName; // 0x70
-		::System::Single ValueB; // 0x78
-		::MoleMole::AICalculateType CalculateType; // 0x7C
-		::MoleMole::AITargetType TargetType; // 0x80
-		::System::Single ValueA; // 0x84
+		::System::String* TagNameB; // 0x58
+		::System::String* AdjustTagName; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::System::String* TagNameA; // 0x70
+		::MoleMole::AICalculateType CalculateType; // 0x78
+		::MoleMole::AITargetType TargetType; // 0x7C
+		::System::Single ValueA; // 0x80
+		::System::Single ValueB; // 0x84
 
 		::System::Void _ctor()
 		{

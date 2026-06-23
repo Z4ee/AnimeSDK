@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IObject_TypeDefinitionIndex = 8952;
+	inline static constexpr unsigned int IObject_TypeDefinitionIndex = 8572;
 
 	class IObject
 	{

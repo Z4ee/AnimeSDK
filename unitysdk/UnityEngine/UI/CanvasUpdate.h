@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CanvasUpdate_TypeDefinitionIndex = 8340;
+	inline static constexpr unsigned int CanvasUpdate_TypeDefinitionIndex = 18848;
 
 	enum class CanvasUpdate : ::System::Int32
 	{

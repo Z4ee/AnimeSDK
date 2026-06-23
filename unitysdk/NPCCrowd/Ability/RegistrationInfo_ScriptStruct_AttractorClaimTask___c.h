@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4EC5E0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF4EC620)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF4EC630)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x109F6540)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x109F6580)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORCLAIMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x109F6590)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorClaimTask___c_TypeDefinitionIndex = 53379;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorClaimTask___c_TypeDefinitionIndex = 47304;
 
 	class RegistrationInfo_ScriptStruct_AttractorClaimTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorClaimTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorClaimTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorClaimTask___c_TypeDefinitionIndex)->GetStaticField(0x3F3B0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorClaimTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorClaimTask___c_TypeDefinitionIndex)->GetStaticField(0x41A10);
 		}
 
 		static ::System::Void _cctor()

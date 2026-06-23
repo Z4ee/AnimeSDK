@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIInterKnotNewsRowWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTNEWSROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1640E6B0)
-#define MOLEMOLE_UIINTERKNOTNEWSROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1640E6C0)
+#define MOLEMOLE_UIINTERKNOTNEWSROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188C44E0)
+#define MOLEMOLE_UIINTERKNOTNEWSROWWIDGETCONTROLLER___C__DISPLAYCLASS4_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x188C44F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotNewsRowWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 38301;
+	inline static constexpr unsigned int UIInterKnotNewsRowWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 68151;
 
 	class UIInterKnotNewsRowWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{

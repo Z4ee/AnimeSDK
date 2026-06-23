@@ -2,34 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
+#include "unitysdk/NapStreaming/AdditionLockLevel.h"
 #include "unitysdk/NapStreaming/POIMODE.h"
 #include "unitysdk/NapStreaming/StreamingLayer.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace NapStreaming { class NapStreamingData; }
+namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD594D0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_INIT_OFFSET UNITYSDK_OFFSET(0xCD595A0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SAFEINSTANTIATE_OFFSET UNITYSDK_OFFSET(0xCD59650)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xCD58F30)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOHLOD_OFFSET UNITYSDK_OFFSET(0xCD57650)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOLOADING_OFFSET UNITYSDK_OFFSET(0xCD57090)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOUNLOAD_OFFSET UNITYSDK_OFFSET(0xCD57C60)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_UNLOADHLOD_OFFSET UNITYSDK_OFFSET(0xCD57D40)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_UNLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0xCD57FF0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD59850)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__20_0_OFFSET UNITYSDK_OFFSET(0xCD59860)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__20_1_OFFSET UNITYSDK_OFFSET(0xCD59A50)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__23_0_OFFSET UNITYSDK_OFFSET(0xCD59C20)
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__23_1_OFFSET UNITYSDK_OFFSET(0xCD59E00)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_ADDITIONALPOSUPDATE_OFFSET UNITYSDK_OFFSET(0xD44FD30)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4512E0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_INIT_OFFSET UNITYSDK_OFFSET(0xD451470)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SAFEINSTANTIATE_OFFSET UNITYSDK_OFFSET(0xD451580)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xD450CB0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOHLOD_OFFSET UNITYSDK_OFFSET(0xD44EA90)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOLOADING_OFFSET UNITYSDK_OFFSET(0xD44E380)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOUNLOAD_OFFSET UNITYSDK_OFFSET(0xD44F110)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_UNLOADHLOD_OFFSET UNITYSDK_OFFSET(0xD44F210)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_UNLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0xD44F4C0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD451780)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__21_0_OFFSET UNITYSDK_OFFSET(0xD451790)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__21_1_OFFSET UNITYSDK_OFFSET(0xD451990)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_0_OFFSET UNITYSDK_OFFSET(0xD451B80)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_1_OFFSET UNITYSDK_OFFSET(0xD451D70)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_2_OFFSET UNITYSDK_OFFSET(0xD451F70)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_StreamingGridData_TypeDefinitionIndex = 68167;
+	inline static constexpr unsigned int NapStreamingData_StreamingGridData_TypeDefinitionIndex = 78663;
 
 	class NapStreamingData_StreamingGridData : public ::System::Object
 	{
@@ -50,6 +55,7 @@ namespace NapStreaming
 		::Foundation::AssetRequestHandle hlodHandle; // 0xA0
 		::NapStreaming::NapStreamingData* streamingData; // 0xC0
 		::System::Int32 gridIndex; // 0xC8
+		::System::Single boundHalfSize; // 0xCC
 
 		::System::Void _ctor()
 		{
@@ -76,9 +82,9 @@ namespace NapStreaming
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_UNLOADOBJECTS_OFFSET))(this);
 		}
 
-		::System::Void SwitchToHLOD()
+		::System::Void SwitchToHLOD(::System::Action* callback)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOHLOD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SWITCHTOHLOD_OFFSET))(this, callback);
 		}
 
 		::System::Void SwitchToUnload()
@@ -101,24 +107,34 @@ namespace NapStreaming
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_SETVISIBLE_OFFSET))(this, isVisible);
 		}
 
-		::System::Void _SwitchToHLOD_b__20_0(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		::NapStreaming::AdditionLockLevel AdditionalPosUpdate(::UnityEngine::Vector3 cameraPos, ::System::Single loadDistance, ::System::Single hlodLoadDistance, ::System::Single unloadDistance, ::System::Boolean isVisible, ::System::Boolean needLoad, ::System::Boolean& addToCheck)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__20_0_OFFSET))(this, o, a);
+			return ((::NapStreaming::AdditionLockLevel(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean&))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA_ADDITIONALPOSUPDATE_OFFSET))(this, cameraPos, loadDistance, hlodLoadDistance, unloadDistance, isVisible, needLoad, addToCheck);
 		}
 
-		::System::Void _SwitchToHLOD_b__20_1(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		::System::Void _SwitchToHLOD_b__21_0(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__20_1_OFFSET))(this, o, a);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__21_0_OFFSET))(this, o, a);
 		}
 
-		::System::Void _SwitchToLoading_b__23_0(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		::System::Void _SwitchToHLOD_b__21_1(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__23_0_OFFSET))(this, o, a);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOHLOD_B__21_1_OFFSET))(this, o, a);
 		}
 
-		::System::Void _SwitchToLoading_b__23_1(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		::System::Void _SwitchToLoading_b__24_0(::UnityEngine::Object* o)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__23_1_OFFSET))(this, o, a);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_0_OFFSET))(this, o);
+		}
+
+		::System::Void _SwitchToLoading_b__24_1(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_1_OFFSET))(this, o, a);
+		}
+
+		::System::Void _SwitchToLoading_b__24_2(::UnityEngine::Object* o, ::Foundation::AssetRequestHandle a)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGGRIDDATA__SWITCHTOLOADING_B__24_2_OFFSET))(this, o, a);
 		}
 	};
 }

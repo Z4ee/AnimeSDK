@@ -7,12 +7,12 @@
 
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION_GET_PREFIXLENGTH_OFFSET UNITYSDK_OFFSET(0x19220720)
-#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19220770)
+#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION_GET_PREFIXLENGTH_OFFSET UNITYSDK_OFFSET(0x1B406830)
+#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B406880)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UnicastIPAddressInformation_TypeDefinitionIndex = 3749;
+	inline static constexpr unsigned int UnicastIPAddressInformation_TypeDefinitionIndex = 3748;
 
 	class UnicastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation
 	{

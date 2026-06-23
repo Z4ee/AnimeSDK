@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ValidatorState_TypeDefinitionIndex = 2201;
+	inline static constexpr unsigned int ValidatorState_TypeDefinitionIndex = 2200;
 
 	enum class ValidatorState : ::System::Int32
 	{

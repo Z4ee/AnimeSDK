@@ -3,7 +3,7 @@
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int HttpCacheAgeControl_TypeDefinitionIndex = 3870;
+	inline static constexpr unsigned int HttpCacheAgeControl_TypeDefinitionIndex = 3869;
 
 	enum class HttpCacheAgeControl : ::System::Int32
 	{

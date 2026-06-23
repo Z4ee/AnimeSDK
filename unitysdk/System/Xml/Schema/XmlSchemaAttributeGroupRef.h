@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTEGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1AFFCA90)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTEGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFCB30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTEGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1D473430)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTEGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4734D0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAttributeGroupRef_TypeDefinitionIndex = 2123;
+	inline static constexpr unsigned int XmlSchemaAttributeGroupRef_TypeDefinitionIndex = 2122;
 
 	class XmlSchemaAttributeGroupRef : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{

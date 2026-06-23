@@ -5,18 +5,18 @@
 class Class_1_F71F7FB55BBEB1D9;
 class Class_3_6AAFAACF7E52506E;
 
-#define MOLEMOLE_UIVHSREWARDINFO_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14DDC0D0)
-#define MOLEMOLE_UIVHSREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14DDC080)
+#define MOLEMOLE_UIVHSREWARDINFO_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x157C6EC0)
+#define MOLEMOLE_UIVHSREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x157C6E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSRewardInfo_TypeDefinitionIndex = 65213;
+	inline static constexpr unsigned int UIVHSRewardInfo_TypeDefinitionIndex = 87596;
 
 	class UIVHSRewardInfo : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Class_1_F71F7FB55BBEB1D9* storeData; // 0x28
-		::Class_3_6AAFAACF7E52506E* settleData; // 0x30
+		::Class_3_6AAFAACF7E52506E* settleData; // 0x28
+		::Class_1_F71F7FB55BBEB1D9* storeData; // 0x30
 
 		::System::Void _ctor(::Class_3_6AAFAACF7E52506E* settleData, ::Class_1_F71F7FB55BBEB1D9* storeData)
 		{

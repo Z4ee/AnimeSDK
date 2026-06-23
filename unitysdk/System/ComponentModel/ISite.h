@@ -7,7 +7,7 @@ namespace System::ComponentModel { class IContainer; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ISite_TypeDefinitionIndex = 2908;
+	inline static constexpr unsigned int ISite_TypeDefinitionIndex = 2907;
 
 	class ISite
 	{

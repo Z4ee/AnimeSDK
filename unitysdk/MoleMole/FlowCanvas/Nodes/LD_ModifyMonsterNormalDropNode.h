@@ -9,23 +9,23 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x123314B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12331800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__GETENTITYFIGHTERDATA_OFFSET UNITYSDK_OFFSET(0x12331620)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x12331840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x12331AD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13EDAB40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDAE90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__GETENTITYFIGHTERDATA_OFFSET UNITYSDK_OFFSET(0x13EDACB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x13EDAED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYMONSTERNORMALDROPNODE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x13EDB150)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ModifyMonsterNormalDropNode_TypeDefinitionIndex = 77479;
+	inline static constexpr unsigned int LD_ModifyMonsterNormalDropNode_TypeDefinitionIndex = 47450;
 
 	class LD_ModifyMonsterNormalDropNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _inputEntity; // 0xA8
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* _modifyNormalDrop; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _isReplace; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _isReplace; // 0xB0
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* _modifyNormalDrop; // 0xC0
 
 		::System::Void _ctor()
 		{

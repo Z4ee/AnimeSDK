@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SEQUENCECOMPOSITETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55E140)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SEQUENCECOMPOSITETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88DA60)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int SequenceCompositeTrack_TypeDefinitionIndex = 84919;
+	inline static constexpr unsigned int SequenceCompositeTrack_TypeDefinitionIndex = 90493;
 
 	class SequenceCompositeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

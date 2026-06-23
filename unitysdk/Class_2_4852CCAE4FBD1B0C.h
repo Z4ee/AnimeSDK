@@ -9,26 +9,26 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x131B2730)
-#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_8CE71901D76EEEA9_OFFSET UNITYSDK_OFFSET(0x131B2520)
-#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x131B2800)
-#define CLASS_2_4852CCAE4FBD1B0C__CTOR_OFFSET UNITYSDK_OFFSET(0x131B27F0)
+#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x1482F230)
+#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_8CE71901D76EEEA9_OFFSET UNITYSDK_OFFSET(0x1482F020)
+#define CLASS_2_4852CCAE4FBD1B0C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1482F300)
+#define CLASS_2_4852CCAE4FBD1B0C__CTOR_OFFSET UNITYSDK_OFFSET(0x1482F2F0)
 
-inline static constexpr unsigned int Class_2_4852CCAE4FBD1B0C_TypeDefinitionIndex = 47543;
+inline static constexpr unsigned int Class_2_4852CCAE4FBD1B0C_TypeDefinitionIndex = 87124;
 
 class Class_2_4852CCAE4FBD1B0C : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_5; // 0x18
-	::UnityEngine::Animation* Field_2_9; // 0x20
-	::UnityEngine::Animation* Field_2_2; // 0x28
-	::UnityEngine::RectTransform* Field_2_0; // 0x30
+	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x18
+	::UnityEngine::RectTransform* Field_2_0; // 0x20
+	::UnityEngine::Animation* Field_2_8; // 0x28
+	::UnityEngine::GameObject* Field_2_5; // 0x30
 	::UnityEngine::GameObject* Field_2_6; // 0x38
-	::UnityEngine::GameObject* Field_2_4; // 0x40
-	::UnityEngine::GameObject* Field_2_3; // 0x48
-	::UnityEngine::GameObject* Field_2_7; // 0x50
-	::UnityEngine::Animation* Field_2_8; // 0x58
-	::Class_2_1A39E1B51756BF41* Field_2_1; // 0x60
+	::UnityEngine::Animation* Field_2_2; // 0x40
+	::UnityEngine::Animation* Field_2_9; // 0x48
+	::UnityEngine::GameObject* Field_2_4; // 0x50
+	::UnityEngine::GameObject* Field_2_7; // 0x58
+	::UnityEngine::GameObject* Field_2_3; // 0x60
 
 	::System::Void _ctor()
 	{
@@ -40,13 +40,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_4852CCAE4FBD1B0C_METHOD_2_8CE71901D76EEEA9_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_7835DD7D7F7FF1B7()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4852CCAE4FBD1B0C_METHOD_2_7835DD7D7F7FF1B7_OFFSET))(this);
-	}
-
 	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_4852CCAE4FBD1B0C_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_7835DD7D7F7FF1B7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4852CCAE4FBD1B0C_METHOD_2_7835DD7D7F7FF1B7_OFFSET))(this);
 	}
 };

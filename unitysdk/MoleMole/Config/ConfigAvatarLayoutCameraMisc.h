@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGAVATARLAYOUTCAMERAMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x159E47D0)
+#define MOLEMOLE_CONFIG_CONFIGAVATARLAYOUTCAMERAMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1270DB70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAvatarLayoutCameraMisc_TypeDefinitionIndex = 54213;
+	inline static constexpr unsigned int ConfigAvatarLayoutCameraMisc_TypeDefinitionIndex = 65283;
 
 	class ConfigAvatarLayoutCameraMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{

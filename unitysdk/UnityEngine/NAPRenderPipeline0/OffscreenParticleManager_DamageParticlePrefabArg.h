@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleManager_DamageParticlePrefabArg_TypeDefinitionIndex = 29765;
+	inline static constexpr unsigned int OffscreenParticleManager_DamageParticlePrefabArg_TypeDefinitionIndex = 26717;
 
 	struct alignas(8) OffscreenParticleManager_DamageParticlePrefabArg
 	{

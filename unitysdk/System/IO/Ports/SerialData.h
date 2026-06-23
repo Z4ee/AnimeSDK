@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialData_TypeDefinitionIndex = 4155;
+	inline static constexpr unsigned int SerialData_TypeDefinitionIndex = 4154;
 
 	enum class SerialData : ::System::Int32
 	{

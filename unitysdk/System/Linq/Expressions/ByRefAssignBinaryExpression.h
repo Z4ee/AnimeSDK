@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BYREFASSIGNBINARYEXPRESSION_GET_ISBYREF_OFFSET UNITYSDK_OFFSET(0x1BDCB5C0)
-#define SYSTEM_LINQ_EXPRESSIONS_BYREFASSIGNBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCB550)
+#define SYSTEM_LINQ_EXPRESSIONS_BYREFASSIGNBINARYEXPRESSION_GET_ISBYREF_OFFSET UNITYSDK_OFFSET(0x1E113570)
+#define SYSTEM_LINQ_EXPRESSIONS_BYREFASSIGNBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E113500)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ByRefAssignBinaryExpression_TypeDefinitionIndex = 4396;
+	inline static constexpr unsigned int ByRefAssignBinaryExpression_TypeDefinitionIndex = 4395;
 
 	class ByRefAssignBinaryExpression : public ::System::Linq::Expressions::AssignBinaryExpression
 	{

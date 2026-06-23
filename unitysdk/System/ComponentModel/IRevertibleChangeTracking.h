@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IRevertibleChangeTracking_TypeDefinitionIndex = 2907;
+	inline static constexpr unsigned int IRevertibleChangeTracking_TypeDefinitionIndex = 2906;
 
 	class IRevertibleChangeTracking
 	{

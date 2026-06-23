@@ -3,7 +3,7 @@
 
 namespace MonoNotRelateGameLogic
 {
-	inline static constexpr unsigned int MonoCustomTextMesh_fontType_TypeDefinitionIndex = 73813;
+	inline static constexpr unsigned int MonoCustomTextMesh_fontType_TypeDefinitionIndex = 48495;
 
 	enum class MonoCustomTextMesh_fontType : ::System::Int32
 	{

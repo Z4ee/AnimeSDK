@@ -9,24 +9,24 @@ namespace System::Xml::Schema { class XmlSchemaGroupBase; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1B99A190)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1B99A180)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B99A160)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B99A170)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99A370)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1DD22090)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD22080)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DD22060)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DD22070)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD22270)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaGroup_TypeDefinitionIndex = 2159;
+	inline static constexpr unsigned int XmlSchemaGroup_TypeDefinitionIndex = 2158;
 
 	class XmlSchemaGroup : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
 		::System::Xml::Schema::XmlSchemaGroupBase* particle; // 0x50
-		::System::String* name; // 0x58
+		::System::Xml::Schema::XmlSchemaParticle* canonicalParticle; // 0x58
 		::System::Xml::Schema::XmlSchemaGroup* redefined; // 0x60
-		::System::Xml::XmlQualifiedName* qname; // 0x68
-		::System::Xml::Schema::XmlSchemaParticle* canonicalParticle; // 0x70
+		::System::String* name; // 0x68
+		::System::Xml::XmlQualifiedName* qname; // 0x70
 		::System::Int32 selfReferenceCount; // 0x78
 
 		::System::Void _ctor()

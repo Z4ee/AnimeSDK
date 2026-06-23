@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHEREFINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9494B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHEREFINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9EB920)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_CacheRefInstance_TypeDefinitionIndex = 29338;
+	inline static constexpr unsigned int InputControlLayout_CacheRefInstance_TypeDefinitionIndex = 31994;
 
 	struct alignas(1) InputControlLayout_CacheRefInstance
 	{

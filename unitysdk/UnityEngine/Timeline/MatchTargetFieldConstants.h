@@ -3,32 +3,32 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Timeline/MatchTargetFields.h"
 
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_HASANY_OFFSET UNITYSDK_OFFSET(0x1C448700)
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1C448760)
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C448770)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_HASANY_OFFSET UNITYSDK_OFFSET(0x1E758020)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1E758080)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E758090)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MatchTargetFieldConstants_TypeDefinitionIndex = 30706;
+	inline static constexpr unsigned int MatchTargetFieldConstants_TypeDefinitionIndex = 32257;
 
 	class MatchTargetFieldConstants : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_All()
-		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7AD0);
-		}
 		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Rotation()
 		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7AD4);
-		}
-		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Position()
-		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7AD8);
+			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7F80);
 		}
 		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_None()
 		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7ADC);
+			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7F84);
+		}
+		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Position()
+		{
+			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7F88);
+		}
+		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_All()
+		{
+			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x7F8C);
 		}
 
 		static ::System::Void _cctor()

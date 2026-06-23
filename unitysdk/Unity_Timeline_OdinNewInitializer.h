@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITY_TIMELINE_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0x1C389810)
-#define UNITY_TIMELINE_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C389960)
+#define UNITY_TIMELINE_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0x1E6CDB20)
+#define UNITY_TIMELINE_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CDC70)
 
-inline static constexpr unsigned int Unity_Timeline_OdinNewInitializer_TypeDefinitionIndex = 30571;
+inline static constexpr unsigned int Unity_Timeline_OdinNewInitializer_TypeDefinitionIndex = 32117;
 
 class Unity_Timeline_OdinNewInitializer : public ::System::Object
 {

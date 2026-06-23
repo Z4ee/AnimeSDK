@@ -5,9 +5,9 @@
 class Class_1_43BD383C98B4C0C5_38;
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_AC0D027A24B2C21B__CTOR_OFFSET UNITYSDK_OFFSET(0x12463CB0)
+#define CLASS_1_AC0D027A24B2C21B__CTOR_OFFSET UNITYSDK_OFFSET(0x1174FC30)
 
-inline static constexpr unsigned int Class_1_AC0D027A24B2C21B_TypeDefinitionIndex = 60089;
+inline static constexpr unsigned int Class_1_AC0D027A24B2C21B_TypeDefinitionIndex = 44866;
 
 class Class_1_AC0D027A24B2C21B : public ::System::Object
 {

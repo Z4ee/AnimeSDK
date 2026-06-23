@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_NPCPHYSICSMANAGER_PHYSICSHANDLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x656B60)
-#define NPCCROWD_NPCPHYSICSMANAGER_PHYSICSHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0x656BB0)
+#define NPCCROWD_NPCPHYSICSMANAGER_PHYSICSHANDLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x74E5A0)
+#define NPCCROWD_NPCPHYSICSMANAGER_PHYSICSHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0x74E5F0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPhysicsManager_PhysicsHandle_TypeDefinitionIndex = 64873;
+	inline static constexpr unsigned int NPCPhysicsManager_PhysicsHandle_TypeDefinitionIndex = 48672;
 
 	struct alignas(4) NPCPhysicsManager_PhysicsHandle
 	{

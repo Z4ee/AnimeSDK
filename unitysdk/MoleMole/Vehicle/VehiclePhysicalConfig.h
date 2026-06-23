@@ -5,7 +5,7 @@
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehiclePhysicalConfig_TypeDefinitionIndex = 49176;
+	inline static constexpr unsigned int VehiclePhysicalConfig_TypeDefinitionIndex = 57914;
 
 	struct alignas(4) VehiclePhysicalConfig
 	{

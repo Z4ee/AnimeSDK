@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdateVideo_TypeDefinitionIndex = 5620;
+	inline static constexpr unsigned int PostLateUpdate_UpdateVideo_TypeDefinitionIndex = 5622;
 
 	struct alignas(1) PostLateUpdate_UpdateVideo
 	{

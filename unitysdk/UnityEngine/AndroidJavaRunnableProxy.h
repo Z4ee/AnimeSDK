@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AndroidJavaRunnable; }
 
-#define UNITYENGINE_ANDROIDJAVARUNNABLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB43390)
+#define UNITYENGINE_ANDROIDJAVARUNNABLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBCD00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidJavaRunnableProxy_TypeDefinitionIndex = 37642;
+	inline static constexpr unsigned int AndroidJavaRunnableProxy_TypeDefinitionIndex = 39268;
 
 	class AndroidJavaRunnableProxy : public ::UnityEngine::AndroidJavaProxy
 	{

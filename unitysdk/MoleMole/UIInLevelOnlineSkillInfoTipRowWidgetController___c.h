@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D0A7C0)
-#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0A800)
-#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__ONUIINIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x15D0A810)
+#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BF9E60)
+#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF9EA0)
+#define MOLEMOLE_UIINLEVELONLINESKILLINFOTIPROWWIDGETCONTROLLER___C__ONUIINIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x16BF9EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex = 52636;
+	inline static constexpr unsigned int UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex = 49329;
 
 	class UIInLevelOnlineSkillInfoTipRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIInLevelOnlineSkillInfoTipRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIInLevelOnlineSkillInfoTipRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32900);
+			return (::MoleMole::UIInLevelOnlineSkillInfoTipRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34780);
 		}
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32908);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelOnlineSkillInfoTipRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34788);
 		}
 
 		static ::System::Void _cctor()

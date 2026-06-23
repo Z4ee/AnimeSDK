@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_14396A53E5856F16_OFFSET UNITYSDK_OFFSET(0x11C875A0)
-#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x11C874B0)
+#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_14396A53E5856F16_OFFSET UNITYSDK_OFFSET(0x13477CC0)
+#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x13477BE0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int EntityCameraViewConfigByAnisotropicStretch_TypeDefinitionIndex = 46623;
+	inline static constexpr unsigned int EntityCameraViewConfigByAnisotropicStretch_TypeDefinitionIndex = 61855;
 
 	class EntityCameraViewConfigByAnisotropicStretch : public ::System::Object
 	{

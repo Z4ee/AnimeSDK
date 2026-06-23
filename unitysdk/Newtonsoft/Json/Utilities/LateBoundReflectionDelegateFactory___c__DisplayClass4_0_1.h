@@ -7,7 +7,7 @@ namespace System::Reflection { class MethodBase; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1_TypeDefinitionIndex = 6930;
+	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1_TypeDefinitionIndex = 7061;
 
 	template <typename T>
 	class LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1 : public ::System::Object

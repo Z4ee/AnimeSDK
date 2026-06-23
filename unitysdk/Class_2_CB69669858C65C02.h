@@ -8,18 +8,18 @@ namespace MoleMole { class UIControlCollection; }
 namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_CB69669858C65C02_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11480140)
-#define CLASS_2_CB69669858C65C02_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x11480060)
-#define CLASS_2_CB69669858C65C02__CTOR_OFFSET UNITYSDK_OFFSET(0x11480130)
+#define CLASS_2_CB69669858C65C02_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x123E5250)
+#define CLASS_2_CB69669858C65C02_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x123E5170)
+#define CLASS_2_CB69669858C65C02__CTOR_OFFSET UNITYSDK_OFFSET(0x123E5240)
 
-inline static constexpr unsigned int Class_2_CB69669858C65C02_TypeDefinitionIndex = 62063;
+inline static constexpr unsigned int Class_2_CB69669858C65C02_TypeDefinitionIndex = 87250;
 
 class Class_2_CB69669858C65C02 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::GameObject* Field_2_0; // 0x18
-	::MoleMole::UIGeneralButtonController* Field_2_2; // 0x20
-	::MonoUITableScrollV2* Field_2_1; // 0x28
+	::MonoUITableScrollV2* Field_2_1; // 0x18
+	::UnityEngine::GameObject* Field_2_0; // 0x20
+	::MoleMole::UIGeneralButtonController* Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

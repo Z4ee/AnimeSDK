@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class MeshCollider; }
 
-#define BUDDYINPUTHANDLER_DISPATCHUIPOINTSIGNAL_OFFSET UNITYSDK_OFFSET(0x14BC2F00)
-#define BUDDYINPUTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC2F40)
+#define BUDDYINPUTHANDLER_DISPATCHUIPOINTSIGNAL_OFFSET UNITYSDK_OFFSET(0x1014FDC0)
+#define BUDDYINPUTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1014FE00)
 
-inline static constexpr unsigned int BuddyInputHandler_TypeDefinitionIndex = 76421;
+inline static constexpr unsigned int BuddyInputHandler_TypeDefinitionIndex = 69551;
 
 class BuddyInputHandler : public ::System::Object
 {

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE46B940)
-#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE46B8E0)
+#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x152DEC00)
+#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x152DEBA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointWidgetController_TypeDefinitionIndex = 82981;
+	inline static constexpr unsigned int UIUrbanMapPointWidgetController_TypeDefinitionIndex = 48155;
 
 	class UIUrbanMapPointWidgetController : public ::MoleMole::UIWidgetController
 	{
 	public:
 		static ::System::Boolean* StaticGet_NeedCachePoint()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapPointWidgetController_TypeDefinitionIndex)->GetStaticField(0xDF20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapPointWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5D0);
 		}
 
 		::System::Void _ctor()

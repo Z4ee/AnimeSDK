@@ -4,26 +4,26 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_LISTENERREGISTER_OFFSET UNITYSDK_OFFSET(0x19ABBB70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_NEEDRESTETRAHEDRALIZATION_OFFSET UNITYSDK_OFFSET(0x19ABBD20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_SCENELOADED_OFFSET UNITYSDK_OFFSET(0x19ABC3F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_SCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x19ABBD60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ABC590)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_LISTENERREGISTER_OFFSET UNITYSDK_OFFSET(0x1BDC3C30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_NEEDRESTETRAHEDRALIZATION_OFFSET UNITYSDK_OFFSET(0x1BDC3DE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_SCENELOADED_OFFSET UNITYSDK_OFFSET(0x1BDC44B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER_SCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1BDC3E20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENECHANGELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDC4650)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SceneChangeListener_TypeDefinitionIndex = 29843;
+	inline static constexpr unsigned int SceneChangeListener_TypeDefinitionIndex = 26615;
 
 	class SceneChangeListener : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::SceneManagement::Scene* StaticGet_newLoadedScene()
 		{
-			return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(SceneChangeListener_TypeDefinitionIndex)->GetStaticField(0x6680);
+			return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(SceneChangeListener_TypeDefinitionIndex)->GetStaticField(0x6200);
 		}
 		static ::System::Boolean* StaticGet_s_CurrentActiveSceneIsFortuneSquare()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneChangeListener_TypeDefinitionIndex)->GetStaticField(0x6684);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneChangeListener_TypeDefinitionIndex)->GetStaticField(0x6204);
 		}
 
 		static ::System::Void _cctor()

@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETCURVEWIDTH_OFFSET UNITYSDK_OFFSET(0x142A5BC0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETDURATION_OFFSET UNITYSDK_OFFSET(0x142A5950)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET UNITYSDK_OFFSET(0x142A4E50)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x142A5360)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET UNITYSDK_OFFSET(0x142A50F0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDELAYDURATION_OFFSET UNITYSDK_OFFSET(0x142A5AF0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDURATION_OFFSET UNITYSDK_OFFSET(0x142A5A20)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_METHOD_6_7A4445839B75D76B_OFFSET UNITYSDK_OFFSET(0x142A5070)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x142A5CA0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETCURVEWIDTH_OFFSET UNITYSDK_OFFSET(0x11638B80)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETDURATION_OFFSET UNITYSDK_OFFSET(0x11638910)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET UNITYSDK_OFFSET(0x11637E10)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x11638320)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET UNITYSDK_OFFSET(0x116380B0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDELAYDURATION_OFFSET UNITYSDK_OFFSET(0x11638AB0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDURATION_OFFSET UNITYSDK_OFFSET(0x116389E0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_METHOD_6_7A4445839B75D76B_OFFSET UNITYSDK_OFFSET(0x11638030)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x11638C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginGroundLighting_TypeDefinitionIndex = 47267;
+	inline static constexpr unsigned int MonoEffectPluginGroundLighting_TypeDefinitionIndex = 53989;
 
 	class MonoEffectPluginGroundLighting : public ::MoleMole::MonoEffectPluginBase
 	{
@@ -46,17 +46,19 @@ namespace MoleMole
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange EndGroundPointOffsetZ; // 0xA0
 		::System::Boolean UseBonePoint; // 0xAC
 		::System::Collections::Generic::List_1<::MoleMole::MonoEffectPluginGroundLighting_BoneListConfig*>* BoneListConfigs; // 0xB0
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange altRotationRange; // 0xB8
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampXRange; // 0xC4
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampYRange; // 0xD0
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampZRange; // 0xDC
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange displacementRange; // 0xE8
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange detailRange; // 0xF4
-		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange curveAmpRange; // 0x100
-		::System::String* layerMask; // 0x110
-		::System::String* tag; // 0x118
-		::System::Single rayDiatance; // 0x120
-		::System::Single raySphereRadius; // 0x124
+		::System::Boolean UseEntityEndPoint; // 0xB8
+		::System::String* EntityEndPointAttachPointName; // 0xC0
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange altRotationRange; // 0xC8
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampXRange; // 0xD4
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampYRange; // 0xE0
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampZRange; // 0xEC
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange displacementRange; // 0xF8
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange detailRange; // 0x104
+		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange curveAmpRange; // 0x110
+		::System::String* layerMask; // 0x120
+		::System::String* tag; // 0x128
+		::System::Single rayDiatance; // 0x130
+		::System::Single raySphereRadius; // 0x134
 
 		::System::Void _ctor()
 		{

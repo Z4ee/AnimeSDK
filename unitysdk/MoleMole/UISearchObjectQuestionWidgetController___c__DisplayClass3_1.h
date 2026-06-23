@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISearchObjectQuestionWidgetController___c__DisplayClass3_0; }
 
-#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D68EB0)
-#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER___C__DISPLAYCLASS3_1__ONCLICKNEXTOREND_B__1_OFFSET UNITYSDK_OFFSET(0x14D68EC0)
+#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x152B1410)
+#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER___C__DISPLAYCLASS3_1__ONCLICKNEXTOREND_B__1_OFFSET UNITYSDK_OFFSET(0x152B1420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISearchObjectQuestionWidgetController___c__DisplayClass3_1_TypeDefinitionIndex = 80742;
+	inline static constexpr unsigned int UISearchObjectQuestionWidgetController___c__DisplayClass3_1_TypeDefinitionIndex = 72069;
 
 	class UISearchObjectQuestionWidgetController___c__DisplayClass3_1 : public ::System::Object
 	{

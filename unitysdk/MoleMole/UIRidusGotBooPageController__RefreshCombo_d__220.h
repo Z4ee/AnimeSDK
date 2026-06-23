@@ -6,17 +6,17 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__REFRESHCOMBO_D__220_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75E480)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__REFRESHCOMBO_D__220_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__REFRESHCOMBO_D__220_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7612A0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__REFRESHCOMBO_D__220_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__RefreshCombo_d__220_TypeDefinitionIndex = 75526;
+	inline static constexpr unsigned int UIRidusGotBooPageController__RefreshCombo_d__220_TypeDefinitionIndex = 40737;
 
 	struct alignas(8) UIRidusGotBooPageController__RefreshCombo_d__220
 	{
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x18
 		::System::Int32 __1__state; // 0x20
 
 		::System::Void MoveNext()

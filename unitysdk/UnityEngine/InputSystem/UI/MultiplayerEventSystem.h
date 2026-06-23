@@ -5,28 +5,28 @@
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_GET_PLAYERROOT_OFFSET UNITYSDK_OFFSET(0x1B990D40)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_INITIALIZECANVASGROUP_OFFSET UNITYSDK_OFFSET(0x1B990D60)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B9910A0)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B991030)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_SET_PLAYERROOT_OFFSET UNITYSDK_OFFSET(0x1B990D50)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_UPDATEIMPL_OFFSET UNITYSDK_OFFSET(0x1B991250)
-#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B991580)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_GET_PLAYERROOT_OFFSET UNITYSDK_OFFSET(0x1DD07A10)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_INITIALIZECANVASGROUP_OFFSET UNITYSDK_OFFSET(0x1DD07A30)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1DD07D70)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1DD07D00)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_SET_PLAYERROOT_OFFSET UNITYSDK_OFFSET(0x1DD07A20)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM_UPDATEIMPL_OFFSET UNITYSDK_OFFSET(0x1DD07F20)
+#define UNITYENGINE_INPUTSYSTEM_UI_MULTIPLAYEREVENTSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08250)
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int MultiplayerEventSystem_TypeDefinitionIndex = 29113;
+	inline static constexpr unsigned int MultiplayerEventSystem_TypeDefinitionIndex = 31769;
 
 	class MultiplayerEventSystem : public ::UnityEngine::EventSystems::EventSystem
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>** StaticGet_s_MultiplayerEventSystems()
 		{
-			return (::Il2CppArray<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerEventSystem_TypeDefinitionIndex)->GetStaticField(0x22430);
+			return (::Il2CppArray<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerEventSystem_TypeDefinitionIndex)->GetStaticField(0x261C0);
 		}
 		static ::System::Int32* StaticGet_s_MultiplayerEventSystemCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MultiplayerEventSystem_TypeDefinitionIndex)->GetStaticField(0x4C80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MultiplayerEventSystem_TypeDefinitionIndex)->GetStaticField(0x7D40);
 		}
 		::UnityEngine::GameObject* m_PlayerRoot; // 0x58
 		::UnityEngine::CanvasGroup* m_CanvasGroup; // 0x60

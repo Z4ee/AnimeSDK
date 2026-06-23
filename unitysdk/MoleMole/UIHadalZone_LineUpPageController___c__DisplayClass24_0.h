@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHadalZone_LineUpPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14671FF0)
-#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER___C__DISPLAYCLASS24_0___CLOSEPREV_RANKINGWIDGETS_B__0_OFFSET UNITYSDK_OFFSET(0x146724B0)
+#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14683CD0)
+#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER___C__DISPLAYCLASS24_0___CLOSEPREV_RANKINGWIDGETS_B__0_OFFSET UNITYSDK_OFFSET(0x146841A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LineUpPageController___c__DisplayClass24_0_TypeDefinitionIndex = 71248;
+	inline static constexpr unsigned int UIHadalZone_LineUpPageController___c__DisplayClass24_0_TypeDefinitionIndex = 56376;
 
 	class UIHadalZone_LineUpPageController___c__DisplayClass24_0 : public ::System::Object
 	{

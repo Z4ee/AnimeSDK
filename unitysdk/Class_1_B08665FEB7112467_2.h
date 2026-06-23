@@ -2,22 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B08665FEB7112467_2_Class_3_092084E32CDEE0C5;
-class Class_1_B08665FEB7112467_2_Class_3_286342E3AE987C56;
-class Class_1_B08665FEB7112467_2_Class_3_50D343C44D28BEFB_6;
-class Class_1_B08665FEB7112467_2_Class_3_90EEADDEAE6DE849_3;
+class Class_1_D375C91CCE5D3999;
+class Class_3_BD954AEAE8F1A57B;
 
-#define CLASS_1_B08665FEB7112467_2__CTOR_OFFSET UNITYSDK_OFFSET(0x14121910)
+#define CLASS_1_B08665FEB7112467_2__CTOR_OFFSET UNITYSDK_OFFSET(0xFE1EB40)
 
-inline static constexpr unsigned int Class_1_B08665FEB7112467_2_TypeDefinitionIndex = 55353;
+inline static constexpr unsigned int Class_1_B08665FEB7112467_2_TypeDefinitionIndex = 51187;
 
 class Class_1_B08665FEB7112467_2 : public ::System::Object
 {
 public:
-	::Class_1_B08665FEB7112467_2_Class_3_50D343C44D28BEFB_6* Field_1_3; // 0x10
-	::Class_1_B08665FEB7112467_2_Class_3_286342E3AE987C56* Field_1_2; // 0x18
-	::Class_1_B08665FEB7112467_2_Class_3_092084E32CDEE0C5* Field_1_0; // 0x20
-	::Class_1_B08665FEB7112467_2_Class_3_90EEADDEAE6DE849_3* Field_1_1; // 0x28
+	::Class_3_BD954AEAE8F1A57B* Field_1_1; // 0x10
+	::Class_1_D375C91CCE5D3999* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Jobs
 {
-	inline static constexpr unsigned int IChunkJobFor_TypeDefinitionIndex = 8989;
+	inline static constexpr unsigned int IChunkJobFor_TypeDefinitionIndex = 8440;
 
 	class IChunkJobFor
 	{

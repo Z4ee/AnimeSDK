@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int ValueSparseHashMap8_4_1_TypeDefinitionIndex = 5093;
+	inline static constexpr unsigned int ValueSparseHashMap8_4_1_TypeDefinitionIndex = 5092;
 
 	template <typename T>
 	class ValueSparseHashMap8_4_1 : public ::System::Object

@@ -5,12 +5,12 @@
 namespace MoleMole::Timeline { class MaterialInfo; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_TIMELINE_MATERIALCOMPRECORDERINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4049F0)
-#define MOLEMOLE_TIMELINE_MATERIALCOMPRECORDERINFO___C__DISPLAYCLASS10_0__RELOADMESHRENDERERCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1C404A00)
+#define MOLEMOLE_TIMELINE_MATERIALCOMPRECORDERINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E748800)
+#define MOLEMOLE_TIMELINE_MATERIALCOMPRECORDERINFO___C__DISPLAYCLASS10_0__RELOADMESHRENDERERCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1E748810)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialCompRecorderInfo___c__DisplayClass10_0_TypeDefinitionIndex = 30628;
+	inline static constexpr unsigned int MaterialCompRecorderInfo___c__DisplayClass10_0_TypeDefinitionIndex = 32174;
 
 	class MaterialCompRecorderInfo___c__DisplayClass10_0 : public ::System::Object
 	{

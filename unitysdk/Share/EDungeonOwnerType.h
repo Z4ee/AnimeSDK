@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EDungeonOwnerType_TypeDefinitionIndex = 10656;
+	inline static constexpr unsigned int EDungeonOwnerType_TypeDefinitionIndex = 17126;
 
 	enum class EDungeonOwnerType : ::System::Int16
 	{
-		EnumCount = 1,
 		Player = 0,
+		EnumCount = 1,
 	};
 }

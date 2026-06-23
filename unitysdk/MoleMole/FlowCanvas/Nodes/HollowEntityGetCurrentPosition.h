@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_2.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCURRENTPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x182068D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCURRENTPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x18206BB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCURRENTPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A01E440)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCURRENTPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01E720)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityGetCurrentPosition_TypeDefinitionIndex = 62097;
+	inline static constexpr unsigned int HollowEntityGetCurrentPosition_TypeDefinitionIndex = 81167;
 
 	class HollowEntityGetCurrentPosition : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::MoleMole::Vector2Int, ::System::UInt32>
 	{

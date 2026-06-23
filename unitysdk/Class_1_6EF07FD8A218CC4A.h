@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
-template <typename T> class Class_3_B60F6C2F126D2E26_6;
-template <typename T> class Class_3_B60F6C2F126D2E2F_9;
+template <typename T> class Class_3_B60F6C2F126D2E26_7;
+template <typename T> class Class_3_B60F6C2F126D2E2F_7;
 
-inline static constexpr unsigned int Class_1_6EF07FD8A218CC4A_TypeDefinitionIndex = 49610;
+inline static constexpr unsigned int Class_1_6EF07FD8A218CC4A_TypeDefinitionIndex = 45977;
 
 template <typename T>
 class Class_1_6EF07FD8A218CC4A : public ::System::Object

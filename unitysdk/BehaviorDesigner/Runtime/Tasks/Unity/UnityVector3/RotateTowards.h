@@ -6,24 +6,24 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA832E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA82FB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA83360)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BA833F0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BA83480)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDE4E10)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDE4AE0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4E90)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1DDE4F20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_ROTATETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDE4FB0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector3
 {
-	inline static constexpr unsigned int RotateTowards_TypeDefinitionIndex = 31853;
+	inline static constexpr unsigned int RotateTowards_TypeDefinitionIndex = 33404;
 
 	class RotateTowards : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* maxMagnitudeDelta; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector3* currentRotation; // 0x60
+		::BehaviorDesigner::Runtime::SharedVector3* currentRotation; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x60
 		::BehaviorDesigner::Runtime::SharedFloat* maxDegreesDelta; // 0x68
 		::BehaviorDesigner::Runtime::SharedVector3* targetRotation; // 0x70
-		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x78
+		::BehaviorDesigner::Runtime::SharedFloat* maxMagnitudeDelta; // 0x78
 
 		::System::Void _ctor()
 		{

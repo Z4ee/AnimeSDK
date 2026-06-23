@@ -1,0 +1,217 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/Struct_2_982AD205B3D54E46.h"
+#include "unitysdk/Struct_2_A3F7BC7FD0AC1E07.h"
+#include "unitysdk/Struct_2_A9A03775CD77F6D6.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class RadarStateChangeImageConfig; }
+namespace MoleMole { class UIUrbanMapHUDSingleImageWidgetController_Context; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Texture2D; }
+namespace UnityEngine { class Texture; }
+template <typename T> class Class_0_16E4307DCC419505_165;
+template <typename T> class Class_1_FA000C9EFE98E3A4;
+template <typename T> class Class_2_27110FADB294B5B7;
+template <typename T> class Class_2_F16D73323D71766B;
+
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_137BC011EDDA9DDC_OFFSET UNITYSDK_OFFSET(0x1623E480)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_179F92E8219D5460_OFFSET UNITYSDK_OFFSET(0x1623B520)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_211C6A1943E4B478_OFFSET UNITYSDK_OFFSET(0x1623AFF0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x1623A310)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_31B71B6D307F7F0C_OFFSET UNITYSDK_OFFSET(0x1623ECC0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_3FA063706A9B5149_OFFSET UNITYSDK_OFFSET(0x1623B0B0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_43C0376384A37670_OFFSET UNITYSDK_OFFSET(0x1623E730)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_482B8CA2F39A9A0B_OFFSET UNITYSDK_OFFSET(0x1623CE40)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_4C93A371A0DC625B_OFFSET UNITYSDK_OFFSET(0x1623A160)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_4E34CAD07CE73008_OFFSET UNITYSDK_OFFSET(0x1623B160)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_501509B4B58077AF_OFFSET UNITYSDK_OFFSET(0x1623EAE0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1623A5A0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_53230565938CECA7_OFFSET UNITYSDK_OFFSET(0x1623B760)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_632E55A866D0B04B_OFFSET UNITYSDK_OFFSET(0x1623EAD0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_90803B722B18DF69_OFFSET UNITYSDK_OFFSET(0x1623BCC0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_AF58197E8C613AF0_OFFSET UNITYSDK_OFFSET(0x1623D3C0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1623ACA0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x1623B120)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1623E3F0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1623E6A0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1623AEE0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_1_OFFSET UNITYSDK_OFFSET(0x1623AF70)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_2_OFFSET UNITYSDK_OFFSET(0x1623BFA0)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_OFFSET UNITYSDK_OFFSET(0x1623AE60)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_DEC15A545D207571_OFFSET UNITYSDK_OFFSET(0x1623C020)
+#define CLASS_2_18E612FFFCB4C387_METHOD_2_F5C91A8E4DAB1C29_OFFSET UNITYSDK_OFFSET(0x1623E740)
+#define CLASS_2_18E612FFFCB4C387__CCTOR_OFFSET UNITYSDK_OFFSET(0x1623AE50)
+#define CLASS_2_18E612FFFCB4C387__CTOR_OFFSET UNITYSDK_OFFSET(0x1623AD40)
+
+inline static constexpr unsigned int Class_2_18E612FFFCB4C387_TypeDefinitionIndex = 87120;
+
+class Class_2_18E612FFFCB4C387 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	static ::System::Boolean* StaticGet_Field_2_1()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_18E612FFFCB4C387_TypeDefinitionIndex)->GetStaticField(0xF820);
+	}
+	::System::Collections::Generic::List_1<::MoleMole::RadarStateChangeImageConfig*>* Field_2_11; // 0x50
+	::Class_2_F16D73323D71766B<::Struct_2_A3F7BC7FD0AC1E07>* Field_2_6; // 0x58
+	::Class_2_F16D73323D71766B<::Foundation::AssetPath>* Field_2_2; // 0x60
+	::Class_2_F16D73323D71766B<::UnityEngine::Rect>* Field_2_5; // 0x68
+	::Class_2_F16D73323D71766B<::System::Boolean>* Field_2_8; // 0x70
+	::Class_2_F16D73323D71766B<::UnityEngine::Vector2>* Field_2_4; // 0x78
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*>* Field_2_13; // 0x80
+	::Class_1_FA000C9EFE98E3A4<::UnityEngine::Texture2D*>* Field_2_7; // 0x88
+	::Struct_2_A9A03775CD77F6D6 Field_2_10; // 0x90
+	::Class_2_F16D73323D71766B<::Struct_2_982AD205B3D54E46>* Field_2_3; // 0xC0
+	::Class_2_27110FADB294B5B7<::MoleMole::RadarStateChangeImageConfig*>* Field_2_12; // 0xC8
+	::UnityEngine::Vector2 Field_2_9; // 0xD0
+	::System::Single Field_2_0; // 0xD8
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387__CCTOR_OFFSET))();
+	}
+
+	::System::Void Method_2_4C93A371A0DC625B(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_4C93A371A0DC625B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_2450CFC043E97F54()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_2450CFC043E97F54_OFFSET))(this);
+	}
+
+	::System::Void Method_2_508D4DD02D3DB74E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_508D4DD02D3DB74E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::UnityEngine::Texture* Method_2_D2DA768232E640DF()
+	{
+		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::UnityEngine::Texture* Method_2_D2DA768232E640DF_1()
+	{
+		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_1_OFFSET))(this);
+	}
+
+	::UnityEngine::Rect Method_2_211C6A1943E4B478()
+	{
+		return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_211C6A1943E4B478_OFFSET))(this);
+	}
+
+	::Foundation::AssetPath Method_2_3FA063706A9B5149()
+	{
+		return ((::Foundation::AssetPath(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_3FA063706A9B5149_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2 Method_2_C21A7AC6282FB0D0()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_C21A7AC6282FB0D0_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::MoleMole::RadarStateChangeImageConfig*>* Method_2_4E34CAD07CE73008()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::MoleMole::RadarStateChangeImageConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_4E34CAD07CE73008_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2 Method_2_179F92E8219D5460()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_179F92E8219D5460_OFFSET))(this);
+	}
+
+	::Struct_2_982AD205B3D54E46 Method_2_53230565938CECA7()
+	{
+		return ((::Struct_2_982AD205B3D54E46(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_53230565938CECA7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_90803B722B18DF69(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_90803B722B18DF69_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Texture* Method_2_D2DA768232E640DF_2()
+	{
+		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_D2DA768232E640DF_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_DEC15A545D207571(::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_DEC15A545D207571_OFFSET))(this, a1);
+	}
+
+	::Struct_2_A3F7BC7FD0AC1E07 Method_2_482B8CA2F39A9A0B()
+	{
+		return ((::Struct_2_A3F7BC7FD0AC1E07(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_482B8CA2F39A9A0B_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_AF58197E8C613AF0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_AF58197E8C613AF0_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Foundation::AssetPath Method_2_137BC011EDDA9DDC()
+	{
+		return ((::Foundation::AssetPath(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_137BC011EDDA9DDC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_165<::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*>* Method_2_43C0376384A37670()
+	{
+		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_43C0376384A37670_OFFSET))(this);
+	}
+
+	::UnityEngine::Rect Method_2_F5C91A8E4DAB1C29()
+	{
+		return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_F5C91A8E4DAB1C29_OFFSET))(this);
+	}
+
+	::System::Void Method_2_632E55A866D0B04B(::Class_0_16E4307DCC419505_165<::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIUrbanMapHUDSingleImageWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_632E55A866D0B04B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_501509B4B58077AF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_501509B4B58077AF_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_2_31B71B6D307F7F0C()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_18E612FFFCB4C387_METHOD_2_31B71B6D307F7F0C_OFFSET))(this);
+	}
+};

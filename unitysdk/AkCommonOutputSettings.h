@@ -7,10 +7,10 @@ class AkCommonOutputSettings_ChannelConfiguration;
 class AkOutputSettings;
 namespace System { class String; }
 
-#define AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1C3CE210)
-#define AKCOMMONOUTPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CE750)
+#define AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1E7128D0)
+#define AKCOMMONOUTPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E712E10)
 
-inline static constexpr unsigned int AkCommonOutputSettings_TypeDefinitionIndex = 31507;
+inline static constexpr unsigned int AkCommonOutputSettings_TypeDefinitionIndex = 33058;
 
 class AkCommonOutputSettings : public ::System::Object
 {

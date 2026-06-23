@@ -7,7 +7,7 @@ namespace System::Security::Principal { class WindowsIdentity; }
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int WindowsPrincipal_TypeDefinitionIndex = 1030;
+	inline static constexpr unsigned int WindowsPrincipal_TypeDefinitionIndex = 1029;
 
 	class WindowsPrincipal : public ::System::Security::Claims::ClaimsPrincipal
 	{

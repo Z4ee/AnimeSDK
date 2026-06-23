@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_CELL_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x9C4D40)
-#define FOUNDATION_CONTAINER_CELL_GET_LOCATION_OFFSET UNITYSDK_OFFSET(0x9C4D20)
-#define FOUNDATION_CONTAINER_CELL__CTOR_OFFSET UNITYSDK_OFFSET(0x9C4D60)
+#define FOUNDATION_CONTAINER_CELL_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xA6D200)
+#define FOUNDATION_CONTAINER_CELL_GET_LOCATION_OFFSET UNITYSDK_OFFSET(0xA6D1E0)
+#define FOUNDATION_CONTAINER_CELL__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D220)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int Cell_TypeDefinitionIndex = 8926;
+	inline static constexpr unsigned int Cell_TypeDefinitionIndex = 8676;
 
 	struct alignas(8) Cell
 	{

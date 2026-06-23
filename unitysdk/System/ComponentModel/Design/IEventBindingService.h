@@ -11,7 +11,7 @@ namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IEventBindingService_TypeDefinitionIndex = 3072;
+	inline static constexpr unsigned int IEventBindingService_TypeDefinitionIndex = 3071;
 
 	class IEventBindingService
 	{

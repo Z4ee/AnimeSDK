@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 
-class Class_5_AF65C3A968E836D2;
+class Class_5_FCAF801AC482D3B5;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardCallableActionNode_3_TypeDefinitionIndex = 49157;
+	inline static constexpr unsigned int ChessboardCallableActionNode_3_TypeDefinitionIndex = 79925;
 
 	template <typename T1, typename T2, typename T3>
 	class ChessboardCallableActionNode_3 : public ::FlowCanvas::Nodes::CallableActionNode_3<T1, T2, T3>

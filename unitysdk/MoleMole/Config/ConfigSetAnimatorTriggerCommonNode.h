@@ -5,18 +5,18 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x181D3930)
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x181D39A0)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19FEF7A0)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEF810)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNode_TypeDefinitionIndex = 65414;
+	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNode_TypeDefinitionIndex = 41290;
 
 	class ConfigSetAnimatorTriggerCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::StringUISpecialNum* ParamName; // 0x18
-		::MoleMole::Config::StringUISpecialNum* AnimCompKey; // 0x20
+		::MoleMole::Config::StringUISpecialNum* AnimCompKey; // 0x18
+		::MoleMole::Config::StringUISpecialNum* ParamName; // 0x20
 
 		::System::Void _ctor()
 		{

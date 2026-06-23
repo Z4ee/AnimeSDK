@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FInteractServerFeedbackArgs_TypeDefinitionIndex = 82856;
+	inline static constexpr unsigned int FInteractServerFeedbackArgs_TypeDefinitionIndex = 76365;
 
 	struct alignas(8) FInteractServerFeedbackArgs
 	{

@@ -6,16 +6,16 @@ namespace MoleMole::Config { class ConfigEntityPaniniProjectionEffects; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_903CA025C946473F_METHOD_1_7EB6947225883892_OFFSET UNITYSDK_OFFSET(0xDB3F110)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_903CA025C946473F__CTOR_OFFSET UNITYSDK_OFFSET(0xDB3F100)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_903CA025C946473F_METHOD_1_7EB6947225883892_OFFSET UNITYSDK_OFFSET(0x14408FE0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_903CA025C946473F__CTOR_OFFSET UNITYSDK_OFFSET(0x14408FD0)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_903CA025C946473F_TypeDefinitionIndex = 69948;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_903CA025C946473F_TypeDefinitionIndex = 77448;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_903CA025C946473F : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::System::Action_1<::MoleMole::Config::ConfigEntityPaniniProjectionEffects*>* Field_1_2; // 0x18
+	::System::Action_1<::MoleMole::Config::ConfigEntityPaniniProjectionEffects*>* Field_1_2; // 0x10
+	::System::Action* Field_1_1; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

@@ -4,12 +4,12 @@
 #include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/IntValueGetterType.h"
 
-#define NPCCROWD_AI_INTCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xD22DD80)
-#define NPCCROWD_AI_INTCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xD22DD70)
+#define NPCCROWD_AI_INTCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xA664890)
+#define NPCCROWD_AI_INTCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xA664880)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int IntCompareCondition_TypeDefinitionIndex = 54204;
+	inline static constexpr unsigned int IntCompareCondition_TypeDefinitionIndex = 59179;
 
 	class IntCompareCondition : public ::NPCCrowd::AI::CompareCondition
 	{

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define CUTSCENEMATERIALSHADERCONFIG_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA83840)
+#define CUTSCENEMATERIALSHADERCONFIG_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08950)
 
-inline static constexpr unsigned int CutsceneMaterialShaderConfig_ShaderPropertyConfig_TypeDefinitionIndex = 30570;
+inline static constexpr unsigned int CutsceneMaterialShaderConfig_ShaderPropertyConfig_TypeDefinitionIndex = 32116;
 
 class CutsceneMaterialShaderConfig_ShaderPropertyConfig : public ::System::Object
 {

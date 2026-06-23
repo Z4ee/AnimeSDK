@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINounDetailPanelWidgetController_HeightState_TypeDefinitionIndex = 82395;
+	inline static constexpr unsigned int UINounDetailPanelWidgetController_HeightState_TypeDefinitionIndex = 77765;
 
 	enum class UINounDetailPanelWidgetController_HeightState : ::System::Int32
 	{
-		Hidden = 2,
 		Collapsed = 1,
 		Expanded = 0,
+		Hidden = 2,
 	};
 }

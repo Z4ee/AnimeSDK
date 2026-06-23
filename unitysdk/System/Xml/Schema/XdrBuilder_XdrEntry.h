@@ -8,11 +8,11 @@ namespace System::Xml::Schema { class XdrBuilder_XdrBeginChildFunction; }
 namespace System::Xml::Schema { class XdrBuilder_XdrEndChildFunction; }
 namespace System::Xml::Schema { class XdrBuilder_XdrInitFunction; }
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8EABE0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC43090)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XdrBuilder_XdrEntry_TypeDefinitionIndex = 2109;
+	inline static constexpr unsigned int XdrBuilder_XdrEntry_TypeDefinitionIndex = 2108;
 
 	class XdrBuilder_XdrEntry : public ::System::Object
 	{

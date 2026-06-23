@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnJointBreakHandler_TypeDefinitionIndex = 28714;
+	inline static constexpr unsigned int IAsyncOnJointBreakHandler_TypeDefinitionIndex = 31370;
 
 	class IAsyncOnJointBreakHandler
 	{

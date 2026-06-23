@@ -8,19 +8,19 @@
 namespace MoleMole { class ConfigAvatarDateTeleport; }
 namespace MoleMole { class TeleportToAvatar; }
 
-#define MOLEMOLE_TELEPORTTOAVATAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B1CE60)
-#define MOLEMOLE_TELEPORTTOAVATAR___C__DISPLAYCLASS10_0__ONUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x12B1CE70)
+#define MOLEMOLE_TELEPORTTOAVATAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160F1A80)
+#define MOLEMOLE_TELEPORTTOAVATAR___C__DISPLAYCLASS10_0__ONUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x160F1A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeleportToAvatar___c__DisplayClass10_0_TypeDefinitionIndex = 73159;
+	inline static constexpr unsigned int TeleportToAvatar___c__DisplayClass10_0_TypeDefinitionIndex = 54675;
 
 	class TeleportToAvatar___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::ConfigAvatarDateTeleport* config; // 0x10
-		::MoleMole::TeleportToAvatar* __4__this; // 0x18
-		::MoleMole::EntityHandle entityHandle; // 0x20
+		::MoleMole::EntityHandle entityHandle; // 0x10
+		::MoleMole::TeleportToAvatar* __4__this; // 0x20
+		::MoleMole::ConfigAvatarDateTeleport* config; // 0x28
 		::Struct_2_FC595D1A561D8C6F posRot; // 0x30
 		::UnityEngine::Vector3 switchInPos; // 0x4C
 

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1979C990)
-#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1979EFA0)
+#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB09340)
+#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0BBF0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 37750;
+	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 39318;
 
 	class PhonemeShape : public ::miHoYoEmotion::Shape
 	{

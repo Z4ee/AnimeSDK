@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C37C240)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C37C280)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__ONDESTROYASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C37C290)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6BD1F0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BD230)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__ONDESTROYASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x1E6BD240)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncDestroyTrigger___c_TypeDefinitionIndex = 28659;
+	inline static constexpr unsigned int AsyncDestroyTrigger___c_TypeDefinitionIndex = 31315;
 
 	class AsyncDestroyTrigger___c : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::Triggers::AsyncDestroyTrigger___c** StaticGet___9()
-		{
-			return (::Cysharp::Threading::Tasks::Triggers::AsyncDestroyTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(AsyncDestroyTrigger___c_TypeDefinitionIndex)->GetStaticField(0x21D70);
-		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncDestroyTrigger___c_TypeDefinitionIndex)->GetStaticField(0x21D78);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncDestroyTrigger___c_TypeDefinitionIndex)->GetStaticField(0x25B00);
+		}
+		static ::Cysharp::Threading::Tasks::Triggers::AsyncDestroyTrigger___c** StaticGet___9()
+		{
+			return (::Cysharp::Threading::Tasks::Triggers::AsyncDestroyTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(AsyncDestroyTrigger___c_TypeDefinitionIndex)->GetStaticField(0x25B08);
 		}
 
 		static ::System::Void _cctor()

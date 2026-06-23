@@ -9,13 +9,13 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x1A0AEC20)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0AFC40)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AFBB0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x1C4FACD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4FBCE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4FBC50)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1234;
+	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1233;
 
 	class ValueFixup : public ::System::Object
 	{
@@ -24,10 +24,10 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0xD60);
 		}
-		::System::Object* header; // 0x10
+		::Il2CppArray<::System::Int32>* indexMap; // 0x10
 		::System::String* memberName; // 0x18
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x20
-		::Il2CppArray<::System::Int32>* indexMap; // 0x28
+		::System::Object* header; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x28
 		::System::Array* arrayObj; // 0x30
 		::System::Object* memberObject; // 0x38
 		::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum; // 0x40

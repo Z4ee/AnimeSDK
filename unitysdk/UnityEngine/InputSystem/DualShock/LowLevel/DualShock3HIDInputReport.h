@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualShock3HIDInputReport__padding3_e__FixedBuffer.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK3HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x9492A0)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK3HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x9EB710)
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShock3HIDInputReport_TypeDefinitionIndex = 29179;
+	inline static constexpr unsigned int DualShock3HIDInputReport_TypeDefinitionIndex = 31835;
 
 	struct alignas(2) DualShock3HIDInputReport
 	{

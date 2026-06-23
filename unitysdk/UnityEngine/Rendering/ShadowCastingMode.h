@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowCastingMode_TypeDefinitionIndex = 6164;
+	inline static constexpr unsigned int ShadowCastingMode_TypeDefinitionIndex = 6175;
 
 	enum class ShadowCastingMode : ::System::Int32
 	{

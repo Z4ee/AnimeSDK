@@ -4,7 +4,7 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int NoOptions_TypeDefinitionIndex = 25468;
+	inline static constexpr unsigned int NoOptions_TypeDefinitionIndex = 27959;
 
 	struct alignas(1) NoOptions
 	{

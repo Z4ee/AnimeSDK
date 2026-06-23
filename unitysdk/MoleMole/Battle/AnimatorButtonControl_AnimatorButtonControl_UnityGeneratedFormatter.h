@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159BCCE0)
-#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159BCCF0)
-#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159BCED0)
-#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159BD070)
-#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159BD030)
+#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x126E37D0)
+#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x126E37E0)
+#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x126E39C0)
+#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x126E3B60)
+#define MOLEMOLE_BATTLE_ANIMATORBUTTONCONTROL_ANIMATORBUTTONCONTROL_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x126E3B20)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex = 69534;
+	inline static constexpr unsigned int AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex = 55181;
 
 	class AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::AnimatorButtonControl*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49100);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4C8F0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49108);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::AnimatorParamControl*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorButtonControl_AnimatorButtonControl_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x4C8F8);
 		}
 
 		::System::Void _ctor()

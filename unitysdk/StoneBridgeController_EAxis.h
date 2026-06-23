@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int StoneBridgeController_EAxis_TypeDefinitionIndex = 47685;
+inline static constexpr unsigned int StoneBridgeController_EAxis_TypeDefinitionIndex = 75559;
 
 enum class StoneBridgeController_EAxis : ::System::Int32
 {

@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_GEOMETRY_CONVEXHULL2D_POINTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x9C7180)
-#define FOUNDATION_GEOMETRY_CONVEXHULL2D_POINTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define FOUNDATION_GEOMETRY_CONVEXHULL2D_POINTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xA6ED60)
+#define FOUNDATION_GEOMETRY_CONVEXHULL2D_POINTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int ConvexHull2D_PointComparer_TypeDefinitionIndex = 8963;
+	inline static constexpr unsigned int ConvexHull2D_PointComparer_TypeDefinitionIndex = 8587;
 
 	struct alignas(4) ConvexHull2D_PointComparer
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLoggerSwitcher_MyLoggerSwitcherItem_TypeDefinitionIndex = 7819;
+	inline static constexpr unsigned int MyLoggerSwitcher_MyLoggerSwitcherItem_TypeDefinitionIndex = 8243;
 
 	struct alignas(8) MyLoggerSwitcher_MyLoggerSwitcherItem
 	{

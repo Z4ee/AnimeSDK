@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataRowAction_TypeDefinitionIndex = 36976;
+	inline static constexpr unsigned int DataRowAction_TypeDefinitionIndex = 38593;
 
 	enum class DataRowAction : ::System::Int32
 	{

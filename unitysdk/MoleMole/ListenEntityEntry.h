@@ -6,19 +6,19 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_LISTENENTITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16B92FC0)
-#define MOLEMOLE_LISTENENTITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16B93140)
-#define MOLEMOLE_LISTENENTITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16B931D0)
+#define MOLEMOLE_LISTENENTITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17E844E0)
+#define MOLEMOLE_LISTENENTITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17E84660)
+#define MOLEMOLE_LISTENENTITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17E846F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ListenEntityEntry_TypeDefinitionIndex = 80129;
+	inline static constexpr unsigned int ListenEntityEntry_TypeDefinitionIndex = 81018;
 
 	class ListenEntityEntry : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::System::String* TargetKey; // 0x60
+		::System::String* TargetKey; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
 
 		::System::Void _ctor()
 		{

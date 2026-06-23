@@ -7,7 +7,7 @@ namespace FlowCanvas::Nodes { template <typename T1, typename T2, typename T3> c
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractorNode_3___c__DisplayClass3_0_TypeDefinitionIndex = 26470;
+	inline static constexpr unsigned int ExtractorNode_3___c__DisplayClass3_0_TypeDefinitionIndex = 30747;
 
 	template <typename TInstance, typename T1, typename T2>
 	class ExtractorNode_3___c__DisplayClass3_0 : public ::System::Object

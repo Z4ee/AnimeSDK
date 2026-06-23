@@ -5,17 +5,17 @@
 class Class_1_469466241042B140;
 namespace MoleMole::MiniGame { class MiniGameWorldBase; }
 
-#define MOLEMOLE_MINIGAME_UIGAMELOGICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F979F0)
+#define MOLEMOLE_MINIGAME_UIGAMELOGICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1418A8C0)
 
 namespace MoleMole::MiniGame
 {
-	inline static constexpr unsigned int UIGameLogicPageContext_TypeDefinitionIndex = 79741;
+	inline static constexpr unsigned int UIGameLogicPageContext_TypeDefinitionIndex = 55066;
 
 	class UIGameLogicPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::MiniGame::MiniGameWorldBase* miniGameWorld; // 0x28
-		::Class_1_469466241042B140* gameLogic; // 0x30
+		::Class_1_469466241042B140* gameLogic; // 0x28
+		::MoleMole::MiniGame::MiniGameWorldBase* miniGameWorld; // 0x30
 
 		::System::Void _ctor()
 		{

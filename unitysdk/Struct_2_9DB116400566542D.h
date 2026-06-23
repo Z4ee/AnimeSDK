@@ -8,10 +8,10 @@ class ZzzUiCurveGraphic_CurveSegment;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class RectTransform; }
 
-#define STRUCT_2_9DB116400566542D_METHOD_2_9975E5A98C0865D1_OFFSET UNITYSDK_OFFSET(0x7D8BD0)
-#define STRUCT_2_9DB116400566542D__CTOR_OFFSET UNITYSDK_OFFSET(0x7D8BC0)
+#define STRUCT_2_9DB116400566542D_METHOD_2_9975E5A98C0865D1_OFFSET UNITYSDK_OFFSET(0x812BC0)
+#define STRUCT_2_9DB116400566542D__CTOR_OFFSET UNITYSDK_OFFSET(0x812BB0)
 
-inline static constexpr unsigned int Struct_2_9DB116400566542D_TypeDefinitionIndex = 50335;
+inline static constexpr unsigned int Struct_2_9DB116400566542D_TypeDefinitionIndex = 78754;
 
 struct alignas(8) Struct_2_9DB116400566542D
 {

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_A3F38457E644339A_TypeDefinitionIndex = 79809;
+inline static constexpr unsigned int Enum_3_A3F38457E644339A_TypeDefinitionIndex = 54001;
 
 enum class Enum_3_A3F38457E644339A : ::System::Int32
 {
-	LittleBoss = 5,
-	DailyChallenge = 1,
-	RallyQuest = 2,
-	Boss = 6,
 	All = 0,
-	DoubleElite = 4,
-	Invalid = 10,
+	Boss = 6,
+	RallyQuest = 2,
 	LevelZero = 3,
+	DoubleElite = 4,
+	DailyChallenge = 1,
+	LittleBoss = 5,
+	Invalid = 10,
 };

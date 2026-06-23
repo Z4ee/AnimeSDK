@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define DIGITALOPUS_MB_CORE_ATLASPADDING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9BF9B0)
-#define DIGITALOPUS_MB_CORE_ATLASPADDING__CTOR_OFFSET UNITYSDK_OFFSET(0x3FC4C0)
+#define DIGITALOPUS_MB_CORE_ATLASPADDING__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA61910)
+#define DIGITALOPUS_MB_CORE_ATLASPADDING__CTOR_OFFSET UNITYSDK_OFFSET(0x427490)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int AtlasPadding_TypeDefinitionIndex = 85099;
+	inline static constexpr unsigned int AtlasPadding_TypeDefinitionIndex = 90673;
 
 	struct alignas(4) AtlasPadding
 	{

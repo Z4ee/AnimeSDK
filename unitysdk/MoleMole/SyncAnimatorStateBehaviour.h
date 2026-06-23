@@ -8,19 +8,19 @@
 namespace MoleMole { class SyncAnimatorStateBehaviourTarget; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GET_SYNCTOANIMATORS_OFFSET UNITYSDK_OFFSET(0x123700A0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_09920515A731BB72_OFFSET UNITYSDK_OFFSET(0x12370AA0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_1_OFFSET UNITYSDK_OFFSET(0x12370CF0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_OFFSET UNITYSDK_OFFSET(0x12370CE0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET UNITYSDK_OFFSET(0x12370A00)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET UNITYSDK_OFFSET(0x12370420)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x12370220)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x12370670)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12370C80)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GET_SYNCTOANIMATORS_OFFSET UNITYSDK_OFFSET(0x13F25FD0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_09920515A731BB72_OFFSET UNITYSDK_OFFSET(0x13F269D0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_1_OFFSET UNITYSDK_OFFSET(0x13F26C20)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_OFFSET UNITYSDK_OFFSET(0x13F26C10)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET UNITYSDK_OFFSET(0x13F26930)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET UNITYSDK_OFFSET(0x13F26350)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13F26150)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13F265A0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x13F26BB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SyncAnimatorStateBehaviour_TypeDefinitionIndex = 43366;
+	inline static constexpr unsigned int SyncAnimatorStateBehaviour_TypeDefinitionIndex = 69164;
 
 	class SyncAnimatorStateBehaviour : public ::Sirenix::OdinInspector::SerializedStateMachineBehaviour
 	{
@@ -49,9 +49,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_5_561276174346BF04(::System::Int32 a1, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*& a2)
+		::System::Void Method_5_F7B3836BB0EBCB17(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_2DB8CABC5F9281CC(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -59,14 +59,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_F7B3836BB0EBCB17(::UnityEngine::Animator* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_5_09920515A731BB72(::UnityEngine::Animator* a1, ::UnityEngine::Animator* a2, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::Animator*, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_09920515A731BB72_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean Method_5_561276174346BF04(::System::Int32 a1, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_5_2DB8CABC5F9281CC_1(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)

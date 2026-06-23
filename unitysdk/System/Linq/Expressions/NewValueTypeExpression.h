@@ -7,12 +7,12 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_NEWVALUETYPEEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BFECBD0)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWVALUETYPEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFECB50)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWVALUETYPEEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E30ABB0)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWVALUETYPEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E30AB30)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int NewValueTypeExpression_TypeDefinitionIndex = 4530;
+	inline static constexpr unsigned int NewValueTypeExpression_TypeDefinitionIndex = 4529;
 
 	class NewValueTypeExpression : public ::System::Linq::Expressions::NewExpression
 	{

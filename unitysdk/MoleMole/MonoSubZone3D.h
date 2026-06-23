@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1177D6F0)
-#define MOLEMOLE_MONOSUBZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1177D750)
+#define MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET UNITYSDK_OFFSET(0x173F7D40)
+#define MOLEMOLE_MONOSUBZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x173F7DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSubZone3D_TypeDefinitionIndex = 64614;
+	inline static constexpr unsigned int MonoSubZone3D_TypeDefinitionIndex = 75474;
 
 	class MonoSubZone3D : public ::UnityEngine::MonoBehaviour
 	{

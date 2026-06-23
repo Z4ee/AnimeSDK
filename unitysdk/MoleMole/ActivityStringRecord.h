@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ACTIVITYSTRINGRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x1397AAA0)
-#define MOLEMOLE_ACTIVITYSTRINGRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1397AAB0)
+#define MOLEMOLE_ACTIVITYSTRINGRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x162833F0)
+#define MOLEMOLE_ACTIVITYSTRINGRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x16283400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityStringRecord_TypeDefinitionIndex = 53873;
+	inline static constexpr unsigned int ActivityStringRecord_TypeDefinitionIndex = 39796;
 
 	class ActivityStringRecord : public ::MoleMole::ActivityBaseRecord
 	{

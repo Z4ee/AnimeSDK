@@ -5,7 +5,7 @@
 class MonoUITableScrollV2;
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int MonoUITableScrollV2___c__DisplayClass710_0_1_TypeDefinitionIndex = 54132;
+inline static constexpr unsigned int MonoUITableScrollV2___c__DisplayClass710_0_1_TypeDefinitionIndex = 69945;
 
 template <typename T>
 class MonoUITableScrollV2___c__DisplayClass710_0_1 : public ::System::Object

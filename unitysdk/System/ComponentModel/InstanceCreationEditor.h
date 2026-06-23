@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 
-#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B1E4C70)
-#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1E4CB0)
+#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1D5CC750)
+#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CC790)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int InstanceCreationEditor_TypeDefinitionIndex = 2917;
+	inline static constexpr unsigned int InstanceCreationEditor_TypeDefinitionIndex = 2916;
 
 	class InstanceCreationEditor : public ::System::Object
 	{

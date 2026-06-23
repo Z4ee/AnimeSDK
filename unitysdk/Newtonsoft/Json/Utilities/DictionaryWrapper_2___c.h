@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int DictionaryWrapper_2___c_TypeDefinitionIndex = 6920;
+	inline static constexpr unsigned int DictionaryWrapper_2___c_TypeDefinitionIndex = 7051;
 
 	template <typename TKey, typename TValue>
 	class DictionaryWrapper_2___c : public ::System::Object

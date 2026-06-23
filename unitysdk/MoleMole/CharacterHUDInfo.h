@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterHUDInfo_TypeDefinitionIndex = 71786;
+	inline static constexpr unsigned int CharacterHUDInfo_TypeDefinitionIndex = 61123;
 
 	struct alignas(4) CharacterHUDInfo
 	{

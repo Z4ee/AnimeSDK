@@ -10,26 +10,26 @@ namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_CA475E4A850C2837_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0x12ECF8E0)
-#define CLASS_2_CA475E4A850C2837_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x12ECFB30)
-#define CLASS_2_CA475E4A850C2837_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12ECFBE0)
-#define CLASS_2_CA475E4A850C2837__CTOR_OFFSET UNITYSDK_OFFSET(0x12ECFBD0)
+#define CLASS_2_CA475E4A850C2837_METHOD_2_78C5AA85812E15F5_OFFSET UNITYSDK_OFFSET(0xF5DFF20)
+#define CLASS_2_CA475E4A850C2837_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0xF5E0170)
+#define CLASS_2_CA475E4A850C2837_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF5E0220)
+#define CLASS_2_CA475E4A850C2837__CTOR_OFFSET UNITYSDK_OFFSET(0xF5E0210)
 
-inline static constexpr unsigned int Class_2_CA475E4A850C2837_TypeDefinitionIndex = 67534;
+inline static constexpr unsigned int Class_2_CA475E4A850C2837_TypeDefinitionIndex = 47193;
 
 class Class_2_CA475E4A850C2837 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x20
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x28
-	::MonoUITableScrollV2* Field_2_5; // 0x30
-	::Class_2_B4378B46E0020E85* Field_2_7; // 0x38
-	::Class_2_FDFE69FE7B72463B* Field_2_1; // 0x40
-	::Class_2_FDFE69FE7B72463B* Field_2_8; // 0x48
-	::Class_2_B4378B46E0020E85* Field_2_4; // 0x50
-	::UnityEngine::Transform* Field_2_0; // 0x58
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_2; // 0x18
+	::MonoUITableScrollV2* Field_2_5; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x28
+	::Class_2_FDFE69FE7B72463B* Field_2_8; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_6; // 0x38
+	::Class_2_B4378B46E0020E85* Field_2_7; // 0x40
+	::Class_2_FDFE69FE7B72463B* Field_2_1; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_9; // 0x50
+	::Class_2_B4378B46E0020E85* Field_2_4; // 0x58
+	::UnityEngine::Transform* Field_2_0; // 0x60
 
 	::System::Void _ctor()
 	{

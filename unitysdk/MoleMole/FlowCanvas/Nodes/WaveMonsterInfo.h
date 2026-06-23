@@ -6,13 +6,13 @@ namespace MoleMole::FlowCanvas::Nodes { class WaveMonsterInfoData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x154241D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x154242C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x154243A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x161EF550)
+#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x161EF640)
+#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x161EF720)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int WaveMonsterInfo_TypeDefinitionIndex = 68768;
+	inline static constexpr unsigned int WaveMonsterInfo_TypeDefinitionIndex = 72239;
 
 	class WaveMonsterInfo : public ::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<::MoleMole::FlowCanvas::Nodes::WaveMonsterInfoData*, ::System::String*>
 	{

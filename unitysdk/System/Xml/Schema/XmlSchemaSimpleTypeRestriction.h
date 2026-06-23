@@ -7,20 +7,20 @@ namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_CLONE_OFFSET UNITYSDK_OFFSET(0x1AE8E4B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1AE82950)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE82830)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_CLONE_OFFSET UNITYSDK_OFFSET(0x1D2D8270)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1D2CC700)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CC5E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleTypeRestriction_TypeDefinitionIndex = 2192;
+	inline static constexpr unsigned int XmlSchemaSimpleTypeRestriction_TypeDefinitionIndex = 2191;
 
 	class XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaObjectCollection* facets; // 0x50
-		::System::Xml::Schema::XmlSchemaSimpleType* baseType; // 0x58
-		::System::Xml::XmlQualifiedName* baseTypeName; // 0x60
+		::System::Xml::Schema::XmlSchemaSimpleType* baseType; // 0x50
+		::System::Xml::XmlQualifiedName* baseTypeName; // 0x58
+		::System::Xml::Schema::XmlSchemaObjectCollection* facets; // 0x60
 
 		::System::Void _ctor()
 		{

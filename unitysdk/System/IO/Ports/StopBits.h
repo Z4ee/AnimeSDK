@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int StopBits_TypeDefinitionIndex = 4165;
+	inline static constexpr unsigned int StopBits_TypeDefinitionIndex = 4164;
 
 	enum class StopBits : ::System::Int32
 	{

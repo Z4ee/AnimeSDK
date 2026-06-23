@@ -5,18 +5,18 @@
 namespace MoleMole { class UITowerDefenseTipsDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITOWERDEFENSETIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DDAC80)
-#define MOLEMOLE_UITOWERDEFENSETIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHENHANCE_B__0_OFFSET UNITYSDK_OFFSET(0x14DDAC90)
+#define MOLEMOLE_UITOWERDEFENSETIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157C59F0)
+#define MOLEMOLE_UITOWERDEFENSETIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHENHANCE_B__0_OFFSET UNITYSDK_OFFSET(0x157C5A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseTipsDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 74595;
+	inline static constexpr unsigned int UITowerDefenseTipsDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 44309;
 
 	class UITowerDefenseTipsDialogPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UITowerDefenseTipsDialogPopWindowController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UITowerDefenseTipsDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

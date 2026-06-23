@@ -7,7 +7,7 @@
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int DefaultRotationInputConfig_TypeDefinitionIndex = 36390;
+	inline static constexpr unsigned int DefaultRotationInputConfig_TypeDefinitionIndex = 37998;
 
 	struct alignas(8) DefaultRotationInputConfig
 	{

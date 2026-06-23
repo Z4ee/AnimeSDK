@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEXTURESSHEETDATA_GET_TEXTURECOUNT_OFFSET UNITYSDK_OFFSET(0x1606D3D0)
-#define MOLEMOLE_TEXTURESSHEETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1606D3F0)
+#define MOLEMOLE_TEXTURESSHEETDATA_GET_TEXTURECOUNT_OFFSET UNITYSDK_OFFSET(0x12BE1790)
+#define MOLEMOLE_TEXTURESSHEETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12BE17B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TexturesSheetData_TypeDefinitionIndex = 69966;
+	inline static constexpr unsigned int TexturesSheetData_TypeDefinitionIndex = 52659;
 
 	class TexturesSheetData : public ::MoleMole::TextureSheetData
 	{

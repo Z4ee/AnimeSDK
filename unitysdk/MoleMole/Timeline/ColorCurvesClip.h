@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class ColorCurvesBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_COLORCURVESCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x152AE870)
-#define MOLEMOLE_TIMELINE_COLORCURVESCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x152AE860)
-#define MOLEMOLE_TIMELINE_COLORCURVESCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x152AEA50)
+#define MOLEMOLE_TIMELINE_COLORCURVESCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1304E0A0)
+#define MOLEMOLE_TIMELINE_COLORCURVESCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1304E090)
+#define MOLEMOLE_TIMELINE_COLORCURVESCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1304E280)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorCurvesClip_TypeDefinitionIndex = 74384;
+	inline static constexpr unsigned int ColorCurvesClip_TypeDefinitionIndex = 78733;
 
 	class ColorCurvesClip : public ::UnityEngine::Playables::PlayableAsset
 	{

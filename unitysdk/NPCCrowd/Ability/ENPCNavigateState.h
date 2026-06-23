@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int ENPCNavigateState_TypeDefinitionIndex = 65874;
+	inline static constexpr unsigned int ENPCNavigateState_TypeDefinitionIndex = 75500;
 
 	enum class ENPCNavigateState : ::System::Int32
 	{

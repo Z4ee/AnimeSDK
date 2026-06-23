@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C_METHOD_1_43FCA439A5F82887_OFFSET UNITYSDK_OFFSET(0x13EC6130)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EC60E0)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC6120)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C_METHOD_1_43FCA439A5F82887_OFFSET UNITYSDK_OFFSET(0x12665190)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12665140)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12665180)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimeMaterialBehavior___c_TypeDefinitionIndex = 79225;
+	inline static constexpr unsigned int RuntimeMaterialBehavior___c_TypeDefinitionIndex = 42177;
 
 	class RuntimeMaterialBehavior___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Timeline::RuntimeMaterialBehavior___c** StaticGet___9()
 		{
-			return (::MoleMole::Timeline::RuntimeMaterialBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(RuntimeMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x2E940);
+			return (::MoleMole::Timeline::RuntimeMaterialBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(RuntimeMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x308D0);
 		}
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__20_0()
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x2E948);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x308D8);
 		}
 
 		static ::System::Void _cctor()

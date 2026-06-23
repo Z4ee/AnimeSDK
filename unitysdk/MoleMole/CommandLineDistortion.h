@@ -5,13 +5,13 @@
 
 namespace MoleMole { class DistortionProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEDISTORTION_METHOD_2_09FE7D376E130FB9_OFFSET UNITYSDK_OFFSET(0x17520650)
-#define MOLEMOLE_COMMANDLINEDISTORTION_METHOD_2_EF9831ED1EBB9277_OFFSET UNITYSDK_OFFSET(0x17520760)
-#define MOLEMOLE_COMMANDLINEDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17520720)
+#define MOLEMOLE_COMMANDLINEDISTORTION_METHOD_2_09FE7D376E130FB9_OFFSET UNITYSDK_OFFSET(0x144CA060)
+#define MOLEMOLE_COMMANDLINEDISTORTION_METHOD_2_EF9831ED1EBB9277_OFFSET UNITYSDK_OFFSET(0x144CA170)
+#define MOLEMOLE_COMMANDLINEDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x144CA130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDistortion_TypeDefinitionIndex = 56889;
+	inline static constexpr unsigned int CommandLineDistortion_TypeDefinitionIndex = 84058;
 
 	class CommandLineDistortion : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::DistortionProfileContext*, ::MoleMole::CommandLineDistortion*>
 	{

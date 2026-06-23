@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int hostent_TypeDefinitionIndex = 3327;
+	inline static constexpr unsigned int hostent_TypeDefinitionIndex = 3326;
 
 	struct alignas(8) hostent
 	{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ITermDataProvider_TypeDefinitionIndex = 43569;
+	inline static constexpr unsigned int ITermDataProvider_TypeDefinitionIndex = 69552;
 
 	class ITermDataProvider
 	{

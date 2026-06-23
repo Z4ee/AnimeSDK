@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1AF358C0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1AF35F20)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AF35B80)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AF35990)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONINIT_OFFSET UNITYSDK_OFFSET(0x1AF358E0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONSIGNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF35CA0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF35F30)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D35BC90)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D35C2F0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D35BF50)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D35BD60)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONINIT_OFFSET UNITYSDK_OFFSET(0x1D35BCB0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL_ONSIGNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1D35C070)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKSIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35C300)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckSignal_TypeDefinitionIndex = 26865;
+	inline static constexpr unsigned int CheckSignal_TypeDefinitionIndex = 29231;
 
 	class CheckSignal : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::NodeCanvas::Framework::Internal::BBObjectParameter*>* argumentsMap; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* signalDefinition; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* signalDefinition; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::NodeCanvas::Framework::Internal::BBObjectParameter*>* argumentsMap; // 0x68
 
 		::System::Void _ctor()
 		{

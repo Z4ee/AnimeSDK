@@ -5,12 +5,12 @@
 namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering_item_s; }
 namespace DigitalOpus::MB::Core { class MB3_MeshBakerGrouperCluster___c__DisplayClass1_0; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__BUILDCLUSTERS_B__0_OFFSET UNITYSDK_OFFSET(0x1C120440)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C120430)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__BUILDCLUSTERS_B__0_OFFSET UNITYSDK_OFFSET(0x1E457700)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4576F0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshBakerGrouperCluster___c__DisplayClass1_1_TypeDefinitionIndex = 85000;
+	inline static constexpr unsigned int MB3_MeshBakerGrouperCluster___c__DisplayClass1_1_TypeDefinitionIndex = 90574;
 
 	class MB3_MeshBakerGrouperCluster___c__DisplayClass1_1 : public ::System::Object
 	{

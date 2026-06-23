@@ -3,13 +3,13 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyControlPointEventArgs_ModeEnum_TypeDefinitionIndex = 37212;
+	inline static constexpr unsigned int CurvyControlPointEventArgs_ModeEnum_TypeDefinitionIndex = 38872;
 
 	enum class CurvyControlPointEventArgs_ModeEnum : ::System::Int32
 	{
 		None = 0,
-		AddBefore = 1,
 		AddAfter = 2,
 		Delete = 3,
+		AddBefore = 1,
 	};
 }

@@ -8,20 +8,20 @@ namespace System { class Type; }
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B9916A0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONERROR_OFFSET UNITYSDK_OFFSET(0x1B9916B0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONNEXT_OFFSET UNITYSDK_OFFSET(0x1B991710)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B991690)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1DD08370)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONERROR_OFFSET UNITYSDK_OFFSET(0x1DD08380)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE_ONNEXT_OFFSET UNITYSDK_OFFSET(0x1DD083E0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_FORDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08360)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ForDeviceEventObservable_ForDevice_TypeDefinitionIndex = 29409;
+	inline static constexpr unsigned int ForDeviceEventObservable_ForDevice_TypeDefinitionIndex = 32065;
 
 	class ForDeviceEventObservable_ForDevice : public ::System::Object
 	{
 	public:
-		::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer; // 0x10
-		::System::Type* m_DeviceType; // 0x18
+		::System::Type* m_DeviceType; // 0x10
+		::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer; // 0x18
 		::UnityEngine::InputSystem::InputDevice* m_Device; // 0x20
 
 		::System::Void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer)

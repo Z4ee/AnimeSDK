@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MDB_StateType_TypeDefinitionIndex = 37660;
+	inline static constexpr unsigned int MDB_StateType_TypeDefinitionIndex = 39286;
 
 	enum class MDB_StateType : ::System::Int32
 	{

@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4FC9D0)
-#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF4FCA10)
-#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__ONNODEACTIVEWITHSTATE_B__8_0_OFFSET UNITYSDK_OFFSET(0xF4FCA20)
-#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__ONNODEACTIVEWITHSTATE_B__8_1_OFFSET UNITYSDK_OFFSET(0xF4FCC90)
+#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A12050)
+#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10A12090)
+#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__ONNODEACTIVEWITHSTATE_B__8_0_OFFSET UNITYSDK_OFFSET(0x10A120A0)
+#define NODEGRAPH_MAINCITY_ADDPHOTOQUEST___C__ONNODEACTIVEWITHSTATE_B__8_1_OFFSET UNITYSDK_OFFSET(0x10A12310)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int AddPhotoQuest___c_TypeDefinitionIndex = 53651;
+	inline static constexpr unsigned int AddPhotoQuest___c_TypeDefinitionIndex = 63702;
 
 	class AddPhotoQuest___c : public ::System::Object
 	{
 	public:
-		static ::NodeGraph::MainCity::AddPhotoQuest___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__8_1()
 		{
-			return (::NodeGraph::MainCity::AddPhotoQuest___c**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x35AA0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x38520);
 		}
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x35AA8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x38528);
 		}
-		static ::System::Action** StaticGet___9__8_1()
+		static ::NodeGraph::MainCity::AddPhotoQuest___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x35AB0);
+			return (::NodeGraph::MainCity::AddPhotoQuest___c**)Il2CppClass::FromTypeDefinitionIndex(AddPhotoQuest___c_TypeDefinitionIndex)->GetStaticField(0x38530);
 		}
 
 		static ::System::Void _cctor()

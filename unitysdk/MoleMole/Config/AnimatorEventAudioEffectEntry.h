@@ -6,22 +6,22 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xECFB6B0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_GET_MUTEFORCETRIGGER_OFFSET UNITYSDK_OFFSET(0xECFB650)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_SET_MUTEFORCETRIGGER_OFFSET UNITYSDK_OFFSET(0xECFB660)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xECFB730)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x10CE6680)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_GET_MUTEFORCETRIGGER_OFFSET UNITYSDK_OFFSET(0x10CE6620)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY_SET_MUTEFORCETRIGGER_OFFSET UNITYSDK_OFFSET(0x10CE6630)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTAUDIOEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE6700)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventAudioEffectEntry_TypeDefinitionIndex = 48779;
+	inline static constexpr unsigned int AnimatorEventAudioEffectEntry_TypeDefinitionIndex = 73126;
 
 	class AnimatorEventAudioEffectEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::MoleMole::Config::ConfigSoundActionGeneral* actionMp; // 0x58
-		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x60
-		::System::String* audioEventName; // 0x68
-		::System::String* audioEventNameMp; // 0x70
+		::System::String* audioEventName; // 0x58
+		::MoleMole::Config::ConfigSoundActionGeneral* actionMp; // 0x60
+		::System::String* audioEventNameMp; // 0x68
+		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x70
 
 		::System::Void _ctor()
 		{

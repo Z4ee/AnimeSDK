@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x1B8E68F0)
-#define SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8E6B50)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x1DC3ED80)
+#define SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC3EFE0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1680;
+	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1679;
 
 	class BinaryCompatibility : public ::System::Object
 	{

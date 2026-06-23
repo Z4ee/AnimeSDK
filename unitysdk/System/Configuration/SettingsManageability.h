@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsManageability_TypeDefinitionIndex = 4224;
+	inline static constexpr unsigned int SettingsManageability_TypeDefinitionIndex = 4223;
 
 	enum class SettingsManageability : ::System::Int32
 	{

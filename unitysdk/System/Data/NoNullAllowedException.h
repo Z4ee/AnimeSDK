@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE4BCF0)
-#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BE4BDB0)
-#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4BCA0)
+#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E182E20)
+#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E182EE0)
+#define SYSTEM_DATA_NONULLALLOWEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E182DD0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int NoNullAllowedException_TypeDefinitionIndex = 36963;
+	inline static constexpr unsigned int NoNullAllowedException_TypeDefinitionIndex = 38580;
 
 	class NoNullAllowedException : public ::System::Data::DataException
 	{

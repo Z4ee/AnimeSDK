@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYSHAPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B726950)
+#define FLUFFYUNDERWARE_CURVY_CURVYSHAPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB085C0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyShapeInfo_TypeDefinitionIndex = 37200;
+	inline static constexpr unsigned int CurvyShapeInfo_TypeDefinitionIndex = 38891;
 
 	class CurvyShapeInfo : public ::System::Attribute
 	{

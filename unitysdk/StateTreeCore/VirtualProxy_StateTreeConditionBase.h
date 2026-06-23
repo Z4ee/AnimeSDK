@@ -4,12 +4,12 @@
 #include "unitysdk/StateTreeCore/VirtualProxy_StateTreeNodeBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 
-#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1C539990)
-#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5399F0)
+#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1E8627D0)
+#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E862830)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualProxy_StateTreeConditionBase_TypeDefinitionIndex = 28269;
+	inline static constexpr unsigned int VirtualProxy_StateTreeConditionBase_TypeDefinitionIndex = 30919;
 
 	class VirtualProxy_StateTreeConditionBase : public ::StateTreeCore::VirtualProxy_StateTreeNodeBase
 	{

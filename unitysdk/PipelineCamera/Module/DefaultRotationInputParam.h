@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_MODULE_DEFAULTROTATIONINPUTPARAM_GET_ROTATIONINPUT_OFFSET UNITYSDK_OFFSET(0x9514C0)
+#define PIPELINECAMERA_MODULE_DEFAULTROTATIONINPUTPARAM_GET_ROTATIONINPUT_OFFSET UNITYSDK_OFFSET(0x9F42A0)
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int DefaultRotationInputParam_TypeDefinitionIndex = 36389;
+	inline static constexpr unsigned int DefaultRotationInputParam_TypeDefinitionIndex = 37997;
 
 	struct alignas(8) DefaultRotationInputParam
 	{

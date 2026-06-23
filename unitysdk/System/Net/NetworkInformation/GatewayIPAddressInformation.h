@@ -4,11 +4,11 @@
 
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_GATEWAYIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257200)
+#define SYSTEM_NET_NETWORKINFORMATION_GATEWAYIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C664F00)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int GatewayIPAddressInformation_TypeDefinitionIndex = 3705;
+	inline static constexpr unsigned int GatewayIPAddressInformation_TypeDefinitionIndex = 3704;
 
 	class GatewayIPAddressInformation : public ::System::Object
 	{

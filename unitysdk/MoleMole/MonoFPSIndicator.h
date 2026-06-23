@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x10E2F640)
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET UNITYSDK_OFFSET(0x10E2F5C0)
-#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x10E2D670)
-#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x10E2E5E0)
-#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E2F5B0)
-#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2F520)
+#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x19155320)
+#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET UNITYSDK_OFFSET(0x191552A0)
+#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x19153340)
+#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x191542B0)
+#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19155290)
+#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19155200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 73206;
+	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 60219;
 
 	class MonoFPSIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_dumpAssetMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xDE00);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE420);
 		}
 		static ::System::Boolean* StaticGet_CollectAndroidPssMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xDE01);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE421);
 		}
 		::System::Single updateInterval; // 0x18
 		::System::Single fps; // 0x1C

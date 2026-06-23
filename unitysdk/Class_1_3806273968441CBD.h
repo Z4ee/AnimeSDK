@@ -4,10 +4,10 @@
 
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
 
-#define CLASS_1_3806273968441CBD_COLLECT_OFFSET UNITYSDK_OFFSET(0x14D076A0)
-#define CLASS_1_3806273968441CBD__CTOR_OFFSET UNITYSDK_OFFSET(0x14D07730)
+#define CLASS_1_3806273968441CBD_COLLECT_OFFSET UNITYSDK_OFFSET(0x13BC9770)
+#define CLASS_1_3806273968441CBD__CTOR_OFFSET UNITYSDK_OFFSET(0x13BC9800)
 
-inline static constexpr unsigned int Class_1_3806273968441CBD_TypeDefinitionIndex = 74378;
+inline static constexpr unsigned int Class_1_3806273968441CBD_TypeDefinitionIndex = 79811;
 
 class Class_1_3806273968441CBD : public ::System::Object
 {

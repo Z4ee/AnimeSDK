@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_029BEC9C30EBC3F1_TypeDefinitionIndex = 54505;
+inline static constexpr unsigned int Struct_2_029BEC9C30EBC3F1_TypeDefinitionIndex = 49461;
 
 struct alignas(8) Struct_2_029BEC9C30EBC3F1
 {

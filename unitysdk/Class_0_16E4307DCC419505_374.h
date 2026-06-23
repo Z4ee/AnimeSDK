@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_C083CD90F49A30D6.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_263;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_374_TypeDefinitionIndex = 46875;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_374_TypeDefinitionIndex = 81481;
 
 class Class_0_16E4307DCC419505_374
 {

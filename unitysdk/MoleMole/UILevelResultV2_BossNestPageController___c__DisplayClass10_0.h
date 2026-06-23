@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UILEVELRESULTV2_BOSSNESTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B87420)
-#define MOLEMOLE_UILEVELRESULTV2_BOSSNESTPAGECONTROLLER___C__DISPLAYCLASS10_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x14B87430)
+#define MOLEMOLE_UILEVELRESULTV2_BOSSNESTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C31B60)
+#define MOLEMOLE_UILEVELRESULTV2_BOSSNESTPAGECONTROLLER___C__DISPLAYCLASS10_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x14C31B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_BossNestPageController___c__DisplayClass10_0_TypeDefinitionIndex = 45872;
+	inline static constexpr unsigned int UILevelResultV2_BossNestPageController___c__DisplayClass10_0_TypeDefinitionIndex = 84690;
 
 	class UILevelResultV2_BossNestPageController___c__DisplayClass10_0 : public ::System::Object
 	{

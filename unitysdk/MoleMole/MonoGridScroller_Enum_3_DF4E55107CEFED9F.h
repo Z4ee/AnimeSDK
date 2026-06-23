@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGridScroller_Enum_3_DF4E55107CEFED9F_TypeDefinitionIndex = 52213;
+	inline static constexpr unsigned int MonoGridScroller_Enum_3_DF4E55107CEFED9F_TypeDefinitionIndex = 40037;
 
 	enum class MonoGridScroller_Enum_3_DF4E55107CEFED9F : ::System::Int32
 	{
-		Horizontal = 0,
 		Vertical = 1,
+		Horizontal = 0,
 	};
 }

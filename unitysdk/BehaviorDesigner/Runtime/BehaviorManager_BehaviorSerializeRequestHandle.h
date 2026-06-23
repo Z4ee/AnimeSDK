@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x9B3EC0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B3F10)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDB8C80)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x9B3E50)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B3F20)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0xA55120)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA55170)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E100C40)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA550B0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSERIALIZEREQUESTHANDLE___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA55180)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex = 31669;
+	inline static constexpr unsigned int BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex = 33220;
 
 	struct alignas(4) BehaviorManager_BehaviorSerializeRequestHandle
 	{
 		static ::System::UInt32* StaticGet_IDG()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex)->GetStaticField(0x7CF0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex)->GetStaticField(0x81A0);
 		}
 		static ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSerializeRequestHandle* StaticGet_EmptyHandle()
 		{
-			return (::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSerializeRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex)->GetStaticField(0x7CF4);
+			return (::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSerializeRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorSerializeRequestHandle_TypeDefinitionIndex)->GetStaticField(0x81A4);
 		}
 		::System::UInt32 HandleID; // 0x10
 		::System::UInt32 EntityID; // 0x14

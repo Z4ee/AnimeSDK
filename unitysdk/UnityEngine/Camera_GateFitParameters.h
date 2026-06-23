@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Camera_GateFitMode.h"
 
-#define UNITYENGINE_CAMERA_GATEFITPARAMETERS_GET_ASPECT_OFFSET UNITYSDK_OFFSET(0x3AA590)
-#define UNITYENGINE_CAMERA_GATEFITPARAMETERS_GET_MODE_OFFSET UNITYSDK_OFFSET(0x2E87C0)
+#define UNITYENGINE_CAMERA_GATEFITPARAMETERS_GET_ASPECT_OFFSET UNITYSDK_OFFSET(0x40C5C0)
+#define UNITYENGINE_CAMERA_GATEFITPARAMETERS_GET_MODE_OFFSET UNITYSDK_OFFSET(0x2B68B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Camera_GateFitParameters_TypeDefinitionIndex = 5139;
+	inline static constexpr unsigned int Camera_GateFitParameters_TypeDefinitionIndex = 5138;
 
 	struct alignas(4) Camera_GateFitParameters
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIABInLevelBangbooInfoWidgetController; }
 namespace MoleMole { class UIBangBooAutoBattleInLevelPageController; }
 
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS99_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167758A0)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS99_0__OPENBANGBOOINFOFAKE_B__0_OFFSET UNITYSDK_OFFSET(0x167758B0)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS99_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A200AF0)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS99_0__OPENBANGBOOINFOFAKE_B__0_OFFSET UNITYSDK_OFFSET(0x1A200B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass99_0_TypeDefinitionIndex = 60387;
+	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass99_0_TypeDefinitionIndex = 69015;
 
 	class UIBangBooAutoBattleInLevelPageController___c__DisplayClass99_0 : public ::System::Object
 	{

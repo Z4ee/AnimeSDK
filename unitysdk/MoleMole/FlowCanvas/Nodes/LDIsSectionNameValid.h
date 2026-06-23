@@ -5,12 +5,12 @@
 namespace MoleMole { class LevelSectionGroupData; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISSECTIONNAMEVALID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1427C720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISSECTIONNAMEVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x1427C7F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISSECTIONNAMEVALID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160C9B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISSECTIONNAMEVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x1160CA80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDIsSectionNameValid_TypeDefinitionIndex = 64854;
+	inline static constexpr unsigned int LDIsSectionNameValid_TypeDefinitionIndex = 71639;
 
 	class LDIsSectionNameValid : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::LevelSectionGroupData*, ::System::String*>
 	{

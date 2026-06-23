@@ -4,11 +4,11 @@
 
 class Class_1_BE6BF7909AD9D940;
 
-#define MOLEMOLE_UIAUTOBATTLEPVPFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC9CB0)
+#define MOLEMOLE_UIAUTOBATTLEPVPFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A411B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePVPFriendCardRowWidgetController_Context_TypeDefinitionIndex = 39059;
+	inline static constexpr unsigned int UIAutoBattlePVPFriendCardRowWidgetController_Context_TypeDefinitionIndex = 86987;
 
 	class UIAutoBattlePVPFriendCardRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

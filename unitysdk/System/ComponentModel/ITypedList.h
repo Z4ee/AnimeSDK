@@ -7,7 +7,7 @@ namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ITypedList_TypeDefinitionIndex = 2913;
+	inline static constexpr unsigned int ITypedList_TypeDefinitionIndex = 2912;
 
 	class ITypedList
 	{

@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x149E3D50)
-#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x149E3D90)
-#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__ONUIINIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x149E3DA0)
+#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9EE10)
+#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9EE50)
+#define MOLEMOLE_UIGENERALSTAMINASHOWWIDGETCONTROLLER___C__ONUIINIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x16A9EE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex = 73176;
+	inline static constexpr unsigned int UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex = 72847;
 
 	class UIGeneralStaminaShowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__1_2()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35060);
-		}
 		static ::MoleMole::UIGeneralStaminaShowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralStaminaShowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35068);
+			return (::MoleMole::UIGeneralStaminaShowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37A40);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__1_2()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralStaminaShowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37A48);
 		}
 
 		static ::System::Void _cctor()

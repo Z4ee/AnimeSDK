@@ -14,52 +14,52 @@ namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x149A0A00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x149A0A70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x149A0C20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x149A0CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x149A0BD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x149A0CB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_ISLOOP_OFFSET UNITYSDK_OFFSET(0x149A0C70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_071154AF842F9F01_OFFSET UNITYSDK_OFFSET(0x149A1040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_2C57E01B5F9E414E_OFFSET UNITYSDK_OFFSET(0x149A23C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_67A0C6C4B5A4811F_OFFSET UNITYSDK_OFFSET(0x149A2310)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_69CE33EBF0B64D09_OFFSET UNITYSDK_OFFSET(0x149A1520)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_834919B5E4C42716_OFFSET UNITYSDK_OFFSET(0x149A1470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_BB75FB1EF4C67D87_OFFSET UNITYSDK_OFFSET(0x149A2470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x149A0F00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x149A0E40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x171159B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x17115A20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x17115BD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x17115C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x17115B80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x17115C60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_ISLOOP_OFFSET UNITYSDK_OFFSET(0x17115C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_071154AF842F9F01_OFFSET UNITYSDK_OFFSET(0x17116FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_2C57E01B5F9E414E_OFFSET UNITYSDK_OFFSET(0x17117420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_67A0C6C4B5A4811F_OFFSET UNITYSDK_OFFSET(0x171160A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_69CE33EBF0B64D09_OFFSET UNITYSDK_OFFSET(0x17116200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_834919B5E4C42716_OFFSET UNITYSDK_OFFSET(0x17115FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_BB75FB1EF4C67D87_OFFSET UNITYSDK_OFFSET(0x17116150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x17115EB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17115DF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex = 71413;
+	inline static constexpr unsigned int LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex = 82992;
 
 	class LastPhaseFallbackInLevelSettlement : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
 		static ::System::Func_5<::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>** StaticGet_GetDataDelegate()
 		{
-			return (::System::Func_5<::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>**)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x468F0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet_CachedId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11000);
+			return (::System::Func_5<::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>**)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x484E0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11008);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11470);
+		}
+		static ::Foundation::Unreal::FName* StaticGet_CachedId()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11478);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_screenOffset()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11010);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11018);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11480);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_OpenDirection()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11020);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11488);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(LastPhaseFallbackInLevelSettlement_TypeDefinitionIndex)->GetStaticField(0x11490);
 		}
 		::System::Single playLength; // 0x18
 		::System::UInt32 EntityId; // 0x1C
@@ -116,19 +116,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single, ::PipelineCamera::WorldBasicCameraData&, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_GETSEQUENCEDATAINTERNAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Boolean Method_5_071154AF842F9F01(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single& a3)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_071154AF842F9F01_OFFSET))(a1, a2, a3);
-		}
-
 		::UnityEngine::Vector2 Method_5_834919B5E4C42716(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_834919B5E4C42716_OFFSET))(this, a1);
-		}
-
-		static ::PipelineCamera::WorldBasicCameraData Method_5_69CE33EBF0B64D09(::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement* a1, ::System::Single a2, ::PipelineCamera::WorldBasicCameraData a3, ::PipelineCamera::CameraSequence::CameraSequenceContext* a4)
-		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_69CE33EBF0B64D09_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::UInt32 Method_5_67A0C6C4B5A4811F(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
@@ -136,14 +126,24 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::UInt32(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_67A0C6C4B5A4811F_OFFSET))(this, a1);
 		}
 
-		::Nap::NapECS::EcsWorld* Method_5_2C57E01B5F9E414E(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
-		{
-			return ((::Nap::NapECS::EcsWorld*(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_2C57E01B5F9E414E_OFFSET))(this, a1);
-		}
-
 		::Foundation::ReferenceValue_1<::UnityEngine::Vector3>* Method_5_BB75FB1EF4C67D87(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
 			return ((::Foundation::ReferenceValue_1<::UnityEngine::Vector3>*(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_BB75FB1EF4C67D87_OFFSET))(this, a1);
+		}
+
+		static ::PipelineCamera::WorldBasicCameraData Method_5_69CE33EBF0B64D09(::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement* a1, ::System::Single a2, ::PipelineCamera::WorldBasicCameraData a3, ::PipelineCamera::CameraSequence::CameraSequenceContext* a4)
+		{
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::MoleMole::FlowCanvas::Nodes::LastPhaseFallbackInLevelSettlement*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_69CE33EBF0B64D09_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean Method_5_071154AF842F9F01(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single& a3)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_071154AF842F9F01_OFFSET))(a1, a2, a3);
+		}
+
+		::Nap::NapECS::EcsWorld* Method_5_2C57E01B5F9E414E(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		{
+			return ((::Nap::NapECS::EcsWorld*(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LASTPHASEFALLBACKINLEVELSETTLEMENT_METHOD_5_2C57E01B5F9E414E_OFFSET))(this, a1);
 		}
 	};
 }

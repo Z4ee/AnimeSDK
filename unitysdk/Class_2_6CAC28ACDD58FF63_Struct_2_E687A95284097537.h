@@ -12,19 +12,19 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebResponse; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_E687A95284097537_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x73F660)
-#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_E687A95284097537_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6EE6F0)
+#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_E687A95284097537_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6CB1C0)
+#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_E687A95284097537_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6CB1D0)
 
-inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Struct_2_E687A95284097537_TypeDefinitionIndex = 60802;
+inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Struct_2_E687A95284097537_TypeDefinitionIndex = 58024;
 
 struct alignas(8) Class_2_6CAC28ACDD58FF63_Struct_2_E687A95284097537
 {
-	::System::Net::HttpWebRequest* Field_2_5; // 0x10
-	::System::String* Field_2_2; // 0x18
-	::Class_2_6CAC28ACDD58FF63_Class_1_B9C3DB297BAE81C6* Field_2_4; // 0x20
-	::System::Action_1<::Struct_2_5887222B9AE38D34_2>* Field_2_3; // 0x28
-	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x30
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponse*> Field_2_6; // 0x50
+	::Class_2_6CAC28ACDD58FF63_Class_1_B9C3DB297BAE81C6* Field_2_4; // 0x10
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponse*> Field_2_6; // 0x18
+	::System::Net::HttpWebRequest* Field_2_5; // 0x20
+	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x28
+	::System::Action_1<::Struct_2_5887222B9AE38D34_2>* Field_2_3; // 0x48
+	::System::String* Field_2_2; // 0x50
 	::System::Int32 Field_2_0; // 0x58
 
 	::System::Void MoveNext()

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNOLIBCIPGLOBALPROPERTIES_GET_DOMAINNAME_OFFSET UNITYSDK_OFFSET(0x19E38810)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNOLIBCIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19E38820)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNOLIBCIPGLOBALPROPERTIES_GET_DOMAINNAME_OFFSET UNITYSDK_OFFSET(0x1C1D0870)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNOLIBCIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D0880)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UnixNoLibCIPGlobalProperties_TypeDefinitionIndex = 3757;
+	inline static constexpr unsigned int UnixNoLibCIPGlobalProperties_TypeDefinitionIndex = 3756;
 
 	class UnixNoLibCIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties
 	{

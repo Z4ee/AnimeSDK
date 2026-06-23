@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_17B78A87EAE1DCED.h"
 #include "unitysdk/Foundation/Tuple_3.h"
 #include "unitysdk/MoleMole/EffectSimulate/ESLoopable_2.h"
 #include "unitysdk/UnityEngine/NAPBatch/BatchItemValueType.h"
@@ -16,7 +15,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESMatAnimBehavior_2_TypeDefinitionIndex = 82482;
+	inline static constexpr unsigned int ESMatAnimBehavior_2_TypeDefinitionIndex = 82346;
 
 	template <typename EvaluateCurveType, typename ValType>
 	class ESMatAnimBehavior_2 : public ::MoleMole::EffectSimulate::ESLoopable_2<EvaluateCurveType, ValType>

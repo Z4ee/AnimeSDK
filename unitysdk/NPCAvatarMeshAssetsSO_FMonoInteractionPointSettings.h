@@ -6,9 +6,9 @@
 
 namespace System { class String; }
 
-#define NPCAVATARMESHASSETSSO_FMONOINTERACTIONPOINTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18268110)
+#define NPCAVATARMESHASSETSSO_FMONOINTERACTIONPOINTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xD403360)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings_TypeDefinitionIndex = 56636;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings_TypeDefinitionIndex = 67211;
 
 class NPCAvatarMeshAssetsSO_FMonoInteractionPointSettings : public ::System::Object
 {

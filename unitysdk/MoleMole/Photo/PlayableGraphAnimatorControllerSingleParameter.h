@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Photo/FPlayableGraphAnimatorControllerParam.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERSINGLEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x11780200)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERSINGLEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x173FAE70)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableGraphAnimatorControllerSingleParameter_TypeDefinitionIndex = 64050;
+	inline static constexpr unsigned int PlayableGraphAnimatorControllerSingleParameter_TypeDefinitionIndex = 44377;
 
 	class PlayableGraphAnimatorControllerSingleParameter : public ::System::Object
 	{

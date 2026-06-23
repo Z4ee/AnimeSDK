@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_369D88019B769C43.h"
 #include "unitysdk/Enum_3_96472A087C9608F3.h"
-#include "unitysdk/Enum_3_D683D7EE2072834D.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOUIENABLESOUNDPLAYER_METHOD_5_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x12360B40)
-#define MOLEMOLE_MONOUIENABLESOUNDPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12360AF0)
-#define MOLEMOLE_MONOUIENABLESOUNDPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x12360DB0)
+#define MOLEMOLE_MONOUIENABLESOUNDPLAYER_METHOD_5_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x13F162A0)
+#define MOLEMOLE_MONOUIENABLESOUNDPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13F16250)
+#define MOLEMOLE_MONOUIENABLESOUNDPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x13F16510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIEnableSoundPlayer_TypeDefinitionIndex = 40408;
+	inline static constexpr unsigned int MonoUIEnableSoundPlayer_TypeDefinitionIndex = 86741;
 
 	class MonoUIEnableSoundPlayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean isCustom; // 0x18
-		::Enum_3_D683D7EE2072834D enableSoundType; // 0x1C
+		::Enum_3_369D88019B769C43 enableSoundType; // 0x1C
 		::System::Int32 enableSoundID; // 0x20
 		::System::Int32 soundSystemID; // 0x24
 		::Enum_3_96472A087C9608F3 soundSystemType; // 0x28

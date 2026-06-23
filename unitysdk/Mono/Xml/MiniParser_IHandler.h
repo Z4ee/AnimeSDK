@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_IHandler_TypeDefinitionIndex = 2265;
+	inline static constexpr unsigned int MiniParser_IHandler_TypeDefinitionIndex = 2264;
 
 	class MiniParser_IHandler
 	{

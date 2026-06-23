@@ -11,23 +11,23 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define CLASS_2_FCF7034E4F06A146_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14375C50)
-#define CLASS_2_FCF7034E4F06A146_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x14375AF0)
-#define CLASS_2_FCF7034E4F06A146__CTOR_OFFSET UNITYSDK_OFFSET(0x14375C40)
+#define CLASS_2_FCF7034E4F06A146_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11D46140)
+#define CLASS_2_FCF7034E4F06A146_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x11D45FE0)
+#define CLASS_2_FCF7034E4F06A146__CTOR_OFFSET UNITYSDK_OFFSET(0x11D46130)
 
-inline static constexpr unsigned int Class_2_FCF7034E4F06A146_TypeDefinitionIndex = 69422;
+inline static constexpr unsigned int Class_2_FCF7034E4F06A146_TypeDefinitionIndex = 55444;
 
 class Class_2_FCF7034E4F06A146 : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::MoleMole::MonoGamepadTabButtonGroup* Field_2_6; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x18
+	::MoleMole::MonoGamepadTabButtonGroup* Field_2_6; // 0x20
 	::MonoUITableScrollV2* Field_2_5; // 0x28
-	::UnityEngine::Transform* Field_2_0; // 0x30
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x38
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_3; // 0x30
+	::UnityEngine::RectTransform* Field_2_7; // 0x38
 	::UnityEngine::UI::Extension::UITabButtonGroup* Field_2_2; // 0x40
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_4; // 0x48
-	::UnityEngine::RectTransform* Field_2_7; // 0x50
+	::UnityEngine::Transform* Field_2_1; // 0x48
+	::UnityEngine::Transform* Field_2_0; // 0x50
 
 	::System::Void _ctor()
 	{

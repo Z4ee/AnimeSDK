@@ -4,21 +4,21 @@
 
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_GET_BYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1C51C950)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_GET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1C51C970)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_BYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1C51C960)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1C51C980)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51C930)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_GET_BYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1E850610)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_GET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1E850630)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_BYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1E850620)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1E850640)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8505F0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 7108;
+	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 7239;
 
 	class BsonString : public ::Newtonsoft::Json::Bson::BsonValue
 	{
 	public:
-		::System::Boolean _IncludeLength_k__BackingField; // 0x30
-		::System::Int32 _ByteCount_k__BackingField; // 0x34
+		::System::Int32 _ByteCount_k__BackingField; // 0x30
+		::System::Boolean _IncludeLength_k__BackingField; // 0x34
 
 		::System::Void _ctor(::System::Object* value, ::System::Boolean includeLength)
 		{

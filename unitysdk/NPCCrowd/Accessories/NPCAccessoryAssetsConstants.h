@@ -5,30 +5,30 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYASSETSCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE58E20)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYASSETSCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5C5350)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAssetsConstants_TypeDefinitionIndex = 61770;
+	inline static constexpr unsigned int NPCAccessoryAssetsConstants_TypeDefinitionIndex = 57945;
 
 	class NPCAccessoryAssetsConstants : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_MESH_ASSETS_PACKED_DATA_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3D1D0);
-		}
 		static ::System::String** StaticGet_NPC_ACCESSORY_MAP_CONFIG_SPLIT_ROOT_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3D1D8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3F910);
+		}
+		static ::System::String** StaticGet_MESH_ASSETS_PACKED_DATA_PATH()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3F918);
 		}
 		static ::System::String** StaticGet_NPC_ACCESSORY_MAP_CONFIG_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3D1E0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0x3F920);
 		}
 		static ::UnityEngine::Vector3* StaticGet_CULL_OFFSET()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0xEEF0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAssetsConstants_TypeDefinitionIndex)->GetStaticField(0xF4D0);
 		}
 
 		static ::System::Void _cctor()

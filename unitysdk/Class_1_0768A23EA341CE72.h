@@ -12,21 +12,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0768A23EA341CE72_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18263130)
-#define CLASS_1_0768A23EA341CE72_FROMFLX_OFFSET UNITYSDK_OFFSET(0x18262BD0)
-#define CLASS_1_0768A23EA341CE72_METHOD_1_5253759692D6DAC1_OFFSET UNITYSDK_OFFSET(0x18262C50)
-#define CLASS_1_0768A23EA341CE72_METHOD_1_C68CB15A07D0E2EF_OFFSET UNITYSDK_OFFSET(0x18263190)
-#define CLASS_1_0768A23EA341CE72_METHOD_1_C8E2469222842786_OFFSET UNITYSDK_OFFSET(0x18262B40)
-#define CLASS_1_0768A23EA341CE72__CTOR_OFFSET UNITYSDK_OFFSET(0x18263460)
+#define CLASS_1_0768A23EA341CE72_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x165B7D30)
+#define CLASS_1_0768A23EA341CE72_FROMFLX_OFFSET UNITYSDK_OFFSET(0x165B77D0)
+#define CLASS_1_0768A23EA341CE72_METHOD_1_5253759692D6DAC1_OFFSET UNITYSDK_OFFSET(0x165B7850)
+#define CLASS_1_0768A23EA341CE72_METHOD_1_C68CB15A07D0E2EF_OFFSET UNITYSDK_OFFSET(0x165B7D90)
+#define CLASS_1_0768A23EA341CE72_METHOD_1_C8E2469222842786_OFFSET UNITYSDK_OFFSET(0x165B7740)
+#define CLASS_1_0768A23EA341CE72__CTOR_OFFSET UNITYSDK_OFFSET(0x165B8060)
 
-inline static constexpr unsigned int Class_1_0768A23EA341CE72_TypeDefinitionIndex = 63046;
+inline static constexpr unsigned int Class_1_0768A23EA341CE72_TypeDefinitionIndex = 41470;
 
 class Class_1_0768A23EA341CE72 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_145E2DA042628BC6*>* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_2AE0F1595145F11F*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_8088D8743C1058EF*>* Field_1_0; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_8088D8743C1058EF*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_145E2DA042628BC6*>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_2AE0F1595145F11F*>* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

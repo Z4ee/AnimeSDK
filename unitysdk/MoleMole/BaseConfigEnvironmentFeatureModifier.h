@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BASECONFIGENVIRONMENTFEATUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xFEFEDA0)
+#define MOLEMOLE_BASECONFIGENVIRONMENTFEATUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1358A290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseConfigEnvironmentFeatureModifier_TypeDefinitionIndex = 80131;
+	inline static constexpr unsigned int BaseConfigEnvironmentFeatureModifier_TypeDefinitionIndex = 63865;
 
 	class BaseConfigEnvironmentFeatureModifier : public ::System::Object
 	{

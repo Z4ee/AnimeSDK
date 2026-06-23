@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LanguageVoiceType_TypeDefinitionIndex = 74604;
+	inline static constexpr unsigned int LanguageVoiceType_TypeDefinitionIndex = 41059;
 
 	enum class LanguageVoiceType : ::System::Int32
 	{
+		LanguageKr = 4,
+		LanguageNone = 0,
+		LanguageEn = 1,
 		LanguageCn = 2,
 		LanguageJp = 3,
-		LanguageKr = 4,
-		LanguageEn = 1,
-		LanguageNone = 0,
 	};
 }

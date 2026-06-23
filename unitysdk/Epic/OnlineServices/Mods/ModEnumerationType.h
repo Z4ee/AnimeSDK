@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int ModEnumerationType_TypeDefinitionIndex = 33990;
+	inline static constexpr unsigned int ModEnumerationType_TypeDefinitionIndex = 35553;
 
 	enum class ModEnumerationType : ::System::Int32
 	{

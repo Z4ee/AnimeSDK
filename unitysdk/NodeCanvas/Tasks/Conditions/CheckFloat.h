@@ -6,21 +6,21 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B7EC620)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B7EC680)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC730)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DB9E270)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1DB9E2D0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9E380)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckFloat_TypeDefinitionIndex = 27505;
+	inline static constexpr unsigned int CheckFloat_TypeDefinitionIndex = 29176;
 
 	class CheckFloat : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueB; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* valueA; // 0x68
-		::System::Single differenceThreshold; // 0x70
-		::ParadoxNotion::CompareMethod checkType; // 0x74
+		::ParadoxNotion::CompareMethod checkType; // 0x70
+		::System::Single differenceThreshold; // 0x74
 
 		::System::Void _ctor()
 		{

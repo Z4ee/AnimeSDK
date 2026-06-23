@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C192430)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4CFE50)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_NativeCookie_TypeDefinitionIndex = 31028;
+	inline static constexpr unsigned int BrowserNative_NativeCookie_TypeDefinitionIndex = 32579;
 
 	class BrowserNative_NativeCookie : public ::System::Object
 	{

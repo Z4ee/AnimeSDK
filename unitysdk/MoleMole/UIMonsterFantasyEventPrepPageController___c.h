@@ -5,24 +5,24 @@
 class Class_3_EDF31E1B77FE3774;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15106260)
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151062A0)
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__REFRESHVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x151062B0)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DA7120)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA7160)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__REFRESHVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x16DA7170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex = 63639;
+	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex = 76919;
 
 	class UIMonsterFantasyEventPrepPageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIMonsterFantasyEventPrepPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMonsterFantasyEventPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x35280);
+			return (::MoleMole::UIMonsterFantasyEventPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x37C30);
 		}
 		static ::System::Func_2<::Class_3_EDF31E1B77FE3774*, ::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::Class_3_EDF31E1B77FE3774*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x35288);
+			return (::System::Func_2<::Class_3_EDF31E1B77FE3774*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyEventPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x37C38);
 		}
 
 		static ::System::Void _cctor()

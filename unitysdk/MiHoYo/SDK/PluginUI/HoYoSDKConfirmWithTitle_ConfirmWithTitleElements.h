@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKConfirmWithTitle_ConfirmWithTitleElements_TypeDefinitionIndex = 35524;
+	inline static constexpr unsigned int HoYoSDKConfirmWithTitle_ConfirmWithTitleElements_TypeDefinitionIndex = 37125;
 
 	class HoYoSDKConfirmWithTitle_ConfirmWithTitleElements : public ::System::Object
 	{

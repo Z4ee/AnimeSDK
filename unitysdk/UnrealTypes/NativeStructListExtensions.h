@@ -5,7 +5,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeStructListExtensions_TypeDefinitionIndex = 25205;
+	inline static constexpr unsigned int NativeStructListExtensions_TypeDefinitionIndex = 27695;
 
 	class NativeStructListExtensions : public ::System::Object
 	{

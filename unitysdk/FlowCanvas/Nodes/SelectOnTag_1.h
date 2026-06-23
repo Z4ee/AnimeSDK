@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SelectOnTag_1_TypeDefinitionIndex = 26800;
+	inline static constexpr unsigned int SelectOnTag_1_TypeDefinitionIndex = 29275;
 
 	template <typename T>
 	class SelectOnTag_1 : public ::FlowCanvas::Nodes::FlowControlNode

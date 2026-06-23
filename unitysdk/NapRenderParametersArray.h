@@ -11,37 +11,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPRENDERPARAMETERSARRAY_FILLINGPROPERTYDICT_OFFSET UNITYSDK_OFFSET(0x19274EF0)
-#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYINFO_OFFSET UNITYSDK_OFFSET(0x19276E80)
-#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYSIZE_OFFSET UNITYSDK_OFFSET(0x192770D0)
-#define NAPRENDERPARAMETERSARRAY_INITMATERIALVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19276630)
-#define NAPRENDERPARAMETERSARRAY_ISARRAYPROPERTY_OFFSET UNITYSDK_OFFSET(0x19277020)
-#define NAPRENDERPARAMETERSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19277130)
+#define NAPRENDERPARAMETERSARRAY_FILLINGPROPERTYDICT_OFFSET UNITYSDK_OFFSET(0x1B167400)
+#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYINFO_OFFSET UNITYSDK_OFFSET(0x1B1693A0)
+#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYSIZE_OFFSET UNITYSDK_OFFSET(0x1B1695F0)
+#define NAPRENDERPARAMETERSARRAY_INITMATERIALVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B168B50)
+#define NAPRENDERPARAMETERSARRAY_ISARRAYPROPERTY_OFFSET UNITYSDK_OFFSET(0x1B169540)
+#define NAPRENDERPARAMETERSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B169650)
 
-inline static constexpr unsigned int NapRenderParametersArray_TypeDefinitionIndex = 29589;
+inline static constexpr unsigned int NapRenderParametersArray_TypeDefinitionIndex = 27200;
 
 class NapRenderParametersArray : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>** StaticGet_vectorLayout()
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>** StaticGet_propertyIDDict()
 	{
-		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23350);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x20A80);
 	}
 	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_floatLayout()
 	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23358);
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x20A88);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>** StaticGet_propertyIDDict()
+	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>** StaticGet_vectorLayout()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23360);
+		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x20A90);
 	}
 	static ::System::Boolean* StaticGet_logOnSetArrayPropertyFromExt()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A30);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5500);
 	}
 	static ::System::Int32* StaticGet_vectorArrayLength()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A34);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5504);
 	}
 
 	static ::System::Void _cctor()

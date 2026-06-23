@@ -11,23 +11,23 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_62CB6D0A783AD050_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0xF527350)
-#define CLASS_2_62CB6D0A783AD050_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0xF527550)
-#define CLASS_2_62CB6D0A783AD050_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0xF527660)
-#define CLASS_2_62CB6D0A783AD050__CTOR_OFFSET UNITYSDK_OFFSET(0xF527650)
+#define CLASS_2_62CB6D0A783AD050_METHOD_2_2DE91FCAEB146CF9_OFFSET UNITYSDK_OFFSET(0x131D2240)
+#define CLASS_2_62CB6D0A783AD050_METHOD_2_572E53F76E315839_OFFSET UNITYSDK_OFFSET(0x131D2440)
+#define CLASS_2_62CB6D0A783AD050_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x131D2550)
+#define CLASS_2_62CB6D0A783AD050__CTOR_OFFSET UNITYSDK_OFFSET(0x131D2540)
 
-inline static constexpr unsigned int Class_2_62CB6D0A783AD050_TypeDefinitionIndex = 75573;
+inline static constexpr unsigned int Class_2_62CB6D0A783AD050_TypeDefinitionIndex = 62990;
 
 class Class_2_62CB6D0A783AD050 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::Class_2_1A39E1B51756BF41* Field_2_3; // 0x18
-	::UnityEngine::Transform* Field_2_0; // 0x20
-	::Class_2_B4378B46E0020E85* Field_2_6; // 0x28
-	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x30
+	::MoleMole::UIGeneralButtonController* Field_2_5; // 0x20
+	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x28
+	::UnityEngine::Transform* Field_2_0; // 0x30
 	::MoleMole::MonoGamepadSelectable* Field_2_1; // 0x38
-	::Class_2_1A39E1B51756BF41* Field_2_4; // 0x40
-	::UnityEngine::GameObject* Field_2_2; // 0x48
+	::UnityEngine::GameObject* Field_2_2; // 0x40
+	::Class_2_B4378B46E0020E85* Field_2_6; // 0x48
 
 	::System::Void _ctor()
 	{

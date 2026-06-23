@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BA18A30)
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA18A20)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD5D6D0)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D6C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 30855;
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 32406;
 
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{

@@ -9,7 +9,7 @@ namespace UnityEngine { class AnimatorOverrideController; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int IAnimatorControllerManager_TypeDefinitionIndex = 59599;
+	inline static constexpr unsigned int IAnimatorControllerManager_TypeDefinitionIndex = 80708;
 
 	class IAnimatorControllerManager
 	{

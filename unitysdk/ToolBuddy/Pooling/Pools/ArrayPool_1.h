@@ -8,7 +8,7 @@ namespace System { class Random; }
 
 namespace ToolBuddy::Pooling::Pools
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 24784;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 26184;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object

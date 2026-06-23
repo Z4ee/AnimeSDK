@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PreloadOperationSyncOpt_TypeDefinitionIndex = 5129;
+	inline static constexpr unsigned int PreloadOperationSyncOpt_TypeDefinitionIndex = 5128;
 
 	enum class PreloadOperationSyncOpt : ::System::Int32
 	{

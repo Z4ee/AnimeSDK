@@ -8,24 +8,24 @@
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x191DD7D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2E7930)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2E7740)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x191DEEF0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1B495650)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2ACBE0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2ACBF0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B496D60)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 9502;
+	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 18232;
 
 	struct alignas(8) RendererList
 	{
-		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
-		{
-			return (::UnityEngine::Rendering::ShaderTagId*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x4150);
-		}
 		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
 		{
-			return (::UnityEngine::Experimental::Rendering::RendererList*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x4158);
+			return (::UnityEngine::Experimental::Rendering::RendererList*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x3EB0);
+		}
+		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
+		{
+			return (::UnityEngine::Rendering::ShaderTagId*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x4090);
 		}
 		::System::Boolean _isValid_k__BackingField; // 0x10
 		::UnityEngine::Rendering::CullingResults cullingResult; // 0x18

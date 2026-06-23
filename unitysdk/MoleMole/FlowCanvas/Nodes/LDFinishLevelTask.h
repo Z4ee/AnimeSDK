@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHLEVELTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18208770)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHLEVELTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x18208800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHLEVELTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0202E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHLEVELTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A020370)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDFinishLevelTask_TypeDefinitionIndex = 77861;
+	inline static constexpr unsigned int LDFinishLevelTask_TypeDefinitionIndex = 87254;
 
 	class LDFinishLevelTask : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
 	{

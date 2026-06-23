@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterGen_RenderPatch_TypeDefinitionIndex = 30095;
+	inline static constexpr unsigned int WaterGen_RenderPatch_TypeDefinitionIndex = 26766;
 
 	struct alignas(4) WaterGen_RenderPatch
 	{

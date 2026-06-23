@@ -6,11 +6,11 @@ class SceneMaterialParameterRewriter_MaterialAnimationOverrideElement;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT_APPLY_OFFSET UNITYSDK_OFFSET(0x1A680A00)
-#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT_CLEARMPB_OFFSET UNITYSDK_OFFSET(0x1A680EA0)
-#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A681070)
+#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT_APPLY_OFFSET UNITYSDK_OFFSET(0x1B85A7A0)
+#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT_CLEARMPB_OFFSET UNITYSDK_OFFSET(0x1B85AC40)
+#define SCENEMATERIALPARAMETERREWRITER_TARGETELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85AE10)
 
-inline static constexpr unsigned int SceneMaterialParameterRewriter_TargetElement_TypeDefinitionIndex = 29487;
+inline static constexpr unsigned int SceneMaterialParameterRewriter_TargetElement_TypeDefinitionIndex = 27188;
 
 class SceneMaterialParameterRewriter_TargetElement : public ::System::Object
 {

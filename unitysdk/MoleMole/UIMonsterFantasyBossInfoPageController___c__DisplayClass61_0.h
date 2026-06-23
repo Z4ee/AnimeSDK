@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMonsterFantasyBossInfoPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12DF3D60)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__ONBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x12DF3D70)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C570B0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__ONBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x14C570C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0_TypeDefinitionIndex = 79940;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0_TypeDefinitionIndex = 50835;
 
 	class UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0 : public ::System::Object
 	{

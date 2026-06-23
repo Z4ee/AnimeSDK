@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeTaskBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xD448DB0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xD448E20)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xD448D50)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0xD448CE0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xD448EC0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xD448F40)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD448570)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x106FBC60)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x106FBCD0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x106FBC00)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0x106FBB90)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x106FBD70)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0x106FBDF0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x106FB340)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_MoveToTask_TypeDefinitionIndex = 65053;
+	inline static constexpr unsigned int VirtualProxy_MoveToTask_TypeDefinitionIndex = 46714;
 
-	class VirtualProxy_MoveToTask : public ::StateTreeCore::VirtualProxy_StateTreeTaskBase
+	class VirtualProxy_MoveToTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{
 	public:
 		::System::Void _ctor()
@@ -32,9 +32,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_MOVETOTASK_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

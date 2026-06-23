@@ -7,7 +7,7 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace UnityEngine::LowLevel
 {
-	inline static constexpr unsigned int PlayerLoopSystemInternal_TypeDefinitionIndex = 5518;
+	inline static constexpr unsigned int PlayerLoopSystemInternal_TypeDefinitionIndex = 5519;
 
 	struct alignas(8) PlayerLoopSystemInternal
 	{

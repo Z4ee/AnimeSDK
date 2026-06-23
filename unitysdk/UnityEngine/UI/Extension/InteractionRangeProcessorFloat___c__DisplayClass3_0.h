@@ -4,20 +4,20 @@
 
 namespace UnityEngine::UI::Extension { class InteractionRangeProcessorFloat; }
 
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA6840)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__GOTOVAL_B__0_OFFSET UNITYSDK_OFFSET(0x12AA6850)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__GOTOVAL_B__1_OFFSET UNITYSDK_OFFSET(0x12AA68C0)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4D950)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__GOTOVAL_B__0_OFFSET UNITYSDK_OFFSET(0x1DA4D960)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORFLOAT___C__DISPLAYCLASS3_0__GOTOVAL_B__1_OFFSET UNITYSDK_OFFSET(0x1DA4D9D0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeProcessorFloat___c__DisplayClass3_0_TypeDefinitionIndex = 57448;
+	inline static constexpr unsigned int InteractionRangeProcessorFloat___c__DisplayClass3_0_TypeDefinitionIndex = 74180;
 
 	class InteractionRangeProcessorFloat___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::Extension::InteractionRangeProcessorFloat* __4__this; // 0x10
-		::System::Single targetPos; // 0x18
-		::System::Single curPos; // 0x1C
+		::System::Single curPos; // 0x18
+		::System::Single targetPos; // 0x1C
 
 		::System::Void _ctor()
 		{

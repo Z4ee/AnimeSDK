@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_NPCTURNINGPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xF3FA020)
+#define NPCCROWD_ANIMATION_NPCTURNINGPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x8C4AA10)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCTurningParameters_TypeDefinitionIndex = 40547;
+	inline static constexpr unsigned int NPCTurningParameters_TypeDefinitionIndex = 78144;
 
 	class NPCTurningParameters : public ::System::Object
 	{

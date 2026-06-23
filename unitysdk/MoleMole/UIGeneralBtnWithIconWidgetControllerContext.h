@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIRidusGotBooSelectLevelPageController_RidusBooTabBtn03RowData; }
 
-#define MOLEMOLE_UIGENERALBTNWITHICONWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F888A0)
+#define MOLEMOLE_UIGENERALBTNWITHICONWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F69410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBtnWithIconWidgetControllerContext_TypeDefinitionIndex = 78776;
+	inline static constexpr unsigned int UIGeneralBtnWithIconWidgetControllerContext_TypeDefinitionIndex = 54644;
 
 	class UIGeneralBtnWithIconWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

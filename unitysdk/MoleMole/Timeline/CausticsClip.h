@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class CausticsBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_CAUSTICSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1606FD80)
-#define MOLEMOLE_TIMELINE_CAUSTICSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1606FD70)
-#define MOLEMOLE_TIMELINE_CAUSTICSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1606FF60)
+#define MOLEMOLE_TIMELINE_CAUSTICSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12BE4140)
+#define MOLEMOLE_TIMELINE_CAUSTICSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12BE4130)
+#define MOLEMOLE_TIMELINE_CAUSTICSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12BE4320)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CausticsClip_TypeDefinitionIndex = 60447;
+	inline static constexpr unsigned int CausticsClip_TypeDefinitionIndex = 72079;
 
 	class CausticsClip : public ::UnityEngine::Playables::PlayableAsset
 	{

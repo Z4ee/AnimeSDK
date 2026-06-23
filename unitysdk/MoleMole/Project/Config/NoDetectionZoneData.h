@@ -7,11 +7,11 @@ namespace MoleMole::Project::Config { class NoDetectionPointData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PROJECT_CONFIG_NODETECTIONZONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16701C80)
+#define MOLEMOLE_PROJECT_CONFIG_NODETECTIONZONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B99F0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int NoDetectionZoneData_TypeDefinitionIndex = 12268;
+	inline static constexpr unsigned int NoDetectionZoneData_TypeDefinitionIndex = 11193;
 
 	class NoDetectionZoneData : public ::MoleMole::Project::Config::PointBaseData
 	{

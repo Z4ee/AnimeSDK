@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPreviewWidgetController_ButtonState_TypeDefinitionIndex = 49641;
+	inline static constexpr unsigned int UIDepositoryPreviewWidgetController_ButtonState_TypeDefinitionIndex = 60874;
 
 	enum class UIDepositoryPreviewWidgetController_ButtonState : ::System::Int32
 	{
 		View = 2,
-		Use = 1,
 		Hide = 0,
+		Use = 1,
 	};
 }

@@ -8,19 +8,19 @@ namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 namespace PipelineCamera::Demo::Pipeline { class DemoFollowPipelineSetting; }
 namespace System { class String; }
 
-#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_MODULE_DEFAULTFOLLOWSETTINGPARAM__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1B11F500)
-#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_MODULE_DEFAULTFOLLOWSETTINGPARAM__ONCONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1B11F600)
-#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11F4F0)
+#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_MODULE_DEFAULTFOLLOWSETTINGPARAM__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1D565C40)
+#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_MODULE_DEFAULTFOLLOWSETTINGPARAM__ONCONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1D565D40)
+#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINECONFIG_BUILDFOLLOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D565C30)
 
 namespace PipelineCamera::Demo::Pipeline
 {
-	inline static constexpr unsigned int DemoFollowPipelineConfig_BuildFollowSetting_TypeDefinitionIndex = 36162;
+	inline static constexpr unsigned int DemoFollowPipelineConfig_BuildFollowSetting_TypeDefinitionIndex = 37770;
 
 	class DemoFollowPipelineConfig_BuildFollowSetting : public ::System::Object
 	{
 	public:
-		::System::String* _debugName; // 0x10
-		::PipelineCamera::Demo::Pipeline::DemoFollowPipelineSetting* _setting; // 0x18
+		::PipelineCamera::Demo::Pipeline::DemoFollowPipelineSetting* _setting; // 0x10
+		::System::String* _debugName; // 0x18
 		::System::Nullable_1<::System::Single> _aspectRatio; // 0x20
 
 		::System::Void _ctor(::PipelineCamera::Demo::Pipeline::DemoFollowPipelineSetting* setting, ::System::Nullable_1<::System::Single> aspectRatio, ::System::String* debugName)

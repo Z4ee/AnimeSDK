@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLESETUICOMBO_INVOKE_OFFSET UNITYSDK_OFFSET(0x16041C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLESETUICOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x16041E10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLESETUICOMBO_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB5320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLESETUICOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB54E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMusicBattleSetUICombo_TypeDefinitionIndex = 77066;
+	inline static constexpr unsigned int LDMusicBattleSetUICombo_TypeDefinitionIndex = 79538;
 
 	class LDMusicBattleSetUICombo : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
 	{

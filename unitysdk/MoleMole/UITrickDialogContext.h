@@ -5,11 +5,11 @@
 class Class_1_65AA22E73CD7E617;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UITRICKDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF629470)
+#define MOLEMOLE_UITRICKDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122C5DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrickDialogContext_TypeDefinitionIndex = 61809;
+	inline static constexpr unsigned int UITrickDialogContext_TypeDefinitionIndex = 72445;
 
 	class UITrickDialogContext : public ::MoleMole::UIControllerContextBase
 	{

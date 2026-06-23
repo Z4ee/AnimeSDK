@@ -5,7 +5,7 @@
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int InputArrayExtensions_TypeDefinitionIndex = 29393;
+	inline static constexpr unsigned int InputArrayExtensions_TypeDefinitionIndex = 32049;
 
 	class InputArrayExtensions : public ::System::Object
 	{

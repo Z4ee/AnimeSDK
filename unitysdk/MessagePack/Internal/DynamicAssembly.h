@@ -9,20 +9,20 @@ namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1A29BD10)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_2_OFFSET UNITYSDK_OFFSET(0x1A29BD30)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1A29BCF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29BCA0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1BC54140)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_2_OFFSET UNITYSDK_OFFSET(0x1BC54160)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1BC54120)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC540D0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 26561;
+	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 29461;
 
 	class DynamicAssembly : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x10
-		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x18
+		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x10
+		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x18
 
 		::System::Void _ctor(::System::String* moduleName)
 		{

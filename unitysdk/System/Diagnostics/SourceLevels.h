@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int SourceLevels_TypeDefinitionIndex = 2759;
+	inline static constexpr unsigned int SourceLevels_TypeDefinitionIndex = 2758;
 
 	enum class SourceLevels : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolInstance_1_TypeDefinitionIndex = 7716;
+	inline static constexpr unsigned int ObjectPoolInstance_1_TypeDefinitionIndex = 7952;
 
 	template <typename T>
 	class ObjectPoolInstance_1 : public ::System::Object

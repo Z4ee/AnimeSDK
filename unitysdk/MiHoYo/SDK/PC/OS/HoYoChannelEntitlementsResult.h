@@ -2,21 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
 
-namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
+namespace MiHoYo::SDK::PC::OS { class GoogleEntitlementsExtension; }
+namespace MiHoYo::SDK::PC::OS { class XboxEntitlementsExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x194B20D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x194B20C0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194B2110)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1B6CAD40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B6CAD30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CAD80)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelEntitlementsResult_TypeDefinitionIndex = 19386;
+	inline static constexpr unsigned int HoYoChannelEntitlementsResult_TypeDefinitionIndex = 20348;
 
 	class HoYoChannelEntitlementsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::Il2CppArray<::MiHoYo::SDK::PC::OS::PurchaseData*>* purchases; // 0x28
+		::MiHoYo::SDK::PC::OS::GoogleEntitlementsExtension* google; // 0x30
+		::MiHoYo::SDK::PC::OS::XboxEntitlementsExtension* xbox; // 0x38
 
 		::System::Void _ctor()
 		{

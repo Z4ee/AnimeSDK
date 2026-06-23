@@ -7,57 +7,57 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x10827360)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_2_OFFSET UNITYSDK_OFFSET(0x10827420)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x108272C0)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_1_OFFSET UNITYSDK_OFFSET(0x10827370)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_2_OFFSET UNITYSDK_OFFSET(0x10827430)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_OFFSET UNITYSDK_OFFSET(0x108272A0)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0x10827390)
-#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x108272D0)
-#define CLASS_2_C2BC8084C125C40B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10827250)
-#define CLASS_2_C2BC8084C125C40B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10827290)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x13D8B260)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_2_OFFSET UNITYSDK_OFFSET(0x13D8B320)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x13D8B230)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_1_OFFSET UNITYSDK_OFFSET(0x13D8B300)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_2_OFFSET UNITYSDK_OFFSET(0x13D8B330)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_OFFSET UNITYSDK_OFFSET(0x13D8B240)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0x13D8B350)
+#define CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x13D8B270)
+#define CLASS_2_C2BC8084C125C40B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13D8B1E0)
+#define CLASS_2_C2BC8084C125C40B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13D8B220)
 
-inline static constexpr unsigned int Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex = 60684;
+inline static constexpr unsigned int Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex = 74954;
 
 class Class_2_C2BC8084C125C40B___c : public ::System::Object
 {
 public:
-	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__15_27()
+	static ::System::Action** StaticGet___9__17_40()
 	{
-		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x39FE0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E710);
 	}
-	static ::System::Action** StaticGet___9__16_1()
+	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__17_25()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x39FE8);
+		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E718);
 	}
-	static ::UnityEngine::Events::UnityAction** StaticGet___9__15_30()
+	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__17_29()
 	{
-		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x39FF0);
+		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E720);
 	}
-	static ::System::Action** StaticGet___9__15_40()
+	static ::UnityEngine::Events::UnityAction** StaticGet___9__17_30()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x39FF8);
+		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E728);
 	}
-	static ::System::Action** StaticGet___9__15_37()
+	static ::UnityEngine::Events::UnityAction** StaticGet___9__17_31()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x3A000);
+		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E730);
 	}
-	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__15_25()
+	static ::System::Action** StaticGet___9__18_1()
 	{
-		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x3A008);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E738);
 	}
 	static ::Class_2_C2BC8084C125C40B___c** StaticGet___9()
 	{
-		return (::Class_2_C2BC8084C125C40B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x3A010);
+		return (::Class_2_C2BC8084C125C40B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E740);
 	}
-	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__15_29()
+	static ::System::Action** StaticGet___9__17_37()
 	{
-		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x3A018);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E748);
 	}
-	static ::UnityEngine::Events::UnityAction** StaticGet___9__15_31()
+	static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__17_27()
 	{
-		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x3A020);
+		return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C2BC8084C125C40B___c_TypeDefinitionIndex)->GetStaticField(0x2E750);
 	}
 
 	static ::System::Void _cctor()
@@ -70,19 +70,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_B25CC54C2D2D32A8(::MoleMole::UIGeneralHeadRowWidgetController* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralHeadRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_OFFSET))(this, a1);
-	}
-
 	::System::Void Method_1_832295EC279E5994()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_OFFSET))(this);
 	}
 
-	::System::Void Method_1_F8C7231308CD2C82()
+	::System::Void Method_1_B25CC54C2D2D32A8(::MoleMole::UIGeneralHeadRowWidgetController* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralHeadRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_832295EC279E5994_1()
@@ -90,14 +85,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_832295EC279E5994_1_OFFSET))(this);
 	}
 
+	::System::Void Method_1_F8C7231308CD2C82()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_OFFSET))(this);
+	}
+
 	::System::Void Method_1_B25CC54C2D2D32A8_1(::MoleMole::UIGeneralHeadRowWidgetController* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralHeadRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_1_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_1_F8C7231308CD2C82_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_1_OFFSET))(this);
 	}
 
 	::System::Void Method_1_832295EC279E5994_2()
@@ -108,5 +103,10 @@ public:
 	::System::Void Method_1_B25CC54C2D2D32A8_2(::MoleMole::UIGeneralHeadRowWidgetController* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralHeadRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_B25CC54C2D2D32A8_2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F8C7231308CD2C82_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C2BC8084C125C40B___C_METHOD_1_F8C7231308CD2C82_1_OFFSET))(this);
 	}
 };

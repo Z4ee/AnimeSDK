@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSCHECKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16D30510)
-#define MOLEMOLE_ENGINE_SUNSHADOWPVSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D308E0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSCHECKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18F88FE0)
+#define MOLEMOLE_ENGINE_SUNSHADOWPVSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F893B0)
 
 namespace MoleMole::Engine
 {
-	inline static constexpr unsigned int SunShadowPVSChecker_TypeDefinitionIndex = 60126;
+	inline static constexpr unsigned int SunShadowPVSChecker_TypeDefinitionIndex = 70410;
 
 	class SunShadowPVSChecker : public ::UnityEngine::MonoBehaviour
 	{

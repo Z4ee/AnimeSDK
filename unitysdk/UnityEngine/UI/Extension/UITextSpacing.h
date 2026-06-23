@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x150AD400)
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING__CTOR_OFFSET UNITYSDK_OFFSET(0x150AE050)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1AAE4890)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE54E0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextSpacing_TypeDefinitionIndex = 80269;
+	inline static constexpr unsigned int UITextSpacing_TypeDefinitionIndex = 60357;
 
 	class UITextSpacing : public ::UnityEngine::UI::BaseMeshEffect
 	{

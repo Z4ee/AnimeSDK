@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_INSTANCEPOOLREQUEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DAC230)
-#define FOUNDATION_INSTANCEPOOLREQUEST___C__CHECKUSEDINSTANCES_B__21_0_OFFSET UNITYSDK_OFFSET(0x19DAC280)
-#define FOUNDATION_INSTANCEPOOLREQUEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAC270)
+#define FOUNDATION_INSTANCEPOOLREQUEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE7610)
+#define FOUNDATION_INSTANCEPOOLREQUEST___C__CHECKUSEDINSTANCES_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BFE7660)
+#define FOUNDATION_INSTANCEPOOLREQUEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE7650)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InstancePoolRequest___c_TypeDefinitionIndex = 8275;
+	inline static constexpr unsigned int InstancePoolRequest___c_TypeDefinitionIndex = 8384;
 
 	class InstancePoolRequest___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::InstancePoolRequest___c** StaticGet___9()
-		{
-			return (::Foundation::InstancePoolRequest___c**)Il2CppClass::FromTypeDefinitionIndex(InstancePoolRequest___c_TypeDefinitionIndex)->GetStaticField(0x71B0);
-		}
 		static ::System::Predicate_1<::UnityEngine::Object*>** StaticGet___9__21_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(InstancePoolRequest___c_TypeDefinitionIndex)->GetStaticField(0x71B8);
+			return (::System::Predicate_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(InstancePoolRequest___c_TypeDefinitionIndex)->GetStaticField(0x7250);
+		}
+		static ::Foundation::InstancePoolRequest___c** StaticGet___9()
+		{
+			return (::Foundation::InstancePoolRequest___c**)Il2CppClass::FromTypeDefinitionIndex(InstancePoolRequest___c_TypeDefinitionIndex)->GetStaticField(0x7258);
 		}
 
 		static ::System::Void _cctor()

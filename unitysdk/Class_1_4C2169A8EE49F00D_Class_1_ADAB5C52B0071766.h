@@ -6,7 +6,7 @@
 template <typename T1, typename T2, typename T3> class Class_0_16E4307DCC41950C_20;
 template <typename T1, typename T2> class Class_1_4C2169A8EE49F00D_Class_3_B6136C2F127116DF_15;
 
-inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_ADAB5C52B0071766_TypeDefinitionIndex = 43363;
+inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_ADAB5C52B0071766_TypeDefinitionIndex = 56197;
 
 template <typename TPose, typename TIntrinsics, typename TOuterCtx, typename TInnerCtx>
 class Class_1_4C2169A8EE49F00D_Class_1_ADAB5C52B0071766 : public ::System::Object

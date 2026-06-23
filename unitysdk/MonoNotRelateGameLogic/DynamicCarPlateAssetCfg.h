@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define MONONOTRELATEGAMELOGIC_DYNAMICCARPLATEASSETCFG__CTOR_OFFSET UNITYSDK_OFFSET(0xF3ADB70)
+#define MONONOTRELATEGAMELOGIC_DYNAMICCARPLATEASSETCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x10435850)
 
 namespace MonoNotRelateGameLogic
 {
-	inline static constexpr unsigned int DynamicCarPlateAssetCfg_TypeDefinitionIndex = 65319;
+	inline static constexpr unsigned int DynamicCarPlateAssetCfg_TypeDefinitionIndex = 73823;
 
 	class DynamicCarPlateAssetCfg : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

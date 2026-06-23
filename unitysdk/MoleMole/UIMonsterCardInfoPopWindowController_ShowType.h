@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_ShowType_TypeDefinitionIndex = 38123;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_ShowType_TypeDefinitionIndex = 69309;
 
 	enum class UIMonsterCardInfoPopWindowController_ShowType : ::System::Int32
 	{
-		Abyss = 0,
-		ActivityBattle = 3,
 		Hollow = 1,
+		ActivityBattle = 3,
+		Abyss = 0,
 		CampIdle = 4,
 		HDD = 2,
 	};

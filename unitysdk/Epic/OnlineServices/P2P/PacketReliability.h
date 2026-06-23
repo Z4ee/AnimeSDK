@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int PacketReliability_TypeDefinitionIndex = 33964;
+	inline static constexpr unsigned int PacketReliability_TypeDefinitionIndex = 35527;
 
 	enum class PacketReliability : ::System::Int32
 	{

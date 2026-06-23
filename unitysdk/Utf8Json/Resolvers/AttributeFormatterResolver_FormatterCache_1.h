@@ -6,7 +6,7 @@ namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
 namespace Utf8Json::Resolvers
 {
-	inline static constexpr unsigned int AttributeFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 85529;
+	inline static constexpr unsigned int AttributeFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 91103;
 
 	template <typename T>
 	class AttributeFormatterResolver_FormatterCache_1 : public ::System::Object

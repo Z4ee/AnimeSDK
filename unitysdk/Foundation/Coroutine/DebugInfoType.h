@@ -3,7 +3,7 @@
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int DebugInfoType_TypeDefinitionIndex = 8076;
+	inline static constexpr unsigned int DebugInfoType_TypeDefinitionIndex = 8389;
 
 	enum class DebugInfoType : ::System::Int32
 	{

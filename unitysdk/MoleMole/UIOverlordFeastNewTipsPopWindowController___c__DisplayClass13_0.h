@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIOverlordFeastNewTipsPopWindowController; }
 
-#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D96C60)
-#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__JUMPTOGAME_B__0_OFFSET UNITYSDK_OFFSET(0x14D96C70)
+#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15776270)
+#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__JUMPTOGAME_B__0_OFFSET UNITYSDK_OFFSET(0x15776280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastNewTipsPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 79924;
+	inline static constexpr unsigned int UIOverlordFeastNewTipsPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 81350;
 
 	class UIOverlordFeastNewTipsPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{

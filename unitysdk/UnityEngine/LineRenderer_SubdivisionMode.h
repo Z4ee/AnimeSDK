@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LineRenderer_SubdivisionMode_TypeDefinitionIndex = 5197;
+	inline static constexpr unsigned int LineRenderer_SubdivisionMode_TypeDefinitionIndex = 5196;
 
 	enum class LineRenderer_SubdivisionMode : ::System::Int32
 	{

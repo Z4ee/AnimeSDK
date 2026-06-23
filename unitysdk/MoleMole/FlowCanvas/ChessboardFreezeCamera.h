@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDFREEZECAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E3F5C0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDFREEZECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E3F7C0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDFREEZECAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D33860)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDFREEZECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D33A60)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardFreezeCamera_TypeDefinitionIndex = 44391;
+	inline static constexpr unsigned int ChessboardFreezeCamera_TypeDefinitionIndex = 62856;
 
 	class ChessboardFreezeCamera : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Boolean>
 	{

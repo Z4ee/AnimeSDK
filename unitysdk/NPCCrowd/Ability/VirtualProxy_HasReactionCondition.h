@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeLinker.h"
-#include "unitysdk/StateTreeCore/VirtualProxy_StateTreeConditionBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
+namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xFBFC840)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xFBFC950)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xFBFC8E0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xFBFC9B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xFBFCA20)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xFFAE560)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xFFAE680)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xFFAE610)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xFFAE6E0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xFFAE750)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_HasReactionCondition_TypeDefinitionIndex = 68724;
+	inline static constexpr unsigned int VirtualProxy_HasReactionCondition_TypeDefinitionIndex = 84524;
 
-	class VirtualProxy_HasReactionCondition : public ::StateTreeCore::VirtualProxy_StateTreeConditionBase
+	class VirtualProxy_HasReactionCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{
 	public:
 		::System::Void _ctor()
@@ -34,9 +34,9 @@ namespace NPCCrowd::Ability
 			return ((::UnrealTypes::DataValidationResult(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeDataView))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_COMPILE_OFFSET))(this, self, instanceDataView);
 		}
 
-		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker& linker)
+		::System::Boolean Link(::UnrealTypes::FStructView& self, ::StateTreeCore::StateTreeLinker*& linker)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET))(this, self, linker);
+			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FStructView&, ::StateTreeCore::StateTreeLinker*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET))(this, self, linker);
 		}
 
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Struct*> GetInstanceDataType(::UnrealTypes::FReadOnlyStructView& self)

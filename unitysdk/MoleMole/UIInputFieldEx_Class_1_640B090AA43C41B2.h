@@ -9,23 +9,23 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class InputField_OnValidateInput; }
 
-#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15A56510)
-#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15A56530)
-#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_3_OFFSET UNITYSDK_OFFSET(0x15A565E0)
-#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_OFFSET UNITYSDK_OFFSET(0x15A56500)
+#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177D2920)
+#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_2_OFFSET UNITYSDK_OFFSET(0x177D2940)
+#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_3_OFFSET UNITYSDK_OFFSET(0x177D29F0)
+#define MOLEMOLE_UIINPUTFIELDEX_CLASS_1_640B090AA43C41B2__CTOR_OFFSET UNITYSDK_OFFSET(0x177D2910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInputFieldEx_Class_1_640B090AA43C41B2_TypeDefinitionIndex = 79680;
+	inline static constexpr unsigned int UIInputFieldEx_Class_1_640B090AA43C41B2_TypeDefinitionIndex = 44174;
 
 	class UIInputFieldEx_Class_1_640B090AA43C41B2 : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::InputField_OnValidateInput* Field_1_2; // 0x10
-		::UnityEngine::UI::InputField* Field_1_4; // 0x18
-		::UnityEngine::Events::UnityAction_1<::System::String*>* Field_1_3; // 0x20
-		::System::Action* Field_1_0; // 0x28
-		::System::Action* Field_1_1; // 0x30
+		::System::Action* Field_1_1; // 0x10
+		::System::Action* Field_1_0; // 0x18
+		::UnityEngine::UI::InputField_OnValidateInput* Field_1_2; // 0x20
+		::UnityEngine::UI::InputField* Field_1_4; // 0x28
+		::UnityEngine::Events::UnityAction_1<::System::String*>* Field_1_3; // 0x30
 
 		::System::Void _ctor(::UnityEngine::Events::UnityAction_1<::System::String*>* a1)
 		{

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E7BFA14EFF856C59.h"
+#include "unitysdk/Enum_3_E7C2E14EFF880F30.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/MoleMole/ConfigNewbie_HighLightPrefabData.h"
 #include "unitysdk/MoleMole/ConfigNewbie_TargetPath_ExtraType.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x14957EC0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x14957ED0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14958110)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x14958150)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x170D4C80)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x170D4C90)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x170D4ED0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDYNAMICDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x170D4F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightDynamicData_TypeDefinitionIndex = 56132;
+	inline static constexpr unsigned int ConfigNewbie_HighLightDynamicData_TypeDefinitionIndex = 49754;
 
 	class ConfigNewbie_HighLightDynamicData : public ::MoleMole::ConfigNewbie_HighLightPrefabData
 	{
 	public:
-		::Enum_3_E7BFA14EFF856C59 Type; // 0x20
+		::Enum_3_E7C2E14EFF880F30 Type; // 0x20
 		::System::Int32 param; // 0x24
 		::System::String* param1String; // 0x28
 		::System::String* param2String; // 0x30

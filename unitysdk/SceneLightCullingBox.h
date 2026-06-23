@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SCENELIGHTCULLINGBOX_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1908E060)
-#define SCENELIGHTCULLINGBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1908E1C0)
+#define SCENELIGHTCULLINGBOX_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1AECA950)
+#define SCENELIGHTCULLINGBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1AECAAB0)
 
-inline static constexpr unsigned int SceneLightCullingBox_TypeDefinitionIndex = 29550;
+inline static constexpr unsigned int SceneLightCullingBox_TypeDefinitionIndex = 26201;
 
 class SceneLightCullingBox : public ::UnityEngine::MonoBehaviour
 {

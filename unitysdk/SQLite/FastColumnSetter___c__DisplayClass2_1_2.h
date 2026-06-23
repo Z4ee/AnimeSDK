@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int FastColumnSetter___c__DisplayClass2_1_2_TypeDefinitionIndex = 36803;
+	inline static constexpr unsigned int FastColumnSetter___c__DisplayClass2_1_2_TypeDefinitionIndex = 38413;
 
 	template <typename ObjectType, typename ColumnMemberType>
 	class FastColumnSetter___c__DisplayClass2_1_2 : public ::System::Object

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOCHASERCONFIG_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x15B33710)
-#define MOLEMOLE_MONOCHASERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B33720)
+#define MOLEMOLE_MONOCHASERCONFIG_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x1A040710)
+#define MOLEMOLE_MONOCHASERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A040720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoChaserConfig_TypeDefinitionIndex = 49724;
+	inline static constexpr unsigned int MonoChaserConfig_TypeDefinitionIndex = 48953;
 
 	class MonoChaserConfig : public ::UnityEngine::MonoBehaviour
 	{

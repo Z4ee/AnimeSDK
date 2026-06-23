@@ -9,21 +9,21 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UISpriteNumPanel; }
 
-#define CLASS_2_5B1CC341746CAC4C_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x1C260E70)
-#define CLASS_2_5B1CC341746CAC4C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1C260FD0)
-#define CLASS_2_5B1CC341746CAC4C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C260FC0)
+#define CLASS_2_5B1CC341746CAC4C_METHOD_2_9A4D8B3D924EA81A_OFFSET UNITYSDK_OFFSET(0x1E41D040)
+#define CLASS_2_5B1CC341746CAC4C_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1E41D1A0)
+#define CLASS_2_5B1CC341746CAC4C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E41D190)
 
-inline static constexpr unsigned int Class_2_5B1CC341746CAC4C_TypeDefinitionIndex = 83940;
+inline static constexpr unsigned int Class_2_5B1CC341746CAC4C_TypeDefinitionIndex = 89519;
 
 class Class_2_5B1CC341746CAC4C : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x18
-	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_2; // 0x20
-	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_1; // 0x28
-	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_0; // 0x30
-	::UnityEngine::CanvasGroup* Field_2_4; // 0x38
-	::UnityEngine::Transform* Field_2_5; // 0x40
+	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_1; // 0x18
+	::UnityEngine::Transform* Field_2_5; // 0x20
+	::Class_2_FDFE69FE7B72463B* Field_2_3; // 0x28
+	::UnityEngine::CanvasGroup* Field_2_4; // 0x30
+	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_0; // 0x38
+	::UnityEngine::UI::Extension::UISpriteNumPanel* Field_2_2; // 0x40
 
 	::System::Void _ctor()
 	{

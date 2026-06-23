@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int IdentityFunction_1_TypeDefinitionIndex = 4372;
+	inline static constexpr unsigned int IdentityFunction_1_TypeDefinitionIndex = 4371;
 
 	template <typename TElement>
 	class IdentityFunction_1 : public ::System::Object

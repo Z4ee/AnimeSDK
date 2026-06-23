@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_EGyroStickMergeType_TypeDefinitionIndex = 41765;
+	inline static constexpr unsigned int UIGalgamePageController_EGyroStickMergeType_TypeDefinitionIndex = 54883;
 
 	enum class UIGalgamePageController_EGyroStickMergeType : ::System::Int32
 	{
-		B = 1,
-		C = 2,
 		A = 0,
+		C = 2,
+		B = 1,
 	};
 }

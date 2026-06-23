@@ -11,7 +11,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int BBParameter_1_TypeDefinitionIndex = 27799;
+	inline static constexpr unsigned int BBParameter_1_TypeDefinitionIndex = 30573;
 
 	template <typename T>
 	class BBParameter_1 : public ::NodeCanvas::Framework::BBParameter

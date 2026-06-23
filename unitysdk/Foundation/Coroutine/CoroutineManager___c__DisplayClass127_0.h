@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS127_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A76E0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS127_0___STARTWHENDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1C1A76F0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS127_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F1290)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS127_0___STARTWHENDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1E4F12A0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass127_0_TypeDefinitionIndex = 7842;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass127_0_TypeDefinitionIndex = 8021;
 
 	class CoroutineManager___c__DisplayClass127_0 : public ::System::Object
 	{

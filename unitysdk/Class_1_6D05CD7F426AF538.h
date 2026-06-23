@@ -7,10 +7,10 @@ namespace MoleMole { class MainCityPhotoPopContext; }
 namespace MoleMole { class UIMainCityPhotoPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6D05CD7F426AF538_METHOD_1_E28D63C2FADE6FCB_OFFSET UNITYSDK_OFFSET(0x13AD95E0)
-#define CLASS_1_6D05CD7F426AF538__CTOR_OFFSET UNITYSDK_OFFSET(0x13AD95D0)
+#define CLASS_1_6D05CD7F426AF538_METHOD_1_E28D63C2FADE6FCB_OFFSET UNITYSDK_OFFSET(0x130F2E30)
+#define CLASS_1_6D05CD7F426AF538__CTOR_OFFSET UNITYSDK_OFFSET(0x130F2E20)
 
-inline static constexpr unsigned int Class_1_6D05CD7F426AF538_TypeDefinitionIndex = 74495;
+inline static constexpr unsigned int Class_1_6D05CD7F426AF538_TypeDefinitionIndex = 72077;
 
 class Class_1_6D05CD7F426AF538 : public ::System::Object
 {

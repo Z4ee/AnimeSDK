@@ -5,15 +5,15 @@
 #include "unitysdk/Cysharp/Threading/Tasks/YieldAwaitable_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_3E2EF1FFB1C88E56_Class_1_61AE483B33052410_4;
+class Class_1_3E2EF1FFB1C88E56_Class_1_61AE483B33052410_41;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_3E2EF1FFB1C88E56_STRUCT_2_9D2EC0204F1FCEC5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6E3510)
-#define CLASS_1_3E2EF1FFB1C88E56_STRUCT_2_9D2EC0204F1FCEC5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
+#define CLASS_1_3E2EF1FFB1C88E56_STRUCT_2_9D2EC0204F1FCEC5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9700B0)
+#define CLASS_1_3E2EF1FFB1C88E56_STRUCT_2_9D2EC0204F1FCEC5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
 
-inline static constexpr unsigned int Class_1_3E2EF1FFB1C88E56_Struct_2_9D2EC0204F1FCEC5_TypeDefinitionIndex = 38539;
+inline static constexpr unsigned int Class_1_3E2EF1FFB1C88E56_Struct_2_9D2EC0204F1FCEC5_TypeDefinitionIndex = 69231;
 
 struct alignas(8) Class_1_3E2EF1FFB1C88E56_Struct_2_9D2EC0204F1FCEC5
 {
@@ -21,7 +21,7 @@ struct alignas(8) Class_1_3E2EF1FFB1C88E56_Struct_2_9D2EC0204F1FCEC5
 	::System::Action* Field_2_2; // 0x18
 	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x20
 	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x30
-	::Class_1_3E2EF1FFB1C88E56_Class_1_61AE483B33052410_4* Field_2_4; // 0x40
+	::Class_1_3E2EF1FFB1C88E56_Class_1_61AE483B33052410_41* Field_2_4; // 0x40
 	::System::Int32 Field_2_0; // 0x48
 	::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter Field_2_5; // 0x4C
 

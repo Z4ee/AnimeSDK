@@ -4,12 +4,12 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_Operation.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER_SUBMIT_OFFSET UNITYSDK_OFFSET(0xCD39BB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD39BA0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER_SUBMIT_OFFSET UNITYSDK_OFFSET(0xD41D360)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xD41D350)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_OperationBuffer_TypeDefinitionIndex = 70425;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_OperationBuffer_TypeDefinitionIndex = 57451;
 
 	class AnimationSubManager_AnimationScheduler_OperationBuffer : public ::System::Object
 	{

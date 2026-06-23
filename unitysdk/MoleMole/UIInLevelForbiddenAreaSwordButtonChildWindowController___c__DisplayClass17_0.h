@@ -4,18 +4,19 @@
 
 namespace MoleMole { class UIInLevelForbiddenAreaSwordButtonChildWindowController; }
 
-#define MOLEMOLE_UIINLEVELFORBIDDENAREASWORDBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x1481F430)
-#define MOLEMOLE_UIINLEVELFORBIDDENAREASWORDBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1481F420)
+#define MOLEMOLE_UIINLEVELFORBIDDENAREASWORDBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x1691D620)
+#define MOLEMOLE_UIINLEVELFORBIDDENAREASWORDBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1691D610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelForbiddenAreaSwordButtonChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 60544;
+	inline static constexpr unsigned int UIInLevelForbiddenAreaSwordButtonChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 63307;
 
 	class UIInLevelForbiddenAreaSwordButtonChildWindowController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIInLevelForbiddenAreaSwordButtonChildWindowController* __4__this; // 0x10
-		::System::Boolean checkCache; // 0x18
+		::System::Boolean ignoreAnim; // 0x18
+		::System::Boolean checkCache; // 0x19
 
 		::System::Void _ctor()
 		{

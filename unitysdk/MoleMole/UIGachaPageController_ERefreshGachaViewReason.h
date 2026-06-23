@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController_ERefreshGachaViewReason_TypeDefinitionIndex = 45796;
+	inline static constexpr unsigned int UIGachaPageController_ERefreshGachaViewReason_TypeDefinitionIndex = 64983;
 
 	enum class UIGachaPageController_ERefreshGachaViewReason : ::System::Int32
 	{
-		Default = 0,
 		Switch3In1InSameTab = 1,
+		Default = 0,
 	};
 }

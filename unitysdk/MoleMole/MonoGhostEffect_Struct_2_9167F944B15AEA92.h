@@ -9,7 +9,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGhostEffect_Struct_2_9167F944B15AEA92_TypeDefinitionIndex = 55935;
+	inline static constexpr unsigned int MonoGhostEffect_Struct_2_9167F944B15AEA92_TypeDefinitionIndex = 79989;
 
 	struct alignas(8) MonoGhostEffect_Struct_2_9167F944B15AEA92
 	{

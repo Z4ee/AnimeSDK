@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLOWCANVAS_NODES_WHILE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B326B00)
-#define FLOWCANVAS_NODES_WHILE___C__DISPLAYCLASS4_0__DOWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x1B326B10)
+#define FLOWCANVAS_NODES_WHILE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DF840)
+#define FLOWCANVAS_NODES_WHILE___C__DISPLAYCLASS4_0__DOWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x1D6DF850)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int While___c__DisplayClass4_0_TypeDefinitionIndex = 28151;
+	inline static constexpr unsigned int While___c__DisplayClass4_0_TypeDefinitionIndex = 29123;
 
 	class While___c__DisplayClass4_0 : public ::System::Object
 	{

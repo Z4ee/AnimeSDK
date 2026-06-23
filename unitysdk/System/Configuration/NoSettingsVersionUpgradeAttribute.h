@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CONFIGURATION_NOSETTINGSVERSIONUPGRADEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E29A30)
+#define SYSTEM_CONFIGURATION_NOSETTINGSVERSIONUPGRADEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C1A60)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int NoSettingsVersionUpgradeAttribute_TypeDefinitionIndex = 4218;
+	inline static constexpr unsigned int NoSettingsVersionUpgradeAttribute_TypeDefinitionIndex = 4217;
 
 	class NoSettingsVersionUpgradeAttribute : public ::System::Attribute
 	{

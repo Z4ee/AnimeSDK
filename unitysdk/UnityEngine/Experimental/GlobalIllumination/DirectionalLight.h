@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int DirectionalLight_TypeDefinitionIndex = 6286;
+	inline static constexpr unsigned int DirectionalLight_TypeDefinitionIndex = 6312;
 
 	struct alignas(4) DirectionalLight
 	{

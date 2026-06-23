@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_METHOD_1_EB476E77D9330246_OFFSET UNITYSDK_OFFSET(0x10E56490)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x10E563B0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_METHOD_1_EB476E77D9330246_OFFSET UNITYSDK_OFFSET(0x1917F2A0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1917F1C0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimeMaterialKeyFrames_TypeDefinitionIndex = 57970;
+	inline static constexpr unsigned int RuntimeMaterialKeyFrames_TypeDefinitionIndex = 48780;
 
 	class RuntimeMaterialKeyFrames : public ::System::Object
 	{

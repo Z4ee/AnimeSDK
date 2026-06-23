@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DATAERRORSCHANGEDEVENTARGS_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x19399590)
-#define SYSTEM_COMPONENTMODEL_DATAERRORSCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19399530)
+#define SYSTEM_COMPONENTMODEL_DATAERRORSCHANGEDEVENTARGS_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1B744CF0)
+#define SYSTEM_COMPONENTMODEL_DATAERRORSCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B744C90)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DataErrorsChangedEventArgs_TypeDefinitionIndex = 2850;
+	inline static constexpr unsigned int DataErrorsChangedEventArgs_TypeDefinitionIndex = 2849;
 
 	class DataErrorsChangedEventArgs : public ::System::EventArgs
 	{

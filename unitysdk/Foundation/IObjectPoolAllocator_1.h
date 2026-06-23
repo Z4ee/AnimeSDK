@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IObjectPoolAllocator_1_TypeDefinitionIndex = 7968;
+	inline static constexpr unsigned int IObjectPoolAllocator_1_TypeDefinitionIndex = 7990;
 
 	template <typename T>
 	class IObjectPoolAllocator_1

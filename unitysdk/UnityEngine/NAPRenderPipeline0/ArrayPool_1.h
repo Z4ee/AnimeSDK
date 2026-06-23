@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 5965;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 5975;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object

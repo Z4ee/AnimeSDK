@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_E85C6B6436A9E3DA;
+namespace System { class EventHandler; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_69_TypeDefinitionIndex = 26114;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_69_TypeDefinitionIndex = 28182;
 
-template <typename T>
+template <typename TTag>
 class Class_0_16E4307DCC419505_69
 {
 public:

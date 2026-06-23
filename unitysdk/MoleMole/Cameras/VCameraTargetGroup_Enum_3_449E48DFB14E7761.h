@@ -3,7 +3,7 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VCameraTargetGroup_Enum_3_449E48DFB14E7761_TypeDefinitionIndex = 38792;
+	inline static constexpr unsigned int VCameraTargetGroup_Enum_3_449E48DFB14E7761_TypeDefinitionIndex = 73246;
 
 	enum class VCameraTargetGroup_Enum_3_449E48DFB14E7761 : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int PKCS12_DeriveBytes_Purpose_TypeDefinitionIndex = 2292;
+	inline static constexpr unsigned int PKCS12_DeriveBytes_Purpose_TypeDefinitionIndex = 2291;
 
 	enum class PKCS12_DeriveBytes_Purpose : ::System::Int32
 	{

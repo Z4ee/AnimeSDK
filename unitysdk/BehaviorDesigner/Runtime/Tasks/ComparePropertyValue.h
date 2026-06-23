@@ -7,23 +7,23 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0CE9B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0CE460)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CEA00)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C0CEA90)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0CEB20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E1BB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E1660)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E1C00)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E1C90)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E1D20)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 31813;
+	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 33364;
 
 	class ComparePropertyValue : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x50
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x60
-		::BehaviorDesigner::Runtime::SharedVariable* compareValue; // 0x68
+		::BehaviorDesigner::Runtime::SharedVariable* compareValue; // 0x50
+		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x60
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
 
 		::System::Void _ctor()
 		{

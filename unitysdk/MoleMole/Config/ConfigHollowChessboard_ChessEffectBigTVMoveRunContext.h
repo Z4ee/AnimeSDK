@@ -6,11 +6,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CHESSEFFECTBIGTVMOVERUNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA9D70)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CHESSEFFECTBIGTVMOVERUNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1929CA00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_ChessEffectBigTVMoveRunContext_TypeDefinitionIndex = 43432;
+	inline static constexpr unsigned int ConfigHollowChessboard_ChessEffectBigTVMoveRunContext_TypeDefinitionIndex = 64429;
 
 	class ConfigHollowChessboard_ChessEffectBigTVMoveRunContext : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase
 	{

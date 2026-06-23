@@ -1,22 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
+#include "unitysdk/NPCCrowd/AI/EAIActionTagHandlerSource.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace Foundation::Unreal { class SerializableGameplayTagContainer; }
 
-#define NPCCROWD_AI_AIACTIONTAGHANDLERCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x72DA30)
-#define NPCCROWD_AI_AIACTIONTAGHANDLERCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x72DA80)
+#define NPCCROWD_AI_AIACTIONTAGHANDLERCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x67E2A0)
+#define NPCCROWD_AI_AIACTIONTAGHANDLERCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x67E2F0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionTagHandlerConfig_TypeDefinitionIndex = 54381;
+	inline static constexpr unsigned int AIActionTagHandlerConfig_TypeDefinitionIndex = 48292;
 
 	struct alignas(8) AIActionTagHandlerConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::Foundation::Unreal::SerializableGameplayTagContainer* tags; // 0x18
-		::System::Boolean add; // 0x20
+		::System::Boolean useRuntimeTagContainer; // 0x20
+		::Foundation::Unreal::FGameplayTagContainer runtimeTagContainer; // 0x28
+		::NPCCrowd::AI::EAIActionTagHandlerSource runtimeSource; // 0x98
+		::System::Boolean add; // 0x99
 
 		::NPCCrowd::AI::BaseActionConfig GetBaseActionConfig()
 		{

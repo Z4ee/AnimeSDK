@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IGamepadService_TypeDefinitionIndex = 18400;
+	inline static constexpr unsigned int IGamepadService_TypeDefinitionIndex = 19283;
 
 	class IGamepadService
 	{
